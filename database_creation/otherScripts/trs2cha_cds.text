@@ -1,0 +1,72 @@
+#Converting trs files to CHILDES-like format
+#Alex Cristia alecristia@gmail.com 2015-06-17
+
+#########VARIABLES
+#*****VARIABLES TO CHANGE*********#
+TRSFOLDER="/home/rolthiolliere/Documents/databases/LENA201507/TRS/" #must exist and contain trs files
+CHAFOLDER="/home/rolthiolliere/Documents/databases/LENA201507/CHAcds/" #will be created and output cha files will be stored there
+#*********************************#
+#NOTE: there are lots of annotation below, but there is only one bit you need to pay attention to, and it's marked with lots of exclamation marks
+
+#Step 1: generate a file that contains only sentences we want
+for j in $TRSFOLDER*.trs; do
+	k="${j%???}"txt
+	grep "|" "$j" | grep -v '^|' | grep -v '^VOC' | sed 's/|.C.*F.|/|/g' | sed 's/CRY//g' | sed 's/SIL//g' | sed 's/BBL//g' | sed 's/VOC//g' | sed 's/VFX//g'  | tr '.' '\n' | grep -v '^[0-9]' | grep -v ' |T|' | grep -v ' |C|' | grep -v ' |U|' | grep -v '|I[0-9]' | grep -v '|C[0-9]' | sed 's/&lt;//g' |  sed 's/&gt;//g' | sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g"  > ~/Desktop/temp.txt
+# 
+#This means: 
+#grep "|" $j | = focus on lines which contain | codes, because they may contain transcriptions
+#grep -v '^|' | = remove every line that haven't been transcribed, since they start with |
+#grep -v '^VOC' | = remove additional lines that haven't been transcribed, since they start with VOC
+#sed 's/|.C.*F.|/|/g' | = remove the LENA codes for interaction if any
+#sed 's/VOC//g' | sed 's/VFX//g' | = remove VOC and VFX LENA codes for child vocalization (speech-like VOC and fixed VFX)
+#tr '.' '\n' = break down sentences coded together in the same turn with a long intervening silence (.) into two separate lines
+#grep -v '^[0-9]' = remove sentences that start with numbers because those are overlaps
+#grep -v ' |T|' | = remove utterances by the target child
+#grep -v ' |C|' | = remove utterances by an uncertain child
+#grep -v ' |U|' | = remove utterances that are uncertain
+#grep -v '|I[0-9]' | = remove utterances that are initiated and cut by an overlap...
+#grep -v '|C[0-9]' = ... as well as their continuations
+#sed 's/&lt;//g' |  sed 's/&gt;//g'| sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g" = remove ugly characters
+
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!
+#! 	ATTENTION HUMAN !!! A CHOICE NEEDS TO BE MADE HERE!!	 !#!!!
+#!								 !#!!!
+#OPTION 1: Do you want to analyze only the adult-directed speech?!#!!!
+#Then uncomment the next line and comment out 			 !#!!!
+#(add "#" at the beginning of the line) the other options	 !#!!!
+#	grep -e ' |.|A' < ~/Desktop/temp.txt > "$k"			 
+#								 !#!!!
+#OPTION 2: Do you want to analyze only the child-directed speech?!#!!!
+#Then uncomment the next line and comment out the other options	 !#!!!
+	grep -e ' |.|O' -e ' |.|C' < ~/Desktop/temp.txt > "$k"			 
+#								 !#!!!
+#OPTION 3: Do you want to collapse across all of the addresses?	 !#!!!
+#Uncomment the next line and comment out the other options	 !#!!!
+#	mv ~/Desktop/temp.txt "$k"
+#Good choice!		 					 !#!!!
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!
+
+done
+
+
+#Step 2: Fake CHILDES format lines
+for j in $TRSFOLDER*.txt; do
+	k="${j%???}"cha
+	sed '/ |M/ s/[a-z]*/\*FAT: &/' "$j" | sed '/ |F/ s/[a-z]*/\*MOT: &/' | sed '/ |O/ s/[a-z]*/\*SIB: &/' | sed 's/|.*|//g' > "$k"
+done
+
+#This means:
+#sed '/ \|M/ s/[a-z]*/\*FAT: &/' $j | = use CHILDES code for father (FAT) for all Male adult LENA utterances
+#sed '/ \|F/ s/[a-z]*/\*MOT: &/' | = use CHILDES code for mother (MOT) for all Female adult LENA utterances
+#sed '/ \|O/ s/[a-z]*/\*SIB: &/' | =add SIBLING at the beginning (same for all "other child" utterances
+#sed 's/\|.*\|//g' =remove the old codes of who spoke to whom & how
+
+mkdir $CHAFOLDER
+mv $TRSFOLDER*cha $CHAFOLDER
+
+#Step 3: Add fake CHILDES header TODO!!!
+#for j in $CHAFOLDER*.cha
+#do
+#cat CHA/base.txt $j > CHA/$j
+#done
+

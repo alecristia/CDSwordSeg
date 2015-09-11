@@ -1,0 +1,23 @@
+# Script for analyzing many corpora with dibs only, and to output diphone matrices in the algoComp2015.1.0 project
+# Alex Cristia alecristia@gmail.com 2015-07-05
+# This analysis pipeline assumes -gold and -klatt files have been created - use at your discretion
+
+KEYNAME=$1
+RESFOLDER=$2
+
+cd /home/rolthiolliere/Documents/algoComp201507/algos/DiBS/
+
+# 2.2 DIBS requires a bit of corpus to calculate some statistics. We'll use 200 lines from the version with the word boundaries to this end (we remove syllable boundaries, which are not needed):
+
+head -200 $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;esyll//g' > clean_train.txt
+
+# 2.3 Remove word and syllable boundaries to create the test file that will be segmented:
+sed 's/;esyll//g' $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword//g' | sed 's/  / /g' > clean_test.txt
+
+cd /home/rolthiolliere/Documents/algoComp201507/algos/DiBS/
+# 2.4 Actual algo running
+python apply-dibs.py clean_train.txt clean_test.txt dirty_output.txt diphones.txt
+
+
+mv diphones.txt $RESFOLDER$KEYNAME-diphones.txt
+

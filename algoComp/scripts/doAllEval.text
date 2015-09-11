@@ -1,0 +1,22 @@
+#!/bin/sh
+
+RESFOLDER=$1
+KEYNAME=$2
+ALGO=$3
+
+####STEP 1: Evaluate against the gold
+
+sed 's/ //g'  $RESFOLDER$KEYNAME-${ALGO}-output.txt | sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
+
+python evalGold.py -g $RESFOLDER$KEYNAME-gold.txt < $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt > $RESFOLDER$KEYNAME-${ALGO}-cfgold-res.txt
+
+a="${ALGO} "`tail -n 1 $RESFOLDER$KEYNAME-${ALGO}-cfgold-res.txt`
+echo $a >> ${RESFOLDER}_$KEYNAME-cfgold.txt
+
+####STEP 2: Extract top 10k frequency items
+
+tr ' ' '\n' < $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt | sort | uniq -c | awk '{print $1" "$2}' | sort -n -r | head -n 10000 > $RESFOLDER$KEYNAME-${ALGO}-freq-top.txt
+
+
+####STEP 3: Compare with kid's performance
+#to do...

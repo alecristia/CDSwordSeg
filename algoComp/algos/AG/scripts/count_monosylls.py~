@@ -1,0 +1,21 @@
+import os
+import sys
+
+dict_syll = sys.argv[1]
+
+n_sylls = {}
+res = 0
+
+with open(dict_syll) as d:
+    for line in d:
+        aux = line.split()
+        n = aux[1].split('][')
+        n_sylls[aux[0]] = len(n)
+
+for line in sys.stdin:
+    words = line.split()
+    for word in words:
+        if n_syll[word] == 1:
+            res += 1
+
+sys.stdout.write('{}\n'.format(res))

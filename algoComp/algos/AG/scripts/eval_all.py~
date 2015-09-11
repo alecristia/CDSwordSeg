@@ -1,0 +1,72 @@
+import eval
+import sys
+import glob
+import os
+from cStringIO import StringIO
+import sys
+import re
+
+
+class Object(object):
+    pass
+
+
+class Capturing(list):
+    def __enter__(self):
+        self._stdout = sys.stdout
+        sys.stdout = self._stringio = StringIO()
+        return self
+    def __exit__(self, *args):
+        self.extend(self._stringio.getvalue().splitlines())
+        sys.stdout = self._stdout
+
+
+goldfolder = sys.argv[1]
+testfolder = sys.argv[2]
+outfile = sys.argv[3]
+
+
+res = [['x']]
+goldlist = glob.glob(os.path.join(goldfolder, '*.gold'))
+goldlist.sort()
+for j, goldf in enumerate(goldlist):
+    res[0].append(os.path.basename(goldf))
+for i, trainf in enumerate(glob.glob(os.path.join(testfolder, '*mbr*.seg'))):
+    res.append([os.path.basename(trainf)])
+    for j, goldf in enumerate(goldlist):
+        word_split_rex = re.compile(' ')
+        ignore_terminal_rex = re.compile(r"^[$]{3}$")
+        options = Object()
+        options.debug = 0
+        options.extra = False
+        options.levelname = False
+
+        with open(goldf) as g:
+            (goldwords,goldstringpos) = eval.read_data([line.strip() for line in g], False,
+                                                       word_split_rex=word_split_rex,
+                                                       ignore_terminal_rex=ignore_terminal_rex)
+
+        # print PrecRecHeader
+        # sys.stdout.write("token_f-score\ttoken_precision\ttoken_recall\tboundary_f-score\tboundary_precision\tboundary_recall\n");
+        # sys.stdout.flush()
+        
+        with open(trainf) as t:
+            trainlines = []
+            for trainline in t:
+                trainline = trainline.strip()
+                if trainline != "":
+                    trainlines.append(trainline)
+                    continue
+
+                (trainwords,trainstringpos) = eval.read_data(trainlines, False,
+                                                             word_split_rex=word_split_rex,
+                                                             ignore_terminal_rex=ignore_terminal_rex)
+                with Capturing() as output:
+                    eval.evaluate(options, trainwords, trainstringpos, goldwords, goldstringpos)
+                    trainlines = []
+                r = output[0].split('\t')[0]
+                res[i+1].append(r)
+
+with open(outfile, 'w+') as out:
+    for l in res:
+        out.write(', '.join(l) + '\n')

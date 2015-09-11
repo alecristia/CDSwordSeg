@@ -1,0 +1,25 @@
+
+
+#ADS differs from CDS [and the same across corpora] in the following parameters:
+#                                         CDS    ADS
+# utterance length              short    long --> find out # of words per line
+# word length                      short?  long? --> find out # of phones per word
+# burstiness                        high     low --> I don't think this is tapped by any of our algos, so leaving it out for now
+# special vocabulary            yes      no --> find out what proportion of words are common, unique to 1, unique to the other
+# frequency MF boost          yes     no --> plot zipf from gold
+# %hapaxes                         ??     ?? --> idem
+#%words in isolation --> we have it with the distribution of utterance length
+
+#Additionally, given that the token F-score from DiBS is very different across Bernstein-ADS and Winnipeg-ADS, I'll try to add a line so that the diphone probability tables are stored. (Python ain't my strongest suit...)
+
+for thisfile in res*/*-gold.txt; do
+	k="${thisfile%????}"-uttlength.txt
+	awk '{print NF}' $thisfile > $k
+
+	k="${thisfile%????}"-words.txt
+	tr ' ' '\n' < $thisfile | sort | uniq -c | awk '{print $2" "$1" "length($2)}' | sort > $k
+done
+
+mv res*/*uttlength.txt /home/rolthiolliere/Documents/algoComp201507/posthocComp/
+mv res*/*words.txt /home/rolthiolliere/Documents/algoComp201507/posthocComp/
+

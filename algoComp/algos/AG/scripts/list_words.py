@@ -1,0 +1,114 @@
+import argparse
+import sys
+import csv
+import collections
+import re
+from py_cfg_sim import info
+
+
+"""
+List the most frequent words of each syntaxic units described by the regex
+nonterm in the grammars.
+"""
+
+
+def incr(d, word, value=1):
+    if word in d:
+        d[word] += value
+    else:
+        d[word] = value
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("filenames", nargs='+',
+                        help="trace and rule prob files produced by py-cfg")
+    parser.add_argument("--nonterm-re", nargs='+', dest="nonterm_re",
+                        default=r'^Word',
+                        help="calculate probability of nonterminals " +
+                        "matching this regex")
+    parser.add_argument("--nterminals", dest="nterminals", default=0, type=int,
+                        help="include the most frequent nterminals from each" +
+                        " sample group")
+    parser.add_argument("--output,-o", dest="output",
+                        help="write output to this file")
+    parser.add_argument("--output-field-separator,-f",
+                        dest="output_field_separator",
+                        default=" ",
+                        help="separator between output fields")
+    parser.add_argument("--terminals-file", dest="terminals_re",
+                        default='(\S+)',
+                        help="regex identifying terminals to calculate " +
+                        "probability for")
+    parser.add_argument("--wlt-re", dest="wlt_re", default=r'(\d)+\.wlt$',
+                        help="regex matching py-cfg rule weight file name")
+    parser.add_argument("--trace-re", dest="trace_re",
+                        default=r'(\d)+\.trace$',
+                        help="regex matching py-cfg trace file name")
+    args = parser.parse_args()
+
+    for nonterm in args.nonterm_re:
+
+        nonterm_rex = re.compile(nonterm)
+        try:
+            with open(args.terminals_re) as f:
+                # with open('list_terms2') as f:
+                terminals = f.read().replace('\n', '')
+        except IOError:
+            terminals = args.terminals_re
+        terminals_rex = re.compile(terminals)
+        wlt_rex = re.compile(args.wlt_re)
+        trace_rex = re.compile(args.trace_re)
+
+        res = dict()
+
+        # info = info()
+        files = {}
+        files['wlt'] = {}
+        files['trc'] = {}
+
+        for filename in args.filenames:
+            mo = wlt_rex.search(filename)
+            if mo:
+                files['wlt'][mo.group(1)] = filename
+                # info.wltfilename = filename
+                # print mo.group(1)
+            mo = trace_rex.search(filename)
+            if mo:
+                files['trc'][mo.group(1)] = filename
+                # info.tracefilename = filename
+
+        assert(len(files['wlt']) == len(files['trc']))
+        n_files = len(files['wlt'])
+
+        for f in files['wlt']:
+            info1 = info()
+            info1.wltfilename = files['wlt'][f]
+            info1.tracefilename = files['trc'][f]
+            parents = set()
+            ylds = set()
+            assert(info1.wltfilename)
+            assert(info1.tracefilename)
+            info1.read_tracefile()
+            info1.read_wltfile(nonterm_rex)
+            info1.parse_trees(nonterm_rex, terminals_rex, parents, ylds)
+
+            parents = sorted(list(parents))
+            ylds = sorted(list(ylds))
+            assert len(parents) == 1
+            parent = parents[0]
+
+            for parent_yld, yinfo in info1.yield_info.iteritems():
+                incr(res, parent_yld[1], yinfo.n)
+
+        print parent
+        if args.nterminals > 0:
+            n = args.nterminals
+        else:
+            n = float('inf')
+        for word in sorted(res, key=res.get, reverse=True):
+            print word, res[word]
+            n -= 1
+            if n == 0:
+                break
+        print ''

@@ -1,0 +1,3 @@
+perl edit-dict-brent.pl
+perl adding-syllabification.pl
+perl create-unicode-dict.pl

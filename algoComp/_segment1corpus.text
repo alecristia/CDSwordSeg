@@ -1,0 +1,142 @@
+# Script for analyzing a single corpus in the algoComp2015.1.0 project
+# Alex Cristia alecristia@gmail.com 2015-08-25
+
+#########VARIABLES###########################
+#Variables that have been passed by the user
+KEYNAME=$1
+RESFOLDER=$2
+LANGUAGE=$3
+
+#Variables that will not be changed probably:
+ABSPATH=$(pwd)/
+#############################################
+#NOTE: there are lots of annotation below, but typically you will not need to read beyond this line
+
+
+#1. Prepare for the performances
+echo "algo token_f-score token_precision token_recall boundary_f-score boundary_precision boundary_recall" > ${RESFOLDER}_$KEYNAME-cfgold.txt
+
+
+# 2. Run DIBS
+ALGO="dibs"
+
+
+# 2.1 Navigate to the DIBS folder 
+cd ${ABSPATH}algos/DiBS
+
+# 2.2 DIBS requires a bit of corpus to calculate some statistics. We'll use 200 lines from the version with the word boundaries to this end (we remove syllable boundaries, which are not needed):
+
+head -200 $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;esyll//g' > clean_train.txt
+
+# 2.3 Remove word and syllable boundaries to create the test file that will be segmented:
+sed 's/;esyll//g' $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword//g' | sed 's/  / /g' > clean_test.txt
+
+# 2.4 Actual algo running
+python apply-dibs.py clean_train.txt clean_test.txt dirty_output.txt diphones_output.txt
+
+# 2.5 Clean up the output file & store it in your desired location (probably the same as the input
+sed "s/.*$(printf '\t')//" dirty_output.txt | sed 's/;eword/;aword/g' > $RESFOLDER$KEYNAME-dibs-output.txt
+
+rm *.txt
+
+# 2.6 Do the evaluation 
+cd ${ABSPATH}scripts
+./doAllEval.text $RESFOLDER $KEYNAME $ALGO
+
+echo "done with dibs"
+
+
+
+# 3. Run TPs 
+
+# 3.1 Navigate to the TP folder 
+cd ${ABSPATH}algos/TPs
+
+
+# Reformat the test file into two formats, one for training and another for segmentation:
+
+sed 's/;esyll/-/g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/ //g' | sed 's/;eword/ /g' | sed 's/ -/ /g' | sed 's/ $//g' | tr '\n' '?' | sed 's/?/ UB /g' > syllable+wordboundaries_marked.txt
+
+
+sed 's/ //g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;esyll/ /g' | sed 's/;eword/ /g' | sed 's/  / /g' | sed 's/ $//g' | tr '\n' '?' | sed 's/?/ UB /g'  > syllableboundaries_marked.txt
+
+
+# 3.2 Actual algo running 
+ python TPsegmentation.py syllable+wordboundaries_marked.txt syllableboundaries_marked.txt tempABS.txt tempREL.txt
+
+#for the time being, the output is messed up - this is a quick fix, but it would be better to modify the python code so that it's produced in the right format
+
+lf=$'\n'
+
+ALGO="tpABS"
+cut -c 3- tempABS.txt | sed s/\'\]\]$// |  tr "\]" "\n" | sed s/"\', \'"//g | tr -d "," | tr -d "[" | tr -d "\'" | tr "\n" ";" | sed 's/;/ ;aword /g' | sed -e "s/UB ;aword/\\$lf/g" > $RESFOLDER$KEYNAME-${ALGO}-output.txt
+
+ALGO="tpREL"
+cut -c 3- tempREL.txt | sed s/\'\]\]$// |  tr "\]" "\n" | sed s/"\', \'"//g | tr -d "," | tr -d "[" | tr -d "\'" | tr "\n" ";" | sed 's/;/ ;aword /g' | sed "s/UB ;aword/\\$lf/g" > $RESFOLDER$KEYNAME-${ALGO}-output.txt
+
+ rm syllable*	
+ rm temp*
+
+# 3.3 Do the evaluation
+cd ${ABSPATH}scripts	
+ALGO="tpABS"
+./doAllEval.text $RESFOLDER $KEYNAME $ALGO
+
+ALGO="tpREL"
+./doAllEval.text $RESFOLDER $KEYNAME $ALGO
+
+
+echo "done with tps"
+
+# 4. Run n-grams
+# NOTE!! this one doesn't yield a segmented corpus, but a list of ngrams
+
+# 4.1 Navigate to the ngrams folder
+cd ${ABSPATH}algos/ngrams
+
+# Remove word boundaries to create input:
+sed 's/;eword/;esyll/g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt  > input.txt
+
+# 4.2 actual algo running
+./mkngram.sh --syll input.txt > $RESFOLDER$KEYNAME-ngrams-freq-all.txt
+rm *tmp
+
+head -n 10000 $RESFOLDER$KEYNAME-ngrams-freq-all.txt > $RESFOLDER$KEYNAME-ngrams-freq-top.txt
+
+#Note: n-grams doesn't have a full eval, like the others, because it's not a SEGMENTATION algorithm
+
+echo "done with n-grams"
+
+
+# 5 Run AG
+ALGO="ag"
+# 5.1a Navigate to the AG folder 
+cd ${ABSPATH}algos/AG
+
+# Remove spaces within words and syllable boundaries, and replace word tags with spaces to create gold:
+sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | tr -d ' ' > input/input.gold
+
+# 5.1b Remove word and syllable tags to create input:
+sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | sed 's/  */ /g'  > input/input.ylt
+
+# 5.2 Open do_colloq0_klatt.sh and adapt to your purposes, meaning:
+# - check or change the names of folders, input, and output files -- check that the input files and the folders are there
+# - when doing so CHECK that the grammar you are using (a) represents your intention (is the tree right?) and (b) contains all the terminals you encounter (is the alphabet correct?) Right now, the grammar is colloq zero or unigram (sentences are groups of words or single words; groups of words are single words or groups of words; words are groups of phonemes); and the alphabet is the Klatt English unicode-friendly.
+
+# 5.3 actual algo running
+./do_colloq0_${LANGUAGE}.sh
+
+# 5.4 clean up & write with standard format
+sed 's/ /;/g' "output/_mbr-Colloc0.seg" | sed 's/./& /g' | sed 's/ ;/;aword/g' > $RESFOLDER$KEYNAME-${ALGO}-output.txt
+
+cd output
+rm *.seg
+rm *.wlt
+rm *.prs
+
+# 5.5 Do the evaluation
+cd ${ABSPATH}scripts
+./doAllEval.text $RESFOLDER $KEYNAME $ALGO
+
+
+echo "done with all"

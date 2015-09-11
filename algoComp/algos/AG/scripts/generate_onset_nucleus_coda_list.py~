@@ -1,0 +1,23 @@
+import os
+import sys
+
+consonnants = {'D', 'G', 'N', 'S', 'T', 'W', 'Z', 'b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', 'l'}
+vowels = {'#', '%', '&', '(', ')', '*', '3', '6', '7', '9', 'A', 'E', 'I', 'O', 'Q', 'R', 'U', 'a', 'e', 'i', 'o', 'u', '~', 'M', 'L'}
+
+assert 
+
+onsets = set()
+nuclei = set()
+codas = set()
+
+for line in sys.stdin:
+    # taking the syllables, splitting and removing the brackets
+    sylls = line.split()[1]
+    sylls = sylls.split('][')
+    sylls[0] = sylls[0][1:]
+    sylls[-1] = sylls[-1][:-1]
+
+    for syll in sylls:
+        phon = syll[0]
+        while phon in consonnants:
+            pass

@@ -1,0 +1,158 @@
+lena201507cds
+/home/rolthiolliere/Documents/databases/LENA201507/CHAcds/
+/home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/
+cleaning
+convert-to-unicode-9mos.pl
+convert-to-english-9mos.pl
+convert-to-english-9mos.pl
+removing blank lines
+creating all versions
+Done with cha conversion
+done with dibs
+done with tps
+done with n-grams
+processing output/ag-output0.prs
+processing output/ag-output1.prs
+processing output/ag-output2.prs
+processing output/ag-output3.prs
+processing output/ag-output4.prs
+processing output/ag-output5.prs
+processing output/ag-output6.prs
+processing output/ag-output7.prs
+done with all
+done analyzing lena201507cds using the input /home/rolthiolliere/Documents/databases/LENA201507/CHAcds/ and putting the output in /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/
+lena201507ads
+/home/rolthiolliere/Documents/databases/LENA201507/CHAads/
+/home/rolthiolliere/Documents/algoComp201507/res_lena201507ads/
+cleaning
+convert-to-unicode-9mos.pl
+convert-to-english-9mos.pl
+convert-to-english-9mos.pl
+removing blank lines
+creating all versions
+Done with cha conversion
+done with dibs
+done with tps
+done with n-grams
+processing output/ag-output0.prs
+processing output/ag-output1.prs
+processing output/ag-output2.prs
+processing output/ag-output3.prs
+processing output/ag-output4.prs
+processing output/ag-output5.prs
+processing output/ag-output6.prs
+processing output/ag-output7.prs
+done with all
+done analyzing lena201507ads using the input /home/rolthiolliere/Documents/databases/LENA201507/CHAads/ and putting the output in /home/rolthiolliere/Documents/algoComp201507/res_lena201507ads/
+lena201507cds_1849lines
+/home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_1849lines/
+cha conversion SKIPPED
+done with dibs
+done with tps
+done with n-grams
+processing output/ag-output0.prs
+processing output/ag-output1.prs
+processing output/ag-output2.prs
+processing output/ag-output3.prs
+processing output/ag-output4.prs
+processing output/ag-output5.prs
+processing output/ag-output6.prs
+processing output/ag-output7.prs
+done with all
+done analyzing lena201507cds_1849lines using the input and output in /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_1849lines/
+lena201507cds_7858words
+/home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_7858words/
+cha conversion SKIPPED
+done with dibs
+done with tps
+done with n-grams
+processing output/ag-output0.prs
+processing output/ag-output1.prs
+processing output/ag-output2.prs
+processing output/ag-output3.prs
+processing output/ag-output4.prs
+processing output/ag-output5.prs
+processing output/ag-output6.prs
+processing output/ag-output7.prs
+done with all
+done analyzing lena201507cds_7858words using the input and output in /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_7858words/
+Done with the multicorpus analysis
+bernsteincds
+/home/rolthiolliere/Documents/databases/Bernstein/Children/Alice/
+/home/rolthiolliere/Documents/databases/Bernstein/Children/Amelia/
+cleaning
+convert-to-unicode-9mos.pl
+convert-to-english-9mos.pl
+convert-to-english-9mos.pl
+removing blank lines
+creating all versions
+Done with cha conversion
+done with dibs
+done with tps
+done with n-grams
+processing output/ag-output0.prs
+processing output/ag-output1.prs
+processing output/ag-output2.prs
+processing output/ag-output3.prs
+processing output/ag-output4.prs
+processing output/ag-output5.prs
+processing output/ag-output6.prs
+processing output/ag-output7.prs
+done with all
+done analyzing bernsteincds using the input /home/rolthiolliere/Documents/databases/Bernstein/Children/*/ and putting the output in /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds/
+bernsteinads
+/home/rolthiolliere/Documents/databases/Bernstein/Interview/
+/home/rolthiolliere/Documents/algoComp201507/res_bernsteinads/
+cleaning
+convert-to-unicode-9mos.pl
+convert-to-english-9mos.pl
+convert-to-english-9mos.pl
+removing blank lines
+creating all versions
+Done with cha conversion
+done with dibs
+done with tps
+done with n-grams
+processing output/ag-output0.prs
+processing output/ag-output1.prs
+processing output/ag-output2.prs
+processing output/ag-output3.prs
+processing output/ag-output4.prs
+processing output/ag-output5.prs
+processing output/ag-output6.prs
+processing output/ag-output7.prs
+done with all
+done analyzing bernsteinads using the input /home/rolthiolliere/Documents/databases/Bernstein/Interview/ and putting the output in /home/rolthiolliere/Documents/algoComp201507/res_bernsteinads/
+bernsteincds_1937lines
+/home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_1937lines/
+cha conversion SKIPPED
+done with dibs
+done with tps
+done with n-grams
+processing output/ag-output0.prs
+processing output/ag-output1.prs
+processing output/ag-output2.prs
+processing output/ag-output3.prs
+processing output/ag-output4.prs
+processing output/ag-output5.prs
+processing output/ag-output6.prs
+processing output/ag-output7.prs
+done with all
+done analyzing bernsteincds_1937lines using the input and output in /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_1937lines/
+bernsteincds_13827words
+/home/rolthiolliere/Documents/databases/LENA201507/CHAcds_13827words/
+cha conversion SKIPPED
+done with dibs
+done with tps
+done with n-grams
+processing output/ag-output0.prs
+processing output/ag-output1.prs
+processing output/ag-output2.prs
+processing output/ag-output3.prs
+processing output/ag-output4.prs
+processing output/ag-output5.prs
+processing output/ag-output6.prs
+processing output/ag-output7.prs
+done with all
+done analyzing bernsteincds_13827words using the input /home/rolthiolliere/Documents/databases/LENA201507/CHAcds_13827words/ and putting the output in /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_13827words/
+Done with the multicorpus analysis

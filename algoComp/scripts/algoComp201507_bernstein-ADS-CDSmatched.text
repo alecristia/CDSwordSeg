@@ -1,0 +1,53 @@
+#Next we match CDS and ADS in number of lines
+
+#[rolthiolliere@localhost scripts]$ wc -l /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds/bernsteincds-gold.txt
+#9603 /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds/bernsteincds-gold.txt
+#[rolthiolliere@localhost scripts]$ wc -l /home/rolthiolliere/Documents/algoComp201507/res_bernsteinads/bernsteinads-gold.txt
+#1937 /home/rolthiolliere/Documents/algoComp201507/res_bernsteinads/bernsteinads-gold.txt
+
+#mkdir /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_1937lines/
+
+#copy over the phonological versions, appropriately cut
+#head -1937 /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds/bernsteincds-gold.txt > /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_1937lines/bernsteincds_1937lines-gold.txt
+
+#head -1937 /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds/bernsteincds-text-klatt-syls-tags.txt > /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_1937lines/bernsteincds_1937lines-text-klatt-syls-tags.txt
+
+	
+
+#Next we do the CDS_1937lines analyses
+KEYNAME="bernsteincds_1937lines"
+RESFOLDER="/home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_1937lines/"
+
+./multiseg_skipStep1.text $KEYNAME $RESFOLDER
+
+echo "done analyzing $KEYNAME using the input and output in $RESFOLDER"
+
+
+
+#''''''''''''''''''''''''''''''''''''''''''''''''
+#Next we match CDS and ADS in number of words
+#[rolthiolliere@localhost scripts]$ wc -w /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds/bernsteincds-gold.txt
+#35440 /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds/bernsteincds-gold.txt
+#[rolthiolliere@localhost scripts]$ wc -w /home/rolthiolliere/Documents/algoComp201507/res_bernsteinads/bernsteinads-gold.txt
+#13827 /home/rolthiolliere/Documents/algoComp201507/res_bernsteinads/bernsteinads-gold.txt
+
+#mkdir /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_13827words/
+
+#copy over the phonological versions, appropriately cut
+#awk -v n=13827 'n==c{exit}n-c>=NF{print;c+=NF;next}{for(i=1;i<=n-c;i++)printf "%s ",$i;print x;exit}' /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds/bernsteincds-gold.txt > /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_13827words/bernsteincds_13827words-gold.txt
+
+# sed 's/ //g' < /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds/bernsteincds-text-klatt-syls-tags.txt | sed 's/;eword/ /g' | sed 's/;esyll/-/g' | awk -v n=13827 'n==c{exit}n-c>=NF{print;c+=NF;next}{for(i=1;i<=n-c;i++)printf "%s ",$i;print x;exit}' | sed 's/ /:/g' | sed 's/./& /g' | sed 's/-/;esyll/g' | sed 's/:/ ;eword /g' > /home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_13827words/bernsteincds_13827words-text-klatt-syls-tags.txt
+
+#NOTE!!!! in fact this doesn't cut at the same point, so I had to go in and cut at the right point myself
+
+#Next we do the CDS_13827words analyses
+KEYNAME="bernsteincds_13827words"
+RESFOLDER="/home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_13827words/"
+
+./multiseg_skipStep1.text $KEYNAME $RESFOLDER
+
+echo "done analyzing $KEYNAME using the input and output in $RESFOLDER"
+
+
+
+

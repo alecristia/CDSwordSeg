@@ -1,0 +1,75 @@
+celex	BR	frequency
+t	t	8135
+I	I/i/6	5258
+n/N	n/N	4964
+s/S	s/S/st	4494
+D	D/D6	4124
+k	k	3943
+&	&	3850
+d	d	3762
+@/E	6/o	3726
+i:/I	i/hi/hI	3547
+u:	u	3463
+l	l	3301
+z	z	3142
+V/O	A	3134
+j	y	2593
+h	h	2403
+m	m	2156
+aI	9/I	2018
+@U	o	2009
+b	b	1911
+hw	W	1651
+g	g	1650
+eI	e	1614
+p	p	1608
+w	w	1508
+O	a	1481
+E/e	E/e	1459
+U	U/u	1323
+r	r/R	1272
+f	f/6v	1010
+N	N	986
+E@/E@r*/r/@r*/@	*	928
+aU	Q	878
+O:/O	O/a	861
+@r*/@	R/yR	740
+v	v	601
+T	T	541
+O:r*/O:/r*/Or	%	506
+A:r*/A:	#	470
+n,/@n/In	~/~t/n/In	417
+S	S	398
+I@r*/I@/3:r*/3:	(	391
+O:r/O:r*/@r*/O:	)	379
+tS	c	277
+dZ/Z	G	273
+3:/3:r*/@r*	3/R/h3	259
+l,/l	L	231
+OI	7	154
+@m/@/Im	M/m	8
+Z	Z	2
+z s
+z@ z
+n nt/m
+E/@ I
+@ a/hR
+A: a/&
+m, 6m/~
+e E
+N, &nd
+@ &/u/i
+V 6
+S c/SL/SU
+I 9
+@r* %
+t d
+hw W
+E@ &
+& e
+U o6/6
+O a
+D T
+ju: u
+tT T
+n k

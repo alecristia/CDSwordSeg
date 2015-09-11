@@ -1,0 +1,6 @@
+cd /home/rolthiolliere/Documents/algoComp201507/scripts/
+# ./algoComp201507_lena.text
+./algoComp201507_lena-ADS-CDSmatched.text
+./algoComp201507_bernstein.text
+./algoComp201507_bernstein-ADS-CDSmatched.text
+

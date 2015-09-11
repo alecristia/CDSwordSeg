@@ -1,0 +1,47 @@
+#Next we match CDS and ADS in number of lines
+
+#[rolthiolliere@localhost scripts]$ wc -l /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/lena201507cds-gold.txt
+#5593 /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/lena201507cds-gold.txt
+#[rolthiolliere@localhost scripts]$ wc -l /home/rolthiolliere/Documents/algoComp201507/res_lena201507ads/lena201507ads-gold.txt
+#1849 /home/rolthiolliere/Documents/algoComp201507/res_lena201507ads/lena201507ads-gold.txt
+
+mkdir /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_1849lines/
+
+#copy over the phonological versions, appropriately cut
+head -1849 /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/lena201507cds-gold.txt > /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_1849lines/lena201507cds_1849lines-gold.txt
+
+head -1849 /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/lena201507cds-text-klatt-syls-tags.txt > /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_1849lines/lena201507cds_1849lines-text-klatt-syls-tags.txt
+
+
+#Next we do the CDS_1849lines analyses
+KEYNAME="lena201507cds_1849lines"
+RESFOLDER="/home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_1849lines/"
+
+./multiseg_skipStep1.text $KEYNAME $RESFOLDER
+
+echo "done analyzing $KEYNAME using the input and output in $RESFOLDER"
+
+#''''''''''''''''''''''''''''''''''''''''''''''''
+#Next we match CDS and ADS in number of words
+#[rolthiolliere@localhost scripts]$ wc -w /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/lena201507cds-gold.txt
+#21497 /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/lena201507cds-gold.txt
+#[rolthiolliere@localhost scripts]$ wc -w /home/rolthiolliere/Documents/algoComp201507/res_lena201507ads/lena201507ads-gold.txt
+#7858 /home/rolthiolliere/Documents/algoComp201507/res_lena201507ads/lena201507ads-gold.txt
+
+mkdir /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_7858words/
+
+#copy over the phonological versions, appropriately cut
+awk -v n=7858 'n==c{exit}n-c>=NF{print;c+=NF;next}{for(i=1;i<=n-c;i++)printf "%s ",$i;print x;exit}' /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/lena201507cds-gold.txt > /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_7858words/lena201507cds_7858words-gold.txt
+
+ sed 's/ //g' < /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/lena201507cds-text-klatt-syls-tags.txt | sed 's/;eword/ /g' | sed 's/;esyll/-/g' | awk -v n=7858 'n==c{exit}n-c>=NF{print;c+=NF;next}{for(i=1;i<=n-c;i++)printf "%s ",$i;print x;exit}' | sed 's/ /:/g' | sed 's/./& /g' | sed 's/-/;esyll/g' | sed 's/:/ ;eword /g' > /home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_7858words/lena201507cds_7858words-text-klatt-syls-tags.txt
+
+#Next we do the CDS_7858words analyses
+KEYNAME="lena201507cds_7858words"
+RESFOLDER="/home/rolthiolliere/Documents/algoComp201507/res_lena201507cds_7858words/"
+
+./multiseg_skipStep1.text $KEYNAME $RESFOLDER
+
+echo "done analyzing $KEYNAME using the input and output in $RESFOLDER"
+
+
+

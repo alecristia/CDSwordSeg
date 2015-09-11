@@ -1,0 +1,59 @@
+
+THE SHORT STORY
+awk '{gsub(";orth=.*",""); $1="";$2="";$3="";$4="";print}' lyon0_devset.txt | sed 's/^[ \t]*//' | sed 's/;esyll//g' | sed 's/;eword$//' | sed 's/  */ /g' > clean_train.txt
+
+awk '{gsub(";orth=.*",""); $1="";$2="";$3="";$4="";print}' lyon0_test.txt | sed 's/^[ \t]*//' | sed 's/;esyll//g' | sed 's/  */ /g' > clean_test.txt
+
+python apply-dibs.py clean_train.txt clean_test.txt dirty_output.txt
+
+sed "s/.*$(printf '\t')//" dirty_output.txt | sed 's/;eword/;aword/g' > lyon0_test_dibs.txt
+
+
+
+
+
+
+*****
+
+sed 's/;aword/cleanoutput.txt 
+
+|awk -F '[ \t]*;esyll[ \t]*' '{for(i=1;i<=NF;i++){gsub(" ","_",$i);gsub("^_+","",$i);if($i)printf("%s ",$i)}}'| awk '{for(n=1;n<=4;n++)for(i=1;i<=NF-n+1;i++){s="";for(k=0;k<n;k++)s=s" "$(i+k);S[n" "s]++}}END{for(w in S)print S[w],w}'|sort -n -r > 1of2lyon0_test_1-4ngrams.txt
+
+
+I have set up the custom script "apply-dibs.py" for this project. You can inspect the code and see that it is basically a wrapper to the main DiBS module which is specialized for the present purpose. Ultimately, the way you will apply DiBS is like the following:
+
+$ python apply-dibs.py TRAINFILENAME TESTFILENAME OUTPUTFILENAME
+
+Unfortunately, the DiBS module I wrote for my dissertation has formatting requirements that are modestly different from what the lyon0 corpus actually exhibits. Using the lyon0 files that Alex provided, as well as the helpful awk commands she provided, I got the following pipeline to make a clean output file with DiBS-provided segmentations:
+
+$ awk '{gsub(";orth=.*",""); $1="";$2="";$3="";$4="";print}' lyon0_devset.txt | sed 's/^[ \t]*//' | sed 's/;esyll//g' | sed 's/;eword$//' | sed 's/  */ /g' > clean_train.txt
+
+$ awk '{gsub(";orth=.*",""); $1="";$2="";$3="";$4="";print}' lyon0_test.txt | sed 's/^[ \t]*//' | sed 's/;esyll//g' | sed 's/  */ /g' > clean_test.txt
+
+$ python apply-dibs.py clean_train.txt clean_test.txt dirty_output.txt
+
+$ sed 's/[^\t]*\t//' <dirty_output.txt | sed 's/$/ ;aword/' | sed 's/;eword/;aword/g' > clean_output.txt
+
+
+The first command removes the final ";ortho=..." tag and the header info (but I assume it will not remove other tags.. so if later files include them it must be updated). It also strips leading spaces/tabs and the final word boundary symbol (which my code assumes is inherently present at the end of a line).
+
+The second command does basically the same thing, but removes the syllable boundary tags from the test set.
+
+The third command is the one which runs the DiBS algorithm (phrasal), training on the development set and testing (with no further learning) on the test set.
+
+The final command post-processes the output file as needed. In particular, it replaces the training word boundary symbol (";eword") with the desired output word boundary symbol (";aword"), and puts a copy of the word boundary symbol at the end of the line (since I assume your evaluation metrics need it there).
+
+Most of the stuff should be really transparent, except for the heart of the DiBS code, which I can document if necessary.
+
+
+*****
+A DiBS model is any model which assigns, for each phrase-medial diphone, a value between 0 and 1 inclusive (reepresenting the probability the model aassigns that there is a word-boundary there). In practice, these probabilities are mapped to hard decisions, with the optimal threshold being 0.5.
+
+Without any training at all, a phrasal-DiBS model can assign sensible defaults (namely, 0, or the context-independent probability of a medial word boundary, which will always be less than 0.5, and so effectively equivalent to 0 in a hard-decisions context). The outcome in this case would be total undersegmentation (for default 0; total oversegmentation for default 1).
+
+It takes relatively little training to get a DiBS model up to near-ceiling (here I mean the model's intrinsic ceiling: "as good as that model will get even if you train it forever", rather than "perfect for that dataset"). Moreover, in principle you can have the model do its segmentation for the nth sentence based on the stats it has accumulated for every preceding sentence (and with a little effort, even on the nth sentence as well). In practice, since I was never testing on the training set for publication work, but I was testing on *huge* test sets, I optimized the code for mixed iterative/batch training, meaning it could read in a training set, update parameteres, test, and then repeat ad infinitum.
+
+It would certainly be easiest to train a phrasal-DiBS model on your development set, and then test it on your test set (no additional learning -- unsupervised/batch mode). But it can be made to work in unsupervised incremental model from the test set alone. Until I hear back from you I'll assume the former -- but do let me know and I'll set it up as you like.
+
+
+

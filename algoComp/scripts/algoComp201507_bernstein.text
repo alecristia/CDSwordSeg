@@ -1,0 +1,28 @@
+# Script for analyzing many corpora in the algoComp2015.1.0 project
+# Alex Cristia alecristia@gmail.com 2015-07-02
+
+
+cd /home/rolthiolliere/Documents/algoComp201507/scripts/
+
+#Next we do the CDS analyses
+KEYNAME="bernsteincds"
+CHAFOLDER="/home/rolthiolliere/Documents/databases/Bernstein/Children/*/"
+RESFOLDER="/home/rolthiolliere/Documents/algoComp201507/res_bernsteincds/"
+
+./multiseg.text $KEYNAME $CHAFOLDER $RESFOLDER
+
+echo "done analyzing $KEYNAME using the input $CHAFOLDER and putting the output in $RESFOLDER"
+
+#Next we do the ADS analyses
+KEYNAME="bernsteinads"
+CHAFOLDER="/home/rolthiolliere/Documents/databases/Bernstein/Interview/"
+RESFOLDER="/home/rolthiolliere/Documents/algoComp201507/res_bernsteinads/"
+
+./multiseg.text $KEYNAME $CHAFOLDER $RESFOLDER
+
+echo "done analyzing $KEYNAME using the input $CHAFOLDER and putting the output in $RESFOLDER"
+
+
+
+
+

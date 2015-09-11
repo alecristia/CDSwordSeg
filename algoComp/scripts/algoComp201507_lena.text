@@ -1,0 +1,29 @@
+# Script for analyzing many corpora in the algoComp2015.1.0 project
+# Alex Cristia alecristia@gmail.com 2015-07-02
+
+#First, we create 2 cha folders, depending on the addressee
+#/home/rolthiolliere/Documents/database_creation/otherScripts/trs2cha_ads.text
+#/home/rolthiolliere/Documents/database_creation/otherScripts/trs2cha_cds.text
+
+
+cd /home/rolthiolliere/Documents/algoComp201507/scripts/
+
+#Next we do the CDS analyses
+KEYNAME="lena201507cds"
+CHAFOLDER="/home/rolthiolliere/Documents/databases/LENA201507/CHAcds/"
+RESFOLDER="/home/rolthiolliere/Documents/algoComp201507/res_lena201507cds/"
+
+./multiseg.text $KEYNAME $CHAFOLDER $RESFOLDER
+
+echo "done analyzing $KEYNAME using the input $CHAFOLDER and putting the output in $RESFOLDER"
+
+#Next we do the ADS analyses
+KEYNAME="lena201507ads"
+CHAFOLDER="/home/rolthiolliere/Documents/databases/LENA201507/CHAads/"
+RESFOLDER="/home/rolthiolliere/Documents/algoComp201507/res_lena201507ads/"
+
+./multiseg.text $KEYNAME $CHAFOLDER $RESFOLDER
+
+echo "done analyzing $KEYNAME using the input $CHAFOLDER and putting the output in $RESFOLDER"
+
+

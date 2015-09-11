@@ -1,0 +1,12 @@
+cd /home/rolthiolliere/Documents/algoComp201507/scripts/
+
+
+
+KEYNAME="bernsteincds_13827words"
+RESFOLDER="/home/rolthiolliere/Documents/algoComp201507/res_bernsteincds_13827words/"
+
+./multiseg_skipStep1.text $KEYNAME $RESFOLDER
+
+echo "done analyzing $KEYNAME using the input and output in $RESFOLDER"
+
+

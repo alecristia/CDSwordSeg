@@ -1,0 +1,19 @@
+#!/bin/sh
+# Wrapper for script for analyzing many corpora with dibs only, and to output diphone matrices in the algoComp2015.1.0 project
+# Alex Cristia alecristia@gmail.com 2015-07-05
+# This analysis pipeline assumes -gold and -klatt files have been created - use at your discretion
+
+
+
+cd /home/rolthiolliere/Documents/algoComp201507/
+for RESFOLDER in res*; do
+	KEYNAME="${RESFOLDER:4}"
+	RESFOLDER=/home/rolthiolliere/Documents/algoComp201507/"${RESFOLDER}"/
+	echo $RESFOLDER
+	echo $KEYNAME
+	cd /home/rolthiolliere/Documents/algoComp201507/scripts/
+	./runDIBSfordiphones.text $KEYNAME $RESFOLDER
+done
+
+cd /home/rolthiolliere/Documents/algoComp201507/
+mv res*/*-diphones.txt posthocComp/

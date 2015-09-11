@@ -1,0 +1,118 @@
+USAGE="Rscript eval_compareCDI.R AGE OUTFILE FILE1 FILE2 \n\#
+   Compares level of acquisition in the CDI#
+   Words and Gestures (from WordBank)#
+   at Age AGE (number 8-16) for multiple algos#
+   and stores it in OUTFILE.#
+   The format of the file1-n should be:#
+   frequency word1#
+   frequency word2#
+   ...#
+  "#
+abort<-function(...){#
+  cat(...,"\n")#
+  quit('no')#
+}#
+#
+age=16#
+outfile="compareCDI.txt"#
+file1="res-dibs/lyon0_test_count.txt"#
+file1="res-ngram/lyon0_test_1-4ngrams.txt"#
+if (!interactive()){#
+  args <- commandArgs(TRUE)#
+  if(length(args)!=4)abort("Usage",USAGE)#
+  age <- args[1]#
+  outfile <- args[2]#
+  file1 <- args[3]#
+  file2 <- args[4]#
+   }#
+#
+abspath="/Users/caofrance/Documents/algoComp_201506/"#
+#
+aoa=read.table(paste(abspath,"databases/wordbankWGcomp.txt",sep=""),header=T)
+summary(aoa)
+names(aoa)
+xage
+xage=16
+t(aoa[aoa$age== xage,5:dim(aoa)[2]])->selaoa
+selaoa
+tabel(aoa$age)
+table(aoa$age)
+xave
+xage
+aoa$age== xage
+USAGE="Rscript eval_compareCDI.R AGE OUTFILE FILE1 FILE2 \n\#
+   Compares level of acquisition in the CDI#
+   Words and Gestures (from WordBank)#
+   at Age AGE (number 8-18) for multiple algos#
+   and stores it in OUTFILE.#
+   The format of the file1-n should be:#
+   frequency word1#
+   frequency word2#
+   ...#
+  "#
+abort<-function(...){#
+  cat(...,"\n")#
+  quit('no')#
+}#
+#
+xage=18#
+outfile="compareCDI.txt"#
+file1="res-dibs/lyon0_test_count.txt"#
+file1="res-ngram/lyon0_test_1-4ngrams.txt"#
+if (!interactive()){#
+  args <- commandArgs(TRUE)#
+  if(length(args)!=4)abort("Usage",USAGE)#
+  xage <- args[1]#
+  outfile <- args[2]#
+  file1 <- args[3]#
+  file2 <- args[4]#
+   }#
+#
+abspath="/Users/caofrance/Documents/algoComp_201506/"#
+#
+cdi=read.table(paste(abspath,"databases/wordbankWGcomp.txt",sep=""),header=T)#
+#
+t(cdi[cdi$age== xage,5:dim(cd)[2]])->selcdi#
+#
+colnames(selcdi)<-paste("propComp",xage,"mo",sep="")#
+#
+freq1=read.table(file1)#
+freq2=read.table(file2)#
+#
+colnames(freq1)=colnames(freq2)=c("freq","type")
+file1="Lyon_algoComp/res-dibs/lyon0_test_count.txt"#
+file1="Lyon_algoComp/res-ngram/lyon0_test_1-4ngrams.txt"
+freq1=read.table(paste(abspath,file1,sep=""))
+t(cdi[cdi$age== xage,5:dim(cdi)[2]])->selcdi
+selcdi
+colnames(selcdi)<-paste("propComp",xage,"mo",sep="")
+freq1=read.table(paste(abspath,file1,sep=""))
+freq1
+paste(abspath,file1,sep="")
+sort(rownames(selcdi))
+grep("chicken","chicken.1")
+cdi=read.table("Eng_wbWGcompKlatt.txt",header=T)
+cdi=read.table("Eng_wbWGcompKlatt.txt",header=T, check.names=TRUE)
+cdi=read.table("wordbankWGcomp1.txt",header=T, row.names=TRUE)
+cdi
+?read.table
+cdi=read.table("wordbankWGcomp1.txt",header=T, row.names)
+cdi=read.table("wordbankWGcomp1.txt",header=T)
+cdi
+cdi["age",]
+colnames(cdi)<-cdi["age",]
+cdi
+colnames(cdi)<-as.character(cdi["age",])
+names(cdi)
+cdi["age",]
+cdi["age",1]
+cdi["age"]
+cdi["age",]
+cdi$age
+colnames(cdi)<-8:18
+names(cdi)
+scan("Eng_wbWGcomp_phonocols.txt")
+cdi$pronunciation<-scan("Eng_wbWGcomp_phonocols.txt",what="char")
+scan("Eng_wbWGcomp_phonocols.txt",what="char")
+cdi["pron",]<-scan("Eng_wbWGcomp_phonocols.txt",what="char")
+warnings()

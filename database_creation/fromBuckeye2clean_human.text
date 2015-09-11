@@ -1,0 +1,95 @@
+#!/bin/sh
+# Cleaning up BUCKEYE files in prep to generating a phono format
+# IMPORTANT!! Includes data selection
+# Alex Cristia alecristia@gmail.com 2015-08-25
+
+#########VARIABLES
+#Variables that have been passed by the user
+KEYNAME=$1
+RAWFOLDER=$2
+RESFOLDER=$3
+LANGUAGE=$4
+
+#Variables that will probably not change
+SCRIPTS="fromCHAtoSND/scripts/"
+#########
+
+
+
+inclines="$RESFOLDER${KEYNAME}-includedlines.txt"
+ortho="$RESFOLDER${KEYNAME}-ortholines.txt"
+
+rm -r $RESFOLDER
+mkdir $RESFOLDER
+
+echo "cleaning"
+
+#echo "now working on $RAWFOLDER"
+#chomp txt files to leave only text
+	
+lf=$'\n'
+
+for j in ${RAWFOLDER}*.txt
+   do
+	#echo "$j"
+
+
+	iconv -f ISO-8859-1 "$j" |
+	sed "s/{._TRANS}//g" |  #remove tags for beginning and end of transcriptions
+	sed "s/<EXCLUDE-[^>]*>//g" |  #remove exclude tags
+	sed "s/<CUTOFF-[^>]*>//g" |  #remove cutoff tags
+	sed "s/<ERROR-[^>]*>//g" |  #remove error tags
+	sed "s/<HES-[^>]*>//g" |  #remove hesitation tags
+	sed "s/<EXT-[^>]*>//g" |  #remove ext tag - I don't know what it is but doesn't look like a break
+#********** A T T E N T I O N ***************#
+#Modify this section to decide how to break up utterances
+
+#	sed  "s/<SIL>/\\$lf/g" | #uncomment this line to break at silences
+	sed  "s/<[^>]*>/\\$lf/g" | #uncomment out this line to break at every <> 
+#*******************************************#
+
+	sed "s/<[^>]*>//g" |  #remove remaining tags
+
+	sed  "s/^ *//" | #remove initial spaces
+	sed  "s/^ *$//" | #remove lines that are nothing but spaces
+	tr -s '\n' | #reduce multiple newlines to one
+	iconv -t ISO-8859-1 >> "$inclines"
+
+
+done
+
+iconv -f ISO-8859-1 "$inclines" |
+ sed  "s/yknow/you know/g" | 
+ sed  "s/hum-um/uhhum/g" | 
+ sed  "s/uh-hum/uhhum/g" | 
+ sed  "s/um-hum/uhhum/g" | 
+ sed  "s/mm-hmm/mmhmm/g" | 
+ sed  "s/uh-huh/uhhuh/g" | 
+ sed  "s/uh-uh/uhuh/g" | 
+ sed  "s/_2//g" | 
+ sed  "s/could've/could have/g" | 
+ sed  "s/useta/used to/g" | 
+ sed  "s/sorta /sort of /g" | 
+ sed  "s/coulda /could have /g" | 
+ sed  "s/ em / m /g" | 
+ sed  "s/'em/them/g" | 
+ sed  "s/x-files/x files/g" | 
+ sed  "s/netstock/net stock/g" | 
+ sed  "s/committment/commitment/g" | 
+ sed  "s/sheepherder/sheep herder/g" | 
+ sed  "s/out-r-inn/out r inn/g" | 
+ sed  "s/bloodpressure/blood pressure/g" | 
+ sed  "s/austro-hungarian/austro hungarian/g" | 
+ sed  "s/anorism/aneurism/g" | 
+ sed  "s/um-huh/uhhum/g" | 
+ sed  "s/um-hmm/uhhum/g" | 
+ sed  "s/'ll/ will/g" | 
+ sed  "s/cahs/c a h s/g" | 
+ sed  "s/c.a.h.s./c a h s /g" | 
+iconv -t ISO-8859-1 > "$ortho"
+  
+
+
+
+
+echo "Done with cleaning"
