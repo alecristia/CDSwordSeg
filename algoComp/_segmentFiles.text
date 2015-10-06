@@ -3,7 +3,7 @@
 
 #########VARIABLES###########################
 #Variables that have been passed by the user
-RESFOLDER="/Users/caofrance/Documents/tests/res_multicor/"
+RESFOLDER="/Users/acristia/Documents/tests/res_multicor/"
 LANGUAGE="english"
 
 #Variables that will not be changed probably:

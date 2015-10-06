@@ -44,7 +44,7 @@ ifeq ($(NDEBUG),-DNDEBUG)
   # production
   #
   # CC = $(CXX)
-  CFLAGS = -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)
+  CFLAGS = -MMD -O3 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)
   LDFLAGS = -Wall -O6 $(GCCLDFLAGS)
   EXEC = time
 else
