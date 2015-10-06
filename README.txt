@@ -34,6 +34,16 @@ The most interesting to you probably are:
 -includedlines: orthographic representation of all the lines in the same order that they appear in the original cha file and in all the others; good to use if trying to match them up again
 -ADD-sorted: this contains the list of words that were not found in the dictionary and therefore could not be converted into phonological form. It is easy to add new words to the dictionary and it might be a good idea, particularly if you are missing words that are very frequent. See below for the instructions.
 
+**************	ALTERNATIVE: MULTICORPORA COMPARISON	***************
+GOAL: Preprocess cha files -- this we did for a project comparing across registers
+Right now, it takes only one folder for CDS, that of Providence, and with one level of embedding; and 2 for ADS, one with one level of embedding, and the other not. 
+
+
+A LOT OF WORK NEEDS TO BE DONE
+But to add a lot of CDS corpora, we should perhaps think of adding another level of embedding and make it more flexible in terms of where *.cha are to be found. Additionally, right now, I put in and then (in later analyses) later find out the age, corpus, etc. from the name of the output file. Perhaps a better option is on the one hand to make sure that the names of the files are never identical but not necessarily embed all that info, and to stock the corpus, the child age, and perhaps other types of information I'm not extracting now (number of speakers, identity of speakers, etc.) in a separate file.
+
+
+
 
 **************	ALTERNATIVE: BUCKEYE INPUT	***************
 
