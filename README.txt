@@ -12,7 +12,7 @@ CHAFOLDER="/Users/caofrance/Documents/databases/Bernstein/Children/" #must exist
 RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteincds/"   #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
 LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
 
-2. Open and adapt if necessary chaCleanUp_human.text, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors. 
+2. Open and adapt if necessary chaCleanUp_human.text, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors.
 
 
 3. Run the scripts by navigating to the folder and launching them:
@@ -30,13 +30,13 @@ chmod +x cleanCha2phono_human.text
 
 4. Normally, this will result in a folder being created, with several files inside:
 The most interesting to you probably are:
--gold: the corpus in phonological representation 
+-gold: the corpus in phonological representation
 -includedlines: orthographic representation of all the lines in the same order that they appear in the original cha file and in all the others; good to use if trying to match them up again
 -ADD-sorted: this contains the list of words that were not found in the dictionary and therefore could not be converted into phonological form. It is easy to add new words to the dictionary and it might be a good idea, particularly if you are missing words that are very frequent. See below for the instructions.
 
 **************	ALTERNATIVE: MULTICORPORA COMPARISON	***************
 GOAL: Preprocess cha files -- this we did for a project comparing across registers
-Right now, it takes only one folder for CDS, that of Providence, and with one level of embedding; and 2 for ADS, one with one level of embedding, and the other not. 
+Right now, it takes only one folder for CDS, that of Providence, and with one level of embedding; and 2 for ADS, one with one level of embedding, and the other not.
 
 
 A LOT OF WORK NEEDS TO BE DONE
@@ -56,7 +56,7 @@ RESFOLDER="/Users/caofrance/Documents/tests/res_buckeye_allbreaks/"   #will be c
 LANGUAGE="english" #right now, only options is english -- NOTICE, IN SMALL CAPS
 
 
-2. Open and adapt if necessary fromBuckeye2clean_human.text, particularly the part that is marked with "Attention" - this concerns boundary decisions. 
+2. Open and adapt if necessary fromBuckeye2clean_human.text, particularly the part that is marked with "Attention" - this concerns boundary decisions.
 
 
 3. Run the scripts by navigating to the folder and launching them:
@@ -91,72 +91,101 @@ IMPORTANT!!! Please email me your new version of the dict-Brent.txt file at alec
 ********************** PART 2 ******************
 GOAL: segmenting a corpus
 
-1. Make sure you have prepared your corpus as explained in part 1, and that you have an appropriate do_ .sh file in algos/AG -- if you don't know what this means, ask Alex 
+1. Make sure you have prepared your corpus as explained in part 1, and
+that you have an appropriate do_ .sh file in algos/AG -- if you don't
+know what this means, ask Alex
 
-2. If you didn't do it before (PART 1), adapt the following variables and copy-paste them into a terminal
-KEYNAME="bernsteincds" 
-RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteincds/"   
-LANGUAGE="english" 
+2. If you didn't do it before (PART 1), adapt the following variables
+and copy-paste them into a terminal
+
+KEYNAME="bernsteincds"
+RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteincds/"
+LANGUAGE="english"
 
 3. Run segmentation as follows:
-cd /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp/
--- often, this will be:
-cd ../algoComp/
-./_segment1corpus.text $KEYNAME $RESFOLDER $LANGUAGE > outputCDS.txt
 
-4. This will result in many files being added to your output directory (specified in step 2 of this part, Part 2). The most interesting one might be the one called _<YOUR KEYNAME>-cfgold.txt, which looks like this:
-algo token_f-score to
-ken_precision token_recall boundary_f-score boundary_precision boundary_recall
+    cd /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp/pipeline
+    # often, this will be:
+    cd ../algoComp/pipeline
+    ./segment_one_corpus.sh $KEYNAME $RESFOLDER $LANGUAGE > outputCDS.txt
+
+4. This will result in many files being added to your output directory
+(specified in step 2 of this Part 2). The most interesting one
+might be the one called _<YOUR KEYNAME>-cfgold.txt, which looks like
+this:
+
+algo token_f-score token_precision token_recall boundary_f-score boundary_precision boundary_recall
 dibs 0.2353 0.3118 0.189 0.4861 0.6915 0.3748
 tpABS 0.7743 0.7603 0.7888 0.8994 0.8806 0.919
 tpREL 0.2263 0.3274 0.1729 0.5861 0.9426 0.4253
 ag 0.7242 0.6866 0.766 0.8792 0.8271 0.9384
 
 
-If you want to see how each algorithm segmented the corpus, you can look at the files ending with -cfgold. (The true segmentation is in the file ending with -gold, as explained in 6b of Part 1).
+If you want to see how each algorithm segmented the corpus, you can
+look at the files ending with -cfgold. (The true segmentation is in
+the file ending with -gold, as explained in 6b of Part 1).
 
-If you're interested in the highest frequency words each algorithm found, they are in the files ending with freq-top (top 10k words).
+If you're interested in the highest frequency words each algorithm
+found, they are in the files ending with freq-top (top 10k words).
 
 ******IMPORTANT****
-If you want to take your results home, please bear in mind that several of these files contain substantial parts of the corpus, so be careful (DON'T take the whole folder). A fast way to clean up is, in a terminal window (to be on the safe side, I do it on the thumb drive, so that the originals are kept in this computer):
-cd <the mother folder of the res_folders>
-mkdir cfgold_results
-cp res_*/_*gold.txt results/
-rm res_*/*unicode*.txt
-rm res_*/*klatt*.txt
-rm res_*/*all.txt
-rm res_*/*output.txt
-rm res_*/*lines.txt
-rm res_*/*gold.txt
+
+If you want to take your results home, please bear in mind that
+several of these files contain substantial parts of the corpus, so be
+careful (DON'T take the whole folder). A fast way to clean up is, in a
+terminal window (to be on the safe side, I do it on the thumb drive,
+so that the originals are kept in this computer):
+
+    cd <the mother folder of the res_folders>
+    mkdir cfgold_results
+    cp res_*/_*gold.txt results/
+    rm res_*/*unicode*.txt
+    rm res_*/*klatt*.txt
+    rm res_*/*all.txt
+    rm res_*/*output.txt
+    rm res_*/*lines.txt
+    rm res_*/*gold.txt
 
 
 **** Troubleshooting:
-- If you get an error:
-## py-cky.h:1014: In inside() Error: earley parse failed, terminals
-that probably means you used a wrong letter in a dictionary entry. 
-Focus on the end of the error:
-## py-cky.h:1014: In inside() Error: earley parse failed, terminals = (s I s i l j x)
 
-<- this means that one of the letters in "s I s i l j x" is wrong. 
-Compare them against the list of letters ("phonemes") with the ones listed in: /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp201507/algos/AG/grammars/Colloq0_enKlatt.lt
+- If you get an error:
+
+    ## py-cky.h:1014: In inside() Error: earley parse failed, terminals
+    that probably means you used a wrong letter in a dictionary entry.
+
+    Focus on the end of the error:
+    ## py-cky.h:1014: In inside() Error: earley parse failed, terminals = (s I s i l j x)
+
+This means that one of the letters in "s I s i l j x" is wrong.
+Compare them against the list of letters ("phonemes") with the ones listed in:
+/YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp201507/algos/AG/grammars/Colloq0_enKlatt.lt
+
 namely:
 d	e	f	g	h	i	k	l	m	n	o	p	r	@	s	t	u	C	v	D	E	w	x	G	y	z	I	J	O	R	S	T	U	W	Y	Z	^	a	b	c	|	L	M	N	X
 
 
-There is no "j" in this list -- so that means there is at least one incorrect entry with j, in this case "s I s i l j x" or rather "sIsiljx". 
+There is no "j" in this list -- so that means there is at least one
+incorrect entry with j, in this case "s I s i l j x" or rather
+"sIsiljx".
 
-A longer route: Do 
+A longer route: Do
 $ cd /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp201507/algos/AG/input
 $ tr -d '/' < input.ylt |sed '/^$/d' | sort | uniq -c | awk '{print $2" "$1}' | sort -n -r > ~/Desktop/letter-count.txt
 
-This will generate a file called letter-count.txt on your Desktop. Open it and paste the contents onto LibreOffice Calc
+This will generate a file called letter-count.txt on your
+Desktop. Open it and paste the contents onto LibreOffice Calc
 
 Once you find the guilty letter, go to the dictionary
 /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/update_dictionary/data/dict-Brent.txt
 Do a search for it, and change it to the appropriate letter.
 
-Finally, regenerate the dictionary following the instructions in SUBROUTINE: ADDING WORDS TO THE DICTIONARY, step 4+
+Finally, regenerate the dictionary following the instructions in
+SUBROUTINE: ADDING WORDS TO THE DICTIONARY, step 4+
 
 - If you get an error
-## py-cfg.cc:256: In gibbs_estimate() Error in py-cfg::gibbs_estimate(), tprob = 0, trains[XX] 
-This means that one of your phrases is too long. You might need to use a different version of adaptor grammar -- ask Alex about it.
+
+    ## py-cfg.cc:256: In gibbs_estimate() Error in py-cfg::gibbs_estimate(), tprob = 0, trains[XX]
+
+This means that one of your phrases is too long. You might need to use
+a different version of adaptor grammar -- ask Alex about it.
