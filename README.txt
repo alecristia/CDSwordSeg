@@ -104,10 +104,27 @@ LANGUAGE="english"
 
 3. Run segmentation as follows:
 
+3.1. Compute it on your machine
+
     cd /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp/pipeline
     # often, this will be:
     cd ../algoComp/pipeline
     ./segment_one_corpus.sh $KEYNAME $RESFOLDER $LANGUAGE > outputCDS.txt
+
+3.2. Compute it on the cluster
+
+TODO These part need to be tested/reviewed
+
+If you want to run the segmentation process on a cluster managed by
+Sun Grid Engine ('qsub' command needed), provide a 4th argument to the
+./segment_one_corpus.sh script. Only the absence/presence of the 4th
+argument matters, not its content. See pipeline/clusterize.sh for more
+details.
+
+    cd ../algoComp/pipeline
+    ./segment_one_corpus.sh $KEYNAME $RESFOLDER $LANGUAGE non_empty > outputCDS.txt
+
+
 
 4. This will result in many files being added to your output directory
 (specified in step 2 of this Part 2). The most interesting one
