@@ -104,6 +104,8 @@ LANGUAGE="english"
 
 3. Run segmentation as follows:
 
+Follow one the 3.1 or 3.2 alternatives
+
 3.1. Compute it on your machine
 
     cd /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp/pipeline
