@@ -7,12 +7,12 @@ GOAL: generate a phonological version
 1. Adapt the following variables, being careful to provide absolute paths. Then copy and paste these 4 lines onto a terminal window
 
 
-KEYNAME="bernsteincds" #pick a nice name for your phonological corpus, because this keyname will be used for every output file!
-CHAFOLDER="/Users/caofrance/Documents/databases/Bernstein/Children/" #must exist and contain cha files - NOTICE THE / AT THE END OF THE NAME
-RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteincds/"   #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
+KEYNAME="bernsteinads" #pick a nice name for your phonological corpus, because this keyname will be used for every output file!
+CHAFOLDER="/fhgfs/bootphon/scratch/acristia/data/Interview/" #must exist and contain cha files - NOTICE THE / AT THE END OF THE NAME
+RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/res_bernsteinads/"   #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
 LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
 
-2. Open and adapt if necessary chaCleanUp_human.text, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors. 
+2. Open and adapt if necessary chaCleanUp_human.text inside database_creation, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors. 
 
 
 3. Run the scripts by navigating to the folder and launching them:
