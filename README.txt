@@ -13,7 +13,7 @@ RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/res_bernsteinads/"   #will b
 LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
 
 
-2. Open and adapt if necessary chaCleanUp_human.text, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors.
+2. Open and adapt if necessary chaCleanUp_human.text inside database_creation, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors. 
 
 
 
