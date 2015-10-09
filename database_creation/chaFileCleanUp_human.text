@@ -5,10 +5,9 @@
 
 #########VARIABLES
 #Variables that have been passed by the user
-KEYNAME=$1
-CHAFILE=$2
-RESFOLDER=$3
-LANGUAGE=$4
+CHAFILE=$1
+RESFOLDER=$2
+LANGUAGE=$3
 
 #Variables that will probably not change
 SCRIPTS="fromCHAtoSND/scripts/"
@@ -16,13 +15,13 @@ SCRIPTS="fromCHAtoSND/scripts/"
 
 
 
-inclines="$RESFOLDER${KEYNAME}-includedlines.txt"
-ortho="$RESFOLDER${KEYNAME}-ortholines.txt"
+inclines=$(basename "$CHAFILE" .cha)"-includedlines.txt"
+ortho=$(basename "$CHAFILE" .cha)"-ortholines.txt"
 
 #rm -r $RESFOLDER
 #mkdir $RESFOLDER
 
-echo "cleaning"
+echo "cleaning $CHAFILE"
 
 #echo "now working on $CHAFOLDER"
 #chomp CHA files to leave only text
@@ -37,7 +36,7 @@ j=$CHAFILE
 	iconv -f ISO-8859-1 "$j" |
 	 grep '^*' |  
 grep -v 'SI.\|BR.\|CHI\|TO.\|ENV\|BOY\|NON' |
-	iconv -t ISO-8859-1 >> $inclines
+	iconv -t ISO-8859-1 >> $RESFOLDER$inclines
 
 #*******************************************#
 #done
@@ -45,7 +44,7 @@ grep -v 'SI.\|BR.\|CHI\|TO.\|ENV\|BOY\|NON' |
 
 #replacements to clean up punctuation, etc. -- usually ok regardless of the corpus
 
-iconv -f ISO-8859-1 "$inclines" |
+iconv -f ISO-8859-1 "$RESFOLDER$inclines" |
 sed 's/^....:.//g' | 
 sed "s/\_/ /g" | 
 tr -d '\"' | 
@@ -110,7 +109,7 @@ awk '{gsub("\"",""); print}' > tmp.tmp
 	sed 's/ oo / oh /g' | 
 	sed 's/ohh/oh/g' | 
 	sed "s/ im / I\'m /g" | 
-	iconv -t ISO-8859-1 > "$ortho"
+	iconv -t ISO-8859-1 > "$RESFOLDER$ortho"
 
 
 

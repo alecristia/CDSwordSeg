@@ -40,6 +40,7 @@ The most interesting to you probably are:
 **************	ALTERNATIVE: MULTICORPORA COMPARISON	***************
 GOAL: Preprocess cha files -- this we did for a project comparing across registers
 It takes one parent directory with any level of embedding (A typical directory structure would be one root folder and sub-folders containing the different corpora. The root folder could be CDS or ADS)
+For each transcript, the script will generate a folder bearing the transcript name and it will contain all the output files relative to that transcript.
 
 1. Open "clean_corpus.sh" and change the variables as indicated. Save the file and run bash script a terminal window by typing: "bash clean_corpus.sh"
 
@@ -54,21 +55,27 @@ APPEND2="whatever you would like to be appended to the corpus folder that will s
 APPEND3="whatever you would like to be appended to all output files when they have been created" #E.g. APPEND3="_cds"
 LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
 
-	b) Open and adapt if necessary chaCleanUp_human.text, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors.
+	b) Open and adapt if necessary chaFileCleanUp_human.text, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors.
 
 	c) Copy and paste these lines onto a terminal window. This will run the clean-up scripts and create the output files:
-mkdir -p $CHA_FOLDER
-mkdir -p $RES_FOLDER
-for CORPUSFOLDER in $INPUT_CORPUS/*/; do
+mkdir -p $CHA_FOLDER	#create folder that will contain all CHA files
+mkdir -p $RES_FOLDER	#create folder that will contain all output files
+for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 level down)
 	cd $CORPUSFOLDER
 	SUBCORPUS_IN=$CHA_FOLDER$(basename $CORPUSFOLDER)$APPEND1/	
-	mkdir -p $SUBCORPUS_IN
-	find $CORPUSFOLDER -iname '*.cha' -type f -exec cp {} $SUBCORPUS_IN \;
-	SUBCORPUS_OUT=$RES_FOLDER$(basename $CORPUSFOLDER)$APPEND2/
-	KEYNAME=$(basename $CORPUSFOLDER)$APPEND3
-	cd $PATH_TO_SCRIPTS
-	./chaCleanUp_human.text $KEYNAME $SUBCORPUS_IN $SUBCORPUS_OUT $LANGUAGE
-	./cleanCha2phono_human.text $KEYNAME $SUBCORPUS_OUT $LANGUAGE
+	mkdir -p $SUBCORPUS_IN	#get name of corpus and create the folder with that name+APPEND1 - E.g. "Bernstein_cha" (will contain all cha files for Bernstein corpus)
+	find $CORPUSFOLDER -iname '*.cha' -type f -exec cp {} $SUBCORPUS_IN \;	#search and copy all cha files to the relevant corpus
+	SUBCORPUS_OUT=$RES_FOLDER$(basename $CORPUSFOLDER)$APPEND2/	
+	mkdir -p $SUBCORPUS_OUT	#get name of corpus and create folder with that name+APPEND2 - E.g. "Bernstein_res" (will contain all output files for Bernstein corpus)
+	for f in $SUBCORPUS_IN/*; do	#loop through all cha files
+		#echo "Processing $f file..."
+		SUBCORPUS_OUT_LEVEL2=$SUBCORPUS_OUT$(basename "$f" .cha)$APPEND3/
+		mkdir -p $SUBCORPUS_OUT_LEVEL2 #get filename and create folder with that name+APPEND3 - E.g. "alice1_cds" (will contain all output files for transcript Alice1 in the Bernstein corpus)
+		KEYNAME=$(basename "$f" .cha)
+		cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
+		bash ./chaFileCleanUp_human.text $f $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
+		bash ./cleanCha2phono_human.text $KEYNAME $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
+	done
 done
 
 
