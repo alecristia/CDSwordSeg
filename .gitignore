@@ -3,6 +3,9 @@ previousResults/
 tests/
 zarchive_versions/
 algoComp/algos/AG/output/
-algoComp/algos/AG/input/input.*
+algoComp/algos/AG/input/
 algoComp/algos/*/input.*
 algoComp/algos/recodeforpuddle.zip
+*.o
+*.d
+algoComp/scripts/*.pyc
