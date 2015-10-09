@@ -8,4 +8,5 @@ algoComp/algos/*/input.*
 algoComp/algos/recodeforpuddle.zip
 *.o
 *.d
+*~
 algoComp/scripts/*.pyc
