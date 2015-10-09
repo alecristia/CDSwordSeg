@@ -17,8 +17,7 @@ LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL
 
 3. Run the scripts by navigating to the folder and launching them:
 cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
-./chaCleanUp_human.text $KEYNAME $CHAFOLDER $RESFOLDER $LANGUAGE
-./cleanCha2phono_human.text $KEYNAME $RESFOLDER $LANGUAGE
+./chaCleanUp_human.text $KEYNAME $CHAFOLDER $RESFOLDER $LANGUAGE./cleanCha2phono_human.text $KEYNAME $RESFOLDER $LANGUAGE
 
 NOTES:
 - YOUR_ABSOLUTE_PATH_GOES_HERE is the absolute path leading to your local copy of database_creation
@@ -37,41 +36,13 @@ The most interesting to you probably are:
 
 **************	ALTERNATIVE: MULTICORPORA COMPARISON	***************
 GOAL: Preprocess cha files -- this we did for a project comparing across registers
-It takes one parent directory with any level of embedding (A typical directory structure would be one root folder and sub-folders containing the different corpora. The root folder could be CDS or ADS)
-
-1. Open "clean_corpus.sh" and change the variables as indicated. Save the file and run bash script a terminal window by typing: "bash clean_corpus.sh"
-
-2. Alternatively, if you don't want to run the script, you can do the following:
-	a) Adapt the following variables, being careful to provide absolute paths. Then copy and paste these lines onto a terminal window
-PATH_TO_SCRIPTS="YOUR_ABSOLUTE_PATH_TO_SCRIPTS"	#path to chaCleanUp_human.text & cleanCha2phono_human.text - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
-INPUT_CORPUS="YOUR_ABSOLUTE_PATH_TO_ROOT_DIRECTORY_WITH_ALL_CORPORA" #E.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
-CHA_FOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_CHA_FILES_WILL_BE_STORED" #E.g. CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"- NOTICE THE / AT THE END OF THE NAME
-RESFOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_OUTPUT_FILES_WILL_BE_STORED"	#E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
-APPEND1="whatever you would like to be appended to the corpus folder that will store all cha files" #E.g. APPEND1="_cha"
-APPEND2="whatever you would like to be appended to the corpus folder that will store all output files" #E.g. APPEND2="_res"
-APPEND3="whatever you would like to be appended to all output files when they have been created" #E.g. APPEND3="_cds"
-LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
-
-	b) Open and adapt if necessary chaCleanUp_human.text, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors.
-
-	c) Copy and paste these lines onto a terminal window. This will run the clean-up scripts and create the output files:
-mkdir -p $CHA_FOLDER
-mkdir -p $RES_FOLDER
-for CORPUSFOLDER in $INPUT_CORPUS/*/; do
-	cd $CORPUSFOLDER
-	SUBCORPUS_IN=$CHA_FOLDER$(basename $CORPUSFOLDER)$APPEND1/	
-	mkdir -p $SUBCORPUS_IN
-	find $CORPUSFOLDER -iname '*.cha' -type f -exec cp {} $SUBCORPUS_IN \;
-	SUBCORPUS_OUT=$RES_FOLDER$(basename $CORPUSFOLDER)$APPEND2/
-	KEYNAME=$(basename $CORPUSFOLDER)$APPEND3
-	cd $PATH_TO_SCRIPTS
-	./chaCleanUp_human.text $KEYNAME $SUBCORPUS_IN $SUBCORPUS_OUT $LANGUAGE
-	./cleanCha2phono_human.text $KEYNAME $SUBCORPUS_OUT $LANGUAGE
-done
+Right now, it takes only one folder for CDS, that of Providence, and with one level of embedding; and 2 for ADS, one with one level of embedding, and the other not.
 
 
-MORE WORK NEEDS TO BE DONE
-Right now, I put in and then (in later analyses) later find out the age, corpus, etc. from the name of the output file. Perhaps a better option is on the one hand to make sure that the names of the files are never identical but not necessarily embed all that info, and to stock the corpus, the child age, and perhaps other types of information I'm not extracting now (number of speakers, identity of speakers, etc.) in a separate file.
+A LOT OF WORK NEEDS TO BE DONE
+But to add a lot of CDS corpora, we should perhaps think of adding another level of embedding and make it more flexible in terms of where *.cha are to be found. Additionally, right now, I put in and then (in later analyses) later find out the age, corpus, etc. from the name of the output file. Perhaps a better option is on the one hand to make sure that the names of the files are never identical but not necessarily embed all that info, and to stock the corpus, the child age, and perhaps other types of information I'm not extracting now (number of speakers, identity of speakers, etc.) in a separate file.
+
+
 
 
 **************	ALTERNATIVE: BUCKEYE INPUT	***************
@@ -90,8 +61,7 @@ LANGUAGE="english" #right now, only options is english -- NOTICE, IN SMALL CAPS
 
 3. Run the scripts by navigating to the folder and launching them:
 cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
-./fromBuckeye2clean_human.text $KEYNAME $RAWFOLDER $RESFOLDER $LANGUAGE
-./cleanCha2phono_human.text $KEYNAME $RESFOLDER $LANGUAGE
+./fromBuckeye2clean_human.text $KEYNAME $RAWFOLDER $RESFOLDER $LANGUAGE./cleanCha2phono_human.text $KEYNAME $RESFOLDER $LANGUAGE
 
 
 **************SUBROUTINE: ADDING WORDS TO THE DICTIONARY***************
