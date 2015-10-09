@@ -39,8 +39,7 @@ The most interesting to you probably are:
 
 **************	ALTERNATIVE: MULTICORPORA COMPARISON	***************
 GOAL: Preprocess cha files -- this we did for a project comparing across registers
-It takes one parent directory with any level of embedding (A typical directory structure would be one root folder and sub-folders containing the different corpora. The root folder could be CDS or ADS)
-For each transcript, the script will generate a folder bearing the transcript name and it will contain all the output files relative to that transcript.
+The script takes one parent directory with any level of embedding (A typical directory structure would be one root folder and sub-folders containing the different corpora. The root folder could be CDS or ADS). For each transcript, it will generate a folder bearing the transcript name and it will contain all the output files relative to that transcript.
 
 1. Open "clean_corpus.sh" and change the variables as indicated. Save the file and run bash script a terminal window by typing: "bash clean_corpus.sh"
 
