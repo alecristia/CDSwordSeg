@@ -40,6 +40,7 @@ The most interesting to you probably are:
 **************	ALTERNATIVE: MULTICORPORA COMPARISON	***************
 GOAL: Preprocess cha files -- this we did for a project comparing across registers
 The script takes one parent directory with any level of embedding (A typical directory structure would be one root folder and sub-folders containing the different corpora. The root folder could be CDS or ADS). For each transcript, it will generate a folder bearing the transcript name and it will contain all the output files relative to that transcript.
+The script also extracts the corpus path, filename, child's age, number of speakers and identity of speakers in a separate file.
 
 1. Open "clean_corpus.sh" and change the variables as indicated. Save the file and run bash script a terminal window by typing: "bash clean_corpus.sh"
 
@@ -49,6 +50,7 @@ PATH_TO_SCRIPTS="YOUR_ABSOLUTE_PATH_TO_SCRIPTS"	#path to chaCleanUp_human.text &
 INPUT_CORPUS="YOUR_ABSOLUTE_PATH_TO_ROOT_DIRECTORY_WITH_ALL_CORPORA" #E.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 CHA_FOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_CHA_FILES_WILL_BE_STORED" #E.g. CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"- NOTICE THE / AT THE END OF THE NAME
 RESFOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_OUTPUT_FILES_WILL_BE_STORED"	#E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+OUTPUT_FILE="YOUR_ABSOLUTE_PATH_TO_WHERE_INFO_FILE_ABOUT_CORPORA_WILL_BE_STORED" #E.g OUTPUT_FILE="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
 APPEND1="whatever you would like to be appended to the corpus folder that will store all cha files" #E.g. APPEND1="_cha"
 APPEND2="whatever you would like to be appended to the corpus folder that will store all output files" #E.g. APPEND2="_res"
 APPEND3="whatever you would like to be appended to all output files when they have been created" #E.g. APPEND3="_cds"
@@ -59,6 +61,8 @@ LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL
 	c) Copy and paste these lines onto a terminal window. This will run the clean-up scripts and create the output files:
 mkdir -p $CHA_FOLDER	#create folder that will contain all CHA files
 mkdir -p $RES_FOLDER	#create folder that will contain all output files
+python $PATH_TO_SCRIPTS/otherScripts/extract_childes_info.py $INPUT_CORPUS $OUTPUT_FILE
+echo "done extracting info from corpora"
 for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 level down)
 	cd $CORPUSFOLDER
 	SUBCORPUS_IN=$CHA_FOLDER$(basename $CORPUSFOLDER)$APPEND1/	
@@ -76,10 +80,6 @@ for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 le
 		bash ./cleanCha2phono_human.text $KEYNAME $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
 	done
 done
-
-
-MORE WORK NEEDS TO BE DONE
-Right now, I put in and then (in later analyses) later find out the age, corpus, etc. from the name of the output file. Perhaps a better option is on the one hand to make sure that the names of the files are never identical but not necessarily embed all that info, and to stock the corpus, the child age, and perhaps other types of information I'm not extracting now (number of speakers, identity of speakers, etc.) in a separate file.
 
 
 **************	ALTERNATIVE: BUCKEYE INPUT	***************
