@@ -13,10 +13,10 @@ cd ${ABSPATH}algos/AG
 
 # Remove spaces within words and syllable boundaries, and replace word
 # tags with spaces to create gold:
-sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | tr -d ' ' > input/input.gold
+sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | tr -d ' ' > ${RESFOLDER}input.gold
 
 # 5.1b Remove word and syllable tags to create input:
-sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | sed 's/  */ /g'  > input/input.ylt
+sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | sed 's/  */ /g'  > ${RESFOLDER}input.ylt
 
 # 5.2 Open do_colloq0_klatt.sh and adapt to your purposes, meaning:
 # - check or change the names of folders, input, and output files
@@ -30,18 +30,21 @@ sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ 
 # unicode-friendly.
 
 # 5.3 actual algo running
-./do_colloq0_${LANGUAGE}.sh
+./do_colloq0_${LANGUAGE}.sh $3
 
-# 5.4 clean up & write with standard format
+# 5.4 write with standard format
 sed 's/ /;/g' "output/_mbr-Colloc0.seg" | sed 's/./& /g' | sed 's/ ;/;aword/g' > $RESFOLDER$KEYNAME-${ALGO}-output.txt
 
-cd output
-rm *.seg
-rm *.wlt
-rm *.prs
 
 # 5.5 Do the evaluation
 cd ${ABSPATH}scripts
 ./doAllEval.text $RESFOLDER $KEYNAME $ALGO
+
+# 5.6 Final clean up
+cd $RESFOLDER
+rm *.seg
+rm *.wlt
+rm *.prs
+rm input.*
 
 echo "done with AG"
