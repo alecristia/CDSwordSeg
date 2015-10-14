@@ -5,8 +5,7 @@ zarchive_versions/
 algoComp/algos/AG/output/
 algoComp/algos/AG/input/
 algoComp/algos/*/input.*
-algoComp/algos/recodeforpuddle/
-algoComp/algos/recodeforpuddle.zip
+algoComp/algos/PUDDLE/
 *.o
 *.d
 *~
