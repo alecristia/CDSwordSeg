@@ -1,3 +1,5 @@
+#Wrapper written by Xuan Nga Cao to clean up a large number of talkbank+childes corpora, one transcript at a time
+
 # Adapt the following variables, being careful to provide absolute paths
 PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"	#path to the 2 clean-up scripts: chaCleanUp_human.text & cleanCha2phono_human.text
 INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"	#path to the root directory containing all the corpora
