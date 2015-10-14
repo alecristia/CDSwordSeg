@@ -4,20 +4,19 @@
 # Alex Cristia alecristia@gmail.com 2015-08-25
 
 # Updated by Mathieu Bernard for 'clusterization' of the pipeline
+# And again by Alex
 
 #########VARIABLES###########################
 #Variables that have been passed by the user
 
-KEYNAME=$1
-RESFOLDER=$2
-LANGUAGE=$3
+ABSPATH=$1
+KEYNAME=$2
+RESFOLDER=$3
 
 # If the $4 argument is non-empty, jobs are started by the
 # clusterize.sh script.
 CLUSTERIZE=$4
 
-#Variables that will not be changed probably:
-ABSPATH=$(pwd)/../
 #############################################
 
 #1. Prepare for the performances
@@ -28,12 +27,15 @@ echo $CFGOLD > ${RESFOLDER}_$KEYNAME-cfgold.txt
 
 
 #2. List all algo scripts that will be launched
-ALGO_LIST="./dibs.sh ./TPs.sh ./ngrams.sh ./AG.sh"
+ALGO_LIST="./dibs.sh ./TPs.sh ./ngrams.sh"
+# ./AG.sh
+
 
 
 #3. Run all algos either locally or in the cluster
 for ALGO in $ALGO_LIST
 do
+    cd ${ABSPATH}pipeline/
     COMMAND="$ALGO $ABSPATH $KEYNAME $RESFOLDER"
     echo Running command: $COMMAND
 

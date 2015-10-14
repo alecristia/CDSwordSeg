@@ -1,6 +1,0 @@
-# D = 0, E = 1, I = 1, P = 1, R = -1, n = 10, N = 1, P = 1, w = 1, a = 0.0001, b = 10000, e = 1, f = 1, g = 100, h = 0.01, r = 6226, s = 1, S = 0, x = 10, m = 100, Z = 1, z = 0, T = 1, t = 1
-# 42816 tokens in 1937 sentences
-#
-# It	Temp	Time	-logP	-logPcorpus	-logPrior	tables	same	changed	reject	default_pya	(parent pym pyn pya pyb)*
-0	1	5.69313	220312	220198	113.764	11621	0	1937	0	0.0001 Colloc0 11621 30206 0.0001 10000
-10	1	77.1343	149746	149735	11.0183	2657	129	1808	9	0.0001 Colloc0 2657 21869 0.410519 144.753
