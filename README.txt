@@ -159,11 +159,14 @@ Sun Grid Engine ('qsub' command needed), provide a 4th argument to the
 argument matters, not its content. See pipeline/clusterize.sh for more
 details.
 
-    ./segment_one_corpus.sh $KEYNAME $RESFOLDER $LANGUAGE non_empty > outputCDS.txt
+    ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER
+#AG not run yet because checking problem in the macbook pro bootphon
+#of the other algos,
+#only ngrams seems to work & produce a non-empty gold -- is it a problem with python??
 
 
 
-4. This will result in many files being added to your output directory
+4. This will result in many files being added to your results directory
 (specified in step 2 of this Part 2). The most interesting one
 might be the one called _<YOUR KEYNAME>-cfgold.txt, which looks like
 this:
