@@ -129,16 +129,14 @@ IMPORTANT!!! Please email me your new version of the dict-Brent.txt file at alec
 ********************** PART 2 ******************
 GOAL: segmenting a corpus
 
-1. Make sure you have prepared your corpus as explained in part 1, and
-that you have an appropriate do_ .sh file in algos/AG -- if you don't
-know what this means, ask Alex
+1. In a terminal window, navigate to the algoComp/ subfolder
 
 2. If you didn't do it before (PART 1), adapt the following variables
-and copy-paste them into a terminal
+and copy-paste them into a terminal 
 
-KEYNAME="bernsteincds"
-RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteincds/"
-LANGUAGE="english"
+ABSPATH="`pwd`/"
+KEYNAME="bernsteinads"
+RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteinads/"
 
 3. Run segmentation as follows:
 
@@ -146,10 +144,10 @@ Follow one the 3.1 or 3.2 alternatives
 
 3.1. Compute it on your machine
 
-    cd /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp/pipeline
-    # often, this will be:
-    cd ../algoComp/pipeline
-    ./segment_one_corpus.sh $KEYNAME $RESFOLDER $LANGUAGE > outputCDS.txt
+    ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER  
+#AG isn't working anymore on my mac - to be checked!
+#other than that, ALL OK 2015-10-14
+
 
 3.2. Compute it on the cluster
 
@@ -161,7 +159,6 @@ Sun Grid Engine ('qsub' command needed), provide a 4th argument to the
 argument matters, not its content. See pipeline/clusterize.sh for more
 details.
 
-    cd ../algoComp/pipeline
     ./segment_one_corpus.sh $KEYNAME $RESFOLDER $LANGUAGE non_empty > outputCDS.txt
 
 
