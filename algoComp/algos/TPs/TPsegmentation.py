@@ -1,3 +1,6 @@
+# Script written by Amanda Saksida
+# Minor modifications by Alex Cristia <alecristia@gmail.com> on 2015-07
+
 ### the corpus should all be in one line, utterances can be delimited by " UB ". 
 ### as written now, it reads spaces as word boundaries and dashes (-) as syllable boundaries. 
 ### command line: python TPsegmentation.py syllable+wordboundaries_marked.txt syllableboundaries_marked.txt outputABS.txt outputREL.txt

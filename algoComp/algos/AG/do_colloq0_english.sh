@@ -6,8 +6,8 @@ ABSPTH=""		#Absolute path of the large folder in which we are working, where you
 #/Users/caofrance/Documents/Dropbox/ANR_MechELex/algos/AG/
 
 #Folders - check that they are there
-RESFOLDER="output/"		#location of the folder that will come to hold the results, this will almost certainly change
-DBFOLDER="input/"		#location of the folder containing the database, this will almost certainly change
+RESFOLDER=$1		#location of the folder that will come to hold the results, this will almost certainly change
+DBFOLDER=$1		#location of the folder containing the database, this will almost certainly change
 
 
 #INPUT Files - check that they are there
