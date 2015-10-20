@@ -24,8 +24,9 @@ def list_cha(input_dir=first_arg):
 
 def extract_info(cha_files, out=second_arg):
     outfile = open(out, "w")
-    outfile.write('dir path\tfilename\tchild age\t# adults\tadult type\n')
+    outfile.write('dir path\tfilename\tchild age\t# participants\tpartipant type\t# adults\n')
     participant_list = []
+    adult_list = []
     for inp in cha_files:
         infile = open(inp, 'r')
         dirpath = os.path.dirname(inp)
@@ -39,16 +40,27 @@ def extract_info(cha_files, out=second_arg):
                 if format_match:
                     child_age = format_match.group(4)
                 else:
-                    adult_format_match = re.match("(.*)\|\|\|(.*)\|\|\|", line)
-                    if adult_format_match:
-                        adult_ID = adult_format_match.group(2)
-                        participant_list.append(adult_ID)
+                    #bad formatting for file w1-1005.cha - needed to include this line of code to have it processed
+                    alternate_format_match = re.match("(.*)\|(.*)\|(MAG)\|([0-9;.]+)\|(.*)", line)
+                    if alternate_format_match:
+                        child_age = alternate_format_match.group(4)
+                    else:
+                        adult_format_match = re.match("(.*)\|([A-Z0-9]+)\|(.*)\|(.*)\|\|\|", line)
+                        if adult_format_match:
+                            #adult_ID = adult_format_match.group(2)
+                            adult_type = adult_format_match.group(4)
+                            participant_list.append(adult_type)
+                            non_adult = re.match(r'sibl(.*)|broth(.*)|sist(.*)|Target_Child|child|toy(.*)|environ(.*)|cousin|non_(.*)|play(.*)', adult_type, flags=re.IGNORECASE)
+                            if non_adult:
+                                continue
+                            else:
+                                adult_list.append(adult_type)
         outfile.write(dirpath + '\t' + bname + '\t' + str(child_age) + '\t' + str(len(participant_list)) + '\t')
         for i in participant_list:
             outfile.write(i + ';')
-        outfile.write('\n')
+        outfile.write('\t' + str(len(adult_list)) + '\n')
         participant_list[:] = []
-
+        adult_list[:] = []
 """
 extract info from corpora
 """
