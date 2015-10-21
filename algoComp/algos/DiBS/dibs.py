@@ -1,6 +1,4 @@
-# DiBS was written by Robert Daland
-# If considering using this code, please contact him at r.daland@gmail.com
-# A relevant publication is Daland, R., & Pierrehumbert, J. B. (2011). Learning Diphone‐Based Segmentation. Cognitive science, 35(1), 119-155.
+# this DiBS was written by Robert Daland <r.daland@gmail.com>
 
 import sys
 
