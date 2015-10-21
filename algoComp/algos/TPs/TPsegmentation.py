@@ -1,4 +1,5 @@
 # Script written by Amanda Saksida, modified 15/10/15
+# if considering using please write to her at amanda.saksida@gmail.com 
 ### input: corpus with syllable boundaries marked and no word boundaries. all in one line, all the syllables delimited by spaces, utterances delimited by " UB ". 
 ### output: corpus with words suggested acc to the model, in separate lines. 
 ### command line: python TPsegmentation.py syllableboundaries_marked.txt > outputABS.txt 
