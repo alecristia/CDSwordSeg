@@ -167,7 +167,7 @@ Sun Grid Engine ('qsub' command needed), provide a 4th argument to the
 argument matters, not its content. See pipeline/clusterize.sh for more
 details.
 
-    ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER
+    ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER notnull
 #AG not run yet because checking problem in the macbook pro bootphon
 #of the other algos,
 #only ngrams seems to work & produce a non-empty gold -- is it a problem with python??
