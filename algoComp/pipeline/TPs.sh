@@ -7,44 +7,27 @@ ABSPATH=$1
 KEYNAME=$2
 RESFOLDER=$3
 
+ALGO="tpAVG"
 
-# 3.1 Navigate to the TP folder
+
+# Navigate to the TP folder
 cd ${ABSPATH}algos/TPs
 
 
-# Reformat the test file into two formats, one for training and
-# another for segmentation:
-
-sed 's/;esyll/-/g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/ //g' | sed 's/;eword/ /g' | sed 's/ -/ /g' | sed 's/ $//g' | tr '\n' '?' | sed 's/?/ UB /g' > syllable+wordboundaries_marked.txt
-
+# Reformat the test file for segmentation:
 
 sed 's/ //g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;esyll/ /g' | sed 's/;eword/ /g' | sed 's/  / /g' | sed 's/ $//g' | tr '\n' '?' | sed 's/?/ UB /g'  > syllableboundaries_marked.txt
 
 
-# 3.2 Actual algo running
-python TPsegmentation.py syllable+wordboundaries_marked.txt syllableboundaries_marked.txt tempABS.txt tempREL.txt
+# Actual algo running
+python TPsegmentation.py syllableboundaries_marked.txt > $RESFOLDER$KEYNAME-${ALGO}-output.txt 
 
-#for the time being, the output is messed up - this is a quick fix,
-#but it would be better to modify the python code so that it's
-#produced in the right format
-
-lf=$'\n'
-
-ALGO="tpABS"
-cut -c 3- tempABS.txt | sed s/\'\]\]$// |  tr "\]" "\n" | sed s/"\', \'"//g | tr -d "," | tr -d "[" | tr -d "\'" | tr "\n" ";" | sed 's/;/ ;aword /g' | sed -e "s/UB ;aword/\\$lf/g" > $RESFOLDER$KEYNAME-${ALGO}-output.txt
-
-ALGO="tpREL"
-cut -c 3- tempREL.txt | sed s/\'\]\]$// |  tr "\]" "\n" | sed s/"\', \'"//g | tr -d "," | tr -d "[" | tr -d "\'" | tr "\n" ";" | sed 's/;/ ;aword /g' | sed "s/UB ;aword/\\$lf/g" > $RESFOLDER$KEYNAME-${ALGO}-output.txt
-
+# Local clean up
  rm syllable*
  rm temp*
 
-# 3.3 Do the evaluation
+# Do the evaluation
 cd ${ABSPATH}scripts
-ALGO="tpABS"
-./doAllEval.text $RESFOLDER $KEYNAME $ALGO
-
-ALGO="tpREL"
 ./doAllEval.text $RESFOLDER $KEYNAME $ALGO
 
 

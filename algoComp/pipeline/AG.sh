@@ -25,28 +25,29 @@ KEYNAME=$2
 RESFOLDER=$3
 
 ALGO="ag"
-# 5.1 Navigate to the AG folder
+
+# Navigate to the AG folder
 cd ${ABSPATH}algos/AG
 
 # Remove spaces within words and syllable boundaries, and replace word
 # tags with spaces to create gold:
 sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | tr -d ' ' > ${RESFOLDER}input.gold
 
-# 5.2 Remove word and syllable tags to create input:
+# Remove word and syllable tags to create input:
 sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | sed 's/  */ /g'  > ${RESFOLDER}input.ylt
 
-# 5.3 actual algo running
+# actual algo running
 $GRAMMARFILE $3
 
-# 5.4 write with standard format
+# write with standard format
 sed 's/ /;/g' "output/_mbr-Colloc0.seg" | sed 's/./& /g' | sed 's/ ;/;aword/g' > $RESFOLDER$KEYNAME-${ALGO}-output.txt
 
 
-# 5.5 Do the evaluation
+# Do the evaluation
 cd ${ABSPATH}scripts
 ./doAllEval.text $RESFOLDER $KEYNAME $ALGO
 
-# 5.6 Final clean up
+# Final clean up
 cd $RESFOLDER
 rm *.seg
 rm *.wlt
