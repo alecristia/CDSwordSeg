@@ -10,3 +10,5 @@ algoComp/algos/PUDDLE/
 *.d
 *~
 algoComp/scripts/*.pyc
+*.pyc
+phonologization/examples
