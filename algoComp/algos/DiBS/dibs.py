@@ -1,3 +1,4 @@
+# this DiBS was written by Robert Daland <r.daland@gmail.com>
 
 import sys
 

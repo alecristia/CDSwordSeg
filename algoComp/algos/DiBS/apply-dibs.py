@@ -1,4 +1,7 @@
 #!/usr/bin/python
+# this DiBS was written by Robert Daland <r.daland@gmail.com>
+
+
 
 import argparse
 import codecs

@@ -40,7 +40,7 @@ The most interesting to you probably are:
 **************	ALTERNATIVE: MULTICORPORA COMPARISON	***************
 GOAL: Preprocess cha files -- this we did for a project comparing across registers
 The script takes one parent directory with any level of embedding (A typical directory structure would be one root folder and sub-folders containing the different corpora. The root folder could be CDS or ADS). For each transcript, it will generate a folder bearing the transcript name and it will contain all the output files relative to that transcript.
-The script also extracts the corpus path, filename, child's age, number of speakers and identity of speakers in a separate file.
+The script also genarates 2 files: one with basic info about the corpus: corpus path, filename, child's age, number of speakers, identity of speakers, number of adults. The second file will list the processed files.
 
 1. Open "clean_corpus.sh" and change the variables as indicated. Save the file and run bash script a terminal window by typing: "bash clean_corpus.sh"
 
@@ -51,6 +51,7 @@ INPUT_CORPUS="YOUR_ABSOLUTE_PATH_TO_ROOT_DIRECTORY_WITH_ALL_CORPORA" #E.g. INPUT
 CHA_FOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_CHA_FILES_WILL_BE_STORED" #E.g. CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"- NOTICE THE / AT THE END OF THE NAME
 RESFOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_OUTPUT_FILES_WILL_BE_STORED"	#E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 OUTPUT_FILE="YOUR_ABSOLUTE_PATH_TO_WHERE_INFO_FILE_ABOUT_CORPORA_WILL_BE_STORED" #E.g OUTPUT_FILE="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
+OUTPUT_FILE2="YOUR_ABSOLUTE_PATH_TO_LIST_OF_PROCESSED_FILES" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
 APPEND1="whatever you would like to be appended to the corpus folder that will store all cha files" #E.g. APPEND1="_cha"
 APPEND2="whatever you would like to be appended to the corpus folder that will store all output files" #E.g. APPEND2="_res"
 APPEND3="whatever you would like to be appended to all output files when they have been created" #E.g. APPEND3="_cds"
@@ -71,15 +72,22 @@ for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 le
 	SUBCORPUS_OUT=$RES_FOLDER$(basename $CORPUSFOLDER)$APPEND2/	
 	mkdir -p $SUBCORPUS_OUT	#get name of corpus and create folder with that name+APPEND2 - E.g. "Bernstein_res" (will contain all output files for Bernstein corpus)
 	for f in $SUBCORPUS_IN/*; do	#loop through all cha files
-		#echo "Processing $f file..."
-		SUBCORPUS_OUT_LEVEL2=$SUBCORPUS_OUT$(basename "$f" .cha)$APPEND3/
-		mkdir -p $SUBCORPUS_OUT_LEVEL2 #get filename and create folder with that name+APPEND3 - E.g. "alice1_cds" (will contain all output files for transcript Alice1 in the Bernstein corpus)
-		KEYNAME=$(basename "$f" .cha)
-		cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
-		bash ./chaFileCleanUp_human.text $f $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
-		bash ./cleanCha2phono_human.text $KEYNAME $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
+		#Notice there is a subselection - only docs with 1 adult are processed
+		NADULTS=`grep "@ID" < $f | grep -v -i 'Sibl.+\|Broth.+\|Sist.+\|Target_.+\|Child\|To.+\|Environ.+\|Cousin\|Non_Hum.+\|Play.+' | wc -l`
+		if [ $NADULTS == 1 ];  then
+			SUBCORPUS_OUT_LEVEL2=$SUBCORPUS_OUT$(basename "$f" .cha)$APPEND3/
+			mkdir -p $SUBCORPUS_OUT_LEVEL2 #get filename and create folder with that name+APPEND3 - E.g. "alice1_cds" (will contain all output files for transcript Alice1 in the Bernstein corpus)
+			KEYNAME=$(basename "$f" .cha)
+			cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
+			bash ./chaFileCleanUp_human.text $f $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
+			echo "processed file $f" >> $OUTPUT_FILE2
+			bash ./cleanCha2phono_human.text $KEYNAME $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
+		fi
 	done
 done
+cd $RES_FOLDER
+find . -type d -empty -delete #remove empty folders for non-processed corpora
+echo "done removing empty folders"
 
 
 **************	ALTERNATIVE: BUCKEYE INPUT	***************
@@ -129,16 +137,14 @@ IMPORTANT!!! Please email me your new version of the dict-Brent.txt file at alec
 ********************** PART 2 ******************
 GOAL: segmenting a corpus
 
-1. Make sure you have prepared your corpus as explained in part 1, and
-that you have an appropriate do_ .sh file in algos/AG -- if you don't
-know what this means, ask Alex
+1. In a terminal window, navigate to the algoComp/ subfolder
 
 2. If you didn't do it before (PART 1), adapt the following variables
-and copy-paste them into a terminal
+and copy-paste them into a terminal 
 
-KEYNAME="bernsteincds"
-RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteincds/"
-LANGUAGE="english"
+ABSPATH="`pwd`/"
+KEYNAME="bernsteinads"
+RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteinads/"
 
 3. Run segmentation as follows:
 
@@ -146,10 +152,10 @@ Follow one the 3.1 or 3.2 alternatives
 
 3.1. Compute it on your machine
 
-    cd /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp/pipeline
-    # often, this will be:
-    cd ../algoComp/pipeline
-    ./segment_one_corpus.sh $KEYNAME $RESFOLDER $LANGUAGE > outputCDS.txt
+    ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER  
+#AG isn't working anymore on my mac - to be checked!
+#other than that, ALL OK 2015-10-14
+
 
 3.2. Compute it on the cluster
 
@@ -161,12 +167,14 @@ Sun Grid Engine ('qsub' command needed), provide a 4th argument to the
 argument matters, not its content. See pipeline/clusterize.sh for more
 details.
 
-    cd ../algoComp/pipeline
-    ./segment_one_corpus.sh $KEYNAME $RESFOLDER $LANGUAGE non_empty > outputCDS.txt
+    ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER notnull
+#AG not run yet because checking problem in the macbook pro bootphon
+#of the other algos,
+#only ngrams seems to work & produce a non-empty gold -- is it a problem with python??
 
 
 
-4. This will result in many files being added to your output directory
+4. This will result in many files being added to your results directory
 (specified in step 2 of this Part 2). The most interesting one
 might be the one called _<YOUR KEYNAME>-cfgold.txt, which looks like
 this:

@@ -1,31 +1,28 @@
+#!/usr/bin/env bash
+
 # Script for analyzing a single corpus in the algoComp2015.1.0 project
 # Alex Cristia alecristia@gmail.com 2015-08-25
 
+# Updated by Mathieu Bernard for 'qsubization' of the pipeline
+
 #########VARIABLES###########################
 #Variables that have been passed by the user
-RESFOLDER="/Users/acristia/Documents/tests/res_multicor/"
-LANGUAGE="english"
+KEYNAME=$1
+RESFOLDER=$2
+LANGUAGE=$3
 
 #Variables that will not be changed probably:
 ABSPATH=$(pwd)/
 #############################################
-#NOTE: NOT PREPARED FOR AUTOMATIC RUNNING, USE WITH CARE
+#NOTE: there are lots of annotation below, but typically you will not need to read beyond this line
 
-
-
-tmp=`echo "$RESFOLDER" | tr -d '/'`
-
-for j in ${RESFOLDER}*-gold.txt ; do
-	KEYNAME=`echo "$j" | tr -d '/' | sed s/"$tmp"// | sed 's/-gold\.txt//'`
 
 #1. Prepare for the performances
 echo "algo token_f-score token_precision token_recall boundary_f-score boundary_precision boundary_recall" > ${RESFOLDER}_$KEYNAME-cfgold.txt
 
 
-
 # 2. Run DIBS
 ALGO="dibs"
-
 
 # 2.1 Navigate to the DIBS folder 
 cd ${ABSPATH}algos/DiBS
@@ -144,7 +141,5 @@ rm *.prs
 cd ${ABSPATH}scripts
 ./doAllEval.text $RESFOLDER $KEYNAME $ALGO
 
-done
-#This closes the gold file loop
 
 echo "done with all"

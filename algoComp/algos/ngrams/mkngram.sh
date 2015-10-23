@@ -1,3 +1,6 @@
+# script written by Emmanuel Dupoux
+# if considering use please write to him at emmanuel.dupoux@gmail.com 
+
 #!/bin/bash
 
 if [ "$1" == "" ]; then

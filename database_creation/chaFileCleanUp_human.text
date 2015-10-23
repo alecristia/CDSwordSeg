@@ -35,7 +35,7 @@ j=$CHAFILE
 
 	iconv -f ISO-8859-1 "$j" |
 	 grep '^*' |  
-grep -v 'SI.\|BR.\|CHI\|TO.\|ENV\|BOY\|NON' |
+grep -v -i 'Sibl.+\|Broth.+\|Sist.+\|Target_.+\|Child\|To.+\|Environ.+\|Cousin\|Non_Hum.+\|Play.+' |
 	iconv -t ISO-8859-1 >> $RESFOLDER$inclines
 
 #*******************************************#
