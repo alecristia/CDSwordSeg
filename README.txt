@@ -176,8 +176,8 @@ a different version of adaptor grammar -- ask Alex about it.
 ***********************
 Tests:
 	mini	oberon	macbook
-1.	OK	
-2.	fail
+1.	OK	OK
+2.	fail	
 3.	( )
 
 errors mac mini phonologize

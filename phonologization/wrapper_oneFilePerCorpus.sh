@@ -4,10 +4,16 @@
 
 #########VARIABLES
 #Variables to modify
-RESFOLDER="/Users/acristia/Documents/tests/bernsteinads/"	#folder where all versions of the file will be stored
 KEYNAME="bernsteinads" #basic name of database
-ORTHO="/Users/acristia/Documents/tests/bernsteinads/bernsteinads-ortholines.txt"   #single file to be phonologized, must exist
 LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
+
+RESFOLDER="/Users/acristia/Documents/tests/bernsteinads/"	#folder where all versions of the file will be stored
+ORTHO="/Users/acristia/Documents/tests/bernsteinads/bernsteinads-ortholines.txt"   #single file to be phonologized, must exist
+
+#Oberon version
+RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/"	#folder where all versions of the file will be stored
+ORTHO="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/bernsteinads-ortholines.txt"   #single file to be phonologized, must exist
+
 #########
 
 if [ "$LANGUAGE" = "qom" ]
