@@ -172,3 +172,28 @@ SUBROUTINE: ADDING WORDS TO THE DICTIONARY, step 4+
 
 This means that one of your phrases is too long. You might need to use
 a different version of adaptor grammar -- ask Alex about it.
+
+***********************
+Tests:
+	mini	oberon	macbook
+1.	OK
+2.	fail
+3.
+
+errors mac mini phonologize
+Traceback (most recent call last):
+  File "scripts/phonologize.py", line 161, in <module>
+    main()
+  File "scripts/phonologize.py", line 157, in main
+    phonologize(args.input, args.output)
+  File "scripts/phonologize.py", line 141, in phonologize
+    text = process(text)
+  File "scripts/phonologize.py", line 107, in process
+    res = subprocess.check_output(['festival', '-b', tmpscm.name])
+  File "//anaconda/lib/python2.7/subprocess.py", line 566, in check_output
+    process = Popen(stdout=PIPE, *popenargs, **kwargs)
+  File "//anaconda/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "//anaconda/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory

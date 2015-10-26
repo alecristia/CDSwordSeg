@@ -26,7 +26,7 @@ The program may print on stderr something like:
   UniSyn: using default diphone ax-ax for y-pau
 
 This is related to wave synthesis (done by festival during
-phonologization). It should be usefull to overload this configuration
+phonologization). It should be useful to overload this configuration
 if the phonologization takes too long (I began this but it seems a bit
 tricky and time consuming).
 
@@ -78,7 +78,7 @@ def preprocess(filein):
     return res
 
 
-def process(text, script='template.scm'):
+def process(text, script='scripts/template.scm'):
     """Return the syllabic structure of *text* as parsed by a festival *script*.
 
     This function delegates to **festival** the *text* analysis and

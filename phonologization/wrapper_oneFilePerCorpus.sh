@@ -4,9 +4,9 @@
 
 #########VARIABLES
 #Variables to modify
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/res_bernsteinads/"	#folder where all versions of the file will be stored
+RESFOLDER="/Users/acristia/Documents/tests/bernsteinads/"	#folder where all versions of the file will be stored
 KEYNAME="bernsteinads" #basic name of database
-ORTHO="/fhgfs/bootphon/scratch/acristia/results/res_bernsteinads/bernsteinads-ortholines.txt"   #single file to be phonologized, must exist
+ORTHO="/Users/acristia/Documents/tests/bernsteinads/bernsteinads-ortholines.txt"   #single file to be phonologized, must exist
 LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
 #########
 
@@ -32,7 +32,7 @@ elif [ "$LANGUAGE" = "english" ]
 	echo "recognized $LANGUAGE"
 
 	echo "using festival"
-	python ./scripts/phonologyze.py $ORTHO -o $RESFOLDER${KEYNAME}-tags.txt
+	python scripts/phonologize.py $ORTHO -o $RESFOLDER${KEYNAME}-tags.txt
 
 else
 	echo "Adapt the script to a new language"
