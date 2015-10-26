@@ -4,28 +4,33 @@ For questions contact Alex Cristia alecristia@gmail.com
 ********************** Overview ******************
 In this project, we seek to study a set of algorithms for word segmentation from phonological-like text transcriptions.
 Our current pipeline involves three steps:
-1. Selection and cleaning. In this step, a set of conversations or transcriptions are processed to e.g. select specific speakers and remove annotations, leaving only the orthographic form of what was said. 
-2. Phonologization. Takes an orthographic (clean) output and converts it into a surface phonological form.
+1. Database creation. In this step, a set of conversations or transcriptions are processed to e.g. select specific speakers and remove annotations, leaving only the orthographic form of what was said. 
+2. Phonologization. Takes a (set of) orthographic (clean) output(s) and converts it (them) into a surface phonological form.
 3. Segmentation. Takes a phonological-like text transcript and returns one or several versions of the same corpus, with automatically-determined word boundaries, as well as lists of the most frequent words, and all this based on a selection of algorithms (chosen by user).
 
 
-********************** STEP 1: Cleaning ******************
+********************** STEP 1: Database creation ******************
+The necessary scripts are found in the folder called database_creation
+
 *** Alternative 1: .cha files
 
-1. Open and adapt if necessary chaFileCleanUp_human.text inside database_creation, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors. 
+1. Open and adapt cha2sel.sh, particularly the parts marked with "Attention". By doing this, you are selecting which speakers (lines) will be analyzed.
 
-2. Open and adapt one of the wrappers, such as:
-wrapper_clean_many_files.shwrapper-multicor-ana.sh
-Further instructions are provided in those files.
+2. Open and adapt selcha2clean.sh, particularly the parts marked with "Attention". By doing this you are correcting common misspellings in your database
 
-3. Run the scripts by navigating to the folder and launching them:
-cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
+3. Open and adapt one of the wrappers or create a new one, such as:
 wrapper_clean_many_files.sh
+wrapper_oneFilePerCorpus.shFurther instructions are provided inside those files.
+
+4. Run the scripts by navigating to the folder and launching them:
+cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
+./wrapper_clean_many_files.sh
 
 NOTES:
 - YOUR_ABSOLUTE_PATH_GOES_HERE is the absolute path leading to your local copy of database_creation
 - If this doesn't run at all (you get a "permission denied" error), it probably means that you haven't rendered the scripts executable. Do so by typing:
-chmod +x chaFileCleanUp_human.text
+chmod +x ./scripts/cha2sel.sh
+chmod +x ./scripts/selcha2clean.sh
 chmod +x wrapper_clean_many_files.sh
 
 *** Alternative 2: BUCKEYE
@@ -46,8 +51,12 @@ cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
 ./fromBuckeye2clean_human.text $KEYNAME $RAWFOLDER $RESFOLDER $LANGUAGE
 
 ********************** STEP 2: Phonologizing ******************
+The necessary scripts are found in the folder called phonologization
 
+This step is (internally) very different depending on whether you are analyzing Qom or English (the two languages we have worked with so far). There is one example wrapper that contains information for phonologizing both languages:
+wrapper_oneFilePerCorpus.sh
 
+And another example wrapper that phonologizes all files within the list produced by wrapper_clean_many_files.sh in Step 1.
 
 
 ********************** STEP 3: Segmenting  ******************

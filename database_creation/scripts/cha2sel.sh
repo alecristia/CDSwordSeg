@@ -18,7 +18,7 @@ echo "selecting speakers from $CHAFILE"
 
 	iconv -f ISO-8859-1 "$CHAFILE" |
 	 grep '^*' |  
-grep -v -i 'Sibl.+\|Broth.+\|Sist.+\|Target_.+\|Child\|To.+\|Environ.+\|Cousin\|Non_Hum.+\|Play.+' |
+grep -v -i 'SI.\|BR.\|CHI\|TO.\|ENV\|BOY\|NON' |
 	iconv -t ISO-8859-1 >> $SELFILE
 
 #*******************************************#
