@@ -1,97 +1,34 @@
 Instructions for text analyses
 For questions contact Alex Cristia alecristia@gmail.com
 
-********************** PART 1 ******************
-GOAL: generate a phonological version
-
-1. Adapt the following variables, being careful to provide absolute paths. Then copy and paste these 4 lines onto a terminal window
-
-
-KEYNAME="bernsteinads" #pick a nice name for your phonological corpus, because this keyname will be used for every output file!
-CHAFOLDER="/fhgfs/bootphon/scratch/acristia/data/Interview/" #must exist and contain cha files - NOTICE THE / AT THE END OF THE NAME
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/res_bernsteinads/"   #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
-LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
+********************** Overview ******************
+In this project, we seek to study a set of algorithms for word segmentation from phonological-like text transcriptions.
+Our current pipeline involves three steps:
+1. Selection and cleaning. In this step, a set of conversations or transcriptions are processed to e.g. select specific speakers and remove annotations, leaving only the orthographic form of what was said. 
+2. Phonologization. Takes an orthographic (clean) output and converts it into a surface phonological form.
+3. Segmentation. Takes a phonological-like text transcript and returns one or several versions of the same corpus, with automatically-determined word boundaries, as well as lists of the most frequent words, and all this based on a selection of algorithms (chosen by user).
 
 
-2. Open and adapt if necessary chaCleanUp_human.text inside database_creation, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors. 
+********************** STEP 1: Cleaning ******************
+*** Alternative 1: .cha files
 
+1. Open and adapt if necessary chaFileCleanUp_human.text inside database_creation, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors. 
 
+2. Open and adapt one of the wrappers, such as:
+wrapper_clean_many_files.shwrapper-multicor-ana.sh
+Further instructions are provided in those files.
 
 3. Run the scripts by navigating to the folder and launching them:
 cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
-./chaCleanUp_human.text $KEYNAME $CHAFOLDER $RESFOLDER $LANGUAGE
-./cleanCha2phono_human.text $KEYNAME $RESFOLDER $LANGUAGE
+wrapper_clean_many_files.sh
 
 NOTES:
 - YOUR_ABSOLUTE_PATH_GOES_HERE is the absolute path leading to your local copy of database_creation
 - If this doesn't run at all (you get a "permission denied" error), it probably means that you haven't rendered the scripts executable. Do so by typing:
-chmod +x chaCleanUp_human.text
-chmod +x cleanCha2phono_human.text
+chmod +x chaFileCleanUp_human.text
+chmod +x wrapper_clean_many_files.sh
 
-- You might see an error "couldn't remove folder" or "No such file or directory" -- don't worry about that error, it's just that I make sure to remove preceding versions of the folder.
-
-
-4. Normally, this will result in a folder being created, with several files inside:
-The most interesting to you probably are:
--gold: the corpus in phonological representation
--includedlines: orthographic representation of all the lines in the same order that they appear in the original cha file and in all the others; good to use if trying to match them up again
--ADD-sorted: this contains the list of words that were not found in the dictionary and therefore could not be converted into phonological form. It is easy to add new words to the dictionary and it might be a good idea, particularly if you are missing words that are very frequent. See below for the instructions.
-
-**************	ALTERNATIVE: MULTICORPORA COMPARISON	***************
-GOAL: Preprocess cha files -- this we did for a project comparing across registers
-The script takes one parent directory with any level of embedding (A typical directory structure would be one root folder and sub-folders containing the different corpora. The root folder could be CDS or ADS). For each transcript, it will generate a folder bearing the transcript name and it will contain all the output files relative to that transcript.
-The script also genarates 2 files: one with basic info about the corpus: corpus path, filename, child's age, number of speakers, identity of speakers, number of adults. The second file will list the processed files.
-
-1. Open "clean_corpus.sh" and change the variables as indicated. Save the file and run bash script a terminal window by typing: "bash clean_corpus.sh"
-
-2. Alternatively, if you don't want to run the script, you can do the following:
-	a) Adapt the following variables, being careful to provide absolute paths. Then copy and paste these lines onto a terminal window
-PATH_TO_SCRIPTS="YOUR_ABSOLUTE_PATH_TO_SCRIPTS"	#path to chaCleanUp_human.text & cleanCha2phono_human.text - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
-INPUT_CORPUS="YOUR_ABSOLUTE_PATH_TO_ROOT_DIRECTORY_WITH_ALL_CORPORA" #E.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
-CHA_FOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_CHA_FILES_WILL_BE_STORED" #E.g. CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"- NOTICE THE / AT THE END OF THE NAME
-RESFOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_OUTPUT_FILES_WILL_BE_STORED"	#E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
-OUTPUT_FILE="YOUR_ABSOLUTE_PATH_TO_WHERE_INFO_FILE_ABOUT_CORPORA_WILL_BE_STORED" #E.g OUTPUT_FILE="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
-OUTPUT_FILE2="YOUR_ABSOLUTE_PATH_TO_LIST_OF_PROCESSED_FILES" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
-APPEND1="whatever you would like to be appended to the corpus folder that will store all cha files" #E.g. APPEND1="_cha"
-APPEND2="whatever you would like to be appended to the corpus folder that will store all output files" #E.g. APPEND2="_res"
-APPEND3="whatever you would like to be appended to all output files when they have been created" #E.g. APPEND3="_cds"
-LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
-
-	b) Open and adapt if necessary chaFileCleanUp_human.text, particularly the two parts that are marked with "Attention" - this concerns data selection and clean up of common errors.
-
-	c) Copy and paste these lines onto a terminal window. This will run the clean-up scripts and create the output files:
-mkdir -p $CHA_FOLDER	#create folder that will contain all CHA files
-mkdir -p $RES_FOLDER	#create folder that will contain all output files
-python $PATH_TO_SCRIPTS/otherScripts/extract_childes_info.py $INPUT_CORPUS $OUTPUT_FILE
-echo "done extracting info from corpora"
-for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 level down)
-	cd $CORPUSFOLDER
-	SUBCORPUS_IN=$CHA_FOLDER$(basename $CORPUSFOLDER)$APPEND1/	
-	mkdir -p $SUBCORPUS_IN	#get name of corpus and create the folder with that name+APPEND1 - E.g. "Bernstein_cha" (will contain all cha files for Bernstein corpus)
-	find $CORPUSFOLDER -iname '*.cha' -type f -exec cp {} $SUBCORPUS_IN \;	#search and copy all cha files to the relevant corpus
-	SUBCORPUS_OUT=$RES_FOLDER$(basename $CORPUSFOLDER)$APPEND2/	
-	mkdir -p $SUBCORPUS_OUT	#get name of corpus and create folder with that name+APPEND2 - E.g. "Bernstein_res" (will contain all output files for Bernstein corpus)
-	for f in $SUBCORPUS_IN/*; do	#loop through all cha files
-		#Notice there is a subselection - only docs with 1 adult are processed
-		NADULTS=`grep "@ID" < $f | grep -v -i 'Sibl.+\|Broth.+\|Sist.+\|Target_.+\|Child\|To.+\|Environ.+\|Cousin\|Non_Hum.+\|Play.+' | wc -l`
-		if [ $NADULTS == 1 ];  then
-			SUBCORPUS_OUT_LEVEL2=$SUBCORPUS_OUT$(basename "$f" .cha)$APPEND3/
-			mkdir -p $SUBCORPUS_OUT_LEVEL2 #get filename and create folder with that name+APPEND3 - E.g. "alice1_cds" (will contain all output files for transcript Alice1 in the Bernstein corpus)
-			KEYNAME=$(basename "$f" .cha)
-			cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
-			bash ./chaFileCleanUp_human.text $f $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
-			echo "processed file $f" >> $OUTPUT_FILE2
-			bash ./cleanCha2phono_human.text $KEYNAME $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
-		fi
-	done
-done
-cd $RES_FOLDER
-find . -type d -empty -delete #remove empty folders for non-processed corpora
-echo "done removing empty folders"
-
-
-**************	ALTERNATIVE: BUCKEYE INPUT	***************
-
+*** Alternative 2: BUCKEYE
 1. Adapt the following variables, being careful to provide absolute paths. Then copy and paste these 4 lines onto a terminal window
 
 
@@ -107,35 +44,13 @@ LANGUAGE="english" #right now, only options is english -- NOTICE, IN SMALL CAPS
 3. Run the scripts by navigating to the folder and launching them:
 cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
 ./fromBuckeye2clean_human.text $KEYNAME $RAWFOLDER $RESFOLDER $LANGUAGE
-./cleanCha2phono_human.text $KEYNAME $RESFOLDER $LANGUAGE
+
+********************** STEP 2: Phonologizing ******************
 
 
-**************SUBROUTINE: ADDING WORDS TO THE DICTIONARY***************
-1. Before starting, check whether there is a newer version of the dictionary on our shared osf site.
-Download the dict-Brent.txt from osf.io/vg4wx
-Open it and check the first line
 
-Separately, open your dict-Brent and check the first line:
-database_creation/update_dictionary/data/dict-Brent.txt
 
-If the one on the website is newer, then put it in /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/update_dictionary/data/ (removing/replacing the older one).
-
-2. Now open /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/update_dictionary/data/dict-Brent.txt and update the first line with your name and date (YEAR-MONTH-DAY is ideal).
-
-3. Open the file containing the list of words that you need to add (ADD-SORTED - see step 4 above).
-
-4. Now starting from the top, add the words to the dictionary by copy+pasting similar words (or typing in, in which case be really careful with the format by looking at other words with a similar pronunciation). I usually stop at words that have a frequency of 1.
-
-5. In a terminal window, navigate to the scripts directory in mother folder & run the three scripts there exactly as follows:
-$ cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/update_dictionary/scripts
-$ ./update_dictionary.text
-
-6. This will result in the dictionaries inside /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/fromCHAtoSND/input being updated, so next time that you try to set up a corpus for analysis, these words will be found -- so normally you will re-do step 3 in Part 1 above.
-
-IMPORTANT!!! Please email me your new version of the dict-Brent.txt file at alecristia@gmail.com so I can post it.
-
-********************** PART 2 ******************
-GOAL: segmenting a corpus
+********************** STEP 3: Segmenting  ******************
 
 1. In a terminal window, navigate to the algoComp/ subfolder
 

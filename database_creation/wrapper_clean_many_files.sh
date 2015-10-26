@@ -1,16 +1,19 @@
 #Wrapper written by Xuan Nga Cao to clean up a large number of talkbank+childes corpora, one transcript at a time
 
+# The script takes one parent directory with any level of embedding, for instance one root folder and sub-folders containing the different corpora, each of which contains one transcript per child or recording session. For the root folder, it will generate a folder bearing the root folder name and containing all the output files relative to that root and all the corpora included in it. It generates 2 files: one with basic info about the corpus: corpus path, filename, child's age, number of speakers, identity of speakers, number of adults. The second file will list the processed files.
+
 # Adapt the following variables, being careful to provide absolute paths
-PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"	#path to the 2 clean-up scripts: chaCleanUp_human.text & cleanCha2phono_human.text
-INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"	#path to the root directory containing all the corpora
-CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"	#name and path to folder that will contain all CHA files - this folder will be created when running the script
-RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" #name and path to folder that will contain all output files - this folder will be created when running the script
-OUTPUT_FILE="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.csv" #path and name for file containing the basic info about the corpora"
-OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt" #path and name for file containing list of processed file"
-APPEND1="_cha"	#whatever you would like to be appended to the corpus folder that will store all cha files
-APPEND2="_res"	#whatever you would like to be appended to the corpus folder that will store all output files
-APPEND3="_cds"	#whatever you would like to be appended to all output files when they have been created
-LANGUAGE="english"	#right now, only options are qom, english -- NOTICE, IN SMALL CAPS
+PATH_TO_SCRIPTS="YOUR_ABSOLUTE_PATH_TO_SCRIPTS"	#path to chaCleanUp_human.text & cleanCha2phono_human.text - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
+INPUT_CORPUS="YOUR_ABSOLUTE_PATH_TO_ROOT_DIRECTORY_WITH_ALL_CORPORA" #E.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
+CHA_FOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_CHA_FILES_WILL_BE_STORED" #E.g. CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"- NOTICE THE / AT THE END OF THE NAME
+RESFOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_OUTPUT_FILES_WILL_BE_STORED"	#E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+OUTPUT_FILE="YOUR_ABSOLUTE_PATH_TO_WHERE_INFO_FILE_ABOUT_CORPORA_WILL_BE_STORED" #E.g OUTPUT_FILE="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
+OUTPUT_FILE2="YOUR_ABSOLUTE_PATH_TO_LIST_OF_PROCESSED_FILES" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
+APPEND1="whatever you would like to be appended to the corpus folder that will store all cha files" #E.g. APPEND1="_cha"
+APPEND2="whatever you would like to be appended to the corpus folder that will store all output files" #E.g. APPEND2="_res"
+APPEND3="whatever you would like to be appended to all output files when they have been created" #E.g. APPEND3="_cds"
+LANGUAGE="english"   #CURRENT options qom, english -- notice small caps
+
 
 
 #This part of the script does not need to be modified
@@ -34,13 +37,19 @@ for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 le
 			mkdir -p $SUBCORPUS_OUT_LEVEL2 #get filename and create folder with that name+APPEND3 - E.g. "alice1_cds" (will contain all output files for transcript Alice1 in the Bernstein corpus)
 			KEYNAME=$(basename "$f" .cha)
 			cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
-			bash ./chaFileCleanUp_human.text $f $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
+			SELFILE=$(basename "$CHAFILE" .cha)"-includedlines.txt"
+
+			bash ./ancillaryScripts/cha2sel.sh $f $SELFILE 
+
+			ORTHO=$(basename "$CHAFILE" .cha)"-ortholines.txt"
+
+			bash ./ancillaryScripts/selcha2clean.sh $SELFILE $ORTHO 
 			echo "processed file $f" >> $OUTPUT_FILE2
-			bash ./cleanCha2phono_human.text $KEYNAME $SUBCORPUS_OUT_LEVEL2 $LANGUAGE
 		fi
 	done
 done
 cd $RES_FOLDER
 find . -type d -empty -delete #remove empty folders for non-processed corpora
 echo "done removing empty folders"
+
 
