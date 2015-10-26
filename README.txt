@@ -14,9 +14,9 @@ The necessary scripts are found in the folder called database_creation
 
 *** Alternative 1: .cha files
 
-1. Open and adapt cha2sel.sh, particularly the parts marked with "Attention". By doing this, you are selecting which speakers (lines) will be analyzed.
+1. Open and adapt scripts/cha2sel.sh, particularly the parts marked with "Attention". By doing this, you are selecting which speakers (lines) will be analyzed.
 
-2. Open and adapt selcha2clean.sh, particularly the parts marked with "Attention". By doing this you are correcting common misspellings in your database
+2. Open and adapt scripts/selcha2clean.sh, particularly the parts marked with "Attention". By doing this you are correcting common misspellings in your database
 
 3. Open and adapt one of the wrappers or create a new one, such as:
 wrapper_clean_many_files.sh
@@ -56,14 +56,15 @@ The necessary scripts are found in the folder called phonologization
 This step is (internally) very different depending on whether you are analyzing Qom or English (the two languages we have worked with so far). There is one example wrapper that contains information for phonologizing both languages:
 wrapper_oneFilePerCorpus.sh
 
-And another example wrapper that phonologizes all files within the list produced by wrapper_clean_many_files.sh in Step 1.
+And another example wrapper that phonologizes all files within the list produced by wrapper_clean_many_files.sh in Step 1. #NOTE! this wrapper is actually not finished; it would be the version that works with the multicorpora that Xuan Nga has been analyzing...
 
 
 ********************** STEP 3: Segmenting  ******************
+The necessary scripts are found in the folder called algoComp
 
 1. In a terminal window, navigate to the algoComp/ subfolder
 
-2. If you didn't do it before (PART 1), adapt the following variables
+2. Adapt the following variables
 and copy-paste them into a terminal 
 
 ABSPATH="`pwd`/"
@@ -83,8 +84,6 @@ Follow one the 3.1 or 3.2 alternatives
 
 3.2. Compute it on the cluster
 
-TODO These part need to be tested/reviewed
-
 If you want to run the segmentation process on a cluster managed by
 Sun Grid Engine ('qsub' command needed), provide a 4th argument to the
 ./segment_one_corpus.sh script. Only the absence/presence of the 4th
@@ -98,10 +97,7 @@ details.
 
 
 
-4. This will result in many files being added to your results directory
-(specified in step 2 of this Part 2). The most interesting one
-might be the one called _<YOUR KEYNAME>-cfgold.txt, which looks like
-this:
+4. This will result in many files being added to your results directory. The most interesting one might be the one called _<YOUR KEYNAME>-cfgold.txt, which looks like this:
 
 algo token_f-score token_precision token_recall boundary_f-score boundary_precision boundary_recall
 dibs 0.2353 0.3118 0.189 0.4861 0.6915 0.3748
@@ -111,8 +107,8 @@ ag 0.7242 0.6866 0.766 0.8792 0.8271 0.9384
 
 
 If you want to see how each algorithm segmented the corpus, you can
-look at the files ending with -cfgold. (The true segmentation is in
-the file ending with -gold, as explained in 6b of Part 1).
+look at the files ending with -cfgold. (The true segmentation is usually in
+the file ending with -gold).
 
 If you're interested in the highest frequency words each algorithm
 found, they are in the files ending with freq-top (top 10k words).
@@ -128,8 +124,6 @@ so that the originals are kept in this computer):
     cd <the mother folder of the res_folders>
     mkdir cfgold_results
     cp res_*/_*gold.txt results/
-    rm res_*/*unicode*.txt
-    rm res_*/*klatt*.txt
     rm res_*/*all.txt
     rm res_*/*output.txt
     rm res_*/*lines.txt
