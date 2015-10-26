@@ -19,9 +19,9 @@ for f in ${CHAFOLDER}*.cha
    do
 #	echo "$f"
 
-	bash ./ancillaryScripts/cha2sel.sh $f $inclines 
+	bash ./scripts/cha2sel.sh $f $inclines 
 
 done
 
-bash ./ancillaryScripts/selcha2clean.sh $inclines $ortho
+bash ./scripts/selcha2clean.sh $inclines $ortho
 
