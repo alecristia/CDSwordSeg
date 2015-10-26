@@ -1,50 +1,19 @@
 #!/bin/sh
-# Cleaning up cha files in prep to generating a phono format
-# IMPORTANT!! Includes data selection
-# Alex Cristia alecristia@gmail.com 2015-08-25
+# cleaning up selected lines from cha files in prep to generating a phono format
+# Alex Cristia alecristia@gmail.com 2015-10-26
 
 #########VARIABLES
 #Variables that have been passed by the user
-CHAFILE=$1
-RESFOLDER=$2
-LANGUAGE=$3
-
-#Variables that will probably not change
-SCRIPTS="fromCHAtoSND/scripts/"
+SELFILE=$1
+ORTHO=$2
 #########
 
-
-
-inclines=$(basename "$CHAFILE" .cha)"-includedlines.txt"
-ortho=$(basename "$CHAFILE" .cha)"-ortholines.txt"
-
-#rm -r $RESFOLDER
-#mkdir $RESFOLDER
-
-echo "cleaning $CHAFILE"
-
-#echo "now working on $CHAFOLDER"
-#chomp CHA files to leave only text
-
-j=$CHAFILE
-#  do
-#	echo "$j"
-
-#********** A T T E N T I O N ***************#
-#Modify this section to select the lines you want, for example here, we exclude speech by children and non-humans
-
-	iconv -f ISO-8859-1 "$j" |
-	 grep '^*' |  
-grep -v -i 'Sibl.+\|Broth.+\|Sist.+\|Target_.+\|Child\|To.+\|Environ.+\|Cousin\|Non_Hum.+\|Play.+' |
-	iconv -t ISO-8859-1 >> $RESFOLDER$inclines
-
-#*******************************************#
-#done
+echo "Cleaning $SELFILE"
 
 
 #replacements to clean up punctuation, etc. -- usually ok regardless of the corpus
 
-iconv -f ISO-8859-1 "$RESFOLDER$inclines" |
+iconv -f ISO-8859-1 "$SELFILE" |
 sed 's/^....:.//g' | 
 sed "s/\_/ /g" | 
 tr -d '\"' | 
@@ -109,8 +78,7 @@ awk '{gsub("\"",""); print}' > tmp.tmp
 	sed 's/ oo / oh /g' | 
 	sed 's/ohh/oh/g' | 
 	sed "s/ im / I\'m /g" | 
-	iconv -t ISO-8859-1 > "$RESFOLDER$ortho"
+	iconv -t ISO-8859-1 > "$ORTHO"
 
 
 
-echo "Done with cleaning"
