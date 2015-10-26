@@ -4,6 +4,7 @@ tests/
 zarchive_versions/
 algoComp/algos/AG/output/
 algoComp/algos/AG/input/
+algoComp/scripts/*pyc
 algoComp/algos/*/input.*
 algoComp/algos/PUDDLE/
 *.o
