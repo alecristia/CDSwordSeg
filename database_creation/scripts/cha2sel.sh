@@ -18,7 +18,8 @@ echo "selecting speakers from $CHAFILE"
 
 	iconv -f ISO-8859-1 "$CHAFILE" |
 	 grep '^*' |  
-grep -v -i 'SI.\|BR.\|CHI\|TO.\|ENV\|BOY\|NON' |
+grep -v 'SI.\|BR.\|CHI\|TO.\|ENV\|BOY\|NON' |   #leave this line uncommented to get rid of all child speakers
+grep 'MOT' |   #leave this line uncommented to focus only on mother's speech
 	iconv -t ISO-8859-1 >> $SELFILE
 
 #*******************************************#

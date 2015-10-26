@@ -5,15 +5,16 @@
 #########VARIABLES
 #Variables to modify
 KEYNAME="bernsteinads" #pick a nice name for your phonological corpus, because this keyname will be used for every output file!
-CHAFOLDER="/fhgfs/bootphon/scratch/acristia/data/Interview/" #must exist and contain cha files - NOTICE THE / AT THE END OF THE NAME
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/res_bernsteinads/"   #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
-LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
+CHAFOLDER="/Users/acristia/Documents/databases/Bernstein/Interview/" #must exist and contain cha files - NOTICE THE / AT THE END OF THE NAME
+RESFOLDER="/Users/acristia/Documents/tests/bernsteinads/"   #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
 #########
+
+mkdir $RESFOLDER
 
 inclines="$RESFOLDER${KEYNAME}-includedlines.txt"
 ortho="$RESFOLDER${KEYNAME}-ortholines.txt"
 
-
+touch $inclines 
 
 for f in ${CHAFOLDER}*.cha
    do
