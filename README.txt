@@ -70,6 +70,7 @@ and copy-paste them into a terminal
 ABSPATH="`pwd`/"
 KEYNAME="bernsteinads"
 RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteinads/"
+RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/"
 
 3. Run segmentation as follows:
 
@@ -177,8 +178,8 @@ a different version of adaptor grammar -- ask Alex about it.
 Tests:
 	mini	oberon	macbook
 1.	OK	OK
-2.	fail	
-3.	( )
+2.	fail	OK
+3.	( )	
 
 errors mac mini phonologize
 Traceback (most recent call last):

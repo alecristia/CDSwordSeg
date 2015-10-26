@@ -14,7 +14,7 @@ ALGO="ngrams"
 cd ${ABSPATH}algos/ngrams
 
 # Remove word boundaries to create input:
-sed 's/;eword/;esyll/g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt  > input.txt
+sed 's/;eword/;esyll/g'  $RESFOLDER$KEYNAME-tags.txt  > input.txt
 
 # actual algo running
 ./mkngram.sh --syll input.txt > $RESFOLDER$KEYNAME-${ALGO}-freq-all.txt

@@ -16,7 +16,7 @@ cd ${ABSPATH}algos/TPs
 
 # Reformat the test file for segmentation:
 
-sed 's/ //g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;esyll/ /g' | sed 's/;eword/ /g' | sed 's/  / /g' | sed 's/ $//g' | tr '\n' '?' | sed 's/?/ UB /g'  > syllableboundaries_marked.txt
+sed 's/ //g'  $RESFOLDER$KEYNAME-tags.txt | sed 's/;esyll/ /g' | sed 's/;eword/ /g' | sed 's/  / /g' | sed 's/ $//g' | tr '\n' '?' | sed 's/?/ UB /g'  > syllableboundaries_marked.txt
 
 
 # Actual algo running

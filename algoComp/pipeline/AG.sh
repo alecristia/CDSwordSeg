@@ -31,10 +31,10 @@ cd ${ABSPATH}algos/AG
 
 # Remove spaces within words and syllable boundaries, and replace word
 # tags with spaces to create gold:
-sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | tr -d ' ' > ${RESFOLDER}input.gold
+sed 's/;esyll//g'  $RESFOLDER$KEYNAME-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | tr -d ' ' > ${RESFOLDER}input.gold
 
 # Remove word and syllable tags to create input:
-sed 's/;esyll//g'  $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | sed 's/  */ /g'  > ${RESFOLDER}input.ylt
+sed 's/;esyll//g'  $RESFOLDER$KEYNAME-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | sed 's/  */ /g'  > ${RESFOLDER}input.ylt
 
 # actual algo running
 $GRAMMARFILE $3
