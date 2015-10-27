@@ -6,7 +6,13 @@ Dependancies
 
 To run this you need **festival** installed on your system.  See
 http://www.cstr.ed.ac.uk/projects/festival/
-On Debian simply run 'apt-get install festival'
+On Debian simply run 'apt-get install festival'. Otherwise,
+visit http://www.festvox.org/docs/manual-2.4.0/festival_6.html#Installation
+For example http://www.cstr.ed.ac.uk/downloads/festival/2.4/
+One doc is in
+http://pkgs.fedoraproject.org/repo/pkgs/festival/festdoc-1.4.2.tar.gz/md5/faabc25a6c1b11854c41adc257c47bdb/
+And the voices for instance in 
+http://www.cstr.ed.ac.uk/downloads/festival/2.4/voices/
 
 Examples
 --------
@@ -26,7 +32,7 @@ The program may print on stderr something like:
   UniSyn: using default diphone ax-ax for y-pau
 
 This is related to wave synthesis (done by festival during
-phonologization). It should be usefull to overload this configuration
+phonologization). It should be useful to overload this configuration
 if the phonologization takes too long (I began this but it seems a bit
 tricky and time consuming).
 
@@ -78,7 +84,7 @@ def preprocess(filein):
     return res
 
 
-def process(text, script='template.scm'):
+def process(text, script='scripts/template.scm'):
     """Return the syllabic structure of *text* as parsed by a festival *script*.
 
     This function delegates to **festival** the *text* analysis and

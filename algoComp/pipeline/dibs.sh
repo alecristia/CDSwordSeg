@@ -17,11 +17,11 @@ cd ${ABSPATH}algos/DiBS
 # boundaries to this end (we remove syllable boundaries, which are not
 # needed):
 
-head -200 $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;esyll//g' > clean_train.txt
+head -200 $RESFOLDER$KEYNAME-tags.txt | sed 's/;esyll//g' > clean_train.txt
 
 # Remove word and syllable boundaries to create the test file that
 # will be segmented:
-sed 's/;esyll//g' $RESFOLDER$KEYNAME-text-klatt-syls-tags.txt | sed 's/;eword//g' | sed 's/  / /g' > clean_test.txt
+sed 's/;esyll//g' $RESFOLDER$KEYNAME-tags.txt | sed 's/;eword//g' | sed 's/  / /g' > clean_test.txt
 
 # Actual algo running
 python apply-dibs.py clean_train.txt clean_test.txt dirty_output.txt diphones_output.txt
