@@ -13,7 +13,7 @@ DBFOLDER=$1		#location of the folder containing the database, this will almost c
 #INPUT Files - check that they are there
 YLTFILE=$DBFOLDER"input.ylt"	#location of the file containing the database in ylt format, this will almost certainly change
 GOLDFILE=$DBFOLDER"input.gold"	#location of the file containing the database in gold format, this will almost certainly change
-GRAMMARFILE="grammars/Colloq0_enKlatt.lt" 		#location of the file holding the grammar, this will almost certainly change
+GRAMMARFILE="grammars/Colloq0_enFestival.lt" 		#location of the file holding the grammar, this will almost certainly change
 
 #OUTPUT files - they won't be there, not created yet, but check names to see if they make sense to you or you'd like them to be called differently
 RUNFILE="run"			#beginning of the name for a run file, this will probably not change (but you can change it if you want to)

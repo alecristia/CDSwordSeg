@@ -49,9 +49,9 @@ cd ${ABSPATH}scripts
 
 # Final clean up
 cd $RESFOLDER
-rm *.seg
-rm *.wlt
-rm *.prs
-rm input.*
+#rm *.seg
+#rm *.wlt
+#rm *.prs
+#rm input.*
 
 echo "done with AG"
