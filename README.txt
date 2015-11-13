@@ -8,6 +8,15 @@ Our current pipeline involves three steps:
 2. Phonologization. Takes a (set of) orthographic (clean) output(s) and converts it (them) into a surface phonological form.
 3. Segmentation. Takes a phonological-like text transcript and returns one or several versions of the same corpus, with automatically-determined word boundaries, as well as lists of the most frequent words, and all this based on a selection of algorithms (chosen by user).
 
+********************** TODO  ******************
+*** troubleshoot oberon on step 3 segmentation, which boils down to the following 4
+*** check problem with TP: performances too low
+*** check puddle: no output
+*** check grammar for AG
+*** odd that performance for dibs is 1pc lower with the new phon set, no?? maybe forget, since we will rerun everything anyway...
+
+*** implement phillips
+*** add colloc3syll
 
 ********************** STEP 1: Database creation ******************
 The necessary scripts are found in the folder called database_creation
@@ -20,11 +29,18 @@ The necessary scripts are found in the folder called database_creation
 
 3. Open and adapt one of the wrappers or create a new one, such as:
 wrapper_clean_many_files.sh
-wrapper_oneFilePerCorpus.shFurther instructions are provided inside those files.
+wrapper_oneFilePerCorpus.sh
+
+Further instructions are provided inside those files.
 
 4. Run the scripts by navigating to the folder and launching them:
 cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
 ./wrapper_clean_many_files.sh
+
+OR
+
+./wrapper_oneFilePerCorpus.sh
+
 
 NOTES:
 - YOUR_ABSOLUTE_PATH_GOES_HERE is the absolute path leading to your local copy of database_creation
@@ -59,7 +75,7 @@ wrapper_oneFilePerCorpus.sh
 And another example wrapper that phonologizes all files within the list produced by wrapper_clean_many_files.sh in Step 1. #NOTE! this wrapper is actually not finished; it would be the version that works with the multicorpora that Xuan Nga has been analyzing...
 
 
-********************** STEP 3: Segmenting  ******************
+********************** STEP 3: Segmentation  ******************
 The necessary scripts are found in the folder called algoComp
 
 1. In a terminal window, navigate to the algoComp/ subfolder
@@ -69,8 +85,8 @@ and copy-paste them into a terminal
 
 ABSPATH="`pwd`/"
 KEYNAME="bernsteinads"
-RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteinads/"
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/"
+RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteinads/" #macbook
+RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/" #oberon
 
 3. Run segmentation as follows:
 
@@ -176,10 +192,10 @@ a different version of adaptor grammar -- ask Alex about it.
 
 ***********************
 Tests:
-	mini	oberon	macbook
-1.	OK	OK
-2.	fail	OK
-3.	( )	
+		mini	oberon	macbook
+1.database	OK	OK
+2.phonol	fail	OK
+3.segment	( )	
 
 errors mac mini phonologize
 Traceback (most recent call last):
