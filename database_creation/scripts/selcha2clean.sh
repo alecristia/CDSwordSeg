@@ -46,7 +46,8 @@ sed 's/@u//g' |
 sed 's/@c//g' | 
 sed "s/\' / /g"  | 
 sed 's/  / /g' | 
-sed 's/^ //g' |
+sed 's/^[ ]*//g' |
+sed '/^$/d' |
 awk '{gsub("\"",""); print}' > tmp.tmp
 
 
