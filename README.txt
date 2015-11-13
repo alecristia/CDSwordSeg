@@ -8,6 +8,13 @@ Our current pipeline involves three steps:
 2. Phonologization. Takes a (set of) orthographic (clean) output(s) and converts it (them) into a surface phonological form.
 3. Segmentation. Takes a phonological-like text transcript and returns one or several versions of the same corpus, with automatically-determined word boundaries, as well as lists of the most frequent words, and all this based on a selection of algorithms (chosen by user).
 
+********************** TODO  ******************
+*** troubleshoot oberon on segmentation
+*** check adaptation scripts to new phon set
+*** check problem with TP
+*** check puddle
+*** implement phillips
+*** add colloc3syll
 
 ********************** STEP 1: Database creation ******************
 The necessary scripts are found in the folder called database_creation
@@ -176,10 +183,10 @@ a different version of adaptor grammar -- ask Alex about it.
 
 ***********************
 Tests:
-	mini	oberon	macbook
-1.	OK	OK
-2.	fail	OK
-3.	( )	
+		mini	oberon	macbook
+1.database	OK	OK
+2.phonol	fail	OK
+3.segment	( )	
 
 errors mac mini phonologize
 Traceback (most recent call last):
