@@ -6,6 +6,7 @@
 #Variables that have been passed by the user
 SELFILE=$1
 ORTHO=$2
+RESFOLDER=$3
 #########
 
 echo "Cleaning $SELFILE"
@@ -13,7 +14,7 @@ echo "Cleaning $SELFILE"
 
 #replacements to clean up punctuation, etc. -- usually ok regardless of the corpus
 
-iconv -f ISO-8859-1 "$SELFILE" |
+iconv -f ISO-8859-1 "$RESFOLDER$SELFILE" |
 sed 's/^....:.//g' | 
 sed "s/\_/ /g" | 
 tr -d '\"' | 
@@ -79,7 +80,7 @@ awk '{gsub("\"",""); print}' > tmp.tmp
 	sed 's/ oo / oh /g' | 
 	sed 's/ohh/oh/g' | 
 	sed "s/ im / I\'m /g" | 
-	iconv -t ISO-8859-1 > "$ORTHO"
+	iconv -t ISO-8859-1 > "$RESFOLDER$ORTHO"
 
 
 
