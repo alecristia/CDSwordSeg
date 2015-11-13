@@ -31,6 +31,7 @@ tr -d ','  |
 tr -d '(' | 
 tr -d ')' | 
 tr -d ':'  | 
+tr -d '^U' |
 sed 's/&[^ ]*//g' | 
 grep -v '\[- spa\]' | 
 sed 's/[^ ]*@sspa//g' | 
