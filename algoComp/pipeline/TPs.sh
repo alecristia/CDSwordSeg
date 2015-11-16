@@ -25,8 +25,8 @@ python TPsegmentation.py syllableboundaries_marked.txt >  $RESFOLDER$KEYNAME-${A
 
 
 # Local clean up
-# rm syllable*
-# rm temp*
+ rm syllable*
+ rm temp*
 
 # Do the evaluation
 cd ${ABSPATH}scripts

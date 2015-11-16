@@ -3,10 +3,7 @@ previousResults/
 tests/
 zarchive_versions/
 algoComp/algos/AG/py-cfg-new/*
-algoComp/algos/AG/output/
-algoComp/algos/AG/input/
 algoComp/scripts/*pyc
-algoComp/algos/*/input.*
 *STDIN*
 *.o
 *.d
