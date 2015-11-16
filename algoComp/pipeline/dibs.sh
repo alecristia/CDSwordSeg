@@ -29,6 +29,7 @@ python apply-dibs.py clean_train.txt clean_test.txt dirty_output.txt diphones_ou
 # Clean up the output file & store it in your desired location
 OUTFILE=$RESFOLDER$KEYNAME-$ALGO-output.txt
 sed "s/.*$(printf '\t')//" dirty_output.txt | sed 's/;eword/;aword/g' > $OUTFILE
+sed 's/ //g'  $RESFOLDER$KEYNAME-${ALGO}-output.txt | sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
 
 # Local cleanup
 rm *.txt

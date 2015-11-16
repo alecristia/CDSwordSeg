@@ -25,6 +25,7 @@ gawk -f segment.vowelconstraint.awk clean_test.txt > dirty_output.txt
 # Clean up the output file & store it in your desired location
 OUTFILE=$RESFOLDER$KEYNAME-$ALGO-output.txt
 sed "s/.*://" dirty_output.txt  > $OUTFILE
+sed 's/ //g'  $RESFOLDER$KEYNAME-${ALGO}-output.txt | sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
 
 # Local clean up
 rm *.txt

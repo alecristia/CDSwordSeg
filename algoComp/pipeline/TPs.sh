@@ -21,7 +21,8 @@ sed 's/ //g'  $RESFOLDER$KEYNAME-tags.txt | sed 's/;esyll/ /g' | sed 's/;eword//
 
 
 # Actual algo running
-python TPsegmentation.py syllableboundaries_marked.txt > $RESFOLDER$KEYNAME-${ALGO}-output.txt 
+python TPsegmentation.py syllableboundaries_marked.txt >  $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt 
+
 
 # Local clean up
 # rm syllable*

@@ -11,8 +11,9 @@ Our current pipeline involves three steps:
 ********************** TODO  ******************
 *** troubleshoot oberon on step 3 segmentation, which boils down to the following 4
 - dibs OK though odd that performance for dibs is 1pc lower with the new phon set, no?? maybe forget, since we will rerun everything anyway...
+- ngrams OK
+- TP OK, odd that performance is 2pc higher now
 
-*** check problem with TP: performances too low
 *** check puddle: no output
 *** check grammar for AG: output empty because tags files disappeared -- am I deleting it without noticing??
 

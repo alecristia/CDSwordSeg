@@ -60,8 +60,9 @@ for next in syls[3:]:
 	last=syl
 	syl=next
 cwordsTPa = map(''.join, cwords)
+#print len(cwordsTPa)
 wordsTPa = ' '.join(cwordsTPa)
-sentencesTPa = wordsTPa.replace(" UB ", "\n")[:-2]
+sentencesTPa = wordsTPa.replace("UB ", "\n")[:-2]
 print sentencesTPa
 
 # absolute threshold (Absolute algorithm)
