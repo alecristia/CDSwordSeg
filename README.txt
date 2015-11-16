@@ -10,10 +10,11 @@ Our current pipeline involves three steps:
 
 ********************** TODO  ******************
 *** troubleshoot oberon on step 3 segmentation, which boils down to the following 4
+- dibs OK though odd that performance for dibs is 1pc lower with the new phon set, no?? maybe forget, since we will rerun everything anyway...
+
 *** check problem with TP: performances too low
 *** check puddle: no output
 *** check grammar for AG: output empty because tags files disappeared -- am I deleting it without noticing??
-*** odd that performance for dibs is 1pc lower with the new phon set, no?? maybe forget, since we will rerun everything anyway...
 
 *** implement phillips
 *** add colloc3syll
