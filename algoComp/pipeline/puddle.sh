@@ -28,7 +28,7 @@ sed "s/.*://" dirty_output.txt  > $OUTFILE
 sed 's/ //g'  $RESFOLDER$KEYNAME-${ALGO}-output.txt | sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
 
 # Local clean up
-rm *.txt
+#rm *.txt
 
 # Do the evaluation
 cd ${ABSPATH}scripts

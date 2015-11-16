@@ -12,13 +12,14 @@ Our current pipeline involves three steps:
 *** troubleshoot oberon on step 3 segmentation, which boils down to the following 4
 - dibs OK though odd that performance for dibs is 1pc lower with the new phon set, no?? maybe forget, since we will rerun everything anyway...
 - ngrams OK
-- TP OK, odd that performance is 2pc higher now
+- TP OK, odd that performance is 2pc higher now; notice that standard format cannot be created now because spaces between letters are lost
+- AG OK, standard format cannot be created bc spaces bet letters lost
 
 *** check puddle: no output
-*** check grammar for AG: output empty because tags files disappeared -- am I deleting it without noticing??
 
 *** implement phillips
 *** add colloc3syll
+*** check branching in of trs-based pipeline
 
 ********************** STEP 1: Database creation ******************
 The necessary scripts are found in the folder called database_creation
