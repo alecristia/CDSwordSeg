@@ -16,9 +16,10 @@
 # AND constraint of word boundary not being across word internal biphone
 
 function vowel(vow){
-  if(vow~/\#/ || vow~/\{/ || vow~/V/ || vow~/\$/ || vow~/6/ || vow~/@/ || vow~/2/ || vow~/E/ || vow~/3/ || vow~/1/ || vow~/I/ || vow~/i/ || vow~/5/ || vow~/4/ || vow~/U/ || vow~/u/) return 1;
+  if(vow~/aa/ || vow~/ae/ || vow~/ah/ || vow~/ao/ || vow~/aw/ || vow~/ax/ || vow~/ay/ || vow~/eh/ || vow~/er/ || vow~/ey/ || vow~/ih/ || vow~/iy/ || vow~/ow/ || vow~/oy/ || vow~/uh/ || vow~/uw/ ) return 1;
   else return 0;
 }
+
 
 BEGIN{
   c=0;
