@@ -8,10 +8,10 @@ To run this you need **festival** installed on your system.  See
 http://www.cstr.ed.ac.uk/projects/festival/
 On Debian simply run 'apt-get install festival'. Otherwise,
 visit http://www.festvox.org/docs/manual-2.4.0/festival_6.html#Installation
-For example http://www.cstr.ed.ac.uk/downloads/festival/2.4/
+For example http://www.cstr.ed.ac.uk/downloads/festival/2.4/.
 One doc is in
 http://pkgs.fedoraproject.org/repo/pkgs/festival/festdoc-1.4.2.tar.gz/md5/faabc25a6c1b11854c41adc257c47bdb/
-And the voices for instance in 
+And the voices for instance in
 http://www.cstr.ed.ac.uk/downloads/festival/2.4/voices/
 
 Examples
@@ -64,7 +64,7 @@ def is_festival_compliant(line):
     """Return True is the string *line* begin and end whith double quotes."""
     if len(line) < 3:
         return False
-    return line[0] == line[-2] == '"'
+    return line[0] == line[-2] == '"' # line[-1] is '\n'
 
 
 def preprocess(filein):
@@ -78,6 +78,7 @@ def preprocess(filein):
     res = ''
     with open(filein, 'r') as fin:
         for line in fin:
+            line = line.strip()
             line = (line if is_festival_compliant(line)
                     else '"' + line[:-1] + '"\n')
             res += line
@@ -126,7 +127,8 @@ def postprocess(text):
     for utt in text.split('\n')[:-1]:
         # iterate on words
         for word in lispy.parse(utt):
-        # itererate on syllabes
+            # TODO Check the word is not empty
+            # itererate on syllabes
             for syllabe in word[1:]:
                 #iterate on phoneme
                 for phone in syllabe[1:]:

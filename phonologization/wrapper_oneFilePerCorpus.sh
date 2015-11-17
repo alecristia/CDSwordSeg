@@ -1,5 +1,5 @@
 #!/bin/sh
-# Wrapper to take a single cleaned up transcript and phonologize it 
+# Wrapper to take a single cleaned up transcript and phonologize it
 # Alex Cristia alecristia@gmail.com 2015-10-26
 
 #########VARIABLES
@@ -7,23 +7,28 @@
 KEYNAME="bernsteinads" #basic name of database
 LANGUAGE="english" #right now, only options are qom, english -- NOTICE, IN SMALL CAPS
 
-RESFOLDER="/Users/acristia/Documents/tests/bernsteinads/"	#folder where all versions of the file will be stored
-ORTHO="/Users/acristia/Documents/tests/bernsteinads/bernsteinads-ortholines.txt"   #single file to be phonologized, must exist
+#folder where all versions of the file will be stored
+RESFOLDER="/Users/acristia/Documents/tests/bernsteinads/"
+#single file to be phonologized, must exist
+ORTHO="/Users/acristia/Documents/tests/bernsteinads/bernsteinads-ortholines.txt"
 
-#Oberon version
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/"	#folder where all versions of the file will be stored
-ORTHO="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/bernsteinads-ortholines.txt"   #single file to be phonologized, must exist
+### Oberon version
+
+#folder where all versions of the file will be stored
+RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/"
+#single file to be phonologized, must exist
+ORTHO="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/bernsteinads-ortholines.txt"
 
 #########
 
 if [ "$LANGUAGE" = "qom" ]
    then
 	echo "recognized $LANGUAGE"
-	tr '[:upper:]' '[:lower:]' < "$ORTHO"  | 
-	sed 's/ch/C/g' | 
-	sed 's/sh/S/g' | 
-	sed 's/ñ/N/g' | 
-	tr "'" "Q"  | 
+	tr '[:upper:]' '[:lower:]' < "$ORTHO"  |
+	sed 's/ch/C/g' |
+	sed 's/sh/S/g' |
+	sed 's/ñ/N/g' |
+	tr "'" "Q"  |
 	iconv -t ISO-8859-1 > tmp.tmp
 
 	echo "syllabify-corpus.pl"
