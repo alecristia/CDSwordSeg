@@ -13,6 +13,5 @@ algoComp/scripts/*.pyc
 *.DS_Store
 */*.DS_Store
 */*/*.DS_Store
-phonologization/test/childes/*/*
-/phonologization/scripts/examples
+phonologization/scripts/examples
 phonologization/test/childes/*
