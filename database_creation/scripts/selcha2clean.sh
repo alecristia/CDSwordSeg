@@ -17,6 +17,8 @@ echo "Cleaning $SELFILE"
 iconv -f ISO-8859-1 "$RESFOLDER$SELFILE" |
 sed 's/^....:.//g' | 
 sed "s/\_/ /g" | 
+sed '/^0(.*) .$/d' |
+sed  's/.*$//g' |
 tr -d '\"' | 
 tr -d '\"' | 
 tr -d '\/' | 
@@ -31,15 +33,15 @@ tr -d ','  |
 tr -d '(' | 
 tr -d ')' | 
 tr -d ':'  | 
-tr -d '^U' |
 sed 's/&[^ ]*//g' | 
 grep -v '\[- spa\]' | 
 sed 's/[^ ]*@sspa//g' | 
-sed 's/\[.*\]//g' | 
+sed 's/ \[.*\]//g' | 
 sed 's/xxx//g' | 
 sed 's/www//g' | 
 sed 's/XXX//g' | 
-sed 's/yyy//g' | 
+sed 's/yyy//g' |
+sed 's/0*//g' |
 sed 's/@o//g' | 
 sed 's/@f//g' | 
 sed 's/@q//g' | 
@@ -47,8 +49,12 @@ sed 's/@u//g' |
 sed 's/@c//g' | 
 sed "s/\' / /g"  | 
 sed 's/  / /g' | 
+sed 's/ $//g' | 
+sed 's/^ //g' |
 sed 's/^[ ]*//g' |
+sed 's/ $//g' |
 sed '/^$/d' |
+sed '/^ $/d' |
 awk '{gsub("\"",""); print}' > tmp.tmp
 
 
