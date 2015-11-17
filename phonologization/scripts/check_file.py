@@ -34,7 +34,7 @@ def check_text(text, on_error='raise'):
 
         # look for '\r'
         if '\r' in line and on_error == 'raise':
-            raise RuntimeError("'\r' found on line {}".format(line_nb))
+            raise RuntimeError("'\r' found on line {} in {}".format(line_nb))
         line = line.replace('\r', '')
 
         # look for empty line
@@ -86,9 +86,11 @@ def check_childes():
     # The ortholines file contains the list of all input files in the
     # childes database.
     # $ find test/childes -name '*ortholines.txt' > ortholines
-    for f in open('ortholines'):
-        print(f[:-1])
-        check_file(f[:-1])
+    for f in open('ortholines').read().splitlines():
+        try:
+            check_file(f)
+        except RuntimeError as err:
+            print('{} : {}'.format(f, str(err)))
 
 if __name__ == '__main__':
     #main()
