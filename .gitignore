@@ -2,11 +2,8 @@ MechelexTask1_goalsFromGrant.rtf
 previousResults/
 tests/
 zarchive_versions/
-algoComp/algos/AG/output/
-algoComp/algos/AG/input/
+algoComp/algos/AG/py-cfg-new/*
 algoComp/scripts/*pyc
-algoComp/algos/*/input.*
-algoComp/algos/PUDDLE/
 *STDIN*
 *.o
 *.d
@@ -15,4 +12,5 @@ algoComp/scripts/*.pyc
 *.pyc
 phonologization/examples
 *.DS_Store
-
+*/*.DS_Store
+*/*/*.DS_Store

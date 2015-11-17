@@ -6,7 +6,6 @@ ALGO=$3
 
 ####STEP 1: Evaluate against the gold
 
-sed 's/ //g'  $RESFOLDER$KEYNAME-${ALGO}-output.txt | sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
 
 python evalGold.py -g $RESFOLDER$KEYNAME-gold.txt < $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt > $RESFOLDER$KEYNAME-${ALGO}-cfgold-res.txt
 

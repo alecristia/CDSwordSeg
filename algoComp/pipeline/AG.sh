@@ -37,11 +37,11 @@ sed 's/;esyll//g'  $RESFOLDER$KEYNAME-tags.txt | sed 's/;eword/ /g' |sed '/^$/d'
 sed 's/;esyll//g'  $RESFOLDER$KEYNAME-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | sed 's/  */ /g'  > ${RESFOLDER}input.ylt
 
 # actual algo running
-$GRAMMARFILE $3
+$GRAMMARFILE $RESFOLDER $KEYNAME
 
 # write with standard format
-sed 's/ /;/g' "output/_mbr-Colloc0.seg" | sed 's/./& /g' | sed 's/ ;/;aword/g' > $RESFOLDER$KEYNAME-${ALGO}-output.txt
-
+#sed 's/ /;/g' "${RESFOLDER}_mbr-Colloc0.seg" | sed 's/./& /g' | sed 's/ ;/;aword/g' > $RESFOLDER$KEYNAME-${ALGO}-output.txt
+#sed 's/ //g'  $RESFOLDER$KEYNAME-${ALGO}-output.txt | sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
 
 # Do the evaluation
 cd ${ABSPATH}scripts
@@ -53,5 +53,6 @@ rm *.seg
 rm *.wlt
 rm *.prs
 rm input.*
+rm tmp*
 
 echo "done with AG"

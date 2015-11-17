@@ -23,6 +23,7 @@ def list_cha(input_dir=first_arg):
 
 
 def extract_info(cha_files, out=second_arg):
+    #non_adult_tag = {}
     outfile = open(out, "w")
     outfile.write('dir path\tfilename\tchild age\t# participants\tpartipant type\t# adults\n')
     participant_list = []
@@ -40,7 +41,7 @@ def extract_info(cha_files, out=second_arg):
                 if format_match:
                     child_age = format_match.group(4)
                 else:
-                    #bad formatting for file w1-1005.cha - needed to include this line of code to have it processed
+                    #bad formatting for file w1-1005.cha (brent corpus)- needed to include this line of code to have it processed
                     alternate_format_match = re.match("(.*)\|(.*)\|(MAG)\|([0-9;.]+)\|(.*)", line)
                     if alternate_format_match:
                         child_age = alternate_format_match.group(4)
@@ -53,6 +54,7 @@ def extract_info(cha_files, out=second_arg):
                             non_adult = re.match(r'sibl(.*)|broth(.*)|sist(.*)|Target_Child|child|toy(.*)|environ(.*)|cousin|non_(.*)|play(.*)', adult_type, flags=re.IGNORECASE)
                             if non_adult:
                                 continue
+                                #print (inp, adult_ID, adult_type)
                             else:
                                 adult_list.append(adult_type)
         outfile.write(dirpath + '\t' + bname + '\t' + str(child_age) + '\t' + str(len(participant_list)) + '\t')

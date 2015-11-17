@@ -10,7 +10,7 @@ INPUT_CORPUS="YOUR_ABSOLUTE_PATH_TO_ROOT_DIRECTORY_WITH_ALL_CORPORA" #where you 
 #the following will be created
 CHA_FOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_CHA_FILES_WILL_BE_STORED" #we will make a copy of all cha files that are considered and put them here E.g. CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"- NOTICE THE / AT THE END OF THE NAME
 
-RESFOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_OUTPUT_FILES_WILL_BE_STORED"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_OUTPUT_FILES_WILL_BE_STORED"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
 INPUT_FILES="YOUR_ABSOLUTE_PATH_TO_WHERE_INFO_FILE_ABOUT_CORPORA_WILL_BE_STORED" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
@@ -40,18 +40,18 @@ for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 le
 		#Notice there is a subselection - only docs with 1 adult are processed
 		NADULTS=`grep "@ID" < $f | grep -v -i 'Sibl.+\|Broth.+\|Sist.+\|Target_.+\|Child\|To.+\|Environ.+\|Cousin\|Non_Hum.+\|Play.+' | wc -l`
 		if [ $NADULTS == 1 ];  then
+			if [ $NADULTS == 1 ];  then
 			SUBCORPUS_OUT_LEVEL2=$SUBCORPUS_OUT$(basename "$f" .cha)$APPEND3/
 			mkdir -p $SUBCORPUS_OUT_LEVEL2 #get filename and create folder with that name+APPEND3 - E.g. "alice1_cds" (will contain all output files for transcript Alice1 in the Bernstein corpus)
-			KEYNAME=$(basename "$f" .cha)
 			cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
-			SELFILE=$(basename "$CHAFILE" .cha)"-includedlines.txt"
 
-			bash ./scripts/cha2sel.sh $f $SELFILE 
+			SELFILE=$(basename "$f" .cha)"-includedlines.txt"
+			bash ./scripts/cha2sel.sh $f $SELFILE $SUBCORPUS_OUT_LEVEL2
 
-			ORTHO=$(basename "$CHAFILE" .cha)"-ortholines.txt"
+			ORTHO=$(basename "$f" .cha)"-ortholines.txt"
+			bash ./scripts/selcha2clean.sh $SELFILE $ORTHO $SUBCORPUS_OUT_LEVEL2
 
-			bash ./scripts/selcha2clean.sh $SELFILE $ORTHO 
-			echo "$ORTHO" >> $OUTPUT_FILE2
+			echo "processed $f" >> $OUTPUT_FILE2
 		fi
 	done
 done

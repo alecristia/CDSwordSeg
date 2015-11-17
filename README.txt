@@ -10,13 +10,16 @@ Our current pipeline involves three steps:
 
 ********************** TODO  ******************
 *** troubleshoot oberon on step 3 segmentation, which boils down to the following 4
-*** check problem with TP: performances too low
+- dibs OK though odd that performance for dibs is 1pc lower with the new phon set, no?? maybe forget, since we will rerun everything anyway...
+- ngrams OK
+- TP OK, odd that performance is 2pc higher now; notice that standard format cannot be created now because spaces between letters are lost
+- AG OK, standard format cannot be created bc spaces bet letters lost
+
 *** check puddle: no output
-*** check grammar for AG
-*** odd that performance for dibs is 1pc lower with the new phon set, no?? maybe forget, since we will rerun everything anyway...
 
 *** implement phillips
 *** add colloc3syll
+*** check branching in of trs-based pipeline
 
 ********************** STEP 1: Database creation ******************
 The necessary scripts are found in the folder called database_creation
@@ -189,6 +192,31 @@ SUBROUTINE: ADDING WORDS TO THE DICTIONARY, step 4+
 
 This means that one of your phrases is too long. You might need to use
 a different version of adaptor grammar -- ask Alex about it.
+
+
+- If you get an error
+./do_colloq0_english.sh: line 49: py-cfg-new/py-cfg: cannot execute binary file
+
+this means that something went wrong with the Adaptor Grammar build. Navigate to algos/AG/py-cfg-new and run
+make clean
+make
+
+
+You should see something like the following, with no errors:
+[acristia@oberon py-cfg-new]$ make clean
+rm -fr *.o *.d *.prs *.trace *.wlt *~ core
+[acristia@oberon py-cfg-new]$ make
+g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   gammadist.c -o gammadist.o
+g++ -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing     -c -o py-cfg.o py-cfg.cc
+g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing  mt19937ar.c -o mt19937ar.o
+g++ -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing     -c -o sym.o sym.cc
+g++ gammadist.o py-cfg.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg
+g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -DQUADPREC py-cfg.cc -o py-cfg-quad.o
+g++ gammadist.o py-cfg-quad.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad
+g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp py-cfg.cc -o py-cfg-mp.o
+g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp -DQUADPREC py-cfg.cc -o py-cfg-quad-mp.o
+g++ -fopenmp gammadist.o py-cfg-quad-mp.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad-mp
+
 
 ***********************
 Tests:

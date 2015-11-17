@@ -21,7 +21,7 @@ class Counter(collections.Counter):
 
 """
 for line in fileinput.input(sys.argv[1]): 
-	words = [word.split("-") for word in line.split()]
+	words = [word.split(" ") for word in line.split()]
 
 
 words_all = [word for word in line.split()]
@@ -43,23 +43,44 @@ freq_bigrams_all = Counter(bigrams_all)
 tp_bigrams_all = dict((bigram,float(freq)/freq_syls[bigram[0]]) for bigram,freq in freq_bigrams_all.items())
 TPall = sum(tp_bigrams_all.values())/len(tp_bigrams_all) if len(tp_bigrams_all)!=0 else 0
 
-
-# absolute threshold (Absolute algorithm)
-cwords = []
-last_syl = syls[0]
-last_word = [last_syl]
-cwords.append(last_word)
-#with open(sys.argv[3], "a") as outstreamABS:
-for syl in syls[1:]:
-	if (tp_bigrams_all[last_syl,syl] <= TPall) or last_syl=="UB" or syl=="UB":
-		last_word = []
-		cwords.append(last_word)
-	last_word.append(syl)
-	last_syl=syl
+#local minima (Relative algorithm)
+#with open(sys.argv[3], "a") as outstreamREL:
+cwords=[]
+prelast=syls[0]
+last=syls[1]
+syl=syls[2]
+cword=[prelast,last]
+cwords.append(cword)
+for next in syls[3:]:
+	if (tp_bigrams_all[prelast,last] > tp_bigrams_all[last,syl] < tp_bigrams_all[syl,next]) or last=="UB" or syl=="UB":
+		cword = []
+		cwords.append(cword)
+	cword.append(syl)
+	prelast=last
+	last=syl
+	syl=next
 cwordsTPa = map(''.join, cwords)
+#print len(cwordsTPa)
 wordsTPa = ' '.join(cwordsTPa)
 sentencesTPa = wordsTPa.replace("UB ", "\n")[:-2]
 print sentencesTPa
+
+# absolute threshold (Absolute algorithm)
+#cwords = []
+#last_syl = syls[0]
+#last_word = [last_syl]
+#cwords.append(last_word)
+##with open(sys.argv[3], "a") as outstreamABS:
+#for syl in syls[1:]:
+#	if (tp_bigrams_all[last_syl,syl] <= TPall) or last_syl=="UB" or syl=="UB":
+#		last_word = []
+#		cwords.append(last_word)
+#	last_word.append(syl)
+#	last_syl=syl
+#cwordsTPa = map(''.join, cwords)
+#wordsTPa = ' '.join(cwordsTPa)
+#sentencesTPa = wordsTPa.replace("UB ", "\n")[:-2]
+#print sentencesTPa
 
 
 

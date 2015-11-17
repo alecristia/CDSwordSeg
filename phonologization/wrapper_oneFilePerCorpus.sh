@@ -43,7 +43,7 @@ elif [ "$LANGUAGE" = "english" ]
 	echo "recognized $LANGUAGE"
 
 	echo "using festival"
-	python scripts/phonologize.py $ORTHO -o $RESFOLDER${KEYNAME}-tags_ORIGINAL.txt
+	python scripts/phonologize.py $ORTHO -o $RESFOLDER${KEYNAME}-tags.txt
 
 else
 	echo "Adapt the script to a new language"
@@ -54,4 +54,4 @@ fi
 
 echo "creating gold versions"
 
-sed 's/;esyll//g'  $RESFOLDER${KEYNAME}-tags.txt | sed 's/ //g' | sed 's/;eword/ /g' > $RESFOLDER${KEYNAME}-gold_ORIGINAL.txt
+sed 's/;esyll//g'  $RESFOLDER${KEYNAME}-tags.txt | sed 's/ //g' | sed 's/;eword/ /g' > $RESFOLDER${KEYNAME}-gold.txt
