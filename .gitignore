@@ -14,4 +14,6 @@ algoComp/scripts/*.pyc
 */*.DS_Store
 */*/*.DS_Store
 phonologization/scripts/examples
-phonologization/test
+/phonologization/scripts/bern.out
+/phonologization/scripts/bern.phon
+phonologization/scripts/test/

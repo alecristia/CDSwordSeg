@@ -17,6 +17,9 @@ http://www.cstr.ed.ac.uk/downloads/festival/2.4/voices/
 Examples
 --------
 
+First, have a
+$ python phonologize.py --help
+
 $ echo "hello world" > hello.txt
 $ python phonologize.py hello.txt
 hh ax l ;esyll ow ;esyll ;eword w er l d ;esyll ;eword
@@ -48,6 +51,8 @@ import sys
 import tempfile
 import lispy
 
+DEFAULT_SCRIPT = os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                              'template.scm')
 
 def parse_args():
     """Argument parser for the phonologization script."""
@@ -57,10 +62,14 @@ def parse_args():
     parser.add_argument('-o', '--output',
                         help='output text file (default is to write on stdout)',
                         default=sys.stdout)
+    parser.add_argument('-s', '--script',
+                        help='festival script to be launched on background '
+                        '(default is {})'.format(DEFAULT_SCRIPT),
+                        default=DEFAULT_SCRIPT)
     return parser.parse_args()
 
 
-def is_festival_compliant(line):
+def is_double_quoted(line):
     """Return True is the string *line* begin and end whith double quotes."""
     if len(line) < 3:
         return False
@@ -78,8 +87,8 @@ def preprocess(filein):
     res = ''
     with open(filein, 'r') as fin:
         for line in fin:
-            line = line.strip()
-            line = (line if is_festival_compliant(line)
+            # line = line.strip()
+            line = (line if is_double_quoted(line)
                     else '"' + line[:-1] + '"\n')
             res += line
     return res
@@ -140,13 +149,13 @@ def postprocess(text):
     return res
 
 
-def phonologize(filein, fileout):
+def phonologize(filein, fileout, script):
     """This function provides an easy wrapper to phonologization facilities."""
     # load and format input for festival
     text = preprocess(filein)
 
     # get the syllabe structure of the input
-    text = process(text)
+    text = process(text, script)
 
     # parse it to the output format
     text = postprocess(text)
@@ -155,14 +164,12 @@ def phonologize(filein, fileout):
     if fileout == sys.stdout:
         fileout.write(text)
     else:
-        with open(fileout, 'w') as f:
-            f.write(text)
-
+        open(fileout, 'w').write(text)
 
 def main():
     """Compute the phonologization of an input text through *festival*."""
     args = parse_args()
-    phonologize(args.input, args.output)
+    phonologize(args.input, args.output, args.script)
 
 
 if __name__ == '__main__':
