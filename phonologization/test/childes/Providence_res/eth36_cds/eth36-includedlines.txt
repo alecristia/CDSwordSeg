@@ -1,0 +1,805 @@
+*MOT:	whoa whoa whoa whoa who:a . 14235_16346
+*MOT:	whoa whoa whoa whoa who:a . 16346_19480
+*MOT:	we gotta hook this to your back like a robot , remember ? 19480_23763
+*MOT:	let's make you a little robot today . 23763_26523
+*MOT:	how's that ? 26523_27593
+*MOT:	bleep bleep . 27593_29283
+*MOT:	blonk@o . 29283_29713
+*MOT:	bleep@o bleep@o . 29713_31811
+*MOT:	where's +... 31811_33290
+*MOT:	I got one , too . 33290_34241
+*MOT:	I got mine in my pocket . 34241_35578
+*MOT:	bleep@o bleep@o . 35578_37170
+*MOT:	you gotta walk like this . 37170_38841
+*MOT:	bleep@o bleep@o . 38841_40530
+*MOT:	blunk@o . 40530_41510
+*MOT:	bleep@o bleep@o blunk@o . 41510_42860
+*MOT:	bleep@o bleep@o blunk@o . 42860_44628
+*MOT:	bleep@o bleep@o blunk@o .
+*MOT:	yeah , I guess I could have wheels .
+*MOT:	some robots have wheels .
+*MOT:	what does your robot have ? 49283_53371
+*MOT:	your robot has wheels , right ? 53371_55491
+*MOT:	let's find him . 55491_57860
+*MOT:	that's not +//.
+*MOT:	see , you can see yourse:lf .
+*MOT:	you look different .
+*MOT:	you look the same to me . 67625_69626
+*MOT:	you look like the sweet little boy you always are . 69626_72660
+*MOT:	there ya [: you] go: .
+*MOT:	an you get further and further away you can see more and more of yours +//.
+*MOT:	whoops !
+*MOT:	heh heh heh . 76516_82785
+*MOT:	too far . 82785_84676
+*MOT:	too fa:r . 84676_87556
+*MOT:	let's get in your robot .
+*MOT:	yeah and then you're +...
+*MOT:	you're just in the corner there . 91763_94311
+*MOT:	here we are togethe:r . 94311_99076
+*MOT:	oops . 99076_100165
+*MOT:	there we are together . 100165_102495
+*MOT:	you are growing a lot . 109550_111501
+*MOT:	faster +//.
+*MOT:	whoops .
+*MOT:	which one is that one ?
+*MOT:	is that the smiling one or the frowning one ? 122770_126396
+*MOT:	I was pushed !
+*MOT:	xxx that's right . 130381_133281
+*MOT:	who pushed him ?
+*MOT:	the freight cars pushed him .
+*MOT:	let's find the freight car . 133281_137255
+*MOT:	yeah just leave that there . 137255_141230
+*MOT:	let's find the freight car . 141230_143240
+*MOT:	so they can push Thomas down the hill . 143240_145556
+*MOT:	where's a freight cars ? 145556_149311
+*MOT:	where's Troublesome ? 149311_151195
+*MOT:	where's Troublesome ? 151195_156428
+*MOT:	xxx . 156428_158856
+*MOT:	you like Troublesome best of all , yeah . 166958_169255
+*MOT:	the other freight cars were funny looking , weren't they ? 169255_172126
+*MOT:	there's +//.
+*MOT:	I don't see Troublesome , though . 172126_175151
+*MOT:	did he take a trip somewhere ? 175151_178040
+*MOT:	like under the (.) table or something ? 178040_182568
+*MOT:	oh xxx . 182568_183743
+*MOT:	mhm do you see him under there ? 185715_187493
+*MOT:	mm but look what I see . 187493_189163
+*MOT:	oops . 189163_191016
+*MOT:	see , it's a design inside . 192951_195776
+*MOT:	what color is it ? 200616_202096
+*MOT:	it's kinda [: kind of] white , huh ? 202096_205498
+*MOT:	kinda [: kind of] blue white . 205498_207218
+*MOT:	white blue . 208545_209351
+*MOT:	you wanna load it up into a car ? 209351_210928
+*MOT:	ye:ah let's +//.
+*MOT:	we can't find Troublesome . 214230_216896
+*MOT:	let's see +... 216896_219550
+*MOT:	somehow +... 224255_227076
+*MOT:	u:p , sweetie , let's put that back on you , (o)kay ? 227076_231488
+*MOT:	let's put that back o:n . 231488_235326
+*MOT:	you're doing that +//. 239798_241085
+*MOT:	you're doing that on purpose .
+*MOT:	you wanna what ? 244350_245760
+*MOT:	oh , the hat for the truck ? 247076_248701
+*MOT:	let's see if we can find it in the bin . 248701_251830
+*MOT:	(o)kay . 251830_253125
+*MOT:	let's look in the bin here , cmere [: come here] . 253125_256248
+*MOT:	that's not it , that's your robot's hat . 260410_265441
+*MOT:	now you've got your own hat , yeah . 270896_273351
+*MOT:	you got a hat , you got a hat . 277045_279691
+*MOT:	he ho he +//.
+*MOT:	here we go . 279691_281765
+*MOT:	is that the right one ?
+*MOT:	yeah +... 284731_286571
+*MOT:	hmm ? 299415_300588
+*MOT:	there you got (th)em all set up .
+*MOT:	now you can put the marble inside . 301948_305320
+*MOT:	he's carrying some cargo . 305320_308616
+*MOT:	he dumps it xxx . 312856_315696
+*MOT:	he's a dumper , yeah . 318768_320231
+*MOT:	push the button on your (.) brand , new , power , city . 320231_324768
+*MOT:	rock crusher . 324768_328503
+*MOT:	dumptruck . 328503_330528
+*MOT:	xxx . 333591_334598
+*MOT:	put it on xxx . 336168_338086
+*MOT:	slam it . 338086_339475
+*MOT:	yeah , you really put it on there . 339475_344288
+*MOT:	he's off to the constr(uction) +//.
+*MOT:	he's off to the construction site . 348608_358015
+*MOT:	off +...
+*MOT:	see . 368278_370231
+*MOT:	there was Troublesome . 372595_374250
+*MOT:	I knew he had to be hiding somewhere . 374250_377716
+*MOT:	wanna push him down the hill ?
+*MOT:	a:h , what does he say ?
+*MOT:	I was +... 383731_388263
+*MOT:	pushed . 388263_389825
+*MOT:	he's pulling the brake van +//.
+*MOT:	the brake van goes the other way , sweetie . 394761_398095
+*MOT:	the brake van always goes backwards . 398095_401111
+*MOT:	like tha:t . 401111_405645
+*MOT:	you need Douglas ? 417585_418818
+*MOT:	okay .
+*MOT:	where's Douglas +//?
+*MOT:	I just saw Douglas . 420611_422875
+*MOT:	I see Douglas' tende:r +...
+*MOT:	there's Douglas , I knew he couldn't be fa:r .
+*MOT:	there's your dragon +//.
+*MOT:	oops .
+*MOT:	o:h said Toad . 436541_441006
+*MOT:	you pushed me too far this ti:me . 441006_445550
+*MOT:	xxx . 454885_456140
+*MOT:	there .
+*MOT:	the dragon is back . 456140_459738
+*MOT:	down it came shh .
+*MOT:	there's a new baby xxx . 468225_472880
+*MOT:	he looked into his sister Suzie's shed . 488418_490833
+*MOT:	shh: . 503128_505811
+*MOT:	he does look just like in the show . 527498_529580
+*MOT:	he's away in the she:d . 529580_533683
+*MOT:	who's gonna wake him up ? 533683_535291
+*MOT:	maybe Caroline ? 535291_540165
+*MOT:	he's pulling some cargo behind her , it's stuck to her magnet .
+*MOT:	pop ! 562265_563898
+*MOT:	Terrence: .
+*MOT:	Terrence is gonna wake up .
+*MOT:	Douglas ? 590566_592646
+*MOT:	he knocks at the door and Douglas comes bursting out . 592646_596166
+*MOT:	he took some coal ? 618501_620808
+*MOT:	he's pulling it behind him +... 620808_624286
+*MOT:	instead of in the cargo car . 624286_626118
+*MOT:	it's going all by itself . 626118_628888
+*MOT:	xxx there's the diesel , waiting . 638691_641053
+*MOT:	Mavis the friendly diesel . 641053_644230
+*MOT:	we name it Boko ?
+*MOT:	my name is Boko . 651565_654740
+*MOT:	my name is Boko . 654740_657166
+*MOT:	I think that's a funny name . 657166_664805
+*MOT:	let's leave that on , okay ? 664806_667416
+*MOT:	does it tickle +//.
+*MOT:	does it tickle you ?
+*MOT:	you want me ta [: to] fix it ?
+*MOT:	that's my sweetest boy .
+*MOT:	he took it .
+*MOT:	he's carrying the cargo . 693695_696615
+*MOT:	instead of Douglas +//.
+*MOT:	maybe they're taking turns .
+*MOT:	Douglas takes it for a little while +...
+*MOT:	and then James takes it for a little while +... 702531_707595
+*MOT:	xxx . 715531_717531
+*MOT:	maybe they're playing tug_of_war .
+*MOT:	I want it says Douglas +//.
+*MOT:	no , I want it says James . 722723_726585
+*MOT:	he took it back again . 730595_732530
+*MOT:	they try to be the most important engine +//.
+*MOT:	they always try to be most important and real useful . 741178_751376
+*MOT:	yeah , xxx playing tug_of_war . 755393_756976
+*MOT:	who's winning ? 756976_759298
+*MOT:	who's stronger ? 759298_765310
+*MOT:	James is stronger . 765311_767025
+*MOT:	I dunno [: don't know] , let's see who's bigger .
+*MOT:	put them side +//.
+*MOT:	side to side . 772183_776206
+*MOT:	they look almost the same , don't they ? 776206_782053
+*MOT:	want me ta [: to] fix it ? 808258_811406
+*MOT:	let's this over so you can reach it better . 811406_814183
+*MOT:	there ya [: you] go . 814183_818271
+*MOT:	I went ta [: to] sleep . 825703_827175
+*MOT:	an(d) he had sweet dreams . 827175_829776
+*MOT:	what dyou [: do you] think he dreams about , Ethan ? 829776_833246
+*MOT:	the sheep are dreaming about +... 833246_837510
+*MOT:	dandelion leaves an(d) +... 837510_840461
+*MOT:	dandelions . 840461_842798
+*MOT:	no .
+*MOT:	were they dreaming about that ? 842798_846010
+*MOT:	oh yeah , that was the: rabbits were dreaming about green dandelion leaves . 848878_853075
+*MOT:	yeah . 853075_854045
+*MOT:	what does Douglas dream about ? 854045_856786
+*MOT:	I bet he dreams about co:al . 856786_860025
+*MOT:	he dream about silver +//.
+*MOT:	a:h , silver and +...
+*MOT:	gold .
+*MOT:	is anybody ho:me ? 875941_878130
+*MOT:	brother: .
+*MOT:	out of their holes poke sister and brother . 893033_898588
+*MOT:	five alive . 898588_900956
+*MOT:	five crabs . 900956_905060
+*MOT:	wo:w .
+*MOT:	he landed with quite a bang , Ethan . 908820_913445
+*MOT:	he landed with quite a ba:ng . 913445_919436
+*MOT:	I think the dra:gon (.) should be on top of the castle .
+*MOT:	that's the xxx +//.
+*MOT:	best place for a dragon . 919436_926598
+*MOT:	a fine castle me thinks .
+*MOT:	you need the hey diddle diddle cat , huh ? 936246_938741
+*MOT:	shall we make a cat out of Play_Doh , too ? 938741_946126
+*MOT:	they went right into it .
+*MOT:	do:wn the middle .
+*MOT:	now nobody can see his face . 954360_956648
+*MOT:	is he hiding in there ? 956648_958948
+*MOT:	yeah , he's hiding in the shed .
+*MOT:	nobody knows where he is . 968385_970501
+*MOT:	that's right , nobody can see him where he is .
+*MOT:	all they can see is a little bit of his ta:il sticking out .
+*MOT:	oops .
+*MOT:	uho:h . 986698_988770
+*MOT:	let's fix it .
+*MOT:	yeah .
+*MOT:	let's see it's (.) gonna fall over , are you xxx (.) we gotta push it a little bit better . 998826_1004665
+*MOT:	yup [: yes] xxx +...
+*MOT:	oops . 1014808_1016920
+*MOT:	oh it's hard to put back together again .
+*MOT:	maybe we have_to make a new one .
+*MOT:	o:h .
+*MOT:	he fell on the other si:de . 1044506_1046315
+*MOT:	xxx . 1046315_1047994
+*MOT:	is there something insi:de ? 1047994_1050908
+*MOT:	oh , you're right , a little piece a tail . 1050908_1054426
+*MOT:	okay .
+*MOT:	let's get this Play_Doh +//.
+*MOT:	we have ta [: to] get the Play_Doh maker .
+*MOT:	let's get all the Play_Doh together . 1063183_1067558
+*MOT:	the old one fell apart , it did , it did . 1073576_1076276
+*MOT:	like mother's chair , yeah , mother fox's chair +... 1082931_1087226
+*MOT:	where's the rest of the Play_Doh ? 1087226_1089451
+*MOT:	mm . 1089451_1091971
+*MOT:	is your ear bothering you , honey ? 1091971_1094130
+*MOT:	whadya [: what do you] want ? 1096980_1098278
+*MOT:	you wanna +..?
+*MOT:	you wanna do finger painting ? 1106675_1108408
+*MOT:	ye:ah [: yes] . 1111363_1111910
+*MOT:	this is your school we'll pretend it's school .
+*MOT:	(o)kay , I'll be right back .
+*MOT:	I just need a tissue . 1116240_1120798
+*MOT:	and some paper+towel . 1120798_1123486
+*MOT:	we'll take all this do:wn .
+*MOT:	I'll get the paper+towel .
+*MOT:	there you're all set .
+*MOT:	you know what that is , don't you ? 1148233_1150103
+*MOT:	a caterpillar truck , yup [: yes] . 1151610_1153696
+*MOT:	we need some (.) finger paint pa:per . 1153696_1158058
+*MOT:	there it is .
+*MOT:	I don't know where the other one i:s . 1162756_1165146
+*MOT:	you need help putting it on ? 1175080_1178836
+*MOT:	yahoo ? 1184091_1185235
+*MOT:	hey , sweetheart . 1191831_1193741
+*MOT:	here we go: .
+*MOT:	half +//.
+*MOT:	half tractor , half train . 1195356_1198060
+*MOT:	there he i:s +...
+*MOT:	mm yup [: yes] , (be)cause I can't find the other caterpillar track .
+*MOT:	I think it's downsta:irs . 1207708_1211123
+*MOT:	I think it'll turn up . 1211123_1213956
+*MOT:	like George , yeah . 1217016_1219511
+*MOT:	dyou [: do you] wanna finger paint ?
+*MOT:	I got the finger paints ready .
+*MOT:	caterpillar tracks are very useful . 1236611_1238858
+*MOT:	means he doesn't have_to go on the railroad tracks . 1238858_1241876
+*MOT:	he can go on the ground , right ? 1241876_1247360
+*MOT:	he needs a fly+wheel . 1255175_1256788
+*MOT:	Terrence has a fly+wheel , doesn't he ? 1256788_1259210
+*MOT:	he does . 1259210_1260445
+*MOT:	oh he does ?
+*MOT:	where's his fly+wheel ?
+*MOT:	here's Terrence . 1270671_1273465
+*MOT:	I mean Trevor .
+*MOT:	I always mix them up ! 1273465_1277161
+*MOT:	I always mix them up . 1277161_1281168
+*MOT:	you were right , Trevor has the fly+wheel . 1281168_1283921
+*MOT:	ri:ght , Terrence doesn't . 1286610_1288373
+*MOT:	but Terrence has some +... 1288373_1291285
+*MOT:	interesting things over there . 1291285_1293828
+*MOT:	I don't know what they're called .
+*MOT:	they're part of his engine . 1296006_1304410
+*MOT:	xxx . 1306718_1307610
+*MOT:	he's helping him out ?
+*MOT:	that's very nice of Trevor . 1310350_1312151
+*MOT:	I mean Terrence +//.
+*MOT:	I mean Trevor . 1312151_1314583
+*MOT:	who's helping who ? 1314583_1316990
+*MOT:	Trevor's [: Trevor is] helping Terrence ? 1316990_1323285
+*MOT:	they're both kinds of tractors +//.
+*MOT:	they both drive on the ground , don't they ? 1323285_1327208
+*MOT:	are you gonna step on me ?
+*MOT:	are you steppin(g) on me ?
+*MOT:	yeah , Trevor likes to play wi(th) +//.
+*MOT:	I mean , yeah .
+*MOT:	Trevor likes to play with children . 1341548_1345451
+*MOT:	he likes to take them for ri:des . 1345451_1347875
+*MOT:	would you like to ride on something like Trevor ? 1347875_1352476
+*MOT:	I mean Terrence . 1352476_1354036
+*MOT:	I mean Trevor , psst . 1354036_1355331
+*MOT:	yeah , I always mix them u:p . 1359441_1362088
+*MOT:	silly me , huh ? 1362088_1364051
+*MOT:	well they both start with the letter +... 1364051_1366108
+*MOT:	that's ri:ght , very good . 1367148_1369058
+*MOT:	very go:od . 1369811_1371386
+*MOT:	they both start with a letter T . 1372755_1375115
+*MOT:	for truck +//.
+*MOT:	whoa , that's up . 1376688_1379415
+*MOT:	xxx . 1379415_1385215
+*MOT:	there you a:re .
+*MOT:	you xxx the tripod or else the camera won't be in the right place . 1388436_1395705
+*MOT:	xxx . 1395705_1402330
+*MOT:	that's a tri:pod . 1403848_1407255
+*MOT:	dya [: do you] wanna do the finger paints now ? 1407255_1409813
+*MOT:	mm . 1412015_1413311
+*MOT:	where's your barrel loader ? 1413311_1417320
+*MOT:	the barrel ca:rs +...
+*MOT:	that was another Berenstain Bears book +...
+*MOT:	we'll have_to get that one from the library again . 1432310_1435395
+*MOT:	ye:ah [: yes] , that one we don't have (be)cause that one's from the library . 1437313_1440311
+*MOT:	we took it out a long time ago . 1440311_1443128
+*MOT:	inside outside +... 1443128_1445446
+*MOT:	upside do:wn +//.
+*MOT:	we can read a different book .
+*MOT:	wanna read he bear she bear ? 1452880_1454446
+*MOT:	me and you +...
+*MOT:	ooh ooh .
+*MOT:	let's leave your wire o:n . 1460311_1463278
+*MOT:	so you can be a little +... 1463278_1466545
+*MOT:	robot today +...
+*MOT:	so you can be a little robot today .
+*MOT:	wanna make a painting ? 1473253_1475798
+*MOT:	if you would stay still it would be very helpful . 1479081_1482748
+*MOT:	xxx would be very xxx +//.
+*MOT:	guess who's coming tomorrow , Ethan ? 1482748_1488366
+*MOT:	Anna and Oliver are coming to visit . 1488366_1490893
+*MOT:	your cousin Oliver +... 1490893_1494006
+*MOT:	and your cousi:n +... 1494006_1497031
+*MOT:	Anna ! 1497893_1498966
+*MOT:	you haven't seen them in a lo:ng lo:ng +... 1498966_1503526
+*MOT:	time . 1503526_1504791
+*MOT:	does a frog go squeak ? 1505975_1509011
+*MOT:	what does a frog usually say ? 1509011_1514300
+*MOT:	ribbit . 1514300_1519380
+*MOT:	squeak , squeak . 1521426_1526283
+*MOT:	no , it doesn't make noise either .
+*MOT:	only the belly makes noise . 1531026_1535073
+*MOT:	yes , the belly makes a loud noise . 1542816_1545591
+*MOT:	bright , you're right . 1547555_1549115
+*MOT:	the legs don't . 1549115_1550330
+*MOT:	or the arms don't either . 1550330_1558265
+*MOT:	look at his funny toes , Ethan .
+*MOT:	ya [: you] ever seen toes like that ? 1562455_1564981
+*MOT:	this little piggy went to ma:rket +...
+*MOT:	an(d) this little piggy stayed ho:me . 1567821_1569488
+*MOT:	this little piggy had +..? 1569488_1572683
+*MOT:	xxx . 1573783_1574488
+*MOT:	and this little piggy: +...
+*MOT:	ooh .
+*MOT:	we are home .
+*MOT:	you're right .
+*MOT:	we are at home .
+*MOT:	wassup [: what's up] , du:de ? 1592611_1595731
+*MOT:	wassup [: what's up] , du:de ? 1595731_1597971
+*MOT:	the other caterpillar truck +//.
+*MOT:	I know , I had to fi:nd it . 1603756_1608765
+*MOT:	I have a feeling it's downstairs . 1608766_1611286
+*MOT:	I have a fee:ling I put it awa:y downstairs . 1611286_1622395
+*MOT:	are ya [: you] hook +//.
+*MOT:	are they coupling together ? 1622396_1631310
+*MOT:	went into the mine , Thomas fell into the mine +//.
+*MOT:	mines are very deep . 1641343_1645381
+*MOT:	Gordon helped him out of the mi:ne , that was nice of him , (be)cause Gordon's a big strong engine +... 1647900_1652890
+*MOT:	and very important , indeed . 1652890_1655856
+*MOT:	that part doesn't squeak . 1662141_1666260
+*MOT:	yu:p .
+*MOT:	eep@o !
+*MOT:	it did . 1676676_1681381
+*MOT:	you're right , only the body makes noise .
+*MOT:	one green and speckled frog sat on a xxx speckled log eating some most delicious bugs +... 1698475_1707395
+*MOT:	yum ! 1707395_1710065
+*MOT:	yum ! 1710065_1711153
+*MOT:	one jumped into the pool , where it +//. 1712646_1715481
+*MOT:	was nice an(d) cool +... 1715481_1717398
+*MOT:	you want one more song ? 1721951_1724073
+*MOT:	what song should we sing ? 1724073_1729815
+*MOT:	what's your favorite song ? 1729815_1732183
+*MOT:	should we sing your favorite song ? 1732183_1734048
+*MOT:	boomdi_boomdi_boomdi_boomdi_boomdi_boomdi_boomdi_boom@si . 1734048_1738543
+*MOT:	seraspond_serasponda_serasponda@si . 1738543_1742751
+*MOT:	ya [: you] gotta sing with me or it's no fun . 1742751_1747728
+*MOT:	seraspond_serasponda_serasponda@si . 1747728_1751375
+*MOT:	you got ta [: to] sing with me or it's no fun . 1752860_1755568
+*MOT:	that's right . 1761505_1763075
+*MOT:	you gotta sing with me or it's no fun . 1763075_1766458
+*MOT:	he doesn't move very well with just one caterpillar track , does he ?
+*MOT:	who's in the shed ?
+*MOT:	is anybody in the shed still ? 1796696_1800583
+*MOT:	he has a frown , you're right . 1807456_1810126
+*MOT:	I don't know if it's quite a frown +...
+*MOT:	he just looks a little wo:rried or like he's working very hard . 1810126_1817183
+*MOT:	he pretending he's in the valley , that's right . 1823565_1826608
+*MOT:	that's like the picture we have of him coming outta [: out of] the va:lley . 1826608_1830580
+*MOT:	you wanna see that book ?
+*MOT:	that's the (.) alphabet one .
+*MOT:	I see it right here . 1837745_1840503
+*MOT:	should we look at it ? 1840503_1844145
+*MOT:	yeah , you can see it inside it .
+*MOT:	it's V is for valley , right ? 1848061_1852086
+*MOT:	should we find the V page ? 1852086_1854453
+*MOT:	u:p ! 1854453_1855363
+*MOT:	here's Terrence . 1855363_1857410
+*MOT:	yup [: yes] you do: . 1858676_1859720
+*MOT:	yeah , he does look a little wo:rried . 1863143_1865315
+*MOT:	there he is . 1865315_1867945
+*MOT:	xxx . 1867945_1870048
+*MOT:	does he look the sa:me ?
+*MOT:	go get him . 1870048_1872393
+*MOT:	yeah , go get him . 1874191_1875918
+*MOT:	there's one over there , is that him ? 1882513_1884858
+*MOT:	ya [: you] see right here ? 1884858_1886286
+*MOT:	there it i:s .
+*MOT:	let's see if it's the same . 1891368_1894455
+*MOT:	look at that face . 1898240_1899776
+*MOT:	that looks almost the sa:me . 1899776_1902743
+*MOT:	that face is a +... 1908168_1909991
+*MOT:	working hard face . 1909991_1911631
+*MOT:	&u:h ! 1911631_1912756
+*MOT:	it's like a gro:aning face . 1912756_1914746
+*MOT:	he's +//. 1914746_1916450
+*MOT:	climbing outta [: out of] the valley , up the steep hill . 1916450_1920078
+*MOT:	so it's hard work for poor little Tho:mas . 1920078_1923700
+*MOT:	you wanna read the whole book ? 1931060_1932506
+*MOT:	wanna sit my lap ? 1932506_1935611
+*MOT:	oops .
+*MOT:	let's see .
+*MOT:	yup [: yes] . 1948020_1949220
+*MOT:	that looks like two hooked together . 1949220_1951563
+*MOT:	there's the other one . 1951563_1953371
+*MOT:	yup [: yes] . 1955795_1956853
+*MOT:	two break down train +//.
+*MOT:	grains . 1956853_1959661
+*MOT:	you're ri:ght .
+*MOT:	not right now , sweetie , later , later .
+*MOT:	it's not bed+time now but we can watch it a little later . 1974620_1977998
+*MOT:	we're gonna stay inside for a little bit . 1986581_1988695
+*MOT:	ya [: you] wanna do some finger paints ?
+*MOT:	yu:p . 1996370_1997220
+*MOT:	let's see what else we can find in the book .
+*MOT:	A is for +... 2007170_2009791
+*MOT:	that's right . 2010840_2012108
+*MOT:	all aboard . 2014128_2015765
+*MOT:	yes , they say last goodbyes +//.
+*MOT:	the passengers say last goodbyes , that's right . 2021118_2025761
+*MOT:	B is fo:r +...
+*MOT:	come sit do:wn . 2028156_2030040
+*MOT:	Birdie xxx Birdie is Thomas' friend , what does he say ? 2034018_2037573
+*MOT:	beep beep .
+*MOT:	C are is for +... 2039291_2041720
+*MOT:	xxx C is for coaches . 2044898_2046980
+*MOT:	D is for +... 2046980_2048441
+*MOT:	doesn't Diesel look +..?
+*MOT:	yeah , grumpy toda:y .
+*MOT:	we left Diesel in New York City . 2058416_2060574
+*MOT:	when we went to New York City we left him there . 2060574_2064511
+*MOT:	so Oma is gonna bring him back to you . 2064511_2067426
+*MOT:	Oma has Diesel now +//.
+*MOT:	E is for +... 2067426_2072041
+*MOT:	Edward a kind engine +//.
+*MOT:	helps +... 2072760_2075553
+*MOT:	everyo:ne . 2075553_2077168
+*MOT:	that's ri:ght .
+*MOT:	trick@wp trock@wp say the silly: +... 2080246_2082233
+*MOT:	they xxx those don't look +//.
+*MOT:	does that look like our Troublesome ? 2085173_2089251
+*MOT:	looks a little bit like the Troublesome we ha:ve . 2089251_2092429
+*MOT:	does that look like Troublesome ?
+*MOT:	you're right !
+*MOT:	(be)cause the one we have his mouth is wide open . 2098458_2101315
+*MOT:	you're ri:ght . 2107505_2108930
+*MOT:	mm , let's get the Troublesome we have .
+*MOT:	can you find him on the track ? 2108930_2112620
+*MOT:	mm , ya [: you] found him .
+*MOT:	let's see which one looks most like +... 2118246_2121496
+*MOT:	Troublesome . 2121496_2122913
+*MOT:	let's look at the face +//.
+*MOT:	xxx the face the:re . 2126961_2129616
+*MOT:	which one looks the most +..? 2129616_2131298
+*MOT:	I think you're right . 2131298_2132751
+*MOT:	maybe that one +... 2132751_2134501
+*MOT:	ya [: you] think so ? 2134501_2136981
+*MOT:	you wanna pretend that something's the mi:ne shaft ?
+*MOT:	you think we can pretend that +... 2165213_2167613
+*MOT:	that could be the mine shaft , yeah +...
+*MOT:	klunk@o . 2178461_2182178
+*MOT:	the other what ? 2187143_2188021
+*MOT:	oh , that other box we ha:d ? 2196450_2199881
+*MOT:	hmm . 2199881_2201550
+*MOT:	how (a)bout this tunnel ?
+*MOT:	that's like a mine shaft +...
+*MOT:	klunk@o ! 2217361_2221328
+*MOT:	he go (.) went down the mine shaft with a klunk@o . 2221328_2224308
+*MOT:	we could always bui:ld a mine shaft . 2224308_2227560
+*MOT:	if ya [: you] don't +... 2227560_2230415
+*MOT:	knock it (.) do:wn . 2230415_2233443
+*MOT:	ya [: you] can always +... 2233443_2236125
+*MOT:	bui:ld a mine shaft . 2236125_2240548
+*MOT:	let's see . 2240548_2246091
+*MOT:	they're hard ta [: to] build . 2246091_2250193
+*MOT:	we don't have the right blocks for mine shaft +//.
+*MOT:	o:h ! 2250193_2257656
+*MOT:	we don't really have good mine shaft blocks , do we ? 2257656_2262528
+*MOT:	think they're a little too small . 2262528_2265251
+*MOT:	shh: .
+*MOT:	it's what ? 2273130_2274793
+*MOT:	some more a those +... 2286190_2290530
+*MOT:	he bumped into the buffers ! 2301175_2303890
+*MOT:	oh , you're gonna do a better view for Gordon +//.
+*MOT:	are you gonna do a better view for Gordon ?
+*MOT:	xxx +... 2315710_2317878
+*MOT:	that was a real view . 2317878_2319710
+*MOT:	he destroyed it completely . 2319710_2328950
+*MOT:	oh , you're gonna build a tall wall , huh ? 2329956_2335885
+*MOT:	xxx .
+*MOT:	a better vie:w for Gordon .
+*MOT:	he got a better view alright . 2341053_2343880
+*MOT:	there's no wa:ll anymore . 2343880_2348480
+*MOT:	dyou [: do you] know what a view means , Ethan ? 2348480_2350708
+*MOT:	a view is what he can see: . 2350708_2353430
+*MOT:	when there's a wall there he can't see anything +... 2353430_2356230
+*MOT:	and he said this is bo:ring , there's no view , xxx . 2356230_2360098
+*MOT:	now there's a view . 2360098_2361593
+*MOT:	(be)cause there's no more wall . 2361593_2363685
+*MOT:	I just told you what view means .
+*MOT:	view is what you can see +//.
+*MOT:	there's a view out there . 2367595_2372121
+*MOT:	we can see the tree:s +... 2372121_2374581
+*MOT:	and some tops of the houses +//.
+*MOT:	that's our view +...
+*MOT:	from this window . 2374581_2379348
+*MOT:	but Gordon didn't have a view +...
+*MOT:	(be)cause there was a big wa:ll +...
+*MOT:	so what did he do ? 2379348_2387558
+*MOT:	he cra:shed into the wall . 2387558_2391320
+*MOT:	an(d) now he has a view . 2406811_2408661
+*MOT:	what does view me:an ?
+*MOT:	do you understand what view means now ?
+*MOT:	it's what you can see: .
+*MOT:	sometimes you go up a mountain (.) to get a vie:w (.) (be)cause you can see e:verything below . 2418578_2424315
+*MOT:	wanna build another wall ? 2427880_2429488
+*MOT:	a (.) three block wall +... 2432455_2434901
+*MOT:	ooh , totally destroyed the wall .
+*MOT:	let's make an even taller wall .
+*MOT:	see . 2449026_2450078
+*MOT:	ooh that's a really tall wall now .
+*MOT:	dyou [: do you] think we can do one more on top of that ? 2450078_2456360
+*MOT:	ooh that's some wa:ll .
+*MOT:	watch out .
+*MOT:	that really tumbled down .
+*MOT:	the track was blocked , by all the (.) pieces of the wall that fell down . 2473188_2479233
+*MOT:	nobody can get by .
+*MOT:	nobody can get through . 2482195_2484440
+*MOT:	ya [: you] need a fog horn ? 2491106_2495465
+*MOT:	that was loud . 2495465_2497821
+*MOT:	very lou:d . 2497821_2500640
+*MOT:	ya [: you] want Percy to hear it ?
+*MOT:	here's Percy .
+*MOT:	xxx .
+*MOT:	careful , you're falling in the bin . 2513168_2517116
+*MOT:	yup , they're in the house .
+*MOT:	it's a brick +... 2526683_2529308
+*MOT:	house . 2529308_2531521
+*MOT:	shake a down , shake a down down . 2536396_2538918
+*MOT:	house ! 2540111_2541780
+*MOT:	she's a brick +... 2541780_2547550
+*MOT:	is there any wooden house ? 2547550_2550330
+*MOT:	see +...
+*MOT:	house .
+*MOT:	here's the grocery store . 2552441_2555500
+*MOT:	selling apples an(d) +... 2555500_2557988
+*MOT:	watermelo:ns . 2557988_2560086
+*MOT:	that's supposed to be a fire+station +...
+*MOT:	it has a fire+truck inside and there's the fire+house dog (.) waiting for the next fire . 2567113_2572635
+*MOT:	right ?
+*MOT:	there's the door +...
+*MOT:	and there's where the truck (.) comes out . 2572635_2578731
+*MOT:	uhoh . 2586228_2587450
+*MOT:	uhoh , I knew you were thinkin(g) about that . 2587450_2595945
+*MOT:	what else do we have ?
+*MOT:	o:h , Gordon +... 2626976_2628636
+*MOT:	he definitely got a vie:w . 2633280_2635146
+*MOT:	he made one of his own . 2635146_2646175
+*MOT:	that's your favorite ga:me , isn't it ? 2646176_2650788
+*MOT:	crashing walls down . 2650788_2653491
+*MOT:	or crashing sand+castles down . 2653491_2656878
+*MOT:	anything you can crash . 2656878_2660145
+*MOT:	I don't know , looks like a bunch of +... 2679351_2682028
+*MOT:	it does look like a gate , you're right . 2688591_2691051
+*MOT:	looks like it can open and shut . 2691051_2693461
+*MOT:	you want Toad ? 2700645_2702510
+*MOT:	wha(t) +//.
+*MOT:	what's Toad gonna do ? 2712173_2713883
+*MOT:	oh , he went through the gate , right ?
+*MOT:	there's that special gate . 2713883_2720563
+*MOT:	like we saw in the story . 2720563_2722876
+*MOT:	o:h , it was supposed to be a secret !
+*MOT:	oh , you're too fast for me .
+*MOT:	you're too fast for me: . 2730556_2742960
+*MOT:	who's gonna be on top ? 2754028_2755575
+*MOT:	how abou:t Toby ? 2755575_2758708
+*MOT:	it's breaking up . 2771741_2774045
+*MOT:	he's breaking up the wall ? 2774045_2776651
+*MOT:	wow , that's quite a thick wall .
+*MOT:	mm Gordon (be)cause he's the big one . 2800483_2803353
+*MOT:	uho:h , right through .
+*MOT:	mhm . 2810645_2814656
+*MOT:	oops .
+*MOT:	he did .
+*MOT:	yup , now he has a view , just like we have a view .
+*MOT:	what dyou [: do you] see from your view ? 2832408_2834770
+*MOT:	I see some clouds , too . 2834770_2838515
+*MOT:	do the clouds look like anything toda:y ? 2838515_2841501
+*MOT:	are they making any shape ? 2841501_2845090
+*MOT:	that cloud looks like +... 2845090_2849465
+*MOT:	well , they're usually white .
+*MOT:	kinda [: kind of] white today , white an(d) fluffy , huh ? 2849465_2854308
+*MOT:	huh ? 2858986_2860243
+*MOT:	they're bro:wn ? 2861658_2863308
+*MOT:	they don't look brown to me , they look pretty white . 2863308_2866295
+*MOT:	white an(d) fluffy +... 2866295_2868725
+*MOT:	red an(d) fluffy ?
+*MOT:	you're just gonna say the opposite of whatever I say aren't you ?
+*MOT:	ah , ya [: you] put him in the shed , that's nice . 2893548_2896705
+*MOT:	so he can sleep peacefully and quietly . 2896705_2899903
+*MOT:	ya [: you] wanna put that there ? 2903248_2905085
+*MOT:	good job , now you can't even see him , really . 2907791_2912850
+*MOT:	between here ?
+*MOT:	ya [: you] wanna put it where this one was ?
+*MOT:	like that ? 2932323_2933495
+*MOT:	it's like a door , huh ?
+*MOT:	can you see him under there ? 2937150_2939298
+*MOT:	no , ya [: you] can't see him anywhere .
+*MOT:	that was quite a trick , Ethan . 2949130_2951370
+*MOT:	oka:y . 2953776_2955035
+*MOT:	why don't you sit down in the chair though , (o)kay ? 2955035_2959061
+*MOT:	can I sit down in this chair , even though Thomas is sleeping ? 2959061_2963103
+*MOT:	let's see .
+*MOT:	ro:ll up your sleeves . 2969861_2972951
+*MOT:	oops , where'd [: where did] the paper go ? 2976906_2980576
+*MOT:	oops . 2980576_2983290
+*MOT:	ya [: you] need a stick ?
+*MOT:	this is finger paint .
+*MOT:	all ya [: you] really need is your +... 2983290_2992858
+*MOT:	finger .
+*MOT:	what color do ya [: you] want ? 2992858_2998155
+*MOT:	oka:y . 2998156_3000240
+*MOT:	o:h , wow . 3003233_3007946
+*MOT:	why don't you use up all the paint you have on your finger first ?
+*MOT:	see you have a lot of paint on that finger . 3014490_3022170
+*MOT:	okay , let's wipe off this color so you can +...
+*MOT:	start a new color . 3026635_3028360
+*MOT:	hand painti:ng . 3028360_3034331
+*MOT:	(o)kay . 3034331_3037901
+*MOT:	and green now ? 3037901_3039523
+*MOT:	feels pretty nice , huh ? 3053083_3055156
+*MOT:	xxx . 3055156_3057766
+*MOT:	this is pretty goopy . 3057766_3061635
+*MOT:	you have a lot of green on your finger already so +//.
+*MOT:	do you remember what colors you mix together to make purple ? 3068970_3072290
+*MOT:	red and yellow ?
+*MOT:	that would make orange .
+*MOT:	red and blu:e make purple . 3077521_3079635
+*MOT:	xxx try it ? 3079635_3083225
+*MOT:	xxx you need to wipe this finger off +... 3083225_3086498
+*MOT:	yep . 3089358_3090346
+*MOT:	here . 3090346_3091846
+*MOT:	you want some red to make purple ? 3093423_3095706
+*MOT:	put a little red on the blue and see whether it makes purple . 3095706_3098456
+*MOT:	on the blue . 3098456_3102856
+*MOT:	you're mixing it with gree:n .
+*MOT:	that's gonna make bro:wn . 3102856_3107945
+*MOT:	see , you're making a little purple underneath there . 3107945_3112770
+*MOT:	ooh . 3112770_3122755
+*MOT:	mhm . 3126445_3130011
+*MOT:	yep . 3134888_3136701
+*MOT:	mm , that looks nice .
+*MOT:	I see some purple color there . 3136701_3141175
+*MOT:	mm . 3152113_3152948
+*MOT:	there's a little bit of purple an(d) there's some brownish color too . 3152948_3161995
+*MOT:	yeah , you can make a butterfly .
+*MOT:	we're gonna see .
+*MOT:	ready to open it ?
+*MOT:	pull this one . 3169385_3173851
+*MOT:	pull that one .
+*MOT:	ooh , it's a beautiful +... 3178755_3182510
+*MOT:	butterfly .
+*MOT:	I like that . 3186881_3188353
+*MOT:	you wanna fold it ?
+*MOT:	fold it right in half , like that .
+*MOT:	then +...
+*MOT:	hit it a little . 3195050_3196718
+*MOT:	okay .
+*MOT:	you have_to open it up .
+*MOT:	then it has to dry . 3203575_3206428
+*MOT:	wo:w . 3206428_3209050
+*MOT:	look at tha:t .
+*MOT:	there we go: . 3231321_3234063
+*MOT:	very nice . 3234063_3239301
+*MOT:	should we put it up on your easel to dry ? 3239301_3242213
+*MOT:	okay let's wipe your hands off .
+*MOT:	let's get +//. 3245091_3246241
+*MOT:	a wipie instead . 3246241_3253371
+*MOT:	okay , you can have the yellow .
+*MOT:	there ya [: you] go . 3261656_3263043
+*MOT:	that's gonna make it really pretty . 3269248_3272853
+*MOT:	smash it ! 3272853_3279226
+*MOT:	pat it down . 3279226_3280591
+*MOT:	like this .
+*MOT:	heh heh heh .
+*MOT:	there ya [: you] go . 3284398_3288313
+*MOT:	I dunno [: don't know] if it's gonna fly .
+*MOT:	let's see .
+*MOT:	first we have_to look at it .
+*MOT:	a brilliant . 3294703_3296436
+*MOT:	oh , that's even prettier . 3296436_3300856
+*MOT:	I like that . 3302996_3304306
+*MOT:	xxx . 3306441_3309465
+*MOT:	oops , I got it , hun [: honey] .
+*MOT:	that was me: .
+*MOT:	that was me: .
+*MOT:	butterflies don't whistle . 3313695_3316926
+*MOT:	let's wipe your hands , okay ? 3316926_3319626
+*MOT:	before ya [: you] go anywhere . 3319626_3321085
+*MOT:	mm +//.
+*MOT:	butterflies don't whistle .
+*MOT:	they don't make much noise at all . 3327411_3329098
+*MOT:	they whistle ?
+*MOT:	butterflies whistle ?
+*MOT:	I'd like to hear a whistling butterfly .
+*MOT:	gimme [: give me] your other hand . 3337588_3339330
+*MOT:	birds whistle . 3339330_3348706
+*MOT:	you're almost doing it . 3348708_3352376
+*MOT:	what dya [: do you] want , they clay ?
+*MOT:	let's move the finger paints +...
+*MOT:	put your (.) painting over here +...
+*MOT:	heh heh , white and black . 3378568_3394955
+*MOT:	what are ya [: you] making ? 3403631_3407170
+*MOT:	what are ya [: you] makin(g) , sweetheart ?
+*MOT:	I don't kno:w what it looks like . 3415456_3417746
+*MOT:	it looks like a piece of white clay attached to a piece of black clay +... 3417746_3421991
+*MOT:	what animal is white an(d) black ? 3421991_3425458
+*MOT:	dyou [: do you] know ? 3425458_3427236
+*MOT:	what animal begins with the letter Z ? 3427236_3430623
+*MOT:	xxx ? 3435108_3436980
+*MOT:	what animal begins with the letter Z ? 3436980_3439120
+*MOT:	xxx ? 3440186_3441293
+*MOT:	what a:nimal ?
+*MOT:	that's not an animal +...
+*MOT:	it's brown . 3445528_3446841
+*MOT:	yup , that's white +//.
+*MOT:	should we make a brown dog ? 3451020_3454088
+*MOT:	let's see . 3454088_3469451
+*MOT:	I don't seen it .
+*MOT:	you know what color that is .
+*MOT:	what color is it ? 3478963_3480181
+*MOT:	yeah , it is pink . 3485121_3486371
+*MOT:	what ? 3486371_3489691
+*MOT:	xxx .
+*MOT:	it's my house .
+*MOT:	I'm making the ears for your do:g . 3493950_3497700
+*MOT:	I'm gonna make a little dog for you . 3497700_3500846
+*MOT:	wanna wrap it around ?
+*MOT:	that looks like some kinda [: kind of] toy .
+*MOT:	for a baby . 3515723_3517058
+*MOT:	it's gonna be a do:g .
+*MOT:	yep , the dog has to have a body +//.
+*MOT:	this is just the head .
+*MOT:	I'm gonna give it a tongue . 3531835_3534976
+*MOT:	that sticks o:ut . 3534976_3536833
+*MOT:	where's the rest of the bro:wn ?
+*MOT:	can I have the bro:wn for the body ?
+*MOT:	xxx make a body ?
+*MOT:	that's just the head .
+*MOT:	yup [: yes] , a face .
+*MOT:	xxx , here's the ta:il .
+*MOT:	an(d) the tail comin(g) out +... 3558983_3566975
+*MOT:	a nice long &wa +//.
+*MOT:	wagging tail , wag , wag , wag , wag , wa:g .
+*MOT:	an(d) how many legs does a dog ha:ve , dyou [: do you] know ?
+*MOT:	four legs . 3571315_3573965
+*MOT:	one le:g !
+*MOT:	that would be hard to walk +... 3575388_3578251
+*MOT:	you're standing on one leg right no:w . 3578251_3586990
+*MOT:	one leg . 3586990_3590980

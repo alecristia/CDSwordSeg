@@ -1,0 +1,772 @@
+*MOT:	what did Mrs Wood give you ?
+*MOT:	what is it ?
+*MOT:	oh (.) that little animal breaks (.) doesn't it .
+*MOT:	what is it ?
+*MOT:	it's cute .
+*MOT:	thank_you .
+*MOT:	where ?
+*MOT:	on what ?
+*MOT:	okay .
+*MOT:	what's that ?
+*MOT:	oh (.) is that what it is .
+*MOT:	you holding the window in front of him so he can see through it ?
+*MOT:	oh (.) that's your doll house window (.) isn't it ?
+*MOT:	it's on the doll house .
+*MOT:	I think .
+*MOT:	see if you can find it .
+*MOT:	0 .
+*MOT:	here I am .
+*MOT:	okay .
+*MOT:	he's going to see through the window ?
+*MOT:	what is he looking at ?
+*MOT:	what does he see ?
+*MOT:	he sees a bug ?
+*MOT:	what fell on him ?
+*MOT:	it did ?
+*MOT:	did it hurt him ?
+*MOT:	that's a funny bug (.) isn't it ?
+*MOT:	he's a fluffy bug with long hair .
+*MOT:	are you covering the bug's eyes with the hair ?
+*MOT:	he can't ?
+*MOT:	that's tape to hold it to the wall .
+*MOT:	which wall shall I put it on ?
+*MOT:	okay .
+*MOT:	you know what .
+*MOT:	we don't have any more Scotch tape .
+*MOT:	we'll have_to go to the store and buy some .
+*MOT:	let's put it up here (.) okay ?
+*MOT:	well we don't have any Scotch tape .
+*MOT:	we'll have_to wait until we go to the store .
+*MOT:	sure .
+*MOT:	who gave you this ?
+*MOT:	oh (.) that's nice .
+*MOT:	what is it ?
+*MOT:	oh (.) oh .
+*MOT:	it's a little boot ?
+*MOT:	what's this in front of it ?
+*MOT:	little polka dots ?
+*MOT:	and this is a ribbon ?
+*MOT:	oh (.) that looks like a polka dot (.) but that's really the middle
+*MOT:	what's inside the boot ?
+*MOT:	what are they ?
+*MOT:	what are these ?
+*MOT:	what are these ?
+*MOT:	oh (.) they're pretty .
+*MOT:	did you get flowers in Santa Cruz ?
+*MOT:	didn't you pick some flowers ?
+*MOT:	you didn't pick any flowers ?
+*MOT:	you picked flowers at the park ?
+*MOT:	I see .
+*MOT:	what color are these flowers ?
+*MOT:	they're not red .
+*MOT:	what color are they ?
+*MOT:	that's right .
+*MOT:	they're yellow flowers .
+*MOT:	they're really pretty .
+*MOT:	want me to have these flowers ?
+*MOT:	I want these ?
+*MOT:	can you say +...
+*MOT:	that's right .
+*MOT:	what are you gonna do with the flowers ?
+*MOT:	yeah (.) we have_to keep them in water (.) don't we ?
+*MOT:	if we take them out_of water .
+*MOT:	let's put them back in the water .
+*MOT:	no (.) it's pretend (.) cause these are plastic flowers .
+*MOT:	no (.) there's no water in there cause these are pretend flowers .
+*MOT:	they're not real flowers .
+*MOT:	that's right .
+*MOT:	no (.) that's not a pretend flower .
+*MOT:	what is that ?
+*MOT:	that's a horsie .
+*MOT:	we're going to have horses at our new house (.) aren't we ?
+*MOT:	oh (.) what is he doing ?
+*MOT:	he does ?
+*MOT:	they do ?
+*MOT:	no (.) you have_to blow out .
+*MOT:	otherwise if you blow in (.) what happens ?
+*MOT:	you do .
+*MOT:	is that a bubble pipe ?
+*MOT:	put what ?
+*MOT:	in what ?
+*MOT:	in the box .
+*MOT:	that's a nice pipe .
+*MOT:	you putting the plate on the table ?
+*MOT:	oh .
+*MOT:	the picture of the boy ?
+*MOT:	what was he doing on the table ?
+*MOT:	he was lying on the table ?
+*MOT:	I see .
+*MOT:	oh (.) is that one of the boys with sticky glue behind him ?
+*MOT:	let's hang him on the box .
+*MOT:	what to ?
+*MOT:	oh (.) shall we lick it ?
+*MOT:	yeah .
+*MOT:	where shall I hang him ?
+*MOT:	on the wall ?
+*MOT:	there we go .
+*MOT:	where's the little boy ?
+*MOT:	oh (.) he fell down .
+*MOT:	we have_to buy some Scotch tape (.) don't we ?
+*MOT:	is there some Scotch tape left in the drawer ?
+*MOT:	what do you want ?
+*MOT:	where is he ?
+*MOT:	on what ?
+*MOT:	you want him +...
+*MOT:	he's on the window you mean ?
+*MOT:	this bug here ?
+*MOT:	there's your blue bug .
+*MOT:	did you see a kitty yesterday ?
+*MOT:	what was he like ?
+*MOT:	was he big or little ?
+*MOT:	whose kitty was he ?
+*MOT:	what did you do with him ?
+*MOT:	what did he do ?
+*MOT:	he drunk his [!!] milk ?
+*MOT:	oh (.) did another little kitty come to visit him ?
+*MOT:	what was he like ?
+*MOT:	what color was the other little kitty that came to visit ?
+*MOT:	that's right .
+*MOT:	did you have fun chasing him ?
+*MOT:	what did you do with the kitty ?
+*MOT:	he did ?
+*MOT:	he did ?
+*MOT:	where did he scratch you ?
+*MOT:	show me .
+*MOT:	I don't see a scratch .
+*MOT:	let me see .
+*MOT:	where ?
+*MOT:	on your hand ?
+*MOT:	he does ?
+*MOT:	some bugs are dangerous ?
+*MOT:	flies don't bite (.) do they ?
+*MOT:	mice ?
+*MOT:	mice aren't bugs .
+*MOT:	mice are animals .
+*MOT:	dogs are animals .
+*MOT:	flies are bugs .
+*MOT:	when there was a fly in the car the other day (.) did you get
+*MOT:	why did you get scared ?
+*MOT:	they don't bite .
+*MOT:	flies don't bite .
+*MOT:	flies don't bite .
+*MOT:	the little kitty nipped you though (.) didn't she ?
+*MOT:	did you chase her ?
+*MOT:	where did you chase her ?
+*MOT:	did she nip you ?
+*MOT:	did you play with her in the house or outside ?
+*MOT:	what else did you play with at Miriam's house ?
+*MOT:	what else ?
+*MOT:	they had some new toys (.) didn't they ?
+*MOT:	what did you play with ?
+*MOT:	what were they ?
+*MOT:	oh (.) what was inside the refrigerator ?
+*MOT:	did you put the kitty cat in the refrigerator ?
+*MOT:	the boy <put it> [//] put the kitty inside the refrigerator ?
+*MOT:	oh .
+*MOT:	it wasn't nice .
+*MOT:	the kitty didn't want to be in the refrigerator (.) did he ?
+*MOT:	where did the kitty want to be ?
+*MOT:	he said meow ?
+*MOT:	why ?
+*MOT:	is that what the kitty does ?
+*MOT:	but he scratched you ?
+*MOT:	were you pulling too hard on his tail ?
+*MOT:	did you pick him up right ?
+*MOT:	were you very gentle ?
+*MOT:	you weren't being too rough ?
+*MOT:	no ?
+*MOT:	sometimes Miriam was being too rough and that's why she got
+*MOT:	that's a cord .
+*MOT:	don't touch that .
+*MOT:	what kind of a bicycle ?
+*MOT:	wasn't it red ?
+*MOT:	like yours ?
+*MOT:	your bicycle is red ?
+*MOT:	did you ride your bicycle today ?
+*MOT:	what did you bring to me ?
+*MOT:	oh (.) thank_you for the doggy .
+*MOT:	he's cute (.) isn't he ?
+*MOT:	shall we read the dolly a story ?
+*MOT:	would you like to read Babar ?
+*MOT:	is that the story the dolly wants to see ?
+*MOT:	you tell her the story .
+*MOT:	what happened ?
+*MOT:	he did ?
+*MOT:	did he hurt himself ?
+*MOT:	where is he ?
+*MOT:	he has a great fall ?
+*MOT:	oh .
+*MOT:	oh (.) who taught you that ?
+*MOT:	oh (.) that's a funny story .
+*MOT:	who has a hat on ?
+*MOT:	he does ?
+*MOT:	Santa Claus had a hat on when you saw him .
+*MOT:	he did ?
+*MOT:	I haven't seen your dolly for a long time .
+*MOT:	she was at Jim's house .
+*MOT:	you forgot her there .
+*MOT:	let's show dolly this book .
+*MOT:	we told her that story already .
+*MOT:	did you tell her that story already ?
+*MOT:	shall we give dolly some coffee ?
+*MOT:	here's a coffee pot .
+*MOT:	it has coffee in it .
+*MOT:	it doesn't open .
+*MOT:	see if you can pour it .
+*MOT:	look (.) the coffee goes away (.) and now it comes back .
+*MOT:	no it doesn't .
+*MOT:	it's a funny trick .
+*MOT:	see look_it .
+*MOT:	there's coffee and then I pour it in the cup and it's all_gone .
+*MOT:	can you pour some for dolly ?
+*MOT:	it doesn't open .
+*MOT:	it's a toy .
+*MOT:	it's pretend .
+*MOT:	you pour some for me now .
+*MOT:	no it doesn't open up .
+*MOT:	it's like that milk bottle that you had .
+*MOT:	you know with the milk .
+*MOT:	this is the same kind of toy .
+*MOT:	shall we give dolly some coffee ?
+*MOT:	&uh .
+*MOT:	what are you doing ?
+*MOT:	oh (.) you want to get it open .
+*MOT:	it won't come open .
+*MOT:	it's just a pretend toy .
+*MOT:	it doesn't open .
+*MOT:	you'll break it .
+*MOT:	no (.) it doesn't open .
+*MOT:	it's a trick .
+*MOT:	did you see what Nonna sent to you ?
+*MOT:	she sent you a little package .
+*MOT:	let's see what's inside .
+*MOT:	what is that ?
+*MOT:	what's in there ?
+*MOT:	what did Nonna send ?
+*MOT:	that's what I found .
+*MOT:	I found this up there .
+*MOT:	that's the paper .
+*MOT:	what is this ?
+*MOT:	it's a little donkey (.) see .
+*MOT:	a little donkey .
+*MOT:	no (.) there's nothing up there .
+*MOT:	nothing left .
+*MOT:	this is what was up there .
+*MOT:	this little package .
+*MOT:	yeah (.) that's what I found when I went up on the chair .
+*MOT:	I found a little package for Nina .
+*MOT:	it's a donkey (.) see .
+*MOT:	with feathers on his head .
+*MOT:	why can't he see ?
+*MOT:	you want me to put him back up there .
+*MOT:	there's just some tape up there .
+*MOT:	that's all .
+*MOT:	nothing left .
+*MOT:	the package was up there .
+*MOT:	those are wheels .
+*MOT:	yeah (.) you can pull him .
+*MOT:	do you like him ?
+*MOT:	is he little or big ?
+*MOT:	that's an extra wheel in_case one of his wheel break .
+*MOT:	put it in the wagon .
+*MOT:	he's really cute .
+*MOT:	where's your book on animals ?
+*MOT:	I haven't seen it for a long time .
+*MOT:	can you find it for me ?
+*MOT:	it doesn't work ?
+*MOT:	I guess he's very delicate .
+*MOT:	we'll put him up on the window and look at him ?
+*MOT:	shall we put him in the doll house ?
+*MOT:	let's put it in the carriage .
+*MOT:	what are you putting in the carriage ?
+*MOT:	I see .
+*MOT:	<let's> [/] let's show the donkey all the other animals .
+*MOT:	you can put the donkey in the barn if you want .
+*MOT:	here's your doggy .
+*MOT:	who are they ?
+*MOT:	oh (.) what are they ?
+*MOT:	oh (.) what color bears ?
+*MOT:	and +...
+*MOT:	Yogi Bear ?
+*MOT:	what is he doing ?
+*MOT:	oh (.) Yogi Bear and Smoky Bear ?
+*MOT:	what are they doing ?
+*MOT:	are they kissing ?
+*MOT:	what are they doing ?
+*MOT:	oh (.) are they hitting each_other ?
+*MOT:	can you bring me some furniture for the doll house ?
+*MOT:	let's pretend this is our new house .
+*MOT:	this will be Nina and Samantha's room .
+*MOT:	this will be Mommy's room .
+*MOT:	this will be Nick and Miriam's room .
+*MOT:	that will be Brian's room when he comes to visit .
+*MOT:	and here's the living room .
+*MOT:	what shall we put in the house ?
+*MOT:	where shall we put (.) the sink ?
+*MOT:	in which room ?
+*MOT:	in the kitchen or the bed+room ?
+*MOT:	is this the kitchen ?
+*MOT:	I think that's the kitchen .
+*MOT:	can you get me some more furniture ?
+*MOT:	what's this ?
+*MOT:	what are you doing ?
+*MOT:	does the lid of that box look like a door ?
+*MOT:	oh (.) you're putting the box on your head .
+*MOT:	we can use that box for a bed (.) can't we ?
+*MOT:	who's going to sleep in that bed ?
+*MOT:	0 .
+*MOT:	who did you put to sleep in that bed ?
+*MOT:	Mommy and Mommy ?
+*MOT:	two Mommies ?
+*MOT:	or a little girl and Mommy ?
+*MOT:	what does she have on her hair ?
+*MOT:	what does she have ?
+*MOT:	what is she wearing on her head ?
+*MOT:	what is she wearing ?
+*MOT:	is she wearing pigtails ?
+*MOT:	I think so .
+*MOT:	where +...
+*MOT:	I can't see her .
+*MOT:	where is she ?
+*MOT:	oh (.) is that a carriage now ?
+*MOT:	I thought it was gonna be a bed .
+*MOT:	do babies or mommies go in carriages ?
+*MOT:	well then we have_to find a baby .
+*MOT:	where's the donkey cart ?
+*MOT:	over there .
+*MOT:	in the donkey cart ?
+*MOT:	do you think she'll fit ?
+*MOT:	I think she's too big (.) isn't she ?
+*MOT:	too big .
+*MOT:	I just see your little bunny .
+*MOT:	I don't see your little mouse .
+*MOT:	I don't know what happened to her .
+*MOT:	oh dear (.) you know what ?
+*MOT:	she must be at Maggie's house .
+*MOT:	no ?
+*MOT:	I don't see her (.) anywhere .
+*MOT:	who are you gonna call on the telephone ?
+*MOT:	do you want to talk to Nonno on the telephone ?
+*MOT:	shall I pretend I'm someone on the telephone ?
+*MOT:	who shall I be ?
+*MOT:	oh (.) did she pop up from the telephone ?
+*MOT:	what did she have on her head ?
+*MOT:	did you wear pigtails today ?
+*MOT:	and what happened to your pigtails ?
+*MOT:	I don't see them anymore .
+*MOT:	what happened to them ?
+*MOT:	did you pull your rubber bands off ?
+*MOT:	what is that dolly doing ?
+*MOT:	is she drinking ?
+*MOT:	what is she doing ?
+*MOT:	are you thirsty ?
+*MOT:	what would you like to drink ?
+*MOT:	oh (.) well we have_to go out and buy some milk .
+*MOT:	okay (.) you get something ready for your dolly .
+*MOT:	give something to drink to your dolly (.) and I'll go get you some
+*MOT:	okay (.) you give something to drink to your dolly too (.) cause I
+*MOT:	who's that for ?
+*MOT:	okay (.) you pour some apple juice for you .
+*MOT:	oh (.) we pretend for dolly cause dolly doesn't really know how to
+*MOT:	you gonna drink from the dolly's cup ?
+*MOT:	don't spill .
+*MOT:	who's that for ?
+*MOT:	is that good juice ?
+*MOT:	what kind of juice is it ?
+*MOT:	did Maggie give you something to drink today ?
+*MOT:	no (.) thank_you .
+*MOT:	no (.) I don't want any .
+*MOT:	I'm not thirsty .
+*MOT:	are you thirsty ?
+*MOT:	she won't .
+*MOT:	she really doesn't know how .
+*MOT:	we'll have_to pretend .
+*MOT:	you gonna drink dolly's apple juice for her ?
+*MOT:	is that good ?
+*MOT:	pour some what ?
+*MOT:	w(h)oop (.) what happened ?
+*MOT:	that's her cup .
+*MOT:	is that her cup ?
+*MOT:	are you drinking from the dolly's cup now ?
+*MOT:	here .
+*MOT:	shall I pour it from dolly's cup to your cup ?
+*MOT:	here we go .
+*MOT:	that's enough now .
+*MOT:	you can have some later .
+*MOT:	what did you have_to eat for supper tonight ?
+*MOT:	no (.) thank_you .
+*MOT:	I don't want any .
+*MOT:	who wants some ?
+*MOT:	what are you doing ?
+*MOT:	did she drink some ?
+*MOT:	did she like it ?
+*MOT:	who else are you going to give a drink to ?
+*MOT:	it's good .
+*MOT:	who else is gonna drink ?
+*MOT:	who's she ?
+*MOT:	everybody drinking ?
+*MOT:	oh (.) everybody loves apple juice (.) don't they ?
+*MOT:	I want to look at your baby animals .
+*MOT:	I haven't seen this book for a long time .
+*MOT:	that's a big porcupine .
+*MOT:	and what's that ?
+*MOT:	a little porcupine .
+*MOT:	what is the owl sitting on ?
+*MOT:	that's an egg (.) isn't it ?
+*MOT:	look at his funny eyes .
+*MOT:	you can finish the dolly's apple juice (.) okay ?
+*MOT:	what's this ?
+*MOT:	okay .
+*MOT:	shall I pour it from here ?
+*MOT:	what do you say ?
+*MOT:	who's in this picture ?
+*MOT:	what is the swan doing ?
+*MOT:	the little birds have their mouths open ?
+*MOT:	cause they're hungry ?
+*MOT:	is the Mommy going to feed them ?
+*MOT:	where are the birds ?
+*MOT:	that's right .
+*MOT:	are they in a nest ?
+*MOT:	these birds aren't in a nest (.) no .
+*MOT:	they're just in a tree .
+*MOT:	(.) you're right .
+*MOT:	that's a swan .
+*MOT:	what are they doing ?
+*MOT:	where are they walking ?
+*MOT:	it looks like a sidewalk .
+*MOT:	it's a road though in the middle of the woods .
+*MOT:	we went walking in the woods at Santa Cruz (.) didn't we ?
+*MOT:	did you fall down when we were going down the hill at Santa Cruz ?
+*MOT:	what are these birds doing ?
+*MOT:	do they have their mouth open or closed ?
+*MOT:	yeah (.) they're hungry .
+*MOT:	they're asking for food .
+*MOT:	where is this bird ?
+*MOT:	that's a beak .
+*MOT:	the mommy bird is feeding the baby bird (.) see ?
+*MOT:	where's the baby bird ?
+*MOT:	that's right .
+*MOT:	in the nest .
+*MOT:	where are the baby ducklings ?
+*MOT:	what are those ?
+*MOT:	what are they ?
+*MOT:	no (.) not octopuses .
+*MOT:	they're ostriches .
+*MOT:	that's right .
+*MOT:	are the ostriches big birds or little birds ?
+*MOT:	they sure are (.) aren't they ?
+*MOT:	where are they walking ?
+*MOT:	they're doing what ?
+*MOT:	they're walking ?
+*MOT:	they're walking along the beach .
+*MOT:	are they gonna play at the edge of the water ?
+*MOT:	where's the water ?
+*MOT:	they're catching the waves ?
+*MOT:	the waves are catching the ducklings ?
+*MOT:	I see .
+*MOT:	where's the wave ?
+*MOT:	where's the wave ?
+*MOT:	is that the wave or is this the wave ?
+*MOT:	where's the wave ?
+*MOT:	they're swans or ducks ?
+*MOT:	what are the ducks doing ?
+*MOT:	I think those are llamas .
+*MOT:	who's running down the hill ?
+*MOT:	there's a kangaroo .
+*MOT:	oh (.) I see .
+*MOT:	that's a kangaroo .
+*MOT:	what are these ?
+*MOT:	where are they running ?
+*MOT:	that's right .
+*MOT:	in the pasture .
+*MOT:	on the grass .
+*MOT:	what ?
+*MOT:	where is his foot stuck ?
+*MOT:	in the ground ?
+*MOT:	I think it's just hidden behind this little knob of ground .
+*MOT:	we're going to have horses near our house (.) aren't we ?
+*MOT:	they won't get stuck .
+*MOT:	are you going to pat the horses ?
+*MOT:	we're going to have four horses (.) aren't we ?
+*MOT:	those are anteaters .
+*MOT:	there's the mommy .
+*MOT:	and what are these ?
+*MOT:	are they baby ones or mommy ones ?
+*MOT:	what is the mommy monkey doing ?
+*MOT:	he's seeing ?
+*MOT:	he's looking at us ?
+*MOT:	he's staring straight at Nina (.) isn't he ?
+*MOT:	is the big fish eating the baby fish ?
+*MOT:	poor baby fish .
+*MOT:	they better run away (.) (.) so they don't get eaten .
+*MOT:	right ?
+*MOT:	lizards .
+*MOT:	where is the lizard ?
+*MOT:	really ?
+*MOT:	where's the fish ?
+*MOT:	where is he ?
+*MOT:	is he on a tree ?
+*MOT:	no .
+*MOT:	where's the fish ?
+*MOT:	they have_to run away .
+*MOT:	they have_to swim .
+*MOT:	where are they swimming .
+*MOT:	he's going to eat them up (.) so they're swimming away .
+*MOT:	that's a big nasty fish .
+*MOT:	are these seals sleeping ?
+*MOT:	what are they doing ?
+*MOT:	they're seeing us ?
+*MOT:	they're looking at us ?
+*MOT:	what's that (.) big fat animal ?
+*MOT:	out_of what ?
+*MOT:	what is it ?
+*MOT:	his nose .
+*MOT:	that's right .
+*MOT:	it's the hippopotamus (.) isn't it ?
+*MOT:	he sure is .
+*MOT:	he's very big (.) isn't he ?
+*MOT:	what's the little bear trying to do ?
+*MOT:	why does he want to go up ?
+*MOT:	what is he trying to climb ?
+*MOT:	where's the mommy ?
+*MOT:	and where's the baby ?
+*MOT:	oh (.) so what does the baby want to do ?
+*MOT:	he wants to hug his mommy .
+*MOT:	he has_to climb up on the rock in_order_to hug his mommy (.)
+*MOT:	do you think he'll make it ?
+*MOT:	where does he have_to go ?
+*MOT:	and then ?
+*MOT:	then he's going to hug his mommy ?
+*MOT:	o:h (.) that's sweet .
+*MOT:	what are these ?
+*MOT:	do you know what kind of fish ?
+*MOT:	no (.) those are +...
+*MOT:	that's a mommy with a baby .
+*MOT:	that's a dolphin .
+*MOT:	did you see dolphins when you went to the aquarium ?
+*MOT:	they did what ?
+*MOT:	the dolphins did ?
+*MOT:	they did ?
+*MOT:	did they do anything else ?
+*MOT:	oh (.) that must have been fun to see .
+*MOT:	oh (.) what are these ?
+*MOT:	where is he ?
+*MOT:	under the mommy ?
+*MOT:	oh (.) there're lots_of baby penguins here (.) aren't there ?
+*MOT:	where did you see baby penguin ?
+*MOT:	who's gone ?
+*MOT:	oh you can't see him .
+*MOT:	he's hidden behind the penguin's wing (.) isn't he ?
+*MOT:	did you see penguins at the zoo ?
+*MOT:	that's right .
+*MOT:	his head is hidden behind the wing of the penguin .
+*MOT:	let's see what other animals we see in here .
+*MOT:	he's hugging three bears .
+*MOT:	is that a mommy bear .
+*MOT:	she hugging one [/] (.) four little bears .
+*MOT:	they got up on the rock (.) and this mommy is hugging her babies .
+*MOT:	do you like to be hugged ?
+*MOT:	they did ?
+*MOT:	oh (.) I see .
+*MOT:	what's this little bear doing ?
+*MOT:	is he walking to somebody ?
+*MOT:	to whom ?
+*MOT:	o:h (.) is the big bear walking towards the little bear ?
+*MOT:	what are these ?
+*MOT:	that's the bear's feet .
+*MOT:	they're claws .
+*MOT:	see the sharp claws ?
+*MOT:	did the kitty have claws yesterday ?
+*MOT:	did Miriam's kitty have claws ?
+*MOT:	you didn't get scratched by the claws ?
+*MOT:	yes kitties have claws too .
+*MOT:	that's how you got scratched (.) remember ?
+*MOT:	what [/] what scratched you ?
+*MOT:	they were called claws .
+*MOT:	and this bear has claws .
+*MOT:	where's the bear ?
+*MOT:	he climbed up on the rock .
+*MOT:	and this bear is where ?
+*MOT:	in his mommy's arms ?
+*MOT:	where's Nina ?
+*MOT:	is Nina in her mommy's arms too .
+*MOT:	do you like to be hugged ?
+*MOT:	oh (.) those are bears too .
+*MOT:	everybody's hugging .
+*MOT:	they're all mommy animals hugging their babies .
+*MOT:	I love this book .
+*MOT:	oh (.) what do we have here ?
+*MOT:	oh (.) where is the kitty ?
+*MOT:	oh (.) that must be the way the mommy cat carries her babies around
+*MOT:	in her mouth .
+*MOT:	that's a funny place to carry her baby (.) isn't it ?
+*MOT:	she carries her in her mouth .
+*MOT:	what does the kitty cat have ?
+*MOT:	oh .
+*MOT:	is she running ?
+*MOT:	she's running ?
+*MOT:	she's running where ?
+*MOT:	is your dolly thirsty ?
+*MOT:	are you gonna give her a drink ?
+*MOT:	okay (.) here's some apple juice .
+*MOT:	is that the dolly's cup ?
+*MOT:	here's some apple juice .
+*MOT:	what's in this picture ?
+*MOT:	what's in this picture ?
+*MOT:	what's the deer doing ?
+*MOT:	what ?
+*MOT:	he's walking .
+*MOT:	what's the baby calf doing ?
+*MOT:	drinking milk .
+*MOT:	oh (.) what's hanging around the lamb's neck ?
+*MOT:	do you know what that is ?
+*MOT:	here's some more apple juice .
+*MOT:	leave some for your dolly (.) okay ?
+*MOT:	what's around the lamb's neck ?
+*MOT:	I can't hear you .
+*MOT:	a bell .
+*MOT:	oh (.) what's here ?
+*MOT:	with what ?
+*MOT:	okay (.) in a little while .
+*MOT:	let's wait until we go pick up Debbie (.) okay ?
+*MOT:	there's an opossum .
+*MOT:	okay (.) in a minute .
+*MOT:	let's finish this story first .
+*MOT:	that's a baby calf .
+*MOT:	and what's this ?
+*MOT:	I see .
+*MOT:	(.) what are the cows doing ?
+*MOT:	no (.) they're licking .
+*MOT:	they don't eat him .
+*MOT:	they're licking the calf .
+*MOT:	cause they love him .
+*MOT:	that's their way of kissing the calf .
+*MOT:	is the mommy giraffe kissing the baby giraffe ?
+*MOT:	where's the baby giraffe ?
+*MOT:	it looks like a nest (.) doesn't it ?
+*MOT:	it's on some straw .
+*MOT:	and what is he doing ?
+*MOT:	he loves him .
+*MOT:	he loves his baby .
+*MOT:	she actually .
+*MOT:	cause she's the mommy .
+*MOT:	oh here's some more giraffes .
+*MOT:	what are these giraffes doing ?
+*MOT:	these are walking in the woods .
+*MOT:	what are those ?
+*MOT:	what are they doing ?
+*MOT:	they look so funny .
+*MOT:	what are they doing ?
+*MOT:	he's eating a piece of food (.) isn't he ?
+*MOT:	do you eat food ?
+*MOT:	what did you eat for supper ?
+*MOT:	he's rolling around on the ground (.) isn't he ?
+*MOT:	yeah (.) it looks like he's laughing (.) doesn't it ?
+*MOT:	what's he ?
+*MOT:	he doesn't .
+*MOT:	what is he ?
+*MOT:	where is he sitting ?
+*MOT:	where's the monkey sitting ?
+*MOT:	is he sitting on someone's lap ?
+*MOT:	on whose lap is he sitting ?
+*MOT:	on the mommy's lap .
+*MOT:	where's the baby elephant ?
+*MOT:	where's the baby elephant ?
+*MOT:	is he under the mommy ?
+*MOT:	that's a funny place for him to be .
+*MOT:	what is he drinking with ?
+*MOT:	he's drinking water with what ?
+*MOT:	with his trunk ?
+*MOT:	he's drinking water with his trunk ?
+*MOT:	what's that ?
+*MOT:	is that a monkey ?
+*MOT:	what a funny monkey .
+*MOT:	he's ugly (.) isn't he ?
+*MOT:	he has an ugly ugly face and a big big nose .
+*MOT:	laughs .
+*MOT:	is he funny ?
+*MOT:	who's walking up stairs ?
+*MOT:	oh (.) the hippopotamuses are walking up the stairs .
+*MOT:	I bet they have trouble because are they fat or thin ?
+*MOT:	very fat (.) aren't they ?
+*MOT:	take my shoes off ?
+*MOT:	why ?
+*MOT:	the hippopotamus you mean took his shoes off ?
+*MOT:	he never had any shoes on (.) I don't think .
+*MOT:	do you want your shoes off ?
+*MOT:	can you untie them ?
+*MOT:	what do you say ?
+*MOT:	what do you want me to do ?
+*MOT:	take your shoes off ?
+*MOT:	you want to be barefoot ?
+*MOT:	okay .
+*MOT:	what do you have on (.) shoes or sneakers today ?
+*MOT:	today you have on sneakers .
+*MOT:	what do you wear some days ?
+*MOT:	do you wear brown shoes some +...
+*MOT:	oh you have sand in your shoes .
+*MOT:	did you play in the sand today ?
+*MOT:	you must have played in the sandbox today (.) did you ?
+*MOT:	look what's in your shoe .
+*MOT:	oh (.) it's full of sand .
+*MOT:	my_goodness how much +...
+*MOT:	oh (.) look at all the sand .
+*MOT:	look at the color of that sock .
+*MOT:	it's black .
+*MOT:	you must have played in the sand all day .
+*MOT:	there is a huge sandbox at Maggie's house .
+*MOT:	oh my_goodness (.) what a sandy sock .
+*MOT:	what are these ?
+*MOT:	toes .
+*MOT:	you have cute toes .
+*MOT:	you must have played awfully hard today in the sand .
+*MOT:	you want what ?
+*MOT:	your pail and your shovel ?
+*MOT:	they're at Maggie's house .
+*MOT:	well (.) we'll pick them up tomorrow (.) okay ?
+*MOT:	what did you do with your pail and shovel today ?
+*MOT:	did you make something ?
+*MOT:	what did you make ?
+*MOT:	what ?
+*MOT:	a sample ?
+*MOT:	of what ?
+*MOT:	oh (.) a shampoo .
+*MOT:	oh (.) you're going to use this for a shampoo .
+*MOT:	is that what you mean ?
+*MOT:	this cup ?
+*MOT:	what happened when I shampooed Miriam yesterday ?
+*MOT:	did she cry ?
+*MOT:	do you cry when I shampoo you ?
+*MOT:	you're a good girl .
+*MOT:	yesterday Becky shampooed your hair (.) didn't she ?
+*MOT:	<was she> [//] did she do it carefully ?
+*MOT:	did you get soap in your eyes ?
+*MOT:	you didn't get any soap (.) did you ?
+*MOT:	that was nice of Becky to shampoo .
+*MOT:	who shampooed Becky ?
+*MOT:	did I shampoo Becky ?
+*MOT:	and what happened to Miriam ?
+*MOT:	she cried .
+*MOT:	why did she cry ?
+*MOT:	she didn't want me to shampoo her (.) did she ?
+*MOT:	what did she do ?
+*MOT:	did she jump out_of the bath+tub ?
+*MOT:	and where did she go ?
+*MOT:	remember (.) where did Miriam go (.) when I tried (.) to shampoo
+*MOT:	she went in her (.) bed (.) didn't she ?
+*MOT:	and what did she do ?
+*MOT:	she didn't want to go in the bath+tub (.) but Nina was a good girl
+*MOT:	Nina let me put her in the bath+tub (.) didn't she ?
+*MOT:	your bangs look very pretty .
+*MOT:	what are you doing ?
+*MOT:	are you balancing the cup on your toes ?
+*MOT:	that's a funny place to put a cup on someone's toes .
+*MOT:	w(h)oops (.) it's on your big toe now .
+*MOT:	where's your little toe ?
+*MOT:	can you wiggle your little toe ?
+*MOT:	what are you doing ?
+*MOT:	you're so silly .
+*MOT:	where's your cup ?
+*MOT:	on your big toe ?
+*MOT:	hey (.) you've got the hiccups .
+*MOT:	awoh (.) the cup fell down on the picture .

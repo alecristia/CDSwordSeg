@@ -1,0 +1,1149 @@
+*MOT:	do you wanna play with some toys ? 1376_2995
+*MOT:	let's see &=noise ! 6803_7296
+*MOT:	this one is out_of batteries . 7974_9690
+*MOT:	want the block &=noise ? 10716_11508
+*MOT:	here's a block &=noise . 12943_13719
+*MOT:	here's another block . 16380_17772
+*MOT:	ahhah . 21350_21918
+*MOT:	another block . 22010_23048
+*MOT:	there . 27103_27602
+*MOT:	we have five blocks . 27630_28896
+*MOT:	maybe we can make a tower . 31167_32600
+*MOT:	&=involuntary . 37139_38003
+*MOT:	wanna put the blocks on ? 39296_40528
+*MOT:	there . 41347_41535
+*MOT:	&=laugh . 85350_85831
+*MOT:	do that again &=laugh ! 86085_87031
+*MOT:	show Mommy your tower ! 87704_88882
+*MOT:	&=involuntary . 91361_91579
+*MOT:	&=involuntary . 91897_92218
+*MOT:	you always scream [?] [=! whispered] . 96552_97353
+*MOT:	can you speak up ? 97776_98883
+*MOT:	can you talk in a big girl voice ? 99327_100997
+*MOT:	uhoh . 102670_103195
+*MOT:	baby baby . 113340_114769
+*MOT:	up . 115488_116015
+*MOT:	yay &=noise . 120752_122997
+*MOT:	Mandy , clap your hands ! 123011_124346
+*MOT:	say yay@q ! 124430_125573
+*MOT:	you (can) put the cow on top of the tower . 126863_128797
+*MOT:	&hmm . 129843_130391
+*MOT:	good girl . 146731_147497
+*MOT:	put on another block ! 147575_148697
+*MOT:	uhoh . 149578_150126
+*MOT:	fall down . 151794_152429
+*MOT:	&=involuntary . 160221_160564
+*MOT:	good girl . 190847_191925
+*MOT:	uhoh . 194141_194809
+*MOT:	put it on ! 195787_196517
+*MOT:	oops . 198357_198914
+*MOT:	&=laugh . 207424_207893
+*MOT:	you found the circle &=laugh . 207792_209083
+*MOT:	oops . 216806_217280
+*MOT:	oh you can get that on there . 221930_223655
+*MOT:	good girl . 226779_228153
+*MOT:	here . 228306_228602
+*MOT:	oh . 229473_230038
+*MOT:	here . 231327_231568
+*MOT:	put it up ! 235327_235720
+*MOT:	oops . 235854_236165
+*MOT:	yes . 238755_239719
+*MOT:	good girl . 239789_240242
+*MOT:	put this one on ! 240333_241221
+*MOT:	do you want the cow ? 243475_244277
+*MOT:	Mandy , the cow says (...) moo@q . 255727_260021
+*MOT:	you going for a walk ? 266857_267879
+*MOT:	&=involuntary . 273936_274318
+*MOT:	wow &=noise . 274599_275340
+*MOT:	good girl . 275388_276357
+*MOT:	uhoh . 279215_280085
+*MOT:	tower [?] fall down [=! voice] . 281459_282615
+*MOT:	can you say uhoh@q ? 290519_291999
+*MOT:	&=laugh . 307929_308589
+*MOT:	your way's great [?] [=! whispered] . 312738_314261
+*MOT:	can you speak up ? 314724_315785
+*MOT:	tell me in a big voice [=! voice] ! 316256_317788
+*MOT:	&hmm . 324211_324487
+*MOT:	I don't know [?] . 324865_326012
+*MOT:	oops . 336970_337528
+*MOT:	oh good girl [=! voice] . 345752_347935
+*MOT:	hi , moo moo cow@q . 348250_349873
+*MOT:	hi , moo moo cow@q . 351059_352589
+*MOT:	the cow says . 353306_354048
+*MOT:	&=speechplay . 354452_355902
+*MOT:	&=speechplay . 359572_361400
+*MOT:	Mandy &=noise . 371564_372440
+*MOT:	Mandy . 375357_375742
+*MOT:	where are you going ? 376197_377173
+*MOT:	c(an) you put the cow on &=noise ? 386378_387830
+*MOT:	a moo moo cow &=noise . 391246_393328
+*MOT:	good girl [=! voice] . 403932_405412
+*MOT:	oh , dear [=! voice] . 405878_407159
+*MOT:	here . 408259_408386
+*MOT:	okay put the cow on the top ! 409534_411103
+*MOT:	(I) think you need to stand up , Mandy . 411853_413599
+*MOT:	stand up ! 414317_414824
+*MOT:	Mommy'll help . 415064_415747
+*MOT:	oh [=! voice] . 416190_417170
+*MOT:	yay &=noise . 427010_429302
+*MOT:	oops . 432337_432884
+*MOT:	Mandy , want to make a choo+choo train ? 442984_444670
+*MOT:	with these blocks ? 444947_446012
+*MOT:	lookee ! 446647_447159
+*MOT:	and go (...) choo choo [x 4] ! 447626_452249
+*MOT:	choo choo [x 2] . 452907_454980
+*MOT:	uhoh . 460795_461152
+*MOT:	can you give Mommy a kiss [=! whispered] ? 480254_481569
+*MOT:	you had caught a rash on your face last night . 484160_486462
+*MOT:	and looks (.) like it's all_gone this morning &=noise . 486486_488548
+*MOT:	yeah it's all_gone . 489772_491001
+*MOT:	here's Tigger . 495348_496242
+*MOT:	and Pooh . 497062_498013
+*MOT:	and Piglet [=! voice] . 498731_499533
+*MOT:	and Owl . 500534_501683
+*MOT:	and Pooh . 503725_504521
+*MOT:	uhhuh Pooh . 506324_507347
+*MOT:	Pooh . 508321_508896
+*MOT:	hi , Tigger [=! voice] . 513401_514073
+*MOT:	t@l i@l double g@l r@l [=! voice] . 514439_515896
+*MOT:	baby . 521919_522482
+*MOT:	whoops . 528568_529191
+*MOT:	(is) that for Mommy ? 535912_536830
+*MOT:	and (you) put this block right here . 538715_540830
+*MOT:	&=labial . 555997_556966
+*MOT:	&=labial . 557330_558127
+*MOT:	I love you . 558139_558760
+*MOT:	where's the baby ? 560139_561138
+*MOT:	where's the baby ? 562259_563412
+*MOT:	Mandy ? 566014_566619
+*MOT:	where's your baby ? 567007_567949
+*MOT:	where's baby ? 573904_574816
+*MOT:	is she in the kitchen ? 574835_575799
+*MOT:	baby . 577415_578641
+*MOT:	where is the baby ? 579295_580764
+*MOT:	that's one baby . 584241_585283
+*MOT:	baby . 587988_588554
+*MOT:	oh thank_you . 589844_590706
+*MOT:	hi , little baby [=! voice] . 591491_592732
+*MOT:	&=involuntary . 592815_593274
+*MOT:	look , Mandy ! 593381_594000
+*MOT:	she say [?] . 594358_594850
+*MOT:	she's so big [=! voice] . 595520_597388
+*MOT:	she's so big [=! voice] . 598544_600363
+*MOT:	are you a big girl , Mandy ? 600779_602115
+*MOT:	so big [=! voice] . 602204_603362
+*MOT:	what does Dan Marino do ? 603997_605214
+*MOT:	he throws touchdowns [=! voice] . 605911_607541
+*MOT:	give her a kiss ! 608901_609765
+*MOT:	give her a kiss ! 611878_612555
+*MOT:	&aw . 612813_613490
+*MOT:	will you give Mommy kisses ? 613864_615188
+*MOT:	&=labial . 615418_615697
+*MOT:	Mandy ? 616385_616980
+*MOT:	come (h)ere ! 617561_617833
+*MOT:	give Mommy a kiss &=noise ! 617885_618745
+*MOT:	oh . 619531_619894
+*MOT:	baby . 623898_624609
+*MOT:	baby . 630063_630681
+*MOT:	you want Mommy to turn that on ? 634109_635307
+*MOT:	here's a barn . 654921_655758
+*MOT:	lookee ! 657565_658674
+*MOT:	there's a piggie in a barn . 659132_660472
+*MOT:	can you get the piggie &=noise ? 661648_662570
+*MOT:	piggie piggie . 663062_663790
+*MOT:	the piggie says “oink oink oink” . 669039_670913
+*MOT:	cat &=noise . 701317_701588
+*MOT:	Mandy &=noise . 703245_703687
+*MOT:	&=speechplay . 705367_706836
+*MOT:	&=speechplay . 707452_708344
+*MOT:	what's this one do ? 714752_715765
+*MOT:	here set it down &=noise ! 717468_718381
+*MOT:	this is not s(up)posed to be carried around . 718491_720462
+*MOT:	a@l (..) b@l c@l . 721473_723225
+*MOT:	and bear &=noise . 726112_726861
+*MOT:	you wanna press the kitty+cat ? 743139_744435
+*MOT:	(you) want Mommy to look &=noise ? 791507_792718
+*MOT:	I can spin it &=noise . 802167_803112
+*MOT:	round and round and round &=noise . 803836_805817
+*MOT:	round &=noise . 806326_807110
+*MOT:	you wanna do pattycake &=noise ? 822639_824012
+*MOT:	pattycake &=noise . 825549_826864
+*MOT:	pattycake &=noise . 827130_828339
+*MOT:	baker's man &=noise . 829058_831239
+*MOT:	you (wanna) pattycake with me &=noise ? 832051_833435
+*MOT:	are you a big girl &=noise ? 837269_838466
+*MOT:	Mandy &=noise . 839528_840140
+*MOT:	how big are you &=noise ? 840867_842068
+*MOT:	how big are you ? 843249_844482
+*MOT:	hey . 846045_846263
+*MOT:	how big [=! voice] ? 847244_848036
+*MOT:	say <“I'm so big”> [=! voice] ! 848203_849739
+*MOT:	here . 859007_859436
+*MOT:	pull real hard ! 861117_861950
+*MOT:	pull ! 862144_862548
+*MOT:	oh . 862813_862937
+*MOT:	&=speechplay . 864820_865138
+*MOT:	want Mommy fix it ? 868827_869738
+*MOT:	look [?] [=! whispered] . 871070_871210
+*MOT:	okay here &=noise . 871415_872187
+*MOT:	pull real hard ! 872622_873590
+*MOT:	two han(d)s . 873657_874213
+*MOT:	pull ! 875554_875980
+*MOT:	here . 876504_876756
+*MOT:	pull ! 878303_878523
+*MOT:	oh &=laugh . 878646_879936
+*MOT:	&=involuntary . 880136_880516
+*MOT:	here . 881068_881344
+*MOT:	pull this one real hard ! 881681_882912
+*MOT:	pull ! 883473_883870
+*MOT:	pull ! 884728_885037
+*MOT:	oh . 885197_885423
+*MOT:	&=speechplay . 885776_886161
+*MOT:	&=laugh . 887557_887948
+*MOT:	&=involuntary . 888246_888605
+*MOT:	here . 889577_889785
+*MOT:	pull this one ! 889932_890582
+*MOT:	(can) you put it back on ? 892780_893834
+*MOT:	pull it ! 895602_896082
+*MOT:	pull ! 897064_897245
+*MOT:	oh . 897384_897604
+*MOT:	can you pull that one ? 902877_903834
+*MOT:	&=involuntary . 904220_904419
+*MOT:	&=speechplay . 904673_904906
+*MOT:	&=speechplay . 919405_920551
+*MOT:	oh [=! whispered] . 927998_928226
+*MOT:	oh , good girl &=noise . 940874_942229
+*MOT:	you did it . 943470_944279
+*MOT:	all by yourself . 944415_945512
+*MOT:	(can) you push (th)em together ? 946329_947585
+*MOT:	that takes a_lot_of hand strength . 949432_951220
+*MOT:	here let Mommy help ! 951722_952609
+*MOT:	sit down ! 953021_953392
+*MOT:	Mommy can show you how . 954184_955205
+*MOT:	hold this one like that ! 956302_957374
+*MOT:	and hold this one like that ! 957957_959167
+*MOT:	and you (..) push (th)em together . 960024_961560
+*MOT:	&=speechplay . 962112_962347
+*MOT:	here . 969398_969585
+*MOT:	you pull &=noise ! 969940_970839
+*MOT:	oh . 971507_972232
+*MOT:	you need to put it in the hole . 978415_979651
+*MOT:	turn it over ! 980803_981466
+*MOT:	&=involuntary . 986945_987062
+*MOT:	&=laugh . 989248_990939
+*MOT:	&=involuntary . 991516_991695
+*MOT:	push ! 1002159_1002404
+*MOT:	whoa &=laugh . 1006026_1008160
+*MOT:	&=involuntary . 1008261_1008856
+*MOT:	went all the way over there &=laugh . 1009122_1010875
+*MOT:	go get it ! 1011051_1011722
+*MOT:	what ? 1032691_1033307
+*MOT:	what do you want ? 1033531_1034289
+*MOT:	say Mama@q ! 1035639_1036534
+*MOT:	Mama@q . 1037830_1038478
+*MOT:	tell me ! 1061832_1062280
+*MOT:	say Mama@q ! 1062307_1063314
+*MOT:	I'll help you . 1063864_1064671
+*MOT:	but talk to me ! 1065066_1065840
+*MOT:	say Mommy@q &=noise ! 1068514_1069415
+*MOT:	you giving that to the baby &=noise ? 1070082_1071460
+*MOT:	you giving it to the baby &=laugh ? 1072418_1073667
+*MOT:	&=laugh . 1080013_1080621
+*MOT:	Mandy &=laugh . 1081556_1082154
+*MOT:	lookee here ! 1083082_1083652
+*MOT:	don't fall down ! 1089901_1090749
+*MOT:	are you going bye bye ? 1098728_1099630
+*MOT:	I'm gonna get you &=noise . 1121571_1122651
+*MOT:	where's Mommy ? 1126457_1127220
+*MOT:	where's Mommy ? 1127687_1128440
+*MOT:	&=laugh . 1131085_1131646
+*MOT:	&=laugh . 1133233_1133633
+*MOT:	&=involuntary . 1140931_1141157
+*MOT:	&=laugh . 1141663_1142982
+*MOT:	you found me &=noise . 1143175_1144130
+*MOT:	here I come &=laugh . 1146166_1146922
+*MOT:	&=laugh . 1147035_1148036
+*MOT:	&=laugh . 1149391_1149644
+*MOT:	&=laugh . 1152363_1153293
+*MOT:	&=labial . 1154602_1154756
+*MOT:	&=involuntary . 1154752_1155151
+*MOT:	I got you &=noise . 1155219_1156015
+*MOT:	I got you , my pretty [=! voice] . 1157235_1158867
+*MOT:	oh . 1160347_1160481
+*MOT:	you wanna play airplane ? 1164357_1165645
+*MOT:	come (h)ere ! 1166513_1166865
+*MOT:	come (h)ere ! 1168282_1168624
+*MOT:	(c)ome (h)ere ! 1169388_1169975
+*MOT:	&ah I got you [=! voice] . 1170214_1171728
+*MOT:	come (h)ere ! 1172486_1172901
+*MOT:	&=involuntary . 1173551_1173922
+*MOT:	what ? 1173942_1174245
+*MOT:	&=involuntary . 1174385_1176199
+*MOT:	come on ! 1176867_1176936
+*MOT:	oh . 1179497_1179636
+*MOT:	oh [=! whispered] . 1179925_1180128
+*MOT:	I (..) got you [=! voice] . 1182844_1183712
+*MOT:	&=involuntary . 1184168_1184265
+*MOT:	oh you're so big [=! voice] . 1184274_1185513
+*MOT:	&=speechplay . 1187296_1188771
+*MOT:	&=involuntary . 1188789_1188994
+*MOT:	&=speechplay . 1189140_1190483
+*MOT:	&=speechplay . 1190714_1192286
+*MOT:	&=speechplay . 1192762_1193905
+*MOT:	what do you gotta say &=noise ? 1195047_1196013
+*MOT:	huh ? 1196895_1197188
+*MOT:	&=speechplay . 1198504_1199923
+*MOT:	give me a kiss ! 1200116_1200762
+*MOT:	I love you &=noise . 1202013_1202555
+*MOT:	&=speechplay . 1203190_1204378
+*MOT:	&=speechplay . 1205592_1207939
+*MOT:	baby . 1207878_1208447
+*MOT:	what ? 1213565_1213842
+*MOT:	what ? 1217505_1218219
+*MOT:	are you hungry ? 1228650_1229494
+*MOT:	&=involuntary . 1230660_1230939
+*MOT:	no . 1231092_1231520
+*MOT:	&=cry . 1231273_1231599
+*MOT:	Mommy doesn't have any more milk in there . 1232014_1233753
+*MOT:	let's go get your breakfast ! 1234024_1235366
+*MOT:	&=involuntary . 1235484_1236211
+*MOT:	what ? 1236564_1236919
+*MOT:	&=involuntary . 1237077_1238654
+*MOT:	okay ? 1239455_1239885
+*MOT:	Mommy's milk ? 1244218_1245469
+*MOT:	baby . 1248382_1249010
+*MOT:	said [?] . 1249446_1249671
+*MOT:	you drank all of Mommy's milk . 1249765_1251325
+*MOT:	yeah . 1252767_1253032
+*MOT:	&aw , dear [=! voice] . 1256258_1258982
+*MOT:	we're gonna be hungry early aren't we ? 1259952_1261810
+*MOT:	we'll be hungry for breakfast early . 1262544_1264372
+*MOT:	let's (.) get (.) your milk (.) out [=! voice] ! 1267935_1269827
+*MOT:	oh , Mandy , I gotta set you down . 1270599_1272066
+*MOT:	ow . 1273069_1273472
+*MOT:	this (...) pouch is . 1274108_1276166
+*MOT:	&=involuntary . 1276397_1276863
+*MOT:	okay . 1280136_1280943
+*MOT:	come here , sweetie ! 1281418_1282376
+*MOT:	there Mommy fixed the pouch [=! voice] . 1282868_1284619
+*MOT:	here's Mandy's milk . 1285700_1287432
+*MOT:	I'm saying [?] [=! whispered] . 1288546_1289476
+*MOT:	here's some milk . 1289864_1290954
+*MOT:	and here's some milk . 1291684_1292812
+*MOT:	one ounce here &=noise . 1295615_1296600
+*MOT:	&hmm . 1297792_1297981
+*MOT:	some here and here's some more . 1299223_1300582
+*MOT:	we gotta get all your milk warmed up . 1301563_1303331
+*MOT:	(okay) can Mommy put you down so I can get your breakfast together
+*MOT:	&aw . 1315507_1317616
+*MOT:	Mandy . 1318125_1318929
+*MOT:	get your baby ! 1319656_1320715
+*MOT:	where's your baby ? 1321344_1322314
+*MOT:	go get your baby &=noise ! 1323623_1324852
+*MOT:	baby's on the floor . 1326037_1327364
+*MOT:	oh_my_goodness . 1331720_1333460
+*MOT:	are you gonna be able to wait for Mommy to get this together ? 1334040_1336789
+*MOT:	okay . 1347008_1347440
+*MOT:	come on ! 1347455_1347888
+*MOT:	you &=noise . 1348503_1348999
+*MOT:	you're not gonna have_to wait . 1349090_1350107
+*MOT:	I'll feed you Cheerios when I get everything else ready &=noise . 1350258_1352802
+*MOT:	(o)kay ? 1353054_1353471
+*MOT:	&=involuntary . 1353797_1354392
+*MOT:	you want some Cheerios ? 1355986_1357043
+*MOT:	&hmm &=noise ? 1357509_1357742
+*MOT:	Cheerios and juice &=noise ? 1358646_1359590
+*MOT:	you want Mommy to get your breakfast ready &=noise ? 1359609_1361170
+*MOT:	&=involuntary . 1361890_1363165
+*MOT:	hands up ! 1363248_1363790
+*MOT:	hands up please ! 1365785_1366909
+*MOT:	hands up [=! voice] ! 1367327_1367810
+*MOT:	there we go &=noise . 1373870_1375053
+*MOT:	where's Mandy's Cheerios ? 1376928_1378976
+*MOT:	here they are &=noise . 1380274_1380967
+*MOT:	you can have those Cheerios &=noise . 1383871_1385360
+*MOT:	while Mommy gets everything ready &=noise . 1385401_1386736
+*MOT:	(o)kay [=! whispered] . 1399319_1400025
+*MOT:	and this is gonna be for (...) your cereal &=noise . 1402062_1406112
+*MOT:	let's get another ounce for your cup &=noise ! 1407314_1409398
+*MOT:	that milk is for your cup &=noise . 1415602_1417131
+*MOT:	let's put all this rest of this milk away &=noise ! 1418449_1420600
+*MOT:	&=involuntary . 1426768_1427284
+*MOT:	&=involuntary . 1431506_1432062
+*MOT:	what ? 1453074_1453565
+*MOT:	what , honey ? 1456127_1456659
+*MOT:	you got a Cheerio right there on your shirt . 1458145_1460440
+*MOT:	&=involuntary . 1460823_1461089
+*MOT:	excuse me . 1461543_1462219
+*MOT:	&=involuntary . 1464501_1464845
+*MOT:	you're such a good Cheerio_eater . 1474142_1475953
+*MOT:	you know that ? 1475960_1476543
+*MOT:	&=labial . 1476591_1477227
+*MOT:	can I push your sleeves up [=! whispered] ? 1481816_1482967
+*MOT:	let's tug those sleeves up [=! whispered] ! 1485075_1486511
+*MOT:	real good . 1487350_1487956
+*MOT:	&=involuntary . 1488203_1488693
+*MOT:	so we don't get our arms all dirty [=! whispered] . 1488980_1490798
+*MOT:	&=involuntary . 1490990_1491867
+*MOT:	you want some more ? 1492673_1493403
+*MOT:	(Cheeri)os ? 1495054_1495566
+*MOT:	&=involuntary . 1498708_1499121
+*MOT:	tell Mommy ! 1499181_1499803
+*MOT:	(Cheeri)os ? 1500078_1500767
+*MOT:	(Cheeri)os &=noise . 1504500_1505381
+*MOT:	there's some (Cheeri)os for Mandy &=noise . 1506984_1508528
+*MOT:	two cups &=noise . 1529774_1530834
+*MOT:	one for juice and one for milk &=noise . 1533625_1535485
+*MOT:	yeah . 1542188_1542524
+*MOT:	two sipper lids &=noise . 1543776_1545064
+*MOT:	&=involuntary . 1547476_1548157
+*MOT:	and two spoons . 1548207_1549282
+*MOT:	one for me and one for you &=noise . 1549333_1550842
+*MOT:	see &=noise . 1570087_1570520
+*MOT:	and two bowls &=noise . 1573690_1574779
+*MOT:	one for cereal &=noise . 1574844_1575952
+*MOT:	and one for fruit &=noise . 1576146_1577545
+*MOT:	&=involuntary . 1582278_1582742
+*MOT:	what , honey ? 1582836_1583506
+*MOT:	you want your spoon &=noise ? 1584198_1585377
+*MOT:	&=labial . 1589299_1590336
+*MOT:	nah nah ? 1611761_1612528
+*MOT:	you want ? 1614159_1614310
+*MOT:	you've got another (Cheeri)o's right here . 1614493_1616150
+*MOT:	right here [=! whispered] . 1616853_1617187
+*MOT:	&=involuntary . 1621145_1621559
+*MOT:	put this fire hydrant (..) out o(f) the way &=noise . 1635124_1637344
+*MOT:	oh it's a fire extinguisher &=noise . 1641853_1643634
+*MOT:	I'm calling it a fire hydrant &=noise . 1644079_1645600
+*MOT:	okay &=noise . 1662546_1663633
+*MOT:	let's get Mandy's cereal [=! sung] ! 1664296_1666513
+*MOT:	Mandy's cereal [=! sung] . 1667317_1668683
+*MOT:	rice with bananas . 1668694_1670219
+*MOT:	yum yum . 1670761_1672154
+*MOT:	half a cup &=noise . 1675257_1675866
+*MOT:	(o)kay [=! whispered] . 1689364_1690214
+*MOT:	(oh) yeah . 1691440_1691832
+*MOT:	for fruit today &=noise . 1693230_1694379
+*MOT:	we're going to have some pears . 1695108_1697224
+*MOT:	say “where's the pears” &=noise ! 1702238_1704049
+*MOT:	&a:h . 1709144_1709603
+*MOT:	you know what ? 1709923_1710447
+*MOT:	you get to have some hard boiled egg too (...) in your cereal this
+*MOT:	&=involuntary . 1714816_1715559
+*MOT:	oh I can't get the egg (.) container open &=noise . 1729362_1731880
+*MOT:	there we go &=noise . 1732265_1732899
+*MOT:	&=involuntary . 1735213_1735584
+*MOT:	&=involuntary . 1736880_1737316
+*MOT:	(w)ant some pears &=noise ? 1737666_1738961
+*MOT:	yummy yummy pears [=! sung] . 1741293_1743161
+*MOT:	&=involuntary . 1743240_1743638
+*MOT:	some yummy yummy pears [=! sung] . 1743810_1746125
+*MOT:	I know you like your yummy pears [=! sung] . 1746827_1750037
+*MOT:	here you wanna eat some with your fingers &=noise ? 1750455_1752277
+*MOT:	(you) wanna put those pears in your mouth [=! voice] ? 1753330_1754844
+*MOT:	&=involuntary . 1758260_1758847
+*MOT:	&=involuntary . 1761279_1761454
+*MOT:	(a)n(d) get some egg . 1761864_1763246
+*MOT:	there [=! whispered] . 1766224_1766606
+*MOT:	&=involuntary . 1769894_1770467
+*MOT:	now [=! whispered] . 1771337_1771722
+*MOT:	I wanted to open up some baby food [=! whispered] . 1771712_1774012
+*MOT:	let's see [=! whispered] ! 1782602_1783527
+*MOT:	here's some pears &=noise . 1785376_1786555
+*MOT:	look , Mandy &=noise ! 1811200_1811947
+*MOT:	wanna take a bite ? 1812737_1813338
+*MOT:	come on ! 1815119_1815566
+*MOT:	&aw , honey [=! voice] . 1817564_1818539
+*MOT:	&mm &=noise . 1819905_1820848
+*MOT:	yummy &=noise . 1820850_1821773
+*MOT:	yummy . 1822779_1823644
+*MOT:	that is so yummy . 1826670_1827937
+*MOT:	you should not spit that out &=noise ! 1829431_1830773
+*MOT:	let's get (it) a little bit thicker &=noise ! 1846814_1848205
+*MOT:	&=nonspeech . 1851619_1851728
+*MOT:	there we go [=! voice] . 1857450_1858376
+*MOT:	now for Mandy's &=noise . 1867256_1868692
+*MOT:	where's Mandy's juice &=noise ? 1869282_1870565
+*MOT:	here it is &=noise . 1871849_1872427
+*MOT:	God bless you . 1878922_1879806
+*MOT:	&=involuntary . 1880385_1880973
+*MOT:	bless you [=! voice] . 1881003_1881658
+*MOT:	&=involuntary . 1882287_1882665
+*MOT:	oh_my_goodness [=! voice] . 1882711_1883508
+*MOT:	Mama &=noise . 1889667_1890631
+*MOT:	you okay , dear ? 1907042_1908052
+*MOT:	okay [=! voice] . 1914231_1915307
+*MOT:	here's milk &=noise . 1915796_1916722
+*MOT:	you're alright &=noise . 1923129_1924364
+*MOT:	Mommy needs to get her chair &=noise . 1924599_1926093
+*MOT:	Mama &=noise . 1934724_1935348
+*MOT:	what do you want , dear &=noise ? 1936167_1937231
+*MOT:	juice ? 1937961_1938443
+*MOT:	you want your juice ? 1940192_1941238
+*MOT:	Mommy's pouring in the milk . 1946180_1948179
+*MOT:	somehow (.) it (.) doesn't look like it's enough milk &=noise . 1958795_1961263
+*MOT:	&mm (.) &mm &mm . 1972619_1973573
+*MOT:	this is so thick &=noise . 1976493_1978024
+*MOT:	Mommy has_to add a few drops of water &=noise . 1981030_1982887
+*MOT:	it's just not enough . 1983551_1984566
+*MOT:	Mama ? 1989771_1990467
+*MOT:	&=involuntary . 1997144_1997905
+*MOT:	you're okay , dear . 1997914_1998903
+*MOT:	Mommy has_to mix the milk in the cereal . 2000115_2002627
+*MOT:	it just takes a minute . 2002639_2003846
+*MOT:	very thick this morning . 2008810_2010247
+*MOT:	you ready ? 2017957_2018426
+*MOT:	&=involuntary . 2021199_2021504
+*MOT:	here you hold your spoon ! 2021798_2023239
+*MOT:	you hold your spoon ! 2024703_2025657
+*MOT:	we're gonna scoop &=noise . 2026817_2028504
+*MOT:	and bite . 2029690_2030327
+*MOT:	and scoop [=! voice] . 2034402_2035671
+*MOT:	and bite [=! voice] . 2036696_2037487
+*MOT:	good girl [=! voice] . 2037725_2038505
+*MOT:	(s)ay <“I'm feeding myself with the big blue spoon”> [=! sung] ! 2039600_2043234
+*MOT:	scoop and bite [=! voice] . 2043945_2044820
+*MOT:	scoop [=! voice] . 2045244_2045963
+*MOT:	and bite [=! whispered] . 2048612_2049035
+*MOT:	&=involuntary . 2049878_2051073
+*MOT:	do you want Mommy to add some more water to it so it's not so thick
+*MOT:	&hmm ? 2056098_2056385
+*MOT:	okay . 2057956_2058388
+*MOT:	you hold the spoon &=noise ! 2058519_2059290
+*MOT:	scoop [=! voice] ! 2061564_2062864
+*MOT:	and bite [=! voice] ! 2063452_2064372
+*MOT:	(and) scoop &=noise ! 2068545_2069399
+*MOT:	and bite [=! voice] ! 2070203_2070947
+*MOT:	scoop [=! voice] ! 2076017_2076844
+*MOT:	Mommy help [=! whispered] ? 2084177_2084766
+*MOT:	scoop [=! voice] ! 2086301_2087018
+*MOT:	and bite [=! whispered] ! 2090132_2090617
+*MOT:	scoop [=! voice] ! 2092986_2093552
+*MOT:	uhoh . 2095258_2096031
+*MOT:	come o(n) get your drop &=noise ! 2096733_2097471
+*MOT:	put a few drops of water in ! 2097773_2099266
+*MOT:	(be)cause it's so thick &=noise . 2100425_2101637
+*MOT:	you wanna use the other spoon &=noise ? 2107722_2108883
+*MOT:	here's your spoon . 2117321_2118101
+*MOT:	you hold the spoon ! 2119401_2120290
+*MOT:	ready [=! voice] ? 2122327_2122723
+*MOT:	scoop [=! voice] ! 2124905_2125977
+*MOT:	and bite [=! voice] ! 2126956_2128008
+*MOT:	good girl &=noise . 2128568_2129599
+*MOT:	&=involuntary . 2129619_2130101
+*MOT:	you are < sick > [?] &=noise . 2130255_2131062
+*MOT:	gotta turn that spoon a little bit . 2131044_2132676
+*MOT:	scoop [=! voice] ! 2133333_2134126
+*MOT:	and bite [=! voice] ! 2134898_2135750
+*MOT:	I'm a big <girl@q> [=! voice] . 2136926_2138080
+*MOT:	right . 2141721_2142037
+*MOT:	le(t) me get all this food off your face ! 2142130_2143750
+*MOT:	scoop [=! voice] ! 2146417_2147284
+*MOT:	and bite [=! voice] ! 2148239_2149275
+*MOT:	le(t) me help you scoop [=! voice] ! 2152957_2154252
+*MOT:	put it to your mouth ! 2155599_2156442
+*MOT:	scoop [=! voice] ! 2157503_2158389
+*MOT:	and bite [=! voice] ! 2159038_2160020
+*MOT:	scoop [=! voice] ! 2162432_2163531
+*MOT:	and bite [=! voice] ! 2165606_2166328
+*MOT:	&=involuntary . 2166437_2166849
+*MOT:	uhoh [=! voice] . 2167282_2168043
+*MOT:	you turned the spoon upside down . 2168432_2169965
+*MOT:	&=involuntary . 2172322_2173091
+*MOT:	okay &=noise . 2173392_2174331
+*MOT:	we're gettin(g) down to the (...) bottom &=noise . 2174608_2177426
+*MOT:	take a bite ! 2178831_2179329
+*MOT:	see if there's any left &=noise . 2182005_2183371
+*MOT:	another big bite ! 2185464_2186470
+*MOT:	that was brilliant . 2187829_2189004
+*MOT:	you got a pear on there [=! voice] . 2189535_2191039
+*MOT:	put it on ! 2192727_2193113
+*MOT:	and bite [=! voice] ! 2193271_2193762
+*MOT:	&=involuntary . 2196750_2198127
+*MOT:	good girl &=noise . 2200745_2201917
+*MOT:	you're scooping up the pears &=noise . 2202153_2203712
+*MOT:	here [=! whispered] . 2208111_2208353
+*MOT:	what a good eater &=noise . 2210724_2212587
+*MOT:	my Mandy's a good girl &=noise . 2213553_2215860
+*MOT:	whoop(s) &=noise . 2221428_2221931
+*MOT:	&=involuntary . 2222236_2222541
+*MOT:	okay [=! voice] . 2222711_2223318
+*MOT:	lemme get a bowl o(f) pears &=noise ! 2224186_2225552
+*MOT:	you ate all your yummy cereal &=noise . 2226225_2228106
+*MOT:	you're a good eater . 2228600_2229787
+*MOT:	Mommy's proud o(f) you &=noise . 2230500_2231615
+*MOT:	you ready for some more &=noise ? 2232925_2234059
+*MOT:	you gotta hold your spoon like that . 2234467_2236435
+*MOT:	scoop [=! voice] ! 2238340_2239392
+*MOT:	and bite [=! voice] ! 2240898_2242072
+*MOT:	scoop [=! voice] ! 2245460_2246442
+*MOT:	and bite [=! voice] ! 2248122_2249080
+*MOT:	scoop [=! voice] ! 2252024_2252589
+*MOT:	that's it . 2253356_2253763
+*MOT:	and bite [=! whispered] ! 2254826_2255868
+*MOT:	scoop [=! voice] ! 2259968_2261139
+*MOT:	and bite &=noise ! 2263891_2264656
+*MOT:	scoop [=! voice] ! 2269541_2270535
+*MOT:	and bite ! 2273187_2273855
+*MOT:	scoop [=! voice] ! 2277502_2278204
+*MOT:	&=involuntary . 2281123_2281423
+*MOT:	bite ! 2281465_2281881
+*MOT:	wait a minute &=noise ! 2287285_2287803
+*MOT:	there we go [=! whispered] . 2288849_2289297
+*MOT:	scoop [=! voice] ! 2292843_2293787
+*MOT:	and bite [=! voice] ! 2296986_2297691
+*MOT:	did you get a little bit in your nose ? 2300125_2301780
+*MOT:	you want to get some more food &=noise ? 2305241_2306199
+*MOT:	scoop &=noise ! 2306265_2306826
+*MOT:	that's a girl [=! voice] . 2308064_2308635
+*MOT:	scoop &=noise ! 2308709_2309095
+*MOT:	and bite [=! voice] ! 2309769_2310450
+*MOT:	oh you're getting so good at that &=noise . 2311263_2313075
+*MOT:	my Mandy's learned how to feed herself &=noise . 2314155_2316339
+*MOT:	&=involuntary . 2324186_2324507
+*MOT:	let's get all this food off your face &=noise ! 2324520_2326197
+*MOT:	what do you want , honey ? 2329732_2330753
+*MOT:	milk ? 2332764_2333207
+*MOT:	okay . 2333660_2334356
+*MOT:	where's your milk ? 2335398_2336079
+*MOT:	is that what you wanted ? 2341999_2342691
+*MOT:	milk ? 2344864_2345334
+*MOT:	take a drink ! 2346433_2347161
+*MOT:	you didn't want the milk &=noise ? 2352823_2353814
+*MOT:	or do you want this &=noise ? 2354291_2355111
+*MOT:	what is that ? 2355639_2356033
+*MOT:	juice . 2359006_2359446
+*MOT:	juice . 2362265_2362778
+*MOT:	juice ? 2365839_2366291
+*MOT:	that's what you wanted isn't it [=! whispered] ? 2370108_2371398
+*MOT:	you just don't like this formula &=noise . 2372265_2373616
+*MOT:	say “I don't like the formula” &=noise ! 2375646_2377216
+*MOT:	oh , Mandy [=! voice] . 2378184_2379824
+*MOT:	okay . 2381153_2381667
+*MOT:	let me go clean off the cup &=noise ! 2381707_2382897
+*MOT:	you got pears all over your juice cup &=noise . 2384682_2386804
+*MOT:	here we go , dear &=noise . 2393928_2394610
+*MOT:	Mommy &=noise . 2396138_2396657
+*MOT:	just say Mommy@q ! 2398595_2399508
+*MOT:	you make me very happy . 2406070_2407756
+*MOT:	excuse you &=noise . 2414321_2415073
+*MOT:	uhhum . 2416300_2416705
+*MOT:	&mm &=noise . 2420197_2420753
+*MOT:	that's better &hmm [?] &=noise ? 2421756_2423239
+*MOT:	&=involuntary . 2437756_2438667
+*MOT:	Mandy ? 2438874_2439406
+*MOT:	do you want some more pears &=noise ? 2439974_2441110
+*MOT:	&=involuntary . 2446732_2447553
+*MOT:	that's your milk . 2462558_2463351
+*MOT:	you gonna take a drink of your milk &=noise ? 2464380_2466029
+*MOT:	here &=noise . 2467381_2467636
+*MOT:	milk and juice . 2470044_2470805
+*MOT:	what do you want ? 2470854_2471349
+*MOT:	or do you want some more pears &=noise ? 2474807_2476137
+*MOT:	more pears ? 2477466_2478075
+*MOT:	scoop [=! voice] ! 2484051_2484784
+*MOT:	and bite [=! voice] ! 2485776_2486556
+*MOT:	no ? 2487627_2488091
+*MOT:	have you had enough ? 2489276_2490154
+*MOT:	that's Mandy's juice &=noise . 2496435_2497852
+*MOT:	there &=noise . 2499166_2499388
+*MOT:	Mandy's very good juice . 2499628_2500786
+*MOT:	see if you can drink it up &=noise ? 2500851_2502291
+*MOT:	scoop [=! voice] ! 2516599_2517351
+*MOT:	you've got the whole cup upside down [=! whispered] . 2520017_2521657
+*MOT:	here [=! whispered] . 2522944_2523065
+*MOT:	good girl [=! whispered] . 2532189_2532596
+*MOT:	and bite &=noise ! 2537571_2538243
+*MOT:	Mommy &=noise ? 2540128_2540940
+*MOT:	la la la &=noise ? 2542779_2543733
+*MOT:	Mommy ? 2553744_2554372
+*MOT:	here &=noise . 2560177_2560392
+*MOT:	are you finished &=noise ? 2568604_2569375
+*MOT:	you want me to start washing these dishes ? 2570517_2571861
+*MOT:	&hmm ? 2573161_2573341
+*MOT:	want some more fruit ? 2575078_2575875
+*MOT:	I think you're stuffed &=noise . 2580836_2581917
+*MOT:	here . 2582092_2582424
+*MOT:	let me have that ! 2583234_2583756
+*MOT:	let me have that [=! whispered] ! 2584810_2585356
+*MOT:	okay . 2585729_2586092
+*MOT:	you don't have_to eat anymore . 2586595_2587720
+*MOT:	Mommy's gonna start cleaning up while you drink your juice &=noise
+*MOT:	Mama . 2596598_2597133
+*MOT:	&=involuntary . 2604701_2605045
+*MOT:	Mama &=noise ? 2613802_2614372
+*MOT:	Mama loves you , Mandy &=noise . 2615571_2617061
+*MOT:	Mama loves you . 2618264_2619091
+*MOT:	Mama &=noise . 2622612_2623386
+*MOT:	you can drink your juice while Mommy cleans up &=noise . 2625106_2627279
+*MOT:	here I am . 2631527_2632084
+*MOT:	hi &=noise . 2633720_2633964
+*MOT:	come over here &=noise ! 2635821_2636705
+*MOT:	&=labial . 2647251_2647366
+*MOT:	this is way too wet &=noise . 2652938_2654476
+*MOT:	we'll put your dishes on this towel &=noise . 2656330_2657907
+*MOT:	Mommy's washing your dishes &=noise . 2664210_2665779
+*MOT:	see &=noise ? 2667664_2668144
+*MOT:	gotta get the dirty dishes all clean &=noise . 2668493_2670548
+*MOT:	did you want your juice &=noise ? 2677237_2678410
+*MOT:	can you reach it &=noise ? 2682146_2682997
+*MOT:	you're a dear &=noise . 2683367_2683831
+*MOT:	uhoh . 2693432_2694416
+*MOT:	do you want your milk ? 2698183_2699147
+*MOT:	take another sip of milk &=noise ? 2704611_2705913
+*MOT:	more ? 2711604_2711865
+*MOT:	good girl . 2712483_2713424
+*MOT:	Mandy , don't spit the milk out ! 2715211_2716780
+*MOT:	(o)kay . 2718857_2719154
+*MOT:	I'm not gonna give it to you if you keep spittin(g) it out
+*MOT:	You think you got a full belly &=noise ? 2732857_2734379
+*MOT:	&hmm &=noise ? 2735408_2735708
+*MOT:	okay [=! voice] . 2762865_2763957
+*MOT:	yes &=noise . 2769503_2770339
+*MOT:	did you call me &=noise ? 2772659_2773402
+*MOT:	say Mommy@q &=noise ! 2775261_2775905
+*MOT:	what are you eating ? 2776759_2777679
+*MOT:	what did you find on the seats &=noise ? 2777813_2779294
+*MOT:	&=involuntary . 2794072_2794662
+*MOT:	you wipe up your tray &=noise ! 2800584_2801919
+*MOT:	you okay , dear ? 2814108_2814992
+*MOT:	oh goodne(ss) . 2818095_2819431
+*MOT:	&=speechplay . 2820679_2821701
+*MOT:	you wipe up all the juice off the floor &=noise ? 2822962_2825065
+*MOT:	did you want any more juice before Mommy pours it out ? 2828921_2831304
+*MOT:	you want it ? 2832315_2832870
+*MOT:	(o)kay . 2834331_2834777
+*MOT:	no ? 2835230_2835734
+*MOT:	say “I'm all done , Mommy” &=noise ! 2837935_2839392
+*MOT:	all done@q &=noise . 2841113_2842047
+*MOT:	just ge(t) me out o(f) here@q &=noise ! 2842021_2843378
+*MOT:	are you &=noise ? 2847143_2847489
+*MOT:	Mandy &=noise ? 2848003_2848562
+*MOT:	are you done &=noise ? 2849366_2850270
+*MOT:	so big [=! voice] . 2851132_2852405
+*MOT:	you're such a big girl &=noise . 2853686_2855068
+*MOT:	so big &=noise . 2855092_2856068
+*MOT:	but don't put your hands in your hair &=noise ! 2856184_2857943
+*MOT:	&=involuntary . 2858006_2858395
+*MOT:	let Mommy get your hands clean before you do that &=noise ! 2858570_2861076
+*MOT:	&aw [=! voice] . 2866088_2866789
+*MOT:	where's Mandy [=! voice] ? 2866822_2867864
+*MOT:	&=laugh . 2868235_2868837
+*MOT:	can't see you hiding behind your hands . 2868867_2871083
+*MOT:	&=involuntary . 2871061_2871353
+*MOT:	Mama . 2872119_2873192
+*MOT:	gotta get the food off your face , dear [=! voice] . 2874673_2877505
+*MOT:	come on ! 2879017_2879355
+*MOT:	you're so cute . 2880030_2880742
+*MOT:	let Mommy take your bib ! 2882266_2883417
+*MOT:	&=involuntary . 2887378_2888247
+*MOT:	&=laugh . 2890466_2891500
+*MOT:	don't you get sleepy (.) yet &=noise ! 2892908_2894831
+*MOT:	&=speechplay . 2896110_2897337
+*MOT:	&=speechplay . 2898142_2899164
+*MOT:	&=laugh . 2899772_2900547
+*MOT:	&=laugh . 2900487_2900673
+*MOT:	&=involuntary . 2900793_2901134
+*MOT:	where are you hiding ? 2901421_2902851
+*MOT:	I know [=! voice] . 2906526_2907133
+*MOT:	say “I don't want you to wash my hands , Mommy” ! 2907347_2910011
+*MOT:	I like your sticky <fingers@q> [=! voice] . 2910636_2912242
+*MOT:	I like sticky <fingers@q> [=! whispered] . 2912894_2914634
+*MOT:	I like having pears between my <fingers@q> [=! whispered] . 2916228_2918925
+*MOT:	oh [=! whispered] . 2922014_2922588
+*MOT:	come here ! 2924095_2924640
+*MOT:	now where's the other hand ? 2924776_2926097
+*MOT:	Mommy has_to wash this hand . 2927730_2929620
+*MOT:	it may as all be okay . 2933436_2935436
+*MOT:	you'll be okay . 2936932_2938077
+*MOT:	I just have_to wash the other hand &=laugh . 2938435_2940324
+*MOT:	let's try to hide from me ! 2940278_2942019
+*MOT:	yes . 2943150_2943568
+*MOT:	I do . 2943605_2944491
+*MOT:	oh . 2955679_2956088
+*MOT:	Miranda Elisse . 2958837_2960699
+*MOT:	you need to calm down . 2961405_2962759
+*MOT:	all I want you to do is give me your hand . 2964196_2966512
+*MOT:	give Mommy your hand so I can clean it ! 2966901_2968701
+*MOT:	thank_you &=noise . 2968796_2969659
+*MOT:	see that('s) not so bad . 2970436_2971984
+*MOT:	that's not so bad [=! voice] . 2972676_2973686
+*MOT:	good girl [=! voice] . 2973762_2974943
+*MOT:	good girl [=! voice] . 2975214_2975957
+*MOT:	now listen ! 2976452_2977150
+*MOT:	we gotta brush our teeth . 2977469_2978721
+*MOT:	brush our teeth [=! sung] . 2979564_2980463
+*MOT:	brush our teeth [=! sung] . 2981181_2982538
+*MOT:	brusha [: brush] . 2983836_2984718
+*MOT:	come here ! 2985900_2986745
+*MOT:	Mandy . 2988999_2989957
+*MOT:	we gotta brush your teeth . 2990585_2992095
+*MOT:	the rest we'll get . 2992176_2992825
+*MOT:	no . 2993574_2993951
+*MOT:	we can't get down until your teeth are clean . 2993985_2996643
+*MOT:	see you're o(kay) [=! whispered] ! 2997499_2998993
+*MOT:	come on ! 3000110_3000850
+*MOT:	you're okay . 3004646_3006170
+*MOT:	you're okay &=noise . 3006478_3007236
+*MOT:	oh &=noise . 3010544_3012552
+*MOT:	you'll be okay . 3013224_3014528
+*MOT:	say <“my Mommy makes me brush my teeth”> [=! voice] ! 3016226_3018939
+*MOT:	my Mommy makes me keep my face clean@q &=noise . 3019923_3022290
+*MOT:	okay &=noise . 3025709_3026344
+*MOT:	just gotta get this bib washed &=noise . 3026601_3028177
+*MOT:	and then we can get out (.) and play . 3028184_3029744
+*MOT:	&=labial [?] . 3030554_3031653
+*MOT:	you wanna go play &=noise ? 3031671_3032638
+*MOT:	we can go downstairs and play . 3036822_3038322
+*MOT:	okay &=noise ? 3039691_3040243
+*MOT:	oh right [=! voice] . 3060554_3061712
+*MOT:	dishes are done &=noise . 3063112_3064075
+*MOT:	Mandy's clean [=! voice] . 3064109_3065262
+*MOT:	&=involuntary . 3065282_3065603
+*MOT:	you got a full belly &=noise . 3065626_3067132
+*MOT:	you're not allowed to get tired yet &=noise . 3067840_3069415
+*MOT:	no no &=noise . 3070455_3071162
+*MOT:	come on ! 3076225_3076695
+*MOT:	sit back , dear ! 3076734_3077591
+*MOT:	come on [=! whispered] ! 3081606_3081936
+*MOT:	oh , Mandy [=! voice] . 3083014_3085012
+*MOT:	should we bring your baby downstairs ? 3085727_3087715
+*MOT:	you want your baby ? 3093203_3094013
+*MOT:	&=labial . 3094342_3094721
+*MOT:	I might give you a kiss . 3094646_3095834
+*MOT:	&=labial . 3096479_3096728
+*MOT:	I give you a kiss too &=noise . 3096716_3098144
+*MOT:	oh &=noise . 3098173_3098460
+*MOT:	&=involuntary . 3101196_3101872
+*MOT:	downstairs &=noise . 3102115_3104130
+*MOT:	downstairs &=noise . 3105543_3107317
+*MOT:	(le)t's turn out this light [=! whispered] ! 3111852_3113391
+*MOT:	&=involuntary . 3115203_3115566
+*MOT:	&a:h Mandy's play+room [=! voice] . 3115704_3119283
+*MOT:	here's the baby . 3120313_3121392
+*MOT:	ahhah &=noise . 3123013_3124046
+*MOT:	oh_my_goodness [=! voice] . 3125058_3126451
+*MOT:	Mommy better clean this water toy . 3127846_3130283
+*MOT:	that's on my to_do_list today . 3131740_3133830
+*MOT:	&=involuntary . 3137841_3138504
+*MOT:	let's turn on the heater ! 3148333_3149659
+*MOT:	Mommy's gonna put up the gate . 3157217_3158675
+*MOT:	oops . 3172479_3172911
+*MOT:	I'm always puttin(g) this on upside down , Mandy &=noise . 3173830_3176086
+*MOT:	&=involuntary . 3186673_3187625
+*MOT:	okay [=! voice] . 3192046_3192812
+*MOT:	&=nonspeech . 3193911_3194140
+*MOT:	&=speechplay . 3194352_3194883
+*MOT:	you gonna put those balls in the pool ? 3204428_3206038
+*MOT:	you wanna give a ball to Mommy ? 3213915_3215256
+*MOT:	Mandy ? 3215946_3216650
+*MOT:	&=involuntary . 3216760_3217246
+*MOT:	you gonna give a ball to Mommy ? 3217366_3218671
+*MOT:	&=involuntary . 3219144_3220463
+*MOT:	oops . 3220551_3220948
+*MOT:	uhuh &=laugh . 3228843_3229164
+*MOT:	you gonna get in the pool ? 3247302_3248348
+*MOT:	are you gonna get in the pool ? 3254983_3256290
+*MOT:	Mandy ? 3263139_3263681
+*MOT:	can you give a ball to Mommy ? 3265557_3266964
+*MOT:	&=speechplay . 3274833_3275437
+*MOT:	that's a green ball . 3277610_3278638
+*MOT:	can I have it ? 3278854_3279615
+*MOT:	that's five [?] [=! whispered] . 3279710_3280973
+*MOT:	thank_you [=! voice] . 3281054_3282321
+*MOT:	oh . 3283201_3283473
+*MOT:	you took it away from me . 3283473_3284698
+*MOT:	&aw I found another baby [=! voice] . 3294686_3297378
+*MOT:	can you come get the baby ? 3302858_3304163
+*MOT:	hi , baby . 3310119_3311314
+*MOT:	thank_you [=! voice] . 3312242_3312906
+*MOT:	I'll give her a kiss . 3313652_3314776
+*MOT:	&=labial . 3315027_3315563
+*MOT:	she's on the ball [=! voice] . 3317890_3318817
+*MOT:	you've got food in your hair don't you ? 3322878_3325232
+*MOT:	&=whisper . 3326531_3326940
+*MOT:	blue ball ? 3329810_3330551
+*MOT:	for the baby with blue eyes ? 3330744_3332463
+*MOT:	&=involuntary . 3332638_3332896
+*MOT:	baby &=noise . 3334159_3335620
+*MOT:	baby [=! sung] . 3336132_3337450
+*MOT:	&=involuntary . 3337617_3337824
+*MOT:	la la la la la [=! sung] . 3338047_3339522
+*MOT:	give her a hug [=! voice] ! 3339813_3341292
+*MOT:	give her a kiss ! 3342170_3343259
+*MOT:	&=labial . 3343668_3343753
+*MOT:	&=involuntary . 3343839_3345147
+*MOT:	give her a kiss ! 3345370_3346235
+*MOT:	thank_you . 3350921_3351552
+*MOT:	thank_you . 3357796_3358656
+*MOT:	oops &=noise . 3362616_3363001
+*MOT:	you want this baby ? 3365409_3366598
+*MOT:	in the pool . 3367755_3368467
+*MOT:	how (a)bout this baby &=noise ? 3368896_3369828
+*MOT:	this baby's walking ? 3372517_3373685
+*MOT:	walking &=noise . 3374108_3374684
+*MOT:	in the pool [=! voice] . 3379486_3380080
+*MOT:	Mandy , you get in the pool ! 3381995_3383345
+*MOT:	Mandy , get in the pool &=noise ! 3384986_3386161
+*MOT:	oh . 3391561_3391687
+*MOT:	the pool stays over here &=noise . 3392366_3393570
+*MOT:	Mommy . 3399767_3400331
+*MOT:	&=vocalize . 3401071_3401233
+*MOT:	&=babble . 3401653_3402113
+*MOT:	baby &=noise . 3403408_3403880
+*MOT:	hi , baby . 3422744_3423429
+*MOT:	can we put the baby in the bucket ? 3430956_3432804
+*MOT:	&=involuntary . 3433377_3434069
+*MOT:	put her in &=involuntary ! 3434078_3434644
+*MOT:	you're gonna put both of the babies in the bucket &=noise . 3437986_3440476
+*MOT:	babies are in the bucket [=! sung] . 3443654_3445548
+*MOT:	babies are in the bucket [=! sung] . 3446037_3447833
+*MOT:	&=labial . 3448979_3449460
+*MOT:	&=labial . 3449969_3450301
+*MOT:	kiss both of (th)em ! 3450687_3451719
+*MOT:	you've got one [=! voice] . 3455058_3456398
+*MOT:	he doesn't have any hair &=noise . 3458235_3459526
+*MOT:	two [=! voice] . 3461381_3462005
+*MOT:	baby [?] [=! whispered] . 3470112_3470736
+*MOT:	up . 3476147_3476460
+*MOT:	upside down &=laugh . 3476906_3478358
+*MOT:	&=laugh . 3478660_3479035
+*MOT:	&=involuntary . 3479673_3480163
+*MOT:	baby &=noise . 3482374_3483032
+*MOT:	are you whispering baby [=! whispered] ? 3483394_3485099
+*MOT:	who is that [=! whispered] ? 3487374_3487862
+*MOT:	Mandy ? 3490058_3490864
+*MOT:	Mandy . 3491120_3491797
+*MOT:	who is that ? 3491899_3492697
+*MOT:	who is (th)at ? 3495980_3496486
+*MOT:	tell me ! 3501099_3501495
+*MOT:	tell me [=! whispered] ! 3502527_3502916
+*MOT:	say baby@q &=noise ! 3503667_3504406
+*MOT:	who is it ? 3506395_3506842
+*MOT:	&=labial . 3514217_3515486
+*MOT:	I kissed my Mandy &=noise . 3515473_3516710
+*MOT:	what [=! whispered] ? 3523979_3524426
+*MOT:	&=labial . 3524759_3524882
+*MOT:	what you talking about [=! whispered] ? 3526061_3527151
+*MOT:	I don't have this purse [?] &=noise . 3527087_3528724
+*MOT:	&=involuntary . 3537661_3538059
+*MOT:	(babies) in the pool [=! voice] . 3546247_3548228
+*MOT:	lay down , little babies &=noise ! 3549505_3551271
+*MOT:	we're gonna put some balls over here &=noise . 3551850_3554277
+*MOT:	can't find (th)em &=noise . 3560473_3561439
+*MOT:	&=involuntary . 3562156_3562796
+*MOT:	where's the babies hiding &=noise ? 3562813_3564157
+*MOT:	you takin(g) all the balls out &=noise ? 3579298_3580945
+*MOT:	you can put the balls in there &=noise . 3588517_3589843
+*MOT:	Mandy . 3639565_3640372
+*MOT:	Mandy . 3640979_3641464
+*MOT:	here get this one &=noise ! 3641547_3642511
+*MOT:	whee &=noise . 3643486_3644209
+*MOT:	catch it &=noise ! 3644378_3644743
+*MOT:	&=involuntary . 3645259_3645461
+*MOT:	get it &=noise ! 3647464_3648011
+*MOT:	wow &=noise . 3685759_3686656
+*MOT:	be careful ! 3686990_3687709
+*MOT:	what is this &=noise ? 3722966_3723750
+*MOT:	Mandy &=noise ? 3725214_3725825
+*MOT:	what is this &=noise ? 3726244_3727147
+*MOT:	&=involuntary . 3730616_3731152
+*MOT:	babies dancin(g) all around &=noise . 3731258_3734749
+*MOT:	&=involuntary . 3734768_3735057
+*MOT:	baby is dancin(g) all around &=noise . 3735179_3738777
+*MOT:	are you a big girl &=noise ? 3740163_3741154
+*MOT:	thank_you &=noise . 3743095_3743623
+*MOT:	how big are you , Mandy &=noise ? 3744918_3746355
+*MOT:	how big ? 3747347_3747719
+*MOT:	oh it &=noise . 3748075_3748367
+*MOT:	oh it's for the baby &=noise . 3749286_3750323
+*MOT:	thank_you &=noise . 3751059_3751602
+*MOT:	yep [?] &=noise . 3758773_3758883
+*MOT:	the baby can't hold three balls at one time &=noise . 3761119_3763652
+*MOT:	oh &=noise . 3764727_3764912
+*MOT:	just one &=noise . 3765975_3766701
+*MOT:	just one &=noise . 3767014_3767603
+*MOT:	baby's (...) holding the green ball &=noise . 3769754_3773206
+*MOT:	yeah [?] &=noise ? 3776639_3776847
+*MOT:	she's holding the yellow ball &=noise . 3779085_3780961
+*MOT:	oops &=noise . 3781217_3781674
+*MOT:	can you talk louder &=noise ? 3789051_3790176
+*MOT:	oops &=noise . 3803177_3803523
+*MOT:	thank_you &=noise . 3805850_3806287
+*MOT:	baby's got the green (...) ball &=noise . 3808997_3812220
+*MOT:	baby's got the &=noise . 3814221_3816069
+*MOT:	yellow &=noise . 3816704_3817726
+*MOT:	oops &=noise . 3818037_3818389
+*MOT:	&=involuntary . 3820356_3820534
+*MOT:	&=laugh . 3820532_3821519
+*MOT:	&=involuntary . 3821514_3821752
+*MOT:	yellow (.) ball &=noise . 3821929_3823193
+*MOT:	&=involuntary . 3823307_3823752
+*MOT:	yellow ball green ball &=noise . 3823941_3825811
+*MOT:	baby's got the ball(s) &=noise . 3825909_3827224
+*MOT:	green ball &=noise . 3831237_3831883
+*MOT:	&=speechplay . 3834013_3835501
+*MOT:	oops &=noise . 3836949_3837360
+*MOT:	&=involuntary . 3845092_3845388
+*MOT:	peekaboo &=noise . 3846115_3846728
+*MOT:	here [?] &=noise . 3849349_3849953
+*MOT:	peekaboo &=noise . 3851809_3852505
+*MOT:	peekaboo &=noise . 3855281_3855851
+*MOT:	where is the baby &=noise ? 3859425_3860376
+*MOT:	&=involuntary . 3871443_3872053
+*MOT:	peekaboo &=noise . 3872265_3873223
+*MOT:	you found baby &=noise . 3873415_3874682
+*MOT:	&=speechplay . 3880476_3880714
+*MOT:	&=involuntary . 3887274_3887600
+*MOT:	peekaboo &=noise . 3887690_3888409
+*MOT:	did you poopie again &=noise ? 3894559_3895783
+*MOT:	&hmm &=noise ? 3896338_3896801
+*MOT:	did you go poopie again &=noise ? 3899501_3900885
+*MOT:	&=laugh . 3912877_3913329
+*MOT:	&=involuntary . 3913900_3914486
+*MOT:	you wanna play some Duplo &=noise ? 3929074_3930446
+*MOT:	let's bring it out into the into the middle of the floor &=noise !
+*MOT:	put those here [?] &=noise ! 3935521_3936328
+*MOT:	bring it over here &=noise ! 3936741_3937518
+*MOT:	come on &=noise ! 3938898_3939322
+*MOT:	here &=noise . 3952531_3952691
+*MOT:	you left this doll [?] &=noise . 3954367_3955586
+*MOT:	she can go right (.) there &=noise . 3955649_3957346
+*MOT:	&=involuntary . 3959302_3959526
+*MOT:	thank_you &=noise . 3964360_3964917
+*MOT:	&=laugh . 3976772_3978032
+*MOT:	&=involuntary . 3978575_3980381
+*MOT:	please get him off of there &=noise ! 3980401_3981793
+*MOT:	get that tin thing &=noise ! 3981970_3982873
+*MOT:	good girl &=noise . 3983746_3984311
+*MOT:	can you leave those to stack [?] &=noise ? 4000503_4001648
+*MOT:	leave those to stack for your frame [?] &=noise ! 4002789_4004616
+*MOT:	come on lift [?] &=noise ! 4004697_4005466
+*MOT:	up &=noise . 4006407_4006629
+*MOT:	up up &=noise . 4007785_4009014
+*MOT:	&=involuntary . 4009614_4009786
+*MOT:	down &=noise . 4012969_4014174
+*MOT:	&=involuntary . 4014580_4014721
+*MOT:	down down &=noise . 4014722_4015897
+*MOT:	up and down &=noise . 4016819_4017650
+*MOT:	let it stop &=noise ! 4017629_4019205
+*MOT:	thank_you &=noise . 4020790_4021345
+*MOT:	can you put this thing on &=noise ? 4029550_4030478
+*MOT:	Mommy &=noise ? 4060473_4061401
+*MOT:	uhhum &=noise . 4149136_4149853
+*MOT:	www . 4150028_4150929
+*MOT:	oh . 4151303_4151513
+*MOT:	www . 4151725_4152546
+*MOT:	www . 4152872_4153254
+*MOT:	www . 4154973_4155154
+*MOT:	www . 4155527_4156309
+*MOT:	www . 4156820_4159105
+*MOT:	www . 4159908_4160082
+*MOT:	www . 4160643_4161079
+*MOT:	www . 4165896_4166830
+*MOT:	www . 4166854_4167184
+*MOT:	&=involuntary . 4169879_4170189
+*MOT:	www . 4169964_4170352
+*MOT:	www . 4170435_4171278
+*MOT:	www . 4171314_4171934
+*MOT:	www . 4172041_4174559
+*MOT:	&=involuntary . 4174612_4174829
+*MOT:	www . 4175017_4175658
+*MOT:	www . 4176434_4176694
+*MOT:	www . 4178043_4178310
+*MOT:	www . 4178217_4178718
+*MOT:	www . 4179168_4180435
+*MOT:	should we go upstairs and dust your bed+room ? 4184336_4186610
+*MOT:	&hmm ? 4187650_4187955
+*MOT:	you wanna bring the baby ? 4192030_4193074
+*MOT:	Miranda ? 4193942_4194566
+*MOT:	can you get the baby ? 4195055_4195967
+*MOT:	and we'll go (up)stairs . 4198571_4199970
+*MOT:	we'll go upstairs so Mommy can dust your bed+room . 4201435_4203882
+*MOT:	okay &=noise ? 4203894_4204295
+*MOT:	did you want to bring anything with you ? 4206146_4207654
+*MOT:	any of these toys ? 4209085_4210172
+*MOT:	&hmm ? 4212912_4213089
+*MOT:	(o)kay . 4215790_4216296
+*MOT:	come (h)ere , peanut ! 4219180_4219889
+*MOT:	get up ! 4220279_4220684
+*MOT:	let's go upstairs ! 4222912_4224210
+*MOT:	your alright . 4228225_4228864
+*MOT:	let's step over the gate &=noise ! 4229335_4230941
+*MOT:	good girl &=noise . 4232509_4233473
+*MOT:	you wanna bring that Pooh &=noise ? 4235520_4236861
+*MOT:	book collection [=! voice] ? 4237238_4238310
+*MOT:	you put them back into the (.) box &=noise ! 4241753_4243916
+*MOT:	okay &=noise . 4247305_4248147
+*MOT:	up we go . 4248394_4249331
+*MOT:	up up [=! voice] . 4253374_4253721
+*MOT:	do you want Mommy to carry you up today ? 4256347_4258024
+*MOT:	you don't feel like crawling up the stairs &=noise ? 4258599_4260327
+*MOT:	&=speechplay . 4261173_4261816
+*MOT:	&=speechplay . 4262729_4263597
+*MOT:	&=speechplay . 4264358_4265382
+*MOT:	&=speechplay . 4266098_4266927
+*MOT:	no [?] [=! whispered] . 4267194_4267658
+*MOT:	&=speechplay . 4268531_4269423
+*MOT:	up . 4269987_4270248
+*MOT:	up &=noise . 4270654_4270998
+*MOT:	up &=noise . 4271377_4271695
+*MOT:	up [=! voice] . 4272146_4272428
+*MOT:	up &=noise . 4272884_4273266
+*MOT:	up [=! whispered] . 4274279_4274721
+*MOT:	okay [=! voice] . 4276038_4276627
+*MOT:	(and) you can go play in your bed+room &=noise . 4277951_4279985
+*MOT:	and Mommy's gonna go get (...) the furniture polish &=noise . 4279847_4282948
+*MOT:	&a:h . 4294045_4294679
+*MOT:	I want you out_of your closet . 4294876_4296399
+*MOT:	(your) not gonna play in the closet okay &=noise ? 4297092_4299028
+*MOT:	you can play with all your friends he(re) . 4301566_4303601
+*MOT:	I'll be right back . 4303582_4304400
+*MOT:	oh it's not here either &=noise . 4316775_4318349
+*MOT:	where is it [=! whispered] ? 4319446_4320154
+*MOT:	&=involuntary . 4326227_4326606
+*MOT:	okay Miranda &=noise . 4336034_4337020
+*MOT:	Mommy can't find the furniture polish &=noise . 4337001_4338707
+*MOT:	let's go look downstairs in the kitchen &=noise ! 4339164_4341052
+*MOT:	let's go look for it and then we'll come back up and play
+*MOT:	(o)kay [=! whispered] . 4345442_4345780
+*MOT:	let's see [=! whispered] ! 4365521_4366396
+*MOT:	do we have any furniture polish in the kitchen &=noise ? 4367958_4370748
+*MOT:	we'll look in the lazy_Susan here &=noise . 4372111_4373937
+*MOT:	it's not here [=! whispered] . 4379168_4380036
+*MOT:	okay . 4381309_4382000
+*MOT:	now this is becoming a mystery &=noise . 4382329_4384134
+*MOT:	I wonder if Daddy put it in a strange place &=noise . 4385122_4387810
+*MOT:	&ah &=noise . 4390723_4391276
+*MOT:	sometimes Zenga [?] &=noise . 4391753_4392661
+*MOT:	the bath+room sink &=noise . 4393504_4394510
+*MOT:	&=involuntary . 4394514_4394682
+*MOT:	let's look in the bath+room &=noise ! 4394783_4395947
+*MOT:	not here [=! voice] . 4407710_4409038
+*MOT:	let's see ! 4411484_4412126
+*MOT:	we last used it downstairs &=noise . 4412337_4414790
+*MOT:	let's go look in the basement &=noise ! 4415154_4416628
+*MOT:	where's the furniture polish [=! sung] ? 4433251_4435581
+*MOT:	where is the furniture polish [=! sung] ? 4436752_4439160
+*MOT:	is it in Daddy's work+room &=noise ? 4440089_4441620
+*MOT:	where's the furniture polish [=! voice] ? 4445055_4447167
+*MOT:	okay [=! whispered] . 4448691_4449212
+*MOT:	can't see it [=! whispered] . 4450912_4451869
+*MOT:	two rats [?] &=noise . 4454021_4455096
+*MOT:	Mommy wants to get that dust out_of your bed+room [=! whispered] .
+*MOT:	okay . 4463540_4464573
+*MOT:	ahhah . 4465296_4466107
+*MOT:	just the right place for it . 4466975_4468453
+*MOT:	on top of Daddy's . 4468443_4469839
+*MOT:	&um [=! whispered] . 4470716_4471067
+*MOT:	&=involuntary . 4471115_4471437
+*MOT:	whatever that is [=! whispered] . 4471540_4472287
+*MOT:	router [?] thing [=! whispered] . 4473091_4473923
+*MOT:	(o)kay [=! whispered] . 4477432_4478263
+*MOT:	&=involuntary . 4478962_4479213
+*MOT:	here's the furniture polish , Mandy [=! voice] . 4479816_4481276
+*MOT:	that's what we were looking for . 4481725_4482985
+*MOT:	this is what we were looking for [=! whispered] . 4483803_4485482
+*MOT:	can you hold it for me ? 4488242_4489169
+*MOT:	thank_you . 4490296_4490846
+*MOT:	(this) is what we're gonna use to help clean your bed+room &=noise

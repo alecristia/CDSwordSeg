@@ -1,0 +1,719 @@
+*MOT:	where's your turtle ?
+*MOT:	where's the new turtle that you got for your birthday ?
+*MOT:	did you get presents for your birthday ?
+*MOT:	when was your birthday ?
+*MOT:	those are +...
+*MOT:	these are the birthday presents right here .
+*MOT:	here is the birthday present that Pierre and Maryse gave you .
+*MOT:	let me see it .
+*MOT:	let's play with this one first .
+*MOT:	what is that ?
+*MOT:	can you xxx ?
+*MOT:	what are they ?
+*MOT:	they might break .
+*MOT:	let me see them .
+*MOT:	what is that ?
+*MOT:	Nina (.) did you have a birthday party ?
+*MOT:	what was on the ceiling ?
+*MOT:	where were they ?
+*MOT:	in the living room or in your room ?
+*MOT:	where were they ?
+*MOT:	where there lots ?
+*MOT:	oh (.) I wanna see these things .
+*MOT:	can you tell me about your birthday party ?
+*MOT:	there (.) they're all mixed .
+*MOT:	can you tell me about your birthday party ?
+*MOT:	no you had two .
+*MOT:	where was your first birthday party ?
+*MOT:	no (.) at school .
+*MOT:	what did you do at school ?
+*MOT:	it was at school .
+*MOT:	tell me what did you do at school for your birthday party ?
+*MOT:	it was at home .
+*MOT:	remember ?
+*MOT:	who come to your birthday party at home ?
+*MOT:	oh (.) and did some grownups come too ?
+*MOT:	who came ?
+*MOT:	what did Maggie bring to you ?
+*MOT:	oh .
+*MOT:	did we play when the children came to your home ?
+*MOT:	what did we blow outside ?
+*MOT:	and what happened ?
+*MOT:	did you catch them ?
+*MOT:	what else did you do at your birthday ?
+*MOT:	you got a tea set as a present .
+*MOT:	who brought it to you ?
+*MOT:	okay (.) I want to see the present that Pierre and Maryse gave you
+*MOT:	show me one thing at a time .
+*MOT:	oh .
+*MOT:	he's so cute .
+*MOT:	does he have a chair ?
+*MOT:	oh (.) put him up on the shelf .
+*MOT:	now let's see everybody that they brought to you .
+*MOT:	does he like to have his back or his front towards me ?
+*MOT:	oh (.) what is he wearing ?
+*MOT:	sticking up on top of his head .
+*MOT:	what kind of clothes is he wearing ?
+*MOT:	is she his sister ?
+*MOT:	where are you gonna put +...
+*MOT:	where's the mother ?
+*MOT:	no (.) I think she's the sister .
+*MOT:	see if you can find the mother in there .
+*MOT:	is there a mother in there ?
+*MOT:	where ?
+*MOT:	oh (.) what is the mother doing ?
+*MOT:	I want to see everything from the bag .
+*MOT:	let's see all the people from the bag .
+*MOT:	I'll hand them to you one at a time ?
+*MOT:	what's the baby doing ?
+*MOT:	why is she crying ?
+*MOT:	how did he hurt himself ?
+*MOT:	yeah [= yes] .
+*MOT:	why is he crying ?
+*MOT:	yes .
+*MOT:	he what ?
+*MOT:	he got hit by a baseball man ?
+*MOT:	how did that happen ?
+*MOT:	where was he ?
+*MOT:	and the baseball hit him ?
+*MOT:	oh (.) who's that that you just took out ?
+*MOT:	oh (.) that looks like a daddy to me .
+*MOT:	he's wearing a suit (.) isn't he ?
+*MOT:	did I ?
+*MOT:	can you put him upright ?
+*MOT:	I'm sorry dog .
+*MOT:	I didn't mean to knock him over .
+*MOT:	oh (.) I didn't do it on purpose .
+*MOT:	what else did Pierre and Maryse bring for your birthday ?
+*MOT:	take something else out and show me .
+*MOT:	&um (.) that's a nice family .
+*MOT:	tell me who's in that family .
+*MOT:	who's there ?
+*MOT:	introduce me .
+*MOT:	that's a (.) and that's a baby (.) and that's a mother .
+*MOT:	oh (.) how many children are there ?
+*MOT:	there're five people there .
+*MOT:	or four people and a dog .
+*MOT:	but only one (.) two children .
+*MOT:	a baby and a little girl .
+*MOT:	five pieces .
+*MOT:	and one of them is a doggy .
+*MOT:	why don't you make a birthday party for them ?
+*MOT:	would you like to make a birthday cake for them ?
+*MOT:	out_of play+dough ?
+*MOT:	why don't you make a birthday cake for them out_of play+dough ?
+*MOT:	&um .
+*MOT:	make a birthday cake for the family out_of play+dough .
+*MOT:	here's the candles .
+*MOT:	did you have a cake for your birthday ?
+*MOT:	Nina (.) did you have a cake for your birthday ?
+*MOT:	you did ?
+*MOT:	when ?
+*MOT:	oh (.) for Gary ?
+*MOT:	when was his birthday ?
+*MOT:	when it was your birthday did you have something at school ?
+*MOT:	what ?
+*MOT:	did you have cup cakes ?
+*MOT:	did you give cup cakes to each child ?
+*MOT:	who did you give cup cakes to ?
+*MOT:	didn't you ?
+*MOT:	for your birthday on Friday I brought lots_of cup cakes (.)
+*MOT:	what's wrong ?
+*MOT:	is that how many you had on your cake ?
+*MOT:	what did you do to the candles ?
+*MOT:	and then what ?
+*MOT:	did I light the cake ?
+*MOT:	and then what did you do when I lit the candles ?
+*MOT:	did you blow ?
+*MOT:	what did you do to the matches ?
+*MOT:	will you blow out (.) the candles out ?
+*MOT:	what is there ?
+*MOT:	a fire ?
+*MOT:	shall I make a wish first ?
+*MOT:	what happened ?
+*MOT:	thank_you .
+*MOT:	how are you cutting it ?
+*MOT:	with a knife ?
+*MOT:	a pretend knife ?
+*MOT:	did you like the cake I made for you for your birthday ?
+*MOT:	what kind of a cake was it (.) remember ?
+*MOT:	what was on top of it ?
+*MOT:	and what else ?
+*MOT:	what kind of fruit did I put on top of it ?
+*MOT:	those little red things ?
+*MOT:	oh (.) did you get a cherry on your piece ?
+*MOT:	does it taste good ?
+*MOT:	what did we make for birthday lunch ?
+*MOT:	what did you eat before ?
+*MOT:	and spaghetti .
+*MOT:	where did the spaghetti go ?
+*MOT:	oh (.) thank_you .
+*MOT:	who's coming to this birthday party ?
+*MOT:	Nicole is ?
+*MOT:	and who else ?
+*MOT:	I see .
+*MOT:	what kind of a present ?
+*MOT:	oh .
+*MOT:	where ?
+*MOT:	where you putting the cake ?
+*MOT:	on what ?
+*MOT:	who's going to eat that cake ?
+*MOT:	who else is gonna get to sit at the table ?
+*MOT:	nobody ?
+*MOT:	you mean you lit the candle ?
+*MOT:	with what ?
+*MOT:	who doesn't know how to sit down ?
+*MOT:	where does he sit ?
+*MOT:	who licked the frosting ?
+*MOT:	maybe the Mommy would like something .
+*MOT:	what's his blanket made out_of ?
+*MOT:	did he get tired from all the party ?
+*MOT:	don't drop on +...
+*MOT:	the carpet .
+*MOT:	it'll get all dirty .
+*MOT:	did you go to a birthday party after yours on Saturday ?
+*MOT:	where ?
+*MOT:	at whose house ?
+*MOT:	and what did you do at Viki's house ?
+*MOT:	with what ?
+*MOT:	did she have a clown on the wall ?
+*MOT:	did you play a game with that ?
+*MOT:	oh (.) what are you doing ?
+*MOT:	taking out the rest of your birthday presents ?
+*MOT:	cleaner thing ?
+*MOT:	what is it ?
+*MOT:	what is it used for ?
+*MOT:	you mean a vacuum cleaner ?
+*MOT:	did you get those for your birthday too ?
+*MOT:	did all the children get animals ?
+*MOT:	what did the other children get ?
+*MOT:	do you remember what Justin got ?
+*MOT:	what did you give him ?
+*MOT:	oh (.) did you have those at your birthday ?
+*MOT:	what else did the children get at your birthday ?
+*MOT:	Spencer got donkeys .
+*MOT:	Justin got horses .
+*MOT:	and I can't remember what Karen got .
+*MOT:	I think she got some cows .
+*MOT:	oh (.) let me see the lambs that you've got .
+*MOT:	what is that lamb doing ?
+*MOT:	why don't you feed your lambs ?
+*MOT:	you can go after her nap .
+*MOT:	when the clock gets to be here .
+*MOT:	play+dough grass ?
+*MOT:	on whom are you putting a blanket ?
+*MOT:	who gave all the little animals to the children ?
+*MOT:	I did .
+*MOT:	what did Maryse give to you ?
+*MOT:	oh (.) did Pierre take pictures of everybody ?
+*MOT:	I wonder if they came out well ?
+*MOT:	he took a picture of Justin crying (.) didn't he ?
+*MOT:	why was Justin crying ?
+*MOT:	did he get tired ?
+*MOT:	all the excitement .
+*MOT:	who goes in here ?
+*MOT:	oh (.) he fits in that little crib .
+*MOT:	oh (.) is it a cradle ?
+*MOT:	what do you do with the cradle ?
+*MOT:	oh (.) it's scaring the baby .
+*MOT:	poor baby .
+*MOT:	do you think the baby will have a dreams ?
+*MOT:	what happens ?
+*MOT:	let's see .
+*MOT:	do you think the baby will have a dream when he goes to sleep ?
+*MOT:	what will he dream about ?
+*MOT:	he'll dream about the doggy ?
+*MOT:	tell me all about his dream .
+*MOT:	&ah .
+*MOT:	do you have dreams sometime ?
+*MOT:	tell me about a dream that you have .
+*MOT:	oh (.) the lion is scaring us .
+*MOT:	I want you to tell me about a dream you have .
+*MOT:	I'm going to take him away .
+*MOT:	I don't like the lion .
+*MOT:	he makes too much noise .
+*MOT:	okay (.) make him quiet then .
+*MOT:	now can you tell me a dream ?
+*MOT:	I'm interested in hearing a dream .
+*MOT:	do you ever dream ?
+*MOT:	your dream is in your tummy ?
+*MOT:	I dream sometime .
+*MOT:	I dream that we go to the beach .
+*MOT:	and that we play in the water .
+*MOT:	and that we go swimming .
+*MOT:	what do you dream ?
+*MOT:	about ice+cream ?
+*MOT:	what kind of ice+cream ?
+*MOT:	yeah [= yes] .
+*MOT:	and what do you do with the ice+cream ?
+*MOT:	oh .
+*MOT:	did you have ice+cream at your birthday ?
+*MOT:	what kind ?
+*MOT:	let's see .
+*MOT:	well we'll put him on some play+dough and then he can stand up .
+*MOT:	oh (.) is he +...
+*MOT:	he's a picture ?
+*MOT:	you mean like the picture you have behind your crib ?
+*MOT:	what's on your crib ?
+*MOT:	what animal is on your crib ?
+*MOT:	hey did you see deer yesterday ?
+*MOT:	where ?
+*MOT:	what did we do with the deer ?
+*MOT:	what did they eat from ?
+*MOT:	did they eat it from your hair ?
+*MOT:	show me .
+*MOT:	let's (.) let's feed the lamb the way we fed the deer .
+*MOT:	here .
+*MOT:	what are those ?
+*MOT:	oh (.) let me see them .
+*MOT:	bring them to me .
+*MOT:	are those your birthday cards ?
+*MOT:	let me see them .
+*MOT:	I can't see them from way over there .
+*MOT:	bring them to me .
+*MOT:	let me see them .
+*MOT:	I can't see .
+*MOT:	that's too far away .
+*MOT:	bring them to me .
+*MOT:	oh let me see .
+*MOT:	now (.) what do we have ?
+*MOT:	w(h)oop .
+*MOT:	oh (.) what's on this birthday card ?
+*MOT:	what are you doing with the birthday cards ?
+*MOT:	what do you need to hang them up with ?
+*MOT:	you sticking your cards to the door ?
+*MOT:	who's on this card ?
+*MOT:	what is he doing ?
+*MOT:	eating a turtle .
+*MOT:	he's eating a turtle or talking to a turtle ?
+*MOT:	who isn't ?
+*MOT:	where is he ?
+*MOT:	it says (.) +"/.
+*MOT:	+" happy birthday (.) dear Nina .
+*MOT:	do you know who sent you that card ?
+*MOT:	who did ?
+*MOT:	no Nonna did .
+*MOT:	look at the card that Mary sent you .
+*MOT:	what's on her hand ?
+*MOT:	who brought the jump rope to you ?
+*MOT:	that was a nice present .
+*MOT:	what do you do with jump ropes ?
+*MOT:	and who's going to jump in the middle ?
+*MOT:	what did Mommy give you for your birthday ?
+*MOT:	let me see him .
+*MOT:	do you like him ?
+*MOT:	what is he ?
+*MOT:	a Snoopy punch ball .
+*MOT:	what do you do with him ?
+*MOT:	oh (.) how do you punch ?
+*MOT:	uhoh [= trouble] .
+*MOT:	what happens when you punch ?
+*MOT:	and then what happens .
+*MOT:	bring him here .
+*MOT:	I'd like to try punching him .
+*MOT:	can I try punching him ?
+*MOT:	let me try punching him right here .
+*MOT:	there's lots_of space .
+*MOT:	where shall I punch him ?
+*MOT:	on his foot ?
+*MOT:	oh (.) there he goes .
+*MOT:	now you punch him somewhere .
+*MOT:	where did you punch ?
+*MOT:	oopla .
+*MOT:	did you fall ?
+*MOT:	let me see .
+*MOT:	let me see this Snoopy .
+*MOT:	where is Snoopy's nose ?
+*MOT:	what happened ?
+*MOT:	did you hurt yourself when you fell ?
+*MOT:	let me see .
+*MOT:	oh (.) I'll kiss it .
+*MOT:	bring your knee over here .
+*MOT:	you bumped your knee when you fell ?
+*MOT:	I guess you can't punch it so fast .
+*MOT:	&um a big kiss .
+*MOT:	oh (.) you made a scratch there (.) didn't you ?
+*MOT:	is that from hitting against the bookshelf ?
+*MOT:	poor Nina .
+*MOT:	where is Snoopy's nose ?
+*MOT:	what a funny looking nose .
+*MOT:	right there .
+*MOT:	that's the only nose he has .
+*MOT:	he only has one nose .
+*MOT:	is this a nose ?
+*MOT:	yeah [= yes] (.) that's a nose .
+*MOT:	now what else does he have ?
+*MOT:	what are you putting the tape on ?
+*MOT:	what did the children wear at the birthday party when they were
+*MOT:	&um [= what] ?
+*MOT:	what's in this bag ?
+*MOT:	birthday hats ?
+*MOT:	shall we put the birthday hats on your dollies ?
+*MOT:	and make a birthday party ?
+*MOT:	here's a hat .
+*MOT:	where's he hat ?
+*MOT:	what are you putting on your hurt ?
+*MOT:	who wore the birthday hats at your party ?
+*MOT:	did the grownups wear the birthday hats ?
+*MOT:	who wore the birthday hats ?
+*MOT:	what are you doing ?
+*MOT:	you better leave that hurt alone (.) or you'll make it worse (.)
+*MOT:	bring me a balloon .
+*MOT:	I want to play with one of your big balloons that was hanging .
+*MOT:	were you surprised +...
+*MOT:	when you found all those decorations ?
+*MOT:	okay (.) put it on (.) and I'll keep it on me .
+*MOT:	there .
+*MOT:	this scotch tape really doesn't help a hurt (.) you know .
+*MOT:	you need band_aids for a hurt .
+*MOT:	okay .
+*MOT:	thank_you .
+*MOT:	I'll keep it on my knee for a while .
+*MOT:	okay (.) put it there .
+*MOT:	there .
+*MOT:	thank_you .
+*MOT:	a little bit (.) but it's better now .
+*MOT:	did you tell Mel about your birthday (.) Nina ?
+*MOT:	it doesn't hurt any more .
+*MOT:	I don't want to think about being hurt .
+*MOT:	it's no fun .
+*MOT:	I wanna think about birthdays .
+*MOT:	okay ?
+*MOT:	you make me a birthday party instead .
+*MOT:	okay .
+*MOT:	let's pretend that's a band_aid too .
+*MOT:	okay (.) now we'll forget about it (.) so I don't have_to think
+*MOT:	can I have a balloon for my birthday ?
+*MOT:	a big red balloon .
+*MOT:	I didn't close it .
+*MOT:	it just closed .
+*MOT:	do you want it open ?
+*MOT:	yeah [= yes] (.) I would .
+*MOT:	then we can play with them .
+*MOT:	and play catch .
+*MOT:	I guess it must have +...
+*MOT:	it must have popped you know ?
+*MOT:	the pink one must have popped .
+*MOT:	I don't see it any more .
+*MOT:	but we have a red one to play with .
+*MOT:	okay .
+*MOT:	wow .
+*MOT:	it's pretty .
+*MOT:	bumpety [: bump] (.) where's the balloon ?
+*MOT:	where's the balloon ?
+*MOT:	I'm going to play with this .
+*MOT:	do you want to play with this ?
+*MOT:	okay (.) let's have some tea .
+*MOT:	put some things out for me to have tea with .
+*MOT:	who gave you the tea set ?
+*MOT:	thank_you .
+*MOT:	what's that for ?
+*MOT:	oh (.) that's the teapot .
+*MOT:	yes (.) please .
+*MOT:	for my what ?
+*MOT:	what is ?
+*MOT:	the top doesn't go on a cup .
+*MOT:	it goes on the sugar and on the teapot probably .
+*MOT:	you're putting some play+dough in the sugar bowl ?
+*MOT:	no (.) I want cheese on my spaghetti please .
+*MOT:	who gave you the tea set ?
+*MOT:	thank_you .
+*MOT:	may I have some more cheese ?
+*MOT:	what's that ?
+*MOT:	&um (.) I need something else .
+*MOT:	what could I have ?
+*MOT:	I think I'd like some bread .
+*MOT:	and I would also like some butter for my bread please .
+*MOT:	how did you spread the butter ?
+*MOT:	how did you spread the butter ?
+*MOT:	I see .
+*MOT:	do you make bread at school sometime ?
+*MOT:	what do you put on your bread at school ?
+*MOT:	do you make cinnamon toast at school ?
+*MOT:	oh (.) I don't think I want sugar on my bread if I'm eating it with
+*MOT:	I only like sugar and cinnamon for breakfast .
+*MOT:	so you put this piece of bread back .
+*MOT:	okay ?
+*MOT:	I want another piece .
+*MOT:	can you give me another piece with just butter ?
+*MOT:	okay .
+*MOT:	let's see +...
+*MOT:	who else has a tea set like this ?
+*MOT:	&um [= what] ?
+*MOT:	who has a little tea set like this (.) do you know ?
+*MOT:	and who else ?
+*MOT:	your little friend Karen does (.) doesn't she ?
+*MOT:	did she give this to you for your birthday ?
+*MOT:	or did Justin give this to you ?
+*MOT:	oh .
+*MOT:	so what did Karen give you ?
+*MOT:	yes (.) please .
+*MOT:	is this a birthday party that you're making ?
+*MOT:	what else are we going to eat besides spaghetti then ?
+*MOT:	&um (.) good spaghetti you made (.) Nina .
+*MOT:	thank_you .
+*MOT:	I'm eating it with my fork .
+*MOT:	how are you eating your spaghetti ?
+*MOT:	then what are you making now ?
+*MOT:	dessert ?
+*MOT:	I'd like some dessert now .
+*MOT:	no (.) I just finished my spaghetti .
+*MOT:	I'm ready for birthday cake now .
+*MOT:	will you serve me some ?
+*MOT:	I finished my bread and spaghetti .
+*MOT:	it's all eaten .
+*MOT:	now I'd like dessert .
+*MOT:	what are you gonna give me for my birthday party dessert ?
+*MOT:	oh (.) and what else can I have ?
+*MOT:	oh .
+*MOT:	later ?
+*MOT:	I'd like some now +...
+*MOT:	with my cake .
+*MOT:	oh (.) okay .
+*MOT:	I'll finish this cake first .
+*MOT:	all_gone .
+*MOT:	now can I have some ice+cream ?
+*MOT:	what kind did you give me ?
+*MOT:	oh (.) that's my favorite .
+*MOT:	what's your favorite ice+cream ?
+*MOT:	vanilla ?
+*MOT:	hey (.) Nina (.) look at +...
+*MOT:	he is ?
+*MOT:	he's going to eat too much and get sick ?
+*MOT:	oh (.) that's not a good idea .
+*MOT:	he's cute .
+*MOT:	oh (.) he's cute .
+*MOT:	I don't know what happened to your magnet .
+*MOT:	I'll hold him .
+*MOT:	hey (.) Nina (.) did Lawny and you go for a hike yesterday ?
+*MOT:	where did we go ?
+*MOT:	ummhm [= yes] .
+*MOT:	tell turtle about the hike we took .
+*MOT:	he wants to know .
+*MOT:	oh (.) you think he'd rather eat food then hear about the hike ?
+*MOT:	I'm going to tell him about the hike .
+*MOT:	hey (.) turtle (.) Nina and I and Lawny and Barbara and Joe and rob
+*MOT:	what did we see ?
+*MOT:	what animals +...
+*MOT:	and what did we feed them ?
+*MOT:	what kind of food ?
+*MOT:	apple food .
+*MOT:	what kind of sandwiches did we feed them ?
+*MOT:	what kind of sandwiches did we feed them ?
+*MOT:	did they eat from your hand ?
+*MOT:	what did you do with your hand ?
+*MOT:	and then what happened ?
+*MOT:	how ?
+*MOT:	with the mouth ?
+*MOT:	did the baby deer eat from our hand ?
+*MOT:	why ?
+*MOT:	I wonder why .
+*MOT:	did the big deer keep chasing him away ?
+*MOT:	do you think he was scared ?
+*MOT:	would you like to go back for a hike to that place ?
+*MOT:	how did we get there ?
+*MOT:	ummhm [= yes] .
+*MOT:	how did we get to the hike yesterday ?
+*MOT:	did we go by camel ?
+*MOT:	how did we go ?
+*MOT:	in what ?
+*MOT:	a train ?
+*MOT:	in what ?
+*MOT:	but how did we get to the walk ?
+*MOT:	in a train (.) in a boat (.) in a car ?
+*MOT:	in what ?
+*MOT:	in a car we went .
+*MOT:	what was the road like ?
+*MOT:	it was a yucky road .
+*MOT:	why ?
+*MOT:	did it go round and round ?
+*MOT:	it took an awfully long time to get there (.) didn't it ?
+*MOT:	were you and Lawny good (.) though ?
+*MOT:	do you want me to jump ?
+*MOT:	here let me have it .
+*MOT:	give it to me .
+*MOT:	I can't jump unless you give it to me .
+*MOT:	what does one do with the jump rope ?
+*MOT:	how do I make it go ?
+*MOT:	under my head or over my head ?
+*MOT:	I don't understand .
+*MOT:	you have_to tell me how to do it .
+*MOT:	I can't remember .
+*MOT:	there we go .
+*MOT:	this way ?
+*MOT:	over and over .
+*MOT:	uhoh [= trouble] .
+*MOT:	pick that up .
+*MOT:	what happened to it ?
+*MOT:	did the hat get squished ?
+*MOT:	let me see it .
+*MOT:	let me see the birthday hat .
+*MOT:	uhoh [= trouble] (.) .
+*MOT:	can you fix it ?
+*MOT:	look what I got today .
+*MOT:	a new birthday card for you .
+*MOT:	what's on it ?
+*MOT:	lemme see .
+*MOT:	let me see your birthday cards .
+*MOT:	Spencer sent this one to you .
+*MOT:	it says (.) +"/.
+*MOT:	+" happy birthday (.) from Spencer .
+*MOT:	I'm going to hide the card .
+*MOT:	you can't find it .
+*MOT:	where's the card ?
+*MOT:	oh (.) you want to read it to me ?
+*MOT:	happy birthday to Nina from Spencer .
+*MOT:	what is on this card ?
+*MOT:	what is she doing ?
+*MOT:	is there a queen on your party hat ?
+*MOT:	what else does it +...
+*MOT:	what else is on your party hat ?
+*MOT:	all kinds of things .
+*MOT:	where does it go ?
+*MOT:	you mean the string goes under your chin ?
+*MOT:	what a pretty hat .
+*MOT:	the children liked the hats (.) didn't they ?
+*MOT:	it has a frill on it and everything .
+*MOT:	lemme see what else is on your party hat .
+*MOT:	shall we put this card on the wall too ?
+*MOT:	what do we put it up with ?
+*MOT:	my that's too much .
+*MOT:	that's a awfully big piece of tape (.) isn't it ?
+*MOT:	what's on that card ?
+*MOT:	where shall I hold it ?
+*MOT:	near which card ?
+*MOT:	the one with the rabbit or the one with the girl ?
+*MOT:	beside the one with the rabbit .
+*MOT:	do you want to hang it there ?
+*MOT:	oh .
+*MOT:	what is she doing ?
+*MOT:	she is ?
+*MOT:	what is she putting on her baby ?
+*MOT:	what's this ?
+*MOT:	he looks so funny .
+*MOT:	what is it ?
+*MOT:	do you know what kind of an animal ?
+*MOT:	you can hardly tell because it has a big hat on .
+*MOT:	do you know what kind it is ?
+*MOT:	oh (.) what a funny kitty cat .
+*MOT:	do kitty cats wear hats usually ?
+*MOT:	what is she doing ?
+*MOT:	let me see .
+*MOT:	oh (.) she's clapping her hands what's wrong here ?
+*MOT:	what's on her hair ?
+*MOT:	a bird .
+*MOT:	do birds usually go on people's hair ?
+*MOT:	that's really a funny card .
+*MOT:	the cat's wearing a hat and the bird's on the girl's hair .
+*MOT:	that's silly .
+*MOT:	a birthday card on my head ?
+*MOT:	no (.) we can put the birthday card on the wall or we can put it on
+*MOT:	what ?
+*MOT:	where was it stuck ?
+*MOT:	you're wearing a birthday present today (.) you know ?
+*MOT:	this is a new shirt that Spencer gave you .
+*MOT:	you showing Snoopy the birthday card ?
+*MOT:	here's your Snoopy .
+*MOT:	right here .
+*MOT:	right here .
+*MOT:	I don't know .
+*MOT:	is he in your bed ?
+*MOT:	let's go see .
+*MOT:	who's this ?
+*MOT:	I've never seen this before .
+*MOT:	who's this ?
+*MOT:	who does she belong to ?
+*MOT:	she's a pretty doll .
+*MOT:	what happened to her hair ?
+*MOT:	can you fix it ?
+*MOT:	why not ?
+*MOT:	why don't you put her in your doll carriage ?
+*MOT:	what did you do ?
+*MOT:	yeah [= yes] .
+*MOT:	you mend +...
+*MOT:	you mended the (.) the birthday card ?
+*MOT:	do you want to put your dolly +...
+*MOT:	where is it ?
+*MOT:	it's stuck under me .
+*MOT:	can you pull it out ?
+*MOT:	what's that ?
+*MOT:	I'm going to put your dolly in here .
+*MOT:	well (.) let's see if we can fix her .
+*MOT:	what is she wearing ?
+*MOT:	that's such a pretty dress .
+*MOT:	why don't you put her down with your dolly in the carriage .
+*MOT:	why is she angry ?
+*MOT:	why did the lady get angry ?
+*MOT:	why don't you put her down to sleep and get (.) and have her have
+*MOT:	ummhm [= yes] .
+*MOT:	what kind of dream will she have ?
+*MOT:	you told me you had a dream about a snowman .
+*MOT:	what happened ?
+*MOT:	oh (.) he woke me up ?
+*MOT:	and then what happened ?
+*MOT:	and +...
+*MOT:	yeah [= yes] and +...
+*MOT:	he did ?
+*MOT:	why did he do that ?
+*MOT:	well (.) it's too early still .
+*MOT:	Karen isn't up yet .
+*MOT:	not yet .
+*MOT:	I mean it's not time to get up yet for everybody .
+*MOT:	now you tell me a little bit more about your dream .
+*MOT:	the gorilla came and he bit .
+*MOT:	that would hurt .
+*MOT:	and what did I do when he bit in your dream ?
+*MOT:	oh (.) that's gonna hurt (.) isn't it ?
+*MOT:	did you wrap the elastic all around your finger ?
+*MOT:	let it go now .
+*MOT:	untie it .
+*MOT:	will it untie ?
+*MOT:	let it untie .
+*MOT:	can it untie ?
+*MOT:	there you go .
+*MOT:	are you gonna wind the finger all up in that elastic ?
+*MOT:	does it hurt ?
+*MOT:	where'd you get these ?
+*MOT:	where did you get them ?
+*MOT:	where did you get them ?
+*MOT:	they're only two .
+*MOT:	that's all .
+*MOT:	no more .
+*MOT:	where did you get those whistles ?
+*MOT:	let me see it .
+*MOT:	show me what's on it .
+*MOT:	you mean blow it ?
+*MOT:	&uh (.) what happened ?
+*MOT:	this thing goes around (.) doesn't it ?
+*MOT:	what's on your whistle ?
+*MOT:	let me see .
+*MOT:	what's that ?
+*MOT:	and what's on my whistle ?
+*MOT:	oh .
+*MOT:	what's the lion looking at ?
+*MOT:	know what this is ?
+*MOT:	looks like a fan (.) doesn't it ?
+*MOT:	it's a spinning wheel .
+*MOT:	what's your bird looking at ?
+*MOT:	let's see does this thing go round ?
+*MOT:	how do I make it go round ?
+*MOT:	don't hold it (.) and it'll go round .
+*MOT:	see watch it spin .
+*MOT:	let me see if it spins .
+*MOT:	hey (.) look at it go round .
+*MOT:	do you think you're going to wake your baby up ?
+*MOT:	oh (.) we better cover her and put her to sleep .
+*MOT:	can I have the cover with the (.) with the flowers ?
+*MOT:	is there a cover with the flowers from Karen ?
+*MOT:	do you know where it is ?
+*MOT:	oh (.) poor dolly .
+*MOT:	she's gonna get woken up .
+*MOT:	I'm gonna put these up high .
+*MOT:	what ?
+*MOT:	you've got a whistle .
+*MOT:	where is it ?
+*MOT:	where's the other whistle ?
+*MOT:	do you know ?
+*MOT:	where is it ?
+*MOT:	where did you find it ?
+*MOT:	was it in the carriage ?

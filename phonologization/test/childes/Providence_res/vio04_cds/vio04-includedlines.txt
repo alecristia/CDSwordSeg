@@ -1,0 +1,430 @@
+*MOT:	oh Honey are you alright ?
+*MOT:	what's the matter ?
+*MOT:	do you wanna look at this book with the piggy in it ? 70013_74880
+*MOT:	do you like this one with the piggy ? 74881_77858
+*MOT:	come over here and sit ta [: to] mommy . 77858_79321
+*MOT:	you like this one with the piggy ? 79321_82151
+*MOT:	cmon [: come on] . 82151_86225
+*MOT:	cmon [: come on] I'll show it ta [: to] you . 86225_89641
+*MOT:	cmon [: come on] . 89641_92665
+*MOT:	cmon [: come on] baby . 92665_95096
+*MOT:	you want to see the pictures of the piggy ? 95096_103178
+*MOT:	mommy show you . 103178_105246
+*MOT:	Charlotte's web . 105246_107710
+*MOT:	are you okay ? 107710_109445
+*MOT:	tired ? 109445_112580
+*MOT:	let's see , there's a spider . 112580_114980
+*MOT:	okay now ? 114980_118845
+*MOT:	uhoh . 118845_122645
+*MOT:	Fran says don't do it daddy . 122645_125451
+*MOT:	and there's Avery with the gun . 125451_127510
+*MOT:	and there's little Wilber: . 127510_132180
+*MOT:	Ferns your gonna miss breakfast with the baba , see the baby take . 132180_139776
+*MOT:	baby . 139776_140976
+*MOT:	you wanna see more pictures ? 140976_144313
+*MOT:	let's see . 144313_145380
+*MOT:	the nice little piggy goes in his house . 145380_147846
+*MOT:	huh and she put the piggy in the stroller . 147846_152378
+*MOT:	huh . 152378_154710
+*MOT:	and she put the baby . 154710_156778
+*MOT:	see the piggy eatin(g) his lunch ? 156778_163576
+*MOT:	here's a goose . 163576_165051
+*MOT:	uhoh . 165051_170843
+*MOT:	watch ou:t the piggy tryin(g) ta [: to] get &aw:ay . 170843_174378
+*MOT:	well see , there's the sheep or the lamb , what does the lamb say ? 178910_185578
+*MOT:	baa . 185578_189445
+*MOT:	oh there's a sad Wilbur he's lonely , he's sad . 189445_195660
+*MOT:	let's see , &uh , now he's happy because he has Charlotte . 195660_204380
+*MOT:	huh . 204380_206111
+*MOT:	there's a spider . 207978_209731
+*MOT:	there's a spider . 209731_212043
+*MOT:	hmm , wanna see what else there is ? 214980_218531
+*MOT:	the rat Templeton and the goose and the other goose and there's Fern . 218531_223445
+*MOT:	there's a sad Wilbur again . 226178_230843
+*MOT:	huh , yippee , he's gonna make , he's gonna pretend he's a spider . 234445_239653
+*MOT:	well , whose that ? 239653_243455
+*MOT:	is that Templeton ? 243455_245991
+*MOT:	what ya [: you] looking for ? 245991_254710
+*MOT:	spider . 254710_256328
+*MOT:	wee: , the kids swingin(g) from the rope . 256328_260579
+*MOT:	uhoh . 260579_262786
+*MOT:	and let's see the really ha , &uh and there's where she makes a pretty spider web . 262786_270313
+*MOT:	let's see where the one you like . 270313_274648
+*MOT:	let's see the one you like . 274648_277510
+*MOT:	ready , terrific ! 277510_281045
+*MOT:	that's not your favorite one . 281045_284460
+*MOT:	this is your favorite one yippee: ! 284460_288511
+*MOT:	huh . 288511_290195
+*MOT:	he can do tricks huh ? 290195_292248
+*MOT:	tired goose ? 292248_294710
+*MOT:	let's see look at the big fat pig . 296118_301246
+*MOT:	bi:g fat pig . 301246_303176
+*MOT:	now they're gonna wash him . 303176_307098
+*MOT:	washie washie Wilbur , he's all dirty . 307098_310698
+*MOT:	wash wash . 310698_312288
+*MOT:	they have_to washie wash , splashie splash . 317573_322083
+*MOT:	there's a fair . 325180_327445
+*MOT:	where's a balloon ? 327445_329923
+*MOT:	you see a balloon ? 329923_333383
+*MOT:	ri:ght . 333383_340728
+*MOT:	clever girl . 340728_342448
+*MOT:	there's a big fat pig huh ? 342448_344640
+*MOT:	hehe . 344640_346391
+*MOT:	there's Templeton . 346391_350316
+*MOT:	there's Charlotte makin(g) her egg sack . 350316_353795
+*MOT:	there's Templeton after he ate everything at the fair . 353795_357590
+*MOT:	&uh look it .
+*MOT:	yippee: ! 360386_362693
+*MOT:	first prize for Wilbur . 362693_369373
+*MOT:	first prize for Wilbu:r . 369373_378916
+*MOT:	oh the babies are flyin(g) away , all the spiders are flyin(g) away . 378916_385493
+*MOT:	but some of them will stay with Wilbur . 385493_389850
+*MOT:	yippee: ! 389850_391718
+*MOT:	ya [: you] like that story ? 391718_394708
+*MOT:	huh we gotta fix our microphones don't we ? 394708_398955
+*MOT:	ya [: you] want another piece of bread love ? 398955_402571
+*MOT:	hmm want another piece of bread ? 402571_407243
+*MOT:	no ? 407243_411876
+*MOT:	you don't have_to be so sad . 411876_414931
+*MOT:	I'm be so sad . 414931_420781
+*MOT:	&uh should we get you another piece of bread ? 420781_425726
+*MOT:	or dya [: do you] wanna [: want a] drink ? 425726_428943
+*MOT:	ya [: you] done ? 431186_433583
+*MOT:	dya [: do you] want a drink ? 433583_434610
+*MOT:	ya [: you] wanna read the book again ? 437915_441346
+*MOT:	is that whacha [: what you] wanna do , ya [: you] wanna [: want to] look at the book again ? 441346_444325
+*MOT:	who's that ? 444325_445385
+*MOT:	Wilbur . 445385_448300
+*MOT:	there's Fern , there's a spider , and there's a sheep and there's the goose . 448300_453318
+*MOT:	it's called Charlotte's web . 453318_456580
+*MOT:	where's a spider . 456580_460843
+*MOT:	ri:ght . 460843_466450
+*MOT:	ya [: you] wanna see where she's , let's see the picture where she's (.) feedin(g) him his baba . 466450_475250
+*MOT:	she given him his milk ? 475250_480921
+*MOT:	hmm , the little baby pig . 480921_484121
+*MOT:	and there's the little baby pigs house . 484121_486451
+*MOT:	and she put him in the stro:ller and she take him for a ride with the do:lly: . 486451_492385
+*MOT:	and that's where he eats his dinner . 492385_499931
+*MOT:	and everybody will watch him . 499931_502243
+*MOT:	look out ! 502243_509785
+*MOT:	hehe , he's trying to escape . 509785_512746
+*MOT:	squeak squea:l squea:l . 512746_516645
+*MOT:	where's the doggy ? 516645_521836
+*MOT:	see a doggy ? 521836_524996
+*MOT:	the doggy ? 524996_535515
+*MOT:	doggy . 535515_536328
+*MOT:	hmm pig . 536328_538581
+*MOT:	we need to get a tissue in a second .
+*MOT:	baba: . 542863_548880
+*MOT:	oh da [: the] sad sad Wilbur . 548880_553015
+*MOT:	he's cryin(g) he's so sad . 553015_556981
+*MOT:	&uh but now he's gonna meet his friends . 556981_563781
+*MOT:	Charlotte , there's Charlotte the spider . 563781_567781
+*MOT:	here he is cryin(g) again , wee: look at the kids swingin(g) . 585276_592685
+*MOT:	&uh &uh wait wait wait you missed your favorite picture . 592685_600573
+*MOT:	see . 600573_603861
+*MOT:	he:y . 603861_613245
+*MOT:	how come you're da [: the] fusser ? 613245_615245
+*MOT:	look look . 619791_621510
+*MOT:	xxx , some pig . 621510_627988
+*MOT:	you wanna look at this book now ? 627988_629795
+*MOT:	I turn my tractor wheel around , I scoop some dirt up from the ground , I gotta shut my phone off . 629795_638238
+*MOT:	I run across the flower bed , what's inside , I scratch my hea:d . 638238_643310
+*MOT:	I pick the strawberry off it's stem , I lift these up to carry the:m . 643310_653111
+*MOT:	I eat my watermelon on the chair , don't eat the mushroom please bewa:re . 653111_659976
+*MOT:	I spray the water all over the place , I reach for the flower in front of my face . 659976_665720
+*MOT:	the water runs cold between my toes , apples fall off when the wind blows . 665720_671723
+*MOT:	caterpillar crawls along my hand , this butterfly flutters down to land . 671723_676768
+*MOT:	the garden I planted is growing behind me , xxx some flowers that's where you'll find me . 676768_683708
+*MOT:	(o)kay mommy's gotta get a tissue . 683708_687181
+*MOT:	let me get up and get a tissue (o)kay ? 687181_689588
+*MOT:	you wanna you wanna get &um another piece of bread ? 689588_693516
+*MOT:	I gotta get a tissue . 693516_695505
+*MOT:	tissue tissue . 695505_697791
+*MOT:	would you like some more bread ? 697791_705531
+*MOT:	no (o)kay . 705531_709838
+*MOT:	what would you like then ? 709838_711725
+*MOT:	do you need to go to bed , nappy time . 713841_716793
+*MOT:	you think it's nappie time ? 720651_724183
+*MOT:	hey where you goin(g) ? 727241_730905
+*MOT:	you think it's nappie time ? 730905_738056
+*MOT:	hmm , what's the matter ? 738056_741181
+*MOT:	you show me , you show me where . 742570_745528
+*MOT:	what daya [: do you] wanna do ? 745528_747311
+*MOT:	what ya [: you] wanna play trains , how about we play tea set ? 747311_751708
+*MOT:	you [: you] always like dat [: that] . 751708_754791
+*MOT:	let's play tea set . 754791_757238
+*MOT:	hmm , let's have a tea party . 757238_760445
+*MOT:	cmon [: come on] you come in here and we'll have a tea party . 760445_763450
+*MOT:	cmon [: come on] dutchy . 763450_765325
+*MOT:	we have a tea party: , let's film our tea party , huh . 768710_772785
+*MOT:	hehe , right here look , look look look . 777441_781041
+*MOT:	shall we have our tea ? 781041_783580
+*MOT:	ooh there's all mud all over the floor . 783580_785786
+*MOT:	okay: . 785786_787985
+*MOT:	who's gonna have a tea party ? 787985_791306
+*MOT:	let's see: . 791306_794186
+*MOT:	we'll set everything up , okay ? 794186_797576
+*MOT:	wanna sit down ? 797576_799923
+*MOT:	wanna sit down and have some tea ? 799923_801865
+*MOT:	wanna sit with mommy , your a good girl . 801865_806246
+*MOT:	we don't know where that one is but we'll just , put that one like tha:t . 806246_812265
+*MOT:	and thi:s like thi:s and then some spoons . 812265_816775
+*MOT:	now , why don't you pour the tea ? 816775_820381
+*MOT:	would you like to have this cup ? 820381_825198
+*MOT:	okay let me give you some tea , ya [: you] ready ? 825198_828326
+*MOT:	oka:y , do you like sugar in your tea ? 828326_833046
+*MOT:	okay . 833046_841193
+*MOT:	now I'm gonna have some tea . 841193_844103
+*MOT:	I'll have a little bit of milk in mine . 844103_849105
+*MOT:	now we have some tea . 849105_855523
+*MOT:	hehe , cheers . 855523_865106
+*MOT:	drink your tea . 865106_870366
+*MOT:	drink your tea Violet . 870366_872653
+*MOT:	is yours all finished , do you need some more ? 875440_877508
+*MOT:	give yourself some more tea . 877508_879508
+*MOT:	you want some more tea , would you like some more ? 893905_899778
+*MOT:	hmm I'll put some in the pink one . 899778_903708
+*MOT:	some in mine . 903708_905843
+*MOT:	la la la la la . 905843_908373
+*MOT:	la la la la la , you wanna mix your own ? 908373_912903
+*MOT:	who's this one for ? 912903_916773
+*MOT:	who can have this tea ? 916773_919508
+*MOT:	huh who can have this tea , anybody ? 920398_925388
+*MOT:	thank you . 925388_945708
+*MOT:	that yummy , you got peanut butter all over your face &dah . 945708_951188
+*MOT:	ah ah . 951188_962575
+*MOT:	wanna hear the song , you press the button and hear the song . 962575_976708
+*MOT:	hehe you like that song ? 997841_1004973
+*MOT:	ya [: you] gonna put it away ? 1056845_1058725
+*MOT:	ya [: you] gonna put everything in there now ? 1058725_1060845
+*MOT:	clean up clean up . 1060845_1065440
+*MOT:	everybody everywhere , clean up clean up , everybody do your share . 1068383_1075751
+*MOT:	what's that ? 1075751_1080453
+*MOT:	yuck , hmm . 1080453_1083025
+*MOT:	what is it string ? 1083025_1087361
+*MOT:	string . 1087361_1096570
+*MOT:	oh it's here , hmm . 1099586_1115645
+*MOT:	hehe . 1115645_1119958
+*MOT:	string . 1119958_1122125
+*MOT:	want it ? 1122125_1124976
+*MOT:	want the string ? 1127285_1128591
+*MOT:	shwu@o shwu@o . 1128591_1139488
+*MOT:	woo . 1143121_1146498
+*MOT:	ya [: you] like that you wanna see again ?
+*MOT:	&awu: .
+*MOT:	oop . 1186126_1188943
+*MOT:	uhoh . 1212378_1215576
+*MOT:	I gotta shut my phone off . 1230435_1238970
+*MOT:	let me shut my phone off . 1238970_1243881
+*MOT:	I don't know what's on the floor over here , do you ? 1243881_1248966
+*MOT:	is it wax ? 1248966_1251193
+*MOT:	here it is .
+*MOT:	what's the matter ? 1335311_1338281
+*MOT:	huh , ya [: you] fussy today . 1338281_1340246
+*MOT:	what do ya [: you] wanna do ? 1340246_1342998
+*MOT:	wanna read another book ?
+*MOT:	you gonna get another book ? 1347375_1348366
+*MOT:	what's that ? 1352823_1354053
+*MOT:	go get the bear . 1354053_1355503
+*MOT:	let's see the bear . 1355503_1356888
+*MOT:	what's he wearin(g) ? 1371705_1374178
+*MOT:	what's he wearin(g) , is it Max's shirt ? 1374178_1378433
+*MOT:	silly bear . 1378433_1380973
+*MOT:	silly bear , what's he wearing ? 1380973_1384130
+*MOT:	is he wearing Max's pjs . 1384130_1387308
+*MOT:	there there hmm . 1387308_1389763
+*MOT:	we gotta clean the house today Violet . 1397043_1400301
+*MOT:	what honey ?
+*MOT:	what are ya [: you] looking for , ya [: you] looking for the monkey ? 1404696_1408298
+*MOT:	what are ya [: you] lookin(g) for ? 1408298_1413065
+*MOT:	the monkey ? 1413065_1416045
+*MOT:	what ? 1416045_1419843
+*MOT:	you wanna find the monkey ? 1423413_1424913
+*MOT:	that you and grandma were playing with ? 1424913_1426928
+*MOT:	let's see if you want this guy ? 1426928_1430888
+*MOT:	want this guy ? 1434498_1436520
+*MOT:	see this guy , funny guy . 1438078_1440018
+*MOT:	you wanna hold that guy ? 1440018_1441703
+*MOT:	whoa . 1441703_1443091
+*MOT:	I'll hold the bear . 1445346_1446565
+*MOT:	or you want both ? 1446565_1448443
+*MOT:	there . 1448443_1451385
+*MOT:	where you goin(g) with him ? 1465846_1467645
+*MOT:	should we put some clothes on him ? 1467645_1470706
+*MOT:	should we put some clothes on him ? 1470706_1472581
+*MOT:	wanna put this shirt on the monkey would that be funny ? 1472581_1476586
+*MOT:	Violet's shirt ? 1478158_1479580
+*MOT:	ya [: you] like that ? 1482660_1484720
+*MOT:	monkey . 1486583_1488048
+*MOT:	monkey .
+*MOT:	does the monkey want some tea ? 1511323_1512753
+*MOT:	monkey and the bear want some tea ? 1512753_1516245
+*MOT:	can you get some tea for the monkey and the bear ? 1516245_1518370
+*MOT:	&uh thank you says the monkey . 1518370_1526528
+*MOT:	need a cup though , he needs a cup . 1526528_1528721
+*MOT:	he needs a tea cup . 1528721_1531303
+*MOT:	there he is . 1531303_1533553
+*MOT:	oh . 1533553_1536530
+*MOT:	okay can you get some tea for him now ? 1536530_1539450
+*MOT:	what daya [: do you] got tea in there ? 1539450_1545101
+*MOT:	oh . 1545101_1547193
+*MOT:	two cups . 1547193_1549040
+*MOT:	one for the bear . 1549040_1554181
+*MOT:	can you get the tea pot ? 1554181_1557326
+*MOT:	get the tea pot . 1557326_1560518
+*MOT:	yeah . 1560518_1562111
+*MOT:	now can you put some tea in here please . 1562111_1563925
+*MOT:	thank you and some for the monkey . 1563925_1570161
+*MOT:	ya [: you] pour it in here ? 1570161_1573288
+*MOT:	thank you , oka:y . 1573288_1576303
+*MOT:	everybody's got there tea now ? 1576303_1578388
+*MOT:	oh , ya [: you] need a little more for the monkey . 1578388_1581968
+*MOT:	thank you . 1581968_1584900
+*MOT:	did ya [: you] spill a little on me ? 1584900_1586593
+*MOT:	hehe , oka:y ready monkey . 1586593_1593966
+*MOT:	some for the bear . 1593966_1597211
+*MOT:	look at the bear , look what he did . 1599323_1601361
+*MOT:	bea:r . 1606113_1608443
+*MOT:	look what he did . 1608443_1611176
+*MOT:	cup stuck on his nose . 1611176_1613558
+*MOT:	oh you gonna give that one to the monkey . 1613558_1620311
+*MOT:	thank you . 1630238_1639031
+*MOT:	we gotta change your diaper . 1639031_1643840
+*MOT:	thank you . 1645850_1651718
+*MOT:	is that a cookie ? 1651718_1655433
+*MOT:	that a cookie ? 1655433_1656983
+*MOT:	thank you . 1656983_1659238
+*MOT:	what's that , the baba ? 1659238_1668091
+*MOT:	what dyou [: do you] see ? 1668091_1670500
+*MOT:	what are ya [: you] looking for ? 1670500_1672775
+*MOT:	wanna get the baba ? 1674306_1677246
+*MOT:	maybe the monkey wants the baba . 1677246_1680366
+*MOT:	no your looking for something else .
+*MOT:	who's that for ?
+*MOT:	who's this for ? 1721380_1722645
+*MOT:	who's gonna wear this Pooh shirt ? 1722645_1724918
+*MOT:	who's gonna wear it ? 1727115_1729433
+*MOT:	the monkey wanna wear it ? 1731098_1732988
+*MOT:	wanna put it on the monkey ? 1732988_1736488
+*MOT:	(o)kay . 1736488_1739031
+*MOT:	put the tea party down let's see , you put it on the monkey ? 1739031_1742425
+*MOT:	&uh , he's losing his shirts . 1750080_1752641
+*MOT:	two shirts he has on now huh ? 1752641_1754916
+*MOT:	two shirts . 1754916_1757348
+*MOT:	there he is . 1757348_1759115
+*MOT:	thank you for the cookie: . 1759115_1764528
+*MOT:	who's that ? 1764528_1771571
+*MOT:	Winnie the Pooh . 1771571_1774426
+*MOT:	hi monkey . 1808440_1816723
+*MOT:	hi monkey . 1816723_1820231
+*MOT:	it's your monkey . 1820231_1824566
+*MOT:	that's your nice monkey . 1824566_1826278
+*MOT:	hi monke:y . 1826278_1828890
+*MOT:	I think his clothes are too big . 1837180_1838991
+*MOT:	what dyou [: do you] think should we go upstairs and have a nappy ? 1875695_1879786
+*MOT:	oh you're gonna give your baba to the monkey ? 1879786_1884088
+*MOT:	should we go up for a nappy ? 1892346_1903521
+*MOT:	no . 1903521_1905835
+*MOT:	daddy's gonna get it . 1905835_1917178
+*MOT:	do you want this ?
+*MOT:	wanna bite ? 1974230_1974845
+*MOT:	what ? 2013155_2015550
+*MOT:	what's the matter honey ? 2023885_2025978
+*MOT:	what's the matter ya [: you] want more toast ? 2025978_2028398
+*MOT:	ya [: you] wanna see this ? 2028398_2030995
+*MOT:	there's nothing in here now . 2030995_2032560
+*MOT:	just dirt . 2032560_2038696
+*MOT:	it's suppose to be growin(g) but I don't know if it's growin(g) , I don't see it . 2038696_2042288
+*MOT:	maybe we'll have_to give it some more water , huh ? 2042288_2045328
+*MOT:	should we give it some more water ? 2045328_2047023
+*MOT:	give it some more water , don't touch that radiator because it's hot . 2047023_2051661
+*MOT:	I'll give it some more water . 2051661_2053699
+*MOT:	water . 2053699_2061034
+*MOT:	there . 2061034_2073948
+*MOT:	water water , splosh splosh splosh . 2073948_2078506
+*MOT:	(o)kay move away from the radiator . 2078506_2082310
+*MOT:	hot see . 2082310_2084366
+*MOT:	good girl . 2084366_2090810
+*MOT:	you want some more bread ? 2090810_2093363
+*MOT:	what's the monkey go ? 2093363_2102450
+*MOT:	huh , where'd [: where did] the monkey go ? 2102450_2105323
+*MOT:	what's the matter , where's the monkey ? 2125016_2128281
+*MOT:	you need help finding the monkey ? 2128281_2130440
+*MOT:	where is he ? 2130440_2131980
+*MOT:	huh , there he is . 2131980_2135638
+*MOT:	he's right here . 2135638_2138901
+*MOT:	monkey . 2138901_2140458
+*MOT:	silly old monkey . 2140458_2143413
+*MOT:	you want him back . 2143413_2145820
+*MOT:	he's havin(g) his baba . 2145820_2149435
+*MOT:	should we put him in your high+chair , look . 2149435_2151965
+*MOT:	do you wanna sit in the chair ? 2151965_2153568
+*MOT:	I can move the seat down I think . 2153568_2158380
+*MOT:	let's see how do you +..? 2158380_2160330
+*MOT:	oh , I think it's down as far as it goes Violet . 2160330_2166500
+*MOT:	no , it should go down farther than that . 2166500_2172286
+*MOT:	oh well . 2186311_2188321
+*MOT:	oh I see I got it now . 2188321_2190488
+*MOT:	look . 2190488_2191993
+*MOT:	there's the monkey , there he is . 2191993_2195643
+*MOT:	that's a good spot for the monkey huh ? 2195643_2199125
+*MOT:	this is the way we sweep the floor sweep the floor , this is the way we sweep the floor . 2199125_2214758
+*MOT:	this is the way we sweep the floor . 2214758_2220810
+*MOT:	so early in the morning . 2220810_2224085
+*MOT:	hmm . 2224085_2229035
+*MOT:	toast . 2304505_2306878
+*MOT:	who made a big messy under their chair ? 2306878_2320436
+*MOT:	was it you mister monkey ? 2320436_2322851
+*MOT:	look what the monkey did he made a big mess , he threw down all this food . 2322851_2329701
+*MOT:	naughty naughty monkey . 2329701_2334213
+*MOT:	&uh &uh , miss violet . 2334213_2337091
+*MOT:	leave that there please . 2337091_2340148
+*MOT:	&uh &uh ooh , &uh &uh ooh . 2340148_2350348
+*MOT:	think your the one who made the mess huh ? 2350348_2355850
+*MOT:	didn't you ? 2355850_2360315
+*MOT:	you're the messy monkey . 2361551_2364031
+*MOT:	oh your gonna give some to the monkey ? 2387478_2393503
+*MOT:	a nice girl . 2393503_2395568
+*MOT:	ya [: you] gettin(g) tired yet ? 2409765_2411436
+*MOT:	let me dump this out , then mommy pick you up . 2411436_2415713
+*MOT:	there . 2416131_2419966
+*MOT:	need me to pick ya [: you] up ? 2419966_2423985
+*MOT:	you good girl . 2423985_2428568
+*MOT:	fussa@wp buns . 2428568_2433113
+*MOT:	oh boy you got carrots in your ear . 2437498_2448436
+*MOT:	you got carrots in your ear . 2448436_2450543
+*MOT:	huh . 2450543_2452688
+*MOT:	carrots . 2452688_2462318
+*MOT:	hehe carrots , carrots . 2462318_2468683
+*MOT:	and squash . 2468683_2473441
+*MOT:	and pumpkins . 2473441_2475596
+*MOT:	what's that . 2475596_2483161
+*MOT:	see the cup . 2483161_2487903
+*MOT:	I think it's empty but I can fill it up if you want . 2487903_2490631
+*MOT:	you need some more juicy . 2490631_2492530
+*MOT:	let's see . 2492530_2499235
+*MOT:	mommy give you some more juicy okay . 2499235_2502631
+*MOT:	this one's [: one is] empty . 2502631_2503821
+*MOT:	I know I'll give you the kind that Max had that he didn't finish . 2503821_2516303
+*MOT:	plea:se mama , &uh I'll have_to throw it in the garbage if you don't want it . 2516303_2530260
+*MOT:	throw it in the garbage . 2530260_2532100
+*MOT:	thank you . 2532100_2535630
+*MOT:	thank you . 2535630_2536880
+*MOT:	here ya [: you] go . 2536880_2538695
+*MOT:	good girl , good girl . 2538695_2542100
+*MOT:	good girl . 2544823_2545963
+*MOT:	now you can have your juice . 2545963_2547636
+*MOT:	there . 2547636_2548721
+*MOT:	I wanna hold you . 2550570_2608445
+*MOT:	that's in the garbage .
+*MOT:	you don't want to go in there now . 2613025_2614973
+*MOT:	dirty , here's the monkey . 2614973_2618061
+*MOT:	hehe , silly monkey . 2618061_2621720
+*MOT:	monkey . 2630826_2632050
+*MOT:	hypojaune@s:fra [?] . 2634280_2637700
+*MOT:	alright , we gotta go upstairs so mommy can take a shower . 2651036_2662185
+*MOT:	(o)kay . 2662185_2664698
+*MOT:	hi ya [: you] gucci@wp bear . 2664698_2669653
+*MOT:	should we take off your back pack . 2669653_2671225
+*MOT:	let's take this off . 2677055_2681700

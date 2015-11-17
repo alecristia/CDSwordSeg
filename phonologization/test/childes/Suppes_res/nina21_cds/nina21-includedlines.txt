@@ -1,0 +1,253 @@
+*MOT:	Erin's daddy was called Dennis .
+*MOT:	was Erin's daddy called Dennis ?
+*MOT:	what did you do with Erin and Gilly ?
+*MOT:	did you play with Gilly's daddy ?
+*MOT:	what's that ?
+*MOT:	little toy .
+*MOT:	I think we should get dressed .
+*MOT:	(be)cause we just had a bath .
+*MOT:	did you have fun in your bath ?
+*MOT:	you splashed in your bath ?
+*MOT:	what else did you do ?
+*MOT:	what should I do with it ?
+*MOT:	roll it ?
+*MOT:	okay .
+*MOT:	oh (.) it rolled .
+*MOT:	the barrel rolled along the floor .
+*MOT:	w(h)oop (.) I rolled it again .
+*MOT:	you want to find another barrel ?
+*MOT:	okay (.) you find a barrel and then let's get dressed .
+*MOT:	okay ?
+*MOT:	so you don't get cold ?
+*MOT:	you want to hold the egg while I dress you ?
+*MOT:	there I rolled the barrel .
+*MOT:	after I dress you (.) okay ?
+*MOT:	uhoh [= trouble] (.) look what I found .
+*MOT:	what's that ?
+*MOT:	that's a needle .
+*MOT:	from sewing .
+*MOT:	I sewed Nina's clothes with the needle .
+*MOT:	I sewed your pants up .
+*MOT:	let's get dressed (.) before you get cold .
+*MOT:	oh (.) what's on Nina's mirror ?
+*MOT:	what's on your mirror ?
+*MOT:	an Easter_Rabbit .
+*MOT:	what is he pushing ?
+*MOT:	a wheelbarrow ?
+*MOT:	he has eggs .
+*MOT:	what else does he have in his wheelbarrow ?
+*MOT:	does he have big carrots or little carrots ?
+*MOT:	what does he have ?
+*MOT:	oh (.) what color are his feet ?
+*MOT:	his feet are brown .
+*MOT:	that's right .
+*MOT:	want to find another egg to hold while I'm dressing you ?
+*MOT:	here's the other part of the yellow egg .
+*MOT:	do you like carrots (.) Nina ?
+*MOT:	do you like to eat carrots ?
+*MOT:	what does the bunny eat ?
+*MOT:	what are you doing ?
+*MOT:	where did you put the egg ?
+*MOT:	where did you put the egg ?
+*MOT:	that's not where eggs go .
+*MOT:	where do eggs go ?
+*MOT:	what do you want ?
+*MOT:	okay (.) here's the other part of your egg .
+*MOT:	three feet ?
+*MOT:	do you have three feet ?
+*MOT:	you have two feet .
+*MOT:	three ?
+*MOT:	no .
+*MOT:	you have two feet .
+*MOT:	here (.) don't let it drop .
+*MOT:	who gave you that Easter_Bunny ?
+*MOT:	who gave you that Easter_Bunny ?
+*MOT:	Mrs Wood .
+*MOT:	she did ?
+*MOT:	that was nice of her .
+*MOT:	what ?
+*MOT:	Debbie put it up on the mirror for you .
+*MOT:	and the carrots are in the wheelbarrow .
+*MOT:	does he have big teeth or little teeth ?
+*MOT:	he has big teeth .
+*MOT:	where's the other part of the egg ?
+*MOT:	I can't find it .
+*MOT:	where is it ?
+*MOT:	where ?
+*MOT:	I don't see it .
+*MOT:	where is it ?
+*MOT:	what (.) what did you do with it ?
+*MOT:	did you throw it somewhere ?
+*MOT:	where did you throw it ?
+*MOT:	you threw it on the floor ?
+*MOT:	did it fall on the floor .
+*MOT:	so I have_to pick it up again ?
+*MOT:	oh (.) here it is .
+*MOT:	can you put it together ?
+*MOT:	put it together ?
+*MOT:	you can't see ?
+*MOT:	what did you do ?
+*MOT:	you put the eggs in front of your eyes ?
+*MOT:	oh dear .
+*MOT:	you see .
+*MOT:	you can't see ?
+*MOT:	poor Nina .
+*MOT:	she has eggs in front of her eyes so you can't see .
+*MOT:	you see now ?
+*MOT:	oh_goodness .
+*MOT:	you can't ?
+*MOT:	oh dear .
+*MOT:	now let's put on some pants .
+*MOT:	give me your foot ?
+*MOT:	where's your foot ?
+*MOT:	poor Nina .
+*MOT:	her eyes are all covered up .
+*MOT:	which pajamas shall we put on ?
+*MOT:	oh (.) I'm afraid the blue ones are dirty .
+*MOT:	shall we put these on ?
+*MOT:	what's on these ?
+*MOT:	oh (.) whose pajamas are these ?
+*MOT:	they used to be Becca's .
+*MOT:	what did Becca do ?
+*MOT:	did she give those pajamas to you ?
+*MOT:	that was nice of her .
+*MOT:	oh (.) hi little bunny .
+*MOT:	what is the Easter_Bunny wearing on his head ?
+*MOT:	you can't see ?
+*MOT:	oh dear .
+*MOT:	you see .
+*MOT:	oh (.) give me your hand .
+*MOT:	where's your hand ?
+*MOT:	oh (.) will you put your other hand here ?
+*MOT:	what did you do ?
+*MOT:	you dropped the egg again ?
+*MOT:	oh (.) you silly (.) silly girl .
+*MOT:	what do you want me to do ?
+*MOT:	get it for you .
+*MOT:	what do you say ?
+*MOT:	please what ?
+*MOT:	okay (.) just a minute .
+*MOT:	can you zipper yourself up ?
+*MOT:	let's see if you can zipper yourself up .
+*MOT:	do you know how to zipper ?
+*MOT:	I'll start it .
+*MOT:	okay (.) you zipper now .
+*MOT:	take hold of the zipper .
+*MOT:	look at Nina .
+*MOT:	you zipped yourself up .
+*MOT:	good for you .
+*MOT:	can you zip all the way up to the top ?
+*MOT:	why can't you ?
+*MOT:	can you go all the way to the top ?
+*MOT:	can you zip it all the way up to the top ?
+*MOT:	you got it all the way to the top .
+*MOT:	now what do we have_to do ?
+*MOT:	what's that ?
+*MOT:	okay .
+*MOT:	<so we have_to> [//] well that's actually a snap .
+*MOT:	okay (.) will you snap it ?
+*MOT:	what do you have_to do ?
+*MOT:	lift up your chin .
+*MOT:	and can you snap it ?
+*MOT:	oh (.) good .
+*MOT:	you can't ?
+*MOT:	why not ?
+*MOT:	you want me to snap it ?
+*MOT:	do you want to snap it ?
+*MOT:	okay (.) what shall I do ?
+*MOT:	shall I unsnap it so you can snap it back up ?
+*MOT:	okay (.) you try .
+*MOT:	take one hand here .
+*MOT:	oh (.) it's hard (.) isn't it ?
+*MOT:	do you want me to snap it ?
+*MOT:	where did you sleep last night ?
+*MOT:	it's a snap .
+*MOT:	where did you sleep last night ?
+*MOT:	no (.) who did you sleep with last night ?
+*MOT:	at Maggie's ?
+*MOT:	was it fun ?
+*MOT:	you're not going to bed ?
+*MOT:	can you play with your doll house for a while ?
+*MOT:	where are all the people ?
+*MOT:	oh (.) I see the Mommy inside .
+*MOT:	oh (.) there's the thing for your ponytail .
+*MOT:	would you like me to put it on you ?
+*MOT:	no ?
+*MOT:	what are you gonna do ?
+*MOT:	on where ?
+*MOT:	on your hair ?
+*MOT:	it's a little hurt .
+*MOT:	what do you want me to put on your hair ?
+*MOT:	okay .
+*MOT:	so I have_to brush your hair .
+*MOT:	where shall we put it ?
+*MOT:	shall we put it in the middle ?
+*MOT:	okay .
+*MOT:	oh (.) this is gonna look so cute .
+*MOT:	what happened ?
+*MOT:	you don't want me to brush ?
+*MOT:	well to put the ponytail (.) we have_to brush your hair .
+*MOT:	what are you doing ?
+*MOT:	you finished brushing already ?
+*MOT:	what do you want me to put on ?
+*MOT:	what ?
+*MOT:	this elastic ?
+*MOT:	okay .
+*MOT:	here like this or in the middle of your head ?
+*MOT:	oh (.) you look so cute with the ponytail .
+*MOT:	did Mrs Benton make a ponytail for you ?
+*MOT:	there now Nina has a ponytail .
+*MOT:	she did ?
+*MOT:	did she use a ribbon ?
+*MOT:	what color ribbon did she use ?
+*MOT:	where did she put the pink ribbon ?
+*MOT:	oh (.) are the eggs in front of your eyes again ?
+*MOT:	okay (.) where's the family ?
+*MOT:	we haven't seen the family for a while .
+*MOT:	you want to put the family in the house ?
+*MOT:	okay (.) you find the seat .
+*MOT:	that's not a seat .
+*MOT:	what ?
+*MOT:	do you want me to open another egg ?
+*MOT:	where's the lady sitting ?
+*MOT:	oh (.) I don't think she'll fit (.) will she ?
+*MOT:	oh (.) it looks like a hat (.) doesn't it ?
+*MOT:	that blue egg looks like a hat on the lady .
+*MOT:	she can't see because her hat's too big (.) isn't it ?
+*MOT:	where's the man going ?
+*MOT:	can you fix the chimney ?
+*MOT:	where does the chimney go ?
+*MOT:	on there ?
+*MOT:	what's this called ?
+*MOT:	uhoh [= trouble] (.) it fell down .
+*MOT:	can you go get it ?
+*MOT:	go get the chimney .
+*MOT:	and let's fix it .
+*MOT:	daddy's going behind the Mommy in the barrel ?
+*MOT:	I see .
+*MOT:	where's the chimney ?
+*MOT:	up on what ?
+*MOT:	are you looking for a blanket for the dolly ?
+*MOT:	I wonder where it is .
+*MOT:	would you like to use a kleenex for a blanket ?
+*MOT:	okay (.) let's make some little blankets .
+*MOT:	here we go .
+*MOT:	we can pretend this is a blanket .
+*MOT:	okay (.) shall I cut it in a little piece ?
+*MOT:	what do you want to do with it ?
+*MOT:	where do you want me to put the blanket ?
+*MOT:	okay (.) you do it .
+*MOT:	you want it to be big .
+*MOT:	okay (.) open it up .
+*MOT:	the lady's asleep .
+*MOT:	are we going to put her in the house ?
+*MOT:	are you gonna put her in the bed+room ?
+*MOT:	is she falling asleep ?
+*MOT:	I see .
+*MOT:	I see .
+*MOT:	is that lady standing up ?
+*MOT:	want to put the lady in the kitchen to cook ?
+*MOT:	what do you want ?
+*MOT:	okay (.) do you see a spoon ?
+*MOT:	where's the spoon ?
+*MOT:	here's a spoon .

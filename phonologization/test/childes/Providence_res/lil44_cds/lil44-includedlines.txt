@@ -1,0 +1,1050 @@
+*MOT:	looking for him . 0_775
+*MOT:	and there he was ! 775_2518
+*MOT:	hi , she said , I'm Isabelle . 2518_5143
+*MOT:	and I'm Vik , he told her . 5143_7221
+*MOT:	Isabelle and Vik had lots_of fun together . 7221_10391
+*MOT:	Isabelle told silly stories and Vik whistled like a bird . 10391_14131
+*MOT:	he knew how to cross his eyes too . 14131_16531
+*MOT:	I wish I could do that , Isabelle said , laughing . 16531_19265
+*MOT:	then Vik said , let's go to Rhino city and you can meet all of my friends ! 19265_23143
+*MOT:	in Rhino city e:veryone stared at Isabelle . 23143_27176
+*MOT:	they whispered to each other , an elephant in Rhino city ? 27176_32151
+*MOT:	how very strange !
+*MOT:	lady Rataxes was terribly angry . 32151_35598
+*MOT:	you cannot be friends with that little elephant , she told her son . 35598_38558
+*MOT:	king Rataxes ordered Isabelle to leave at once . 38558_41621
+*MOT:	and don't come back ! 41621_42908
+*MOT:	we don't like elephants in Rhino city , he shouted . 42908_45843
+*MOT:	Isabelle walked back to Celeste_Ville . 45843_49108
+*MOT:	she felt so sad . 49108_50880
+*MOT:	would she ever see her new friend again ? 50880_53488
+*MOT:	Vik was unhappy too . 53488_55721
+*MOT:	the very next day he snuck out of Rhino city to look for Isabelle . 55721_59313
+*MOT:	Isabelle had the same idea and it was not long before they found each other . 59313_63653
+*MOT:	hooray ! 63653_65791
+*MOT:	ooh , Honey .
+*MOT:	you need a little paper towel , don't you ? 65791_67695
+*MOT:	yeah , for you hand ? 68785_69753
+*MOT:	doesn't your hand +//? 69753_70985
+*MOT:	here .
+*MOT:	doesn't your hand need a paper towel ? 70985_75895
+*MOT:	isn't it wet ?
+*MOT:	okay Honey . 75896_78291
+*MOT:	xxx .
+*MOT:	okay , lemme [: let me] get a paper towel for +//. 79343_85545
+*MOT:	or actually , you know what ?
+*MOT:	we'll just use a wipe .
+*MOT:	xxx , what ?
+*MOT:	what kind of way is that to ask ? 90593_93653
+*MOT:	what a silly voice .
+*MOT:	what's wrong with your dress ? 98295_99406
+*MOT:	is it wet ? 99406_99999
+*MOT:	buddabubidubluhduhluhbuvula@o . 99999_102428
+*MOT:	boop boop . 105053_105881
+*MOT:	boop boop . 105881_107080
+*MOT:	okay .
+*MOT:	yeah , let's finish reading . 108370_109633
+*MOT:	are you clean now ? 109633_111343
+*MOT:	(o)kay . 114246_115811
+*MOT:	that one is empty , you're right . 117295_118720
+*MOT:	okay . 118720_121028
+*MOT:	let's see .
+*MOT:	what +//?
+*MOT:	what's his name ? 121028_122161
+*MOT:	what's her name ? 123280_124841
+*MOT:	you're right . 125828_128330
+*MOT:	hooray , they shouted , let's go play ! 128330_130535
+*MOT:	Vik showed Isabelle a boat . 130535_132313
+*MOT:	my father and I like to go fishing , said Vik . 132313_134431
+*MOT:	do you wanna go for a ride ? 134431_136010
+*MOT:	soon they were in the middle of a lake . 136010_138503
+*MOT:	do we pass a lake when we go to the swim club ? 138503_141081
+*MOT:	yeah . 141795_143253
+*MOT:	we go over the little bridge .
+*MOT:	and we see the lake . 143323_145205
+*MOT:	yeah . 145960_146476
+*MOT:	look , there's an island , Isabelle pointed . 146476_149523
+*MOT:	let's land there . 149523_150715
+*MOT:	Isabelle and Vik hurried ashore to go exploring . 150715_153913
+*MOT:	follow me , Vik said . 153913_159150
+*MOT:	what kind of bird does that look like ?
+*MOT:	it does look just like a flamingo ! 160556_162396
+*MOT:	you're right ! 162396_165575
+*MOT:	Isabelle and Vik played toss the coconut and hide+and+seek . 165575_169876
+*MOT:	whadda [: what do] you do when you play hide+and+seek ? 169876_173010
+*MOT:	do you count to ten and say ready or not , here I come ? 174135_176448
+*MOT:	hmm hmm . 177270_178098
+*MOT:	suddenly a stro:ng wind started to blow . 178098_181106
+*MOT:	the sky grew dark and it began to rain . 181106_184046
+*MOT:	Isabelle and Vik ran back to the boat . 184046_186063
+*MOT:	but it was gone . 186063_189500
+*MOT:	how will we ever get home , cried Isabelle as they searched for the lost boat . 189500_193341
+*MOT:	don't worry Isabelle , said Vik , trying to sound brave . 193341_196288
+*MOT:	you are my friend and I won't let anything bad happen to you . 196288_199751
+*MOT:	we'll find the boat . 199751_201058
+*MOT:	oh look , cried Vik , there it is ! 201058_204485
+*MOT:	Mister , Mister , Isabelle shouted , that's our boat ! 204485_207236
+*MOT:	I know you , the hippo told Isabelle . 207236_210208
+*MOT:	you're Babar's little girl . 210208_211880
+*MOT:	I'm Murphy_Heavy_Bottom . 211880_213810
+*MOT:	oh , I remember you , Isabelle said . 213810_215811
+*MOT:	this is my friend Vik . 215811_217463
+*MOT:	nice to meet you Vik , Murphy replied . 217463_219808
+*MOT:	hop aboard , I'll tow you back to the mainland . 219808_222420
+*MOT:	the hippo took Isabelle and Vik back to his house . 222420_226195
+*MOT:	Missus_Heavy_Bottom was there to welcome them . 226195_228785
+*MOT:	you need to dry off , she said , and then we will call your parents so they will not worry . 228785_232986
+*MOT:	what's Murphy wearing ? 232986_236046
+*MOT:	it looks like underpants .
+*MOT:	it might even be a bathing suit , since he was swimming , right ? 239746_242256
+*MOT:	xxx yeah . 242780_245085
+*MOT:	Missus_Heavy_Bottom gave them towels . 245085_247275
+*MOT:	Isabelle pretended hers was a lo:ng flowing gown . 247275_250675
+*MOT:	I: am the queen , she told Vik . 250675_253238
+*MOT:	and I must be King , said Vik . 253238_255126
+*MOT:	soon the sun came out . 255126_257286
+*MOT:	Isabelle and Vik played with a telescope while they waited for their clothes to dry . 257286_261158
+*MOT:	I can see Celeste_Ville from here , said Vik . 261158_264448
+*MOT:	I think that's Isabelle's dress . 265788_267135
+*MOT:	it's drying . 267135_267906
+*MOT:	(be)cause it was so wet . 267906_270046
+*MOT:	right ? 270046_270763
+*MOT:	yeah .
+*MOT:	oh , I bet you're right .
+*MOT:	and what is Vik looking at ? 276231_278508
+*MOT:	what's he holding ?
+*MOT:	what's he looking into ?
+*MOT:	you're right .
+*MOT:	ah: , looks like he's wearing his underpants . 286273_288408
+*MOT:	looks like Isabelle's [: Isabelle is] wearing her underpants too .
+*MOT:	she must be a big girl if she's wearing underpants , right ? 293095_296610
+*MOT:	yes ?
+*MOT:	that's Vik , and he has a towel around his shoulders . 302655_305865
+*MOT:	that's Vik the little rhino . 307523_312371
+*MOT:	he's Isabelle's friend , right ? 312373_314886
+*MOT:	well sh(e) +//. 317986_321396
+*MOT:	Isabelle is an elephant and Vik is a little rhinoceros .
+*MOT:	right . 322222_322898
+*MOT:	do you know what this is ? 322898_323971
+*MOT:	a what ? 326006_326895
+*MOT:	yeah , you know what that +//? 328486_331658
+*MOT:	it's called a dragonfly , that little bug .
+*MOT:	an [: and] he has four little wings . 334366_336421
+*MOT:	an [: and] he's called a dragonfly . 336421_337675
+*MOT:	there was a water+slide on the side of the house and Isabelle and Vik took turns . 337675_342318
+*MOT:	let's see who can make the biggest splash , said Vik . 342318_345116
+*MOT:	me first , Isabelle laughed , and down she went . 345116_347811
+*MOT:	whoosh ! 347811_349498
+*MOT:	then the hippo came to the window . 349498_351275
+*MOT:	come inside , said Murphy , it's time to go . 351275_353778
+*MOT:	I've tried to call your parents , but there's no answer . 353778_357033
+*MOT:	I'll take you home myself . 357033_359018
+*MOT:	first we'll go to Rhino_City and then we'll go to Celeste_Ville , he told the two friends , and off they went . 359018_364783
+*MOT:	they had not gone far when Isabelle said wait , I hear voices . 364783_369905
+*MOT:	it was Babar and Rataxes . 369905_373520
+*MOT:	Celeste and lady Rataxes were there too . 373520_376321
+*MOT:	everyone had been xxx searching for the children , and now they were arguing . 376321_380421
+*MOT:	what have you done with Vik , shouted Rataxes . 380421_383435
+*MOT:	I bet he's with Babar's little girl , said Lady Rataxes . 383435_386765
+*MOT:	Babar shook his head angrily . 386765_388931
+*MOT:	I have no idea where Vik is , he said . 388931_390930
+*MOT:	I'm looking for Isabelle and I'm as worried as you are . 390930_393475
+*MOT:	the children ran to their parents . 393475_396875
+*MOT:	here we are , they cried . 396875_398753
+*MOT:	thank you so much for bringing the children back safely , Babar said to Murphy . 398753_402795
+*MOT:	but lady Rataxes was still angry . 402795_405771
+*MOT:	keep your daughter away from our son , she said . 405771_409263
+*MOT:	let's get home now , said Babar . 409263_411121
+*MOT:	and as they drove off towards Celeste_Ville Isabelle waved +/.
+*MOT:	bless you !
+*MOT:	xxx . 415363_415948
+*MOT:	Isabelle waved to her friend .
+*MOT:	and Vik waved back . 417715_418966
+*MOT:	Isabelle couldn't stop thinking about her friend . 418966_421646
+*MOT:	do you think I'll ever see Vik again , Isabelle asked her father that evening . 421646_425210
+*MOT:	I hope so , said Babar . 425210_426755
+*MOT:	he's a nice little boy . 426755_428081
+*MOT:	sure enough , the very next day , there was a tap at the window . 428081_432356
+*MOT:	guess who it was ! 432356_434535
+*MOT:	my friend , cried Isabelle . 435546_437248
+*MOT:	and she ran out to play . 437248_439558
+*MOT:	yay !
+*MOT:	can you read +..? 446635_448111
+*MOT:	curious George to me ? 448111_449738
+*MOT:	hmm .
+*MOT:	well tell me what ha(ppened) +//. 452241_454665
+*MOT:	what happened ?
+*MOT:	what happened to that pizza dough ? 455910_457510
+*MOT:	did it fall on Tony's head ? 458675_460106
+*MOT:	oh my gosh .
+*MOT:	that is so silly . 462345_465108
+*MOT:	who threw the pizza dough ? 465108_467548
+*MOT:	wasn't it George ? 469078_470255
+*MOT:	yeah .
+*MOT:	and then what's happening ? 477708_479845
+*MOT:	well (.) Tony has to deliver the pizza , right ? 481498_487496
+*MOT:	and it's getting late .
+*MOT:	what's he going to do ?
+*MOT:	I don't know . 493806_498985
+*MOT:	where's George ? 498985_500548
+*MOT:	oh , he's in the truck .
+*MOT:	he is delivering the pizza . 507141_508875
+*MOT:	but the gate is locked , isn't it ? 508875_511075
+*MOT:	so what's he going to do ? 512210_513741
+*MOT:	who's going to deliver the pizza ? 515328_517541
+*MOT:	xxx .
+*MOT:	George is going to deliver the pizza ? 518740_521075
+*MOT:	wow !
+*MOT:	he climbed right over the gate ! 523375_527221
+*MOT:	right !
+*MOT:	xxx . 534531_536741
+*MOT:	and what's [: what does] Tony do then ?
+*MOT:	right , did Tony make a special pizza for George and his friend ?
+*MOT:	yes .
+*MOT:	wow .
+*MOT:	yay .
+*MOT:	you don't wanna [: wait] read Hey wake up with the broccoli stew ?
+*MOT:	should we read this one first ?
+*MOT:	okay .
+*MOT:	hey , big guys , open your eyes . 563190_568370
+*MOT:	what do you say ?
+*MOT:	it's a +...
+*MOT:	yawn , stretch , touch your toes , shimmy shimmy shoogy@wp +//. 570543_576311
+*MOT:	shimmy .
+*MOT:	wiggle your no:se .
+*MOT:	shout out xxx hello sun . 580441_584308
+*MOT:	happy morning +...
+*MOT:	hey , little guys , open your eyes . 585678_589915
+*MOT:	what do you say ?
+*MOT:	it's a +...
+*MOT:	yawn , stretch , touch your feet .
+*MOT:	breakfast time .
+*MOT:	come on , let's [: let us] +...
+*MOT:	orange+juice and cereal too: . 598146_602190
+*MOT:	buttered toast and +...
+*MOT:	oo:h .
+*MOT:	but +/.
+*MOT:	it's broccoli stew , which the rabbit loves but the hippo does not like so much .
+*MOT:	no , it's yummy .
+*MOT:	but I guess the hippo doesn't like broccoli stew , but the bunny+rabbit loves it .
+*MOT:	yummy .
+*MOT:	it's yummy .
+*MOT:	hurry hurry , go get dressed , put on the clothes you like best . 621440_624546
+*MOT:	hey , hey , what do you say ? 624546_628081
+*MOT:	are you ready ?
+*MOT:	let's go +...
+*MOT:	you are too small for basketball , unless you play with someone +... 628911_633175
+*MOT:	you are too big to use the swings .
+*MOT:	you should go do big guy things .
+*MOT:	that elephant is too big for the swi:ng . 639391_642900
+*MOT:	he's stuck , you're right .
+*MOT:	try out the jump+rope , slide down the slide . 645776_651716
+*MOT:	are you tired ?
+*MOT:	come +...
+*MOT:	right !
+*MOT:	morning snack is here for you , milk and cookies and +...
+*MOT:	not for you: . 660920_662743
+*MOT:	o:h .
+*MOT:	phew .
+*MOT:	it is for the bunny .
+*MOT:	I think the hippo wants some cookies .
+*MOT:	I think the hippo's [: hippo is] going to have milk and cookies .
+*MOT:	wo:w .
+*MOT:	oh my gosh , yummy .
+*MOT:	that's a great idea .
+*MOT:	do you like to dunk your cookies ?
+*MOT:	mm , Mommy likes to dunk her cookies too .
+*MOT:	xxx .
+*MOT:	oh , you wanna read Old hat , New hat ?
+*MOT:	okay .
+*MOT:	alright , climb on up , keep your microphone on .
+*MOT:	should we read this together ? 708341_710375
+*MOT:	Old hat . 711510_712778
+*MOT:	New hat , new hat , new hat , new hat . 714258_717773
+*MOT:	right , you're right .
+*MOT:	these are all new hats .
+*MOT:	look .
+*MOT:	too bi:g .
+*MOT:	too flat . 729120_730510
+*MOT:	right .
+*MOT:	too loose . 733511_734973
+*MOT:	too heavy . 736716_738176
+*MOT:	right !
+*MOT:	too red . 740581_742080
+*MOT:	too dotty . 743741_744988
+*MOT:	too blue . 744988_746541
+*MOT:	right !
+*MOT:	too fancy . 749308_751065
+*MOT:	too shiny .
+*MOT:	silly: .
+*MOT:	is that a silly hat ?
+*MOT:	yeah .
+*MOT:	too beady . 763510_765131
+*MOT:	that's a bumpy .
+*MOT:	too beady , too bumpy .
+*MOT:	too leafy +...
+*MOT:	lumpy !
+*MOT:	right ?
+*MOT:	uhhuh .
+*MOT:	right .
+*MOT:	wrinkly .
+*MOT:	too +...
+*MOT:	clearly , xxx .
+*MOT:	too holy . 788591_790110
+*MOT:	too feathery . 791976_793540
+*MOT:	too crooked .
+*MOT:	too straight .
+*MOT:	too pointed .
+*MOT:	wai:t , xxx .
+*MOT:	what does he see ? 808598_809980
+*MOT:	xxx . 809980_810743
+*MOT:	ju:st ri:ght . 810743_813308
+*MOT:	just right ? 813310_815771
+*MOT:	just right .
+*MOT:	just right !
+*MOT:	new hat . 820308_821878
+*MOT:	ri:ght .
+*MOT:	that is so silly . 824780_826513
+*MOT:	should we read Ariel ?
+*MOT:	(o)kay .
+*MOT:	o:kay: . 829950_833945
+*MOT:	xxx Mommy is full of yawns this morning , isn't she ?
+*MOT:	xxx .
+*MOT:	you are ?
+*MOT:	Mommy and Lily are both full of yawns ?
+*MOT:	oh_my_goodness .
+*MOT:	can Mommy have a kiss ? 848791_849945
+*MOT:	you know what ? 851773_853441
+*MOT:	I lo:ve you: .
+*MOT:	so much . 856716_859251
+*MOT:	y:es . 860053_861880
+*MOT:	yes siree@wp Bob .
+*MOT:	ye:s , maam . 866248_869546
+*MOT:	xxx . 871500_872308
+*MOT:	one morning , Ariel the Little_Mermaid went looking for hidden treasure with her best friend +... 872308_877685
+*MOT:	Flounder .
+*MOT:	Ariel was supposed to sing for the first time in front of her father , king Triton , and all the other mer+people . 879433_885400
+*MOT:	but for now she was much more interested in sunken ships than her father's concert . 885400_890250
+*MOT:	xxx while they were searching , Flounder began to get nervous . 890250_897573
+*MOT:	what was that , he said .
+*MOT:	did you hear something ?
+*MOT:	suddenly , a very large +...
+*MOT:	shark smashed through the side of the ship .
+*MOT:	swim , a shark , Flounder cried . 902845_905778
+*MOT:	they swam away very quickly . 905778_908195
+*MOT:	Ariel and Flounder found a safe spot where the shark couldn't reach them . 908195_912106
+*MOT:	you big bully , Flounder shouted at the shark . 912108_915413
+*MOT:	xxx .
+*MOT:	as soon as she was sure they were a safe distance from the shark , Ariel thanked Flounder for being so brave .
+*MOT:	even though he was a very small fish , he had a very big heart , and he was Ariel's best friend under the sea . 924913_932380
+*MOT:	after their adventure , Ariel and Flounder headed home , hoping that they would not be too late for her father's concert . 932380_941383
+*MOT:	ooh , it's a big concert . 942813_944706
+*MOT:	what's the octopus playing ? 944708_946078
+*MOT:	right .
+*MOT:	and what's Sebastian doing ? 947841_949540
+*MOT:	what is he ?
+*MOT:	he's the conductor , and he's conducting the orchestra .
+*MOT:	and these fish are all playing horns . 958145_960841
+*MOT:	and what does she have on her head ? 960841_964280
+*MOT:	fea:thers on her head , wo:w .
+*MOT:	that's great . 969771_972303
+*MOT:	yeah , she looks like she has sort of little feathers on her head too . 974175_978510
+*MOT:	and who is that ?
+*MOT:	that's Ariel's daddy . 978513_982331
+*MOT:	she looks like she has the seashell on her head .
+*MOT:	ri:ght .
+*MOT:	right !
+*MOT:	right !
+*MOT:	you a:re right . 997148_999715
+*MOT:	xxx this one ?
+*MOT:	wow , who's this book about ? 1007581_1009641
+*MOT:	can you tell me ? 1009641_1011445
+*MOT:	mhm .
+*MOT:	mhm .
+*MOT:	uhhuh .
+*MOT:	mhm .
+*MOT:	and Jasmine , right .
+*MOT:	Beauty_and_the_Beast .
+*MOT:	the Sleigh ride .
+*MOT:	oh .
+*MOT:	alrighty . 1041658_1043616
+*MOT:	Cinderella . 1043616_1047048
+*MOT:	what's the story called ? 1047048_1048840
+*MOT:	The Dance lesson .
+*MOT:	just imagine , said Cinderella excitedly , there's a ball at the palace tonight in honor of the prince , and every maiden in the land is invited . 1052395_1061646
+*MOT:	that means me too . 1061648_1063440
+*MOT:	all of Cinderella's friends clapped and chirped as they gathered around . 1063440_1069445
+*MOT:	they loved their Cinderellee .
+*MOT:	oh dear , said Cinderella with a sigh , there's so much to do . 1069446_1074040
+*MOT:	I can only go if I've finished my chores , and today , Stepmother has given me more work than ever . 1074040_1080176
+*MOT:	there's washing , mending , ironing , cooking , scrubbing , sweeping . 1080176_1084130
+*MOT:	suddenly , three loud shrieks came from downstairs . 1084130_1087975
+*MOT:	Cinderella , come down here immediately and help us get ready for the ball , her stepsisters cried . 1087975_1094245
+*MOT:	her cruel stepmother and stepsisters wouldn't give poor Cinderella any time to do the rest of her chores . 1094245_1100843
+*MOT:	mend my dress , screeched Anastasia . 1100843_1103391
+*MOT:	polish my shoes , whined Rosella . 1103391_1105516
+*MOT:	iron my cloak , demanded her stepmother . 1105516_1108325
+*MOT:	are they nice ? 1108325_1110035
+*MOT:	no , they're not so nice .
+*MOT:	but is Cinderella nice ?
+*MOT:	she's nice .
+*MOT:	and are Cinderella's friends nice ? 1115641_1117795
+*MOT:	yes .
+*MOT:	hours later , Cinderella began to sweep and scrub the endless stone floor . 1119078_1124375
+*MOT:	suddenly , Jack had an idea . 1124375_1126585
+*MOT:	I know , he said . 1126585_1129441
+*MOT:	we'll help Cinderella !
+*MOT:	all the other mice nodded in agreement . 1129441_1131906
+*MOT:	what would I do without you , she said , patting each of them on the head . 1131906_1135725
+*MOT:	you're so good to me . 1135725_1137315
+*MOT:	everyone joined in the cleaning , singing happily as they went . 1137315_1141813
+*MOT:	as she worked , Cinderella began to imagine the magical evening ahead . 1141813_1146243
+*MOT:	everyone would be dressed in the finest clothes , and Cinderella would wear her mother's beautiful gown . 1146243_1152305
+*MOT:	the ballroom would come alive with music , dancing , and laughter , and the prince would bow before Cinderella and ask her to dance . 1152306_1160578
+*MOT:	suddenly , Cinderella stopped dreaming . 1160578_1162845
+*MOT:	oh no , she cried , I've never been to a ball . 1163193_1167461
+*MOT:	I don't even know how to dance .
+*MOT:	dontchu [: don't you] worry , Cinderella , Jacques smiled reassuringly . 1167463_1171263
+*MOT:	we'll show you 0how to dance , easy as pie . 1171263_1174080
+*MOT:	with that , Jack bowed before Perla and extended his hand . 1174080_1178413
+*MOT:	dance , please , Missy , he asked ? 1178413_1181346
+*MOT:	Perla blushed as she took Jack's hand . 1181346_1184345
+*MOT:	Gus was the conductor , and he got all the birds to sing . 1184345_1188125
+*MOT:	Jack and Perla spun round and around , gliding across the floor . 1188125_1193146
+*MOT:	Cinderella watched and copied their movements . 1193146_1196575
+*MOT:	just listen and move , see , said Perla ? 1196575_1200521
+*MOT:	not so scary .
+*MOT:	using her broom as an imaginary partner , Cinderella danced and twirled gracefully through the room . 1200521_1206505
+*MOT:	she led everyone across the floor , sweeping and cleaning as they went . 1206505_1210575
+*MOT:	good , Cinderella , said Jack , beaming . 1210575_1213706
+*MOT:	lucky prince gets to dance with Cinderellee . 1213706_1216523
+*MOT:	the mice collapsed on the floor laughing . 1216523_1219380
+*MOT:	lets +//. 1228881_1230970
+*MOT:	oh , there's Ariel .
+*MOT:	a Special surprise . 1230971_1234111
+*MOT:	the underwater kingdom was quiet and peaceful . 1234111_1238385
+*MOT:	every mermaid and merman was in bed , fast asleep . 1238385_1242008
+*MOT:	everyone except princess Ariel and her friend Flounder . 1242008_1245528
+*MOT:	hurry up , Flounder , cried Ariel . 1245528_1250113
+*MOT:	it's almost time for the party .
+*MOT:	we can't be late .
+*MOT:	trying not to make sound , Ariel and Flounder swam away from king Triton's palace . 1250113_1255608
+*MOT:	they began their journey toward the surface . 1255608_1258576
+*MOT:	but Ariel , said Flounder , are you sure we should go to the surface ? 1258576_1261900
+*MOT:	remember last time ? 1261900_1265260
+*MOT:	your father got so angry .
+*MOT:	you know how he feels about humans . 1265260_1267456
+*MOT:	that's right , this time we can't get caught , said Ariel . 1267456_1271255
+*MOT:	she wasn't to let anything ruin her plans for tonight . 1271255_1276183
+*MOT:	prince Eric , the prince Ariel had saved in a shipwreck , was having a royal ball . 1276183_1281053
+*MOT:	and Ariel had a very special surprise for him . 1281053_1284040
+*MOT:	swim faster , Flounder , she cried , glancing back at him . 1284041_1287481
+*MOT:	and Flounder raced to catch up . 1287481_1289383
+*MOT:	just as Ariel and Flounder approached the surface , Ariel saw beautiful lights dance across the water . 1289383_1296516
+*MOT:	I don't think anyone's wearing yellow there , are they ? 1299190_1302543
+*MOT:	no .
+*MOT:	xxx . 1304545_1307278
+*MOT:	what do you think's [: think is] happening ? 1307278_1309920
+*MOT:	well , I guess prince Eric is out on the balcony . 1311910_1316945
+*MOT:	he just didn't feel like joining in the royal celebration . 1318713_1323040
+*MOT:	he cou(ld) +/.
+*MOT:	Melody is crying . 1328708_1330905
+*MOT:	yea:h .
+*MOT:	did Melody +//? 1332706_1337775
+*MOT:	when they had the party for Melody , she didn't wanna be at the party either , did she ?
+*MOT:	she just wanted to go swimming , right ?
+*MOT:	yeah .
+*MOT:	she went back in the sea again ? 1347248_1348806
+*MOT:	yeah . 1349165_1349546
+*MOT:	she was happy there , right ?
+*MOT:	did she go with Sebastian ? 1351480_1352995
+*MOT:	yeah .
+*MOT:	Sebastian fell in the water again ? 1358973_1360776
+*MOT:	yeah . 1361246_1361880
+*MOT:	prince Eric stood on the palace balcony . 1361881_1372041
+*MOT:	he couldn't stop thinking about the mysterious girl with the lovely voice who had saved his life .
+*MOT:	Flounder spotted the prince first . 1372041_1375831
+*MOT:	look , Ariel , he said , pointing a fin at the castle . 1375831_1379586
+*MOT:	Ariel's heart leapt [: leaped] with joy when she saw Prince_Eric . 1379588_1382778
+*MOT:	it's time for my surprise , she said , winking at Flounder . 1382778_1385853
+*MOT:	swimming up to a nearby rock , Ariel and Flounder hid behind it . 1385853_1390041
+*MOT:	ready , asked Flounder ? 1390041_1391711
+*MOT:	with a nod , Ariel closed her eyes , opened her mouth , and began to sing . 1391711_1396510
+*MOT:	suddenly , the night was filled with the sweet sound of Ariel's voice . 1396511_1401813
+*MOT:	she sang a song she had written just for Eric . 1401813_1404675
+*MOT:	it was Ariel's special gift for him . 1404675_1407345
+*MOT:	hearing her beautiful voice again , Eric's face lit up . 1407346_1411106
+*MOT:	it can't be , he said . 1411106_1412775
+*MOT:	I must be hearing the sounds of the wind . 1412775_1414940
+*MOT:	still , he remained on the balcony , enchanted by the beautiful song . 1414940_1419661
+*MOT:	when the song was over , Eric looked out across the sea . 1419661_1423915
+*MOT:	he hoped to catch a glimpse of the wonderful girl who had saved him . 1423915_1427440
+*MOT:	who are you , he called out into the night . 1427440_1430461
+*MOT:	but all he heard was the echo of his own voice . 1430461_1433110
+*MOT:	I'll be back soon , Ariel whispered as she and Flounder swam toward home . 1433110_1438416
+*MOT:	what are you doing , silly ? 1438418_1440675
+*MOT:	you're all tangled up in the wire !
+*MOT:	let me get you untangled . 1444726_1449575
+*MOT:	oh my gosh . 1449576_1451465
+*MOT:	xxx .
+*MOT:	xxx .
+*MOT:	xxx .
+*MOT:	is that my head ?
+*MOT:	right , that's my forehead .
+*MOT:	what else is on my face ? 1468478_1470481
+*MOT:	do I have a nose ? 1472586_1473706
+*MOT:	what else do I have ? 1475185_1476526
+*MOT:	eyebrows ?
+*MOT:	eye:lids . 1480435_1481610
+*MOT:	right .
+*MOT:	eyelids .
+*MOT:	xxx .
+*MOT:	xxx .
+*MOT:	what else do I have ? 1495241_1498976
+*MOT:	I have eyes , you're right .
+*MOT:	I'm not wearing a necklace today .
+*MOT:	right .
+*MOT:	I've got a head .
+*MOT:	careful with Mommy's sunglasses , Honey .
+*MOT:	can I hold them ?
+*MOT:	so they don't break ?
+*MOT:	thank you .
+*MOT:	what else do I have ? 1543255_1544441
+*MOT:	xxx do I have lips ? 1550705_1552950
+*MOT:	will you kiss my lips ?
+*MOT:	those aren't my teeth . 1560776_1563080
+*MOT:	xxx .
+*MOT:	really ? 1576988_1578108
+*MOT:	oh . 1578775_1579678
+*MOT:	xxx .
+*MOT:	my tongue is in my mouth .
+*MOT:	my teeth are in my mouth .
+*MOT:	does +//? 1599148_1601175
+*MOT:	does the doctor look in your throat ?
+*MOT:	a:h .
+*MOT:	yes , you do have teeth in your mouth .
+*MOT:	what nice teeth you have . 1609573_1612575
+*MOT:	and your tongue is in your mouth too , right ? 1612575_1616180
+*MOT:	and your lips +... 1617216_1618391
+*MOT:	are on your face . 1618391_1620218
+*MOT:	on your what ?
+*MOT:	huh ? 1627510_1629548
+*MOT:	cut . 1630711_1631408
+*MOT:	huh ho huh ho .
+*MOT:	you know who we haven't seen in a while , Honey ?
+*MOT:	we haven't seen Tamar in a while , have we ? 1637110_1639260
+*MOT:	yeah , I think (.) Diana and Tamar are visiting (.) Tamar's (.) grandma and grandpa . 1643121_1647575
+*MOT:	I think she's with her mommy and her grandma and her grandpa . 1650373_1653310
+*MOT:	yes .
+*MOT:	ri:ght . 1658461_1659351
+*MOT:	are you going to go to school with Tamar in the fall ?
+*MOT:	yes .
+*MOT:	you want Mommy +/?
+*MOT:	you want Mommy to get you something to eat ?
+*MOT:	okay , no [x 3] , we're not gonna take it off .
+*MOT:	let's put your backpack on so you can go wherever you want .
+*MOT:	then you can carry your backpack .
+*MOT:	do you want Mommy to get you something to eat , sweets ? 1681525_1684913
+*MOT:	careful , careful , carefu:l .
+*MOT:	okay , but let's be gentle , (be)cause we don't want them to break .
+*MOT:	oh , thank you . 1692906_1694108
+*MOT:	thank y(ou) +/.
+*MOT:	thank you .
+*MOT:	you did open them (.) carefully .
+*MOT:	thank you very much .
+*MOT:	thank you very much .
+*MOT:	mhm . 1707973_1708975
+*MOT:	bubble wrap .
+*MOT:	no , it's the backpack's . 1715510_1717440
+*MOT:	what's the backpack song in Dora ? 1717440_1720843
+*MOT:	backpack , backpack xxx .
+*MOT:	how's [: how does] the map song go ?
+*MOT:	xxx .
+*MOT:	a map , on the map , on the map , on the ma:p .
+*MOT:	heehee yay: .
+*MOT:	and what about when they do something ?
+*MOT:	do they go (.) we did it , we did it , we did it , hooray ?
+*MOT:	yeah , I just call that the we did it song . 1761925_1763900
+*MOT:	xxx .
+*MOT:	I know +...
+*MOT:	how many +//? 1767546_1770680
+*MOT:	do you remember how many eggs Dora had ?
+*MOT:	when she did her easter+egg hunt ? 1770681_1774013
+*MOT:	how many eggs did she get ? 1774013_1776703
+*MOT:	did she count them in Spanish ?
+*MOT:	how did she count them in Spanish ?
+*MOT:	www . 1783508_1784978
+*MOT:	xxx www it goes &uh www .
+*MOT:	very good , Sweetie !
+*MOT:	you counted to twelve in Spanish !
+*MOT:	xxx . 1809641_1812575
+*MOT:	hooray +//. 1812575_1815125
+*MOT:	are you wearing Mommy's shoes ?
+*MOT:	are they a little big on you ?
+*MOT:	what's Ariel wearing ? 1817925_1819443
+*MOT:	what's she wearing here ? 1821640_1823375
+*MOT:	a green mermaid .
+*MOT:	swimming , swimming , swimmi:ng .
+*MOT:	you are exercising .
+*MOT:	what do you like to do to exercise ?
+*MOT:	wo:w .
+*MOT:	do you feel good when you exercise ?
+*MOT:	yeah .
+*MOT:	xxx .
+*MOT:	xxx , yeah , great .
+*MOT:	look , why don't you put this on ?
+*MOT:	you can show Amanda .
+*MOT:	you wanna carry it then ?
+*MOT:	well , that's why you can put it on your back , and it won't be heavy .
+*MOT:	oh , xxx . 1872911_1874100
+*MOT:	it's not so heavy , you silly +//.
+*MOT:	oh , Honey , be nice to the backpack .
+*MOT:	o:h .
+*MOT:	oh , goodness gracious .
+*MOT:	oh_my_goodness .
+*MOT:	you just wanna carry your box ?
+*MOT:	no , I think it's empty now . 1897106_1899265
+*MOT:	alrighty .
+*MOT:	the bubble wrap (.) is over +...
+*MOT:	here . 1907396_1916906
+*MOT:	great . 1916906_1918976
+*MOT:	do you wanna zip it ? 1925061_1926680
+*MOT:	xxx .
+*MOT:	xxx . 1938878_1942241
+*MOT:	xxx . 1942241_1948043
+*MOT:	hmm . 1954265_1957250
+*MOT:	what do you have there ? 1957250_1958505
+*MOT:	ah , bubble wrap .
+*MOT:	and your box .
+*MOT:	right .
+*MOT:	do you know what numbers are on the backpack ? 1971793_1974780
+*MOT:	do you know what number that is ?
+*MOT:	two .
+*MOT:	and ?
+*MOT:	right !
+*MOT:	two and one together is twenty one . 1978443_1981715
+*MOT:	the letter +//. 1985040_1989101
+*MOT:	that's +//.
+*MOT:	what +//?
+*MOT:	do you know w(hat) +//?
+*MOT:	what letter is that ?
+*MOT:	it's a c@l .
+*MOT:	that's the first letter of your name .
+*MOT:	what is that ?
+*MOT:	l@l , right .
+*MOT:	and you know what this one is ?
+*MOT:	that's a u:@l .
+*MOT:	that +//. 2003331_2006651
+*MOT:	that is in Gabi's name .
+*MOT:	it's a b@l .
+*MOT:	it's a +//. 2008858_2010500
+*MOT:	well , that's a b@l .
+*MOT:	Gabi's name is spelled +//.
+*MOT:	well , there's no g@l on here .
+*MOT:	&um +/.
+*MOT:	xxx right , Gabi is spelled g@l , a@l , b@l , i@l . 2016446_2020685
+*MOT:	Gabi ! 2020685_2021655
+*MOT:	xxx l@l , i@l , l@l , y@l , Lily .
+*MOT:	great !
+*MOT:	and an i@l . 2037761_2039106
+*MOT:	oh . 2040776_2044108
+*MOT:	xxx Sweetie , should we learn a different state today ?
+*MOT:	should I bring your place mat over ?
+*MOT:	no , we have_to keep that on .
+*MOT:	just get +//. 2055105_2057431
+*MOT:	whoops , can you pick your box up , Honey ?
+*MOT:	xxx .
+*MOT:	okay , let's go get your map .
+*MOT:	and then bring it over .
+*MOT:	okay , okay , I: will sit , but you hold your bo:x and your map .
+*MOT:	and bring it on over . 2074143_2077840
+*MOT:	sure .
+*MOT:	here , let's put Baby_Beluga right there .
+*MOT:	it('s) +/.
+*MOT:	xxx well , you have a funny way of thinking it's upside down .
+*MOT:	xxx .
+*MOT:	well , actually , it's right s(ide) +//.
+*MOT:	it's right s(ide) +//.
+*MOT:	I don't know why you like to look at the map upside down , but you do .
+*MOT:	did Daddy teach you a new state , Honey ?
+*MOT:	did he teach you +...
+*MOT:	which state did he teach you ?
+*MOT:	did he teach you +...
+*MOT:	look .
+*MOT:	did he teach you this one ?
+*MOT:	this green one ? 2110413_2111715
+*MOT:	what's it called ?
+*MOT:	what is that green state called ?
+*MOT:	where they +//.
+*MOT:	I think they eat lots_of crabs there .
+*MOT:	is it Maryland ?
+*MOT:	yeah , the green one over here's [: here is] Maryland .
+*MOT:	the little tiny pink one or the green one ?
+*MOT:	the green one is called Maryland .
+*MOT:	yeah , it's all one state .
+*MOT:	it has a big +//.
+*MOT:	it has a body of water (.) in there , but the xxx green one is Maryland .
+*MOT:	it's called Maryland . 2145306_2146656
+*MOT:	it's a state .
+*MOT:	that's where Daddy went to college .
+*MOT:	Daddy went to school in Maryland . 2151791_2154331
+*MOT:	you have_to be careful , Honey . 2158523_2160831
+*MOT:	no: .
+*MOT:	you have_to be gentle with it .
+*MOT:	yes .
+*MOT:	do you want Mommy to get you something to eat , Honey ?
+*MOT:	okay , Honey +...
+*MOT:	xxx let's relax , shall we ?
+*MOT:	why are you panting like a dog ? 2180661_2182525
+*MOT:	xxx .
+*MOT:	you (.) are (.) silly .
+*MOT:	alright , what would you like to eat ?
+*MOT:	xxx .
+*MOT:	you're sitting with the fish a:nd Ariel . 2200713_2203575
+*MOT:	yes .
+*MOT:	xxx alright , Sweetie .
+*MOT:	xxx then ask Mommy nicely to clean it .
+*MOT:	xxx let me clean it .
+*MOT:	oh , Honey , Honey .
+*MOT:	this is not something to get worked up over . 2218595_2220880
+*MOT:	there we go . 2220880_2224973
+*MOT:	luck ?
+*MOT:	oh , you wanna go look ? 2246378_2248008
+*MOT:	xxx well , how about a yogurt bar ?
+*MOT:	do you want a yogurt bar ?
+*MOT:	it is cold .
+*MOT:	do you want chocolate milk ?
+*MOT:	xxx okay , Honey ?
+*MOT:	Honey , why are you xxx ? 2264928_2267978
+*MOT:	Sweetie +... 2267978_2269640
+*MOT:	yeah .
+*MOT:	shall I get you chocolate milk first ?
+*MOT:	okay , how do y(ou) +/?
+*MOT:	ho(w) +//?
+*MOT:	let me get the chocolate milk first .
+*MOT:	you look at the book while I get the chocolate milk , okay ?
+*MOT:	okay ? 2280513_2281781
+*MOT:	is that okay , Honey ?
+*MOT:	okay .
+*MOT:	xxx . 2286245_2287816
+*MOT:	boy oh boy . 2287816_2298276
+*MOT:	Sweetie , are you gonna read the story until I get there ? 2327180_2329870
+*MOT:	what's happening in the story ? 2330840_2336800
+*MOT:	I don't know what's happening in that story . 2338478_2341008
+*MOT:	would you like chocolate milk or strawberry milk , Honey ? 2342581_2346050
+*MOT:	okay .
+*MOT:	what's happening in the story , Honey ? 2395971_2398476
+*MOT:	what's Corduroy looking for ? 2400063_2401788
+*MOT:	I donno [: don't know] . 2404730_2432975
+*MOT:	tadah: . 2432975_2435638
+*MOT:	tadah: . 2435638_2438186
+*MOT:	tadah: .
+*MOT:	oh my gosh , what do you say ?
+*MOT:	you're welcome .
+*MOT:	please . 2445941_2447041
+*MOT:	xxx . 2447971_2453665
+*MOT:	hmm . 2453665_2454778
+*MOT:	what's this book about ? 2454778_2455930
+*MOT:	Co:rduroy: ?
+*MOT:	is Corduroy a little bear ? 2459678_2461356
+*MOT:	what's he wearing ? 2461356_2463613
+*MOT:	is he wearing overalls ? 2465190_2466525
+*MOT:	yes .
+*MOT:	what color are they ? 2467856_2469415
+*MOT:	xxx o:h . 2470478_2478675
+*MOT:	late one summer afternoon , Lisa and her mother took their laundry to the laundromat . 2478676_2483971
+*MOT:	as always on such trips , Lisa took along her toy bear , Corduroy . 2483998_2489108
+*MOT:	xxx a laundromat was a busy place at this hour . 2489108_2493380
+*MOT:	now , Corduroy , you sit right here and wait for me , Lisa said . 2493380_2498850
+*MOT:	I'm going to help with our wash .
+*MOT:	Corduroy waited patiently (.) then he suddenly perked up his ears . 2498850_2505855
+*MOT:	Lisa's mother was saying , be sure to take everything out of your pockets , Lisa dear . 2505858_2510576
+*MOT:	you don't want your precious things to get all wet and soapy . 2510576_2513641
+*MOT:	pockets , said Corduroy to himself . 2513641_2520511
+*MOT:	I don't have a pocket .
+*MOT:	he slid off the chair . 2520511_2526945
+*MOT:	I must go find something to make a pocket out of , he said , and he began to look around .
+*MOT:	first he came to a pile of fancy towels and wash+cloths , but nothing was the right size or color . 2526945_2533445
+*MOT:	then he saw a huge stack of colorful clothes in a laundry basket . 2533445_2537505
+*MOT:	there ought_to be something in there to make a pocket out of , he said . 2537505_2540503
+*MOT:	without hesitating , he climbed inside the bag , which was filled with pieces of wet laundry . 2540503_2546111
+*MOT:	the dampness didn't bother Corduroy in the least . 2546111_2548690
+*MOT:	this must be a ca:ve , he said , sighing happily . 2548690_2555236
+*MOT:	I've always wanted to live in a dark , cool cave .
+*MOT:	when the time came for Lisa to fetch her bear , he was gone ! 2555238_2559178
+*MOT:	oh Mommy , she said , Corduroy isn't here where I left him ! 2559178_2562478
+*MOT:	I'm sorry , Honey , said her mother , but the Laundromat will be closing soon and we must be getting home . 2562478_2567575
+*MOT:	Lisa was reluctant to leave without Corduroy , but her mother insisted . 2567575_2572606
+*MOT:	you can come back tomorrow , she said . 2572606_2576146
+*MOT:	I'm sure he will still be here .
+*MOT:	as they left , a young man wearing an artist's beret was taking his wet laundry out of a bag (.) a very bad [?] Corduroy had discovered . 2576145_2584721
+*MOT:	before he knew it , Corduroy was being tossed together with all the sheets and shirts and shorts and slacks +... 2584723_2593481
+*MOT:	into the dryer .
+*MOT:	but just as the artist was shutting the glass door , Corduroy tumbled out onto the floor . 2593483_2597905
+*MOT:	how in thunder did that bear ever get mixed up with my things , the artist wondered . 2597905_2602110
+*MOT:	poor Corduroy was damp all over . 2602110_2605671
+*MOT:	the least I can do for him is give his overalls a good drying , said the man thoughtfully . 2605671_2610478
+*MOT:	he unbuttoned Corduroy's shoulder straps and put his overalls in the dryer . 2610478_2614441
+*MOT:	Corduroy grew dizzy as he watched the clothes spinning round , but the artist became inspired . 2614441_2621206
+*MOT:	this would make a wonderful painting , he said as he took out his sketch pad and began drawing the swirling colors . 2621206_2627441
+*MOT:	I can hardly wait to get back to my studio . 2627441_2630056
+*MOT:	finally , the dryer stopped whirling and the man gathered up the clothes . 2630056_2634140
+*MOT:	and he helped Corduroy put on his warm , dry overalls . 2634140_2637515
+*MOT:	all at once , the manager of the laundromat called , closing time , everybody out . 2637515_2642110
+*MOT:	Corduroy was gently placed on top of a washing machine . 2642110_2646728
+*MOT:	I wonder who that bear belongs to , said the artist as he was leaving . 2646728_2650306
+*MOT:	it seems to me he should have his name someplace . 2650306_2652990
+*MOT:	he's too fine a fellow to be lost . 2652990_2655521
+*MOT:	as soon as the lights were turned off , Corduroy began searching +//. 2655521_2659520
+*MOT:	began his search again . 2659520_2661175
+*MOT:	he was surprised to see something white glowing in the dark . 2661175_2664838
+*MOT:	what is it ?
+*MOT:	maybe it's snow , he said . 2667013_2670456
+*MOT:	I've always wanted to play in the snow .
+*MOT:	he accidentally tipped over the open lidded box and suddenly he was covered in soft , slippery soap flakes . 2670458_2678258
+*MOT:	it's soap ! 2678258_2679853
+*MOT:	gradually , Corduroy began to slip and slide . 2679853_2683058
+*MOT:	what fun , he said with a smile ! 2683058_2687511
+*MOT:	I've always wanted to ski down a steep mountainside .
+*MOT:	he landed paws first in an empty laundry basket . 2687511_2691950
+*MOT:	this must be a cage , he said . 2691950_2694598
+*MOT:	I've never wanted to live inside a cage . 2694598_2697908
+*MOT:	but by now , Corduroy was drowsy , and soon he nodded off to +... 2697908_2703196
+*MOT:	oh , he's sleeping .
+*MOT:	next morning , when the manager came to open the door of the laundromat , Lisa was waiting . 2705706_2711010
+*MOT:	I left something here yesterday , she said . 2711010_2714311
+*MOT:	may I look around ?
+*MOT:	certainly , said the manager . 2714311_2717983
+*MOT:	my customers are always leaving things .
+*MOT:	Lisa was searching under the chairs and in back of the washing machines when he +//. 2717983_2723043
+*MOT:	when he +//.
+*MOT:	when she heard the manager call her . 2723043_2727311
+*MOT:	is this whatchor [: what you're] looking for , senorita@s:spa ?
+*MOT:	xxx yes , he's my best friend , shouted Lisa as she came running ! 2727311_2732546
+*MOT:	she reached in and picked Corduroy out of the basket . 2732546_2735698
+*MOT:	so this is where you've been , you little rascal , she said . 2735698_2739745
+*MOT:	it's time I took you home .
+*MOT:	Lisa thanked the manager and ran out of the door , down the street , holding Corduroy tightly in her arms . 2739745_2745918
+*MOT:	why did you wander away , she said ? 2745918_2748510
+*MOT:	I went looking for a pocket , said Corduroy . 2748510_2751186
+*MOT:	oh , Corduroy , why didn't you tell me you wanted a pocket , asked Lisa , giving him an affectionate squeeze . 2751186_2757115
+*MOT:	the very next morning , Lisa sewed a pocket on Corduroy's overalls . 2757115_2761846
+*MOT:	and here's a card I've made with your name on it for you to keep tucked inside . 2761846_2766390
+*MOT:	that's his little pocket . 2767930_2775121
+*MOT:	I've always wanted a purple pocket with my name inside , said Corduroy as he and Lisa nuzzled noses .
+*MOT:	that's some thread .
+*MOT:	that Lisa used to sew the pocket on . 2778108_2780796
+*MOT:	wow . 2780796_2783981
+*MOT:	that's great .
+*MOT:	we:ll , you want Mommy to pick it out ?
+*MOT:	oh , you wanna pick it out .
+*MOT:	o:kay .
+*MOT:	you have_to carry your box . 2796720_2798211
+*MOT:	you want me to hold your milk ?
+*MOT:	okay .
+*MOT:	wha:t would be a good book to read ? 2811663_2818441
+*MOT:	are tho:se good to read ?
+*MOT:	wo:w .
+*MOT:	Dora's Easter basket . 2824978_2827598
+*MOT:	great !
+*MOT:	www , I'm Dora .
+*MOT:	Boots and I are going on an egg hunt . 2834950_2836850
+*MOT:	Mami and Papi hid twelve special eggs for us to find . 2836850_2839941
+*MOT:	each egg has a prize inside . 2839941_2842275
+*MOT:	the big yellow egg has the largest prize of all . 2842275_2845311
+*MOT:	will you help us find all twelve eggs ? 2845311_2848016
+*MOT:	where should we look for the eggs ? 2848016_2853876
+*MOT:	let's ask Map .
+*MOT:	Map !
+*MOT:	the map says we should look for eggs by the duck pond , and at the farm , and then we should search for the big yellow egg at Grandma's house . 2856011_2863173
+*MOT:	come on , www . 2863173_2865131
+*MOT:	do you see any eggs ? 2865131_2869130
+*MOT:	xxx .
+*MOT:	I think we only see o:ne +... 2872645_2874648
+*MOT:	three .
+*MOT:	we have_to watch out for Swiper the Fox .
+*MOT:	he'll try and swipe our eggs .
+*MOT:	if you +/.
+*MOT:	oh , you're gonna count them first , okay . 2886241_2887925
+*MOT:	I think just three , silly .
+*MOT:	xxx .
+*MOT:	whaddo [: what do] you say to Swiper ? 2899846_2901440
+*MOT:	Swiper , no swipe .
+*MOT:	we stopped Swiper . 2904790_2906640
+*MOT:	thanks for helping . 2906640_2909943
+*MOT:	let's see what prizes are inside our eggs .
+*MOT:	can you tell which prize came from which eggs ? 2909943_2916485
+*MOT:	you're right . 2931391_2932311
+*MOT:	it doe:s ?
+*MOT:	wo:w .
+*MOT:	we made it to the duck pond . 2938453_2942616
+*MOT:	look , there's a mommy duck and her ducklings .
+*MOT:	did we see a mommy duck and her ducklings when we went to the swim club ? 2942616_2946313
+*MOT:	remember they were crossing the street ? 2946313_2948775
+*MOT:	you forgot to tell that to Daddy . 2948775_2950376
+*MOT:	how many eggs to you see ? 2950376_2952598
+*MOT:	right , that's their reflection in the water .
+*MOT:	they can see themselves in the water . 2968215_2971578
+*MOT:	should we count the eggs ? 2971578_2976465
+*MOT:	o:ne .
+*MOT:	right .
+*MOT:	how are we going to get those eggs off those lily+pads ? 2983776_2987681
+*MOT:	let's check Backpack . 2987681_2991048
+*MOT:	Backpack always has everything we need . 2991048_2993375
+*MOT:	can you find something in backpack that will help us scoop up those eggs ? 2993375_2996813
+*MOT:	off those lily+pads .
+*MOT:	right . 3006715_3007725
+*MOT:	a ne:t .
+*MOT:	the net worked , good job ! 3014141_3016968
+*MOT:	wow , look at the prizes that were inside the eggs . 3016970_3022375
+*MOT:	can you tell which prize came from which egg ?
+*MOT:	what , little triangles on the egg , you mean ?
+*MOT:	those look like little squares maybe .
+*MOT:	right .
+*MOT:	yeah .
+*MOT:	right .
+*MOT:	right .
+*MOT:	right .
+*MOT:	you're right . 3092911_3093843
+*MOT:	do you see another egg ? 3093845_3096971
+*MOT:	oh , it's on the sleepy sloth's +//. 3096971_3100480
+*MOT:	sleepy sloth's tummy .
+*MOT:	ya [: you] have_to wake her up and ask her for the egg . 3100480_3102975
+*MOT:	can you help us ? 3102975_3104241
+*MOT:	we need to use Spanish to wake her up . 3104241_3107675
+*MOT:	buenos_dia:s@s:spa .
+*MOT:	you did it ! 3112381_3115115
+*MOT:	she gave us the egg !
+*MOT:	see the prize that was inside ? 3115115_3117111
+*MOT:	you wind it up to make it go . 3117111_3119043
+*MOT:	uhoh , it's rolling away . 3119043_3121966
+*MOT:	follow that car !
+*MOT:	can you find the path that leads to the farm ? 3121970_3124705
+*MOT:	xxx . 3124705_3126575
+*MOT:	xxx . 3126575_3128173
+*MOT:	here's our friend Tico the Squirrel . 3128173_3130398
+*MOT:	xxx , o:h , where's the path ?
+*MOT:	oh , there it i:s . 3135246_3137443
+*MOT:	there's our friend Tico the Squirrel .
+*MOT:	wha:t ?
+*MOT:	missing ?
+*MOT:	well , we have two books .
+*MOT:	I think this one's [: one is] okay , we'll have_to see .
+*MOT:	oh , you are right , Honey . 3159775_3161646
+*MOT:	yes , you're right .
+*MOT:	yeah . 3164793_3165776
+*MOT:	great job ! 3165778_3170108
+*MOT:	Tico says there's one more egg to find at the farm .
+*MOT:	I know , we're missing that page , aren't we ?
+*MOT:	yeah .
+*MOT:	oh boy .
+*MOT:	there's another big egg , but it doesn't look like the others .
+*MOT:	who could be inside that egg ?
+*MOT:	Swiper ?
+*MOT:	why do you say it is Swiper ?
+*MOT:	no swiping .
+*MOT:	did we find all the eggs ? 3195145_3199481
+*MOT:	let's count them in Spanish and see .
+*MOT:	uhhuh .
+*MOT:	www . 3212541_3215306
+*MOT:	ve:ry good , Honey !
+*MOT:	now we can open the big , yellow egg . 3220528_3223043
+*MOT:	it's got the biggest prize of all . 3223043_3226580
+*MOT:	can you guess what's inside ?
+*MOT:	xxx .
+*MOT:	trea:ts ?
+*MOT:	wo:w !
+*MOT:	hooray , we did it ! 3230978_3233505
+*MOT:	we had such an exciting egg hunt today .
+*MOT:	what was your favorite part ? 3237188_3238511
+*MOT:	that's right , you went to an easter+egg hunt with Matt , and you found eggs .
+*MOT:	and what was inside the eggs ? 3251348_3253045
+*MOT:	treats and prizes , yummy: !
+*MOT:	you're right , there were jelly+beans and chocolate .
+*MOT:	oh my go:sh .
+*MOT:	and did you eat them up ?
+*MOT:	yummy: .
+*MOT:	delicious .
+*MOT:	www .
+*MOT:	www . 3282188_3289775
+*MOT:	who has lots_of yawns today ?
+*MOT:	yeah , we're both yawning today , aren't we ?
+*MOT:	xxx is my watch all dirty ?
+*MOT:	oh gosh , let's clean it off .
+*MOT:	cleaning , cleaning , cleani:ng . 3306248_3310663
+*MOT:	doo [x 5] doo: .
+*MOT:	sure . 3314040_3315845
+*MOT:	mm , Mommy's sunglasses broke . 3315845_3318513
+*MOT:	xxx . 3318513_3319731
+*MOT:	what's this called ?
+*MOT:	Danny and the Dinosaur go to Camp .
+*MOT:	you're right .
+*MOT:	that's right !
+*MOT:	Danny went to camp for the summer . 3334375_3337190
+*MOT:	he took along his frie:nd the dinosaur . 3337190_3340905
+*MOT:	camp is fun ! 3340905_3344395
+*MOT:	you'll enjoy it , said Danny .
+*MOT:	thanks , I needed a vacation , said the dinosaur . 3344396_3347173
+*MOT:	welcome , said the camp owner +/.
+*MOT:	oh , my foot's [: foot is] making a noise , see ?
+*MOT:	I don't kno:w .
+*MOT:	ow . 3361078_3363413
+*MOT:	don't hurt yourself , sweets . 3363413_3364980
+*MOT:	xxx . 3364980_3367313
+*MOT:	you did make a noise .
+*MOT:	oh my go:sh . 3370648_3376048
+*MOT:	what a noise . 3376048_3384041
+*MOT:	I see .
+*MOT:	you did .
+*MOT:	you make all the little banging noise . 3387880_3390706
+*MOT:	you are ?
+*MOT:	bang [x 5] .
+*MOT:	what're [: what are] , are you building something ? 3399478_3401440
+*MOT:	what are you building ?
+*MOT:	you're gonna make some great towers ?
+*MOT:	whoops , watch your box , sweets . 3413311_3416308
+*MOT:	you're walking .
+*MOT:	you're walking with your box . 3420940_3424640
+*MOT:	xxx .
+*MOT:	I think Charlie is a: +... 3443323_3445315
+*MOT:	xxx alligator , right , and Tallulah is a: +...
+*MOT:	is Tallulah a chicken ? 3450778_3452840
+*MOT:	I think she's a chicken , isn't she ? 3453741_3454880
+*MOT:	she's either a chicken or a duck . 3459213_3461610
+*MOT:	I think she's a chicken . 3461610_3464075
+*MOT:	I think she's a chicken .
+*MOT:	remember when you were a baby , we used to sing that song ?
+*MOT:	Tallu:lah , Tallu:lah , Tallulah is a chi:cken . 3469555_3474460
+*MOT:	oh , she has a red dress like a chicken +... 3481908_3485511
+*MOT:	interesting .
+*MOT:	yes , Tallulah does wear a red dress . 3489945_3492771
+*MOT:	xxx you have_to what , Sweetie ?
+*MOT:	oh , you're gonna spend the day making a big tower ?
+*MOT:	wow .
+*MOT:	oh my gosh , another veggie . 3517413_3520655
+*MOT:	I have no idea . 3524343_3526911
+*MOT:	oh , what's the duck doing ? 3526911_3532118
+*MOT:	drinking tea . 3543906_3545711
+*MOT:	wo:w .
+*MOT:	that is great . 3551990_3553858
+*MOT:	oh my go:sh .
+*MOT:	wow . 3571241_3572745
+*MOT:	that's great . 3572745_3576920
+*MOT:	there's a duck on my leg . 3576920_3580245
+*MOT:	and a sheep on my leg . 3580245_3586661
+*MOT:	and a duck on my leg too .
+*MOT:	wow . 3591576_3595330
+*MOT:	who:'s going for a swimming lesson ? 3595331_3600248
+*MOT:	you think Matthew's [: Matthew is] gonna be there too ? 3600248_3603115
+*MOT:	well , we'll have_to see what +//. 3608848_3614481
+*MOT:	I think the teacher's name is Holly .
+*MOT:	we'll have_to see what Holly's [: Holly is] going to tell us to do .
+*MOT:	right .
+*MOT:	I think she +/.
+*MOT:	xxx .
+*MOT:	Holly's [: Holly is] the teacher . 3621191_3623715
+*MOT:	she wears a red bathing suit .
+*MOT:	yeah , there are +...
+*MOT:	there are several women wearing red bathing suits , you're right . 3634175_3637240
+*MOT:	xxx , feet . 3637240_3641371
+*MOT:	xxx .

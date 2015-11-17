@@ -1,0 +1,219 @@
+*MOT:	do you wanna read the book ? 16150_32000
+*MOT:	shall we read it ? 32000_32950
+*MOT:	turn around so I can see it . 32950_35427
+*MOT:	yes . 36787_38183
+*MOT:	how does it feel ? 38183_41835
+*MOT:	fuzzy . 41835_45835
+*MOT:	Judy can look in the mirror . 47028_55573
+*MOT:	now you look in the mirror . 55573_57027
+*MOT:	what do you see ? 57027_58243
+*MOT:	who's in there ? 58243_59595
+*MOT:	can you see both of us ? 64373_65260
+*MOT:	I see your finger . 66970_73622
+*MOT:	Judy can feel daddy's scratchy face . 77268_80513
+*MOT:	now you feel daddy's scratchy face . 80513_83325
+*MOT:	Judy can read her book . 85525_103645
+*MOT:	now you can read it . 103645_105295
+*MOT:	what's the rabbit +//? 105295_108253
+*MOT:	what's the rabbit have in here ? 108253_109842
+*MOT:	Paul can put his finger through mommy's ring . 123808_136097
+*MOT:	now you can put your finger through mommy's ring . 136097_138837
+*MOT:	that's all . 145322_147805
+*MOT:	Paul and Judy are waving byebye to you . 147805_153535
+*MOT:	they're waving . 153535_155973
+*MOT:	what's he doing Patrick ? 166978_194363
+*MOT:	he's playing peek a boo . 194363_200352
+*MOT:	shall we read the little book ? 209655_217373
+*MOT:	here's a tick tock . 217373_220595
+*MOT:	you can open it . 227017_228422
+*MOT:	0 . 242998_249457
+*MOT:	toolbox . 268213_272017
+*MOT:	yeah . 272017_272400
+*MOT:	do you know what these are ? 304518_306608
+*MOT:	pliers . 306608_308710
+*MOT:	0 . 308710_310468
+*MOT:	watch this Patrick . 314483_314935
+*MOT:	I got your finger . 314935_315782
+*MOT:	you can do that . 368438_369707
+*MOT:	you have_to push it . 371257_372317
+*MOT:	push it together . 372317_374255
+*MOT:	you could do it . 382027_383607
+*MOT:	go ahead &un . 383607_384633
+*MOT:	here Patrick . 387925_388402
+*MOT:	you push . 388402_388902
+*MOT:	here Patrick . 389847_391645
+*MOT:	you hold this side . 391645_392648
+*MOT:	0 . 395558_399418
+*MOT:	who's inside ? 424947_429405
+*MOT:	who's inside hiding ? 429405_432192
+*MOT:	oh . 433030_433820
+*MOT:	who is that ? 433820_434407
+*MOT:	who is that ? 438893_440148
+*MOT:	who is that ? 449477_451313
+*MOT:	Patrick . 457853_460995
+*MOT:	0 . 489210_498517
+*MOT:	the lemon tastes good . 512320_513560
+*MOT:	oh what is that ? 518132_521013
+*MOT:	oh what's that ? 527467_531120
+*MOT:	milk . 531120_531555
+*MOT:	milk in there too . 532838_533227
+*MOT:	make believe . 533227_535235
+*MOT:	mm hm . 546685_547982
+*MOT:	uhhuh . 553290_554852
+*MOT:	what's this ? 559613_561720
+*MOT:	what is it ? 564040_564800
+*MOT:	what are you going to eat ? 564800_566343
+*MOT:	what are you eating ? 566343_567593
+*MOT:	0 . 572819_573069
+*MOT:	what is this with the tail ? 573069_573426
+*MOT:	0 . 581007_582161
+*MOT:	uhhuh . 585622_586894
+*MOT:	oh thank_you . 588116_589251
+*MOT:	very good . 589251_591349
+*MOT:	nice and sweet . 591349_594742
+*MOT:	uhhuh . 601559_602002
+*MOT:	will you put some butter on my corn ? 602002_603526
+*MOT:	can you find the butter ? 605094_608162
+*MOT:	where's the butter ? 610726_615756
+*MOT:	there you go . 620311_620804
+*MOT:	oh . 622321_624261
+*MOT:	I'll eat the corn now . 624261_625219
+*MOT:	I don't want to eat the butter . 625219_627261
+*MOT:	thank_you . 634417_638057
+*MOT:	0 .
+*MOT:	0 . 638057_639016
+*MOT:	0 . 647934_649124
+*MOT:	yeah . 655224_656582
+*MOT:	that's what the rooster says in the morning . 656582_661247
+*MOT:	turn it like this . 662731_668837
+*MOT:	uhhuh . 680247_681079
+*MOT:	what does the piggy say Patrick ? 683434_687769
+*MOT:	tomorrow what ? 708551_710014
+*MOT:	what's this ? 714041_720922
+*MOT:	is this a donkey ? 722514_731552
+*MOT:	it'll fit in . 740139_742194
+*MOT:	there you go . 745631_745969
+*MOT:	oh . 760507_764929
+*MOT:	you put it on your hair after you do the floor . 764929_766789
+*MOT:	you're cleaning the kitchen really well . 818881_823432
+*MOT:	0 . 831116_853024
+*MOT:	a little bottle . 855291_855649
+*MOT:	0 . 855649_856767
+*MOT:	you like apples . 861249_861587
+*MOT:	don't you ? 861587_862089
+*MOT:	0 . 862089_864162
+*MOT:	what are you doing ? 886144_888681
+*MOT:	that's the steering wheel . 894692_897676
+*MOT:	Shelley with play with you later Patrick . 913532_918796
+*MOT:	okay . 918796_920407
+*MOT:	0 . 920407_923684
+*MOT:	0 . 923684_924597
+*MOT:	maybe we can put the vegetables and food on the truck Patrick . 924597_924941
+*MOT:	0 . 924941_929362
+*MOT:	what ? 933787_934399
+*MOT:	&un there &un . 934399_944832
+*MOT:	where's your knee [x 1] ? 947167_950982
+*MOT:	okay . 959247_961496
+*MOT:	come over here and we'll read this book . 961496_962846
+*MOT:	0 . 962846_968839
+*MOT:	what's too high ? 1033046_1034531
+*MOT:	yeah . 1071422_1071736
+*MOT:	you can't get that off . 1071736_1072554
+*MOT:	Patrick you don't have_to clean that now . 1080174_1093306
+*MOT:	we can clean that later . 1093306_1093931
+*MOT:	who's on the telephone ? 1115949_1117212
+*MOT:	daddy ? 1117212_1118116
+*MOT:	hello daddy . 1118116_1119912
+*MOT:	are you working hard ? 1122839_1126176
+*MOT:	Patrick's playing with me . 1126176_1129354
+*MOT:	do you want to say hello ? 1129354_1132222
+*MOT:	0 . 1136563_1140705
+*MOT:	no . 1142400_1142989
+*MOT:	we'll hang up now . 1143790_1144079
+*MOT:	0 . 1144079_1146494
+*MOT:	0 . 1160175_1162747
+*MOT:	0 . 1166314_1168999
+*MOT:	0 . 1168999_1169332
+*MOT:	0 . 1169705_1170447
+*MOT:	0 . 1174615_1175580
+*MOT:	here it is . 1175580_1175972
+*MOT:	make sure your foot's all the way in . 1190334_1193454
+*MOT:	okay . 1193454_1195300
+*MOT:	there you go . 1195300_1197442
+*MOT:	the farm set . 1205049_1206242
+*MOT:	that's to something else over there . 1206242_1209507
+*MOT:	see this truck ? 1209507_1210765
+*MOT:	the little truck ? 1210765_1211720
+*MOT:	that's a mailman Patrick . 1213749_1216920
+*MOT:	yeah . 1225672_1226839
+*MOT:	he can drive in the truck . 1226839_1227749
+*MOT:	there's a smaller truck over there . 1232305_1236202
+*MOT:	he'll fit in that one . 1236202_1238029
+*MOT:	see ? 1238029_1238899
+*MOT:	try that one . 1238899_1239872
+*MOT:	put this over here . 1239872_1255672
+*MOT:	try him over there . 1255672_1256617
+*MOT:	0 . 1256617_1258485
+*MOT:	it doesn't open . 1269652_1270807
+*MOT:	you know with this one . 1278524_1295117
+*MOT:	I think with this one you push . 1295117_1295877
+*MOT:	yeah . 1295877_1296544
+*MOT:	push that one . 1296544_1297342
+*MOT:	where is the pocketbook ? 1350889_1352549
+*MOT:	I think they're a little too big for you honey . 1365467_1373035
+*MOT:	are your toes getting cold ? 1386132_1387659
+*MOT:	do you feel them ? 1392065_1392942
+*MOT:	do you feel them under your socks ? 1392942_1395372
+*MOT:	let's see . 1395372_1397814
+*MOT:	oh yeah . 1397814_1399819
+*MOT:	I feel them . 1399819_1401437
+*MOT:	are you ticklish ? 1401437_1404610
+*MOT:	yes . 1420839_1421344
+*MOT:	let me see . 1427167_1431267
+*MOT:	0 . 1438032_1439709
+*MOT:	0 . 1482657_1483277
+*MOT:	0 . 1502567_1504047
+*MOT:	would you like to look at the book ? 1504047_1507599
+*MOT:	no . 1509397_1510247
+*MOT:	0 . 1511999_1514820
+*MOT:	0 . 1514820_1516800
+*MOT:	yes and what's this ? 1518352_1520050
+*MOT:	a brush and a comb . 1521317_1526789
+*MOT:	0 . 1526789_1529940
+*MOT:	yarn . 1529940_1534780
+*MOT:	what's this ? 1534780_1538497
+*MOT:	can you tell me ? 1540745_1542957
+*MOT:	what is this ? 1550219_1550512
+*MOT:	a chair . 1550512_1551307
+*MOT:	Patrick . 1551307_1552565
+*MOT:	what are these ? 1552565_1553587
+*MOT:	Patrick look at . 1553587_1555372
+*MOT:	uhhuh . 1587370_1587692
+*MOT:	I don't think it comes out . 1616210_1618667
+*MOT:	you can shake it . 1618667_1621039
+*MOT:	0 . 1623134_1625630
+*MOT:	see Patrick . 1625630_1629082
+*MOT:	you can roll it . 1629082_1629770
+*MOT:	0 . 1630509_1634742
+*MOT:	you're combing my hair . 1648730_1650757
+*MOT:	you can comb the dolly's hair too . 1656067_1659530
+*MOT:	0 . 1671625_1673619
+*MOT:	&um . 1674874_1678289
+*MOT:	0 . 1678289_1679200
+*MOT:	he's crying . 1685734_1686277
+*MOT:	oh that's nice . 1686277_1687189
+*MOT:	you're giving him a hug . 1687189_1688157
+*MOT:	no . 1723604_1725924
+*MOT:	you don't have_to cut it . 1725924_1727307
+*MOT:	0 . 1732612_1739828
+*MOT:	what doggy Patrick ? 1741381_1741988
+*MOT:	I can see a doggy over there . 1742899_1746661
+*MOT:	0 . 1751659_1752188
+*MOT:	I don't know . 1754791_1755509
+*MOT:	look in the bucket . 1755509_1756788
+*MOT:	maybe there's a spoon in there . 1756788_1757096
+*MOT:	what are you eating ? 1774501_1774766
+*MOT:	all right .
+*MOT:	doggy likes it whatever it is . 1775956_1776313
+*MOT:	what is it that you're giving the dog Patrick ? 1779854_1781254
+*MOT:	&un shoes . 1788166_1789694

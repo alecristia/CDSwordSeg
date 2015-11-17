@@ -1,0 +1,53 @@
+*MOT:	what do you want for breakfast ?
+*MOT:	is it dark outside ?
+*MOT:	do we want to go outside ?
+*MOT:	where is it ?
+*MOT:	where ?
+*MOT:	are you going to change your diaper ?
+*MOT:	what's on the pictures ?
+*MOT:	do you want your coat on ?
+*MOT:	Tisha's watching you .
+*MOT:	she can't have the book .
+*MOT:	what's your name ?
+*MOT:	don't let her pull your hair .
+*MOT:	what's Tisha doing ?
+*MOT:	what was Tisha doing ?
+*MOT:	the dog was in the back yard .
+*MOT:	was Mummy mad ?
+*MOT:	where did the dog go Marjorie ?
+*MOT:	put it down .
+*MOT:	yes .
+*MOT:	what do you like to watch on tv ?
+*MOT:	then what ?
+*MOT:	who's on Sesame Street ?
+*MOT:	what is it ?
+*MOT:	no he's not here .
+*MOT:	where is it dark ?
+*MOT:	whats heavy ?
+*MOT:	tell me where the boy is .
+*MOT:	what are you going to draw ?
+*MOT:	matches .
+*MOT:	what did Daddy do ?
+*MOT:	the kids are fine its you I'm worried about .
+*MOT:	what chya [: you] been doing ?
+*MOT:	where does the fork go ?
+*MOT:	it goes in the tray .
+*MOT:	yes .
+*MOT:	no its Marjorie's .
+*MOT:	what else have you done ?
+*MOT:	shall we go downstairs ?
+*MOT:	what shall we do ?
+*MOT:	what's the boy doing ?
+*MOT:	do you like Sesame Street ?
+*MOT:	what did the man do ?
+*MOT:	what's he doing ?
+*MOT:	who is that ?
+*MOT:	is he a monster ?
+*MOT:	why is Ernie crying ?
+*MOT:	what do you want Daddy to do ?
+*MOT:	where's the sun ?
+*MOT:	where has he gone ?
+*MOT:	what toy do you like to play with ?
+*MOT:	what's that ?
+*MOT:	where did you wear it ?
+*MOT:	what else did you wear on your head ?

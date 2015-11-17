@@ -1,0 +1,636 @@
+*MOT:	the macaroni's [: macaroni is] cooked , yeah . 0_4480
+*MOT:	what the macaroni , well this is regular macaroni .
+*MOT:	this is regular delicious macaroni and cheese . 11681_15323
+*MOT:	where is the special fork you can use ? 15321_19416
+*MOT:	mm well I will get you your bib . 19416_28696
+*MOT:	mm dinner time . 28696_32575
+*MOT:	today is April second . 32575_46428
+*MOT:	xxx xxx in the background . 46428_53046
+*MOT:	I'm on f@l one . 53046_66496
+*MOT:	Naima's on f@l two . 66495_80353
+*MOT:	D_W's still up , when Arthur gets home from babysitting , right ? 83796_88638
+*MOT:	that's right . 88636_96285
+*MOT:	D_W's still up when Arthur gets home from babysitting . 101023_107686
+*MOT:	that's a good story . 107686_112841
+*MOT:	now let's see what Mommy's gonna eat . 112841_117986
+*MOT:	I guess I'm going to eat this , actually I'm gonna eat what you're eating . 117985_132151
+*MOT:	did you have a fun day today , what did you do today ?
+*MOT:	we went to +... 136326_138981
+*MOT:	toddler time . 138981_144285
+*MOT:	and we saw Rascal .
+*MOT:	we saw Rascal the dinosaur at toddler time . 147970_154146
+*MOT:	then we went to a restaurant . 154146_160705
+*MOT:	I don't think you liked the food that I got for you at the restaurant . 160705_173881
+*MOT:	(re)member I got you the eggs and the toast ? 173881_182655
+*MOT:	I don't think Naima liked it . 182655_192191
+*MOT:	I gave you some cabbage there on your plate , do you see it ? 192191_203178
+*MOT:	let's see . 203178_206928
+*MOT:	Naima would you like some summer vegetables ?
+*MOT:	okay let me see if I have some . 210553_215481
+*MOT:	I'm trying to heat up some some dinner for Mommy to eat too .
+*MOT:	do you want some cold corn ? 222380_226025
+*MOT:	okay , you wan(t) a little of this too .
+*MOT:	let's see , I think these are +... 236783_239221
+*MOT:	I think this is called summer vegetable dinner , that jar . 239221_244020
+*MOT:	I don('t) know if we have any , oh we do have regular summer vegetables . 244020_249176
+*MOT:	yahoo . 249176_262883
+*MOT:	I'm gonna put it right here , okay ? 262883_264996
+*MOT:	right here ? 264996_267035
+*MOT:	summer vegetables , mm . 268283_293580
+*MOT:	then where we go to , then we came home . 297153_299730
+*MOT:	then we went to the play+ground after you woke up from your nap . 299730_308521
+*MOT:	an(d) then +//.
+*MOT:	what ? 312161_318043
+*MOT:	an(d) then , after we went to the play+ground +... 318043_321258
+*MOT:	we went to +... 321258_323430
+*MOT:	yes except we actually went to Cape Cod Natural Foods to buy your diapers first . 325390_330303
+*MOT:	an(d) then we went to the drugstore . 330303_332815
+*MOT:	we had to wait in line at the drugstore , do you remember that ? 332815_340698
+*MOT:	it's the dinosaur song ? 342850_347258
+*MOT:	huh , it is cave land . 347258_364118
+*MOT:	pterodactyls . 364118_388520
+*MOT:	must be good because you're quiet . 388520_392571
+*MOT:	a li(tt)le pasta with summer vegetables , that's good . 392571_397415
+*MOT:	no ? 397415_398353
+*MOT:	oh you got some of the cabbage in there , huh ? 398353_400820
+*MOT:	you don't have_to eat it , it's spicy . 400820_404213
+*MOT:	you okay ? 404211_405928
+*MOT:	it has ginger in it , it's okay . 405928_433550
+*MOT:	oh , we had to leave the play+ground because it was raining , didn't we ? 433550_439976
+*MOT:	you know what , you don't have_to eat it at all .
+*MOT:	in fact , I'm not e(v)en gonna eat it , it has hot pepper in it , I forgot , phew . 447591_452701
+*MOT:	heh , it's too hot , you don't have_to eat it . 452700_456580
+*MOT:	no I'm not gonna eat it either , have some summer vegetables .
+*MOT:	yeah you can take the cabbage away . 461316_463161
+*MOT:	let's make sure there's no cabbage in here . 463161_466750
+*MOT:	just leave it there , just go ahead and eat your other food . 466750_494916
+*MOT:	what did we have_to do at the play+ground ? 503145_507276
+*MOT:	what ? 510015_515646
+*MOT:	I think the fun song is coming up . 518946_524356
+*MOT:	what else did we do ?
+*MOT:	you went on the swings . 561476_565080
+*MOT:	I chased you . 565080_567943
+*MOT:	you said you were tired . 567943_570745
+*MOT:	you went down the twirly slide . 570745_575908
+*MOT:	xxx pop up xxx in the jungle . 603628_606020
+*MOT:	an(d) here's misses Mactaths , let's get these out so we make sure we read them later . 606020_614041
+*MOT:	well I'd like to eat my dinner +//.
+*MOT:	I'm gonna eat an(d) then read , okay ?
+*MOT:	you're gonna read them ?
+*MOT:	you can't have them on your tray until you're finished . 625635_629545
+*MOT:	have a little more , have a little more to eat an(d) then we can read . 629545_677996
+*MOT:	you got some food in your bib there ? 677996_685305
+*MOT:	let me check these kiwis to see if they're ripe . 685305_687946
+*MOT:	oops , oh , the bananas fell down . 687946_694083
+*MOT:	I'm trying to see if these kiwis are ripe .
+*MOT:	I don't believe they are ripe yet . 698813_708081
+*MOT:	actually , the avocado is ripe I think , do you want avocado ? 708081_711930
+*MOT:	do you wanna have some ?
+*MOT:	okay .
+*MOT:	okay .
+*MOT:	you don't believe the avocado's [: avocado is] ripe ?
+*MOT:	I think it is .
+*MOT:	the kiwi is not ripe .
+*MOT:	the avocado is ripe , I think . 732596_735751
+*MOT:	sometimes we can't be a hundred percent sure . 735750_738548
+*MOT:	oh I think I was right about the avocado . 738548_744083
+*MOT:	it looks perfectly ripe . 744083_745488
+*MOT:	what ? 757043_758278
+*MOT:	you like that song about Henry the octopus , don't you ? 782103_788880
+*MOT:	he likes to swim . 788880_793348
+*MOT:	how's the avocado ? 793348_794981
+*MOT:	swim , Henry , swim swim xxx . 798251_803746
+*MOT:	hey (re)member what you learned how to do today ? 803746_806313
+*MOT:	hum . 808580_810125
+*MOT:	you learned how to hum today . 810125_813011
+*MOT:	no , you learned at home , Mommy showed you how to hum and you did it . 815650_819621
+*MOT:	yeah with your lips closed , singing with your lips closed . 819621_824081
+*MOT:	singing with your lips closed . 824081_845615
+*MOT:	do you want more &um +...
+*MOT:	hmm what's the matter with that ? 851503_854878
+*MOT:	I was gonna ask if you wanted more macaroni .
+*MOT:	there you go . 868586_871046
+*MOT:	you can use your fork . 871045_876518
+*MOT:	I'll get you a spoon . 881351_883460
+*MOT:	thick spoon .
+*MOT:	sorry , you got more cabbage , I'm sorry . 909681_914063
+*MOT:	don't even think about eating the cabbage . 914063_917231
+*MOT:	okay . 917231_918188
+*MOT:	yep [: yes] , you okay ?
+*MOT:	do you want yogurt ? 920555_923276
+*MOT:	yep [: yes] .
+*MOT:	oh we forgot to buy blueberries , we forgot to even look for blueberries .
+*MOT:	you're right Naima . 937746_939956
+*MOT:	we don't have some , no we don't . 942550_944775
+*MOT:	oh . 946513_949315
+*MOT:	you mean at the store I forgot to look at when we were at cape cod natural foods . 950631_954650
+*MOT:	here's plain yogurt , here here here . 954650_967346
+*MOT:	you know you could also eat some hummus or some spicy beans if you want to , if you're still hungry . 967346_1011331
+*MOT:	you've got two big spoons there . 1011331_1055766
+*MOT:	oh we met some new children there .
+*MOT:	let's see , we're in a new class an(d) there was a little girl sitting on your left +... 1069345_1076060
+*MOT:	whose name is xxx . 1076060_1078996
+*MOT:	xxx is her name . 1078996_1082446
+*MOT:	an(d) on your right there was a little girl whose name was xxx . 1082446_1089945
+*MOT:	and who else ? 1089945_1092100
+*MOT:	a little boy named xxx . 1092100_1094030
+*MOT:	whose also just two years old . 1094030_1097148
+*MOT:	and a little boy named xxx . 1097148_1101441
+*MOT:	and a little boy named xxx . 1101441_1108490
+*MOT:	&um who else ? 1108490_1125353
+*MOT:	I'm trying to remember the other kids . 1125353_1135360
+*MOT:	oh xxx , there was a kid named xxx there . 1135360_1159396
+*MOT:	what ? 1161488_1162836
+*MOT:	are you making up funny rhymes ? 1167130_1170043
+*MOT:	are you finished eating your macaroni ? 1173926_1179053
+*MOT:	oh .
+*MOT:	do you want somethin(g) else to eat ? 1181945_1185770
+*MOT:	you want some fresh apple , slices ? 1185770_1191625
+*MOT:	do you wanna eat grated apple ? 1195745_1200435
+*MOT:	you want some cheese ? 1205108_1208091
+*MOT:	it looks to me like you're actually done eating because you don't look very hungry .
+*MOT:	we do what ? 1216321_1217900
+*MOT:	you want me to grate salty cheese ?
+*MOT:	you want macaroni , I think you have a whole pile of it in your bowl . 1229711_1233308
+*MOT:	oh you want salt and cheese on your macaroni .
+*MOT:	I can do that . 1242520_1245746
+*MOT:	I can do that for you . 1245746_1249295
+*MOT:	if I can find the salt and cheese I can do that for you . 1249295_1254161
+*MOT:	I don't think you're really drinking that so I'll put it here .
+*MOT:	you want some salty cheese right on that macaroni ? 1271528_1274821
+*MOT:	okay .
+*MOT:	there .
+*MOT:	there's your fork spoon item thing . 1307420_1315026
+*MOT:	no ? 1315026_1316515
+*MOT:	okay . 1316515_1318061
+*MOT:	hey hey hey . 1318061_1319688
+*MOT:	don't put it on the floor . 1319688_1321623
+*MOT:	do not put it on the floor .
+*MOT:	I'll take you out right away .
+*MOT:	if you're gonna eat that's fine , but you can't throw things on the floor (be)cause that makes me mad , that makes a mess . 1325551_1331590
+*MOT:	you can just eat , did you get enough salty cheese there ? 1331590_1336828
+*MOT:	what makes you happy ?
+*MOT:	xxx .
+*MOT:	what ?
+*MOT:	miss macaroni mouth . 1348188_1351081
+*MOT:	you're a macaroni's macaroni mouth . 1351081_1359680
+*MOT:	macaroni mouth . 1359680_1375291
+*MOT:	I was whistling actually .
+*MOT:	what ? 1386746_1388130
+*MOT:	singing and whistling , yeah .
+*MOT:	I guess I was sort [: sort of] doin(g) that . 1391811_1397210
+*MOT:	those Wiggles are very catchy , catchy catchy . 1397210_1404688
+*MOT:	yes . 1404688_1407020
+*MOT:	yes Naima .
+*MOT:	how's the salty cheese , is it very salty ? 1431695_1435448
+*MOT:	&uh huh .
+*MOT:	do you wanna give Sally a bath when you're done ? 1454811_1457678
+*MOT:	I think she needs a bath .
+*MOT:	I think it would be a good idea if you gave her a bath , are you finished eating ? 1471480_1475130
+*MOT:	yeah I think that means that you wanna give Sally a bath too . 1483345_1486930
+*MOT:	yes I heard you , I understand .
+*MOT:	well you can , I'm gonna clean you up an(d) then I'll bring her over and get you a bathtub .
+*MOT:	yep [: yes] .
+*MOT:	she'll definitely need a towel . 1505528_1511880
+*MOT:	you can get her dry when she's done having her bath . 1511880_1517280
+*MOT:	she's near the sink right now . 1519825_1522396
+*MOT:	I know exactly where she is . 1522396_1525348
+*MOT:	yes .
+*MOT:	yea:h [: yes] that cabbage that wasn't too spicy wasn't it ? 1531633_1536930
+*MOT:	that cabbage was way too spicy .
+*MOT:	you did not eat very much supper and you did not eat very much lunch . 1541981_1549323
+*MOT:	maybe you'll have a snack later . 1549323_1569551
+*MOT:	bathios@c .
+*MOT:	bathios@c that's like Oatie_Os isn't it ?
+*MOT:	oh okay , bathios@c .
+*MOT:	take all the little food items out of there . 1603390_1609655
+*MOT:	mhm .
+*MOT:	okay .
+*MOT:	baby . 1622436_1624078
+*MOT:	Mommy's cleaning yo(ur) tray . 1624078_1630548
+*MOT:	oh you doin(g) that on purpose ?
+*MOT:	I don't really want you to get my shirt all dirty . 1635751_1638288
+*MOT:	alright , here is Sally .
+*MOT:	I'm dirty , I need a bath . 1646628_1649420
+*MOT:	I seem to think she got something sticky on her . 1662881_1667290
+*MOT:	that's why she needs a bath . 1667290_1669840
+*MOT:	you gonna gonna test the temperature of the water for her and make sure it's not too hot ?
+*MOT:	make sure it's not too hot for her . 1675966_1680423
+*MOT:	oh gotcha , testing it . 1681878_1683508
+*MOT:	I don't remember why she got sticky , but she did . 1687081_1690235
+*MOT:	I think you held her when she , when your hands were dirty . 1690235_1695281
+*MOT:	but I don't remember what they were dirty with . 1695281_1698816
+*MOT:	yes .
+*MOT:	she's floating . 1712101_1718648
+*MOT:	mm maybe she'd like to go in this bath too . 1718648_1725391
+*MOT:	would she like to rinse her off in that special bathtub ? 1742523_1759288
+*MOT:	you scrubbing her a li(tt)le bit ? 1763955_1777768
+*MOT:	oh is she all wet an(d) ready to get out ? 1780861_1783486
+*MOT:	oh you've got her out already , okay . 1783486_1791283
+*MOT:	okay . 1796931_1805078
+*MOT:	mm let's see .
+*MOT:	towel for her . 1812370_1816281
+*MOT:	oh , but there's a lot of water here now . 1816281_1820130
+*MOT:	there's a lot of water here , let me take the tray and pour the water off +... 1820130_1824485
+*MOT:	an(d) then I will give you the towel xxx , actually you can have that towel for her . 1824485_1829146
+*MOT:	I'll bring the tray back in just a minute . 1829146_1840101
+*MOT:	hmm looks like your legs got cleaned too . 1840101_1845146
+*MOT:	you gonna dry her off with that towel ? 1845146_1847655
+*MOT:	with her in it ? 1852550_1854105
+*MOT:	you gonna put her in it ?
+*MOT:	okay . 1857500_1858961
+*MOT:	she looks like Naima after Naima takes a bath . 1862626_1869408
+*MOT:	yes ?
+*MOT:	xxx is whose friend ? 1909525_1911496
+*MOT:	oh I do have a friend named xxx , is that who you're thinking of ?
+*MOT:	oh Mommy has to take a vitamin . 1941173_1947170
+*MOT:	yes .
+*MOT:	yes . 1951550_1963891
+*MOT:	yuck . 1963891_1965623
+*MOT:	oh I said yuck . 1968130_1969631
+*MOT:	I said yuck .
+*MOT:	with what ? 1976065_1976943
+*MOT:	that bucket ? 1978580_1980495
+*MOT:	I might use it to put seedlings in . 1980495_1987563
+*MOT:	that's what I mean . 1992171_1993681
+*MOT:	I might do some gardening with that . 1993680_1996623
+*MOT:	do you wanna get out of your chair ? 2022016_2023393
+*MOT:	oh okay .
+*MOT:	okay . 2026193_2026798
+*MOT:	do you want me to help you ?
+*MOT:	she wanna get cozy ? 2032435_2034960
+*MOT:	you wanna roll her up , like that ? 2034960_2038553
+*MOT:	like that ?
+*MOT:	now she looks like Naima after a bath . 2044530_2060341
+*MOT:	is the problem that the towel's [: towel is] now wet ? 2067931_2070293
+*MOT:	I think you're feeling upset .
+*MOT:	&aw . 2085795_2089090
+*MOT:	what , I'm just taking your bib off .
+*MOT:	let's take off the bib . 2098761_2100160
+*MOT:	oh sweetie pie .
+*MOT:	you can stay in , you can stay in .
+*MOT:	I jus(t) wanna take this off of you . 2112571_2114396
+*MOT:	what do you need , do you need Sally back ? 2115530_2117353
+*MOT:	you wanna have her on the tray ? 2117353_2119526
+*MOT:	hey pumpkin .
+*MOT:	you wanna read pop+up Rumble in the Jungle ?
+*MOT:	oh yeah .
+*MOT:	a fro(g) , oh that's the frog . 2144165_2147215
+*MOT:	the frog's hand was sticking out . 2147215_2149323
+*MOT:	let's just dry this off so that xxx +//.
+*MOT:	where did the frog go , did the crocodile eat the frog ?
+*MOT:	hmm hmm . 2156038_2158728
+*MOT:	there's a rumble in the jungle .
+*MOT:	xxx .
+*MOT:	oh I think you're right .
+*MOT:	chimpanzees . 2247415_2250693
+*MOT:	is the ant under the leaves ?
+*MOT:	is it ? 2275463_2276861
+*MOT:	is it ?
+*MOT:	oh hmm . 2310123_2312963
+*MOT:	I see a funny looking bird over there . 2312963_2318055
+*MOT:	hmm that's a lion .
+*MOT:	xxx . 2326185_2330568
+*MOT:	alright .
+*MOT:	the lion's the king of the jungle , jus(t) listen how loudly he roars every animal xxx quivers and shivers as soon as he opens his jaws . 2335146_2343056
+*MOT:	he's opening his tongue he's showing his tongue he's sticking his tongue right out actually . 2343055_2359361
+*MOT:	do you like the snake page ? 2364295_2369595
+*MOT:	another ant . 2391658_2394925
+*MOT:	let's try calling Daddy and see if the xxx coming home yet xxx . 2416843_2432030
+*MOT:	under where ?
+*MOT:	oh under that flap ?
+*MOT:	yes one ant and one elephant . 2446880_2453816
+*MOT:	you know we could read this in the living room , you could get out your chair to read it . 2453818_2458041
+*MOT:	yeah that's &uh , Sally's bath water all over you . 2473363_2477058
+*MOT:	was it Lucy ?
+*MOT:	lemme [: let me] see , who did we give a bath to ? 2482013_2484078
+*MOT:	Sally . 2484078_2485290
+*MOT:	okay let's , let's go get you some dry clothes .
+*MOT:	wha(t) do you think ? 2494651_2495898
+*MOT:	I think some dry clothes would be a good thing for you .
+*MOT:	oh you like having wet clothes ?
+*MOT:	hmm . 2503688_2504746
+*MOT:	num num num . 2506390_2508080
+*MOT:	Daddy said he'd be coming home before you go to sleep .
+*MOT:	this is just a few minutes , this is twenty minutes later on the same day April second . 2518916_2526478
+*MOT:	o:h oh I think there's a lion in here . 2526476_2529833
+*MOT:	I hear a little lion baby . 2529833_2532551
+*MOT:	o:h oh_my_goodness . 2532551_2535416
+*MOT:	o:h oh_my_goodness . 2535416_2538310
+*MOT:	gracious me . 2538310_2541756
+*MOT:	oh_my_goodness gracious me .
+*MOT:	yeah .
+*MOT:	you're all wet . 2547506_2549356
+*MOT:	and you have yogurt .
+*MOT:	what is that , you have pasta , you have macaroni on your bottom . 2552893_2557918
+*MOT:	how'd the macaroni get on your bottom ? 2557918_2561635
+*MOT:	how did tha(t) happen ? 2561635_2565011
+*MOT:	it was right here on the back of your thigh .
+*MOT:	xxx .
+*MOT:	there too , macaroni bottom , I'm jus(t) gonna call you macaroni bottom now . 2573621_2579751
+*MOT:	xxx yeah it was over there , miss macaroni bottom . 2582321_2586436
+*MOT:	yeah .
+*MOT:	I thought it was yogurt and then I saw that it was actually +...
+*MOT:	macaroni . 2599115_2602326
+*MOT:	macaroni . 2602326_2604243
+*MOT:	I threw it in the garbage Naima .
+*MOT:	it was macaroni on your bottom . 2613550_2617253
+*MOT:	I put it in the garbage , it was just one little piece .
+*MOT:	oh you think there were two pieces ? 2628325_2630233
+*MOT:	I think there was only one . 2630233_2633146
+*MOT:	of macaroni on your bottom . 2634931_2638700
+*MOT:	it was .
+*MOT:	the shirt .
+*MOT:	no wonder you're so crabby , your shirt is completely soaked . 2652291_2656285
+*MOT:	your shirt is crabby . 2661798_2664083
+*MOT:	yeah , I thin(k) yeah you're right . 2664083_2666893
+*MOT:	it's the shirt that's crabby not you of course .
+*MOT:	of course it's not you . 2669565_2672236
+*MOT:	okay let's get out the Grizzly bear , is he gonna play ?
+*MOT:	wha(t) does he like to play ? 2680551_2683305
+*MOT:	wha(t) kind o(f) things does he like to play with ? 2683305_2686041
+*MOT:	oh that's right he had that boo+boo on his foot . 2688891_2695345
+*MOT:	I think he has a blue bandaid , not a blue boo+boo .
+*MOT:	he had a blue bandaid .
+*MOT:	yes he does , on his foot .
+*MOT:	oh let's see here .
+*MOT:	what a(re) you gonna wear for pajamas ? 2733778_2736705
+*MOT:	you're outgrowin(g) all your clothes Naima . 2736705_2765388
+*MOT:	oh what a(re) you doing ? 2765388_2768886
+*MOT:	that looks like a good game . 2770126_2775018
+*MOT:	doing something with the toolbox ? 2775018_2779096
+*MOT:	what is that , is it a cylinder ? 2780896_2785545
+*MOT:	looks kind o(f) like a cylinder . 2785545_2788193
+*MOT:	yeah you need to wear a shirt , it's going to be too cold not to wear pajamas . 2788193_2796165
+*MOT:	gonna wear this for pajamas . 2796165_2799490
+*MOT:	yep [: yes] . 2803558_2818036
+*MOT:	you gonna put it back in ? 2820906_2825771
+*MOT:	here it is .
+*MOT:	oh I see , fits in there , yeah it does fit in there .
+*MOT:	I think that's supposed to be a nail . 2845826_2850745
+*MOT:	there it is . 2850745_2854420
+*MOT:	it's bouncing . 2854420_2856510
+*MOT:	how'd you get it to stay like that ? 2856510_2863615
+*MOT:	oh there you go , I see what you're doing . 2863615_2872716
+*MOT:	there you're getting it to bounce right there . 2872716_2876348
+*MOT:	there it is , it's not falling yet . 2876348_2882558
+*MOT:	now it's falling . 2884816_2895486
+*MOT:	oh there it is , it didn't fall yet . 2895486_2900505
+*MOT:	did you have enough supper Naima ? 2914181_2922048
+*MOT:	what's so funny ? 2922048_2924328
+*MOT:	that you put it like that ?
+*MOT:	yes that it's balancing again ? 2928695_2931530
+*MOT:	you're very good at balancing it . 2931530_2937955
+*MOT:	it's not falling , it's balancing . 2941220_2943286
+*MOT:	it's balancing . 2943285_2945763
+*MOT:	now it's falling . 2945763_2952168
+*MOT:	Naima is putting the nail in the hole of her toolbox . 2952168_2959328
+*MOT:	and . 2959326_2961126
+*MOT:	it just fits but it's not falling through unless you push it with your little finger , Mommy did it . 2961126_2976303
+*MOT:	now you did it .
+*MOT:	is that a fun game ? 2979240_2989558
+*MOT:	what a(re) we gonna play next , is there another game we should play ? 2989556_2993953
+*MOT:	you wanna play the sentences game ? 2995480_2997653
+*MOT:	do you wanna play the matching game ? 3001146_3003278
+*MOT:	I think I saw your animal cards in the living room , is that where they are ? 3004376_3009035
+*MOT:	on the floor near the slide ? 3009035_3010590
+*MOT:	so let's bring this +... 3012225_3014055
+*MOT:	alphabet blocks , and we'll match them to the +... 3014055_3017371
+*MOT:	letters on the back of the animal cards . 3017371_3021450
+*MOT:	we could even play the matching game with your magnetic letters too , if we wanted too . 3021450_3029171
+*MOT:	oh let's play the matching game with these letters . 3036150_3040566
+*MOT:	oh you have a you have a good card there too .
+*MOT:	which new card ? 3055260_3058221
+*MOT:	you can bring (th)em all over here if you want . 3058221_3070548
+*MOT:	okay . 3070548_3072030
+*MOT:	actually I'll bring you some more of your cards . 3072030_3078148
+*MOT:	oopsie . 3078148_3080148
+*MOT:	let's see hear , sorry about that , a little technical +... 3080146_3083500
+*MOT:	glitch .
+*MOT:	I'm trying to get your other animal cards with the letters on them .
+*MOT:	so we can play the matching game . 3089130_3105106
+*MOT:	okay . 3105105_3109808
+*MOT:	oh a(re) you gonna match the c@l and the e@l ? 3109806_3115308
+*MOT:	there's a c@l there's a a small e@l . 3115308_3119213
+*MOT:	there's an x@l . 3119213_3120626
+*MOT:	can you find those letters there ? 3120625_3123013
+*MOT:	in the blocks ? 3123013_3125840
+*MOT:	there's the x@l , you're right . 3127678_3133011
+*MOT:	there's the x@l . 3137241_3142465
+*MOT:	there . 3142465_3143633
+*MOT:	c@l an(d) c@l . 3143633_3146310
+*MOT:	right . 3146310_3148811
+*MOT:	you're gonna put it right on the top , okay . 3148811_3151153
+*MOT:	how (a)bout e@l ? 3151153_3154056
+*MOT:	where's letter e@l ? 3154056_3155365
+*MOT:	you gonna match the small e@l to the small e@l ? 3155365_3161808
+*MOT:	where's the , here's big e@l . 3161806_3164131
+*MOT:	I bet there's a small e@l on the side somewhere . 3164131_3168491
+*MOT:	there that matches see ? 3168491_3172613
+*MOT:	great . 3172613_3174926
+*MOT:	and where was that x@l ? 3174926_3177491
+*MOT:	oh there . 3177491_3182171
+*MOT:	lookin(g) for an x@l on the fox . 3182171_3184615
+*MOT:	f@l o@l x@l spells fox . 3184615_3190296
+*MOT:	do foxes have tails Naima ? 3190296_3192883
+*MOT:	does this baby fox have a tail ?
+*MOT:	there it is . 3197371_3199435
+*MOT:	and do foxes have whiskers ? 3199435_3202548
+*MOT:	xxx .
+*MOT:	and cats do , who else has whiskers ? 3205855_3208433
+*MOT:	dogs have whiskers .
+*MOT:	&um . 3212441_3214843
+*MOT:	beavers have whiskers . 3214843_3218393
+*MOT:	mice have whiskers . 3218393_3219986
+*MOT:	okay , here's the next letter . 3219986_3222086
+*MOT:	yeah it's a small i@l , you wanna find a small i@l ? 3222086_3228878
+*MOT:	yeah there's big i@l , so small I@l must be on the block also . 3228878_3238748
+*MOT:	where's the small one , here's the big i@l . 3244623_3247431
+*MOT:	where's the small i@l ? 3247431_3248945
+*MOT:	no look .
+*MOT:	if there's a big i@l , there will be a small i@l . 3251838_3254541
+*MOT:	there's the small i@l , on the other side of the block right there . 3254543_3259113
+*MOT:	yep [: yes] . 3259113_3260643
+*MOT:	(o)kay I'll find you another letter . 3260643_3263983
+*MOT:	here's a tricky one . 3263983_3266260
+*MOT:	f@l , what does f@l stand for ? 3266260_3269565
+*MOT:	wanna see what's on the other side ? 3269565_3273715
+*MOT:	yes .
+*MOT:	okay , we need to find an f@l .
+*MOT:	there any f@l here ? 3281948_3287045
+*MOT:	oh I think I see it over here . 3287045_3294175
+*MOT:	I think the small f@l will be on another side of the big f@l block . 3296330_3304815
+*MOT:	but not in color it will just be brown . 3304815_3308665
+*MOT:	keep looking . 3308665_3310650
+*MOT:	keep no , keep looking on this block . 3310650_3312768
+*MOT:	somewhere on this block you'll find a small f@l . 3312768_3321531
+*MOT:	there it is . 3321531_3323921
+*MOT:	there i(t) matches . 3323921_3325546
+*MOT:	great . 3325546_3326851
+*MOT:	we are .
+*MOT:	here's s@l for squirrel . 3330493_3335690
+*MOT:	I think that's a big s@l , you don't need to find a small s@l you can just find a big s@l . 3335690_3340963
+*MOT:	do you have a block that said that has an s@l on it ? 3340963_3345195
+*MOT:	yeah . 3345195_3350490
+*MOT:	let's see what else . 3350490_3352213
+*MOT:	yeah I'm lookin(g) for more letters .
+*MOT:	lemme [: let me] see lemme [: let me] see . 3359215_3362850
+*MOT:	gonna find a good one a good letter for you +//. 3362850_3365366
+*MOT:	oh here's one , here's another hard one . 3365366_3367958
+*MOT:	small r@l . 3367958_3370853
+*MOT:	okay .
+*MOT:	but here's an r@l , r@l is for +... 3375221_3378158
+*MOT:	raccoon .
+*MOT:	that looks like a big alpha lion . 3385760_3389963
+*MOT:	so can you find a small r@l and a big l@l ? 3389961_3392900
+*MOT:	those are the next ones to find . 3392900_3397861
+*MOT:	I see a big l@l . 3397860_3399680
+*MOT:	for lion an(d) I see a big r@l an(d) there must be a small +//. 3399680_3404046
+*MOT:	I see two big &uh two big r@l . 3404046_3420486
+*MOT:	so where's the small r@l on that block , can you look for it ? 3420486_3424115
+*MOT:	turn the block over an(d) over an(d) over until you find it . 3424115_3429476
+*MOT:	keep turnin(g) keep turnin(g) . 3429476_3434011
+*MOT:	turnin(g) r@l is for rake , there's a rake on that block . 3434011_3438455
+*MOT:	there must be a little r@l somewhere . 3438455_3444776
+*MOT:	there it is . 3446613_3447615
+*MOT:	good you matched . 3447615_3450553
+*MOT:	mhm big l@l .
+*MOT:	you wanna put that card over here , so it's all lined up ? 3455283_3459423
+*MOT:	with the other ones ? 3459423_3461493
+*MOT:	where is big l@l ? 3461493_3463770
+*MOT:	hmm . 3463770_3469505
+*MOT:	I think I see a yellow l@l . 3469505_3475256
+*MOT:	yeah .
+*MOT:	yeah . 3478091_3479835
+*MOT:	yeah good job Naima . 3479835_3481836
+*MOT:	yeah this is a fun game , isn't it ? 3484701_3486441
+*MOT:	oh here's one here's one , look at this . 3486441_3490083
+*MOT:	is that big q@l or little q@l ?
+*MOT:	yes .
+*MOT:	hmm .
+*MOT:	okay , you can have those cards .
+*MOT:	gotta turn them upside down to see if there's a q@l . 3503951_3508220
+*MOT:	w@l j@l t@l g@l n@l a@l . 3508220_3521211
+*MOT:	you gonna put put it where it belongs ? 3521211_3523555
+*MOT:	let's take these out of the way . 3523555_3525220
+*MOT:	there's a quail card . 3525220_3527950
+*MOT:	q@l is for quail . 3527950_3529988
+*MOT:	good . 3529988_3532480
+*MOT:	mm grasshopper .
+*MOT:	a giraffe .
+*MOT:	you finished with the matching game or you wanna keep playing ? 3543410_3549013
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	a fox . 3561791_3582231
+*MOT:	you haven't seen that one in a long time ?
+*MOT:	it wasn't that long ago until we started getting these cards to play with . 3609813_3614883
+*MOT:	it wasn't all that long ago Naima boo . 3614883_3621380
+*MOT:	mm you liked them , as soon as we started getting these cards you liked them a lot . 3625610_3631173
+*MOT:	there a good fun thing +//. 3631171_3633575
+*MOT:	you know what , I'm sortin(g) them because they're actually two different +... 3633575_3637345
+*MOT:	actually there are +... 3637345_3639211
+*MOT:	three or four different kinds of cards here . 3639211_3643108
+*MOT:	the ones with the fish on the back +... 3643108_3645211
+*MOT:	I'm puttin(g) all those in one pile . 3645211_3653486
+*MOT:	mhm . 3661163_3662450
+*MOT:	you takin(g) those out ? 3662450_3664398
+*MOT:	I'll help you , there . 3664398_3668551
+*MOT:	okay . 3668551_3671530
+*MOT:	whoa: . 3671530_3674048
+*MOT:	they're all over the place now . 3674046_3678681
+*MOT:	Mommy's gonna look at them too , you have a pile an(d) I have a pile . 3678680_3688763
+*MOT:	I'm sortin(g) , I'm sorting things . 3688761_3695093
+*MOT:	an(d) you're throwing things an(d) I'm sortin(g) things . 3695093_3699298
+*MOT:	oh why don't you , is that in your way ? 3699296_3701951
+*MOT:	that's the backpack with the microphone on it .
+*MOT:	what's up boo ? 3718378_3720748
+*MOT:	you gonna play legos , okay . 3723108_3725778
+*MOT:	you lookin(g) at the crack in the bricks ?
+*MOT:	there's a crack in the bricks in the fireplace right now . 3735276_3739633
+*MOT:	small . 3739633_3743056
+*MOT:	what a(re) you gonna build with the legos , you gonna [: going to] build you know , what . 3743056_3747216
+*MOT:	do you wanna build a restaurant or a coffee shop or a cafeteria ? 3747216_3751611
+*MOT:	a coffee shop , what's the name of the coffee shop ?
+*MOT:	are you gonna give your coffee shop a name ? 3762625_3765731
+*MOT:	Persey's Place , that's where we had lunch today .
+*MOT:	that's a good name for a coffee shop . 3773111_3775816
+*MOT:	who's going to eat there ? 3775816_3779676
+*MOT:	Pooh bear's gonna eat at Persey's Place ?
+*MOT:	mm .
+*MOT:	do you think they have honey on the menu ?
+*MOT:	do you think they will give him some honey ? 3788773_3791306
+*MOT:	she will give him some honey ? 3796680_3799481
+*MOT:	oh that person . 3799481_3801061
+*MOT:	good . 3801061_3802816
+*MOT:	oh a table an(d) a high chair , it's kind o(f) crowded up there , isn't it ?
+*MOT:	I was just gonna suggest you make room for your table .
+*MOT:	yeah .
+*MOT:	now you have room to put a table up there . 3837306_3840341
+*MOT:	an(d) make Persey's Place . 3840341_3850155
+*MOT:	who's gonna sit in the high+chair ? 3869683_3872101
+*MOT:	she's very little .
+*MOT:	she is very little . 3879345_3886553
+*MOT:	do you remember that we went to Dr Denter's office earlier this week ? 3886553_3891818
+*MOT:	do you (re)member what you did there ? 3892731_3894658
+*MOT:	did she check you out ? 3895966_3897900
+*MOT:	an(d) when we got out of the door you said , I think you might had a nice good visit . 3899330_3907121
+*MOT:	right , did you say that ? 3907120_3909236
+*MOT:	that was nice , I'm gonna tell her you said that . 3910345_3916303
+*MOT:	she knows how to keep you healthy . 3916303_3918508
+*MOT:	an(d) you were such a big girl , you even had a shot . 3918508_3921840
+*MOT:	a vaccination , just like Huckle_cat . 3921840_3926225
+*MOT:	you had a vaccination in your leg . 3926225_3928811
+*MOT:	and it hurt and you were crying but you stopped crying almost right away . 3928811_3933681
+*MOT:	yeah . 3933681_3935180
+*MOT:	and you wanted to nurse right away and I don't blame you yeah [: yes] .
+*MOT:	it's good . 3941856_3945748
+*MOT:	I'm gonna leave these here ? 3945748_3950016
+*MOT:	these cards ? 3950016_3952748
+*MOT:	yes you're playing with Persey's Place anyway .
+*MOT:	yeah .
+*MOT:	you gonna make the coffee machine also ? 4000361_4008415
+*MOT:	she's gonna make it , the coffee , oh good .
+*MOT:	can she make some for Mommy please ? 4017415_4020171
+*MOT:	Mommy would like some coffee . 4020171_4025655
+*MOT:	yeah .
+*MOT:	it makes a big funny noise , doesn't it ?
+*MOT:	oh there's a butterfly card .
+*MOT:	those are the animal cards , those are the ones you had first . 4050300_4054398
+*MOT:	spider . 4054396_4059561
+*MOT:	okay , you can open it up .
+*MOT:	and there's panda . 4063656_4067880
+*MOT:	panda goes with those animal cards . 4067880_4081355
+*MOT:	xxx . 4084860_4086553
+*MOT:	I just found another person of yours . 4086553_4089393
+*MOT:	lego person , oh I think this was the pilot . 4089391_4094835
+*MOT:	she's the pilot . 4094835_4107920
+*MOT:	you hear an ambulance truck ? 4114450_4116516
+*MOT:	Mommy was goin(g) ? 4128458_4133421
+*MOT:	something's happening with your cards ? 4138076_4140193
+*MOT:	oh they're fine ?
+*MOT:	oh you wanna play what's under , that's a good game .
+*MOT:	okay .
+*MOT:	here's xxx , see this is yours too .
+*MOT:	okay . 4163104_4168130
+*MOT:	she's standing on the bear .
+*MOT:	are we gonna play what's under ? 4172091_4175078
+*MOT:	she was steppin(g) on the bear , she stopped stepping on the bear .
+*MOT:	what's under the bear ? 4183216_4185811
+*MOT:	a fox , what's under the fox ?
+*MOT:	oh what's under the fox ? 4192983_4194690
+*MOT:	what's that ?
+*MOT:	that is a chimpanzee ?
+*MOT:	that's a toucan .
+*MOT:	what's under that owl ?
+*MOT:	a bed ? 4213970_4215280
+*MOT:	a bed is under the owl ?
+*MOT:	let's see what it is . 4219615_4220836
+*MOT:	oh you don't want me to see , okay . 4220836_4224960
+*MOT:	oh the toucan is under the owl . 4226636_4228856
+*MOT:	a bed , that doesn't look like a bed , that looks like a toucan .
+*MOT:	there's a fox .
+*MOT:	a raccoon .
+*MOT:	can you read those letters that spell raccoon ? 4248925_4255713
+*MOT:	mm that sounds like a musical instrument . 4266976_4282015
+*MOT:	okay . 4295910_4302231
+*MOT:	you haven't seen that for a long time , that wagon ? 4306860_4316505

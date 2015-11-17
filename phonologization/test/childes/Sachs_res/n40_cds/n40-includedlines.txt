@@ -1,0 +1,82 @@
+*MOT:	what are you doing (.) honey ? 35320_37420
+*MOT:	you're doing what ? 37420_42990
+*MOT:	what are you doing with the salt ? 66275_70827
+*MOT:	are you shaking it ? 70827_73262
+*MOT:	going around . 83566_84416
+*MOT:	that's the cord . 91355_91988
+*MOT:	the cord . 94307_96090
+*MOT:	would you like to look at the book with me ? 118862_120395
+*MOT:	want to come over here and look at the book ? 122064_125616
+*MOT:	want to come over here ? 125616_127968
+*MOT:	or (.) do you want Mommy to come over there ? 130818_131618
+*MOT:	Agra's holding the microphone . 159026_159992
+*MOT:	Agra is serving as the microphone holder . 167592_169692
+*MOT:	want to get a familiar book ? 169692_175179
+*MOT:	which one ? 181849_182533
+*MOT:	show me . 184035_185251
+*MOT:	oh (.) this one . 185251_186737
+*MOT:	which one ? 187687_188303
+*MOT:	this one ? 188787_189772
+*MOT:	okay . 189772_190239
+*MOT:	what's that ? 197241_199191
+*MOT:	looks kind of like an elephant doesn't it ? 200443_203145
+*MOT:	it's a funny animal . 203145_204595
+*MOT:	it's kind of a rhinoceros . 207113_210399
+*MOT:	looks like a cow . 212084_213034
+*MOT:	that's a dinosaur . 216636_221539
+*MOT:	that's a kind of a dinosaur . 231878_237799
+*MOT:	little flower . 255501_257617
+*MOT:	that's pretty . 257617_259033
+*MOT:	those are some parts of some flowers . 317203_320738
+*MOT:	flower . 326056_328658
+*MOT:	flower . 332410_336764
+*MOT:	do you see some fish ? 342601_347635
+*MOT:	swimming . 361545_362711
+*MOT:	piece of paper . 449904_453206
+*MOT:	what happened ? 454906_457408
+*MOT:	what happened to it ? 457408_458760
+*MOT:	Mommy throw it away ? 458760_460726
+*MOT:	I don't want to eat the book . 494923_496674
+*MOT:	I don't want to eat the book . 496674_498324
+*MOT:	go ahead and change Agra . 751755_753438
+*MOT:	go ahead and change Agra . 753438_755307
+*MOT:	go ahead and change Agra . 759307_761573
+*MOT:	oh (.) poor Agra . 804115_806048
+*MOT:	did Agra sleep well ? 806048_810185
+*MOT:	yeah (.) got some salt on there . 1094410_1097479
+*MOT:	okay . 1111667_1113267
+*MOT:	are you cleaning off all the salt . 1113267_1118171
+*MOT:	maybe it's all_gone . 1131045_1131695
+*MOT:	maybe the salt's not there any more . 1131695_1133396
+*MOT:	are you looking for the salt+shaker ? 1133396_1141602
+*MOT:	here's the salt+shaker (.) honey . 1151785_1154154
+*MOT:	Nomi (.) Nomi (.) I've got it . 1154154_1157689
+*MOT:	here's the salt+shaker . 1157689_1160558
+*MOT:	whatcha [: what are you] doing ? 1187558_1190508
+*MOT:	you're squeezing baby ? 1214975_1216741
+*MOT:	mhm . 1227091_1227941
+*MOT:	tired . 1227941_1229459
+*MOT:	baby got up too early (.) too early . 1229459_1234763
+*MOT:	what's wrong with baby's eyes ? 1268268_1268834
+*MOT:	do Nomi's ears hurt ? 1284786_1286886
+*MOT:	what was Mommy doing ? 1339752_1341704
+*MOT:	what was Mommy doing ? 1345272_1348108
+*MOT:	was Mommy bothering you ? 1363143_1366095
+*MOT:	Nomi (.) was Mommy bothering you ? 1371147_1372165
+*MOT:	okay . 1376451_1376884
+*MOT:	Mommy was bothering you . 1376884_1377751
+*MOT:	oh (.) yes (.) it's a little moth (.) honey . 1466224_1470178
+*MOT:	flying . 1472094_1473296
+*MOT:	would you like to take your sleeper off ? 1484296_1486203
+*MOT:	you put on baby . 1598320_1599920
+*MOT:	is your baby good (.) Nomi . 1633920_1635353
+*MOT:	it doesn't cry very much . 1639824_1647678
+*MOT:	does your baby cry a lot ? 1661678_1663528
+*MOT:	what are you doing (.) honey ? 1687528_1689811
+*MOT:	doesn't sound like you're crying to me . 1732454_1737458
+*MOT:	that's a handkerchief . 1866425_1868025
+*MOT:	you were using it yesterday as a blanket for your baby . 1868025_1876298
+*MOT:	get your baby's bed . 1876298_1881702
+*MOT:	why don't you bring the bed out here . 1881702_1886855
+*MOT:	bring the bed out here . 1886855_1889374
+*MOT:	bring the bed out here . 1904374_1906224

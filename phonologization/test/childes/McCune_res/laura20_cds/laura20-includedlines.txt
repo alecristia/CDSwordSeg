@@ -1,0 +1,424 @@
+*MOT:	cock_a_doodle_doo .
+*MOT:	right .
+*MOT:	where does that go ?
+*MOT:	push .
+*MOT:	goose .
+*MOT:	goose goes over there .
+*MOT:	good [x 2] .
+*MOT:	almost .
+*MOT:	good .
+*MOT:	donkey .
+*MOT:	donkey says hee haw .
+*MOT:	that's right .
+*MOT:	very good .
+*MOT:	what's that ?
+*MOT:	no cow .
+*MOT:	cow goes moo@o .
+*MOT:	0 .
+*MOT:	here .
+*MOT:	push .
+*MOT:	that's it .
+*MOT:	you did it .
+*MOT:	very good Laura .
+*MOT:	that's the piggy .
+*MOT:	what does the piggy say ?
+*MOT:	oink@o [x 1] .
+*MOT:	turn it a little .
+*MOT:	okay now .
+*MOT:	there .
+*MOT:	you did the whole puzzle .
+*MOT:	are you going to make a telephone call ?
+*MOT:	who are you going to call ?
+*MOT:	who's there ?
+*MOT:	who is it ?
+*MOT:	is it daddy ?
+*MOT:	hi Neil hi .
+*MOT:	do you want to talk to Laura ?
+*MOT:	hi Laura .
+*MOT:	this is daddy .
+*MOT:	what ?
+*MOT:	tools .
+*MOT:	0 .
+*MOT:	tools .
+*MOT:	see the tools ?
+*MOT:	screwdriver .
+*MOT:	pliers .
+*MOT:	0 .
+*MOT:	it goes this way .
+*MOT:	this goes like this .
+*MOT:	yeah .
+*MOT:	that's right .
+*MOT:	it's a saw .
+*MOT:	you know what that is .
+*MOT:	that's a hammer .
+*MOT:	hit it .
+*MOT:	right .
+*MOT:	do you wanna open it ?
+*MOT:	no .
+*MOT:	that's a handle that you carry it with .
+*MOT:	see so_that when you go to fix things you carry this around with
+*MOT:	do you wanna read the book ?
+*MOT:	oh .
+*MOT:	okay .
+*MOT:	what is that ?
+*MOT:	what is it ?
+*MOT:	here are Paul and Judy .
+*MOT:	remember Judy ?
+*MOT:	Judy's patting the bunny .
+*MOT:	now you pat the bunny .
+*MOT:	pat the bunny .
+*MOT:	right .
+*MOT:	0 .
+*MOT:	now Judy's playing peek a boo .
+*MOT:	now you play peek a boo with Paul .
+*MOT:	Paul .
+*MOT:	see now ?
+*MOT:	Paul is hiding .
+*MOT:	you go peek a boo .
+*MOT:	you wanna see what's on the next page ?
+*MOT:	Paul can smell the flowers .
+*MOT:	now you smell the flowers .
+*MOT:	0 .
+*MOT:	no .
+*MOT:	closer .
+*MOT:	did you smell ?
+*MOT:	how pretty .
+*MOT:	do you want me to open it ?
+*MOT:	0 .
+*MOT:	yeah the fish is still in there .
+*MOT:	aha .
+*MOT:	what color is the fish ?
+*MOT:	yellow .
+*MOT:	and the banana is yellow too .
+*MOT:	corn right .
+*MOT:	I didn't know you knew corn .
+*MOT:	0 .
+*MOT:	hello how are you ?
+*MOT:	okay .
+*MOT:	good .
+*MOT:	byebye .
+*MOT:	0 .
+*MOT:	is it grandpa ?
+*MOT:	tell grandpa I love you .
+*MOT:	bye .
+*MOT:	oh he's back .
+*MOT:	oh .
+*MOT:	0 .
+*MOT:	you're back .
+*MOT:	did you have a nice day yesterday ?
+*MOT:	did you have fun ?
+*MOT:	yes .
+*MOT:	it was good birthday cake .
+*MOT:	byebye .
+*MOT:	0 .
+*MOT:	do you want me to make another call ?
+*MOT:	hello can I talk to Laura, okay .
+*MOT:	0 .
+*MOT:	oop .
+*MOT:	Oscar .
+*MOT:	right .
+*MOT:	Oscar .
+*MOT:	right .
+*MOT:	Oscar .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	Oscar_the_Grouch .
+*MOT:	Oscar .
+*MOT:	the mean grouch .
+*MOT:	he lives in a garbage can .
+*MOT:	no ?
+*MOT:	okay .
+*MOT:	0 .
+*MOT:	dolly .
+*MOT:	what are you looking for ?
+*MOT:	oh .
+*MOT:	this dolly .
+*MOT:	those are cups .
+*MOT:	yeah .
+*MOT:	all different size cups .
+*MOT:	yellow .
+*MOT:	blue .
+*MOT:	that's a brown fish .
+*MOT:	isn't it ?
+*MOT:	or a black fish .
+*MOT:	what do you think you could do with the cups Laura ?
+*MOT:	look .
+*MOT:	put the yellow one on here .
+*MOT:	now put the red one .
+*MOT:	no .
+*MOT:	put the green on now .
+*MOT:	and then put the yellow one on .
+*MOT:	look what you've made .
+*MOT:	oh pretty .
+*MOT:	you made a tower .
+*MOT:	look .
+*MOT:	the tower fell down .
+*MOT:	uhoh .
+*MOT:	sponge .
+*MOT:	yeah .
+*MOT:	what do you do with the sponge ?
+*MOT:	yeah .
+*MOT:	you clean .
+*MOT:	uhhuh .
+*MOT:	yeah .
+*MOT:	milk bottle .
+*MOT:	aw: .
+*MOT:	that's nice .
+*MOT:	I'll bet the baby's hungry .
+*MOT:	uhhuh .
+*MOT:	who's in there ?
+*MOT:	who's in there ?
+*MOT:	no .
+*MOT:	he doesn't come out .
+*MOT:	he stays in there .
+*MOT:	that's his house .
+*MOT:	he just pops in and out .
+*MOT:	in and out .
+*MOT:	but he really doesn't come out .
+*MOT:	you can do it all yourself now .
+*MOT:	yeah .
+*MOT:	you have_to push and then you can open it .
+*MOT:	yes .
+*MOT:	he's an elephant .
+*MOT:	isn't he ?
+*MOT:	Dumbo the elephant .
+*MOT:	see he's got big ears .
+*MOT:	big pink ears .
+*MOT:	and eyes too .
+*MOT:	do you want me to read ?
+*MOT:	uhhuh .
+*MOT:	glasses .
+*MOT:	oh .
+*MOT:	let's see .
+*MOT:	could I see ?
+*MOT:	do you want me to put them on ?
+*MOT:	do you want mommy to put them on ?
+*MOT:	0 .
+*MOT:	they don't fit me so well .
+*MOT:	do you want to put them on ?
+*MOT:	yeah .
+*MOT:	0 .
+*MOT:	o:w .
+*MOT:	what ?
+*MOT:	hungry .
+*MOT:	take the monkey out and feed him .
+*MOT:	&uh .
+*MOT:	it's a little hot .
+*MOT:	blow .
+*MOT:	yeah blow .
+*MOT:	yeah .
+*MOT:	now it's better .
+*MOT:	it's good .
+*MOT:	good .
+*MOT:	not so much any more .
+*MOT:	just a little hot .
+*MOT:	you wanna give some to the monkey ?
+*MOT:	no here .
+*MOT:	I took the monkey out .
+*MOT:	oh I bet the monkey loves it .
+*MOT:	yum [x 2] .
+*MOT:	yum, yum, yum, Laura .
+*MOT:	thank_you .
+*MOT:	a little hot .
+*MOT:	yes .
+*MOT:	that's to sweep the floor .
+*MOT:	a dust mop .
+*MOT:	0 .
+*MOT:	you see you go like this .
+*MOT:	uhhuh .
+*MOT:	0 .
+*MOT:	oh .
+*MOT:	pitcher .
+*MOT:	oops .
+*MOT:	you wanna put it on ?
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	there .
+*MOT:	it keeps popping off .
+*MOT:	0 .
+*MOT:	oop .
+*MOT:	0 .
+*MOT:	yeah .
+*MOT:	stuck .
+*MOT:	0 .
+*MOT:	there .
+*MOT:	can I have some coffee ?
+*MOT:	can I have some coffee in this ?
+*MOT:	could you pour me some from there ?
+*MOT:	thank_you .
+*MOT:	0 .
+*MOT:	very good .
+*MOT:	a little hot .
+*MOT:	I'll blow .
+*MOT:	it's okay now .
+*MOT:	do you want some ?
+*MOT:	0 .
+*MOT:	well .
+*MOT:	0 .
+*MOT:	there .
+*MOT:	0 .
+*MOT:	oh it's the plate .
+*MOT:	it's the saucer .
+*MOT:	see .
+*MOT:	0 .
+*MOT:	Laura .
+*MOT:	I know what we can do .
+*MOT:	look .
+*MOT:	look .
+*MOT:	you could put the banana .
+*MOT:	and the grapes on the plate .
+*MOT:	and the apple .
+*MOT:	would you like something to eat ?
+*MOT:	would you like a banana ?
+*MOT:	is it good ?
+*MOT:	oh yummy .
+*MOT:	0 .
+*MOT:	oh no don't really eat them just pretend .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	good .
+*MOT:	no they don't really open .
+*MOT:	they don't really taste good .
+*MOT:	you just have_to pretend like this .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	and here's a little soda .
+*MOT:	0 .
+*MOT:	see here's some more .
+*MOT:	0 .
+*MOT:	oh wait here's some corn too we can eat .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	with corn you eat like this .
+*MOT:	go like this .
+*MOT:	yeah .
+*MOT:	huh ?
+*MOT:	good .
+*MOT:	these go on the bottom .
+*MOT:	0 .
+*MOT:	but where are the other ones ?
+*MOT:	here put these on the bottom .
+*MOT:	here put these on the top .
+*MOT:	oop .
+*MOT:	0 .
+*MOT:	first the green one .
+*MOT:	put the green one on .
+*MOT:	now the yellow one .
+*MOT:	there .
+*MOT:	ooh .
+*MOT:	ooh .
+*MOT:	you did it .
+*MOT:	oop .
+*MOT:	it fell apart .
+*MOT:	wait .
+*MOT:	Dori .
+*MOT:	Doris not here yet she's coming later .
+*MOT:	0 .
+*MOT:	no you can't see yourself that close .
+*MOT:	Laura you have_to move it away a little bit .
+*MOT:	now can you see ?
+*MOT:	0 .
+*MOT:	this is a mirror .
+*MOT:	oh that's right .
+*MOT:	that's right you can leave it on your shoulder .
+*MOT:	here you can put it like that too .
+*MOT:	that's very nice .
+*MOT:	aha .
+*MOT:	dollie .
+*MOT:	what are you doing ?
+*MOT:	she has red shoes just like you .
+*MOT:	does she have socks ?
+*MOT:	let's see .
+*MOT:	no she has no socks on .
+*MOT:	but look look at this her shoe comes off .
+*MOT:	take it from the back .
+*MOT:	pull down here .
+*MOT:	yes you've got it .
+*MOT:	you did it .
+*MOT:	she has red shoes just like Laura .
+*MOT:	0 .
+*MOT:	do you want to put it back on ?
+*MOT:	they're kind of stuck .
+*MOT:	there .
+*MOT:	turn it around .
+*MOT:	you can't just push you have_to turn it around .
+*MOT:	and I'll push up in the back .
+*MOT:	do you want to take them off now ?
+*MOT:	okay take them off .
+*MOT:	yeah .
+*MOT:	you have_to pull from the back .
+*MOT:	that's it .
+*MOT:	yeah .
+*MOT:	look toes .
+*MOT:	yeah .
+*MOT:	and she has blue pants on .
+*MOT:	it's a pretty jacket .
+*MOT:	look this has a hood .
+*MOT:	her hair is pretty messy isn't it ?
+*MOT:	there .
+*MOT:	look see the hood .
+*MOT:	she needs to have her hair brushed .
+*MOT:	do you want to brush her hair it's very messy .
+*MOT:	very messy .
+*MOT:	yeah .
+*MOT:	that's it .
+*MOT:	what ?
+*MOT:	you can see where her hair's coming out_of her head .
+*MOT:	yeah .
+*MOT:	see see the little holes that's where her hair comes .
+*MOT:	no it's not a booboo .
+*MOT:	that's where her hair's coming out_of .
+*MOT:	0 .
+*MOT:	that's a little big for the pocketbook I think .
+*MOT:	does it fit ?
+*MOT:	yes it does fit .
+*MOT:	no that's a truck .
+*MOT:	truck .
+*MOT:	truck .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	you know we'd better put the dollie's shoes back on so they don't
+*MOT:	you can put all kinds of things in a truck .
+*MOT:	those are the wheels .
+*MOT:	the wheels go round and round .
+*MOT:	round and round .
+*MOT:	oh look how fast the wheel is going .
+*MOT:	good .
+*MOT:	look Rachael you can put things in the back of the truck .
+*MOT:	0 .
+*MOT:	look .
+*MOT:	you can put things .
+*MOT:	oops .
+*MOT:	0 .
+*MOT:	look you can put things in the back of the truck .
+*MOT:	and then go like this .
+*MOT:	lift this up .
+*MOT:	see what happens .
+*MOT:	dump them out .
+*MOT:	that's right it's a dump truck .
+*MOT:	you dumped them all out .
+*MOT:	now you dump them out .
+*MOT:	there they go .
+*MOT:	there they go .
+*MOT:	do you want to take them off ?
+*MOT:	brush .
+*MOT:	it's not for your hair .
+*MOT:	it's for the floor .
+*MOT:	that's it to scrub the floor .
+*MOT:	it's too hard for your hair .
+*MOT:	that's it .
+*MOT:	okay put your finger in .
+*MOT:	go all the way around and let go .
+*MOT:	see .
+*MOT:	hello .
+*MOT:	hello Laura .
+*MOT:	hello .
+*MOT:	they hung up .
+*MOT:	nobody's there .
+*MOT:	hello .
+*MOT:	you're going to put it back .
+*MOT:	0 .
+*MOT:	oh that's very neat .
+*MOT:	that was all right .
+*MOT:	like that .
+*MOT:	that's very nice .

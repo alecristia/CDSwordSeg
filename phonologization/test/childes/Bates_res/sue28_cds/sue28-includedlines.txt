@@ -1,0 +1,78 @@
+*MOT:	need any help ?
+*MOT:	okay .
+*MOT:	careful .
+*MOT:	you'll hurt your fingers .
+*MOT:	would you like me to hold that for you ?
+*MOT:	okay .
+*MOT:	okay .
+*MOT:	now what ?
+*MOT:	whoop(s) .
+*MOT:	can you count when you put them in ?
+*MOT:	one +...
+*MOT:	can you figure out which one it goes in ?
+*MOT:	which one does it go in ?
+*MOT:	look at the shape .
+*MOT:	you see the shape of it ?
+*MOT:	can you find one of these that looks the same as that ?
+*MOT:	you might have_to turn it .
+*MOT:	so it will fit .
+*MOT:	which one do you think it will go in ?
+*MOT:	which one ?
+*MOT:	no (.) that's too sk(inny) +...
+*MOT:	this is too skinny to put that in .
+*MOT:	that's (.) the easy way out .
+*MOT:	find the right shape .
+*MOT:	now look at the end .
+*MOT:	see ?
+*MOT:	how it goes like that ?
+*MOT:	do you find one like that ?
+*MOT:	which one of these matches that ?
+*MOT:	okay .
+*MOT:	can you put the rest in ?
+*MOT:	that's right .
+*MOT:	have_to turn it around so it'll fit .
+*MOT:	like you do your puzzles at home .
+*MOT:	have_to turn (th)em until they fit .
+*MOT:	okay ?
+*MOT:	turn it on it's side then .
+*MOT:	yeah .
+*MOT:	just keep going (a)round and (a)round (un)til it goes in .
+*MOT:	keep working at it .
+*MOT:	turn it some more .
+*MOT:	why don't you do it like that ?
+*MOT:	now try .
+*MOT:	stick it in .
+*MOT:	keep turning it .
+*MOT:	no go (a)round some more .
+*MOT:	that's a way .
+*MOT:	see ?
+*MOT:	you can do it !
+*MOT:	yeah .
+*MOT:	what do you have_to do ?
+*MOT:	there you go !
+*MOT:	uhhuh .
+*MOT:	there .
+*MOT:	should we play with the people and the house over there ?
+*MOT:	why don't you bring it over here a little more ?
+*MOT:	hey (.) that's a neat house .
+*MOT:	okay .
+*MOT:	why don't you put it over here .
+*MOT:	so I can see .
+*MOT:	(o)kay ?
+*MOT:	(be)c(a)use I can't see if you have them all over there .
+*MOT:	how many is that ?
+*MOT:	one (.) is that +...
+*MOT:	two (.) can you count (th)em ?
+*MOT:	uhhuh +...
+*MOT:	mhm +...
+*MOT:	you can do it .
+*MOT:	is it tricky ?
+*MOT:	there you go .
+*MOT:	boy (.) that's quite a few .
+*MOT:	should I show you a nifty way that you can make a tower with those
+*MOT:	oh (.) okay .
+*MOT:	you can stack them on top of each_other and they go that tall .
+*MOT:	you can make one that tall .
+*MOT:	want to do one like that ?
+*MOT:	should I show you how .
+*MOT:	okay .

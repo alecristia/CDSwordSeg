@@ -1,0 +1,413 @@
+*MOT:	can you get em out ?
+*MOT:	well , let's see: .
+*MOT:	Mr Lion (.) you went in , you must come out .
+*MOT:	there (h)e comes !
+*MOT:	yeah .
+*MOT:	Mr Lion fell down ?
+*MOT:	what does Mr Lion say ?
+*MOT:	roa:r .
+*MOT:	what does (h)e like to do when it's hot ?
+*MOT:	what does (h)e like to do &wh when it's hot ?
+*MOT:	remember in the book ?
+*MOT:	what does (h)e do ?
+*MOT:	he lays in the shade .
+*MOT:	oo: are you wigglin(g) (h)is tail ?
+*MOT:	he'll roar .
+*MOT:	you're wigglin(g) my tail (.) roar !
+*MOT:	you are silly .
+*MOT:	o:h , careful .
+*MOT:	yeah .
+*MOT:	chuga+chuga choo .
+*MOT:	is this a circus train ?
+*MOT:	yeah .
+*MOT:	oh , you slapped the lion's belly ?
+*MOT:	o:h , he'll get you .
+*MOT:	yeah .
+*MOT:	where did we see lions ?
+*MOT:	where ?
+*MOT:	at the zoo .
+*MOT:	yeah .
+*MOT:	we saw monkeys ?
+*MOT:	right .
+*MOT:	and the tigers .
+*MOT:	and the polar bears !
+*MOT:	what were they doin(g) ?
+*MOT:	swimmin(g) ?
+*MOT:	yeah ?
+*MOT:	the one was swimmin(g) ?
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	Oliver's gonna start swimmin(g) lessons this week isn't (h)e ?
+*MOT:	yeah .
+*MOT:	we're gonna swim in de [: the] pool .
+*MOT:	what ?
+*MOT:	you wiggle (h)is tail ?
+*MOT:	gettin(g) you .
+*MOT:	what other animals did we see at the zoo ?
+*MOT:	oh: , he jumped out .
+*MOT:	if you smashed him ?
+*MOT:	you better be careful .
+*MOT:	no , don't do dat [: that] .
+*MOT:	you'll hu:rt (h)im .
+*MOT:	you'll give (h)im a big boo boo .
+*MOT:	yeah .
+*MOT:	is the lion a bad boy ?
+*MOT:	oh , the lion says don't hurt me .
+*MOT:	don't hurt my tail !
+*MOT:	doodoodoodoo@b .
+*MOT:	doodoodoodoo@b .
+*MOT:	he's gonna crawl right up Oliver's leg .
+*MOT:	oh , he's gonna crawl up Mommy's leg now .
+*MOT:	whoa !
+*MOT:	hello , Mr Lion !
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	where's the shade ?
+*MOT:	oh: , I don't know .
+*MOT:	we'll have_to find (h)im a tree to sit under .
+*MOT:	no .
+*MOT:	let's stay right here .
+*MOT:	well , after while we'll get your book , okay ?
+*MOT:	okay .
+*MOT:	yeah .
+*MOT:	after while .
+*MOT:	tell you what , how (a)bout if we do some cooking ?
+*MOT:	what ve [/] we got over here we can cook with ?
+*MOT:	let's see what's over here .
+*MOT:	what can we cook ?
+*MOT:	stir it up !
+*MOT:	oh , what're we gonna have ?
+*MOT:	huh ?
+*MOT:	cereal ?
+*MOT:	what kind of cereal are you gonna cook ?
+*MOT:	&hmm ?
+*MOT:	gonna make oatmeal ?
+*MOT:	what kind ?
+*MOT:	well , sometimes we have oatmeal for breakfast .
+*MOT:	yeah .
+*MOT:	or , are you gonna make (.) &uh (.) let's see , scrambled eggs ?
+*MOT:	no ?
+*MOT:	what kind of pie ?
+*MOT:	strawberry pie ?
+*MOT:	oh .
+*MOT:	okay .
+*MOT:	gonna make chocolate cake ?
+*MOT:	or cupcakes ?
+*MOT:	let's see , you could make macaroni and cheese .
+*MOT:	yeah .
+*MOT:	that's a cup !
+*MOT:	what are we gonna have_to drink ?
+*MOT:	soda ?
+*MOT:	what kind of soda ?
+*MOT:	what ?
+*MOT:	grape soda ?
+*MOT:	what's gunk_soda@c ?
+*MOT:	I never heard of that .
+*MOT:	I think you're funny .
+*MOT:	&uh:m I think got Squirt .
+*MOT:	I don't know .
+*MOT:	is it Squirt or lemonade ?
+*MOT:	squirt .
+*MOT:	what is it ?
+*MOT:	soda .
+*MOT:	okay .
+*MOT:	&uh: seven up .
+*MOT:	okay , scoop up the water .
+*MOT:	pour it in .
+*MOT:	stir it up with your spoon .
+*MOT:	mix , mix , mix .
+*MOT:	okay .
+*MOT:	let's see , Mommy's gonna put the dough out here .
+*MOT:	let's see if we can lay it this [//] layed it flat .
+*MOT:	Mommy's gonna put the dough on here .
+*MOT:	then we'll ro:ll out the dough .
+*MOT:	can we roll out the dough ?
+*MOT:	yeah .
+*MOT:	and here's our little cutter .
+*MOT:	we'll go cut , cut , cut (.) cut , cut , cut .
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	push , push , push (.) ro:ll out that dough !
+*MOT:	yeah .
+*MOT:	cut , cut , cut (.) can you cook with that in ?
+*MOT:	oh: (.) ice tea ?
+*MOT:	cola ?
+*MOT:	oh .
+*MOT:	what ?
+*MOT:	salt !
+*MOT:	okay .
+*MOT:	milk .
+*MOT:	what ?
+*MOT:	pepper .
+*MOT:	oh its salt and pepper ?
+*MOT:	okay , season it up .
+*MOT:	yeah .
+*MOT:	should we put a little vinegar in it ?
+*MOT:	&um: , sugar ?
+*MOT:	grey what ?
+*MOT:	okay , what's that one ?
+*MOT:	yellow .
+*MOT:	okay .
+*MOT:	stir it up .
+*MOT:	now pour it in the bowl ?
+*MOT:	the cups (a)re fallin(g) down ?
+*MOT:	oh .
+*MOT:	well , let's put a cup here and a cup here .
+*MOT:	let's see .
+*MOT:	we got four plates .
+*MOT:	we got one for Daddy , one for Mommy , one for Oliver , and one for
+*MOT:	so we can have a party !
+*MOT:	wow !
+*MOT:	Oliver .
+*MOT:	Mommy .
+*MOT:	Daddy .
+*MOT:	and Marty .
+*MOT:	yeah .
+*MOT:	so see if you make cupcakes we can have a party .
+*MOT:	stir , stir , stir .
+*MOT:	yeah .
+*MOT:	just like you mix it up in the sand box ?
+*MOT:	oh , how does it taste ?
+*MOT:	does it +...
+*MOT:	oh , it's hot ?
+*MOT:	too much pepper ?
+*MOT:	o:h .
+*MOT:	it burned your mouth ?
+*MOT:	you know what we should make ?
+*MOT:	cheese ladas@f .
+*MOT:	yeah .
+*MOT:	oh , Daddy gets cheese ladas@f ?
+*MOT:	oh .
+*MOT:	we're gonna go to supper [//] go to Gramma's and have supper
+*MOT:	wonder what Gramma's cookin(g) .
+*MOT:	I bet Gramma cooks fish .
+*MOT:	what's Grampa makin(g) ?
+*MOT:	pie ?
+*MOT:	what kind of pie would Grampa make ?
+*MOT:	Grampa made pie ?
+*MOT:	yeah .
+*MOT:	oh , boy .
+*MOT:	right over there .
+*MOT:	go and get the water ?
+*MOT:	okay .
+*MOT:	how (a)bout you put some orange juice in there ?
+*MOT:	here .
+*MOT:	yeah , stir stir stir .
+*MOT:	oh .
+*MOT:	mix it in there .
+*MOT:	put some in there ?
+*MOT:	huh ?
+*MOT:	oh , I think that one's empty now .
+*MOT:	I don't see anything in there .
+*MOT:	whatcha [: what are you] gonna put in there ?
+*MOT:	oh .
+*MOT:	alright .
+*MOT:	drink down .
+*MOT:	yeah .
+*MOT:	drink it down .
+*MOT:	oh boy .
+*MOT:	I think you're silly .
+*MOT:	stir it up .
+*MOT:	yeah , that's your cup .
+*MOT:	oh , alright .
+*MOT:	ummhm .
+*MOT:	Daddy's .
+*MOT:	Mommy's ?
+*MOT:	Oliver's .
+*MOT:	Marty's !
+*MOT:	here ?
+*MOT:	oh , okay .
+*MOT:	stir , stir , stir .
+*MOT:	yeah .
+*MOT:	what're we gonna do at the party ?
+*MOT:	blow horns ?
+*MOT:	yeah .
+*MOT:	cut out what ?
+*MOT:	cut out the cake ?
+*MOT:	okay .
+*MOT:	let's see .
+*MOT:	here's the lifter .
+*MOT:	and we got the cake on here ?
+*MOT:	and we cut out a piece of cake .
+*MOT:	then we scoop it up .
+*MOT:	now we put it over here .
+*MOT:	okay , you cut the next piece .
+*MOT:	okay .
+*MOT:	scoop up a piece and put it on there .
+*MOT:	put a piece on there .
+*MOT:	good job .
+*MOT:	put a piece on here .
+*MOT:	yeah .
+*MOT:	okay , we need one more piece of cake .
+*MOT:	oh now d(o) you have any ice cream ?
+*MOT:	let's dip up some ice cream .
+*MOT:	dip up !
+*MOT:	schoop [: scoop] it on here .
+*MOT:	dip up !
+*MOT:	scoop it on here !
+*MOT:	oh , okay .
+*MOT:	okay .
+*MOT:	okay .
+*MOT:	okay .
+*MOT:	yeah .
+*MOT:	well what else we gonna have besides cake (a)n(d) ice cream ?
+*MOT:	ice cream ?
+*MOT:	what kind of ice cream ?
+*MOT:	the ice cream's hot ?
+*MOT:	well , that's a funny ice cream .
+*MOT:	did you put pepper in it ?
+*MOT:	no wonder .
+*MOT:	I think I want orange ice cream .
+*MOT:	orange ice cream ?
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	there's two spoons .
+*MOT:	oh , we'll find some more spoons for the rest of the party .
+*MOT:	oh , we'll have_to get some from Daddy in a little while .
+*MOT:	okay ?
+*MOT:	yeah .
+*MOT:	o:h , stir , stir , stir .
+*MOT:	yeah .
+*MOT:	oh , you're drinkin(g) it right out_of there ?
+*MOT:	put it in there ?
+*MOT:	okay .
+*MOT:	oh , is that good apple juice ?
+*MOT:	oh , it's orange juice .
+*MOT:	I thought it was apple juice .
+*MOT:	oh .
+*MOT:	who're we gonna invite to this party ?
+*MOT:	who's comin(g) to the party ?
+*MOT:	your friends ?
+*MOT:	who ?
+*MOT:	Mr Davis ?
+*MOT:	which Mr Davis ?
+*MOT:	ringin(g) the bell ?
+*MOT:	okay .
+*MOT:	whoops !
+*MOT:	is that like the dinner bell ?
+*MOT:	you ringin(g) the dinner bell ?
+*MOT:	yeah .
+*MOT:	two spoons .
+*MOT:	oh .
+*MOT:	okay .
+*MOT:	&uh huh .
+*MOT:	where're we goin(g) ?
+*MOT:	where're we gonna go on the airplane ?
+*MOT:	oh , you don't wanna go on the airplane ?
+*MOT:	but to go to Gramma Davis's , we'll go in the car .
+*MOT:	yeah .
+*MOT:	to go to Gramma Hanke's , we have_to go on the airplane .
+*MOT:	yeah .
+*MOT:	when when we go to Gramma Hanke's , shall we take some of your toys
+*MOT:	what shall we take ?
+*MOT:	Gramma Hanke ?
+*MOT:	where is she ?
+*MOT:	where's her house ?
+*MOT:	where is it that her house is ?
+*MOT:	in what ?
+*MOT:	in Michigan ?
+*MOT:	yeah .
+*MOT:	what shall we take when we go see Gramma ?
+*MOT:	shall we take some books ?
+*MOT:	read .
+*MOT:	what else should we take ?
+*MOT:	crayons .
+*MOT:	yeah .
+*MOT:	would you like to take your bat and ball ?
+*MOT:	maybe Grampa would play outside with you and play baseball ?
+*MOT:	well , you're gonna go to Gramma's house .
+*MOT:	you remember ?
+*MOT:	we're gonna go on the airplane (.) to Gramma Hanke's ?
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	no .
+*MOT:	I don't think we're quite done yet .
+*MOT:	can we finish playin(g) ?
+*MOT:	what suitcase shall we take with us ?
+*MOT:	shall we take that green one ?
+*MOT:	take a red one ?
+*MOT:	I think you're sittin(g) on it .
+*MOT:	I see it .
+*MOT:	it's under your leg !
+*MOT:	yeah .
+*MOT:	put those suitcases on the airplane .
+*MOT:	oh , okay .
+*MOT:	that's Mommy .
+*MOT:	oh , is that Grampa ?
+*MOT:	who's flyin(g) the airplane ?
+*MOT:	oh: .
+*MOT:	I think that must be Mommy .
+*MOT:	who is that ?
+*MOT:	who ?
+*MOT:	or is that the stewardess ?
+*MOT:	a duck ?
+*MOT:	what did Daddy bring you from the airplane ?
+*MOT:	what did the stewardess give Daddy to bring to you ?
+*MOT:	what were they ?
+*MOT:	huh ?
+*MOT:	Daddy brought Oliver something (.) special .
+*MOT:	what were they ?
+*MOT:	do you remember ?
+*MOT:	what ?
+*MOT:	huh ?
+*MOT:	what ?
+*MOT:	they were wings ?
+*MOT:	wings !
+*MOT:	what d(o) you get when you fly on the airplane ?
+*MOT:	what does the stewardess give you to drink ?
+*MOT:	soda .
+*MOT:	and what else ?
+*MOT:	yeah .
+*MOT:	sometimes she gives you Coke .
+*MOT:	sometimes she gives you somethin(g) else .
+*MOT:	what ?
+*MOT:	cookies .
+*MOT:	sometimes she gives you (.) apple juice ?
+*MOT:	right .
+*MOT:	the stewardesses are nice , aren't they ?
+*MOT:	yeah .
+*MOT:	sure .
+*MOT:	sure .
+*MOT:	yeah .
+*MOT:	you want a soda .
+*MOT:	you want a coke ?
+*MOT:	yeah .
+*MOT:	we'll have_to ask the stewardess when we go on the airplane (.) if
+*MOT:	okay ?
+*MOT:	well , she's probably workin(g) today on those airplanes .
+*MOT:	yeah .
+*MOT:	they fly everyday !
+*MOT:	yeah .
+*MOT:	out to the airport .
+*MOT:	yeah .
+*MOT:	at the airport ?
+*MOT:	right , we have_to pack up the suitcases .
+*MOT:	we have_to take (.) Oliver's shirts (.) and Oliver's shorts (.) and
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	oh , I think she's in the kitchen talkin(g) to Daddy .
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	we have_to take all those things when we go to Gramma's .
+*MOT:	you can take your shoes off .
+*MOT:	okay .
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	we're gonna go have the lady check em out , aren't we , before we
+*MOT:	right .
+*MOT:	who's gonna give you a hair+cut ?
+*MOT:	Ine:z .
+*MOT:	yeah .
+*MOT:	what does she do ?
+*MOT:	she squirts it .
+*MOT:	and then what's she do ?
+*MOT:	yeah .
+*MOT:	and does she snip it ?
+*MOT:	and she goes snip , snip , snip .
+*MOT:	she sits [//] you sit up in her booster chair ?
+*MOT:	&uh huh .
+*MOT:	yeah .
+*MOT:	what does she put over you ?
+*MOT:	does she put a cape (.) over you (.) so all that hair doesn't get
+*MOT:	yeah .
+*MOT:	and she puts a towel .

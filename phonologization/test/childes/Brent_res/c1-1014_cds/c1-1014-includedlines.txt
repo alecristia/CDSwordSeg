@@ -1,0 +1,711 @@
+*MOT:	maybe that was it . 360194_361313
+*MOT:	&=involuntary . 363044_363219
+*MOT:	hello . 367418_368126
+*MOT:	hello . 369269_369847
+*MOT:	okay , Morgie . 371020_372071
+*MOT:	looks like we got it back . 372210_373553
+*MOT:	just our wires were a little loose . 375509_377601
+*MOT:	what was that ? 379775_380327
+*MOT:	&=speechplay . 380799_381871
+*MOT:	you can't have that . 392512_393961
+*MOT:	isn't it pretty though ? 394500_395421
+*MOT:	are they pretty giraffes ? 398628_400360
+*MOT:	xxx . 402660_402850
+*MOT:	oh what pretty giraffes . 402850_404561
+*MOT:	yeah that's pretty close &=laugh . 406901_408433
+*MOT:	&=labial . 408700_408822
+*MOT:	but give Mommy the card ! 409827_410906
+*MOT:	you can't be eating that dirty thing . 410850_412694
+*MOT:	no eating of the card . 413293_415306
+*MOT:	so we'll just put it up there (...) where you can't reach it . 416583_420213
+*MOT:	and you're just gonna run right after it I know . 420213_423279
+*MOT:	here you go . 425707_426294
+*MOT:	go ! 426414_426674
+*MOT:	go play the basketball ! 426714_427862
+*MOT:	walk ! 428812_429391
+*MOT:	come on , baby ! 430013_430541
+*MOT:	you can do it . 430541_431164
+*MOT:	take a step ! 431660_432152
+*MOT:	there you go &=laugh . 433557_434513
+*MOT:	Mommy's got you . 436438_437471
+*MOT:	Mommy's got you . 438279_439213
+*MOT:	just hold on ! 439585_440426
+*MOT:	come on ! 442806_443367
+*MOT:	take another step ! 443387_444178
+*MOT:	xxx over there &=noise . 444218_445470
+*MOT:	Mommy's got you &=noise . 446006_446823
+*MOT:	it's okay . 446823_447483
+*MOT:	you're not gonna fall . 448160_449309
+*MOT:	Mommy's got you . 449891_450934
+*MOT:	Mommy's got you [=! whispered] . 452506_453428
+*MOT:	come on [=! whispered] ! 454312_454652
+*MOT:	it's okay . 462135_462784
+*MOT:	Mommy got you &=noise . 463063_463855
+*MOT:	&=laugh . 467735_468903
+*MOT:	you just feel better just standing there don't you &=laugh ? 471473_474078
+*MOT:	Mommy's got you . 475541_476524
+*MOT:	she not gonna let you fall . 476751_478101
+*MOT:	&=speechplay . 483330_484102
+*MOT:	oh , sweetie . 489207_490960
+*MOT:	it's okay . 490960_491796
+*MOT:	you can crawl over there if you want . 492353_494431
+*MOT:	you don't have_to do this . 494451_496016
+*MOT:	you know how to crawl . 497654_499316
+*MOT:	oh yeah &=laugh . 508129_509113
+*MOT:	there's a ball . 516812_517558
+*MOT:	you know what to do with the ball ? 518917_520128
+*MOT:	put the ball in the basket ! 520424_521700
+*MOT:	hey watch Mommy ! 522816_523533
+*MOT:	Mommy has the ball . 524077_524987
+*MOT:	boom . 527105_528241
+*MOT:	yeah . 528241_529420
+*MOT:	let's do it again ! 530122_530795
+*MOT:	yeah . 531856_533354
+*MOT:	can you do it , Morgie ? 534552_535489
+*MOT:	yeah . 536663_537801
+*MOT:	you can have both balls . 539138_540275
+*MOT:	yes . 543330_543784
+*MOT:	they clap very nicely don't they ? 543884_545867
+*MOT:	&=laugh . 547843_548503
+*MOT:	&=laugh . 549609_550803
+*MOT:	well that was a right idea , sweetie &=laugh . 550864_552926
+*MOT:	but (.) but you (...) can't just let go of it . 553376_555785
+*MOT:	you have_to hold it over the basket &=laugh . 555745_557500
+*MOT:	it's not gonna jump over there by itself . 558523_561010
+*MOT:	&=involuntary . 562921_563129
+*MOT:	you have_to take it over there . 563309_564939
+*MOT:	watch ! 564939_565887
+*MOT:	come on ! 569640_570063
+*MOT:	now let go of it ! 572020_573225
+*MOT:	let go ! 573536_573933
+*MOT:	throw it in ! 574863_575485
+*MOT:	throw it in ! 576061_576674
+*MOT:	yeah . 578493_579903
+*MOT:	&=involuntary . 591871_592459
+*MOT:	oh boy &=laugh . 592675_593823
+*MOT:	&=laugh . 599367_600283
+*MOT:	&=involuntary . 608180_609075
+*MOT:	&=involuntary . 612044_612189
+*MOT:	&=speechplay . 617282_617820
+*MOT:	what ? 654653_654943
+*MOT:	what ? 655272_655562
+*MOT:	what ? 655918_656263
+*MOT:	basketball . 710898_712138
+*MOT:	yeah is Morgan playing basketball ? 712761_715472
+*MOT:	yeah . 718446_719501
+*MOT:	did Morgan watch the basketball game with Daddy the other day ? 720871_724009
+*MOT:	yeah . 725061_726663
+*MOT:	you wanna throw the ball ? 728220_729607
+*MOT:	put it over the basket ! 731673_733048
+*MOT:	put it over here ! 734076_734963
+*MOT:	put it over here ! 735309_736134
+*MOT:	see ? 739168_739512
+*MOT:	like this . 740200_740683
+*MOT:	yeah . 742227_743552
+*MOT:	yeah . 745683_746766
+*MOT:	yeah &=laugh . 754561_755589
+*MOT:	they're good for clapping aren't they ? 756275_758165
+*MOT:	that's the green ball . 759867_761019
+*MOT:	yeah . 764513_765028
+*MOT:	like that . 765170_765706
+*MOT:	yeah . 766905_768327
+*MOT:	Morgie made a basket &=noise . 769446_771245
+*MOT:	two points . 772092_773269
+*MOT:	are you gonna throw the other ball in now &=noise ? 785326_787300
+*MOT:	yeah . 788700_789722
+*MOT:	go ahead ! 791483_791970
+*MOT:	drop it ! 792010_792489
+*MOT:	yeah . 794217_795456
+*MOT:	yeah . 799384_800443
+*MOT:	Morgie's number one &=laugh . 806136_808248
+*MOT:	&=laugh . 814956_816090
+*MOT:	where you going ? 816290_817243
+*MOT:	is this the Climb_over_Mommy game ? 819949_821903
+*MOT:	is this the Climb_over_Mommy game [=! whispered] . 822974_824846
+*MOT:	there's your ball . 828727_829795
+*MOT:	&=involuntary . 860762_861158
+*MOT:	ow . 861918_862977
+*MOT:	&=vocalize . 863959_864204
+*MOT:	it's not nice to drop your ball on other people's heads , Morgan
+*MOT:	yeah . 876285_877001
+*MOT:	you're missing . 878859_879696
+*MOT:	Morgan . 912765_913912
+*MOT:	that's Mommy's . 914945_916029
+*MOT:	you can't play with Mommy's toy . 917064_919091
+*MOT:	no no no . 920050_921177
+*MOT:	that's Mommy's (..) not Morgan's &=noise . 923173_925367
+*MOT:	are you gonna chew on your basket &=laugh ? 929302_931579
+*MOT:	is it tasty ? 932969_934190
+*MOT:	tickle tickle tickle tickle tickle tickle tickle tickle . 936281_938942
+*MOT:	tickle tickle . 939411_940043
+*MOT:	&=involuntary . 958679_959025
+*MOT:	no no . 1020418_1021659
+*MOT:	you can't have Mommy's glasses &=noise . 1022370_1025082
+*MOT:	no no . 1036605_1037713
+*MOT:	Morgan . 1039938_1040644
+*MOT:	Morgan , Mommy said no@q &=laugh . 1044941_1047055
+*MOT:	no (.) no (.) no . 1047612_1049457
+*MOT:	that's right . 1051723_1052269
+*MOT:	you play with your own game ! 1052269_1053959
+*MOT:	&=labial . 1055085_1056236
+*MOT:	&=involuntary . 1056401_1056695
+*MOT:	&=labial . 1056755_1057906
+*MOT:	&=labial . 1058173_1058800
+*MOT:	&=speechplay . 1062563_1063752
+*MOT:	Michael's not here . 1070845_1072393
+*MOT:	are you asking for Michael ? 1072333_1074020
+*MOT:	Michael Michael Michael Michael . 1074656_1076748
+*MOT:	Michael's at home &=laugh . 1080037_1081302
+*MOT:	he's not here &=laugh . 1081302_1082386
+*MOT:	&=laugh . 1084830_1085220
+*MOT:	Michael's not here &=laugh . 1086490_1087936
+*MOT:	Michael went home . 1088577_1089738
+*MOT:	you can . 1091330_1091646
+*MOT:	you can play with Michael tomorrow . 1092724_1094616
+*MOT:	that's Mommy's mouth . 1097931_1099126
+*MOT:	&=involuntary . 1106956_1107303
+*MOT:	is that right ? 1109276_1110072
+*MOT:	is that right [=! voice] ? 1110192_1110943
+*MOT:	is that right [=! voice] ? 1111003_1111770
+*MOT:	don't play with the radiator , Morgan ! 1112156_1114407
+*MOT:	there's no playing with the radiator . 1115272_1117984
+*MOT:	you hear me ? 1119558_1120099
+*MOT:	you come over here and play with the basketball ! 1121296_1123300
+*MOT:	&=involuntary . 1124454_1124738
+*MOT:	well come over here and play with the little walker &=noise ! 1124743_1126896
+*MOT:	oh listen to that &=noise ! 1127854_1128759
+*MOT:	are you dancing &=laugh ? 1129282_1130426
+*MOT:	where you going ? 1135945_1136818
+*MOT:	where you going , Morgan ? 1138027_1139736
+*MOT:	&=involuntary . 1143023_1143435
+*MOT:	are you dancing &=noise ? 1145218_1146233
+*MOT:	dance , Morgan &=laugh ! 1147632_1149321
+*MOT:	&=speechplay . 1158554_1159381
+*MOT:	&=laugh . 1164996_1166096
+*MOT:	yeah , Morgan . 1166224_1168654
+*MOT:	can you see your shadow &=laugh ? 1169659_1171168
+*MOT:	can you see your shadow [=! whispered] ? 1172377_1173704
+*MOT:	what's that over there [=! whispered] ? 1174156_1175548
+*MOT:	what's that baby shaped shadow ? 1176408_1178875
+*MOT:	uhoh where (di)d it go &=noise ? 1180503_1181696
+*MOT:	it went away &=noise . 1182184_1183003
+*MOT:	&=laugh . 1187796_1188777
+*MOT:	are you dancing again &=laugh ? 1188938_1190068
+*MOT:	there's no music this time &=laugh . 1190128_1191663
+*MOT:	are you watching the baby shaped shadow dance ? 1192895_1195304
+*MOT:	here you go . 1196823_1197432
+*MOT:	I got you &=noise . 1198959_1199623
+*MOT:	what's that ? 1210659_1211318
+*MOT:	boom . 1227031_1227790
+*MOT:	whoops_a_daisy . 1228573_1229941
+*MOT:	whoops_a_daisy . 1230734_1231864
+*MOT:	Morgie , did you sit down ? 1231864_1233826
+*MOT:	where you going , Morgan ? 1245611_1246951
+*MOT:	where you going , babe ? 1248861_1250165
+*MOT:	you gonna push that walker across the room ? 1251946_1254407
+*MOT:	how are you gonna get back &=noise ? 1255578_1256684
+*MOT:	how you gonna turn it around &=noise ? 1257714_1259427
+*MOT:	&=involuntary . 1265582_1266548
+*MOT:	and what's that , Morgan ? 1271542_1273143
+*MOT:	what's that &=noise ? 1273183_1273736
+*MOT:	that's a dish rag . 1273755_1274784
+*MOT:	you gonna wash some dishes ? 1275662_1277149
+*MOT:	all the dishes are downstairs . 1278235_1280128
+*MOT:	&aw , fussy girl . 1284244_1286123
+*MOT:	&=speechplay . 1290526_1290817
+*MOT:	&=involuntary . 1292135_1292434
+*MOT:	&=laugh . 1296908_1297473
+*MOT:	&=laugh . 1297832_1298646
+*MOT:	&hmm . 1298697_1299199
+*MOT:	are you making faces at Mommy &=laugh ? 1301289_1302963
+*MOT:	&=laugh . 1305467_1305784
+*MOT:	that's Mommy's tongue &=noise . 1306494_1307616
+*MOT:	&=labial . 1308673_1309235
+*MOT:	&=speechplay . 1311350_1311978
+*MOT:	doggie . 1317537_1318398
+*MOT:	where is the doggie &=noise ? 1318836_1320026
+*MOT:	do you know where the doggie is &=noise ? 1320026_1321470
+*MOT:	say Brisco@q ! 1322520_1324951
+*MOT:	&=laugh . 1328969_1329616
+*MOT:	yeah that's right &=laugh . 1329724_1330856
+*MOT:	Brisco &=noise . 1331489_1333143
+*MOT:	Brisco . 1335354_1336603
+*MOT:	&=laugh . 1338833_1340229
+*MOT:	there's Brisco . 1343679_1344460
+*MOT:	do you hear her &=noise ? 1344520_1345194
+*MOT:	say Brisco@q &=noise ! 1346429_1347993
+*MOT:	can you see her ? 1359276_1360469
+*MOT:	can you see Brisco &=noise ? 1361272_1362681
+*MOT:	&=laugh . 1364751_1365919
+*MOT:	that's right &=laugh . 1365976_1366973
+*MOT:	Brisco . 1367003_1368235
+*MOT:	Brisco . 1372932_1373971
+*MOT:	let's go get Brisco ! 1375401_1376646
+*MOT:	where you going ? 1381296_1382329
+*MOT:	okay you go in there and I'll get Brisco ! 1382388_1385071
+*MOT:	www . 1389898_1390701
+*MOT:	there's Brisco . 1410748_1411694
+*MOT:	say “Brisco Brisco” ! 1412292_1414525
+*MOT:	www . 1419724_1420155
+*MOT:	www . 1421492_1422270
+*MOT:	come here , Morgan ! 1427326_1428239
+*MOT:	come play with Brisco &=noise ! 1428238_1429499
+*MOT:	Morgan &=noise . 1431346_1432301
+*MOT:	Morgan &=noise . 1436547_1437163
+*MOT:	come to the Mommy &=noise ! 1437167_1438016
+*MOT:	come play with Brisco &=noise ! 1438537_1439774
+*MOT:	you know I'm (g)onna come get you if you stay in there , Morgan
+*MOT:	&=involuntary . 1455885_1456201
+*MOT:	Morgan , Mommy doesn't want you holding onto the gate . 1457119_1459895
+*MOT:	you're gonna have_to [?] come in here with us &=noise . 1460635_1462214
+*MOT:	you like this don't you &=laugh ? 1468357_1469748
+*MOT:	you think I should hold your hands and walk around the room all day
+*MOT:	oh now you found a chair to hold onto . 1480367_1482450
+*MOT:	you don't need Mommy . 1482468_1483833
+*MOT:	well . 1484621_1485233
+*MOT:	isn't that nice ? 1485413_1486661
+*MOT:	www . 1494091_1496540
+*MOT:	www . 1497415_1498507
+*MOT:	yes you are . 1503469_1504388
+*MOT:	you're doing it . 1504405_1505307
+*MOT:	oh yeah &=laugh . 1523170_1524790
+*MOT:	you tell her &=laugh ! 1526258_1527519
+*MOT:	&=speechplay . 1529496_1530198
+*MOT:	&=speechplay . 1531827_1532671
+*MOT:	&=speechplay . 1535108_1535956
+*MOT:	&=speechplay . 1539122_1540449
+*MOT:	&=speechplay . 1545850_1546782
+*MOT:	&=involuntary . 1549442_1549783
+*MOT:	&=speechplay . 1549918_1550569
+*MOT:	&=speechplay . 1552026_1552498
+*MOT:	&=speechplay . 1554574_1555070
+*MOT:	&=speechplay . 1559608_1560320
+*MOT:	&=speechplay . 1562523_1563365
+*MOT:	+" Brisco Brisco . 1565432_1566973
+*MOT:	is that what you're saying ? 1566986_1567845
+*MOT:	www . 1568476_1570238
+*MOT:	www . 1586266_1588696
+*MOT:	www . 1588697_1589480
+*MOT:	www . 1589833_1590636
+*MOT:	www . 1590636_1591639
+*MOT:	&=involuntary . 1621291_1621689
+*MOT:	Morgan . 1622236_1623132
+*MOT:	Morgan . 1623857_1624606
+*MOT:	Morgan . 1632287_1633068
+*MOT:	come here &=noise ! 1634548_1635212
+*MOT:	quit playing with that ! 1635292_1636198
+*MOT:	hey , Morgan . 1642782_1643739
+*MOT:	come here ! 1645401_1646381
+*MOT:	look what Mommy's got ! 1646806_1648255
+*MOT:	Mommy's got a basketball . 1649112_1651323
+*MOT:	you wanna play basketball &=noise ? 1652316_1653555
+*MOT:	www . 1654796_1655958
+*MOT:	www . 1659170_1660058
+*MOT:	Morgan , look what Mommy's got ! 1661327_1662996
+*MOT:	Mommy's got a doggie . 1664429_1666330
+*MOT:	xxx &=noise . 1670248_1671303
+*MOT:	www . 1699398_1701207
+*MOT:	Morgan , are you playing doggie ? 1733594_1735260
+*MOT:	you walk around with a shoe in your mouth . 1736078_1738218
+*MOT:	oh you found a sock &=noise . 1768367_1770615
+*MOT:	whose sock is that ? 1771452_1773035
+*MOT:	Morgan , whose sock is that ? 1774687_1776483
+*MOT:	who belongs to that sock ? 1778293_1780213
+*MOT:	can you say Daddy@q &=noise ? 1782187_1783762
+*MOT:	that's right &=laugh . 1785887_1787079
+*MOT:	Daddy@q . 1787091_1787855
+*MOT:	are you gonna get another sock &=noise ? 1806167_1807912
+*MOT:	another one of Daddy's socks ? 1809289_1811109
+*MOT:	uhoh . 1817510_1818535
+*MOT:	what are you doing ? 1819170_1820464
+*MOT:	&=involuntary . 1850459_1851565
+*MOT:	www . 1859782_1860759
+*MOT:	come on , Morgie ! 1873710_1874405
+*MOT:	let's come back in here ! 1875607_1876590
+*MOT:	yeah we're practically jogging huh &=noise ? 1883786_1886320
+*MOT:	there's your chair . 1887296_1888287
+*MOT:	sweetie , are you okay ? 1925731_1927456
+*MOT:	you're okay . 1928133_1928952
+*MOT:	just let go ! 1928952_1930463
+*MOT:	let go ! 1930619_1931506
+*MOT:	you don't have_to keep holding on , sweetie . 1932140_1934179
+*MOT:	that's the way you hurt yourself &=noise . 1934159_1935684
+*MOT:	come here ! 1938057_1938652
+*MOT:	come here ! 1940024_1940579
+*MOT:	it's okay . 1942384_1943272
+*MOT:	you're okay . 1943272_1944293
+*MOT:	&=labial . 1946667_1946955
+*MOT:	well Mommy's not gonna pick you up . 1947704_1949161
+*MOT:	you're okay . 1949313_1949966
+*MOT:	yes you're okay . 1951203_1952748
+*MOT:	&=laugh . 1958548_1959861
+*MOT:	there you go . 1969163_1969663
+*MOT:	there's some music . 1969683_1970466
+*MOT:	you wanna dance ? 1970511_1971501
+*MOT:	dance , Morgan ! 1974081_1975204
+*MOT:	there you go &=laugh . 1981449_1983054
+*MOT:	that's nice huh ? 1988596_1990067
+*MOT:	www . 2007683_2008273
+*MOT:	www . 2008867_2009748
+*MOT:	okay we're still recording . 2010367_2012192
+*MOT:	&=speechplay . 2019364_2020008
+*MOT:	&=speechplay . 2020574_2021236
+*MOT:	what are you doing over there ? 2023085_2024152
+*MOT:	what was that ? 2035785_2036505
+*MOT:	dance , Morgan ! 2047826_2048741
+*MOT:	boom . 2055476_2056412
+*MOT:	oh look at you ! 2074259_2075807
+*MOT:	oh , little girl . 2082874_2085306
+*MOT:	you're okay . 2085422_2086420
+*MOT:	come here , sweetie ! 2089449_2090296
+*MOT:	no you can't play with that . 2092932_2093970
+*MOT:	that's Mommy's . 2094010_2094925
+*MOT:	&=speechplay . 2096834_2097556
+*MOT:	oh , sweetie . 2098913_2101034
+*MOT:	here . 2103765_2104071
+*MOT:	play with the basketball &=noise ! 2104561_2105299
+*MOT:	here you try ! 2113854_2114715
+*MOT:	keep doing it ! 2120591_2121143
+*MOT:	yeah you wanna get all the way over there and (...) and throw
+*MOT:	here you go . 2133336_2133823
+*MOT:	here you go . 2143071_2143706
+*MOT:	you just hold onto Mommy ! 2143746_2145276
+*MOT:	yeah . 2148895_2149855
+*MOT:	that's how you do it . 2151255_2152226
+*MOT:	yeah . 2159759_2161178
+*MOT:	&=laugh . 2162344_2164380
+*MOT:	sometime you gotta let go of the ball , Morgan . 2164827_2167054
+*MOT:	it won't ever go to the net (...) if you're still holding on . 2168914_2173249
+*MOT:	&=speechplay . 2192102_2193310
+*MOT:	what's wrong , sweetie &=noise ? 2197208_2198543
+*MOT:	don't bang your head against the wall please ! 2200231_2202711
+*MOT:	&=laugh . 2205238_2205959
+*MOT:	is that fun &=laugh ? 2206057_2207059
+*MOT:	&=involuntary . 2207941_2208235
+*MOT:	&=involuntary . 2210291_2210759
+*MOT:	Morgan &=laugh . 2213148_2214082
+*MOT:	why do you do that ? 2214526_2215677
+*MOT:	&aw . 2217819_2218973
+*MOT:	&=involuntary . 2220766_2221042
+*MOT:	that's gotta hurt &=laugh . 2221922_2223193
+*MOT:	and listen to that ! 2229421_2230287
+*MOT:	you're making the dog bar(k) . 2230269_2231831
+*MOT:	xxx . 2237427_2237757
+*MOT:	gotta go to see why the dog (i)s barking ? 2238309_2240179
+*MOT:	he's barking (be)cause you're banging your head against the wall
+*MOT:	she doesn't like that noise . 2243078_2244533
+*MOT:	www . 2250120_2250896
+*MOT:	&=laugh . 2258224_2258998
+*MOT:	dance , Morgie ! 2259221_2260159
+*MOT:	dance ! 2260179_2261296
+*MOT:	&=whistle . 2285462_2287048
+*MOT:	&=whistle . 2287381_2287969
+*MOT:	&=whistle . 2288895_2290595
+*MOT:	&=whistle . 2290599_2293071
+*MOT:	&=involuntary . 2296142_2297376
+*MOT:	what d(id) you find there , Morgie ? 2298861_2300379
+*MOT:	d(id) you find a box ? 2301476_2302797
+*MOT:	box &=noise . 2304031_2304811
+*MOT:	can you say box@q ? 2306378_2307702
+*MOT:	yeah that's kind of close . 2310507_2312119
+*MOT:	box . 2313540_2314366
+*MOT:	don't start banging your head on that wall , Morgan ! 2391218_2393920
+*MOT:	&=laugh . 2429878_2431265
+*MOT:	why do you do that &=laugh ? 2431412_2433001
+*MOT:	&=involuntary . 2435493_2435910
+*MOT:	&=laugh . 2437424_2438279
+*MOT:	don't cry &=laugh ! 2438298_2439473
+*MOT:	&=involuntary . 2440456_2440699
+*MOT:	it wouldn't hurt if you didn't bang your head on the wall &=laugh .
+*MOT:	&=involuntary . 2445517_2445928
+*MOT:	is that a tasty box &=noise ? 2482660_2484626
+*MOT:	&mm . 2515915_2516555
+*MOT:	yummy . 2516515_2517062
+*MOT:	tasty box . 2517062_2518490
+*MOT:	www . 2567044_2567901
+*MOT:	I guess Daddy's home . 2574568_2575838
+*MOT:	&=speechplay . 2687344_2687943
+*MOT:	that [?] must be really tasty cardboard . 2734724_2737776
+*MOT:	yeah yummy &=noise . 2758908_2760176
+*MOT:	where (di)d it go ? 2761891_2762646
+*MOT:	yeah that could be where it went . 2768401_2769971
+*MOT:	oh wow . 2778936_2780190
+*MOT:	&=speechplay . 2782272_2783275
+*MOT:	can you say Mama@q ? 2785361_2786424
+*MOT:	&=laugh . 2788442_2789639
+*MOT:	can you say Mama@q ? 2789639_2790861
+*MOT:	say Mama@q ! 2792241_2793002
+*MOT:	Morgan . 2794068_2794741
+*MOT:	hey . 2795781_2796031
+*MOT:	say Mama@q ! 2796668_2797322
+*MOT:	Morgan [=! voice] . 2798854_2799545
+*MOT:	Morgan . 2799704_2800082
+*MOT:	say Mama@q ! 2800082_2800738
+*MOT:	where are you going &=laugh ? 2802481_2803335
+*MOT:	what are you looking for ? 2803315_2804269
+*MOT:	there's your box again . 2819418_2821037
+*MOT:	&=whistle . 2829337_2832241
+*MOT:	&=whistle . 2836690_2839874
+*MOT:	&=involuntary . 2847952_2848956
+*MOT:	dog [=! voice] . 2854654_2855431
+*MOT:	the dog is downstairs , sweetie . 2856204_2859042
+*MOT:	whatcha doing &=laugh ? 2868235_2869198
+*MOT:	&=involuntary . 2893784_2894490
+*MOT:	well you certainly are excited . 2907628_2909686
+*MOT:	oh yeah . 2949755_2950661
+*MOT:	&=speechplay . 2955411_2956075
+*MOT:	&=speechplay . 2957796_2958204
+*MOT:	&=speechplay . 2959673_2960150
+*MOT:	boom . 2965027_2966020
+*MOT:	where (di)d it go ? 2968109_2968847
+*MOT:	where (di)d it go ? 2970010_2970844
+*MOT:	yeah just make a mess ! 2983680_2985186
+*MOT:	what's that , Morgan ? 2989942_2991180
+*MOT:	that's a dish+rag &=noise . 2992762_2994099
+*MOT:	you gonna go wash some dishes ? 2995146_2996769
+*MOT:	no ? 3002439_3003000
+*MOT:	not right now ? 3004074_3005127
+*MOT:	&=involuntary . 3006612_3007085
+*MOT:	Morgan , look &=noise ! 3010769_3011549
+*MOT:	there you go . 3016856_3017927
+*MOT:	are you stuck , Morgan ? 3114469_3115915
+*MOT:	&=involuntary . 3119459_3119718
+*MOT:	what's the problem , sweetie ? 3120000_3121937
+*MOT:	&=involuntary . 3132786_3133683
+*MOT:	le(t) me see that , Morgan &=noise ! 3143755_3145017
+*MOT:	here we'll turn it around just a little bit &=noise . 3145059_3147380
+*MOT:	there now you can go . 3154000_3155148
+*MOT:	Morgan . 3217286_3218025
+*MOT:	are you gonna play with Mommy's socks now ? 3220080_3222088
+*MOT:	how (di)d you get that drawer open , little girl ? 3224350_3226715
+*MOT:	oh is (th)at how ? 3230608_3231567
+*MOT:	don't bang your head against that &=laugh ! 3232805_3234214
+*MOT:	what's with you and this head banging thing lately &=noise ? 3234214_3236723
+*MOT:	dance , Morgie ! 3242118_3243335
+*MOT:	there you go . 3247765_3248790
+*MOT:	&=involuntary . 3357244_3357342
+*MOT:	&=involuntary . 3359148_3360619
+*MOT:	you're okay . 3387663_3388630
+*MOT:	&=nonspeech . 3392255_3393417
+*MOT:	&=laugh . 3393674_3395065
+*MOT:	there it is . 3400167_3400893
+*MOT:	it's standing up now . 3400893_3402155
+*MOT:	&=labial . 3402670_3403415
+*MOT:	&=nonspeech . 3405057_3405664
+*MOT:	can you get up ? 3409715_3410371
+*MOT:	&=speechplay . 3413738_3414248
+*MOT:	where's Morgie ? 3426411_3427545
+*MOT:	where's Morgan ? 3428966_3430456
+*MOT:	where's Morgan ? 3431694_3433103
+*MOT:	&=involuntary . 3435071_3435663
+*MOT:	there's Morgan [=! voice] . 3435667_3436880
+*MOT:	did she find me ? 3436888_3438721
+*MOT:	she found me [=! voice] . 3440156_3441180
+*MOT:	&=laugh . 3441180_3442454
+*MOT:	&=laugh . 3442642_3444365
+*MOT:	it's hard to play this game upstairs . 3444682_3446421
+*MOT:	there aren't as many things to (...) hide around &=noise . 3446441_3449060
+*MOT:	okay &=noise . 3450799_3451434
+*MOT:	where's Morgan ? 3458030_3459277
+*MOT:	where's Morgan ? 3460429_3461819
+*MOT:	where's Morgan &=laugh ? 3463551_3465082
+*MOT:	Morgan , I see you . 3466942_3468970
+*MOT:	&=laugh . 3470745_3472153
+*MOT:	I see you . 3472829_3474405
+*MOT:	&=laugh . 3475350_3476728
+*MOT:	hi &=laugh . 3477667_3478465
+*MOT:	did you catch me ? 3479659_3480600
+*MOT:	not coming this time huh ? 3492213_3494075
+*MOT:	just wanna play with Diaper_genie &=noise . 3497773_3500228
+*MOT:	I'm sure it's exciting . 3501636_3503143
+*MOT:	&=vocalize . 3504942_3505472
+*MOT:	&=hum . 3529227_3531173
+*MOT:	&=hum . 3531737_3533593
+*MOT:	&=involuntary . 3533735_3533966
+*MOT:	&=hum . 3534258_3535883
+*MOT:	are you gonna get a drink of Mommy's water &=noise ? 3537714_3540024
+*MOT:	huh . 3541340_3541721
+*MOT:	yeah . 3543527_3544504
+*MOT:	what a good girl you are . 3544894_3546306
+*MOT:	&=involuntary . 3549338_3549849
+*MOT:	is that tasty ? 3550537_3551758
+*MOT:	yeah . 3570908_3572002
+*MOT:	Morgan . 3602456_3603172
+*MOT:	bring that over here ! 3604476_3605798
+*MOT:	come here ! 3607327_3608095
+*MOT:	&=laugh . 3611159_3611437
+*MOT:	&=involuntary . 3612078_3612412
+*MOT:	&=involuntary . 3612962_3613197
+*MOT:	are you really thirsty ? 3618330_3619915
+*MOT:	or you just drinking that water (be)cause it's in that big girl
+*MOT:	come on ! 3625272_3625652
+*MOT:	oh don't cry ! 3631952_3633135
+*MOT:	you can still have some . 3633136_3634595
+*MOT:	come here ! 3638085_3638351
+*MOT:	Mommy (wi)ll help you even . 3638351_3639773
+*MOT:	&=involuntary . 3647334_3647675
+*MOT:	&=involuntary . 3648633_3649180
+*MOT:	&=nonspeech . 3649782_3650327
+*MOT:	&=laugh . 3653695_3655362
+*MOT:	&=laugh . 3655644_3656609
+*MOT:	&=laugh . 3656990_3657844
+*MOT:	&=laugh . 3658173_3659310
+*MOT:	I bet (..) that you need your diaper changed &=noise . 3659932_3662616
+*MOT:	let go of Mommy's hair ! 3663585_3664759
+*MOT:	&=laugh . 3670054_3671443
+*MOT:	&=labial . 3671452_3672849
+*MOT:	&=involuntary . 3672861_3673547
+*MOT:	whoops_a_daisy . 3673558_3675384
+*MOT:	don't go anywhere ! 3678612_3679512
+*MOT:	I'm (g)onna change your diaper . 3679511_3680958
+*MOT:	come back here ! 3682272_3683058
+*MOT:	&=nonspeech . 3686124_3687320
+*MOT:	look what Mommy's got ! 3687320_3688107
+*MOT:	&=nonspeech . 3691522_3692442
+*MOT:	&=nonspeech . 3693551_3694802
+*MOT:	yeah &=noise . 3696187_3697129
+*MOT:	would that make you let Mommy change your diaper ? 3698282_3700464
+*MOT:	&=whistle . 3705578_3707711
+*MOT:	&aw the baby [=! voice] . 3710354_3711442
+*MOT:	there you go . 3712714_3713307
+*MOT:	&=nonspeech . 3714136_3714870
+*MOT:	we just put the new diaper under there &=noise . 3714864_3716906
+*MOT:	and we untape the old one . 3718102_3719827
+*MOT:	yeah &=noise . 3721455_3722300
+*MOT:	you're just peeing rivers today . 3723323_3725192
+*MOT:	hands up ! 3726183_3727090
+*MOT:	hands up ! 3727292_3728235
+*MOT:	that's a good girl . 3729112_3729952
+*MOT:	hands up ! 3729972_3730899
+*MOT:	now let's (...) let's snap the new diaper on ! 3735771_3739209
+*MOT:	left tape . 3741717_3742952
+*MOT:	right tape . 3743903_3745315
+*MOT:	there you go , sweetie sweetie sweetie . 3746013_3749067
+*MOT:	now let's put your snaps on ! 3749929_3751423
+*MOT:	one snap . 3753051_3753796
+*MOT:	two snaps . 3755071_3756079
+*MOT:	&=involuntary . 3756264_3756709
+*MOT:	yeah &=noise . 3756978_3757741
+*MOT:	Morgie's number one . 3758895_3760633
+*MOT:	Morgie's number one [=! voice] . 3761361_3763093
+*MOT:	&=speechplay . 3763255_3763997
+*MOT:	&=speechplay . 3765439_3766794
+*MOT:	help@q ! 3774590_3775056
+*MOT:	help@q ! 3775235_3775880
+*MOT:	I will . 3776503_3777003
+*MOT:	I'm gonna help you put your pants back on if you just quit kicking
+*MOT:	there you go . 3782774_3783285
+*MOT:	there's your right leg . 3783305_3784289
+*MOT:	there's your left leg . 3786044_3787352
+*MOT:	now let's just pull (th)em up ! 3788061_3789497
+*MOT:	pull (th)em up over your big butt . 3790623_3792573
+*MOT:	there you go . 3793779_3794504
+*MOT:	&=nonspeech . 3802986_3803520
+*MOT:	&=laugh . 3805848_3806609
+*MOT:	that's fun huh ? 3807037_3808045
+*MOT:	okay come on ! 3808615_3809286
+*MOT:	let's go ! 3811006_3811689
+*MOT:	here you go . 3812649_3813080
+*MOT:	you can do it &=noise . 3814442_3815173
+*MOT:	yeah . 3815681_3816377
+*MOT:	what a big girl you are . 3817027_3818640
+*MOT:	Morgan . 3823306_3824295
+*MOT:	sweetie . 3824320_3825252
+*MOT:	come here ! 3825959_3826531
+*MOT:	come to Mommy ! 3826649_3827491
+*MOT:	you can come all the way over here all by your little self . 3828186_3830743
+*MOT:	(be)cause you're such a big girl . 3831449_3832956
+*MOT:	you big . 3833993_3834432
+*MOT:	you can even get to the water . 3834432_3836059
+*MOT:	&=involuntary . 3837952_3838378
+*MOT:	there's the water &=noise . 3838378_3839373
+*MOT:	or you're gonna have_to get around the table . 3840412_3842290
+*MOT:	here . 3844057_3844416
+*MOT:	come on ! 3849393_3849757
+*MOT:	Mommy (wi)ll help you &=noise . 3850013_3850940
+*MOT:	there you go &=noise . 3852149_3852977
+*MOT:	now you can have the water . 3853901_3855187
+*MOT:	&=involuntary . 3862966_3863810
+*MOT:	okay . 3863814_3864706
+*MOT:	&=involuntary . 3882599_3883118
+*MOT:	oh now don't drink too much , sweetie &=noise ! 3885935_3887916
+*MOT:	whoops_a_daisy . 3893044_3894507
+*MOT:	you better pick it up &=noise ! 3895571_3896885
+*MOT:	&=involuntary . 3915989_3916500
+*MOT:	what's wrong , baby ? 4001670_4003042
+*MOT:	well . 4009523_4009907
+*MOT:	okay . 4010854_4011644
+*MOT:	&=involuntary . 4021346_4021667
+*MOT:	you must be really thirsty , baby . 4021667_4024970
+*MOT:	sweetie . 4030302_4031357
+*MOT:	sweetie , what's wrong ? 4032857_4034365
+*MOT:	did it get closed and the water won't come out &=laugh ? 4041413_4043956
+*MOT:	there you go &=noise &=laugh . 4053153_4053928
+*MOT:	and you're not getting too much of that down your shirt . 4056714_4059239
+*MOT:	&mm . 4060520_4062141
+*MOT:	&=laugh . 4063228_4065177
+*MOT:	you're not even thirsty I bet . 4065183_4066846
+*MOT:	you just wanna drink out_of that (be)cause it's not a bottle . 4066846_4069927
+*MOT:	it's an adventure . 4072440_4073878
+*MOT:	Morgie , I don't understand what's wrong , sweetie . 4159236_4161767
+*MOT:	Morgan . 4172658_4173615
+*MOT:	okay . 4186825_4187433
+*MOT:	let's go play with something else , sweetie ! 4189074_4191303
+*MOT:	whee . 4197755_4198901
+*MOT:	&=involuntary . 4204194_4204871
+*MOT:	duckie duckie duckie . 4206422_4208184
+*MOT:	&=involuntary . 4216537_4216876
+*MOT:	what are you doing , Morgan ? 4217490_4218632
+*MOT:	are you climbing up on that ? 4218712_4220310
+*MOT:	there should be no climbing &=noise . 4221273_4222954
+*MOT:	come here &=noise ! 4226082_4226672
+*MOT:	now Daddy built the fire &=noise . 4230058_4231803
+*MOT:	Morgan . 4239738_4240619
+*MOT:	duck duck . 4265170_4266291
+*MOT:	&=speechplay . 4268857_4269687
+*MOT:	oh , Morgie . 4292026_4293142
+*MOT:	did you blow snot all over your tee shirt ? 4296083_4297908
+*MOT:	and you know why ? 4297908_4299027
+*MOT:	(be)cause you were pouring water down your throat &=noise . 4300023_4302651
+*MOT:	&=nonspeech . 4303772_4304456
+*MOT:	&=nonspeech . 4312302_4312780
+*MOT:	www . 4332983_4334771
+*MOT:	www . 4336194_4338524
+*MOT:	www . 4344190_4346304
+*MOT:	www . 4347147_4348869
+*MOT:	www . 4365448_4366053
+*MOT:	say “hi Daddy” . 4371129_4372074
+*MOT:	www . 4378039_4380840
+*MOT:	www . 4383986_4384680
+*MOT:	www . 4385540_4386085
+*MOT:	okay . 4386065_4386503
+*MOT:	&=involuntary . 4389393_4389964
+*MOT:	&=laugh . 4390388_4391184
+*MOT:	&=laugh . 4396445_4396807
+*MOT:	what is that face you're making &=laugh ? 4396810_4398677
+*MOT:	&=involuntary . 4399716_4399917
+*MOT:	oh . 4401513_4401767
+*MOT:	get down there ! 4402254_4402781
+*MOT:	www . 4409503_4410231
+*MOT:	www . 4410614_4411145
+*MOT:	seems [?] to be working . 4412821_4414007
+*MOT:	yeah Morgan . 4421969_4422920
+*MOT:	yeah , Morgan , you got a dog food bowl . 4422980_4424350
+*MOT:	now all you need is some dog food (...) to put in it . 4424569_4428737
+*MOT:	oh that's right . 4430908_4431681
+*MOT:	we won't let you have any of that huh ? 4431661_4433750
+*MOT:	xxx . 4441293_4442011
+*MOT:	www . 4450801_4452789
+*MOT:	&=involuntary . 4455673_4455937
+*MOT:	&=involuntary . 4480037_4480328
+*MOT:	I'm just so tired . 4480704_4482170
+*MOT:	come here , baby &=noise ! 4482536_4483344
+*MOT:	floor's wet &=noise . 4486582_4487262
+*MOT:	right there &=noise . 4487262_4487717
+*MOT:	where's Morgan &=noise ? 4493360_4494882
+*MOT:	&=involuntary . 4495400_4495648
+*MOT:	hi . 4495828_4496786
+*MOT:	&=involuntary . 4497231_4497619
+*MOT:	hi . 4497619_4498259
+*MOT:	Morgan , no . 4498259_4499059
+*MOT:	come here ! 4499412_4499993

@@ -1,0 +1,117 @@
+*MOT:	&hmm (.) try again .
+*MOT:	can you get that out ?
+*MOT:	there you go .
+*MOT:	good boy .
+*MOT:	oop(s) !
+*MOT:	there you go !
+*MOT:	oh look !
+*MOT:	uhoh .
+*MOT:	too big !
+*MOT:	take some out .
+*MOT:	that's a boy .
+*MOT:	there you go .
+*MOT:	there !
+*MOT:	good one (.) Chuck !
+*MOT:	try .
+*MOT:	uhoh .
+*MOT:	what happened ?
+*MOT:	take one out .
+*MOT:	oh .
+*MOT:	there you go !
+*MOT:	good [!] boy [!] .
+*MOT:	uhoh !
+*MOT:	look at that [!] one !
+*MOT:	that's really [!] big (.) isn't it ?
+*MOT:	yeah .
+*MOT:	that's [!] a boy .
+*MOT:	xxx .
+*MOT:	one more (.) I guess (.) huh ?
+*MOT:	&eh .
+*MOT:	not quite (.) huh ?
+*MOT:	whoop(s) .
+*MOT:	what happened ?
+*MOT:	look [!] what happened !
+*MOT:	again .
+*MOT:	that's a good way .
+*MOT:	xxx .
+*MOT:	whoop(s) .
+*MOT:	got ta take out one (.) huh ?
+*MOT:	whoop(s) !
+*MOT:	what happened ?
+*MOT:	you're going to take it all out ?
+*MOT:	okay .
+*MOT:	start from the very beginning (.) &hmm ?
+*MOT:	can I show you something with those ?
+*MOT:	okay (.) here .
+*MOT:	watch .
+*MOT:	I think +...
+*MOT:	look !
+*MOT:	you turn (th)em upside down ?
+*MOT:	xxx (.) I'm not sure .
+*MOT:	no (.) I think there may be one missing .
+*MOT:	crash (.) crash (.) crash .
+*MOT:	play with something else ?
+*MOT:	okay .
+*MOT:	you like that one (.) don't cha [: you] ?
+*MOT:	okay .
+*MOT:	bring it over here .
+*MOT:	discards objects .
+*MOT:	yeah (.) here !
+*MOT:	heavy ?
+*MOT:	good man .
+*MOT:	xxx .
+*MOT:	okay (.) there you go .
+*MOT:	it's okay .
+*MOT:	show me how you play with that (.) okay ?
+*MOT:	yeah (.) you know that one .
+*MOT:	block (.) &hmm ?
+*MOT:	there you go !
+*MOT:	doggie ?
+*MOT:	where does doggie go ?
+*MOT:	I guess he goes in there (.) don't you ?
+*MOT:	yeah .
+*MOT:	that goes in there too .
+*MOT:	okay .
+*MOT:	there're some funny things in that one (.) aren't there ?
+*MOT:	okay .
+*MOT:	here you go .
+*MOT:	a green one ?
+*MOT:	a red ball .
+*MOT:	moick@o !
+*MOT:	moink@o .
+*MOT:	that's cheating .
+*MOT:	moink@o .
+*MOT:	uhoh .
+*MOT:	yep !
+*MOT:	she fit in there !
+*MOT:	here (.) try and see if you can get it going in [?] up [?] at [?]
+*MOT:	there [!] you go .
+*MOT:	that's right .
+*MOT:	yeah .
+*MOT:	twist it around a little .
+*MOT:	okay .
+*MOT:	turn it around a little bit more .
+*MOT:	there you go .
+*MOT:	there [!] you go !
+*MOT:	oop(s) .
+*MOT:	almost !
+*MOT:	almost .
+*MOT:	oops !
+*MOT:	there .
+*MOT:	try again .
+*MOT:	almost !
+*MOT:	go ahead .
+*MOT:	turn it around a little bit more .
+*MOT:	here (.) Chuck .
+*MOT:	try [/] try it like that [!] okay ?
+*MOT:	up straight like that .
+*MOT:	oop(s) .
+*MOT:	that's it .
+*MOT:	try like this .
+*MOT:	okay ?
+*MOT:	there !
+*MOT:	you did [!] .
+*MOT:	yeah !
+*MOT:	yeah (.) you did it !
+*MOT:	oh (.) that's a toughie (.) isn't it ?
+*MOT:	yeah (.) right there (.) okay .

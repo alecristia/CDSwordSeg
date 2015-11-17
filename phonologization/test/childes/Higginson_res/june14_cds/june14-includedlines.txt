@@ -1,0 +1,355 @@
+*MOT:	are you gonna tell me about the little pig ?
+*MOT:	how about the little pig who went to market ?
+*MOT:	huh ?
+*MOT:	June ?
+*MOT:	huh ?
+*MOT:	&ah !
+*MOT:	&uh oh !
+*MOT:	how about the little pig who went to market ?
+*MOT:	gonna tell me about the little pig that went to market ?
+*MOT:	huh ?
+*MOT:	what's the pig doing [>] ?
+*MOT:	what ?
+*MOT:	oh yeh (.) that's a banana .
+*MOT:	anything else ?
+*MOT:	uhhuh .
+*MOT:	yes .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	that's very good .
+*MOT:	yes (.) this little piggie stayed home .
+*MOT:	he was sick .
+*MOT:	where did he stay ?
+*MOT:	what's this ?
+*MOT:	huh .
+*MOT:	what about this little pig ?
+*MOT:	what's he do ?
+*MOT:	okay (.) there's a kitty right over here .
+*MOT:	this little piggie had roast beef .
+*MOT:	sitting there in his high chair .
+*MOT:	oh (.) does he like his roast beef (.) &eh [= huh] ?
+*MOT:	what about this little piggie ?
+*MOT:	what's she doing ?
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	okay (.) right .
+*MOT:	she broke the cookie jar .
+*MOT:	and what did her mother say ?
+*MOT:	no (.) okay !
+*MOT:	what about this piggie ?
+*MOT:	what did he say ?
+*MOT:	uhhuh .
+*MOT:	what did the piggie say ?
+*MOT:	oh (.) okay !
+*MOT:	uhhuh .
+*MOT:	can I see that ?
+*MOT:	okay .
+*MOT:	uhhuh .
+*MOT:	can you come over here (.) huh ?
+*MOT:	huh ?
+*MOT:	just a minute .
+*MOT:	what do you [//] are you looking for something ?
+*MOT:	huh ?
+*MOT:	uhhuh ?
+*MOT:	oh (.) what's this ?
+*MOT:	uhhuh .
+*MOT:	right .
+*MOT:	they're on the floor there .
+*MOT:	a bunch of (th)em .
+*MOT:	right there .
+*MOT:	what's this ?
+*MOT:	June (.) can you tell me the story ?
+*MOT:	orange ?
+*MOT:	June (.) can you tell me the story ?
+*MOT:	what ?
+*MOT:	I don't know what you did with it .
+*MOT:	oh (.) here it is .
+*MOT:	what's this ?
+*MOT:	June ?
+*MOT:	what are you doing ?
+*MOT:	June ?
+*MOT:	what do you .
+*MOT:	no ?
+*MOT:	okay .
+*MOT:	can you tell me the story ?
+*MOT:	uhhuh (.) Cinderella .
+*MOT:	oh no !
+*MOT:	what's that ?
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	uhhuh (.) it is a duck .
+*MOT:	what else is on the page ?
+*MOT:	uhhuh .
+*MOT:	what's the doggie sitting on ?
+*MOT:	uhhuh .
+*MOT:	what else is on the page ?
+*MOT:	yeh (.) there's a kitty .
+*MOT:	what's the kitty doing ?
+*MOT:	uhhuh .
+*MOT:	oh_my_goodness !
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	what's the kitty doing ?
+*MOT:	uhhuh .
+*MOT:	what's the kitty down here doing ?
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	can we move the book over here ?
+*MOT:	uhhuh .
+*MOT:	it's a nice duck to isn't it .
+*MOT:	what's this ?
+*MOT:	oh dear .
+*MOT:	mine ?
+*MOT:	what's yours (.) June ?
+*MOT:	what's that ?
+*MOT:	would you like to talk on the telephone ?
+*MOT:	huh ?
+*MOT:	don't wanna talk ?
+*MOT:	would you talk to your Aunt Rose ?
+*MOT:	hello June (.) this Aunt Rose .
+*MOT:	how are you doing ?
+*MOT:	would you say something to Aunt Rose ?
+*MOT:	would you say something if it was to Gita ?
+*MOT:	oh (.) that wasn't a very long conversation !
+*MOT:	uhhuh .
+*MOT:	what does the kitty say ?
+*MOT:	oh .
+*MOT:	what's this ?
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	what's this ?
+*MOT:	what's this ?
+*MOT:	what's this ?
+*MOT:	what's this ?
+*MOT:	what's that ?
+*MOT:	what's this ?
+*MOT:	what's this ?
+*MOT:	oh (.) kitty's nice .
+*MOT:	what's this ?
+*MOT:	what's this (.) June ?
+*MOT:	oh .
+*MOT:	what's this ?
+*MOT:	oh (.) okay .
+*MOT:	what's that ?
+*MOT:	okay .
+*MOT:	okay .
+*MOT:	uhhuh .
+*MOT:	what do you do with a ball ?
+*MOT:	what do you wanna do with them ?
+*MOT:	June (.) what's this ?
+*MOT:	what's this ?
+*MOT:	what's that ?
+*MOT:	what is it ?
+*MOT:	ball (.) okay .
+*MOT:	what's this ?
+*MOT:	uhhuh .
+*MOT:	what's that June ?
+*MOT:	what (.) what are these ?
+*MOT:	oh (.) thank_you .
+*MOT:	what are these ?
+*MOT:	uhhuh .
+*MOT:	thank_you .
+*MOT:	want it back ?
+*MOT:	June (.) can you tell me the story ?
+*MOT:	uhhuh .
+*MOT:	what about this one here ?
+*MOT:	this is a longer story .
+*MOT:	what are these people doing ?
+*MOT:	huh ?
+*MOT:	what's this ?
+*MOT:	shall we try the other side ?
+*MOT:	what's this (.) June ?
+*MOT:	oh .
+*MOT:	that goes over there doesn't it ?
+*MOT:	yeh (.) the lady's holding the reins to the donkey .
+*MOT:	what about the other side ?
+*MOT:	oh (.) you wanna look at that ?
+*MOT:	uhhuh .
+*MOT:	June (.) who are these people ?
+*MOT:	why (.) that's a very nice donkey .
+*MOT:	can you tell me about the donkey ?
+*MOT:	uhhuh .
+*MOT:	where is the hat ?
+*MOT:	what's the little girl doing with the hat ?
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	what's the little girl wearing ?
+*MOT:	who's this ?
+*MOT:	who's that ?
+*MOT:	uhhuh .
+*MOT:	what's the man wearing ?
+*MOT:	June (.) what are these ?
+*MOT:	uhhuh .
+*MOT:	yeh .
+*MOT:	who is this ?
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	uhhuh .
+*MOT:	can you tell me about the paper ?
+*MOT:	uhhuh .
+*MOT:	June (.) who are these people ?
+*MOT:	uhhuh .
+*MOT:	what's the Queen doing ?
+*MOT:	who's that ?
+*MOT:	uhhuh .
+*MOT:	who's that ?
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	what's that ?
+*MOT:	uhhuh .
+*MOT:	what are those ?
+*MOT:	what are these June ?
+*MOT:	what are you doing ?
+*MOT:	why are you taking off your socks ?
+*MOT:	yes .
+*MOT:	what about the sock ?
+*MOT:	what do you want to do with it ?
+*MOT:	June (.) what do you want to do with the sock ?
+*MOT:	what are these ?
+*MOT:	what's this ?
+*MOT:	what's that ?
+*MOT:	oh (.) okay .
+*MOT:	what's this ?
+*MOT:	oh .
+*MOT:	what's this ?
+*MOT:	what's this (.) June ?
+*MOT:	it's a what ?
+*MOT:	what's this ?
+*MOT:	uhhuh .
+*MOT:	would you like to play with the blocks ?
+*MOT:	what do you think ?
+*MOT:	would you like to play with the blocks ?
+*MOT:	what are you going to do June ?
+*MOT:	can you tell me about these ?
+*MOT:	huh ?
+*MOT:	what about Mickey ?
+*MOT:	can you tell me about Mickey ?
+*MOT:	June (.) what are these ?
+*MOT:	what's this ?
+*MOT:	June (.) who's this ?
+*MOT:	who is this June ?
+*MOT:	oops .
+*MOT:	June (.) you're gonna fall .
+*MOT:	June (.) could you sing to bunny ?
+*MOT:	rock_a_bye baby (.) in the tree top (.) when the bough break the
+*MOT:	huh ?
+*MOT:	go ahead .
+*MOT:	what do you think of that June ?
+*MOT:	can we sing to bunny ?
+*MOT:	oops .
+*MOT:	what are you doing June ?
+*MOT:	what is this ?
+*MOT:	would you like to have a purple block ?
+*MOT:	no ?
+*MOT:	June (.) can we sing to bunny ?
+*MOT:	rock_a_bye baby in the tree top (.) when the wind blows the cradle
+*MOT:	can you sing to bunny ?
+*MOT:	when the bough breaks the cradle will fall and down will come baby
+*MOT:	can you sing that (.) huh ?
+*MOT:	oh (.) that's very good .
+*MOT:	rock_a_bye baby in the tree top (.) when the wind blows the cradle
+*MOT:	yeh (.) rock_a_bye baby in the tree top when the wind blows the
+*MOT:	is your baby asleep yet June ?
+*MOT:	do you know any other songs ?
+*MOT:	June ?
+*MOT:	what's baby doing over there ?
+*MOT:	why are you putting your bunny and your kitty over there June ?
+*MOT:	what are you looking for ?
+*MOT:	what is it ?
+*MOT:	is it time for them to go to sleep now ?
+*MOT:	huh ?
+*MOT:	do you think they'll go to sleep ?
+*MOT:	uhhuh (.) you've got bunny over there .
+*MOT:	who's this June ?
+*MOT:	oh (.) you had one more bunny huh ?
+*MOT:	do you think they'll go to sleep June ?
+*MOT:	can you tell me that story ?
+*MOT:	no ?
+*MOT:	June ?
+*MOT:	what's the story ?
+*MOT:	uhhuh (.) kitty .
+*MOT:	uhhuh .
+*MOT:	is bunny going to sleep now (.) huh ?
+*MOT:	yes (.) you have two bunnies .
+*MOT:	are they going to sleep now ?
+*MOT:	what are you looking for ?
+*MOT:	oh (.) thank_you (.) that is yucky .
+*MOT:	what is that ?
+*MOT:	June (.) can you tell me this story ?
+*MOT:	oh (.) okay .
+*MOT:	oh (.) kitty's singing isn't she .
+*MOT:	uhhuh .
+*MOT:	yeh (.) what are they doing ?
+*MOT:	oh (.) is that what these are ?
+*MOT:	uhhuh .
+*MOT:	oh yes (.) look at the kitties .
+*MOT:	those are .
+*MOT:	what are they doing ?
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	what are they doing June ?
+*MOT:	uhhuh .
+*MOT:	oh (.) I'll be darned .
+*MOT:	do you need your socks ?
+*MOT:	what did you do with your socks ?
+*MOT:	here (.) what do you want with your socks ?
+*MOT:	what are you going to do with it ?
+*MOT:	what are you going to do with the socks ?
+*MOT:	well (.) that's very good June .
+*MOT:	where's the other sock ?
+*MOT:	oh (.) here's the other sock .
+*MOT:	uhhuh .
+*MOT:	shoe .
+*MOT:	what do you want to do with your shoe ?
+*MOT:	would you like to put the shoe on ?
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	there you go .
+*MOT:	are you going to put your shoe on ?
+*MOT:	here (.) put this shoe on that foot .
+*MOT:	you wanna put it on yourself huh ?
+*MOT:	uhhuh .
+*MOT:	would you like me to put your shoe on ?
+*MOT:	oh my (.) can you put the sock on ?
+*MOT:	uhhuh .
+*MOT:	where are your piggies ?
+*MOT:	oh (.) you can tell me on this foot here .
+*MOT:	where are your piggies ?
+*MOT:	yeh (.) what's this ?
+*MOT:	uhhuh .
+*MOT:	this little piggie went to market .
+*MOT:	is that a piggie ?
+*MOT:	this little piggie stayed home .
+*MOT:	what did the little piggie say June ?
+*MOT:	uhhuh .
+*MOT:	okay .
+*MOT:	June (.) don't you want to leave your sock on so we can put your
+*MOT:	June (.) what's this ?
+*MOT:	what's this ?
+*MOT:	what's this June ?
+*MOT:	oh .
+*MOT:	what's bug doing ?
+*MOT:	&ah (.) bug'll cry June .
+*MOT:	don't drop bug .
+*MOT:	oh (.) poor bug .
+*MOT:	oh (.) bug's crying June .
+*MOT:	can you hear him cry ?
+*MOT:	huh ?
+*MOT:	uhhuh .
+*MOT:	what are you doing June ?
+*MOT:	what's this ?
+*MOT:	uhhuh .
+*MOT:	it's what ?
+*MOT:	what ?
+*MOT:	are you talking about Gita ?
+*MOT:	well what would Gita have_to say about it ?
+*MOT:	huh ?
+*MOT:	can you come over here ?
+*MOT:	June (.) can you come over here ?
+*MOT:	huh ?
+*MOT:	come on .
+*MOT:	no ?

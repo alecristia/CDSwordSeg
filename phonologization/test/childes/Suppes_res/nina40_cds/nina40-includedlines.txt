@@ -1,0 +1,737 @@
+*MOT:	what are you doing ?
+*MOT:	what are you doing (.) Nina ?
+*MOT:	what are you doing to your dolly ?
+*MOT:	what is it ?
+*MOT:	what is this ?
+*MOT:	oh (.) what do you want to do with it ?
+*MOT:	okay .
+*MOT:	let's see if we can .
+*MOT:	oh (.) too much hair .
+*MOT:	can you make her look pretty ?
+*MOT:	you make her look pretty .
+*MOT:	why don't you comb her hair and then I'll try to put a barrette on
+*MOT:	lemme see .
+*MOT:	what are you doing ?
+*MOT:	how come ?
+*MOT:	is she going to look pretty when you comb her hair ?
+*MOT:	you put it on here .
+*MOT:	look .
+*MOT:	oh .
+*MOT:	where is the barrette ?
+*MOT:	does it look pretty ?
+*MOT:	shall we brush the other doll's hair ?
+*MOT:	there's your other doll .
+*MOT:	yes .
+*MOT:	are you combing or brushing her hair ?
+*MOT:	now what are you doing .
+*MOT:	why ?
+*MOT:	what do you want to do with it ?
+*MOT:	oh .
+*MOT:	what does she have on her hair ?
+*MOT:	what happened to this ribbon ?
+*MOT:	shall we tie it up ?
+*MOT:	there we made a bow .
+*MOT:	does it look pretty ?
+*MOT:	what are you gonna do with it ?
+*MOT:	where ?
+*MOT:	are those her bangs ?
+*MOT:	how come you're getting the doll so pretty ?
+*MOT:	are they going somewhere ?
+*MOT:	where ?
+*MOT:	oh (.) and so you're making them all pretty ?
+*MOT:	I see .
+*MOT:	what's this ?
+*MOT:	can you say: +"/.
+*MOT:	+" band ?
+*MOT:	what are you gonna do with it ?
+*MOT:	oh (.) here's another one .
+*MOT:	oh what do you have ?
+*MOT:	two rubber bands .
+*MOT:	what can we do with the rubber bands ?
+*MOT:	you wanna make a pigtail ?
+*MOT:	what should I put on Raggedy_Ann ?
+*MOT:	&uh [= yes] ?
+*MOT:	a rubber band .
+*MOT:	what's that ?
+*MOT:	do you know what that is ?
+*MOT:	what is it ?
+*MOT:	a Bobby pin .
+*MOT:	&uh (.) I made a curl with the Bobby pin .
+*MOT:	you gonna cut her hair ?
+*MOT:	I see .
+*MOT:	what are you gonna cut ?
+*MOT:	oh careful don't break them .
+*MOT:	what are you gonna cut ?
+*MOT:	oh you're using tweezers to cut her hair ?
+*MOT:	oh (.) where does she have a splinter ?
+*MOT:	did you have a splinter yesterday ?
+*MOT:	where was your splinter ?
+*MOT:	and what did I do ?
+*MOT:	what did I use to take the splinter out ?
+*MOT:	oh (.) you were a good girl (.) weren't you ?
+*MOT:	you didn't cry at all (.) did you ?
+*MOT:	did it hurt ?
+*MOT:	but you let me take it out (.) didn't you ?
+*MOT:	that was good .
+*MOT:	I'm going to get a kleenex for your nose .
+*MOT:	(be)cause you still have a cold .
+*MOT:	where did you put them ?
+*MOT:	they did ?
+*MOT:	how many splinters does she have ?
+*MOT:	oh .
+*MOT:	I have a splinter in my finger .
+*MOT:	shall I take it out ?
+*MOT:	what shall I use ?
+*MOT:	shall I use a needle first ?
+*MOT:	oh (.) look at the splinter in my finger .
+*MOT:	do you think it hurts ?
+*MOT:	how am I getting it out ?
+*MOT:	look at the splinter there (.) see .
+*MOT:	I made a little hole here .
+*MOT:	can I use the tweezers now ?
+*MOT:	(be)cause I wanna get the splinter out .
+*MOT:	did I do that to you yesterday ?
+*MOT:	you're welcome .
+*MOT:	what are you doing ?
+*MOT:	you have a splinter in your finger ?
+*MOT:	oh where ?
+*MOT:	oh (.) you do .
+*MOT:	you're gonna let me take it out ?
+*MOT:	oh (.) you're being very good .
+*MOT:	does it hurt (.) what I'm doing ?
+*MOT:	o:h (.) let's see if we can get it out .
+*MOT:	yup [= yes] .
+*MOT:	I'm scraping the skin off so I can get at the splinter .
+*MOT:	does it hurt ?
+*MOT:	okay (.) wait a minute .
+*MOT:	hold +...
+*MOT:	you have_to hold your finger real still (.) don't you ?
+*MOT:	my splinter is out .
+*MOT:	now we have_to get your splinter out .
+*MOT:	is you splinter out ?
+*MOT:	no (.) it's still there .
+*MOT:	w(h)oops (.) what happened to the needle ?
+*MOT:	here .
+*MOT:	there's you splinter .
+*MOT:	see it ?
+*MOT:	it's coming out .
+*MOT:	&uh (.) see it ?
+*MOT:	don't move .
+*MOT:	there it went away .
+*MOT:	I've gotten it all out (.) I think .
+*MOT:	did I ?
+*MOT:	does it still hurt ?
+*MOT:	where did you get this splinter ?
+*MOT:	from the gate .
+*MOT:	oh (.) you better not touch the gate any more .
+*MOT:	there're lots_of splinters .
+*MOT:	Mommy got splinters from the gate too .
+*MOT:	no leaves don't have splinters .
+*MOT:	wooden things have splinters (.) right ?
+*MOT:	that's right .
+*MOT:	some &uh (.) some flowers like roses have prickers on them (.)
+*MOT:	did you get hurt with prickers from a rose ?
+*MOT:	w(h)oops .
+*MOT:	where is your splinter ?
+*MOT:	all_gone .
+*MOT:	right .
+*MOT:	that's a pink one (.) isn't it ?
+*MOT:	what would you like to do with your pink barrette ?
+*MOT:	what do you want me to do ?
+*MOT:	where ?
+*MOT:	behind her hair or in front ?
+*MOT:	on her bangs or on her braids ?
+*MOT:	what are those ?
+*MOT:	I see .
+*MOT:	so you want to hold the bangs down ?
+*MOT:	want the barrette ?
+*MOT:	what a pretty barrette .
+*MOT:	what happened ?
+*MOT:	where's the barrette ?
+*MOT:	she is ?
+*MOT:	why ?
+*MOT:	because she has a barrette on ?
+*MOT:	does Mommy wear barrettes in her hair ?
+*MOT:	sometime .
+*MOT:	most of the time I wear pigtails (.) don't I ?
+*MOT:	those are Bobby pins .
+*MOT:	that's right .
+*MOT:	those are old diaper pins .
+*MOT:	do you wear diapers anymore ?
+*MOT:	what do you want me to do to the diaper pins ?
+*MOT:	do you want to put a diaper on the dolly ?
+*MOT:	get that blanket and we can pretend it's a diaper .
+*MOT:	on that box (.) see ?
+*MOT:	pink blanket ?
+*MOT:	do you want to put the diaper on ?
+*MOT:	what (.) which dolly shall we put this diaper on (.) Nina ?
+*MOT:	which (.) which dolly needs a diaper ?
+*MOT:	this dolly here ?
+*MOT:	this one ?
+*MOT:	okay .
+*MOT:	how do we put the diaper on ?
+*MOT:	&uh [= yes] ?
+*MOT:	what do I do now ?
+*MOT:	let's see you fold it .
+*MOT:	okay .
+*MOT:	look at this dolly .
+*MOT:	what does she have on now ?
+*MOT:	do you wear diapers now ?
+*MOT:	when did you wear diapers ?
+*MOT:	when you were a baby you wore diapers ?
+*MOT:	you haven't worn diapers for a long time .
+*MOT:	look at the dolly (.) Nina .
+*MOT:	is she a baby now ?
+*MOT:	what are you looking for ?
+*MOT:	here they are .
+*MOT:	what are you gonna do with the tweezers ?
+*MOT:	&uh [= yes] ?
+*MOT:	you did ?
+*MOT:	is she okay now ?
+*MOT:	shall we wash her hair ?
+*MOT:	we just washed your hair .
+*MOT:	why don't you wash the dolly's hair ?
+*MOT:	oh we only need two pins .
+*MOT:	save that in_case we loose one of these .
+*MOT:	I don't think we need another one .
+*MOT:	she (.) she has her diapers on .
+*MOT:	put that back in the box .
+*MOT:	save it if we need another one .
+*MOT:	whose hair needs washing ?
+*MOT:	whose hair is dirty ?
+*MOT:	okay .
+*MOT:	why don't you shampoo it ?
+*MOT:	here's the bottle of shampoo .
+*MOT:	we can pretend this is the bottle of shampoo and squeeze some on
+*MOT:	what are you doing ?
+*MOT:	and now what are you doing ?
+*MOT:	why are you putting the water ?
+*MOT:	is she gonna cry ?
+*MOT:	she has_to do what ?
+*MOT:	why ?
+*MOT:	is she rinsing her hair ?
+*MOT:	how does she rinse her hair ?
+*MOT:	oh (.) she's been leaning back in the bath+tub for a long time .
+*MOT:	what are you gonna do with her now ?
+*MOT:	and do what ?
+*MOT:	did you dry her hair well ?
+*MOT:	maybe she would like a clip in her hair .
+*MOT:	you gonna make a curl ?
+*MOT:	hold what ?
+*MOT:	where shall I put the clip ?
+*MOT:	you like it down there ?
+*MOT:	do you think she needs any more Bobby pins ?
+*MOT:	what does Mommy have in her hair ?
+*MOT:	a great big roller .
+*MOT:	why don't you take this roller ?
+*MOT:	you can use this roller .
+*MOT:	no this roller .
+*MOT:	I need this roller (be)cause otherwise my hair will fall down .
+*MOT:	you are ?
+*MOT:	can you attach it with a Bobby pin ?
+*MOT:	there .
+*MOT:	how many rollers do I have in my hair now ?
+*MOT:	two rollers .
+*MOT:	what are you gonna do ?
+*MOT:	uhoh [= trouble] (.) then what's going to happen ?
+*MOT:	oh what happened ?
+*MOT:	let's put the things away .
+*MOT:	you wanna put the clips away ?
+*MOT:	are you finished with them ?
+*MOT:	where's the rubber band ?
+*MOT:	what did I do with it ?
+*MOT:	what do you want to do with it ?
+*MOT:	what are you gonna do with it ?
+*MOT:	up .
+*MOT:	here's the rubber band .
+*MOT:	what happened to it ?
+*MOT:	is it knotted up ?
+*MOT:	did you go with Barbara yesterday to the park ?
+*MOT:	what did you do there ?
+*MOT:	who came with you ?
+*MOT:	she did ?
+*MOT:	what did you do with Karen at the park ?
+*MOT:	you did ?
+*MOT:	what did you do with the dollies ?
+*MOT:	did you eat supper at Karen's house ?
+*MOT:	that was nice .
+*MOT:	they invited you to stay for supper ?
+*MOT:	they gave you an ice cream cone for dessert ?
+*MOT:	and what did you have before the ice cream cone ?
+*MOT:	you didn't have any meat ?
+*MOT:	oh Karen's Mommy told me you ate a_lot_of chicken .
+*MOT:	did you eat chicken ?
+*MOT:	was it good ?
+*MOT:	was Kirsten there too ?
+*MOT:	you turned the light off to eat ?
+*MOT:	did Kirsten eat baby food or real food ?
+*MOT:	oh (.) could she eat by herself ?
+*MOT:	who fed her ?
+*MOT:	did you feed Kirsten ?
+*MOT:	who fed her ?
+*MOT:	what are you doing ?
+*MOT:	oh (.) you haven't finished your cereal this morning (.) have you ?
+*MOT:	is it good ?
+*MOT:	have you finished combing the dolly's hair ?
+*MOT:	may I put the clips away ?
+*MOT:	maybe you should feed your dollies breakfast too .
+*MOT:	I think this dolly is hungry .
+*MOT:	uhoh [= trouble] .
+*MOT:	you spilled them .
+*MOT:	can you pick them up ?
+*MOT:	here I'll hold (.) I'll hold the plate .
+*MOT:	you pick up all the Cheerios .
+*MOT:	they went all over the floor (.) didn't they ?
+*MOT:	where is that cheerio ?
+*MOT:	where's that cheerio gone ?
+*MOT:	where's that cheerio ?
+*MOT:	under the chair ?
+*MOT:	my_goodness .
+*MOT:	they went everywhere (.) didn't they ?
+*MOT:	I don't want the ants to come .
+*MOT:	remember in our other house all the ants we had (.) when we dropped
+*MOT:	there were many (.) many ants .
+*MOT:	we better keep our food in the plate .
+*MOT:	do you like the cereal ?
+*MOT:	you do ?
+*MOT:	who can you give the cereal to ?
+*MOT:	oh (.) I bet the cow would like some .
+*MOT:	who's hungry ?
+*MOT:	are you hungry ?
+*MOT:	what do those Cheerios look like ?
+*MOT:	they look like o@l-s (.) don't they ?
+*MOT:	why ?
+*MOT:	is it broken ?
+*MOT:	oh (.) Raggedy_Ann just told me she wants some cereal .
+*MOT:	are you gonna give her something to eat ?
+*MOT:	what are you doing ?
+*MOT:	does she eat it with her mouth ?
+*MOT:	how are you chewing you Cheerios ?
+*MOT:	what do you use to chew Cheerios with ?
+*MOT:	oh (.) you've got so many teeth .
+*MOT:	when you were a baby you only had one tooth and then you had two
+*MOT:	does Kirsten have teeth ?
+*MOT:	does she have teeth yet ?
+*MOT:	I don't know .
+*MOT:	I haven't looked in her mouth .
+*MOT:	she doesn't chew food like this though (.) does she ?
+*MOT:	what does she eat ?
+*MOT:	is it soft or hard ?
+*MOT:	oh .
+*MOT:	why do you think she has_to eat soft food ?
+*MOT:	oh no (.) cause you need teeth (.) right ?
+*MOT:	you need teeth to do what ?
+*MOT:	to chew .
+*MOT:	what ?
+*MOT:	oh (.) I want to see your new slippers .
+*MOT:	may I see your new slippers ?
+*MOT:	where are they ?
+*MOT:	where did you get them ?
+*MOT:	were they in that package that came the other day ?
+*MOT:	do you know who sent them to you ?
+*MOT:	who did ?
+*MOT:	Nonna did .
+*MOT:	look at the pretty (.) pretty things on them .
+*MOT:	these are beads .
+*MOT:	they're indian slippers oh (.) they're so furry .
+*MOT:	feel the fur .
+*MOT:	is it soft ?
+*MOT:	do you wanna put them on ?
+*MOT:	where's your foot ?
+*MOT:	in where ?
+*MOT:	oh they're so pretty .
+*MOT:	do you like your slippers ?
+*MOT:	where are they gone ?
+*MOT:	do they feel nice ?
+*MOT:	are they soft ?
+*MOT:	oh (.) where's your foot now ?
+*MOT:	oh .
+*MOT:	are these slippers soft or hard ?
+*MOT:	I think they feel so nice .
+*MOT:	these used to be Betta's slippers I think .
+*MOT:	what happened to the Bobby pin ?
+*MOT:	into where ?
+*MOT:	that's not the right place for a Bobby pin .
+*MOT:	where do Bobby pins belong ?
+*MOT:	in hair ?
+*MOT:	or in the box (.) right ?
+*MOT:	oh (.) Bobby pins don't belong in cereal .
+*MOT:	let's put everything away .
+*MOT:	I want to put the Bobby pins away before they spill .
+*MOT:	oh (.) okay .
+*MOT:	you wanna bring them here ?
+*MOT:	shall we put your cereal away ?
+*MOT:	are you okay ?
+*MOT:	oh (.) poor Nina .
+*MOT:	did a piece of cereal go down the wrong way ?
+*MOT:	are you okay now ?
+*MOT:	okay .
+*MOT:	what do you have over here ?
+*MOT:	I can't see .
+*MOT:	what's over here ?
+*MOT:	oh your blocks .
+*MOT:	uhoh [= trouble] (.) don't spill the cereal .
+*MOT:	you gonna build something with your blocks ?
+*MOT:	what are you gonna do ?
+*MOT:	I want to see that fruit cocktail .
+*MOT:	that's a can of fruit cocktail .
+*MOT:	may I have it ?
+*MOT:	that says fruit cocktail on it .
+*MOT:	means it'll have grapes in it and what else ?
+*MOT:	let's look at the picture .
+*MOT:	see there's a little picture in front .
+*MOT:	it has grapes and pineapple and cherries .
+*MOT:	you see that picture ?
+*MOT:	can you find a can of corn ?
+*MOT:	see if you can find a can that has pictures of corn on it ?
+*MOT:	no (.) those yellow things are pieces of pineapple .
+*MOT:	here's one with corn on it .
+*MOT:	see .
+*MOT:	and what's this a can of ?
+*MOT:	what's that a picture of ?
+*MOT:	it's a great big tuna fish .
+*MOT:	and do you know what this is ?
+*MOT:	what's that ?
+*MOT:	salt .
+*MOT:	oh (.) I'd like to take this plate out and you prepare me a nice
+*MOT:	what are you gonna give me for lunch ?
+*MOT:	corn ?
+*MOT:	what else ?
+*MOT:	I'd like some meat to eat too .
+*MOT:	you find me some meat ?
+*MOT:	there's a +...
+*MOT:	can of Spam .
+*MOT:	yeah [= yes] .
+*MOT:	yeah [= yes] (.) I like Spam .
+*MOT:	are you gonna give me some of it ?
+*MOT:	w(h)oops .
+*MOT:	you're gonna fall down if you climb on me like that .
+*MOT:	oh .
+*MOT:	w(h)oops .
+*MOT:	uhoh [= trouble] (.) look what happened ?
+*MOT:	the cereal fell down .
+*MOT:	I'm going to put the cereal over here (.) okay ?
+*MOT:	you wanna finish eating the cereal ?
+*MOT:	are you gonna give me some lunch or not ?
+*MOT:	what are you gonna give me ?
+*MOT:	oh (.) that's cereal .
+*MOT:	that's breakfast food .
+*MOT:	I want lunch food .
+*MOT:	see if you can find me some lunch food over there .
+*MOT:	what did you find for my lunch ?
+*MOT:	oh .
+*MOT:	we need butter then .
+*MOT:	find me some butter to put on it .
+*MOT:	the corn on the cob ?
+*MOT:	maybe it's in the box .
+*MOT:	see if you can find it .
+*MOT:	do you have more food in here ?
+*MOT:	oh (.) there's a_lot_of food in there .
+*MOT:	w(h)oops did it fall on the floor ?
+*MOT:	oh (.) now you can find lots_of food for me from the floor .
+*MOT:	let's pick up a nice lunch .
+*MOT:	&um .
+*MOT:	I'd like some carrots please .
+*MOT:	where you gonna put it ?
+*MOT:	how many carrots did you give me ?
+*MOT:	and what else are you gonna give me ?
+*MOT:	oh .
+*MOT:	where'd you put the cucumber ?
+*MOT:	careful (be)cause that's dangerous .
+*MOT:	you might swallow it by mistake .
+*MOT:	and it's only plastic .
+*MOT:	it's not real .
+*MOT:	yeah [= yes] (.) it has a point at the end .
+*MOT:	I don't know if that's a cucumber ?
+*MOT:	you know what ?
+*MOT:	I think that's a green pepper .
+*MOT:	ummhm [= yes] .
+*MOT:	no food we want to eat .
+*MOT:	I want you to sit an animal or a dolly over on this chair and feed
+*MOT:	see what she likes best .
+*MOT:	okay (.) let's see if we can +...
+*MOT:	oh (.) I want to feed the dolly .
+*MOT:	okay (.) she's thirsty .
+*MOT:	what are you gonna give her to drink ?
+*MOT:	give her lemonade ?
+*MOT:	oh where ?
+*MOT:	what are you gonna do ?
+*MOT:	what's that ?
+*MOT:	where is that blanket from ?
+*MOT:	that big yellow blanket .
+*MOT:	where did you get that blanket ?
+*MOT:	what fell off ?
+*MOT:	what is it ?
+*MOT:	yeah [= yes] what is it part of ?
+*MOT:	what ?
+*MOT:	I don't see what it is .
+*MOT:	what is it ?
+*MOT:	what is that thing ?
+*MOT:	a train .
+*MOT:	oh it's part of the train ?
+*MOT:	where does it fit back together ?
+*MOT:	oh (.) we can use this train to carry our food (.) can't we ?
+*MOT:	want to carry our food to town in the train ?
+*MOT:	okay (.) why don't we carry the vegetables in here ?
+*MOT:	and the fruit in here (.) okay ?
+*MOT:	who's that ?
+*MOT:	oh .
+*MOT:	I gonna hide in here .
+*MOT:	would you like to play with these things from the doctor .
+*MOT:	and take care of your baby ?
+*MOT:	would you like to take care of your baby ?
+*MOT:	yeah [= yes] .
+*MOT:	now you have_to see if she has a fever .
+*MOT:	that's a thermometer .
+*MOT:	shall we see if she has a fever ?
+*MOT:	is she gonna cry ?
+*MOT:	let's see the thermometer .
+*MOT:	okay .
+*MOT:	now you're going to try her temperature ?
+*MOT:	okay .
+*MOT:	you think she has a temperature ?
+*MOT:	there .
+*MOT:	does she have a temperature ?
+*MOT:	o:h .
+*MOT:	now (.) shall we give her some medicine ?
+*MOT:	look what's in this box .
+*MOT:	here are some pills .
+*MOT:	that's a stethoscope .
+*MOT:	that's to cut band_aids for her in_case she has a splinter .
+*MOT:	do you think she has a splinter ?
+*MOT:	okay (.) let's cut a band_aid for her .
+*MOT:	and a piece of cotton .
+*MOT:	yes (.) they do .
+*MOT:	look here's a band_aid for her .
+*MOT:	where did she get hurt ?
+*MOT:	so what should we do ?
+*MOT:	and put the band_aid on there ?
+*MOT:	oh (.) see it's on the foot .
+*MOT:	it's on the foot .
+*MOT:	and here is the stethoscope .
+*MOT:	you can use the stethoscope to see what's wrong with her .
+*MOT:	this is the bottom of the stethoscope .
+*MOT:	now we have_to put these on your ear (.) right ?
+*MOT:	okay ?
+*MOT:	and listen to her tummy ?
+*MOT:	what are you doing ?
+*MOT:	what do you think you're doing ?
+*MOT:	yeah [= yes] .
+*MOT:	I'm gonna be right back .
+*MOT:	you get the dolly all ready (.) okay ?
+*MOT:	I'll be right back .
+*MOT:	what are you doing to the dolly ?
+*MOT:	oh (.) is that a shot ?
+*MOT:	did you give her a shot to make her better ?
+*MOT:	does Doctor Hartzell give you shots sometime ?
+*MOT:	okay (.) here's a shot .
+*MOT:	that's to clean her .
+*MOT:	clean her face with that ?
+*MOT:	where ?
+*MOT:	did she cry ?
+*MOT:	oh (.) you don't cry either when you go to the doctor .
+*MOT:	now what are you doing ?
+*MOT:	oh with the sponge ?
+*MOT:	oh (.) that's for where she got hurt .
+*MOT:	pour some of that on her leg .
+*MOT:	here (.) give me your finger and I'll give you some +...
+*MOT:	there it's red mercurochrome .
+*MOT:	want to put it on her leg ?
+*MOT:	how did she hurt her leg ?
+*MOT:	what's in there ?
+*MOT:	o:h (.) is cotton in there ?
+*MOT:	what are you gonna use the cotton for ?
+*MOT:	&um [= what] ?
+*MOT:	eating .
+*MOT:	no you use the cotton to clean up something .
+*MOT:	oh she has pills .
+*MOT:	she has some medicine .
+*MOT:	is that what you want to give her ?
+*MOT:	where's her little box of medicines ?
+*MOT:	here .
+*MOT:	here's the medicine for you .
+*MOT:	w(h)oop .
+*MOT:	what is that ?
+*MOT:	it's a pill .
+*MOT:	you can (.) you can save that for later .
+*MOT:	one for you and one for Karen later .
+*MOT:	I don't know .
+*MOT:	I'll have_to look and see .
+*MOT:	I don't think so .
+*MOT:	no (.) I think it's just pretend .
+*MOT:	pretend medicine .
+*MOT:	&um &um .
+*MOT:	what does the dolly have ?
+*MOT:	does she have a cold or a tummy ache ?
+*MOT:	oh (.) you better put her to bed then .
+*MOT:	did you listen to her tummy ?
+*MOT:	with what ?
+*MOT:	with a stethoscope ?
+*MOT:	where are they ?
+*MOT:	would you get (th)em out ?
+*MOT:	why (.) where are they ?
+*MOT:	oh (.) what do you want to do with them ?
+*MOT:	are you gonna give the medicine to somebody ?
+*MOT:	that's all we have .
+*MOT:	two pills .
+*MOT:	the cow looks pretty sick too .
+*MOT:	you better give him some medicine .
+*MOT:	he ate too much grass .
+*MOT:	ummhm [= yes] .
+*MOT:	those are +...
+*MOT:	let's see .
+*MOT:	oh (.) those are little pieces of cotton .
+*MOT:	we can put mercurochrome on it and you can take care of her
+*MOT:	see (.) we just took the splinter out_of her leg .
+*MOT:	now you better make it better by putting this on it .
+*MOT:	here .
+*MOT:	put the pills away .
+*MOT:	what are you doing ?
+*MOT:	you rubbing her leg ?
+*MOT:	where was her splinter ?
+*MOT:	on her knee ?
+*MOT:	did it come out alright ?
+*MOT:	a little more what ?
+*MOT:	mercurochrome ?
+*MOT:	what are you gonna do with the pills ?
+*MOT:	we better put them away because it's dangerous to leave medicine
+*MOT:	we should put it up high .
+*MOT:	so the baby doesn't get to it (.) right ?
+*MOT:	&ah .
+*MOT:	okay (.) you better put the pills back in the little box .
+*MOT:	put them up high where the dolls can't reach it .
+*MOT:	(be)cause little babies aren't supposed to get into medicine .
+*MOT:	it's dangerous .
+*MOT:	that's right .
+*MOT:	the what ?
+*MOT:	oh who are you going to listen to now ?
+*MOT:	where's the cotton ?
+*MOT:	can you find the cotton ?
+*MOT:	where's the box for the cotton ?
+*MOT:	why ?
+*MOT:	what are you gonna do with them ?
+*MOT:	what are you gonna do with them ?
+*MOT:	does somebody need them ?
+*MOT:	who needs them ?
+*MOT:	&um [= what] ?
+*MOT:	who are the pills for ?
+*MOT:	ummhm [= yes] .
+*MOT:	where are you gonna store them ?
+*MOT:	I see .
+*MOT:	where's the stethoscope ?
+*MOT:	oh (.) I see .
+*MOT:	what does the nurse do ?
+*MOT:	oh that's good .
+*MOT:	so she can go to school now ?
+*MOT:	that's good .
+*MOT:	I don't know where they are ?
+*MOT:	where's the nurse ?
+*MOT:	do you see a nurse here ?
+*MOT:	I mean in this picture .
+*MOT:	is there a nurse there ?
+*MOT:	there she is .
+*MOT:	let's see the scissors .
+*MOT:	do they work ?
+*MOT:	if we can cut something .
+*MOT:	I cut the band_aid .
+*MOT:	I cut it .
+*MOT:	can I finish cutting it ?
+*MOT:	what are you gonna do with the scissors for ?
+*MOT:	I see .
+*MOT:	so what are you gonna do with her ?
+*MOT:	a what ?
+*MOT:	she was given a shot on her foot ?
+*MOT:	that's a funny place to get a shot .
+*MOT:	a band_aid on her foot ?
+*MOT:	where are the band_aids ?
+*MOT:	okay (.) now what do you what me to do ?
+*MOT:	where should I put it ?
+*MOT:	on the toes ?
+*MOT:	why that's not a place for a shoe (.) is it ?
+*MOT:	on her leg ?
+*MOT:	oh my (.) look at that .
+*MOT:	what is she gonna do at school ?
+*MOT:	that's good .
+*MOT:	okay .
+*MOT:	how shall we go to school ?
+*MOT:	in the car (.) or shall we walk ?
+*MOT:	okay ?
+*MOT:	on a school bus ?
+*MOT:	many children go on the school bus don't they ?
+*MOT:	let's make a school bus here .
+*MOT:	Raggedy_Ann (.) and dolly and this dolly .
+*MOT:	look at all the children .
+*MOT:	where are they going ?
+*MOT:	in what color bus ?
+*MOT:	a big yellow bus ?
+*MOT:	what do you think they'll do at school ?
+*MOT:	ummhm [= yes] .
+*MOT:	and what else ?
+*MOT:	will they eat lunch there ?
+*MOT:	where do they keep their lunch ?
+*MOT:	do you think they need their lunch box for school ?
+*MOT:	this can be somebody's lunch box .
+*MOT:	shall I go get another one too ?
+*MOT:	okay .
+*MOT:	you prepare it for them .
+*MOT:	you're welcome .
+*MOT:	and what's the doctor gonna do ?
+*MOT:	oh really ?
+*MOT:	is that what the doctor said you could have when you had a tummy
+*MOT:	I see .
+*MOT:	ummhm [= yes] .
+*MOT:	and you're going to tell me how to take care of my children ?
+*MOT:	what are you gonna tell me ?
+*MOT:	hug them and take them home ?
+*MOT:	okay (.) which one shall I take home first ?
+*MOT:	I'm cuddling this one .
+*MOT:	okay (.) this one looks happy now .
+*MOT:	you know what ?
+*MOT:	maybe we could use these scissors to cut your fingernails .
+*MOT:	think it would work ?
+*MOT:	they too stiff ?
+*MOT:	I'm afraid +...
+*MOT:	here are some scissors .
+*MOT:	in here .
+*MOT:	let me have your hand .
+*MOT:	which fingernail shall I cut first ?
+*MOT:	okay (.) now let me see your hand .
+*MOT:	oh (.) your fingernails are so long .
+*MOT:	oh (.) that's right .
+*MOT:	what are you doing ?
+*MOT:	giving me your finger ?
+*MOT:	which finger am I cutting now ?
+*MOT:	you know what (.) what this one is called ?
+*MOT:	a thumb .
+*MOT:	let's cut the nail on your thumb .
+*MOT:	w(h)oop .
+*MOT:	there we go .
+*MOT:	now the other hand .
+*MOT:	see your other hand .
+*MOT:	you like to have your fingernails cut ?
+*MOT:	which finger is this ?
+*MOT:	&uh [= yes] ?
+*MOT:	a little finger (.) right ?
+*MOT:	and this is a long finger .
+*MOT:	did I cut all your nails now ?
+*MOT:	no (.) not quite all .
+*MOT:	now you wanna cut your dolly's fingernails +...
+*MOT:	with your scissors ?
+*MOT:	w(h)oops .
+*MOT:	finish cutting this one .
+*MOT:	okay (.) now you better cut the dolly's fingernails .
+*MOT:	yes her fingernails are very long .
+*MOT:	what are you doing ?
+*MOT:	does she like to have her fingernails cut ?
+*MOT:	&um [= what] ?
+*MOT:	oh (.) now does Raggedy_Ann need her fingernails cut ?
+*MOT:	just this dolly ?
+*MOT:	I see .
+*MOT:	clothes ?
+*MOT:	that doesn't keep your fingernails from growing .
+*MOT:	look how long my fingernails are .
+*MOT:	see .
+*MOT:	are yours +...
+*MOT:	why ?
+*MOT:	lots_of big people have longer fingernails then children ?
+*MOT:	I see .

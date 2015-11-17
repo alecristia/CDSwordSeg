@@ -1,0 +1,253 @@
+*MOT:	see the telephone ? 2820_4307
+*MOT:	why don't you say hello@q to grandma ? 4353_6443
+*MOT:	hello ? 6465_12781
+*MOT:	see the blocks ? 12805_17332
+*MOT:	yeah ! 21466_22185
+*MOT:	see the blocks ? 22209_23114
+*MOT:	(.) what's this ? 23137_24159
+*MOT:	(.) doggie ? 24206_26156
+*MOT:	&um &hmm . 29430_30336
+*MOT:	(.) are we on now ? 30359_35003
+*MOT:	would ya like to sit in the chair , dale huh ? 47363_49662
+*MOT:	up ! 49685_50893
+*MOT:	(.) would you rather play with the box ? 50916_55769
+*MOT:	see what else we have here . 55792_58068
+*MOT:	okay . 73945_74758
+*MOT:	let's read a book . 74781_76616
+*MOT:	pat the bunny ! 78822_80099
+*MOT:	(.) see ? 80099_81190
+*MOT:	(.) see the boy and the girl ? 81190_84603
+*MOT:	(.) see the bunny ? 84603_90850
+*MOT:	(.) look [=! whisper] ! 90850_92452
+*MOT:	(.) feel (.) it's a bunny . 92452_99975
+*MOT:	peekaboo ! 99975_107336
+*MOT:	look [=! whisper] ! 107336_110772
+*MOT:	peekaboo ! 110772_111655
+*MOT:	(.) peekaboo ! 111655_114697
+*MOT:	see the pretty flowers ? 122615_132692
+*MOT:	(.) &hmm ? 132692_134248
+*MOT:	&um &hmm . 137057_138033
+*MOT:	smell (th)em . 138032_138822
+*MOT:	&um &hmm . 143233_144046
+*MOT:	(.) who's that ? 144069_150663
+*MOT:	huh ? 150663_151476
+*MOT:	look at this , dale . 151476_160880
+*MOT:	whiskers +... 160880_163643
+*MOT:	(A)nother bunny (.) see ? 178226_182312
+*MOT:	(i)t's a book . 182312_186515
+*MOT:	put your finger in the hole . 186515_191205
+*MOT:	look ! 191205_192297
+*MOT:	(i)t's a ring ! 192296_193690
+*MOT:	a ring , where's your ring ? 193713_195849
+*MOT:	(.) yes ! 195872_199053
+*MOT:	wan(t) put it on ? 199052_205159
+*MOT:	wanna put the ring on ? 205183_206135
+*MOT:	(.) yeah ! 206157_207760
+*MOT:	alright (.) (let)'s see what else we have here . 217001_220415
+*MOT:	what's this ? 220415_222017
+*MOT:	(i)t's a doggie (.) ! 222017_226336
+*MOT:	yeah ! 246678_247305
+*MOT:	doggie ! 247304_248396
+*MOT:	see , this is the doggie's house . 253551_256662
+*MOT:	the doggie likes to stay in there (.) see ? 256661_260771
+*MOT:	yes (.) ! 271128_272405
+*MOT:	doggie . 272405_273310
+*MOT:	put the doggie in his house (.) go on . 276073_280717
+*MOT:	put him in his house . 280717_282134
+*MOT:	good ! 282134_284618
+*MOT:	(.) very good , yes . 284617_287613
+*MOT:	now he wants out again . 288960_290678
+*MOT:	(.) the doggie wants out ! 290678_295484
+*MOT:	take him out_of his house ! 295484_302358
+*MOT:	(.) yeah ! 302358_304958
+*MOT:	yeah ! 307861_309022
+*MOT:	why dontchya [: don't you] put the [/] the block in the house ? 309022_311181
+*MOT:	put the block in the house (.) huh ? 311181_316243
+*MOT:	(.) look ! 316243_317311
+*MOT:	no , it doesn't go there ? 327435_328968
+*MOT:	alright . 328967_329962
+*MOT:	put [/] put the doggie back there . 329927_331577
+*MOT:	put the doggie back in the house . 332636_334471
+*MOT:	wan(t) t(o) put him back ? 342760_348194
+*MOT:	alright , you can hold it . 348194_349424
+*MOT:	see what else , there's so many fun things here . 349422_352000
+*MOT:	see ? 361149_365212
+*MOT:	these are your shoes ! 365235_367232
+*MOT:	you have some just like that . 367279_368300
+*MOT:	here's an apple (.) and a brush (.) an(d) comb (.) flowers (.)
+*MOT:	they don't smell , do they ? 383788_388478
+*MOT:	this's a cup +... 388478_391799
+*MOT:	keys ! 396327_396884
+*MOT:	see ? 396884_398509
+*MOT:	we'll put the doggie away now , okay ? 405847_421729
+*MOT:	hi ! 421729_427976
+*MOT:	(.) hi ! 427976_431412
+*MOT:	(.) hi [=! gets progressively higher and louder] ! 431412_436010
+*MOT:	kiss ? 436033_438030
+*MOT:	(.) take off my shoes [=! falsetto] . 438029_443417
+*MOT:	take off my shoes ! 443463_447155
+*MOT:	not my pants [=! fals] ! 447178_453006
+*MOT:	(.) my shoes ! 453053_454283
+*MOT:	wan(t) unzip my pants [=! gets more natural] ? 454330_462527
+*MOT:	I'll let you . 462527_465058
+*MOT:	see my zipper ? 466845_468935
+*MOT:	pull it down ! 468935_470630
+*MOT:	(.) see ? 470654_472209
+*MOT:	(.) look . 472209_473022
+*MOT:	you do it . 473021_478989
+*MOT:	look , dale . 505367_508130
+*MOT:	the shoes come off . 508130_509941
+*MOT:	maybe they don't [=! softly , to self] ! 509941_514098
+*MOT:	oh , tie the shoe ! 514098_517163
+*MOT:	okay ! 517163_517790
+*MOT:	we'll do this [=! under breath] . 517790_520088
+*MOT:	tie the shoes . 520088_522225
+*MOT:	do you have a dolly like that ? 543633_547650
+*MOT:	oops ! 551992_553478
+*MOT:	alright , what else do we have , here ? 553478_556682
+*MOT:	all kinds of books (.) (let')s look at this book . 556682_563137
+*MOT:	&um &hmm ! 580203_580668
+*MOT:	you're done with that ? 604050_605769
+*MOT:	oh , you wanna get up ? 607394_608880
+*MOT:	(.) let's look a little bit more . 608880_611527
+*MOT:	what's this ? 611527_613245
+*MOT:	spoon ? 620560_622092
+*MOT:	xxx . 622091_641364
+*MOT:	see the bunnies ? 646541_647261
+*MOT:	look ! 647308_647656
+*MOT:	bunnies ! 647656_648608
+*MOT:	here's a horsie +... 648608_650837
+*MOT:	raisins (.) oh , look , raisins . 650884_658105
+*MOT:	little girls +... 658104_664374
+*MOT:	see the nose ? 669111_675937
+*MOT:	(.) see the nose ? 675961_678004
+*MOT:	here's a kitty's nose . 678004_684320
+*MOT:	an(d) a horsie's nose (.) an(d) a doggie's nose +... 684320_690845
+*MOT:	what's that ? 697439_699924
+*MOT:	look ! 718057_719660
+*MOT:	don't let him out ! 732431_737678
+*MOT:	&ah ! 737678_738120
+*MOT:	he's getting out ! 738143_739095
+*MOT:	put him back ! 739095_740511
+*MOT:	push him in ! 740511_741301
+*MOT:	push him in ! 741301_742346
+*MOT:	push him in [=! gets soft] ! 742346_743576
+*MOT:	&ah ! 743599_746966
+*MOT:	no , he's getting out ! 746966_748545
+*MOT:	push him in ! 748544_749288
+*MOT:	push him in [=! growls] ! 749333_753583
+*MOT:	he's licking you with his tongue ! 757437_759713
+*MOT:	he's a friendly (.) dragon , isn't he ? 763962_767050
+*MOT:	yes ! 768722_769697
+*MOT:	kiss ? 769697_771091
+*MOT:	(.) kiss [=! gets higher] ? 771114_772275
+*MOT:	kiss ? 772275_774899
+*MOT:	yeah ! 780704_781493
+*MOT:	let's keep him in there . 781493_783629
+*MOT:	hi ! 784883_785673
+*MOT:	(.) hi +... 785696_787252
+*MOT:	yeah ! 789225_789690
+*MOT:	I'd like it out better [=! funny voice] . 789690_791106
+*MOT:	lick you with the tongue ! 791106_793057
+*MOT:	lemme out ! 799024_801578
+*MOT:	lemme out ! 801578_803250
+*MOT:	hello ? 816623_818295
+*MOT:	hello , hello . 818295_819015
+*MOT:	lemme out [=! funny voice] . 826375_828000
+*MOT:	I want (.) to eat the doggie [=! funny voice] (.) where's the
+*MOT:	www . 841304_856072
+*MOT:	this is food ! 856096_861436
+*MOT:	food (.) I'm hungry ! 861436_864850
+*MOT:	(.) I think the dragon wants his lunch . 864850_871212
+*MOT:	I'm hungry [=! high voice] ! 871235_872442
+*MOT:	(.) I'm hungry ! 872466_874857
+*MOT:	yeah ! 880569_881266
+*MOT:	oh , I'm hungry ! 881266_883379
+*MOT:	feed me [=! high voice] . 883379_884447
+*MOT:	I am ! 886491_890577
+*MOT:	I'm hungry [=! high voice] ! 890577_891947
+*MOT:	feed me that piece of meat [=! more normal voice] . 891947_894478
+*MOT:	you just want to kiss ! 896080_897032
+*MOT:	(.) I'm so hungry [=! high pitch] ! 897032_900028
+*MOT:	I'll feed him . 900028_905299
+*MOT:	(.) I'll feed him . 905299_906529
+*MOT:	I'm hungry [=! high pitch] ! 906529_907806
+*MOT:	here's your dinner . 907830_908642
+*MOT:	here's your dinner [=! gets higher , makes eating noises] . 908642_912752
+*MOT:	see ? 912752_915887
+*MOT:	(.) ya wanna feed him ? 915887_918255
+*MOT:	I'm hungry [=! falsetto] ! 918279_923898
+*MOT:	hungry ! 926243_929215
+*MOT:	(.) oh ! 929215_931908
+*MOT:	thank_you , thank_you [=! fals] ! 931908_933302
+*MOT:	more ! 933302_938572
+*MOT:	more [=! laughs] ! 938571_944957
+*MOT:	(.) more ! 945003_947349
+*MOT:	can you get it back out_of my stomach ? 947395_950228
+*MOT:	it's down my throat ! 950228_952039
+*MOT:	wait a minute , oh , maybe it'll come out the other end . 959539_962278
+*MOT:	look , here's some more . 962325_966110
+*MOT:	ya wanna feed him some more ? 966110_967689
+*MOT:	I'm gonna bite you ! 969221_974028
+*MOT:	I'll eat your leg ! 976559_977789
+*MOT:	I'm hungry ! 977813_979159
+*MOT:	I'm gonna eat your hand ! 979159_980831
+*MOT:	let's put him away , dale . 982457_984686
+*MOT:	he's getting mean . 984686_985522
+*MOT:	lemme out_of here [=! funny voice] ! 985520_987634
+*MOT:	oh , (.) oh , I'm so hungry [=! funny voice] ! 987657_996271
+*MOT:	oh , thank_you ! 996271_997316
+*MOT:	where d(o) you think you're going ? 997316_1005745
+*MOT:	huh ? 1005745_1006720
+*MOT:	let's put him away for now . 1006720_1013547
+*MOT:	what ? 1016055_1018818
+*MOT:	trucks ! 1023206_1023857
+*MOT:	(re)member the truck this morning ? 1023857_1025598
+*MOT:	see the trucks ? 1029081_1030428
+*MOT:	(.) see the kitty ? 1030428_1031357
+*MOT:	there's Joey +... 1031380_1033191
+*MOT:	trucks , dale . 1039854_1045683
+*MOT:	look ! 1045729_1046054
+*MOT:	look at the trucks . 1046077_1048771
+*MOT:	wheels ! 1054506_1055899
+*MOT:	okay . 1066674_1067974
+*MOT:	here's another book . 1067974_1069367
+*MOT:	look . 1069367_1070551
+*MOT:	look at the doggies . 1070551_1071387
+*MOT:	y(ou) wan(t) look at that one ? 1071387_1076983
+*MOT:	one at a time ? 1076983_1077796
+*MOT:	see the kitties ? 1118012_1119196
+*MOT:	(.) the butterflies ? 1119196_1122099
+*MOT:	you don't like that ? 1125071_1127439
+*MOT:	let's see what else is here . 1127437_1129156
+*MOT:	cups (.) and a chair (.) just like your little chair . 1129179_1134102
+*MOT:	chickies +... 1134148_1140116
+*MOT:	balls , yes . 1141671_1143552
+*MOT:	balls on strings that float in the air +... 1143552_1147105
+*MOT:	yes +... 1147616_1148730
+*MOT:	yes . 1152004_1152469
+*MOT:	like that , huh ? 1152469_1154187
+*MOT:	crayons (.) flowers (.) wan(t) smell the flowers again ? 1164868_1172298
+*MOT:	wan(t) smell the pretty flowers [=! softer] ? 1172298_1176455
+*MOT:	yes +... 1182213_1183676
+*MOT:	crayons , right ! 1216068_1217879
+*MOT:	how many are there ? 1218854_1220364
+*MOT:	where's the green one ? 1220387_1221478
+*MOT:	(.) huh ? 1221478_1223754
+*MOT:	where's the green one ? 1223754_1225356
+*MOT:	(.) blocks +... 1240774_1259025
+*MOT:	wan(t) see the doggie again ? 1271285_1272956
+*MOT:	huh ? 1272956_1273700
+*MOT:	is he stuck in there ? 1280758_1283220
+*MOT:	huh ? 1283243_1284102
+*MOT:	(.) there (.) look_it , he's got a ribbon (.) round his neck . 1284102_1289582
+*MOT:	it's a leash ! 1291138_1292740
+*MOT:	(.) wan(t) take him for a walk on the leash ? 1292740_1294690
+*MOT:	here . 1294690_1295898
+*MOT:	hold on . 1295898_1296594
+*MOT:	put him away (.) put him way . 1314590_1317399
+*MOT:	kiss him goodbye . 1317399_1318955
+*MOT:	isn't that upside down ? 1318978_1325387
+*MOT:	huh ? 1325387_1325875
+*MOT:	he's upside down ! 1329126_1331192
+*MOT:	fix him . 1331215_1332980

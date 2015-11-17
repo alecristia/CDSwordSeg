@@ -1,0 +1,390 @@
+*MOT:	whaddya [: what are you] gettin(g) into ? 28850_29857
+*MOT:	thank_you . 70900_71620
+*MOT:	thank_you very much . 72423_73410
+*MOT:	I'm (g)onna put it away now . 74817_75873
+*MOT:	it's in the cabinet . 76787_77520
+*MOT:	wanna shut the door now ? 83300_84143
+*MOT:	you shut it ? 85013_85450
+*MOT:	shut the door ! 87533_88123
+*MOT:	thank_you . 89243_90087
+*MOT:	why won't the door shut all the way ? 95133_96450
+*MOT:	shut the door ! 101997_102540
+*MOT:	shut the door now ! 121023_122283
+*MOT:	there (y)o(u) go . 131177_131693
+*MOT:	will you shut the door ? 132010_132747
+*MOT:	watch your fingers ! 228653_229670
+*MOT:	thank_you . 273343_274080
+*MOT:	Mom put it away okay ? 275380_276437
+*MOT:	let's get this out o(f) there &=noise ! 302527_303680
+*MOT:	crumble it up ! 317887_318500
+*MOT:	I'm gonna go throw it away now . 321297_322353
+*MOT:	hi . 740467_741000
+*MOT:	come back ! 742383_743093
+*MOT:	whatcha doin(g) there ? 754680_755587
+*MOT:	no you cannot play with the wire . 755637_757540
+*MOT:	no . 771533_772147
+*MOT:	b(ye) bye . 797683_798480
+*MOT:	b(ye) bye you goin(g) away ? 799627_800597
+*MOT:	what you need ? 892117_892907
+*MOT:	what are you doin(g) with the book ? 1100693_1101823
+*MOT:	what are you doin(g) with it ? 1104833_1105693
+*MOT:	s(l)eep . 1111447_1112393
+*MOT:	is a kitten ? 1113907_1114697
+*MOT:	he's got fur . 1115120_1116063
+*MOT:	you feel sof(t) fur ? 1116570_1117637
+*MOT:	then on the next page this kitten has a rough tongue . 1123127_1126747
+*MOT:	feel that ? 1127860_1128193
+*MOT:	see it's rough ! 1132423_1133250
+*MOT:	let's see what's on the next page ! 1137057_1138280
+*MOT:	they have shiny tags . 1140230_1141473
+*MOT:	see the smooth shiny tag ? 1141630_1143050
+*MOT:	yeah . 1146773_1147383
+*MOT:	wanna see what's on the next page now ? 1152547_1153977
+*MOT:	this kitty's got a hard yellow bowl . 1157320_1159147
+*MOT:	you feel that ? 1160110_1160723
+*MOT:	that's yellow . 1162320_1162953
+*MOT:	that's a color and it's hard . 1162973_1164353
+*MOT:	let's see what's on the next page ! 1165990_1167213
+*MOT:	it's a scratchy straw basket . 1168397_1170573
+*MOT:	you feel it ? 1170750_1171227
+*MOT:	you like the fur the best ? 1175497_1176633
+*MOT:	okay . 1177153_1177620
+*MOT:	you feel the kitty's fur . 1178983_1180033
+*MOT:	it's a kitty . 1185020_1185687
+*MOT:	kitty's tongue is rough . 1196417_1197683
+*MOT:	xxx give a kiss to the kitty &=laugh . 1202987_1204823
+*MOT:	kitty's fur . 1245687_1246443
+*MOT:	that kitty's got a rough tongue . 1263013_1264590
+*MOT:	what about these kitties ? 1271817_1272660
+*MOT:	these kitties have so the shiny tags . 1273220_1275543
+*MOT:	oh that's too many pages . 1279067_1280070
+*MOT:	you've got_to turn them one at a time . 1280083_1281367
+*MOT:	on the next page . 1283257_1284140
+*MOT:	see kitty's eatin(g) out_of a hard yellow bowl ! 1285533_1287830
+*MOT:	lick . 1291183_1291580
+*MOT:	back to the fur ? 1295463_1296277
+*MOT:	want to look at the next page first ? 1297577_1298973
+*MOT:	that kitty ? 1301757_1302510
+*MOT:	he's sleepin(g) in a scratchy basket . 1302793_1304573
+*MOT:	oh . 1327110_1327240
+*MOT:	you took the book away . 1327947_1328950
+*MOT:	see it's the kitty with the fur ! 1344610_1346697
+*MOT:	let's see what's on the next page ! 1349723_1350860
+*MOT:	that's kitty's tongue . 1352143_1353330
+*MOT:	over and over again . 1361613_1363213
+*MOT:	the first the best huh ? 1369120_1370390
+*MOT:	you like to pet the kitty ? 1371783_1372763
+*MOT:	that so ? 1391357_1392080
+*MOT:	come and meet your favorite kittens [=! read] ! 1396250_1398100
+*MOT:	stroke my soft fur [=! read] ! 1402213_1404163
+*MOT:	stroke the fur ? 1405243_1406033
+*MOT:	wanna pet the kitty ? 1406493_1407450
+*MOT:	no . 1409483_1409857
+*MOT:	okay . 1409940_1410500
+*MOT:	touch my rough pink tongue [=! read] ! 1412047_1414040
+*MOT:	what's the next page ? 1418760_1419657
+*MOT:	you like the tongue ? 1420053_1420940
+*MOT:	xxx . 1422357_1422937
+*MOT:	look at our smooth shiny tags [=! read] . 1426067_1428353
+*MOT:	feel my hard yellow food bowl [=! read] ! 1434017_1435833
+*MOT:	why are you stickin(g) your fingers in my mouth ? 1435857_1437353
+*MOT:	the hard yellow bowl ? 1439517_1440467
+*MOT:	it's on the next page . 1441940_1442820
+*MOT:	touch the scratchy straw basket [=! read] ! 1445843_1447977
+*MOT:	it's a kitty . 1457657_1458323
+*MOT:	it's a kitty &=noise . 1461417_1462317
+*MOT:	it's a kitty in a basket . 1482280_1483520
+*MOT:	that's a kitty with soft fur . 1491713_1493840
+*MOT:	&uh feel the fur ? 1496430_1497730
+*MOT:	no you can't play with that . 1500173_1502213
+*MOT:	on the next page . 1507713_1508573
+*MOT:	that's a kitty that's stickin(g) out his tongue . 1510600_1512273
+*MOT:	where's your tongue ? 1514793_1515347
+*MOT:	there's your tongue [=! voice] . 1516330_1517080
+*MOT:	where's Mommy's tongue ? 1521940_1522760
+*MOT:	like the kitty ? 1529057_1529897
+*MOT:	take a xxx ? 1549023_1549600
+*MOT:	Mommy's had enough of this book . 1552353_1553787
+*MOT:	you want to go find me another one ? 1553983_1555037
+*MOT:	why don't you take this one and go find another book ? 1556107_1557857
+*MOT:	okay we'll read it again . 1572620_1574110
+*MOT:	come meet your favorite kittens [=! read] ! 1579490_1581257
+*MOT:	stroke my soft silky fur [=! read] ! 1582493_1584587
+*MOT:	want to skip over that ? 1589013_1590003
+*MOT:	okay that's that page &=noise . 1590093_1591253
+*MOT:	touch my rough pink tongue [=! read] ! 1591893_1593903
+*MOT:	yeah it's rough . 1595660_1596457
+*MOT:	yeah . 1598127_1598537
+*MOT:	rough . 1599880_1600360
+*MOT:	want to touch it ? 1602610_1603193
+*MOT:	pet the kitty ! 1607927_1608623
+*MOT:	that's his tongue . 1610770_1611520
+*MOT:	ready for the next page ? 1615260_1616290
+*MOT:	look at our smooth shiny tags [=! read] ! 1617403_1619753
+*MOT:	see (th)em ? 1621320_1621770
+*MOT:	yeah &=laugh . 1624743_1625227
+*MOT:	there's two kitties and they both have shiny tags . 1627787_1630553
+*MOT:	you gonna pet that kitty again ? 1645647_1646933
+*MOT:	with the fur ? 1647427_1648053
+*MOT:	okay go on to the next page ! 1649563_1651070
+*MOT:	feel my hard yellow food bowl [=! read] ! 1652663_1654510
+*MOT:	see the kitty eatin(g) out o(f) the food bowl ? 1654620_1656280
+*MOT:	it's yellow &=noise . 1663940_1664517
+*MOT:	and on the last page . 1666420_1667840
+*MOT:	touch the scratchy straw basket [=! read] ! 1668443_1670577
+*MOT:	do the kitties sleep in the basket ? 1670880_1672737
+*MOT:	all done . 1678890_1679503
+*MOT:	no we're all done . 1698763_1699683
+*MOT:	we read it lots . 1699977_1701427
+*MOT:	not gonna read it anymore . 1703007_1704103
+*MOT:	okay I'll touch his tongue . 1708607_1710020
+*MOT:	rough [=! voice] . 1711463_1711970
+*MOT:	rough . 1714550_1714980
+*MOT:	there's Jacob's tongue . 1716817_1717757
+*MOT:	pet the kitty ? 1727770_1728533
+*MOT:	rough tongue . 1737367_1738273
+*MOT:	that's the kitty's fur . 1761173_1762300
+*MOT:	I'm not readin(g) the book anymore . 1780723_1782147
+*MOT:	not readin(g) that book anymore . 1783380_1784517
+*MOT:	you can look at it . 1787120_1787953
+*MOT:	oh you want me to touch the kitty's tongue huh ? 1808563_1810447
+*MOT:	you find a ball ? 1828480_1829257
+*MOT:	thank_you . 1832847_1833770
+*MOT:	ready ? 1834513_1834877
+*MOT:	here go . 1835550_1835887
+*MOT:	can you throw it ? 1836637_1837247
+*MOT:	here you go . 1840667_1841137
+*MOT:	can you throw the ball ? 1845910_1846727
+*MOT:	throw the ball ? 1849527_1850077
+*MOT:	I've got the ball . 1878323_1879090
+*MOT:	you want it ? 1879450_1880007
+*MOT:	here go . 1881333_1881740
+*MOT:	careful ! 1887077_1887663
+*MOT:	oh . 1893473_1893667
+*MOT:	drop the ball &=noise . 1894200_1894987
+*MOT:	here go . 1912207_1912603
+*MOT:	throw it to me ? 1914123_1914643
+*MOT:	here go . 1920003_1920340
+*MOT:	can you throw it to me &=noise ? 1922350_1923057
+*MOT:	can you throw it right there ? 1926143_1926990
+*MOT:	oh good throw . 1929377_1931007
+*MOT:	here go . 1931920_1932380
+*MOT:	throw it to Mommy ? 1934853_1935527
+*MOT:	oh &=noise . 1936213_1936673
+*MOT:	what a good throw . 1937727_1938970
+*MOT:	tickle . 1941187_1941567
+*MOT:	you threw the ball right to me [=! voice] . 1945547_1946957
+*MOT:	you throw the ball ? 1960340_1961103
+*MOT:	can I throw it to you ? 1981343_1982057
+*MOT:	really ? 1990620_1990987
+*MOT:	you want me to throw it in the air ? 1993657_1994617
+*MOT:	is that it ? 1994800_1995373
+*MOT:	let me throw the lighter ball in the air &=noise ! 1996657_1998010
+*MOT:	ready ? 1998193_1998520
+*MOT:	up . 1999967_2000267
+*MOT:	up . 2002927_2003340
+*MOT:	you like that ? 2007457_2008037
+*MOT:	you like to watch the ball ? 2008057_2008833
+*MOT:	what a good throw . 2009843_2010977
+*MOT:	ready ? 2013593_2013983
+*MOT:	up . 2014853_2015283
+*MOT:	oh . 2019600_2019847
+*MOT:	you want that one ? 2022157_2022793
+*MOT:	oh . 2024943_2025403
+*MOT:	up . 2026903_2027157
+*MOT:	xxx you ? 2032360_2032947
+*MOT:	ready ? 2039503_2039797
+*MOT:	ready ? 2039960_2040243
+*MOT:	up . 2040860_2041100
+*MOT:	oh . 2045243_2045577
+*MOT:	oh [?] . 2046730_2046913
+*MOT:	you want that xxx ? 2049613_2050173
+*MOT:	oh . 2052077_2052430
+*MOT:	good throw . 2052727_2053613
+*MOT:	good . 2056123_2056787
+*MOT:	up . 2061260_2061627
+*MOT:	uhoh that ball got away . 2070567_2071857
+*MOT:	you want that one ? 2071893_2072427
+*MOT:	oh . 2073240_2073380
+*MOT:	xxx ready ? 2073863_2074773
+*MOT:	Jacob . 2075360_2075967
+*MOT:	look up here ! 2077193_2077677
+*MOT:	ready ? 2078413_2078690
+*MOT:	that was a very good throw . 2100727_2101967
+*MOT:	ouch . 2132863_2133427
+*MOT:	does that hurt ? 2133807_2134443
+*MOT:	ready ? 2135020_2135307
+*MOT:	up . 2142767_2143190
+*MOT:	oh . 2149070_2149483
+*MOT:	oh . 2151693_2152017
+*MOT:	oh . 2154957_2155390
+*MOT:	oh no . 2156803_2157327
+*MOT:	oh no the ball ran away . 2171513_2172787
+*MOT:	I don't know where it went . 2174190_2174993
+*MOT:	gotta go find it . 2177383_2178213
+*MOT:	hi [=! voice] . 2246970_2247417
+*MOT:	did you bring the ball back ? 2248533_2249567
+*MOT:	what did I tell you about the microphone ? 2254113_2255377
+*MOT:	you can't play with it . 2255533_2256383
+*MOT:	you (go)nna put the ball in the pocket ? 2261513_2262660
+*MOT:	good job . 2266227_2267103
+*MOT:	in the pocket . 2275530_2276150
+*MOT:	all_gone . 2276310_2276763
+*MOT:	in the pocket . 2305847_2306397
+*MOT:	where you goin(g) ? 2340040_2340630
+*MOT:	oh you're bein(g) sneaky . 2357130_2358480
+*MOT:	I don't know how long we've not been recording for . 2391120_2393380
+*MOT:	you keep playin(g) with it and keep messin(g) it up . 2405110_2407030
+*MOT:	that's right . 2411200_2411730
+*MOT:	it's to record you talkin(g) . 2411910_2413083
+*MOT:	this is [?] . 2427990_2428423
+*MOT:	you feel xxx [?] . 2429490_2430493
+*MOT:	here . 2431353_2431580
+*MOT:	you want xxx ? 2443087_2444017
+*MOT:	that what you squirmin(g) around ? 2445363_2446443
+*MOT:	no . 2447227_2447827
+*MOT:	no you're runnin(g) away . 2449093_2450177
+*MOT:	yeah &=laugh . 2455820_2456230
+*MOT:	I think you're sleepy . 2457527_2458617
+*MOT:	I'll leave it right there . 2469663_2470637
+*MOT:	so it'll hear us . 2470977_2471833
+*MOT:	and so you can't play with it . 2472330_2473573
+*MOT:	how's that ? 2474317_2474747
+*MOT:	how's that sound ? 2475987_2476720
+*MOT:	thank_you . 2486303_2486807
+*MOT:	thank_you . 2488213_2488770
+*MOT:	thank_you . 2496243_2496880
+*MOT:	ready ? 2497303_2497637
+*MOT:	up . 2498333_2498533
+*MOT:	why is that so funny ? 2502953_2503847
+*MOT:	ready ? 2505520_2505863
+*MOT:	up . 2506430_2506763
+*MOT:	what (d)o you want me do with it ? 2512370_2513110
+*MOT:	want me do ? 2513647_2514100
+*MOT:	want it to go up ? 2515667_2516283
+*MOT:	ready ? 2516713_2517057
+*MOT:	up . 2518320_2518743
+*MOT:	up . 2523593_2523873
+*MOT:	up . 2536383_2536903
+*MOT:	up . 2545040_2545427
+*MOT:	up . 2553097_2553497
+*MOT:	up . 2558837_2559297
+*MOT:	put it in there ? 2594917_2595560
+*MOT:	you silly . 2628580_2629347
+*MOT:	no you can't play with it . 2662127_2663817
+*MOT:	Mommy took it off so you wouldn't play with it . 2664803_2666340
+*MOT:	nope . 2667337_2667580
+*MOT:	oh you popped me in the nose . 2692067_2693707
+*MOT:	what a good throw . 2740067_2741117
+*MOT:	ready . 2741830_2742123
+*MOT:	up . 2742757_2743113
+*MOT:	I didn't catch it . 2745987_2746877
+*MOT:	I'm sorry . 2747053_2747753
+*MOT:	up . 2756620_2756867
+*MOT:	ball there . 2776903_2777490
+*MOT:	no &=noise . 2854170_2854603
+*MOT:	can't play with the microphone . 2856400_2857567
+*MOT:	uhuh . 2857790_2858217
+*MOT:	gonna get you . 2879850_2880433
+*MOT:	tickle . 2891727_2892283
+*MOT:	you hungry ? 2892330_2892943
+*MOT:	yeah . 2898327_2898753
+*MOT:	no biting . 2911777_2912617
+*MOT:	no biting . 2913073_2913767
+*MOT:	you all done ? 3021843_3022430
+*MOT:	no you can't play with the microphone . 3030177_3031747
+*MOT:	uhuh . 3032447_3032813
+*MOT:	Mommy's gonna wait . 3034227_3035253
+*MOT:	what are you doin(g) ? 3044040_3044627
+*MOT:	you're afraid you're gonna fall asleep . 3089553_3090980
+*MOT:	huh ? 3091563_3091850
+*MOT:	that why you so squirmy ? 3092600_3093560
+*MOT:	it's a microphone and you can't play with it . 3131880_3133573
+*MOT:	it's not for eating . 3135013_3135857
+*MOT:	what ? 3147187_3147503
+*MOT:	what are you doing ? 3148053_3148643
+*MOT:	what are you doing ? 3151140_3151790
+*MOT:	that so ? 3181197_3181907
+*MOT:	is this xxx xxx xxx ? 3186230_3187917
+*MOT:	oh you find you're book+bag . 3201700_3203293
+*MOT:	why don't you read it to me ? 3206560_3207637
+*MOT:	you giving it to me ? 3233620_3234467
+*MOT:	okay . 3234563_3234923
+*MOT:	what's on that page ? 3235007_3235863
+*MOT:	the basket . 3236933_3237623
+*MOT:	the kitty's in the basket . 3237850_3238983
+*MOT:	get the ball ? 3286797_3287427
+*MOT:	good throw . 3292523_3293477
+*MOT:	where'd the ball go ? 3362717_3363567
+*MOT:	xxx xxx the ball ? 3402640_3403653
+*MOT:	oh . 3427877_3428323
+*MOT:	good throw &=noise . 3444853_3445593
+*MOT:	are you biting my toes ? 3929660_3931117
+*MOT:	&um . 3947663_3948130
+*MOT:	don't bite my toes ! 3948820_3950183
+*MOT:	bump . 3966613_3967100
+*MOT:	bump . 3968877_3969287
+*MOT:	you sleepy ? 3974973_3975863
+*MOT:	you sleepy fallin(g) down ? 3976953_3978123
+*MOT:	you almost xxx floor [?] . 3986953_3988110
+*MOT:	it's rough . 4089293_4089940
+*MOT:	kitty's tongue is rough . 4090850_4091823
+*MOT:	thank_you . 4096387_4097147
+*MOT:	thank_you for giving me your book . 4097317_4098637
+*MOT:	what page do you wanna look at ? 4100423_4101553
+*MOT:	how about the shiny smooth tags &=noise ? 4103203_4105447
+*MOT:	no you don't want that page ? 4109867_4110927
+*MOT:	what page do you wanna look at ? 4110967_4111920
+*MOT:	wanna look at the page with the basket ? 4115800_4117280
+*MOT:	or the food dish ? 4121640_4122833
+*MOT:	the shiny tags . 4124503_4125813
+*MOT:	you like the shiny tags ? 4130397_4131553
+*MOT:	the rough tongue . 4137553_4138510
+*MOT:	and the soft fur . 4141180_4142747
+*MOT:	I don't want to read it anymore . 4159170_4160697
+*MOT:	why don't you read it to me ? 4162287_4163317
+*MOT:	you read it to me ? 4163987_4164693
+*MOT:	tell me about it ! 4165863_4166460
+*MOT:	what's this ? 4167327_4167943
+*MOT:	it's fur . 4170230_4170953
+*MOT:	fur . 4172347_4172690
+*MOT:	kitty has fur ? 4176650_4177497
+*MOT:	what's on the next page ? 4177583_4178367
+*MOT:	on the next page . 4179883_4180633
+*MOT:	tongue . 4181523_4182077
+*MOT:	you see the kitty's tongue ? 4182227_4183203
+*MOT:	rough . 4185657_4185940
+*MOT:	here it is . 4197137_4197707
+*MOT:	shiny tags . 4199950_4201010
+*MOT:	oh yay . 4226063_4226623
+*MOT:	what ? 4283203_4283443
+*MOT:	xxx xxx ? 4284727_4285393
+*MOT:	uhoh gotta answer the phone . 4297710_4299363
+*MOT:	www . 4303400_4303803
+*MOT:	www . 4304637_4304937
+*MOT:	www . 4306073_4306670
+*MOT:	www . 4308703_4312533
+*MOT:	www . 4312723_4313403
+*MOT:	www . 4316700_4317497
+*MOT:	www . 4328047_4329150
+*MOT:	www . 4329660_4332777
+*MOT:	www . 4336127_4337440
+*MOT:	www . 4340507_4340867
+*MOT:	www . 4344580_4345323
+*MOT:	www . 4348287_4351227
+*MOT:	www . 4355487_4359590
+*MOT:	www . 4363387_4364110
+*MOT:	www . 4366410_4367450
+*MOT:	www . 4368600_4369890
+*MOT:	www . 4378697_4380197
+*MOT:	www . 4382160_4382630
+*MOT:	www . 4383490_4385590
+*MOT:	www . 4386367_4387300
+*MOT:	www . 4389117_4389403
+*MOT:	www . 4392590_4392953
+*MOT:	www . 4395290_4399780
+*MOT:	www . 4402390_4403583
+*MOT:	www . 4405377_4407773
+*MOT:	www . 4415747_4416123
+*MOT:	www . 4417403_4418360
+*MOT:	I see you . 4429127_4430447

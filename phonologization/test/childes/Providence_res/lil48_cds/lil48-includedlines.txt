@@ -1,0 +1,328 @@
+*MOT:	you could eat it with a spoon .
+*MOT:	you have_to cut that corn too ? 9515_11178
+*MOT:	xxx . 11178_13995
+*MOT:	and banana . 13995_16329
+*MOT:	xxx . 17315_18371
+*MOT:	xxx . 20385_22771
+*MOT:	xxx . 22771_24520
+*MOT:	good cheese . 24520_25656
+*MOT:	xxx . 25656_28920
+*MOT:	mm tasty corn . 28920_29975
+*MOT:	xxx mm that banana is scrumptious . 29975_34376
+*MOT:	scrumptious . 36400_41055
+*MOT:	are you making dinner ? 41055_42596
+*MOT:	yeah . 43350_44125
+*MOT:	what are we gonna have for dinner ? 44125_47236
+*MOT:	oh_my_goodness . 53743_55350
+*MOT:	mm that is really good what is it ? 81700_84240
+*MOT:	whoa: .
+*MOT:	xxx , that is one good grape hamburger sandwich .
+*MOT:	hmm . 107841_114045
+*MOT:	what are you eating ? 114045_117575
+*MOT:	xxx , you are eating a cheese sandwich ?
+*MOT:	wow that sounds yummy .
+*MOT:	mm mm good . 137700_139851
+*MOT:	delicious . 142611_144300
+*MOT:	mhm . 150100_151000
+*MOT:	scrumptious , Lily .
+*MOT:	xxx , xxx .
+*MOT:	xxx ah .
+*MOT:	ah are you trying to eat me up ? 162105_164675
+*MOT:	oh my gosh that was scary .
+*MOT:	that was scary .
+*MOT:	woo &hoo . 170658_173721
+*MOT:	xxx , that doesn't come off . 178200_180481
+*MOT:	would you like to read a book ? 180483_183458
+*MOT:	the little mermaid you mean ? 210700_212000
+*MOT:	yeah I think our mermaid does come off . 212600_214970
+*MOT:	yeah look now she's wearing a bathing suit .
+*MOT:	xxx .
+*MOT:	great , let me just grab the phone . 225663_228000
+*MOT:	yes she is .
+*MOT:	thank you very much . 232300_236200
+*MOT:	hello there , hi how +... 236200_239000
+*MOT:	aha .
+*MOT:	aha .
+*MOT:	okay .
+*MOT:	&um okay who's xxx ?
+*MOT:	oh I didn't xxx okay .
+*MOT:	okay , okay one ten I have_to pick you up okay , did you get my message ?
+*MOT:	oh just the woman from U_R_I called basically it was like yeah: [: yes] we're real tight with classes xxx .
+*MOT:	I know I'll go into more detail with you later then , okay .
+*MOT:	&uh I don't know , she said she thinks that there's opening in like a cinema class , I'm like what does cinema class have_to do +//?
+*MOT:	and I looked it up , it's in the english department but why , I don't understand , that's basically what she said , I think there're [: there are] a couple of openings in english five sixty five which is (.) cinema .
+*MOT:	okay , xxx .
+*MOT:	well (.) yeah although then you have time find time not only to go to class but watch all these movies too .
+*MOT:	no no no if that's the only thing I can take , that's the only thing I can take , you know , but whatever , okay (.) okay . 310555_317795
+*MOT:	Ariel's [: Ariel is] eating corn ? 317796_321350
+*MOT:	oh , yummy .
+*MOT:	oh my gosh . 325100_326300
+*MOT:	you know what Daddy's [: Daddy is] coming home early today , Honey , (be)cause he has to go to the dentist . 326300_330590
+*MOT:	the dentist . 330591_334288
+*MOT:	a:nd he has to go to the eye doctor too this afternoon , so we have to pick him up (.) early today . 334288_340386
+*MOT:	she's eating Flounder ? 342800_344250
+*MOT:	xxx Flounder's [: Flounder is] her best friend ! 344590_346600
+*MOT:	I don't think she wants to eat him up . 346600_350000
+*MOT:	he does ? 354700_356000
+*MOT:	swimming swimming swimming swimming ! 362690_364640
+*MOT:	Ariel swimming swimming swimming ! 370193_375608
+*MOT:	xxx .
+*MOT:	she is eating a banana .
+*MOT:	that's tasty , woo Ariel !
+*MOT:	oh no Ariel ! 383950_385700
+*MOT:	xxx that was nice honey .
+*MOT:	kiss your boo+boo , is Ariel all better now ? 395200_398925
+*MOT:	&aw: that's nice to rock Ariel , that prolly [: probably] makes her feel better too . 399500_403180
+*MOT:	xxx .
+*MOT:	sometimes what ? 414000_415255
+*MOT:	da_da_da_da@si . 416550_417768
+*MOT:	da_da_da_da_da_da@si . 421250_430900
+*MOT:	hee hee: ha ha ha what are you doing ?
+*MOT:	Honey are you looking into Ariel's eyes ?
+*MOT:	xxx . 439200_440236
+*MOT:	xxx . 440900_442900
+*MOT:	you giving her eskimo kisses ? 442900_445430
+*MOT:	with your nose (.) hee hee hee hee .
+*MOT:	oh my +//. 451800_455850
+*MOT:	&aw Honey , ouch (.) poor Ariel .
+*MOT:	&aw: .
+*MOT:	let's not draw on Ariel . 473600_475315
+*MOT:	we only draw on paper . 475316_478036
+*MOT:	a:h oh are you the doctor , you checking Ariel make sure she's okay ?
+*MOT:	a:h . 483971_490711
+*MOT:	xxx . 515600_517220
+*MOT:	you're gonna +/.
+*MOT:	ha ha , does Ariel like green pepper ?
+*MOT:	a:h .
+*MOT:	ah (.) a:h xxx .
+*MOT:	xxx . 535700_537673
+*MOT:	oh my +...
+*MOT:	oh (.) gosh .
+*MOT:	xxx .
+*MOT:	my gosh is Ariel screaming ?
+*MOT:	xxx . 555206_556800
+*MOT:	xxx you want me to get some paper and you can put some of your little animal stickers on your paper ?
+*MOT:	xxx .
+*MOT:	are you looking into Ariel's throat ? 572078_574983
+*MOT:	making sure she's healthy ?
+*MOT:	are you the doctor ?
+*MOT:	oh .
+*MOT:	oh , great . 602000_603305
+*MOT:	does she need some medicine ?
+*MOT:	oh .
+*MOT:	xxx .
+*MOT:	xxx .
+*MOT:	xxx .
+*MOT:	you checked her throat and she needed medicine ? 625795_628428
+*MOT:	oh . 629050_636676
+*MOT:	you checked her medicine ? 645275_646728
+*MOT:	hmm what does that mean ? 649843_650818
+*MOT:	oh xxx . 652195_653451
+*MOT:	a:h . 655000_655840
+*MOT:	a:h . 657691_658598
+*MOT:	Sweetie pie . 658598_662600
+*MOT:	I think there's another Franklin book in the basket .
+*MOT:	that Auntie gave us , do you wanna look in the basket , there might be a new Franklin book . 665691_669226
+*MOT:	Franklin school trip or something like that ? 669225_672606
+*MOT:	you di:d ? 678720_680016
+*MOT:	is that +//?
+*MOT:	that's it , Franklin's class trip , would you like to read that ? 681840_684955
+*MOT:	okay , do you need anything else to eat before we read ? 685900_689400
+*MOT:	what do you need to eat before we read ? 690200_692640
+*MOT:	well , you had your yummy peanut butter and jelly . 693641_696035
+*MOT:	you ha:d +... 696035_698000
+*MOT:	yo:ur fresh blueberries that we picked . 698000_701700
+*MOT:	what else would be +//?
+*MOT:	okay Sweets , Honey , I need you to help me pick up the fruits and vegetables on the floor , and then we'll read , Mommy will get you something to eat .
+*MOT:	oh Lily . 709236_710435
+*MOT:	I said that a long time ago ? 716300_717760
+*MOT:	hmm can you pick up the strawberry , the onion , the bread , the chicken leg , the piece of pineapple , and the banana please ? 718150_724375
+*MOT:	okay . 726350_727410
+*MOT:	yes . 729650_730760
+*MOT:	okay you pick up those fruits and veggies and Mommy will get you something to eat , okay ? 730761_736876
+*MOT:	can you put them in the basket ? 736876_738623
+*MOT:	oh thank you . 738623_741681
+*MOT:	let's see , what +//?
+*MOT:	what happened ?
+*MOT:	you bumped your head ?
+*MOT:	you need a kiss ? 750240_751250
+*MOT:	xxx . 752086_753608
+*MOT:	that much better ?
+*MOT:	xxx .
+*MOT:	what , Sweets ? 758283_759500
+*MOT:	yep [: yes] I'm gonna get you something to eat first , do you want some dried cherries ? 761721_765200
+*MOT:	yes , okay . 765995_780000
+*MOT:	oh: . 780000_781000
+*MOT:	here you go Honey . 881400_882570
+*MOT:	you were doing such a great job reading , Honey . 882570_885100
+*MOT:	that was great . 885096_886700
+*MOT:	can you pick these pieces up and I'll read it to you ? 886700_888831
+*MOT:	I will read it but first you need to pick up these little fruits and veggies please . 890250_894170
+*MOT:	put those in the basket and Mommy will read to you .
+*MOT:	I know .
+*MOT:	look I'll help you , we each pick up a piece . 900500_902421
+*MOT:	xxx . 905000_907050
+*MOT:	oh_goodness . 907800_909600
+*MOT:	look , I picked up a piece . 909556_912000
+*MOT:	you pick up a piece . 912000_913441
+*MOT:	I pick up a piece . 913441_914903
+*MOT:	you pick up a piece .
+*MOT:	I pick up a piece . 916888_918100
+*MOT:	ya:y ! 919490_920771
+*MOT:	okay . 921680_927200
+*MOT:	oy oy oy oy .
+*MOT:	oy oy oy . 933400_934420
+*MOT:	(o)kay , Franklin's class trip . 938150_947461
+*MOT:	Franklin could count by twos and tie his shoes . 947463_951493
+*MOT:	he had gone with his class to the bakery , the fire station , and the pet store . 951493_955783
+*MOT:	today , Franklin's class was going to the museum . 955783_959365
+*MOT:	Franklin was so excited that he could hardly eat his breakfast . 959365_964110
+*MOT:	the museum had lots_of steps and huge doors . 964110_969950
+*MOT:	wow: said Franklin , it's big . 969950_973063
+*MOT:	it has to be , said Beaver , there are real dinosaurs in there . 973063_976983
+*MOT:	do you remember in New York we went with grandma xxx and grandpa xxx to the museum with the dinosaurs ? 976983_981993
+*MOT:	yeah , that's called the museum of natural history in New_York . 982291_985301
+*MOT:	Beaver had been to the museum before , she knew everything about it . 985301_990950
+*MOT:	bi:g dinosaurs , she emphasized . 990950_993650
+*MOT:	so big that they ate trees for breakfast . 993650_996665
+*MOT:	Franklin was afraid to ask what dinosaurs ate for lunch . 996665_1000085
+*MOT:	Franklin sat down on the steps . 1000085_1003368
+*MOT:	what's wrong , asked Snail . 1003368_1005478
+*MOT:	Beaver says there are real dinosaurs in the museum . 1005478_1008541
+*MOT:	Snail looked alarmed . 1008541_1010600
+*MOT:	that sounds scary . 1010600_1012080
+*MOT:	and Franklin nodded . 1012081_1013278
+*MOT:	we're not gonna get that . 1013278_1014915
+*MOT:	in the museum lobby , Mister_Owl went over the rules . 1014915_1021975
+*MOT:	no shouting , no running , and stay with the group . 1021976_1025651
+*MOT:	Mister_Owl said , Beaver , one more thing . 1025651_1028595
+*MOT:	watch out for the dinosaurs ! 1028598_1030608
+*MOT:	Moose and Bear laughed . 1030608_1032655
+*MOT:	but Franklin didn't , he moved a little closer to Mister_Owl . 1032655_1036653
+*MOT:	their first stop was the bat cave . 1036653_1040609
+*MOT:	it was dark inside . 1040609_1042100
+*MOT:	squeaks and squawks filled the air . 1042100_1044321
+*MOT:	what's that , asked Franklin . 1044323_1046426
+*MOT:	Beaver giggled . 1046426_1047883
+*MOT:	that's the sound bats make to find their way around . 1047883_1050641
+*MOT:	Franklin was relieved that it was bats , and not dinosaurs . 1050641_1054500
+*MOT:	the class visited the rainforest next . 1054500_1058186
+*MOT:	Franklin climbed high into a tree house . 1058186_1060875
+*MOT:	he could see the tops of trees . 1060875_1062995
+*MOT:	can you spot any dinosaurs , asked Snail . 1062995_1065906
+*MOT:	Franklin shook his head and climbed down quickly . 1065906_1069146
+*MOT:	there was so much to do in the museum that Franklin almost forgot about the dinosaurs . 1069146_1074565
+*MOT:	in the medieval room , Franklin had fun dressing up like a knight . 1074565_1078331
+*MOT:	xxx (.) we saw knights in the other museum in New_York , at the Metropolitan , right ? 1078331_1083476
+*MOT:	yeah . 1083876_1085075
+*MOT:	Franklin even got_to dig in a sandy pit . 1085075_1089008
+*MOT:	he was the first one to find an arrow head . 1089008_1091220
+*MOT:	it was just like being a real archaeologist . 1091220_1094036
+*MOT:	wow that's neat . 1094036_1096340
+*MOT:	an archaeologist is when you dig in the sand for very old things . 1096340_1100210
+*MOT:	yeah . 1101211_1101651
+*MOT:	the best part is still to come , said Beaver as they sat down in the cafeteria . 1101651_1107543
+*MOT:	yes agreed Bear , lunch . 1107541_1109995
+*MOT:	Mister_Owl smiled , I think Beaver means the dinosaur exhibit . 1109995_1113786
+*MOT:	Franklin gulped , I'm too tired to see more , I think I'll stay here a while , he muttered . 1113786_1119241
+*MOT:	me too , said Snail . 1119243_1120973
+*MOT:	you'll forget about being tired when you see the dinosaurs , said Mister_Owl . 1120973_1124628
+*MOT:	eat up and let's go . 1124628_1125825
+*MOT:	reluctantly , Franklin and Snail followed the giant footprints down a long , leafy corridor . 1125826_1132786
+*MOT:	there was a loud roar . 1132788_1134813
+*MOT:	the floor shook and so did Franklin . 1134813_1137383
+*MOT:	a:h ! 1137383_1138556
+*MOT:	screamed Franklin when he turned the corner . 1138556_1140351
+*MOT:	he was looking right into the bony mouth of a tyrannosaurus . 1140353_1143943
+*MOT:	Franklin blinked . 1143943_1146958
+*MOT:	they're bones ? 1146958_1148341
+*MOT:	real dinosaur bones ? 1148341_1150008
+*MOT:	but the dinosaurs aren't even alive ! 1150008_1152150
+*MOT:	alive giggled Beaver , of course not . 1152150_1154855
+*MOT:	there hasn't been a live dinosaur for millions of years . 1154855_1158055
+*MOT:	you sure make good jokes , Franklin . 1158055_1160221
+*MOT:	you sure do , said Snail . 1160223_1162413
+*MOT:	as they were leaving , Franklin and his friends walked past the egyp(tian) +//. 1162413_1168941
+*MOT:	the egyptian exhibit .
+*MOT:	next time , said Beaver , you should visit the tomb , there's a mummy inside . 1168941_1173280
+*MOT:	is it real , asked Franklin . 1173280_1175310
+*MOT:	yeah , and it's scary , said Beaver . 1175310_1177381
+*MOT:	but Franklin wasn't scared . 1177381_1179081
+*MOT:	he had a mummy at home . 1179081_1180610
+*MOT:	and he har(dly) , could hardly wait to tell her all about his adventures at the museum . 1180610_1185545
+*MOT:	yay . 1185545_1187360
+*MOT:	can I try one of your cherries ? 1187360_1188565
+*MOT:	are they good ? 1189000_1189786
+*MOT:	xxx . 1190288_1191541
+*MOT:	tasty .
+*MOT:	sure I can . 1195700_1196746
+*MOT:	let's see (.) what we have . 1198841_1201776
+*MOT:	xxx . 1201776_1206166
+*MOT:	let's try these . 1206168_1210041
+*MOT:	Auntie gave us these books too and I don't think we've read them yet . 1210041_1214161
+*MOT:	Maisy +//. 1214161_1219850
+*MOT:	oh we read Maisy takes a bath right , should we read that again ?
+*MOT:	okay , can I have another cherry ? 1220240_1223086
+*MOT:	thank you very much . 1223795_1226561
+*MOT:	mm , tasty . 1226561_1228441
+*MOT:	mm , it's Maisy's bath time . 1229756_1233265
+*MOT:	she runs the water and puts in some bubbles . 1233265_1236746
+*MOT:	and in goes duck . 1236746_1239743
+*MOT:	ding dong ! 1239743_1240778
+*MOT:	oh , that's the door bell . 1240778_1242513
+*MOT:	Maisy runs downstairs to see who it is , who do you think's [: think is] at the door ? 1242513_1247406
+*MOT:	oh Tallulah , you're right , hello Tallulah . 1248975_1252616
+*MOT:	Maisy can't play now , it's her bath time . 1252618_1254900
+*MOT:	what's Tallulah holding ? 1254900_1256290
+*MOT:	a tennis racket , you're right . 1258000_1259671
+*MOT:	Maisy runs back upstairs and gets undressed . 1259673_1263376
+*MOT:	what's Maisy wearing ? 1263376_1264953
+*MOT:	underpants , wow ! 1265793_1268191
+*MOT:	Maisy jumps into the bubbly bath . 1268193_1270653
+*MOT:	ding dong ! 1270653_1271836
+*MOT:	who's ringing the doorbell now , who do you think it is ? 1271836_1274475
+*MOT:	xxx . 1275480_1275986
+*MOT:	it's Tallulah again , Maisy's [: Maisy is] still taking her bath .
+*MOT:	come and play later . 1281301_1282746
+*MOT:	oh , where are you going , Tallulah ? 1282748_1285563
+*MOT:	where's Mai(sy) +//? 1285563_1287380
+*MOT:	where's Tallulah going ?
+*MOT:	she's going upstairs ? 1288700_1290010
+*MOT:	Tallulah runs up to the bathroom and takes off her clothes ! 1290456_1293313
+*MOT:	splash splash , Maisy and Tallulah play in the tub . 1293313_1297496
+*MOT:	hooray: . 1297496_1299610
+*MOT:	xxx .
+*MOT:	I did ? 1302741_1303400
+*MOT:	and the bathtub , oh the last page where it has all the pictures of Maisy . 1307163_1311840
+*MOT:	wo:w . 1311841_1313751
+*MOT:	sure . 1315343_1316695
+*MOT:	do you wanna read this one , or this one . 1316695_1319166
+*MOT:	this one . 1320520_1321328
+*MOT:	Maisy's bedtime . 1321328_1323655
+*MOT:	Maisy is sleepy , it's time for bed . 1323655_1328398
+*MOT:	it's bedtime for Panda too . 1328398_1330616
+*MOT:	Maisy closes her bedroom curtains , xxx hoots the owl . 1330616_1337676
+*MOT:	Maisy washes her face and brushes her teeth . 1337676_1342028
+*MOT:	Maisy puts on her pajamas . 1342028_1345306
+*MOT:	Maisy gets into bed and reads a story . 1345306_1349638
+*MOT:	but where is Panda ? 1349638_1352075
+*MOT:	is he in the toy box ? 1352075_1355115
+*MOT:	oh , there he is , behind the curtain ! 1355115_1359343
+*MOT:	Maisy turns off the light . 1359343_1361125
+*MOT:	but she still isn't ready to go to sleep . 1361125_1363898
+*MOT:	hmm . 1363898_1365410
+*MOT:	xxx , she forgot to use the potty . 1365410_1370875
+*MOT:	wow . 1370875_1372875
+*MOT:	Panda sits on his potty too . 1372875_1375413
+*MOT:	look at that . 1375413_1377410
+*MOT:	she's using the potty . 1378146_1379595
+*MOT:	and she wears big girl underpants . 1380300_1382025
+*MOT:	wow . 1382543_1383421
+*MOT:	Maisy's [: Maisy is] very sleepy now . 1383421_1386431
+*MOT:	good_night Maisy . 1386431_1388096
+*MOT:	good_night Panda . 1388096_1389718
+*MOT:	that's great . 1389718_1392293
+*MOT:	there's the last page with all the pictures . 1393500_1395636
+*MOT:	terrific . 1395635_1397205
+*MOT:	should we read this +//?
+*MOT:	I'll teach my dog one hundred words . 1403375_1407363

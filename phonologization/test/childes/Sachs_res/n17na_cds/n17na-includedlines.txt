@@ -1,0 +1,18 @@
+*MOT:	empty hot bottle .
+*MOT:	yeah (.) it looks like a lamp .
+*MOT:	I believe you're right .
+*MOT:	Nomi (.) do you want Cheerios ?
+*MOT:	no (.) it's not pizza (.) it's a piece of matzo .
+*MOT:	want more matzo ?
+*MOT:	more matzo ?
+*MOT:	go to sleep ?
+*MOT:	want matzo ?
+*MOT:	Nomi (.) say +"/.
+*MOT:	+" daffodil .
+*MOT:	good (.) say +"/.
+*MOT:	+" refrigerator .
+*MOT:	good .
+*MOT:	you're stuck ?
+*MOT:	you want the Cheerios ?
+*MOT:	eat the Cheerios .
+*MOT:	that's alright .

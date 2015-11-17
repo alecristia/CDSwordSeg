@@ -1,0 +1,631 @@
+*MOT:	would you like to put this top on ?
+*MOT:	do you think it'll fit ?
+*MOT:	how should I put it on ?
+*MOT:	you mean on top of your jersey ?
+*MOT:	do you know who brought this to you ?
+*MOT:	Minoru did .
+*MOT:	where did you meet Minoru ?
+*MOT:	we came to your school the other day (.) didn't we ?
+*MOT:	didn't he take you somewhere ?
+*MOT:	where did he take you ?
+*MOT:	where did we go with him (.) remember ?
+*MOT:	we came to pick you up at school ?
+*MOT:	and what did you do there ?
+*MOT:	and what else ?
+*MOT:	no .
+*MOT:	why didn't we have gum ?
+*MOT:	and it was breakfast .
+*MOT:	does one eat gum after breakfast ?
+*MOT:	let me see that .
+*MOT:	oh (.) that looks nice on you (.) Nina .
+*MOT:	do you like that shirt ?
+*MOT:	what's this ?
+*MOT:	he's cute .
+*MOT:	oh (.) what do you wanna do ?
+*MOT:	who's that ?
+*MOT:	he's so funny .
+*MOT:	where did he bounce ?
+*MOT:	here .
+*MOT:	here's a very nice dolly .
+*MOT:	oh (.) let me see her .
+*MOT:	can I have her on my lap ?
+*MOT:	what are you doing ?
+*MOT:	what should I do ?
+*MOT:	can't I sit like this ?
+*MOT:	what should I do with my feet ?
+*MOT:	I like them under me .
+*MOT:	do you think she likes milk ?
+*MOT:	he is ?
+*MOT:	that's his nose right there .
+*MOT:	what's this ?
+*MOT:	he sure has a bushy tail (.) doesn't he ?
+*MOT:	I don't think it's a squirrel (.) but I don't know what kind of
+*MOT:	how come ?
+*MOT:	why do you think it's a squirrel ?
+*MOT:	I think he might be a fox .
+*MOT:	doesn't stand up very well (.) so I stand up and carry him .
+*MOT:	where is his mouth ?
+*MOT:	what should I do ?
+*MOT:	put what in his mouth ?
+*MOT:	oh (.) the bottle (.) you mean ?
+*MOT:	oh (.) I put it in the wrong place .
+*MOT:	okay .
+*MOT:	how should I make him warm ?
+*MOT:	well (.) should I put a blanket on him ?
+*MOT:	oh .
+*MOT:	what is that ?
+*MOT:	what's that blanket ?
+*MOT:	oh .
+*MOT:	is it soft or rough ?
+*MOT:	which one does he want for his other blanket ?
+*MOT:	the yellow one ?
+*MOT:	here's the yellow blanket .
+*MOT:	where ?
+*MOT:	he's fuzzy (.) isn't he ?
+*MOT:	how are you warming him ?
+*MOT:	oh (.) that's a beautiful plate .
+*MOT:	what are you gonna do with it ?
+*MOT:	oh we are ?
+*MOT:	who is ?
+*MOT:	you mean the dog and the monkey ?
+*MOT:	is that the table ?
+*MOT:	what are those ?
+*MOT:	I don't remember any more .
+*MOT:	yeah [= yes] (.) but we can use them as tables .
+*MOT:	that's a beautiful pink table .
+*MOT:	what are you doing ?
+*MOT:	what are you building ?
+*MOT:	oh (.) where's the halloween plate now ?
+*MOT:	oh .
+*MOT:	I know but they fell down .
+*MOT:	those were the walls of the doll house .
+*MOT:	but I'm afraid the doll house is getting very old and the walls
+*MOT:	now we can use them for tables .
+*MOT:	yeah [= yes] (.) the doll house still has outside walls .
+*MOT:	just doesn't have the walls dividing the rooms up any more .
+*MOT:	yeah [= yes] .
+*MOT:	oh (.) the people can still live in there .
+*MOT:	don't you think ?
+*MOT:	oh (.) but they still like their house .
+*MOT:	people live in old houses .
+*MOT:	oh (.) who are you going to talk to on the telephone ?
+*MOT:	what are you gonna tell mike ?
+*MOT:	what are you doing ?
+*MOT:	&uh [= yes] ?
+*MOT:	call +...
+*MOT:	talk to somebody on the telephone .
+*MOT:	hello (.) Nina .
+*MOT:	you talk on the phone and I'll pretend I'm on the other phone .
+*MOT:	hello (.) Nina .
+*MOT:	did you have someone come for supper last night ?
+*MOT:	who come for supper ?
+*MOT:	oh (.) what did you do with Mel ?
+*MOT:	and what else ?
+*MOT:	oh (.) you hung up on me .
+*MOT:	I want to talk to you again .
+*MOT:	dring@o (.) dring@o .
+*MOT:	hello (.) Nina .
+*MOT:	what did you give Mel to eat for supper ?
+*MOT:	did he like the supper ?
+*MOT:	oh (.) what else did you eat besides zucchini and spaghetti ?
+*MOT:	meat .
+*MOT:	what kind of meat ?
+*MOT:	roast beef ?
+*MOT:	do you think Mel liked your home ?
+*MOT:	&um [= what] ?
+*MOT:	Nina .
+*MOT:	do you think Mel liked your home ?
+*MOT:	&um [= what] ?
+*MOT:	Nina .
+*MOT:	do you think Mel liked coming to your home ?
+*MOT:	well (.) I guess we can't invite him any more if you don't know .
+*MOT:	do you think he like coming ?
+*MOT:	would you like to have him come back ?
+*MOT:	that's a little operator .
+*MOT:	what is she doing ?
+*MOT:	what is she doing ?
+*MOT:	oh (.) you press the “o@l” and she pops up (.) doesn't she ?
+*MOT:	what is she doing ?
+*MOT:	what is the little girl doing ?
+*MOT:	is she running ?
+*MOT:	what is she doing ?
+*MOT:	and what is she doing ?
+*MOT:	is she dancing ?
+*MOT:	what is she doing ?
+*MOT:	and talking on something (.) isn't she ?
+*MOT:	oh .
+*MOT:	what does she have on her hair ?
+*MOT:	and she's wearing an awfully pretty dress .
+*MOT:	can I see it ?
+*MOT:	let me see that little girl in the phone .
+*MOT:	why can't I see it ?
+*MOT:	she's back inside the phone ?
+*MOT:	oh .
+*MOT:	is that her home in there ?
+*MOT:	let's talk to someone else on the phone .
+*MOT:	who shall we talk to now ?
+*MOT:	the little girl on the telephone is named Nina ?
+*MOT:	oh (.) you want to talk to Mel on the phone ?
+*MOT:	shall I pretend I'm Mel ?
+*MOT:	okay .
+*MOT:	that's right .
+*MOT:	who are you talking to now ?
+*MOT:	yes I would (.) Nina .
+*MOT:	what did he say ?
+*MOT:	and what did he tell you ?
+*MOT:	don't scream ?
+*MOT:	what else did he tell you ?
+*MOT:	he did ?
+*MOT:	did he take you to a store on the way home yesterday ?
+*MOT:	what was in the store ?
+*MOT:	who gave you our Christmas tree ?
+*MOT:	we're going to have_to put some decorations on it .
+*MOT:	can you make me some decorations ?
+*MOT:	did we buy something at the store the other day for the Christmas
+*MOT:	yes we did .
+*MOT:	remember some little red balls .
+*MOT:	no (.) we have_to go to a store today and find a stand for the
+*MOT:	a stand I mean so_that it will stand up .
+*MOT:	now it's in a pot of water .
+*MOT:	but we want to find a stand with a hole in it .
+*MOT:	what's that ?
+*MOT:	those are rectangles .
+*MOT:	those are called rectangles .
+*MOT:	you know what those are .
+*MOT:	I don't know .
+*MOT:	what are they ?
+*MOT:	do you know what those things are on the very top ?
+*MOT:	no (.) on the very top of the puzzle .
+*MOT:	that's right .
+*MOT:	all different kinds of shapes .
+*MOT:	I think we should finish getting dressed for school (.) (be)cause
+*MOT:	okay .
+*MOT:	alright .
+*MOT:	oh (.) what kind of a card ?
+*MOT:	let's see .
+*MOT:	oh (.) that must be a halloween card with a pumpkin on it .
+*MOT:	that's really a nice card .
+*MOT:	that's very nice .
+*MOT:	okay (.) Nina (.) come here .
+*MOT:	what's that ?
+*MOT:	that's a nice boat .
+*MOT:	you know what I want to see (.) Nina ?
+*MOT:	remember last Saturday with Spencer we went to a sale ?
+*MOT:	do you remember the sale ?
+*MOT:	what did we get there ?
+*MOT:	I'd like to see what you bought there .
+*MOT:	do you remember ?
+*MOT:	what did you buy at the sale ?
+*MOT:	oh .
+*MOT:	what is that ?
+*MOT:	let me see her .
+*MOT:	why don't you bring her out here ?
+*MOT:	bring them out here .
+*MOT:	I bet we can twist the nurse around .
+*MOT:	do all kinds of things .
+*MOT:	where's the nurse ?
+*MOT:	what are you doing with the nurse ?
+*MOT:	where's the elephant going ?
+*MOT:	&um [= what] ?
+*MOT:	is he going to the jungle ?
+*MOT:	he lives where ?
+*MOT:	oh .
+*MOT:	what other animals live in the jungle with him ?
+*MOT:	&um [= what] ?
+*MOT:	the tiger does ?
+*MOT:	okay (.) come here .
+*MOT:	no (.) we'll finish getting dressed and then (.) and then we can
+*MOT:	oh (.) what are you gonna put on first ?
+*MOT:	yeah [= yes] (.) that's a pretty shirt that Minoru gave you .
+*MOT:	do you think Mel will like your shirt ?
+*MOT:	what will he say when he sees you this morning ?
+*MOT:	Minoru came to your school (.) didn't he ?
+*MOT:	ummhm [= yes] .
+*MOT:	yeah [= yes] .
+*MOT:	can you pull up your pants ?
+*MOT:	oh (.) yes you can .
+*MOT:	what do you think Mel will say when he sees this pretty top on you
+*MOT:	&um [= what] ?
+*MOT:	you can tell him that Minoru gave that to you .
+*MOT:	let's put on your shoes .
+*MOT:	can you find your shoes ?
+*MOT:	here they are .
+*MOT:	let's get them on and then you'll be all dressed and we can play
+*MOT:	Nina (.) come here .
+*MOT:	Nina .
+*MOT:	we have_to finish getting dressed before we can play any more .
+*MOT:	come here .
+*MOT:	hurry up (.) (be)cause I want you to put shoes on before you get
+*MOT:	here we go (.) Nina .
+*MOT:	I'm gonna put your shoes on and then we can go to school .
+*MOT:	otherwise we can't go to school .
+*MOT:	okay (.) we'll play with that .
+*MOT:	okay (.) we'll play with that .
+*MOT:	bring it here .
+*MOT:	first give me your foot .
+*MOT:	do you know how to tie your shoes yet ?
+*MOT:	what are you doing ?
+*MOT:	here (.) let's roll this up .
+*MOT:	it's a little bit too long .
+*MOT:	these pants are just a bit too long for you .
+*MOT:	do you know who they belong to ?
+*MOT:	to Betta .
+*MOT:	Betta lives in the same town with Nonna .
+*MOT:	you know what ?
+*MOT:	Nonna's coming to see you .
+*MOT:	she's coming on Monday .
+*MOT:	in a week .
+*MOT:	Nonna's coming but not Nonno .
+*MOT:	Nonno doesn't feel very well .
+*MOT:	Nonno's in Cambridge .
+*MOT:	Nonno's in Cambridge (.) but Nonna +...
+*MOT:	Nonna's coming .
+*MOT:	do you know how she's gonna come ?
+*MOT:	how do you think +...
+*MOT:	do you think she'll come in a car ?
+*MOT:	no (.) she's gonna come in an airplane .
+*MOT:	did you go on an airplane once ?
+*MOT:	from where ?
+*MOT:	that's right .
+*MOT:	what did you do on the airplane ?
+*MOT:	do you remember ?
+*MOT:	just a minute .
+*MOT:	what are you gonna do with that box ?
+*MOT:	okay (.) stand up .
+*MOT:	let's see if that top fits you .
+*MOT:	is it big enough (.) the top ?
+*MOT:	oh (.) that's so pretty .
+*MOT:	we'll put the turtleneck +...
+*MOT:	lift up your chair .
+*MOT:	we'll stick your turtleneck outside it .
+*MOT:	uhhuh [= yes] .
+*MOT:	oh (.) isn't that pretty .
+*MOT:	there .
+*MOT:	that's a first+aid kit .
+*MOT:	where's your hurt ?
+*MOT:	oh (.) we'll put a band_aid on before going to bed (.) because I
+*MOT:	you know what we better take care of Mommy's hurt .
+*MOT:	look .
+*MOT:	Mommy has a splinter .
+*MOT:	you gonna help me take it out ?
+*MOT:	okay (.) let's take Mommy's splinter out first .
+*MOT:	okay .
+*MOT:	first we're gonna take out Mommy's splinter .
+*MOT:	see it here .
+*MOT:	it's a hard splinter to get out .
+*MOT:	don't touch those things (.) (be)cause they might fall .
+*MOT:	no (.) that's for grownups .
+*MOT:	okay (.) let's take Mommy's out first .
+*MOT:	look at it (.) Nina .
+*MOT:	see it ?
+*MOT:	ouch (.) it hurts .
+*MOT:	do you ever get splinters ?
+*MOT:	do you see Mommy's splinter ?
+*MOT:	I don't see it any more .
+*MOT:	there it is .
+*MOT:	it's far in .
+*MOT:	where's your splinter ?
+*MOT:	on your finger ?
+*MOT:	okay (.) let me finish taking mine out .
+*MOT:	it's in far ?
+*MOT:	that's a hole on my bathrobe (.) isn't it ?
+*MOT:	oh (.) this used to belong to somebody else (.) this bathrobe and
+*MOT:	that was a bad thing to do .
+*MOT:	and they gave it to you ?
+*MOT:	yeah [= yes] (.) they didn't want it any more .
+*MOT:	uhhuh [= yes] .
+*MOT:	like you get clothes from other people too (.) don't you ?
+*MOT:	who gives you clothes ?
+*MOT:	uhhuh [= yes] .
+*MOT:	sometimes they outgrow it or sometimes they're just tired of them .
+*MOT:	uhhuh [= yes] .
+*MOT:	okay (.) let me see if I can find one .
+*MOT:	I don't want to waste them .
+*MOT:	do you know what ?
+*MOT:	the band_aids are finished .
+*MOT:	we're going to have_to go to the store .
+*MOT:	we're gonna have_to go to the store .
+*MOT:	oh (.) here's one .
+*MOT:	which fingers do you have hurts on ?
+*MOT:	now where do you want this band_aid ?
+*MOT:	oh (.) all the way around ?
+*MOT:	okay (.) that's it .
+*MOT:	I don't want to waste any more band_aids .
+*MOT:	okay .
+*MOT:	and then I want you to show me what you got at the sale +...
+*MOT:	with Spencer .
+*MOT:	remember we went to a sale ?
+*MOT:	what did Mommy buy you ?
+*MOT:	remember the toy that Mommy bought you ?
+*MOT:	can I see the doll that Mommy bought you at the sale ?
+*MOT:	oh (.) it's not quite time to go to school yet .
+*MOT:	Mel isn't there yet .
+*MOT:	no (.) that's all there is .
+*MOT:	they're no more .
+*MOT:	oh (.) there's one more here .
+*MOT:	my_goodness .
+*MOT:	and then I wanna see your new dolly .
+*MOT:	oh (.) I wanna see her .
+*MOT:	she's so beautiful .
+*MOT:	that's all there is now .
+*MOT:	there you go .
+*MOT:	now where's your new dolly ?
+*MOT:	I get to see your new dolly now (.) you said .
+*MOT:	oh (.) I wanna see her .
+*MOT:	what is she wearing ?
+*MOT:	do you know where she is ?
+*MOT:	oh (.) there she is .
+*MOT:	can you reach her ?
+*MOT:	step up on the bed .
+*MOT:	I bet you can reach her .
+*MOT:	there she is .
+*MOT:	oh (.) what is she wearing ?
+*MOT:	she has such pretty clothes on .
+*MOT:	I think I'll take her for a little walk in the carriage .
+*MOT:	let's first see what clothes she has on .
+*MOT:	what is she wearing ?
+*MOT:	a bonnet ?
+*MOT:	oh (.) what soft hair .
+*MOT:	let's undress her .
+*MOT:	oh (.) look she has pajamas on .
+*MOT:	and that's a bathrobe I guess (.) isn't it ?
+*MOT:	the pajamas are awfully long on her .
+*MOT:	where are her feet ?
+*MOT:	do you know how to button ?
+*MOT:	these are awfully small buttons (.) aren't they ?
+*MOT:	what a sweet face she has .
+*MOT:	what is that ?
+*MOT:	okay (.) so where shall we put it ?
+*MOT:	alright .
+*MOT:	can you put it on ?
+*MOT:	hold her up for me .
+*MOT:	now how shall I put it on ?
+*MOT:	this way or this way ?
+*MOT:	and now what ?
+*MOT:	tie a bow now ?
+*MOT:	under her chin ?
+*MOT:	where did you get this dolly ?
+*MOT:	what did Spencer get at the sale ?
+*MOT:	a rolly_polly thing .
+*MOT:	what else did we buy at the sale ?
+*MOT:	oh (.) did you wear your sweater to school +...
+*MOT:	that I got you at the sale ?
+*MOT:	did people like it ?
+*MOT:	and what did Mel say ?
+*MOT:	yeah [= yes] .
+*MOT:	I only paid five cents for the sweater .
+*MOT:	it was a nice sweater .
+*MOT:	that was fun to go to the sale (.) wasn't it ?
+*MOT:	were there a_lot_of people there ?
+*MOT:	do you remember where it was ?
+*MOT:	it was at a school .
+*MOT:	who did we find at the sale ?
+*MOT:	yeah [= yes] .
+*MOT:	did we meet some people we knew at the sale ?
+*MOT:	who did we meet there ?
+*MOT:	and who else did we meet there ?
+*MOT:	we saw Mary there .
+*MOT:	that's right .
+*MOT:	did Spencer come and spend some time with you yesterday ?
+*MOT:	I see .
+*MOT:	it was fun (.) wasn't it ?
+*MOT:	you've had a_lot_of visitors to see you (.) haven't you this week ?
+*MOT:	oh .
+*MOT:	where are your hurts ?
+*MOT:	well (.) I haven't really gotten this splinter out yet .
+*MOT:	I don't know why it won't come out .
+*MOT:	see (.) it's far far in .
+*MOT:	see that little hole .
+*MOT:	it's way in there .
+*MOT:	no (.) it doesn't .
+*MOT:	did you have fun at Spencer's house (.) Nina ?
+*MOT:	you didn't ?
+*MOT:	when I came in you were playing a game .
+*MOT:	you were taking everybody's nose .
+*MOT:	whose noses did you get ?
+*MOT:	oh .
+*MOT:	mine to ?
+*MOT:	did you eat supper at Spencer's house ?
+*MOT:	what did you have for supper ?
+*MOT:	what are you gonna do ?
+*MOT:	put them in the box here .
+*MOT:	maybe the nurse wants to use them .
+*MOT:	do you think the nurse wants to use these band_aids ?
+*MOT:	no (.) I don't want to use any more .
+*MOT:	we can use these old ones again .
+*MOT:	I don't want to waste any more band_aids .
+*MOT:	oh (.) where's the band_aid ?
+*MOT:	I don't know if it'll stick .
+*MOT:	put it on her arm .
+*MOT:	maybe it'll stick on her arm .
+*MOT:	she has a hurt on her (.) on her arm .
+*MOT:	is the nurse gonna take care of the doggy ?
+*MOT:	ummhm [= yes] .
+*MOT:	no (.) I don't like to waste band_aids .
+*MOT:	if you can use this one (.) that's fine .
+*MOT:	otherwise that's +...
+*MOT:	I don't want to use any more .
+*MOT:	in a little while .
+*MOT:	it's not time to go to school yet .
+*MOT:	Mel isn't there .
+*MOT:	we have_to wait until Mel gets there .
+*MOT:	it would be awfully cold waiting outside (.) wouldn't it ?
+*MOT:	nobody will be there yet .
+*MOT:	somebody will be there in a little while .
+*MOT:	Mel gets there around seven thirty .
+*MOT:	ummhm [= yes] .
+*MOT:	how does he come to school ?
+*MOT:	in a car (.) doesn't he ?
+*MOT:	there're lots_of times he comes in a big car .
+*MOT:	uhhuh [= yes] .
+*MOT:	did you go for a ride in his car yesterday ?
+*MOT:	where did you go ?
+*MOT:	and what did you do when you got home ?
+*MOT:	uhhuh [= yes] .
+*MOT:	were you there ?
+*MOT:	I came to see your school many times .
+*MOT:	the other day I came and you were on a seesaw with lots_of children
+*MOT:	in the back yard .
+*MOT:	you were sitting by Elizabeth .
+*MOT:	do you like to play with Elizabeth ?
+*MOT:	yeah [= yes] .
+*MOT:	what were you doing ?
+*MOT:	oh (.) that must have been fun .
+*MOT:	what else do you do in school ?
+*MOT:	oh (.) she'll come to school later today .
+*MOT:	and that's how we play with her .
+*MOT:	what kind of games do you play at school ?
+*MOT:	what ?
+*MOT:	there's one band_aid .
+*MOT:	those are all we have .
+*MOT:	we've gotta save the other two in_case we get a real hurt .
+*MOT:	well (.) then you've got some band_aids on already .
+*MOT:	oh (.) look it went all over the floor .
+*MOT:	can you pick it up ?
+*MOT:	there we go .
+*MOT:	I would like to build something with blocks .
+*MOT:	can you give me some blocks ?
+*MOT:	you'd like to build something with blocks too ?
+*MOT:	I think they're over there (.) Nina .
+*MOT:	look in that box over there .
+*MOT:	oh (.) that's an airplane .
+*MOT:	who's coming on the airplane soon ?
+*MOT:	gonna go pick her up at the airport .
+*MOT:	what ?
+*MOT:	what do you want to pretend it's going into the airport ?
+*MOT:	I don't think it works any more with the crank .
+*MOT:	you'll just have_to push it .
+*MOT:	okay (.) let's pretend Nonna's arriving now .
+*MOT:	you make Nonna arrive in the airport .
+*MOT:	shall we find somebody to be Nonna ?
+*MOT:	where's Nonna ?
+*MOT:	here's Nonna .
+*MOT:	here's Nonna .
+*MOT:	oh (.) that's a little girl ?
+*MOT:	let's find somebody to be Nonna then .
+*MOT:	find somebody to be Nonna .
+*MOT:	is this a lady ?
+*MOT:	okay (.) and that's Nina ?
+*MOT:	okay (.) Nonna's on the airplane .
+*MOT:	let's see what happens .
+*MOT:	uhhuh [= yes] .
+*MOT:	what happens when Nonna gets off the plane and sees Nina ?
+*MOT:	what does she say ?
+*MOT:	hi (.) and what else ?
+*MOT:	yeah [= yes] (.) Nonna's coming on an airplane to see you .
+*MOT:	next Monday .
+*MOT:	just about a week .
+*MOT:	that's when Nonna's gonna come .
+*MOT:	it's quite a few days from now .
+*MOT:	not too long .
+*MOT:	what is the airplane doing ?
+*MOT:	oh no (.) that's not nice .
+*MOT:	what happened to Nonna ?
+*MOT:	oh (.) you better pick them up .
+*MOT:	&um [= what] ?
+*MOT:	this car be Mommy .
+*MOT:	and that's Nonna and this is Nina .
+*MOT:	so how's Nina gonna go to the airport ?
+*MOT:	who's gonna take Nina to the airport ?
+*MOT:	&uh [= yes] ?
+*MOT:	do you want to put her in a car to go to the airport ?
+*MOT:	this can be a car .
+*MOT:	and Nonna and Nina will go in a car .
+*MOT:	and now where are we taking Nonna ?
+*MOT:	it's in you hand .
+*MOT:	you have it right in your hand .
+*MOT:	what are you going to build ?
+*MOT:	what are you building ?
+*MOT:	what are they watching ?
+*MOT:	that .
+*MOT:	what are the people looking at ?
+*MOT:	what kind of a person do you want ?
+*MOT:	I see .
+*MOT:	where is he going to stand ?
+*MOT:	where's the truck going ?
+*MOT:	this is a train .
+*MOT:	it's a train .
+*MOT:	where's it going ?
+*MOT:	what's the train doing ?
+*MOT:	oh they might get hurt if they get knocked down .
+*MOT:	what are they gonna do in their house ?
+*MOT:	are they gonna have dinner ?
+*MOT:	where is she sitting ?
+*MOT:	who are you putting down at the table ?
+*MOT:	&uh [= yes] ?
+*MOT:	who's going at the table ?
+*MOT:	they are ?
+*MOT:	what are you giving them to eat ?
+*MOT:	you are ?
+*MOT:	they want what ?
+*MOT:	oh (.) are they gonna have a candle on ?
+*MOT:	I see .
+*MOT:	did we eat by candle light last night ?
+*MOT:	whose candle did we use ?
+*MOT:	the candle that you made .
+*MOT:	that's a beautiful candle that you made .
+*MOT:	how did you make that candle ?
+*MOT:	by melting .
+*MOT:	by melting what ?
+*MOT:	wax .
+*MOT:	remember ?
+*MOT:	we melted wax .
+*MOT:	what did you do to wax before we put it on the stove ?
+*MOT:	with Brian .
+*MOT:	what did you and Brian have_to do to the wax ?
+*MOT:	you have_to +...
+*MOT:	we put some coloring .
+*MOT:	but we broke it too (.) didn't we ?
+*MOT:	how did you break it ?
+*MOT:	with a hammer ?
+*MOT:	in small pieces .
+*MOT:	your what ?
+*MOT:	your hands got all sandy ?
+*MOT:	oh (.) that's right we did it before supper and your hands got all
+*MOT:	do you think Nonna will like the candles that we made ?
+*MOT:	oh (.) they're all wrapped up .
+*MOT:	well (.) when we unwrap them at Christmas time (.) you'll see them
+*MOT:	but last night we +...
+*MOT:	last night we used your candle (.) didn't we ?
+*MOT:	why don't you get your candle and put it on the table ?
+*MOT:	go get your candle .
+*MOT:	bring your candle here (.) and we'll put it on the table for the
+*MOT:	oh (.) show them your candle .
+*MOT:	isn't it pretty ?
+*MOT:	he could ?
+*MOT:	he's sitting in a seat ?
+*MOT:	what do they think of the candle ?
+*MOT:	do they like it ?
+*MOT:	they think it's +...
+*MOT:	bad ?
+*MOT:	why ?
+*MOT:	I think it's pretty .
+*MOT:	why do you think it's bad ?
+*MOT:	I don't agree at all .
+*MOT:	who's that ?
+*MOT:	which table ?
+*MOT:	I don't know .
+*MOT:	should be in the box .
+*MOT:	my_goodness .
+*MOT:	okay (.) you can cut this if you want .
+*MOT:	oh (.) your coloring books are in the bookcase .
+*MOT:	those are pretty stiff scissors (.) aren't the ?
+*MOT:	what do you wanna cut ?
+*MOT:	these scissors are okay .
+*MOT:	it's just you have_to use a_lot_of strength .
+*MOT:	let me try them .
+*MOT:	let's see .
+*MOT:	what do you want me to cut ?
+*MOT:	there .
+*MOT:	the coloring book should be in the bookcase here .
+*MOT:	right here .
+*MOT:	look in the bookcase for it .
+*MOT:	do you see one ?
+*MOT:	that's the bookcase right there .
+*MOT:	is it in there ?
+*MOT:	oh no (.) you can't cut nice books .
+*MOT:	you can only cut coloring books and paper .
+*MOT:	you don't want to cut up nice books (.) though .
+*MOT:	okay (.) you cut up this too .
+*MOT:	cut this in strips .
+*MOT:	okay .

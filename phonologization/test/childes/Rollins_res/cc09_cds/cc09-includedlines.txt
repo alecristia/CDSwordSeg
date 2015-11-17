@@ -1,0 +1,69 @@
+*MOT:	ahhah who's that . 97380_99613
+*MOT:	ahhah who's that . 99613_102038
+*MOT:	is that a bunny+rabbit . 102038_104445
+*MOT:	ahhah there's a kitty+cat . 104445_106765
+*MOT:	<and that's> [/-] see the baby . 106765_109490
+*MOT:	see the baby . 109490_111560
+*MOT:	baby give you kisses &hmm 0 [=! kisses] . 111560_113675
+*MOT:	baby give you kisses &hmm 0 [=! kisses] . 113675_115450
+*MOT:	there's a family . 115450_119816
+*MOT:	there's a Fat and a Mot and a baby boy and girl . 119816_124176
+*MOT:	0 [=! voc] ahhah goo [= itr] . 124176_130280
+*MOT:	ahhah boo [= itr] do you wanna eat the book . 130280_133998
+*MOT:	0 [=! voc] . 133998_134988
+*MOT:	ahhah 0 [=! voc] . 134988_135690
+*MOT:	there's a Big_Bird there's a Big_Bird . 135690_139125
+*MOT:	xxx go . 149660_154275
+*MOT:	peek_a_boo . 164163_166331
+*MOT:	ahhah peek_a_boo . 166331_168720
+*MOT:	peek_a_boo . 168720_171136
+*MOT:	where's Chi . 171136_179295
+*MOT:	there she is . 179295_180756
+*MOT:	are you bangin(g) your rattle . 180756_188036
+*MOT:	bang your rattle . 188036_189893
+*MOT:	bang@o [= itr] . 189893_192211
+*MOT:	bang@o bang@o bang@o your rattle . 192211_194780
+*MOT:	there's not one for Mot to bang . 194780_198941
+*MOT:	there's not one for Mot to bang . 198941_202058
+*MOT:	ahhah look at the noise you can make . 202058_217670
+*MOT:	look at all the noise you can make . 217670_221131
+*MOT:	ahhah . 221131_236648
+*MOT:	Big_Bird's gonna get you 0 [=! voc] . 236648_240130
+*MOT:	0 [=! voc] . 240130_243201
+*MOT:	you like the Chickie rattle . 243201_246990
+*MOT:	you like the Chickie rattle . 246990_249668
+*MOT:	find out what else is in the box . 249668_259846
+*MOT:	you wanna go see what else is in the box . 259846_262683
+*MOT:	what else is in the box . 262683_264880
+*MOT:	xxx . 264880_267485
+*MOT:	look . 267485_272316
+*MOT:	see what else is in there . 272316_273521
+*MOT:	what else is in the box . 273521_282885
+*MOT:	can you get somethin(g) out . 282885_287596
+*MOT:	ahhah you wanna stand up huh . 287596_291421
+*MOT:	can you get somethin(g) out . 291421_292506
+*MOT:	xxx . 292506_298176
+*MOT:	I'm gonna eat the donuts . 298176_307058
+*MOT:	I'm gonna eat the donuts . 307058_308991
+*MOT:	can you get one off . 308991_310721
+*MOT:	they come off . 310721_312243
+*MOT:	they come off . 312243_314320
+*MOT:	can you get it off . 314320_316955
+*MOT:	almost can you take it off look ahhah . 316955_320333
+*MOT:	look it comes off . 320333_321470
+*MOT:	can you take it off . 321470_322861
+*MOT:	can you take it off . 330073_335341
+*MOT:	<xxx> [>] . 342313_345031
+*MOT:	want to take it off of there . 345031_347110
+*MOT:	want to look . 347110_349655
+*MOT:	you can get something out_of the box . 349655_355360
+*MOT:	look ahhah . 355360_358793
+*MOT:	they come off . 358793_361548
+*MOT:	ahhah they come off . 361548_363325
+*MOT:	<they come off> [>] . 363325_364078
+*MOT:	and then you put (th)em back on . 364078_365633
+*MOT:	move your fingers . 365633_366485
+*MOT:	ahhah there you go . 366485_368410
+*MOT:	can you take one off . 368410_369635
+*MOT:	can you take it off . 369635_373310
+*MOT:	can you take it off . 373310_376140

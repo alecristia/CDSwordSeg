@@ -1,0 +1,341 @@
+*MOT:	thank_you Patrick . 28408_29815
+*MOT:	here . 29815_30232
+*MOT:	yeah . 30977_31767
+*MOT:	do you wanna throw it to me ? 34123_34802
+*MOT:	do you wanna throw it to me ? 37217_38495
+*MOT:	0 . 40168_41153
+*MOT:	okay . 43657_44423
+*MOT:	you open it . 44423_44777
+*MOT:	uhhuh ? 48275_48980
+*MOT:	go ahead . 50872_51180
+*MOT:	pull . 51180_51537
+*MOT:	try again . 51537_56137
+*MOT:	there you go . 56928_58398
+*MOT:	it opens . 60727_61027
+*MOT:	uhhuh ? 73520_74635
+*MOT:	uhhuh corn that's right . 77423_77908
+*MOT:	how does it taste ? 78863_81003
+*MOT:	what else is there ? 81483_87665
+*MOT:	what's that ? 91753_93225
+*MOT:	soda . 94285_95203
+*MOT:	okay that's soda . 95203_96460
+*MOT:	it's toy soda . 100170_100835
+*MOT:	it makes noise . 101928_108013
+*MOT:	huh ? 108013_108503
+*MOT:	what else is there ? 108503_110090
+*MOT:	0 . 110090_110675
+*MOT:	oh there you go . 124110_124835
+*MOT:	one for me . 131675_131935
+*MOT:	one for you . 131935_132700
+*MOT:	thank_you .
+*MOT:	0 . 134272_135948
+*MOT:	0 . 137783_139378
+*MOT:	thank_you . 156278_157792
+*MOT:	I have the green one . 159388_160993
+*MOT:	0 . 160993_162720
+*MOT:	you have the orange . 162720_163820
+*MOT:	0 . 163820_164975
+*MOT:	what else is there ? 167028_168048
+*MOT:	carrot . 174335_175887
+*MOT:	uhhuh ? 177328_178052
+*MOT:	0 . 182800_184437
+*MOT:	Patrick how about putting them back ? 187588_189012
+*MOT:	let's put them back . 189012_190647
+*MOT:	let's put the toys back in the bottle . 190647_194428
+*MOT:	Patrick . 194428_196158
+*MOT:	can you put them back ? 196158_198088
+*MOT:	0 . 199965_201303
+*MOT:	0 . 209287_212033
+*MOT:	0 . 212033_213405
+*MOT:	you're playing ? 227252_227648
+*MOT:	what's that [x 1] ? 229068_234452
+*MOT:	hum . 235478_236492
+*MOT:	what's that Patrick ? 239102_242830
+*MOT:	well let's put these back first . 246967_249338
+*MOT:	0 . 249338_251382
+*MOT:	let's put them back . 251382_252790
+*MOT:	0 . 256797_257983
+*MOT:	0 . 260428_262652
+*MOT:	uhhuh ? 274405_275027
+*MOT:	0 . 277297_278263
+*MOT:	what's that ? 279722_280113
+*MOT:	carrot . 283705_285315
+*MOT:	what's that ? 285315_286357
+*MOT:	what's this ? 288452_289092
+*MOT:	what's this Patrick ? 289092_289352
+*MOT:	what does that look like ? 289352_289930
+*MOT:	a toy . 292702_293138
+*MOT:	milk . 293138_293635
+*MOT:	corn . 301643_301930
+*MOT:	no . 301930_302302
+*MOT:	grape . 302302_303815
+*MOT:	oh . 305028_309895
+*MOT:	you spilled them all out . 309895_310285
+*MOT:	0 . 310285_312062
+*MOT:	mm hm . 314393_314453
+*MOT:	toy apple . 314453_314880
+*MOT:	what ? 324210_328940
+*MOT:	banana . 336475_337072
+*MOT:	yes nonny [: banana] . 356547_358775
+*MOT:	corn . 359970_361068
+*MOT:	yes . 361068_362912
+*MOT:	yes . 365488_366963
+*MOT:	grapes . 366963_367603
+*MOT:	thank_you . 390792_399518
+*MOT:	uhhuh ? 423603_425487
+*MOT:	what's in them ? 427410_428060
+*MOT:	what's in the bottles ? 428060_428837
+*MOT:	what's in the bottles ? 432515_433200
+*MOT:	0 . 444807_445503
+*MOT:	tower . 445503_445997
+*MOT:	are you trying to build a tower ? 445997_446673
+*MOT:	thank_you . 450675_457280
+*MOT:	what ? 460875_461622
+*MOT:	0 . 475502_477263
+*MOT:	0 . 477263_481383
+*MOT:	do you want to do the puzzle ? 481383_482128
+*MOT:	okay . 482128_482840
+*MOT:	come over here . 482840_483460
+*MOT:	what's that ? 487497_488152
+*MOT:	this is a cow . 489688_492853
+*MOT:	and this is a pig . 492853_494543
+*MOT:	that's dirt . 502153_502870
+*MOT:	that's a rooster . 508877_510467
+*MOT:	a duck . 512757_513863
+*MOT:	a donkey . 517118_517575
+*MOT:	thank_you . 523872_531707
+*MOT:	what is that ? 532152_533030
+*MOT:	cow . 533833_535268
+*MOT:	how does the cow go ? 535268_537678
+*MOT:	what ? 539245_539847
+*MOT:	how does the cow go ? 539847_541050
+*MOT:	what does the cow do ? 541050_541975
+*MOT:	huh ? 542460_543502
+*MOT:	what does the cow do ? 543502_545155
+*MOT:	no . 546707_547802
+*MOT:	moo moo . 547802_549637
+*MOT:	come on push it in Patrick . 551398_555197
+*MOT:	push it in . 555197_556243
+*MOT:	push the cow in . 556243_558130
+*MOT:	he'll go . 558130_559285
+*MOT:	0 . 559285_560318
+*MOT:	where does the duck go ? 561392_563872
+*MOT:	uhhuh ? 578045_578741
+*MOT:	can you put the rooster back ? 582426_586331
+*MOT:	turn it around . 591373_592101
+*MOT:	it will go in . 592101_595393
+*MOT:	wait [x 2] .
+*MOT:	let's finish this puzzle first . 599721_600630
+*MOT:	come on . 600630_601765
+*MOT:	0 . 604946_609015
+*MOT:	you're doing a nice job . 625825_627071
+*MOT:	come on over here . 627071_628561
+*MOT:	come over here . 630536_631220
+*MOT:	let's put the puzzle away first . 631220_632133
+*MOT:	let's put the puzzle away . 632133_634603
+*MOT:	you put the rooster back . 636825_638685
+*MOT:	put it back . 638685_642033
+*MOT:	come on . 645101_646126
+*MOT:	let's put it back . 646126_646716
+*MOT:	who's the bottle for ? 655671_659528
+*MOT:	is it good ? 681443_682056
+*MOT:	does the baby like it ? 682056_683816
+*MOT:	does Patrick like it ? 683816_685455
+*MOT:	hm ? 685455_687526
+*MOT:	hm . 696543_696885
+*MOT:	what is the baby doing Patrick ? 708050_717600
+*MOT:	mm hm . 740238_740806
+*MOT:	there's no more . 740806_741216
+*MOT:	it's empty . 742586_742938
+*MOT:	0 . 754488_758641
+*MOT:	what is it ? 759103_759590
+*MOT:	what's inside ? 759590_760550
+*MOT:	no . 771830_772248
+*MOT:	no don't put that in your mouth . 772248_772768
+*MOT:	come on . 772768_773830
+*MOT:	let's put it back . 773830_774968
+*MOT:	come on . 774968_777470
+*MOT:	give it to the baby . 777470_777805
+*MOT:	give it to the baby . 777805_779576
+*MOT:	the baby's thirsty . 788488_788930
+*MOT:	uhhuh ? 796025_796825
+*MOT:	0 . 809055_812116
+*MOT:	uhhuh ? 826145_827030
+*MOT:	I think it's too little for you . 848531_851756
+*MOT:	I think the dolly should ride it . 855416_856541
+*MOT:	let's fix it . 856541_859025
+*MOT:	the wheels . 859025_860738
+*MOT:	0 . 860738_862935
+*MOT:	you could give the dolly a ride Patrick . 862935_866876
+*MOT:	0 . 880520_886418
+*MOT:	you wanna blow your nose silly ? 910165_910475
+*MOT:	oh baby . 912301_912863
+*MOT:	oh you want a tissue ? 912863_913980
+*MOT:	huh ? 916490_917126
+*MOT:	0 . 918291_919366
+*MOT:	good boy . 923783_930140
+*MOT:	do you wanna blow your nose too ? 931135_934018
+*MOT:	0 . 939310_940946
+*MOT:	0 . 961118_970090
+*MOT:	will you come on this side Patrick ? 976436_977018
+*MOT:	there you go . 977018_980163
+*MOT:	do you know what that is ? 981066_986405
+*MOT:	yeah . 993143_994980
+*MOT:	0 . 1003418_1005375
+*MOT:	elephant . 1016980_1018133
+*MOT:	yeah . 1018133_1018600
+*MOT:	back . 1022760_1024926
+*MOT:	hey . 1027520_1029821
+*MOT:	you do that real well . 1029821_1033025
+*MOT:	uhhuh ? 1036561_1037281
+*MOT:	and he pops up . 1038443_1041306
+*MOT:	and he pops up . 1045818_1048560
+*MOT:	how about that ? 1050421_1051933
+*MOT:	you're doing that really well . 1099918_1103975
+*MOT:	no bottle Patrick . 1113056_1114356
+*MOT:	no bottle Patrick . 1117436_1118511
+*MOT:	mm hm . 1131766_1132813
+*MOT:	oh . 1138122_1140813
+*MOT:	here it is . 1140813_1141190
+*MOT:	here's the big bottle . 1141190_1142312
+*MOT:	0 . 1142312_1144340
+*MOT:	a man . 1156702_1157272
+*MOT:	uhhuh ? 1161110_1162302
+*MOT:	0 . 1166290_1168278
+*MOT:	what ? 1197755_1198098
+*MOT:	what are you doing ? 1199315_1203537
+*MOT:	very good Patrick . 1231575_1232677
+*MOT:	0 . 1239017_1241987
+*MOT:	a big bottle . 1248470_1249303
+*MOT:	that's not exactly a bottle . 1249303_1251667
+*MOT:	that's a pitcher . 1251667_1253192
+*MOT:	in a while we'll have soup Patrick . 1269085_1273385
+*MOT:	uhhuh ? 1297030_1297443
+*MOT:	you brush your hair . 1297443_1297927
+*MOT:	well I'll comb it . 1297927_1298570
+*MOT:	oh you brushing the teddy bear ? 1300573_1304035
+*MOT:	uhhuh ? 1309967_1310600
+*MOT:	Daisy's outside . 1319123_1320493
+*MOT:	maybe that's a monkey . 1324037_1325765
+*MOT:	0 . 1325765_1329112
+*MOT:	uhhuh ? 1330947_1331472
+*MOT:	who's on the phone ? 1336152_1339122
+*MOT:	Poppop ? 1340480_1341202
+*MOT:	0 . 1342467_1343167
+*MOT:	hello Poppop . 1343167_1343710
+*MOT:	how are you ? 1343710_1345822
+*MOT:	Patrick's playing toys with me . 1345822_1349278
+*MOT:	yes oh would you like to say hello ? 1349278_1352537
+*MOT:	would you like to say hello to Poppop ? 1352537_1355517
+*MOT:	say hi . 1358702_1359225
+*MOT:	ask him what he's doing . 1360217_1361188
+*MOT:	oh honey . 1371410_1372958
+*MOT:	it didn't break . 1372958_1374320
+*MOT:	see ? 1374320_1375243
+*MOT:	that's another top . 1375243_1377840
+*MOT:	0 . 1377840_1378797
+*MOT:	what is that ? 1378797_1381112
+*MOT:	do you see yourself . 1384422_1384952
+*MOT:	it's a mirror . 1384952_1385698
+*MOT:	it didn't break honey . 1386767_1389208
+*MOT:	0 . 1391765_1392968
+*MOT:	see ? 1392968_1394227
+*MOT:	look . 1394227_1394943
+*MOT:	it didn't break . 1394943_1396582
+*MOT:	it's okay . 1400757_1401632
+*MOT:	it didn't break . 1401632_1403023
+*MOT:	mm hm . 1435702_1437035
+*MOT:	let's see . 1439990_1440693
+*MOT:	do you wanna put them on ? 1440693_1445290
+*MOT:	let me see . 1445290_1449085
+*MOT:	oh yes . 1463370_1463773
+*MOT:	it's a very big comb . 1463773_1464587
+*MOT:	it's a comb [x 1] . 1464587_1465622
+*MOT:	do you wanna comb my hair ? 1472420_1474578
+*MOT:	thank_you . 1477298_1478498
+*MOT:	Patrick this brush is for the floor . 1494248_1498020
+*MOT:	you wash the floor . 1498020_1500060
+*MOT:	pretty soon Patrick . 1514937_1518430
+*MOT:	we'll have some soup . 1520175_1521317
+*MOT:	you don't wanna break it . 1522692_1525287
+*MOT:	don't break it . 1528272_1529288
+*MOT:	uhhuh ? 1533953_1535020
+*MOT:	oh . 1535940_1537248
+*MOT:	my_goodness . 1537248_1537815
+*MOT:	what are you doing ? 1543240_1551823
+*MOT:	what are you doing honey ? 1555157_1559127
+*MOT:	you're in the bucket . 1563647_1566257
+*MOT:	how about if you took the toys out ? 1578310_1581738
+*MOT:	what's that ? 1582658_1583060
+*MOT:	what is it ? 1583060_1585158
+*MOT:	around your neck . 1595277_1596920
+*MOT:	oh Patrick . 1599033_1599398
+*MOT:	0 . 1599398_1601915
+*MOT:	you look so pretty . 1610245_1611815
+*MOT:	yeah . 1631788_1632843
+*MOT:	0 . 1640593_1645795
+*MOT:	thank_you . 1654878_1657365
+*MOT:	0 . 1672108_1674267
+*MOT:	0 . 1674267_1680428
+*MOT:	what's that Patrick ? 1694783_1698452
+*MOT:	okay . 1700959_1705305
+*MOT:	0 . 1705305_1707663
+*MOT:	here you go . 1710340_1713935
+*MOT:	one more . 1719041_1726230
+*MOT:	mm hm . 1727835_1728723
+*MOT:	can you close it ? 1728723_1731386
+*MOT:	mm hm . 1735375_1736426
+*MOT:	close . 1736426_1737715
+*MOT:	I don't think there are anymore . 1740026_1742983
+*MOT:	uhhuh ? 1752728_1753335
+*MOT:	do you wanna put the beads on me ? 1754418_1754898
+*MOT:	0 . 1756788_1759556
+*MOT:	what ? 1771395_1778075
+*MOT:	come over here Patrick . 1786783_1787438
+*MOT:	Patrick let's do the puzzle . 1787438_1797150
+*MOT:	let's do the puzzle . 1797150_1797921
+*MOT:	I'm gonna put the duck back . 1797921_1800518
+*MOT:	oop . 1800518_1803485
+*MOT:	now you do it . 1803485_1804711
+*MOT:	you do the donkey . 1804711_1806928
+*MOT:	can you put it back ? 1808850_1810375
+*MOT:	where does it go ? 1811493_1813306
+*MOT:	that's it . 1813306_1814796
+*MOT:	yeah . 1815845_1816503
+*MOT:	a rooster . 1820478_1821386
+*MOT:	where do you think it should go ? 1823480_1824133
+*MOT:	Patrick here . 1824133_1826313
+*MOT:	it goes here . 1826313_1830841
+*MOT:	0 . 1830841_1831536
+*MOT:	what honey ? 1837036_1838316
+*MOT:	dishes . 1842030_1844060
+*MOT:	what's that ? 1846045_1849491
+*MOT:	a mess . 1852891_1854421
+*MOT:	a sponge . 1854421_1856046
+*MOT:	can you open that ? 1868650_1871736
+*MOT:	you turn it Patrick . 1877633_1878403
+*MOT:	turn this . 1878403_1879638
+*MOT:	uhhuh ? 1881420_1882128
+*MOT:	let me see [x 1] . 1882128_1886825
+*MOT:	you got it . 1886825_1891401
+*MOT:	okay now open it . 1891401_1892288
+*MOT:	pull the top . 1892288_1894846
+*MOT:	there you go . 1895965_1901133
+*MOT:	what's inside ? 1902098_1903681
+*MOT:	what's inside ? 1905035_1906821
+*MOT:	money . 1908328_1908813
+*MOT:	no money . 1908813_1909346
+*MOT:	there's no money in here . 1909346_1909895
+*MOT:	uhoh . 1924850_1925808
+*MOT:	let's fix it . 1925808_1926280
+*MOT:	0 . 1926280_1930550
+*MOT:	0 . 1931580_1934103
+*MOT:	0 . 1934103_1934685
+*MOT:	mm hm . 1942611_1943616
+*MOT:	it's a bottle for the baby . 1949863_1950868
+*MOT:	oh . 1958420_1958745
+*MOT:	there's the baby .
+*MOT:	oh . 1958745_1959461
+*MOT:	okay . 1959461_1959848
+*MOT:	I'll hold this . 1959848_1960205
+*MOT:	go get the baby . 1960205_1962430

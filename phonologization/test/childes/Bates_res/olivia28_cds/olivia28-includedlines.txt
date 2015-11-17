@@ -1,0 +1,93 @@
+*MOT:	do you know what this is ?
+*MOT:	a ladder .
+*MOT:	walk up the stairs .
+*MOT:	make him climb the stairs (.) see ?
+*MOT:	0 [=! makes sound of something falling in dollhouse] .
+*MOT:	<that's a> [/] that's a &um bench .
+*MOT:	so they can sit up to [?] the table .
+*MOT:	look .
+*MOT:	see ?
+*MOT:	bench .
+*MOT:	sit up to the table .
+*MOT:	eat dinner .
+*MOT:	here's another one .
+*MOT:	should we get some more people ?
+*MOT:	what's this ?
+*MOT:	yeah .
+*MOT:	oh .
+*MOT:	what's that ?
+*MOT:	what's that ?
+*MOT:	uhhuh (.) that's a chicken .
+*MOT:	you know what doggie says ?
+*MOT:	what ?
+*MOT:	I'm going for a ride .
+*MOT:	and +...
+*MOT:	there's (.) the mommy .
+*MOT:	then there's a girl .
+*MOT:	oh (.) that the little girl ?
+*MOT:	that the mommy ?
+*MOT:	and the brother (.) does he look very happy ?
+*MOT:	is he unhappy ?
+*MOT:	oh (.) my .
+*MOT:	what a face .
+*MOT:	they're going for a ride .
+*MOT:	they took the doggie with them .
+*MOT:	here they come .
+*MOT:	here they come .
+*MOT:	can you <give (th)em> [/] give (th)em a ride ?
+*MOT:	look .
+*MOT:	what are these ?
+*MOT:	Olivia .
+*MOT:	what kind of beds ?
+*MOT:	no (.) they're bunk beds .
+*MOT:	like you have at home .
+*MOT:	you have bunk beds .
+*MOT:	put the people asleep ?
+*MOT:	can you put some people in bed ?
+*MOT:	look (.) and <this is their> [/] this is their cook+out (.)
+*MOT:	that's their dinner .
+*MOT:	yeah .
+*MOT:	look (.) there's some chairs .
+*MOT:	here's some more chairs .
+*MOT:	those are beds ?
+*MOT:	look (.) here's another bed .
+*MOT:	<should we put> [//] should we make a bed+room ?
+*MOT:	the sister's sleeping .
+*MOT:	ssh .
+*MOT:	and <the doggie> [//] the doggie's sitting in the other bed waiting
+*MOT:	and the mommy is gonna lay down in one of these chairs there .
+*MOT:	she's taking a nap .
+*MOT:	don't put it in your mouth .
+*MOT:	don't [!] put it in your mouth .
+*MOT:	are they coming back from their trip yet ?
+*MOT:	the car ?
+*MOT:	where's the car ?
+*MOT:	where's the car ?
+*MOT:	here comes the chicken .
+*MOT:	bock_bock_bock_bock_bock_bock_bock@o .
+*MOT:	the chicken's gonna come to dinner .
+*MOT:	there .
+*MOT:	there's the chicken .
+*MOT:	gonna sit on that chair ?
+*MOT:	are you gonna put the bunk beds in the bed+room ?
+*MOT:	this the bed+room .
+*MOT:	is it time to take a nap ?
+*MOT:	ssh .
+*MOT:	oh (.) good (.) that one's taking a nap (.) too .
+*MOT:	where is the other bed ?
+*MOT:	is the daddy going to take a nap ?
+*MOT:	they'll have_to sleep in those other chairs .
+*MOT:	use those for them .
+*MOT:	well (.) she +...
+*MOT:	oh (.) she's sleeping .
+*MOT:	&hmm (.) I don't know .
+*MOT:	yeah (.) she can sleep in there .
+*MOT:	we'll make room for her .
+*MOT:	got (th)em all put to bed now ?
+*MOT:	&hmm .
+*MOT:	should we make another bed ?
+*MOT:	you've got (th)em all put to bed don't you ?
+*MOT:	uhhuh .
+*MOT:	do you want to do something else ?
+*MOT:	did we get them all put in bed ?
+*MOT:	here (.) move them around here .

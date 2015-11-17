@@ -1,0 +1,288 @@
+*MOT:	what's that ?
+*MOT:	that's the crane .
+*MOT:	yes .
+*MOT:	Dingo car .
+*MOT:	Dingo car .
+*MOT:	Dingo car .
+*MOT:	did you have the book upside down , silly ?
+*MOT:	that's a (.) a truck with the cab coming off .
+*MOT:	that's a pumpkin truck .
+*MOT:	a big cab , yeah .
+*MOT:	a big bump .
+*MOT:	it went over a big bump .
+*MOT:	yes , it did .
+*MOT:	went over a big , big bump .
+*MOT:	that's a train .
+*MOT:	that's a passenger train .
+*MOT:	what ?
+*MOT:	had a bump there ?
+*MOT:	o:h .
+*MOT:	cream on you ?
+*MOT:	put some more peam [: cream] ?
+*MOT:	you have the hiccups .
+*MOT:	don't you ?
+*MOT:	does that feel good ?
+*MOT:	you wanna do it on top ?
+*MOT:	you wanna do it yourself ?
+*MOT:	no I don't want any cream , thank_you .
+*MOT:	no thank_you .
+*MOT:	on Nathaniel .
+*MOT:	your hands are kind of dirty .
+*MOT:	aren't they Nathaniel .
+*MOT:	okay .
+*MOT:	I think that's maybe enough cream for now .
+*MOT:	no I think that's enough for now .
+*MOT:	are you doing anything in the pottie there ?
+*MOT:	I know you did pee+pee but are you doing bah@f or should we go put
+*MOT:	train tracks .
+*MOT:	Dingo is drivin(g) on the train tracks .
+*MOT:	Dingo is a terrible driver .
+*MOT:	going down the hill ?
+*MOT:	I don't see any hill .
+*MOT:	come here you .
+*MOT:	let me wipe your hands off .
+*MOT:	yeah the cream and the dirt too .
+*MOT:	the dirt , too .
+*MOT:	is that going the wrong way ?
+*MOT:	were you going the wrong way in that book ?
+*MOT:	those are the three little pigs .
+*MOT:	what's that ?
+*MOT:	that's Squiggly the worm eating an apple .
+*MOT:	who's what ?
+*MOT:	well ask me something .
+*MOT:	point to something and I'll tell you what it is , Nathaniel .
+*MOT:	that's the fat little pig .
+*MOT:	that's the skinny little rabbit .
+*MOT:	what's that ?
+*MOT:	remember what ?
+*MOT:	that's a wheelbarrow .
+*MOT:	shovel , yeah .
+*MOT:	what ?
+*MOT:	you like the shovel ?
+*MOT:	that's an ax .
+*MOT:	that's an ax .
+*MOT:	you use an ax to cut down trees .
+*MOT:	inside .
+*MOT:	coming inside , yeah .
+*MOT:	you got cream <on your> [//] all over your legs , don't you ?
+*MOT:	how come you like cream so much ?
+*MOT:	is there too much there ?
+*MOT:	you've got too many hiccups , too .
+*MOT:	that's cream I guess , isn't it ?
+*MOT:	let's see .
+*MOT:	oh it's a broken fingernail .
+*MOT:	there's something caught in it .
+*MOT:	okay let's turn the page and finish this book .
+*MOT:	and then (.) I think we'll go get ready for bed .
+*MOT:	more hair in the fingernail ?
+*MOT:	are you making fun of me ?
+*MOT:	that's somebody skiing .
+*MOT:	and that's Squiggly sticking out_of the apple .
+*MOT:	that's a grasshopper .
+*MOT:	the moon .
+*MOT:	that's a guitar .
+*MOT:	you know what this is Nathaniel ?
+*MOT:	this is a sign that says quiet .
+*MOT:	that's a book .
+*MOT:	book .
+*MOT:	I don't like this [/] <this a> [/] <this a> [//] this business .
+*MOT:	<let's say> [//] let's find something interesting to talk about .
+*MOT:	big Hilda is lying down having a nap .
+*MOT:	you have a nap too , sometimes ?
+*MOT:	look_it it's on fire .
+*MOT:	dutch house ?
+*MOT:	who's inside ?
+*MOT:	that's a drum .
+*MOT:	and those are bagpipes .
+*MOT:	what's he doin(g) ?
+*MOT:	what's he doin(g) ?
+*MOT:	what's he playing ?
+*MOT:	what's he playing ?
+*MOT:	what's he playing ?
+*MOT:	he's playing a horn .
+*MOT:	kitty cat playing a horn .
+*MOT:	drum .
+*MOT:	who's that ?
+*MOT:	it's not a banana .
+*MOT:	who is that ?
+*MOT:	it's a octopus , Souffert .
+*MOT:	is it broken ?
+*MOT:	what's wrong with it ?
+*MOT:	what's wrong with it ?
+*MOT:	it's broken , okay .
+*MOT:	that's big Hilda in the phone booth .
+*MOT:	little bit ?
+*MOT:	little bit of pee+pee ?
+*MOT:	or a little bit of bah@f ?
+*MOT:	that's a snake .
+*MOT:	boot , yes .
+*MOT:	that's a chicken .
+*MOT:	that's big Hilda in the phone booth .
+*MOT:	those are a bunch of ladybugs .
+*MOT:	aren't they ?
+*MOT:	it's a truck .
+*MOT:	that's right .
+*MOT:	turning around .
+*MOT:	yeah he's standing up on top of it .
+*MOT:	hi bugs .
+*MOT:	what's a ladybug ?
+*MOT:	ladybug .
+*MOT:	lots_of ladybugs .
+*MOT:	taking a bath , yeah .
+*MOT:	big bath .
+*MOT:	two of them in the bath+tub together .
+*MOT:	no she's not taking her bath .
+*MOT:	she's helping them with the bath .
+*MOT:	there's a car .
+*MOT:	car goes off , yeah .
+*MOT:	it <fell off the> [//] went off the road into the mud .
+*MOT:	into the mud .
+*MOT:	eggs .
+*MOT:	cheese .
+*MOT:	butter butter .
+*MOT:	you always have trouble finding the peanut+butter .
+*MOT:	don't you ?
+*MOT:	it has a peanut on it .
+*MOT:	where is the peanut+butter ?
+*MOT:	not the peanut+butter .
+*MOT:	that's the ice cream .
+*MOT:	that's right .
+*MOT:	where is the peanut+butter ?
+*MOT:	that's grape jelly .
+*MOT:	granola .
+*MOT:	that's right .
+*MOT:	mhm .
+*MOT:	box of granola .
+*MOT:	no this is the granola .
+*MOT:	you were right the first time .
+*MOT:	that's granola .
+*MOT:	there's the peanut+butter .
+*MOT:	there's the peanut+butter .
+*MOT:	we bought .
+*MOT:	we bought peanut+butter today .
+*MOT:	didn't we ?
+*MOT:	we bought granola today , too .
+*MOT:	that's granola .
+*MOT:	where did we buy the peanut+butter and the granola ?
+*MOT:	where did we buy them ?
+*MOT:	that's not the peanut+butter .
+*MOT:	yes .
+*MOT:	more what ?
+*MOT:	<where is> [/] what's on the floor ?
+*MOT:	the feet are on the floor .
+*MOT:	are they ?
+*MOT:	the cream on the floor ?
+*MOT:	wipe it up .
+*MOT:	very good .
+*MOT:	that's a car , honey .
+*MOT:	it went into the mud .
+*MOT:	that's right .
+*MOT:	wha(t) went into the mud .
+*MOT:	who's that ?
+*MOT:	well , he's not in this picture .
+*MOT:	that's another picture where he's eating ice .
+*MOT:	cream .
+*MOT:	donkey .
+*MOT:	that's a milk truck .
+*MOT:	ladder , yeah .
+*MOT:	into the hayloft .
+*MOT:	that's the snake (.) with roller skates on .
+*MOT:	that's a kitty cat playin(g) +...
+*MOT:	playin(g) a tuba .
+*MOT:	we put the +...
+*MOT:	we put a little bit on your leg already , honey .
+*MOT:	I think you have enough .
+*MOT:	make it all better right there ?
+*MOT:	okay , well here .
+*MOT:	let's move some of this down .
+*MOT:	rub it in a little bit .
+*MOT:	it's very nasty .
+*MOT:	your poor legs .
+*MOT:	yep [: yes] yeah you have a boo+boo there where you fell down .
+*MOT:	but &uh don't (.) pick at it , Nathaniel .
+*MOT:	that's .
+*MOT:	we'll put some cream on it , okay ?
+*MOT:	no don't pick it out .
+*MOT:	you'll make it worse .
+*MOT:	you'll make it bleed .
+*MOT:	we'll put something on it now don't touch it .
+*MOT:	no , leave it alone .
+*MOT:	I know you want to touch it , but you mustn't .
+*MOT:	here let's put some cream under your chin .
+*MOT:	make it all better <boo boo boo boo> [/] boo .
+*MOT:	where ?
+*MOT:	did you hurt your toe ?
+*MOT:	right there on your toe ?
+*MOT:	Nathaniel's getting all creamed up .
+*MOT:	that's a little bit .
+*MOT:	we don't want you to slip out_of bed .
+*MOT:	I think that might be enough now .
+*MOT:	don't you ?
+*MOT:	(wh)oop .
+*MOT:	that's good .
+*MOT:	that's enough now .
+*MOT:	too much .
+*MOT:	whoop .
+*MOT:	that's a little bit of extra cream .
+*MOT:	rub it all in please .
+*MOT:	what ?
+*MOT:	you fell on the floor ?
+*MOT:	and hurt yourself .
+*MOT:	oh I'm sorry it hurts , Nathaniel .
+*MOT:	but it's best just to leave it alone .
+*MOT:	<truck &eh> [//] that's a car .
+*MOT:	that's right Nathaniel .
+*MOT:	Dingo's car .
+*MOT:	who's that ?
+*MOT:	that's a cornfield , Nathaniel .
+*MOT:	driving .
+*MOT:	driving .
+*MOT:	that's a +...
+*MOT:	you want Dingo to drive into the tuba ?
+*MOT:	that's the soup .
+*MOT:	what ?
+*MOT:	look that's a +...
+*MOT:	Nathaniel we put a little bit on .
+*MOT:	we're going to put your pj's on in a minute and then you can forget
+*MOT:	your [/] your itchies .
+*MOT:	I know it's itchy .
+*MOT:	I know .
+*MOT:	oh no you don't have peem [: cream] on the floor ?
+*MOT:	wipe it up .
+*MOT:	a little bit on the floor ?
+*MOT:	let's finish the book .
+*MOT:	uhoh look at all the crayons .
+*MOT:	what colors are they ?
+*MOT:	you need a piece of paper if you're gonna draw with crayons , don't
+*MOT:	okay let's turn the page .
+*MOT:	uhoh do you see the wheelbarrow .
+*MOT:	that's the ladder that you always think is a slide .
+*MOT:	but we know it isn't a slide .
+*MOT:	don't we ?
+*MOT:	that is not a slide .
+*MOT:	it's a ladder .
+*MOT:	he's falling off .
+*MOT:	that's right .
+*MOT:	oh is he gonna hurt himself ?
+*MOT:	give him a kiss .
+*MOT:	make it better .
+*MOT:	that was nice .
+*MOT:	okay shall we (.) turn the pages now ?
+*MOT:	eating the pickle .
+*MOT:	why do you say ouch ?
+*MOT:	oh is he making the pickle hurt ?
+*MOT:	biting the pickle ?
+*MOT:	alligator .
+*MOT:	all done .
+*MOT:	okay .
+*MOT:	is he going to a fire ?
+*MOT:	Dingo's car .
+*MOT:	let's get up and throw your pee+pee in the toilet now .
+*MOT:	Nathaniel helps .
+*MOT:	that's alright .
+*MOT:	Nathaniel can help .
+*MOT:	you must be very careful not to spill .
+*MOT:	mhm .
+*MOT:	oh you have_to let go , Nathaniel .
+*MOT:	enne [: wanna] stand on de [: the] chair .
+*MOT:	I thought you +...

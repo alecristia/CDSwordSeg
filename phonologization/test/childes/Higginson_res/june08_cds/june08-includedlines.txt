@@ -1,0 +1,446 @@
+*MOT:	the baby .
+*MOT:	mama (.) mama (.) mama .
+*MOT:	June ?
+*MOT:	what's that ?
+*MOT:	what is that ?
+*MOT:	it's a ball ?
+*MOT:	oh my (.) are you sure ?
+*MOT:	no (.) okay .
+*MOT:	it won't fit in there .
+*MOT:	got a few more in there .
+*MOT:	here (.) shall we put them back ?
+*MOT:	June (.) here .
+*MOT:	thank_you .
+*MOT:	you're welcome .
+*MOT:	you're welcome .
+*MOT:	do you like this one ?
+*MOT:	you're welcome .
+*MOT:	here .
+*MOT:	you're welcome .
+*MOT:	you're welcome .
+*MOT:	you're welcome .
+*MOT:	June (.) you missed a few .
+*MOT:	here .
+*MOT:	yeh (.) let's bring it out here .
+*MOT:	let's pull it over here .
+*MOT:	here .
+*MOT:	you're welcome .
+*MOT:	hum !
+*MOT:	you're welcome .
+*MOT:	what ?
+*MOT:	shall we put the baby to bed (.) huh ?
+*MOT:	yes .
+*MOT:	is she going to sleep now ?
+*MOT:	is she asleep now ?
+*MOT:	uhhuh .
+*MOT:	you're welcome .
+*MOT:	is your baby asleep ?
+*MOT:	June ?
+*MOT:	is the baby going to sleep ?
+*MOT:	don't hit her !
+*MOT:	June (.) is the baby going to sleep now ?
+*MOT:	uhhuh .
+*MOT:	sleep ?
+*MOT:	June (.) here (.) wanna look at this ?
+*MOT:	you're welcome .
+*MOT:	what's that ?
+*MOT:	what's this ?
+*MOT:	is that an apple ?
+*MOT:	uhhuh (.) is this an apple ?
+*MOT:	that's very good .
+*MOT:	uhhuh .
+*MOT:	ball .
+*MOT:	it's a pear .
+*MOT:	uhhuh .
+*MOT:	baby (.) uhhuh .
+*MOT:	what's this ?
+*MOT:	shoe (.) uhhuh .
+*MOT:	ball (.) right .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	bunny .
+*MOT:	does the bunny say miaw@o ?
+*MOT:	it does ?
+*MOT:	I thought the kitty said miaw@o .
+*MOT:	where's the kitty ?
+*MOT:	wanna turn around a little bit (.) okay .
+*MOT:	where's your kitty ?
+*MOT:	yeh (.) where did kitty go ?
+*MOT:	what's this ?
+*MOT:	dog .
+*MOT:	dog ?
+*MOT:	<what's this> [>] ?
+*MOT:	what ?
+*MOT:	duck ?
+*MOT:	oh well (.) we'll find kitty after a while .
+*MOT:	shall we read this book ?
+*MOT:	wanna read this book ?
+*MOT:	read .
+*MOT:	read .
+*MOT:	would you like one of those better ?
+*MOT:	yes (.) do you want one of those ?
+*MOT:	Pinnochio .
+*MOT:	okay (.) this is a little boy .
+*MOT:	boy (.) okay .
+*MOT:	here's a [/] .
+*MOT:	what's this ?
+*MOT:	kitty (.) okay .
+*MOT:	and this is Gipetto .
+*MOT:	there once was a kind old man named Gipetto .
+*MOT:	(.) he lived in a town with his goldfish (.) Cleo (.) and his cat
+*MOT:	(.) and his friend Jiminy Cricket lived in the house too .
+*MOT:	Gipetto could make wonderful things out_of wood (.) one day he made
+*MOT:	what's this (.) June ?
+*MOT:	is that a boy ?
+*MOT:	what's this ?
+*MOT:	oh (.) Gipetto (.) is that ?
+*MOT:	is this a kitty ?
+*MOT:	kitty (.) okay .
+*MOT:	anyway (.) the Good Fairy came and (.) &er (.) she made Pinnochio
+*MOT:	there's the real boy again .
+*MOT:	boy .
+*MOT:	what's that ?
+*MOT:	kitty ?
+*MOT:	who's that ?
+*MOT:	yes (.) yes (.) it's Gipetto (.) very good .
+*MOT:	who's this ?
+*MOT:	oh (.) this is Gipetto (.) okay !
+*MOT:	then Gipetto sent Pinnochio out to buy some food because he wanted
+*MOT:	who are they ?
+*MOT:	who's this ?
+*MOT:	yes (.) what's that ?
+*MOT:	how about a monkey ?
+*MOT:	monkey (.) okay (.) and these are little children .
+*MOT:	oh (.) okay .
+*MOT:	this is a little girl .
+*MOT:	girl (.) okay .
+*MOT:	this is a little boy .
+*MOT:	yeh (.) okay .
+*MOT:	then he met a bad boy .
+*MOT:	yeh (.) boy who wanted to cheat Pinnochio (.) so he told him that
+*MOT:	candy ?
+*MOT:	candy ?
+*MOT:	Petto@c .
+*MOT:	okay (.) so he went to the store and the lady asked him where he
+*MOT:	yeh (.) okay (.) is that yours ?
+*MOT:	yes (.) okay .
+*MOT:	and then the boy took the candy from Pinnochio (.) stole it from
+*MOT:	and then Pinnochio cried .
+*MOT:	yeh (.) he cried .
+*MOT:	yeh (.) he did (.) Pinnochio was very sad .
+*MOT:	uhhuh .
+*MOT:	would you rather read another story ?
+*MOT:	uhhuh .
+*MOT:	okay (.) this is (.) okay ?
+*MOT:	and these are mice .
+*MOT:	this is a mouse .
+*MOT:	uhhuh .
+*MOT:	Petto@c .
+*MOT:	this is a pumpkin (.) dear .
+*MOT:	pumpkin (.) right .
+*MOT:	Cinderella lived with her stepmother and two stepsisters (.) the
+*MOT:	this is a stepsister here .
+*MOT:	it's a girl .
+*MOT:	girl (.) yes .
+*MOT:	they never had to work but Cinderella had to work all the time (.)
+*MOT:	his son the prince will choose a wife .
+*MOT:	every girl in the kingdom must be there .
+*MOT:	Cinderella wanted to go .
+*MOT:	her stepmother told her she could go if she had a dress to wear .
+*MOT:	there's a dress .
+*MOT:	oh (.) very good .
+*MOT:	Cinderella and the little mice are all excited and went downstairs
+*MOT:	there's the sisters getting ready for the ball .
+*MOT:	these are beads .
+*MOT:	beads .
+*MOT:	and a sash .
+*MOT:	what ?
+*MOT:	car (.) uhhuh .
+*MOT:	did you want to talk to anyone ?
+*MOT:	can you turn around ?
+*MOT:	uhhuh .
+*MOT:	what do you want ?
+*MOT:	do you want to read ?
+*MOT:	read .
+*MOT:	uhhuh .
+*MOT:	okay (.) I'll read .
+*MOT:	okay (.) we were back here .
+*MOT:	here's the mice (.) they were fixing's Cinderella's dress so_that
+*MOT:	they're sewing the dress .
+*MOT:	they measure (.) they cut (.) they (.) fold and they sew .
+*MOT:	no (.) you don't want to talk anymore ?
+*MOT:	here's Cinderella (.) the dress is all fixed and the stepmother
+*MOT:	there she goes back into her room .
+*MOT:	what's this ?
+*MOT:	uhhuh .
+*MOT:	her dress (.) her dress is all ready but the sisters are angry so
+*MOT:	there's the Fairy Godmother .
+*MOT:	what's this ?
+*MOT:	oo ?
+*MOT:	dog ?
+*MOT:	there's the dog and the horse .
+*MOT:	there's the dog and the horse .
+*MOT:	I've gotten mixed up here .
+*MOT:	here the Grand Duke is trying the slipper on Drucella's foot .
+*MOT:	what's this (.) June ?
+*MOT:	what's that ?
+*MOT:	hum (.) okay .
+*MOT:	what's this ?
+*MOT:	uhhuh .
+*MOT:	okay (.) can you tell me the story ?
+*MOT:	can you tell me about it ?
+*MOT:	what are these people doing ?
+*MOT:	uhhuh .
+*MOT:	June (.) can you read to me ?
+*MOT:	what does it say ?
+*MOT:	Happy (.) okay .
+*MOT:	who's this ?
+*MOT:	Doc (.) is that Doc ?
+*MOT:	okay (.) who's this ?
+*MOT:	that's very good .
+*MOT:	this is what ?
+*MOT:	what is that ?
+*MOT:	uhhuh .
+*MOT:	who's that ?
+*MOT:	uhhuh .
+*MOT:	the mirror ?
+*MOT:	hiho@si (.) can you sing ?
+*MOT:	what's the rest of the song ?
+*MOT:	what's the rest of it ?
+*MOT:	uhhuh .
+*MOT:	are you going to tell me the story ?
+*MOT:	uhhuh .
+*MOT:	thank_you .
+*MOT:	what's that ?
+*MOT:	Happy .
+*MOT:	that's very nice .
+*MOT:	I like that story .
+*MOT:	can you tell me some more ?
+*MOT:	uhhuh .
+*MOT:	what's the baby doing ?
+*MOT:	what's this ?
+*MOT:	what's this ?
+*MOT:	what's this ?
+*MOT:	what's this ?
+*MOT:	what's this ?
+*MOT:	what's this ?
+*MOT:	hum .
+*MOT:	what's this June ?
+*MOT:	yes (.) what's this ?
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	feet ?
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	can you tell me the story ?
+*MOT:	what (.) the choo+choo train ?
+*MOT:	it's up here .
+*MOT:	there we are .
+*MOT:	there .
+*MOT:	can you tell me the story ?
+*MOT:	choo+choo train .
+*MOT:	uhhuh .
+*MOT:	you want this one now ?
+*MOT:	oh (.) that's a good book .
+*MOT:	what's it about ?
+*MOT:	what's the story about ?
+*MOT:	who's this ?
+*MOT:	party (.) uhhuh .
+*MOT:	uhhuh .
+*MOT:	you want this one now ?
+*MOT:	that the one you want ?
+*MOT:	uhhuh (.) yeh .
+*MOT:	the children are paddling (.) splashing and having fun .
+*MOT:	they're playing in the water .
+*MOT:	here's a dog .
+*MOT:	uhhuh .
+*MOT:	what's that ?
+*MOT:	boy ?
+*MOT:	Ben ?
+*MOT:	what's this ?
+*MOT:	what's that ?
+*MOT:	what's that ?
+*MOT:	what's that ?
+*MOT:	what's that ?
+*MOT:	donkey (.) okay .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	what do you want me to do ?
+*MOT:	the children are playing in the water .
+*MOT:	uhhuh .
+*MOT:	the children are playing (.) paddling (.) splashing and having fun
+*MOT:	uhhuh .
+*MOT:	father is asleep in the deck chair .
+*MOT:	that's a daddy .
+*MOT:	a daddy .
+*MOT:	the children are building sand+castles .
+*MOT:	there's the sand .
+*MOT:	a dog is rescuing a fly+away hat .
+*MOT:	there's the hat .
+*MOT:	<a little girl> [>] .
+*MOT:	is this a kitty ?
+*MOT:	cat (.) uhhuh .
+*MOT:	uhhuh (.) it's a daddy .
+*MOT:	mothers are waiting with fluffy towels .
+*MOT:	yeh .
+*MOT:	uhhuh .
+*MOT:	this is a chair .
+*MOT:	uhhuh .
+*MOT:	dogs and boys are playing ball .
+*MOT:	uhhuh .
+*MOT:	crabs are walking sideways across the sand .
+*MOT:	here's a crab .
+*MOT:	here's the sand .
+*MOT:	those are rocks .
+*MOT:	uhhuh .
+*MOT:	a daddy .
+*MOT:	this is a mommy .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	this is ice cream .
+*MOT:	yeh (.) the little girl's got an ice cream cone .
+*MOT:	uhhuh (.) and that's a bucket .
+*MOT:	uhhuh .
+*MOT:	okay .
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	is this a kitty ?
+*MOT:	is that a kitty ?
+*MOT:	what's this ?
+*MOT:	June (.) what's this ?
+*MOT:	oh my !
+*MOT:	can you tell me about it ?
+*MOT:	what do you see ?
+*MOT:	okay .
+*MOT:	koko@c (.) is that what you're saying ?
+*MOT:	oh (.) okay .
+*MOT:	what's this ?
+*MOT:	donkey ?
+*MOT:	how about that ?
+*MOT:	what's that ?
+*MOT:	what about that ?
+*MOT:	is that a goat ?
+*MOT:	what's this ?
+*MOT:	goose .
+*MOT:	what's this ?
+*MOT:	is this a cow ?
+*MOT:	you think it's a cow huh ?
+*MOT:	what's this ?
+*MOT:	uhhuh .
+*MOT:	trying to figure out what you did with Potatohead .
+*MOT:	he's fun to play with .
+*MOT:	can't figure it out .
+*MOT:	can find pieces of him .
+*MOT:	what's this ?
+*MOT:	shoe (.) Potatohead's shoe (.) but what happened to Potatohead ?
+*MOT:	I guess he's gone .
+*MOT:	I don't see him .
+*MOT:	uhhuh .
+*MOT:	did you want to talk to anybody on the phone ?
+*MOT:	June (.) it's for you .
+*MOT:	did you want to talk to anybody on the telephone ?
+*MOT:	no ?
+*MOT:	uhhuh .
+*MOT:	what's that ?
+*MOT:	oh (.) okay .
+*MOT:	hum !
+*MOT:	what's this for ?
+*MOT:	pretty ?
+*MOT:	are you going to brush your hair ?
+*MOT:	oh (.) that's very good (.) June .
+*MOT:	you look much nicer now .
+*MOT:	shall we brush baby's hair ?
+*MOT:	where's your baby ?
+*MOT:	let's make the baby pretty .
+*MOT:	can you make her pretty for me ?
+*MOT:	brush her hair .
+*MOT:	can you brush her hair ?
+*MOT:	oh (.) that's very good .
+*MOT:	baby will cry if you hurt her .
+*MOT:	you don't want bay to cry do you ?
+*MOT:	yes (.) isn't she pretty .
+*MOT:	she'll cry (.) she'll cry !
+*MOT:	uhhuh .
+*MOT:	would you like to tell me about this again ?
+*MOT:	I like that story .
+*MOT:	no (.) you can't tell me about that anymore ?
+*MOT:	I like that story .
+*MOT:	can you tell me about this ?
+*MOT:	can you tell me the story ?
+*MOT:	no (.) okay .
+*MOT:	what about this one ?
+*MOT:	no (.) okay .
+*MOT:	how about this one ?
+*MOT:	no (.) okay .
+*MOT:	can you tell me about this story ?
+*MOT:	can you tell me about the choo+choo .
+*MOT:	what did the choo+choo do ?
+*MOT:	hey (.) don't hit me !
+*MOT:	&uh oh !
+*MOT:	do you want to talk about this one or do you want to play with your
+*MOT:	do you think it will go in there (.) huh ?
+*MOT:	do you think it will fit ?
+*MOT:	&uh oh !
+*MOT:	why are you taking those out_of there ?
+*MOT:	would you like to put them back in ?
+*MOT:	you're welcome .
+*MOT:	can you put that one in this way ?
+*MOT:	here (.) will this go in there ?
+*MOT:	what do you think ?
+*MOT:	can you put it in ?
+*MOT:	oh (.) that's good .
+*MOT:	didn't want to huh ?
+*MOT:	can you find a hole for that one ?
+*MOT:	won't go huh !
+*MOT:	what about this one ?
+*MOT:	I bet it'll fit somewhere .
+*MOT:	you're welcome .
+*MOT:	want to put this one in ?
+*MOT:	what about that one ?
+*MOT:	I bet it goes in there .
+*MOT:	what do you think ?
+*MOT:	what about these then ?
+*MOT:	uhhuh .
+*MOT:	what do you do with this ?
+*MOT:	huh ?
+*MOT:	oh (.) okay .
+*MOT:	box (.) okay .
+*MOT:	does it belong there though ?
+*MOT:	here .
+*MOT:	you're welcome .
+*MOT:	where does this go ?
+*MOT:	where does it go ?
+*MOT:	what do you want to do with it ?
+*MOT:	uhhuh .
+*MOT:	do you want to do that again June ?
+*MOT:	uhhuh .
+*MOT:	where did it go ?
+*MOT:	what do you think June ?
+*MOT:	what ?
+*MOT:	okay .
+*MOT:	uhhuh .
+*MOT:	okay .
+*MOT:	what are you going to do with it (.) huh ?
+*MOT:	what do you like to do with them ?
+*MOT:	shall we take these pieces out ?
+*MOT:	there's another one in here somewhere .
+*MOT:	here !
+*MOT:	what do you think ?
+*MOT:	do you wanna do that again or do you wanna try something else ?
+*MOT:	June (.) who are these people ?
+*MOT:	can you tell me who these people are ?
+*MOT:	who's that ?
+*MOT:	do you think they'll fit in there differently ?
+*MOT:	June (.) what's this ?
+*MOT:	uhhuh .
+*MOT:	can you put it on ?
+*MOT:	uhhuh .
+*MOT:	oh (.) thank_you .
+*MOT:	let's turn you round .
+*MOT:	are you going to wear that ?
+*MOT:	uhhuh .
+*MOT:	would you give it back to me ?
+*MOT:	can I have the watch back ?

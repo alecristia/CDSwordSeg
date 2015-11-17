@@ -1,0 +1,91 @@
+*MOT:	chair +...
+*MOT:	put the lady in the chair ?
+*MOT:	sit in the chair ?
+*MOT:	&hmm ?
+*MOT:	well (.) we have two (.) Zeke .
+*MOT:	look at that .
+*MOT:	<wha(t)> [/] what is that ?
+*MOT:	&hmm ?
+*MOT:	what is this ?
+*MOT:	is that a bed ?
+*MOT:	a grill .
+*MOT:	that's a grill .
+*MOT:	you're cookin(g) .
+*MOT:	okay .
+*MOT:	you're cooking on a grill ?
+*MOT:	right there ?
+*MOT:	what is that cooking ?
+*MOT:	hamburgers and hot+dogs ?
+*MOT:	and a steak ?
+*MOT:	like Daddy does ?
+*MOT:	&hmm ?
+*MOT:	can we stack these ?
+*MOT:	and make a tower ?
+*MOT:	wan(t) (t)a make a tower ?
+*MOT:	like this .
+*MOT:	you too ?
+*MOT:	okay .
+*MOT:	whoops !
+*MOT:	better do that the other way .
+*MOT:	put this one on first .
+*MOT:	okay .
+*MOT:	put it on straight .
+*MOT:	put it on straight .
+*MOT:	okay .
+*MOT:	want to [/] to finish the tower ?
+*MOT:	mhm (.) mhm !
+*MOT:	that's right !
+*MOT:	that's right !
+*MOT:	now put this one on .
+*MOT:	whoops .
+*MOT:	this one goes first .
+*MOT:	huh .
+*MOT:	look (.) put this one .
+*MOT:	now (.) put that one on the very top !
+*MOT:	huh !
+*MOT:	look at that tower .
+*MOT:	she's cookin(g) the steaks ?
+*MOT:	good .
+*MOT:	the ladder ?
+*MOT:	should we set the ladder up ?
+*MOT:	set the ladder up .
+*MOT:	go up the ladder ?
+*MOT:	oh (.) I don't think she'll fit in there (.) honey .
+*MOT:	what do we have in here ?
+*MOT:	close door ?
+*MOT:	okay (.) it's going to the store ?
+*MOT:	oh !
+*MOT:	taking all her friends to the store (.) huh ?
+*MOT:	what kind of store ?
+*MOT:	going to the grocery store ?
+*MOT:	get out (.) okay .
+*MOT:	uhhuh .
+*MOT:	upstairs ?
+*MOT:	oh +...
+*MOT:	mhm .
+*MOT:	my little boy is going to take a nap .
+*MOT:	why don't you bring [/] bring the people back home ?
+*MOT:	bring the people back home .
+*MOT:	is this their home ?
+*MOT:	where is their home ?
+*MOT:	where's the people's home ?
+*MOT:	where's the house that they live in ?
+*MOT:	is this the house they live in ?
+*MOT:	you bring the car back ?
+*MOT:	over here ?
+*MOT:	&hmm ?
+*MOT:	open the door ?
+*MOT:	sit in the living room .
+*MOT:	is that the bed+room ?
+*MOT:	this the bed+room ?
+*MOT:	oh good !
+*MOT:	yeah .
+*MOT:	I think you're tired from that trip to the store .
+*MOT:	so they have_to take a nap now .
+*MOT:	uhhuh .
+*MOT:	&uhm (.) go back home (.) huh ?
+*MOT:	close the door ?
+*MOT:	what door ?
+*MOT:	wha(t) +...
+*MOT:	close what door ?
+*MOT:	oh (.) they're going to de [//] the store again ?

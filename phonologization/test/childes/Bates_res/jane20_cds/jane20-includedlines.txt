@@ -1,0 +1,71 @@
+*MOT:	here they come !
+*MOT:	comin(g) out .
+*MOT:	here xxx come .
+*MOT:	knock (.) knock (.) knock .
+*MOT:	come in !
+*MOT:	0 .
+*MOT:	oh (.) okay .
+*MOT:	here (.) look .
+*MOT:	can you put them through the hole ?
+*MOT:	that's [!] good .
+*MOT:	uhhuh .
+*MOT:	good !
+*MOT:	what's in here ?
+*MOT:	0 .
+*MOT:	let's get rid of some of those xxx .
+*MOT:	okay .
+*MOT:	open the door ?
+*MOT:	here's some more .
+*MOT:	0 .
+*MOT:	what cha [: you] got ?
+*MOT:	ball ?
+*MOT:	good !
+*MOT:	did they go in ?
+*MOT:	what's in here ?
+*MOT:	oh look .
+*MOT:	there's a table .
+*MOT:	here's some chairs .
+*MOT:	what's that ?
+*MOT:	0 .
+*MOT:	is there a car in there ?
+*MOT:	do you see a car ?
+*MOT:	here's a car .
+*MOT:	0 .
+*MOT:	boom .
+*MOT:	here's some stairs .
+*MOT:	uhhum .
+*MOT:	is she sittin(g) down ?
+*MOT:	0 .
+*MOT:	thank_you .
+*MOT:	do you want to dump all those out ?
+*MOT:	dump out all those blocks ?
+*MOT:	can ya dump (th)em out ?
+*MOT:	need some help ?
+*MOT:	there !
+*MOT:	can you fit (th)em in through the holes ?
+*MOT:	yeah !
+*MOT:	put some of those other ones in ?
+*MOT:	can you put that one in ?
+*MOT:	is that a round one ?
+*MOT:	here .
+*MOT:	0 .
+*MOT:	it goes here .
+*MOT:	here's a square one !
+*MOT:	you wan(t) (t)a put this one in ?
+*MOT:	0 .
+*MOT:	oh (.) blocks ?
+*MOT:	0 .
+*MOT:	it makes a nice noise doesn't it ?
+*MOT:	huh ?
+*MOT:	Margie ?
+*MOT:	she left .
+*MOT:	she had to go for a little while .
+*MOT:	you can put this one in .
+*MOT:	look !
+*MOT:	it goes in here too .
+*MOT:	look !
+*MOT:	can you put that one in ?
+*MOT:	look !
+*MOT:	that goes in this one .
+*MOT:	that's right !
+*MOT:	good !

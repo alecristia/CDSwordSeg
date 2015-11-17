@@ -1,0 +1,456 @@
+*MOT:	here's Potatohead's nose .
+*MOT:	here we go .
+*MOT:	here's all of Potatohead .
+*MOT:	yeh (.) hat .
+*MOT:	what's that ?
+*MOT:	that's a nose .
+*MOT:	uhhuh .
+*MOT:	okay .
+*MOT:	help .
+*MOT:	okay (.) can you put this shoe on ?
+*MOT:	uhhuh .
+*MOT:	no ?
+*MOT:	what about his hat ?
+*MOT:	how about his nose ?
+*MOT:	his hat ?
+*MOT:	his shoe ?
+*MOT:	can I give you this shoe ?
+*MOT:	you're welcome .
+*MOT:	uhhuh (.) put his hat on .
+*MOT:	oh (.) that's very nice .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	you're welcome .
+*MOT:	yes (.) that's a shoe .
+*MOT:	here's the other shoe .
+*MOT:	oh (.) what did you do with Potatohead ?
+*MOT:	here we go .
+*MOT:	shall we start over ?
+*MOT:	that's his nose .
+*MOT:	here (.) let me hold it for you .
+*MOT:	oh (.) you're doing a very good job .
+*MOT:	no ?
+*MOT:	here .
+*MOT:	June ?
+*MOT:	we need another shoe over here .
+*MOT:	do you have a shoe ?
+*MOT:	can you put his shoe on ?
+*MOT:	yes (.) put his shoe on .
+*MOT:	oh_my_goodness (.) what have you got there (.) huh ?
+*MOT:	Peter Piper picked a peck of pickle peppers (.) a peck of pickle
+*MOT:	what did he do with them June (.) huh ?
+*MOT:	Georgie Porgy pudding and pie kissed the girls and made them cry .
+*MOT:	(.) when the boys came out to play (.) Georgie Porgy ran away .
+*MOT:	&uh (.) there was an old woman tossed up in a blanket (.) ninety
+*MOT:	Gregory Griggs (.) Gregory Griggs (.) had twenty seven different
+*MOT:	&uh (.) I think you'll have_to turn the page .
+*MOT:	no ?
+*MOT:	well (.) let's see .
+*MOT:	hey diddle diddle (.) the cat and the fiddle (.) the cow jumped
+*MOT:	&er (.) what have we got ?
+*MOT:	Little Queen Pippin once built a hotel .
+*MOT:	how long and how high I'm sure I can't tell .
+*MOT:	the walls were of sugar as white as the snow (.) and jujube windows
+*MOT:	the columns were candy and all very tall and a roof of tray+cake
+*MOT:	Dr Foster went to Gloucester in a shower of rain (.) he stepped in
+*MOT:	Mistress Mary (.) quite contrary (.) how does your garden grow (.)
+*MOT:	June (.) I don't think we can puttaputta@c any more on this .
+*MOT:	can June puttaputta@c ?
+*MOT:	can June puttaputta@c ?
+*MOT:	can you tell me what the story is ?
+*MOT:	oh &hmm (.) let's see !
+*MOT:	okay (.) Old King Cole was a merry old soul (.) a merry old soul
+*MOT:	June (.) what's this ?
+*MOT:	it's a choo+choo .
+*MOT:	yeh .
+*MOT:	uhhuh .
+*MOT:	we chug all day (.) we chug all night (.) all day .
+*MOT:	I chug (.) chug (.) chug and chug all day .
+*MOT:	what's this ?
+*MOT:	what's that ?
+*MOT:	ball (.) okay .
+*MOT:	I have a little engineer .
+*MOT:	June (.) can you turn around ?
+*MOT:	there we go .
+*MOT:	here (.) what's this ?
+*MOT:	it's a choo+choo .
+*MOT:	see .
+*MOT:	baby (.) uhhuh .
+*MOT:	yeh (.) the baby has a choo+choo .
+*MOT:	do you wanna read this some more ?
+*MOT:	what's this June ?
+*MOT:	what ?
+*MOT:	boy ?
+*MOT:	what's that ?
+*MOT:	what about duck ?
+*MOT:	is that a duck ?
+*MOT:	tubbie time is so much fun (.) rubber ducky you're the one .
+*MOT:	you don't know how good it feels to wash my ears and scrub my heels
+*MOT:	and the it's time for beddy_byes .
+*MOT:	hey (.) what are they doing here June ?
+*MOT:	in beddy_byes .
+*MOT:	are they sleeping huh ?
+*MOT:	does ducky sleep ?
+*MOT:	tubbie time is so much fun (.) rubber ducky your the one .
+*MOT:	I rub and rub till I'm all dry .
+*MOT:	and then it's time for beddy_bye .
+*MOT:	you don't know how good it feels to wash my ears and scrub my heels
+*MOT:	we already did .
+*MOT:	what's he doing ?
+*MOT:	what's that duck doing ?
+*MOT:	&um (.) let's see .
+*MOT:	I rub and rub till I'm all dry .
+*MOT:	what's he doing June ?
+*MOT:	is he asleep ?
+*MOT:	come on (.) let's look at this one .
+*MOT:	is he asleep ?
+*MOT:	okay (.) what are they doing here ?
+*MOT:	is that a bath ?
+*MOT:	no ?
+*MOT:	I rub and rub till I'm all dry .
+*MOT:	and then it's time for beddy_bye .
+*MOT:	is he in bed ?
+*MOT:	tubbie time is so much fun (.) rubber ducky you're the one .
+*MOT:	I rub and rub till I'm all dry .
+*MOT:	you don't know how good it feels to wash my ears and scrub my heels
+*MOT:	June (.) let's try another book .
+*MOT:	what are these June ?
+*MOT:	what are these ?
+*MOT:	oh (.) okay .
+*MOT:	three little puppies were playing with my train (.) around the
+*MOT:	poor little kitten is sad as can be (.) two rascal puppies have
+*MOT:	where's the doggie (.) June ?
+*MOT:	where's the puppies ?
+*MOT:	where's the kitty ?
+*MOT:	say (.) here's the kitty .
+*MOT:	a puppy (.) a kitten (.) a duck and a bunny are watching two chicks
+*MOT:	June (.) where's the duck ?
+*MOT:	no duck (.) okay .
+*MOT:	here's a bunny (.) a kitty (.) a puppy (.) a duck (.) a chicken .
+*MOT:	kitten had a big surprise when through the door a little duck and
+*MOT:	kitty (.) duck .
+*MOT:	where's the kitty June ?
+*MOT:	huh ?
+*MOT:	what's this ?
+*MOT:	is it (.) are you sure ?
+*MOT:	no ?
+*MOT:	it's a bug .
+*MOT:	yeh (.) bug .
+*MOT:	is it a good bug ?
+*MOT:	uhhuh (.) is it good ?
+*MOT:	uhhuh (.) it's a really nice bug .
+*MOT:	ball (.) are you sure it's not a block ?
+*MOT:	ball ?
+*MOT:	is this a ball ?
+*MOT:	well (.) this is different than that .
+*MOT:	oh (.) okay (.) ball .
+*MOT:	what's this June ?
+*MOT:	car (.) okay .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	bunny .
+*MOT:	what's this ?
+*MOT:	duck (.) that's good .
+*MOT:	bunny and duck (.) huh !
+*MOT:	&um .
+*MOT:	oh (.) that's nice .
+*MOT:	you giving the bunny a kiss (.) huh ?
+*MOT:	bunny (.) uhhuh .
+*MOT:	duck (.) uhhuh .
+*MOT:	yeh .
+*MOT:	oh (.) thank_you .
+*MOT:	oh (.) can I have that ?
+*MOT:	thank_you .
+*MOT:	uhhuh .
+*MOT:	here do you want this one ?
+*MOT:	ball (.) okay .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	oh June (.) we have another one over here .
+*MOT:	June ?
+*MOT:	no ?
+*MOT:	June ?
+*MOT:	here's a ball (.) right here .
+*MOT:	yes (.) okay .
+*MOT:	uhhuh .
+*MOT:	what's this June ?
+*MOT:	June ?
+*MOT:	what's this ?
+*MOT:	oh ?
+*MOT:	oh (.) okay !
+*MOT:	oh (.) that's nice of you .
+*MOT:	are you going to give him a ride ?
+*MOT:	oh (.) he loves it when you give him a ride .
+*MOT:	that's really very nice of you .
+*MOT:	where are you going to take him ?
+*MOT:	oops .
+*MOT:	&uh oh !
+*MOT:	oh !
+*MOT:	where are you going to take your doggie (.) huh ?
+*MOT:	uhhuh .
+*MOT:	you gonna take ball for a ride too ?
+*MOT:	you're welcome .
+*MOT:	&um (.) oh I'm sure doggie likes that !
+*MOT:	oh (.) there's a purple one there .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	oh (.) you're going to put the ball on there (.) huh !
+*MOT:	I think you've got them all .
+*MOT:	do you need another one ?
+*MOT:	here you go .
+*MOT:	here June (.) do you need to put this back on ?
+*MOT:	here .
+*MOT:	June (.) you're welcome .
+*MOT:	oh (.) you're welcome .
+*MOT:	gonna put it in there ?
+*MOT:	what's this ?
+*MOT:	what is it ?
+*MOT:	good !
+*MOT:	oh my !
+*MOT:	what is it ?
+*MOT:	it's good ?
+*MOT:	no .
+*MOT:	uhhuh (.) that's a car .
+*MOT:	what's this ?
+*MOT:	uhhuh (.) pipe yeh .
+*MOT:	uhhuh .
+*MOT:	a ball .
+*MOT:	which ball do you want ?
+*MOT:	oh (.) okay .
+*MOT:	you're welcome .
+*MOT:	bunny .
+*MOT:	yeh (.) that's a nice bunny you have there .
+*MOT:	what's that ?
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	apart ?
+*MOT:	oh (.) we don't want to take bunny apart .
+*MOT:	oh (.) we don't wanna take poor bunny apart .
+*MOT:	you'll hurt bunny .
+*MOT:	do you want bunny to cry ?
+*MOT:	he'll cry if you take him apart .
+*MOT:	boohoo .
+*MOT:	<we can take this apart> [>] .
+*MOT:	we can take this apart .
+*MOT:	uhhuh .
+*MOT:	shall we take this apart ?
+*MOT:	there you go .
+*MOT:	yeh (.) take that apart .
+*MOT:	apart (.) oh .
+*MOT:	just a minute .
+*MOT:	okay .
+*MOT:	oh (.) you wanna help .
+*MOT:	oh (.) okay .
+*MOT:	help (.) okay .
+*MOT:	oh (.) okay .
+*MOT:	help .
+*MOT:	here (.) I give this to you .
+*MOT:	you're welcome .
+*MOT:	anything else ?
+*MOT:	uhhuh .
+*MOT:	I think you've missed a few .
+*MOT:	there are some over here .
+*MOT:	no ?
+*MOT:	there's a bunch of them here .
+*MOT:	help .
+*MOT:	okay .
+*MOT:	okay .
+*MOT:	here you go .
+*MOT:	here you go .
+*MOT:	uhhuh .
+*MOT:	here .
+*MOT:	you're welcome .
+*MOT:	here .
+*MOT:	you're welcome .
+*MOT:	you missed a couple over there .
+*MOT:	here (.) right behind you .
+*MOT:	behind you (.) see .
+*MOT:	there's some blocks there .
+*MOT:	see them ?
+*MOT:	right by your feet .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	there's another one right there behind you .
+*MOT:	<I think you've got them all> [<] .
+*MOT:	you're welcome .
+*MOT:	uhhuh .
+*MOT:	here .
+*MOT:	oh (.) I think you've got them all .
+*MOT:	do you need something else to put in there ?
+*MOT:	you're right (.) you missed one .
+*MOT:	xxx .
+*MOT:	uhhuh .
+*MOT:	huh ?
+*MOT:	car (.) do you need car ?
+*MOT:	okay .
+*MOT:	yes (.) what does a car say June ?
+*MOT:	does it make a noise ?
+*MOT:	yes (.) does it make a noise ?
+*MOT:	uhhuh (.) does it make a noise (.) huh ?
+*MOT:	oh (.) okay .
+*MOT:	oh (.) okay .
+*MOT:	I think you've missed one right over here .
+*MOT:	here (.) June .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	yes .
+*MOT:	yes (.) you gonna take his shoes off ?
+*MOT:	there we go .
+*MOT:	uhhuh (.) what are you gonna do with the shoe June ?
+*MOT:	oh (.) are you gonna put Potatohead in there ?
+*MOT:	no (.) &hmm ?
+*MOT:	oh (.) I don't think he'll fit .
+*MOT:	yes (.) I think he's too big .
+*MOT:	a book (.) oh !
+*MOT:	uhhuh .
+*MOT:	thank_you .
+*MOT:	here (.) would you hand me the mouth ?
+*MOT:	how about his nose ?
+*MOT:	oh (.) okay .
+*MOT:	there you go .
+*MOT:	oh_my_goodness .
+*MOT:	that certainly made a mess .
+*MOT:	okay (.) just a moment .
+*MOT:	here .
+*MOT:	here (.) June .
+*MOT:	you're welcome .
+*MOT:	here .
+*MOT:	here (.) June .
+*MOT:	oh (.) you're welcome .
+*MOT:	you're welcome .
+*MOT:	you're welcome .
+*MOT:	here .
+*MOT:	you're welcome .
+*MOT:	you're welcome .
+*MOT:	you're welcome .
+*MOT:	you're welcome .
+*MOT:	I think we missed one .
+*MOT:	how about those over there ?
+*MOT:	shall we put Potatohead back together ?
+*MOT:	huh ?
+*MOT:	here (.) can we move you round ?
+*MOT:	no (.) oh okay !
+*MOT:	here (.) can I give you this ?
+*MOT:	move this round .
+*MOT:	let this go there (.) okay .
+*MOT:	you're welcome .
+*MOT:	okay .
+*MOT:	hat .
+*MOT:	shoe .
+*MOT:	okay .
+*MOT:	shall we put him back together again now ?
+*MOT:	no (.) why not ?
+*MOT:	wanna put his hat back on ?
+*MOT:	uhhuh .
+*MOT:	shall we put his hat back on ?
+*MOT:	no ?
+*MOT:	how about his shoe or a mouth ?
+*MOT:	yeh (.) that's apart .
+*MOT:	uhhuh .
+*MOT:	thank_you .
+*MOT:	no (.) okay .
+*MOT:	what about the hat ?
+*MOT:	wanna put the hat back on ?
+*MOT:	does shoe go in there ?
+*MOT:	uhhuh .
+*MOT:	shall we put his mouth back on ?
+*MOT:	would you do that for me ?
+*MOT:	oh (.) you want to put his hat in there (.) okay .
+*MOT:	okay (.) alright .
+*MOT:	hat (.) goes in there does it ?
+*MOT:	no (.) it doesn't go there (.) huh ?
+*MOT:	what about the mouth ?
+*MOT:	does it go there ?
+*MOT:	no (.) it doesn't go there either .
+*MOT:	you want it .
+*MOT:	oops (.) I'm sorry .
+*MOT:	do we need to open it again ?
+*MOT:	oh (.) you're welcome .
+*MOT:	yeh (.) there's a hat in there .
+*MOT:	oh (.) okay .
+*MOT:	okay .
+*MOT:	no ?
+*MOT:	shall we put the hat back on ?
+*MOT:	oh !
+*MOT:	shoe .
+*MOT:	no ?
+*MOT:	shoe (.) okay .
+*MOT:	okay .
+*MOT:	wanna put the hat back on ?
+*MOT:	oh (.) the hat goes in there (.) okay .
+*MOT:	okay (.) let's take it over here .
+*MOT:	you want to put it over here ?
+*MOT:	uhhuh .
+*MOT:	can we bring the shoe out ?
+*MOT:	yeh .
+*MOT:	no ?
+*MOT:	oh (.) you're welcome .
+*MOT:	what's that ?
+*MOT:	uhhuh .
+*MOT:	hey (.) that's very good .
+*MOT:	hey (.) that looks very nice June .
+*MOT:	that's red .
+*MOT:	this is red .
+*MOT:	that's blue .
+*MOT:	hey (.) that's really nice (.) June .
+*MOT:	what are you doing ?
+*MOT:	hey (.) that's really great .
+*MOT:	oh (.) you're welcome .
+*MOT:	uhoh (.) here .
+*MOT:	what's wrong with it ?
+*MOT:	oh (.) okay (.) it just doesn't belong there .
+*MOT:	you can do it kid !
+*MOT:	you did it !
+*MOT:	wow !
+*MOT:	hey (.) that's great June .
+*MOT:	look at that little girl .
+*MOT:	oh (.) you're welcome .
+*MOT:	that's really quite wonderful .
+*MOT:	yeh (.) can you do something else like that ?
+*MOT:	shall we put another one like this ?
+*MOT:	yeh .
+*MOT:	yeh (.) that's great .
+*MOT:	do you wanna put another one on top ?
+*MOT:	how about this one ?
+*MOT:	think we can put that one on top ?
+*MOT:	yeh (.) put it on top .
+*MOT:	uhhuh .
+*MOT:	hey (.) that's good .
+*MOT:	oh well (.) there just wasn't room enough for both of them then .
+*MOT:	that's very good June .
+*MOT:	oh (.) you're welcome .
+*MOT:	here (.) I think you need this a little bit closer .
+*MOT:	uhhuh .
+*MOT:	oh (.) what does that mean ?
+*MOT:	oh .
+*MOT:	what does that mean though ?
+*MOT:	oh (.) that looks great .
+*MOT:	very dramatic .
+*MOT:	uhhuh .
+*MOT:	what is it ?
+*MOT:	need a ball ?
+*MOT:	let's see we've got a ball in here .
+*MOT:	&ah (.) right here !
+*MOT:	that what you need ?
+*MOT:	oh (.) did you mean a block .
+*MOT:	I was forgetting that block's a ball too .
+*MOT:	is that what you want ?
+*MOT:	no ?
+*MOT:	no ?
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	oh (.) okay .
+*MOT:	uhhuh .
+*MOT:	what's in that book ?
+*MOT:	what's that ?
+*MOT:	what's this ?
+*MOT:	uhhuh .
+*MOT:	what's this ?
+*MOT:	what's that ?
+*MOT:	hum ?
+*MOT:	oh (.) you're welcome .

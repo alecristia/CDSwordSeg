@@ -1,0 +1,407 @@
+*MOT:	no more . 3980_5425
+*MOT:	do it again . 7042_7312
+*MOT:	you turn it over . 7312_7762
+*MOT:	can't you turn it over ? 9690_10560
+*MOT:	you turn it over . 10560_11642
+*MOT:	that's it . 11642_12605
+*MOT:	here . 12605_14130
+*MOT:	rooster . 19773_26518
+*MOT:	&un you put the rooster in . 30415_40903
+*MOT:	you had it in there . 40903_42805
+*MOT:	where's the duck ? 46085_46668
+*MOT:	duck . 47915_48762
+*MOT:	can you put the duck in ? 48762_49408
+*MOT:	put the duck in the puzzle . 49408_51573
+*MOT:	put the duck in the puzzle . 54295_54632
+*MOT:	very good . 59132_59947
+*MOT:	donkey . 62737_63532
+*MOT:	right donkey . 63532_64180
+*MOT:	cow . 77233_77482
+*MOT:	rooster . 81693_85045
+*MOT:	what's this one ? 86523_86895
+*MOT:	pig right . 88780_89540
+*MOT:	wanna try something else ? 93230_93820
+*MOT:	uhoh . 95003_95557
+*MOT:	what happened to the baby ? 95557_96855
+*MOT:	baby . 99455_100033
+*MOT:	what are you gonna do with that ? 113472_115383
+*MOT:	you gonna put it on the baby ? 117357_117862
+*MOT:	cover the baby . 117862_118487
+*MOT:	uhoh baby . 120738_121725
+*MOT:	0 . 145613_146442
+*MOT:	no . 146865_147127
+*MOT:	0 . 148582_151633
+*MOT:	0 . 154267_157260
+*MOT:	what's that ? 161343_171157
+*MOT:	what do you want me to do with this ? 172577_175178
+*MOT:	what do you want me to do with this ? 175980_178310
+*MOT:	what do you want me to do with this ? 179685_181575
+*MOT:	you want me to open +..? 182703_182927
+*MOT:	please . 183405_183883
+*MOT:	okay . 184577_185205
+*MOT:	pliers . 196570_199280
+*MOT:	wrench . 199280_200263
+*MOT:	wrench . 202955_204153
+*MOT:	hey . 204153_206167
+*MOT:	uhoh . 211665_217667
+*MOT:	that's the baby's blanket . 217667_218012
+*MOT:	it's the blanket . 219637_223482
+*MOT:	uhoh . 225102_226363
+*MOT:	baby . 229033_230110
+*MOT:	where is the baby's blanket ? 232115_233235
+*MOT:	oh . 235220_236475
+*MOT:	thank_you . 236475_237027
+*MOT:	are these the diapers ? 238447_239097
+*MOT:	diapers . 239097_241362
+*MOT:	0 . 241362_242942
+*MOT:	is that a hammer ? 254778_255160
+*MOT:	what do you do with the hammer ? 266302_275595
+*MOT:	show mommy how you use the hammer . 275595_276942
+*MOT:	what do you do with the hammer ? 280592_282098
+*MOT:	show mommy how you use the hammer . 282098_287660
+*MOT:	what do you do with the hammer ? 287660_288562
+*MOT:	show mommy . 288562_289495
+*MOT:	show mommy . 296848_299173
+*MOT:	you're not gonna show me the hammer ? 299712_300555
+*MOT:	no . 305370_306517
+*MOT:	you don't comb mommy's hair with this . 306517_306903
+*MOT:	no . 309095_312198
+*MOT:	you don't bang mommy on the head with it either . 312198_316583
+*MOT:	0 . 316583_318128
+*MOT:	let's see . 318128_319733
+*MOT:	let's find something for you to hammer on . 319733_320310
+*MOT:	here . 320310_321527
+*MOT:	you want to hammer on the wood ? 321527_322703
+*MOT:	hammer on this block . 322703_323835
+*MOT:	no [x 2] . 326147_326490
+*MOT:	that's it . 329265_330283
+*MOT:	hammer that . 330283_330792
+*MOT:	hammer the block . 330792_331227
+*MOT:	oops . 336243_337943
+*MOT:	uhoh . 339723_343718
+*MOT:	uhoh . 344735_356048
+*MOT:	here you go . 356048_356695
+*MOT:	here's the piece . 356695_357333
+*MOT:	0 . 357333_359202
+*MOT:	0 . 359202_361148
+*MOT:	do you wanna count ? 369048_369612
+*MOT:	one . 369612_370153
+*MOT:	two . 371947_372430
+*MOT:	four . 378855_379740
+*MOT:	right . 379740_380467
+*MOT:	nope . 383528_384203
+*MOT:	it doesn't fit . 384203_384818
+*MOT:	threeps@n . 391288_392558
+*MOT:	banana . 394413_395910
+*MOT:	can you count ? 395910_397560
+*MOT:	do you wanna count ? 397560_398162
+*MOT:	apple . 398912_399663
+*MOT:	0 . 406467_411080
+*MOT:	one . 421935_422328
+*MOT:	one . 423852_426907
+*MOT:	two . 429825_430758
+*MOT:	three . 433228_434672
+*MOT:	four . 437033_438427
+*MOT:	five . 439853_441297
+*MOT:	I think you skipped a few there . 445552_447143
+*MOT:	you went back . 450038_451370
+*MOT:	you're gonna start over again . 451370_452465
+*MOT:	start over again . 453622_453922
+*MOT:	go ahead . 453922_454600
+*MOT:	no . 457235_457755
+*MOT:	that was corn . 459387_464972
+*MOT:	carrot . 468153_468815
+*MOT:	bottle . 470912_471503
+*MOT:	butter . 474322_474647
+*MOT:	what's that ?
+*MOT:	no . 479878_480472
+*MOT:	that's grapes . 480472_481178
+*MOT:	you pull the top off . 484413_485231
+*MOT:	did you break it ? 485231_486683
+*MOT:	we have_to fix it now . 486683_487984
+*MOT:	one . 511283_512648
+*MOT:	oh you're using letters instead . 524043_524423
+*MOT:	c@l . 525999_526881
+*MOT:	i@l . 535328_538034
+*MOT:	uhhuh . 538034_539588
+*MOT:	oop . 549749_556714
+*MOT:	there goes the lemon . 556714_557583
+*MOT:	where'd it go [x 1] ? 557583_560494
+*MOT:	can you get it ? 563849_564361
+*MOT:	what happened ? 632664_633513
+*MOT:	you got so quiet . 633513_633983
+*MOT:	what's that ? 639606_643678
+*MOT:	yeah . 644948_649488
+*MOT:	Shelley . 649879_650703
+*MOT:	yeah . 650703_651179
+*MOT:	right . 651179_652213
+*MOT:	yeah . 652744_654264
+*MOT:	Shelley and Carol . 655034_656169
+*MOT:	they're busy . 656169_656658
+*MOT:	are you playing ? 656658_657959
+*MOT:	does that fit ? 668143_668628
+*MOT:	no . 669154_670344
+*MOT:	o@l . 687539_689016
+*MOT:	bottle . 758083_758641
+*MOT:	right [x 1] . 758641_759536
+*MOT:	apple . 761243_762226
+*MOT:	bottle . 786093_787949
+*MOT:	bottle . 790984_793521
+*MOT:	does that fit ? 796846_797249
+*MOT:	does that fit in there ? 799936_800618
+*MOT:	does that fit in there ? 801541_804744
+*MOT:	can you put the block in there ? 805603_805998
+*MOT:	it doesn't fit in there . 805998_811333
+*MOT:	uhoh [x 1] . 823406_824256
+*MOT:	it does not fit in there . 824256_825193
+*MOT:	you tried . 825193_826029
+*MOT:	I don't think so you wanna try again ? 826029_827283
+*MOT:	no . 827283_828524
+*MOT:	mommy can't get it in there either . 830923_831471
+*MOT:	it does not fit . 831471_832319
+*MOT:	no . 832319_834069
+*MOT:	nope . 835438_835849
+*MOT:	no . 835849_843914
+*MOT:	wha(t)'s that . 874033_876456
+*MOT:	what's that ?
+*MOT:	&um: . 880688_882474
+*MOT:	what's that J_J ? 882474_892969
+*MOT:	what's this ? 892969_898309
+*MOT:	you haven't told me . 898309_899286
+*MOT:	what's this ? 899286_899639
+*MOT:	shoe right . 901064_902109
+*MOT:	what's that ? 902109_904626
+*MOT:	shoes on the book right . 905419_906608
+*MOT:	iron . 915138_918071
+*MOT:	J_J come here . 926873_933894
+*MOT:	come here a minute . 933894_937149
+*MOT:	can you bring them to me ? 940721_945623
+*MOT:	can you bring me the cups ? 945623_946819
+*MOT:	come here . 950756_956123
+*MOT:	0 . 961934_962708
+*MOT:	do you want the cups ? 962708_963113
+*MOT:	here . 963113_963678
+*MOT:	here . 970134_970494
+*MOT:	you don't wanna play with the cups now ? 971921_974529
+*MOT:	no ? 977433_981013
+*MOT:	you want me to fix it ? 987343_987754
+*MOT:	0 . 987754_988838
+*MOT:	0 . 988838_989856
+*MOT:	what ? 992279_995333
+*MOT:	what do you want ? 998456_999874
+*MOT:	what's this ? 999874_1000533
+*MOT:	you don't want that . 1001573_1004293
+*MOT:	you want me to take them apart . 1004293_1004798
+*MOT:	you can take it apart . 1006619_1007138
+*MOT:	you take it apart . 1007138_1007518
+*MOT:	you can pull them apart . 1007518_1009866
+*MOT:	oh J_J . 1010124_1010549
+*MOT:	what's a matter [x 1] ? 1013588_1013913
+*MOT:	oh . 1013913_1019874
+*MOT:	did you hurt your head ? 1019874_1020573
+*MOT:	cup . 1026378_1027114
+*MOT:	right . 1027114_1027631
+*MOT:	and scissors . 1027631_1028439
+*MOT:	scissors . 1028439_1030916
+*MOT:	flower . 1032706_1037234
+*MOT:	what's that ? 1037235_1040401
+*MOT:	eggs . 1041621_1042536
+*MOT:	right . 1042536_1043632
+*MOT:	eggs . 1044344_1044774
+*MOT:	yeah . 1045614_1048271
+*MOT:	do you wanna sit on mommy's lap and read the book ? 1050697_1051294
+*MOT:	okay .
+*MOT:	what's this ? 1055416_1059494
+*MOT:	xxx . 1061294_1062366
+*MOT:	yeah . 1063432_1064407
+*MOT:	I see . 1064407_1065109
+*MOT:	how many eggs ? 1065109_1065361
+*MOT:	one two . 1065361_1067029
+*MOT:	three . 1068147_1068832
+*MOT:	are you dancing ? 1072049_1075704
+*MOT:	that's flowers . 1078541_1079306
+*MOT:	do you smell the flowers ? 1081912_1083801
+*MOT:	what's that ? 1083801_1090682
+*MOT:	Gigi . 1092607_1093196
+*MOT:	right . 1093196_1093624
+*MOT:	we gave them to Gigi . 1093624_1094234
+*MOT:	right . 1094234_1094959
+*MOT:	right . 1096491_1098157
+*MOT:	we gave Gigi flowers . 1098157_1100109
+*MOT:	right . 1100109_1101627
+*MOT:	they're daisies just like you gave her . 1101627_1107264
+*MOT:	what's this ? 1107264_1108221
+*MOT:	chair . 1109672_1111134
+*MOT:	chair . 1112312_1112552
+*MOT:	what's by the chair . 1112552_1113232
+*MOT:	ball right . 1116291_1117271
+*MOT:	can you say yarn@q ? 1118069_1122049
+*MOT:	yarn . 1125592_1126429
+*MOT:	right . 1126429_1127041
+*MOT:	it's like mommy uses . 1127869_1130959
+*MOT:	flower . 1136652_1138344
+*MOT:	what's this ? 1139846_1140102
+*MOT:	juice . 1140102_1141066
+*MOT:	right . 1141066_1143149
+*MOT:	that as an orange . 1143149_1143557
+*MOT:	you make juice out_of it . 1143557_1144097
+*MOT:	right . 1144097_1145331
+*MOT:	orange [x 1] . 1155482_1155881
+*MOT:	you make juice from the orange . 1157071_1158287
+*MOT:	do you see the keys ? 1159584_1161326
+*MOT:	keys . 1163226_1163777
+*MOT:	there's a page in_between here . 1165377_1174341
+*MOT:	let me . 1174341_1175509
+*MOT:	it's in here . 1178882_1179531
+*MOT:	what's this ? 1181961_1182784
+*MOT:	orange . 1188399_1189574
+*MOT:	you make juice from the orange . 1191386_1193191
+*MOT:	right . 1193191_1194149
+*MOT:	is that funny ? 1195061_1198026
+*MOT:	orange . 1199456_1201917
+*MOT:	right [x 1] . 1208026_1210251
+*MOT:	yes . 1210251_1210946
+*MOT:	you make juice with the orange . 1210946_1211519
+*MOT:	right . 1211519_1212194
+*MOT:	sorry shoe . 1232837_1233859
+*MOT:	okay . 1233859_1234504
+*MOT:	now you're gonna hit the shoe . 1236474_1236926
+*MOT:	are you making a mess ? 1236926_1239897
+*MOT:	are you making a mess ? 1241984_1242859
+*MOT:	who's this ? 1242859_1244699
+*MOT:	o:w . 1248147_1248604
+*MOT:	who's making a mess ? 1248604_1250806
+*MOT:	J_J . 1251992_1255969
+*MOT:	bottle . 1265727_1266146
+*MOT:	you don't drink a bottle anymore . 1267446_1268157
+*MOT:	no more bottle . 1271692_1272326
+*MOT:	where are you going ? 1273286_1276409
+*MOT:	o:w . 1277296_1288179
+*MOT:	hi J_J . 1288179_1290369
+*MOT:	0 . 1291184_1292321
+*MOT:	where are you going ? 1293967_1297614
+*MOT:	watch it . 1297614_1298036
+*MOT:	careful . 1298036_1299649
+*MOT:	oh . 1305737_1308087
+*MOT:	can mommy have a kiss ? 1308087_1311619
+*MOT:	can I have a kiss ? 1311619_1314359
+*MOT:	bye . 1315806_1317579
+*MOT:	where are you going ? 1317579_1318417
+*MOT:	now that was better than bashing your head into mine . 1327381_1331906
+*MOT:	hey where are you going ? 1333371_1333816
+*MOT:	whoa . 1334729_1335281
+*MOT:	whoa . 1336439_1337319
+*MOT:	are you okay [x 1] ? 1337319_1343156
+*MOT:	come here . 1353359_1353942
+*MOT:	&ah . 1356062_1359107
+*MOT:	can I have a kiss [x 1] ? 1359107_1361331
+*MOT:	huh ? 1361331_1362582
+*MOT:	can I have a kiss while you're here ? 1362582_1363627
+*MOT:	huh ? 1363627_1365297
+*MOT:	0 . 1366274_1367024
+*MOT:	&ah . 1367024_1368836
+*MOT:	by . 1370729_1371651
+*MOT:	ball . 1381917_1382342
+*MOT:	uhoh . 1383202_1383569
+*MOT:	you dropped it . 1383569_1384072
+*MOT:	you dropped the ball . 1384072_1384881
+*MOT:	pick it up . 1384881_1385671
+*MOT:	what's this ? 1386644_1388966
+*MOT:	oh . 1407369_1411912
+*MOT:	where'd it go [x 1] ? 1411912_1414092
+*MOT:	pick it up . 1414092_1420161
+*MOT:	can you get it ? 1421587_1422002
+*MOT:	oops . 1423109_1423577
+*MOT:	yes . 1424704_1425299
+*MOT:	yep . 1425299_1426826
+*MOT:	I'm here . 1426826_1427811
+*MOT:	0 . 1428939_1430231
+*MOT:	oops . 1434724_1435226
+*MOT:	be careful . 1435226_1435789
+*MOT:	it's like downstairs . 1435789_1436714
+*MOT:	where'd it go [x 1] ? 1438994_1439602
+*MOT:	0 . 1439602_1442531
+*MOT:	you found it . 1443592_1445584
+*MOT:	what's with the walking backwards ? 1470481_1477559
+*MOT:	this is new . 1477559_1478569
+*MOT:	oh [x 1] . 1488829_1489279
+*MOT:	I'm sorry . 1489689_1490319
+*MOT:	0 . 1490747_1491484
+*MOT:	I got you good . 1491484_1495474
+*MOT:	I'm sorry . 1495474_1496196
+*MOT:	oh . 1496196_1497506
+*MOT:	I'm sorry . 1497506_1498721
+*MOT:	you okay ? 1498721_1500869
+*MOT:	I got you with my nail on your mouth . 1500869_1506021
+*MOT:	are you okay ? 1506021_1507949
+*MOT:	0 . 1507949_1509352
+*MOT:	are you okay ?
+*MOT:	let me see .
+*MOT:	oh . 1514204_1514669
+*MOT:	booboo . 1514669_1517104
+*MOT:	oh . 1517104_1517686
+*MOT:	let me see . 1517686_1518026
+*MOT:	oh . 1518026_1518461
+*MOT:	yeah . 1518826_1520996
+*MOT:	oh . 1521419_1521917
+*MOT:	I think you'll live . 1521917_1522526
+*MOT:	nose . 1524136_1524977
+*MOT:	did I get you in the nose ? 1524977_1525916
+*MOT:	are you okay ? 1539177_1539579
+*MOT:	you got blocks . 1546932_1547536
+*MOT:	you wanna put blocks in the truck ? 1547536_1548247
+*MOT:	blocks in the truck . 1548247_1550131
+*MOT:	here .
+*MOT:	bring the blocks to me J_J .
+*MOT:	J_J .
+*MOT:	bye .
+*MOT:	you dropped it in the cup .
+*MOT:	oh how nice .
+*MOT:	can mommy wear those ?
+*MOT:	can mommy see those ?
+*MOT:	can mommy see those ?
+*MOT:	okay .
+*MOT:	that's enough .
+*MOT:	J_J .
+*MOT:	are you trying to open the door ?
+*MOT:	door .
+*MOT:	I closed it so you would not go in there .
+*MOT:	do you wanna come ?
+*MOT:	that's it .
+*MOT:	bye J_J .
+*MOT:	bye .
+*MOT:	oh are these for mommy ?
+*MOT:	oh thank_you .
+*MOT:	thank_you oh .
+*MOT:	pretty yeah .
+*MOT:	thank_you .
+*MOT:	oh are these for boys ?
+*MOT:	no they're for girls .
+*MOT:	those are for girls to wear .
+*MOT:	are you going to strangle me ?
+*MOT:	oh you're going to put them on .
+*MOT:	oh thank_you .
+*MOT:	can I have a kiss ?
+*MOT:	pretty thank_you .
+*MOT:	can you give mommy a kiss ?
+*MOT:	uhoh .
+*MOT:	yeah the ball landed in the cup .
+*MOT:	uhoh where'd the ball go ?
+*MOT:	want to sit in mommy's lap .
+*MOT:	careful with the ball .
+*MOT:	watch the wire .
+*MOT:	yours oh .
+*MOT:	is that yours ?
+*MOT:	oh thank_you .
+*MOT:	thank_you .
+*MOT:	I don't know .
+*MOT:	I don't know where the ball went .
+*MOT:	where'd it go ?
+*MOT:	it's not there .
+*MOT:	I don't know .
+*MOT:	where'd the ball go ?
+*MOT:	oh watch it .
+*MOT:	don't throw things like that around .
+*MOT:	J_J [x 1] .
+*MOT:	Oscar .
+*MOT:	uhoh .

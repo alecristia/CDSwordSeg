@@ -1,0 +1,341 @@
+*MOT:	what's this (.) honey ? 7500_9166
+*MOT:	&hmm ? 11218_12018
+*MOT:	lap . 12602_14070
+*MOT:	that's the Mommy's lap . 14070_14904
+*MOT:	that's right . 14904_15387
+*MOT:	what's the Mommy doing ? 25422_28374
+*MOT:	see Michael ? 36395_37747
+*MOT:	the Mommy is seeing the little baby ? 40099_41749
+*MOT:	seeing the little Michael ? 41749_43550
+*MOT:	she's holding the baby on her lap (.) isn't she ? 46733_49252
+*MOT:	and the baby is sitting on the Mommy's lap . 49835_54322
+*MOT:	creepmouse@c . 56691_58324
+*MOT:	creepmouse@c . 58324_59560
+*MOT:	who's this ? 59560_60310
+*MOT:	mhm . 62678_63395
+*MOT:	what's the mouse doing ? 63395_64812
+*MOT:	is that mouse tired ? 68665_70198
+*MOT:	oh (.) does it want to go to sleep ? 72700_75435
+*MOT:	oh (.) I think Nomi's tired (.) too . 77271_79204
+*MOT:	no (.) it's not a kitty (.) honey . 83675_85141
+*MOT:	it's a mouse . 85141_86210
+*MOT:	what's this baby doing ? 86943_88443
+*MOT:	how big is baby . 90412_92131
+*MOT:	yeah . 93964_95233
+*MOT:	how big is baby . 95233_96416
+*MOT:	you see a mouse here (.) too ? 103332_105868
+*MOT:	where is the mouse ? 105868_107468
+*MOT:	do you see a lolly@c ? 112788_113522
+*MOT:	yes (.) there's a hammer there (.) too . 116474_119509
+*MOT:	that's what you said was a lolly . 121509_125846
+*MOT:	what's that lolly doing ? 126996_130548
+*MOT:	what ? 132567_133600
+*MOT:	smiling (.) honey . 133600_140854
+*MOT:	smiling . 142622_143106
+*MOT:	baby's on Daddy's foot . 148776_152578
+*MOT:	on Daddy's foot (.) yeah . 154780_155796
+*MOT:	what does baby have ? 155796_160833
+*MOT:	baby has a ball . 163202_164619
+*MOT:	what ? 167404_168104
+*MOT:	got shoe (.) yeah . 173055_174824
+*MOT:	yes . 178626_179142
+*MOT:	the baby has a dress on . 179142_180728
+*MOT:	and a jacket on (.) right . 183846_185080
+*MOT:	yes (.) Daddy has shoes on . 187898_189917
+*MOT:	yeah . 193119_193986
+*MOT:	Daddy has knees . 193986_195653
+*MOT:	where's the baby's elbow ? 195653_197687
+*MOT:	do you know where the elbow is ? 199372_200672
+*MOT:	no (.) that's baby's head . 207295_208545
+*MOT:	there's the baby's elbow . 208545_209711
+*MOT:	what does the baby have on its dress ? 209711_213865
+*MOT:	what are those things ? 213865_214749
+*MOT:	yes (.) ball . 217734_219536
+*MOT:	the baby's playing ball . 219536_220486
+*MOT:	peekaboo (.) peekaboo . 222638_226273
+*MOT:	baby hiding ? 227157_228475
+*MOT:	where's the Mommy ? 229825_230994
+*MOT:	where's the Mommy ? 232061_233863
+*MOT:	show me the Mommy . 233863_234446
+*MOT:	mhm . 236146_237314
+*MOT:	right (.) more . 244734_246853
+*MOT:	there's a blanket on the baby's bed . 246853_249638
+*MOT:	show me some toys the baby has (.) Nomi . 252490_256459
+*MOT:	do you see some toys in the room ? 258061_259228
+*MOT:	where are the toys ? 262280_262763
+*MOT:	show me some toys . 262763_264148
+*MOT:	show me some toys . 265831_268866
+*MOT:	are there some nice toys ? 270468_273170
+*MOT:	where's a dolly ? 274937_276953
+*MOT:	do you see a dolly ? 276953_278389
+*MOT:	(..) do you see a doggie ? 282976_284842
+*MOT:	toy doggie . 286511_287278
+*MOT:	show me where it is . 289130_290313
+*MOT:	can you point ? 290313_293265
+*MOT:	can you point (.) Nomi ? 293265_294948
+*MOT:	do you know how to point ? 294948_296483
+*MOT:	point with your finger . 297400_298317
+*MOT:	see (.) like this . 298317_299335
+*MOT:	go point . 299335_300052
+*MOT:	point to the doggie . 300052_301169
+*MOT:	there it is . 303887_304653
+*MOT:	rock a bye baby on the tree top . 315372_318990
+*MOT:	when the wind blows the cradle will rock . 318990_322626
+*MOT:	let's see . 322626_324828
+*MOT:	turn the page . 324828_326428
+*MOT:	what's this one ? 326428_327863
+*MOT:	is that baby crying ? 330465_331915
+*MOT:	how come it's crying ? 331915_334250
+*MOT:	is it sad ? 334250_334950
+*MOT:	is the baby sad ? 337051_337918
+*MOT:	what ? 342986_344838
+*MOT:	hi what ? 348207_349809
+*MOT:	I don't understand . 349809_350659
+*MOT:	yes (.) birdie . 351192_352678
+*MOT:	singing (.) yeah . 354628_356563
+*MOT:	they're eating . 358998_359414
+*MOT:	that's right . 359414_360148
+*MOT:	this birdie is eating on the ground . 360147_362533
+*MOT:	on the sand . 362533_363566
+*MOT:	this baby's in his Mommy's arms . 363566_368703
+*MOT:	Mommy's comforting the baby . 371155_372439
+*MOT:	what's this birdie doing ? 376543_377893
+*MOT:	up there ? 377893_378426
+*MOT:	no (.) honey . 382794_384330
+*MOT:	that birdie's flying . 384330_385530
+*MOT:	yes . 387965_388398
+*MOT:	do you know what these are ? 388398_389332
+*MOT:	what are those ? 390834_391817
+*MOT:	they're boats (.) honey . 394202_397654
+*MOT:	sailboats . 398421_399922
+*MOT:	yeah . 401155_402374
+*MOT:	we'll see a sailboat this summer . 402374_403374
+*MOT:	yes . 406543_407945
+*MOT:	let's see if you remember all of them . 407945_409411
+*MOT:	who is this ? 409411_409878
+*MOT:	Mr_Gum . 409878_412080
+*MOT:	<next comes> [//] who's next ? 412080_417384
+*MOT:	tell me who this is . 418134_418751
+*MOT:	Peter . 418751_420336
+*MOT:	Peter_Point . 420336_423121
+*MOT:	Lillie_Long . 424055_429292
+*MOT:	Mrs +... 430875_432661
+*MOT:	yes (.) Mrs_Ring is wearing a hat . 433727_435946
+*MOT:	and +... 435946_438048
+*MOT:	Pinkie_Little and the baby . 439281_441682
+*MOT:	right . 441682_442316
+*MOT:	and they're all wearing hats . 442316_443584
+*MOT:	what's this ?
+*MOT:	down goes Peter_Point . 444017_447036
+*MOT:	down goes silly Lillie_Long . 447036_450421
+*MOT:	down goes Mrs +... 451021_451871
+*MOT:	what's next here ? 453606_454923
+*MOT:	this little piggie +... 454923_456742
+*MOT:	what's this piggie doing ? 456742_459860
+*MOT:	yes (.) this piggie is eating . 460377_462046
+*MOT:	what's this piggie piggie doing ? 462046_463079
+*MOT:	what's this piggie eating (.) honey ? 466264_467700
+*MOT:	say +/. 469682_470651
+*MOT:	Nomi (.) Nomi say (.) +"/. 473603_475736
+*MOT:	+" piggie eating beef . 475736_477638
+*MOT:	piggie eating beef . 482709_484509
+*MOT:	can you say it ? 484509_489629
+*MOT:	this is beef (.) see ? 492665_494350
+*MOT:	now say (.) +"/. 494917_496000
+*MOT:	+" piggie eating beef . 496000_498402
+*MOT:	no (.) honey . 501771_502371
+*MOT:	say (.) +"/. 502371_502737
+*MOT:	+" piggie eating beef . 502737_504087
+*MOT:	piggie eating beef . 508691_510041
+*MOT:	piggie is sleeping . 519397_521166
+*MOT:	that's right . 521166_521549
+*MOT:	can you say (.) +"/. 521549_522133
+*MOT:	+" piggie is [!!] sleeping ? 522133_523618
+*MOT:	the blanket is over the piggie (.) right . 525901_527903
+*MOT:	can you say (.) +"/. 527903_528487
+*MOT:	+" blanket over piggie ? 528487_530455
+*MOT:	blanket over blanket . 534591_536092
+*MOT:	okay . 536092_537942
+*MOT:	let's do this one . 537942_539710
+*MOT:	what's this piggie doing ? 539710_540827
+*MOT:	that piggie is crying . 542079_545631
+*MOT:	see the tears ? 547664_548666
+*MOT:	look at the tears . 548666_549716
+*MOT:	that's because the piggie had to stay at home . 549716_553301
+*MOT:	the piggie didn't want to stay at home . 554487_555703
+*MOT:	he wanted to go outside . 555703_558455
+*MOT:	see (.) sometimes other people cry (.) too (.) because they have_to
+*MOT:	just like Nomi when she can't go outside she cries . 565109_569929
+*MOT:	remember how you cry when you can't go outside ? 569929_574314
+*MOT:	this piggie's crying (.) too . 574314_577166
+*MOT:	can you say +... 583237_584356
+*MOT:	can you say +... 596764_599182
+*MOT:	+" piggie has the bucket ? 599832_601968
+*MOT:	yes (.) that's a house (.) honey . 604836_605836
+*MOT:	can you say (.) +"/. 605836_607954
+*MOT:	+" piggie going home ? 607954_609221
+*MOT:	say (.) +"/. 615375_618160
+*MOT:	+" piggie going home . 618160_619426
+*MOT:	okay . 624397_624747
+*MOT:	say (.) +"/. 624747_624997
+*MOT:	+" piggie going . 624997_625630
+*MOT:	okay . 626830_628549
+*MOT:	more . 628549_629015
+*MOT:	flowers and look at the little house . 631417_633936
+*MOT:	isn't that a sweet little house ? 633936_635053
+*MOT:	can you say (.) +"/. 641305_643671
+*MOT:	+" little house ? 643671_644757
+*MOT:	tell you what (.) honey ? 657142_658992
+*MOT:	how what ? 660944_661644
+*MOT:	what do you want to know ? 661644_662194
+*MOT:	patty cake (.) patty cake (.) baker's man . 670800_675520
+*MOT:	shadow pictures . 678655_679588
+*MOT:	look (.) Nomi (.) we've got sun right now . 679588_682440
+*MOT:	we could do shadows . 682440_683875
+*MOT:	see . 685175_687327
+*MOT:	make a shadow . 687327_688894
+*MOT:	shadow . 697117_697867
+*MOT:	Daddy . 717837_718920
+*MOT:	yeah . 718920_719537
+*MOT:	that's a Daddy . 719537_720789
+*MOT:	Mommy (.) too (.) right . 728376_730228
+*MOT:	make a shadow (.) Nomi . 832209_834911
+*MOT:	come over here to make it . 834911_839965
+*MOT:	you have_to come over here to do it . 839965_846036
+*MOT:	there it is . 854908_856158
+*MOT:	see . 856158_858526
+*MOT:	woof_woof@o . 870334_875571
+*MOT:	woof_woof@o . 875571_876754
+*MOT:	woof_woof@o . 879773_880389
+*MOT:	what are you getting (.) honey ? 889029_890112
+*MOT:	getting off ? 894147_895533
+*MOT:	what are you getting ? 896316_899235
+*MOT:	are you going to get a doggie ? 899235_902703
+*MOT:	oof_oof@o . 916805_918155
+*MOT:	let's make a shadow of that puppet (.) honey . 923292_930729
+*MOT:	let's make a shadow of that puppet . 933748_935450
+*MOT:	there (.) look . 935450_937634
+*MOT:	oh (.) is that a good shadow ! 937634_938501
+*MOT:	say (.) +"/. 938501_941536
+*MOT:	+" woof@o woof@o . 941536_942119
+*MOT:	he makes a really good shadow (.) doesn't he ? 944405_946055
+*MOT:	okay . 964165_966015
+*MOT:	where are you ? 991765_994967
+*MOT:	oh (.) good . 998835_1000787
+*MOT:	that will make a beautiful shadow (.) honey . 1000787_1002887
+*MOT:	let's make a shadow with it . 1002887_1010143
+*MOT:	that will make a really nice shadow . 1010143_1012678
+*MOT:	hold it up . 1012678_1029454
+*MOT:	look at the shadow . 1029454_1035192
+*MOT:	nice ! 1035192_1039412
+*MOT:	oh (.) what a good shadow that makes . 1039412_1042031
+*MOT:	sit down and watch the shadow . 1042031_1053755
+*MOT:	we make our own light show . 1076755_1078688
+*MOT:	no (.) honey . 1078688_1086627
+*MOT:	you'll stick it in your eye (.) honey . 1086627_1088563
+*MOT:	that's bad . 1088563_1089113
+*MOT:	be careful of that . 1090629_1092415
+*MOT:	careful of the stick . 1092415_1094198
+*MOT:	do you want to comb your hair (.) Nomi ? 1094198_1099735
+*MOT:	Mommy will get something for you to comb your hair . 1101504_1104289
+*MOT:	here's a brush (.) Nomi . 1115139_1115855
+*MOT:	brush Nomi's hair . 1115855_1116605
+*MOT:	make your hair feel good . 1116605_1123228
+*MOT:	no (.) we don't comb our hair with this . 1126763_1128263
+*MOT:	make your hair feel good . 1128263_1132917
+*MOT:	Daddy's in Florida . 1136969_1139171
+*MOT:	in Florida . 1139171_1141623
+*MOT:	he'll be home tonight . 1141623_1142473
+*MOT:	yes (.) he's working in Florida . 1147176_1148376
+*MOT:	can you say (.) +"/. 1148376_1150395
+*MOT:	+" Florida ? 1150395_1150895
+*MOT:	Florida (.) that's good . 1151995_1153595
+*MOT:	you feel better ? 1159915_1161517
+*MOT:	yes (.) it feels good to brush your hair . 1161517_1165653
+*MOT:	you should wash your hair today . 1167421_1171073
+*MOT:	wash Nomi's hair . 1171073_1182947
+*MOT:	make a shadow with the brush . 1216947_1218797
+*MOT:	look (.) see the shadow . 1224617_1226967
+*MOT:	yes (.) the shadow with the brush is very good . 1239317_1242102
+*MOT:	now you have shadows of your feet . 1242102_1248673
+*MOT:	are you brushing your feet ? 1277673_1279523
+*MOT:	how should we plan our day ? 1303523_1305873
+*MOT:	maybe we'll have Nomi take a nap this morning . 1305873_1321235
+*MOT:	then when we get up (.) give Nomi a bath and wash her hair . 1321235_1331090
+*MOT:	don't cry . 1331090_1339296
+*MOT:	I'm just thinking about it (.) honey . 1339296_1341062
+*MOT:	we're not doing it . 1341062_1342148
+*MOT:	I'm just thinking . 1342148_1342748
+*MOT:	thinking (.) yeah . 1345647_1347083
+*MOT:	with my head . 1347083_1347649
+*MOT:	you think up here . 1347649_1348683
+*MOT:	then after all that we could eat and go over to school and then go
+*MOT:	yeah (.) outside is where you like to be (.) isn't it ? 1377618_1380570
+*MOT:	uhhum . 1383006_1383606
+*MOT:	and then have another nap . 1383606_1385458
+*MOT:	you have_to get dressed first . 1398699_1400818
+*MOT:	you're still in your jammies . 1413768_1415018
+*MOT:	we will go outside . 1464319_1468105
+*MOT:	a little later (.) honey . 1468105_1471659
+*MOT:	a little later we will go outside . 1471659_1474861
+*MOT:	&hmm ? 1489703_1490536
+*MOT:	good . 1490536_1509098
+*MOT:	you did it . 1509098_1512716
+*MOT:	oh (.) it's not in the right place . 1545970_1547639
+*MOT:	good . 1556911_1558261
+*MOT:	you can do it (.) honey . 1569300_1572235
+*MOT:	you just have_to be patient . 1572235_1577723
+*MOT:	oh . 1584542_1585811
+*MOT:	get it in the right place and then you can do it . 1585811_1592065
+*MOT:	get it in the right place . 1592865_1594667
+*MOT:	you don't want to break it . 1594667_1601338
+*MOT:	want to put some animal xxx in there ? 1610694_1612296
+*MOT:	no (.) it's not broken (.) honey . 1630090_1631690
+*MOT:	there it goes . 1646690_1647623
+*MOT:	good (.) you've got it closed now . 1647623_1650058
+*MOT:	where's the moon ? 1693794_1695644
+*MOT:	uhhum . 1697846_1698929
+*MOT:	where is it ? 1698929_1699864
+*MOT:	uhhum . 1704166_1704716
+*MOT:	the moon is sleeping . 1704716_1706618
+*MOT:	where is the sun ? 1706618_1708987
+*MOT:	that's right . 1719372_1719955
+*MOT:	the sun is working . 1719955_1720605
+*MOT:	Nomi (.) did you see how the trees are blowing in the wind ? 1720605_1740801
+*MOT:	must be windy . 1740801_1743820
+*MOT:	do you remember what wind is (.) Nomi ? 1745287_1748039
+*MOT:	go [=! blows air] .
+*MOT:	can you see a shadow ? 1776158_1780194
+*MOT:	there's only a little bit of a shadow . 1780194_1781796
+*MOT:	yeah . 1826857_1827740
+*MOT:	it is getting bright . 1827740_1828876
+*MOT:	sun is making it warm (.) making it bright . 1862402_1878846
+*MOT:	Daddy is working (.) honey . 1904548_1906048
+*MOT:	Daddy will be home tonight . 1906048_1909033
+*MOT:	you'll see him tomorrow morning . 1909033_1912904
+*MOT:	at the lab in Florida . 1918641_1920158
+*MOT:	where's Mommy ? 1925227_1926127
+*MOT:	Mommy's right here . 1926127_1926844
+*MOT:	with Nomi . 1931381_1936269
+*MOT:	right here with Nomi . 1936269_1938169
+*MOT:	that's not the moon (.) honey . 1945125_1945508
+*MOT:	would you please don't put your hands back on your tray (.) honey ?
+*MOT:	I'm trying to clean you off . 1947391_1948927
+*MOT:	the moon is cold . 1954747_1955914
+*MOT:	that's right . 1955914_1957016
+*MOT:	the sun is hot . 1957016_1957683
+*MOT:	the moon is cold . 1957683_1958699
+*MOT:	I don't think you see the moon (.) honey . 1979811_1984029
+*MOT:	where do you think you see the moon (.) Nomi ? 1984029_1986814
+*MOT:	show me . 1988599_1989016
+*MOT:	where's the moon ? 1990399_1992801
+*MOT:	those are clouds (.) Nomi . 1992801_1996020
+*MOT:	clouds . 1996020_1997955
+*MOT:	clouds (.) right . 1998738_2000390
+*MOT:	clouds . 2000390_2003259
+*MOT:	clouds (.) Nomi (.) clouds . 2019036_2019952
+*MOT:	where is the moon (.) Nomi ? 2034211_2038432
+*MOT:	way up in the sky . 2038432_2039482
+*MOT:	way up in the sky . 2039482_2042817
+*MOT:	where's moon ? 2047455_2048271
+*MOT:	way up in the sky . 2048271_2049371

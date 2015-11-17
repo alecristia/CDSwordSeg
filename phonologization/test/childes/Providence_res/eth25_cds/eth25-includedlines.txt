@@ -1,0 +1,569 @@
+*MOT:	you're gonna do your xxx . 0_1681
+*MOT:	okay , we'll work on his backpack . 1681_7121
+*MOT:	Ethan , let's come out and put on your backpack . 7121_10170
+*MOT:	mhm . 12623_13700
+*MOT:	sweetie , we'll look at it later , okay ? 19100_23500
+*MOT:	Ethan , come on sweetie , it's not a toy , Ethan , Ethan , Ethan , come on , it'll fall on your head . 23500_31383
+*MOT:	I'll show you , I'll show you , but you can't see if you're looking at from here you can't see xxx from your room . 31383_38510
+*MOT:	okay ?
+*MOT:	guess what time it is . 47450_52400
+*MOT:	backpack time . 53530_59558
+*MOT:	that's right it's a tripod . 69550_71690
+*MOT:	mhm . 77750_79705
+*MOT:	whatcha [: what are you] doin(g) sweetie ? 79705_82420
+*MOT:	I gotta put the alligator clip on you , chomp ! 82420_89725
+*MOT:	there ya [: you] go ! 89725_92368
+*MOT:	mommy's gonna put her's on too , see ? 93553_98243
+*MOT:	same as yours . 98243_103353
+*MOT:	it's all packed and ready to go . 111341_113748
+*MOT:	looks like you're gonna go on a trip with your backpack . 113748_116800
+*MOT:	you know when people use backpacks , when they go camping . 121600_124755
+*MOT:	and what story did we read about camping ? 124755_128830
+*MOT:	p+j , funny bunny , let's keep it on sweets . 129900_133573
+*MOT:	you wanna play a game , you wanna play with some Play_Doh ? 134661_138905
+*MOT:	should I get the Play_Doh tickle boy ? 140663_143391
+*MOT:	let's see , you've got your mat .
+*MOT:	got your letters . 156300_158416
+*MOT:	oops .
+*MOT:	got the footprints . 180496_190521
+*MOT:	and the paw prints . 194100_195985
+*MOT:	pi:nk , ya:y ! 208400_212000
+*MOT:	should we take that off ? 213845_216648
+*MOT:	I'll get your rolling pin too . 226216_231700
+*MOT:	remember to use the mat , huh .
+*MOT:	I brought you some more tools . 255105_258643
+*MOT:	what would you like ? 258643_265000
+*MOT:	yup [: yes] . 268600_269088
+*MOT:	hammer , hammer , hammer , hammer . 273411_275351
+*MOT:	mhm .
+*MOT:	you can use a rolling pin . 284621_287800
+*MOT:	go to the construction site , yeah . 293036_295780
+*MOT:	you found Lofty .
+*MOT:	yeah . 305600_307496
+*MOT:	remember how he picked up the train yesterday , by the wheel and the train was hanging upside down ? 307496_316061
+*MOT:	yup [: yes] , I made some wood . 321488_323446
+*MOT:	and lofty can hold the caboose . 323446_327743
+*MOT:	that's , that's harder , this is easier .
+*MOT:	yeah , he's gonna tow Thomas .
+*MOT:	away , yeah . 342300_343800
+*MOT:	to the garage , yeah . 343800_345300
+*MOT:	to be fixed . 347610_349000
+*MOT:	you wanna go to the construction site ? 362400_364358
+*MOT:	you gonna fix some roads , you gonna build some roads , you need Rolly . 367168_373153
+*MOT:	you think Rolly's [: Rolly is] downstairs ? 373153_377000
+*MOT:	yeah .
+*MOT:	maybe Rolly can +//.
+*MOT:	maybe this is some asphalt , you think that's some asphalt , you need Rolly to roll it ? 380218_388000
+*MOT:	hmm let's see , there he is . 395433_398128
+*MOT:	yeah .
+*MOT:	he's rolling over the road . 404918_406420
+*MOT:	he's putting it into the what ? 411045_412996
+*MOT:	huh huh huh ? 415751_416626
+*MOT:	into the sun ? 421946_424570
+*MOT:	he's making the asphalt , yeah , asphalt .
+*MOT:	mhm .
+*MOT:	mm , yes he is . 442700_444400
+*MOT:	you made a nice pink road didn't you ? 455750_458293
+*MOT:	how about some tracks on the road . 458293_462431
+*MOT:	Douglas ? 476500_477620
+*MOT:	where's Douglas , there's Douglas .
+*MOT:	you're right , I see a word down there .
+*MOT:	what does it say ?
+*MOT:	e@l , v@l , a@l , n@l , train ? 498900_501556
+*MOT:	I can make some words over here too , you wanna see ? 504656_507645
+*MOT:	gonna squish it here . 510086_512556
+*MOT:	watch this . 512556_515038
+*MOT:	those are some words too , it says Bob the builder . 515038_519493
+*MOT:	heh heh , see , I pushed it down right there . 519493_526023
+*MOT:	yes he can . 530000_531580
+*MOT:	yeah he does , he builds lots_of roads . 535099_537741
+*MOT:	and buildings too . 537741_539628
+*MOT:	gotta wipe your nose .
+*MOT:	he does have many tools , he has a tool belt , right ? 548546_552951
+*MOT:	plop .
+*MOT:	&uh oh , play dough head !
+*MOT:	he ho , he ho , Ethan's [: Ethan has] got a hat . 581130_584645
+*MOT:	heh , just like curious George , remember when he made pizza ?
+*MOT:	it landed on Tony's head that's right . 600360_602621
+*MOT:	into a card ? 615300_617840
+*MOT:	what is it ? 617840_621550
+*MOT:	it's a road that's falling apart . 623400_625620
+*MOT:	let's keep it on the mat sweetie .
+*MOT:	it's very clear . 630566_634053
+*MOT:	should I make a waffle ?
+*MOT:	make a waffle .
+*MOT:	yeah . 668500_670020
+*MOT:	there ya [: you] go , I see the waffle . 670020_673726
+*MOT:	it's growing and growing , mommy will make a little waffle . 675900_679350
+*MOT:	yeah , Ethan gets a little waffle , ready , r:o:ll it . 681700_687553
+*MOT:	and knead it .
+*MOT:	there's your waffle , wait we have_to put it in the oven . 691600_693728
+*MOT:	tck@o tck@o tck@o tck@o tck@o , bing . 693728_699026
+*MOT:	try it , you'll like it . 702600_704491
+*MOT:	chomp , mm , now that's a delicious waffle thank you .
+*MOT:	okay , remember it's pretend . 712555_717583
+*MOT:	n:o , it's pretend . 717583_721700
+*MOT:	it's not real , no . 722990_724695
+*MOT:	what're [: what are] you gonna make now ? 724695_732045
+*MOT:	you gonna make some +...
+*MOT:	bricks ? 738001_738981
+*MOT:	gonna make a brick house ? 741323_742813
+*MOT:	yup [: yes] .
+*MOT:	a mack@o whack on your head .
+*MOT:	you're the baker ?
+*MOT:	Tony the baker . 766900_769595
+*MOT:	yup [: yes] , you remember how George did it , he threw it up in the air like this , first he patted it and then he flipped it , he flipped it . 772721_783576
+*MOT:	yup [: yes] it landed on the head . 786248_788245
+*MOT:	and the lady didn't like it , (be)cause she was eating her pizza and it went plop . 788245_794288
+*MOT:	flop . 794288_795750
+*MOT:	he drove the truck to the factory . 811846_814260
+*MOT:	do you remember what happened , the gates were closed , so what did George do ? 814260_820223
+*MOT:	that's right , he climbed up over the gates . 821300_824195
+*MOT:	and what did he do with the pizza ? 824195_827573
+*MOT:	he delivered the pizza ! 827573_832285
+*MOT:	mhm .
+*MOT:	it was all gone , huh ? 844051_847020
+*MOT:	should I make a face ? 847020_851720
+*MOT:	eyes , and a nose . 851720_870396
+*MOT:	yeah it does , you're right , it looks like tubby toast . 872600_875930
+*MOT:	is it crunchy and delicious ? 878568_881380
+*MOT:	yeah it has a mouth . 888091_889930
+*MOT:	it's all crunchy , huh ? 905000_906665
+*MOT:	remember to keep it on the mat sweetie . 910865_916210
+*MOT:	it's ready , can I have a bite ? 919700_922395
+*MOT:	I wanna cut a piece off with the cutter . 922395_925090
+*MOT:	that is so delicious . 931578_933313
+*MOT:	delicious , oops .
+*MOT:	you found more play dough . 946248_947421
+*MOT:	it's gonna dry off ? 953260_954950
+*MOT:	it's ready to use , what're [: what are] you gonna make with it ? 961300_963958
+*MOT:	ready to go !
+*MOT:	to the construction site , there's some wood . 978450_981506
+*MOT:	we need an axe , you have an axe . 987200_990100
+*MOT:	you wanna cut the wood down , that's right , that's how you cut a tree down , with an axe . 991325_995313
+*MOT:	hmm , good job . 998891_1001895
+*MOT:	good job . 1001895_1006025
+*MOT:	and then it goes to the saw mill right ? 1014218_1016900
+*MOT:	it's ready ?
+*MOT:	it dried off , was it wet from the rain ? 1028895_1032713
+*MOT:	now it's all clean , yeah . 1035700_1038091
+*MOT:	xxx it's preten:d , are you hungry ? 1038091_1045553
+*MOT:	you ate it . 1047853_1049688
+*MOT:	is it tasty and delicious ? 1052300_1053900
+*MOT:	oh yeah it looks a little bit like a baseball bat , but you need a ball , take a piece for the ball , there's the bat , you hold on I'm gonna throw you the ball , I'm gonna pitch , ready , bong , home run . 1061500_1075375
+*MOT:	you gonna be safe , on first ? 1077900_1080113
+*MOT:	xxx why , oh (be)cause you broke the bat . 1085000_1089285
+*MOT:	that's right in the story p+j funny bunny's cousin broke the bat . 1089285_1094286
+*MOT:	and that made p+j funny bunny very unhappy . 1094286_1099008
+*MOT:	he was sad , I made the bat again , whoops . 1099008_1104551
+*MOT:	oh , yeah .
+*MOT:	xxx .
+*MOT:	you're breaking it to bits Ethan . 1119200_1121356
+*MOT:	yup [: yes] , you took it apart , into many pieces . 1126700_1131200
+*MOT:	yeah you did . 1132500_1133950
+*MOT:	now we're gonna stay here Ethan . 1137000_1138766
+*MOT:	we'll go in the sitting room later . 1138766_1141153
+*MOT:	yeah after you take a nap be careful coming down the stairs . 1144200_1148063
+*MOT:	no you can't run , not in here . 1154545_1158328
+*MOT:	yup [: yes] for the game , winning +... 1162086_1165501
+*MOT:	ba:ll .
+*MOT:	xxx you threw it over the fence , good job Ethan . 1167821_1170908
+*MOT:	whoa ! 1172731_1174491
+*MOT:	run the bases , got you , out . 1175700_1178180
+*MOT:	strike . 1181995_1183563
+*MOT:	can you throw it to mommy , good catch , good throw , ready ? 1185685_1189951
+*MOT:	bonk . 1189951_1191896
+*MOT:	bonk .
+*MOT:	you missed at home . 1199591_1201255
+*MOT:	yeah that's right ! 1211600_1212700
+*MOT:	you need a glove that's right , we can have a pretend glove . 1214853_1218503
+*MOT:	yeah we have_to get you a real glove . 1220400_1222361
+*MOT:	it has to be a small glove for your hand though , (be)cause you have tiny hands . 1223770_1227891
+*MOT:	whoa . 1229530_1231241
+*MOT:	can you throw it through the basket ?
+*MOT:	whoa he scores ! 1237276_1239900
+*MOT:	you scored , you didn't miss you scored . 1240640_1243300
+*MOT:	now you missed . 1245565_1247625
+*MOT:	mommy's turn , ready , Ethan catches it , he takes it to the basket , he scores , yay ! 1247625_1258001
+*MOT:	you're tackled at home oh no: !
+*MOT:	third base . 1265406_1267030
+*MOT:	did you sli:de into third base ? 1267030_1271786
+*MOT:	mommy stayed safe ! 1271786_1274556
+*MOT:	yup [: yes] you did .
+*MOT:	where's the basket ball ? 1285550_1287248
+*MOT:	xxx .
+*MOT:	a bad bunny . 1295700_1297465
+*MOT:	it's okay , sometimes people break things , that's okay . 1297465_1302770
+*MOT:	now we're gonna make a big pile . 1302770_1304951
+*MOT:	what's +...
+*MOT:	you have too many toys , so you have_to move them out of the way so you can run the bases , go ahead . 1320600_1325900
+*MOT:	do you want me to show you where the bases are ? 1331818_1334508
+*MOT:	we'll use the place mats . 1334508_1339463
+*MOT:	that's home plate . 1339463_1342365
+*MOT:	and , this is first base . 1343620_1349018
+*MOT:	run to first ! 1349018_1350641
+*MOT:	now I gotta find second base . 1352300_1354833
+*MOT:	your towel will be second base . 1355500_1357743
+*MOT:	second base , run to second base .
+*MOT:	second , now we need something for third base .
+*MOT:	how about +...
+*MOT:	a pillow . 1374241_1376220
+*MOT:	here's third base . 1378100_1379826
+*MOT:	okay run to third . 1379826_1382501
+*MOT:	now run home !
+*MOT:	home's over there . 1385256_1386953
+*MOT:	home plate's [: plate is] over there . 1386953_1388373
+*MOT:	to the place mat , that's home , yay ! 1388373_1392753
+*MOT:	one point for Ethan's team . 1392753_1397751
+*MOT:	that's Daddy's , yeah it is . 1400016_1402786
+*MOT:	mommy's team , daddy's team . 1405300_1407585
+*MOT:	yup [: yes] , that's yours .
+*MOT:	you have a special place mat don't you ? 1419770_1424985
+*MOT:	hmm .
+*MOT:	yup [: yes] . 1429151_1430751
+*MOT:	you're hugging your pumpkin , heh heh heh , that's nice . 1435640_1439825
+*MOT:	what do you wanna be for halloween Ethan ? 1448370_1450561
+*MOT:	you wanna be a pumpkin for halloween ? 1451900_1454045
+*MOT:	yup [: yes] you can dress up , do you have something in your eyes sweetie_petey@wp . 1455500_1459330
+*MOT:	a bat , and you can swoop swoop swoop . 1462125_1466515
+*MOT:	there you go . 1469233_1470743
+*MOT:	you're gonna need some wings to be a bat . 1470743_1473893
+*MOT:	come here sweetie , I think you have something in your eye .
+*MOT:	fly to mommy: ! 1481200_1483220
+*MOT:	are you losing out ? 1488800_1490360
+*MOT:	oh , the flames are going out . 1493000_1495621
+*MOT:	is that (be)cause you were a fire fighter ? 1495621_1498363
+*MOT:	oh .
+*MOT:	now it's off , do you need help with your backpack sweetie ? 1506305_1512076
+*MOT:	cock a doodle do: , moo moo .
+*MOT:	in the barn !
+*MOT:	that's home plate , mommy's sitting on first . 1535600_1538288
+*MOT:	second third . 1538288_1540755
+*MOT:	that's third , yay !
+*MOT:	whoa ! 1547628_1549625
+*MOT:	you're tackled at home , oh no , tackled at ho:me , gotcha [: got you] ! 1557000_1563045
+*MOT:	mhm I strike you out , and the pitcher strikes you out . 1567400_1571343
+*MOT:	strike ! 1571343_1575300
+*MOT:	mhm .
+*MOT:	let's be careful over here . 1593800_1596991
+*MOT:	you wanna see Ethan , heh heh . 1599153_1605096
+*MOT:	hi , hi little Ethan .
+*MOT:	now you disappeared , now you appeared . 1611155_1617065
+*MOT:	yup [: yes] . 1620500_1620990
+*MOT:	he didn't wanna be a bunny anymore . 1628900_1630900
+*MOT:	he wanted to be a beaver . 1632300_1633658
+*MOT:	a goat , he wanted to be a goat ? 1639000_1641491
+*MOT:	a boat , or a ghost . 1645798_1648618
+*MOT:	boo . 1649430_1651063
+*MOT:	I'm not scared of you , you're wearing a funny shoe . 1655085_1657756
+*MOT:	should we put the train tracks up ? 1664388_1667690
+*MOT:	or you wanna play with the letters ? 1667690_1670170
+*MOT:	you wanna put the b@l down your shirt , where's the b@l ? 1678480_1680575
+*MOT:	there's the b@l , that's right . 1682546_1684615
+*MOT:	heh heh heh .
+*MOT:	lemme [: let me] help you , you got a b@l down your shirt , down your shirt , you gotta b@l down your shirt , down your shirt . 1688250_1696686
+*MOT:	what is b@l for ? 1696686_1698943
+*MOT:	ball , yeah , is it stuck ? 1700156_1703021
+*MOT:	that's right , it is . 1704250_1705960
+*MOT:	and balloon , and banana . 1705960_1710020
+*MOT:	what should letter should mommy put down her shirt ? 1712550_1715285
+*MOT:	what ? 1716360_1717295
+*MOT:	f@l ? 1718100_1719056
+*MOT:	m@l . 1721581_1722296
+*MOT:	that's an m@l you're right .
+*MOT:	it's a w@l , you're xxx right , you're smarter than I am . 1725513_1727820
+*MOT:	yes for a wish , oh , there's a w@l down my shirt down my shirt , there's a w@l down my shirt , down my shirt . 1729900_1737576
+*MOT:	you're gonna put a u@l down your shirt . 1739123_1741656
+*MOT:	what's a u@l for ?
+*MOT:	umbrella , that's right .
+*MOT:	and underwear . 1748700_1750100
+*MOT:	heh heh heh .
+*MOT:	is it stuck down your shirt ? 1754710_1757256
+*MOT:	maybe it's stuck in your underwear . 1757256_1760758
+*MOT:	you found the u@l ? 1763236_1765210
+*MOT:	you want me to get it ? 1769405_1771021
+*MOT:	it's stuck . 1771021_1772500
+*MOT:	&doot &doo &doot &doo &doot &doo &do: ! 1776210_1778951
+*MOT:	I got the u@l and the w@l ! 1778951_1783376
+*MOT:	where's the b@l ? 1783376_1785156
+*MOT:	where did the b@l go , it disappeared . 1790400_1793103
+*MOT:	is it still down your shirt , is it still down your shirt ?
+*MOT:	there it is . 1797853_1799330
+*MOT:	where's the e@l Ethan ? 1804156_1806723
+*MOT:	d@l , w@l . 1817225_1818990
+*MOT:	this is the d@l . 1818990_1820751
+*MOT:	where's the w@l ? 1823416_1824965
+*MOT:	wish , yup [: yes] . 1829761_1831515
+*MOT:	go whoosh !
+*MOT:	go whoosh , that's what Thomas did right ? 1840445_1843546
+*MOT:	whoosh !
+*MOT:	xxx . 1857800_1859300
+*MOT:	w@l for whoosh ! 1860696_1862958
+*MOT:	what about this one ?
+*MOT:	that's right it's an e:@l for +... 1868660_1871783
+*MOT:	Ethan ! 1873590_1875305
+*MOT:	you're gonna your fire house ?
+*MOT:	in the wheel barrow , in the wheel ! 1894900_1897251
+*MOT:	let's go down stairs for a little bit .
+*MOT:	that's right in the book his nose was growing . 1904951_1908790
+*MOT:	xxx find your medicine for your teeth . 1908790_1912618
+*MOT:	grape ? 1922936_1924450
+*MOT:	grape medicine , yes sometimes you have grape medicine , this is different medicine for your teeth . 1930200_1935633
+*MOT:	you want me to read you a story ?
+*MOT:	hide and seek . 1950455_1954421
+*MOT:	heh heh heh . 1958745_1961150
+*MOT:	that is a new one .
+*MOT:	yup [: yes] . 1965988_1967496
+*MOT:	sit in mommy's lap ? 1967496_1969891
+*MOT:	hide and sleep xxx what are those ? 1969891_1975551
+*MOT:	yup [: yes] slippers , hello I'm Poppy , I love to wear my crown , what's she doing ? 1978000_1986245
+*MOT:	do you know what she's doing ? 1986245_1989241
+*MOT:	that's right she's taking a bath . 1991200_1993080
+*MOT:	it's my bedtime now but I'm going to hi:de , by:e , &uh oh , pew: , it's a little +...
+*MOT:	is that tickling you , it's a little smelly in here . 1993080_2010021
+*MOT:	it's tickling you , want me to move it ? 2012085_2013956
+*MOT:	there we go . 2015651_2018310
+*MOT:	what's that ? 2018310_2019890
+*MOT:	do you know what that is ? 2019890_2022493
+*MOT:	xxx you're right .
+*MOT:	polka dot underwear . 2026076_2028641
+*MOT:	that better ? 2028641_2029858
+*MOT:	no more tickly . 2029858_2031021
+*MOT:	polka dot jammies , yeah , what's that ? 2033500_2036551
+*MOT:	spiders .
+*MOT:	spider , there's Poppy , she's in the laundry basket , it's a little stinky in here . 2041153_2046065
+*MOT:	but the kittens don't seem to mind . 2046065_2049449
+*MOT:	yup [: yes] , how many , should we count them ? 2051400_2053889
+*MOT:	one , two , three kitties .
+*MOT:	mm , they like the stinky smell . 2059221_2062618
+*MOT:	ooh , I just about fit in here . 2062618_2067786
+*MOT:	yup [: yes] , it's the dog's bed . 2069205_2071223
+*MOT:	but Taffy doesn't think so , grrr@o . 2071223_2077700
+*MOT:	that's Taffy's bone , that's right , that's his bone , and he says get out of my bed , grrr@o . 2078950_2088476
+*MOT:	I know , I'll hide behind the sofa: . 2088476_2094350
+*MOT:	here's Poppy's crown . 2094350_2097393
+*MOT:	oh no , too many toys . 2097393_2102900
+*MOT:	yup [: yes] .
+*MOT:	yup [: yes] , there's a car and a ball and some blocks . 2104520_2108701
+*MOT:	ah , that's better , there's lots_of room in here and it's so: cozy: . 2108701_2119000
+*MOT:	yup [: yes] .
+*MOT:	where is she ? 2121891_2123076
+*MOT:	yup [: yes] , there she is .
+*MOT:	I could stay here for (.) hours , night night Poppy . 2127095_2136411
+*MOT:	yup [: yes] .
+*MOT:	there's your ball . 2138618_2139966
+*MOT:	hmm ball's gonna roll ? 2147360_2150151
+*MOT:	let's leave it on , okay ? 2150151_2151863
+*MOT:	what's Poppy doing ? 2158416_2163226
+*MOT:	yup [: yes] . 2164893_2166236
+*MOT:	yeah sweetie .
+*MOT:	I moved your ball so it wouldn't bother you . 2173118_2175618
+*MOT:	you want your bottle ?
+*MOT:	I hid it , I , it disappeared .
+*MOT:	no ball , whoops .
+*MOT:	it disappeared , uhoh , pasgettios [: Spaghettios] . 2197793_2204500
+*MOT:	why are you taking it off ? 2205825_2207885
+*MOT:	it belongs on you . 2211973_2213955
+*MOT:	do you want me to help you put it on ? 2213955_2217156
+*MOT:	whadyou [: what did you] find ? 2222656_2228600
+*MOT:	mhm , that's a big book . 2235700_2237551
+*MOT:	you wanna read it , you have_to put on your backpack first . 2237551_2247890
+*MOT:	okay ?
+*MOT:	&yoop .
+*MOT:	here you are . 2259973_2262351
+*MOT:	it's nice and comfy right , it's nice and comfy .
+*MOT:	what is he ? 2268111_2270365
+*MOT:	dyou [: do you] know what he is ? 2270365_2273585
+*MOT:	same thing as Caillou was , in the book , an astronaut , right ? 2273585_2287091
+*MOT:	I want to be an astronaut . 2287091_2294843
+*MOT:	I want to be an astronaut . 2294843_2298898
+*MOT:	a member of the crew , all of those guys are astronauts too . 2298898_2304120
+*MOT:	and fly on the shuttle , that's a kind of rocket ship that's blasting off , pshh@o . 2304120_2315560
+*MOT:	what's that ? 2315560_2317823
+*MOT:	yeah it's steam , lots_of steam coming out . 2319731_2322823
+*MOT:	into outer space , look at it go , what's that ? 2322823_2329705
+*MOT:	earth , that's where we live . 2330725_2333560
+*MOT:	we live somewhere over there . 2333560_2336956
+*MOT:	I want to be up there , there they are in the rocket ship . 2336956_2344195
+*MOT:	on a space mission , all the people on the rocket ship . 2344195_2351390
+*MOT:	and have ready to eat meals , they're eating dinner in space , you eat special food in space , those look like peas . 2351390_2364758
+*MOT:	and sleep in zero gravity , when you're in a space ship you float in the air . 2364758_2376160
+*MOT:	I wanna put on a space suit , look at that space suit . 2376160_2383386
+*MOT:	he's getting in upside down . 2383386_2389158
+*MOT:	and walk around in space . 2389158_2398218
+*MOT:	mhm he's walking in space , and help fix a satellite . 2404693_2410583
+*MOT:	that's something out in space , he's fixing it with a screw driver . 2410583_2415655
+*MOT:	and build a factory in orbit . 2424485_2429583
+*MOT:	yeah .
+*MOT:	he's checking the engine , you're right . 2432491_2435313
+*MOT:	I want to be up there awhile , there they are still up there and there's earth down below . 2435313_2445478
+*MOT:	you know what the blue things are Ethan , those are oceans . 2445478_2450753
+*MOT:	that's the ocean , the sea . 2450753_2452893
+*MOT:	and then come back to earth . 2452893_2458015
+*MOT:	they're landing , I just want to be an astronaut . 2458015_2464248
+*MOT:	other ones too , yeah , and visit outer space . 2470600_2476301
+*MOT:	that's right it's a planet . 2478555_2480225
+*MOT:	the e:n:d , there it is again .
+*MOT:	oceans , oceans , oceans . 2486910_2490585
+*MOT:	xxx plenty of seaweed , yeah I bet there's a lot of seaweed in the oceans . 2495765_2500771
+*MOT:	slimy seaweed . 2500771_2505116
+*MOT:	hanging from my body xxx . 2507400_2510168
+*MOT:	uhhuh , I'll stay by you always and live by the swamp . 2519981_2524555
+*MOT:	and tell you I love you my little swamp creature . 2524555_2529853
+*MOT:	crocodile . 2534608_2536143
+*MOT:	if you were a big crocodile , I would +... 2536143_2539500
+*MOT:	xxx .
+*MOT:	meat eating dinosaur , what did the mommy make for the meat eating dinosaur ? 2541530_2546148
+*MOT:	hamburgers , yeah . 2548400_2550483
+*MOT:	xxx mountains and mountains of hamburgers .
+*MOT:	uhhuh , don't fall down my little climber , my little monkey . 2558850_2567168
+*MOT:	ah: ! 2570400_2571660
+*MOT:	I'd make your birthday cake out of bananas . 2573975_2579388
+*MOT:	I love you my big scary ape . 2583300_2585910
+*MOT:	oh big hai:ry ape , that's right . 2587250_2589500
+*MOT:	I was wrong I made a mistake . 2590300_2592188
+*MOT:	xxx we should put the play dough away , if you're not gonna [: going to] play with it , hmm ? 2600150_2608485
+*MOT:	wanna help mommy clean up a little ?
+*MOT:	you wanna help mommy clean up ?
+*MOT:	clean up . 2619615_2620453
+*MOT:	clean up , clean up .
+*MOT:	everybody do your share , clean up , whoa , you okay there pumpkin ? 2626481_2633000
+*MOT:	come here . 2636550_2637000
+*MOT:	and your bottle's [: bottle is] right +...
+*MOT:	what's that , what's dat [: that] , what's dat [: that] ?
+*MOT:	yes it is . 2646100_2648188
+*MOT:	mm you sleepy ? 2652551_2658361
+*MOT:	you a sleepy puss , it's a sleepy kinda [: kind of] day . 2658361_2668215
+*MOT:	it's a rainy day , wanna lie down ? 2668215_2713900
+*MOT:	you're a thirsty guy , huh , you a thirsty guy . 2713900_2723435
+*MOT:	xxx ?
+*MOT:	hmm . 2749675_2772356
+*MOT:	whatcha [: what are you] thinking ? 2772356_2778751
+*MOT:	hmm ? 2782683_2784018
+*MOT:	hmm hmm .
+*MOT:	boy were you thirsty . 2817300_2819818
+*MOT:	whoa . 2819818_2830730
+*MOT:	whatcha [: what are you] gonna hammer ? 2830730_2841420
+*MOT:	you gonna make some bricks , and built a house ? 2848600_2853265
+*MOT:	mhm can you xxx it in bricks ? 2871100_2873590
+*MOT:	and these look like some stones , huh ? 2873590_2876415
+*MOT:	mm .
+*MOT:	mm yeah I think that might be gravel . 2902188_2905423
+*MOT:	yeah that's a circle . 2910300_2912061
+*MOT:	you want the play dough ? 2914700_2915960
+*MOT:	mm make a circle with the play dough ? 2918040_2919820
+*MOT:	you wanna hammer it ? 2919820_2923966
+*MOT:	hammer it a little , bonk bonk , good job now lets see if there's a circle , hammer it again , okay , oh , you made a circl:e . 2923966_2937900
+*MOT:	there ya [: you] go . 2938655_2940000
+*MOT:	yeah . 2945098_2946085
+*MOT:	you made that circle , you did . 2950020_2952446
+*MOT:	mhm . 2956015_2956841
+*MOT:	yeah .
+*MOT:	it's round . 2958730_2960360
+*MOT:	wanna make some wood ? 2967226_2969778
+*MOT:	gotta hammer it . 2980648_2982021
+*MOT:	ready , hammer hammer hammer , good , hammer , you hold the hammer there , there you go .
+*MOT:	hammer hammer hammer hammer hammer hammer hammer hammer wow wow wow good job . 2988665_2993690
+*MOT:	yup [: yes] you made some wood . 2995120_2996913
+*MOT:	you want the cutter ? 3009090_3010500
+*MOT:	remember to do it on the , do it on the book . 3013556_3017188
+*MOT:	(o)kay . 3017188_3019955
+*MOT:	you cutting it ? 3019955_3041243
+*MOT:	there ya [: you] go . 3041243_3049663
+*MOT:	it's all done , good job Ethan . 3058025_3062743
+*MOT:	sorry pumpkin , you're leaking . 3062743_3068033
+*MOT:	you're leaking . 3068033_3070890
+*MOT:	okay .
+*MOT:	let's see , we need some play dough in there . 3090680_3096486
+*MOT:	uhhuh , should we make a flower ? 3101980_3104486
+*MOT:	I need this to make the flower . 3111425_3115901
+*MOT:	right . 3115901_3117085
+*MOT:	mm and we gotta poke it . 3120523_3123148
+*MOT:	hmm hmm , growing and growing and growing .
+*MOT:	mm that's a good idea , can that make a brick ? 3138200_3141441
+*MOT:	still growing , heh heh . 3141441_3144648
+*MOT:	xxx .
+*MOT:	mhm . 3154890_3155700
+*MOT:	I don't think it's gonna grow anymore , just a little bit . 3157508_3163061
+*MOT:	mhm should we take the rolling pin out +//.
+*MOT:	oh look what happened . 3171835_3175418
+*MOT:	oh it made a ring , and now it's covered with play dough huh ? 3177910_3182861
+*MOT:	let's not drop it all on the floor sweets . 3182861_3186395
+*MOT:	xxx there ya [: you] go , oh ! 3189891_3195890
+*MOT:	get it all off ?
+*MOT:	mhm .
+*MOT:	it's sad , why is it sad ? 3211785_3214415
+*MOT:	(be)cause it's covered with play dough ?
+*MOT:	there ya [: you] go . 3219453_3224030
+*MOT:	is that better ?
+*MOT:	it looks pretty clean to me . 3229618_3230880
+*MOT:	xxx okay , mm .
+*MOT:	you got frustrated , huh , did you get frustrated ? 3241500_3247920
+*MOT:	come here sweets .
+*MOT:	xxx . 3264661_3267103
+*MOT:	you falling down ? 3267103_3269655
+*MOT:	xxx you lost your shirt .
+*MOT:	you lost your shirt silly pumpkin . 3277423_3280518
+*MOT:	whoa .
+*MOT:	xxx reading . 3299950_3301225
+*MOT:	you want your bottle .
+*MOT:	here you go .
+*MOT:	xxx . 3314503_3318225
+*MOT:	you have cold ears , you have a cold +...
+*MOT:	here .
+*MOT:	you sleepy puss . 3332990_3339325
+*MOT:	you sleepy puss . 3339325_3401200
+*MOT:	thumb . 3401200_3406500
+*MOT:	where is Thumbkin , where is Thumbkin . 3406500_3412160
+*MOT:	here I am , here I am . 3412160_3418876
+*MOT:	how are you today sir ? 3418876_3421580
+*MOT:	mhm , please and thank you . 3427200_3429990
+*MOT:	mm .
+*MOT:	yeah you have_to use your manners . 3433250_3435441
+*MOT:	where is Thumbkin , where is Thumbkin .
+*MOT:	hmm , sweetie come here please , sweetie , Ethan , Ethan , stop . 3442356_3449400
+*MOT:	what do you want sweets , you want the box ? 3451998_3455000
+*MOT:	come here then . 3458050_3459588
+*MOT:	you can look at it , come back under . 3461020_3463833
+*MOT:	this way , not on the chair , around .
+*MOT:	you're always good sweetie . 3475450_3477100
+*MOT:	you're always good . 3478596_3481391
+*MOT:	you're my good boy , did you wanna see the box ? 3481391_3485156
+*MOT:	they're fighting , fighting .
+*MOT:	xxx .
+*MOT:	biting hurts people . 3494276_3499190
+*MOT:	mhm .
+*MOT:	you did make a circle . 3510600_3512695
+*MOT:	yup [: yes] it's round . 3514020_3515718
+*MOT:	what're [: what are] you gonna do with your circle ? 3515718_3519638
+*MOT:	I'm going to make Elmo , is that Elmo ? 3527500_3531423
+*MOT:	I think it's cookie monster . 3532500_3534153
+*MOT:	xxx , don't you think so ?
+*MOT:	Elmo ? 3539103_3540228
+*MOT:	&dee &deet &dee &dee: , &dee &deet &dee &dee: . 3543280_3545940
+*MOT:	Elmo wear . 3547000_3548553
+*MOT:	and I'll make big bird . 3548553_3550650
+*MOT:	xxx .
+*MOT:	yeah . 3561751_3562700
+*MOT:	yeah that looks like big bird doesn't it ? 3564826_3567155
+*MOT:	should we make the cookie monster ? 3567155_3572381
+*MOT:	mhm . 3589946_3590951
+*MOT:	gotta piece a hair on it , there we go .
+*MOT:	hmm . 3597638_3598918
+*MOT:	xxx .
+*MOT:	yup [: yes] .
+*MOT:	it's sesame street right in your hands . 3614600_3617550
+*MOT:	you want another one , you wanna have two big birds ?
+*MOT:	maybe they can talk to each other . 3624840_3629750
+*MOT:	hmm hmm hmm: . 3637500_3639046
+*MOT:	big bird number two . 3639046_3643890
+*MOT:	yeah . 3653140_3654460
+*MOT:	you want two Elmos too ? 3657415_3659018
+*MOT:	we could do that . 3659018_3664545
+*MOT:	mhm .
+*MOT:	mhm .
+*MOT:	mhm . 3675500_3676400
+*MOT:	there ya [: you] go . 3680215_3682086
+*MOT:	yeah two Elmos , two big birds . 3683740_3687658
+*MOT:	that's amazing , yeah it is amazing xxx . 3690800_3695993
+*MOT:	two of them , it's amazing Ethan . 3697100_3700043

@@ -1,0 +1,393 @@
+*MOT:	you eat your grits , Booboo ? 46313_47313
+*MOT:	www . 56923_57263
+*MOT:	www . 59160_59557
+*MOT:	www . 62390_62790
+*MOT:	www . 64343_64983
+*MOT:	here , Ty_ty . 67450_67963
+*MOT:	whatcha got in your mouth [?] [=! whispered] ? 71393_72167
+*MOT:	oh I guess you got [=! whispered] . 84463_85743
+*MOT:	you gon(na) feed yourself ? 92753_93743
+*MOT:	yeah ? 95117_95400
+*MOT:	you gon(na) feed yourself ? 95843_96790
+*MOT:	Ty &=noise . 248337_249033
+*MOT:	Ty &=noise . 254663_255343
+*MOT:	you fi(x)in(g) (t)o eat eat &=noise ? 260857_261867
+*MOT:	you finished &=noise ? 263667_264420
+*MOT:	look [?] &=noise ! 267237_267567
+*MOT:	whatcha talking (a)bout &=noise ? 271717_272403
+*MOT:	&hmm &=noise ? 274363_274697
+*MOT:	huh &=noise ? 276670_276980
+*MOT:	you finished &=noise ? 282717_283450
+*MOT:	you finished &=noise ? 288127_288907
+*MOT:	Ty &=noise . 322067_322877
+*MOT:	you finished eating &=noise ? 323887_324757
+*MOT:	did you want a piece o(f) doughnut &=noise ? 326393_327393
+*MOT:	here you go &=noise . 333670_334107
+*MOT:	eat the doughnut &=noise ! 335867_336403
+*MOT:	yeah I'm just gon(na) wipe it up a little bit while you eat your
+*MOT:	what &=noise ? 459813_460153
+*MOT:	check the other leg [?] &=noise . 464523_465380
+*MOT:	you go from there &=noise ! 501830_502627
+*MOT:	don't clean no more (un)til you finish xxx &=noise . 504363_506180
+*MOT:	yeah &=noise . 507507_507840
+*MOT:	huh &=noise ? 509280_509617
+*MOT:	huh &=noise ? 510533_510870
+*MOT:	huh &=noise ? 512140_512447
+*MOT:	huh &=noise ? 512953_513193
+*MOT:	I thought I fixed it xxx xxx , Boo &=noise . 542570_544890
+*MOT:	www . 582607_583513
+*MOT:	www . 596103_597550
+*MOT:	www . 598730_600357
+*MOT:	look &=noise ! 615467_615860
+*MOT:	dog &=noise . 619197_619663
+*MOT:	hey &=noise . 930790_931593
+*MOT:	why you get so quiet &=noise ? 932227_932970
+*MOT:	what you trying (t)o do &=noise ? 934520_935477
+*MOT:	or is that doughnut just good to you huh &=noise ? 937017_938493
+*MOT:	&hmm &=noise . 948320_948787
+*MOT:	nope &=noise . 950787_951133
+*MOT:	(e)xcuse me &=noise ! 966220_966880
+*MOT:	Tyre(se) &=noise . 968270_969667
+*MOT:	Tyrese Tyrese Tyrese &=noise . 969690_970697
+*MOT:	Tyrese Tyrese Tyrese &=noise . 971013_971873
+*MOT:	Ty &=noise . 1145627_1146457
+*MOT:	Tyrese &=noise . 1214410_1215403
+*MOT:	you okay &=noise ? 1265020_1265667
+*MOT:	Tyrese &=noise . 1270647_1271330
+*MOT:	Ty &=noise . 1297280_1297697
+*MOT:	what &=noise ? 1314433_1315110
+*MOT:	whatcha do &=noise ? 1317220_1318020
+*MOT:	you finished eating &=noise ? 1320057_1320773
+*MOT:	you ready to get out &=noise ? 1320777_1321643
+*MOT:	are you ready to get out &=noise ? 1322793_1323757
+*MOT:	Ty &=noise . 1324627_1325110
+*MOT:	don't holler at me &=noise ! 1325407_1326260
+*MOT:	you ready to get out &=noise ? 1327923_1328877
+*MOT:	don't holler at me &=noise ! 1329833_1330627
+*MOT:	come on &=noise ! 1334277_1334590
+*MOT:	let's get you out &=noise ! 1334597_1335353
+*MOT:	gotta clean you up first &=noise . 1335397_1336410
+*MOT:	watch the wall [?] &=noise ! 1336410_1337087
+*MOT:	you gotta get washed off first &=noise . 1339060_1340370
+*MOT:	I'm not finished wiping off yet &=noise . 1370270_1371820
+*MOT:	bless you &=noise . 1372643_1373197
+*MOT:	yep &=noise . 1378707_1379223
+*MOT:	well &=noise . 1380393_1380887
+*MOT:	see all them bubbles &=noise ? 1398957_1399987
+*MOT:	you see all them bubbles &=noise . 1401183_1402390
+*MOT:	now xxx xxx you got grits all under your arm &=noise . 1406533_1408560
+*MOT:	xxx be cool by now &=noise . 1410740_1411717
+*MOT:	I keep finding grits in everywhere &=noise . 1413117_1414760
+*MOT:	yes I do &=noise . 1416630_1417363
+*MOT:	all over your head &=noise . 1420633_1421550
+*MOT:	excuse me &=noise ! 1421563_1422293
+*MOT:	them my shorts you pulling &=noise . 1422303_1423437
+*MOT:	you don't want me pulling your shorts &=noise . 1432670_1434070
+*MOT:	xxx trying to walk &=noise . 1436403_1437450
+*MOT:	&hmm &=noise ? 1453067_1453607
+*MOT:	you stop &=noise ! 1457323_1457857
+*MOT:	xxx xxx xxx . 1471510_1472460
+*MOT:	byebye &=noise . 1480503_1480880
+*MOT:	byebye &=noise . 1482290_1482817
+*MOT:	bye &=noise . 1485177_1485633
+*MOT:	ready (t)o get on some clothes &=noise ? 1493503_1494523
+*MOT:	huh ? 1495620_1495973
+*MOT:	is that a yes &=noise ? 1504653_1505360
+*MOT:	a no &=noise ? 1506843_1507483
+*MOT:	no &=noise ? 1508967_1509550
+*MOT:	yes &=noise ? 1509813_1510193
+*MOT:	I forgot the clothes &=noise . 1511837_1512567
+*MOT:	came here sat down and I didn't bring the clothes &=noise . 1512917_1514700
+*MOT:	www . 1523970_1526183
+*MOT:	we should bring your play+pen back upstairs &=noise . 1535120_1536807
+*MOT:	www . 1548923_1549800
+*MOT:	need to get on clothes &=noise ? 1566780_1567783
+*MOT:	need to get down and play &=noise ? 1570883_1571780
+*MOT:	huh &=noise ? 1573097_1573443
+*MOT:	sound good to you &=noise ? 1575073_1575960
+*MOT:	sock &=noise . 1578937_1579547
+*MOT:	say “o:h” &=noise ! 1580607_1582477
+*MOT:	sock &=noise . 1583243_1584100
+*MOT:	a bib &=noise . 1586147_1586683
+*MOT:	outfit [?] &=noise . 1590613_1591077
+*MOT:	come on &=noise ! 1597920_1598350
+*MOT:	ew you still got grits everywhere &=noise . 1599390_1601767
+*MOT:	ew you gritty &=noise . 1603393_1604397
+*MOT:	Tyrese all gritty gritty &=noise . 1608697_1610183
+*MOT:	e(x)cuse you &=noise ! 1612770_1613767
+*MOT:	mister &=noise . 1616570_1617037
+*MOT:	you not making it easy &=noise . 1620293_1621547
+*MOT:	you make it &=noise . 1622030_1622543
+*MOT:	I thought I smelled you &=noise . 1628860_1629757
+*MOT:	you (s)tinky &=noise . 1630787_1631420
+*MOT:	you got grits all over me &=noise ! 1634583_1635867
+*MOT:	yes &=noise ? 1637393_1638163
+*MOT:	it's not my fault you stink &=noise . 1649383_1650830
+*MOT:	i(t's) not my fault you got grits everywhere &=noise . 1652883_1654813
+*MOT:	you the one wanted to feed yourself and get it everywhere &=noise .
+*MOT:	huh &=noise ? 1660070_1660463
+*MOT:	yeah &=noise . 1664047_1664727
+*MOT:	okay &=noise . 1674193_1674897
+*MOT:	stinky &=noise . 1677310_1677793
+*MOT:	www . 1682827_1684363
+*MOT:	Tyrese &=noise . 1697397_1697960
+*MOT:	huh &=noise ? 1699217_1699613
+*MOT:	could you stop trying to hang under the table while I'm cleaning
+*MOT:	you know you make this job very difficult &=noise . 1706553_1708373
+*MOT:	www . 1755107_1758577
+*MOT:	Tyrese &=noise . 1759957_1760477
+*MOT:	Booboo &=noise . 1764017_1764540
+*MOT:	can you come from under the table &=noise ? 1765290_1766610
+*MOT:	xxx xxx table &=noise . 1766617_1767790
+*MOT:	Tyrese , can you come from under the table &=noise ? 1770137_1772137
+*MOT:	okay &=noise . 1775427_1776147
+*MOT:	we almost finish(ed) &=noise . 1776240_1777217
+*MOT:	he holding on &=laugh . 1788030_1789160
+*MOT:	Tyrese &=laugh . 1789817_1790593
+*MOT:	okay &=noise . 1792123_1792697
+*MOT:	look &=noise ! 1793167_1793447
+*MOT:	little stinky &=noise . 1794337_1795167
+*MOT:	Tyrese . 1846953_1847493
+*MOT:	come on , Tyrese ! 1859163_1859880
+*MOT:	lemme get you dressed ! 1859903_1861007
+*MOT:	Tyrese . 1867637_1868450
+*MOT:	come on , Ty ! 1870747_1871613
+*MOT:	xxx xxx xxx xxx . 1882377_1883707
+*MOT:	I have_to wipe your feet [?] . 1883710_1884543
+*MOT:	you coming back . 1887860_1888503
+*MOT:	okay ready to get finished ? 1912487_1913793
+*MOT:	huh ? 1915187_1915507
+*MOT:	yeah . 1921197_1921767
+*MOT:	&hmm ? 1926283_1926603
+*MOT:	yeah . 1927803_1928117
+*MOT:	clean out your (s)tinky toes . 1948947_1950360
+*MOT:	clean up the (s)tinky toes . 1951720_1953167
+*MOT:	you smell like a little baby now . 1958307_1959907
+*MOT:	you don't smell like grit xxx . 1962093_1963560
+*MOT:	(lem)me see the hands ! 1965390_1966330
+*MOT:	get between the little fingers . 1969037_1970867
+*MOT:	getting between the little fingers . 1971790_1973347
+*MOT:	yeah . 1974950_1975540
+*MOT:	it's little socks on the little feet . 2017273_2019130
+*MOT:	turn around ! 2030463_2031130
+*MOT:	xxx . 2031847_2032327
+*MOT:	whoop(s) . 2037677_2038060
+*MOT:	lay across Mommy lap ! 2044143_2045037
+*MOT:	yep . 2047193_2047403
+*MOT:	is that grit behind your ears ? 2048810_2050093
+*MOT:	thought I got it all . 2050853_2051647
+*MOT:	Tyrese , you need to stop feeding your whole body . 2053713_2056090
+*MOT:	get back here ! 2066083_2066423
+*MOT:	Tyrese . 2067707_2068100
+*MOT:	you can't get down yet . 2069887_2071020
+*MOT:	you're not finished getting on your clothes . 2071063_2072567
+*MOT:	you're not finish(ed) . 2073430_2074263
+*MOT:	now you're not finished . 2074407_2075397
+*MOT:	Ty . 2075647_2076077
+*MOT:	you get down soon a(s) Mommy finish . 2076990_2078683
+*MOT:	Tyrese . 2079723_2080290
+*MOT:	wait a minute ! 2081440_2082137
+*MOT:	wait ! 2082380_2082833
+*MOT:	yes . 2083693_2084307
+*MOT:	don't shake your head no ! 2084443_2085553
+*MOT:	wait ! 2085557_2085867
+*MOT:	well you got grits all in your ears . 2096777_2098793
+*MOT:	I ain't [?] tell you to feed your ears . 2099480_2101007
+*MOT:	Tyrese . 2114413_2115157
+*MOT:	I don't know why you don't like getting dressed . 2133503_2135433
+*MOT:	well I'm almost finished . 2138660_2140227
+*MOT:	&hmm . 2159873_2160347
+*MOT:	(ex)cuse me ! 2160643_2161183
+*MOT:	okay . 2178363_2179397
+*MOT:	Ty . 2189010_2189590
+*MOT:	mkay . 2199400_2199993
+*MOT:	see ? 2201250_2201633
+*MOT:	now we finished . 2202447_2203737
+*MOT:	now you can get down and play and I still have_to clean up . 2205020_2207053
+*MOT:	(be)cause you made a big mess today . 2209493_2211233
+*MOT:	you know that ? 2211877_2212333
+*MOT:	you know that , Tyrese ? 2213517_2214327
+*MOT:	no ? 2215337_2215917
+*MOT:	no ? 2216980_2217500
+*MOT:	no ? 2218533_2218893
+*MOT:	here . 2232127_2232343
+*MOT:	wanna go fishing , Ty ? 2232890_2233867
+*MOT:	Ty . 2249933_2250530
+*MOT:	oh him got a tear on him face . 2252020_2254233
+*MOT:	&hmm ? 2286460_2286670
+*MOT:	&hmm ? 2287587_2287903
+*MOT:	huh ? 2289023_2289260
+*MOT:	Tyrese . 2344473_2345217
+*MOT:	what are you eating ? 2527623_2528463
+*MOT:	Ty . 2739577_2739923
+*MOT:	here . 2741707_2741913
+*MOT:	lemme see ! 2742090_2742557
+*MOT:	let Mommy see ! 2743453_2744120
+*MOT:	now you gon(na) give it to me and then come pull it back at the
+*MOT:	lemme see ! 2749617_2750233
+*MOT:	put it in my hand ! 2750590_2751423
+*MOT:	put it in my hand ! 2752970_2754060
+*MOT:	give it here ! 2754980_2755693
+*MOT:	give it here ! 2757383_2758037
+*MOT:	Tyrese , let go ! 2758417_2759133
+*MOT:	let go ! 2759493_2760037
+*MOT:	let go ! 2761653_2762380
+*MOT:	you mean baby . 2764040_2765000
+*MOT:	let me see ! 2765190_2766087
+*MOT:	let me see ! 2767717_2768477
+*MOT:	this thing supposed to go there ? 2771920_2773147
+*MOT:	yep you did it . 2777997_2778990
+*MOT:	look , Ty ! 2780477_2781120
+*MOT:	oh this broke . 2782897_2783827
+*MOT:	give it here ! 2793977_2794593
+*MOT:	little fish . 2796013_2796520
+*MOT:	look ! 2797393_2797667
+*MOT:	little fish . 2797697_2798187
+*MOT:	you was gonna put it right in your mouth . 2806727_2808193
+*MOT:	xxx xxx xxx . 2812277_2813223
+*MOT:	Tyrese , come back here ! 2856343_2857273
+*MOT:	Tyrese . 2978683_2979373
+*MOT:	you got fish all over the floor don't you ? 2986290_2988017
+*MOT:	talking to the xxx . 3027927_3028803
+*MOT:	you talking to the xxx ? 3030233_3031413
+*MOT:	Ty . 3107117_3107897
+*MOT:	Ty_ty . 3139350_3140253
+*MOT:	Ty_ty . 3143077_3143630
+*MOT:	Mommy xxx . 3146690_3147640
+*MOT:	orange fish . 3155637_3156407
+*MOT:	yellow fish . 3156930_3157760
+*MOT:	big fish . 3159900_3160533
+*MOT:	little fish . 3161007_3161677
+*MOT:	only one fish two fish red fish blue fish . 3171717_3174093
+*MOT:	Doctor Seuss . 3176450_3177017
+*MOT:	one fish two fish . 3179657_3180980
+*MOT:	orange fish yellow fish . 3181563_3182640
+*MOT:	www . 3186917_3187990
+*MOT:	www . 3190707_3193993
+*MOT:	www . 3196213_3198910
+*MOT:	www . 3201140_3202403
+*MOT:	Tyrese , what are you doing ? 3207120_3208140
+*MOT:	www . 3212137_3213967
+*MOT:	Ty . 3216217_3216913
+*MOT:	Tyrese . 3236467_3237280
+*MOT:	Tyrese . 3242963_3243740
+*MOT:	yeah . 3245843_3246343
+*MOT:	could you come (h)ere ? 3247930_3248653
+*MOT:	huh ? 3249747_3250140
+*MOT:	could you come (h)ere ? 3251183_3251923
+*MOT:	huh ? 3255007_3255353
+*MOT:	could you come here ? 3255507_3256517
+*MOT:	yeah . 3257363_3257847
+*MOT:	yeah . 3259943_3260583
+*MOT:	what's up , big boy [=! voice] ? 3263873_3265020
+*MOT:	what's up , big boy [=! voice] ? 3266587_3267800
+*MOT:	what's up , big boy [=! voice] ? 3269000_3270297
+*MOT:	what's up , little man [=! voice] ? 3270673_3271923
+*MOT:	what's up , baby [=! voice] ? 3271933_3273043
+*MOT:	Tyrese . 3275807_3276330
+*MOT:	yeah ? 3278283_3278753
+*MOT:	who ? 3280820_3281217
+*MOT:	is that my straw you have ? 3288940_3290183
+*MOT:	Tyrese , that's my straw . 3293183_3294387
+*MOT:	can I have that ? 3296993_3297800
+*MOT:	let Mommy see ! 3298847_3299600
+*MOT:	let Mommy see ! 3301293_3302013
+*MOT:	let (.) Mommy (.) see ! 3303790_3304827
+*MOT:	I give I give you some [?] . 3304853_3305967
+*MOT:	Ty . 3306687_3307277
+*MOT:	gimme gimme gimme ! 3307593_3308533
+*MOT:	gimme gimme gimme ! 3309287_3310307
+*MOT:	whatcha playing ? 3311180_3311587
+*MOT:	tug_o_war ? 3311607_3312227
+*MOT:	you strong . 3314033_3314737
+*MOT:	he's so strong . 3315513_3316620
+*MOT:	he's so strong . 3317300_3318527
+*MOT:	oh you so strong . 3320547_3322153
+*MOT:	you so strong . 3323373_3324780
+*MOT:	just a strong baby . 3325633_3327220
+*MOT:	yes you are . 3327223_3328107
+*MOT:	gimme gimme gimme ! 3330810_3332087
+*MOT:	gimme gimme gimme ! 3333063_3334257
+*MOT:	gimme gimme gimme ! 3335570_3336653
+*MOT:	got it . 3340867_3341313
+*MOT:	I got it . 3342117_3342947
+*MOT:	I won . 3344660_3345480
+*MOT:	I king of the world . 3348287_3349613
+*MOT:	king of the world . 3351527_3352660
+*MOT:	look ! 3369923_3370333
+*MOT:	look at what I got ! 3372253_3372993
+*MOT:	one . 3375253_3375810
+*MOT:	two . 3376463_3376953
+*MOT:	three . 3377260_3377630
+*MOT:	three . 3379327_3379587
+*MOT:	now you got two left on the table (be)cause you took one . 3385280_3387570
+*MOT:	he looking like I really don't have time for that [?] . 3392593_3394470
+*MOT:	I really don't have time for that [=! voice] . 3396327_3397970
+*MOT:	I was just trying to get my xxx on . 3399080_3401010
+*MOT:	you gon(na) drop one and eat another one ? 3404130_3405773
+*MOT:	I'll get ya . 3407167_3407737
+*MOT:	you gon(na) move and step on it [?] . 3408120_3409177
+*MOT:	look [?] &=noise ! 3413393_3413853
+*MOT:	I'm gonna get you , Ty . 3414100_3415777
+*MOT:	oh it went in and out . 3423143_3424210
+*MOT:	that was foul . 3424403_3425027
+*MOT:	Mommy's trying to play basketball with the Corn_pop . 3425873_3428023
+*MOT:	with the Corn_pop . 3429837_3430837
+*MOT:	I know I got some new shoestring . 3458790_3460590
+*MOT:	putting your shoes . 3465430_3466343
+*MOT:	lemme see how these fit on you ! 3467353_3468693
+*MOT:	these on fine from the width [?] . 3469147_3470640
+*MOT:	this all they had . 3472020_3473007
+*MOT:	you still got little wide feet . 3474363_3475370
+*MOT:	you can fit these . 3475373_3476270
+*MOT:	I was trying (t)o find you some shoestrings . 3479707_3481617
+*MOT:	yeah . 3482707_3483270
+*MOT:	&hmm . 3500603_3501160
+*MOT:	(e)xcuse me ! 3501710_3502313
+*MOT:	Tyrese . 3543953_3545510
+*MOT:	Tyrese . 3547083_3548413
+*MOT:	is the little baby name Tyre(se) ? 3551130_3553490
+*MOT:	Ty . 3568680_3569003
+*MOT:	www . 3582703_3583600
+*MOT:	no . 3595603_3596150
+*MOT:	www . 3633613_3634323
+*MOT:	www . 3635357_3637297
+*MOT:	www . 3666740_3668157
+*MOT:	www . 3671297_3672523
+*MOT:	www . 3675993_3681740
+*MOT:	oh , Ty . 3821037_3822197
+*MOT:	Tyrese &=noise . 3926487_3927033
+*MOT:	www . 4016643_4020853
+*MOT:	whatcha talking (a)bout &=noise ? 4110850_4111803
+*MOT:	&hmm &=noise ? 4113847_4114120
+*MOT:	Ty , whatcha talking (a)bout &=noise ? 4115403_4116290
+*MOT:	Ty , come (h)ere &=noise ! 4176433_4177577
+*MOT:	Ty &=noise . 4187370_4187983
+*MOT:	Ty &=noise . 4297863_4298343
+*MOT:	don't throw no more fish &=noise ! 4303493_4304707
+*MOT:	Tyrese &=noise . 4316500_4317303
+*MOT:	huh &=noise ? 4318340_4318850
+*MOT:	huh &=noise ? 4319747_4320183
+*MOT:	come (h)ere &=noise ! 4321043_4321363
+*MOT:	Ty &=noise . 4325483_4325887
+*MOT:	huh &=noise ? 4327323_4327700
+*MOT:	huh &=noise ? 4328557_4328860
+*MOT:	come (h)ere &=noise ! 4329890_4330250
+*MOT:	peanut &=noise . 4333107_4333653
+*MOT:	hey xxx &=noise . 4336600_4337560
+*MOT:	look &=noise ! 4338017_4338443
+*MOT:	here I am &=noise . 4338480_4339147
+*MOT:	o(v)er here &=noise . 4340250_4340763
+*MOT:	hi &=noise . 4342097_4342713
+*MOT:	say “I don't like looking at you through them bars of that chair” !
+*MOT:	hey &=noise . 4369463_4369887
+*MOT:	you wan(na) stand up &=noise ? 4370810_4371477
+*MOT:	Ty . 4376403_4376693
+*MOT:	www . 4406680_4408007
+*MOT:	Tyrese &=noise . 4415023_4415657
+*MOT:	Ty , what you playing with &=noise ? 4468610_4469753
+*MOT:	baby [?] &=noise . 4471940_4472410
+*MOT:	Ty &=noise . 4475950_4476340
+*MOT:	what &=noise ? 4478103_4478360
+*MOT:	it mine now &=noise . 4481203_4482017
+*MOT:	mine &=noise . 4483247_4484090

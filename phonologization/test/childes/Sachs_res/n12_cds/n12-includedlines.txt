@@ -1,0 +1,180 @@
+*MOT:	is doggie barking ? 122022_123691
+*MOT:	that's the puppet of the doggie going woof@o woof@o woof@o . 126993_129678
+*MOT:	he's upside down Nomi . 132047_133947
+*MOT:	the doggie is upside down . 133947_136766
+*MOT:	do you see a shadow ? 142453_144355
+*MOT:	hi Nomi . 194000_196369
+*MOT:	hi ! 251335_252535
+*MOT:	truck (.) yes . 256305_257139
+*MOT:	where is the truck going (.) Nomi ? 312198_313981
+*MOT:	going home ? 316833_318352
+*MOT:	you what Nomi ? 346256_349708
+*MOT:	yes (.) there's a birdie out there someplace (.) isn't there ? 355278_358330
+*MOT:	you see the birdie ? 369968_372221
+*MOT:	birdie is singing so pretty . 390221_391987
+*MOT:	where's the moon ? 412067_412950
+*MOT:	oh honey (.) the moon's not out now . 414502_415919
+*MOT:	it's still daytime sweetie . 415919_419823
+*MOT:	we don't have the moon yet . 419823_421490
+*MOT:	what cha [: you] doing (.) pumpkin ? 506446_508546
+*MOT:	no (.) it's a seal (.) honey . 570226_571893
+*MOT:	not a birdie (.) a seal . 577397_582985
+*MOT:	seal (.) uhhum . 584035_584985
+*MOT:	seal is a kind of a mammal . 587103_589886
+*MOT:	it looks like +... 589886_591238
+*MOT:	it's alright because it looks very much like a birdie . 594440_597559
+*MOT:	it's a little hard to tell the difference . 597559_600844
+*MOT:	he has a ball on the end of his nose honey . 606998_607932
+*MOT:	that's a ball . 607932_609049
+*MOT:	he's balancing the ball right on his nose . 610818_614586
+*MOT:	balancing (.) balancing the ball . 618972_624809
+*MOT:	that's a camel . 661074_665795
+*MOT:	camel . 670864_672382
+*MOT:	right . 675151_676418
+*MOT:	are you asking Sandy (.) honey ? 687475_689410
+*MOT:	what's Sandy doing ? 691493_694212
+*MOT:	this is not a chicken . 712989_715857
+*MOT:	it's a camel . 715857_717407
+*MOT:	why are you saying chicken byebye ? 731700_736770
+*MOT:	you don't have a chicken in there . 746293_748645
+*MOT:	that's a camel . 748645_749178
+*MOT:	okay . 762322_763022
+*MOT:	byebye chicken . 763022_764188
+*MOT:	I don't know why you think that's a chicken honey . 769809_773210
+*MOT:	it doesn't look like a chicken . 773210_775312
+*MOT:	you do have some chickens there . 775312_779364
+*MOT:	that's a (.) yes (.) a chicken . 781983_788203
+*MOT:	it's really a goose but we'll call it a chicken . 788203_792941
+*MOT:	oh you really like chickens don't you ? 796893_801030
+*MOT:	what do you need honey ?
+*MOT:	oh . 817489_819089
+*MOT:	that's a good idea (.) to put all the animals in the bucket . 819089_822041
+*MOT:	Nomi (.) put the flowers in the other thing . 885829_890297
+*MOT:	don't throw them on the ground . 890297_895601
+*MOT:	put them right in here . 895601_896435
+*MOT:	that's the way to do it . 896435_898303
+*MOT:	yeah . 901172_901588
+*MOT:	put the flowers in this bucket and the animals in the other one . 901588_905707
+*MOT:	we don't want them all over the floor . 905707_908342
+*MOT:	on the floor . 918977_919760
+*MOT:	oh good honey (.) you found Goldie . 925664_927614
+*MOT:	good . 929966_932751
+*MOT:	was Goldie hiding under there ? 935020_938305
+*MOT:	was Goldie hiding ? 941606_943458
+*MOT:	hat ? 944691_945274
+*MOT:	no (.) that's her hair . 945274_946324
+*MOT:	that's her hair . 948326_949176
+*MOT:	she has yellow hair . 949176_950678
+*MOT:	Nomi (.) these are called +"/. 951945_954563
+*MOT:	+" pigtails . 954563_957682
+*MOT:	pigtails . 959784_960517
+*MOT:	when you have long hair then you wear pigtails . 960517_965520
+*MOT:	all the flowers go in there . 973007_975042
+*MOT:	and all the animals in there . 977828_979361
+*MOT:	Nomi (.) can you say +"/. 1034563_1037130
+*MOT:	+" flowers are [!] in bucket ? 1037130_1041265
+*MOT:	Nomi honey say (.) +"/. 1069291_1071367
+*MOT:	+" put those [!] flowers in the bucket . 1071367_1074402
+*MOT:	Nomi don't drop it (.) put [!] it down on the floor . 1074402_1080556
+*MOT:	put . 1080556_1081456
+*MOT:	good girl . 1081456_1084775
+*MOT:	put down on the floor . 1084775_1087310
+*MOT:	sweetie (.) could you put a flower on each plate ? 1087310_1092280
+*MOT:	put a flower on each of the plates . 1093146_1095148
+*MOT:	do you know what plates@q are honey ? 1096248_1098184
+*MOT:	these are plates . 1098184_1104004
+*MOT:	we could put a flower on each plate . 1104004_1108556
+*MOT:	good . 1120556_1122739
+*MOT:	now we have a little party . 1122739_1127543
+*MOT:	a cup for you (.) a cup for me (.) a cup for doll . 1127543_1150241
+*MOT:	who shall we have at our tea party ? 1150241_1151858
+*MOT:	shall we have Baby and Georgie ? 1172858_1176143
+*MOT:	here's Georgie . 1176143_1179945
+*MOT:	Georgie can sit up . 1179945_1183064
+*MOT:	give Baby some coffee ? 1199282_1205936
+*MOT:	give Baby some coffee ? 1205936_1214209
+*MOT:	spoon . 1226892_1228344
+*MOT:	take a spoon . 1228344_1228811
+*MOT:	sugar in this coffee (.) sugar in this coffee . 1228811_1235681
+*MOT:	put sugar in each coffee . 1244052_1247254
+*MOT:	pour the coffee . 1276254_1276689
+*MOT:	maybe Sandy would like some too honey . 1276689_1286978
+*MOT:	put Sandy here . 1289997_1296017
+*MOT:	(wh)oops (.) Sandy is falling down . 1325799_1336341
+*MOT:	he must be very sleepy . 1336341_1337257
+*MOT:	he's going right back to sleep . 1340209_1345546
+*MOT:	give him some coffee and wake him up . 1345546_1347546
+*MOT:	could you feed Sandy with a spoon honey ? 1347546_1358104
+*MOT:	could you feed Sandy with a spoon honey ? 1358104_1360956
+*MOT:	feed Sandy with a spoon . 1360956_1365258
+*MOT:	can you feed Georgie with the spoon ? 1381495_1383845
+*MOT:	feed Georgie with the spoon honey . 1389845_1391278
+*MOT:	feed Georgie with the spoon . 1393980_1397349
+*MOT:	good . 1397349_1398801
+*MOT:	yes . 1398801_1399301
+*MOT:	feeding Georgie . 1399301_1400384
+*MOT:	okay . 1400384_1402503
+*MOT:	now would you like to feed Sandy ? 1402503_1403636
+*MOT:	feed Sandy with the spoon too honey . 1403636_1406621
+*MOT:	I think Georgie would like to eat one of these little flowers . 1411941_1418612
+*MOT:	did you give one of those to Baby ? 1418612_1426951
+*MOT:	give one to Baby . 1426951_1429403
+*MOT:	did you feed one of these flowers to Baby ? 1443646_1452685
+*MOT:	feed one to Baby . 1457053_1461107
+*MOT:	well (.) you find more up there honey . 1488002_1489636
+*MOT:	on the bookcase there are more . 1489636_1491871
+*MOT:	there are more up there . 1493990_1495006
+*MOT:	uhhum . 1495006_1496442
+*MOT:	okay .
+*MOT:	all the flowers are going in the cup . 1529096_1532048
+*MOT:	there are more there . 1533164_1535000
+*MOT:	up there (.) yes . 1538118_1539085
+*MOT:	up on the book case . 1540002_1544872
+*MOT:	put those in the cup . 1548241_1550926
+*MOT:	you'll find more (.) oopsie . 1550925_1554061
+*MOT:	is it broken honey ? 1568654_1569571
+*MOT:	let me see . 1577510_1579629
+*MOT:	okay . 1579629_1582914
+*MOT:	want me to fix ? 1587199_1589051
+*MOT:	oh (.) okay . 1589051_1592151
+*MOT:	sugar on the flowers ? 1633975_1637594
+*MOT:	we just pretend honey . 1637594_1640129
+*MOT:	pretend this is sugar . 1640129_1642915
+*MOT:	Nomi (.) put some pretend sugar on . 1659915_1661515
+*MOT:	good every plate gets some pretend sugar . 1661515_1672223
+*MOT:	(y)u:m . 1694046_1696312
+*MOT:	maybe some of the mice would like some coffee honey . 1704085_1722046
+*MOT:	yes (.) oh the mouse likes it too . 1732421_1739175
+*MOT:	yes (.) Goldie too . 1742310_1746262
+*MOT:	Goldie wants to come to the party . 1746262_1748531
+*MOT:	take it out_of your mouth . 1758319_1759654
+*MOT:	yes . 1759654_1760488
+*MOT:	out (.) take it out . 1760488_1762606
+*MOT:	well (.) that you have_to put in your mouth . 1779039_1781324
+*MOT:	that's a cup honey . 1781324_1782641
+*MOT:	put <the other toys in> [//] the animals and other toys you don't
+*MOT:	well (.) here's two . 1829570_1831772
+*MOT:	I don't know where the other one is honey . 1831772_1832689
+*MOT:	there's Goldie . 1837593_1838726
+*MOT:	right by your knee . 1838726_1839276
+*MOT:	maybe the animals would like some too . 1841645_1848232
+*MOT:	animals would like to come to the party . 1848232_1850400
+*MOT:	do we have enough coffee for all the animals ? 1850400_1859106
+*MOT:	uhhum . 1865093_1865726
+*MOT:	we have enough for all the animals ? 1865726_1869045
+*MOT:	Nomi (.) don't put it in your mouth honey . 1869045_1871080
+*MOT:	icky . 1871080_1872430
+*MOT:	it's a thing@q (.) honey and I don't want that in your mouth . 1887130_1890148
+*MOT:	give the animals some coffee honey . 1890148_1902040
+*MOT:	oh good sweetie . 1933040_1935140
+*MOT:	oh good Nomi . 1945612_1947214
+*MOT:	you did it . 1947214_1947764
+*MOT:	who was that ? 1992201_1992967
+*MOT:	a voice ? 1992967_1996919
+*MOT:	man (.) haha . 2000138_2003004
+*MOT:	who is that man ? 2003004_2006042
+*MOT:	that was a nice tea party wasn't it (.) honey ? 2039631_2041247
+*MOT:	a nice tea party . 2041247_2043849
+*MOT:	all the animals . 2050603_2058193
+*MOT:	what is that ? 2070980_2073499
+*MOT:	he's holding a stick in his hand . 2082272_2086823

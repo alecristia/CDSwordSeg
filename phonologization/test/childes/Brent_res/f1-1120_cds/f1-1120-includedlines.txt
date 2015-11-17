@@ -1,0 +1,591 @@
+*MOT:	okay . 18740_19033
+*MOT:	take a sip ! 19600_20180
+*MOT:	oh you had more cookie down there huh ? 25223_27507
+*MOT:	what ? 66860_67233
+*MOT:	I see . 81523_82003
+*MOT:	I see . 84277_84753
+*MOT:	I gonna get ya . 87787_90000
+*MOT:	okay . 91100_91603
+*MOT:	is there any more down there ? 92860_93930
+*MOT:	any more down there we should know about ? 94937_96417
+*MOT:	o:h . 109550_109760
+*MOT:	well I guess we're not doing that tonight . 113520_115060
+*MOT:	we don't have the stuff . 115067_116327
+*MOT:	so what do you think we can do with the . 134633_135857
+*MOT:	you want some more ? 136900_137427
+*MOT:	you want some more ? 139050_139660
+*MOT:	yes please . 140437_141170
+*MOT:	I like this . 141947_142650
+*MOT:	please give me some more ! 143370_144387
+*MOT:	me and you should work on the grocery list , Dillon . 145443_147003
+*MOT:	oops . 147157_147470
+*MOT:	I just spilled it . 147687_148597
+*MOT:	oh man . 163610_164670
+*MOT:	what ? 187723_188023
+*MOT:	this is not good , Dillon . 204050_204997
+*MOT:	(e)xcuse me ! 217923_219093
+*MOT:	oh . 219377_219773
+*MOT:	wanna try your juice now ? 228223_229140
+*MOT:	did you just wanna have your dinner ? 231733_232893
+*MOT:	it's (.) &uh four thirty already . 232893_234420
+*MOT:	alright what can we do for dinner ? 239603_240943
+*MOT:	I know . 242983_243713
+*MOT:	Dada (i)s not here . 244370_245347
+*MOT:	alright what's for your dinner ? 261983_263330
+*MOT:	maybe it's the fresh air , Dillon , but something (ha)s got me
+*MOT:	maybe it's finally we get some fresh air in the house . 283307_285400
+*MOT:	think that could be it ? 285577_286473
+*MOT:	okay . 417017_417517
+*MOT:	did you finish that ? 418803_419660
+*MOT:	here's another piece . 421897_422687
+*MOT:	are you ready for your other piece ? 489603_490877
+*MOT:	eye ? 552310_552940
+*MOT:	eye eye eye eye eye . 553553_554813
+*MOT:	Dillon . 573353_573760
+*MOT:	where's Dadada ? 581133_582137
+*MOT:	Dadada at work ? 583737_585013
+*MOT:	yeah . 586860_587227
+*MOT:	try to say Mama@q ! 589887_590660
+*MOT:	Mama . 591610_592160
+*MOT:	Mama . 594583_595300
+*MOT:	Dada . 597303_597937
+*MOT:	you're right . 597940_598457
+*MOT:	Dada . 602673_603370
+*MOT:	oh . 629247_629490
+*MOT:	hold on ! 629707_630127
+*MOT:	hold on ! 631703_632163
+*MOT:	I'm coming . 641370_641973
+*MOT:	oh . 652227_652847
+*MOT:	how come this stuff looks soupy and yucky ? 665763_667533
+*MOT:	this stuff is good though . 670003_670847
+*MOT:	o:h . 675303_675703
+*MOT:	hear that wind ? 688070_688923
+*MOT:	incredible wind today huh ? 690710_692297
+*MOT:	we were outsi(de) . 696300_696977
+*MOT:	if we were outside your hair would be blowing . 696980_699413
+*MOT:	wild Dillon hair . 701177_702520
+*MOT:	you like the peas ? 718860_719893
+*MOT:	peas . 721747_722360
+*MOT:	&mm &mm good . 730720_732620
+*MOT:	&mm &mm good . 736040_737700
+*MOT:	you try to feed (th)em yourself ? 742007_743373
+*MOT:	you try to eat (th)em yourself ? 744093_745287
+*MOT:	oh . 751940_752353
+*MOT:	god bless you . 756343_757500
+*MOT:	a cough and a sneeze . 759233_760333
+*MOT:	that's quite something . 760340_761493
+*MOT:	you alright ? 761560_762217
+*MOT:	alright . 768930_769277
+*MOT:	tickle tickle tickle . 771013_771740
+*MOT:	tickle tickle tickle . 772243_772967
+*MOT:	we wipe the nose . 774557_775590
+*MOT:	d(id) I get it ? 779133_780070
+*MOT:	yeah [=! whispered] . 785407_785593
+*MOT:	yeah yeah [=! whispered] . 785790_786160
+*MOT:	I don't like that cough . 845260_846303
+*MOT:	where (di)d you get that cough ? 846333_847397
+*MOT:	you gotta send it back wherever you bought it &=noise . 854777_856550
+*MOT:	here . 865913_866067
+*MOT:	oh man . 875963_876907
+*MOT:	o:h god bless you [=! voice] . 919407_920430
+*MOT:	oh god bless you [=! voice] . 921730_923217
+*MOT:	it's a pea . 926023_926843
+*MOT:	can you eat the pea ? 927173_928050
+*MOT:	see that's the thing about peas . 930663_931857
+*MOT:	if you're not gentle they just mush right up . 931933_933607
+*MOT:	that's the thing about peas . 938637_939817
+*MOT:	you gotta be careful . 939813_940690
+*MOT:	they just mush under your finger . 940697_942040
+*MOT:	my_goodness . 995813_996470
+*MOT:	I don't think I care for that . 999643_1000623
+*MOT:	open up ! 1034967_1035280
+*MOT:	missed the target didn't I ? 1050313_1051420
+*MOT:	missed the target totally . 1051877_1053013
+*MOT:	oh look at your sleeve ! 1053093_1054117
+*MOT:	guess I shoulda rolled up your sleeves better huh ? 1055533_1057430
+*MOT:	yeah . 1059550_1060017
+*MOT:	Mommy should have rolled up your sleeve better ? 1060557_1062233
+*MOT:	that's okay . 1067100_1067767
+*MOT:	we're not going anywhere . 1067770_1068973
+*MOT:	we're not going anywhere . 1070843_1072240
+*MOT:	awful lot of these peas are missing the target aren't they ? 1079303_1081593
+*MOT:	what do you think we should make get at the grocery store this week
+*MOT:	let's make something different , Dillon ! 1104670_1106007
+*MOT:	we could do this easy enough . 1119730_1121080
+*MOT:	peaches . 1121637_1122410
+*MOT:	there's peaches in this chicken . 1122897_1124353
+*MOT:	think your daddy would like that . 1138353_1139257
+*MOT:	we'll make some rice . 1139263_1140157
+*MOT:	alright that's one . 1144300_1145250
+*MOT:	that looks easy . 1147597_1148287
+*MOT:	oh you hear the boys outside don't you ? 1151567_1153823
+*MOT:	you hear the boys outside ? 1155337_1156617
+*MOT:	that's Sean . 1158800_1159710
+*MOT:	who is it ? 1160493_1160803
+*MOT:	Sean and Ryan . 1163080_1164083
+*MOT:	and Zachary . 1165417_1166133
+*MOT:	you hear (th)em outside ? 1166200_1167150
+*MOT:	that was you . 1174797_1175630
+*MOT:	you look so startled . 1179377_1180490
+*MOT:	Sean and Ryan and Zachary out playing . 1187807_1189737
+*MOT:	you get steadier on those feet and you can go join (th)em . 1192440_1194677
+*MOT:	and they'll say “tag along Dillon” . 1197887_1199397
+*MOT:	tag along Dillon . 1200040_1201000
+*MOT:	I see (th)em playing up in the woods . 1216233_1217593
+*MOT:	oh my . 1248130_1248767
+*MOT:	(o)kay I think we should start the list , Dillon . 1256657_1258360
+*MOT:	thinking of all kinds of things as we're doing this . 1259153_1261383
+*MOT:	have any paper on you over there ? 1276387_1277697
+*MOT:	here's some . 1278507_1278977
+*MOT:	mkay so we need . 1288983_1290133
+*MOT:	glass cleaner . 1293190_1294297
+*MOT:	what ? 1302483_1302697
+*MOT:	want another [?] bite ? 1312263_1312893
+*MOT:	and get some yogurt for you . 1322793_1324037
+*MOT:	yeah if they collect [?] that rope out there . 1340013_1342100
+*MOT:	that would be great . 1342810_1343560
+*MOT:	what ? 1355283_1355527
+*MOT:	I know . 1355907_1356477
+*MOT:	the big boys are outside . 1356490_1357863
+*MOT:	open up ! 1365733_1366153
+*MOT:	oh (.) oh oh oh . 1370627_1371797
+*MOT:	Dillon , I think you have more . 1373283_1375030
+*MOT:	under your chair . 1375973_1377267
+*MOT:	than anywhere else . 1378960_1379870
+*MOT:	do you doubt that ? 1386043_1387070
+*MOT:	what do you think about ? 1408640_1409640
+*MOT:	turkey and apples and prunes . 1410930_1412583
+*MOT:	yeah I'm not so sure about that one . 1414333_1415583
+*MOT:	that one looks good . 1421977_1423010
+*MOT:	big chicken and black banana . 1484260_1485867
+*MOT:	that's what you said . 1506480_1507247
+*MOT:	you singing ? 1507523_1507960
+*MOT:	yeah . 1509333_1509803
+*MOT:	man looking at all these things are (...) making me very very
+*MOT:	how (a)bout you ? 1535143_1535747
+*MOT:	so hungry that you'd eat your pasta . 1537067_1538587
+*MOT:	not so much huh ? 1539973_1540757
+*MOT:	alright . 1542190_1542487
+*MOT:	how (a)bout just finishing this up and we'll be done ? 1542590_1544360
+*MOT:	yeah [=! voice] . 1552317_1553400
+*MOT:	what ? 1586790_1587090
+*MOT:	oh what is that ? 1591260_1592133
+*MOT:	Mom dropped a pea on the floor . 1619437_1620720
+*MOT:	oh man , Dillon , I really think there's more peas . 1675213_1677750
+*MOT:	yeah you see (th)em too don't you ? 1678957_1680477
+*MOT:	I can say (th)at too . 1710370_1711370
+*MOT:	oh what are you doing [=! voice] ? 1730390_1731820
+*MOT:	I saw you . 1735213_1735693
+*MOT:	don't suck your thumb ! 1742703_1744190
+*MOT:	what are you doing ? 1744197_1745203
+*MOT:	you play with this one . 1750877_1751527
+*MOT:	&mm open your mouth ! 1754187_1755647
+*MOT:	&mm . 1758027_1759280
+*MOT:	here y(ou) go . 1769097_1769407
+*MOT:	open your mouth ! 1770440_1771420
+*MOT:	yeah . 1773457_1775007
+*MOT:	open your mouth ! 1785120_1785887
+*MOT:	oh I like that . 1812640_1814070
+*MOT:	say “I like that” ! 1817560_1818807
+*MOT:	it's so scrumptious . 1818820_1820333
+*MOT:	hey . 1823160_1823397
+*MOT:	no flying peas . 1823853_1824807
+*MOT:	no flying pasta . 1827940_1828693
+*MOT:	no flying peas . 1828700_1829387
+*MOT:	flying yogurt on the other hand . 1832370_1833830
+*MOT:	wow d(id) you hear that wind ? 1841837_1843360
+*MOT:	wow . 1847057_1847983
+*MOT:	see those trees flying ? 1848730_1850230
+*MOT:	you still got some in your mouth ? 1855580_1856770
+*MOT:	oh don't use that ! 1859543_1860287
+*MOT:	you still have some in your mouth , Dillon . 1860810_1862327
+*MOT:	that's how you say it . 1862377_1863073
+*MOT:	(o)kay , buddy . 1878313_1879050
+*MOT:	say “a:h” ! 1898110_1899550
+*MOT:	you know what ? 2006817_2007597
+*MOT:	I didn't want to do it but I think we are gonna have_to go grocery
+*MOT:	it's not the way I wanna spend the day . 2017700_2019113
+*MOT:	is it the way you wanna spend the day ? 2019123_2020200
+*MOT:	but we're getting down there on a few things aren't we ? 2027363_2029523
+*MOT:	okay . 2058360_2058737
+*MOT:	let go o(f) that , silly ! 2059647_2060453
+*MOT:	here . 2061243_2061430
+*MOT:	you look very silly with that . 2084320_2085670
+*MOT:	uhhuh . 2094400_2095007
+*MOT:	here take that down so you can take another bite ! 2100110_2101780
+*MOT:	take another bite ! 2104137_2104800
+*MOT:	such a slow process . 2131160_2132180
+*MOT:	eating with you . 2132240_2132900
+*MOT:	such a (...) slow process . 2133650_2135223
+*MOT:	here . 2136067_2136230
+*MOT:	thank_you . 2136993_2137473
+*MOT:	Dillon . 2154527_2155023
+*MOT:	didn't want to ask but what (di)d we do with your juice cup ? 2155567_2157700
+*MOT:	it's not (.) in your chair upside down is it ? 2159387_2161470
+*MOT:	oh man . 2162007_2163580
+*MOT:	do you have a puddle o(f) juice in your lap ? 2163690_2165340
+*MOT:	oh man I didn't know it was down there . 2167280_2170203
+*MOT:	ew &=laugh . 2171420_2172887
+*MOT:	yuck . 2175120_2175897
+*MOT:	oh boy . 2189127_2190323
+*MOT:	yuck yuck yuck yuck yuck yuck yuck yuck yuck yuck [=! whispered] .
+*MOT:	think you dropped something . 2216643_2217487
+*MOT:	what's that ? 2261113_2261743
+*MOT:	what is that ? 2263537_2264220
+*MOT:	you like that . 2273503_2274310
+*MOT:	I know you do . 2274483_2275197
+*MOT:	&hmm . 2306987_2307240
+*MOT:	I don't think your father would like that one . 2326687_2328063
+*MOT:	just doesn't sound like something he'd like , Dillon . 2330583_2332590
+*MOT:	here . 2339823_2340040
+*MOT:	could we have new interest in it ? 2352740_2353860
+*MOT:	wow . 2397417_2397913
+*MOT:	I don't know , Dillon . 2405157_2406063
+*MOT:	xxx xxx sounds good . 2427133_2428403
+*MOT:	what we need is our &uh . 2434017_2435387
+*MOT:	oh are you all done ? 2440387_2441147
+*MOT:	want this one ? 2445080_2445550
+*MOT:	you just wanna throw it over . 2447467_2448493
+*MOT:	okay . 2450750_2451167
+*MOT:	all done . 2457637_2458183
+*MOT:	this one sounds easy . 2483070_2484040
+*MOT:	okay you ready to get down ? 2485450_2486487
+*MOT:	you've hit the maximum (.) allowed chair time ? 2488977_2492427
+*MOT:	xxx . 2515573_2516103
+*MOT:	xxx . 2516547_2517540
+*MOT:	why do we keep this big box in there &=noise ? 2526733_2528287
+*MOT:	my nana used to make this . 2554153_2555390
+*MOT:	cheese rabbit . 2562983_2563783
+*MOT:	she used to bake that all the time . 2563967_2565170
+*MOT:	you know when Nana comes maybe we could bake that for her . 2590073_2592477
+*MOT:	we could make that as lunch for her one day . 2601390_2603183
+*MOT:	alright , Dillon . 2655380_2656123
+*MOT:	we're not gonna do this stuff now but we've got a_lot_of . 2658490_2660487
+*MOT:	these things we need to try . 2662110_2663343
+*MOT:	wonder if you'd like any of those . 2665720_2667143
+*MOT:	I found it . 2701617_2702400
+*MOT:	right there . 2702677_2703180
+*MOT:	what are you doing [=! voice] ? 2723003_2723690
+*MOT:	xxx take some of your juice ? 2737747_2738563
+*MOT:	you know we gotta get rid of that bottle and we gotta use this cup
+*MOT:	well . 2753077_2753527
+*MOT:	pretty soon anyway huh ? 2753690_2754710
+*MOT:	see you can do it . 2760853_2761737
+*MOT:	I know you can . 2763750_2764573
+*MOT:	you do it really well sometimes . 2765867_2767270
+*MOT:	oh boy . 2777173_2777853
+*MOT:	Dillon , where's the maid ? 2779250_2780207
+*MOT:	where (di)d the maid go ? 2783610_2784497
+*MOT:	I don't feel like doing this . 2784503_2785490
+*MOT:	I don't feel like cleaning . 2785587_2786440
+*MOT:	ready to get down ? 2803540_2804227
+*MOT:	look at my little boy ! 2835067_2837137
+*MOT:	okay . 2839077_2840247
+*MOT:	we're ready to reveal all those peas . 2840487_2843277
+*MOT:	oh my . 2846190_2847277
+*MOT:	oh did you hear him [=! voice] ? 2867177_2869073
+*MOT:	yeah . 2870683_2871533
+*MOT:	I saw him . 2871563_2872703
+*MOT:	okay . 2873773_2874173
+*MOT:	no boys can get down from the table . 2877367_2879143
+*MOT:	without getting all their hands washed . 2880470_2882927
+*MOT:	I know . 2883557_2884577
+*MOT:	you can't get down unless you have your hands washed . 2885490_2888250
+*MOT:	okay we gotta do the other hand . 2891660_2893080
+*MOT:	oh it's such a hard (.) thing huh ? 2895777_2897947
+*MOT:	where (di)d they go ? 2902083_2902740
+*MOT:	I don't see (th)em anymore . 2904150_2905303
+*MOT:	did they go around the house ? 2906670_2907880
+*MOT:	yeah you've got all kinds o(f) stuff in that hair . 2910040_2912040
+*MOT:	(o)kay gotta wash the eyebrow . 2918827_2921197
+*MOT:	wash the cheek . 2922327_2923393
+*MOT:	no food on the nose . 2924543_2926057
+*MOT:	man you are taking a bath again tonight . 2930777_2933653
+*MOT:	alright [=! voice] . 2939273_2939913
+*MOT:	are we all clean ? 2940807_2941620
+*MOT:	it's okay . 2943300_2943747
+*MOT:	we're all done . 2943757_2944463
+*MOT:	we're all done . 2946017_2946660
+*MOT:	yes you look like a wreck . 2946670_2948100
+*MOT:	okay . 2949583_2949790
+*MOT:	okay , handsome , lean back ! 2951233_2952547
+*MOT:	alright , handsome , lean back ! 2954427_2955743
+*MOT:	oh let's get that ! 2957043_2957920
+*MOT:	what is that ? 2960777_2961313
+*MOT:	alright . 2963157_2963423
+*MOT:	alright come here ! 2963553_2964047
+*MOT:	come here come here come here come here come here . 2964120_2965087
+*MOT:	you're sitting in the juice . 2965090_2966083
+*MOT:	Dillon . 2970083_2970477
+*MOT:	there is unidentifiable stuff stuck to you . 2971573_2973970
+*MOT:	where did all this stuff come from ? 2975363_2977000
+*MOT:	hey I hear a rattle . 2980563_2981853
+*MOT:	get that rattle out o(f) there ! 2981847_2983123
+*MOT:	you give a big cough ? 2984413_2985413
+*MOT:	give a big cough and get rid of that ! 2986977_2988530
+*MOT:	huh , sweetie ? 2990010_2990533
+*MOT:	you see the trees blowing ? 3015737_3017090
+*MOT:	do you see (th)em blowing ? 3018777_3019740
+*MOT:	yeah they're blowing in the wind ? 3021630_3023053
+*MOT:	the answer , my Dillon [=! sung] . 3025033_3027200
+*MOT:	blowing in the wind [=! sung] . 3028610_3029677
+*MOT:	you must ha(ve) eaten an awful lot (be)cause I think you got awful
+*MOT:	what happened ? 3041120_3041650
+*MOT:	you got heavy on me . 3041650_3042780
+*MOT:	yeah [=! voice] . 3043970_3044670
+*MOT:	yeah . 3046953_3047567
+*MOT:	I don't know what language . 3053197_3054467
+*MOT:	what are you doing ? 3062583_3063247
+*MOT:	oh my . 3064047_3064770
+*MOT:	oh my oh my [=! voice] . 3065780_3067417
+*MOT:	give you kiss ? 3070427_3071040
+*MOT:	give you a kiss . 3072670_3073470
+*MOT:	you wanna see your valentine ? 3074823_3076000
+*MOT:	think it's probably time to take down the valentine huh ? 3076633_3078793
+*MOT:	yeah . 3080930_3081337
+*MOT:	it's not Valentines day any longer . 3082687_3084823
+*MOT:	know what ? 3086383_3086760
+*MOT:	it's almost Saint_Patricks day . 3086763_3088703
+*MOT:	it's your birthday first . 3090337_3091987
+*MOT:	we'll have a birthday party and have Nana there . 3094983_3097773
+*MOT:	and all your aunts and uncles . 3100393_3102400
+*MOT:	what do you think ? 3102463_3103210
+*MOT:	well almost all of (th)em . 3104227_3105290
+*MOT:	maybe your grandpa . 3107937_3109333
+*MOT:	maybe we can get both grandpas to come . 3113467_3115137
+*MOT:	would that be good to have both grandpas ? 3118973_3120643
+*MOT:	yeah we'll have Dada too . 3130387_3131680
+*MOT:	Dada . 3147860_3148780
+*MOT:	Dada (i)s at work . 3150383_3151913
+*MOT:	hey , Dillon , look in that tree over there ! 3156097_3157547
+*MOT:	see the bird's nest ? 3157587_3158563
+*MOT:	man we gotta wash this screen if we're gonna have our baby standing
+*MOT:	I see trees blowing . 3172567_3174213
+*MOT:	face . 3203983_3204443
+*MOT:	face off ! 3204707_3205233
+*MOT:	Dada . 3218590_3219200
+*MOT:	oh , Dillon , I can't wait for summer . 3223380_3225673
+*MOT:	this is making me want summer . 3227573_3229853
+*MOT:	we're gonna have a_lot_of fun . 3230753_3232843
+*MOT:	yeah we are . 3234860_3235570
+*MOT:	we're gonna have a_lot_of fun this summer . 3235583_3237860
+*MOT:	we're gonna go playing outside . 3240053_3242460
+*MOT:	take you swimming . 3243960_3245573
+*MOT:	yeah I'll teach you . 3247890_3249143
+*MOT:	what else do you wanna do outside ? 3254463_3255763
+*MOT:	go camping with Aunt Terri . 3256517_3258093
+*MOT:	yeah it's pretty dirty there isn't it , Dillon ? 3269707_3271620
+*MOT:	let's go ! 3275180_3276540
+*MOT:	fly a kite [=! sung] . 3278050_3279223
+*MOT:	no . 3279807_3280200
+*MOT:	let's go ! 3280473_3281293
+*MOT:	come (h)ere ! 3281787_3282080
+*MOT:	you know what ? 3289893_3290410
+*MOT:	you still have that rattle . 3291863_3292877
+*MOT:	can you get rid of that rattle ? 3294290_3295487
+*MOT:	look how dirty your hands got , Dillon ! 3304230_3306257
+*MOT:	oh my . 3307397_3308130
+*MOT:	oh_my_goodness . 3311193_3312367
+*MOT:	you know . 3317783_3318267
+*MOT:	we're gonna have_to teach you how to do dishes (be)cause I really
+*MOT:	you wanna do dishes for me ? 3325283_3326487
+*MOT:	(o)kay gimme your hand &=noise ! 3341093_3341823
+*MOT:	oh you found a new &=laugh . 3351273_3353037
+*MOT:	a new toy . 3354057_3355053
+*MOT:	did you find a new toy ? 3355710_3357167
+*MOT:	oh &=laugh . 3361480_3362553
+*MOT:	oh my . 3365070_3366077
+*MOT:	alright . 3386093_3386487
+*MOT:	that was fun . 3389983_3390973
+*MOT:	yeah you were funny . 3392100_3393500
+*MOT:	alright let's go out here and play ! 3395447_3396597
+*MOT:	good get rid of that ! 3398413_3399670
+*MOT:	there you go . 3401290_3402167
+*MOT:	cough that one up ! 3403357_3404347
+*MOT:	cough that one up ! 3404677_3405733
+*MOT:	alright . 3409783_3410103
+*MOT:	I'm (g)onna get your ball . 3412113_3412940
+*MOT:	(o)kay . 3413173_3413560
+*MOT:	get your ball ? 3414120_3414767
+*MOT:	I got your (..) ball and your Megablocks . 3438990_3441723
+*MOT:	whoa watch out ! 3443243_3444070
+*MOT:	here comes the ball . 3444070_3444907
+*MOT:	what was that ? 3446113_3446957
+*MOT:	where (di)d the ball go ? 3459073_3460017
+*MOT:	ready ? 3460297_3460810
+*MOT:	here it comes again . 3466033_3466680
+*MOT:	&aw you missed it . 3466760_3467780
+*MOT:	okay . 3469157_3469470
+*MOT:	I'm gonna roll it to you . 3471537_3472567
+*MOT:	ready ? 3473443_3473913
+*MOT:	I'm gonna roll it to you . 3474363_3475640
+*MOT:	yeah I'm gonna roll it to you . 3476397_3477820
+*MOT:	boom off your foot . 3479887_3481043
+*MOT:	ready ? 3482753_3483193
+*MOT:	here it comes again . 3483280_3484063
+*MOT:	boom . 3486553_3487163
+*MOT:	boom again . 3492187_3492940
+*MOT:	xxx caught it yeah &=noise . 3496573_3498710
+*MOT:	yeah . 3499957_3501137
+*MOT:	o:h you rolled it back . 3502380_3503870
+*MOT:	you got it . 3508867_3509380
+*MOT:	let it go ! 3511990_3512573
+*MOT:	well that was good . 3526317_3527150
+*MOT:	that was good . 3528347_3529257
+*MOT:	oh my &=laugh . 3536677_3537830
+*MOT:	I think you just broke my ear+drum . 3538943_3540333
+*MOT:	ready ? 3544130_3544637
+*MOT:	boom . 3546560_3546903
+*MOT:	I hear the boys again . 3554057_3555323
+*MOT:	so do you . 3555340_3556120
+*MOT:	yep they're outside . 3556460_3557613
+*MOT:	that's Sean . 3557617_3558427
+*MOT:	is it nice to have the windows open ? 3565043_3566423
+*MOT:	ready ? 3575483_3575870
+*MOT:	here we go . 3577900_3578443
+*MOT:	you got it . 3583157_3584057
+*MOT:	yeah &=noise . 3585553_3587353
+*MOT:	yeah . 3588663_3589740
+*MOT:	I can squeal too . 3608340_3609307
+*MOT:	okay . 3625157_3625623
+*MOT:	boom . 3627770_3628067
+*MOT:	boom . 3631533_3631777
+*MOT:	catch it ! 3634860_3635217
+*MOT:	both arms . 3635377_3635847
+*MOT:	whoa you almost fell over . 3636377_3638550
+*MOT:	see it bounce ? 3647050_3647673
+*MOT:	have_to play that do that . 3652200_3653070
+*MOT:	(be)cause you have_to learn how to play basketball with me okay ? 3653157_3655000
+*MOT:	I think this wind is blowing you back . 3660167_3661807
+*MOT:	uhoh . 3664813_3665337
+*MOT:	uhoh . 3667280_3667903
+*MOT:	www . 3674530_3674860
+*MOT:	www . 3677050_3677560
+*MOT:	I don't think I heard you . 3723127_3724153
+*MOT:	one more time . 3724903_3725723
+*MOT:	do you know what's inside this ? 3732943_3734680
+*MOT:	what's inside this ? 3735840_3736833
+*MOT:	do you remember ? 3736973_3737663
+*MOT:	is it your blocks ? 3741077_3742217
+*MOT:	are your blocks inside there ? 3744283_3745720
+*MOT:	wait wait wait ! 3749600_3750213
+*MOT:	wanna open it ? 3757287_3758037
+*MOT:	shall we open it all the way ? 3761020_3762477
+*MOT:	oh now you see . 3763300_3765417
+*MOT:	now you remember what's inside there . 3765427_3767800
+*MOT:	want the tractor ? 3771367_3772337
+*MOT:	tractor right over your belly . 3777510_3778693
+*MOT:	and a car . 3781957_3782903
+*MOT:	put it back in ! 3794273_3794793
+*MOT:	how (a)bout (.) if we start ? 3847290_3848820
+*MOT:	and we build something up here . 3849413_3850727
+*MOT:	see you can put this blue one over here . 3852133_3853877
+*MOT:	and put this one on top . 3858050_3859057
+*MOT:	and then we could put this &=noise . 3862893_3863950
+*MOT:	the red one . 3866260_3867123
+*MOT:	this one xxx has haystack on it . 3868277_3870100
+*MOT:	and put that right on top . 3871150_3872447
+*MOT:	can you get it off ? 3875507_3876090
+*MOT:	you got it off . 3878883_3879647
+*MOT:	you got it off . 3879867_3880660
+*MOT:	yeah . 3882980_3883777
+*MOT:	it's a blue one . 3885663_3886753
+*MOT:	and the red one . 3887257_3888400
+*MOT:	and a green one . 3888860_3890127
+*MOT:	oh you got it off again . 3893650_3894953
+*MOT:	and what about this one ? 3896827_3897467
+*MOT:	this one (i)s a cow . 3897477_3898687
+*MOT:	what's a cow do ? 3900177_3901183
+*MOT:	a cow goes moo@q . 3904600_3906393
+*MOT:	moo . 3907847_3908813
+*MOT:	okay this one (i)s a horsie . 3917870_3919180
+*MOT:	neigh . 3921307_3922310
+*MOT:	neigh . 3924450_3925327
+*MOT:	no not again . 3959113_3960263
+*MOT:	www . 3970443_3970847
+*MOT:	www . 3971673_3971937
+*MOT:	www . 3973107_3973473
+*MOT:	www . 3976347_3976700
+*MOT:	well you just watch out for balloons then ! 4117337_4119373
+*MOT:	www . 4125613_4126620
+*MOT:	www . 4129160_4129420
+*MOT:	okay . 4201317_4201680
+*MOT:	what are we gonna build ? 4202610_4203250
+*MOT:	you don't know ? 4205140_4205807
+*MOT:	well [?] &=noise . 4207340_4208077
+*MOT:	let's build &=noise ! 4208490_4209420
+*MOT:	airplane wings on this car . 4210987_4212513
+*MOT:	you wanna do that ? 4213367_4214123
+*MOT:	“how do we do that” you say . 4215927_4217373
+*MOT:	put one across like this ! 4219190_4220780
+*MOT:	how am I supposed to build the airplane wings when you pull it off
+*MOT:	they'll be really thick airplane wings won't they , baby ? 4234463_4236803
+*MOT:	we'll put the haystack on (th)em in the middle . 4240663_4242087
+*MOT:	does that look like airplane wings with haystacks in (th)em ? 4244713_4246843
+*MOT:	there . 4254863_4255177
+*MOT:	see ? 4255240_4255597
+*MOT:	kinda silly looking . 4260027_4261080
+*MOT:	think what we need to do is build up the car first . 4261757_4264317
+*MOT:	make the car thicker . 4268937_4270183
+*MOT:	that looks even sillier . 4280593_4282023
+*MOT:	do you see how silly that looks ? 4282457_4283870
+*MOT:	I don't think it'll fly . 4286847_4288103
+*MOT:	I don't think it'll . 4296760_4297500
+*MOT:	oh man , Dillon , what's with the phone ? 4298000_4300317
+*MOT:	what's with the ? 4301947_4302367
+*MOT:	www . 4303643_4303950
+*MOT:	nobody there . 4310720_4311383
+*MOT:	xxx hang up . 4311403_4311980
+*MOT:	we don't wanna talk to anyone anyway . 4313223_4315110
+*MOT:	we want just me and you . 4315460_4316867
+*MOT:	just me and you time . 4317357_4318747
+*MOT:	I've got a cowboy hat . 4320867_4322417
+*MOT:	now where's the cowboy ? 4322417_4323557
+*MOT:	where's the farmer's hat ? 4326360_4327883
+*MOT:	there's the farmer . 4328037_4328877
+*MOT:	do you know where it went ? 4330993_4331710
+*MOT:	I got the bonnet . 4332433_4333293
+*MOT:	bonnet . 4336460_4336913
+*MOT:	I got the green peg . 4339067_4340123
+*MOT:	I got the horse . 4343277_4344130
+*MOT:	neigh [=! voice] . 4344470_4346580
+*MOT:	neigh [=! voice] . 4347980_4350223
+*MOT:	oh . 4350557_4350760
+*MOT:	what about the red one ? 4353400_4354363
+*MOT:	red one . 4357473_4358243
+*MOT:	(i)t's a red one . 4359783_4360667
+*MOT:	oh . 4366523_4366690
+*MOT:	what else should we build ? 4379473_4380200
+*MOT:	let's build (.) a bridge ! 4384213_4385913
+*MOT:	ow . 4388327_4388717
+*MOT:	is that what you said ? 4390707_4391673
+*MOT:	ow . 4392397_4392830
+*MOT:	well [?] . 4394267_4394637
+*MOT:	you gotta take these big pieces &=noise . 4394843_4396487
+*MOT:	take (th)em off the car ! 4397427_4398483
+*MOT:	there's the car . 4402100_4402760
+*MOT:	gotta make it big enough so the car can go under right ? 4403570_4405750
+*MOT:	yeah . 4407980_4408610
+*MOT:	so there's . 4413603_4414147
+*MOT:	part of a tower . 4415153_4416057
+*MOT:	oh that's a doorway . 4421380_4422443
+*MOT:	bridge wrecker [=! sung] . 4430000_4431673
+*MOT:	Dillon [=! sung] . 4432620_4433480
+*MOT:	(o)kay let me have your haystack ! 4445287_4446483
+*MOT:	you take the blue one ! 4448957_4449837
+*MOT:	take the blue one ! 4450113_4450673
+*MOT:	I'll take the green one . 4450673_4451413
+*MOT:	oh my . 4453300_4454180
+*MOT:	you want the blue one ? 4455060_4455907
+*MOT:	this would be . 4463760_4464473
+*MOT:	one of the most . 4464977_4466013
+*MOT:	colorful bridges . 4466367_4467320
+*MOT:	that you ever saw . 4467543_4468387
+*MOT:	now we just need something to connect the top . 4473487_4475173
+*MOT:	my Dillon [?] bridge is (.) falling down &=noise . 4486600_4489567
+*MOT:	there . 4489797_4490123
+*MOT:	see it's a bridge . 4490247_4491137
+*MOT:	now you just need this truck . 4492470_4493760
+*MOT:	and it goes . 4493857_4494217
+*MOT:	through the bridge . 4496353_4497053
+*MOT:	who's gonna be driving the truck ? 4498647_4499907

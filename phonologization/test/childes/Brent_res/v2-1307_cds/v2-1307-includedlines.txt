@@ -1,0 +1,577 @@
+*MOT:	here we go . 15663_16407
+*MOT:	okay . 32023_32547
+*MOT:	you don't get it back . 33240_34090
+*MOT:	no . 36380_36723
+*MOT:	www . 79413_94333
+*MOT:	yes ? 98597_99163
+*MOT:	can I help you ? 106020_107040
+*MOT:	you hungry ? 111603_112297
+*MOT:	ready to eat ? 113667_114383
+*MOT:	you should be . 115537_116190
+*MOT:	Xavier . 135990_137117
+*MOT:	www . 146917_150463
+*MOT:	www . 155320_155637
+*MOT:	what is this ? 167530_168307
+*MOT:	are you talking ? 170750_171540
+*MOT:	are you talking to me ? 171743_172963
+*MOT:	Xavier . 190913_191877
+*MOT:	Pooh . 197363_198047
+*MOT:	uhoh . 209053_209640
+*MOT:	what's the matter ? 210800_211700
+*MOT:	I'm gon(na) feed you . 223167_224177
+*MOT:	you're gonna eat . 224913_225660
+*MOT:	calm down ! 226670_227173
+*MOT:	hold on xxx ! 227183_228003
+*MOT:	no . 266307_266777
+*MOT:	you don't get it back . 266850_267653
+*MOT:	you don't want it . 275627_276390
+*MOT:	you're just throwing it . 276407_277507
+*MOT:	www . 298117_298410
+*MOT:	www . 299887_300413
+*MOT:	yes . 315790_316490
+*MOT:	what can I do for you ? 325187_326573
+*MOT:	Xavier . 368647_369677
+*MOT:	o:h it's cold out there . 386053_388043
+*MOT:	okay . 400260_400857
+*MOT:	let's see here ! 402800_403897
+*MOT:	what are you talking about ? 430977_432283
+*MOT:	&hmm ? 445550_445987
+*MOT:	I'm coming . 462193_462833
+*MOT:	I'm coming . 462837_463363
+*MOT:	I'm coming . 463377_463910
+*MOT:	I'm coming . 465217_466363
+*MOT:	I'm gonna feed you . 467753_468747
+*MOT:	(be)fore you go plain bananas on me . 474510_476520
+*MOT:	alright . 479603_480017
+*MOT:	alright . 485923_486420
+*MOT:	keep saying that don't I ? 487890_488957
+*MOT:	I mean it this time . 490060_490983
+*MOT:	okay . 504413_504887
+*MOT:	let's see ! 506880_507470
+*MOT:	uhoh . 534367_534903
+*MOT:	uhoh . 538717_539180
+*MOT:	here I come . 541597_542233
+*MOT:	I'm a little slower than usual (..) but I'm coming . 543070_545350
+*MOT:	okay . 551690_552217
+*MOT:	we know . 560463_560940
+*MOT:	it's time for lunch . 560957_561917
+*MOT:	&hmm ? 564663_565067
+*MOT:	&hmm ? 569367_569767
+*MOT:	oh , Pooh . 574507_575700
+*MOT:	(wha)t's the matter with the baby ? 583267_585427
+*MOT:	baby doesn't sound happy . 588230_590137
+*MOT:	okay . 612387_612853
+*MOT:	Xavier . 617003_617817
+*MOT:	uhoh we're quiet . 679137_680163
+*MOT:	why are we quiet ? 680777_681623
+*MOT:	what are you thinking , sir ? 682767_684140
+*MOT:	can't tell me nothing . 696337_697520
+*MOT:	(be)cause &uh . 698080_698610
+*MOT:	mkay ? 709740_710177
+*MOT:	calm down ! 711510_712100
+*MOT:	come a little closer ! 714963_715860
+*MOT:	hi . 721660_722137
+*MOT:	you waving at me ? 723897_724853
+*MOT:	uhoh now you're mad . 726660_727667
+*MOT:	mkay . 735297_735800
+*MOT:	there we go . 740497_740933
+*MOT:	and what does that mean ? 744593_745563
+*MOT:	we know xxx . 752850_753460
+*MOT:	we know . 753517_753990
+*MOT:	we know . 753997_754560
+*MOT:	we know it's late . 754650_755477
+*MOT:	we know lunch is late . 757027_758127
+*MOT:	do you want this ? 758143_759000
+*MOT:	want some milk ? 761323_761897
+*MOT:	there you go . 762487_762887
+*MOT:	sit up ! 764080_764593
+*MOT:	don't slouch ! 764607_765433
+*MOT:	there you go . 765877_766503
+*MOT:	that better ? 771250_771900
+*MOT:	lemme see your hand ! 778320_779363
+*MOT:	high five . 783547_784070
+*MOT:	high five . 788477_788967
+*MOT:	you're so silly . 796717_797957
+*MOT:	I didn't tell a funny joke . 802813_804483
+*MOT:	what ? 819640_820103
+*MOT:	I can do that too . 823720_824830
+*MOT:	it might be ready . 831383_832287
+*MOT:	stop it ! 835047_835620
+*MOT:	not quite ready . 869727_870653
+*MOT:	okay . 892437_892980
+*MOT:	mhm . 897333_898260
+*MOT:	yeah . 901720_902083
+*MOT:	stop throwing your bottle ! 908373_909510
+*MOT:	it's hot . 915597_916040
+*MOT:	it's hot . 919960_920637
+*MOT:	there you go . 925807_926503
+*MOT:	here you go . 942993_943423
+*MOT:	&mm that's good . 949873_950947
+*MOT:	that good ? 952967_953813
+*MOT:	hey . 954193_954730
+*MOT:	there you go . 959440_960263
+*MOT:	want some more ? 961027_961600
+*MOT:	here . 967187_967413
+*MOT:	that one (i)s too hot . 971600_972377
+*MOT:	that one too hot . 973057_973883
+*MOT:	we'll wait (un)til this one cool off . 978940_979983
+*MOT:	here . 991683_991883
+*MOT:	can you manage that ? 999200_1000063
+*MOT:	too hot . 1007883_1008183
+*MOT:	let it cool off ! 1008193_1008877
+*MOT:	is it good ? 1028170_1028940
+*MOT:	&hmm ? 1031293_1031637
+*MOT:	&hmm ? 1036243_1036477
+*MOT:	you should like that . 1048880_1050040
+*MOT:	xxx baked beans . 1051900_1052630
+*MOT:	they're sweet . 1052647_1053113
+*MOT:	open up ! 1066483_1066890
+*MOT:	there you go . 1067893_1068573
+*MOT:	look at Pepper being bad ! 1080100_1081347
+*MOT:	www . 1081940_1082623
+*MOT:	www . 1085500_1085903
+*MOT:	you tell the cat to stop ? 1090857_1092030
+*MOT:	say “stop , cat” ! 1094833_1095770
+*MOT:	&hmm ? 1101293_1101657
+*MOT:	is it good ? 1116020_1116743
+*MOT:	don't beat on your chair ! 1160877_1162037
+*MOT:	should I say “your tray” really ? 1166873_1168357
+*MOT:	nice . 1170510_1170943
+*MOT:	&hmm ? 1184137_1184463
+*MOT:	what's the matter ? 1188190_1189000
+*MOT:	well yelling at me (i)s not gon(na) help you . 1198837_1200590
+*MOT:	what are you saying ? 1214557_1215437
+*MOT:	uhoh . 1222350_1222810
+*MOT:	here . 1225477_1225633
+*MOT:	here you go . 1228037_1228520
+*MOT:	(i)s that better ? 1235263_1235743
+*MOT:	&hmm ? 1266617_1267003
+*MOT:	here . 1269387_1269737
+*MOT:	try some more baked beans ! 1269887_1270767
+*MOT:	open up ! 1271597_1272217
+*MOT:	&mm . 1274387_1275740
+*MOT:	it's good huh ? 1277230_1278250
+*MOT:	is that good ? 1280343_1281140
+*MOT:	you just smiling ? 1286620_1288037
+*MOT:	you want some more ? 1291850_1292360
+*MOT:	here . 1293443_1293730
+*MOT:	I'll give some more . 1294257_1295033
+*MOT:	open up ! 1296077_1297110
+*MOT:	good huh ? 1306923_1307717
+*MOT:	do you want some more ? 1321623_1322360
+*MOT:	okay . 1326040_1326870
+*MOT:	you and your four teeth . 1329380_1330370
+*MOT:	open ! 1337680_1338113
+*MOT:	mkay . 1374163_1374907
+*MOT:	you making a mess . 1382680_1383733
+*MOT:	but you are . 1386787_1387517
+*MOT:	don't you throw that ! 1400210_1401253
+*MOT:	there you go . 1431827_1432327
+*MOT:	you're being a big boy . 1456293_1457180
+*MOT:	you feeding yourself . 1457193_1457963
+*MOT:	of course the tray is getting more food than you but . 1471450_1473887
+*MOT:	you're trying . 1474827_1475477
+*MOT:	&hmm ? 1504370_1504737
+*MOT:	are you talking ? 1507943_1508833
+*MOT:	what are you saying ? 1509403_1510307
+*MOT:	I don't understand you . 1512127_1513720
+*MOT:	xxx . 1522153_1522520
+*MOT:	there you go . 1523167_1523800
+*MOT:	you picked it up . 1524037_1524810
+*MOT:	what (di)d you do ? 1532463_1532927
+*MOT:	drop food in your xxx ? 1532933_1533957
+*MOT:	down in your seat ? 1534233_1535000
+*MOT:	there's [?] nothing down there . 1536390_1537723
+*MOT:	sit up ! 1538513_1538873
+*MOT:	no slouching . 1541117_1541977
+*MOT:	no . 1673167_1673790
+*MOT:	don't do that ! 1675120_1675960
+*MOT:	stop ! 1679283_1679570
+*MOT:	mo(ve) your hand ! 1680660_1681107
+*MOT:	mo(ve) your hand ! 1681583_1682140
+*MOT:	there . 1692587_1692897
+*MOT:	I clean the tray off . 1696627_1697757
+*MOT:	you spread the food around . 1697777_1699003
+*MOT:	yes ? 1765290_1766410
+*MOT:	what are you saying ? 1777777_1778903
+*MOT:	yes , boy ? 1785017_1786027
+*MOT:	your milk ? 1787217_1787710
+*MOT:	www . 1830677_1831063
+*MOT:	www . 1833997_1834717
+*MOT:	okay . 1851997_1852610
+*MOT:	there you go . 1862670_1863253
+*MOT:	you're humming . 1875097_1875827
+*MOT:	what are you humming about ? 1877370_1878570
+*MOT:	you happy ? 1882903_1883580
+*MOT:	huh ? 1885610_1885963
+*MOT:	what ? 1887750_1888120
+*MOT:	whatcha want ? 1889423_1890010
+*MOT:	what do you want ? 1892310_1893543
+*MOT:	no . 1903540_1904233
+*MOT:	don't push it off ! 1905593_1906647
+*MOT:	no . 1908127_1908827
+*MOT:	no . 1910240_1911233
+*MOT:	&hmm ? 1914760_1915073
+*MOT:	lay your bottle there ! 1915910_1916927
+*MOT:	leave it alone ! 1922357_1923673
+*MOT:	leave it alone ! 1926267_1928030
+*MOT:	leave it alone ! 1929290_1931110
+*MOT:	leave it alo(ne) ! 1933017_1934660
+*MOT:	no . 1936813_1937593
+*MOT:	leave it alone ! 1939660_1941560
+*MOT:	no . 1945987_1946947
+*MOT:	leave it alone ! 1952013_1954020
+*MOT:	Xavier . 1954950_1956073
+*MOT:	stop it ! 1956880_1957783
+*MOT:	no . 1959617_1960413
+*MOT:	no . 1966463_1967000
+*MOT:	you can't reach it . 1969757_1972167
+*MOT:	stop ! 1996577_1997367
+*MOT:	why are you fussing ? 2002333_2003467
+*MOT:	you have no reason to fuss . 2004893_2006453
+*MOT:	yes ? 2016573_2016913
+*MOT:	what ? 2018600_2018893
+*MOT:	you can't have that . 2020127_2021103
+*MOT:	you don't want that . 2022117_2023243
+*MOT:	you don't want it . 2024253_2025447
+*MOT:	&hmm ? 2028557_2029060
+*MOT:	I'm gonna keep . 2032047_2033130
+*MOT:	I'm gonna keep it . 2033833_2035230
+*MOT:	yes . 2037300_2037887
+*MOT:	you don't want it . 2038490_2039560
+*MOT:	&hmm . 2041480_2041777
+*MOT:	now what ? 2047763_2048497
+*MOT:	sit up ! 2065430_2065827
+*MOT:	Xavier . 2067473_2068043
+*MOT:	sit up ! 2068330_2068680
+*MOT:	(o)kay . 2072223_2072517
+*MOT:	no . 2082940_2083523
+*MOT:	here you want this ? 2087257_2088053
+*MOT:	now what ? 2105427_2106030
+*MOT:	uhoh . 2147037_2147723
+*MOT:	don't do that ! 2149067_2150437
+*MOT:	Xavier . 2151767_2152447
+*MOT:	don't ! 2153600_2154380
+*MOT:	stop ! 2163770_2164230
+*MOT:	stop ! 2167127_2167770
+*MOT:	stop ! 2169287_2169767
+*MOT:	stop ! 2173490_2174073
+*MOT:	come on , chubby ! 2197813_2198587
+*MOT:	let's go ! 2199383_2199850
+*MOT:	no (be)cause if I give it to you you're just gonna make it hit the
+*MOT:	you will throw it . 2207367_2208427
+*MOT:	look all innocent like you won't throw it . 2213970_2215690
+*MOT:	you'll throw it . 2215753_2216303
+*MOT:	you'll throw it . 2217680_2218800
+*MOT:	alright let's go ! 2236637_2237530
+*MOT:	here . 2260470_2260740
+*MOT:	wait a second ! 2265907_2267073
+*MOT:	here . 2270037_2270277
+*MOT:	no . 2285513_2286200
+*MOT:	what are you doing ? 2304567_2305340
+*MOT:	mkay . 2316257_2316783
+*MOT:	here . 2319480_2319697
+*MOT:	scoot over ! 2319977_2320707
+*MOT:	here you go . 2322563_2323190
+*MOT:	you want that ? 2325020_2325723
+*MOT:	you [?] can have that too . 2329243_2330090
+*MOT:	now . 2334147_2334433
+*MOT:	is that pretty ? 2335910_2336477
+*MOT:	you've got ribbon . 2338633_2339403
+*MOT:	you can't drink ribbon . 2342327_2343847
+*MOT:	no . 2347820_2348357
+*MOT:	it . 2348553_2348720
+*MOT:	it's not a cup . 2348890_2349927
+*MOT:	it's just a big (.) tube . 2351967_2353557
+*MOT:	that the ribbon (i)s on . 2355060_2356340
+*MOT:	Xavier . 2361747_2362587
+*MOT:	I see you . 2363653_2364640
+*MOT:	I see you . 2367917_2368877
+*MOT:	I see you . 2371457_2372083
+*MOT:	your turn . 2394727_2395170
+*MOT:	&hmm ? 2401663_2402003
+*MOT:	telephone . 2405840_2407257
+*MOT:	Xavier . 2425757_2427213
+*MOT:	you so silly . 2447800_2448897
+*MOT:	huh ? 2452833_2453137
+*MOT:	uhoh . 2466697_2467187
+*MOT:	you got it . 2480137_2480740
+*MOT:	here . 2493753_2494017
+*MOT:	no . 2511413_2512137
+*MOT:	no . 2527210_2527967
+*MOT:	here . 2529787_2530003
+*MOT:	there it is . 2533917_2534427
+*MOT:	whatcha got ? 2553753_2554663
+*MOT:	okay . 2558773_2559247
+*MOT:	what are you doing ? 2572230_2573413
+*MOT:	&hmm ? 2589940_2590307
+*MOT:	Xavier . 2597973_2598850
+*MOT:	Xavier . 2600283_2600840
+*MOT:	hey could you stop that ? 2614160_2615773
+*MOT:	you're laying on me . 2619867_2621393
+*MOT:	stop ! 2622000_2622720
+*MOT:	this . 2625553_2625990
+*MOT:	that what you want ? 2627310_2628157
+*MOT:	here . 2632667_2632940
+*MOT:	now I don't know what you think you're gon(na) be able to do with
+*MOT:	it's too big . 2644747_2645963
+*MOT:	it's too big . 2653350_2654903
+*MOT:	it's wrapping paper . 2658647_2660013
+*MOT:	and it's taller than you . 2661003_2662737
+*MOT:	ow . 2667417_2667897
+*MOT:	now [?] can I put it back ? 2677687_2678797
+*MOT:	can I put it back ? 2680427_2681417
+*MOT:	uhoh . 2690427_2691163
+*MOT:	hi . 2697980_2698427
+*MOT:	hi . 2699990_2700627
+*MOT:	xxx Xavier say hi@q ? 2701533_2702707
+*MOT:	say hi@q ! 2704470_2705140
+*MOT:	Xavier . 2709720_2710510
+*MOT:	say hi@q ! 2710717_2711483
+*MOT:	here . 2725550_2725787
+*MOT:	we'll put it up . 2725920_2726697
+*MOT:	no . 2738270_2739187
+*MOT:	yes . 2750897_2751610
+*MOT:	no . 2754673_2755297
+*MOT:	no . 2756717_2757613
+*MOT:	no . 2759373_2760193
+*MOT:	you can't have that . 2760897_2762073
+*MOT:	no you can't have it . 2763743_2765310
+*MOT:	I don't want it . 2799223_2800013
+*MOT:	I don't want it . 2804047_2805027
+*MOT:	I don't want it . 2806877_2807813
+*MOT:	you can have it . 2810933_2811877
+*MOT:	hi . 2834880_2835297
+*MOT:	peekaboo . 2842447_2843200
+*MOT:	peekaboo . 2844990_2845540
+*MOT:	peekaboo . 2847913_2848317
+*MOT:	peekaboo . 2850433_2850913
+*MOT:	peekaboo . 2860893_2861300
+*MOT:	peekaboo . 2863263_2863637
+*MOT:	Xavier xxx play pattycake . 2867730_2869267
+*MOT:	play pattycake ! 2871733_2872590
+*MOT:	huh ? 2873860_2874170
+*MOT:	you wanna play pattycake ? 2874217_2875220
+*MOT:	no thank_you . 2886103_2886927
+*MOT:	I don't want it . 2888403_2889453
+*MOT:	I don't . 2890220_2890703
+*MOT:	I ju(st) . 2890727_2891037
+*MOT:	you giving it to me ? 2891163_2892187
+*MOT:	I don't want it . 2893247_2894400
+*MOT:	hello . 2899083_2900030
+*MOT:	hi , Xavier . 2901397_2902273
+*MOT:	hi , Xavier . 2905457_2906417
+*MOT:	hi . 2910327_2910907
+*MOT:	hello . 2913123_2914193
+*MOT:	hello . 2915100_2916197
+*MOT:	hello . 2918010_2919027
+*MOT:	I see you . 2921070_2922120
+*MOT:	hey . 2935423_2936070
+*MOT:	hello . 2939260_2940027
+*MOT:	uhoh . 2948900_2949500
+*MOT:	you dropped it . 2950217_2950930
+*MOT:	yeah . 2959590_2960307
+*MOT:	be careful ! 2963183_2964093
+*MOT:	be careful ! 2968700_2969597
+*MOT:	no . 2972730_2973773
+*MOT:	sit down ! 2974757_2975823
+*MOT:	that's my eye . 2979450_2980763
+*MOT:	xxx . 2982950_2983347
+*MOT:	xxx . 2984547_2984870
+*MOT:	your nose . 2985077_2986050
+*MOT:	your nose . 2986773_2987520
+*MOT:	Mommy nose . 2987630_2988437
+*MOT:	nose . 2989360_2989780
+*MOT:	eye . 2990003_2990453
+*MOT:	eye . 2991603_2992203
+*MOT:	eye . 2993340_2993767
+*MOT:	nose . 2996303_2997063
+*MOT:	nose . 2997877_2998690
+*MOT:	nose . 2999293_3000153
+*MOT:	mouth . 3001257_3002343
+*MOT:	mouth . 3004133_3005203
+*MOT:	mouth . 3006337_3007350
+*MOT:	no . 3008660_3009447
+*MOT:	you can't [?] . 3010197_3010623
+*MOT:	your teeth . 3024127_3024820
+*MOT:	no don't bite me ! 3027447_3029350
+*MOT:	xxx teeth . 3030783_3031523
+*MOT:	xxx xxx xxx . 3031860_3033037
+*MOT:	no . 3034343_3035263
+*MOT:	you can't bite Mommy hand . 3035307_3037280
+*MOT:	nose . 3040693_3041707
+*MOT:	nose . 3042703_3043623
+*MOT:	got your nose . 3044583_3045910
+*MOT:	nose . 3048050_3049023
+*MOT:	nose . 3050270_3051087
+*MOT:	say nose@q ! 3052310_3053130
+*MOT:	gimme a kiss ! 3056103_3056960
+*MOT:	teeth . 3058103_3058527
+*MOT:	teeth . 3061437_3061900
+*MOT:	eye . 3063803_3064443
+*MOT:	eye . 3065900_3066543
+*MOT:	o:h here's a good one . 3071593_3072443
+*MOT:	ear . 3073603_3074620
+*MOT:	your ear . 3076127_3077263
+*MOT:	that's your ear . 3078717_3080157
+*MOT:	Xavier . 3085013_3085597
+*MOT:	lemme see your teeth ! 3089267_3090300
+*MOT:	there they are . 3092480_3093317
+*MOT:	belly . 3098193_3099197
+*MOT:	belly . 3101833_3102793
+*MOT:	belly . 3104540_3105527
+*MOT:	that's your belly . 3106723_3108123
+*MOT:	you're ticklish on your . 3110640_3111970
+*MOT:	belly . 3112583_3113543
+*MOT:	that's your belly . 3114660_3116157
+*MOT:	your mouth . 3128803_3129410
+*MOT:	yeah . 3130950_3131517
+*MOT:	that's your mouth . 3131807_3132510
+*MOT:	yeah . 3132607_3133087
+*MOT:	can you say byebye@q ? 3136303_3137407
+*MOT:	can you say byebye@q ? 3139633_3140717
+*MOT:	say byebye@q ! 3141973_3143133
+*MOT:	say byebye@q ! 3147743_3149033
+*MOT:	byebye . 3151030_3152067
+*MOT:	say byebye@q ! 3154880_3155963
+*MOT:	that sounds a little like it . 3158927_3160520
+*MOT:	say byebye@q ! 3161483_3162767
+*MOT:	there you go . 3166363_3167350
+*MOT:	that's Mommy eye . 3169187_3170517
+*MOT:	well here . 3176180_3176877
+*MOT:	sit down ! 3179023_3179720
+*MOT:	yes . 3185250_3185970
+*MOT:	I don't . 3187563_3188137
+*MOT:	I don't want it . 3188313_3189347
+*MOT:	can you say nose@q ? 3202820_3204130
+*MOT:	nose . 3205620_3206430
+*MOT:	that your nose ? 3207543_3208767
+*MOT:	that's your (...) belly . 3210960_3212423
+*MOT:	your belly . 3214497_3215710
+*MOT:	what are you doing ? 3232277_3233360
+*MOT:	&hmm ? 3235243_3235747
+*MOT:	here . 3246717_3246903
+*MOT:	hey . 3252060_3252960
+*MOT:	hey . 3254847_3255580
+*MOT:	let's see Mommy teeth ! 3256587_3257743
+*MOT:	yeah that's Mommy teeth . 3258957_3260437
+*MOT:	you gon(na) have all these teeth . 3272477_3274050
+*MOT:	uhoh . 3300243_3301047
+*MOT:	no . 3306763_3307430
+*MOT:	stop ! 3309870_3310770
+*MOT:	no . 3330163_3331193
+*MOT:	sit down ! 3331927_3332640
+*MOT:	Xavier , whatcha doing ? 3359397_3361067
+*MOT:	Xavier . 3375487_3376670
+*MOT:	yes ? 3391260_3391943
+*MOT:	whatcha doing ? 3399460_3400177
+*MOT:	stop it ! 3400250_3400810
+*MOT:	you standing up . 3406153_3407743
+*MOT:	after I told you not to . 3409847_3412103
+*MOT:	Xavier . 3419947_3420783
+*MOT:	yes ? 3423553_3424220
+*MOT:	uhoh . 3449127_3450037
+*MOT:	stop ! 3459963_3460837
+*MOT:	hey . 3476073_3476610
+*MOT:	stop ! 3478313_3479173
+*MOT:	uhoh . 3497270_3498140
+*MOT:	yes ? 3501660_3502477
+*MOT:	what's the matter with you , son ? 3503700_3505117
+*MOT:	what seems to be the problem ? 3506870_3508640
+*MOT:	always cranky (be)cause we getting close to nap time . 3512677_3515550
+*MOT:	is that it ? 3516810_3517710
+*MOT:	uhoh . 3530837_3531393
+*MOT:	uhoh . 3540913_3541603
+*MOT:	uhoh . 3589993_3590603
+*MOT:	what are you doing ? 3627440_3628530
+*MOT:	hey . 3651903_3652593
+*MOT:	www . 3674323_3674637
+*MOT:	www . 3678877_3680347
+*MOT:	boy . 3691417_3692127
+*MOT:	you just too excited for words . 3694203_3696340
+*MOT:	hey hey stop it ! 3714290_3715920
+*MOT:	Xavier . 3731737_3732963
+*MOT:	www . 3738977_3739453
+*MOT:	www . 3741553_3741797
+*MOT:	www . 3742800_3743223
+*MOT:	www . 3745290_3745670
+*MOT:	www . 3749267_3750993
+*MOT:	www . 3753193_3753650
+*MOT:	www . 3755920_3757217
+*MOT:	www . 3757670_3758613
+*MOT:	www . 3771747_3772687
+*MOT:	Xavier . 3776843_3777607
+*MOT:	here . 3780617_3780833
+*MOT:	yes you can play with that . 3788020_3789287
+*MOT:	www . 3801717_3802207
+*MOT:	uhoh . 3826070_3827123
+*MOT:	www . 3836830_3838027
+*MOT:	Xavier . 3854803_3856230
+*MOT:	lemme see ! 3858597_3859120
+*MOT:	come (h)ere ! 3859127_3859540
+*MOT:	look at Mama ! 3859993_3860697
+*MOT:	look at me ! 3861817_3862520
+*MOT:	I know . 3883257_3883853
+*MOT:	hello . 3921910_3922657
+*MOT:	you do not like me to clean your nose . 3923623_3925847
+*MOT:	xxx . 3969677_3970580
+*MOT:	alright I'm done . 4002573_4003593
+*MOT:	I'm done . 4004180_4004837
+*MOT:	I'm done . 4004860_4005573
+*MOT:	I'm . 4005587_4006047
+*MOT:	I'm done . 4006897_4007717
+*MOT:	I'm done . 4007717_4008293
+*MOT:	I'm done . 4008303_4008973
+*MOT:	I'm done . 4008987_4009697
+*MOT:	I'm done . 4009707_4010463
+*MOT:	I'm done . 4010473_4010977
+*MOT:	I'm done . 4010983_4011403
+*MOT:	I'm done . 4011410_4011813
+*MOT:	I'm done . 4011823_4012197
+*MOT:	I won't do it again . 4012210_4013500
+*MOT:	I won't do it again . 4014487_4016083
+*MOT:	I promise . 4017380_4018307
+*MOT:	okay ? 4021190_4022180
+*MOT:	you still my friend ? 4033533_4035337
+*MOT:	Xavier . 4043127_4044127
+*MOT:	are you still gon(na) be my friend ? 4048930_4050597
+*MOT:	you don't know . 4054777_4056147
+*MOT:	you don't know . 4059680_4061187
+*MOT:	I love you . 4066903_4068327
+*MOT:	I love you . 4069990_4071443
+*MOT:	no . 4073187_4073950
+*MOT:	that's what I was cleaning . 4074727_4075993
+*MOT:	you don't like me to clean it . 4076843_4078260
+*MOT:	but it just gets so messy . 4082870_4084747
+*MOT:	you having fun ? 4093123_4094270
+*MOT:	Xavier . 4115103_4116247
+*MOT:	no . 4119907_4120757
+*MOT:	don't do that ! 4122890_4124317
+*MOT:	no . 4130097_4130950
+*MOT:	no . 4137300_4138130
+*MOT:	don't do that ! 4140380_4142120
+*MOT:	o:h (ex)cuse me ! 4151500_4152687
+*MOT:	Mommy had to cough . 4154443_4155450
+*MOT:	what are you doing ? 4161530_4162597
+*MOT:	what are you doing ? 4163927_4165297
+*MOT:	you don't wanna play with that anymore ? 4170537_4172427
+*MOT:	huh ? 4174040_4174467
+*MOT:	Xavier . 4201403_4202457
+*MOT:	what are you doing ? 4207847_4208800
+*MOT:	you having fun with your ribbon ? 4214020_4215567
+*MOT:	huh ? 4217940_4218300
+*MOT:	hello [?] . 4240583_4241150
+*MOT:	no . 4245943_4246680
+*MOT:	Mommy doesn't want it . 4247557_4248683
+*MOT:	uhoh . 4304663_4305627
+*MOT:	Xavier . 4320890_4321647
+*MOT:	watch out ! 4329083_4329803
+*MOT:	watch out ! 4348380_4349063
+*MOT:	watch out ! 4378417_4379093
+*MOT:	uhhuh . 4381723_4382510
+*MOT:	you threw it down . 4398833_4400287
+*MOT:	I'll get it . 4403100_4403960
+*MOT:	I'll get it . 4405320_4406277
+*MOT:	sit down ! 4406317_4407033
+*MOT:	there . 4409867_4410283
+*MOT:	uhoh . 4450973_4451743

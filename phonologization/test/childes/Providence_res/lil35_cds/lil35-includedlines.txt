@@ -1,0 +1,815 @@
+*MOT:	would that be fun ? 1016_1691
+*MOT:	at the mall . 7455_8431
+*MOT:	xxx . 8431_11375
+*MOT:	yeah . 11375_12028
+*MOT:	that is a good question . 14620_16235
+*MOT:	this poor tea set we don't know where anything is . 16235_19748
+*MOT:	do you think we should go later and get you a new tea set ? 19748_22956
+*MOT:	what do you think ? 22956_24385
+*MOT:	I know . 26455_27286
+*MOT:	you need a new tea pot (be)cause we can't find your old one . 27286_29711
+*MOT:	hmm . 29658_30741
+*MOT:	boy oh boy . 30741_33145
+*MOT:	I don't even know where another cup is . 36086_38611
+*MOT:	although it's probably hiding somewhere around here . 38611_41113
+*MOT:	let's see you were playing with one with Gabby yesterday right ? 41113_46545
+*MOT:	oy remind mommy to clean under the couch later . 46545_55023
+*MOT:	my coffee . 57746_59223
+*MOT:	oh my gosh Lily look who I found under the couch . 59223_63878
+*MOT:	huh .
+*MOT:	Thomas . 66920_68478
+*MOT:	that's a good question . 70040_71110
+*MOT:	let's see .
+*MOT:	look here's the little squirrel .
+*MOT:	xxx . 76646_77631
+*MOT:	ooh .
+*MOT:	whoo . 88791_91258
+*MOT:	how about that . 91258_93596
+*MOT:	oh . 95050_96778
+*MOT:	great . 96906_98546
+*MOT:	my_goodness I didn't know this much stuff could fit under a couch . 98546_106148
+*MOT:	my gosh what's mommy's measuring cup doing under the couch ?
+*MOT:	that's crazy . 113251_115475
+*MOT:	doo doo .
+*MOT:	your flower puzzle .
+*MOT:	right . 127810_129211
+*MOT:	how about that . 132090_133586
+*MOT:	that's neat . 135416_136343
+*MOT:	oh it's for you and me . 140290_142568
+*MOT:	great . 142568_144890
+*MOT:	a dress for Polly .
+*MOT:	hmm .
+*MOT:	he does ? 157153_158480
+*MOT:	oh my gosh .
+*MOT:	this is like finding all new toys .
+*MOT:	I haven't found Percy yet . 172360_174631
+*MOT:	I'm still looking . 174631_177023
+*MOT:	ah who's that ? 181305_185313
+*MOT:	Jake the snake . 187930_189810
+*MOT:	hmm .
+*MOT:	we haven't found Percy we'll have_to keep looking . 195840_198035
+*MOT:	here's your magic spoon . 198035_199785
+*MOT:	wow .
+*MOT:	that's great . 204331_206321
+*MOT:	I know I don't see Percy either .
+*MOT:	we will need to keep looking for Percy . 212888_217570
+*MOT:	in the mean time +... 217570_220276
+*MOT:	mommy is going to have a lil [: little] (.) coffee . 220276_225593
+*MOT:	doo_doo_doot_d_doot_doot_do@si . 225593_230961
+*MOT:	doo_doo_doot_doo@si . 230961_236553
+*MOT:	doot_da_da@si . 236553_239330
+*MOT:	hmm hmm hmm . 239330_241715
+*MOT:	hmm hmm hmm hmm . 241715_243096
+*MOT:	what sweetie pie ? 249956_251195
+*MOT:	I'm just making my drink . 255343_258973
+*MOT:	really ? 268411_273480
+*MOT:	I'm back . 284321_287215
+*MOT:	I'm back . 287215_288491
+*MOT:	what are you playing with ? 288491_292035
+*MOT:	I did . 300780_302298
+*MOT:	we haven't found Percy yet . 304226_305478
+*MOT:	we'll need to keep looking . 305478_306448
+*MOT:	you mean Percy ? 315235_316420
+*MOT:	we'll need to keep looking for Percy . 317548_320045
+*MOT:	right . 322746_323440
+*MOT:	you are right . 330433_331578
+*MOT:	and what color is James ? 331578_334721
+*MOT:	red . 336145_336611
+*MOT:	you're right .
+*MOT:	what color is Henry ? 341258_342686
+*MOT:	green too . 343833_344930
+*MOT:	right . 344930_353566
+*MOT:	what's your snake doing ? 353568_355385
+*MOT:	a:h .
+*MOT:	he's falling into thin air . 366573_369345
+*MOT:	just like Harold right ?
+*MOT:	right .
+*MOT:	you know what ? 373771_377033
+*MOT:	you're funny . 377033_378575
+*MOT:	yoink@o . 383500_384243
+*MOT:	oh you need a rope to pull him out ? 396785_398325
+*MOT:	is he stuck in the sticky mud ? 398325_399598
+*MOT:	yeah . 400665_401105
+*MOT:	there is a green bed . 409371_411225
+*MOT:	oh_my_goodness . 410861_422901
+*MOT:	hello ?
+*MOT:	ah where is the other red bed ?
+*MOT:	hmm . 434180_435115
+*MOT:	I (.) oh it's right over there sweets . 435115_438968
+*MOT:	right near bear . 438968_442816
+*MOT:	see where bear is honey ? 442818_444285
+*MOT:	there's the red bed . 444285_449516
+*MOT:	would you like to read a book sweetie ? 449518_452638
+*MOT:	ah is the oven already I thought I put the oven in the house already ? 455111_458555
+*MOT:	is it upstairs ? 458555_459620
+*MOT:	oh there it is . 461188_462753
+*MOT:	oh there .
+*MOT:	there it is .
+*MOT:	where is the clock ? 464858_466920
+*MOT:	it is ? 468771_469663
+*MOT:	mommy's gonna pull your yoink@o pants up . 469663_472013
+*MOT:	there it is . 473851_475238
+*MOT:	what time is it ? 475238_477106
+*MOT:	what time does the clock say it is ? 477106_481840
+*MOT:	is it breakfast time ? 481841_484116
+*MOT:	it is ? 484785_485520
+*MOT:	what do you like to eat for breakfast ? 485520_488186
+*MOT:	you like to eat grilled cheese for breakfast . 490690_492786
+*MOT:	oh . 493328_494445
+*MOT:	that's yummy . 494445_495923
+*MOT:	do you like to eat grilled cheese for lunch ? 495923_503365
+*MOT:	mhm .
+*MOT:	oh . 511166_518288
+*MOT:	hmm . 518289_529635
+*MOT:	oh that looks good . 539371_543836
+*MOT:	yes . 546846_553171
+*MOT:	hmm . 557830_558646
+*MOT:	that way . 560283_582125
+*MOT:	mhm . 584625_594075
+*MOT:	that's your giraffe . 597383_598653
+*MOT:	Alec likes the giraffes to doesn't he ? 603295_605265
+*MOT:	where do you go see giraffes with Alec ? 605265_607323
+*MOT:	at the zoo . 608615_609786
+*MOT:	and who usually what kind of bird lives with the giraffes at the zoo ? 609786_613773
+*MOT:	what's that bird ? 614240_615596
+*MOT:	are you poopie ? 615596_616543
+*MOT:	is (.) what kind what's that tall bird ? 617373_620386
+*MOT:	with the black feathers and the white feathers on the tushie . 620856_623821
+*MOT:	is that the ostrich ? 624656_626021
+*MOT:	yeah . 626866_627525
+*MOT:	yeah . 630160_630690
+*MOT:	you did see the sea lions at the aquar(ium) well you saw the sea lions at the zoo and the aquarium didn't you ? 635901_649250
+*MOT:	you saw elephants . 652171_653820
+*MOT:	you saw lions ? 657380_658301
+*MOT:	where did we see lions ? 658301_659596
+*MOT:	hmm I don't think we have lions in our zoo . 660655_662931
+*MOT:	but we did see it in the book about Corduroy goes to the zoo . 662931_666328
+*MOT:	he saw lions . 666328_667528
+*MOT:	right . 670185_670910
+*MOT:	maybe it's in the basket . 674903_676225
+*MOT:	are you ready for your diaper change ?
+*MOT:	I think it should be in there . 684198_685946
+*MOT:	hmm I think it should be in there somewhere . 692678_695948
+*MOT:	would you like to read a different book ? 695948_697513
+*MOT:	what's another book we can read together ? 698641_703115
+*MOT:	okay . 705516_706373
+*MOT:	how about we change your diaper first ? 706373_708576
+*MOT:	I don't think you're gonna wanna sit down if you have a poopie diaper . 709123_712311
+*MOT:	lil [: little] miss spider . 714413_715660
+*MOT:	okay but first mommy has to change your diapie . 716373_718430
+*MOT:	yeah . 718856_719503
+*MOT:	well I wouldn't like a dirty diaper either . 724518_726595
+*MOT:	I would like a nice clean diaper . 726595_728656
+*MOT:	how about you ? 728656_730051
+*MOT:	I think so . 730901_731811
+*MOT:	I think so . 732445_736766
+*MOT:	let's see . 736768_738648
+*MOT:	whoop . 738648_739955
+*MOT:	what's this ? 739955_741568
+*MOT:	what is this ? 744111_746628
+*MOT:	xxx . 746628_750778
+*MOT:	who's on the huh .
+*MOT:	Grover ? 755093_756303
+*MOT:	what's he doing ? 756303_757773
+*MOT:	he's with a monkey ? 760331_761573
+*MOT:	where is he ? 761573_762373
+*MOT:	in that jungle ? 765390_766723
+*MOT:	wow . 766723_768503
+*MOT:	that's great . 768751_770650
+*MOT:	that's (.) terrific . 770650_775651
+*MOT:	you know what ? 775651_778996
+*MOT:	xxx . 778996_783120
+*MOT:	you know what ? 783120_784438
+*MOT:	I love you .
+*MOT:	(o)kay let's change the diapie and then mommy will read to you . 787111_790596
+*MOT:	wha(t) ? 792196_793321
+*MOT:	oh hey yeah the little babies were going to eat Miss Spider . 793321_797078
+*MOT:	but Betty Beetle saved her . 797050_799493
+*MOT:	right ? 799493_800155
+*MOT:	yay Betty Beetle . 800238_803525
+*MOT:	ray Betty Beetle . 803525_807350
+*MOT:	(o)kay let's change the diaper . 807350_811218
+*MOT:	and then we'll read a book . 812236_814393
+*MOT:	let's slide over here . 814393_815288
+*MOT:	come here angel . 815288_816065
+*MOT:	yeah . 816720_817391
+*MOT:	quick diaper change .
+*MOT:	yeah well . 819648_820385
+*MOT:	poopie diaper . 827051_829443
+*MOT:	poopie diaper .
+*MOT:	poopie diaper . 832723_835768
+*MOT:	now I need more wipes . 835768_840173
+*MOT:	okay well you wanna lie down ? 844876_847768
+*MOT:	just for a lil [: little] bit on your funny backpack . 847768_852358
+*MOT:	oh that's crazy . 852358_853685
+*MOT:	whoa . 853685_855645
+*MOT:	poopie diaper poopie diaper . 855645_860375
+*MOT:	that is your tushie . 862891_864098
+*MOT:	right Alec has a penis but he has a tushie too . 870793_873518
+*MOT:	and daddy has a penis right . 876758_878223
+*MOT:	and so does Alec . 878223_879836
+*MOT:	all boys do . 879836_881371
+*MOT:	right . 884580_885416
+*MOT:	it's true . 886255_887241
+*MOT:	and what do girls have ? 887590_889863
+*MOT:	well girls have tushies and girls also have a vagina .
+*MOT:	right ? 895693_897921
+*MOT:	just like in your Prudence book . 897921_900455
+*MOT:	where's your what (.) oh your Prudence book ? 904298_906456
+*MOT:	we'll have_to look for your Prudence book . 906456_908968
+*MOT:	Prudence has a tushie and Prudence has a vagina . 911183_914080
+*MOT:	she's a girl . 914080_915423
+*MOT:	she loves to sit on her potty .
+*MOT:	doesn't she ? 921451_922491
+*MOT:	does she pee and poop on her potty ? 922511_925363
+*MOT:	yeah . 928193_928708
+*MOT:	can mom have a kiss ? 928708_929766
+*MOT:	xxx . 929766_932263
+*MOT:	hey where's my kiss ? 932263_933260
+*MOT:	I love you . 933260_934753
+*MOT:	where is Percy ? 936500_937908
+*MOT:	goodness gracious . 937908_938958
+*MOT:	is Percy hiding from us ? 938958_943821
+*MOT:	chugga@o chugga@o choo choo .
+*MOT:	chugga@o chugga@o choo choo . 959178_962056
+*MOT:	right Percy is green . 983295_985190
+*MOT:	and Thomas is blue . 985190_988418
+*MOT:	and you need your pants on . 988418_992370
+*MOT:	can you hold on to the table for me for a sec ? 992370_993978
+*MOT:	thanks sweets . 993978_994581
+*MOT:	oh it's a lil [: little] blue ball . 995858_997550
+*MOT:	where did that come from ? 997550_998523
+*MOT:	oh . 1007906_1008815
+*MOT:	that's your Hanukkah ball . 1011501_1012590
+*MOT:	would you like to read your good_night gorilla book ? 1012590_1014771
+*MOT:	alright . 1017025_1018530
+*MOT:	climb on up . 1018530_1020531
+*MOT:	climb on up . 1022566_1023720
+*MOT:	who's that ? 1025911_1028151
+*MOT:	you know what that's actually the zoo keeper right . 1030331_1032625
+*MOT:	he's the one that takes care of all the animals at the zoo . 1032625_1034528
+*MOT:	but he is wearing a uniform like a police officer . 1034528_1036750
+*MOT:	but his is green . 1036750_1038115
+*MOT:	what's (.) what's the zoo keep .
+*MOT:	and right zoo keeper is wearing green pants . 1043319_1045240
+*MOT:	and a green shirt and green hat . 1045240_1046953
+*MOT:	and keys .
+*MOT:	he has a flash light . 1050021_1051126
+*MOT:	mhm .
+*MOT:	right all those different color keys .
+*MOT:	and blue too . 1063383_1064636
+*MOT:	good night gorilla says the zoo keeper . 1064636_1067626
+*MOT:	and the gorilla is taking his keys isn't he ? 1067626_1071126
+*MOT:	&uh what's the gorilla doing ? 1071126_1074780
+*MOT:	he's following the zoo keeper very quietly . 1076090_1079283
+*MOT:	good night elephant . 1079281_1081575
+*MOT:	the elephant has a Babar doll . 1085173_1087160
+*MOT:	you're right . 1087160_1088261
+*MOT:	oh he has a ball and queen Celeste is on the ball . 1094260_1097771
+*MOT:	the elephant is out of it's cage . 1097640_1101243
+*MOT:	and the gorilla is taking the lion out . 1101243_1103896
+*MOT:	good night lion . 1103896_1105525
+*MOT:	&uh oh . 1105525_1107460
+*MOT:	good night hyena . 1107460_1110621
+*MOT:	good night giraffe . 1110621_1112286
+*MOT:	oh they're all coming out of their cages . 1112305_1115553
+*MOT:	good night . 1115553_1118485
+*MOT:	remember who that is ? 1123375_1124638
+*MOT:	armadillo . 1126063_1127385
+*MOT:	good night armadillo . 1129705_1131640
+*MOT:	the armadillo is out too . 1131640_1134156
+*MOT:	and they're all following the zoo keeper home . 1134156_1137556
+*MOT:	that is so silly . 1137556_1139883
+*MOT:	and they're all walking inside . 1139883_1146173
+*MOT:	and they're all gonna go to sleep in the zoo keepers room with the zoo keeper and his wife . 1146173_1154456
+*MOT:	that is so silly . 1154456_1156520
+*MOT:	good night dear says his wife . 1156520_1160570
+*MOT:	good night good night good night good night good night good night good night . 1160570_1167390
+*MOT:	good night . 1167390_1168906
+*MOT:	good night . 1168906_1170306
+*MOT:	good night . 1170306_1171441
+*MOT:	good night . 1171441_1172373
+*MOT:	good night . 1172373_1173508
+*MOT:	good night . 1173508_1174486
+*MOT:	good night . 1174486_1175420
+*MOT:	that's a lot of good nights . 1175420_1178361
+*MOT:	&uh oh . 1178361_1179931
+*MOT:	who is in that room ? 1179931_1182035
+*MOT:	she sees all the animals . 1182035_1186241
+*MOT:	&uh marches them right back . 1186241_1191168
+*MOT:	good night zoo . 1191168_1194498
+*MOT:	I know .
+*MOT:	the gorilla's [: gorilla is] following her back home . 1198038_1199758
+*MOT:	is that silly ? 1199758_1200660
+*MOT:	I know a little tiny mouse carrying a banana . 1204166_1207286
+*MOT:	oh_my_goodness . 1207286_1211498
+*MOT:	that says good night zoo . 1213648_1219310
+*MOT:	she says good night dear . 1221100_1222986
+*MOT:	and he says good night . 1222986_1224660
+*MOT:	that says good night . 1226373_1227653
+*MOT:	good night gorilla . 1230305_1232250
+*MOT:	that says zzzzz@o he's sleeping . 1233355_1237461
+*MOT:	zzzzz@o .
+*MOT:	they're all sleeping in the zoo .
+*MOT:	&uh there's the armadillo . 1259558_1262625
+*MOT:	where's the what ? 1267625_1268923
+*MOT:	yup .
+*MOT:	they're all in the zoo . 1271925_1273366
+*MOT:	yes .
+*MOT:	inside their cages . 1275575_1276910
+*MOT:	would you like to get another book ? 1276910_1280178
+*MOT:	to read together . 1282131_1287716
+*MOT:	what looks good ? 1287718_1291756
+*MOT:	hmm I don't know . 1297036_1300086
+*MOT:	hmm . 1301498_1307115
+*MOT:	hmm . 1310263_1314756
+*MOT:	is there a lil [: little] seed on your lollipop ? 1319386_1321595
+*MOT:	what's a seed doing there ? 1323078_1324615
+*MOT:	let me see . 1327531_1328660
+*MOT:	it is oh_goodness . 1330888_1332701
+*MOT:	that does look like a lil [: little] tiny seed doesn't it ? 1332701_1335638
+*MOT:	what's that ? 1335646_1336926
+*MOT:	oh just dirty I guess . 1336926_1338521
+*MOT:	a lil [: little] schmutz@s:yid . 1341320_1342373
+*MOT:	yeah . 1343185_1343776
+*MOT:	let me just fix your backpack . 1343776_1347591
+*MOT:	mhm . 1347591_1352296
+*MOT:	huh hmm . 1352296_1364711
+*MOT:	what book would you like to read ? 1364713_1371440
+*MOT:	I got your Hanukkah ball . 1371440_1382326
+*MOT:	what are you looking at ? 1382328_1384228
+*MOT:	it's an Intellitable . 1390920_1393018
+*MOT:	it is . 1394953_1396025
+*MOT:	you're right . 1396025_1396900
+*MOT:	what sweetie ? 1409450_1410346
+*MOT:	oh how do you spell daddy ? 1413086_1414711
+*MOT:	D A D D Y .
+*MOT:	&uh huh .
+*MOT:	mm hmm .
+*MOT:	do you want me to write it on a piece of paper so you can see it ?
+*MOT:	okay let me get a piece of paper . 1439198_1440956
+*MOT:	and a crayon and I will show you how to write it . 1441078_1444708
+*MOT:	okay . 1444708_1450438
+*MOT:	let's find a piece of paper . 1450438_1454915
+*MOT:	okay what should we spell ? 1454915_1456976
+*MOT:	okay .
+*MOT:	do you wanna spell daddy ? 1462706_1465180
+*MOT:	do you wanna spell Gabby ? 1465911_1467595
+*MOT:	can you tell me what this says ? 1468308_1471753
+*MOT:	it does say Lily . 1475958_1477730
+*MOT:	very good . 1477730_1478760
+*MOT:	okay can you tell me what this says ? 1479840_1484975
+*MOT:	that does say Gabby . 1486351_1488118
+*MOT:	you're right . 1488118_1489238
+*MOT:	lots_of princess stickers . 1494360_1496905
+*MOT:	lots_of stickers . 1498966_1499981
+*MOT:	should I spell hmm .
+*MOT:	should I spell another word for you ? 1502080_1503525
+*MOT:	let's see if you know what +//. 1505220_1508706
+*MOT:	that says mommy . 1515026_1517648
+*MOT:	mommy . 1519523_1521390
+*MOT:	and +... 1522615_1524308
+*MOT:	that +...
+*MOT:	that does say daddy . 1529925_1532060
+*MOT:	daddy . 1533165_1534238
+*MOT:	daddy . 1536081_1536950
+*MOT:	that says daddy . 1538291_1539716
+*MOT:	you're absolutely right . 1548383_1550153
+*MOT:	very good . 1550153_1552225
+*MOT:	very good . 1552218_1553818
+*MOT:	should we read your lil [: little] Miss spider book ? 1553818_1555413
+*MOT:	okay . 1555975_1556813
+*MOT:	very very good honey . 1556813_1559993
+*MOT:	you are a great reader . 1559993_1561621
+*MOT:	you're great . 1561621_1563545
+*MOT:	little miss spider popped pout of her egg . 1563545_1570525
+*MOT:	swinging down from a thread she hung on by one leg . 1570525_1574986
+*MOT:	watching brothers and sisters all scooting for cover . 1574986_1578681
+*MOT:	she dangled there wondering (.) where is my mother ? 1578681_1582191
+*MOT:	did she squeeze down a hole or dive under water ? 1582243_1586221
+*MOT:	why won't she come out here and meet her new daughter ? 1586221_1588925
+*MOT:	she climbed to the tippy top of a tree . 1588925_1592988
+*MOT:	gazing out on the world she sobbed where can mom be ? 1592988_1597360
+*MOT:	a beetle named Betty buzzed by this high perch . 1597360_1601106
+*MOT:	a child needs a mother may I please help you search . 1601106_1604365
+*MOT:	that's beetle Betty . 1606358_1608038
+*MOT:	I don't know for sure but +//.
+*MOT:	yeah I don't know for but she doesn't know that . 1611576_1614503
+*MOT:	I don't know for sure but I'll offer this clue if I were your mother I'd be looking for you . 1614503_1619570
+*MOT:	they flew through the trees spying down from the sky . 1619570_1623511
+*MOT:	and asked all the butterflies fluttering by . 1623511_1626646
+*MOT:	but none of the insects they happened upon had any idea where her mother had gone . 1626646_1631681
+*MOT:	that is a lady bug . 1633693_1635120
+*MOT:	she then asked a small spider as plump as a pig . 1636488_1641431
+*MOT:	have you seen my mom she's like me only big ? 1641431_1645035
+*MOT:	the sly spider laughed .
+*MOT:	that is a spider . 1648041_1649156
+*MOT:	as he gobbled his snack . 1649156_1650570
+*MOT:	up there is a mother who's yellow and black . 1650570_1653568
+*MOT:	with a heart full of joy she peered over the straw . 1653568_1656578
+*MOT:	but it wasn't her mother that miss spider saw . 1656578_1659106
+*MOT:	it was six hungry hatchlings and a goldfinch who cried . 1659130_1663125
+*MOT:	your dinner is here darlings so open up wide . 1663125_1666220
+*MOT:	yikes . 1666243_1667301
+*MOT:	oh they think miss spider is their dinner . 1669151_1671493
+*MOT:	before she could +...
+*MOT:	she was whisked out of sight and Brave_Bittle [//] Brave_Beetle_Betty was hugging her tight . 1673753_1680843
+*MOT:	oh_goodness .
+*MOT:	Betty saved her . 1682883_1684423
+*MOT:	in her warm cozy home +...
+*MOT:	she did . 1688463_1689765
+*MOT:	in her warm cozy home in the bark of a tree .
+*MOT:	the kind beetle asked won't you stay here with me ? 1693750_1696511
+*MOT:	then miss +...
+*MOT:	then miss spider smiled and held Betty fast . 1703693_1706711
+*MOT:	I looked for my mom and I found you at last . 1706711_1711025
+*MOT:	for finding your mother there's one certain test . 1711025_1714250
+*MOT:	you must look for the creature who loves you the +..?
+*MOT:	best . 1718418_1719550
+*MOT:	very good . 1719550_1721950
+*MOT:	that's a great book . 1721950_1723811
+*MOT:	you wanna read this one again ? 1726955_1728106
+*MOT:	little miss spider popped out of her egg . 1728176_1732561
+*MOT:	swinging down from a thread she hung on from one +..? 1732561_1736283
+*MOT:	leg . 1737213_1738088
+*MOT:	watching brothers and sisters all scooting for cover . 1738088_1741150
+*MOT:	she dangled there wondering where is my ? 1741150_1743600
+*MOT:	right . 1744590_1745358
+*MOT:	did she squeeze down a hole or dive under water ? 1745358_1748425
+*MOT:	why won't she come out here and meet her new ? 1748425_1750931
+*MOT:	right . 1751948_1753193
+*MOT:	she climbed to the tippy top of a tree . 1753193_1755553
+*MOT:	gazing out into the world she sobbed +...
+*MOT:	that's a pine cone . 1758433_1759708
+*MOT:	right . 1762293_1762798
+*MOT:	where could mom be ? 1762798_1764178
+*MOT:	I child needs a mother may I help you search ? 1767915_1770881
+*MOT:	I don't know for sure but I'll offer this clue . 1770881_1773971
+*MOT:	if I were your mom I'd be looking for you . 1773971_1776701
+*MOT:	they flew through the trees spying down from the sky . 1776751_1781291
+*MOT:	and asked all the butterflies fluttering by . 1781291_1783900
+*MOT:	lots_of butterflies . 1785461_1787090
+*MOT:	but none of the insects they happened upon had any idea where her mother had gone . 1787090_1792321
+*MOT:	she then asked a small spider and plump as a pig . 1792321_1796970
+*MOT:	have you seen my mom she's like me only big ? 1796970_1801196
+*MOT:	the sly spider laughed as she gobbled his snack . 1801196_1806036
+*MOT:	up there is a mother who's yellow and black . 1806036_1809453
+*MOT:	with a heart full of joy she peered over the straw . 1809453_1812980
+*MOT:	it wasn't her mother that miss spider saw . 1812980_1815945
+*MOT:	yikes . 1817330_1818445
+*MOT:	six hungry hatchlings and a +//. 1818445_1820731
+*MOT:	a gold finch . 1822398_1823278
+*MOT:	they thought miss spider was dinner . 1823278_1825191
+*MOT:	and the mommy tried to feed miss spider to her babies . 1825191_1828050
+*MOT:	your dinner's [: dinner is] here darling so open up wide . 1828093_1831331
+*MOT:	huh .
+*MOT:	well before she could +...
+*MOT:	well look . 1835686_1836656
+*MOT:	beetle Betty saved her . 1836656_1838225
+*MOT:	before she could blink she was whisked out of sight . 1838225_1841015
+*MOT:	brave beetle Betty was hugging her +//. 1841015_1844046
+*MOT:	tight . 1844783_1845766
+*MOT:	right .
+*MOT:	in her warm cozy home in the bark of a tree . 1848163_1851256
+*MOT:	the kind beetle asked won't you stay here with me ? 1851256_1854596
+*MOT:	then miss spider smiled and held beetle fast . 1854825_1860508
+*MOT:	I looked for my mom and I found you . 1860508_1863928
+*MOT:	at last .
+*MOT:	for finding your mother there's one certain test . 1866195_1869126
+*MOT:	you must look for the creature who loves you the +//.
+*MOT:	very good . 1873260_1874830
+*MOT:	the best .
+*MOT:	the best . 1877398_1878355
+*MOT:	you wanna get another book ? 1878355_1881175
+*MOT:	okay . 1881175_1882120
+*MOT:	okay . 1882120_1891220
+*MOT:	huh .
+*MOT:	what book is this ? 1894758_1896838
+*MOT:	Horton hatches the egg . 1898236_1900956
+*MOT:	wow . 1900956_1902490
+*MOT:	side lazy aside Mazy a lazy bird hatching an egg . 1906726_1912390
+*MOT:	I'm tired and I'm bored and I have kinks in my leg . 1912390_1915426
+*MOT:	from sitting just sitting here day after day . 1915426_1918971
+*MOT:	it's work how I hate it I'd much rather play . 1918971_1923026
+*MOT:	I'd take a vacation fly off for a rest . 1923026_1926620
+*MOT:	if I could find someone to stay on my nest . 1926620_1929976
+*MOT:	if I could find someone I'd fly away free . 1929976_1933361
+*MOT:	do you wanna read Chester's way instead ? 1933361_1936310
+*MOT:	okay . 1936841_1937440
+*MOT:	Chester's way . 1937440_1942061
+*MOT:	Chester had his own way of doing things . 1942061_1947178
+*MOT:	he always cut his sandwiches diagonally . 1947178_1951048
+*MOT:	he always got out of bed on the same side . 1951048_1953656
+*MOT:	and he never left the house without double knotting his shoes . 1953656_1957255
+*MOT:	Chester always had the same thing for breakfast . 1957255_1960298
+*MOT:	toast with jam and peanut butter . 1960298_1962598
+*MOT:	and he always carried a miniature first aid kit in his back pocket . 1962598_1966348
+*MOT:	just in case . 1966348_1967505
+*MOT:	you definitely have a mind of your own said Chester's mother . 1967505_1970961
+*MOT:	that's one way to put it said Chester's father . 1970961_1973445
+*MOT:	Chester's best friend Wilson was exactly the same way . 1973445_1977023
+*MOT:	that's why they were best friends . 1977023_1978976
+*MOT:	Chester wouldn't play baseball unless Wilson played and they never swung at the first pitch or slid head first . 1978976_1984986
+*MOT:	Wilson wouldn't ride his bicycle unless Chester wanted to and they always used hand signals . 1984986_1990883
+*MOT:	if Chester was hungry Wilson was to . 1990883_1993516
+*MOT:	but they rarely ate between meals . 1993516_1995176
+*MOT:	some days I can't tell those two apart said Wilson's mother . 1995491_1999171
+*MOT:	me either said Wilson's father . 1999171_2001498
+*MOT:	Chester and Wilson Wilson and Chester . 2001498_2004255
+*MOT:	that's the way it was . 2004255_2005770
+*MOT:	they loved to go on picnics . 2005770_2008395
+*MOT:	once when Wilson accidentally swallowed a watermelon seed and cried because he was afraid a watermelon plant would grow inside him . 2008395_2015038
+*MOT:	Chester swallowed one to . 2015038_2016778
+*MOT:	don't worry said Chester if you grow a watermelon plant I'll grow one to . 2016778_2021330
+*MOT:	Chester duplicated his Christmas list every year and gave a copy to Wilson because they always wanted to same things anyway . 2021330_2028108
+*MOT:	for Halloween they would always dress as things that went together . 2028108_2032283
+*MOT:	salt and pepper shakers two mittens on a string . 2032283_2034690
+*MOT:	ham and eggs . 2034690_2035860
+*MOT:	they really are two peas in a pod said Chester's mother . 2035860_2039171
+*MOT:	looks like it Chester's father . 2039171_2041308
+*MOT:	in spring Chester and Wilson shared the same umbrella . 2041308_2045908
+*MOT:	in winter they never threw snowballs at each other . 2045908_2048880
+*MOT:	in fall they raked leaves together . 2048880_2051701
+*MOT:	and in summer they reminded each other to wear sun screen to they wouldn't burn . 2051701_2056248
+*MOT:	Chester and Wilson Wilson and Chester . 2056248_2059530
+*MOT:	that's the way it was . 2059530_2060926
+*MOT:	and then Lily moved into the neighborhood . 2060926_2064583
+*MOT:	Lily had her own way of doing things . 2064583_2068081
+*MOT:	let's not hurt your teeth okay honey . 2068081_2076995
+*MOT:	she wore bandaids all over her arms and legs to look brave . 2076995_2080788
+*MOT:	she talked backwards to herself sometimes so no one would know what she was saying . 2080788_2084730
+*MOT:	and she never left the house without one of her nifty disguises . 2084730_2088298
+*MOT:	Lily waved at all the cars that passed by even if she didn't know who was in them . 2088298_2093046
+*MOT:	and she always carried a loaded squirt gun in her back pocket just in case . 2093046_2097438
+*MOT:	she definitely has a mind of her own said Chester . 2097438_2100576
+*MOT:	that's one way to put it said Wilson . 2100576_2102751
+*MOT:	when Lily asked Chester and Wilson to play they said they were busy . 2102751_2107420
+*MOT:	when she called them at home they disguised their voices and said they weren't home . 2107420_2111908
+*MOT:	if Lily was walking on one side of the street Chester and Wilson crossed to the other side and hid . 2111908_2117355
+*MOT:	she's something else said Chester . 2117355_2119481
+*MOT:	looks like it said Wilson . 2119481_2121310
+*MOT:	one day when Chester and Wilson were practicing their hand signals . 2121310_2125161
+*MOT:	some older boys rode by .
+*MOT:	well those are some older boys who rode by and they circled +...
+*MOT:	well that's an older boy and he's not very nice . 2132505_2135158
+*MOT:	that's Wilson and Chester . 2136878_2138298
+*MOT:	and that's an older boy . 2138298_2139496
+*MOT:	and that's an older boy . 2139496_2140745
+*MOT:	Chester and Wilson didn't know what to do . 2140745_2144280
+*MOT:	right . 2151040_2151838
+*MOT:	Chester and Wilson didn't know what to do . 2151661_2153886
+*MOT:	just when they were about to give up hope a fierce looking cat with horrible fangs jumped out of the bushes and frightened the older boys away . 2153886_2160770
+*MOT:	are you who I think you are Chester asked the cat ? 2160770_2164820
+*MOT:	of course the cat replied . 2164820_2167781
+*MOT:	thank you Lily said Chester . 2167781_2170680
+*MOT:	thank you cat . 2173118_2174656
+*MOT:	you're welcome Chester said Lily . 2174656_2176815
+*MOT:	thank you Lily said Wilson . 2176815_2179046
+*MOT:	right . 2182301_2183026
+*MOT:	she was . 2183026_2184243
+*MOT:	you're welcome Wilson said Lily . 2184243_2185993
+*MOT:	I'm glad you were wearing a disguise said Chester . 2185993_2188261
+*MOT:	and I'm glad you had your squirt gun said Wilson . 2188261_2190853
+*MOT:	I always do said Lily . 2190853_2192883
+*MOT:	just in case . 2192883_2193993
+*MOT:	afterward Chester invited Lily over for lunch . 2193993_2198446
+*MOT:	you have a muscle mouse cup said Lily ? 2198446_2201080
+*MOT:	of course said Chester . 2201080_2202785
+*MOT:	I do too .
+*MOT:	right there see he's holding his cup . 2205780_2208263
+*MOT:	oh her her cup must be at her house . 2210646_2212625
+*MOT:	Chester and Wilson cut their sandwiches diagonally . 2212625_2217235
+*MOT:	Lily asked Chester's mother if she had cookie cutters and she made stars and flowers and bells . 2217235_2222108
+*MOT:	mhm .
+*MOT:	and a flower right ? 2228811_2230175
+*MOT:	is that a flower shape sort of ?
+*MOT:	right . 2232215_2232716
+*MOT:	right . 2238380_2238948
+*MOT:	mhm .
+*MOT:	right . 2240241_2240823
+*MOT:	that night Lily invited Chester and Wilson to sleep over . 2240823_2244705
+*MOT:	you have a night light said Chester ? 2244705_2246795
+*MOT:	of course said Lily .
+*MOT:	right there . 2249250_2250216
+*MOT:	wow . 2250216_2252416
+*MOT:	Chester and Wilson wanted toast with jam and peanut butter for breakfast the next morning . 2252416_2257510
+*MOT:	boring said Lily . 2257510_2258950
+*MOT:	try this instead . 2258950_2260326
+*MOT:	wow this is good said Chester . 2260326_2262503
+*MOT:	wow said Wilson . 2262503_2264840
+*MOT:	after that when Lily asked Chester and Wilson to play they said yes . 2264973_2269728
+*MOT:	right . 2277423_2278445
+*MOT:	that's right . 2278445_2280843
+*MOT:	sometimes I can't tell these three apart said Lily's mother . 2280843_2285453
+*MOT:	me either said Lily's father . 2285453_2287291
+*MOT:	Chester and Wilson and Lily Lily and Wilson and Chester . 2287291_2290768
+*MOT:	that's the way it was . 2290768_2292241
+*MOT:	right right .
+*MOT:	drums .
+*MOT:	you're right . 2308961_2310176
+*MOT:	you're right . 2310176_2311088
+*MOT:	Chester has a purple balloon . 2311088_2312506
+*MOT:	Wilson has a pink balloon and a drum . 2312506_2314961
+*MOT:	Lily has a broom . 2314961_2316103
+*MOT:	you're absolutely right . 2316103_2317638
+*MOT:	for Halloween they dressed as the three blind mice . 2317638_2320435
+*MOT:	for Christmas Lily gave Chester and Wilson nifty disguises . 2320435_2324026
+*MOT:	well I think this is Chester because he's brown . 2325410_2328483
+*MOT:	this is Lily because she's white . 2328483_2330323
+*MOT:	and this is Wilson because he's grey . 2330323_2332241
+*MOT:	right right Chester right Chester is wearing one of Lily's boots .
+*MOT:	and Wilson is wearing the other one of Lily's boots . 2351243_2353750
+*MOT:	you have a drippy lollie . 2357315_2360818
+*MOT:	right a big picture .
+*MOT:	in spring Chester Wilson and Lily shared the same umbrella . 2364973_2368705
+*MOT:	in winter they never threw snowballs at each other . 2368705_2372238
+*MOT:	in fall they raked leaves together . 2372238_2374148
+*MOT:	and in summer they reminded each other to wear sun screen so they wouldn't burn . 2374148_2378108
+*MOT:	Chester and Wilson and Lily . 2378153_2380216
+*MOT:	Lily and Wilson and Chester . 2380216_2382078
+*MOT:	that's the way it was . 2382078_2383743
+*MOT:	and then Victor moved into the neighborhood . 2383743_2388325
+*MOT:	Victor . 2389858_2391393
+*MOT:	okay is the other one over there ? 2398851_2400311
+*MOT:	oh . 2402843_2414246
+*MOT:	oh_my_goodness look at your big animal book . 2414248_2416901
+*MOT:	should we read this one ? 2416901_2423410
+*MOT:	animal fun . 2423410_2427391
+*MOT:	let's see . 2427391_2428781
+*MOT:	who's sound ? 2429030_2432613
+*MOT:	which animal says moo ? 2432613_2435315
+*MOT:	the cow .
+*MOT:	which of these animals says woof ? 2437976_2440390
+*MOT:	doggie . 2441990_2442680
+*MOT:	which animal of these says bah ? 2442510_2445523
+*MOT:	right . 2447110_2447891
+*MOT:	and which of these animals says quack quack ? 2447891_2450485
+*MOT:	right . 2451785_2452730
+*MOT:	oh_my_goodness . 2452526_2454793
+*MOT:	let's see . 2454793_2456553
+*MOT:	right the babies and the mommies . 2459493_2460683
+*MOT:	who's baby is the lil [: little] chick ? 2460683_2462906
+*MOT:	who's the chicks mommy ?
+*MOT:	the chicken ? 2466213_2467083
+*MOT:	yeah . 2467928_2468551
+*MOT:	and who's the ducklings mommy ? 2468771_2470593
+*MOT:	the duck ? 2474626_2475783
+*MOT:	yeah .
+*MOT:	and who's mommy is the lil [: little] lamb ? 2477526_2481511
+*MOT:	who's the lil [: little] lamb's mommy ? 2481511_2483228
+*MOT:	the mommy sheep . 2487575_2488578
+*MOT:	and the baby foal belongs to the horse right ? 2488721_2491996
+*MOT:	mm hmm . 2495583_2495955
+*MOT:	oh is that a daddy horse ? 2497151_2498966
+*MOT:	oh .
+*MOT:	and a baby one . 2503531_2505351
+*MOT:	oh look at the doggies . 2506380_2508520
+*MOT:	wow . 2508520_2509846
+*MOT:	look at those doggies . 2511953_2513816
+*MOT:	wow . 2513816_2515050
+*MOT:	oh boy . 2517521_2518246
+*MOT:	can you find the orange lion ? 2518246_2520106
+*MOT:	there's the orange lion . 2520050_2522420
+*MOT:	can you find the green crocodile ? 2522420_2524716
+*MOT:	there's the green crocodile . 2524716_2527623
+*MOT:	what's this ? 2527623_2528553
+*MOT:	a buffalo .
+*MOT:	right . 2538828_2539678
+*MOT:	can you find the purple flamingo ? 2539678_2543348
+*MOT:	there's the purple flamingo . 2543485_2546216
+*MOT:	but flamingo's aren't really purple right ? 2546216_2548393
+*MOT:	what color are flamingos ? 2548393_2549696
+*MOT:	right . 2550788_2551211
+*MOT:	that one's a pink a green and a purple one and a green one . 2553043_2555180
+*MOT:	can you find the pink monkey ? 2557730_2560240
+*MOT:	where's the pink monkey ? 2560240_2563078
+*MOT:	&uh there he is . 2563078_2563985
+*MOT:	what's he doing ? 2563985_2564811
+*MOT:	oh my gosh . 2567240_2568211
+*MOT:	he's climbing a tree . 2568211_2569863
+*MOT:	right . 2575146_2576190
+*MOT:	right . 2582250_2582953
+*MOT:	oh boy . 2588211_2589701
+*MOT:	right .
+*MOT:	oh . 2593358_2593720
+*MOT:	wow . 2595345_2597153
+*MOT:	oo look at the shapes . 2597153_2599265
+*MOT:	can you find the circle ? 2599265_2601076
+*MOT:	can you find the circle in that picture ? 2601076_2604730
+*MOT:	that's the circle right . 2604730_2606973
+*MOT:	that is a circle . 2608943_2610173
+*MOT:	in this +...
+*MOT:	right .
+*MOT:	can you +...
+*MOT:	that is a triangle . 2616210_2617248
+*MOT:	you're right . 2617248_2617896
+*MOT:	can you find a huh huh huh huh huh could you a rectangle ? 2617896_2623386
+*MOT:	that is a rectangle . 2623386_2626943
+*MOT:	you're right . 2626943_2627653
+*MOT:	that is a (.) that is a trap &uh that is a pentagon . 2628880_2633478
+*MOT:	hello ?
+*MOT:	hello ? 2634978_2639011
+*MOT:	okay . 2639013_2643076
+*MOT:	okay .
+*MOT:	that's a pentagon . 2649218_2650646
+*MOT:	okay .
+*MOT:	&um Lily has her Brown study now . 2660258_2669521
+*MOT:	yeah . 2669523_2671491
+*MOT:	okay .
+*MOT:	okay .
+*MOT:	let's see . 2678626_2680381
+*MOT:	can you find a star ? 2680381_2681986
+*MOT:	there's a star . 2681986_2687906
+*MOT:	right . 2689426_2690555
+*MOT:	can you find (.) a cube ? 2690445_2696085
+*MOT:	do you know what a cube looks like ? 2696085_2697380
+*MOT:	yes that is a cube . 2697371_2699698
+*MOT:	right . 2703681_2704583
+*MOT:	these are all cubes .
+*MOT:	right .
+*MOT:	that's a lot of oranges . 2717395_2718763
+*MOT:	do you wanna count the oranges ? 2718763_2720298
+*MOT:	wow . 2727621_2728151
+*MOT:	that's a lot of oranges .
+*MOT:	right two apples . 2733901_2735300
+*MOT:	do you wanna go get another book (.) to read ? 2735300_2738563
+*MOT:	he has blue feet .
+*MOT:	oh .
+*MOT:	wow . 2759130_2759658
+*MOT:	and a beautiful rainbow . 2761031_2763948
+*MOT:	wow . 2763858_2765386
+*MOT:	would you like to go get another book sweetie ? 2765386_2770785
+*MOT:	oh boy ! 2770786_2792625
+*MOT:	ouch . 2792626_2794941
+*MOT:	that's not so good for your teeth is it ? 2794941_2798978
+*MOT:	it's good to lick it . 2801331_2802995
+*MOT:	right . 2802995_2807481
+*MOT:	what's that ? 2807483_2809210
+*MOT:	who's that ? 2810168_2811430
+*MOT:	huh that is the x_ray . 2819513_2820953
+*MOT:	that's Gaspar's skeleton . 2820953_2822881
+*MOT:	oh that is Gaspar's hospital room . 2825331_2827581
+*MOT:	that is Gaspar's doctor . 2830103_2832126
+*MOT:	his name is (.) Dr White . 2835436_2840766
+*MOT:	(be)cause he wears a white coat . 2840896_2848191
+*MOT:	what's the name of this book ? 2848193_2849751
+*MOT:	Gaspar in the hospital . 2852971_2855418
+*MOT:	okay . 2855385_2857560
+*MOT:	last summer I was Gaspar the dog walker . 2857560_2863840
+*MOT:	when our neighbors went on vacation I walked their dogs . 2863840_2867198
+*MOT:	that what sweetie ? 2869813_2871821
+*MOT:	that puppy is pooping . 2875096_2876610
+*MOT:	right . 2876610_2877310
+*MOT:	and what about the other puppies ? 2877310_2880043
+*MOT:	what kind of puppy is that ? 2880043_2881626
+*MOT:	a small one . 2883980_2885630
+*MOT:	a bigga [: big] bee [?] . 2887018_2888300
+*MOT:	right . 2892661_2893188
+*MOT:	a big one and a small one . 2895213_2897083
+*MOT:	guess what I bought with the money they gave me ? 2897123_2900021
+*MOT:	a key chain with a little race car . 2900021_2904750
+*MOT:	that's his little key chain . 2905583_2907303
+*MOT:	it's a little race+car . 2909718_2914055
+*MOT:	everyone at school wanted it . 2914055_2915793
+*MOT:	but it was mine . 2915793_2917360
+*MOT:	I was scared someone would steal it . 2917791_2921286
+*MOT:	I'm not dumb . 2921286_2922623
+*MOT:	I knew the perfect place to hide it . 2922623_2924526
+*MOT:	I put the key chain in my mouth . 2924526_2927680
+*MOT:	oh no I swallowed it ! 2927680_2931503
+*MOT:	oh honey honey let's not drip the lollie all over okay sweets ? 2931503_2935256
+*MOT:	sweetie (.) yikes . 2935256_2937381
+*MOT:	yikes ! 2937381_2939445
+*MOT:	the lollie is getting messy . 2939445_2942883
+*MOT:	xxx . 2942993_2954910
+*MOT:	oh honey honey honey honey . 2954910_2956608
+*MOT:	honey sweets . 2956608_2957921
+*MOT:	honey ? 2957921_2958943
+*MOT:	oh my gosh I've never seen such a messy lollie in my life . 2958943_2961926
+*MOT:	oh my gosh . 2961926_2963615
+*MOT:	oh_my_goodness . 2963615_2966146
+*MOT:	that's one whoopsie . 2966146_2968815
+*MOT:	hmm .
+*MOT:	suddenly I felt very sick . 2972848_2975575
+*MOT:	our teacher was worried . 2975575_2977395
+*MOT:	what happened Gaspar she asked ? 2977395_2979186
+*MOT:	but I didn't answer . 2979186_2980586
+*MOT:	I was +...
+*MOT:	oh he swallowed his key chain . 2982305_2984746
+*MOT:	oh he swallowed his key chain and now he was a tummy ache . 2986950_2989676
+*MOT:	my teacher called an ambulance . 2989775_2993415
+*MOT:	and the ambulance people put me on a stretcher . 2993415_2995961
+*MOT:	they asked me what happened but I still didn't want to tell . 2995921_2999231
+*MOT:	well (.) his name is Mike . 3001065_3005031
+*MOT:	and I think his name is Joe . 3006080_3008248
+*MOT:	think so ? 3008383_3012215
+*MOT:	yeah . 3012615_3013165
+*MOT:	it was a little hard to explain why I put a key chain in my mouth . 3013165_3016573
+*MOT:	they took me to the hospital . 3016573_3019115
+*MOT:	I had a big room all to myself . 3019115_3022658
+*MOT:	the nurse took off my white scarf and put a white gown on me . 3022658_3025815
+*MOT:	don't worry she said we'll take good care of you . 3025815_3028578
+*MOT:	it won't hurt . 3028578_3029561
+*MOT:	but I was still a little scared . 3029561_3031618
+*MOT:	especially when she took me to the x_ray room . 3031618_3034193
+*MOT:	he's a little bit scared .

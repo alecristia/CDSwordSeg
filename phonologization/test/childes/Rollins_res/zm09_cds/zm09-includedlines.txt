@@ -1,0 +1,384 @@
+*MOT:	want to see what else is in there ? 157871_160095
+*MOT:	oh . 160095_162113
+*MOT:	ahda@si . 162113_165183
+*MOT:	0 [=! gasps] . [+ trn] 166753_167258
+*MOT:	Big_Bird . 167526_169095
+*MOT:	Big_Bird . 170748_173073
+*MOT:	0 [=! gasps] . [+ trn] 173478_174328
+*MOT:	oh . 174830_176598
+*MOT:	0 [=! gasps] . [+ trn] 176598_177966
+*MOT:	Bert ! 178535_179801
+*MOT:	that's Bert . 179801_182288
+*MOT:	cootchycoo@o yyy . 182288_189231
+*MOT:	say <da:da:@o> [>] . 189231_190738
+*MOT:	dadada@o . 191305_193473
+*MOT:	0[=! gasps] . [+ trn] 193473_194863
+*MOT:	oh . 195196_196748
+*MOT:	oh my ! 198333_199818
+*MOT:	oh my ! 200390_202391
+*MOT:	<bird bird birdie> [=! singing] . 202391_206501
+*MOT:	<bird bird birdie> [=! singing] . 207818_210723
+*MOT:	wo:w . 211525_214235
+*MOT:	oh what else is in there ? 215453_217611
+*MOT:	look_it [: look] . 217876_218728
+*MOT:	&ah . 218728_225285
+*MOT:	hat . 225285_226101
+*MOT:	hat . 226101_228323
+*MOT:	0 [=! laughs] . [+ trn] 230516_232141
+*MOT:	you like your hat ? 232908_236145
+*MOT:	0 [=! gasps] . [+ trn] 236145_236836
+*MOT:	no ! 237386_238921
+*MOT:	<oh> [=! gasping] . 238921_241008
+*MOT:	0 [=! gasps] . [+ trn] 241008_243226
+*MOT:	can you get it off ? 246151_247825
+*MOT:	0 [=! laughs] . [+ trn] 248516_251985
+*MOT:	0 [=! kiss] . [+ trn] 251985_254005
+*MOT:	0 [=! laughs] . [+ trn] 254005_255973
+*MOT:	what else you see in there ? 256790_258726
+*MOT:	get something else ? 258726_264716
+*MOT:	Mot got lipstick on your head . 264716_268603
+*MOT:	oh . 269960_270926
+*MOT:	oh there's just too much new stuff . 273363_276483
+*MOT:	bowrowrowrow@o . 276483_279403
+*MOT:	bowrowrowroo@o . 280086_281690
+*MOT:	mmoo:@o . 281690_287805
+*MOT:	mmoo@o . 288271_290390
+*MOT:	0 [=! gasps] . [+ trn] 290390_293666
+*MOT:	a book ! 294000_295035
+*MOT:	<a book> [>] . 295035_296720
+*MOT:	look . 297203_298071
+*MOT:	see . 298071_299588
+*MOT:	0 [=! gasps] . [+ trn] 299588_301308
+*MOT:	see the bear ? 301858_303176
+*MOT:	see the bear ? 304345_306263
+*MOT:	look Chi . 306263_308933
+*MOT:	o:h book . 309766_312070
+*MOT:	bunny . 312705_313511
+*MOT:	you're a bunny+girl . 314035_315785
+*MOT:	meow@o . 315785_318805
+*MOT:	meow@o . 319638_321341
+*MOT:	baby . 322325_324443
+*MOT:	that's a baby . 325265_326566
+*MOT:	say dadada@o . 327288_330693
+*MOT:	ahhda@o . 330966_333891
+*MOT:	chompchomp@o . 333891_336766
+*MOT:	0 . 339258_340190
+*MOT:	ye(a)h . 340190_341458
+*MOT:	ye(a)h . 341458_343011
+*MOT:	oh ? 343966_345168
+*MOT:	oh ? 345168_347041
+*MOT:	moo@o . 347625_349783
+*MOT:	oh . 350801_353488
+*MOT:	is (th)at good ? 354838_356175
+*MOT:	is (th)at good ? 357985_359220
+*MOT:	oh . 359220_361521
+*MOT:	poor cow . 362445_363380
+*MOT:	poor <cow> [>] . 364913_366533
+*MOT:	oh . 367256_367911
+*MOT:	oh my . 367911_369848
+*MOT:	oh . 371515_372223
+*MOT:	oh . 373558_374725
+*MOT:	poor cow . 374725_381016
+*MOT:	0 [=! gasp] . [+ trn] 382040_386645
+*MOT:	what is that ? 386645_389948
+*MOT:	rather have the book ? 391888_394491
+*MOT:	the book and the cow . 398801_401843
+*MOT:	ye(a)h . 402676_404280
+*MOT:	here's a dolly . 404280_408116
+*MOT:	0 . [+ trn] 410323_412993
+*MOT:	do you like the book ? 414795_417048
+*MOT:	here's another cow . 422693_424966
+*MOT:	mmo:o@o . 425768_427360
+*MOT:	<moo@o> [=! kiss] . 428795_431263
+*MOT:	<0 [=! kiss]> [>] . [+ trn] 431868_432803
+*MOT:	<&ah ye(a)h ye(a)h> [<] . 433471_434955
+*MOT:	ahadah@o . 434955_436896
+*MOT:	ahdah@o . 437513_439253
+*MOT:	<dahdah@o> [=! singing] . 440288_444396
+*MOT:	<dahdah@o> [=! singing] . 446783_449686
+*MOT:	oh . 454531_456038
+*MOT:	whoa . 457790_458506
+*MOT:	two cows . 460358_461513
+*MOT:	two cows . 462398_464250
+*MOT:	one . 465185_466470
+*MOT:	two . 466470_467771
+*MOT:	two cows . 467771_471391
+*MOT:	ahgrahrahrah@o . 471391_475311
+*MOT:	like to chew on the cows ? 476568_478960
+*MOT:	meow@o . 480578_481411
+*MOT:	ahooo@o . 483515_486768
+*MOT:	ahooo@o . 488343_491078
+*MOT:	o:h pretty . 491078_499238
+*MOT:	ringring@o . 500455_502180
+*MOT:	whoa . 502980_504951
+*MOT:	ringring@o . 504951_507218
+*MOT:	oh . 509108_509893
+*MOT:	book . 509893_516000
+*MOT:	book . 516783_517356
+*MOT:	ye(a)h [=! laughing] . 518206_519258
+*MOT:	it's a book . 519258_521059
+*MOT:	oh . 521059_522801
+*MOT:	book . 523576_524925
+*MOT:	oh does that feel good on the teeth ? 526043_529311
+*MOT:	does (th)at feel good on the teeth ? 530480_532716
+*MOT:	oh haha . 533668_535820
+*MOT:	yyy . [+ trn] 537628_538580
+*MOT:	yyy . 540250_541333
+*MOT:	&ah ye(a)h . [+ trn] 542551_543501
+*MOT:	oh . 543501_546590
+*MOT:	ye(a)h . 549266_550885
+*MOT:	<da@o> [>] . 550885_553905
+*MOT:	<da:da@o> [>] . 554623_555940
+*MOT:	dada@o . 557075_558793
+*MOT:	dada@o . 560145_562765
+*MOT:	<mama:@o> [>] . 562765_565935
+*MOT:	<dadada@o> [>] . 567670_569523
+*MOT:	aoodowow@o . 570875_572643
+*MOT:	bwabwa:@o . 574276_576095
+*MOT:	bwabwabwa@o . 576095_579365
+*MOT:	<dada:@o> [>] . 579365_582920
+*MOT:	dada:@o . 584471_587641
+*MOT:	can you get it ? 587641_590210
+*MOT:	can you get it ? 590210_592546
+*MOT:	rorwrowrowrrowrow@o . 592546_599155
+*MOT:	whoa . 599705_601706
+*MOT:	oh my . 601706_604225
+*MOT:	cow . 604225_607680
+*MOT:	<dada:@o> [>] . 607680_610566
+*MOT:	dadadada@o . 611585_613135
+*MOT:	dededede@o . 613135_617825
+*MOT:	oh my . 621110_622845
+*MOT:	0 . [+ trn] 622845_632245
+*MOT:	0[=! voc] . [+ trn] 632245_633730
+*MOT:	look at that big black hair . 633730_636498
+*MOT:	I know it's not <mine> [>] . 636498_639218
+*MOT:	<oh_goodness> [<] . 640888_642678
+*MOT:	I just didn't want you to have that . 642678_644513
+*MOT:	here angel . 646665_647400
+*MOT:	just didn't want you to have the hair . 647400_650086
+*MOT:	ye(a)h . 650086_652088
+*MOT:	<ye(a)h> [<] . 654041_654825
+*MOT:	oh . 654825_657343
+*MOT:	<bababababa:@o> [=! singing] . 657343_662750
+*MOT:	howw@o . 662750_666093
+*MOT:	everything you give baby she puts in her <mouth> [>] . 666093_669696
+*MOT:	she just puts <it all in her mouth> [>] . 670665_673051
+*MOT:	dududu@o . 673918_675920
+*MOT:	<oh> [<] . 683466_684651
+*MOT:	you wanna rock ? 684651_686186
+*MOT:	you wanna rock ? 686186_688156
+*MOT:	boobooboo@o . 688156_690408
+*MOT:	ye(a)h . 690408_693063
+*MOT:	<ahhah@o> [<] . 696316_698308
+*MOT:	<dededededoo@o> [<] . 698308_700193
+*MOT:	dedededoo@o . 700193_702613
+*MOT:	0 . [+ trn] 702613_704386
+*MOT:	0 . [+ trn] 704386_709508
+*MOT:	my_goodness . 709508_713663
+*MOT:	oh . 713663_717466
+*MOT:	xxx . 717466_720336
+*MOT:	what color do you want ? 720336_722423
+*MOT:	green . 722423_723806
+*MOT:	blue . 723806_726176
+*MOT:	green . 726176_727645
+*MOT:	arrgh@o . 727645_729380
+*MOT:	yumyum . 729380_730465
+*MOT:	ye(a)h . 730465_732483
+*MOT:	ye(a)h . 732483_735903
+*MOT:	orange . 735903_740228
+*MOT:	orange . 740228_741976
+*MOT:	bowrowrowrowrowbowrowrowrowroo@o . 741976_748050
+*MOT:	<xxx>[=! laughs] whooboobooboo@o . 748050_750720
+*MOT:	0[=! voc] . [+ trn] 750720_752838
+*MOT:	that's yellow . 752838_757226
+*MOT:	yellow . 757226_759146
+*MOT:	oh . 759146_761915
+*MOT:	oh . 761915_763440
+*MOT:	yes . 764041_766678
+*MOT:	here's another one too . 766678_768770
+*MOT:	oh ! 771421_772890
+*MOT:	oh ! 772890_774926
+*MOT:	can you figure out what that goes on there ? 774926_779848
+*MOT:	lookee [: look] here . 779848_782418
+*MOT:	0 . [+ trn] 782418_787078
+*MOT:	ye(a)h . 787078_794653
+*MOT:	0[=! laughs] . [+ trn] 794653_799025
+*MOT:	oh . 799025_802980
+*MOT:	oh red . 802980_806383
+*MOT:	red . 806383_808485
+*MOT:	blue . 808485_810510
+*MOT:	oh . 810510_816716
+*MOT:	<red and yellow and pink and blue> [=! singing] . 816716_822223
+*MOT:	<purple and orange and blue> [=! singing] . 822223_826943
+*MOT:	<I can sing a rainbow> [=! singing] . 826943_831215
+*MOT:	<sing a rainbow> [=! singing] . 831215_834101
+*MOT:	<sing a <rainbow> [>] to> [=! singing] . 834101_836808
+*MOT:	(doe)s (th)at feel good in your hand ? 838248_840233
+*MOT:	does (th)at feel good in your hand ? 840233_842936
+*MOT:	does that ? 842936_844538
+*MOT:	oh . 846056_851383
+*MOT:	whatcha [: what do you] got ? 851383_854670
+*MOT:	green . 854670_855788
+*MOT:	does green taste good . 855788_859191
+*MOT:	&hmm ? 859191_860826
+*MOT:	daba@o . 863830_867233
+*MOT:	<dadadadada@o> [>] . 867233_868506
+*MOT:	ahdadadadada@o . 869675_872145
+*MOT:	dadadada@o . 872145_874163
+*MOT:	oh . 874163_879335
+*MOT:	good girl . 879335_884708
+*MOT:	good girl . 884708_889045
+*MOT:	0[=! laughs] . [+ trn] 894568_904450
+*MOT:	you want orange ? 904450_908416
+*MOT:	oh . 908416_912020
+*MOT:	there's a new color . 912020_914490
+*MOT:	ye(a)h . 914490_916925
+*MOT:	oh ye(a)h . 921913_922870
+*MOT:	what else ? 922870_925756
+*MOT:	what else can you say ? 925756_929776
+*MOT:	&hmm ? 929776_932580
+*MOT:	dada@o . 934951_935650
+*MOT:	bwa:bwabwa@o . 935650_939771
+*MOT:	bwa:bwabwa@o . 942960_945111
+*MOT:	oh . 945111_948470
+*MOT:	are you havin(g) fun <xxx> [>] . 954316_955766
+*MOT:	oh_goodness . 956653_958453
+*MOT:	ye:s . 961673_963125
+*MOT:	still like those „ huh ? 963125_969471
+*MOT:	have_to get you some of these . 972443_974393
+*MOT:	Fischer_Price . 974393_977280
+*MOT:	ye(a)h . 979231_980883
+*MOT:	o:h . 980883_986756
+*MOT:	yay Chi ! 986756_989126
+*MOT:	yay Chi ! 989126_991211
+*MOT:	yay . 991211_992546
+*MOT:	yay . 992546_995006
+*MOT:	<yay <yay> [<]> [=! laughing] . 997206_1000043
+*MOT:	yay . 1000043_1001728
+*MOT:	that's my girl . 1001728_1003570
+*MOT:	oh . 1003570_1005286
+*MOT:	that's my girl . 1005286_1007890
+*MOT:	ye(a)h ? 1012801_1016023
+*MOT:	oh . 1016023_1024065
+*MOT:	oh (.) goodness . 1024065_1031071
+*MOT:	xxx . 1031071_1040503
+*MOT:	oh ye(a)h . 1041783_1042818
+*MOT:	dadadada@o . 1042818_1046454
+*MOT:	dadada@o . 1046454_1048941
+*MOT:	dada@o . 1048941_1052616
+*MOT:	oh . 1059473_1060591
+*MOT:	oh . 1060591_1062828
+*MOT:	oh . 1062828_1066551
+*MOT:	there you <go> [=! laughing] . 1066551_1074941
+*MOT:	0[=! laughs] . [+ trn] 1074941_1080803
+*MOT:	what's in (th)at box ? 1080803_1082391
+*MOT:	ye(a)h ye(a)h . 1085646_1087401
+*MOT:	o:ohwho:o@o . 1087401_1091873
+*MOT:	tickle+tickle . 1091873_1092941
+*MOT:	0[=! gasps] . [+ trn] 1092941_1093691
+*MOT:	tickle+tickle . 1093691_1095228
+*MOT:	tickling baby . 1095228_1096878
+*MOT:	curl:y . 1096878_1098313
+*MOT:	rowrowrowrowrow@o . 1098313_1103270
+*MOT:	rowrowrowroof@o . 1103270_1104953
+*MOT:	arowrowrowrowrowrow@o . 1104953_1107090
+*MOT:	<rowrowrowrowrow@o> [>] . 1107090_1109626
+*MOT:	awhowho@o . 1110476_1111330
+*MOT:	arowrowrowrowrowrowrow@o . 1111330_1113230
+*MOT:	ye(a)h . 1113230_1115983
+*MOT:	0[=! gasps] . [+ trn] 1115983_1117285
+*MOT:	o:h . 1117285_1119970
+*MOT:	forget the puppy you want the tag . 1119970_1123725
+*MOT:	you want the tag . 1123725_1126711
+*MOT:	0 . [+ trn] 1126711_1131238
+*MOT:	oh my there's that thing that makes the noise . 1131238_1135693
+*MOT:	yay Chi . 1135693_1141116
+*MOT:	oh . 1141116_1144770
+*MOT:	there's another tag . 1144770_1148106
+*MOT:	ye(a)h . 1150043_1151460
+*MOT:	o:h . 1154263_1155698
+*MOT:	<Chi Chi> [=! singing] . 1155698_1167098
+*MOT:	0[=! whistling] . [+ trn] 1167098_1172550
+*MOT:	curly curly curly curly . 1172550_1176871
+*MOT:	oh . 1176871_1179806
+*MOT:	what'd you find ? 1179806_1181258
+*MOT:	what did you find ? 1181258_1183595
+*MOT:	yay Chi yay . 1183595_1186523
+*MOT:	yay . 1186523_1188156
+*MOT:	yay Chi . 1188156_1190558
+*MOT:	oh . 1190558_1192828
+*MOT:	oh . 1194596_1195246
+*MOT:	argh@o . 1197148_1205925
+*MOT:	moo@o . 1205925_1208278
+*MOT:	moo@o . 1208278_1211398
+*MOT:	0 . [+ trn] 1211398_1214823
+*MOT:	eeooh@o . 1215823_1216725
+*MOT:	0[=! gasps] . [+ trn] 1216725_1217893
+*MOT:	o:h . 1217893_1219661
+*MOT:	yay . 1219661_1220630
+*MOT:	<goody> [?] . 1220630_1223966
+*MOT:	0[=! gasps] . [+ trn] 1223966_1225985
+*MOT:	0[=! laughs] . [+ trn] 1225985_1237986
+*MOT:	o:h you're so funny . 1237986_1240530
+*MOT:	you are so funny . 1240530_1243731
+*MOT:	0[=! laughs] . [+ trn] 1243731_1247453
+*MOT:	tags . 1247453_1253193
+*MOT:	oh . 1253193_1254643
+*MOT:	yay . 1257931_1259170
+*MOT:	yay . 1260056_1261306
+*MOT:	0[=! laughs] . [+ trn] 1261306_1263610
+*MOT:	is (th)at fun ? 1263610_1265178
+*MOT:	is (th)at <fun> [>] ? 1265178_1267235
+*MOT:	<xxx> [>] . 1267948_1273743
+*MOT:	<ye(a)h> [<] . 1274176_1275945
+*MOT:	oh_goodness . 1275945_1283620
+*MOT:	goodness . 1283620_1286025
+*MOT:	oh come over here . 1287273_1288291
+*MOT:	come over here . 1288291_1290393
+*MOT:	toodadoo@o . 1291913_1293731
+*MOT:	dododododoo@o . 1293731_1295383
+*MOT:	doodoodoo@o . 1295383_1297651
+*MOT:	oh . 1297651_1300838
+*MOT:	<ye(a)h> [<] [>] . 1302841_1303910
+*MOT:	oh . 1305301_1305768
+*MOT:	yay <Chi> [>] . 1305768_1308338
+*MOT:	yay <Chi> [>] . 1309171_1310990
+*MOT:	<ye(a)h> [>] . 1311891_1312575
+*MOT:	0[=! laughs] . [+ trn] 1313098_1313833
+*MOT:	is (th)at fun ? 1313833_1315870
+*MOT:	0[=! kiss] . [+ trn] 1315870_1317036
+*MOT:	is (th)at fun xxx ? 1317036_1319190
+*MOT:	<oh yes> [<] . 1321625_1323361
+*MOT:	dodo@o . 1323361_1325511
+*MOT:	<doo@o> [>] . 1325511_1328266
+*MOT:	fuzz in your hair . 1328833_1332238
+*MOT:	can you get that ? 1332238_1336156
+*MOT:	there you go . 1336156_1337191
+*MOT:	ye(a)h . 1337191_1338876
+*MOT:	<oh> [=! laughing] . 1341463_1347136
+*MOT:	<yyy> [<] [>] . 1348353_1350790
+*MOT:	<o:h>[<] . 1354460_1355128
+*MOT:	&ah boopboopboop@o . 1355128_1359783
+*MOT:	boopboopboopboopboop@o . 1359783_1361501
+*MOT:	your turn . 1361501_1362351
+*MOT:	your turn . 1362351_1364638
+*MOT:	oh (.) blue . 1364638_1368045
+*MOT:	0 . [+ trn] 1368045_1372400
+*MOT:	<oh> [>] . 1372400_1374251
+*MOT:	<oh> [<] . 1375218_1376505
+*MOT:	<oh> [<] . 1376505_1377588
+*MOT:	<xxx> [<] . 1377588_1379196
+*MOT:	oh . 1381365_1381798
+*MOT:	oh . 1381798_1382648
+*MOT:	gonna sing some more ? 1382648_1385401
+*MOT:	oh ! 1385401_1387888
+*MOT:	<ye(a)h> [>] ? 1390491_1391460
+*MOT:	oh . 1392626_1393661
+*MOT:	dodoo@o . 1393661_1396496
+*MOT:	dodoo@o . 1396496_1398333
+*MOT:	ye(a)h . 1404406_1405723
+*MOT:	what angel ? 1407226_1408145
+*MOT:	&ah . 1408145_1410261
+*MOT:	come to Mot . 1410261_1411963
+*MOT:	&uh . 1411963_1413348
+*MOT:	sweet^ness . 1413348_1476055

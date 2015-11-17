@@ -1,0 +1,384 @@
+*MOT:	okay , it's fine . 1120_2400
+*MOT:	I don't know what those numbers are about , but it doesn't matter .
+*MOT:	<hey , a> [?] little guy just woke up . 7904_10976
+*MOT:	hi little guy . 11040_13408
+*MOT:	o:h no: . 16006_18134
+*MOT:	up up up up up up . 18310_21238
+*MOT:	hm . 22294_23046
+*MOT:	hi . 23494_24486
+*MOT:	d(id) you have a good nap ? 24374_26038
+*MOT:	khoo:wa@b . 27931_31131
+*MOT:	did you have a good nap ? 31195_34219
+*MOT:	&ah [=! breathes in] . 33867_35003
+*MOT:	yeah ? 34971_36955
+*MOT:	yeah . 38011_38939
+*MOT:	oh , what's that ? 40104_41864
+*MOT:	what's that ? 43224_44248
+*MOT:	wanna play ? 44280_45928
+*MOT:	note . 47608_48888
+*MOT:	guh@b . 74518_75590
+*MOT:	(.) hmguh@b . 85209_87353
+*MOT:	hm: [=! laughs] . 89353_90921
+*MOT:	yeah ? 96578_97794
+*MOT:	your fingernails gettin(g) long . 106731_109099
+*MOT:	see [?] ? 108923_109787
+*MOT:	&mm: . 110891_112523
+*MOT:	there . 117643_118507
+*MOT:	got it . 118471_119879
+*MOT:	bvbvbvbvbv@b . 129367_131271
+*MOT:	do you wanna look at the fishies , for a few minutes ? 135299_138083
+*MOT:	can you see (th)em ? 139523_141251
+*MOT:	whoa: , look at those fishies . 141411_145107
+*MOT:	look at (th)em , swimmin(g) arou:nd , hi fishies . 145676_150252
+*MOT:	haha: [=! laughs] . 152604_155020
+*MOT:	hi , fishies . 155004_157260
+*MOT:	yea:h . 160197_162101
+*MOT:	fishi:es . 163861_165973
+*MOT:	fishie . 167061_168965
+*MOT:	gyuh@b . 171381_172837
+*MOT:	hm hm hm [=! laughs] . 175431_177527
+*MOT:	oh , don't bang . 177559_179111
+*MOT:	hm hm hm hm ah [=! laughs] . 184887_186567
+*MOT:	look <at those> [>] guys . 188010_189738
+*MOT:	yea:h . 189658_190986
+*MOT:	fishies . 191098_192666
+*MOT:	so pre:tty . 196842_199050
+*MOT:	so pretty . 200578_202530
+*MOT:	aga:h@b . 209410_211538
+*MOT:	look at (th)em go: . 212194_214354
+*MOT:	hm hm [=! laughs] . 221503_222639
+*MOT:	yea:h . 230775_231975
+*MOT:	look at (th)em go: . 231959_233943
+*MOT:	guh@b . 240858_242266
+*MOT:	mhm: . 248730_250042
+*MOT:	careful . 258022_259734
+*MOT:	what are you doin(g) ? 259926_262518
+*MOT:	yea:h . 268457_269929
+*MOT:	my_goodness , you're just standin(g) and standin(g) . 270889_274521
+*MOT:	uhoh . 297358_299262
+*MOT:	where'd the fishies go ? 301792_303488
+*MOT:	where'd the fishies go ? 304448_306528
+*MOT:	Theo , where's the fishies ? 308576_310976
+*MOT:	there they a:re , there's the fishies . 311792_314992
+*MOT:	hm hm hm hm hm hm [=! laughs] . 322493_325165
+*MOT:	you wanna stand up ? 324925_326333
+*MOT:	I'll help ya [: you] . 326237_327277
+*MOT:	yea:h . 328444_330284
+*MOT:	aga:h@b . 334028_335660
+*MOT:	yea:h . 341550_343246
+*MOT:	fishie:s . 343726_345566
+*MOT:	alright . 346910_348462
+*MOT:	&=laughs . 348990_350302
+*MOT:	khoo@b . 351518_352558
+*MOT:	no , don't play with that . 353127_354551
+*MOT:	don't play with that . 354551_355623
+*MOT:	what can we play with ? 356215_357383
+*MOT:	let's see . 357127_358311
+*MOT:	come over here , and I'll get a good toy . 358295_361575
+*MOT:	uhoh . 361383_362327
+*MOT:	I'll get a good toy to play with . 363447_365911
+*MOT:	wha:t's a good one . 370298_372362
+*MOT:	how (a)bout this ? 373338_375130
+*MOT:	y(ou) wanna see if we can put things in and out ? 379529_382377
+*MOT:	&mm [=! sighs] . 387769_390169
+*MOT:	want this one ? 390898_392066
+*MOT:	whee: . 392066_394418
+*MOT:	look , Theo . 394370_396162
+*MOT:	can you put it up here ? 399586_401362
+*MOT:	see if you can put it in . 402149_403605
+*MOT:	&ah [=! breathes in] . 404069_404789
+*MOT:	boop . 404837_406245
+*MOT:	ya:y [=! claps] . 405957_409365
+*MOT:	ding . 410901_412485
+*MOT:	you do it . 416663_417591
+*MOT:	&ah [=! breathes in] , good job , you put it in . 429850_433386
+*MOT:	can you put that one in ? 433434_435850
+*MOT:	can you put it in here ? 437882_439866
+*MOT:	look . 439866_440762
+*MOT:	Theo , look . 440778_442266
+*MOT:	&ah [=! breathes in] . 442374_443990
+*MOT:	boo:m . 444582_445862
+*MOT:	goes in . 446294_447942
+*MOT:	&ah [=! breathes in] , good jo:b . 451110_454006
+*MOT:	let go . 455218_456722
+*MOT:	you gotta let go . 456482_458418
+*MOT:	yea:h , ya:y [=! clapping] . 459186_463010
+*MOT:	put it in . 464770_466290
+*MOT:	you put it in . 478363_480171
+*MOT:	go ahead . 480555_481467
+*MOT:	oh . 482558_483518
+*MOT:	oh . 483470_484094
+*MOT:	can you get it in there ? 484142_485662
+*MOT:	hop hop hop hop hop . 500246_502726
+*MOT:	hi . 502806_504022
+*MOT:	I'm a bunny . 504134_506182
+*MOT:	hop hop hop . 506806_509190
+*MOT:	&=laughs . 510351_511455
+*MOT:	he's so:ft . 512239_514255
+*MOT:	hm hm , you're gonna make him hop ? 516207_518079
+*MOT:	hop hop hop . 518079_519935
+*MOT:	yea:h . 523986_525890
+*MOT:	nice ears . 525922_528002
+*MOT:	ugu:h@b . 532802_534610
+*MOT:	yea:h . 536898_538050
+*MOT:	that goes right on top . 542091_544507
+*MOT:	aguguh@b . 547531_550107
+*MOT:	gonna put the bunny in there ? 552180_554100
+*MOT:	hehe [=! laughs] . 553972_554932
+*MOT:	yea:h . 559620_561076
+*MOT:	bang bang bang . 563380_565940
+*MOT:	hop hop hop . 567062_568998
+*MOT:	is that bunny hoppin(g) ? 570022_572470
+*MOT:	here . 579513_580345
+*MOT:	you could try gettin(g) up on tha:t . 580393_583273
+*MOT:	y(ou) w(a)nna [: want to] try ? 587673_589561
+*MOT:	here , climb up on me . 589529_592681
+*MOT:	and then try over here . 592430_595438
+*MOT:	oh , you want that . 596094_597326
+*MOT:	<&ah> [<] [=! breathes in] , it's a rainin(g) a rainin(g) . 597982_601422
+*MOT:	&=sighs . 601710_603342
+*MOT:	what a yucky day . 605194_606634
+*MOT:	guh@b . 618599_620231
+*MOT:	whoop . 623015_623879
+*MOT:	gugubooboo@b . 638217_640185
+*MOT:	guguguh@b . 656796_657948
+*MOT:	0 [=! yawns] . 662462_665966
+*MOT:	hi . 666014_667758
+*MOT:	oh no . 667486_668670
+*MOT:	no no , don't play with that . 668654_670654
+*MOT:	agu:h@b . 672685_673869
+*MOT:	o:h , you got such nice toothies . 676797_680621
+*MOT:	you do: , four toothies . 680205_682973
+*MOT:	&ah [=! breathes in] . 682989_683805
+*MOT:	ugh@b . 688208_689376
+*MOT:	ugh@b 0 [=! kisses] . 691616_693040
+*MOT:	(...) is it yummy ? 708002_709234
+*MOT:	o:h . 712768_714208
+*MOT:	(.) hi . 727753_729033
+*MOT:	gonk . 729001_730265
+*MOT:	you got it ? 737701_739285
+*MOT:	got it . 739973_740997
+*MOT:	here , you wanna stand and hold on to just the table ? 742204_745644
+*MOT:	there you go . 746700_748028
+*MOT:	o:h look at what a big boy you are . 747932_750972
+*MOT:	look how big you are . 752245_754069
+*MOT:	yeah , and [?] you get stuff on the table . 755477_759045
+*MOT:	aguh@b . 760917_762005
+*MOT:	0 [=! yawns] . 774542_775614
+*MOT:	0 [=! yawns] . 777390_778606
+*MOT:	&=laughs . 787303_788999
+*MOT:	kaboom ! 788967_790183
+*MOT:	(..) did you bump ? 806527_807743
+*MOT:	<come up> [?] ? 813743_815775
+*MOT:	oopsie daisy . 815599_818015
+*MOT:	hi . 818111_820335
+*MOT:	no no . 820335_822111
+*MOT:	whoa: , down he goes . 821839_825423
+*MOT:	sticky . 864778_865722
+*MOT:	<no:> [>] . 867312_868576
+*MOT:	what is that ? 868480_869728
+*MOT:	no , don't eat it . 869728_870976
+*MOT:	it's not for eating . 870976_872544
+*MOT:	you wanna play with this , crackly ? 873216_875152
+*MOT:	okay , we'll put it away . 876736_878368
+*MOT:	watch . 879820_880652
+*MOT:	whee: . 881260_882988
+*MOT:	<down , down , down , ding> [=! singsong] ! 883036_887036
+*MOT:	oops . 887068_887564
+*MOT:	it fell on this side . 887596_889292
+*MOT:	see ? 889836_891324
+*MOT:	can you get it , here . 892639_894799
+*MOT:	how's that one . 894831_896111
+*MOT:	yeah , put it on there . 898399_900383
+*MOT:	put it on there . 900917_902053
+*MOT:	whoa , that was tricky . 903346_905570
+*MOT:	and [?] you wanna try again ? 905650_907458
+*MOT:	put it right in there . 908201_909849
+*MOT:	oh . 909961_910537
+*MOT:	well that's good , but it &is +//. 911721_913161
+*MOT:	<you've knocked [?] (th)em out> [=! laughs] . 913081_914553
+*MOT:	here , put it here . 914447_915695
+*MOT:	wanna try ? 915775_917071
+*MOT:	go ahead . 922879_923535
+*MOT:	put your ball on here . 923535_924959
+*MOT:	watch . 925231_926159
+*MOT:	whee: . 926552_930488
+*MOT:	ding . 931256_932952
+*MOT:	bang bang ba:ng . 940848_943728
+*MOT:	ya:y [=! clapping] . 944640_947872
+*MOT:	&=laughs you gonna bang on mine ? 950848_953408
+*MOT:	ya:y [=! banging] . 954285_958813
+*MOT:	&aw . 966983_967767
+*MOT:	what a little cough . 967719_969591
+*MOT:	oop . 970199_971031
+*MOT:	oguh@b . 990040_991336
+*MOT:	whoop . 994600_995480
+*MOT:	gieh@b . 1005914_1007610
+*MOT:	<oop^sie daisy> [>] . 1009021_1011789
+*MOT:	gonk . 1020643_1022051
+*MOT:	no , don't grab it please . 1025411_1027507
+*MOT:	don't grab it . 1027507_1028931
+*MOT:	boom ! 1029011_1030163
+*MOT:	okay [=! whispered] . 1030009_1031257
+*MOT:	ya:y [=! clapping] . 1031145_1033081
+*MOT:	<Theo , look> [<] . 1033961_1035465
+*MOT:	<o^pen shut them , open shut them> [=! singsong] . 1035529_1041529
+*MOT:	can you do it ? 1041545_1043209
+*MOT:	<open shut them , <open> [>] shut them , give a little <clap clap
+*MOT:	<open shut them , <open shut them> [>] , put them in your lap lap
+*MOT:	can you do that ? 1064093_1065405
+*MOT:	yeah , <lap lap lap> [=! clapping , singsong] . 1065229_1067549
+*MOT:	goo:d . 1067370_1069354
+*MOT:	<lap lap lap> [=! clapping] . 1069338_1071530
+*MOT:	watch this , Theo . 1071434_1073914
+*MOT:	<creep them , crawl them , creep them , crawl them> [=! singsong] .
+*MOT:	<right up to the chin chin chin> [=! singsong] . 1079370_1083242
+*MOT:	can you do the chin chin ? 1083098_1084858
+*MOT:	<chin chin chin> [=! singsong] . 1084890_1087114
+*MOT:	<open up your little mouth> [=! singsong] . 1089615_1093231
+*MOT:	<but do not let them in> [=! singsong] . 1093279_1096031
+*MOT:	hm hm hm hm hm [=! laughs] . 1097167_1098879
+*MOT:	you always let them in . 1099855_1102527
+*MOT:	here , you wanna bang it on there ? 1102501_1104901
+*MOT:	<bang bang bang , boom boom+boom boo:m> [=! whispered , banging] .
+*MOT:	<boom boom boom> [=! banging quietly] . 1108805_1110933
+*MOT:	<boom boom+boom boom> [=! banging quietly] . 1110853_1113109
+*MOT:	<hm hm> [>] [=! laughs] . 1116510_1117358
+*MOT:	doh@b . 1117422_1118686
+*MOT:	goago:@b . 1123035_1125883
+*MOT:	0 [=! banging] . 1126848_1134896
+*MOT:	0 [=! banging] . 1143346_1155634
+*MOT:	&a:h . 1184579_1186819
+*MOT:	bwabvu:@b . 1188771_1190819
+*MOT:	(..) uhoh . 1206281_1207401
+*MOT:	think that rolled under the couch . 1208539_1211643
+*MOT:	&u:h boom . 1212379_1213867
+*MOT:	aguh@b . 1218059_1219275
+*MOT:	&=laughs no no . 1222708_1224532
+*MOT:	now , can you balance on your knees ? 1224452_1226756
+*MOT:	no no , no . 1227364_1228692
+*MOT:	not for you . 1229012_1230164
+*MOT:	can you balance , that way ? 1230724_1232708
+*MOT:	hm ? 1233728_1234304
+*MOT:	&=laughs . 1236080_1237408
+*MOT:	okay . 1237264_1237936
+*MOT:	no , is the answer I guess . 1239136_1241104
+*MOT:	do:n't grab that . 1241040_1242848
+*MOT:	leave it alone . 1242896_1244240
+*MOT:	o:h yummy yummy . 1247849_1250377
+*MOT:	abububu:h@b . 1256345_1258073
+*MOT:	bu@b bu@b bu@b . 1258505_1260185
+*MOT:	aboodedyboodyboo@b aboobooboobooboo@b aboodedyboobooboo@b
+*MOT:	adoodoodoodoodoo@b doodoodledoodoodoo@b doodoodoodoodoodoo@b
+*MOT:	haha haha haha [=! laughs] . 1273928_1275400
+*MOT:	&a:h boom . 1276517_1278965
+*MOT:	op . 1284789_1285413
+*MOT:	look at this . 1286453_1288005
+*MOT:	it's a house . 1288001_1289329
+*MOT:	see the little house ? 1289809_1291281
+*MOT:	o:h can you get up ? 1293633_1295729
+*MOT:	oh took [?] the yoyo , almost go it . 1295649_1298801
+*MOT:	o:h . 1298823_1299975
+*MOT:	try again . 1300263_1301703
+*MOT:	it's hard . 1304999_1306407
+*MOT:	you want me to hold your hand ? 1307079_1308599
+*MOT:	practice ? 1308567_1309783
+*MOT:	push yourself up with your legs . 1309862_1313206
+*MOT:	&a:h [=! laughs] . 1314758_1317302
+*MOT:	hi . 1317126_1318086
+*MOT:	no no: , that's not for babies to play with . 1318102_1321462
+*MOT:	I know , it's very interesting . 1321439_1323567
+*MOT:	look . 1323487_1324175
+*MOT:	look , who's in there ? 1324111_1326303
+*MOT:	a bunny's in there . 1327263_1329455
+*MOT:	help , lemme [: let me] out ! 1331807_1333519
+*MOT:	lemme [: let me] out , lemme [: let me] out ! 1334897_1336353
+*MOT:	&=laughs . 1338865_1340097
+*MOT:	can you get (h)im out ? 1340465_1341713
+*MOT:	&=pants poor bunny . 1341793_1344081
+*MOT:	get (h)im out . 1344817_1345777
+*MOT:	yea:h . 1346977_1349089
+*MOT:	get that bunny outa [: out_of] there . 1349033_1351417
+*MOT:	&ah [=! breathes in] , boop ! 1352529_1353985
+*MOT:	hello . 1353969_1355025
+*MOT:	hello . 1356097_1357089
+*MOT:	hello . 1359089_1359873
+*MOT:	I'm <a bunny> [>] . 1359937_1361297
+*MOT:	doop@n doop@n doo: . 1361313_1363089
+*MOT:	<oh , xxx my nose> [>] . 1363710_1366238
+*MOT:	hm hm hm hm hm [=! laughs] . 1366318_1367358
+*MOT:	hop hop hop hop hop . 1367694_1370238
+*MOT:	<hop hop hop hop hop> [<] . 1371870_1374878
+*MOT:	wanna put the bab(y) [///] bunny in the bucket ? 1379567_1382015
+*MOT:	put (h)im in there . 1382015_1384799
+*MOT:	nothin(g) [?] in there now . 1390311_1392247
+*MOT:	it's empty . 1392323_1393267
+*MOT:	nothin(g) in there . 1394967_1396263
+*MOT:	look . 1397687_1398247
+*MOT:	can go like this . 1398215_1398983
+*MOT:	boo: &u:h . 1398983_1402007
+*MOT:	can you say “a:h” ? 1402026_1403850
+*MOT:	hm hm hm [=! laughs] . 1410234_1411354
+*MOT:	&=laughs . 1414285_1416221
+*MOT:	sounds cool . 1416429_1418717
+*MOT:	&=laughs . 1423421_1424781
+*MOT:	ye:w@b . 1424701_1426205
+*MOT:	&=laughs . 1425981_1428013
+*MOT:	<bop> [>] . 1429279_1430127
+*MOT:	hello: . 1430415_1431855
+*MOT:	hello Theo: . 1433423_1436031
+*MOT:	say “a:h” . 1443122_1444562
+*MOT:	&=laughs . 1447106_1448370
+*MOT:	&=laughs . 1448466_1449714
+*MOT:	&ha . 1452226_1453554
+*MOT:	&=laughs . 1457769_1459609
+*MOT:	&=laughs . 1459593_1461561
+*MOT:	<you are so silly> [>] . 1461625_1463897
+*MOT:	neerow@o , owie . 1463957_1468917
+*MOT:	hop hop hop . 1470069_1471717
+*MOT:	neerow@o , owie: . 1471717_1475829
+*MOT:	wanna do it again ? 1477153_1478225
+*MOT:	here he comes . 1478273_1479313
+*MOT:	hop , hop , hop . 1479121_1481297
+*MOT:	bjj:@o boom ! 1481361_1483601
+*MOT:	owie: . 1483649_1484881
+*MOT:	hehe hehehe . 1486433_1488577
+*MOT:	hehehe [=! laughs] . 1490423_1491783
+*MOT:	here he goes . 1491777_1492721
+*MOT:	hop , hop , hop . 1492657_1494945
+*MOT:	bjj:@o boom ! 1494945_1497217
+*MOT:	owie: . 1497153_1498993
+*MOT:	haha haha [=! laughs] . 1501872_1503056
+*MOT:	haha [=! laughs] . 1503840_1505856
+*MOT:	yea:h . 1508464_1509632
+*MOT:	he's a good bunny . 1509680_1511136
+*MOT:	oh [=! whispered] . 1511136_1512336
+*MOT:	oh [=! whispered] . 1512400_1513456
+*MOT:	you got his ears ? 1515113_1516985
+*MOT:	what's the matter ? 1521529_1523545
+*MOT:	huh ? 1523481_1524297
+*MOT:	<up up up up> [>] . 1526898_1528370
+*MOT:	<you wanna come up> [<] ? 1528386_1530034
+*MOT:	up up up up up up up . 1530674_1532290
+*MOT:	hello: . 1532386_1534274
+*MOT:	0 [=! kisses] . 1534258_1535394
+*MOT:	&mm: [=! kisses] . 1535394_1537186
+*MOT:	whoa: . 1539573_1542453
+*MOT:	I know , it's hard . 1546213_1548037
+*MOT:	here . 1548341_1548949
+*MOT:	hold right on . 1549045_1550245
+*MOT:	whoa . 1555693_1556621
+*MOT:	bam . 1558125_1559021
+*MOT:	hagah@b . 1561421_1562989
+*MOT:	yeah . 1565779_1566835
+*MOT:	hm hm [=! laughs] . 1575955_1576995
+*MOT:	0 [=! yawns] . 1582086_1583254
+*MOT:	hm [=! sighs] . 1585286_1586406
+*MOT:	nenunun@b . 1592650_1594986
+*MOT:	whoa: , ouchie , &a:h , you bumped . 1596266_1600010
+*MOT:	0 [=! kisses] okay 0 [=! kisses] . 1599914_1601706
+*MOT:	I'm gonna turn this off for now . 1601702_1603926
+*MOT:	o:w . 1603590_1605782
+*MOT:	poor baby . 1605622_1607350
+*MOT:	you okay ? 1608006_1609462
+*MOT:	shoot . 1613360_1614496

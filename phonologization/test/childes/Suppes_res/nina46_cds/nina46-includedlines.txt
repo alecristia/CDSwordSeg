@@ -1,0 +1,647 @@
+*MOT:	what do you have on your feet ?
+*MOT:	what did you put on your feet ?
+*MOT:	why did you put the boots on ?
+*MOT:	know what ?
+*MOT:	this morning you're going to go to school and you're going to go
+*MOT:	have you seen Christmas trees lit up ?
+*MOT:	did you see some Christmas trees on the way home yesterday ?
+*MOT:	what was on the Christmas trees ?
+*MOT:	lights ?
+*MOT:	balls ?
+*MOT:	oh (.) tell me what was on them ?
+*MOT:	look at this .
+*MOT:	were did you get Santa_Claus ?
+*MOT:	did Mrs Wood give him to you ?
+*MOT:	what does he have ?
+*MOT:	he has a big what ?
+*MOT:	what does he have ?
+*MOT:	a beard .
+*MOT:	and what's on his hand ?
+*MOT:	did you see +...
+*MOT:	did you see a picture of you with Santa_Claus yesterday ?
+*MOT:	at whose house ?
+*MOT:	no (.) at Barbara's house .
+*MOT:	did you see a picture at Barbara's house ?
+*MOT:	who was in that picture with Santa_Claus ?
+*MOT:	that was such a nice picture .
+*MOT:	what did you do when you saw Santa_Claus ?
+*MOT:	what did you do when you saw Santa_Claus ?
+*MOT:	yeah [= yes] (.) he's going to come in a few days .
+*MOT:	what toys would you like him to bring when he comes ?
+*MOT:	you want another dolly from Santa_Claus ?
+*MOT:	do you think he'll bring you another dolly ?
+*MOT:	what else would you like Santa_Claus to bring you ?
+*MOT:	a puppy ?
+*MOT:	what kind of a puppy ?
+*MOT:	what should the puppy +...
+*MOT:	what color puppies ?
+*MOT:	oh .
+*MOT:	what would you do with your puppy ?
+*MOT:	yeah [= yes] (.) you have a ball .
+*MOT:	I think it's in the closet .
+*MOT:	I imagine it's in this box .
+*MOT:	find it .
+*MOT:	can you open the closet door ?
+*MOT:	you see a ball in there ?
+*MOT:	oh (.) that was from Spencer (.) wasn't it ?
+*MOT:	at school for your birthday ?
+*MOT:	you had cup cakes (.) didn't you ?
+*MOT:	oh (.) I think you brought presents on Monday (.) didn't you ?
+*MOT:	I mean on Friday .
+*MOT:	did you bring bread to everybody in school ?
+*MOT:	did you ?
+*MOT:	what present did you bring to school (.) Nina ?
+*MOT:	oh (.) what are you doing ?
+*MOT:	you're protecting me ?
+*MOT:	from what ?
+*MOT:	from the alligators .
+*MOT:	where should I listen ?
+*MOT:	where ?
+*MOT:	on you back ?
+*MOT:	oh (.) you sound like you have a cold .
+*MOT:	what happened to your arm ?
+*MOT:	hey (.) Nina (.) let me see your face .
+*MOT:	where do those scratches come from ?
+*MOT:	why ?
+*MOT:	what did she do ?
+*MOT:	what happened ?
+*MOT:	when ?
+*MOT:	why did they hit you ?
+*MOT:	oh .
+*MOT:	show me the Santa_Claus that Mrs Wood gave you .
+*MOT:	where did she get this pretty Santa_Claus ?
+*MOT:	from England .
+*MOT:	did she take you to see Santa_Claus too ?
+*MOT:	where did you go with Mrs Wood to see Santa_Claus ?
+*MOT:	oh (.) and what did he give you ?
+*MOT:	oh (.) that must have been fun .
+*MOT:	what did you do with Mrs Wood all day yesterday ?
+*MOT:	what things did you play with ?
+*MOT:	where are they ?
+*MOT:	do you know ?
+*MOT:	oh (.) what toys did you play with ?
+*MOT:	right .
+*MOT:	where did you sleep when you were at Mrs Wood's house ?
+*MOT:	in what ?
+*MOT:	did you wake them up early in the morning ?
+*MOT:	what did you do ?
+*MOT:	oh (.) did they give you breakfast ?
+*MOT:	what did you have for breakfast there ?
+*MOT:	oh (.) that must have been good .
+*MOT:	we'll have breakfast in a little bit .
+*MOT:	you had a little cereal already (.) didn't you ?
+*MOT:	we have_to go to the store and buy breakfast food (.) (be)cause I'm
+*MOT:	I didn't get to go to the store last week+end .
+*MOT:	oh (.) did Mrs Wood give you this too ?
+*MOT:	oh (.) this is a wreath .
+*MOT:	this is to be hung up on your door .
+*MOT:	well (.) you know what (.) we need some kind of nail .
+*MOT:	I guess we could hang it here .
+*MOT:	like to hang it here ?
+*MOT:	isn't that pretty .
+*MOT:	we'll need scotch tape for that (.) and I'm all out_of scotch tape
+*MOT:	that's really pretty .
+*MOT:	where are the toys that Mrs Wood told you you could bring home ?
+*MOT:	what happened to them ?
+*MOT:	are they in the little bag ?
+*MOT:	look here they are .
+*MOT:	I wanna see what Mrs Wood let you play with .
+*MOT:	my_goodness (.) how many things .
+*MOT:	did you go to a birthday party this week+end ?
+*MOT:	what did you do at the birthday party ?
+*MOT:	oh .
+*MOT:	did they (.) did Miriam and Becky get lots_of presents ?
+*MOT:	what did they get from Nina ?
+*MOT:	what did you give them ?
+*MOT:	did you give them some fish ?
+*MOT:	did you give them a fish game ?
+*MOT:	yeah [= yes] .
+*MOT:	what other games did they get ?
+*MOT:	or what toys did they get in their presents ?
+*MOT:	and what did jimmy give them ?
+*MOT:	I don't know .
+*MOT:	I wasn't at the party .
+*MOT:	what did jimmy give them ?
+*MOT:	did you play some games or eat some food at the birthday ?
+*MOT:	what did you do ?
+*MOT:	you played what ?
+*MOT:	you played dark ?
+*MOT:	oh (.) you rode on their horsie ?
+*MOT:	oh (.) you mean pin the tail on the donkey ?
+*MOT:	oh (.) who won that game ?
+*MOT:	you did ?
+*MOT:	here let me put your necklace on .
+*MOT:	you can wear it to school .
+*MOT:	come here (.) and give it to me .
+*MOT:	yes (.) it does .
+*MOT:	I'll open it for you .
+*MOT:	come here and give it to me .
+*MOT:	that's so pretty .
+*MOT:	come here (.) and give it to me .
+*MOT:	yes it does .
+*MOT:	I'll open it for you .
+*MOT:	come here (.) and give it to me .
+*MOT:	that's so pretty .
+*MOT:	you can show it to Mel .
+*MOT:	I think you'll be able to fit in it .
+*MOT:	what else did Jerry give you at the birthday party ?
+*MOT:	turn around .
+*MOT:	now lift up your hair .
+*MOT:	oh (.) this looks so cute .
+*MOT:	you wanna wear it to school ?
+*MOT:	lemme see it .
+*MOT:	oh (.) that's very pretty (.) Nina .
+*MOT:	don't you want to wear it to school ?
+*MOT:	okay (.) leave it on then .
+*MOT:	you can wear it to school .
+*MOT:	you want it on ?
+*MOT:	where did you get this ?
+*MOT:	&um [= what] ?
+*MOT:	oh (.) what is it ?
+*MOT:	it's awfully cute .
+*MOT:	there it goes together like this .
+*MOT:	did you give Spencer a train for Christmas ?
+*MOT:	that was fun at Spencer's house yesterday (.) wasn't it ?
+*MOT:	what toys did you play with at Spencer's house ?
+*MOT:	&um [= what] ?
+*MOT:	what ?
+*MOT:	you don't want it around your neck any more ?
+*MOT:	okay .
+*MOT:	like it open ?
+*MOT:	why don't you put it in the stocking +...
+*MOT:	that Mrs Wood gave you ?
+*MOT:	you wanna leave it out ?
+*MOT:	where did you get that ?
+*MOT:	may I see them ?
+*MOT:	did you take the flowers somewhere yesterday ?
+*MOT:	did you show them to Santa_Claus ?
+*MOT:	where are you ?
+*MOT:	careful (.) don't fall down .
+*MOT:	oh (.) Nina (.) I see a little dolly there .
+*MOT:	let's play with her .
+*MOT:	bring her to me .
+*MOT:	where did you get her ?
+*MOT:	look her eyes .
+*MOT:	they close .
+*MOT:	oh (.) she's so cute .
+*MOT:	lemme see .
+*MOT:	do her eyes close and open ?
+*MOT:	oh (.) let's take care of her .
+*MOT:	she is ?
+*MOT:	did Mrs Wood give her to you also ?
+*MOT:	oh (.) that was nice of her .
+*MOT:	let's put her in the stocking ?
+*MOT:	that would be like a sleeping bag .
+*MOT:	would that be a nice sleeping bag for her ?
+*MOT:	what are you doing ?
+*MOT:	where is the doll going ?
+*MOT:	oh (.) where is she going to sleep tonight ?
+*MOT:	ummhm [= yes] .
+*MOT:	would that be a nice sleeping bag ?
+*MOT:	would dolly like to see some Christmas trees ?
+*MOT:	would dolly like to see some Christmas trees ?
+*MOT:	we're going to make a Christmas tree at home .
+*MOT:	did Spencer have a Christmas tree ?
+*MOT:	what was on his Christmas tree ?
+*MOT:	do you remember ?
+*MOT:	and what else ?
+*MOT:	what was flashing on and off ?
+*MOT:	would you like to have lights on your Christmas tree ?
+*MOT:	okay (.) tonight we're going to make a Christmas tree .
+*MOT:	what is the stocking ?
+*MOT:	her sleeping bag ?
+*MOT:	is it soft or rough ?
+*MOT:	where's the dolly's hand ?
+*MOT:	I wanna play with him .
+*MOT:	oh (.) he's cute .
+*MOT:	what is that ?
+*MOT:	what is that ?
+*MOT:	and what's he doing ?
+*MOT:	I don't know .
+*MOT:	did Mrs Wood buy him in a store ?
+*MOT:	what's he eating ?
+*MOT:	that's a big piece of cheese (.) isn't it ?
+*MOT:	why don't you give some cheese to the other people to eat ?
+*MOT:	he doesn't need all the cheese for himself .
+*MOT:	no (.) it's made out_of plastic .
+*MOT:	I don't know .
+*MOT:	lemme see him .
+*MOT:	can you bring him here to me ?
+*MOT:	when do her eyes close ?
+*MOT:	what do you have_to do to make her eyes close ?
+*MOT:	now (.) let's see if we can make her sit up .
+*MOT:	can you bend her legs ?
+*MOT:	let's see if we can make her sit up .
+*MOT:	bend this leg and bend that .
+*MOT:	look +...
+*MOT:	w(h)oops +...
+*MOT:	there she goes .
+*MOT:	now she's sitting up .
+*MOT:	give her some cheese .
+*MOT:	what does she like to eat ?
+*MOT:	trains ?
+*MOT:	trains aren't food .
+*MOT:	oh (.) that's silly .
+*MOT:	people don't eat trains .
+*MOT:	oh .
+*MOT:	she rides in trains .
+*MOT:	now what is she gonna do ?
+*MOT:	oh (.) poor lady .
+*MOT:	I'd like to see the deer that Mrs Wood gave you .
+*MOT:	where are they ?
+*MOT:	let me see .
+*MOT:	oh (.) they're so cute .
+*MOT:	there's a Mommy deer and what else ?
+*MOT:	is it two babies or one baby .
+*MOT:	and where are they ?
+*MOT:	they're hiding .
+*MOT:	in the forest .
+*MOT:	there's a tree behind them (.) isn't there ?
+*MOT:	that looks like a forest with a tree in it .
+*MOT:	lemme see close_by .
+*MOT:	I can't see from over here .
+*MOT:	no ?
+*MOT:	no tail ?
+*MOT:	that's funny .
+*MOT:	deers [: deer] [*] have tails (.) I think .
+*MOT:	what does he have on his back ?
+*MOT:	&um [= what] ?
+*MOT:	no .
+*MOT:	little white spots .
+*MOT:	maybe the deer would like to meet your other animals .
+*MOT:	let them play with your other animals here .
+*MOT:	oh (.) soft mouse .
+*MOT:	what animals are they going to play with ?
+*MOT:	oh (.) I'm sure they would like to play with some animals .
+*MOT:	they're right over here .
+*MOT:	who's going up to the deer now ?
+*MOT:	who did ?
+*MOT:	oh (.) he's made out_of wax (.) isn't he ?
+*MOT:	is he gonna go for a walk in the woods and see all the animals ?
+*MOT:	yeah [= yes] (.) we'll get those washed in the laundry .
+*MOT:	they're dirty .
+*MOT:	here's a little baby .
+*MOT:	oh (.) what happened ?
+*MOT:	lemme see your foot .
+*MOT:	I'll give it a kiss .
+*MOT:	there's another Mommy for him .
+*MOT:	look .
+*MOT:	here's another wax (.) Mommy .
+*MOT:	there's another wax child underneath your pants .
+*MOT:	now they can go together .
+*MOT:	they going to see all the animals ?
+*MOT:	they gonna go to the zoo or are they going to go to the forest ?
+*MOT:	oh .
+*MOT:	they're knocking them down ?
+*MOT:	no (.) the animals are in cages .
+*MOT:	they can't get to them .
+*MOT:	who do they see first ?
+*MOT:	I don't know .
+*MOT:	you're the one who's taking them to the zoo .
+*MOT:	I don't know if he can .
+*MOT:	his feet are very uneven .
+*MOT:	I don't think they can .
+*MOT:	you have_to hold them up .
+*MOT:	like that .
+*MOT:	they don't stand up by themselves .
+*MOT:	see their feet are made out_of wax and it's very uneven .
+*MOT:	hey (.) Nina (.) what did you wear to Jerry's house for the
+*MOT:	what did you wear ?
+*MOT:	do you remember ?
+*MOT:	you looked so pretty .
+*MOT:	it was such a pretty dress .
+*MOT:	what color was it ?
+*MOT:	what ?
+*MOT:	shall I decorate your tree ?
+*MOT:	well we have_to get a stand for it .
+*MOT:	we're going to do that tonight .
+*MOT:	what is he going to do on there ?
+*MOT:	I see .
+*MOT:	are you gonna put some other animals up there with him ?
+*MOT:	I don't know what happened to the gorilla ?
+*MOT:	is he under here ?
+*MOT:	oh (.) I don't know .
+*MOT:	he was up there before .
+*MOT:	but you knocked him down (.) remember ?
+*MOT:	I don't know who's up there now .
+*MOT:	let's feed the animals .
+*MOT:	here's a plate to feed them with .
+*MOT:	he is ?
+*MOT:	what's he gonna do when he's scared ?
+*MOT:	really ?
+*MOT:	oh dear .
+*MOT:	what's that ?
+*MOT:	I like him .
+*MOT:	he's awfully cute .
+*MOT:	he's so soft .
+*MOT:	what did Spencer give you for Christmas ?
+*MOT:	did he give you a brush and comb ?
+*MOT:	what happened to them ?
+*MOT:	oh wow .
+*MOT:	that's to take care of your hair that Mrs Wood just fixed for you .
+*MOT:	I don't know what happened to the comb .
+*MOT:	here they are .
+*MOT:	did Mrs Wood do something to your head yesterday ?
+*MOT:	what did she do ?
+*MOT:	did some other people use this mirror yesterday ?
+*MOT:	did other people brush their hair with this mirror ?
+*MOT:	who did ?
+*MOT:	that was a nice present .
+*MOT:	what happened to your bangs ?
+*MOT:	they're short .
+*MOT:	did somebody cut them ?
+*MOT:	who did ?
+*MOT:	how did she cut them ?
+*MOT:	can I see ?
+*MOT:	let me fix your hair .
+*MOT:	where should I brush ?
+*MOT:	okay .
+*MOT:	oh (.) you've got a bump on your hair .
+*MOT:	okay (.) why don't you brush dolly's hair ?
+*MOT:	where ?
+*MOT:	you gonna cut it too ?
+*MOT:	you have_to look pretty to go to school today .
+*MOT:	what are you combing ?
+*MOT:	&uh [= yes] ?
+*MOT:	what is that at the bottom of the mirror ?
+*MOT:	it's a lion (.) isn't it ?
+*MOT:	what a pretty mirror .
+*MOT:	what's behind the mirror ?
+*MOT:	oh (.) aren't they pretty ?
+*MOT:	they're really pretty (.) those flowers .
+*MOT:	Mrs Wood did a nice job cutting your hair .
+*MOT:	what color hair do you have (.) Nina ?
+*MOT:	what color hair does Mommy have ?
+*MOT:	and what color hair does Mrs Wood have ?
+*MOT:	and Spencer ?
+*MOT:	oh (.) you know people with all different colored hair (.) don't
+*MOT:	what's your favorite color hair ?
+*MOT:	oh (.) Nina (.) has brown hair (.) doesn't she ?
+*MOT:	let's see this curl .
+*MOT:	stand up .
+*MOT:	right here .
+*MOT:	there you go .
+*MOT:	see there's a curl right up here that you have_to comb out .
+*MOT:	in the middle of your head .
+*MOT:	Nina (.) you know what ?
+*MOT:	Nonna is coming today .
+*MOT:	we're gonna clean up our room for Nonna (.) and she's gonna stay
+*MOT:	she's coming to visit us .
+*MOT:	do you know how she's gonna get here ?
+*MOT:	that's right (.) and then Nonna's gonna pick you up from school
+*MOT:	do you think you know how she's coming here ?
+*MOT:	oh (.) guess .
+*MOT:	is she coming in a car or on the airplane ?
+*MOT:	oh (.) that's right (.) and she's coming to see you .
+*MOT:	you happy ?
+*MOT:	what are you gonna do with Nonna ?
+*MOT:	I don't know .
+*MOT:	maybe .
+*MOT:	when you go visit daddy you go on airplanes (.) don't you ?
+*MOT:	I don't know if you're going to go this time or not .
+*MOT:	we have_to wait and decide when Nonna's here .
+*MOT:	what are you going to do with Nonna when she comes to visit you at
+*MOT:	what are you gonna show her ?
+*MOT:	yeah [= yes] (.) we'll go visit her house again next summer .
+*MOT:	do you remember Wellfleet ?
+*MOT:	it's too cold to go to Wellfleet now .
+*MOT:	can't go swimming in the winter .
+*MOT:	there's snow there now .
+*MOT:	why don't you find a book to read to me ?
+*MOT:	yeah [= yes] (.) it's winter there .
+*MOT:	it's cold .
+*MOT:	Nina (.) can you get me a book to read ?
+*MOT:	bring me a book to read .
+*MOT:	you are ?
+*MOT:	what are you doing to it ?
+*MOT:	why is it dirty ?
+*MOT:	so what are you doing ?
+*MOT:	you're cleaning them ?
+*MOT:	where was the hair ?
+*MOT:	oh (.) that's because you use it to brush your hair .
+*MOT:	that's really a nice brush .
+*MOT:	oh (.) there's another piece .
+*MOT:	what do you think ?
+*MOT:	who's coming in an airplane today ?
+*MOT:	she's gonna come out_of the airplane ?
+*MOT:	here's some water .
+*MOT:	where do the boats go ?
+*MOT:	where do the planes go ?
+*MOT:	that's a propeller .
+*MOT:	it turns around .
+*MOT:	like that .
+*MOT:	oh (.) it goes up in the sky .
+*MOT:	what's the plane doing ?
+*MOT:	with Nonna ?
+*MOT:	let's put Nonna in the plane .
+*MOT:	here's Nonna .
+*MOT:	this is Nonna (.) and she's gonna get out_of the plane ?
+*MOT:	maybe this Nonna can fit .
+*MOT:	no (.) that's a Nonna .
+*MOT:	she's wearing a skirt .
+*MOT:	take Nonna for a nice trip on the airplane .
+*MOT:	yeah [= yes] ?
+*MOT:	where did you put Nonna ?
+*MOT:	she is ?
+*MOT:	where are you gonna take her on airplane ?
+*MOT:	oh you mean that's Nonno .
+*MOT:	yes she does .
+*MOT:	you can take her for a ride on the boat .
+*MOT:	here's a little +...
+*MOT:	where is a little baby ?
+*MOT:	no (.) I didn't .
+*MOT:	you put her to sleep somewhere and I don't remember where .
+*MOT:	there's the baby .
+*MOT:	over there .
+*MOT:	you can show Nonna the baby ?
+*MOT:	oh (.) where are the boats going (.) Nina ?
+*MOT:	let's put (.) take somebody for a ride on a boat .
+*MOT:	look .
+*MOT:	taking someone for a ride .
+*MOT:	see ?
+*MOT:	where's the boat gonna go ?
+*MOT:	&um [= what] ?
+*MOT:	oh .
+*MOT:	does Mrs Wood go to England ?
+*MOT:	she comes from England .
+*MOT:	sometimes she goes back for a visit .
+*MOT:	&uh [= yes] ?
+*MOT:	where are you putting the boats ?
+*MOT:	where are they going ?
+*MOT:	&um [= what] ?
+*MOT:	aren't you gonna take them for a ride ?
+*MOT:	what are you doing ?
+*MOT:	I want to take them for a ride .
+*MOT:	what are they doing there ?
+*MOT:	they are ?
+*MOT:	they can't drive anywhere if they're closed up in box (.) can they
+*MOT:	let's see I guess it goes this way .
+*MOT:	that way .
+*MOT:	and this one goes that way .
+*MOT:	oh (.) they're so pretty .
+*MOT:	which boat do you like best: the pink (.) the yellow (.) or the
+*MOT:	which one ?
+*MOT:	they were drying .
+*MOT:	why were they wet ?
+*MOT:	how does the boat get wet ?
+*MOT:	yeah [= yes] (.) that's a water plane .
+*MOT:	see these things underneath .
+*MOT:	that's so it can go in the water too .
+*MOT:	it flys up and then it lands in the water .
+*MOT:	have you ever seen a water plane ?
+*MOT:	what are you putting in the water now ?
+*MOT:	over there on the floor lying down .
+*MOT:	what do you want him for ?
+*MOT:	fix what ?
+*MOT:	that's the water .
+*MOT:	set it on the floor here .
+*MOT:	there you go .
+*MOT:	you can go on it .
+*MOT:	where's the man ?
+*MOT:	or is that the lady ?
+*MOT:	where is she ?
+*MOT:	what's she doing ?
+*MOT:	&um [= what] ?
+*MOT:	what's the lady doing ?
+*MOT:	&uh [= yes] ?
+*MOT:	where's she going ?
+*MOT:	to where ?
+*MOT:	oh (.) you broke the necklace .
+*MOT:	let's see if we can fix it .
+*MOT:	let me show you where this hook goes .
+*MOT:	see give it to me and I'll show you .
+*MOT:	oh no (.) I'm not gonna buy another one .
+*MOT:	it's a waste of money .
+*MOT:	it costs too much money to buy another one .
+*MOT:	I can fix this one .
+*MOT:	what are you doing with the necklace ?
+*MOT:	&um [= what] ?
+*MOT:	what happened ?
+*MOT:	oh (.) goodness what a scream .
+*MOT:	we don't like screams like that (.) Nina .
+*MOT:	what happened ?
+*MOT:	it's not working ?
+*MOT:	see now if you put this on (.) it'll fasten .
+*MOT:	I bet Mel would like to see the necklace .
+*MOT:	if you bring me your big dolly (.) I'll put this around the dolly .
+*MOT:	I don't think it'll fit around her .
+*MOT:	that would look funny .
+*MOT:	wouldn't that look funny ?
+*MOT:	I think I'll wear it .
+*MOT:	let's see if I can fit it ?
+*MOT:	no (.) it doesn't fit around him .
+*MOT:	too small .
+*MOT:	it's falling off .
+*MOT:	we have_to find somebody with a big neck .
+*MOT:	Snoopy has a big neck .
+*MOT:	or the lamb .
+*MOT:	or Nina .
+*MOT:	it's all fixed see .
+*MOT:	it's got a hook .
+*MOT:	there .
+*MOT:	hey (.) Nina (.) it's almost time to go to school and go see the
+*MOT:	where are your boots ?
+*MOT:	where are your red boots ?
+*MOT:	bring your red boots here .
+*MOT:	do you wanna bring that ?
+*MOT:	okay (.) let's get dressed .
+*MOT:	we need some socks .
+*MOT:	okay .
+*MOT:	come (.) give me your foot .
+*MOT:	(be)cause we have_to get shoes and socks on (.) don't we ?
+*MOT:	who's going to take you ?
+*MOT:	no (.) I'm taking you to school .
+*MOT:	somebody at school is going to take you .
+*MOT:	you're going to a farm .
+*MOT:	on the farm you're going to see Christmas trees .
+*MOT:	that's going to be fun .
+*MOT:	and when you come home tonight with Nonna (.) we're going to
+*MOT:	yeah [= yes] .
+*MOT:	well we don't have a pocket yet .
+*MOT:	lift up your arms .
+*MOT:	oops .
+*MOT:	wait a minute .
+*MOT:	put down (.) put down those .
+*MOT:	now it's hard to get off (.) isn't it ?
+*MOT:	I'm sorry .
+*MOT:	let's hurry and try to get it off quickly .
+*MOT:	oh (.) that was tight (.) wasn't it ?
+*MOT:	don't take your undershirt off .
+*MOT:	we have_to find some clothes to wear .
+*MOT:	here these pants will be good to wear .
+*MOT:	put on your pants .
+*MOT:	here let's get your pants and your shoes (.) so we can put your
+*MOT:	here are your boots ?
+*MOT:	and then we're going to the farm .
+*MOT:	we've got_to leave in five minutes or so (.) because otherwise
+*MOT:	let's get your pants on .
+*MOT:	hurry up .
+*MOT:	ummhm [= yes] .
+*MOT:	it would be more fun to go with everybody at school .
+*MOT:	I bet Gary will come with his great big van .
+*MOT:	he has a Volkswagen bus .
+*MOT:	that's right Gary and Dennis have the same car .
+*MOT:	do you ride in it sometime with Gary ?
+*MOT:	where does he take you ?
+*MOT:	okay (.) let's see if we can find +...
+*MOT:	did you go for a trip to find milk with him ?
+*MOT:	that's nice .
+*MOT:	no (.) let's put this on to keep warm .
+*MOT:	come .
+*MOT:	no (.) that was very nice .
+*MOT:	you slept really late .
+*MOT:	come let's put this on (.) honey .
+*MOT:	do you want to take an apple to school ?
+*MOT:	two apples ?
+*MOT:	do you think you could eat two whole apples ?
+*MOT:	does Sarah like apples too ?
+*MOT:	I see .
+*MOT:	did we see Eric somewhere yesterday ?
+*MOT:	where did we see him ?
+*MOT:	remember we met him with his daddy somewhere ?
+*MOT:	where were they ?
+*MOT:	oh was that Chris ?
+*MOT:	where was that ?
+*MOT:	do you remember ?
+*MOT:	yeah [= yes] (.) he was buying Christmas presents (.) wasn't he ?
+*MOT:	we bought some Christmas presents there too .
+*MOT:	we did .
+*MOT:	now +...
+*MOT:	you don't think they'll get lost (.) if you bring them to school ?
+*MOT:	you don't want to loose them (.) do you ?
+*MOT:	don't you think it would be better to leave them home ?
+*MOT:	and then you'll find (th)em tonight at home .
+*MOT:	do you think you could put your boots on by yourself ?
+*MOT:	okay (.) I'll show you which foot .
+*MOT:	let's finish tying your shoes .
+*MOT:	and I'll show you which boot goes on which foot .
+*MOT:	what happened ?
+*MOT:	is your shoe not on ?
+*MOT:	is it on now ?
+*MOT:	Nonna is on an airplane right now (.) and the airplane is coming to
+*MOT:	she's gonna get off the airplane (.) and she's gonna come to Nina's
+*MOT:	isn't that gonna be fun ?
+*MOT:	now this boot +...
+*MOT:	this boot goes on this foot .
+*MOT:	can you pull it on by yourself ?
+*MOT:	what beautiful boots .
+*MOT:	doesn't it go on ?
+*MOT:	stand up .
+*MOT:	is it all snapped ?
+*MOT:	okay (.) now we need one more boot (.) don't we ?
+*MOT:	alright .
+*MOT:	now stamp your foot .
+*MOT:	stand up and stamp your foot .
+*MOT:	is it in ?
+*MOT:	that's good .
+*MOT:	raincoat or your snowsuit jacket ?
+*MOT:	&um (.) I think it's pretty cold out .
+*MOT:	we better put your snowsuit jacket on .
+*MOT:	let me see if I can find it .
+*MOT:	we'll bring both .
+*MOT:	we left your raincoat at school .
+*MOT:	so we'll find your raincoat at school .
+*MOT:	let's put this jacket on to get to school .
+*MOT:	and then at school we'll look for your raincoat .
+*MOT:	I think I left your raincoat in the locker at school .
+*MOT:	I think that's where it got left .

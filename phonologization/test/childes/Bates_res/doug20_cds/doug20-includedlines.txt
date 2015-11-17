@@ -1,0 +1,49 @@
+*MOT:	you like to open the doors of the house ?
+*MOT:	that's fun isn't it ?
+*MOT:	that's fun to open .
+*MOT:	can you tell me what this is ?
+*MOT:	what is this ?
+*MOT:	&hmm ?
+*MOT:	what's this right here ?
+*MOT:	&um table .
+*MOT:	that's right .
+*MOT:	what are these ?
+*MOT:	what are these guys ?
+*MOT:	bark_bark_bark@o .
+*MOT:	that's what they say .
+*MOT:	that's what the chickens say .
+*MOT:	look !
+*MOT:	here's a cooker !
+*MOT:	here's a cooker like Daddy's cooker .
+*MOT:	that's like Daddy's cooker .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	you like those little doors (.) don't cha [: you] ?
+*MOT:	that's a mommy and two dogs .
+*MOT:	those doors are lots_of fun (.) aren't they ?
+*MOT:	did you see these ?
+*MOT:	did you see these over here (.) sweetheart ?
+*MOT:	here's some blocks (.) beads .
+*MOT:	what is that ?
+*MOT:	that's a bed .
+*MOT:	it's a sponge though (.) isn't it ?
+*MOT:	he has a sponge bed .
+*MOT:	&hmm ?
+*MOT:	no (.) we don't touch that !
+*MOT:	no (.) no .
+*MOT:	no outlets .
+*MOT:	oh (.) no .
+*MOT:	that's a sponge bed .
+*MOT:	can you put the little person back on the bed ?
+*MOT:	make the bed stand up and put the little person on it .
+*MOT:	yes (.) honey .
+*MOT:	a cooker .
+*MOT:	Sandy went in there .
+*MOT:	Sandy is in there .
+*MOT:	she'll be back in a few minutes .
+*MOT:	cooker .
+*MOT:	&um very nice .
+*MOT:	oh (.) very nice .
+*MOT:	you want the mommy and the little girl to be on the same chair ?
+*MOT:	did you see all of these little things ?
+*MOT:	look at this .

@@ -1,0 +1,713 @@
+*MOT:	would I like to go on a train ?
+*MOT:	I'd love to .
+*MOT:	you build me a train here .
+*MOT:	oh (.) that's a nice train .
+*MOT:	another seat ?
+*MOT:	for a boat ?
+*MOT:	a boat is going to go on that train ?
+*MOT:	oh (.) that's a boat .
+*MOT:	that block is a boat ?
+*MOT:	I see .
+*MOT:	oh (.) that's part of the train too ?
+*MOT:	I see it .
+*MOT:	do you want me to sit on that train ?
+*MOT:	that's a little too small for me .
+*MOT:	you can put the baby on the train .
+*MOT:	is that a picture of your Mommy ?
+*MOT:	it looks like a picture of a girl with long hair .
+*MOT:	she has what ?
+*MOT:	no (.) she has arms .
+*MOT:	who has fins ?
+*MOT:	no (.) a lady has arms .
+*MOT:	a fish has fins .
+*MOT:	did you see fish this week+end ?
+*MOT:	you're making a train for me ?
+*MOT:	okay .
+*MOT:	I see .
+*MOT:	okay .
+*MOT:	is that the noise that the train makes ?
+*MOT:	too toot .
+*MOT:	where is the train going ?
+*MOT:	going byebye .
+*MOT:	what city is the train going to ?
+*MOT:	is the train going to San Francisco ?
+*MOT:	where's the train going ?
+*MOT:	what do you want to do ?
+*MOT:	the elephant goes too ?
+*MOT:	where's the elephant ?
+*MOT:	he's too big for the train (.) the elephant ?
+*MOT:	I don't see any more ladies in there .
+*MOT:	here are some more people .
+*MOT:	sure .
+*MOT:	everybody can go on the train .
+*MOT:	it's such a big train .
+*MOT:	is that a big train or a little train ?
+*MOT:	oh .
+*MOT:	took away those parts ?
+*MOT:	you said goodbye to part of the train ?
+*MOT:	where is the train going ?
+*MOT:	to Santa_Cruz .
+*MOT:	to visit whom ?
+*MOT:	oh (.) you're going to visit Linda and David at Santa Cruz ?
+*MOT:	they're going to go see Linda's home ?
+*MOT:	I see .
+*MOT:	did you have fun with Linda and David ?
+*MOT:	where did you go ?
+*MOT:	o:h .
+*MOT:	okay (.) I'm sitting down .
+*MOT:	you get your what ?
+*MOT:	what is that ?
+*MOT:	you're hammering the train ?
+*MOT:	are you fixing something ?
+*MOT:	what are you fixing ?
+*MOT:	you fixing something ?
+*MOT:	oh (.) it looks like it's all fixed .
+*MOT:	you hammered it in place .
+*MOT:	can you fix this seat (.) so it can go on the train ?
+*MOT:	why don't you fix this seat ?
+*MOT:	you going to hammer it so it's a little smaller ?
+*MOT:	is that a seat ?
+*MOT:	I see .
+*MOT:	you made a seat .
+*MOT:	you're hammering the seat ?
+*MOT:	now you're hammering that piece .
+*MOT:	what is that going to be ?
+*MOT:	I see .
+*MOT:	got_to be careful ?
+*MOT:	why ?
+*MOT:	you have_to be careful .
+*MOT:	uhoh [= trouble] .
+*MOT:	why ?
+*MOT:	what will happen if you're not careful ?
+*MOT:	the people will fall ?
+*MOT:	if Nina's not careful (.) the people will fall ?
+*MOT:	he's a what for her ?
+*MOT:	what are these ?
+*MOT:	parts (.) of the train ?
+*MOT:	did you see trains the other day when we came home from work ?
+*MOT:	those things are parts of the train (.) I see .
+*MOT:	you're hammering the poor lady .
+*MOT:	doesn't that hurt ?
+*MOT:	why are you hammering her ?
+*MOT:	you're hammering the daddy ?
+*MOT:	you're hammering the little girl ?
+*MOT:	well what do you want to do that for ?
+*MOT:	doesn't it hurt ?
+*MOT:	no (.) it doesn't hurt them ?
+*MOT:	are you hammering softly ?
+*MOT:	it doesn't hurt them ?
+*MOT:	better be careful (.) that's right .
+*MOT:	right .
+*MOT:	right .
+*MOT:	she has_to be careful not to fall out ?
+*MOT:	who needs a seat ?
+*MOT:	what color seat shall we give the Mommy ?
+*MOT:	want me to put that seat on the train ?
+*MOT:	what does the daddy like ?
+*MOT:	I think he would like this color seat (.) don't you ?
+*MOT:	what color is it ?
+*MOT:	can find another seat for the daddy .
+*MOT:	that daddy needs a seat a seat too ?
+*MOT:	oh (.) I don't know how many seats we can find here .
+*MOT:	let's look in the box .
+*MOT:	here's a seat .
+*MOT:	here's a seat too .
+*MOT:	bye (.) Nina we're going to San Francisco .
+*MOT:	we're going to the aquarium .
+*MOT:	bye (.) Nina .
+*MOT:	are you saying goodbye to everybody on the train ?
+*MOT:	did you go and say goodbye to Linda when she went on the bus ?
+*MOT:	that's high (.) isn't it ?
+*MOT:	where are they going ?
+*MOT:	you're going [//] what are they going to see in San Francisco ?
+*MOT:	do you think you can fit him ?
+*MOT:	I think we better add this train behind .
+*MOT:	so we have the big train behind here .
+*MOT:	there's a big train .
+*MOT:	the bear's going to San Francisco ?
+*MOT:	the people are going to San Francisco and the bear is too ?
+*MOT:	I see .
+*MOT:	what are you doing ?
+*MOT:	shall I put this part on that part .
+*MOT:	give me the part with Yogi_Bear .
+*MOT:	I see it's a nice train .
+*MOT:	is that the engine ?
+*MOT:	what are you doing ?
+*MOT:	you trying to squeeze it to make a noise ?
+*MOT:	you have_to squeeze it right here .
+*MOT:	what are you doing ?
+*MOT:	that doesn't squeeze .
+*MOT:	that part that squeezes .
+*MOT:	that's called the engine of the train .
+*MOT:	do you want to pull the train ?
+*MOT:	can you unwind the string ?
+*MOT:	here (.) you have_to unwind it .
+*MOT:	where is the string ?
+*MOT:	it's all wound up here .
+*MOT:	will you unwind it ?
+*MOT:	okay (.) now what shall we do ?
+*MOT:	you want to pull Yogi_Bear ?
+*MOT:	so shall we attach the engine here ?
+*MOT:	the people are going to San Francisco .
+*MOT:	lucky people .
+*MOT:	the bear's going to San Francisco .
+*MOT:	are you pulling the train around ?
+*MOT:	want some help ?
+*MOT:	did it get twisted ?
+*MOT:	okay .
+*MOT:	did it get twisted ?
+*MOT:	what ?
+*MOT:	you're going to San Francisco ?
+*MOT:	what fell off ?
+*MOT:	what part of the train fell off ?
+*MOT:	yeah [= yes] .
+*MOT:	that's a nice train .
+*MOT:	that's one of the wagons of the train .
+*MOT:	do you want to put the people in this big train here with Yogi_Bear
+*MOT:	yeah [= yes] .
+*MOT:	the girl's there .
+*MOT:	Yogi doesn't fit in there ?
+*MOT:	does he ?
+*MOT:	you going to put the bed in the train ?
+*MOT:	it doesn't fit ?
+*MOT:	maybe (.) maybe the play+pen would fit in the train .
+*MOT:	do you think the play+pen would fit ?
+*MOT:	it's a little smaller .
+*MOT:	does the play+pen fit ?
+*MOT:	do you want to find the white bed ?
+*MOT:	I don't know where it is .
+*MOT:	here it is .
+*MOT:	three beds on the train ?
+*MOT:	one (.) two (.) three you're right .
+*MOT:	there're three beds on the train now (.) a yellow (.) a blue and a
+*MOT:	no (.) that really doesn't fit .
+*MOT:	the yellow one is too big .
+*MOT:	I think the yellow bed won't fit on the train .
+*MOT:	you mean you're going to put it on top of the engine ?
+*MOT:	that's a funny place .
+*MOT:	have you ever seen an engine with a bed on top of it ?
+*MOT:	you have ?
+*MOT:	that's funny .
+*MOT:	on Miriam's head (.) you saw a bed once ?
+*MOT:	I see .
+*MOT:	yeah [= yes] .
+*MOT:	did you see horses with Linda ?
+*MOT:	where's your horse ?
+*MOT:	where is your horse ?
+*MOT:	where is your horse ?
+*MOT:	where is your horse ?
+*MOT:	where was he sleeping ?
+*MOT:	in the barn ?
+*MOT:	he was sleeping in the barn .
+*MOT:	did you go on a horse with Linda ?
+*MOT:	it doesn't ?
+*MOT:	that goes on his back .
+*MOT:	that's a harness .
+*MOT:	it goes on his back .
+*MOT:	back .
+*MOT:	see ?
+*MOT:	do you want to put the people on the horse ?
+*MOT:	I don't think they'll go on .
+*MOT:	I think they'll fall off .
+*MOT:	no (.) that part of the engine doesn't squeeze .
+*MOT:	that part squeezes .
+*MOT:	what ?
+*MOT:	that part ?
+*MOT:	that's the engine .
+*MOT:	the what ?
+*MOT:	that part's new ?
+*MOT:	you putting the people on top of the engine ?
+*MOT:	you better be careful .
+*MOT:	they might fall off .
+*MOT:	I think so .
+*MOT:	they should go in the train (.) right ?
+*MOT:	they'll go in the train ?
+*MOT:	can you fit him ?
+*MOT:	you fit him inside ?
+*MOT:	now he's [!!] inside ?
+*MOT:	I think the daddy's too big for the play+pen .
+*MOT:	maybe the baby would fit in the play+pen better .
+*MOT:	here's the baby .
+*MOT:	the baby fit in ?
+*MOT:	where's the baby ?
+*MOT:	oh (.) that's a baby too .
+*MOT:	that's right .
+*MOT:	I see .
+*MOT:	oh (.) she's missing her leg (.) isn't she ?
+*MOT:	where's her other leg ?
+*MOT:	I don't know .
+*MOT:	I haven't seen it .
+*MOT:	no (.) it's not a leg .
+*MOT:	it looks like a leg (.) but it's green .
+*MOT:	that's part of something else .
+*MOT:	I don't know what happened to her leg .
+*MOT:	do you know what happened to it ?
+*MOT:	what happened ?
+*MOT:	what are those ?
+*MOT:	oh (.) what are you doing to the arms ?
+*MOT:	she opens her eyes ?
+*MOT:	no don't break her .
+*MOT:	she's already broken .
+*MOT:	she's already broken her legs (.) poor dolly .
+*MOT:	you're turning her arms around ?
+*MOT:	don't break (th)em .
+*MOT:	you gonna take the doll to the aquarium ?
+*MOT:	what is she gonna see at the aquarium ?
+*MOT:	a fish (.) gonna see ?
+*MOT:	what color fish ?
+*MOT:	really ?
+*MOT:	is she going to see big fish or little fish ?
+*MOT:	little fish ?
+*MOT:	what about dolphins ?
+*MOT:	did you see dolphins in the water ?
+*MOT:	there were dolphins swimming at the aquarium ?
+*MOT:	did they jump ?
+*MOT:	what else did you see at the aquarium ?
+*MOT:	fish that jumped ?
+*MOT:	did you see a whale ?
+*MOT:	see a whale ?
+*MOT:	did you like the aquarium ?
+*MOT:	you saw a big fish there ?
+*MOT:	in the water ?
+*MOT:	what were they doing ?
+*MOT:	what were the fish doing ?
+*MOT:	a spoon ?
+*MOT:	oh (.) you're going to feed the family on the train ?
+*MOT:	you are ?
+*MOT:	you're going to feed the family ?
+*MOT:	here you can pretend this is a spoon .
+*MOT:	can you pretend this is a spoon ?
+*MOT:	what are you going to feed them ?
+*MOT:	can you put the +...
+*MOT:	you putting butter in the pot ?
+*MOT:	what are you doing now ?
+*MOT:	cheese ?
+*MOT:	butter and cheese ?
+*MOT:	&um [= yum] .
+*MOT:	I like cheese .
+*MOT:	do you like cheese ?
+*MOT:	you have cheese and butter on that plate ?
+*MOT:	yeah [= yes] .
+*MOT:	&um [= yum] .
+*MOT:	that cheese is good that you cooked for me .
+*MOT:	did you cook a scrambled egg with the cheese too ?
+*MOT:	&um will you make me and omelette with cheese ?
+*MOT:	let's add some eggs to that pot .
+*MOT:	&uh (.) I added an egg .
+*MOT:	you better scramble it up .
+*MOT:	you made an egg for me ?
+*MOT:	oh (.) I can't wait .
+*MOT:	I'm hungry (.) Nina .
+*MOT:	I'm very hungry .
+*MOT:	yes (.) I'm hungry .
+*MOT:	oh (.) that tastes very good .
+*MOT:	do you think somebody else would like some of your eggs ?
+*MOT:	who are you going to give some eggs to ?
+*MOT:	the lady likes scrambled eggs ?
+*MOT:	yes (.) please .
+*MOT:	I would .
+*MOT:	I'd love some more eggs .
+*MOT:	&um [= yum] (.) oh (.) that was such a good taste .
+*MOT:	do you want some (.) Nina ?
+*MOT:	oh (.) it's delicious .
+*MOT:	where's my plate ?
+*MOT:	you give me a plate .
+*MOT:	which plate is for me ?
+*MOT:	oh that's a big plate (.) isn't it ?
+*MOT:	what color is that plate ?
+*MOT:	which plate is Nina's plate ?
+*MOT:	I see .
+*MOT:	what are you making now ?
+*MOT:	want some .
+*MOT:	what did you put on my plate this time ?
+*MOT:	that tastes like mashed potatoes .
+*MOT:	I'd like some butter on my potatoes .
+*MOT:	can you put some butter on my potatoes ?
+*MOT:	thank_you .
+*MOT:	I'd like some butter on my potatoes .
+*MOT:	are you going to feed me ?
+*MOT:	&um [= yum] (.) I like butter on mashed potatoes .
+*MOT:	oh (.) it's so good .
+*MOT:	what else can you make for me ?
+*MOT:	what other food are you going to make ?
+*MOT:	peas and mashed potatoes and a baby hamburger .
+*MOT:	peas and mashed potatoes and a baby hamburger .
+*MOT:	what a delicious meal .
+*MOT:	what are you giving me now ?
+*MOT:	your mashing the potato ?
+*MOT:	what's that ?
+*MOT:	&um [= yum] (.) it tastes like hamburger to me .
+*MOT:	that's my spoon ?
+*MOT:	thank_you .
+*MOT:	you'll need your spoon ?
+*MOT:	I'll eat with my spoon ?
+*MOT:	okay .
+*MOT:	I think I'll have some hamburger with my spoon .
+*MOT:	that tastes very good .
+*MOT:	shall we put some ketchup on the hamburger ?
+*MOT:	where's the ketchup ?
+*MOT:	I see .
+*MOT:	where are you going to put it ?
+*MOT:	you have hamburger with your ketchup .
+*MOT:	do you like it ?
+*MOT:	okay (.) I think I'll take may fork and I'll dip my hamburger in my
+*MOT:	and I'll feed it to Nina .
+*MOT:	is it good ?
+*MOT:	that was good ?
+*MOT:	you're eating the ketchup ?
+*MOT:	what are you mixing in the pot ?
+*MOT:	you're mixing up the hamburger in the pot ?
+*MOT:	I think I have enough ketchup .
+*MOT:	I don't think I need any more .
+*MOT:	you think I need more ?
+*MOT:	I do ?
+*MOT:	where do you want to put it ?
+*MOT:	you want more .
+*MOT:	let's see (.) I think I would like (.) some french frys .
+*MOT:	can you make me some french frys ?
+*MOT:	I think I've had enough baby hamburger (.) but I would like some
+*MOT:	root beer too (.) okay .
+*MOT:	yeah [= yes] .
+*MOT:	where's Nina's cup ?
+*MOT:	you can have this cup .
+*MOT:	we can share it .
+*MOT:	okay ?
+*MOT:	shall we share it ?
+*MOT:	I don't see another cup .
+*MOT:	do you see another cup ?
+*MOT:	we'll pretend this is my cup ?
+*MOT:	okay .
+*MOT:	thank_you .
+*MOT:	here's a knife .
+*MOT:	do you want to cut the meat with a knife ?
+*MOT:	I see .
+*MOT:	okay .
+*MOT:	okay (.) let's pretend that's the fork .
+*MOT:	there's a spoon .
+*MOT:	that's a chair .
+*MOT:	that's not a spoon .
+*MOT:	here (.) we can pretend that's a spoon .
+*MOT:	would you like me to go get a real fork and spoon and knife ?
+*MOT:	okay .
+*MOT:	let's set the table .
+*MOT:	what are we going to put on the table ?
+*MOT:	here's a tablecloth .
+*MOT:	let's put everything on the table so we can eat .
+*MOT:	what are you putting on the table ?
+*MOT:	okay (.) you better to put the fork and knife .
+*MOT:	what shall we put first ?
+*MOT:	what shall we put on the table first ?
+*MOT:	can you put this on the table ?
+*MOT:	what are you putting on the table ?
+*MOT:	are you cutting the meat ?
+*MOT:	root beer .
+*MOT:	can I have some ?
+*MOT:	you want some first ?
+*MOT:	you want to drink first ?
+*MOT:	you want me to drink first ?
+*MOT:	okay .
+*MOT:	&um [= yum] (.) that's good root beer .
+*MOT:	what are you cooking there ?
+*MOT:	thank_you .
+*MOT:	what did you put in it ?
+*MOT:	what are you putting in your cup ?
+*MOT:	I'm not going to drink the cup (.) but I'll drink what's inside it
+*MOT:	I think I would like some orange juice .
+*MOT:	I'm tired of root beer .
+*MOT:	can you make me some orange juice ?
+*MOT:	what are you doing with the orange juice ?
+*MOT:	are you going to pour it inside the cup ?
+*MOT:	thank_you .
+*MOT:	yes (.) I'd like some more .
+*MOT:	ummhm [= yes] .
+*MOT:	I'm drinking my orange juice .
+*MOT:	oh (.) it's so good .
+*MOT:	thank_you .
+*MOT:	are you drinking your orange juice ?
+*MOT:	(y)um (.) that was very good orange juice .
+*MOT:	no (.) I don't think so .
+*MOT:	are you going to feed the lady now ?
+*MOT:	shall we put her on a chair at the table ?
+*MOT:	here's a seat for the lady at the table .
+*MOT:	shall we put the baby on the high chair ?
+*MOT:	where's the other baby ?
+*MOT:	where's the little wooden baby ?
+*MOT:	do you know where the wooden baby is ?
+*MOT:	here's the wooden baby .
+*MOT:	shall we put the wooden baby on the high chair ?
+*MOT:	oh (.) now what are you going to feed the baby ?
+*MOT:	that's a high chair for that baby ?
+*MOT:	I think this is a better high chair .
+*MOT:	what is that ?
+*MOT:	you're right .
+*MOT:	I was going to pretend it was a high chair (be)cause that's too
+*MOT:	yeah [= yes] (.) we're going to pretend the couch is a high chair
+*MOT:	we have two babies at the table now .
+*MOT:	okay (.) are you going to be the Mommy and feed your little babies
+*MOT:	what are you going to feed them ?
+*MOT:	what do babies like to eat ?
+*MOT:	what do babies like to eat ?
+*MOT:	are you going to have them play ball ?
+*MOT:	isn't it time to eat ?
+*MOT:	maybe they would like a bottle .
+*MOT:	do you think they would like the little bottle ?
+*MOT:	what are you doing ?
+*MOT:	where's the big doll ?
+*MOT:	oh (.) here's your big doll .
+*MOT:	you love her ?
+*MOT:	do you want to hold your big doll ?
+*MOT:	is that big doll the doll (.) the Mommy of the little doll ?
+*MOT:	who's the Mommy of this baby ?
+*MOT:	is Nina this baby's Mommy ?
+*MOT:	I love this doll .
+*MOT:	I love Nina .
+*MOT:	you going +/.
+*MOT:	you going to cover the doll's feet with the blue blanket ?
+*MOT:	who are you taking out ?
+*MOT:	oh (.) is this a panda ?
+*MOT:	what happened to his eye ?
+*MOT:	his eye come off ?
+*MOT:	oh (.) the feet are stuck on Nina bed .
+*MOT:	are you getting out_of the bed ?
+*MOT:	do you want me to hold the dolly ?
+*MOT:	you hold panda .
+*MOT:	you want me to hold dolly ?
+*MOT:	I think dolly's thirsty .
+*MOT:	I think dolly's thirsty .
+*MOT:	what are you gonna do ?
+*MOT:	oh (.) thank_you .
+*MOT:	you're going to give me her bottle ?
+*MOT:	no (.) I don't need to take the top off .
+*MOT:	it's working fine .
+*MOT:	do you want to feed her ?
+*MOT:	the top off the bottle ?
+*MOT:	to add some more stuff ?
+*MOT:	yup [= yes] .
+*MOT:	you have_to unscrew the top ?
+*MOT:	okay (.) add some more .
+*MOT:	what are you going to put in the bottle ?
+*MOT:	you want to take the milk out ?
+*MOT:	and what are you going to put in ?
+*MOT:	oh (.) want to keep the top off the bottle ?
+*MOT:	okay .
+*MOT:	applesauce .
+*MOT:	oh (.) I see .
+*MOT:	going to feed her applesauce .
+*MOT:	does she like it ?
+*MOT:	she likes it ?
+*MOT:	are her eyes open or shut ?
+*MOT:	you want applesauce ?
+*MOT:	she has_to sit up for her eyes to open .
+*MOT:	does the dolly have a seat ?
+*MOT:	where is the dolly's seat ?
+*MOT:	where's her plastic seat ?
+*MOT:	her yellow seat .
+*MOT:	do you know where it is ?
+*MOT:	do you want to pretend that I'm her seat ?
+*MOT:	I see .
+*MOT:	here (.) baby .
+*MOT:	what did you give the baby ?
+*MOT:	I see .
+*MOT:	what else are you going to give her ?
+*MOT:	can you make some cereal for the baby ?
+*MOT:	is she eating well ?
+*MOT:	is she chewing her food ?
+*MOT:	chew your food well .
+*MOT:	no more ?
+*MOT:	is she full ?
+*MOT:	time to give her her bottle now ?
+*MOT:	do you play with dolls when you're with Leila ?
+*MOT:	the top ?
+*MOT:	this is called the nipple of the bottle .
+*MOT:	what do you want to do ?
+*MOT:	do you want to put the nipple back on the bottle ?
+*MOT:	she's thirsty now .
+*MOT:	you're going to give something to drink ?
+*MOT:	shall I help you put that on ?
+*MOT:	it might fall off .
+*MOT:	we have_to screw it on real tight .
+*MOT:	now let's see .
+*MOT:	is the milk too hot ?
+*MOT:	try it on your hand .
+*MOT:	does it feel okay ?
+*MOT:	milk too hot ?
+*MOT:	it's okay ?
+*MOT:	her eyes are closed .
+*MOT:	is she going to go to sleep ?
+*MOT:	why poor baby ?
+*MOT:	she's eaten well .
+*MOT:	she has milk .
+*MOT:	she's lucky .
+*MOT:	she's drinking ?
+*MOT:	can you say +"/.
+*MOT:	+" she's drinking ?
+*MOT:	what are you doing ?
+*MOT:	singing to her ?
+*MOT:	is Nina singing to her dolly ?
+*MOT:	what ?
+*MOT:	you mean you give her a drink ?
+*MOT:	do you want me to give her a drink ?
+*MOT:	she wants a blanket ?
+*MOT:	what color blanket does she have ?
+*MOT:	here's her blanket .
+*MOT:	that's her pink blanket .
+*MOT:	which blanket do you want ?
+*MOT:	the yellow blanket ?
+*MOT:	shall I go see if I can find it ?
+*MOT:	you keep feeding her (.) (be)cause I think she's still thirsty .
+*MOT:	are you singing to her ?
+*MOT:	shall we read her a story about the farm ?
+*MOT:	this is a story about a farm .
+*MOT:	is this Maggie's book or Nina's book ?
+*MOT:	your farm book ?
+*MOT:	where's your farm book ?
+*MOT:	I don't know .
+*MOT:	you have_to go to the bookcase and look for it .
+*MOT:	shall we read her this book from Maggie first ?
+*MOT:	look at the horse which you can pull .
+*MOT:	do you think she would like that ?
+*MOT:	farm book ?
+*MOT:	I don't know .
+*MOT:	we have_to look for it .
+*MOT:	here it is .
+*MOT:	okay (.) you read the story first ?
+*MOT:	oh (.) the head is broken from this little boy (.) isn't it ?
+*MOT:	did Justin tear it ?
+*MOT:	what's in front of the fence ?
+*MOT:	oh (.) they're pretty .
+*MOT:	there're many flowers .
+*MOT:	what's this up here ?
+*MOT:	oh (.) it's a big tree (.) isn't it ?
+*MOT:	who's that ?
+*MOT:	a girl .
+*MOT:	is Nina a girl or a boy ?
+*MOT:	are you a girl ?
+*MOT:	yeah [= yes] .
+*MOT:	that's a little girl .
+*MOT:	and what's that ?
+*MOT:	who's that ?
+*MOT:	that's a boy .
+*MOT:	is Justin a boy or is Justin a girl ?
+*MOT:	Justin's a boy .
+*MOT:	is Leila a girl or a boy ?
+*MOT:	Leila's a girl .
+*MOT:	and Justin's a boy .
+*MOT:	and what is Colleen ?
+*MOT:	is Colleen a big girl or a little girl ?
+*MOT:	Colleen's a little girl (.) isn't she ?
+*MOT:	Colleen's Mommy is a big girl .
+*MOT:	Colleen's Mommy is a woman .
+*MOT:	is Maggie a woman ?
+*MOT:	what is Fred ?
+*MOT:	Fred's a man (.) that's right .
+*MOT:	oh (.) the chicken's head came off too .
+*MOT:	it must have been torn .
+*MOT:	the sun's coming up here .
+*MOT:	see .
+*MOT:	o:h (.) what's here ?
+*MOT:	where is the man ?
+*MOT:	he's on the tractor .
+*MOT:	he's riding on the tractor .
+*MOT:	and what's this one doing .
+*MOT:	where's the other wheel ?
+*MOT:	let's see .
+*MOT:	here it is .
+*MOT:	here are the wheels of the tractor .
+*MOT:	that's a wheel of a tractor too (.) that's right .
+*MOT:	that's a wheel .
+*MOT:	yeah [= yes] .
+*MOT:	what is this man doing ?
+*MOT:	he's climbing up on the tree .
+*MOT:	what's growing on these trees ?
+*MOT:	apples .
+*MOT:	do you like to eat apples ?
+*MOT:	you'll have some apples later .
+*MOT:	o:h (.) what is this man doing ?
+*MOT:	he's sawing a log (.) isn't he ?
+*MOT:	sawing a piece of wood .
+*MOT:	who's behind here ?
+*MOT:	a chicken .
+*MOT:	what's this chicken doing ?
+*MOT:	is that chicken mad ?
+*MOT:	that chicken does look mad (.) doesn't he ?
+*MOT:	he's mad .
+*MOT:	I wonder why he's mad .
+*MOT:	maybe because he can't reach the food .
+*MOT:	what is this chicken doing ?
+*MOT:	that chicken eating ?
+*MOT:	what is this chicken doing ?
+*MOT:	he's eating (.) isn't he ?
+*MOT:	and what's the lady carrying ?
+*MOT:	eggs .
+*MOT:	where are the eggs ?
+*MOT:	those are eggs in the basket .
+*MOT:	oh (.) the chicken's going up and down (.) isn't he ?
+*MOT:	that's a house with lots_of leaves .
+*MOT:	that looks like an umbrella (.) doesn't it ?
+*MOT:	yeah [= yes] (.) it looks like an umbrella .
+*MOT:	that man is carrying an umbrella while he's riding on the tractor ?
+*MOT:	o:h (.) what's happening in this picture ?
+*MOT:	what is the little boy doing ?
+*MOT:	here's his feet .
+*MOT:	there's his feet .
+*MOT:	where is the boy ?
+*MOT:	is he riding on the horse ?
+*MOT:	he's riding on the horse .
+*MOT:	what is the Mommy doing over here ?
+*MOT:	she's cutting pieces of chicken to eat ?
+*MOT:	do you like to eat chicken ?
+*MOT:	that's salad .
+*MOT:	what's in the salad ?
+*MOT:	tomatoes .
+*MOT:	do you like to eat tomatoes ?
+*MOT:	here's a little boy .
+*MOT:	what is he doing ?
+*MOT:	don't take his head off (.) no .
+*MOT:	you don't want to tear him .
+*MOT:	you have_to be careful of this book (.) because it's Maggie's book
+*MOT:	right ?
+*MOT:	o:h (.) what do we have here ?
+*MOT:	what's this called ?
+*MOT:	a barn .
+*MOT:	a big red barn .
+*MOT:	no (.) that's a barn (.) but this is a house .
+*MOT:	that's a barn .
+*MOT:	and where's the house ?
+*MOT:	behind the tree ?
+*MOT:	it's not on top of the tree .
+*MOT:	it's behind the tree .
+*MOT:	see (.) here's the tree .
+*MOT:	is the tree in front of the house ?
+*MOT:	and there's a tree behind the house .
+*MOT:	isn't there ?
+*MOT:	and there's another tree right in front of the house .
+*MOT:	those are trees too .
+*MOT:	do you know there're lots_of trees here (be)cause we're in the
+*MOT:	and in the country there're lots_of trees .
+*MOT:	what's that ?
+*MOT:	yeah [= yes] (.) what's on the flower ?
+*MOT:	o:h (.) a bug is on the flower .
+*MOT:	he is ?
+*MOT:	he's a nice horsie (.) isn't he ?
+*MOT:	he is .
+*MOT:	okay .
+*MOT:	okay .
+*MOT:	no (.) don't tear it .
+*MOT:	no (.) no that doesn't come out .
+*MOT:	that little boy is in the picture .
+*MOT:	some of the things pop up and some of them don't .
+*MOT:	that little boy is just drawn in the picture (.) you see ?
+*MOT:	what's on this table ?
+*MOT:	and what else ?
+*MOT:	o:h .
+*MOT:	you think they're going to have a picnic ?
+*MOT:	looks like they're going to eat outside .
+*MOT:	that looks like a delicious picnic .
+*MOT:	what is the lady doing ?
+*MOT:	no she's a lady .
+*MOT:	what is she doing ?
+*MOT:	where's the man ?
+*MOT:	there's a man back there .
+*MOT:	oh (.) you broke her arm .
+*MOT:	let's see if we can fix it .
+*MOT:	put it back like this .

@@ -1,0 +1,295 @@
+*MOT:	come (h)ere . 0_3988
+*MOT:	whoops . 3988_11025
+*MOT:	look . 11025_12696
+*MOT:	spin round and round . 12696_18426
+*MOT:	spin round and round . 18426_20085
+*MOT:	ahhah . 20085_20786
+*MOT:	spin round and round . 20786_24400
+*MOT:	0 . [+ trn] 25545_28900
+*MOT:	0 . [+ trn] 32800_34876
+*MOT:	0 . [+ trn] 37421_39288
+*MOT:	me . 41796_42956
+*MOT:	ahhah . 42956_44191
+*MOT:	0 . 44191_46466
+*MOT:	can I have it . 46466_47670
+*MOT:	0 . [+ trn] 47670_48278
+*MOT:	0 . [+ trn] 50035_51128
+*MOT:	ahhah . 52138_56743
+*MOT:	push: [=! whispers] . 56743_59075
+*MOT:	push: [=! whispers] .
+*MOT:	0 [=! voc] . [+ trn] 61986_62726
+*MOT:	0 [=! voc] . [+ trn] 64016_65673
+*MOT:	ahhah . 65673_68113
+*MOT:	0 [=! voc] . [+ trn] 68735_70388
+*MOT:	0 [=! voc] . [+ trn] 70693_72505
+*MOT:	boo@o . 72505_73411
+*MOT:	0 . 74956_75830
+*MOT:	0 . [+ trn] 75830_79730
+*MOT:	hello . 79730_83425
+*MOT:	you wanna talk to Chi . 83425_84756
+*MOT:	hold on just a second . 84756_85991
+*MOT:	it's for you . 85991_88265
+*MOT:	say I love you dada . 89183_91275
+*MOT:	it's your daddy . 91275_91610
+*MOT:	ring@o ring@o . 94808_98331
+*MOT:	ring@o ring@o . 98331_100018
+*MOT:	ring@o ring@o . 100018_101208
+*MOT:	you don't wanna play with that . 102790_104150
+*MOT:	0 . [+ trn] 105503_110060
+*MOT:	0 . 117081_118335
+*MOT:	0 . 122368_128993
+*MOT:	ahhah . 131853_132716
+*MOT:	0 [=! voc] . [+ trn] 135471_136186
+*MOT:	ow . 136811_140936
+*MOT:	0 . 140936_143263
+*MOT:	0 . 144631_146435
+*MOT:	yay [=! claps] . 148793_151840
+*MOT:	0 . 151840_152728
+*MOT:	yay [=! claps] . 152728_154188
+*MOT:	0 . 154188_155703
+*MOT:	0 . 157726_159820
+*MOT:	0 . 163953_165208
+*MOT:	what . 166383_167655
+*MOT:	where you gonna take it . 174625_175721
+*MOT:	ahhah . 177221_180135
+*MOT:	0 [=! voc] [<] . [+ trn] 180135_183033
+*MOT:	where you going . 183033_184233
+*MOT:	huh . 184233_185051
+*MOT:	0 [=! voc] . 186568_187336
+*MOT:	come (h)ere . 189225_191318
+*MOT:	come (h)ere . 194693_196426
+*MOT:	0 [=! laughs] . 196426_202930
+*MOT:	you wanna play with those . 208865_210181
+*MOT:	let me have (th)em . 210181_211280
+*MOT:	thank you . 211280_212153
+*MOT:	look . 212153_212996
+*MOT:	0 . 212996_214893
+*MOT:	ahhah . 214893_217015
+*MOT:	do you want to come (h)ere . 217015_218626
+*MOT:	look . 218626_221171
+*MOT:	blue . 221171_222225
+*MOT:	blue . 222225_223418
+*MOT:	put it on there . 223418_224201
+*MOT:	blue one . 224201_226075
+*MOT:	put the blue one on dere [: there] . 226075_228311
+*MOT:	blue one . 228311_229710
+*MOT:	0 . 232438_234366
+*MOT:	red . 235415_237055
+*MOT:	0 [=! voc] . [+ trn] 240100_241011
+*MOT:	blue . 242743_246446
+*MOT:	bless you . 247865_248756
+*MOT:	bless you . 250173_251131
+*MOT:	put it on there . 251131_253153
+*MOT:	where'd it go . 255098_256815
+*MOT:	go get it . 256815_257906
+*MOT:	go get it . 257906_258696
+*MOT:	0 . 260954_265786
+*MOT:	0 . 265786_267593
+*MOT:	xxx you put it on . 267593_270455
+*MOT:	where's it go . 284200_287301
+*MOT:	where's it go . 287301_289130
+*MOT:	where's it go . 291568_294248
+*MOT:	0 . 294248_298381
+*MOT:	0 . 298381_300903
+*MOT:	0 [=! voc] . [+ trn] 300903_301725
+*MOT:	Chi . 302491_303958
+*MOT:	0 [=! voc] . [+ trn] 304741_306655
+*MOT:	you want the truck . 309010_316806
+*MOT:	vroom@o vroom@o . 321415_325145
+*MOT:	voom@o voom@o . 325976_327640
+*MOT:	voom@o vroom@o . 327640_330380
+*MOT:	vroom@o . 334015_336016
+*MOT:	vroom@o . 338118_339373
+*MOT:	vroom@o . 339373_342393
+*MOT:	0 . [+ trn] 342393_343616
+*MOT:	0 [=! voc] . [+ trn] 344598_345131
+*MOT:	0 . 348135_349398
+*MOT:	vroom@o . 350323_353041
+*MOT:	vroom@o . 353041_355243
+*MOT:	0 [=! voc] . [+ trn] 357138_360738
+*MOT:	zoom@o . 360738_366308
+*MOT:	err@o . 366308_374823
+*MOT:	0 [=! laughs] . 374823_375425
+*MOT:	you gonna put that on there . 375425_379420
+*MOT:	blue . 387901_390410
+*MOT:	put it on here . 390410_392668
+*MOT:	yay [=! claps] . 412721_414815
+*MOT:	yay [=! claps] . 416078_417698
+*MOT:	yay . 418138_420238
+*MOT:	come here . 420123_422435
+*MOT:	come here . 422435_423480
+*MOT:	whoops . 423480_425143
+*MOT:	come here . 425043_425518
+*MOT:	0 [=! voc] . [+ trn] 426113_426648
+*MOT:	0 . 427708_430448
+*MOT:	let me have it . 430448_435981
+*MOT:	thank you . 435981_436695
+*MOT:	thank you . 437795_438721
+*MOT:	come here . 440410_440848
+*MOT:	what . 447576_447863
+*MOT:	0 [=! tickles] [>] . 454858_458270
+*MOT:	0 [=! tickles] . 458270_459923
+*MOT:	0 [=! voc] . 461690_462623
+*MOT:	0 [=! tickles] [<] . 462623_465886
+*MOT:	0 [=! voc] [<] . [+ trn] 465886_467138
+*MOT:	0 [=! voc] . [+ trn] 467138_468415
+*MOT:	yay . 471913_474120
+*MOT:	yay . 474120_478373
+*MOT:	0 . 483116_486000
+*MOT:	0 . 487225_489040
+*MOT:	0 [=! voc] . 490478_491145
+*MOT:	0 [=! voc] . [+ trn] 491145_497775
+*MOT:	0 [=! voc] . [+ trn] 497775_499430
+*MOT:	0 . 502998_505025
+*MOT:	whatchu [: what are you] doin(g) . 505025_507741
+*MOT:	huh . 507741_508208
+*MOT:	whatchu [: what are you] doin(g) . 508208_509491
+*MOT:	0 . 509491_512770
+*MOT:	ahhah . 519106_520086
+*MOT:	whatdju [: what did you] find . 520086_521411
+*MOT:	whatdju [: what did you] find . 521411_523241
+*MOT:	0 . 523241_527440
+*MOT:	0 . 533921_539650
+*MOT:	Chi look . 539650_542886
+*MOT:	oink@o [= itr] . 542886_545631
+*MOT:	this little piggie went to market . 545663_549186
+*MOT:	this little piggie stayed home . 549186_551830
+*MOT:	this little piggie had roast beef . 551830_554073
+*MOT:	and this little piggie had none . 554073_555503
+*MOT:	and this little piggie went weewee@o [= itr] . 555503_557211
+*MOT:	ahhah all the way home . 557211_559373
+*MOT:	0 . 559373_563305
+*MOT:	Chi a book . 564715_566211
+*MOT:	yay . 571045_572550
+*MOT:	here look . 572550_576693
+*MOT:	ahhah . 576693_577798
+*MOT:	xxx . 577798_579358
+*MOT:	ahhah Mot . 579358_585041
+*MOT:	Fat . 585041_586153
+*MOT:	baby . 586153_587448
+*MOT:	baby . 587448_588565
+*MOT:	ahhah . 588565_589196
+*MOT:	who's that . 589196_591181
+*MOT:	it's a baby . 591181_593480
+*MOT:	it's a baby . 593480_595273
+*MOT:	kitty+cat . 595273_596643
+*MOT:	kitty+cat . 596643_598946
+*MOT:	ahhah . 598946_600378
+*MOT:	bunny+rabbit . 600378_601951
+*MOT:	xxx . 601951_602393
+*MOT:	who's that . 602393_603185
+*MOT:	who's that . 603185_605548
+*MOT:	who's that . 605548_610231
+*MOT:	yay . 610231_611501
+*MOT:	0 . 611501_616538
+*MOT:	baby . 616538_620643
+*MOT:	ahhah . 620643_621470
+*MOT:	baby . 621470_622238
+*MOT:	baby . 622238_623200
+*MOT:	baby's gonna get you boop@o . 623200_626573
+*MOT:	beep@o boop@o . 626573_627601
+*MOT:	0 [=! voc] . 628641_631533
+*MOT:	0 . 631533_633355
+*MOT:	you want to play with that . 634875_636946
+*MOT:	&hmm . 636946_637570
+*MOT:	is that what you want to play with . 637570_640325
+*MOT:	ahhah . 650358_651593
+*MOT:	xxx want to play with the truck . 651593_654738
+*MOT:	0 . 654738_656645
+*MOT:	xxx . 676373_678388
+*MOT:	leave (th)em alone . 678388_680958
+*MOT:	come here . 686166_689003
+*MOT:	come here . 689003_691111
+*MOT:	0 . 694395_698513
+*MOT:	0 . 705016_708463
+*MOT:	Chi . 721801_726475
+*MOT:	Chi . 726475_732185
+*MOT:	lemme [: let me] see . 732185_732900
+*MOT:	lemme [: let me] . 732900_734465
+*MOT:	you look funny . 734465_736286
+*MOT:	0 [=! laughs] . 736286_739570
+*MOT:	that egg's got a rattle in it . 740901_753186
+*MOT:	shake shake shake . 753186_754435
+*MOT:	shake shake shake . 754435_756753
+*MOT:	0 . 756753_758620
+*MOT:	ahhah . 760758_761963
+*MOT:	you better go get it . 761963_765118
+*MOT:	you better go get it . 767683_769220
+*MOT:	0 . 778358_779411
+*MOT:	0 [=! laughs] . 779411_783666
+*MOT:	0 [=! laughs] . 785028_785921
+*MOT:	uhoh . 785921_787598
+*MOT:	0 [=! laughs] . 799763_803725
+*MOT:	xxx go . 809143_814636
+*MOT:	Chi where you goin(g) . 814636_815603
+*MOT:	0 . 823130_829393
+*MOT:	come . 829393_833835
+*MOT:	0 . 833835_837350
+*MOT:	0 . 837350_842318
+*MOT:	0 . 847788_852471
+*MOT:	0 . 862618_869103
+*MOT:	you going to open the door . 880816_882071
+*MOT:	you gonna close the door . 882938_884631
+*MOT:	you gon(na) [: going to] close the door . 884631_890511
+*MOT:	0 . 914636_917750
+*MOT:	0 [=! sings] . 917750_923636
+*MOT:	let me sit in my chair . 923636_925413
+*MOT:	he's gonna sit in the chair . 925413_927581
+*MOT:	0 [=! voc] . [+ trn] 927581_929908
+*MOT:	0 [=! voc] . [+ trn] 929908_934115
+*MOT:	0 . 934115_942026
+*MOT:	Chi . 954035_958263
+*MOT:	whynchu [: why don't you] play with these . 958263_960520
+*MOT:	&hmm . 960520_961213
+*MOT:	want to play with this . 961213_962401
+*MOT:	0 . 962401_972096
+*MOT:	0 . 972096_974971
+*MOT:	0 . 974971_984518
+*MOT:	0 [=! laughs] . [+ trn] 985800_987001
+*MOT:	0 [=! kisses] . [+ trn] 987001_989246
+*MOT:	0 . 989246_992641
+*MOT:	0 . 992641_995780
+*MOT:	0 . 995780_998356
+*MOT:	0 . 1001036_1003595
+*MOT:	0 . 1003595_1005883
+*MOT:	0 . 1005883_1010705
+*MOT:	0 . 1010705_1012075
+*MOT:	wanna put him in his chair . 1016906_1024163
+*MOT:	&hmm . 1024163_1025141
+*MOT:	wanna put him in his chair . 1025141_1028146
+*MOT:	is he gon(na) [: going to] sit in his chair . 1028146_1030906
+*MOT:	Chi don't . 1033180_1035356
+*MOT:	don't do that . 1035356_1036786
+*MOT:	you gon(na) [: going to] break it . 1036786_1037891
+*MOT:	0 . 1037891_1040346
+*MOT:	night_night . 1061480_1062943
+*MOT:	night_night . 1062943_1064601
+*MOT:	night_night . 1064601_1066271
+*MOT:	is he goin(g) to seepy [: sleepie] . 1066271_1068230
+*MOT:	is he goin(g) to sleepie . 1068810_1070135
+*MOT:	say night_night . 1070135_1073028
+*MOT:	night_night . 1074488_1076911
+*MOT:	night_night . 1081428_1082391
+*MOT:	goin(g) to bed . 1084530_1085998
+*MOT:	is he goin(g) to bed . 1085998_1088301
+*MOT:	&hmm . 1090470_1091126
+*MOT:	yay . 1092193_1092823
+*MOT:	bed . 1092823_1094375
+*MOT:	put him in his chair . 1097928_1100418
+*MOT:	he wants to rock to sleep . 1100418_1102863
+*MOT:	no don't be ugly . 1104016_1106521
+*MOT:	0 [=! sings] let me sit in my chair . 1106521_1114231
+*MOT:	let me sit in my chair [=! sings] . 1114231_1116631
+*MOT:	Chi . 1145103_1145811
+*MOT:	put (h)im in bed . 1145811_1146800
+*MOT:	Chi . 1146800_1147995
+*MOT:	put (h)im in the bed . 1147995_1150501
+*MOT:	say night_night . 1150501_1151773
+*MOT:	night_night . 1153085_1153723
+*MOT:	g(ood) night . 1153723_1156568
+*MOT:	0 . 1171656_1174628
+*MOT:	here ya [: you] go . 1185995_1188358
+*MOT:	0 . 1188358_1196751
+*MOT:	0 . 1196751_1205520
+*MOT:	0 . 1205520_1208846
+*MOT:	you want to put it on here . 1216586_1218535

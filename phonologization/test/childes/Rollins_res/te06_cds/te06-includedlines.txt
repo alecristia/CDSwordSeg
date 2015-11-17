@@ -1,0 +1,199 @@
+*MOT:	you like your Big_Bird . 261173_262825
+*MOT:	he's going to get you . 262825_266395
+*MOT:	0 [=! voc] . 266395_267496
+*MOT:	0 [=! voc] . 267496_269598
+*MOT:	do you want to wear Big_Bird . 269598_271416
+*MOT:	xxx . 271416_275255
+*MOT:	huh . 275255_278741
+*MOT:	what else do you see . 278741_280443
+*MOT:	what does this look like . 280443_287835
+*MOT:	uhoh . 287835_290236
+*MOT:	can you take them out . 290236_293256
+*MOT:	can you take the red one off . 293256_299538
+*MOT:	can you take it off . 299538_302050
+*MOT:	that's a good boy . 302050_303901
+*MOT:	oh let's not chew on it . 303901_305186
+*MOT:	let's not chew on it . 305186_307305
+*MOT:	can Mot have it . 307305_309825
+*MOT:	can Mot have it . 309825_312311
+*MOT:	yes . 313968_315091
+*MOT:	here . 315091_316091
+*MOT:	let's not chew . 316091_316981
+*MOT:	here you take another one . 316981_319091
+*MOT:	take this one . 319091_322345
+*MOT:	pick the orange one . 322345_323618
+*MOT:	you like the red one . 323618_328973
+*MOT:	oh . 328973_334546
+*MOT:	0 [=! laugh] . 334546_335615
+*MOT:	you like to chew . 335615_337385
+*MOT:	do you like to chew on things . 337385_339360
+*MOT:	what else is in here . 339360_340755
+*MOT:	uhoh . 340755_341373
+*MOT:	oh_my_goodness . 341373_345113
+*MOT:	what's that doing . 345113_345995
+*MOT:	ye(a)h . 346880_347396
+*MOT:	can you shake it . 347396_350121
+*MOT:	it's <going to make that silly sound> [>] . 354010_355411
+*MOT:	ye(a)h . 355411_356396
+*MOT:	tell that bird to talk to you . 356396_359348
+*MOT:	what's that noise . 359348_370745
+*MOT:	xxx Big_Bird . 370745_376373
+*MOT:	uhoh . 376373_387245
+*MOT:	want it back . 387245_388596
+*MOT:	there you go . 388596_390065
+*MOT:	is that bird talking . 390065_397558
+*MOT:	uhoh . 397558_406690
+*MOT:	0 [=! gasp] . 406690_410620
+*MOT:	that's it . 410620_412973
+*MOT:	oh . 412973_415495
+*MOT:	a chew a chew . 415495_416848
+*MOT:	that makes a loud sound doesn't it . 416848_421670
+*MOT:	is it loud . 421670_426625
+*MOT:	you shake it . 426625_428276
+*MOT:	shake it shake it shake it . 428276_434905
+*MOT:	&uh . 434905_447500
+*MOT:	where did it go . 447500_448458
+*MOT:	want to find something else . 448458_450878
+*MOT:	what's here . 450878_452696
+*MOT:	want to look at the book . 452696_454213
+*MOT:	hey ye(a)h . 455805_456466
+*MOT:	let's look in the book . 456466_462906
+*MOT:	look may I see . 462906_463975
+*MOT:	uhoh . 463975_467028
+*MOT:	what's there . 467028_467945
+*MOT:	what is this . 467945_470215
+*MOT:	is that baby Chi . 470215_472883
+*MOT:	can you see your face . 472883_474853
+*MOT:	is that Chi . 474853_478090
+*MOT:	yes it is . 482045_483161
+*MOT:	look here . 483161_486750
+*MOT:	what is that . 486750_491303
+*MOT:	is that a bunny . 491303_492121
+*MOT:	see a bunny . 492121_495358
+*MOT:	do you want to hold . 495358_497660
+*MOT:	you want that bird back . 497660_498811
+*MOT:	can you get it . 498811_500363
+*MOT:	need some help . 500363_504451
+*MOT:	here . 504451_506121
+*MOT:	xxx . 506121_511125
+*MOT:	0 [=! laugh] . 511125_513593
+*MOT:	uhoh . 513593_514156
+*MOT:	does he keep falling . 514156_515413
+*MOT:	do you like the book . 526408_531130
+*MOT:	<xxx> [<] . 536236_537505
+*MOT:	what does a book say . 537505_539765
+*MOT:	what else is in here . 539765_546956
+*MOT:	know what . 546956_548575
+*MOT:	look it . 548575_549175
+*MOT:	there's a hat . 549175_550076
+*MOT:	can I put the hat on you . 550076_551828
+*MOT:	can I put the hat on you . 551828_556900
+*MOT:	you like that bird huh . 556900_560436
+*MOT:	xxx the birdie . 560436_562740
+*MOT:	you want the hat . 562740_575553
+*MOT:	ahhah . 575553_576671
+*MOT:	where'd the bird go . 576671_578240
+*MOT:	ahhah . 578240_579880
+*MOT:	where's the birdie . 579880_580848
+*MOT:	there he is . 580848_584685
+*MOT:	uhoh . 584685_594295
+*MOT:	look what else is in here . 594295_596291
+*MOT:	look here's a cow . 596291_598110
+*MOT:	you like the cat . 598110_600380
+*MOT:	do you still like the bird . 600380_601531
+*MOT:	can you put the hat on . 613576_620310
+*MOT:	put the hat on your head . 620310_621906
+*MOT:	look . 621906_622975
+*MOT:	uhoh . 622975_628266
+*MOT:	where's Chi . 628266_629280
+*MOT:	where's Chi . 629280_630650
+*MOT:	uhoh . 630650_631540
+*MOT:	can you get the bird . 631540_637046
+*MOT:	you like that bird . 637046_641501
+*MOT:	0 [=! laugh] . 641501_648153
+*MOT:	is he hard to hold on to . 648153_650695
+*MOT:	&hmm . 650695_651596
+*MOT:	what's this . 651596_653848
+*MOT:	oh_my_goodness . 653848_656851
+*MOT:	<what is that> [<] . 656851_659858
+*MOT:	oh: [>] . 662963_664201
+*MOT:	is that a pretty color . 667368_669391
+*MOT:	hum . 669391_672561
+*MOT:	oh . 672561_677683
+*MOT:	xxx the cow . 677683_681455
+*MOT:	uhoh . 681455_692701
+*MOT:	did he fall . 692701_695186
+*MOT:	0 [=! voc] . 695186_698390
+*MOT:	why don't you not chew . 698390_702476
+*MOT:	get that cow . 702476_707566
+*MOT:	uhoh . 712671_713488
+*MOT:	<you get> [>] it for me [<] . 713488_717180
+*MOT:	want it . 717180_718328
+*MOT:	look at Big_Bird again . 718328_738268
+*MOT:	xxx . 738268_739485
+*MOT:	say hi Chi . 739485_741663
+*MOT:	hi Chi . 741663_743548
+*MOT:	he'll get you . 743548_745153
+*MOT:	0 [=! voc] tickle . 745153_746740
+*MOT:	0 [=! voc] tickle 0 [=! laugh] . 746740_749858
+*MOT:	Big_Bird is going to get you . 749858_751411
+*MOT:	Big_Bird is going to get you . 751411_755838
+*MOT:	0 [=! voc] . 755838_757340
+*MOT:	he's going to get you tickle tickle tickle tickle tickle . 757340_761478
+*MOT:	he's going to get you tickle tickle tickle tickle tickle . 761478_766083
+*MOT:	hi . 766083_767185
+*MOT:	isn't that a nice Big_Bird . 767185_772990
+*MOT:	whoops . 772990_773625
+*MOT:	want the book . 773625_786795
+*MOT:	need the book back . 786795_789358
+*MOT:	look . 789358_790226
+*MOT:	uhoh . 790226_793408
+*MOT:	oh . 795711_796661
+*MOT:	0 [=! laugh] . 802401_806055
+*MOT:	did that bird fall again . 806055_808308
+*MOT:	that's a loud bird . 808308_810360
+*MOT:	say come here birdie . 823328_825060
+*MOT:	what does the book say . 827278_828980
+*MOT:	the book's . 828980_833381
+*MOT:	you can see yourself in the book . 833381_835531
+*MOT:	there's baby Chi . 835531_837383
+*MOT:	xxx . 844108_845293
+*MOT:	I know . 850498_851666
+*MOT:	you covering your foot . 851666_864280
+*MOT:	want to see want to see what else is in the box . 864280_870970
+*MOT:	can you reach in there . 870970_872571
+*MOT:	don't know if you can get in that far . 872571_875385
+*MOT:	look . 875385_876385
+*MOT:	there's a red foot . 876385_878638
+*MOT:	oh_my_goodness . 878638_881541
+*MOT:	<does that look like your> [<] xxx . 881541_883831
+*MOT:	oh . 883831_885585
+*MOT:	does that look like your foot . 885585_888303
+*MOT:	where's Chi's foot . 888303_891340
+*MOT:	I'm going to get your foot . 891340_894393
+*MOT:	I'm going to get your foot . 894393_895660
+*MOT:	look here . 895660_900216
+*MOT:	oh . 906103_907503
+*MOT:	what do you see . 907503_912743
+*MOT:	what do you see is that the cookie monster over there . 912743_918831
+*MOT:	huh oh . 922403_924605
+*MOT:	why don't you not chew . 924605_926940
+*MOT:	choo [= itr] . 926940_928866
+*MOT:	0 [=! voc] . 928866_929448
+*MOT:	choo [= itr] . 929448_930933
+*MOT:	0 [=! voc] . 930933_931751
+*MOT:	want that bird . 936723_945316
+*MOT:	here . 945316_946186
+*MOT:	let me take some of this out_of your lap . 946186_946846
+*MOT:	if I move some of this then you can get the bird easier maybe .
+*MOT:	uhoh .
+*MOT:	can't quite get it can you .
+*MOT:	what do you want .
+*MOT:	do you want the cow .
+*MOT:	you want the bird you want the bird .
+*MOT:	here comes Big_Bird .
+*MOT:	0 [=! tickle] .
+*MOT:	here comes Big_Bird .
+*MOT:	to get you .
+*MOT:	tickle [= itr] .
+*MOT:	here he comes .

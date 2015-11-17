@@ -1,0 +1,79 @@
+*MOT:	&uh (.) what would you like to do ?
+*MOT:	play with those ?
+*MOT:	what are those ?
+*MOT:	what are you going to do with them ?
+*MOT:	huh ?
+*MOT:	it's a bed ?
+*MOT:	for what ?
+*MOT:	is that a bed (.) too ?
+*MOT:	uhhuh .
+*MOT:	what do you do with those ?
+*MOT:	go like that .
+*MOT:	okay .
+*MOT:	oh (.) we've got some other nice things too .
+*MOT:	you're just going to play with that (.) I see .
+*MOT:	no (.) won't fit in .
+*MOT:	no (.) it won't .
+*MOT:	yes !
+*MOT:	that's very good !
+*MOT:	now (.) what's the next one ?
+*MOT:	0 [=! chuckles] .
+*MOT:	&um (.) that's small .
+*MOT:	oh (.) I see .
+*MOT:	that's really good !
+*MOT:	yes !
+*MOT:	yea(h) ?
+*MOT:	okay .
+*MOT:	okay .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	mhm .
+*MOT:	evidently not .
+*MOT:	no it won't .
+*MOT:	we've got some of them mixed up (.) don't we ?
+*MOT:	got some of them mixed up ?
+*MOT:	can you get them undone ?
+*MOT:	how will you get them undone , huh ?
+*MOT:	is that a hard [!] toy to play with ?
+*MOT:	is it fun ?
+*MOT:	couldn't get that out ?
+*MOT:	okay .
+*MOT:	oh (.) tight fit (.) right ?
+*MOT:	uhhuh .
+*MOT:	all go ?
+*MOT:	no .
+*MOT:	could (.) I don't know .
+*MOT:	we'll have_to see .
+*MOT:	uhhuh .
+*MOT:	no (.) (a)fraid not .
+*MOT:	can you put a big thing into a small thing ?
+*MOT:	yeah (.) that's right .
+*MOT:	won't work (.) will it ?
+*MOT:	we've got_to get all of the right ones to go in the right (.)
+*MOT:	so (.) we should +...
+*MOT:	should we start all over ?
+*MOT:	okay .
+*MOT:	let's put out all the little sides [?] okay ?
+*MOT:	it could (.) yeah .
+*MOT:	mhm .
+*MOT:	uhhuh .
+*MOT:	I don't know .
+*MOT:	I don't think so .
+*MOT:	uhhuh .
+*MOT:	uhhuh (.) yes .
+*MOT:	you told me (.) okay .
+*MOT:	it's too what ?
+*MOT:	mhm .
+*MOT:	all go ?
+*MOT:	okay +...
+*MOT:	I think you have those done pretty well .
+*MOT:	mhm .
+*MOT:	mhm .
+*MOT:	yes it does .
+*MOT:	you want to do the colors ?
+*MOT:	what colors are these ?
+*MOT:	can you show me a green one ?
+*MOT:	uhhuh .
+*MOT:	that's red .
+*MOT:	where's a green one ?
+*MOT:	<that's> [/] that's green ?

@@ -1,0 +1,398 @@
+*MOT:	telephone . 27493_29248
+*MOT:	truck . 33520_34278
+*MOT:	she's sleeping . 43981_44993
+*MOT:	oh . 45945_46790
+*MOT:	it's for the baby . 49856_51215
+*MOT:	it's the baby's bottle . 51215_53033
+*MOT:	are you going to clean her ? 55108_56136
+*MOT:	that's a diaper . 73861_75126
+*MOT:	that's a blanket . 75845_76893
+*MOT:	phone . 79685_80403
+*MOT:	who are you calling ? 80403_81090
+*MOT:	is it for me ? 81090_83946
+*MOT:	hello . 85938_87211
+*MOT:	it's daddy . 87211_88511
+*MOT:	what are you gonna ask daddy to bring home for you ? 88511_91991
+*MOT:	a bagel . 93406_94135
+*MOT:	tea . 111235_111996
+*MOT:	oh . 115855_118081
+*MOT:	are you making me tea ? 118081_119356
+*MOT:	it's a truck . 129750_130585
+*MOT:	it's like a car . 130585_131891
+*MOT:	it's big a truck . 131891_132811
+*MOT:	truck . 135818_136735
+*MOT:	oh there's daddy . 146326_148830
+*MOT:	feel his whiskers . 148830_149598
+*MOT:	feel daddy's whiskers . 149598_150781
+*MOT:	can you feel them ? 150781_151821
+*MOT:	ooh whiskers . 153448_154653
+*MOT:	don't they feel funny ? 154653_155640
+*MOT:	let's see what else is in here . 157376_158856
+*MOT:	flowers . 158856_162398
+*MOT:	what's this ? 162398_164186
+*MOT:	peek a boo . 164186_164816
+*MOT:	feel the bunny [x 2] . 164816_169070
+*MOT:	o:w . 169700_170208
+*MOT:	how's that feel ? 170208_171043
+*MOT:	sit down . 172411_173531
+*MOT:	right . 173531_173910
+*MOT:	do you think you could play with the bunny ? 173910_175318
+*MOT:	feel the bunny . 175318_176160
+*MOT:	should I open it ? 190806_191770
+*MOT:	0 . 193580_194298
+*MOT:	that's a hammer . 200783_201556
+*MOT:	yeah . 201556_201865
+*MOT:	bang [x 3] . 203598_204613
+*MOT:	that's the cover for the bottle . 228596_231211
+*MOT:	that's not a pot . 235015_236143
+*MOT:	that's a cup . 236143_236835
+*MOT:	hey . 242700_243115
+*MOT:	you know what's in there ? 243115_243976
+*MOT:	an elephant . 244585_245380
+*MOT:	right . 245380_245978
+*MOT:	how'd you remember that ? 245978_247250
+*MOT:	you remember . 247250_247951
+*MOT:	here . 247951_248763
+*MOT:	push there . 248763_249468
+*MOT:	push it hard . 251255_252981
+*MOT:	push it in . 252981_253576
+*MOT:	there you go . 253576_254308
+*MOT:	push it . 254308_254795
+*MOT:	0 . 254795_256084
+*MOT:	elephant . 257935_258748
+*MOT:	these are tools . 269418_270725
+*MOT:	for fixing things . 270725_273901
+*MOT:	what are you gonna clean ? 287500_288653
+*MOT:	you gonna clean the dishes ? 289200_290350
+*MOT:	clean the dishes for mommy ? 290350_291645
+*MOT:	hey . 293500_294098
+*MOT:	that's not an egg . 302905_303868
+*MOT:	that's a little ball . 303868_305211
+*MOT:	0 . 307780_308898
+*MOT:	try it . 317128_317496
+*MOT:	want me to try it ? 317496_318208
+*MOT:	0 . 318208_319605
+*MOT:	truck . 324160_324828
+*MOT:	spoon . 329190_330000
+*MOT:	0 . 330000_332125
+*MOT:	yeah . 338698_338996
+*MOT:	those are like pots I guess . 338996_340288
+*MOT:	they're kind_of little cups . 340288_341478
+*MOT:	look . 347920_350151
+*MOT:	give me the green one . 350151_351056
+*MOT:	where's the green ? 351056_351930
+*MOT:	you can stack them all up, Ais . 351930_354835
+*MOT:	look at this . 354835_355363
+*MOT:	dolly . 359761_361443
+*MOT:	look what mommy did with the cups . 361443_364100
+*MOT:	could you do that ? 364100_364101
+*MOT:	oh puppy . 364101_366943
+*MOT:	oh is that puppy ? 366943_369345
+*MOT:	what's that ? 379445_380198
+*MOT:	can you tell ? 380198_381248
+*MOT:	read it . 381743_382351
+*MOT:	you don't really read it . 382351_383370
+*MOT:	you just look at it . 383370_384153
+*MOT:	you know what that is ? 384153_384973
+*MOT:	here's a piggy ? 388403_389556
+*MOT:	what's that ? 390681_391183
+*MOT:	animal . 392701_393316
+*MOT:	what kind of animal's that ? 393316_394288
+*MOT:	cow . 394288_394696
+*MOT:	what does that say Aislinn ? 394696_395688
+*MOT:	doggy . 403850_404436
+*MOT:	yeah . 404436_405108
+*MOT:	an iron . 409121_409808
+*MOT:	what's your favorite book ? 416706_418123
+*MOT:	those are shoes . 418768_419390
+*MOT:	but what's your favorite book to read ? 419390_421155
+*MOT:	cute animal book . 423340_424811
+*MOT:	0 . 426941_428630
+*MOT:	what's that ? 430370_431243
+*MOT:	apple . 432378_433728
+*MOT:	shake . 440233_440828
+*MOT:	open it . 443163_444326
+*MOT:	pull . 445503_445853
+*MOT:	pull it up . 445853_446781
+*MOT:	pull it from here . 446781_448548
+*MOT:	0 . 448230_455780
+*MOT:	oh my gosh [x 2] . 465883_469553
+*MOT:	what have you got there ? 469553_471406
+*MOT:	an apple . 475561_476570
+*MOT:	no . 478075_478515
+*MOT:	don't take a bite . 478515_479196
+*MOT:	it's plastic . 479196_479970
+*MOT:	it's make believe . 479970_481050
+*MOT:	what's this Aislinn ? 482545_485381
+*MOT:	it's a carrot . 488283_489360
+*MOT:	hello . 504491_505780
+*MOT:	who is it ? 505780_507451
+*MOT:	oh it's daddy . 509140_509960
+*MOT:	hi daddy . 509960_511741
+*MOT:	an elephant . 515300_516096
+*MOT:	you figure out how to open it . 516096_517221
+*MOT:	mommy showed you . 517221_517968
+*MOT:	how do you open it . 517968_518674
+*MOT:	look at . 519038_519559
+*MOT:	what's this . 519559_520076
+*MOT:	calling mom . 524098_525358
+*MOT:	hello . 530001_531526
+*MOT:	do you want me to take her hat off ? 540861_541758
+*MOT:	it's her diaper . 546336_547375
+*MOT:	she has_to leave it on or she'll get cold . 547375_549678
+*MOT:	where's her feet ? 549678_553198
+*MOT:	take her jacket off, should I ? 555840_556648
+*MOT:	here's her hat . 559858_560363
+*MOT:	yeah . 560363_560870
+*MOT:	wait a second [x 2] . 563350_564843
+*MOT:	there . 564843_565543
+*MOT:	her jacket . 569421_570335
+*MOT:	she's going to be cold, Aislinn . 572000_573720
+*MOT:	oh leave the diaper on . 578460_579776
+*MOT:	beads yeah . 590706_591918
+*MOT:	what are you gonna do with them ? 591918_592845
+*MOT:	0 . 594800_595318
+*MOT:	pretty . 595318_597660
+*MOT:	it's Oscar . 604118_604906
+*MOT:	that's Grover like in cute animal book . 606680_608828
+*MOT:	pocketbook . 629788_630563
+*MOT:	open it . 633516_634331
+*MOT:	0 . 634331_637680
+*MOT:	empty . 642751_643365
+*MOT:	there's nothing in there . 643365_644780
+*MOT:	what are you gonna play with ? 670748_671813
+*MOT:	brush . 676923_677858
+*MOT:	do you know what goes in there ? 685605_686730
+*MOT:	put the bunny book in there . 686730_688516
+*MOT:	it goes the other way . 693086_694603
+*MOT:	turn it the other way . 694603_696091
+*MOT:	0 . 702828_704043
+*MOT:	there . 704043_707558
+*MOT:	do you wanna do this puzzle ? 707558_714575
+*MOT:	let's see if you can put the duck in for me . 714575_716103
+*MOT:	I'll take the duck out . 716103_717170
+*MOT:	here's the duck . 717170_718966
+*MOT:	can you put him back in his little hole ? 718966_720653
+*MOT:	piggy . 723895_725010
+*MOT:	is that an egg ? 735166_735930
+*MOT:	are you gonna ride in the car ? 751016_752596
+*MOT:	you can put the little man in the car . 757625_760198
+*MOT:	you can put him in the little man truck . 760198_763250
+*MOT:	talk to mom . 774943_775746
+*MOT:	oh . 786183_787230
+*MOT:	they don't snap . 793913_795248
+*MOT:	they stay together . 795248_796270
+*MOT:	no . 797406_797848
+*MOT:	they don't snap . 797848_798380
+*MOT:	these ones you can snap if you want . 798380_799846
+*MOT:	let's see if you can snap them . 801400_802320
+*MOT:	do you wanna put them on ? 828841_829426
+*MOT:	0 . 830608_832963
+*MOT:	there . 832963_834271
+*MOT:	can you see better now . 834271_835330
+*MOT:	that's not a penguin . 851673_852651
+*MOT:	that's a rooster . 852651_853558
+*MOT:	piggy . 858060_858798
+*MOT:	what's that ? 869436_876838
+*MOT:	that's a cow . 876838_877753
+*MOT:	no . 879356_879786
+*MOT:	that's a cow . 879786_880736
+*MOT:	it's a pretty cow . 882698_883515
+*MOT:	what does it say ? 883515_885308
+*MOT:	are you gonna tell mommy ? 885071_888910
+*MOT:	no . 888910_891561
+*MOT:	0 . 891561_895486
+*MOT:	put him back . 895486_900461
+*MOT:	put the cow back . 900461_901373
+*MOT:	where does it go ? 901373_903046
+*MOT:	do you remember ? 903046_903925
+*MOT:	no . 905031_905663
+*MOT:	it goes up there . 905663_906875
+*MOT:	put him up there . 906875_907608
+*MOT:	that's a duck . 911285_911950
+*MOT:	put him in there . 911950_913440
+*MOT:	that's right . 914103_914563
+*MOT:	in there . 914563_915065
+*MOT:	turn him around a little bit . 915065_916655
+*MOT:	they don't snap . 956690_957531
+*MOT:	they stay together . 957531_958435
+*MOT:	no what ? 989278_991085
+*MOT:	no what ? 992898_994965
+*MOT:	the baby will ride in the car . 1003818_1005550
+*MOT:	you can put the man in here . 1031003_1033045
+*MOT:	0 . 1033045_1035578
+*MOT:	are you driving ? 1039966_1041545
+*MOT:	put him on the steering wheel . 1044698_1046060
+*MOT:	can you ? 1046060_1046585
+*MOT:	there you go . 1059016_1060478
+*MOT:	now you could drive . 1061541_1062448
+*MOT:	what are you doing with that ? 1086446_1087766
+*MOT:	put that down . 1090686_1092213
+*MOT:	why don't you put the toys back ? 1092213_1100511
+*MOT:	put them all back in there . 1100511_1101586
+*MOT:	come here . 1105148_1107436
+*MOT:	put all the toys back in here . 1107436_1108705
+*MOT:	let's throw them all in here . 1108705_1111011
+*MOT:	put the beads in . 1112786_1113723
+*MOT:	what else are you going to put in ? 1115493_1119711
+*MOT:	are you going to put the car in ? 1120911_1121731
+*MOT:	let me see . 1121731_1122391
+*MOT:	plate . 1138221_1139073
+*MOT:	are you going to eat ? 1139073_1139655
+*MOT:	why don't you feed the baby something ? 1139655_1142905
+*MOT:	she might be hungry . 1142905_1143970
+*MOT:	an egg . 1145603_1146621
+*MOT:	the egg was around . 1146621_1148776
+*MOT:	here it is . 1155696_1156676
+*MOT:	0 . 1172313_1213875
+*MOT:	okay . 1238388_1239093
+*MOT:	I'll have some tea . 1239093_1239961
+*MOT:	thank you Aislinn . 1249020_1250381
+*MOT:	0 . 1250381_1252031
+*MOT:	I don't need a spoon . 1252245_1253101
+*MOT:	I drank it up . 1253101_1253793
+*MOT:	can I have some more ? 1253793_1254506
+*MOT:	sure . 1257350_1258088
+*MOT:	thank you . 1263095_1264091
+*MOT:	0 . 1264091_1265408
+*MOT:	could I have the egg too ? 1266850_1267620
+*MOT:	that's the tea . 1269895_1270783
+*MOT:	can I have an egg too ? 1270783_1271933
+*MOT:	put my egg on the plate . 1271933_1276390
+*MOT:	that's for the dolly . 1286110_1287096
+*MOT:	that's for the dolly . 1288283_1290020
+*MOT:	milk . 1291808_1292285
+*MOT:	but that's for the dolly . 1292285_1293163
+*MOT:	have some tea Aislinn . 1293940_1297365
+*MOT:	0 . 1298925_1299458
+*MOT:	0 . 1299458_1300171
+*MOT:	here's the plate for the egg . 1300718_1301956
+*MOT:	0 . 1301956_1303425
+*MOT:	I should have a spoon so I could eat my egg . 1303425_1305060
+*MOT:	where's the spoon ? 1305060_1305963
+*MOT:	you're sitting on it . 1308090_1308968
+*MOT:	there it is . 1308968_1309786
+*MOT:	it's under your foot . 1309786_1310516
+*MOT:	there it is . 1311108_1312551
+*MOT:	see [x 2] . 1312551_1315363
+*MOT:	oh . 1315363_1317073
+*MOT:	you got it . 1317073_1318065
+*MOT:	the man's driving . 1374511_1375413
+*MOT:	where is he driving ? 1375413_1376260
+*MOT:	that's not the way to make it ring . 1377585_1381840
+*MOT:	daddy's not home yet . 1410353_1411348
+*MOT:	he'll be home later . 1411348_1412215
+*MOT:	he'll sit down when he comes home . 1413535_1414980
+*MOT:	he'll play with you later . 1414980_1415985
+*MOT:	no [x 2] . 1424471_1425791
+*MOT:	come over here . 1425791_1426615
+*MOT:	why don't we let the man take the baby for a ride ? 1428460_1434366
+*MOT:	she's sitting down . 1445218_1446066
+*MOT:	do you wanna make her sit better ? 1446066_1447103
+*MOT:	we'll fix her legs . 1447103_1449368
+*MOT:	then she'll sit better . 1449368_1450498
+*MOT:	there . 1450498_1451190
+*MOT:	see . 1451190_1451625
+*MOT:	I fixed her legs . 1455675_1456518
+*MOT:	now I'll fix her arms . 1456518_1457893
+*MOT:	we'll seat her right like that . 1457893_1460295
+*MOT:	okay . 1460295_1461301
+*MOT:	the man's driving . 1476236_1477423
+*MOT:	but what happened to the baby ? 1477423_1478521
+*MOT:	she fell . 1480048_1480580
+*MOT:	yeah . 1480580_1481010
+*MOT:	do you wanna get the man ? 1494483_1495755
+*MOT:	there he goes . 1495755_1498443
+*MOT:	you got him . 1498443_1499240
+*MOT:	you're hand stuck . 1500255_1500723
+*MOT:	there he is . 1500723_1501695
+*MOT:	put the baby in . 1508110_1509366
+*MOT:	oh . 1515111_1516045
+*MOT:	where's the man going to take the baby ? 1518228_1519715
+*MOT:	for a ride . 1521208_1521978
+*MOT:	where ? 1521978_1522540
+*MOT:	in the car . 1525345_1526303
+*MOT:	are they going to go to the store for something ? 1526303_1528900
+*MOT:	are they going to the store ? 1531831_1532890
+*MOT:	are they going to Friendly ? 1532890_1536095
+*MOT:	yeah . 1537031_1537516
+*MOT:	oh . 1538270_1538570
+*MOT:	they're going to go buy candy . 1538570_1539503
+*MOT:	are they ? 1539503_1540003
+*MOT:	do you want me to take them out for you ? 1552025_1553440
+*MOT:	oh he's stuck in there . 1553440_1555255
+*MOT:	there he is . 1555255_1557025
+*MOT:	are you going to hide him ? 1558975_1559746
+*MOT:	go for a ride in the car . 1579268_1581650
+*MOT:	whoa . 1600688_1601380
+*MOT:	mommy eat the egg . 1606911_1608068
+*MOT:	buy candy . 1624333_1626728
+*MOT:	is that where they're going ? 1626728_1627683
+*MOT:	what kind of candy are they going to buy ? 1627683_1630821
+*MOT:	two of what kind ? 1632803_1634461
+*MOT:	yeah . 1635560_1636216
+*MOT:	oh . 1639120_1639503
+*MOT:	chocolate chips . 1639503_1640308
+*MOT:	oh they're going to buy chips . 1642370_1643345
+*MOT:	can I have some ? 1650573_1651948
+*MOT:	can I have some egg ? 1654435_1656873
+*MOT:	0 . 1656873_1658435
+*MOT:	oh what's that face ? 1658435_1662676
+*MOT:	you didn't want me to eat the egg ? 1662676_1665070
+*MOT:	okay . 1665070_1666738
+*MOT:	ill give Aislinn some egg . 1666738_1667820
+*MOT:	here Aislinn . 1667820_1669196
+*MOT:	whoa . 1673728_1674266
+*MOT:	you okay ? 1674266_1674896
+*MOT:	are those her feet and her legs ? 1697078_1698526
+*MOT:	oh good . 1704535_1705035
+*MOT:	put the blanket around her so she doesn't get cold while she's
+*MOT:	come here Aislinn . 1719303_1719806
+*MOT:	where 0v you going ? 1719806_1720151
+*MOT:	come over here . 1720151_1720860
+*MOT:	oh . 1723203_1723660
+*MOT:	are you going to put her in the cradle ? 1723660_1724913
+*MOT:	no . 1724913_1725403
+*MOT:	play with these things . 1725403_1726338
+*MOT:	we'll play over there later . 1726338_1727148
+*MOT:	let her take her nap in the car Aislinn . 1727148_1737228
+*MOT:	are you the baby's mommy ? 1769678_1770963
+*MOT:	turn it this way . 1785848_1787128
+*MOT:	turn it down . 1787128_1788210
+*MOT:	there . 1788210_1790040
+*MOT:	that's better . 1790040_1792568
+*MOT:	for me . 1800720_1801420
+*MOT:	let me take the spoon . 1804171_1806403
+*MOT:	I'll stir it up . 1806403_1807105
+*MOT:	stir it up for me . 1807105_1808935
+*MOT:	okay . 1811451_1812136
+*MOT:	0 . 1812136_1813790
+*MOT:	and that was good Aislinn . 1813790_1815503
+*MOT:	can I have some more ? 1815503_1816098
+*MOT:	I want some more of this tea . 1817775_1819873
+*MOT:	I've got the spoon . 1822816_1823598
+*MOT:	here it is . 1823598_1824068
+*MOT:	pour me a whole lot . 1832928_1833896
+*MOT:	I want a whole lot Aislinn . 1833896_1835331
+*MOT:	oh boy . 1839935_1841031
+*MOT:	is that a lot ? 1841031_1841738
+*MOT:	oh I like it . 1847316_1848486
+*MOT:	it's good . 1848486_1849496
+*MOT:	you try some [x 2] . 1849496_1852520
+*MOT:	you filled up . 1853723_1855211
+*MOT:	brush no . 1870041_1870815
+*MOT:	what do you do with the brush ? 1870815_1872058
+*MOT:	spoon right . 1873405_1874838
+*MOT:	oh . 1888705_1889205
+*MOT:	it's for me . 1889205_1889648
+*MOT:	hi daddy . 1889648_1891183
+*MOT:	Aislinn wants you to bring her home something . 1891183_1893895
+*MOT:	what do you want daddy to bring home for you ? 1893895_1895993
+*MOT:	hello . 1896906_1897865
+*MOT:	she could go for a ride in the car too . 1921715_1923428
+*MOT:	that's a nice dolly . 1945916_1946741
+*MOT:	do you want me to hold her ? 1949656_1950505
+*MOT:	that's a nice dolly . 1950505_1953488
+*MOT:	do you want me to put her in the car ? 1956151_1957321
+*MOT:	do you want me to make her sit down in the car ? 1957321_1959025
+*MOT:	now she'll sit in the car . 1959025_1961186

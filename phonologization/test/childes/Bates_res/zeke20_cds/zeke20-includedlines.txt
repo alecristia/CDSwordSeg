@@ -1,0 +1,112 @@
+*MOT:	wan(t) (t)a play with those ?
+*MOT:	stack [/] stack (th)em up ?
+*MOT:	can we make a tower (.) Zeke ?
+*MOT:	wan(t) (t)a make a tower ?
+*MOT:	wan(t) (t)a make a tower ?
+*MOT:	&hmm ?
+*MOT:	you wan(t) (t)a make a tower ?
+*MOT:	make a tower ?
+*MOT:	0 [=! gasps] .
+*MOT:	look at Mommy's tower she's making !
+*MOT:	look at this tower !
+*MOT:	look at that tower (.) Zeke !
+*MOT:	oh !
+*MOT:	good !
+*MOT:	will you go get me the other pieces ?
+*MOT:	&hmm ?
+*MOT:	will you go get the other pieces ?
+*MOT:	&hmm ?
+*MOT:	want me to make a tower again ?
+*MOT:	&hmm ?
+*MOT:	want me to make a tower again ?
+*MOT:	you gonna <le(t)> [//] wait until I get it done ?
+*MOT:	&ah [<] !
+*MOT:	&ah !
+*MOT:	&ah !
+*MOT:	&ah !
+*MOT:	&ah !
+*MOT:	&ah !
+*MOT:	ball !
+*MOT:	play it [?] .
+*MOT:	oh .
+*MOT:	look at this !
+*MOT:	Zeke ?
+*MOT:	wan(t) (t)a put that in here ?
+*MOT:	there's all these little [!] things .
+*MOT:	&hmm ?
+*MOT:	oh (.) just a sec(ond) .
+*MOT:	can you do this one ?
+*MOT:	can you put this one in ?
+*MOT:	good boy !
+*MOT:	no (.) it doesn't go in that hole .
+*MOT:	it goes in this hole .
+*MOT:	can you get it ?
+*MOT:	do you know how to do it ?
+*MOT:	want Mommy to show you ?
+*MOT:	see ?
+*MOT:	it goes this way .
+*MOT:	see ?
+*MOT:	boop@o !
+*MOT:	this goes in this hole .
+*MOT:	turn it around (.) you can do it !
+*MOT:	&ah !
+*MOT:	xxx get it [?] .
+*MOT:	do it again .
+*MOT:	keep goin(g) .
+*MOT:	you can do it .
+*MOT:	that's [!] it !
+*MOT:	put that one in .
+*MOT:	no (.) it goes in the round [!] hole .
+*MOT:	it goes in the round [!] hole .
+*MOT:	goes in that [!] hole .
+*MOT:	good boy !
+*MOT:	get them all out ?
+*MOT:	&hmm ?
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	this one in it .
+*MOT:	goes [/] goes in this hole .
+*MOT:	yeah ?
+*MOT:	good !
+*MOT:	that's the way !
+*MOT:	yeah !
+*MOT:	you can put that in this hole .
+*MOT:	turn it around .
+*MOT:	this way (.) Zeke !
+*MOT:	see ?
+*MOT:	like that ?
+*MOT:	what're you chewing on the bed for ?
+*MOT:	&hmm ?
+*MOT:	what're you chewing on the bed for ?
+*MOT:	what's this ?
+*MOT:	that a chair ?
+*MOT:	a chair ?
+*MOT:	and wan(t) (t)a [?] put a person in the chair ?
+*MOT:	like that ?
+*MOT:	in [/] in here ?
+*MOT:	oh (.) here's one .
+*MOT:	lounge [!] chair .
+*MOT:	xxx put this person in the chair ?
+*MOT:	oh .
+*MOT:	what's this ?
+*MOT:	birdie !
+*MOT:	it's a chicken !
+*MOT:	cluck_cluck_cluck@o .
+*MOT:	it's gonna get Zeke .
+*MOT:	and then +...
+*MOT:	what's this ?
+*MOT:	doggie ?
+*MOT:	does that look like a dog to you ?
+*MOT:	&hmm ?
+*MOT:	that look like a dog to you ?
+*MOT:	and what +...
+*MOT:	oh boy .
+*MOT:	table .
+*MOT:	look at that nice table .
+*MOT:	it's a grill .
+*MOT:	<this fit> [/] this fit there ?
+*MOT:	we take someone for a ride in the car ?
+*MOT:	&hmm ?
+*MOT:	wan(t) (t)a take somebody for a ride in the car ?
+*MOT:	stay over here now (.) Zeke .
+*MOT:	stay over here .

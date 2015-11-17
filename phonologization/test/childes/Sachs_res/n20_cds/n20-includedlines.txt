@@ -1,0 +1,86 @@
+*FAT:	is that right ? 4952_6468
+*FAT:	are you going to slide now ? 50374_52057
+*FAT:	yeah . 64215_64848
+*FAT:	it's a little leather purse . 71519_74653
+*FAT:	oh (.) you slid down the wrong side . 104040_106375
+*FAT:	Nomi (.) you slid down the wrong side . 110843_113112
+*FAT:	come out from under the chair . 113112_115747
+*FAT:	yeah . 119799_119966
+*FAT:	you can jump . 132488_133304
+*FAT:	go ahead . 133304_134673
+*FAT:	Nomi (.) what does Grandma say ? 144712_147831
+*FAT:	what does Gammy say ? 149516_150900
+*FAT:	careful (.) careful . 156817_159769
+*FAT:	oh (.) that hurt Nomi . 177223_183127
+*FAT:	yeah (.) I'll say . 184043_184677
+*FAT:	you fell right on your tushie . 186929_189614
+*FAT:	you want to come up and sit on my lap . 198030_200499
+*FAT:	you had better just rest a while . 203332_206367
+*FAT:	why don't you talk while you're resting . 206367_210169
+*FAT:	what's that ? 219002_221137
+*FAT:	where's the cow ? 221837_223406
+*FAT:	I don't see any cow . 223806_226108
+*FAT:	I see a gargoyle . 226875_228258
+*FAT:	I don't see a cow up there . 233012_234881
+*FAT:	but if you say there's a cow up there (.) there must be a cow up
+*FAT:	where's the elephant ? 242217_244736
+*FAT:	Nomi (.) I think you are fantasizing . 255156_260727
+*FAT:	Gammy . 261210_262293
+*FAT:	where's Gammy ? 262293_262943
+*FAT:	no (.) there's no Gammy there . 264345_267131
+*FAT:	that's a man . 274667_276336
+*FAT:	it's a funny looking man . 276336_278604
+*FAT:	you throwed it . 292496_294381
+*FAT:	be careful . 296316_298366
+*FAT:	boom . 298366_302320
+*FAT:	Nomi . 325711_327477
+*FAT:	you fell down face first . 329413_330746
+*FAT:	can you say +"/. 338746_340429
+*FAT:	+" kamikaze ? 340429_341864
+*FAT:	we don't have any clip (.) Nomi . 352570_355356
+*FAT:	where's the clip ? 358491_360509
+*FAT:	show me (.) Nomi . 380200_381635
+*FAT:	yes (.) that's a monkey . 382452_385354
+*FAT:	that's right . 385354_388639
+*FAT:	it's a monkey . 392707_393942
+*FAT:	let's see . 395592_397261
+*FAT:	it fell in the basket . 397261_399863
+*FAT:	oh (.) you know what that is (.) Nomi ? 403315_406950
+*FAT:	that's right (.) it's a cow . 407983_409719
+*FAT:	how come you're blowing on the monkey ? 409719_416889
+*FAT:	why are you blowing on the monkey ? 416889_419791
+*FAT:	that's a monkey and a cow . 444377_446895
+*FAT:	can you say that (.) Nomi ? 446895_452299
+*FAT:	monkey and cow . 453183_454918
+*FAT:	monkey and the cow . 468158_469041
+*FAT:	that's good . 469041_469675
+*FAT:	do you want to lie down ? 540449_541949
+*FAT:	what honey ? 553340_555708
+*FAT:	what ? 556575_557092
+*FAT:	this is Mr Nixon . 559927_562879
+*FAT:	a magazine . 568450_570135
+*FAT:	oh (.) you found a hen . 577138_579657
+*FAT:	that's a hen . 582359_582992
+*FAT:	it's alright (.) dear (.) just leave it alone . 628948_630781
+*FAT:	just leave it alone . 630781_634083
+*FAT:	that's okay . 634083_634935
+*FAT:	it's broken (.) Nomi . 634935_636168
+*FAT:	Nomi (.) the door is broken . 639120_642738
+*FAT:	it won't stay shut (.) so we'll just leave it alone . 642738_645190
+*FAT:	that's good . 645190_648142
+*FAT:	Mommy's in bed . 654130_656396
+*FAT:	yes . 693789_699410
+*FAT:	can you tell Julia a story ? 702112_704047
+*FAT:	you know what you should do (.) Nomi ? 704047_705964
+*FAT:	you should give Julia a bath . 705964_707897
+*FAT:	here's a bath+tub . 707897_709832
+*FAT:	you should give Julia a bath in the bath+tub . 709832_712801
+*FAT:	yes (.) wash Julia in the bath+tub . 714903_716370
+*FAT:	change the diaper . 818623_820175
+*FAT:	those are all circus colors there . 904572_910426
+*FAT:	is Julia soaking wet ? 976063_979265
+*FAT:	oh (.) you comfort baby and say it's alright . 1013841_1017609
+*FAT:	yeah (.) you can put the baby down for a minute . 1025114_1027800
+*FAT:	I think you put the baby in your room (.) didn't you (.) Nomi ? 1138830_1143801
+*FAT:	did you put the baby down for a nap ? 1147186_1148486
+*FAT:	you put Georgie down for a nap . 1220002_1223388

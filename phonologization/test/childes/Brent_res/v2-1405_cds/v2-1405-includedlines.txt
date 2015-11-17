@@ -1,0 +1,932 @@
+*MOT:	&um (.) we're not gonna do Cat_in_the_hat . 2917_5830
+*MOT:	and we're not . 8233_9160
+*MOT:	let's see ! 9180_10157
+*MOT:	what book you wanna do ? 11867_12840
+*MOT:	you wanna do a book ? 13767_14510
+*MOT:	which one ? 15740_16087
+*MOT:	(there)'s a_lot_of (th)em . 17110_17767
+*MOT:	here . 18967_19133
+*MOT:	I'll get up there and I'll pick a book okay ? 19743_21470
+*MOT:	let's see ! 24787_25440
+*MOT:	which one is this ? 25653_26780
+*MOT:	that (.) is the emperor's new clothes . 27963_30310
+*MOT:	no we don't wanna read that . 31490_32830
+*MOT:	which one is this ? 33943_34847
+*MOT:	that's xxx . 35650_36870
+*MOT:	be careful ! 39287_40057
+*MOT:	be careful ! 42283_43600
+*MOT:	you heard me . 43903_44720
+*MOT:	yes ? 53537_54203
+*MOT:	we could read the Jungle_book . 60747_61977
+*MOT:	Jungle_book ? 64810_65313
+*MOT:	read about xxx ? 66910_67663
+*MOT:	okay I'll just take some down . 72883_74643
+*MOT:	and we'll decide . 75640_76740
+*MOT:	okay . 77727_78357
+*MOT:	there you go . 79533_80050
+*MOT:	no Tarzan . 87117_88303
+*MOT:	Lion_king ? 89137_89947
+*MOT:	xxx (.) Mufasa ? 90313_91507
+*MOT:	One_hundred_and_one_dalmatians . 94513_96590
+*MOT:	which one [?] ? 122543_123100
+*MOT:	no . 158490_159343
+*MOT:	don't do that ! 161220_162050
+*MOT:	&hmm ? 267680_268363
+*MOT:	&hmm ? 269683_270340
+*MOT:	what ? 273323_273813
+*MOT:	that's Woody . 284540_285347
+*MOT:	see Woody ? 286703_287340
+*MOT:	you see Toy_sto(ry) . 288373_289310
+*MOT:	no . 289337_289897
+*MOT:	play with yours ! 289933_290753
+*MOT:	yes ? 306437_307140
+*MOT:	no . 318223_318823
+*MOT:	&hmm ? 342027_342590
+*MOT:	you like Toy_story ? 357773_358910
+*MOT:	but we have the mov(ie) . 359723_360530
+*MOT:	we're not gonna read Toy_story . 360543_361943
+*MOT:	you gonna read to me ? 409147_410290
+*MOT:	that would be nice . 411527_412613
+*MOT:	here . 416837_417113
+*MOT:	we said no@q . 418230_418827
+*MOT:	we said . 419037_419517
+*MOT:	we said Toy_story was out . 420020_421793
+*MOT:	not Toy_story but Tarzan . 421853_423600
+*MOT:	you didn't wanna read One_hundred_and_one . 425210_427047
+*MOT:	we just finished reading that one . 428897_430620
+*MOT:	Mulan . 431403_432297
+*MOT:	Bug's_life . 432317_433270
+*MOT:	Are_you_my_mother ? 436780_437910
+*MOT:	&hmm . 440007_440683
+*MOT:	Beauty_and_the_beast . 441670_442983
+*MOT:	Dinosaur . 443447_444543
+*MOT:	no . 453900_454813
+*MOT:	you're stacking those up . 455637_457100
+*MOT:	but this is . 458393_459197
+*MOT:	Disney . 461250_462043
+*MOT:	Cat_in_the_hat . 463650_464893
+*MOT:	and this is Disney . 466683_468230
+*MOT:	this . 472797_473167
+*MOT:	whatcha doing ? 474900_476153
+*MOT:	you've got that book . 478827_480087
+*MOT:	you don't want that one ? 481477_482633
+*MOT:	&hmm ? 483983_484460
+*MOT:	Xavier . 485950_486993
+*MOT:	Xavier . 490793_491970
+*MOT:	I know you hear me . 494197_495590
+*MOT:	what are you doing ? 555510_556423
+*MOT:	xxx okay ? 662403_663197
+*MOT:	are you okay ? 679373_680767
+*MOT:	you're over there coughing . 680780_681867
+*MOT:	haven't decided . 687967_689047
+*MOT:	you like to pick ? 731830_732623
+*MOT:	can I see that ? 734090_734843
+*MOT:	can I see that please ? 736943_737877
+*MOT:	just for a second . 738780_739707
+*MOT:	what are you doing ? 785813_786957
+*MOT:	you don't know yourself . 793757_795283
+*MOT:	Xavier , can I have that ? 795940_797283
+*MOT:	let Mommy see ! 798673_799317
+*MOT:	thank_you . 801660_803187
+*MOT:	we can read Toy_story . 806363_807610
+*MOT:	I know you like it . 807630_808503
+*MOT:	you watch the movie all the time . 809667_811230
+*MOT:	(lem)me see ! 825060_825680
+*MOT:	here . 835700_835937
+*MOT:	let Mama have the book ! 838283_839467
+*MOT:	and we'll read Toy_story since that seems to be your favorite . 839923_843043
+*MOT:	okay ? 843713_844133
+*MOT:	let's see ! 847457_848100
+*MOT:	move these out the way ! 848123_849307
+*MOT:	move those ! 850307_851227
+*MOT:	you've got a thing for Woody huh ? 852997_854460
+*MOT:	come on ! 855083_855420
+*MOT:	xxx up here . 855963_856503
+*MOT:	come on , Xavier ! 857560_858343
+*MOT:	can I see the book so I can read ? 862020_863580
+*MOT:	would you like to give me the book so I can read ? 866583_868603
+*MOT:	it's not hard . 870083_870677
+*MOT:	lemme see ! 871490_871870
+*MOT:	come on ! 873843_874120
+*MOT:	okay . 877007_877900
+*MOT:	come on ! 882137_882560
+*MOT:	here . 884103_884387
+*MOT:	get the Arthur book ! 884573_885437
+*MOT:	see ? 887137_887447
+*MOT:	xxx xxx . 891400_892337
+*MOT:	okay . 892760_893197
+*MOT:	Disney's Toy_story [=! read] . 894410_896523
+*MOT:	Woody . 898483_899480
+*MOT:	see Woody ? 899937_900510
+*MOT:	see Buzz ? 902830_903633
+*MOT:	you see Buzz ? 906320_907230
+*MOT:	okay . 909407_910030
+*MOT:	Sheriff Woody faced the [=! read] . 911980_913400
+*MOT:	fabulous outlaw [=! read] . 914000_915313
+*MOT:	wait a minute ! 916353_916840
+*MOT:	outlaw bank xxx [=! read] . 917367_918573
+*MOT:	ca(n) can I have this ? 920487_921537
+*MOT:	I can't read with your hand on it , Pooh . 921810_923940
+*MOT:	Black_bart [=! read] . 925627_926333
+*MOT:	who's played by Mister Potato xxx [=! read] . 926677_928453
+*MOT:	Mister Potato_head [=! read] . 928830_929810
+*MOT:	+" reach for the sky , you rascal [=! read] ! 931513_934177
+*MOT:	Sheriff Woody said [=! read] +". 934793_935893
+*MOT:	little Andy Davis [=! read] . 938670_939757
+*MOT:	and his [=! read] . 940533_941270
+*MOT:	two toys to each_other [=! read] . 941693_943270
+*MOT:	as always Sheriff Woody won the fight [=! read] . 944357_946543
+*MOT:	Andy knocked over Mister Potato_head [=! read] . 947023_949073
+*MOT:	saying <“sorry , outlaw”> [=! read] . 949503_950883
+*MOT:	Sheriff Woody [=! read] . 951590_952313
+*MOT:	was too fast for you [=! read] . 953383_954700
+*MOT:	you lose [=! read] . 954720_955693
+*MOT:	and all of the toys (...) Andy loved [=! read] . 956597_959043
+*MOT:	all of the toys and Andy [=! read] . 960907_962600
+*MOT:	loved Sheriff Woody (.) the best [=! read] . 963127_965223
+*MOT:	just then Andy heard his mother call him [=! read] . 967657_969690
+*MOT:	+" it's time for your birthday party [=! read] . 970290_972033
+*MOT:	he asked [=! read] +". 972653_973370
+*MOT:	stop ! 975410_975963
+*MOT:	Pooh . 976310_976977
+*MOT:	you like that ? 978743_979490
+*MOT:	you (.) you get to see Buzz again . 980453_982090
+*MOT:	don't turn it over ! 982113_983200
+*MOT:	see look ! 983537_983893
+*MOT:	there . 984023_984350
+*MOT:	look ! 984363_984640
+*MOT:	there's Woody . 984727_985380
+*MOT:	Buzz xxx be next okay ? 985560_986893
+*MOT:	just then Andy heard his mother call him [=! read] . 987560_989410
+*MOT:	+" it's time for my birthday party [=! read] ? 990177_991803
+*MOT:	he asked [=! read] +". 991807_992317
+*MOT:	as he ran out the room [=! read] . 992687_993900
+*MOT:	while Andy was gone all of his toys could walk and talk [=! read] .
+*MOT:	+" Andy's birthday party [=! read] . 998583_1000140
+*MOT:	Woody said to himself [=! read] +". 1001017_1002243
+*MOT:	+" this is terrible [=! read] . 1002860_1003823
+*MOT:	Woody ran (..) to Slinky_dog [=! read] . 1004433_1006407
+*MOT:	+" Slink [=! read] . 1007280_1007697
+*MOT:	he said quietly [=! read] +". 1008370_1009437
+*MOT:	+" I've got bad news [=! read] . 1009867_1010920
+*MOT:	+" bad news [=! read] . 1010973_1012000
+*MOT:	Slinky shouted [=! read] +". 1012510_1013390
+*MOT:	+" ssh [=! read] ! 1013923_1014443
+*MOT:	Woody whispered [=! read] +". 1014970_1015723
+*MOT:	+" just [=! read] . 1016657_1016977
+*MOT:	+" get everyone together for a meeting [=! read] ! 1017627_1019533
+*MOT:	Woody led the toy (...) meeting [=! read] . 1023400_1025533
+*MOT:	+" we'll be [=! read] . 1026223_1026850
+*MOT:	+" we'll all be moving (...) to Andy's new house (..) so (..)
+*MOT:	Woody told them [=! read] +". 1034650_1035547
+*MOT:	the toy nodded [=! read] . 1036557_1037430
+*MOT:	they already knew about the move [=! read] . 1040163_1042180
+*MOT:	then Woody added (..) quietly [=! read] +"/. 1042580_1044260
+*MOT:	+" and Andy's birthday party is today [=! read] . 1045527_1047603
+*MOT:	the toys panicked [=! read] . 1047737_1048850
+*MOT:	+" the guests are already arriving [=! read] . 1050047_1052327
+*MOT:	xxx Ham [=! read] +". 1052800_1053510
+*MOT:	the piggy bank [=! read] . 1053897_1054700
+*MOT:	the other toys ran to the window [=! read] . 1055140_1056730
+*MOT:	+" the guests are already arriving [=! read] . 1069960_1071277
+*MOT:	squealed (..) Ham (..) the pig [=! read] +". 1071420_1073270
+*MOT:	the piggy bank [=! read] . 1073513_1074157
+*MOT:	other toys (..) ran to the window [=! read] . 1075740_1077787
+*MOT:	they saw Andy's friends carrying gifts [=! read] . 1078660_1081267
+*MOT:	the toys were afraid [=! read] . 1082900_1084160
+*MOT:	what if Andy got new toys [=! read] ? 1084857_1086643
+*MOT:	would he throw [=! read] ? 1088043_1088780
+*MOT:	excuse me ! 1091697_1092723
+*MOT:	would he throw his other toys out [=! read] ? 1092937_1094600
+*MOT:	+" don't worry [=! read] ! 1095380_1095960
+*MOT:	+" no one will be thrown away [=! read] . 1095973_1097467
+*MOT:	Woody (...) reassured them +". 1097933_1099710
+*MOT:	see pig ? 1100547_1101157
+*MOT:	see the piggy bank ? 1101807_1102503
+*MOT:	that's Ham . 1102900_1103440
+*MOT:	there goes Slink . 1103683_1104373
+*MOT:	see Slink ? 1105070_1105573
+*MOT:	Potato_head . 1106543_1107507
+*MOT:	there's Woody . 1108077_1109367
+*MOT:	you see Woody ? 1110193_1110970
+*MOT:	yeah okay . 1112643_1113640
+*MOT:	let's turn the page ! 1115073_1116187
+*MOT:	turn the page ! 1116947_1117707
+*MOT:	turn the page ! 1118697_1119420
+*MOT:	okay . 1120460_1120983
+*MOT:	okay . 1121990_1122490
+*MOT:	but Woody [=! read] . 1123087_1123843
+*MOT:	sent some toy soldiers to wa(tch) [=! read] . 1124360_1126367
+*MOT:	no you can't pull the page . 1128970_1131173
+*MOT:	no . 1132003_1133217
+*MOT:	look what you did ! 1133287_1134240
+*MOT:	see ? 1135453_1136073
+*MOT:	Woody . 1137260_1137623
+*MOT:	okay look ! 1137653_1138063
+*MOT:	there's Woody on this page . 1138260_1139483
+*MOT:	you see him ? 1139523_1140053
+*MOT:	now lemme finish reading okay ? 1141997_1143400
+*MOT:	yeah Buzz . 1147200_1148180
+*MOT:	there's Buzz . 1148340_1149123
+*MOT:	but Woody sent some toy soldiers to watch [=! read] . 1151597_1154093
+*MOT:	the party anyway [=! read] . 1154910_1155957
+*MOT:	and reported by walkie+talkie [=! read] . 1157070_1158773
+*MOT:	luckily most of the gifts were clothes and games [=! read] . 1160093_1162373
+*MOT:	then Woody opened [=! read] . 1162950_1164073
+*MOT:	you done ? 1169017_1169703
+*MOT:	okay . 1170663_1170907
+*MOT:	where am I at ? 1171693_1172177
+*MOT:	lemme start over ! 1172573_1173360
+*MOT:	but Woody sent some toy xxx soldiers (...) to watch the party
+*MOT:	and reported by walkie+talkie [=! read] . 1178890_1180357
+*MOT:	luckily most of the gifts were clothes and games [=! read] . 1180853_1183083
+*MOT:	don't do that , Boo ! 1183763_1184520
+*MOT:	then Andy opened his last present [=! read] . 1185297_1187333
+*MOT:	the soldier gasped [=! read] +"/. 1187977_1189290
+*MOT:	+" it's an amazing toy [=! read] . 1189870_1191457
+*MOT:	but the walkie+talkie stopped working (...) before the soldier
+*MOT:	relay the report [=! read] . 1196070_1197053
+*MOT:	later Andy put the new toy on his bed [=! read] . 1198820_1201517
+*MOT:	after he left [=! read] . 1202600_1203440
+*MOT:	Woody and the other toys approached the stranger [=! read] . 1206430_1208837
+*MOT:	suddenly (.) the new toy jumped up [=! read] . 1209497_1211323
+*MOT:	my name is Buzz_lightyear [=! read] . 1211770_1213570
+*MOT:	I come to your planet in peace [=! read] . 1214667_1216943
+*MOT:	my ship crashed [=! read] . 1217497_1218870
+*MOT:	landing here by mistake [=! read] . 1219087_1220717
+*MOT:	Rex , the dinosaur [=! read] . 1221363_1222677
+*MOT:	got very excited [=! read] . 1223357_1224917
+*MOT:	are you really here from outer space [=! read] ? 1226540_1229510
+*MOT:	Woody sighed [=! read] +"/. 1231357_1232053
+*MOT:	+" of course not [=! read] . 1232073_1233013
+*MOT:	+" he's a toy like us [=! read] . 1233027_1234703
+*MOT:	+" excuse me [=! read] ! 1235773_1236903
+*MOT:	+" but I think (.) the word (.) you are (.) looking for is (..)
+*MOT:	Buzz told him [=! read] +". 1243690_1244807
+*MOT:	+" I'm the captain of the space fleet [=! read] . 1246113_1248103
+*MOT:	+" and as_soon_as I fix my spaceship [=! read] . 1249480_1251990
+*MOT:	+" I'm going back home [=! read] . 1252527_1253990
+*MOT:	all of the toys were (...) impressed except Woody [=! read] . 1255273_1258637
+*MOT:	+" I have special wings [=! read] . 1261160_1262513
+*MOT:	+" I can fly [=! read] . 1262547_1263477
+*MOT:	Buzz told him [=! read] +". 1263537_1264383
+*MOT:	+" no you can't [=! read] . 1264737_1265640
+*MOT:	Woody said [=! read] +". 1265963_1266647
+*MOT:	can@q said Buzz [=! read] . 1266830_1268050
+*MOT:	cannot@q snapped (...) Woody [=! read] . 1268073_1269947
+*MOT:	Buzz replied [=! read] +"/. 1270510_1271320
+*MOT:	+" yes I can [=! read] . 1271433_1272593
+*MOT:	+" and I'll prove it to you [=! read] . 1273400_1274667
+*MOT:	then [=! read] . 1277587_1278013
+*MOT:	then Buzz leaped off the bed [=! read] . 1279047_1281003
+*MOT:	+" to infinity (.) and beyond [=! read] . 1282577_1284943
+*MOT:	he cried [=! read] +". 1285203_1285800
+*MOT:	Buzz landed on the rubber ball bouncing [=! read] . 1288697_1290880
+*MOT:	onto a toy race [=! read] . 1291383_1292917
+*MOT:	race car track [=! read] . 1294607_1295527
+*MOT:	sliding (.) up [=! read] . 1295957_1296907
+*MOT:	and down [=! read] . 1297360_1298350
+*MOT:	and up [=! read] . 1298410_1298887
+*MOT:	then went flying through the air [=! read] . 1299743_1301390
+*MOT:	he landed right in front of Woody [=! read] . 1302037_1304057
+*MOT:	in front of Woody [=! read] . 1304183_1305077
+*MOT:	xxx Buzz [=! read] . 1306230_1307050
+*MOT:	xxx xxx [=! read] . 1307560_1308597
+*MOT:	+" that wasn't flying [=! read] . 1309950_1311183
+*MOT:	+" that was falling with style [=! read] . 1311203_1312867
+*MOT:	Woody said [=! read] +". 1313437_1314147
+*MOT:	but the toys thought Buzz was great [=! read] . 1315480_1318067
+*MOT:	see Buzz ? 1320480_1321127
+*MOT:	was that Woody ? 1321687_1322563
+*MOT:	that Woody ? 1324433_1325030
+*MOT:	&hmm ? 1325843_1326077
+*MOT:	Woody . 1328570_1329067
+*MOT:	Buzz . 1331043_1331443
+*MOT:	Buzz . 1333560_1333987
+*MOT:	mhm . 1336800_1337290
+*MOT:	mkay . 1338883_1339303
+*MOT:	suddenly the toys heard [=! read] . 1339840_1341383
+*MOT:	shouting [=! read] . 1341797_1342467
+*MOT:	it was Sid , the boy next door [=! read] . 1343030_1345250
+*MOT:	Sid liked to blow up his toys [=! read] . 1345727_1347710
+*MOT:	and that's just what [=! read] . 1348280_1349503
+*MOT:	he was doing now [=! read] . 1350357_1351627
+*MOT:	the toys were glad they lived with Andy [=! read] . 1352287_1354550
+*MOT:	Andy loved his toys especially his new one [=! read] . 1355263_1357987
+*MOT:	he began playing with Buzz all the time [=! read] . 1358533_1360897
+*MOT:	Woody became jealous [=! read] . 1361410_1362703
+*MOT:	one night Andy was going to [=! read] . 1363270_1364893
+*MOT:	excuse me ! 1368180_1368840
+*MOT:	one night (.) Andy was going to Pizza_planet [=! read] . 1368960_1371217
+*MOT:	for dinner [=! read] . 1371997_1372513
+*MOT:	+" you can only bring one toy [=! read] . 1373703_1375547
+*MOT:	his mother said [=! read] +". 1375563_1376603
+*MOT:	Woody wanted Andy to bring him not Buzz [=! read] . 1377460_1379713
+*MOT:	so he tried to make Buzz fall behind (...) Andy's dresser [=! read]
+*MOT:	Woody aimed R_C , (...) a radio controlled car , at him [=! read] .
+*MOT:	zoom [=! read] . 1389577_1390790
+*MOT:	Buzz jumped out_of the way [=! read] . 1391443_1393030
+*MOT:	just in time [=! read] . 1393500_1394430
+*MOT:	see Buzz ? 1394850_1395517
+*MOT:	see R_C ? 1396383_1397230
+*MOT:	see R_C ? 1397520_1398073
+*MOT:	Woody (ha)s got R_C . 1398080_1399167
+*MOT:	yeah . 1401293_1401767
+*MOT:	look ! 1402080_1402403
+*MOT:	there go Mis(ter) . 1402513_1402987
+*MOT:	there go Potato_head . 1403233_1404587
+*MOT:	and dinosaur . 1405220_1406280
+*MOT:	see Rex ? 1406293_1407063
+*MOT:	Buzz and Woody . 1408697_1410177
+*MOT:	see (th)em ? 1411597_1412087
+*MOT:	huh ? 1413953_1414273
+*MOT:	yeah ? 1415500_1415917
+*MOT:	okay . 1416137_1416520
+*MOT:	(o)kay let's turn the page ! 1416983_1418253
+*MOT:	okay . 1420693_1421100
+*MOT:	&hmm . 1426410_1426797
+*MOT:	stop now ! 1426873_1427420
+*MOT:	okay . 1427830_1428113
+*MOT:	the car hit [=! read] . 1428123_1428857
+*MOT:	hit the globe instead [=! read] . 1429030_1430333
+*MOT:	but the globe hit the lamp and knocked Buzz out_of the window
+*MOT:	all the toys rushed over to see what had happened [=! read] . 1435673_1438073
+*MOT:	they looked at R_C [=! read] . 1438717_1440183
+*MOT:	the little car (...) whirled and whirled [=! read] . 1440810_1442883
+*MOT:	the toys were surprised (...) and angry that [=! read] . 1442893_1445623
+*MOT:	they looked at Woody [=! read] . 1446703_1447847
+*MOT:	+" you used R_C to knock Buzz out_of the window [=! read] . 1448187_1451200
+*MOT:	Potato_head accused [=! read] +". 1451947_1453263
+*MOT:	“no no” Woody cried [=! read] +"/. 1453757_1455010
+*MOT:	+" I didn't mean to [=! read] . 1455250_1456330
+*MOT:	the other toys didn't believe him [=! read] . 1457020_1458713
+*MOT:	Woody did not know what to say [=! read] . 1459237_1461040
+*MOT:	all the toys were angry at him [=! read] . 1461467_1463383
+*MOT:	Bo_peep felt sad [=! read] . 1465350_1467057
+*MOT:	she couldn't believe Woody would do such a terrible thing [=! read]
+*MOT:	see Bo_peep ? 1470890_1471637
+*MOT:	just then Andy came into the room looking for Buzz [=! read] . 1476780_1479593
+*MOT:	but since Andy couldn't find his new toy [=! read] . 1480097_1482193
+*MOT:	he took Woody in the car instead [=! read] . 1482717_1484667
+*MOT:	Buzz [=! read] . 1485530_1485817
+*MOT:	yeah Buzz . 1487703_1488423
+*MOT:	Buzz was in the bushes nearby [=! read] . 1489643_1491507
+*MOT:	xxx the car leave (.) he quickly ran and grab hold to the bumper
+*MOT:	see him ? 1496697_1496973
+*MOT:	see him ? 1497380_1497697
+*MOT:	see him grabbing to the bumper ? 1497743_1499047
+*MOT:	yeah . 1500773_1501330
+*MOT:	okay . 1504010_1504473
+*MOT:	don't do that ! 1505547_1506163
+*MOT:	don't do that ! 1507343_1507993
+*MOT:	we're almost finished okay ? 1508910_1510090
+*MOT:	you don't wanna read no more ? 1515070_1516537
+*MOT:	you just wanna look at the pictures . 1517740_1519337
+*MOT:	you just like looking at the pictures of Buzz and (.) and Woody . 1520450_1523370
+*MOT:	you should let me finish . 1527007_1528327
+*MOT:	they're almost at Pizza_planet . 1531603_1533103
+*MOT:	he was getting ready to get in the car . 1533120_1534747
+*MOT:	you like Andy's room ? 1541943_1543203
+*MOT:	that's a picture of Andy's room [=! read] . 1544740_1546307
+*MOT:	wait just a minute ! 1566227_1567090
+*MOT:	I'll be right back . 1567100_1567863
+*MOT:	okay . 1592263_1592693
+*MOT:	here . 1596257_1596483
+*MOT:	here let's read this one ! 1604633_1605663
+*MOT:	here I'll read this xxx while you look at Buzz (be)cause you like
+*MOT:	okay ? 1609973_1610353
+*MOT:	you just wanna look at the pictures . 1613053_1614427
+*MOT:	you don't really want me to read it . 1614443_1615913
+*MOT:	so I'll read something else okay ? 1616820_1618493
+*MOT:	how (a)bout Are_you_my_mother ? 1619810_1621307
+*MOT:	wanna read that ? 1621580_1622003
+*MOT:	I'll read that . 1622957_1623430
+*MOT:	you look at the book ! 1623733_1624617
+*MOT:	just listen ! 1625130_1625733
+*MOT:	are you my mother [=! read] ? 1628063_1629083
+*MOT:	to my mother [=! read] . 1632843_1633553
+*MOT:	are you my mother [=! read] ? 1634703_1635850
+*MOT:	a mother bird sat on her egg [=! read] . 1637733_1639407
+*MOT:	the egg jumped [=! read] . 1642277_1643130
+*MOT:	+" oh oh [=! read] . 1643243_1644363
+*MOT:	said the mother bird [=! read] +". 1644877_1645870
+*MOT:	+" my baby will be here . 1646393_1647603
+*MOT:	+" he will want to eat [=! read] . 1648000_1648977
+*MOT:	just [=! read] . 1650767_1651233
+*MOT:	I must [=! read] . 1651940_1652437
+*MOT:	get some food for my baby bird to eat [=! read] . 1653197_1655483
+*MOT:	she said [=! read] +"/. 1657420_1657973
+*MOT:	+" I'll be right back [=! read] . 1658173_1659480
+*MOT:	so away she went [=! read] . 1660237_1661500
+*MOT:	the egg jumped [=! read] . 1662913_1663873
+*MOT:	jumped and jumped and jumped [=! read] . 1664247_1666210
+*MOT:	out came a baby bird [=! read] . 1666840_1668293
+*MOT:	+" where is my mother [=! read] ? 1670187_1671260
+*MOT:	he said [=! read] +". 1671267_1671933
+*MOT:	he looked for her [=! read] . 1673223_1674057
+*MOT:	he looked for her here [=! read] . 1674610_1675650
+*MOT:	he looked for her over there [=! read] . 1675697_1677060
+*MOT:	he looked up [=! read] . 1678660_1679437
+*MOT:	he did not see her [=! read] . 1681030_1682133
+*MOT:	he looked down [=! read] . 1682147_1683130
+*MOT:	he did not see her [=! read] . 1683140_1684343
+*MOT:	+" well I'll go [=! read] . 1686760_1687973
+*MOT:	+" and look (.) for her [=! read] . 1688610_1689783
+*MOT:	he said [=! read] +". 1689800_1690387
+*MOT:	so away he went [=! read] . 1691787_1693057
+*MOT:	down (.) out_of the tree he went [=! read] . 1694517_1696557
+*MOT:	down and down and down [=! read] . 1697160_1699097
+*MOT:	it was a long way down [=! read] . 1701307_1703307
+*MOT:	the baby bird could not fly [=! read] . 1706420_1708077
+*MOT:	okay . 1715390_1715820
+*MOT:	the baby bird could not fly [=! read] . 1716540_1717943
+*MOT:	he could not fly but he could walk [=! read] . 1720683_1722417
+*MOT:	+" now I will (..) go and find my mother [=! read] . 1722940_1725380
+*MOT:	he said [=! read] +". 1725380_1725967
+*MOT:	he did not know what (...) his mother looked like [=! read] . 1728030_1730657
+*MOT:	he went right by her [=! read] . 1731510_1733017
+*MOT:	and he did not see her [=! read] . 1733647_1734990
+*MOT:	he came to a kitten [=! read] . 1738417_1739683
+*MOT:	+" are you my mother [=! read] ? 1739870_1740790
+*MOT:	he said to the kitten [=! read] +". 1740813_1741937
+*MOT:	the kitten just looked and looked [=! read] . 1742380_1744193
+*MOT:	it did not (...) say a thing to the baby bird [=! read] . 1745160_1748597
+*MOT:	the kitten was not (...) his mother so he went on [=! read] . 1750103_1753043
+*MOT:	then he came to a hen [=! read] . 1754320_1755627
+*MOT:	+" are you my mother [=! read] ? 1755823_1756677
+*MOT:	he said to the hen [=! read] +". 1756683_1757630
+*MOT:	no@q said the hen [=! read] . 1758200_1759530
+*MOT:	the kitten (i)s not his mother . 1761917_1763677
+*MOT:	the hen wasn't his mother . 1763717_1765310
+*MOT:	so the baby bird went on [=! read] . 1765690_1767223
+*MOT:	+" I have_to find my mother [=! read] . 1768670_1770017
+*MOT:	he said [=! read] . 1770027_1770573
+*MOT:	+" but (..) where [=! read] ? 1771177_1772103
+*MOT:	+" where is she [=! read] ? 1772343_1773073
+*MOT:	+" where could she be [=! read] ? 1773473_1774423
+*MOT:	then he came to a dog [=! read] . 1776500_1777943
+*MOT:	+" are you my mother [=! read] ? 1778243_1779107
+*MOT:	he said to the dog [=! read] +". 1779117_1780300
+*MOT:	+" I'm not your mother [=! read] . 1781370_1783033
+*MOT:	+" I'm a dog [=! read] . 1783363_1784273
+*MOT:	said the dog [=! read] +". 1784420_1785433
+*MOT:	then the kitten [=! read] . 1788260_1788990
+*MOT:	then the kitten (i)s not my mother and the hen (i)s not my mother
+*MOT:	the dog wasn't my mother [=! read] . 1793993_1795573
+*MOT:	so the baby bird went on [=! read] . 1797740_1799420
+*MOT:	now he came to a cow [=! read] . 1800563_1802647
+*MOT:	+" are you my mother [=! read] ? 1804757_1805787
+*MOT:	he said [=! read] +". 1805797_1806307
+*MOT:	+" how could I be your mother [=! read] ? 1807567_1809063
+*MOT:	said the cow [=! read] +". 1809753_1810620
+*MOT:	I'm a cow [=! read] . 1811017_1812240
+*MOT:	the kitten and then the hen [=! read] . 1815603_1817367
+*MOT:	were not his mother [=! read] . 1818533_1819500
+*MOT:	the dog and the cow [=! read] . 1819857_1821460
+*MOT:	were not his mother [=! read] . 1821863_1822823
+*MOT:	did he have a mother [=! read] ? 1823977_1825313
+*MOT:	+" I did have a mother [=! read] . 1827487_1828817
+*MOT:	said the baby bird [=! read] +". 1829033_1830093
+*MOT:	+" I know I did [=! read] . 1830453_1831303
+*MOT:	+" I know I did [=! read] . 1831313_1831993
+*MOT:	+" I have_to find her [=! read] . 1832773_1834197
+*MOT:	+" I will [=! read] . 1834253_1834900
+*MOT:	+" I will [=! read] . 1835017_1835847
+*MOT:	now the baby bird [=! read] . 1838463_1839687
+*MOT:	did not walk [=! read] . 1840720_1841477
+*MOT:	he ran [=! read] . 1841500_1842087
+*MOT:	then [=! read] . 1842863_1843450
+*MOT:	he saw a car [=! read] . 1843957_1845213
+*MOT:	could that old thing be my mother [=! read] ? 1845797_1847857
+*MOT:	no [=! read] . 1848143_1848640
+*MOT:	it could not [=! read] . 1848983_1849703
+*MOT:	the baby bird did not stop [=! read] . 1850387_1852157
+*MOT:	he ran on and on [=! read] . 1852583_1854300
+*MOT:	&hmm . 1855353_1855623
+*MOT:	now he looked away [=! read] . 1859507_1860733
+*MOT:	he looked down [=! read] . 1861740_1862777
+*MOT:	he saw a boat [=! read] . 1863427_1864377
+*MOT:	+" there she is [=! read] . 1865123_1865980
+*MOT:	said the baby bird [=! read] +". 1866387_1867427
+*MOT:	he called to the boat [=! read] . 1868000_1868993
+*MOT:	the boat did not stop [=! read] . 1870217_1871320
+*MOT:	the boat went on [=! read] . 1871607_1872770
+*MOT:	hey look [=! read] ! 1875873_1876843
+*MOT:	way way up [=! read] . 1877373_1878410
+*MOT:	he saw a big plane [=! read] . 1879747_1881633
+*MOT:	hey [=! read] . 1883063_1883487
+*MOT:	+" here is my mother [=! read] . 1886407_1887527
+*MOT:	he called out [=! read] +". 1887920_1888713
+*MOT:	but the plane did not stop [=! read] . 1889153_1890477
+*MOT:	the plane went on [=! read] . 1891180_1892360
+*MOT:	just then the baby bird saw [=! read] . 1893647_1895357
+*MOT:	a big thing [=! read] . 1895863_1896877
+*MOT:	this must be my mother [=! read] . 1898060_1899440
+*MOT:	+" there she is [=! read] . 1900033_1900800
+*MOT:	he said [=! read] +". 1900817_1901337
+*MOT:	+" there's my mother [=! read] . 1901773_1902983
+*MOT:	he ran right up to it [=! read] . 1904993_1906223
+*MOT:	+" Mother [=! read] . 1906533_1906923
+*MOT:	+" Mother [=! read] . 1907283_1907690
+*MOT:	+" here I am , Mother [=! read] . 1908573_1909530
+*MOT:	he said to the big thing [=! read] +". 1910173_1911743
+*MOT:	but the bird [=! read] . 1915940_1916723
+*MOT:	but the big thing just [=! read] . 1917733_1919023
+*MOT:	said <snort@q> [=! read] . 1919443_1920640
+*MOT:	snort [=! read] . 1920980_1921867
+*MOT:	www . 1922950_1923377
+*MOT:	www . 1924237_1925640
+*MOT:	www . 1926580_1927327
+*MOT:	www . 1928610_1929087
+*MOT:	okay , Xavier , we gon(na) have_to wait for a minute [=! read] . 1936977_1939020
+*MOT:	your sister needs something [=! read] . 1940977_1942397
+*MOT:	and what are you doing , Mister ? 1958783_1960267
+*MOT:	there go Barney . 1961333_1961980
+*MOT:	okay . 1966043_1966510
+*MOT:	now wait a minute ! 1967973_1968803
+*MOT:	I was reading a book , Xavier . 1971290_1972567
+*MOT:	what (di)d you do with the book ? 1972577_1973867
+*MOT:	there it is . 1974887_1975693
+*MOT:	now we were on the big thing that went snort@q . 1977030_1979133
+*MOT:	(re)member the big thing went snort@q ? 1979760_1981007
+*MOT:	wait wait wait wait ! 1982713_1983510
+*MOT:	wait wait wait ! 1987960_1988693
+*MOT:	gotta find it . 1988900_1989603
+*MOT:	we've gotta get to the big thing that went snort@q . 1991197_1993083
+*MOT:	wait a minute ! 1997240_1998360
+*MOT:	where is it ? 1998487_1999117
+*MOT:	just then the baby bird saw a big thing [=! read] . 2003573_2006313
+*MOT:	+" this [=! read] . 2007097_2007493
+*MOT:	+" this must be my mother [=! read] . 2009137_2010840
+*MOT:	+" there she is [=! read] . 2011527_2012380
+*MOT:	he said [=! read] +". 2012780_2013327
+*MOT:	+" there's my mother [=! read] . 2013640_2014853
+*MOT:	you listening , Xavier ? 2016217_2017243
+*MOT:	he ran right up to it [=! read] . 2018553_2019990
+*MOT:	+" Mother Mother [=! read] . 2020047_2021053
+*MOT:	+" here I am , Mother [=! read] . 2021517_2022547
+*MOT:	he said to the big thing [=! read] +". 2023810_2025267
+*MOT:	but the big thing just said <snort@q> [=! read] . 2027130_2029460
+*MOT:	+" oh , you're not my mother [=! read] . 2031517_2033260
+*MOT:	said the baby bird [=! read] +". 2033820_2034843
+*MOT:	+" you're a snort [=! read] . 2035857_2036833
+*MOT:	+" I have got_to get out_of here [=! read] . 2038740_2040377
+*MOT:	oh no [=! read] . 2041280_2042230
+*MOT:	the baby bird (...) couldn't [=! read] . 2043187_2044850
+*MOT:	couldn't (.) could not get away [=! read] . 2045433_2047197
+*MOT:	they snort went up [=! read] . 2047627_2048727
+*MOT:	it went way way up [=! read] . 2049370_2051793
+*MOT:	and up [=! read] . 2052423_2052820
+*MOT:	and up it went [=! read] . 2053337_2054263
+*MOT:	and up up up went baby bird [=! read] . 2054590_2056777
+*MOT:	oh no [=! read] . 2058467_2059253
+*MOT:	but now [=! read] . 2059903_2060637
+*MOT:	where [=! read] ? 2061117_2061487
+*MOT:	was the snort going [=! read] ? 2062013_2063070
+*MOT:	oh no [=! read] . 2063213_2064113
+*MOT:	oh oh [=! read] . 2064260_2065033
+*MOT:	what is this snort going to do to me [=! read] ? 2065460_2067947
+*MOT:	get me out_of here [=! read] ! 2068520_2069760
+*MOT:	just then the snort came to a stop [=! read] . 2073127_2075437
+*MOT:	+" where am I [=! read] ? 2079187_2080533
+*MOT:	said the baby bird [=! read] +". 2080857_2081750
+*MOT:	+" I want to go home [=! read] . 2081853_2083860
+*MOT:	+" I want my mother [=! read] . 2084240_2086720
+*MOT:	then something happened [=! read] . 2088847_2090157
+*MOT:	the snort put that baby bird right back in the tree [=! read] . 2090827_2094227
+*MOT:	then baby bird was home [=! read] . 2095033_2096917
+*MOT:	just then his mother [=! read] . 2099523_2101083
+*MOT:	the mother bird came back [=! read] . 2102087_2103510
+*MOT:	to the tree [=! read] . 2104020_2104747
+*MOT:	+" do you know who I am [=! read] ? 2105257_2106767
+*MOT:	she said to her baby [=! read] +". 2107207_2108623
+*MOT:	+" yes [=! read] . 2111383_2111743
+*MOT:	+" I know who you are [=! read] . 2112170_2113413
+*MOT:	said baby bird [=! read] +". 2114483_2115637
+*MOT:	+" you're not a kitten [=! read] . 2115990_2117287
+*MOT:	+" you're not a hen [=! read] . 2117580_2118750
+*MOT:	+" you're not a dog [=! read] . 2119087_2120260
+*MOT:	+" you're not a cow [=! read] . 2120810_2122217
+*MOT:	+" you're not a boat [=! read] . 2122523_2123523
+*MOT:	+" or a plane or a snort [=! read] . 2123937_2125997
+*MOT:	+" you're a bird [=! read] . 2126680_2127640
+*MOT:	+" and you're my mother [=! read] . 2128140_2130143
+*MOT:	baby bird found his mother , Xavier . 2135260_2137160
+*MOT:	look ! 2137483_2137837
+*MOT:	yeah . 2139037_2139837
+*MOT:	okay . 2143457_2144097
+*MOT:	we (...) read the book . 2147257_2148823
+*MOT:	Toy_story book . 2150333_2151930
+*MOT:	we gon(na) put some o(f) (th)em up okay ? 2153067_2154573
+*MOT:	what are you doing ? 2175477_2176053
+*MOT:	you have just knocked the books everywhere . 2177300_2179083
+*MOT:	no . 2179670_2180227
+*MOT:	no . 2181243_2181863
+*MOT:	no . 2184930_2185497
+*MOT:	no . 2186527_2187287
+*MOT:	get here ! 2188467_2188847
+*MOT:	get your block ! 2188867_2189463
+*MOT:	get your block ! 2189573_2190150
+*MOT:	get your baby block ! 2190300_2191043
+*MOT:	you get your baby blocks (.) and I'll get the books . 2194040_2196420
+*MOT:	how (a)bout that ? 2197423_2197977
+*MOT:	does that work for you ? 2199053_2200087
+*MOT:	good . 2202290_2202653
+*MOT:	okay . 2208323_2208777
+*MOT:	what ? 2209990_2210347
+*MOT:	oh . 2211037_2211523
+*MOT:	okay I got (th)em . 2212430_2213250
+*MOT:	I got (th)em . 2213460_2213927
+*MOT:	mkay . 2215550_2216180
+*MOT:	stop ! 2219893_2220603
+*MOT:	(s)top ! 2223247_2224080
+*MOT:	don't do that ! 2225250_2226543
+*MOT:	I see (.) these are Disney too [=! read] . 2231807_2233617
+*MOT:	Xavier . 2236160_2237197
+*MOT:	what are you doing ? 2237427_2238960
+*MOT:	let's see ! 2248970_2249723
+*MOT:	we've already (..) read . 2250063_2251870
+*MOT:	Where's_baby_mickey's_red_ball and Baby_donald_makes_a_snow_friend
+*MOT:	Disney_babies_at_the_big_circus . 2258593_2261157
+*MOT:	(o)kay . 2263483_2264073
+*MOT:	we read about letter a@l b@l and c@l . 2265607_2268090
+*MOT:	and the alphabet . 2269627_2271420
+*MOT:	so let's see ! 2272213_2273260
+*MOT:	and we tried reading Toy_story but you didn't want to do anything
+*MOT:	see all the Dalmatians ? 2288967_2290113
+*MOT:	look ! 2290147_2290367
+*MOT:	pretty huh ? 2293013_2293833
+*MOT:	you like (th)em ? 2295490_2296183
+*MOT:	okay . 2311303_2312537
+*MOT:	excuse me ! 2319043_2320653
+*MOT:	uhoh . 2333687_2334260
+*MOT:	what are you doing ? 2364113_2365370
+*MOT:	we could read about the one hundred and one Dalmatians . 2369600_2372533
+*MOT:	mkay . 2377280_2377973
+*MOT:	wait wait wait wait ! 2381520_2382433
+*MOT:	I gotta . 2382527_2382937
+*MOT:	open this xxx up . 2385140_2386293
+*MOT:	there we go . 2388380_2388917
+*MOT:	okay . 2410530_2411063
+*MOT:	whatcha got there ? 2413233_2414073
+*MOT:	you got a block ? 2415717_2416670
+*MOT:	&hmm ? 2417560_2417867
+*MOT:	we could read Cinderella . 2422993_2424343
+*MOT:	that's what your &uh . 2424447_2425400
+*MOT:	sister (i)s in there watching . 2425993_2427253
+*MOT:	she's watching Cinderella . 2427270_2428877
+*MOT:	could I comb your hair ? 2436283_2437447
+*MOT:	here here here here here . 2442657_2443930
+*MOT:	it's in your hair . 2449853_2451530
+*MOT:	I did it again . 2456040_2457063
+*MOT:	I did it again . 2458550_2459563
+*MOT:	I did it again . 2462450_2463510
+*MOT:	whatcha got ? 2467290_2467833
+*MOT:	you got a comb ? 2469627_2470477
+*MOT:	&hmm ? 2471780_2471953
+*MOT:	you got a comb ? 2472583_2473453
+*MOT:	you got a comb ? 2476603_2477397
+*MOT:	oh somebody ticklish . 2479020_2481200
+*MOT:	Xavier , you wanna play pattycake ? 2482503_2483617
+*MOT:	play pattycake ! 2484023_2484580
+*MOT:	pattycake . 2486177_2486970
+*MOT:	pattycake . 2487340_2488093
+*MOT:	you and your sister play pattycake all the time . 2490710_2492500
+*MOT:	come on ! 2494000_2494243
+*MOT:	put (th)em in the pan ! 2496340_2497477
+*MOT:	put it in the pan ! 2498727_2499843
+*MOT:	you like that part . 2500717_2501483
+*MOT:	here . 2501560_2501710
+*MOT:	come on ! 2501920_2502110
+*MOT:	pattycake . 2502677_2503407
+*MOT:	pattycake . 2503643_2504333
+*MOT:	clap ! 2504880_2505160
+*MOT:	pattycake . 2508873_2509610
+*MOT:	pattycake . 2509880_2510540
+*MOT:	pattycake . 2515193_2515957
+*MOT:	pattycake . 2517853_2518557
+*MOT:	roll (th)em and you roll (th)em and you roll (th)em . 2519230_2521923
+*MOT:	and you roll (th)em and you roll (th)em and you . 2522403_2525243
+*MOT:	put (th)em in a pan . 2525970_2527227
+*MOT:	pattycake . 2531737_2532630
+*MOT:	pattycake . 2532927_2533743
+*MOT:	you rolling (th)em ? 2535423_2536287
+*MOT:	you rolling (th)em ? 2536857_2537760
+*MOT:	see you rolling xxx ! 2538673_2539697
+*MOT:	you rolling (th)em . 2539707_2540790
+*MOT:	you roll (th)em and you roll (th)em and you put (th)em in the pan .
+*MOT:	hey . 2548250_2549147
+*MOT:	you pattycaking ? 2550000_2551243
+*MOT:	you pattycaking ? 2552477_2553477
+*MOT:	I see you pattycake . 2555563_2557017
+*MOT:	whatcha do with your Barney book ? 2571983_2573497
+*MOT:	look ! 2578850_2579063
+*MOT:	who is that ? 2580667_2581260
+*MOT:	that Barney ? 2582917_2583647
+*MOT:	xxx Barney ? 2586080_2586720
+*MOT:	that Barney ? 2590420_2591027
+*MOT:	that Barney ? 2593313_2593923
+*MOT:	lemme see ! 2602180_2602883
+*MOT:	I wanna see . 2602960_2604023
+*MOT:	I wanna see . 2604033_2604940
+*MOT:	lemme see the Barney book ! 2605560_2607407
+*MOT:	take that out your mouth ! 2613770_2615250
+*MOT:	Barney . 2622750_2623820
+*MOT:	you sing the Barney song ? 2638063_2639247
+*MOT:	&hmm ? 2641100_2641320
+*MOT:	Xavier . 2643957_2644513
+*MOT:	what are you doing ? 2647227_2648357
+*MOT:	playing with your block ? 2651097_2652123
+*MOT:	huh ? 2654060_2654397
+*MOT:	you playing with your block ? 2654597_2655670
+*MOT:	come (h)ere ! 2657667_2658047
+*MOT:	hi . 2669243_2669843
+*MOT:	hi , Xavier . 2671670_2672610
+*MOT:	hi . 2675233_2675603
+*MOT:	hello . 2679027_2679823
+*MOT:	what are you doing ? 2685520_2686177
+*MOT:	&hmm . 2687320_2687717
+*MOT:	&hmm . 2692457_2692910
+*MOT:	back up ! 2694010_2694473
+*MOT:	hello . 2699467_2700220
+*MOT:	no . 2702363_2703153
+*MOT:	your milk good ? 2715460_2716330
+*MOT:	it's gone . 2726747_2727343
+*MOT:	here . 2736557_2736793
+*MOT:	(o)kay . 2738613_2738917
+*MOT:	I sorry . 2745587_2746463
+*MOT:	(i)t's all_gone . 2754107_2754883
+*MOT:	oh you leaving me ? 2765163_2766190
+*MOT:	&hmm ? 2770090_2770413
+*MOT:	&hmm ? 2776067_2776330
+*MOT:	you sing ? 2784170_2784730
+*MOT:	sing Barney song ! 2784747_2785707
+*MOT:	sing the Barney song ! 2786790_2787633
+*MOT:	I love you [=! sung] . 2787647_2789080
+*MOT:	yeah . 2794067_2794347
+*MOT:	finish ! 2795167_2795590
+*MOT:	you sing Barney song ? 2799237_2800280
+*MOT:	mhm . 2802173_2802627
+*MOT:	I love you [=! sung] . 2805633_2807073
+*MOT:	you love me [=! sung] . 2807947_2809430
+*MOT:	no I don't want no milk . 2844793_2846563
+*MOT:	thank_you though . 2846660_2847823
+*MOT:	uhoh . 2867997_2868877
+*MOT:	uhoh . 2871070_2871753
+*MOT:	no . 2872773_2873280
+*MOT:	stop ! 2878713_2879317
+*MOT:	no . 2881213_2882007
+*MOT:	here . 2887527_2887727
+*MOT:	what's the matter ? 2892540_2893437
+*MOT:	Xavier . 2928677_2929660
+*MOT:	I'm sorry . 2934097_2935137
+*MOT:	I'm back . 2936483_2937137
+*MOT:	come back up here ! 2937667_2938420
+*MOT:	here . 2942810_2943213
+*MOT:	you don't want me leave you ? 2948413_2949917
+*MOT:	you don't want Mommy leave you ? 2953907_2955067
+*MOT:	Mommy won't leave you . 2955080_2956263
+*MOT:	can I read to you now ? 2959597_2960860
+*MOT:	One_hundred_and_one_dalmatians ? 2968797_2970310
+*MOT:	see all the doggies ? 2971983_2973137
+*MOT:	see the little puppy ? 2975127_2976060
+*MOT:	see puppy ? 2977593_2978383
+*MOT:	it's a_lot_of (th)em . 2982323_2983740
+*MOT:	see the dog ? 2989123_2989937
+*MOT:	I see . 2994170_2994937
+*MOT:	see all the little bitty puppies ? 3005677_3007143
+*MOT:	see ? 3012370_3012740
+*MOT:	you like that one ? 3014150_3014980
+*MOT:	you like that one ? 3016523_3017393
+*MOT:	&hmm ? 3022370_3022720
+*MOT:	yeah wan(na) see Barney ? 3037533_3038757
+*MOT:	where ? 3044043_3044363
+*MOT:	give me Barney ! 3044407_3045090
+*MOT:	take your bottle ! 3045103_3045827
+*MOT:	there you go . 3047567_3048133
+*MOT:	I can read to you . 3055983_3057153
+*MOT:	you don't wanna read ? 3059613_3060657
+*MOT:	you sure ? 3061893_3062687
+*MOT:	how (a)bout you read to me ? 3069057_3070043
+*MOT:	you wanna read to me ? 3071713_3072497
+*MOT:	what ? 3078853_3079353
+*MOT:	are you trying to talk to me ? 3081943_3083403
+*MOT:	I don't understand what you're saying . 3085313_3087433
+*MOT:	stop ! 3090813_3091633
+*MOT:	what do you want ? 3097430_3098223
+*MOT:	Jungle_book ? 3113483_3114217
+*MOT:	Jungle_book ? 3117757_3118597
+*MOT:	they're in the jungle . 3124977_3126040
+*MOT:	you see the monkeys ? 3126050_3127323
+*MOT:	you see the monkeys ? 3135910_3137243
+*MOT:	see the big bear ? 3137873_3139023
+*MOT:	huh ? 3140020_3140397
+*MOT:	yeah . 3142297_3142987
+*MOT:	there's a snake (.) too . 3143977_3145410
+*MOT:	you see a snake ? 3146647_3147740
+*MOT:	snake . 3150803_3151333
+*MOT:	can you say snake@q ? 3151347_3152610
+*MOT:	bear . 3154333_3154990
+*MOT:	there the monkeys . 3156343_3158110
+*MOT:	the monkeys . 3159520_3160820
+*MOT:	don't rip the page ! 3161937_3163007
+*MOT:	no . 3163100_3163747
+*MOT:	Xavier , just turn it ! 3164853_3166323
+*MOT:	don't tear it ! 3168377_3169167
+*MOT:	just turn it ! 3169260_3169983
+*MOT:	here . 3173460_3173803
+*MOT:	I'll help you . 3174290_3175023
+*MOT:	there you go . 3177040_3177793
+*MOT:	no more Jungle_book . 3204740_3205827
+*MOT:	where you going ? 3215153_3216267
+*MOT:	uhoh . 3228550_3229443
+*MOT:	leave the new One_hundred_and_one_dalmatians alone ! 3237360_3239897
+*MOT:	Xavier . 3275507_3276070
+*MOT:	Xavier . 3304440_3305317
+*MOT:	don't fuss ! 3307040_3308063
+*MOT:	uhoh . 3321873_3322723
+*MOT:	ow . 3328350_3329040
+*MOT:	what are you doing ? 3336967_3338050
+*MOT:	yeah . 3344317_3344857
+*MOT:	whatcha doing ? 3353333_3354193
+*MOT:	here . 3362830_3363210
+*MOT:	there . 3364910_3365280
+*MOT:	there's your block . 3365820_3366703
+*MOT:	did you want your block ? 3366717_3367807
+*MOT:	you can have your block . 3367860_3368870
+*MOT:	I didn't know what you were reaching for . 3369013_3370640
+*MOT:	that's why I asked you what you were doing . 3370650_3372347
+*MOT:	you shoulda told me “I'm trying to get my block” . 3373720_3376023
+*MOT:	I would ha(ve) helped you reach it a long time ago . 3377890_3379900
+*MOT:	Xavier . 3384533_3385053
+*MOT:	when are we gonna walk ? 3386183_3387457
+*MOT:	that is the hot topic . 3389863_3391290
+*MOT:	of today's conversation . 3392347_3393933
+*MOT:	aren't you ready to walk yet ? 3395960_3397557
+*MOT:	&hmm ? 3399443_3399673
+*MOT:	you can sing . 3401583_3402530
+*MOT:	you can talk . 3402533_3403390
+*MOT:	feed yourself . 3404970_3406303
+*MOT:	but you can't walk . 3406417_3407717
+*MOT:	are we just not ready to ? 3409983_3411547
+*MOT:	if you wouldn't walk on your toes so often it (woul)d probably be
+*MOT:	oh you laughing ? 3471590_3472953
+*MOT:	&hmm . 3496790_3497493
+*MOT:	stop ! 3699607_3700623
+*MOT:	mkay . 3765873_3766757
+*MOT:	Xavier . 3768543_3768960
+*MOT:	can I see that ? 3770587_3771547
+*MOT:	xxx xxx bottle . 3773253_3774717
+*MOT:	thank_you . 3776830_3777930
+*MOT:	no . 3778193_3778783
+*MOT:	uhuh stop ! 3827543_3828263
+*MOT:	&hmm . 3828470_3828877
+*MOT:	you're not knocking on the door for someone , Xavier . 3832493_3834527
+*MOT:	stop ! 3834570_3835110
+*MOT:	I know . 3836537_3837317
+*MOT:	it's difficult . 3839390_3840373
+*MOT:	I'm so unfair . 3842033_3843510
+*MOT:	stop ! 3875487_3876153
+*MOT:	stop it , boy ! 3880700_3881840
+*MOT:	stop , boy ! 4141137_4141910
+*MOT:	told you (a)bout knocking on stuff like it's a door . 4143200_4145420
+*MOT:	don't fuss ! 4148750_4149533
+*MOT:	no . 4149903_4150503
+*MOT:	don't fuss (be)cause I done yelled at you . 4151313_4153233
+*MOT:	stop it ! 4154207_4155070
+*MOT:	uhoh . 4167240_4168043
+*MOT:	Xavier . 4170013_4171000
+*MOT:	xxx why are you ? 4211017_4211827
+*MOT:	why are you doing that [?] stuff ? 4211920_4213503
+*MOT:	why are you knocking on the wall ? 4213530_4215127
+*MOT:	no . 4216063_4216657
+*MOT:	no one (i)s gonna ask you and say “who is it” . 4224290_4226373
+*MOT:	stop ! 4233753_4234337
+*MOT:	I know , Pooh . 4235873_4236823
+*MOT:	but you cannot knock on the wall like it's a door . 4237430_4239993
+*MOT:	you gon(na) be a drummer when you grow up ? 4240787_4242637
+*MOT:	you don't know ? 4244453_4245370
+*MOT:	stop being mean ! 4251237_4252360
+*MOT:	stop being mean ! 4256197_4257150
+*MOT:	here . 4257170_4257433
+*MOT:	calm down ! 4259197_4259863
+*MOT:	here . 4264380_4264580
+*MOT:	lay down ! 4264737_4265487
+*MOT:	I read you a book ? 4266543_4267457
+*MOT:	I read you xxx xxx . 4268627_4269650
+*MOT:	okay you took the book . 4270823_4272123
+*MOT:	so maybe we'll just talk . 4272317_4273457
+*MOT:	put your block down ! 4277810_4278810
+*MOT:	you [?] play with your block ? 4278823_4279837
+*MOT:	yeah . 4288247_4288917
+*MOT:	mhm . 4291303_4292207
+*MOT:	&hmm . 4411533_4412307
+*MOT:	Xavier . 4414943_4415720
+*MOT:	mhm . 4428587_4429210
+*MOT:	don't put your fingers in my mouth ! 4432090_4433870
+*MOT:	xxx talk to you a lot . 4435470_4436600
+*MOT:	get your fingers in my mouth . 4437510_4438790
+*MOT:	no . 4441163_4441723
+*MOT:	don't do that ! 4443507_4444053
+*MOT:	that wouldn't be nice . 4444090_4445453
+*MOT:	uhoh . 4484660_4485543

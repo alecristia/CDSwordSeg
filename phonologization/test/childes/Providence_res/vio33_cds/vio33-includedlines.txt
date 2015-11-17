@@ -1,0 +1,463 @@
+*MOT:	hello . 0_3818
+*MOT:	how are you ? 5150_6060
+*MOT:	whacha [: what are you] doin(g) ?
+*MOT:	lookin(g) at the videos ? 12166_13601
+*MOT:	are we ready ? 14501_15440
+*MOT:	can I have that battery ? 19735_21130
+*MOT:	yeah , put it in the bin . 24307_25780
+*MOT:	yeah , we're gonna put all this stuff back in this box over here .
+*MOT:	(o)kay ? 31460_32906
+*MOT:	thank you . 32906_34803
+*MOT:	now we're gonna play somethin(g) . 34803_36541
+*MOT:	yeah , put all that in there . 37783_43140
+*MOT:	okay , you wanna play that one ? 47690_50280
+*MOT:	okay . 51286_51810
+*MOT:	come and put it on the floor over here . 51811_54706
+*MOT:	uhoh , did you get it ? 54706_61620
+*MOT:	what happened ? 63318_64500
+*MOT:	oh . 68410_69491
+*MOT:	yeah , let's bring it over here . 73780_75085
+*MOT:	how's [: how is] there pennies on the ground still after all those pennies I picked up ? 78598_82333
+*MOT:	I got pennies in my pockets . 82336_84901
+*MOT:	huh ? 84901_87805
+*MOT:	(let')s make sure , yeah , okay . 87805_90833
+*MOT:	alright , what do you want to do first ? 90833_93236
+*MOT:	alright , let's get out the pieces .
+*MOT:	I found two pieces when I was vacuuming . 96058_98491
+*MOT:	uhoh , where are all the other pieces ? 98491_102228
+*MOT:	oh there they are , is that all of them ? 102228_106890
+*MOT:	we lost the little baggie , huh ? 106891_109115
+*MOT:	we lose the bag ? 109115_113563
+*MOT:	that goes with it ? 113563_115878
+*MOT:	that's alright .
+*MOT:	here , we can still use (th)em , you wanna do the fishies or somebody else ?
+*MOT:	we can do , let's see +... 126558_128836
+*MOT:	these fishies . 130756_131580
+*MOT:	or we , I can get some over there . 131580_133675
+*MOT:	I'm a get the ones over there and see ? 133675_136047
+*MOT:	(o)kay . 136758_137178
+*MOT:	caterpillar , (o)kay .
+*MOT:	xxx .
+*MOT:	there's a butterfly and a caterpillar . 145700_147725
+*MOT:	huh ? 153411_154456
+*MOT:	oh yeah .
+*MOT:	xxx .
+*MOT:	okay , so which one you wanna do ? 168145_172260
+*MOT:	caterpillar , right here ?
+*MOT:	okay .
+*MOT:	xxx .
+*MOT:	sometimes what it says is , if you just put a few ar(ound) , I'll put a few on the edge , so it stays still , and you can put the rest in . 182395_191133
+*MOT:	see this just holds it down . 191133_193493
+*MOT:	okay , now you can fill (th)em in . 193493_195241
+*MOT:	well that one you can't put magnets , you just put these in . 199556_202626
+*MOT:	yeah , but these you can put in here .
+*MOT:	I don't know where the rest of (th)em went . 208415_210421
+*MOT:	hey , this doesn't go with the game ! 210421_215505
+*MOT:	does it ? 215508_217091
+*MOT:	no ! 217091_218931
+*MOT:	here , want that one ? 218931_220885
+*MOT:	I don't know , but you can put the pegs in the caterpillar if you want . 223965_227100
+*MOT:	right here . 227101_228541
+*MOT:	yeah , these are the little pegs , all these , see ? 230141_232830
+*MOT:	mm .
+*MOT:	you know who's gonna come see you later on today ? 234643_244095
+*MOT:	xxx , you remember xxx your babysitter ? 244616_246705
+*MOT:	you like her ? 247301_248190
+*MOT:	she gonna babysit you today and put you to bed . 248190_250750
+*MOT:	(be)cause mommy has to go out ? 251665_253260
+*MOT:	will that , will that be okay ?
+*MOT:	will you be a good girl for xxx ? 256718_258404
+*MOT:	ya [: you] think so ? 263885_264575
+*MOT:	maybe . 265078_266085
+*MOT:	you like goin(g) to her house ? 266088_268715
+*MOT:	why ? 269486_270300
+*MOT:	yeah . 273936_274435
+*MOT:	she give you pizza last time you went ? 274436_277483
+*MOT:	to her house . 277483_280038
+*MOT:	and you like pizza . 280893_283838
+*MOT:	right ? 283838_286323
+*MOT:	www .
+*MOT:	www .
+*MOT:	it does ? 373760_376596
+*MOT:	oh . 379520_380593
+*MOT:	hello ? 406226_407173
+*MOT:	xxx wait one second I just gotta find my jacket up in here . 408000_411045
+*MOT:	www .
+*MOT:	where , what's , what's the matter , you don't have blue ? 432310_434530
+*MOT:	right here .
+*MOT:	right dere [: there] . 436725_437581
+*MOT:	here's the blue , look .
+*MOT:	see the blue ? 441278_443326
+*MOT:	right in there . 443326_444941
+*MOT:	no , bl(ue) , oh you want glue ? 448923_451020
+*MOT:	oh , no , we're not gonna do glue , you wanna do magnets ? 451696_454395
+*MOT:	that's for doin(g) magnets , remember ?
+*MOT:	you wanna do magnets ? 458108_459221
+*MOT:	okay (.) here , we'll put these over here , then . 459706_465260
+*MOT:	and I'll find the mag(nets) +/. 465263_469076
+*MOT:	xxx . 473951_475665
+*MOT:	xxx . 475665_482823
+*MOT:	(o)kay , 0put that in my pocket . 482823_486631
+*MOT:	yeah ?
+*MOT:	what's not in there ?
+*MOT:	what tape thing ? 510958_512373
+*MOT:	yeah , it's going . 517530_519205
+*MOT:	okay . 532348_534545
+*MOT:	go . 534545_535818
+*MOT:	beep . 537230_538135
+*MOT:	that you pretty girlie ? 538135_541301
+*MOT:	hello . 541301_544988
+*MOT:	I'm makin(g) a picture of you . 547915_549455
+*MOT:	can you sing a song for me ? 549456_554125
+*MOT:	(o)kay . 554751_555566
+*MOT:	what song are you gonna sing ? 556778_558260
+*MOT:	(o)kay , look at the camera and sing the song . 572183_574503
+*MOT:	ready , set , go . 574503_577255
+*MOT:	oh , oh mister +...
+*MOT:	oh won't you please shine down on me .
+*MOT:	can you do any other songs ? 621005_624233
+*MOT:	no ? 628075_628905
+*MOT:	alright . 628905_633178
+*MOT:	okay , whadda [: what do] you want ? 639513_641536
+*MOT:	that's old , yucky , mommy'll [: mommy will] make you a new one .
+*MOT:	want make you some breakfast ?
+*MOT:	yeah , that's old , old &uh , look .
+*MOT:	yucky , oh you know what we should do , we could put some of the bugs in . 659823_663758
+*MOT:	wanna cook the next bugs ? 663758_667485
+*MOT:	which bugs you wanna cook , those or those ? 667485_670933
+*MOT:	the yellow ones ? 672921_673796
+*MOT:	these ?
+*MOT:	alright , I'm stick (th)em in . 676418_678215
+*MOT:	(o)kay . 687495_690428
+*MOT:	how come it's not going on ? 710636_713060
+*MOT:	this thing'll [: thing will] drive you crazy . 718128_721125
+*MOT:	it's cooled down +... 721125_725175
+*MOT:	yeah , (d)unno why it won't let you turn it on . 729248_734198
+*MOT:	well , I can't deal with that right now . 745590_747553
+*MOT:	okay , let's move this away . 747555_749376
+*MOT:	that one ? 757750_759325
+*MOT:	there , I think that's xxx old drink , I'll get you a new one . 760225_763290
+*MOT:	whadda [: what do] you want to drink ? 763290_765108
+*MOT:	the thing is that those were xxx and I don't want you to get sick , honey . 768878_774831
+*MOT:	hey , you wanna pick this bug out . 774831_776773
+*MOT:	try and get him out . 778025_783905
+*MOT:	I'll get you a new drink . 783905_786603
+*MOT:	you know how to get him out ? 793886_796535
+*MOT:	like what ? 799520_800330
+*MOT:	no , you don't need , you just need to pick this , you , this 0is what you do +...
+*MOT:	watch . 821366_822711
+*MOT:	this one gotta get the legs out . 822711_826835
+*MOT:	yeah , this one's gonna be tough . 826835_835605
+*MOT:	see , here comes one leg . 840803_844000
+*MOT:	it's an ant . 844000_847586
+*MOT:	yeah . 852663_853395
+*MOT:	huh ? 856616_857610
+*MOT:	it's like the beetle bug .
+*MOT:	it says ant right there , that's only why I say that . 865716_870010
+*MOT:	this one's [: one is] gonna be tough , this'll [: this will] be our toughest one yet , Violet . 870013_876710
+*MOT:	I know , I don't know why the stove xxx thing won't turn on , though . 886066_889630
+*MOT:	the cooker +... 889631_891178
+*MOT:	it won't turn on . 891178_893125
+*MOT:	I put it , I put the &uh yellow ones in , we'll see .
+*MOT:	no , that one didn't even cook yet . 912006_915656
+*MOT:	been tryin(g) to cook the other ones .
+*MOT:	there we go !
+*MOT:	well , I hope it got some , because those batteries were dead . 930183_938615
+*MOT:	stinkeroo@wp . 938615_941600
+*MOT:	xxx we put the new ones in , right ? 944820_946431
+*MOT:	let's see what you are (.) yep [: yes] , yours is good .
+*MOT:	well , what can we do , huh ? 950335_955705
+*MOT:	how's [: how does] that taste ? 962793_966711
+*MOT:	whoops . 966711_972728
+*MOT:	I need to look at this make+up stuff the girl gave me . 972728_984041
+*MOT:	gonna help me look at it . 984041_985650
+*MOT:	&um (.) xxx mom . 992800_996335
+*MOT:	remember when she was showin(g) me the make+up ? 996336_999895
+*MOT:	did you see ?
+*MOT:	wait a minute . 1012001_1013101
+*MOT:	I gotta find my bank card , xxx it was in my pocket somewhere .
+*MOT:	this ?
+*MOT:	gold at the very xxx .
+*MOT:	xxx .
+*MOT:	oh the avenue I'm takin(g) you to +...
+*MOT:	xxx .
+*MOT:	forty second street . 1055210_1059608
+*MOT:	xxx . 1059608_1080671
+*MOT:	this 0is twenty six bucks for that cream , I don't know , that seems like a lot . 1088195_1093080
+*MOT:	yeah . 1098508_1103966
+*MOT:	oh maybe they give you a , maybe they give you a little one . 1103966_1107901
+*MOT:	maybe you can buy a little one . 1107903_1111661
+*MOT:	hey +... 1141833_1144045
+*MOT:	xxx it didn't break . 1146020_1147840
+*MOT:	see , I don't know how much that is . 1150633_1154248
+*MOT:	if they have a little one , I would want the little one . 1154248_1158466
+*MOT:	oh she starred the stuff already that I want . 1158466_1164930
+*MOT:	cream to powder . 1164930_1174256
+*MOT:	it's orange+juice soda ? 1202466_1203680
+*MOT:	oh yippee . 1204150_1205200
+*MOT:	xxx right ? 1205200_1207716
+*MOT:	xxx .
+*MOT:	xxx .
+*MOT:	you wanna look at the make+up ?
+*MOT:	xxx .
+*MOT:	xxx I'm gonna show you (.) oh here's the lip gloss .
+*MOT:	but we have samples we can try . 1333513_1336011
+*MOT:	oh , somebody's piggy toes .
+*MOT:	right ? 1339716_1341681
+*MOT:	we don't need any of this stuff . 1342860_1346220
+*MOT:	night creme +...
+*MOT:	nah , forget it .
+*MOT:	oh (.) perfume .
+*MOT:	alright +...
+*MOT:	let's look at these , now . 1369018_1370978
+*MOT:	see look , you can try (th)em on , see ? 1370978_1374801
+*MOT:	they letcha [: let you] try (th)em on . 1378353_1380670
+*MOT:	let's get this stuff out first . 1380670_1383726
+*MOT:	this is the , the (.) brushes and stuff . 1383726_1388755
+*MOT:	we'll have_to get it , a little mirror to bring in here . 1388755_1391706
+*MOT:	ready , here's a little , here's this stuff .
+*MOT:	yeah , and this is (.) lipstick . 1405426_1410780
+*MOT:	I want to try out +... 1410780_1416341
+*MOT:	xxx (.) you must open this up , right ? 1416341_1424373
+*MOT:	oh there it is . 1429530_1430675
+*MOT:	yeah .
+*MOT:	xxx see what this is . 1432316_1434220
+*MOT:	this is blush . 1434220_1438243
+*MOT:	you do , yeah .
+*MOT:	that's a brush , this is called b:lush . 1444390_1448295
+*MOT:	goes on your cheeks . 1448295_1451195
+*MOT:	let me get the mirror , (o)kay ? 1465273_1489633
+*MOT:	don't xxx all of them , then there won't be any for mommy to try . 1489633_1495528
+*MOT:	xxx mommy try one , xxx . 1495528_1497881
+*MOT:	what's this one , blush ? 1499251_1503620
+*MOT:	xxx see that's too pinky for me . 1505888_1508561
+*MOT:	see . 1508563_1511490
+*MOT:	that's too pinky for me , okay let's try +... 1515133_1518896
+*MOT:	let's see what they tell you to do . 1526725_1529193
+*MOT:	you rub it on your cheeks .
+*MOT:	I don't know , whadda [: what do] you think about that ? 1561611_1564195
+*MOT:	here , look at yourself in the mirror . 1564196_1566475
+*MOT:	xxx .
+*MOT:	well that's how they do it , though .
+*MOT:	xxx . 1572251_1577626
+*MOT:	see , I don't think I want the xxx .
+*MOT:	I don't know . 1586708_1597315
+*MOT:	eye shadow's [: shadow is] tough . 1597315_1599580
+*MOT:	aright [: alright] where's the lip stuff ? 1599580_1602931
+*MOT:	(o)kay , I'm gonna try the lip xxx . 1602931_1604420
+*MOT:	(o)kay you gotta put it all on there . 1607710_1611205
+*MOT:	see , I don't like this color either . 1611205_1615643
+*MOT:	(be)cause look +... 1615643_1618911
+*MOT:	oh , I guess it's okay , but that's not my color . 1618911_1624835
+*MOT:	yep [: yes] . 1624836_1626591
+*MOT:	see ? 1626591_1629730
+*MOT:	xxx (o)kay let's try different stuff we have now . 1629731_1634376
+*MOT:	dark colors . 1645836_1646906
+*MOT:	I don't know xxx about the eye shadow . 1646908_1652428
+*MOT:	let's see if she gave us another sample one . 1652428_1655686
+*MOT:	here's 0a different one . 1655686_1658573
+*MOT:	this is a different one .
+*MOT:	well I don't know , I think it's , that's the lip stuff . 1664231_1667325
+*MOT:	I think it's lip stuff . 1667325_1672581
+*MOT:	I'ma [: I am going to] try it . 1672581_1675710
+*MOT:	it's hard to tell because I have the other one on . 1675710_1687451
+*MOT:	oh that one's [: one is] not bad . 1702650_1704380
+*MOT:	let me see what that one's [: one is] called .
+*MOT:	I'll open those ones up . 1708675_1710295
+*MOT:	let me just see what this one's [: one is] called . 1710295_1712521
+*MOT:	what's this one called ? 1712521_1715660
+*MOT:	I don't like that one . 1715660_1717100
+*MOT:	that one's [: one is] called frosted rose . 1717100_1721245
+*MOT:	let's try this one , xxx . 1728851_1732115
+*MOT:	this is nutmeg for the cheeks . 1732116_1736625
+*MOT:	I'll try this one . 1736625_1740750
+*MOT:	yep [: yes] . 1750941_1755916
+*MOT:	which one , did you drop it ? 1755916_1770116
+*MOT:	this one ? 1770853_1771690
+*MOT:	oh , yeah , this is one for the eyes . 1771693_1775621
+*MOT:	spun silk . 1777521_1779793
+*MOT:	xxx try this one , (o)kay go ahead . 1784445_1790490
+*MOT:	yeah , go , go , clo(se) , you gotta close your eye . 1804411_1807251
+*MOT:	ready , xxx . 1807253_1809851
+*MOT:	see ? 1809851_1811483
+*MOT:	goes on the eyelids . 1811483_1813565
+*MOT:	like that ? 1813565_1815598
+*MOT:	now you wanna see ?
+*MOT:	see your eye , look at this one . 1817365_1819045
+*MOT:	see (.) pretty , huh ? 1819046_1823230
+*MOT:	xxx . 1828423_1831091
+*MOT:	that's , &uh , frosted rose . 1831093_1833878
+*MOT:	this is the nutmeg , I'm not sure . 1833878_1838158
+*MOT:	0what colors to get . 1838158_1840688
+*MOT:	do you wanna hold this thing ?
+*MOT:	&um , which one ? 1865080_1868685
+*MOT:	yeah , but you can put it on your cheeks if you want .
+*MOT:	this one is for the cheeks . 1890431_1892233
+*MOT:	these big ones are for the cheeks . 1892233_1895106
+*MOT:	let's see what else she gave me . 1895108_1897615
+*MOT:	cleanser +...
+*MOT:	moisturizer +...
+*MOT:	is that it ? 1903276_1904390
+*MOT:	right , so let me figure out what I wanna get . 1943565_1954495
+*MOT:	doesn't tell you how much the brush set is . 1968251_1970280
+*MOT:	this one doesn't have any , it just has colors . 1975973_1978870
+*MOT:	see , 0it shows you all the different colors +... 1978870_1981495
+*MOT:	that you can get . 1981495_1983930
+*MOT:	I'm gonna write down what I want and see how much it costs .
+*MOT:	(o)kay , let's try that . 2004945_2006598
+*MOT:	so I want the (.) cream to powder foundation +...
+*MOT:	xxx . 2017791_2025088
+*MOT:	moisturizer +...
+*MOT:	&uh (.) face wash +...
+*MOT:	leave a question . 2039856_2041521
+*MOT:	and (.) mascara +...
+*MOT:	blush +...
+*MOT:	&um , eye shadow is a question .
+*MOT:	I don't think I'm gonna get that .
+*MOT:	and (.) lipstick .
+*MOT:	what about gloss , maybe I'll just get a gloss .
+*MOT:	alright , so let's see , we need the first book . 2069168_2072363
+*MOT:	this will tell us , yeah .
+*MOT:	boysenberry +...
+*MOT:	xxx looks nice . 2096159_2100208
+*MOT:	you want , I think we are all out of those , I think we used (th)em all up , darlin(g) , see ? 2100208_2107181
+*MOT:	I think we did , oh here , you need that thing ? 2109235_2111815
+*MOT:	I know , we got stuff all over it , but that's alright .
+*MOT:	eye color +...
+*MOT:	these under the brow bone . 2154968_2158081
+*MOT:	I think that's what I want , xxx one of those . 2158081_2161648
+*MOT:	they're all for me ? 2161648_2164753
+*MOT:	mm , which one do you like ? 2171290_2173088
+*MOT:	yeah . 2173715_2182696
+*MOT:	I like , &um , let's see +... 2186511_2195250
+*MOT:	not that one , there was another one I liked +... 2195250_2199140
+*MOT:	I like that one for the lips . 2199140_2201110
+*MOT:	for the eyes +...
+*MOT:	I liked this one . 2207531_2209755
+*MOT:	yeah . 2210885_2211686
+*MOT:	let's see if this thing has a color thing like the other +//. 2216626_2222591
+*MOT:	oh I know what I was gonna write , brushes .
+*MOT:	alright , cream to powder foundation , I want that . 2229673_2233658
+*MOT:	let's find that and see how much it is . 2233658_2236858
+*MOT:	I want , yeah , this is it , ivory one oh four . 2240458_2244488
+*MOT:	xxx cover and conceal .
+*MOT:	nine fifty .
+*MOT:	nine fifty , fourteen dollars .
+*MOT:	okay +... 2279760_2283896
+*MOT:	xxx I should just get the moisturizer . 2289723_2292126
+*MOT:	let's see , the cleanser's [: cleanser is] eighteen .
+*MOT:	the moisturizer is +/.
+*MOT:	had a little indian .
+*MOT:	little indian boy .
+*MOT:	little indian +...
+*MOT:	four little , five little , six little indian +...
+*MOT:	seven little , eight little , nine little indian +...
+*MOT:	xxx little indian boys .
+*MOT:	oh these are the cheap colors , I see . 2345433_2348650
+*MOT:	and these are the eye colors . 2348650_2351895
+*MOT:	ten bucks for the +/. 2354171_2355541
+*MOT:	oh the brush set's [: set is] forty five .
+*MOT:	&um , this one . 2368353_2370963
+*MOT:	which one do you like ? 2370963_2373288
+*MOT:	yeah ? 2376933_2378488
+*MOT:	xxx oh blush is , what'd [: what did] I say , ten dollars ? 2378488_2382090
+*MOT:	and I want +... 2383941_2387735
+*MOT:	hmm +... 2387735_2391400
+*MOT:	I want either mocha +...
+*MOT:	wait let me check another page and see . 2396785_2398796
+*MOT:	let's check this page over here . 2401206_2402743
+*MOT:	here , this is one , look . 2404755_2406838
+*MOT:	tea belly or nutmeg . 2406838_2409975
+*MOT:	or burned sands .
+*MOT:	or burnished , let's see , nutmeg you think , okay , I'll get nutmeg . 2416021_2419826
+*MOT:	or sunny spice . 2419826_2425465
+*MOT:	you want sunny spice or nutmeg ? 2427701_2429935
+*MOT:	alright , I'll get nutmeg .
+*MOT:	okay +... 2443405_2444718
+*MOT:	now the lip gloss . 2446658_2449001
+*MOT:	and then we'll add everything up . 2449001_2451060
+*MOT:	here it is . 2451060_2458138
+*MOT:	wood , pink , or xxx . 2458138_2461295
+*MOT:	huh . 2461298_2464538
+*MOT:	I think the wood , right ? 2495778_2498538
+*MOT:	xxx it's funny , isn't it ? 2500658_2507116
+*MOT:	you get wood .
+*MOT:	alright .
+*MOT:	I love you too , Mrs Beautiful .
+*MOT:	hmm +... 2528458_2529955
+*MOT:	I love +... 2532633_2534210
+*MOT:	you too , xxx . 2535666_2537395
+*MOT:	the shell looks good , though . 2540893_2543340
+*MOT:	yeah , see ?
+*MOT:	this one is 0the shell .
+*MOT:	yeah .
+*MOT:	that's six twelve bucks .
+*MOT:	they wanted a shell . 2560803_2562505
+*MOT:	and it's twelve bucks .
+*MOT:	what are these metals ?
+*MOT:	xxx , no I don't want those . 2568363_2572196
+*MOT:	okay , eye liner , what's this , xxx . 2572196_2577505
+*MOT:	naw [: no] , I don't want that .
+*MOT:	forty second street +...
+*MOT:	do you do an adaptation of the forty ? 2602108_2604975
+*MOT:	who's gonna pee in the potty ?
+*MOT:	hmm ?
+*MOT:	I don't know about that high+lighter thing .
+*MOT:	that'll [: that will] be six fifty .
+*MOT:	the one +...
+*MOT:	and twenty three +...
+*MOT:	and the mascara's [: mascara is] nine .
+*MOT:	I mean , eight fifty . 2651503_2652708
+*MOT:	boy oh boy , that's gonna be expe:nsive .
+*MOT:	xxx so lets get the calculator and add it up .
+*MOT:	xxx .
+*MOT:	(o)kay ? 2672333_2673751
+*MOT:	let's see , fourteen +...
+*MOT:	plus nine fifty +...
+*MOT:	plus twenty +...
+*MOT:	plus eight fifty +...
+*MOT:	plus +...
+*MOT:	ten .
+*MOT:	plus +... 2690801_2693635
+*MOT:	&um xxx plus +... 2693638_2701787
+*MOT:	eighteen , plus twelve equals , that's ninety two . 2701788_2707291
+*MOT:	I don't know +...
+*MOT:	okay , xxx .
+*MOT:	hey ! 2720168_2721545
+*MOT:	say goodbye to the camera . 2721546_2723798
+*MOT:	look at me . 2723798_2724628
+*MOT:	behind her . 2727500_2729171
+*MOT:	penguin (.) xxx .
+*MOT:	hiding behind a crane . 2735570_2739081
+*MOT:	right ? 2739083_2741853
+*MOT:	no +... 2742990_2745488
+*MOT:	hiding behind a giraffe .
+*MOT:	see all the different shapes on the giraffe ?
+*MOT:	pretty , huh ? 2759210_2762380
+*MOT:	mm hmm .
+*MOT:	I don't know what kind of trees those are .
+*MOT:	we better start cleanin(g) up .
+*MOT:	we doin(g) laundry .
+*MOT:	yeah , because we have ballet class later on today .
+*MOT:	don't we ? 2799516_2802351
+*MOT:	mkay [: okay] , and then we're gonna , and then we're gonna start doin(g) the vacuumin(g) , okay ?
+*MOT:	let's find the penguin . 2805363_2809706
+*MOT:	it's over here , it's this way . 2809708_2812560
+*MOT:	yeah . 2813770_2814286
+*MOT:	okay , you do the penguin's belly and then we're gonna start doing the vacuuming .
+*MOT:	(o)kay ? 2819270_2821858
+*MOT:	stripy , stripy . 2821858_2826515
+*MOT:	can I make something on the penguin's belly ? 2828908_2832266
+*MOT:	can I make a star ? 2832670_2836020
+*MOT:	ready ? 2836020_2838395
+*MOT:	that a good one ?
+*MOT:	xxx , what shape is that ? 2859008_2861715
+*MOT:	yep [: yes] . 2865225_2865676
+*MOT:	no +...
+*MOT:	n:o +... 2875793_2876871
+*MOT:	no xxx .
+*MOT:	watch , this is a square .
+*MOT:	this is a square , and this is a +...
+*MOT:	yeah , I knew you knew it .
+*MOT:	and this is a (.) circle +... 2899660_2903066
+*MOT:	and this is an +... 2903066_2904716

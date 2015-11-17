@@ -1,0 +1,348 @@
+*MOT:	that duck . 0_22217
+*MOT:	where's the duck . 22217_24025
+*MOT:	donkey where does that go ? 28622_32868
+*MOT:	where's that go ? 32868_37122
+*MOT:	thank_you . 37122_48253
+*MOT:	do you wanna take it apart ? 48253_51305
+*MOT:	you pull it apart . 51305_55408
+*MOT:	you do it . 55408_58378
+*MOT:	there . 58378_59408
+*MOT:	one two . 59408_63398
+*MOT:	pull that one apart . 63398_70670
+*MOT:	that was hard . 70670_72048
+*MOT:	three . 74738_75257
+*MOT:	four . 75257_78365
+*MOT:	you do it . 78365_80912
+*MOT:	you pull one end . 80912_81620
+*MOT:	here do you want to play with something else ? 81620_83608
+*MOT:	look J_J . 83608_85960
+*MOT:	here do you want to dump all this ? 85960_93253
+*MOT:	there now you can see what's here . 93253_99247
+*MOT:	open . 101373_101638
+*MOT:	what's in there ? 101638_106608
+*MOT:	what's this J_J [x 2] ? 106608_116802
+*MOT:	what's still in there ? 116802_119705
+*MOT:	is there something in there ? 119705_120365
+*MOT:	you got it all . 120365_122652
+*MOT:	who's this [x 1] ? 122652_125617
+*MOT:	dog . 127225_127825
+*MOT:	can you say apple@q ? 127825_129115
+*MOT:	put the apple in . 129115_131362
+*MOT:	no oop . 131362_133737
+*MOT:	what this ? 133737_136218
+*MOT:	is that a fish ? 136218_140245
+*MOT:	fish yeah . 141963_143955
+*MOT:	grapes . 143955_146942
+*MOT:	doesn't look like your grapes . 146942_150133
+*MOT:	grapes . 150133_150492
+*MOT:	grapes . 152372_153788
+*MOT:	want a fish ? 156323_157215
+*MOT:	here's a fish . 157215_157760
+*MOT:	no here's corn . 159265_162025
+*MOT:	corn . 164305_166185
+*MOT:	bottle . 166185_169717
+*MOT:	this is like your bottle . 169717_172267
+*MOT:	bottle . 172267_173865
+*MOT:	bottle . 175335_176805
+*MOT:	what's this ? 187177_187467
+*MOT:	J_J is this baby ? 187467_190157
+*MOT:	baby yeah . 191545_193092
+*MOT:	shoes . 193092_196575
+*MOT:	that's a orange . 199677_201190
+*MOT:	it looks like a ball . 201190_202243
+*MOT:	that's an apple . 203922_204723
+*MOT:	it looks like a ball too . 204723_205968
+*MOT:	shoes . 205968_209545
+*MOT:	eggs . 213153_214000
+*MOT:	eggs . 215605_216765
+*MOT:	apple . 221948_222818
+*MOT:	that's a brush . 225342_227760
+*MOT:	brush . 227760_230448
+*MOT:	bottle . 235685_236812
+*MOT:	bottle . 240277_241118
+*MOT:	no that's not corn it's carrots . 242612_244148
+*MOT:	here's the corn . 244148_245220
+*MOT:	corn . 247428_248868
+*MOT:	bottle right . 252110_253448
+*MOT:	carrot [x 1] . 256020_258767
+*MOT:	no what's that ? 261198_264787
+*MOT:	bottle right . 266983_267760
+*MOT:	that's a little bottle . 270452_271812
+*MOT:	fish right . 275905_277218
+*MOT:	good . 277218_278313
+*MOT:	banana . 278313_281075
+*MOT:	hello who you talking to ? 285108_287228
+*MOT:	hello . 287228_288620
+*MOT:	give grandma a kiss . 288620_292995
+*MOT:	you talking to grandma on the phone ? 292995_295013
+*MOT:	can you give grandma a kiss ? 295013_296978
+*MOT:	gonna give grandma a kiss on the phone ? 296978_302288
+*MOT:	no . 304077_304867
+*MOT:	want me to open ? 304867_310553
+*MOT:	look at all that . 310553_315550
+*MOT:	what's all that ? 315550_316852
+*MOT:	hammer . 319320_321615
+*MOT:	no you don't hammer . 333450_338843
+*MOT:	here why don't you hammer this ? 338843_340080
+*MOT:	here . 340080_340703
+*MOT:	fix this . 340703_343415
+*MOT:	want the donkey ? 349143_358055
+*MOT:	what's that ? 361938_375317
+*MOT:	what do you have ? 375317_376817
+*MOT:	ball right . 377425_378030
+*MOT:	what's this ? 378030_380050
+*MOT:	Grover right . 381948_383290
+*MOT:	Oscar . 383290_384545
+*MOT:	Oscar and Grover . 387062_392868
+*MOT:	can you put them in here ? 392868_396013
+*MOT:	spoon . 396013_409488
+*MOT:	this . 409488_412518
+*MOT:	what do you want honey ? 412518_412888
+*MOT:	you'll have_to get it (be)cause I don't know what you want . 414285_416338
+*MOT:	no . 419937_420405
+*MOT:	here I'll bring it to you and you can pick what you want . 426385_430988
+*MOT:	Grover . 437643_438348
+*MOT:	want this ? 440613_441320
+*MOT:	shoe . 445762_448290
+*MOT:	what do you want honey ? 448290_454580
+*MOT:	are you going to put Grover in there ? 454580_466472
+*MOT:	&Osc it's Oscar . 472953_474305
+*MOT:	ball . 479060_479675
+*MOT:	Grover . 483393_483748
+*MOT:	ball . 485600_486313
+*MOT:	ball . 487390_488058
+*MOT:	hammer . 488058_491675
+*MOT:	I don't think you know . 498160_501592
+*MOT:	you just know the hammer . 501592_503012
+*MOT:	let's see screwdriver . 503012_504873
+*MOT:	saw pliers . 504873_509972
+*MOT:	you got a wrench . 509972_510775
+*MOT:	that's a screwdriver . 513250_514303
+*MOT:	hammer . 514303_517312
+*MOT:	that's Oscar Oscar . 539800_541365
+*MOT:	Grover . 544275_545070
+*MOT:	want to say hi to Grover . 545070_549303
+*MOT:	want to give Grover a kiss . 549303_552263
+*MOT:	Oscar too . 552263_555152
+*MOT:	okay . 555152_556962
+*MOT:	where's the truck ? 556962_562285
+*MOT:	J_J where the truck ? 565499_566608
+*MOT:	do you want me to hold the ball ? 568066_569215
+*MOT:	I will hold the ball . 569215_569850
+*MOT:	okay I will hold Grover . 572110_573033
+*MOT:	what's the comb doing in there ? 581285_585350
+*MOT:	what's that for ? 585350_586203
+*MOT:	screwdriver . 593221_593966
+*MOT:	what do you do ? 593966_598283
+*MOT:	what's that for ? 598283_599178
+*MOT:	J_J what do you do with that ? 599178_601681
+*MOT:	sorry I dropped it . 608163_610815
+*MOT:	look . 610815_628720
+*MOT:	that's dog . 630383_630850
+*MOT:	who's that ? 630850_634395
+*MOT:	who's that J_J ? 636416_640873
+*MOT:	boy . 642418_642740
+*MOT:	boy [x 1] . 643293_645478
+*MOT:	is that you ? 645478_646443
+*MOT:	is that J_J ? 646443_647148
+*MOT:	boy . 651148_652441
+*MOT:	look_it peekaboo . 653393_660410
+*MOT:	peekaboo . 662656_663918
+*MOT:	that's a boy playing peekaboo . 664875_666566
+*MOT:	peekaboo . 670858_672296
+*MOT:	boy . 674883_677106
+*MOT:	who's this ? 677106_679625
+*MOT:	yeah it's another boy . 681493_682948
+*MOT:	girl . 686395_687676
+*MOT:	bunny ooh feel how soft ? 687676_693203
+*MOT:	here you feel . 693203_697473
+*MOT:	feel how soft ? 697473_698520
+*MOT:	soft . 698520_704425
+*MOT:	soft . 706680_707826
+*MOT:	who's that ? 707826_710306
+*MOT:	is that J_J ? 711718_712871
+*MOT:	no it's not J_J . 714306_715920
+*MOT:	who's that ? 715920_717153
+*MOT:	ooh feel . 719898_724681
+*MOT:	that's daddy . 727911_729368
+*MOT:	that's not your daddy that's her daddy . 729368_730431
+*MOT:	ooh and that . 730431_736223
+*MOT:	look at the book . 736223_737506
+*MOT:	don't rip the book . 737506_741106
+*MOT:	is that a book ? 741106_757048
+*MOT:	let's see what else is here . 757048_766918
+*MOT:	Oscar . 775673_776541
+*MOT:	Grover . 778246_778790
+*MOT:	where are you going with Grover ? 785411_785751
+*MOT:	Oscar . 789765_790678
+*MOT:	ball . 794025_794710
+*MOT:	what honey ? 814466_815406
+*MOT:	what do you want ? 815406_816788
+*MOT:	duck . 816788_820823
+*MOT:	duck . 823043_823823
+*MOT:	pig . 823823_829820
+*MOT:	what's the cow say ? 829820_834326
+*MOT:	moo@o . 835086_835706
+*MOT:	ball . 840350_841525
+*MOT:	what happened ? 847680_850296
+*MOT:	can you get the ball ? 850296_851990
+*MOT:	here's the duck [x 1] . 863156_864928
+*MOT:	what's the donkey look like ? 864928_871681
+*MOT:	it looks like a horse yes . 873263_874906
+*MOT:	rooster [x 1] . 874906_883533
+*MOT:	you've never seen a rooster before ? 884756_886516
+*MOT:	what this ? 888478_890391
+*MOT:	what's the matter are you missing something ? 893676_896906
+*MOT:	what ? 899555_903228
+*MOT:	well you get it I don't know what you want . 904781_906610
+*MOT:	there's still one missing . 910883_915828
+*MOT:	is there more ? 919595_926320
+*MOT:	ball yeah that's a ball . 927020_928103
+*MOT:	well you get it, what do you want ? 932183_935323
+*MOT:	glasses . 935323_938090
+*MOT:	daddy wears glasses . 942490_943305
+*MOT:	where do they go ? 943305_945901
+*MOT:	can you put them on ? 947253_950648
+*MOT:	that's where they go right ? 951961_955158
+*MOT:	what honey ? 955158_966671
+*MOT:	want this one ? 966671_967388
+*MOT:	Grover doesn't fit in there . 967388_994365
+*MOT:	here maybe he will fit in this other one . 994365_996011
+*MOT:	no I don't think so . 996011_996991
+*MOT:	ooh how about the big one ? 996991_999601
+*MOT:	can you find the big truck ? 999601_1001743
+*MOT:	maybe in the big truck . 1001743_1007688
+*MOT:	where's the big truck J_J ? 1011703_1016856
+*MOT:	look at the big truck over there . 1016856_1018256
+*MOT:	can you bring that to mommy ? 1018256_1018980
+*MOT:	yeah try that one . 1022103_1022796
+*MOT:	try to fit Oscar and Grover . 1022796_1046265
+*MOT:	don't fit in there . 1046265_1046775
+*MOT:	they're too big . 1046775_1047516
+*MOT:	Grover . 1048645_1049400
+*MOT:	Oscar . 1051583_1053128
+*MOT:	Grover oops Grover fell out . 1056731_1059415
+*MOT:	ooh putting everything back on the floor . 1072873_1086161
+*MOT:	can you reach everything ? 1086161_1109890
+*MOT:	I will hold Grover . 1114536_1117220
+*MOT:	what happened to Oscar ? 1117220_1119225
+*MOT:	where'd Oscar go ? 1121716_1122801
+*MOT:	do you see him ? 1122801_1125266
+*MOT:	okay I will hold Oscar and Grover . 1133632_1135669
+*MOT:	hello can you say hello@q ? 1147659_1149044
+*MOT:	got two . 1157309_1158128
+*MOT:	Grover is one . 1160363_1161771
+*MOT:	Oscar is two . 1161771_1165353
+*MOT:	Grover . 1179894_1181068
+*MOT:	Oscar . 1181068_1182188
+*MOT:	oop Oscar fell again . 1182188_1184716
+*MOT:	o:w . 1188879_1196116
+*MOT:	they're gonna go get you [x 1] . 1196116_1201033
+*MOT:	where are you going [x 1] ? 1202349_1204306
+*MOT:	ball . 1207746_1218998
+*MOT:	can you put everything in here J_J ? 1227541_1235978
+*MOT:	want to try doing the puzzle ? 1238543_1246876
+*MOT:	put it on your lap like that . 1246876_1255828
+*MOT:	now try . 1255828_1256674
+*MOT:	oop no I don't think it fits there . 1259974_1265758
+*MOT:	no try another place . 1265758_1269088
+*MOT:	no try another place . 1272101_1272949
+*MOT:	want mommy to do it ? 1277281_1277613
+*MOT:	here I'll put it in once and I'll show you where it goes . 1277613_1280066
+*MOT:	there . 1280066_1281813
+*MOT:	here's more . 1284191_1286303
+*MOT:	can you put the cow in ? 1286303_1291953
+*MOT:	what does the cow say ? 1291953_1292961
+*MOT:	moo@o . 1292961_1294088
+*MOT:	duck that's duck right . 1298501_1301376
+*MOT:	where's the duck go ? 1301376_1301948
+*MOT:	try putting him in down here . 1301948_1306011
+*MOT:	move him down a little . 1306011_1307126
+*MOT:	let's see if you can get him in yourself . 1307126_1309128
+*MOT:	you almost almost had him . 1309128_1311704
+*MOT:	oh almost J_J . 1311704_1314741
+*MOT:	no . 1314741_1316343
+*MOT:	duck want me to put him in ? 1324376_1325454
+*MOT:	no okay . 1325454_1329394
+*MOT:	what are you getting tired ? 1329394_1353451
+*MOT:	where's the baby ? 1353451_1358424
+*MOT:	yeah where's the baby ? 1360736_1362243
+*MOT:	can you give mommy the baby ? 1364521_1365939
+*MOT:	baby can you get the baby for mommy ? 1372691_1374881
+*MOT:	thank_you . 1374881_1383183
+*MOT:	oh isn't that a nice baby ? 1383183_1384733
+*MOT:	nice baby . 1384733_1388256
+*MOT:	what's that ? 1401948_1403654
+*MOT:	is that a bear ? 1404409_1405514
+*MOT:	want mommy to hold this . 1405514_1410483
+*MOT:	doll . 1410483_1419553
+*MOT:	doll . 1423391_1424438
+*MOT:	somebody combed her fixed her hair . 1424438_1429394
+*MOT:	yeah . 1434473_1437108
+*MOT:	where's the telephone [x 1] ? 1437108_1447381
+*MOT:	where did the telephone go ? 1447381_1454923
+*MOT:	thank_you [x 2] . 1499364_1503501
+*MOT:	do you want this back ? 1503501_1514208
+*MOT:	no . 1516564_1517233
+*MOT:	duck thank_you . 1521746_1523196
+*MOT:	where's the duck go ? 1529801_1542128
+*MOT:	horse it looks like a horse . 1545494_1546794
+*MOT:	no that's where the cow goes . 1551458_1552668
+*MOT:	which one looks like the horse here ? 1556606_1559538
+*MOT:	pick out the donkey James . 1559538_1561669
+*MOT:	where's the donkey who looks like a horse ? 1561669_1563939
+*MOT:	want to try to put the pig in instead okay ? 1563939_1576056
+*MOT:	put the pig in . 1576056_1576713
+*MOT:	where's the pig go ? 1576713_1577876
+*MOT:	what a face . 1577876_1586931
+*MOT:	want to play with something else ? 1586931_1596669
+*MOT:	can you put all these things back in the bottle ? 1596669_1603438
+*MOT:	where's the bottle ? 1603438_1604554
+*MOT:	where's the big bottle ? 1604554_1606344
+*MOT:	can you put them all back in there for mommy ? 1606344_1609723
+*MOT:	that's a good boy . 1609723_1611006
+*MOT:	here I will hand them all to you and you put them back . 1611006_1617293
+*MOT:	that's all of them . 1617293_1628628
+*MOT:	no can you put more in ? 1628628_1634121
+*MOT:	put more in . 1634121_1635049
+*MOT:	grapes . 1635049_1654258
+*MOT:	grapes . 1655654_1656576
+*MOT:	bottle right . 1660011_1660896
+*MOT:	it looks like butter . 1664946_1665971
+*MOT:	corn . 1665971_1668823
+*MOT:	you have them all thank_you . 1672221_1673296
+*MOT:	what ? 1676556_1677148
+*MOT:	ooh you want no you can have corn now . 1677148_1679989
+*MOT:	later . 1679989_1680619
+*MOT:	you can have some grapes later too . 1680619_1689299
+*MOT:	what's the matter ? 1689299_1699369
+*MOT:	where's Grover ? 1701765_1703812
+*MOT:	where's Grover ? 1703812_1705724
+*MOT:	and all your little friends . 1711127_1711869
+*MOT:	dog . 1715764_1716611
+*MOT:	oops . 1716611_1719227
+*MOT:	Grover . 1721466_1722576
+*MOT:	are you getting tired ? 1723879_1735132
+*MOT:	whoa you just get up . 1735132_1750302
+*MOT:	is Grover going to sleep ? 1758867_1764949
+*MOT:	where's the other Grover . 1770151_1771036
+*MOT:	I don't know . 1771036_1771794
+*MOT:	over there . 1771794_1773756
+*MOT:	look by your foot . 1773756_1774199
+*MOT:	Grovers by your foot . 1774199_1776222
+*MOT:	you see him ? 1776222_1780249
+*MOT:	move your foot . 1780249_1782589
+*MOT:	who's there [x 1] ? 1782589_1786449
+*MOT:	who's that [x 1] ? 1786449_1789726
+*MOT:	Grover . 1790416_1790749
+*MOT:	Grover . 1802491_1803472
+*MOT:	uhoh your hand doesn't fit in there . 1803472_1815559
+*MOT:	can you pull Grover out ? 1815559_1822636
+*MOT:	whoa out comes everything else too . 1822636_1828987
+*MOT:	Oscar you have_to turn it upside down to get Oscar out . 1830319_1832826
+*MOT:	whoa Oscar's still in there . 1834217_1847589
+*MOT:	here he comes . 1847589_1848867
+*MOT:	there you go . 1848867_1852151
+*MOT:	let me fix the bottle . 1852151_1859194
+*MOT:	there . 1859194_1860471
+*MOT:	bye . 1860471_1870622

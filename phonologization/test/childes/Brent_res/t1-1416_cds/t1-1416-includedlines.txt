@@ -1,0 +1,784 @@
+*MOT:	spin it ! 26700_27310
+*MOT:	spins . 29043_29920
+*MOT:	it's still spinning . 30857_31720
+*MOT:	oh you stopped it now . 32093_33787
+*MOT:	did you spin it ? 36970_37800
+*MOT:	mhm . 44700_45240
+*MOT:	that your shoe ? 54457_55120
+*MOT:	don't eat that ! 55290_55840
+*MOT:	that your shoe ? 65537_66473
+*MOT:	is that your shoe ? 69633_70570
+*MOT:	Alex shoe . 75613_76473
+*MOT:	Alex shoe . 76973_77737
+*MOT:	no Ernie . 100887_102050
+*MOT:	no Ernie_phone . 102133_103480
+*MOT:	no Ernie_phone . 103967_105237
+*MOT:	lemme see ! 105653_106137
+*MOT:	oh thank_you . 106853_108747
+*MOT:	say ! 109290_109593
+*MOT:	thank_you . 110107_110867
+*MOT:	here you go . 111377_111940
+*MOT:	thank_you . 112893_113403
+*MOT:	lemme take this Ernie ! 121573_123017
+*MOT:	I'll put Ernie xxx . 124307_125560
+*MOT:	he won't mess with xxx . 125750_127057
+*MOT:	Ernie . 128260_128777
+*MOT:	you stand there ! 129113_130123
+*MOT:	Alex doesn't like you . 130530_131673
+*MOT:	now . 139497_139957
+*MOT:	no more Ernie_phone . 140443_142200
+*MOT:	oh you ripped the box . 150540_152430
+*MOT:	pretty sure you did it . 155083_156223
+*MOT:	I don't think I did it . 156473_157567
+*MOT:	did you see there's a picture of a baby ? 161347_163257
+*MOT:	well alright then . 167197_168533
+*MOT:	alright then . 169700_170747
+*MOT:	xxx we won't look at it . 170917_172600
+*MOT:	there's a doll . 174117_174837
+*MOT:	a doll . 176953_177550
+*MOT:	a dog . 183647_184287
+*MOT:	would you like a banana ? 199233_200400
+*MOT:	you want (ba)nana ? 202527_203347
+*MOT:	you want a banana ? 206060_206923
+*MOT:	or you not ready to eat a (ba)nana this morning ? 208770_210740
+*MOT:	here . 212803_212993
+*MOT:	gimme that ! 213287_213620
+*MOT:	you want banana ? 213870_214657
+*MOT:	(ba)nana . 217057_217637
+*MOT:	Mommy go get a (ba)nana okay ? 218360_219950
+*MOT:	we'll we'll eat a banana this morning . 224430_226480
+*MOT:	because I think . 228670_229427
+*MOT:	yeah . 230160_230513
+*MOT:	Dad took the cookies , Alex . 230860_232447
+*MOT:	we don't have any more and I'm not making any more . 232903_235397
+*MOT:	no more cookies . 239153_240583
+*MOT:	I ran out_of cookie dough . 246273_247657
+*MOT:	I made up the last last night . 248340_250073
+*MOT:	and Dad didn't even give you a chance to eat any . 250460_252433
+*MOT:	yeah but we have a (ba)nana . 255397_256737
+*MOT:	which is better than a cookie . 257177_258430
+*MOT:	(ba)nanas are better than cookies anyway . 269720_271887
+*MOT:	here you go . 276640_277183
+*MOT:	here you go . 313487_314010
+*MOT:	here's a banana . 314317_315113
+*MOT:	is it good ? 326123_326813
+*MOT:	little bit good ? 329977_330877
+*MOT:	or lot good ? 331750_332593
+*MOT:	or not good ? 342593_343370
+*MOT:	could be not good . 343887_344807
+*MOT:	I think it's a good (ba)nana . 358060_359133
+*MOT:	Alex . 383607_384113
+*MOT:	got some keys ? 385857_387073
+*MOT:	got some keys ? 387647_388647
+*MOT:	the keys . 390173_391013
+*MOT:	key's . 400477_401087
+*MOT:	you saw a picture of Mom_mom ? 471990_473537
+*MOT:	Alex . 511527_512523
+*MOT:	you're not getting into something you shouldn't are you ? 521240_523687
+*MOT:	probably so . 524007_524887
+*MOT:	no . 609190_609853
+*MOT:	leave it alone ! 610677_611510
+*MOT:	no that's not for you sticking keys through , boy . 622717_626010
+*MOT:	now don't you do it ! 636263_637497
+*MOT:	don't you do it . 637627_638507
+*MOT:	no . 638597_639113
+*MOT:	that is not for you to play keys with . 639983_642450
+*MOT:	that is not for you to play keys with . 644243_646847
+*MOT:	no . 648607_649200
+*MOT:	you play keys with something else ! 652733_654450
+*MOT:	here play keys over here ! 668530_669793
+*MOT:	put keys in there ! 671063_672293
+*MOT:	you put keys in that all day long . 672867_674690
+*MOT:	no no no . 899793_900537
+*MOT:	look what Mommy has ! 902410_903283
+*MOT:	Baby_animal_kisses . 904643_906747
+*MOT:	Baby_animal_kisses . 911300_913363
+*MOT:	oh you say “oh let me out” . 914313_915813
+*MOT:	let me out ! 915900_916840
+*MOT:	I have_to see . 916880_917907
+*MOT:	mkay . 921903_922853
+*MOT:	alrightie . 926150_927523
+*MOT:	got Baby_animal_kisses . 928507_931320
+*MOT:	oh yeah . 937657_939040
+*MOT:	look ! 940227_940923
+*MOT:	do you like to share a xxx silky seal pup kisses [=! read] ? 943067_947587
+*MOT:	oh it's so silky soft . 948563_951293
+*MOT:	fuzzy panda cub kisses [=! read] . 953937_956457
+*MOT:	oh is nose is so fuzzy . 957280_958760
+*MOT:	hairy gorilla infant kisses [=! read] . 960383_962837
+*MOT:	oh his tummy is all (...) fuzzy . 963547_966603
+*MOT:	feathery penguin chick kisses [=! read] . 969713_972017
+*MOT:	oh that's pretty feathery . 972617_974550
+*MOT:	think that's really feathery (..) and soft . 975867_978340
+*MOT:	bumpy alligator hatchling kisses [=! read] . 980573_983033
+*MOT:	oh kinda bumpy . 984023_985510
+*MOT:	is it kinda bumpy ? 985967_987113
+*MOT:	like it ? 989453_989823
+*MOT:	wrinkly elephant cow kisses [=! read] . 991347_993580
+*MOT:	that's so wrinkly . 997220_998453
+*MOT:	what kind of kisses do you like to share [=! read] ? 1002983_1005883
+*MOT:	the end but . 1008623_1009480
+*MOT:	but (.) we get to read it over again . 1009910_1012613
+*MOT:	get to do it again . 1013403_1014650
+*MOT:	and look ! 1015027_1015480
+*MOT:	see ! 1015483_1015807
+*MOT:	look ! 1015860_1016167
+*MOT:	look ! 1016350_1016507
+*MOT:	nose on the outside . 1016990_1018217
+*MOT:	is soft just like the nose on the inside . 1018793_1021437
+*MOT:	oh it's silky and smooth . 1029163_1031723
+*MOT:	silky . 1032287_1033063
+*MOT:	oh silky . 1034357_1035607
+*MOT:	let's see ! 1036170_1036617
+*MOT:	fuzzy panda cub kisses [=! read] . 1038680_1041277
+*MOT:	hairy gorilla infant kisses [=! read] . 1046180_1049233
+*MOT:	oh feel his tummy ! 1050153_1052670
+*MOT:	his tummy was fuzzy . 1052750_1054723
+*MOT:	it's all furry and hairy . 1054870_1056657
+*MOT:	you like that ? 1057857_1058683
+*MOT:	feathery penguin chick kisses [=! read] . 1061450_1064233
+*MOT:	that's not the end . 1065307_1066047
+*MOT:	bumpy alligator hatchling kisses [=! read] . 1067337_1070110
+*MOT:	wrinkly elephant cow kisses [=! read] . 1075193_1077713
+*MOT:	what kind of kisses do you like to share [=! read] ? 1083467_1086307
+*MOT:	oh go get me a book ! 1087793_1088897
+*MOT:	go get me &um ! 1091463_1092277
+*MOT:	go get me Babies_softly_slumber book ! 1092600_1094817
+*MOT:	baby . 1107987_1108547
+*MOT:	xxx . 1115563_1116397
+*MOT:	xxx . 1117317_1117950
+*MOT:	babies softly slumber [=! read] . 1120810_1122747
+*MOT:	Baby_daffy (...) shakes his rattle [=! read] . 1126133_1128620
+*MOT:	and tosses it from his crib [=! read] . 1129417_1131363
+*MOT:	see the rattle ? 1131783_1132620
+*MOT:	yeah it's a rattle . 1133923_1135183
+*MOT:	Baby_taz sucks on his bottle [=! read] . 1137553_1139910
+*MOT:	slip slopping juice on his bib [=! read] . 1140287_1142293
+*MOT:	see ! 1142500_1142807
+*MOT:	there's the bottle . 1142863_1143890
+*MOT:	Baby_wily crawls under his covers [=! read] . 1147160_1150053
+*MOT:	+" playing the peekaboo game . 1150500_1151140
+*MOT:	+" Baby_roadrunner softly slumbers . 1154567_1157197
+*MOT:	+" the other babies do the same . 1157643_1159453
+*MOT:	+" the end . 1159900_1160657
+*MOT:	you can't throw a book every time we get to the end of it . 1161490_1164663
+*MOT:	we can't throw (th)em just because it's the end . 1167877_1169250
+*MOT:	we can read (th)em over again . 1169620_1172717
+*MOT:	we read (th)em again . 1177287_1178530
+*MOT:	I read (th)em again and again [x 3] . 1179253_1182363
+*MOT:	and again and again and again . 1182673_1184477
+*MOT:	how (a)bout I get you some juice ? 1193963_1195230
+*MOT:	you want some juice ? 1195360_1196227
+*MOT:	maybe a little bit of juice ? 1197290_1198370
+*MOT:	then a diapie change . 1198897_1199963
+*MOT:	you stink . 1200340_1201113
+*MOT:	you stink . 1201683_1202150
+*MOT:	yes . 1202623_1203073
+*MOT:	well you gon(na) get some juice first okay ? 1206417_1208060
+*MOT:	Alex . 1209057_1209667
+*MOT:	boy . 1213113_1213707
+*MOT:	what are you doing over here ? 1214987_1216457
+*MOT:	trying to get you xxx xxx . 1217110_1218960
+*MOT:	uhhuh . 1219870_1220603
+*MOT:	xxx xxx xxx xxx I see . 1222817_1225003
+*MOT:	trying to xxx little xxx . 1233497_1235257
+*MOT:	you know these pants are gon(na) have_to come off . 1274187_1276530
+*MOT:	well somebody was stinky [=! whispered] . 1280500_1282027
+*MOT:	somebody was stinky [=! whispered] . 1282450_1283567
+*MOT:	I wonder who that was . 1284830_1286317
+*MOT:	who's stinky ? 1287023_1287830
+*MOT:	Alex is stinky . 1287957_1289083
+*MOT:	it stinks like poopie . 1291007_1292637
+*MOT:	you got poopie on you . 1293077_1294180
+*MOT:	I can tell . 1295860_1296493
+*MOT:	xxx xxx xxx . 1298277_1300577
+*MOT:	is that enough ? 1305117_1305960
+*MOT:	d(id) you get enough ? 1306643_1307613
+*MOT:	yet . 1308067_1308460
+*MOT:	you big boy . 1316140_1317487
+*MOT:	don't you think you had enough ? 1317693_1319123
+*MOT:	you say no@q . 1322990_1323623
+*MOT:	I think you need your fingernails cut . 1335340_1337153
+*MOT:	you need a snip snip on those fingernails . 1338553_1340750
+*MOT:	you need a snip snip on (th)em . 1341983_1343587
+*MOT:	what about banana ? 1362223_1363143
+*MOT:	would you like a banana ? 1363163_1364227
+*MOT:	we have lots_of banana . 1365363_1366640
+*MOT:	lots_of banana . 1367150_1368227
+*MOT:	no . 1369667_1370040
+*MOT:	no banana huh ? 1370433_1371350
+*MOT:	what about some juice ? 1372763_1373530
+*MOT:	would you like some juice ? 1373543_1374670
+*MOT:	Mommy go get you some juice . 1375577_1377067
+*MOT:	I can get you some juice . 1378953_1380263
+*MOT:	nose . 1384053_1384710
+*MOT:	knee . 1390457_1391627
+*MOT:	foot . 1393137_1393453
+*MOT:	go go go go go ! 1393503_1394457
+*MOT:	foot . 1395523_1395767
+*MOT:	go go go go go ! 1395873_1396917
+*MOT:	okay . 1405703_1406253
+*MOT:	lemme go get you some juice okay ? 1406593_1408367
+*MOT:	let's go get some juice ! 1409687_1410957
+*MOT:	wait a minute now ! 1415187_1415757
+*MOT:	now wait a minute ! 1415793_1416897
+*MOT:	I gotta stand up . 1416907_1418060
+*MOT:	oh boy . 1421643_1422843
+*MOT:	we'll get you some juice . 1432590_1434367
+*MOT:	xxx some juice . 1435780_1437220
+*MOT:	let's see ! 1438180_1438633
+*MOT:	what kinda juice ? 1438897_1439923
+*MOT:	do we have up here ? 1440520_1441400
+*MOT:	up here we have . 1442470_1443437
+*MOT:	I don't think you want that right now . 1443610_1444933
+*MOT:	we'll see . 1445987_1446400
+*MOT:	and guess what ! 1447200_1448023
+*MOT:	Mommy forgot to put (th)em in the (re)frigerator so they're gonna
+*MOT:	unfortunately . 1452110_1453073
+*MOT:	you might be like “Mommy , I like that” . 1453970_1455907
+*MOT:	but next time it'll be cold . 1477390_1478717
+*MOT:	mkay . 1495750_1496530
+*MOT:	there you go . 1498353_1499590
+*MOT:	there you go . 1500863_1501883
+*MOT:	there's your juice . 1502073_1503017
+*MOT:	you made me come untied , boy . 1505587_1507353
+*MOT:	see ! 1508643_1509027
+*MOT:	alrightie . 1511653_1512623
+*MOT:	that baby has his juice . 1513703_1515800
+*MOT:	is it good ? 1518923_1519627
+*MOT:	it must be . 1519647_1520493
+*MOT:	must be good , baby . 1521727_1524027
+*MOT:	okay . 1525413_1526217
+*MOT:	now . 1526430_1527077
+*MOT:	Mommy will get started on the breakfast . 1528847_1531037
+*MOT:	thank_you . 1537260_1537897
+*MOT:	it's good . 1543600_1544140
+*MOT:	I know . 1551597_1552300
+*MOT:	I know . 1552307_1553003
+*MOT:	that's yours isn't it ? 1553140_1554443
+*MOT:	xxx I want one too . 1591420_1593087
+*MOT:	what ? 1599067_1599657
+*MOT:	what you fussing about now ? 1601173_1602587
+*MOT:	did I just hear you say no@q ? 1671717_1673517
+*MOT:	what (di)d you do ? 1674487_1675440
+*MOT:	here . 1685213_1685503
+*MOT:	got too much stuff in this room [?] . 1686263_1687803
+*MOT:	your dad did that didn't he ? 1687807_1689140
+*MOT:	there's that bottle . 1697623_1698843
+*MOT:	I've been looking all over for this thing . 1698883_1700737
+*MOT:	okay , Mister stinky . 1806123_1807703
+*MOT:	come on ! 1807980_1808497
+*MOT:	yeah [?] you wanna turn on this radio ? 1812120_1813597
+*MOT:	who turned it up like that ? 1816957_1818210
+*MOT:	your dad . 1819140_1819887
+*MOT:	oh let's not ! 1828530_1829320
+*MOT:	come (h)ere a second ! 1833527_1834243
+*MOT:	come (h)ere ! 1834710_1835000
+*MOT:	come (h)ere ! 1835660_1835910
+*MOT:	okay . 1859013_1859557
+*MOT:	let's see ! 1861333_1862017
+*MOT:	we're gon(na) play with something alright ? 1863327_1864917
+*MOT:	let's play with ! 1865340_1866623
+*MOT:	a drum while I finish fixing this . 1874740_1876477
+*MOT:	and then we'll get your diapie changed . 1878277_1879743
+*MOT:	you ready ? 1879793_1880187
+*MOT:	let's go ! 1880737_1881303
+*MOT:	yeah . 1894683_1895413
+*MOT:	yeah you can play it like that too . 1901020_1902703
+*MOT:	that's a good idea . 1902720_1903683
+*MOT:	that's a good idea . 1905970_1907370
+*MOT:	yeah . 1916413_1917423
+*MOT:	yeah . 1918813_1919887
+*MOT:	great concert . 1921717_1922780
+*MOT:	I loved it . 1923043_1923840
+*MOT:	are you gonna be a musical boy ? 1925710_1927163
+*MOT:	alright , boy , I know you're walking funny . 1929513_1932257
+*MOT:	I'm gonna get it (.) in just a second . 1932273_1934110
+*MOT:	please do not eat this ! 1934707_1935640
+*MOT:	I know you will . 1935687_1936423
+*MOT:	just have_to take these off the stove alright ? 1938573_1940570
+*MOT:	once they're off the stove and nice and warm . 1941040_1943400
+*MOT:	and . 1943960_1944727
+*MOT:	then we can (..) almost eat (th)em . 1945580_1947407
+*MOT:	(be)cause then they have_to cool down . 1947577_1948907
+*MOT:	yeah . 1950420_1950810
+*MOT:	what did you see the squirrel out there ? 1954627_1956220
+*MOT:	was he out there ? 1956230_1957113
+*MOT:	one [?] looking in the door ? 1958573_1959807
+*MOT:	was he looking in the door ? 1962233_1963943
+*MOT:	I don't see him . 1965513_1966407
+*MOT:	don't think that happened . 1966630_1967857
+*MOT:	alright . 1979293_1979830
+*MOT:	now . 1980280_1980703
+*MOT:	&um (..) no . 1982473_1983993
+*MOT:	&um no . 1984410_1985457
+*MOT:	no . 1986167_1986730
+*MOT:	no . 1987130_1987580
+*MOT:	here . 1988570_1988820
+*MOT:	come on ! 1989233_1989527
+*MOT:	let's go get your diapie changed now ! 1989540_1991127
+*MOT:	now for sure we're getting diapie changed (be)cause you stink . 1992133_1995130
+*MOT:	uhhuh . 1996013_1996730
+*MOT:	you stink pretty bad . 1997457_1998497
+*MOT:	you knew that right ? 2001597_2002347
+*MOT:	you knew it . 2003077_2003567
+*MOT:	you knew (..) diapie would have_to come off . 2004737_2007150
+*MOT:	diapie comes off . 2007930_2009063
+*MOT:	diapie comes off . 2010470_2011490
+*MOT:	of the baby boy . 2011943_2013160
+*MOT:	oh yeah . 2013853_2014507
+*MOT:	oh yeah you have_to get it off . 2014677_2016310
+*MOT:	okay . 2021367_2021953
+*MOT:	and you , Mister melt the crayon in the . 2027677_2029703
+*MOT:	in the dryer . 2030250_2031207
+*MOT:	that's why you . 2033633_2034687
+*MOT:	got the little orange butt . 2035683_2037147
+*MOT:	get your hands from down there ! 2044437_2045610
+*MOT:	oh yeah . 2047317_2048733
+*MOT:	you just keep your hands from down there ! 2049427_2051450
+*MOT:	mhm . 2051483_2052320
+*MOT:	it would be all different if you had to do this . 2068943_2071897
+*MOT:	and not me . 2072323_2073490
+*MOT:	then maybe you wouldn't complain so much . 2075823_2078217
+*MOT:	when it gets done to you . 2081307_2082633
+*MOT:	I gotta clean you up so . 2085817_2087017
+*MOT:	almost done . 2090980_2092023
+*MOT:	almost done . 2092127_2093040
+*MOT:	almost done , sweetum . 2095280_2096463
+*MOT:	almost done . 2097897_2098800
+*MOT:	keep your hands from down there ! 2100370_2101807
+*MOT:	you don't know what's been down there . 2101820_2103130
+*MOT:	yeah . 2104440_2104917
+*MOT:	I know . 2106067_2106893
+*MOT:	I'm the only one who has_to mess with it . 2108790_2110767
+*MOT:	mhm . 2111817_2112463
+*MOT:	okay . 2118467_2119287
+*MOT:	here . 2123913_2124177
+*MOT:	lemme ! 2124367_2124667
+*MOT:	lemme clean your hand off ! 2125753_2126807
+*MOT:	just in_case . 2127347_2127970
+*MOT:	well you have_to get diapie on . 2129517_2131647
+*MOT:	you know you have_to get diapie on . 2132283_2134243
+*MOT:	I don't even know why you're fussing . 2134250_2135590
+*MOT:	yeah (..) you know you have_to get diapie on . 2138873_2141200
+*MOT:	so there's no reason to fuss about it . 2141523_2143273
+*MOT:	you know it has_to go on there . 2144313_2146240
+*MOT:	are you eating something ? 2174390_2175430
+*MOT:	lemme see ! 2175687_2176223
+*MOT:	here open your mouth ! 2177080_2177900
+*MOT:	lemme see ! 2181597_2182107
+*MOT:	no . 2187353_2187830
+*MOT:	okay . 2187963_2188587
+*MOT:	long as you're not eating something . 2189447_2191083
+*MOT:	thank_you . 2198327_2199103
+*MOT:	thank_you . 2200507_2201047
+*MOT:	oh no we don't need any more . 2202943_2204627
+*MOT:	here we have two of (th)em . 2204700_2205833
+*MOT:	we have two . 2206720_2207293
+*MOT:	you can have one . 2207633_2208507
+*MOT:	well then leave it alone ! 2209903_2211807
+*MOT:	leave it alone , baby ! 2212450_2214227
+*MOT:	you get down here with me ! 2214620_2216260
+*MOT:	and we'll go do some things okay ? 2220923_2223050
+*MOT:	wanna do some things ? 2224677_2225717
+*MOT:	no . 2240813_2241430
+*MOT:	let's have some glasses ! 2245483_2246927
+*MOT:	&aw look at the cute boy ! 2249947_2251780
+*MOT:	I get to wear (th)em ? 2253377_2253980
+*MOT:	okay [=! whispered] . 2254140_2254457
+*MOT:	mkay . 2256177_2256683
+*MOT:	yeah . 2261083_2261503
+*MOT:	I look good . 2261687_2262430
+*MOT:	glasses . 2263903_2264617
+*MOT:	glasses . 2269537_2270477
+*MOT:	Mom nose . 2272160_2273763
+*MOT:	yeah . 2275367_2276007
+*MOT:	xxx . 2279730_2280460
+*MOT:	wanna read book ? 2289533_2290470
+*MOT:	look ! 2291323_2291677
+*MOT:	a book . 2292903_2293377
+*MOT:	let's see ! 2295697_2296190
+*MOT:	what (doe)s it say ? 2296680_2297517
+*MOT:	xxx (..) xxx (..) xxx . 2299083_2301247
+*MOT:	let's see ! 2302657_2303170
+*MOT:	xxx (..) xxx . 2306677_2307803
+*MOT:	xxx . 2309427_2310300
+*MOT:	xxx (..) xxx . 2311100_2312533
+*MOT:	xxx . 2314167_2314887
+*MOT:	xxx . 2316923_2318017
+*MOT:	let's see ! 2318217_2318740
+*MOT:	xxx . 2319613_2320417
+*MOT:	xxx . 2321077_2321750
+*MOT:	hi . 2322890_2323237
+*MOT:	xxx xxx . 2323813_2325030
+*MOT:	say (.) hi@q ! 2325460_2326047
+*MOT:	xxx xxx . 2326787_2328537
+*MOT:	xxx (.) xxx . 2332723_2333640
+*MOT:	xxx . 2334323_2335007
+*MOT:	it's xxx (..) and xxx . 2337973_2340670
+*MOT:	yeah xxx . 2342617_2344540
+*MOT:	xxx . 2345030_2346063
+*MOT:	yeah . 2348853_2349310
+*MOT:	xxx (..) xxx . 2351050_2352187
+*MOT:	xxx . 2352593_2353323
+*MOT:	who is it ? 2357103_2357603
+*MOT:	it's xxx . 2359490_2360913
+*MOT:	and . 2361937_2362293
+*MOT:	xxx xxx . 2363157_2364743
+*MOT:	xxx xxx xxx xxx . 2369400_2373520
+*MOT:	okay one last page . 2391890_2393843
+*MOT:	xxx xxx . 2394510_2395437
+*MOT:	xxx . 2395790_2396280
+*MOT:	xxx xxx . 2397500_2398520
+*MOT:	there's a dog on this page . 2400003_2401703
+*MOT:	dog . 2404580_2405220
+*MOT:	that's dog's name is . 2406683_2408047
+*MOT:	xxx . 2409550_2410680
+*MOT:	xxx . 2411303_2412607
+*MOT:	xxx . 2413310_2414490
+*MOT:	xxx . 2415997_2417177
+*MOT:	xxx . 2418560_2420510
+*MOT:	and . 2420790_2421437
+*MOT:	xxx . 2423107_2423670
+*MOT:	xxx . 2424057_2424937
+*MOT:	xxx . 2426437_2427937
+*MOT:	xxx . 2429130_2430150
+*MOT:	xxx and . 2432150_2433783
+*MOT:	xxx xxx . 2438113_2439587
+*MOT:	xxx xxx . 2440460_2442147
+*MOT:	xxx and xxx . 2447510_2449470
+*MOT:	xxx and xxx . 2450480_2453350
+*MOT:	xxx . 2462407_2463597
+*MOT:	xxx . 2464810_2465760
+*MOT:	xxx and . 2466277_2468523
+*MOT:	xxx . 2471937_2473347
+*MOT:	alright . 2475017_2475597
+*MOT:	now . 2476290_2476753
+*MOT:	it says . 2477377_2477967
+*MOT:	xxx . 2478900_2479683
+*MOT:	xxx xxx . 2482483_2484620
+*MOT:	xxx . 2486353_2487413
+*MOT:	I guess that means “the end” . 2489177_2490373
+*MOT:	or sort of the end . 2492380_2493380
+*MOT:	you didn't care . 2498450_2499200
+*MOT:	you saw the part you wanted and you left . 2500317_2502100
+*MOT:	didn't you , baby ? 2502960_2503817
+*MOT:	come (h)ere ! 2503957_2504350
+*MOT:	wanna read another book ? 2516157_2517293
+*MOT:	okay . 2520293_2520993
+*MOT:	let's see what ! 2521163_2521930
+*MOT:	what other book do we have ? 2522417_2523733
+*MOT:	we have . 2524603_2525670
+*MOT:	favorite book . 2527810_2529150
+*MOT:	Pat_the_bunny . 2529850_2531300
+*MOT:	here are Paul and Judy [=! read] . 2538097_2539813
+*MOT:	they can do lots_of things [=! read] . 2540453_2542030
+*MOT:	you can do lots_of things too [=! read] . 2544693_2546933
+*MOT:	Judy can pat the bunny [=! read] . 2548977_2550727
+*MOT:	now you pat the bunny [=! read] ! 2550920_2552143
+*MOT:	pat the bunny , Alex ! 2552660_2553563
+*MOT:	o:h bunny (i)s so soft [=! read] . 2554013_2555987
+*MOT:	bunny (i)s so soft . 2556067_2556867
+*MOT:	Judy can play peekaboo with Paul [=! read] . 2557433_2559070
+*MOT:	now you play ! 2559083_2559690
+*MOT:	peekaboo [=! read] . 2560073_2560653
+*MOT:	where's Paul [=! read] ? 2560867_2561697
+*MOT:	yeah . 2566883_2567950
+*MOT:	where's Paul ? 2569243_2570220
+*MOT:	it's Paul . 2571243_2572017
+*MOT:	peekaboo , Paul . 2574190_2575023
+*MOT:	where's Paul ? 2576333_2577173
+*MOT:	peekaboo , Paul . 2578927_2580150
+*MOT:	where's Paul ? 2580840_2581583
+*MOT:	yeah . 2588303_2589077
+*MOT:	Paul can smell the flower [=! read] . 2591410_2593427
+*MOT:	now you smell the flower [=! read] ! 2593763_2595043
+*MOT:	&mm flowers smell nice [=! read] . 2598287_2600220
+*MOT:	flowers smell nice . 2600897_2601973
+*MOT:	it's a flower . 2604477_2605413
+*MOT:	it smells nice . 2605583_2606707
+*MOT:	his flowers smell nice . 2607073_2608917
+*MOT:	Judy can look in the mirror [=! read] . 2611877_2613323
+*MOT:	now you look in the mirror [=! read] ! 2613380_2614660
+*MOT:	Judy can feel Daddy's scratchy face [=! read] . 2634753_2636953
+*MOT:	now you feel Daddy's scratchy face [=! read] ! 2637353_2639263
+*MOT:	o:h Daddy's face was scratchy [=! read] . 2640013_2642167
+*MOT:	it was really scratchy and rough . 2643410_2645733
+*MOT:	scratchy scratchy . 2647053_2648867
+*MOT:	scratchy . 2649293_2650440
+*MOT:	scratchy . 2652373_2653437
+*MOT:	Judy can read her book [=! read] . 2657483_2658880
+*MOT:	now you read (.) Judy's book [=! read] ! 2659337_2661077
+*MOT:	hear the Tick_tick bunny [=! read] ? 2662870_2664327
+*MOT:	how big is bunny [=! read] ? 2664877_2666477
+*MOT:	bunny is so [=! read] . 2667233_2669040
+*MOT:	uhoh . 2669513_2670060
+*MOT:	did you hurt your ? 2670960_2671567
+*MOT:	did I hurt ? 2671590_2672100
+*MOT:	did it hurt your nose ? 2672120_2673383
+*MOT:	oh I'm sorry . 2674233_2675603
+*MOT:	xxx hit . 2675850_2676430
+*MOT:	I hit your nose . 2676677_2677620
+*MOT:	bunny is so (..) big [=! read] . 2678430_2681743
+*MOT:	bunny is so big [=! read] . 2682620_2685087
+*MOT:	bunny is so big [=! read] . 2686697_2689677
+*MOT:	you say (..) “bunny is so big” ! 2690760_2693947
+*MOT:	bunny is so big . 2695067_2697810
+*MOT:	bunny is so big . 2699207_2702347
+*MOT:	yeah . 2702503_2703560
+*MOT:	yeah bunny is so big . 2704273_2708397
+*MOT:	bunny is eating his good supper [=! read] . 2712343_2714743
+*MOT:	bunny is sleeping [=! read] . 2720247_2721470
+*MOT:	yeah , Mom . 2722567_2723327
+*MOT:	Mom_mom . 2723720_2724490
+*MOT:	a (...) knee . 2727560_2728740
+*MOT:	and a foot . 2729353_2730240
+*MOT:	and a foot . 2730680_2731363
+*MOT:	foot . 2732977_2733300
+*MOT:	Paul can put his finger through Mommy's ring [=! read] . 2736397_2738817
+*MOT:	now you put your finger through Mommy's ring [=! read] ! 2739213_2741290
+*MOT:	yeah , big boy . 2742233_2743920
+*MOT:	put your finger through Mommy's ring ! 2743967_2745917
+*MOT:	there you go . 2748603_2749143
+*MOT:	that's all . 2750267_2750917
+*MOT:	byebye . 2751320_2751970
+*MOT:	can you say byebye@q ? 2752167_2753180
+*MOT:	Paul and Judy are waving byebye to you [=! read] . 2754893_2757043
+*MOT:	the end . 2758143_2758643
+*MOT:	you can't throw books every time we get to the end of (th)em . 2759543_2762757
+*MOT:	there has_to be a “the end” . 2763393_2765147
+*MOT:	then you can start over . 2767157_2768737
+*MOT:	you can read it again . 2768750_2770260
+*MOT:	you just say “read again , Mom” ! 2770270_2771897
+*MOT:	oh well you're welcome . 2774020_2775447
+*MOT:	thank_you too . 2775477_2776447
+*MOT:	thank_you for saying thank_you . 2777813_2779350
+*MOT:	yeah see you have_to open the page up so you can put your finger
+*MOT:	soft . 2820137_2821077
+*MOT:	peekaboo . 2832140_2832703
+*MOT:	Alex , our hot dogs are cool . 2924013_2926177
+*MOT:	hot dogs ready . 2933700_2934853
+*MOT:	time to eat . 2937240_2938147
+*MOT:	here I'll move this stuff . 2955877_2957227
+*MOT:	this belongs in here anyway . 2963110_2964690
+*MOT:	look what Mom_mom has ! 2991037_2992210
+*MOT:	Mom_mom has hot dog . 2994247_2995603
+*MOT:	you alright ? 2999500_3000107
+*MOT:	you okay ? 3002267_3002773
+*MOT:	yeah . 3004270_3004547
+*MOT:	okay . 3006963_3007387
+*MOT:	okay . 3013697_3014147
+*MOT:	here you go . 3014777_3015257
+*MOT:	there's your first piece . 3019550_3020623
+*MOT:	so you leave ? 3024400_3025193
+*MOT:	here . 3041813_3042057
+*MOT:	there's a piece for you . 3043650_3044587
+*MOT:	mhm . 3096767_3097373
+*MOT:	here's some more hot dog . 3100663_3101823
+*MOT:	don't throw things ! 3110893_3112073
+*MOT:	you know what I told you . 3112913_3114000
+*MOT:	not so much . 3126313_3127247
+*MOT:	here . 3127380_3127723
+*MOT:	you can only eat one at a time . 3128610_3130267
+*MOT:	now wait a second . 3130480_3131370
+*MOT:	wait ! 3132090_3132407
+*MOT:	eat what you have in your mouth ! 3133397_3134717
+*MOT:	and then . 3135700_3136343
+*MOT:	then you get some more . 3136870_3137893
+*MOT:	okay ? 3138323_3138790
+*MOT:	eat that first ! 3140577_3141690
+*MOT:	when you finish eating (..) then you can have another piece . 3144153_3146970
+*MOT:	okay ? 3147280_3147723
+*MOT:	well you have_to finish eating first . 3150740_3152220
+*MOT:	now wait until you finish ! 3154773_3156127
+*MOT:	eat what you have ! 3157157_3158087
+*MOT:	you've got a mouthful right now . 3158260_3159890
+*MOT:	you got some in there . 3160523_3161350
+*MOT:	you got some in there . 3162043_3163020
+*MOT:	now do you want your juice too ? 3197067_3198467
+*MOT:	let Mommy make sure this is the right one ! 3201817_3203590
+*MOT:	mkay . 3207950_3208353
+*MOT:	there's your juice . 3209950_3210770
+*MOT:	mkay . 3216367_3216967
+*MOT:	then here's some more hot dog . 3217687_3219187
+*MOT:	since you finished the other one . 3221963_3223373
+*MOT:	you okay ? 3241833_3242353
+*MOT:	there you go . 3243453_3244060
+*MOT:	drinking a little too fast . 3247147_3248500
+*MOT:	not so much . 3251780_3252637
+*MOT:	you only need one . 3252653_3253827
+*MOT:	mkay . 3260603_3261163
+*MOT:	now you got a mouthful . 3262920_3264220
+*MOT:	look ! 3309577_3309917
+*MOT:	look in the house ! 3312470_3313420
+*MOT:	not a bear . 3317383_3318463
+*MOT:	a little girl (i)s in there today . 3318623_3320290
+*MOT:	see ! 3321030_3321483
+*MOT:	little girl was in your house . 3321527_3322943
+*MOT:	lemme see if I can find the bear ! 3323213_3324577
+*MOT:	I haven't seen bears in a while . 3324597_3326137
+*MOT:	I don't know what you did with him . 3327570_3328780
+*MOT:	but here (.) here's your letter a@l . 3328873_3330550
+*MOT:	a@l . 3332690_3333033
+*MOT:	mhm . 3337103_3337737
+*MOT:	there's your letter a@l . 3339397_3340923
+*MOT:	and your microphone . 3342320_3343637
+*MOT:	let's see ! 3345193_3345803
+*MOT:	what else is in ? 3345893_3346747
+*MOT:	well frankly , Alex , I just don't see him . 3349807_3351993
+*MOT:	and I'm not sure where you put him . 3352873_3354550
+*MOT:	and this is the only place I can think of other than . 3356350_3358447
+*MOT:	well xxx xxx . 3358717_3360040
+*MOT:	hold up ! 3360497_3361030
+*MOT:	I'll check your toy box . 3361497_3362680
+*MOT:	(be)cause I don't see him . 3363590_3364493
+*MOT:	you might have thrown him in here . 3371437_3373143
+*MOT:	let's ! 3380527_3381030
+*MOT:	I found one bear . 3383477_3385130
+*MOT:	here's (.) square bear . 3385793_3387327
+*MOT:	boy you've got everything in here . 3394073_3396043
+*MOT:	what's in here ? 3397297_3397987
+*MOT:	there's a block . 3399347_3400473
+*MOT:	here's Cookie_monst(er) . 3404457_3405690
+*MOT:	oh you xxx you talking with him ? 3406920_3408957
+*MOT:	okay . 3409910_3410873
+*MOT:	you like that ? 3411667_3412620
+*MOT:	alright . 3412703_3413313
+*MOT:	oh you . 3419160_3419677
+*MOT:	you like that huh ? 3419853_3420993
+*MOT:	oh let's see ! 3422523_3423607
+*MOT:	what else do we have in here ? 3423613_3425040
+*MOT:	&um . 3426143_3426953
+*MOT:	got little soft [?] ball . 3431087_3432703
+*MOT:	here's a ball . 3432733_3433570
+*MOT:	it jingles . 3434917_3435780
+*MOT:	one of those jingle kind of balls . 3437047_3438593
+*MOT:	yeah ball . 3442973_3443903
+*MOT:	a microphone . 3447130_3448187
+*MOT:	you wanna see ? 3449727_3450350
+*MOT:	I see . 3454090_3454573
+*MOT:	okay . 3454670_3454993
+*MOT:	Mommy loves the baby [=! sung] . 3455757_3457533
+*MOT:	and the baby loves me [=! sung] . 3457803_3459523
+*MOT:	Mommy baby and Dad are a happy family [=! sung] . 3460310_3463647
+*MOT:	here . 3465160_3465363
+*MOT:	Mommy loves Alex [=! sung] . 3472297_3473993
+*MOT:	and Alex loves me [=! sung] . 3474353_3475780
+*MOT:	Mommy Alex and Dad are a happy family [=! sung] . 3476550_3479733
+*MOT:	no ? 3483593_3484267
+*MOT:	xxx you have me sing for ? 3485070_3486583
+*MOT:	uhhuh . 3488707_3489327
+*MOT:	you tricked me into singing . 3490103_3491677
+*MOT:	then you bowed out . 3492157_3493363
+*MOT:	okay . 3494043_3494667
+*MOT:	what is this ? 3507743_3508950
+*MOT:	don't make yourself dizzy ! 3534463_3535940
+*MOT:	yeah . 3559530_3560807
+*MOT:	can't hold on to it ? 3565557_3566767
+*MOT:	that ball jumped . 3609813_3611110
+*MOT:	whoa . 3615607_3617223
+*MOT:	that was a jumping ball . 3618763_3620437
+*MOT:	ball jump around and get you . 3621763_3624033
+*MOT:	where (di)d it go ? 3678110_3678930
+*MOT:	there it is . 3680100_3681010
+*MOT:	did that ball get your shoe ? 3709763_3711393
+*MOT:	ball got your shoe . 3712970_3714523
+*MOT:	okay I gotta go see . 3734780_3736730
+*MOT:	put this food on , sweetum . 3737113_3738540
+*MOT:	I'll be back . 3738557_3739493
+*MOT:	you alright ? 3756813_3757533
+*MOT:	well don't eat too much ! 3838523_3839990
+*MOT:	how many times do I have_to tell you that ? 3840893_3842943
+*MOT:	and what are you doing in here ? 3852950_3854197
+*MOT:	aren't you playing with your ball ? 3855783_3856967
+*MOT:	go play with that ball ! 3856980_3857963
+*MOT:	little boy . 3860910_3861670
+*MOT:	I'm busy . 3861873_3862963
+*MOT:	Alex . 3864593_3865437
+*MOT:	oh , Alex . 3866067_3867703
+*MOT:	yeah . 3880950_3881713
+*MOT:	uhhuh . 3884497_3885207
+*MOT:	there it is . 3887433_3888040
+*MOT:	I think . 3889150_3889620
+*MOT:	is that it ? 3889767_3890367
+*MOT:	that's xxx . 3891353_3892147
+*MOT:	okay . 3898030_3899103
+*MOT:	I better cut this off . 3899873_3901273
+*MOT:	Alex , I'm not sure this oatmeal (i)s gonna taste too good . 3908123_3911120
+*MOT:	I don't know if something went wrong . 3912300_3913933
+*MOT:	and . 3915320_3915780
+*MOT:	can't find . 3916663_3917363
+*MOT:	the thing . 3918833_3919767
+*MOT:	we gon(na) have_to sit this on top . 3921927_3923400
+*MOT:	get out_of there ! 3925187_3925967
+*MOT:	get out_of there ! 3927160_3928370
+*MOT:	little mister . 3928553_3929283
+*MOT:	hey (.) get out_of there ! 3929417_3930673
+*MOT:	(ex)cuse me ! 3934987_3935623
+*MOT:	well I didn't push in the xxx . 3940667_3942040
+*MOT:	the door did . 3942047_3942873
+*MOT:	I don't think it's gonna stop just (be)cause you asked it to . 3945313_3947940
+*MOT:	and you just left the ball running in here . 3960320_3962483
+*MOT:	it's running all over the floor and you're in the other room . 3963217_3966067
+*MOT:	you have three pieces of hot dog left . 3983867_3985843
+*MOT:	there's one . 3986997_3987823
+*MOT:	two . 3988073_3988517
+*MOT:	three . 3988830_3989257
+*MOT:	xxx xxx . 3993287_3993927
+*MOT:	you take all of (th)em . 3994690_3995803
+*MOT:	well you be eating the oatmeal with me no matter how it tastes . 4000720_4003553
+*MOT:	well at least you won't complain . 4008523_4009970
+*MOT:	right ? 4010357_4010667
+*MOT:	yeah . 4011977_4012470
+*MOT:	whoa . 4026740_4027530
+*MOT:	hold up (.) now ! 4027883_4029087
+*MOT:	let me fix this ! 4030170_4031293
+*MOT:	alright , little boy , you don't have_to take everything and toss
+*MOT:	yeah . 4108863_4109447
+*MOT:	Alex , this looks really pasty . 4146803_4148593
+*MOT:	Mommy doesn't know what she did wrong . 4150610_4152450
+*MOT:	but it doesn't look too good , little boy . 4170610_4172673
+*MOT:	it doesn't look too good . 4173110_4174813
+*MOT:	&um (.) no . 4180013_4181463
+*MOT:	&uh (.) no . 4181633_4182633
+*MOT:	are you okay ? 4190317_4191433
+*MOT:	are you okay ? 4192533_4193493
+*MOT:	well it might work out , Alex . 4226450_4228140
+*MOT:	doesn't look so bad now . 4228480_4229607
+*MOT:	&uh (.) what are you doing ? 4254213_4255767
+*MOT:	can I try that too ? 4257243_4258630
+*MOT:	Alex . 4260997_4261713
+*MOT:	hello . 4266587_4267240
+*MOT:	hello . 4268763_4269477
+*MOT:	what ? 4274460_4274727
+*MOT:	that ball ? 4274753_4275573
+*MOT:	you wanna get in there to that ? 4281520_4282883
+*MOT:	come on ! 4283593_4284067
+*MOT:	yeah . 4286130_4286600
+*MOT:	I'll take you in there . 4286743_4287780
+*MOT:	I love you . 4290633_4291247
+*MOT:	yeah I do . 4292800_4293670
+*MOT:	I love you . 4294357_4295147
+*MOT:	thank . 4329953_4330300
+*MOT:	thank_you . 4331973_4332820
+*MOT:	are you gonna throw it at it ? 4333567_4334637
+*MOT:	you want me to turn it off ? 4348037_4349153
+*MOT:	want Mommy turn it off ? 4351033_4352107
+*MOT:	Mommy can turn it off . 4352350_4353547
+*MOT:	I turn it off . 4354270_4355050
+*MOT:	I turn it off . 4360180_4361037
+*MOT:	Alex . 4390330_4391173
+*MOT:	Alex . 4399873_4400677
+*MOT:	&uh no not thank_you . 4402637_4404187
+*MOT:	come (h)ere ! 4404200_4404777
+*MOT:	look ! 4404917_4405297
+*MOT:	you wanna xxx ? 4410873_4411690
+*MOT:	thank_you . 4413190_4413647
+*MOT:	no . 4414990_4415437
+*MOT:	okay . 4415753_4416217
+*MOT:	yes , baby . 4441620_4442800
+*MOT:	well don't mess with it ! 4465710_4466883
+*MOT:	no no . 4468873_4469663
+*MOT:	let's play with your truck ! 4472777_4474030
+*MOT:	beep beep . 4491687_4492197
+*MOT:	beep beep . 4493913_4494557

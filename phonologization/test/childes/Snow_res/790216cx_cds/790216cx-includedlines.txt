@@ -1,0 +1,375 @@
+*MOT:	wanna read the picture ?
+*MOT:	wanna read the caterpillar book .
+*MOT:	who's that ?
+*MOT:	yeah you've got two just alike .
+*MOT:	two alike Nathaniel's , yes .
+*MOT:	this is a story about a hungry caterpillar .
+*MOT:	and his name was Rupsje Nooitgeuseg .
+*MOT:	apple .
+*MOT:	that's the apple he ate a hole through .
+*MOT:	and two pears .
+*MOT:	and three plums he ate a hole through .
+*MOT:	where are the three plums ?
+*MOT:	yes .
+*MOT:	<plum plum> [/] plum .
+*MOT:	that's a plum with a hole through it from the caterpillar .
+*MOT:	and he ate a hole through four strawberrys .
+*MOT:	and five oranges .
+*MOT:	mhm .
+*MOT:	you're turning the page , are you ?
+*MOT:	lollipop .
+*MOT:	cake .
+*MOT:	other cake .
+*MOT:	that's sausage .
+*MOT:	what ?
+*MOT:	what ?
+*MOT:	what are you looking at ?
+*MOT:	that's pieces of sausage .
+*MOT:	that's a hot dog .
+*MOT:	watermelon and cake , yeah .
+*MOT:	and then the caterpillar didn't feel very good .
+*MOT:	so he went and ate some holes through a leaf .
+*MOT:	and built himself .
+*MOT:	cocoon .
+*MOT:	cocoon , yes .
+*MOT:	and then he came out_of the cocoon .
+*MOT:	he was a beautiful +...
+*MOT:	butterfly .
+*MOT:	you wanna read the caterpillar book again .
+*MOT:	it's exactly the same book , Nathaniel .
+*MOT:	okay , you read .
+*MOT:	let's read it .
+*MOT:	that's right , like that .
+*MOT:	that's the leaf that the caterpillar ate a hole through .
+*MOT:	that's the caterpillar .
+*MOT:	this is right .
+*MOT:	like that .
+*MOT:	it's not upside down .
+*MOT:	what's the caterpillar's name ?
+*MOT:	what's his name ?
+*MOT:	Rupsje .
+*MOT:	dat's [: that (i)s] all done .
+*MOT:	his name is Rupsje .
+*MOT:	that's all done .
+*MOT:	is it ?
+*MOT:	finish the book wrong the wrong way .
+*MOT:	yes , if you were going the wrong way you would be all finished
+*MOT:	that's right .
+*MOT:	you remember what his name is ?
+*MOT:	Rupsje .
+*MOT:	Rupsje , that's right .
+*MOT:	what's your name ?
+*MOT:	&=laughs .
+*MOT:	no , that's the Rupsje name .
+*MOT:	what's your name ?
+*MOT:	your name is Nathaniel +...
+*MOT:	Baum_Snow .
+*MOT:	that's right .
+*MOT:	wanna read the other book ?
+*MOT:	the boat book ?
+*MOT:	do it right .
+*MOT:	is there a boat inside there somewhere ?
+*MOT:	you turn the pages (un)til you find a boat .
+*MOT:	find the boat .
+*MOT:	turn the pages .
+*MOT:	know what I could do to help you ?
+*MOT:	I could give you your glasses .
+*MOT:	would that help ?
+*MOT:	it's the elephant , honey .
+*MOT:	who's that ?
+*MOT:	who's that ?
+*MOT:	that's Dingo .
+*MOT:	Dingo [/] Dingo is a terrible driver .
+*MOT:	Dingo's always having crashes , yeah .
+*MOT:	that's an airplane .
+*MOT:	that's right .
+*MOT:	which one is the passenger plane ?
+*MOT:	that's the red one .
+*MOT:	but which one is the passenger plane ?
+*MOT:	that's a red airplane , yeah .
+*MOT:	is that the passenger airplane ?
+*MOT:	that's right .
+*MOT:	this is the passenger airplane down here .
+*MOT:	that's a green one .
+*MOT:	mhm .
+*MOT:	that's a biplane .
+*MOT:	your glasses are kind of loose , aren't they ?
+*MOT:	can I tighten them up a little bit ?
+*MOT:	we're gonna go try to get you some new glasses tomorrow .
+*MOT:	well we're gonna get you a second pair of glasses so you have two
+*MOT:	in_case you lose one .
+*MOT:	or break one .
+*MOT:	or break one .
+*MOT:	like remember we lost your lens the other day ?
+*MOT:	remember losing your lens ?
+*MOT:	and that would have been terrible if we hadn't had another .
+*MOT:	if we hadn't .
+*MOT:	found it .
+*MOT:	so we think you should have two pairs of glasses .
+*MOT:	you know what this is ?
+*MOT:	a kangaroo .
+*MOT:	look if we put this like this then you can sort of put the book on
+*MOT:	oh that's handy .
+*MOT:	isn't it ?
+*MOT:	that's the kangaroo .
+*MOT:	that's the grass .
+*MOT:	that's the kangaroo hopping +...
+*MOT:	across the grass .
+*MOT:	a bus .
+*MOT:	what's he doing ?
+*MOT:	eating the pickle .
+*MOT:	he loves pickles that pig does .
+*MOT:	it's a chicken .
+*MOT:	uhoh what's big Hilda doing ?
+*MOT:	just taking a bath .
+*MOT:	just like you just did .
+*MOT:	Dingo had a crash with the truck .
+*MOT:	go away Dingo car .
+*MOT:	you're always having crashes .
+*MOT:	don't like you .
+*MOT:	what ?
+*MOT:	show me .
+*MOT:	that's a tuba .
+*MOT:	that's a television .
+*MOT:	that's a hat shop .
+*MOT:	Baaee [= Mommy] has_to put some pants on .
+*MOT:	doesn't she .
+*MOT:	yeah .
+*MOT:	so does Nathaniel .
+*MOT:	did Baaee [= Mommy] do a bah@f today ?
+*MOT:	Nathaniel did a bah@f .
+*MOT:	okay Baaee [= Mommy] did a bah@f too .
+*MOT:	uhoh I see a big explosion in mama bear's kitchen .
+*MOT:	do you see the explosion ?
+*MOT:	no this is the explosion down here .
+*MOT:	mhm .
+*MOT:	who's driving the tractor ?
+*MOT:	the donkey .
+*MOT:	can you say donkey ?
+*MOT:	you know what's happening ?
+*MOT:	somebody's fixing the clock .
+*MOT:	mister Fix_it is fixing the clock .
+*MOT:	he's going up the ladder .
+*MOT:	building a tower .
+*MOT:	big tower .
+*MOT:	needed a ladder to get up to the top .
+*MOT:	did you make the tower fall down ?
+*MOT:	that's not very nice .
+*MOT:	you help build it up again .
+*MOT:	very good .
+*MOT:	thank_you Nathaniel .
+*MOT:	the tower fell over .
+*MOT:	Nathaniel knocked the tower over .
+*MOT:	<build it> [/] build it back up .
+*MOT:	that's right .
+*MOT:	what's that ?
+*MOT:	you built the tower again .
+*MOT:	that's nice .
+*MOT:	that's fish soup .
+*MOT:	what's that ?
+*MOT:	what ?
+*MOT:	I think it's a fire engine .
+*MOT:	<that's another> [//] (.) that's a car .
+*MOT:	that's a boat ?
+*MOT:	it's kind of a combination of a car and a boat .
+*MOT:	a combination .
+*MOT:	combination car .
+*MOT:	you found the peanut+butter first time .
+*MOT:	that was +...
+*MOT:	and the granola .
+*MOT:	and the ice cream .
+*MOT:	no that's prunes .
+*MOT:	what's that ?
+*MOT:	that's the salt .
+*MOT:	no that's cream .
+*MOT:	eggs .
+*MOT:	see the ketchup ?
+*MOT:	where's the ketchup ?
+*MOT:	Nathaniel , what is that ?
+*MOT:	where's the ketchup ?
+*MOT:	there's the ketchup .
+*MOT:	that's raisins .
+*MOT:	that's prunes .
+*MOT:	that's granola .
+*MOT:	oh you see all the fruit ?
+*MOT:	turn the page and look at the fruit .
+*MOT:	that's fruit .
+*MOT:	that's all different kinds of fruit .
+*MOT:	what's this ?
+*MOT:	dis [: this] a .
+*MOT:	pineapple .
+*MOT:	who's what ?
+*MOT:	this is snake .
+*MOT:	sleepin(g) in his bed .
+*MOT:	mhm .
+*MOT:	sleeping in the bed .
+*MOT:	he sleeps in an old log .
+*MOT:	like the alligator ?
+*MOT:	what's that ?
+*MOT:	yeah uhoh look what's alley cat doin(g) ?
+*MOT:	0 [=! sneezes] .
+*MOT:	doing .
+*MOT:	doing [//] what's alley cat doing ?
+*MOT:	what's he doing ?
+*MOT:	he's drawing a picture .
+*MOT:	he's drawing .
+*MOT:	is that a nice picture ?
+*MOT:	would you like to draw some pictures today ?
+*MOT:	and what's octopus doing ?
+*MOT:	he's diving into the water .
+*MOT:	see ?
+*MOT:	diving into the water .
+*MOT:	he's gonna go swimming .
+*MOT:	octopus loves to swim .
+*MOT:	tru(ck) [//] taxi .
+*MOT:	who's that ?
+*MOT:	who is that ?
+*MOT:	well if you look you +...
+*MOT:	daddy fixed the window yesterday .
+*MOT:	didn't he ?
+*MOT:	yeah .
+*MOT:	it was broken and daddy fixed .
+*MOT:	so it won't be cold in Nathaniel's bath+room anymore .
+*MOT:	hey what's this ?
+*MOT:	it's a typewriter .
+*MOT:	that's (.) mister fox fixin(g) the typewriter .
+*MOT:	that's the octopus , Nathaniel .
+*MOT:	that's Squiggly the snake .
+*MOT:	that's a nurse .
+*MOT:	a nurse and a doctor .
+*MOT:	carrying the car .
+*MOT:	that's silly , heh ?
+*MOT:	trucks .
+*MOT:	one truck had a crash ?
+*MOT:	that's the bottom of the car .
+*MOT:	that's right .
+*MOT:	that's an airplane .
+*MOT:	red one .
+*MOT:	that's Baron Von crow's airplane .
+*MOT:	that's the moon .
+*MOT:	it's flying by moonlight .
+*MOT:	that's a fruit .
+*MOT:	what kind of fruit is this ?
+*MOT:	what's that ?
+*MOT:	Nathaniel you remember how to say that ?
+*MOT:	banana: .
+*MOT:	can you say banana: ?
+*MOT:	that's right .
+*MOT:	a bus .
+*MOT:	open the door .
+*MOT:	silly Dingo drove his car up on top .
+*MOT:	silly car .
+*MOT:	silly Dingo .
+*MOT:	han@c ?
+*MOT:	that's a piece of pie .
+*MOT:	o:h look .
+*MOT:	look at the pies .
+*MOT:	police car .
+*MOT:	airplane flying upside down over the car .
+*MOT:	driving the car .
+*MOT:	Dingo's driving his car .
+*MOT:	he didn't have a crash this time , though .
+*MOT:	having a bath .
+*MOT:	the three piglets .
+*MOT:	in the water .
+*MOT:	they don't like to have baths .
+*MOT:	Nathaniel had a bath too .
+*MOT:	but the piglets are crying about having a bath .
+*MOT:	crying the piglets crying had a bath .
+*MOT:	they don't (.) .
+*MOT:	that's an ostrich .
+*MOT:	no she's just going downstairs .
+*MOT:	&mm you're so yummy I'll think I'll eat you up .
+*MOT:	Dingo's car upside down .
+*MOT:	yeah Dingo had another crash with his car .
+*MOT:	oh no you know what he's doing ?
+*MOT:	<he did > [//] he's swimming .
+*MOT:	he's swimming across the river carrying his car .
+*MOT:	carrying it .
+*MOT:	upside down across the river .
+*MOT:	is that upside down ?
+*MOT:	it's right side up on the couch .
+*MOT:	what's that ?
+*MOT:	butter .
+*MOT:	don't scratch the butter , please .
+*MOT:	don't scratch the butter , please .
+*MOT:	I'm going to scratch you: .
+*MOT:	don't scratch the butter .
+*MOT:	don't scratch the butter .
+*MOT:	turn the page now .
+*MOT:	look at all the tools Nathaniel .
+*MOT:	see the ax ?
+*MOT:	all the tools .
+*MOT:	see the ax ?
+*MOT:	no this is the ax .
+*MOT:	ax .
+*MOT:	and the shovels .
+*MOT:	where are the shovels ?
+*MOT:	the trains .
+*MOT:	did [//] didn't have a crash .
+*MOT:	that's the passenger train .
+*MOT:	and the others are freight trains .
+*MOT:	Dingo is driving on the train tracks .
+*MOT:	Dingo +...
+*MOT:	is that silly ?
+*MOT:	he's gonna [: going] have a big crash with the trains if he doesn't
+*MOT:	what's this ?
+*MOT:	what kind of a train ?
+*MOT:	a pickle train .
+*MOT:	a train pickle ?
+*MOT:	double decker bus .
+*MOT:	another bus .
+*MOT:	that's a single decker bus .
+*MOT:	double decker buss are red .
+*MOT:	car .
+*MOT:	double dutch decker buss are red .
+*MOT:	Dingo car .
+*MOT:	mhm .
+*MOT:	driving on the street for a change .
+*MOT:	Dingo's car (.) just got crunched .
+*MOT:	by the sledgehammer .
+*MOT:	that's a village .
+*MOT:	mummie's got your foot .
+*MOT:	mhm .
+*MOT:	on the pottie .
+*MOT:	you're sitting on the pottie readin(g) your book .
+*MOT:	are you gonna do pee+pee too ?
+*MOT:	who's that ?
+*MOT:	you're waiting for the pee+pee , are you ?
+*MOT:	isn't it coming ?
+*MOT:	not coming ?
+*MOT:	that's hee+haw drivin(g) his tractor out_of the barn .
+*MOT:	did it fall down ?
+*MOT:	no it's just kind of going bump bump .
+*MOT:	that's hee+haw driving his tractor .
+*MOT:	hee+haw is a donkey , yes .
+*MOT:	where's a boat ?
+*MOT:	there's a boat .
+*MOT:	that's a gondola .
+*MOT:	gondoliers drive gondolas .
+*MOT:	just about .
+*MOT:	this is a z@l +...
+*MOT:	that's the very last word in your dictionary .
+*MOT:	no no no .
+*MOT:	those are chickens .
+*MOT:	this .
+*MOT:	this says z@l +...
+*MOT:	chickens .
+*MOT:	and this says +...
+*MOT:	+, the end .
+*MOT:	there's the boat .
+*MOT:	oh I see there's a boat on the back of this book , isn't there ?
+*MOT:	okay you gonna do a quick pee+pee and then we'll go get you dressed
+*MOT:	the boat on the back of the book .
+*MOT:	boat on the back of the book .
+*MOT:	that's a crane , yes .
+*MOT:	are we still waiting for the pee+pee or are we +...
+*MOT:	that's not train tracks .
+*MOT:	that's a street , silly .
+*MOT:	that's not a train .
+*MOT:	that's a crane .
+*MOT:	Nathaniel are we waiting for pee+pee or have you given up on the
+*MOT:	get up ?
+*MOT:	okay .
+*MOT:	time to put your clothes on .
+*MOT:	get dressed .

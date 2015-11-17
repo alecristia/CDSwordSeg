@@ -1,0 +1,233 @@
+*MOT:	well ! 0_1044
+*MOT:	you're gonna build with blocks ? 1044_3900
+*MOT:	okay . 7918_8173
+*MOT:	one +... 8173_10240
+*MOT:	what happened to five ? 26819_28351
+*MOT:	(.) five +... 28351_30859
+*MOT:	a puppet , muppet ? 54288_55843
+*MOT:	do you remember ? 55843_57469
+*MOT:	it's a dragon , yeah ! 60395_61672
+*MOT:	do you remember what we said the last time ? 61695_65248
+*MOT:	let me out [=! funny voice] ! 65271_67152
+*MOT:	yeah , close it . 78924_85333
+*MOT:	he can get out . 85333_86587
+*MOT:	that's all it opens , honey , <he doesn't need> [/] he doesn't need
+*MOT:	that's as open as it goes [=! roars] . 98150_103769
+*MOT:	ow , you got my tongue [=! funny voice] ! 104884_108065
+*MOT:	&aw ! 108065_112988
+*MOT:	&aw ! 112988_118003
+*MOT:	yeah , the lady's just listening . 124366_125666
+*MOT:	what's in here ? 125666_128150
+*MOT:	what is it ? 136510_136974
+*MOT:	yeah , I have a necklace on . 140155_141038
+*MOT:	what's in here , Annie ? 141061_143267
+*MOT:	woof ! 143267_144172
+*MOT:	is it the puppy's bed ? 144172_148073
+*MOT:	is he sleepy ? 152369_153507
+*MOT:	like you [=! laughing] ? 153507_154737
+*MOT:	close the door ? 160123_160983
+*MOT:	yeah . 161028_166276
+*MOT:	just to listen (.) what , &u:h do you remember looking at this book
+*MOT:	I think Patrick has this book . 185943_187197
+*MOT:	yeah . 194303_204705
+*MOT:	you can try it (.) can you get (hi)m off ? 205030_209535
+*MOT:	you're gonna change his diapers ? 215294_216524
+*MOT:	you have_to unzip (h)im . 216524_218869
+*MOT:	pull , pull , pull , pull . 218893_228204
+*MOT:	wait . 228204_230921
+*MOT:	okay , let's <take off his shoulders> [//] (.) take it off his
+*MOT:	I guess that's the best you're gonna do (.) too bad we don't have a
+*MOT:	all set ? 248405_249636
+*MOT:	zip (th)em up ? 249636_251308
+*MOT:	up ! 251308_254024
+*MOT:	okay . 256741_257229
+*MOT:	getting out ? 263939_264589
+*MOT:	my pants are falling down [=! falsetto] ! 264589_267492
+*MOT:	oh , no ! 267492_267724
+*MOT:	okay . 281865_282237
+*MOT:	it is unzipped . 289110_290155
+*MOT:	d(o) ya wanna zip it up ? 290178_291618
+*MOT:	d(o) ya wanna zip it up ? 291641_295217
+*MOT:	have_to pull up . 295217_298909
+*MOT:	just pull your way . 298909_300882
+*MOT:	pull up . 300882_301300
+*MOT:	whoop . 301300_302693
+*MOT:	yeah , I have a necklace on . 313746_315441
+*MOT:	(.) you wanna look in this book about numbers , one , two , threes
+*MOT:	(.) &um ? 319389_323429
+*MOT:	one (.) boy , with a +... 323429_326958
+*MOT:	and two +... 329721_331231
+*MOT:	two doggies (.) and three +... 332485_335828
+*MOT:	and four [=! do you (re)member those ?] . 337454_341169
+*MOT:	good for you ! 344420_344931
+*MOT:	and five (.) what are these ? 344931_349412
+*MOT:	yeah . 352570_353197
+*MOT:	do you remember what these are ? 353197_354822
+*MOT:	cup o(f) teas ! 357307_358770
+*MOT:	and six +... 358770_359745
+*MOT:	chairs (.) and seven +... 361045_362996
+*MOT:	and eight +... 365178_366061
+*MOT:	and nine +... 367500_369660
+*MOT:	ten crayons . 373932_374745
+*MOT:	that looks like she's building with blocks . 374768_379180
+*MOT:	the birdie's on top , right . 386517_387841
+*MOT:	okay +... 392810_393344
+*MOT:	alright . 393809_394389
+*MOT:	one (.) is the boy gonna help ? 395782_398476
+*MOT:	toys [=! same intonation] . 403050_404443
+*MOT:	put his hands on ? 405929_406858
+*MOT:	&eh ! 411479_413545
+*MOT:	Annie's turn ! 413569_414822
+*MOT:	build ? 420651_423019
+*MOT:	okay . 423019_424203
+*MOT:	my turn ! 424203_424993
+*MOT:	oh ! 424993_429846
+*MOT:	Annie's turn ! 429846_432632
+*MOT:	okay . 445659_446146
+*MOT:	hold on , little boy ! 446146_448259
+*MOT:	yeah , he has_to jump up to put it on . 452090_454018
+*MOT:	oh , oh , tumbled ! 454018_458104
+*MOT:	the boy's turn ? 467601_468809
+*MOT:	okay . 469900_470504
+*MOT:	you want him to sit (.) ? 486665_487663
+*MOT:	on his knees ? 488592_489497
+*MOT:	okay (.) an(d) here he goes (.) he might need some help . 493816_499250
+*MOT:	okay ! 499273_500341
+*MOT:	he's on his knees ! 500341_504033
+*MOT:	o:h ! 504056_504637
+*MOT:	there he goes . 504637_506773
+*MOT:	I think he's a little boy . 506773_508468
+*MOT:	might be having trouble on his knees . 508468_510419
+*MOT:	looks to me like you're making him dance . 518917_521332
+*MOT:	but he's gonna trip on his shoelaces (.) tie some bows ? 521331_526393
+*MOT:	there we go [=! under breath] . 526417_528994
+*MOT:	tie the boy's shoe ? 543622_546014
+*MOT:	okay ! 553536_553744
+*MOT:	want him to sit down on the dragon cage ? 553768_556810
+*MOT:	I hope the dragon doesn't try to eat him . 556810_561686
+*MOT:	there he goes . 561686_565308
+*MOT:	on he's knees , alright . 568211_570068
+*MOT:	what's that ? 575153_576129
+*MOT:	(.) &hmm ? 576129_579774
+*MOT:	he's on his knees . 588319_589178
+*MOT:	whoops ! 589177_590617
+*MOT:	okay . 604665_605176
+*MOT:	okay +... 611422_611701
+*MOT:	I don't know whatchya [: what you] mean , honey . 622452_623380
+*MOT:	y(ou) wanna turn him on his tummy ? 624843_626538
+*MOT:	on his back ? 629603_630880
+*MOT:	should zip his pants up , probably [=! whisper] there it goes 0
+*MOT:	you want him to sit down like Annie ? 640726_641933
+*MOT:	okay . 641933_642281
+*MOT:	okay . 649480_650083
+*MOT:	alrightie ! 652754_653125
+*MOT:	there's one (.) o:h ! 653124_657652
+*MOT:	what do I see , look ! 657676_659347
+*MOT:	like a dolphin , it's a whale . 662412_664200
+*MOT:	okay , you want the boy to put the whale on , here goes . 669053_672002
+*MOT:	you want the boy to put three on ? 683125_684216
+*MOT:	I see an elephant ! 684216_685423
+*MOT:	okay . 699355_701794
+*MOT:	it's a cow ! 701794_702537
+*MOT:	careful ! 708434_709688
+*MOT:	lion ! 709687_711754
+*MOT:	there (h)e goes ! 720855_723712
+*MOT:	thank_you [=! falsetto] can I have the puppy [=! falsetto] ? 725267_732883
+*MOT:	where's his what ? 740360_741498
+*MOT:	his neck [=! laughing] ? 743797_744935
+*MOT:	he has so much hair you can't see his neck ! 744935_747001
+*MOT:	there ! 747024_747489
+*MOT:	<he looks a little bit> [//] maybe he is a bunny [=! laughing] ! 749718_752760
+*MOT:	he looks a little like a bunny , he has such long ears (.) what a
+*MOT:	oh , no ! 755662_757380
+*MOT:	okay . 759865_760678
+*MOT:	do what ? 765182_766436
+*MOT:	&hmm (.) the kit:ten , okay (.) there's one (.) k@l for kitten ! 771359_774981
+*MOT:	raccoon ! 779764_780856
+*MOT:	y(ou) know what that is , a cow [=! laughs] ! 780879_782597
+*MOT:	okay (.) moo ! 786429_787288
+*MOT:	okay . 791374_792118
+*MOT:	(.) oink , oink ! 795345_797528
+*MOT:	not squeak , squeak ! 797528_800570
+*MOT:	next ! 800570_803913
+*MOT:	one , two , three (.) ? 803936_806119
+*MOT:	four (.) turtle ! 808418_809950
+*MOT:	the boy get it , okay ! 827203_828712
+*MOT:	oh (.) this one's heavy , jump ! 828758_833031
+*MOT:	jump ! 833031_833797
+*MOT:	will you help me put it on [=! falsetto] ? 833820_834912
+*MOT:	okay . 848123_848518
+*MOT:	on Annie's lap ? 852280_853394
+*MOT:	okay . 853394_853720
+*MOT:	okay . 868511_868952
+*MOT:	the boy's too heavy ? 876800_877520
+*MOT:	or the block's too heavy ? 877520_878820
+*MOT:	sit down on the dragon ? 893101_894424
+*MOT:	okay . 897187_897698
+*MOT:	ya wanna play with the +... 897698_899486
+*MOT:	sit down on Annie ? 900670_901460
+*MOT:	on Annie's knee ? 903039_905245
+*MOT:	oh ! 905245_907474
+*MOT:	is he standing on Annie's knee ? 907497_909238
+*MOT:	on Annie's lap . 913046_914254
+*MOT:	okay . 926468_926746
+*MOT:	we could make a bridge with these blocks . 926746_931065
+*MOT:	you want to ? 931065_932064
+*MOT:	make a bridge ? 935941_936220
+*MOT:	okay . 936220_937056
+*MOT:	there he goes . 937053_937773
+*MOT:	one (.) two +... 937797_941767
+*MOT:	(.) three (.) okay , whoops , let's put this one down here +... 943206_947246
+*MOT:	one (.) yeah (.) two (.) now , one more (.) and get the book . 949406_955629
+*MOT:	we'll make a bridge . 955629_956813
+*MOT:	can ya get this book , Annie ? 956813_959112
+*MOT:	make a bridge ? 961016_963199
+*MOT:	(.) good ! 963222_966705
+*MOT:	can I go through that bridge [=! falsetto] ? 966705_969282
+*MOT:	okay ! 974506_976596
+*MOT:	make a tower on the bridge ? 976619_981100
+*MOT:	okay . 994614_994939
+*MOT:	I think that's his bed . 994939_997075
+*MOT:	looks like +... 997098_999095
+*MOT:	he needs 0to sit down ? 1003600_1004389
+*MOT:	okay . 1004412_1005086
+*MOT:	okay . 1008058_1008313
+*MOT:	he can get up . 1020666_1021781
+*MOT:	ya wanna put (h)im in a box [=! softly] ? 1028050_1031417
+*MOT:	where's back ? 1040124_1041750
+*MOT:	I think he was right here . 1041773_1043282
+*MOT:	says I'm hi:ding ! 1043282_1046881
+*MOT:	(.) I'm hiding [=! gets higher] ! 1046881_1051897
+*MOT:	a strap , yeah , &um hum (.) I think that's his leash , maybe . 1061765_1066247
+*MOT:	when he goes for a walk , yeah , that's what it is 0
+*MOT:	that's what ya hold when you take him for a walk so he doesn't run
+*MOT:	you can try to +... 1086634_1088352
+*MOT:	okay , watch . 1103953_1111500
+*MOT:	to close , the door (.) close the door (.) no . 1111544_1115631
+*MOT:	ya strap it , ya go and it sticks . 1117605_1120554
+*MOT:	do what again ? 1126939_1127868
+*MOT:	there's the boy ! 1131932_1133139
+*MOT:	okay . 1138619_1138967
+*MOT:	yeah . 1151901_1152435
+*MOT:	what is that ? 1157079_1157729
+*MOT:	hum: ? 1157729_1158960
+*MOT:	yeah , I wish it were a burry@c ! 1161955_1163975
+*MOT:	you know what it's supposed to be ? 1163975_1165206
+*MOT:	it's supposed to be a piece of steak . 1165206_1167133
+*MOT:	maybe that boy would like to have a piece of steak for breakfast .
+*MOT:	yeah [=! laughs] ! 1177952_1178974
+*MOT:	say +"/. 1179021_1181389
+*MOT:	+" open that (.) open that mouth !
+*MOT:	&hmm ! 1181412_1181830
+*MOT:	steak , yeah . 1188192_1189214
+*MOT:	oh , so do I . 1191002_1192210
+*MOT:	(doe)s it taste good ? 1192210_1200476
+*MOT:	do you know who really likes his see is the dragon (.) <please ,
+*MOT:	please , can I have some steak ? 1208278_1210669
+*MOT:	that boy tastes pretty good ! 1220143_1224439
+*MOT:	have some more of the boy [=! funny voice] . 1224439_1227504
+*MOT:	I ate it all up [=! dragon voice] . 1252721_1272643
+*MOT:	growls (.) who took my steak [=! growls] ? 1281676_1284811
+*MOT:	you took your steak [=! laughs] [=! growls] ! 1301180_1304430
+*MOT:	the lady took it [=! laughs] ? 1306149_1307960
+*MOT:	okay . 1317665_1318339

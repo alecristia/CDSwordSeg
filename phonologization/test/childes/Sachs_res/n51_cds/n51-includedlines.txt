@@ -1,0 +1,237 @@
+*MOT:	what's yours ? 21052_22237
+*MOT:	yeah ? 27974_28424
+*MOT:	this thing here ? 28424_29208
+*MOT:	&hmm ? 29208_31343
+*MOT:	&hmm . 34045_36830
+*MOT:	I don't know what box you mean (.) honey . 45769_47569
+*MOT:	is this your box here ? 51954_54139
+*MOT:	you made a face ? 59627_60410
+*MOT:	I wondered what you were doing . 61243_62912
+*MOT:	what box is yours (.) Nomi ? 62912_68398
+*MOT:	that's a card I was going to send to these people who had a baby .
+*MOT:	yeah . 94735_95202
+*MOT:	that's okay . 97170_97920
+*MOT:	yeah (.) I was gonna send that to the people who had the baby . 103124_106710
+*MOT:	no (.) it's for another baby (.) honey . 112310_114595
+*MOT:	you don't need one . 115695_117380
+*MOT:	you don't need one do you ? 120316_121599
+*MOT:	you have some upstairs that you never use . 121599_125470
+*MOT:	you're having breakfast again ? 143347_147733
+*MOT:	oh no ? 175422_175805
+*MOT:	how come (.) honey ? 175805_176722
+*MOT:	yeah . 188080_188346
+*MOT:	here Nomi (.) it's far enough (.) away . 188346_191014
+*MOT:	you can get up . 191014_191831
+*MOT:	oh (.) can't you ? 194799_196251
+*MOT:	you want me to move you up closer again ? 215251_218369
+*MOT:	no (.) you eat some more cereal (.) honey . 222671_225107
+*MOT:	eat some more cereal . 225107_225990
+*MOT:	yeah . 229242_230261
+*MOT:	it was nice that you slept for so long this morning after you came
+*MOT:	you slept very nicely (.) didn't you (.) after you came down . 245313_250783
+*MOT:	until time for Mommy to get up . 250783_257871
+*MOT:	did you have bad dream ? 257871_265976
+*MOT:	it's hurting now ? 271363_272196
+*MOT:	oh (.) I'm sorry . 272980_275415
+*MOT:	yes (.) I'll get you a diaper (.) honey . 281152_283688
+*MOT:	you let go again . 283688_286223
+*MOT:	okay (.) want to come down and get this diaper changed ? 286223_291860
+*MOT:	you told me about it Nomi . 292660_294360
+*MOT:	you said (.) +"/. 294360_296212
+*MOT:	+" Mommy change my diaper . 296212_297428
+*MOT:	what (.) honey ? 304630_306496
+*MOT:	oh (.) Daddy fixed it again . 309598_311884
+*MOT:	Daddy fixed it again . 311884_314752
+*MOT:	he broke the fireplace (.) Nomi (.) but he fixed it again . 320406_323941
+*MOT:	it's fixed honey . 331530_332180
+*MOT:	it's back in the fireplace . 332180_333147
+*MOT:	then go down there . 335665_336199
+*MOT:	you can go down there . 336199_337601
+*MOT:	okay . 338634_340136
+*MOT:	I'll come in a minute . 341736_343088
+*MOT:	I want to drink a little tea . 343088_344171
+*MOT:	yes darling (.) but he fixed it again . 352223_355675
+*MOT:	he +/. 355675_357210
+*MOT:	it's very hot honey . 361562_363464
+*MOT:	no (.) hey (.) hey (.) hey . 363464_369184
+*MOT:	I'll get you a different cup (.) honey . 378421_381206
+*MOT:	I'll get you a cup . 381206_383323
+*MOT:	what ? 441305_441805
+*MOT:	okay . 575623_575990
+*MOT:	yeah (.) recording . 585942_587894
+*MOT:	mhm . 592279_592862
+*MOT:	yeah (.) that's a microphone . 594481_595897
+*MOT:	no . 597866_598933
+*MOT:	not until after you've finished your dinner darling . 598933_601301
+*MOT:	you don't want to get your sticky hands on it . 601301_604170
+*MOT:	no (.) not right now . 610007_610924
+*MOT:	what time is it Nomi's ? 619376_622244
+*MOT:	it's Nomi's dinnertime . 622244_625046
+*MOT:	it's five o'clock (.) Nomi's dinnertime . 628332_631284
+*MOT:	why are you holding your spoon like that (.) Nomi ? 631284_632767
+*MOT:	&hmm ? 632767_636086
+*MOT:	because ? 637521_638704
+*MOT:	yeah . 642756_643925
+*MOT:	you're holding it funny . 643925_644541
+*MOT:	you're holding it funny . 644541_647127
+*MOT:	that's right . 656810_658429
+*MOT:	yeah . 667029_667962
+*MOT:	I see (.) I see . 667962_670831
+*MOT:	shaking her head ? 697568_702722
+*MOT:	what are you doing ? 703505_705674
+*MOT:	oh . 708542_710644
+*MOT:	careful of your shoes . 710644_712528
+*MOT:	no no (.) not in your dish honey . 714863_716897
+*MOT:	no no no . 716897_717381
+*MOT:	put over here . 717381_718197
+*MOT:	what do you want honey ? 737986_739403
+*MOT:	I don't know . 744057_744623
+*MOT:	I didn't understand . 744623_745992
+*MOT:	I said (.) +"/. 748860_749643
+*MOT:	+" what did you say ? 749643_750193
+*MOT:	I don't know honey . 755097_756047
+*MOT:	do you want a popsicle ? 756047_761084
+*MOT:	okay . 761584_764203
+*MOT:	sit up in your chair (.) honey . 764203_764736
+*MOT:	well (.) I have_to chop it in half for you . 776228_778380
+*MOT:	you can hold it (.) honey . 781415_783182
+*MOT:	you only get one . 790537_791453
+*MOT:	one at a time (.) honey . 791453_793472
+*MOT:	Nomi (.) don't cry . 811127_817381
+*MOT:	you have popsicle . 817381_817865
+*MOT:	hey (.) hey (.) hey . 820733_821317
+*MOT:	you got a popsicle . 821317_822017
+*MOT:	no . 824119_824502
+*MOT:	you eat that one first . 824502_826404
+*MOT:	xxx it would melt . 828922_829455
+*MOT:	xxx it would melt . 829455_830622
+*MOT:	if you had them both at one time they would melt . 832974_835992
+*MOT:	yeah . 837944_838578
+*MOT:	what ? 861213_862463
+*MOT:	well (.) after you're finished . 867383_868283
+*MOT:	you can't do it while you're eating your popsicle . 868283_870235
+*MOT:	you can't do it while you're eating your popsicle . 870235_876573
+*MOT:	yeah xxx .
+*MOT:	what did you do today (.) Nomi ? 889090_891056
+*MOT:	you took a nap ? 896191_897308
+*MOT:	what else did you do ? 897824_899810
+*MOT:	&mm . 903678_904947
+*MOT:	with Kimberly ? 904947_906697
+*MOT:	and Scott ? 911368_912251
+*MOT:	and with Todd ? 912251_914386
+*MOT:	did you like Todd ? 915585_917087
+*MOT:	did Todd play rough ? 917721_919956
+*MOT:	mhm . 920973_922658
+*MOT:	did Todd push you ? 922658_923908
+*MOT:	what did you do ? 925527_926627
+*MOT:	you fell down ? 929912_930445
+*MOT:	did you play with him any more ? 931597_933197
+*MOT:	then what happened ? 934649_936533
+*MOT:	you hurt your bottom ? 943835_944635
+*MOT:	did you cry ? 945770_946570
+*MOT:	oh . 947437_948722
+*MOT:	did somebody hold you ? 948722_950172
+*MOT:	who held you ? 951674_952274
+*MOT:	what ? 960207_961392
+*MOT:	at the store ? 963226_964511
+*MOT:	who held you when you cried ? 964511_966328
+*MOT:	you had gum at the store ? 968730_970848
+*MOT:	who held you when you cried (.) honey ? 971732_973784
+*MOT:	who held you ? 973784_976752
+*MOT:	&hmm ? 976752_980120
+*MOT:	you stand up ? 984841_985724
+*MOT:	can Nomi stand up ? 993863_995113
+*MOT:	did you ride in the car ? 996649_1000034
+*MOT:	with Kimberly . 1002984_1004150
+*MOT:	cold too (.) huh ? 1009388_1010538
+*MOT:	mhm . 1029456_1030974
+*MOT:	that ? 1049294_1049544
+*MOT:	popsicle . 1049877_1050744
+*MOT:	doll's [?] on . 1055198_1056398
+*MOT:	xxx popsicle (.) &hmm ? 1058650_1059966
+*MOT:	mhm . 1078301_1079570
+*MOT:	what are you banging with ? 1079570_1080920
+*MOT:	the popsicle (.) yeah . 1083705_1084472
+*MOT:	mhm . 1086057_1087007
+*MOT:	what are you rubbing it on ? 1087007_1089026
+*MOT:	on the placemat (.) yeah . 1092044_1093244
+*MOT:	you're rubbing it on your hands ? 1099498_1101416
+*MOT:	now where are you rubbing your hands ? 1102216_1104451
+*MOT:	you're rubbing your hands on your bib . 1107237_1109939
+*MOT:	mhm . 1112474_1113174
+*MOT:	yeah . 1116859_1118111
+*MOT:	they're all sticky . 1118111_1118961
+*MOT:	are you eating your popsicle ? 1118961_1122329
+*MOT:	are you eating it (.) honey (.) or just rubbing it ? 1122329_1127817
+*MOT:	yeah . 1128550_1129067
+*MOT:	what did you have for lunch ? 1129067_1132019
+*MOT:	baloney ? 1134237_1135037
+*MOT:	what else ? 1135037_1135487
+*MOT:	milk (.) uhhuh . 1137506_1138489
+*MOT:	any bread ? 1138489_1141390
+*MOT:	and butter ? 1141940_1143159
+*MOT:	mhm . 1154608_1156377
+*MOT:	you had orange juice ? 1165393_1166829
+*MOT:	did you have orange juice at Michelle's [?] ? 1171395_1173678
+*MOT:	did you have lunch at Margie's ? 1185097_1187363
+*MOT:	do you know who Margie is (.) honey ? 1188599_1191251
+*MOT:	Margie's is where you were this morning . 1191251_1194386
+*MOT:	that's Todd's Mommy . 1194386_1195153
+*MOT:	Todd's Mommy is named Margie . 1195153_1199005
+*MOT:	Margie is Todd's Mommy . 1203142_1205009
+*MOT:	where you played this morning (.) did you have lunch at Margie's ?
+*MOT:	or at Michelle's ? 1216782_1218584
+*MOT:	no ? 1220853_1221236
+*MOT:	at Margie's ? 1221236_1221703
+*MOT:	mhm . 1222736_1224072
+*MOT:	with Todd . 1224072_1224722
+*MOT:	you had lunch with Todd ? 1229722_1231822
+*MOT:	what did Todd eat ? 1233957_1234740
+*MOT:	what did he eat for lunch ? 1241530_1242646
+*MOT:	&hmm ? 1245565_1246482
+*MOT:	bread ? 1248284_1248867
+*MOT:	uhuh . 1250718_1251535
+*MOT:	what did Kimberly eat ? 1251535_1254603
+*MOT:	do you know what Kimberly ate ? 1260603_1263555
+*MOT:	what did Kristen eat (.) honey ? 1263555_1270725
+*MOT:	&hmm ? 1270725_1273577
+*MOT:	Nomi (.) do you know what Kristen ate ? 1273577_1277646
+*MOT:	what does Kristen eat ? 1281349_1282499
+*MOT:	yeah (.) you dropped it . 1291888_1293240
+*MOT:	does Kristen eat baby food ? 1293240_1294990
+*MOT:	yeah . 1296276_1296926
+*MOT:	you eat it too (.) huh ? 1320833_1324718
+*MOT:	you like it ? 1324718_1327237
+*MOT:	do you not eat baby food ? 1328170_1335593
+*MOT:	yeah (.) if you can pick it up you can eat it . 1341996_1344531
+*MOT:	yeah (.) get these pieces over here . 1346298_1348250
+*MOT:	are you cutting it ? 1352250_1354266
+*MOT:	in little pieces ? 1354266_1358384
+*MOT:	mhm . 1364788_1365288
+*MOT:	a little piece . 1365288_1366574
+*MOT:	mhm . 1375494_1376227
+*MOT:	does he have nice toys ? 1376227_1377177
+*MOT:	<what kind of toys> [//] what sort of toys did you play with ? 1378779_1381564
+*MOT:	yeah (.) well what kind of toys were they ? 1384433_1385850
+*MOT:	tell me about the toys . 1385850_1388652
+*MOT:	it was red ? 1390087_1391037
+*MOT:	and yellow ? 1393721_1394288
+*MOT:	did you play with a toy that made sounds like animals ? 1394288_1397073
+*MOT:	what did you do with that toy ? 1399609_1401811
+*MOT:	you played with the car ? 1405446_1406763
+*MOT:	did you pull a string on that toy that where they make sounds like
+*MOT:	you pull the string and then it makes the sound (.) huh ? 1411783_1414635
+*MOT:	what ? 1423741_1424458
+*MOT:	you want those toys ? 1426460_1427377
+*MOT:	well (.) we don't have them here (.) honey . 1428462_1429762
+*MOT:	you have_to wait until you go see Todd again . 1429762_1431664
+*MOT:	yeah we don't have that toy here xxx that toy that you like . 1433164_1438234
+*MOT:	we don't have it here . 1438234_1439050
+*MOT:	yeah (.) to play with that toy you have_to see Todd again . 1443054_1446106
+*MOT:	mhm . 1447323_1447856
+*MOT:	huh ? 1449475_1450275
+*MOT:	uhhuh . 1451994_1452694
+*MOT:	yeah . 1456379_1456896
+*MOT:	Todd's Mommy too . 1456896_1458331
+*MOT:	okay (.) let's run the bath+tub . 1458331_1463802
+*MOT:	well (.) I want you to take a bath tonight (.) darling . 1465868_1467637

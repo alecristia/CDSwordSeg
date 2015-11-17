@@ -1,0 +1,260 @@
+*FAT:	Ross . 66009_66446
+*FAT:	your space ship is right here (.) honey . 71582_73289
+*FAT:	do you want to come over and get your space ship ? 73289_77154
+*FAT:	now (.) what have you got in here ? 79012_81324
+*FAT:	oh (.) I see . 86564_87307
+*FAT:	and what do they need ? 87307_90158
+*FAT:	huh oh . 93434_94077
+*FAT:	what happened ? 94077_94820
+*FAT:	they fell out_of your space ship . 100022_102418
+*FAT:	why did they fall ? 103448_104275
+*FAT:	is that why they fell ? 108734_110507
+*FAT:	no (.) that's not why they fell . 111622_113479
+*FAT:	they fell because you threw them . 114428_115997
+*FAT:	now (.) why do they need gas ? 117112_119135
+*FAT:	will I say your space ship's going to crash ? 150798_153399
+*FAT:	okay . 153399_153770
+*FAT:	ready ? 153770_154225
+*FAT:	get set (.) crash ! 154885_156371
+*FAT:	boom . 156371_169374
+*FAT:	and you got something to eat ? 190551_194720
+*FAT:	honey (.) where is the mouse cheese ? 194720_198724
+*FAT:	did you get mouth cheese ? 198724_200089
+*FAT:	tell him you're sorry . 207269_207641
+*FAT:	tell him you're sorry . 207641_208384
+*FAT:	give him a kiss . 209764_210613
+*FAT:	and help him up . 210613_212636
+*FAT:	good boy . 212636_214328
+*FAT:	he's sorry Mark . 214328_224542
+*FAT:	xxx . 227126_232699
+*FAT:	no (.) you did not push him . 234351_236664
+*FAT:	but you knocked Marky over . 239552_241122
+*FAT:	you didn't knock him . 242070_243351
+*FAT:	you didn't mean to knock him over . 246323_247688
+*FAT:	but you did . 247688_270100
+*FAT:	now (.) let's look at some of these toys . 270100_294499
+*FAT:	do you know what these are ? 294499_295447
+*FAT:	what do you do with them ? 296107_297221
+*FAT:	what do you do ? 306881_307435
+*FAT:	those are keys (.) right ? 313197_314106
+*FAT:	&uh huh (.) and then what do you do ? 319762_322279
+*FAT:	you take them (.) where are the the keys ? 322279_324137
+*FAT:	where are they ? 324137_324880
+*FAT:	&uh huh . 329050_329626
+*FAT:	and when you go outside (.) where do you put them ? 330536_333259
+*FAT:	right (.) and go to preschool . 342547_344404
+*FAT:	and then when you come home (.) where do you put them ? 344404_347998
+*FAT:	put them up on the shelf . 350986_351713
+*FAT:	&uh huh . 352622_353094
+*FAT:	good . 353094_353654
+*FAT:	and what's this (.) Ross ? 353654_355057
+*FAT:	what do you do with it ? 357907_358772
+*FAT:	you throw it . 361744_362487
+*FAT:	&uh huh . 363230_363768
+*FAT:	and who plays with it ? 363768_365542
+*FAT:	Matt plays with it . 369524_370083
+*FAT:	who else ? 370083_370743
+*FAT:	who else ? 370743_371858
+*FAT:	Tom . 372973_373427
+*FAT:	who else ? 373427_374004
+*FAT:	all the big boys and girls (.) right ? 377059_378628
+*FAT:	do you play with it ? 379205_380403
+*FAT:	you can play with it a little bit . 382344_384118
+*FAT:	and who gave it to you . 384573_389691
+*FAT:	right . 395181_395464
+*FAT:	Matt gave it to you . 395464_396090
+*FAT:	now (.) what's this little thing ? 396578_398236
+*FAT:	what's this ? 400055_400920
+*FAT:	&uh huh . 402860_403603
+*FAT:	and what does he do ? 403603_404263
+*FAT:	&uh huh . 407524_407896
+*FAT:	and what is he ? 407896_409548
+*FAT:	you go poo on him ? 412520_413447
+*FAT:	why ? 413447_413940
+*FAT:	why (.) because you go poo on him ? 420982_422922
+*FAT:	because you go poo on him ? 429710_430808
+*FAT:	oh (.) I see . 436585_438255
+*FAT:	I don't understand . 438255_439103
+*FAT:	why is that ? 439103_439575
+*FAT:	is he dirty ? 439575_440384
+*FAT:	then why do you go poo on him ? 442425_443727
+*FAT:	okay . 458151_458505
+*FAT:	good boy . 458505_458977
+*FAT:	now Ross (.) what's this little thing ? 458977_461849
+*FAT:	where does it live ? 466846_468043
+*FAT:	&uh huh . 476877_477298
+*FAT:	and what does he do with it ? 477298_477991
+*FAT:	who gave it to you . 482282_485355
+*FAT:	okay (.) and do you like it ? 492685_495453
+*FAT:	where's Marky ? 496689_499289
+*FAT:	he was dropping that ? 510889_511649
+*FAT:	he feels soft . 630230_631140
+*FAT:	can I buy them ? 631845_632998
+*FAT:	I want to buy them . 634113_634939
+*FAT:	I want to buy them . 640140_640883
+*FAT:	why not ? 641914_642658
+*FAT:	yeah . 649056_649428
+*FAT:	I want to buy that one . 650831_651945
+*FAT:	yeah (.) I'll give you some money . 656570_657247
+*FAT:	yeah (.) now give me the phone . 658444_659997
+*FAT:	okay (.) what did I do ? 659997_661855
+*FAT:	yeah (.) but I gave you some money . 664660_666435
+*FAT:	like I'm going to buy it . 666972_668004
+*FAT:	okay (.) what did I do ? 668542_669118
+*FAT:	I took it away ? 672629_673372
+*FAT:	I took it away from you ? 674237_674941
+*FAT:	no (.) I bought it . 674941_677209
+*FAT:	do you know that ? 677209_678489
+*FAT:	I [!] bought it . 678489_679066
+*FAT:	Rachel gave it to you ? 684351_685920
+*FAT:	no (.) Grandpa gave it to you . 686497_687240
+*FAT:	grandpa did . 687861_688437
+*FAT:	do you want to buy it ? 688437_689469
+*FAT:	give me the money . 689469_690916
+*FAT:	okay . 690916_692896
+*FAT:	now (.) what did you do ? 692896_694753
+*FAT:	you took away him from you ? 698180_700615
+*FAT:	what did you do ? 700615_701608
+*FAT:	I took him away from you . 704041_705444
+*FAT:	say that . 705899_706642
+*FAT:	+" I took him away from you . 706642_708128
+*FAT:	okay (.) now (.) I'm going to buy him again . 710895_712586
+*FAT:	here's the money . 712586_713701
+*FAT:	okay . 713701_715065
+*FAT:	I bought him . 715065_715641
+*FAT:	now (.) what did I do ? 715641_716839
+*FAT:	and I gave you money . 733020_734013
+*FAT:	so what did I do ? 734960_735415
+*FAT:	I bought it . 735415_737206
+*FAT:	very nice . 740162_740700
+*FAT:	thank_you . 740700_741193
+*FAT:	very nice . 741193_741565
+*FAT:	okay now (.) look . 741565_742391
+*FAT:	do you want this little dolly ? 742391_744165
+*FAT:	okay . 745158_745817
+*FAT:	give me the money . 745817_746849
+*FAT:	okay (.) what did you do ? 746849_750110
+*FAT:	no (.) you gave me the money . 753348_754734
+*FAT:	I got the money . 755765_756320
+*FAT:	now (.) what did you do ? 756320_757435
+*FAT:	you bought it . 761316_762347
+*FAT:	okay (.) do you want to sell it to me ? 762719_764948
+*FAT:	sell it to me . 764948_767837
+*FAT:	okay (.) do you want to sell it to me ? 767837_769285
+*FAT:	okay (.) I'll give you some money . 769285_770232
+*FAT:	what did you do ? 770232_772174
+*FAT:	you sold it to me . 772174_772561
+*FAT:	good . 772561_774031
+*FAT:	okay (.) do you want to sell it to me ? 780719_782409
+*FAT:	okay (.) give me the money . 782864_784638
+*FAT:	now (.) you sold it to me . 784638_788808
+*FAT:	now (.) you've got a_lot_of money . 788808_790999
+*FAT:	now (.) what do I have ? 790999_791492
+*FAT:	I bought it . 793061_794381
+*FAT:	and you sold it . 794381_795578
+*FAT:	okay . 800037_800697
+*FAT:	you going to buy it ? 800697_801790
+*FAT:	give me some money . 802349_805321
+*FAT:	here we go . 805321_805776
+*FAT:	give me some more money . 805776_807057
+*FAT:	now (.) what did you do ? 807057_810772
+*FAT:	&uh huh . 814609_815064
+*FAT:	so (.) what did you do ? 815064_815890
+*FAT:	you bought him . 815890_818119
+*FAT:	you bought him (.) right ? 818119_820553
+*FAT:	you closed him ? 825466_826209
+*FAT:	so what did you do ? 830007_831039
+*FAT:	now (.) what did Marky do ? 832897_834837
+*FAT:	okay (.) so what did the Hulk do ? 843382_844664
+*FAT:	okay (.) now it's all done . 850980_851723
+*FAT:	what did he do ? 851723_852482
+*FAT:	what did he do ? 852482_854611
+*FAT:	he went rraaarrr@o [!] . 858614_860100
+*FAT:	right . 860100_860927
+*FAT:	okay (.) now (.) did anything happen to the Hulk ? 860927_862868
+*FAT:	okay (.) now (.) I want you to tell me a story . 863899_865219
+*FAT:	what happened at preschool today ? 865219_866955
+*FAT:	they did ? 881732_882309
+*FAT:	and what did you do (.) did you make something ? 883218_886933
+*FAT:	what did you make ? 888336_889534
+*FAT:	it is ? 895107_896155
+*FAT:	who did it ? 896798_897996
+*FAT:	can you show me the space ship that belongs to Marky ? 901422_912402
+*FAT:	where's the space ship that belongs to Marky ? 912402_916117
+*FAT:	okay (.) and where's the space ship that belongs to Daddy ? 919644_923259
+*FAT:	and where's the space ship that belongs to Rossy ? 928915_930939
+*FAT:	but it's mine . 935974_936634
+*FAT:	where's the space ship that belongs to Rossy ? 937377_939856
+*FAT:	do you want mine ? 941175_942123
+*FAT:	now where's the one that belongs to Daddy . 945429_946832
+*FAT:	no (.) that's Marky's . 948856_949433
+*FAT:	that's Marky's . 949433_951641
+*FAT:	no (.) I don't want it . 956015_957029
+*FAT:	I want my own . 957772_958887
+*FAT:	okay . 961366_962025
+*FAT:	no (.) no (.) I gave you money . 968053_969290
+*FAT:	now (.) you give me that . 970570_971769
+*FAT:	okay (.) I bought it . 972595_973255
+*FAT:	so (.) what did you do ? 973748_974574
+*FAT:	you sold it . 976720_977424
+*FAT:	you want it back ? 978206_979404
+*FAT:	okay . 980230_980685
+*FAT:	give me money . 980685_981550
+*FAT:	okay (.) here you go . 981550_983862
+*FAT:	right . 985243_985802
+*FAT:	it's all yours now . 985802_986341
+*FAT:	okay . 986341_987744
+*FAT:	now the sheep wants to buy it . 987744_988980
+*FAT:	okay ? 988980_989518
+*FAT:	okay . 990073_990632
+*FAT:	so he'll give you some money . 990632_991747
+*FAT:	now give him the thing . 991747_993688
+*FAT:	now (.) what did the sheep do ? 993688_995628
+*FAT:	she buyed it ? 997403_998313
+*FAT:	very nice . 998313_999549
+*FAT:	what are you going to do ? 999549_1001035
+*FAT:	tell me what happened . 1178061_1182502
+*FAT:	&uh huh . 1220397_1220853
+*FAT:	now (.) watch this . 1220853_1221967
+*FAT:	rrraarrr@o [!] . 1221967_1224280
+*FAT:	watch this . 1224940_1225516
+*FAT:	watch this . 1225516_1226054
+*FAT:	rrrrrr@o [!] . 1226054_1227002
+*FAT:	what happened ? 1227202_1229519
+*FAT:	&uh huh . 1236001_1236661
+*FAT:	and what did the lion do ? 1236661_1238314
+*FAT:	and what did they do ? 1241491_1242400
+*FAT:	what are you making ? 1481926_1482380
+*FAT:	what for ? 1484692_1485519
+*FAT:	for the lion comes ? 1489706_1490925
+*FAT:	you're making a place for the lion ? 1493980_1495012
+*FAT:	xxx . 1495838_1509024
+*FAT:	that's a tiger . 1512351_1515529
+*FAT:	a tiger and a lion . 1515529_1517386
+*FAT:	are you going to preschool ? 1520708_1528326
+*FAT:	it is ? 1542528_1543015
+*FAT:	okay (.) do you want to get out ? 1544301_1545128
+*FAT:	this is the way ? 1549791_1551194
+*FAT:	the little boy ? 1555531_1556024
+*FAT:	is the tiger a little boy ? 1557138_1558214
+*FAT:	whose class is he in ? 1559534_1563061
+*FAT:	yeah (.) whose class is the tiger in ? 1564940_1566592
+*FAT:	I know . 1569853_1570308
+*FAT:	xxx . 1571339_1572742
+*FAT:	big daddy . 1573197_1576995
+*FAT:	right . 1584592_1586943
+*FAT:	you're going to go to that class ? 1597057_1598422
+*FAT:	can Marky come too ? 1598422_1603661
+*FAT:	he can't go to preschool ? 1605163_1606345
+*FAT:	why not ? 1607914_1608286
+*FAT:	that's his car . 1610720_1611463
+*FAT:	that's his car . 1611463_1612168
+*FAT:	that's not yours . 1613321_1613858
+*FAT:	you gave it to him . 1613858_1616253
+*FAT:	you did ? 1623229_1623684
+*FAT:	okay . 1624511_1626740
+*FAT:	watch out Mark . 1629507_1635907
+*FAT:	&mm &hmm . 1637969_1638795
+*FAT:	where is he going ? 1644534_1644989
+*FAT:	or where does he go ? 1645361_1646225
+*FAT:	he goes on top of that car there . 1647051_1652336

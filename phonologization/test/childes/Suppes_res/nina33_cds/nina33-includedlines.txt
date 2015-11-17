@@ -1,0 +1,767 @@
+*MOT:	it's a pilot flying the plane ?
+*MOT:	oh (.) did you go in an airplane ?
+*MOT:	you did ?
+*MOT:	what day ?
+*MOT:	you mean to come back to California ?
+*MOT:	oh (.) was it fun ?
+*MOT:	what did you find in this box ?
+*MOT:	let me see .
+*MOT:	show me .
+*MOT:	oh (.) is this that furniture for the doll house ?
+*MOT:	what kind of furniture did you find ?
+*MOT:	let me see them .
+*MOT:	oh (.) what color chairs did you find ?
+*MOT:	oh (.) they're so cute .
+*MOT:	what's that ?
+*MOT:	the roof ?
+*MOT:	the window ?
+*MOT:	no (.) where does the (.) where does the window go ?
+*MOT:	on the side of the house ?
+*MOT:	how does one (.) how does one put it in ?
+*MOT:	can you put it in ?
+*MOT:	oh (.) it pops in (.) doesn't it ?
+*MOT:	oh .
+*MOT:	what happened to the door ?
+*MOT:	why ?
+*MOT:	it's not there ?
+*MOT:	here it is .
+*MOT:	how shall I fix it ?
+*MOT:	do you have any ideas ?
+*MOT:	sideways or up and down ?
+*MOT:	up and down ?
+*MOT:	do you think it snaps in (.) or what ?
+*MOT:	it's hard to do .
+*MOT:	hey .
+*MOT:	what did you do ?
+*MOT:	I don't know .
+*MOT:	you try .
+*MOT:	see if you can figure out how to open the doll house door .
+*MOT:	do you have any ideas ?
+*MOT:	pull that little knob ?
+*MOT:	why don't you go (a)round to the back and see if you can push it
+*MOT:	reach through there .
+*MOT:	see where the door is ?
+*MOT:	yeah [= yes] (.) those are the things that are holding the door up
+*MOT:	yeah [= yes] .
+*MOT:	well (.) find out ?
+*MOT:	try what ?
+*MOT:	hey (.) what happened ?
+*MOT:	you have a horsie in your doll house ?
+*MOT:	what is the horsie doing in the house ?
+*MOT:	&uh [= what] ?
+*MOT:	really ?
+*MOT:	what is the horsie doing in that house ?
+*MOT:	oh (.) he is ?
+*MOT:	where did you (.) how did you get him out ?
+*MOT:	how did you get him out ?
+*MOT:	through a window ?
+*MOT:	really ?
+*MOT:	or through the door ?
+*MOT:	oh (.) I've never heard of the horse's going out_of the door .
+*MOT:	it is ?
+*MOT:	oh (.) let's put some furniture in our house (.) shall we ?
+*MOT:	okay .
+*MOT:	he is ?
+*MOT:	where's the kitchen ?
+*MOT:	it that the kitchen ?
+*MOT:	oh (.) what did you put in the kitchen ?
+*MOT:	a refrigerator ?
+*MOT:	that looks like a chest of drawers ?
+*MOT:	yeah [= yes] (.) after her breakfast .
+*MOT:	she has_to eat breakfast first .
+*MOT:	now who did you put in the house ?
+*MOT:	I see .
+*MOT:	oh (.) that's really good .
+*MOT:	in the living room ?
+*MOT:	it's a couch like we have in our living room .
+*MOT:	I see .
+*MOT:	our couch is downstairs .
+*MOT:	who's going to sit on the couch ?
+*MOT:	who are you going to put on the couch ?
+*MOT:	I see .
+*MOT:	oh (.) I just to see what else we have here .
+*MOT:	oh (.) there's so many people in here .
+*MOT:	what does that girl have on her hair ?
+*MOT:	oh .
+*MOT:	she has funny colored hair though (.) doesn't she ?
+*MOT:	what color is her hair ?
+*MOT:	she's angry ?
+*MOT:	why is she angry ?
+*MOT:	he's waking up .
+*MOT:	do you get out_of your crib sometime ?
+*MOT:	yeah [= yes] (.) you should stay in your crib at night (.) right ?
+*MOT:	yeah [= yes] (.) <if you> [//] if you get out_of your crib I do (.)
+*MOT:	is the baby going to go to sleep ?
+*MOT:	that's good .
+*MOT:	I see .
+*MOT:	what else are we going to put in the house ?
+*MOT:	I see all kinds of furniture over there .
+*MOT:	oh (.) are you going to set up the table with chairs in the kitchen
+*MOT:	other chairs like that ?
+*MOT:	do you think they're in the box ?
+*MOT:	oh (.) we don't have any bubbles right now .
+*MOT:	we'll have_to get some .
+*MOT:	so you can blow them .
+*MOT:	are you smoking a pipe ?
+*MOT:	does it taste good ?
+*MOT:	does Justin have a pipe ?
+*MOT:	what does he do with his pipe ?
+*MOT:	that's a pretty pipe .
+*MOT:	who gave me that pipe ?
+*MOT:	I think Ellie gave that pipe to us .
+*MOT:	oh Jerry gave me a pipe to smoke myself (.) that's right .
+*MOT:	that's right .
+*MOT:	do you smoke tobacco or soap bubbles ?
+*MOT:	soap bubbles .
+*MOT:	what happens if you blow in (.) with that pipe ?
+*MOT:	what did you get in your mouth ?
+*MOT:	does that taste good ?
+*MOT:	what does it taste like ?
+*MOT:	like ice+cream ?
+*MOT:	no .
+*MOT:	ice+cream tastes good (.) doesn't it ?
+*MOT:	do soap bubbles taste good ?
+*MOT:	they taste awful (.) don't they ?
+*MOT:	they sure do .
+*MOT:	well (.) let's set up the (.) the table and chairs (.) for dinner .
+*MOT:	where are you setting up the dinner ?
+*MOT:	in what room ?
+*MOT:	what room is that ?
+*MOT:	I see .
+*MOT:	do we eat supper in the kitchen ?
+*MOT:	we all eat supper in the kitchen (.) don't we ?
+*MOT:	oh .
+*MOT:	the monster .
+*MOT:	where do you see monsters ?
+*MOT:	on the television ?
+*MOT:	the monster's going to come in the home ?
+*MOT:	he's going to make everybody scared .
+*MOT:	he's in the home ?
+*MOT:	in what room ?
+*MOT:	he is ?
+*MOT:	I don't see anything .
+*MOT:	I don't see him .
+*MOT:	oh dear (.) well let's put the family in there .
+*MOT:	and they'll chase the monster away .
+*MOT:	put the whole family for supper .
+*MOT:	he cries ?
+*MOT:	let's put them all in their chairs .
+*MOT:	who did you just put in the house ?
+*MOT:	who's that ?
+*MOT:	is that Karen ?
+*MOT:	that looks like a man me .
+*MOT:	Karen is a girls's name .
+*MOT:	Karen is a girl's name .
+*MOT:	what's his name ?
+*MOT:	what happened to the man ?
+*MOT:	no (.) Karen is a girl's name .
+*MOT:	his name can be anything else that's a man's name .
+*MOT:	that's a man .
+*MOT:	oh (.) we can call him Jack .
+*MOT:	his name is Jack ?
+*MOT:	okay .
+*MOT:	where's the other what ?
+*MOT:	another girl ?
+*MOT:	her name is Karen ?
+*MOT:	where is Karen ?
+*MOT:	where ?
+*MOT:	is she on a bed ?
+*MOT:	on a couch .
+*MOT:	oh (.) where's some other furniture ?
+*MOT:	who's that ?
+*MOT:	oh is she smiling (.) or is she crying ?
+*MOT:	oh what does that mean ?
+*MOT:	oh (.) it means she's happy .
+*MOT:	that's nice .
+*MOT:	it's good to be happy (.) isn't it ?
+*MOT:	do you get sad sometime ?
+*MOT:	oh (.) it's not bad to be sad .
+*MOT:	but it's more fun to be happy (.) isn't it ?
+*MOT:	it's more fun not to be sad .
+*MOT:	where shall we put this pretty girl ?
+*MOT:	w(h)oop .
+*MOT:	did she get hurt when she fell ?
+*MOT:	who fell ?
+*MOT:	did Karen fall ?
+*MOT:	oh she is ?
+*MOT:	you mean there're two babies in that crib now .
+*MOT:	let's see if you can find another chair .
+*MOT:	where are you going to put it ?
+*MOT:	is this a bed ?
+*MOT:	no (.) you know what that is ?
+*MOT:	that's a hamper .
+*MOT:	what do you do with a hamper ?
+*MOT:	it's like that hamper over there .
+*MOT:	what do I do with a hamper ?
+*MOT:	I put something inside .
+*MOT:	what does one put inside the hamper ?
+*MOT:	washing ?
+*MOT:	dirty clothes ?
+*MOT:	what do you put inside the hamper ?
+*MOT:	in Mommy's hamper ?
+*MOT:	do you put your own clothes in there sometime ?
+*MOT:	no that (.) that goes in the doll house .
+*MOT:	but do you put your clothes in the hamper sometime ?
+*MOT:	that is a hamper .
+*MOT:	and that's a little tiny hamper for your doll house .
+*MOT:	let's put the hamper in the bed+room .
+*MOT:	in that big room ?
+*MOT:	okay .
+*MOT:	and what are we going to put inside the hamper ?
+*MOT:	dirty clothes .
+*MOT:	is that another crib ?
+*MOT:	oh (.) that's a cute little crib (.) isn't it ?
+*MOT:	let's see if we can find a little baby .
+*MOT:	see if we can find a tiny little baby .
+*MOT:	look .
+*MOT:	oh (.) what does he have in his hand ?
+*MOT:	what is the baby wrapped in ?
+*MOT:	oh (.) are you gonna give the bottle to the baby ?
+*MOT:	can you put it in his mouth ?
+*MOT:	it doesn't go in his mouth ?
+*MOT:	you'll try to what ?
+*MOT:	try to put a bottle in his mouth ?
+*MOT:	oh the arm doesn't move ?
+*MOT:	too stiff .
+*MOT:	did you use to drink a bottle ?
+*MOT:	when you were a baby you drank a bottle ?
+*MOT:	do you drink a bottle still ?
+*MOT:	now how do you drink ?
+*MOT:	what do you drink milk from now ?
+*MOT:	and from a glass too ?
+*MOT:	what kind of glasses do we use ?
+*MOT:	big ones or little ones ?
+*MOT:	oh (.) they're nice ones (.) aren't they ?
+*MOT:	they're made out_of plastic .
+*MOT:	that's the bottom of one of the cribs .
+*MOT:	you're putting it upside down now .
+*MOT:	the poor dolly's going to fall out .
+*MOT:	you think she will ?
+*MOT:	why ?
+*MOT:	it'll be funny if she falls out_of the crib ?
+*MOT:	I don't think she'll think it's very funny .
+*MOT:	(be)cause she's sleepy (.) and she wants to go to sleep now I think
+*MOT:	are you adjusting the crib ?
+*MOT:	pushing the mattress up higher ?
+*MOT:	I see .
+*MOT:	what's upside down ?
+*MOT:	no (.) now it's right side up .
+*MOT:	where did you put the crib ?
+*MOT:	what room is that ?
+*MOT:	oh (.) does the baby sleep in the living room ?
+*MOT:	oh .
+*MOT:	that's the washing machine .
+*MOT:	that's right ?
+*MOT:	what do you do in the washing machine ?
+*MOT:	yeah [= yes] (.) what do you do ?
+*MOT:	and what else do you put in the washing machine with the dirty
+*MOT:	do you put soap in it ?
+*MOT:	and what washes the clothes ?
+*MOT:	no (.) the vacuum cleaner doesn't .
+*MOT:	it's soap and water in the washing machine .
+*MOT:	does it go round and round .
+*MOT:	and then what happens ?
+*MOT:	what happens to the clothes ?
+*MOT:	do they get wet or dry ?
+*MOT:	wet .
+*MOT:	and what do we do with the wet clothes <when the vacuum cleaner>
+*MOT:	where do we bring them ?
+*MOT:	where do we bring the wet clothes ?
+*MOT:	oh .
+*MOT:	is that a wrist watch ?
+*MOT:	that's a nice wrist watch .
+*MOT:	sure (.) I'll put it on you .
+*MOT:	what are you doing ?
+*MOT:	oh (.) that's a nice wrist watch .
+*MOT:	what shall I do with it ?
+*MOT:	on what ?
+*MOT:	what is that ?
+*MOT:	a wrist watch ?
+*MOT:	can you say +"/.
+*MOT:	+" wrist ?
+*MOT:	so where does the wrist watch go ?
+*MOT:	on your +...
+*MOT:	on your wrist .
+*MOT:	oh (.) what shall I do now ?
+*MOT:	fasten it ?
+*MOT:	shall I make it tighter ?
+*MOT:	is it too loose ?
+*MOT:	tell me when it's okay .
+*MOT:	oh (.) you mean when the hand turns (.) it will be time to go to
+*MOT:	it's not ?
+*MOT:	oh (.) is you wrist watch not working ?
+*MOT:	it's on .
+*MOT:	let's see if I can turn the hand .
+*MOT:	nope (.) I can't get the hand to turn .
+*MOT:	you want to see my wrist watch ?
+*MOT:	let's see if the hand turns on my wrist watch .
+*MOT:	is that hand turning ?
+*MOT:	see (.) it's turning very slowly .
+*MOT:	but it turns all the way around in a circle .
+*MOT:	and when the big hand goes over here (.) that means that it's time
+*MOT:	okay ?
+*MOT:	I put it up there .
+*MOT:	okay (.) I guess it must be time to give your family breakfast (.)
+*MOT:	where's a table for them ?
+*MOT:	can you find a table and a spoon and some pots to cook for them ?
+*MOT:	where's the oven ?
+*MOT:	let's see if we can find an oven .
+*MOT:	what kind ?
+*MOT:	you need something to cook on ?
+*MOT:	is that it ?
+*MOT:	here's an oven .
+*MOT:	here's a stove with an oven .
+*MOT:	where does it go ?
+*MOT:	is that pot too big for that stove ?
+*MOT:	oh my (.) I don't think we have a big stove .
+*MOT:	shall we pretend ?
+*MOT:	let's pretend .
+*MOT:	use a little book for a stove ?
+*MOT:	would you like to do that ?
+*MOT:	yeah [= yes] .
+*MOT:	okay .
+*MOT:	I'll give you a stove .
+*MOT:	here's a stove .
+*MOT:	you can cook here .
+*MOT:	is that a good stove ?
+*MOT:	yeah [= yes] (.) we need two little pots for that (.) but we don't
+*MOT:	what's he going on ?
+*MOT:	he's going to go on the oven ?
+*MOT:	that'll hurt him .
+*MOT:	it'll get hot .
+*MOT:	we better put him in front of the stove .
+*MOT:	let's put it down here (.) so he doesn't fall over .
+*MOT:	who does the cooking ?
+*MOT:	the lady's going to do the cooking ?
+*MOT:	what is she going to cook ?
+*MOT:	did I cook hot cereal for you the other morning ?
+*MOT:	did you like it ?
+*MOT:	what is she doing ?
+*MOT:	she is ?
+*MOT:	oh (.) I see a plate over there .
+*MOT:	see on the floor ?
+*MOT:	what ?
+*MOT:	I see many plates .
+*MOT:	I see a little plate and where's the big plate ?
+*MOT:	I don't have any play+dough .
+*MOT:	I'll have_to get some so you can pretend to cook (.) right ?
+*MOT:	what are you giving the family to eat today ?
+*MOT:	they're going to what ?
+*MOT:	oh (.) they're going to share it together ?
+*MOT:	the way we shared cereal the other morning ?
+*MOT:	Kathy .
+*MOT:	what did we have for breakfast this morning ?
+*MOT:	not this morning .
+*MOT:	what did we have this morning ?
+*MOT:	remember ?
+*MOT:	what did I make for you ?
+*MOT:	what kind of eggs ?
+*MOT:	did I make soft boiled eggs (.) or scrambled eggs or what ?
+*MOT:	I made scrambled eggs (.) didn't I ?
+*MOT:	xxx .
+*MOT:	they finish eating ?
+*MOT:	oh (.) what are they going to do now ?
+*MOT:	the mother finish cooking ?
+*MOT:	what did she finish cooking ?
+*MOT:	oh .
+*MOT:	what's she going to dry ?
+*MOT:	who wants to eat ?
+*MOT:	oh (.) what else can we put in here ?
+*MOT:	I think I see a piano .
+*MOT:	where does the piano go ?
+*MOT:	where are you going to put the piano ?
+*MOT:	the piano doesn't open .
+*MOT:	no (.) it's just a pretend piano .
+*MOT:	where'd you put the piano ?
+*MOT:	where ?
+*MOT:	in the bed+room ?
+*MOT:	how about putting it in the living room ?
+*MOT:	where do you want to put it ?
+*MOT:	oh (.) let me see the pipe .
+*MOT:	oh .
+*MOT:	my turn to smoke it ?
+*MOT:	oh (.) I think I'll (.) I'll let it cool off first .
+*MOT:	put it up here and let it cool off (.) okay ?
+*MOT:	it's got hot ashes in it .
+*MOT:	then I'll smoke it afterwards .
+*MOT:	oh (.) what are those ?
+*MOT:	those are glasses .
+*MOT:	who do they belong to ?
+*MOT:	what are you going to do with them ?
+*MOT:	where are you going to put them on ?
+*MOT:	oh (.) you look funny .
+*MOT:	where are those glasses ?
+*MOT:	on your eyes ?
+*MOT:	can you see better with them on ?
+*MOT:	you look silly .
+*MOT:	you look really silly .
+*MOT:	are you going to pretend you're the mother now ?
+*MOT:	and fix up the whole house ?
+*MOT:	keep your glasses on .
+*MOT:	okay (.) clean up your house now (.) mother .
+*MOT:	will you be my mother ?
+*MOT:	what are you putting away ?
+*MOT:	who lives in this house ?
+*MOT:	oh (.) I don't know .
+*MOT:	you said Karen lived here .
+*MOT:	and who else ?
+*MOT:	Juny ?
+*MOT:	what are you going to do with this ?
+*MOT:	what are these things on it ?
+*MOT:	two bureaus .
+*MOT:	you know what these are ?
+*MOT:	what are they ?
+*MOT:	oh .
+*MOT:	they're on top of the chest of drawers .
+*MOT:	and in_between ?
+*MOT:	oh (.) what do they do with the radio (.) I wonder (.) in that
+*MOT:	what are you doing to the radio ?
+*MOT:	you listen to a radio (.) right ?
+*MOT:	you watch a television (.) but you listen to a radio .
+*MOT:	what do we hear on the radio ?
+*MOT:	voices ?
+*MOT:	do we hear music ?
+*MOT:	what else do we hear on the radio ?
+*MOT:	where's the pilot ?
+*MOT:	oh (.) a little pilot .
+*MOT:	where is he sitting ?
+*MOT:	is he going to fly to the house ?
+*MOT:	he's going to fly to California ?
+*MOT:	my_goodness .
+*MOT:	he is ?
+*MOT:	all by himself .
+*MOT:	is he going to fly over our house ?
+*MOT:	make him fly over our house .
+*MOT:	can you make him fly over our house ?
+*MOT:	on the house ?
+*MOT:	what are you doing to the plane ?
+*MOT:	where is it stopping ?
+*MOT:	oh .
+*MOT:	you have_to wash your glasses ?
+*MOT:	in the sink ?
+*MOT:	is there a sink around here ?
+*MOT:	what's that ?
+*MOT:	oh did you have a bath in the sink last week+end ?
+*MOT:	was it fun ?
+*MOT:	you had a bath at the sink (.) in a sink when we went to Santa Cruz
+*MOT:	(be)cause it was very late .
+*MOT:	I don't think I can open them (.) I'm afraid .
+*MOT:	they're just plastic and they're just painted on there .
+*MOT:	they're not real drawers .
+*MOT:	they're just pretend drawers .
+*MOT:	did you have a good time at Barbara's house ?
+*MOT:	what did you do there ?
+*MOT:	who did you play with ?
+*MOT:	close the box of the furniture ?
+*MOT:	there it's open .
+*MOT:	it just (.) the lid just fell on top (.) that's all .
+*MOT:	that's a cup (.) isn't it ?
+*MOT:	that's an indian .
+*MOT:	oh you can make him go ride on the horse (.) if you can find the
+*MOT:	what happened to the horse ?
+*MOT:	he is ?
+*MOT:	no (.) the cowboy loves the indian .
+*MOT:	they're gonna both go riding together .
+*MOT:	who doesn't want to ride ?
+*MOT:	oh (.) who's going to go riding now ?
+*MOT:	where did you put the indian ?
+*MOT:	where did you put the indian ?
+*MOT:	you can't ?
+*MOT:	try harder .
+*MOT:	try what ?
+*MOT:	maybe this indian goes on another horse .
+*MOT:	oh (.) he keeps popping off this horse (.) doesn't he ?
+*MOT:	I think he must go on another horse .
+*MOT:	I don't know where the horse is for the indian .
+*MOT:	want to put the indian in the house somewhere ?
+*MOT:	no (.) he won't .
+*MOT:	indians are very good people of course .
+*MOT:	Louise says that .
+*MOT:	and Mommy says that too .
+*MOT:	why don't you have the indian go and visit the family ?
+*MOT:	he's happy ?
+*MOT:	who's he visiting ?
+*MOT:	why don't you feed something to the indian ?
+*MOT:	there's a pot .
+*MOT:	you can make something for him to eat .
+*MOT:	he must be hungry .
+*MOT:	he's in the pot .
+*MOT:	that's a funny place for him to be .
+*MOT:	why don't you put him on a chair ?
+*MOT:	what are you going to give him to eat ?
+*MOT:	he pops out_of the chair .
+*MOT:	maybe he'd be better off on the couch .
+*MOT:	there he is .
+*MOT:	oh (.) I bet he's hungry .
+*MOT:	he's been out all day .
+*MOT:	what are you going to give him to eat ?
+*MOT:	nothing .
+*MOT:	oh (.) maybe you could give him something to eat .
+*MOT:	no ?
+*MOT:	he's not ?
+*MOT:	I don't know if he can .
+*MOT:	can you get him in the right shape ?
+*MOT:	he's pretty stiff .
+*MOT:	he's made out_of plastic .
+*MOT:	and he doesn't bend very easily (.) does he ?
+*MOT:	oh (.) we got that at a store .
+*MOT:	yeah [= yes] .
+*MOT:	Nonna gave you these for Christmas (.) remember ?
+*MOT:	she gave you the doll house .
+*MOT:	all this little furniture .
+*MOT:	what's that ?
+*MOT:	oh (.) what are you going to do with it ?
+*MOT:	yeah [= yes] (.) the cowboy and the indian are both made out_of red
+*MOT:	what is he holding ?
+*MOT:	what is this man holding ?
+*MOT:	yeah [= yes] (.) what is he holding ?
+*MOT:	he's a cowboy .
+*MOT:	oh (.) I don't know what his name is .
+*MOT:	we can pretend and give him a name .
+*MOT:	what shall we give him as a name ?
+*MOT:	oh (.) you like that name (.) don't you ?
+*MOT:	but that's a girl's name .
+*MOT:	we can call him Joe (.) if you want .
+*MOT:	okay (.) where are you going to put the cowboy ?
+*MOT:	&uh (.) that's not a good place for him .
+*MOT:	what's on this table ?
+*MOT:	my (.) look at all the things on this table .
+*MOT:	that's a really nice table .
+*MOT:	what's in the middle of the table ?
+*MOT:	oh they're flowers .
+*MOT:	they're very pretty flowers .
+*MOT:	I like those flowers .
+*MOT:	did Barbara have flowers on her table the other night (.) when we
+*MOT:	what did we read at Barbara's house ?
+*MOT:	remember I read you and Lawny a story ?
+*MOT:	it was about curious George .
+*MOT:	what happened to curious George (.) remember ?
+*MOT:	what did he do ?
+*MOT:	what did he do ?
+*MOT:	he swallowed something .
+*MOT:	do you remember what it was ?
+*MOT:	it was a piece of puzzle .
+*MOT:	and what happened to him ?
+*MOT:	something was missing when they tried to make the puzzle because he
+*MOT:	oh the cowboy and the indian are hugging ?
+*MOT:	that's nice .
+*MOT:	they're saying +"/.
+*MOT:	+" hello .
+*MOT:	who has a tummy ?
+*MOT:	where is your tummy ?
+*MOT:	you covered your tummy ?
+*MOT:	is it underneath you pajamas ?
+*MOT:	oh .
+*MOT:	yeah [= yes] .
+*MOT:	where's your tummy ?
+*MOT:	you know what ?
+*MOT:	the big hand is moving to the right place to get ready to go to
+*MOT:	don't you want to get dressed ?
+*MOT:	you don't ?
+*MOT:	well we're going to go in a little bit .
+*MOT:	you can play for a little bit more .
+*MOT:	can you take off your pajamas ?
+*MOT:	do you know how to zip ?
+*MOT:	okay (.) just unzip your pajamas .
+*MOT:	it's hot (.) isn't it ?
+*MOT:	we'll put something very light on like a sunsuit .
+*MOT:	(be)cause it's very +...
+*MOT:	see the sun +...
+*MOT:	yeah [= yes] .
+*MOT:	it's so hot these days .
+*MOT:	the sun is so strong (.) isn't it ?
+*MOT:	do you get hot when you go and play at Maggie's ?
+*MOT:	I get hot at work .
+*MOT:	it's so hot sometime .
+*MOT:	okay .
+*MOT:	would you like to try Rachel's sunsuit on ?
+*MOT:	I think it's too small .
+*MOT:	I +...
+*MOT:	you don't think so ?
+*MOT:	okay (.) take off your panties .
+*MOT:	let's try it on without panties .
+*MOT:	are you gonna wear your wristwatch to Maggie's ?
+*MOT:	well this is Rachel's .
+*MOT:	would you like to try this on ?
+*MOT:	oh (.) that's a new one (.) isn't it ?
+*MOT:	oh that one's dirty .
+*MOT:	it's in the washing machine .
+*MOT:	so you can try +...
+*MOT:	you put this on or this on .
+*MOT:	oh (.) with the flowers ?
+*MOT:	okay .
+*MOT:	do you think so ?
+*MOT:	are you going to wear your wrist watch to Maggie's ?
+*MOT:	so you can tell what time it is .
+*MOT:	it is ?
+*MOT:	time is going by .
+*MOT:	okay .
+*MOT:	can you put the clothes in the hamper ?
+*MOT:	that's right .
+*MOT:	very good .
+*MOT:	okay (.) what would you like to do ?
+*MOT:	do you want to put some more things in the doll house ?
+*MOT:	okay .
+*MOT:	is that another cowboy ?
+*MOT:	I think that's just a plain man .
+*MOT:	he's got a funny hat on though (.) doesn't he ?
+*MOT:	what ?
+*MOT:	what is the color ?
+*MOT:	of what ?
+*MOT:	you mean what is the color of the hat ?
+*MOT:	what color is his hat ?
+*MOT:	it's yellow ?
+*MOT:	where is his hat ?
+*MOT:	oh .
+*MOT:	is that the dish for the dog ?
+*MOT:	oh (.) I don't know .
+*MOT:	I don't know what happened to the little doggy .
+*MOT:	it's a highchair .
+*MOT:	who do you think sits on a highchair ?
+*MOT:	they're too big .
+*MOT:	do you think maybe the little baby would ?
+*MOT:	where's the little baby ?
+*MOT:	are you looking for someone to fit on the highchair ?
+*MOT:	oh (.) there're so many people here .
+*MOT:	I don't think there's anybody that'll fit on the highchair .
+*MOT:	it's too small .
+*MOT:	I don't know .
+*MOT:	will this man fit there ?
+*MOT:	but men don't go on highchairs (.) right ?
+*MOT:	just babies .
+*MOT:	hey (.) he fits though .
+*MOT:	what are you doing ?
+*MOT:	balance the baby on that highchair ?
+*MOT:	is it going to work ?
+*MOT:	why ?
+*MOT:	what happens ?
+*MOT:	falls down ?
+*MOT:	is she too big ?
+*MOT:	I see .
+*MOT:	I'm hungry though .
+*MOT:	will you give me something to eat before I go to work ?
+*MOT:	will you make me something with all your new pots ?
+*MOT:	no ?
+*MOT:	I would like at least a little tea .
+*MOT:	do you think you could give me a cup of tea ?
+*MOT:	where's the cup ?
+*MOT:	where's the cup ?
+*MOT:	do you see it anywhere ?
+*MOT:	oh (.) are you going to cook it for me on the stove ?
+*MOT:	it's already ready ?
+*MOT:	&um (.) it's good tea .
+*MOT:	but I'd like a little sugar in it please .
+*MOT:	what's that ?
+*MOT:	did you have tea and sugar and milk at Mrs Wood's house ?
+*MOT:	what else did we have there ?
+*MOT:	another crib ?
+*MOT:	there are so many cribs for this house .
+*MOT:	there must be a_lot_of babies living in this house .
+*MOT:	who ?
+*MOT:	I guess so .
+*MOT:	he fits just right .
+*MOT:	or is he too big ?
+*MOT:	oh (.) he's outgrown the crib .
+*MOT:	I think all our people are too big for this furniture (.) aren't
+*MOT:	yeah [= yes] (.) the furniture for this house is very little and
+*MOT:	we'll have_to find either bigger furniture or littler people .
+*MOT:	smaller people .
+*MOT:	what's that ?
+*MOT:	what are you doing ?
+*MOT:	what are you putting in the crib ?
+*MOT:	wow .
+*MOT:	and this is the top for the coffee pot (.) Mommy ?
+*MOT:	what ?
+*MOT:	that's the top for the coffee pot .
+*MOT:	what did you find ?
+*MOT:	let me see what you just took out_of the box .
+*MOT:	oh (.) some pretty chairs .
+*MOT:	let me see them .
+*MOT:	that's a little pink chair .
+*MOT:	oh (.) that's a nice one .
+*MOT:	where shall we put it ?
+*MOT:	can you put the pink chair in the kitchen ?
+*MOT:	on the roof ?
+*MOT:	you're going to put furniture on top of the roof ?
+*MOT:	that's a funny place for it .
+*MOT:	maybe the lady would like to go in the house .
+*MOT:	can you put her in the house ?
+*MOT:	on the roof ?
+*MOT:	she looks like Barbara (.) doesn't she ?
+*MOT:	is she Barbara ?
+*MOT:	what's Barbara's little boy's name ?
+*MOT:	what did you do with Lawny ?
+*MOT:	&um &um .
+*MOT:	did Joe play with you ?
+*MOT:	he had a funny shirt on (.) didn't he ?
+*MOT:	holes .
+*MOT:	what did you do with the holes ?
+*MOT:	what is that ?
+*MOT:	oh (.) it's tape on the back of a little plate (.) isn't it ?
+*MOT:	the tape on my nose ?
+*MOT:	that's silly .
+*MOT:	on your nose ?
+*MOT:	gonna put it on your nose ?
+*MOT:	goodness .
+*MOT:	uhoh [= trouble] (.) where's the tape ?
+*MOT:	you look like a monkey and a half .
+*MOT:	you look like curious George .
+*MOT:	what happened to poor curious George ?
+*MOT:	what are you going to put on your leg ?
+*MOT:	what are you doing ?
+*MOT:	putting tape on your leg .
+*MOT:	that's pretty silly .
+*MOT:	do you have a hurt on your leg ?
+*MOT:	on where ?
+*MOT:	on your wrist ?
+*MOT:	it does ?
+*MOT:	what's this ?
+*MOT:	what's this part of you called ?
+*MOT:	do you know ?
+*MOT:	no (.) it's your elbow .
+*MOT:	it's part of your arm .
+*MOT:	where's your elbow ?
+*MOT:	this point right here is called the elbow .
+*MOT:	yeah [= yes] .
+*MOT:	oh (.) that might hurt your eye .
+*MOT:	you be careful .
+*MOT:	I'm going to put my wrist watch on .
+*MOT:	yeah [= yes] (.) we both have wrist watches on our arms now .
+*MOT:	we're twins .
+*MOT:	both wrist watch straps are black .
+*MOT:	is your strap bigger than mine ?
+*MOT:	your strap is wider that mine (.) isn't it ?
+*MOT:	my_goodness you've got a bigger wrist watch than Mommy .
+*MOT:	okay .
+*MOT:	can you blow your nose ?
+*MOT:	oh (.) poor Nina .
+*MOT:	she has a cold (.) doesn't she ?
+*MOT:	there we go .
+*MOT:	it does ?
+*MOT:	I see .
+*MOT:	let's put everything back in the box (.) so_that the little
+*MOT:	and we'll play with it some more tonight (.) okay ?
+*MOT:	can you help me ?
+*MOT:	you want to take your furniture to Justin's house ?
+*MOT:	I'm afraid it would get lost there .
+*MOT:	I'm afraid it would get lost there .
+*MOT:	it's better to keep it here in the box .
+*MOT:	what are you putting away ?
+*MOT:	what is it ?
+*MOT:	are there little books ?
+*MOT:	what is that ?
+*MOT:	a bookcase ?
+*MOT:	what are you putting away ?
+*MOT:	shall we put the people back in the box ?
+*MOT:	okay (.) you pick one piece of furniture that you wanna take .
+*MOT:	what would you like to take ?
+*MOT:	two pieces ?
+*MOT:	okay (.) two pieces .
+*MOT:	what do you want to take ?
+*MOT:	which pieces are you going to take ?
+*MOT:	that's three .
+*MOT:	only two .
+*MOT:	only two: one for each hand .
+*MOT:	which piece do you want to take ?
+*MOT:	the bed and then either the chair or the lamp .
+*MOT:	that's three .

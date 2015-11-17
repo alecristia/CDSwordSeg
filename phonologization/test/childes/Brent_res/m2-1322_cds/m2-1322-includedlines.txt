@@ -1,0 +1,286 @@
+*MOT:	oh I got the sneezes , kid . 69650_71053
+*MOT:	see if I can fix your chair . 77403_78677
+*MOT:	you hungry ? 93497_94000
+*MOT:	come (h)ere ! 94647_95007
+*MOT:	what d(o) you wanna eat today ? 111997_112860
+*MOT:	sounds like a good lunch . 116030_117340
+*MOT:	hands up ! 134650_135017
+*MOT:	put your hands up ! 135973_136587
+*MOT:	bib . 146137_146417
+*MOT:	okay . 147963_149323
+*MOT:	how (a)bout (...) carrot and turkey ? 167393_170223
+*MOT:	yeah . 184303_184860
+*MOT:	(i)s that acceptable ? 186033_186903
+*MOT:	www . 241757_248277
+*MOT:	(i)s that yummy ? 256210_256830
+*MOT:	want bite o(f) carrot ? 267673_268453
+*MOT:	don't throw your spoon on the floor ! 285603_287157
+*MOT:	oh that was a kinda clever way to throw it on the floor . 329387_331290
+*MOT:	yeah . 352493_353047
+*MOT:	what ? 358730_359187
+*MOT:	what ? 360603_360967
+*MOT:	want a bite o(f) carrot ? 366273_367033
+*MOT:	get on the fork ! 368340_369093
+*MOT:	dropped it . 372960_373447
+*MOT:	want a couple o(f) Cheerios too &=noise ? 391513_392750
+*MOT:	some Cheerios ? 395153_395833
+*MOT:	you gotta eat something . 397590_398620
+*MOT:	yeah ? 415443_416060
+*MOT:	Cheerios make a good lunch ? 557530_558660
+*MOT:	you don't like the turkey ? 781650_782707
+*MOT:	it's good for you , kid . 783817_784850
+*MOT:	Cheerios are not a very complete diet . 793570_795407
+*MOT:	wan(t) drink ? 858317_859050
+*MOT:	you all done ? 897870_898460
+*MOT:	okay . 899243_899653
+*MOT:	what do you want ? 908843_909243
+*MOT:	want your drink again ? 910060_910703
+*MOT:	it's not for throwing &=noise . 921397_922407
+*MOT:	the spoons are not for throwing either &=noise . 953497_955417
+*MOT:	what's wrong ? 1016070_1016577
+*MOT:	you want me to wipe the carrot off the fingers ? 1017767_1019470
+*MOT:	there you go . 1020027_1020747
+*MOT:	you're just eating the Cheerios &=noise . 1032250_1033477
+*MOT:	no . 1059430_1060133
+*MOT:	no (.) forks aren't for throwing . 1060807_1062823
+*MOT:	what (a)re you doing ? 1126500_1127163
+*MOT:	what (a)re you doing ? 1128073_1128570
+*MOT:	what's down there ? 1128703_1129317
+*MOT:	I don't think you're gonna be able to get a Cheerio back (.) but
+*MOT:	yeah ? 1182223_1182647
+*MOT:	got a Cheerio stuck on your finger ? 1275827_1277253
+*MOT:	I don't know how you managed that . 1279230_1280713
+*MOT:	you want another drink ? 1288017_1288810
+*MOT:	you all done ? 1302610_1303150
+*MOT:	drink . 1315917_1316373
+*MOT:	drink . 1339980_1340343
+*MOT:	it kinda takes two hands . 1346930_1348090
+*MOT:	there you go . 1348947_1349350
+*MOT:	what ? 1370580_1370873
+*MOT:	I don't know what you want . 1376637_1377543
+*MOT:	xxx xxx xxx , Jacob &=noise . 1388107_1389847
+*MOT:	do you want more Cheerios ? 1403627_1404497
+*MOT:	yesterday you liked carrots . 1503960_1505587
+*MOT:	how come today you keep throwing (th)em ? 1507860_1508897
+*MOT:	what ? 1535350_1535630
+*MOT:	yeah you threw the fork . 1564247_1565513
+*MOT:	not a good idea . 1566123_1567010
+*MOT:	bibs are supposed to be to catch things you accidentally drop not
+*MOT:	wha(t) you got in there ? 1650420_1651137
+*MOT:	good place to keep stuff . 1660663_1661650
+*MOT:	what ? 1687817_1688050
+*MOT:	here you go . 1777510_1777823
+*MOT:	wan(t) drink ? 1790357_1791000
+*MOT:	you really hungry today . 1800663_1801957
+*MOT:	what ? 1836767_1837183
+*MOT:	want a Cheerio ? 1839303_1839800
+*MOT:	drink ? 1849760_1850213
+*MOT:	don't throw the cup ! 1872657_1874183
+*MOT:	yeah . 1879117_1879497
+*MOT:	I got it . 1881083_1881697
+*MOT:	I caught it . 1882737_1883387
+*MOT:	do you wan(t) drink ? 1899530_1900157
+*MOT:	yeah . 1930020_1930497
+*MOT:	put it right there ! 1939250_1939793
+*MOT:	you're just playing ? 1956670_1957197
+*MOT:	Jacob . 2024443_2024877
+*MOT:	that's good . 2029277_2029727
+*MOT:	I don't think that's something that you really want . 2030260_2032080
+*MOT:	xxx xxx xxx &=noise . 2048420_2049260
+*MOT:	give that to me &=noise ! 2052343_2053227
+*MOT:	you don't xxx . 2053233_2053657
+*MOT:	no . 2055043_2055497
+*MOT:	xxx xxx xxx &=noise . 2056893_2057617
+*MOT:	dry those fingers ! 2075723_2076573
+*MOT:	okay . 2080527_2081417
+*MOT:	xxx xxx xxx &=noise . 2096390_2097113
+*MOT:	we'll do the dishes when we get back &=noise . 2099193_2100677
+*MOT:	had enough . 2103767_2104237
+*MOT:	xxx xxx xxx xxx anyway . 2109083_2110513
+*MOT:	it's getting chilly out . 2126693_2127920
+*MOT:	it's getting chilly . 2129100_2130063
+*MOT:	let's go see if we can find some warm clothes for you &=noise ! 2140153_2142400
+*MOT:	I think I need some warmer clothes too &=noise . 2184690_2186337
+*MOT:	okay . 2189377_2190330
+*MOT:	let's see ! 2190817_2191460
+*MOT:	let's see what we got huh ? 2194980_2196363
+*MOT:	here's a jacket . 2230420_2231437
+*MOT:	let's see ! 2236230_2236920
+*MOT:	jacket (..) and a sweatshirt . 2237443_2239610
+*MOT:	two sweatshirts &=noise . 2245140_2246553
+*MOT:	got two jackets . 2254360_2255327
+*MOT:	no I think that jacket (i)s too big for you yet . 2255337_2257627
+*MOT:	got one jacket &=noise . 2259193_2260273
+*MOT:	sweatshirt . 2261527_2262343
+*MOT:	oh here we go . 2278383_2279070
+*MOT:	oh we gotta go shopping . 2292840_2294540
+*MOT:	that's what I think . 2295727_2296593
+*MOT:	gonna have_to go shopping . 2300467_2301713
+*MOT:	a shirt for you . 2309483_2310927
+*MOT:	yeah . 2318977_2319443
+*MOT:	what's in there ? 2321610_2322293
+*MOT:	(tha)t's all your clothes . 2323787_2324970
+*MOT:	you helping ? 2343100_2343773
+*MOT:	let's see ! 2350493_2350977
+*MOT:	hold on ! 2351297_2351710
+*MOT:	xxx xxx xxx xxx xxx xxx &=noise . 2352670_2354260
+*MOT:	that's not a lot o(f) help . 2377577_2378677
+*MOT:	there . 2388143_2388623
+*MOT:	yeah ? 2432970_2433473
+*MOT:	okay let's see ! 2483337_2484737
+*MOT:	yeah ? 2519860_2520367
+*MOT:	think so ? 2523767_2524617
+*MOT:	okay . 2569940_2571130
+*MOT:	where (di)d I put those clothes I found for you ? 2575467_2577070
+*MOT:	there they are . 2577077_2577600
+*MOT:	there they are . 2578740_2579557
+*MOT:	come (h)ere ! 2579717_2580087
+*MOT:	yeah . 2623983_2624323
+*MOT:	alright . 2661627_2661980
+*MOT:	yeah . 2702483_2703003
+*MOT:	one sock . 2718363_2719087
+*MOT:	on . 2721327_2721833
+*MOT:	two socks . 2723710_2724380
+*MOT:	on . 2726693_2727227
+*MOT:	pants . 2731257_2731890
+*MOT:	one foot . 2734837_2735387
+*MOT:	one foot . 2737537_2737987
+*MOT:	over the bottom . 2743503_2744257
+*MOT:	over the head . 2774057_2774623
+*MOT:	stand up ! 2798790_2799220
+*MOT:	let's tuck it in ! 2800147_2800887
+*MOT:	you let me put your shoes on ? 2847420_2848370
+*MOT:	want some shoes on ? 2850510_2851243
+*MOT:	wonder where your overalls went ? 2856157_2857647
+*MOT:	one shoe . 2871160_2871863
+*MOT:	yeah for the left foot [?] ? 2873653_2874610
+*MOT:	all the way on . 2876823_2877447
+*MOT:	xxx . 2878527_2878963
+*MOT:	no don't run away ! 2879190_2880607
+*MOT:	if you let me put your shoes on you can go play outside . 2887037_2889043
+*MOT:	gotta have shoes on . 2890517_2891553
+*MOT:	sit down ! 2896817_2897323
+*MOT:	can't put the shoe on while you're walking &=noise . 2898483_2899963
+*MOT:	the foot in . 2907793_2908283
+*MOT:	almost done . 2913580_2914897
+*MOT:	almost done . 2916443_2917360
+*MOT:	stand up &=noise ! 2926267_2926723
+*MOT:	all done . 2927480_2927860
+*MOT:	okay . 2937500_2938223
+*MOT:	yeah . 2945697_2946353
+*MOT:	did you [?] make funny noises ? 2946563_2947987
+*MOT:	d(o) you wanna go outside ? 2967797_2968690
+*MOT:	okay . 2978390_2979237
+*MOT:	where's your ball &=noise ? 2980660_2981323
+*MOT:	that your tennis ball ? 2987453_2988537
+*MOT:	yeah . 2990163_2990713
+*MOT:	we got mail &=noise . 3014373_3015333
+*MOT:	we'll look at that later &=noise . 3025400_3026200
+*MOT:	yeah ? 3038360_3038670
+*MOT:	okay . 3040093_3040610
+*MOT:	there you go . 3041267_3041667
+*MOT:	yeah good throw &=noise . 3048777_3050530
+*MOT:	yeah &=noise . 3073697_3074390
+*MOT:	www . 3080133_3081857
+*MOT:	www . 3087490_3087977
+*MOT:	www . 3103793_3104357
+*MOT:	that's far enough this way . 3119877_3120793
+*MOT:	back toward the house . 3123003_3123873
+*MOT:	this way . 3142237_3143180
+*MOT:	yeah &=noise . 3146843_3147420
+*MOT:	yeah good throw . 3160437_3161747
+*MOT:	ca(n) you get the ball again ? 3162280_3163067
+*MOT:	ca(n) you go get it ? 3163923_3164523
+*MOT:	it's this way xxx &=noise . 3166070_3166937
+*MOT:	I threw that one too hard . 3191323_3192357
+*MOT:	I caught it . 3193060_3193490
+*MOT:	nope . 3226360_3226780
+*MOT:	no don't throw the ball that way ! 3234710_3235983
+*MOT:	got the ball ? 3256713_3257233
+*MOT:	where you going ? 3264383_3265063
+*MOT:	throw me the ball ! 3268213_3268890
+*MOT:	uhoh . 3269870_3270877
+*MOT:	uhoh . 3271923_3272753
+*MOT:	now we don't have a ball anymore . 3277543_3278753
+*MOT:	where you going ? 3320083_3320597
+*MOT:	no . 3320793_3321450
+*MOT:	no no no . 3321593_3322213
+*MOT:	(le)t's go back this way ! 3322987_3323847
+*MOT:	you gonna climb the steps ? 3352560_3353513
+*MOT:	oh we're just gonna sit on (th)em &=noise . 3353710_3354953
+*MOT:	yeah . 3360920_3361567
+*MOT:	you kick your feet ? 3362363_3363267
+*MOT:	kick kick kick ! 3365087_3365630
+*MOT:	the tree . 3368113_3368587
+*MOT:	you ready go inside now ? 3415657_3416407
+*MOT:	d(o) you wanna go inside ? 3418160_3419047
+*MOT:	careful ! 3425177_3425660
+*MOT:	you're not close enough to that step . 3425670_3426970
+*MOT:	you missed it . 3428140_3428700
+*MOT:	wanna help me carry that inside ? 3448483_3449750
+*MOT:	let's carry it inside ! 3450097_3450890
+*MOT:	up the steps . 3454093_3455027
+*MOT:	just [?] open the door ! 3460923_3461583
+*MOT:	xxx . 3465207_3465787
+*MOT:	good deal . 3467187_3467790
+*MOT:	let's put that in the kitchen ! 3510777_3511723
+*MOT:	I'm put it in the kitchen . 3514060_3514953
+*MOT:	I'm sorry . 3521807_3522297
+*MOT:	it's not the best toy &=noise . 3522320_3523503
+*MOT:	it's not . 3524563_3525067
+*MOT:	got . 3538957_3539217
+*MOT:	rings . 3539920_3540313
+*MOT:	there y(ou) go . 3553117_3553543
+*MOT:	(s)ince we're inside we can take off the shoes . 3554917_3556790
+*MOT:	there y(ou) go . 3559737_3560113
+*MOT:	make your feet more comfy . 3561110_3562133
+*MOT:	ouch . 3693263_3693930
+*MOT:	everywhere everywhere . 3706660_3707800
+*MOT:	wha(t) you doing ? 3726587_3727170
+*MOT:	good throw . 3840113_3841250
+*MOT:	want the ball back ? 3842290_3842973
+*MOT:	what ? 3854103_3854680
+*MOT:	xxx . 3866103_3866497
+*MOT:	I know what you want . 3878537_3879410
+*MOT:	xxx xxx xxx xxx . 3879423_3880620
+*MOT:	there you go . 3882043_3882590
+*MOT:	that enough &=noise ? 3965537_3966003
+*MOT:	that enough ? 3966553_3966867
+*MOT:	you wan(na) go play ? 3966903_3967557
+*MOT:	wan(na) play ? 3969053_3969587
+*MOT:	xxx play . 3977003_3977427
+*MOT:	ouch . 3984667_3985180
+*MOT:	ouch . 3989257_3989850
+*MOT:	(h)ey you . 3991347_3991950
+*MOT:	turtle . 3995523_3995853
+*MOT:	it's [?] turtle . 3997010_3998030
+*MOT:	turtle and Jacob . 4000347_4001183
+*MOT:	where's Jacob ? 4002143_4002863
+*MOT:	where's Jacob ? 4003537_4004250
+*MOT:	there he is . 4007120_4008093
+*MOT:	yeah . 4021890_4022230
+*MOT:	uhuh . 4023710_4024213
+*MOT:	not for eating . 4027203_4028067
+*MOT:	no don't eat it ! 4029693_4030687
+*MOT:	&hmm . 4030940_4031313
+*MOT:	oh you wan(na) give me the turtle ? 4033200_4034290
+*MOT:	I xxx see if I can find some warmer clothes &=noise . 4037967_4039857
+*MOT:	play nice for a minute ! 4040537_4041417
+*MOT:	looks like a trip to the laundromat tonight , kiddo . 4082043_4084160
+*MOT:	gotta go down in the basement and find all the winter clothes . 4086857_4089090
+*MOT:	whatcha doing ? 4257030_4257663
+*MOT:	whatcha doing , bub ? 4258170_4258780
+*MOT:	get out_of the closet ! 4309370_4310033
+*MOT:	let's get out_of the closet ! 4310160_4311070
+*MOT:	yeah [?] . 4316380_4316913
+*MOT:	what's in here ? 4357747_4358670
+*MOT:	what's in here &=noise ? 4362300_4363130
+*MOT:	truck &=noise . 4364167_4364603
+*MOT:	Jacob in a truck . 4368463_4369113
+*MOT:	what's down there &=noise ? 4370597_4371233
+*MOT:	a cup o(f) water [?] ? 4371417_4372350
+*MOT:	yeah . 4386263_4386610
+*MOT:	xxx xxx . 4421107_4421563
+*MOT:	uhoh where (di)d it go ? 4431543_4432660
+*MOT:	where (di)d it go ? 4433757_4434430
+*MOT:	there it is &=noise . 4452573_4453320

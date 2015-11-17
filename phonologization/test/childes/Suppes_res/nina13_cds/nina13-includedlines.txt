@@ -1,0 +1,633 @@
+*MOT:	what do I have on ?
+*MOT:	where's the what ?
+*MOT:	where's the penny [!!] ?
+*MOT:	let's give the dog (.) let's give the bottle to the dog .
+*MOT:	you want to ?
+*MOT:	who wants to drink the bottle ?
+*MOT:	who's drinking the bottle ?
+*MOT:	is it good ?
+*MOT:	which bottle (.) which doggy do you want to give the bottle to ?
+*MOT:	is the white doggy drinking ?
+*MOT:	who's drinking ?
+*MOT:	are you paying the lady with the penny [!!] ?
+*MOT:	you are ?
+*MOT:	what are you paying her for ?
+*MOT:	oh (.) did you go to the zoo with Becca yesterday ?
+*MOT:	you didn't ?
+*MOT:	you went to Rachel and Becca's home (.) but did we go to the zoo
+*MOT:	did we ?
+*MOT:	what did you see at the zoo yesterday ?
+*MOT:	you did ?
+*MOT:	what did you do with the llamas ?
+*MOT:	you fed the llamas .
+*MOT:	what's the man doing here ?
+*MOT:	what is he doing ?
+*MOT:	no (.) I think that's a llama .
+*MOT:	I think that's just a llama .
+*MOT:	did you feed the llamas ?
+*MOT:	use your penny [!!] to but food for the llamas ?
+*MOT:	what other animals did you see at the zoo ?
+*MOT:	I know .
+*MOT:	what other animals did you see at the zoo ?
+*MOT:	did you see a kitty cat ?
+*MOT:	you saw kitty cats in the zoo ?
+*MOT:	and what else ?
+*MOT:	did you see a hippopotamus ?
+*MOT:	did the hippopotamus have a big mouth or a little mouth ?
+*MOT:	little mouth .
+*MOT:	a little mouth ?
+*MOT:	what did he have ?
+*MOT:	did he look dirty ?
+*MOT:	yes she does have a big mouth .
+*MOT:	what else does she have in her mouth ?
+*MOT:	there are teeth .
+*MOT:	where are the teeth ?
+*MOT:	in Mommy's house ?
+*MOT:	no (.) you mean in Mommy's mouth they're teeth .
+*MOT:	those aren't Mommy's teeth .
+*MOT:	those are the hippopotamus teeth (.) aren't they ?
+*MOT:	did you see any other animals at the zoo ?
+*MOT:	what else did you see ?
+*MOT:	what did you see at the zoo ?
+*MOT:	what are these called ?
+*MOT:	can you say +"/.
+*MOT:	+" I saw leopards ?
+*MOT:	that's right .
+*MOT:	you saw leopards in the zoo .
+*MOT:	what's this ?
+*MOT:	where is the monkey .
+*MOT:	what was the monkey doing at the zoo ?
+*MOT:	he was swinging ?
+*MOT:	on your hand ?
+*MOT:	no (.) he wasn't swinging on your hand .
+*MOT:	he was swinging on the bars (.) right ?
+*MOT:	was he swinging on the bars ?
+*MOT:	he was swinging in a cage ?
+*MOT:	would you like to draw what you saw at the zoo ?
+*MOT:	shall I get you some crayons and paper ?
+*MOT:	let's go get some crayons and paper .
+*MOT:	and you make a place here for me to draw .
+*MOT:	I'll bring you some paper .
+*MOT:	I'm going to draw something from the zoo .
+*MOT:	come with Mommy .
+*MOT:	what are these ?
+*MOT:	I'm coming .
+*MOT:	I'm going to get (.) see if there are any more crayons .
+*MOT:	no more crayons .
+*MOT:	do you want to draw what you saw at the zoo ?
+*MOT:	is there one stuck ?
+*MOT:	here we go .
+*MOT:	shall we draw what we saw at the zoo ?
+*MOT:	what are you going to draw ?
+*MOT:	Nina's going to draw .
+*MOT:	what are you drawing ?
+*MOT:	sheep ?
+*MOT:	and what are you going to draw ?
+*MOT:	a dolly ?
+*MOT:	let's see .
+*MOT:	you make a dolly .
+*MOT:	there's a little sheep .
+*MOT:	did you see sheep at the zoo ?
+*MOT:	what did you do with the sheep at the zoo ?
+*MOT:	did you feed the sheep ?
+*MOT:	did the sheep run away ?
+*MOT:	what did you do ?
+*MOT:	he did ?
+*MOT:	he wasn't hungry ?
+*MOT:	he wasn't ?
+*MOT:	he wouldn't eat your food ?
+*MOT:	were there many children at the zoo ?
+*MOT:	did the lambs eat your food ?
+*MOT:	who ate your food ?
+*MOT:	did you see an elephant eating food at the zoo ?
+*MOT:	what are you making ?
+*MOT:	oh (.) a basket and a suitcase .
+*MOT:	a shoe ?
+*MOT:	do you want to draw a shoe ?
+*MOT:	ants ?
+*MOT:	little tiny ants ?
+*MOT:	do you want to draw this ?
+*MOT:	draw a kangaroo ?
+*MOT:	no (.) not on the book .
+*MOT:	let's draw a kangaroo on your big piece of paper .
+*MOT:	this (.) what is this ?
+*MOT:	let's (.) let's finish this piece first .
+*MOT:	what is this ?
+*MOT:	do you want one more ?
+*MOT:	one more ?
+*MOT:	what shall we do ?
+*MOT:	want me to tear it out ?
+*MOT:	okay .
+*MOT:	here we go .
+*MOT:	what do you want to draw on this ?
+*MOT:	you just drew ?
+*MOT:	a star ?
+*MOT:	where is the star ?
+*MOT:	is that what I drew ?
+*MOT:	no (.) I didn't draw a triangle .
+*MOT:	I drew a star .
+*MOT:	do you want me to draw a triangle ?
+*MOT:	you mean a circle ?
+*MOT:	can you draw a circle ?
+*MOT:	now Nina draw a circle .
+*MOT:	can Nina draw a circle ?
+*MOT:	what are you drawing ?
+*MOT:	let's finish this .
+*MOT:	remember (.) we said this was it .
+*MOT:	okay .
+*MOT:	what do you want to draw ?
+*MOT:	do you want to draw (.) an orange circle ?
+*MOT:	it's your turn .
+*MOT:	Nina's turn .
+*MOT:	there're many crayons here .
+*MOT:	many (.) many pretty crayons .
+*MOT:	okay (.) let's finish looking at this book first .
+*MOT:	see what other animals you saw yesterday .
+*MOT:	did you see this animal [= camel] ?
+*MOT:	what was it ?
+*MOT:	what was the name of this animal ?
+*MOT:	remember ?
+*MOT:	was this called something ?
+*MOT:	what was this called ?
+*MOT:	remember ?
+*MOT:	that was called a camel .
+*MOT:	what is this Mommy monkey doing ?
+*MOT:	did we see some baby monkeys at the zoo ?
+*MOT:	don't draw on it with that .
+*MOT:	you draw on here .
+*MOT:	did we see some baby monkeys at the zoo ?
+*MOT:	no (.) don't draw on that .
+*MOT:	let's put them back in the box (.) if you don't want to draw on the
+*MOT:	okay .
+*MOT:	do you want to draw a baby monkey ?
+*MOT:	okay .
+*MOT:	here's a tree .
+*MOT:	you want to put the baby monkey up in the tree ?
+*MOT:	here .
+*MOT:	where did I put the baby monkey ?
+*MOT:	that's right .
+*MOT:	there's another baby monkey .
+*MOT:	what's this baby monkey doing ?
+*MOT:	no (.) that's a baby monkey .
+*MOT:	what's the monkey doing ?
+*MOT:	climbing up in the cage .
+*MOT:	look at him .
+*MOT:	what's he doing ?
+*MOT:	what's he sucking on ?
+*MOT:	what's he chewing ?
+*MOT:	is he chewing on his finger ?
+*MOT:	what's he doing ?
+*MOT:	he has lots_of hair (.) doesn't he ?
+*MOT:	he does .
+*MOT:	don't draw (.) don't draw on the book .
+*MOT:	you draw (.) you tell me what else you see in this book .
+*MOT:	okay (.) if you're going to draw (.) you have_to put the crayons on
+*MOT:	alright ?
+*MOT:	don't (.) don't draw on the book (.) though .
+*MOT:	let's see who else is in the cages here .
+*MOT:	you draw where ?
+*MOT:	that's right .
+*MOT:	hey (.) can you help me put the crayons back ?
+*MOT:	do you want to keep them out ?
+*MOT:	can you close +...
+*MOT:	what ?
+*MOT:	did you see any of these at the zoo ?
+*MOT:	you didn't see any bears ?
+*MOT:	what ?
+*MOT:	did you see the bears ?
+*MOT:	what did you go on at the zoo ?
+*MOT:	remember with Irving and Becca ?
+*MOT:	what did we go on ?
+*MOT:	do you remember what we went on ?
+*MOT:	it went +"/.
+*MOT:	+" toot toot .
+*MOT:	+" what did we go on at the zoo ?
+*MOT:	did you sit down in the train ?
+*MOT:	you did what ?
+*MOT:	did you sit down on the train ?
+*MOT:	what happened ?
+*MOT:	you can't fit the crayons back ?
+*MOT:	this way .
+*MOT:	did you like the train ride at the zoo ?
+*MOT:	you didn't like it ?
+*MOT:	okay .
+*MOT:	want to put the other two back .
+*MOT:	want to close the crayon box without those two crayons ?
+*MOT:	how would you like to build some zoo animals ?
+*MOT:	would you like to build these (.) some zoo animals ?
+*MOT:	yes (.) shall we build some animals ?
+*MOT:	what shall we build ?
+*MOT:	no (.) that's all there is .
+*MOT:	this is the only animal .
+*MOT:	come you can take this and give me the rest of the giraffe .
+*MOT:	no there're no more animals in there .
+*MOT:	no more .
+*MOT:	oh (.) there's a (.) there's a zoo book animal here .
+*MOT:	would you like to look at that ?
+*MOT:	oh (.) look what's here .
+*MOT:	what is that ?
+*MOT:	a Mary's lamb .
+*MOT:	here's all different parts of an animal .
+*MOT:	no more animals .
+*MOT:	what would you like to build ?
+*MOT:	do you want to play with your doll right now ?
+*MOT:	what is that ?
+*MOT:	where is the dolly ?
+*MOT:	where is the dolly ?
+*MOT:	do you want to put her in the bed ?
+*MOT:	you want to play with the blocks or with the (.) or do you want to
+*MOT:	play with the blocks ?
+*MOT:	you want to build something ?
+*MOT:	what are you doing ?
+*MOT:	oh +...
+*MOT:	what color blocks do you have ?
+*MOT:	what color blocks do you have ?
+*MOT:	do you want to keep the box there ?
+*MOT:	putting the blocks inside the wagon ?
+*MOT:	shall we put some zoo animals on your wagon ?
+*MOT:	what's that going to be ?
+*MOT:	look at that .
+*MOT:	what is this for ?
+*MOT:	like this ?
+*MOT:	I don't know .
+*MOT:	w(h)oop .
+*MOT:	what is that ?
+*MOT:	what are you holding ?
+*MOT:	a horse ?
+*MOT:	you're holding a horse ?
+*MOT:	what color is the horse ?
+*MOT:	what color is the horse ?
+*MOT:	did you go riding on a pony yesterday ?
+*MOT:	what happened ?
+*MOT:	what is she doing ?
+*MOT:	the little baby is sleeping ?
+*MOT:	where is she lying down ?
+*MOT:	she's not sleeping ?
+*MOT:	why isn't she sleeping ?
+*MOT:	she broke her bread ?
+*MOT:	no she didn't .
+*MOT:	okay .
+*MOT:	are you slapping her leg ?
+*MOT:	is she big or little (.) the little baby ?
+*MOT:	what ?
+*MOT:	her sleeping ?
+*MOT:	do you want to put her in bed ?
+*MOT:	where is she sleeping ?
+*MOT:	in where ?
+*MOT:	in her bed .
+*MOT:	are you going to put her in the doll house ?
+*MOT:	the man's on the horse (.) isn't he ?
+*MOT:	does he have a hat ?
+*MOT:	where is his hat ?
+*MOT:	on his hand ?
+*MOT:	he has a hat on his hand ?
+*MOT:	what is he doing ?
+*MOT:	what is this man doing ?
+*MOT:	what is this man doing ?
+*MOT:	giddy up (.) giddy up .
+*MOT:	&uh [= yes] ?
+*MOT:	does that come off ?
+*MOT:	I don't think so .
+*MOT:	that was part of the box that the zoo animals come in .
+*MOT:	would you like to build a giraffe ?
+*MOT:	does Justin have one of these ?
+*MOT:	what is this ?
+*MOT:	he does ?
+*MOT:	look what I'm building .
+*MOT:	what am I building ?
+*MOT:	what did Mommy build ?
+*MOT:	the baby's sleeping ?
+*MOT:	what did Mommy build ?
+*MOT:	does the giraffe have a long neck or a short neck ?
+*MOT:	that's short ?
+*MOT:	I think it's long .
+*MOT:	look at the neck of the giraffe that Mommy built .
+*MOT:	is it long or short ?
+*MOT:	is that your zebra ?
+*MOT:	oh (.) look at the funny giraffe .
+*MOT:	is it funny ?
+*MOT:	would you like to build an elephant (.) a dog (.) or a giraffe ?
+*MOT:	a giraffe ?
+*MOT:	can you help me ?
+*MOT:	that's an elephant .
+*MOT:	did you see an elephant at the zoo ?
+*MOT:	what is this elephant doing .
+*MOT:	he has a trunk .
+*MOT:	and what is he doing with his trunk ?
+*MOT:	xxx .
+*MOT:	is he eating peanuts ?
+*MOT:	did you see the elephant eat peanuts yesterday ?
+*MOT:	no (.) Nina doesn't have a trunk .
+*MOT:	what does Nina have ?
+*MOT:	no (.) Nina has a nose .
+*MOT:	Mommy has a nose and Nina has a nose and what does the elephant
+*MOT:	elephant has a long nose .
+*MOT:	and what is the long nose called ?
+*MOT:	he has feet too .
+*MOT:	but what is the elephant's long nose called ?
+*MOT:	do you know ?
+*MOT:	that is a camel .
+*MOT:	I see .
+*MOT:	how many camels are there ?
+*MOT:	o:h where is the tiger ?
+*MOT:	is the monkey upside down ?
+*MOT:	I see him .
+*MOT:	where is he ?
+*MOT:	what is he sitting on ?
+*MOT:	what does he have in his hand ?
+*MOT:	a banana .
+*MOT:	can you say +"/.
+*MOT:	+" banana ?
+*MOT:	can you say +"/.
+*MOT:	+" banana ?
+*MOT:	what is this monkey doing ?
+*MOT:	what is this monkey doing ?
+*MOT:	that is a rhinoceros .
+*MOT:	that's a baby rhinoceros .
+*MOT:	is this a big or a little rhinoceros ?
+*MOT:	that's a little rhinoceros .
+*MOT:	here's the monkeys swinging .
+*MOT:	do you like to swing ?
+*MOT:	that's a hopping kangaroo .
+*MOT:	what's this ?
+*MOT:	is that a little baby ?
+*MOT:	that's a big hopping kangaroo ?
+*MOT:	where's the baby kangaroo ?
+*MOT:	there's the rhinoceros .
+*MOT:	no (.) that's a monkey on a swing .
+*MOT:	what ?
+*MOT:	no (.) he's not on a slide .
+*MOT:	did you go on an elephant slide yesterday ?
+*MOT:	was it fun ?
+*MOT:	what did you do ?
+*MOT:	Rachel slide down ?
+*MOT:	did she ?
+*MOT:	and did Nina slide down ?
+*MOT:	what did you do ?
+*MOT:	did you climb up and then slide down ?
+*MOT:	were there lots_of children there ?
+*MOT:	what color are these blocks ?
+*MOT:	what do you want to take off .
+*MOT:	are you taking out all the blocks ?
+*MOT:	what are you going to do with the blocks ?
+*MOT:	oh (.) are you going to put the baby to sleep in the wagon ?
+*MOT:	I see .
+*MOT:	you taking the baby out_of the bed ?
+*MOT:	what happened ?
+*MOT:	your foot get stuck ?
+*MOT:	no (.) that's just a paper bag .
+*MOT:	did you see some birds at the zoo ?
+*MOT:	do you remember ?
+*MOT:	did you see birds yesterday ?
+*MOT:	what kind of birds ?
+*MOT:	that's a peacock .
+*MOT:	it's called a peacock .
+*MOT:	were there any ducks at the zoo ?
+*MOT:	what were they doing ?
+*MOT:	they're wet .
+*MOT:	why were they wet ?
+*MOT:	what were they doing in the water ?
+*MOT:	I climb in the water .
+*MOT:	that's the ball at the end of the string +...
+*MOT:	to pull the wagon .
+*MOT:	look (.) Nina .
+*MOT:	shall we build something ?
+*MOT:	where's what ?
+*MOT:	what happened ?
+*MOT:	it fell down ?
+*MOT:	you want to build something ?
+*MOT:	okay (.) here let's take all the blocks .
+*MOT:	where shall we build it ?
+*MOT:	shall we build it on the wagon +...
+*MOT:	or on the floor ?
+*MOT:	are you putting a car on the road ?
+*MOT:	shall we build a road ?
+*MOT:	here .
+*MOT:	you're welcome .
+*MOT:	is this my house ?
+*MOT:	and what's this ?
+*MOT:	is there a block on there ?
+*MOT:	oh (.) you're building a nice street .
+*MOT:	what's this ?
+*MOT:	you build a nice street .
+*MOT:	what's this ?
+*MOT:	is that a bridge ?
+*MOT:	you cross Maggie's street ?
+*MOT:	are you building Maggie's street now ?
+*MOT:	okay (.) you build Maggie's street .
+*MOT:	okay (.) where's the sidewalk ?
+*MOT:	where shall we build the sidewalk ?
+*MOT:	shall we pretend this is the road ?
+*MOT:	shall we get your little cars ?
+*MOT:	go get some little cars (.) and we'll make a road for the little
+*MOT:	okay ?
+*MOT:	do you want to ?
+*MOT:	see the cars over there .
+*MOT:	o:h (.) look at the bus .
+*MOT:	crossing the road to Maggie's house ?
+*MOT:	you crossing to me ?
+*MOT:	crossing to Maggie's house ?
+*MOT:	Maggie's at home .
+*MOT:	we'll go see her soon .
+*MOT:	can the horse go on the road too ?
+*MOT:	no ?
+*MOT:	why not ?
+*MOT:	he doesn't fit on the horse ?
+*MOT:	is he pulling the reins of the horse ?
+*MOT:	did you see some girls riding on horses when we visited Colby ?
+*MOT:	where were they riding ?
+*MOT:	an elephant ?
+*MOT:	no (.) they were riding on horses (.) remember ?
+*MOT:	you want to get some more cars for your road ?
+*MOT:	poor Nina ?
+*MOT:	what's that ?
+*MOT:	what's that (.) Nina ?
+*MOT:	the car's crossing the horsie ?
+*MOT:	you took the man home ?
+*MOT:	he's biting him ?
+*MOT:	ou [: oh] .
+*MOT:	that's a horsie's home ?
+*MOT:	I see .
+*MOT:	you want to put a tail on the +...
+*MOT:	giraffe ?
+*MOT:	where's the giraffe's home ?
+*MOT:	can you put the giraffe in his home ?
+*MOT:	did the giraffe fall down from his house ?
+*MOT:	does Justin have a giraffe like this ?
+*MOT:	do you like it ?
+*MOT:	your giraffe .
+*MOT:	can you say +"/.
+*MOT:	+" giraffe ?
+*MOT:	did you see giraffes at the zoo yesterday ?
+*MOT:	no (.) you didn't ?
+*MOT:	did you see a giraffe in the zoo ?
+*MOT:	you what ?
+*MOT:	he's on the horse (.) the man .
+*MOT:	that's right .
+*MOT:	the pony (.) and he's going giddy up on the pony ?
+*MOT:	shall we build some more zoo animals ?
+*MOT:	what kind of animals can we build here ?
+*MOT:	let's see .
+*MOT:	where's the monkey ?
+*MOT:	let's see .
+*MOT:	there's a picture of a monkey in here (.) I bet .
+*MOT:	or in this book .
+*MOT:	is there a picture of a monkey in this book ?
+*MOT:	that's the zoo book .
+*MOT:	what are the monkeys doing ?
+*MOT:	they're swinging from a bar .
+*MOT:	the man swings on bars too .
+*MOT:	remember at the park we saw a lady swinging from bars ?
+*MOT:	high up in the sky .
+*MOT:	shall we build something else with your blocks or shall we put them
+*MOT:	you putting the man on the dog (.) on the horse's head ?
+*MOT:	can he stay up there or does he fall down ?
+*MOT:	did you see some bears at the zoo ?
+*MOT:	were there some big bears ?
+*MOT:	and what else ?
+*MOT:	I remember .
+*MOT:	they looked like pandas (.) didn't they ?
+*MOT:	yeah [= yes] (.) was there a little panda in the zoo too ?
+*MOT:	was there a little panda at the zoo too ?
+*MOT:	that's a big panda .
+*MOT:	you're carrying him ?
+*MOT:	did you see a big zebra yesterday ?
+*MOT:	oh .
+*MOT:	I thought the cutest were the little bears (.) though .
+*MOT:	remember the two baby bears at the zoo ?
+*MOT:	patty cake (.) patty cake .
+*MOT:	patty cake (.) patty cake .
+*MOT:	that's right .
+*MOT:	the man can't do patty cake (be)cause his arms are too stiff .
+*MOT:	his arms are too stiff .
+*MOT:	do you want to take the man to see your doll house ?
+*MOT:	you should take the man inside your doll house .
+*MOT:	show him your nice doll house .
+*MOT:	shall we ?
+*MOT:	where did you put him ?
+*MOT:	is that horse biting the man ?
+*MOT:	does that hurt ?
+*MOT:	I guess so .
+*MOT:	what's the horse doing ?
+*MOT:	eating your sweat shirt ?
+*MOT:	he biting me ?
+*MOT:	there .
+*MOT:	he bit you too ?
+*MOT:	are you going to listen to my ear with your stethoscope ?
+*MOT:	where did you put the stethoscope ?
+*MOT:	listening to my bottom .
+*MOT:	oh (.) you're so funny .
+*MOT:	want to listen to the lady ?
+*MOT:	how about to the dolly ?
+*MOT:	listening to Mommy ?
+*MOT:	what are you listening to ?
+*MOT:	listening to my chest ?
+*MOT:	you listen to me .
+*MOT:	oh boy .
+*MOT:	all finished .
+*MOT:	look what I put in the house .
+*MOT:	is it your turn ?
+*MOT:	your turn to put something in the house ?
+*MOT:	oh (.) you're turning the stethoscope .
+*MOT:	I see what you're talking about .
+*MOT:	do you want me to listen to you ?
+*MOT:	where do you want me to listen .
+*MOT:	listen to you where ?
+*MOT:	on your tummy ?
+*MOT:	you want to listen to more .
+*MOT:	let me take the dolly and you can take care of her .
+*MOT:	what would you like to listen to ?
+*MOT:	oh (.) what are you listening to ?
+*MOT:	what part of dolly ?
+*MOT:	you finished ?
+*MOT:	is she okay ?
+*MOT:	dolly has a lady ?
+*MOT:	she has (pa)jamas on (.) pajamas .
+*MOT:	she's okay .
+*MOT:	what are you going to do ?
+*MOT:	are you going to listen to her ear ?
+*MOT:	are you going to feed her something ?
+*MOT:	what are you feeding her ?
+*MOT:	she's alright .
+*MOT:	does she have a little hurt on her ?
+*MOT:	it's all red .
+*MOT:	what are you going to do ?
+*MOT:	you going to get a blanket for her ?
+*MOT:	there's a yellow blanket .
+*MOT:	she has a yellow blanket ?
+*MOT:	she's okay ?
+*MOT:	she's okay .
+*MOT:	would you like to take your doll to Maggie's house today ?
+*MOT:	where do you want to leave your doll ?
+*MOT:	in your house ?
+*MOT:	what are you doing to her ?
+*MOT:	Justin has a doll (.) yeah [= yes] .
+*MOT:	Justin has a doll too .
+*MOT:	yeah [= yes] (.) Leila has a doll too .
+*MOT:	yeah [= yes] (.) Nina has a doll .
+*MOT:	do you want me to stay here ?
+*MOT:	okay .
+*MOT:	is she lying on her blanket ?
+*MOT:	do you want to give her a ride on the wagon ?
+*MOT:	what are you doing ?
+*MOT:	you putting her on the wagon ?
+*MOT:	oh (.) are you giving the dog your balloon ?
+*MOT:	you got what ?
+*MOT:	what is she doing ?
+*MOT:	she's hurting and you fixed her ?
+*MOT:	I like your dolly .
+*MOT:	oh .
+*MOT:	why ?
+*MOT:	she sleeping ?
+*MOT:	can't talk (be)cause she's sleeping ?
+*MOT:	o:h (.) is she taking a nap ?
+*MOT:	where is she taking a nap ?
+*MOT:	oh (.) is her foot cold ?
+*MOT:	so what are you going to do ?
+*MOT:	what are you going to do ?
+*MOT:	get away the (.) blocks ?
+*MOT:	you don't want anybody to wake up your dolly ?
+*MOT:	uhoh [= trouble] look at her feet .
+*MOT:	what are you going to do ?
+*MOT:	do you think they'll get cold ?
+*MOT:	maybe you should cover them .
+*MOT:	is she okay ?
+*MOT:	do you think she would like something to eat ?
+*MOT:	what would she like to eat ?
+*MOT:	some bottles ?
+*MOT:	do you think she'd like some bottles ?
+*MOT:	let's see .
+*MOT:	there's a bottle here .
+*MOT:	what are you going to give her ?
+*MOT:	are you giving her a bottle ?
+*MOT:	of what ?
+*MOT:	are you giving her a bottle apple juice ?
+*MOT:	you just have milk (.) so you're just giving her milk ?
+*MOT:	no apple juice .
+*MOT:	does she like the milk ?
+*MOT:	is she thirsty ?
+*MOT:	no (.) that's not soap and water .
+*MOT:	that's milk .
+*MOT:	soap and water would make her vomit .
+*MOT:	that would be horrible .
+*MOT:	you ate soap once (.) didn't you ?
+*MOT:	didn't it give you a tummy ache ?
+*MOT:	what happened ?
+*MOT:	you drank it and then you were sick (.) weren't you ?
+*MOT:	xxx drank soap and water .
+*MOT:	that's a doctor .
+*MOT:	that's a nurse .
+*MOT:	no (.) Nina was sick last week (.) but Nina's not sick anymore .
+*MOT:	did you see the nurse when you were sick ?
+*MOT:	and did you see the doctor ?
+*MOT:	was Leila sick too ?
+*MOT:	no (.) Leila's okay now .
+*MOT:	Nina and Leila were sick a few days ago (.) but they're not sick
+*MOT:	they were sick a whole week ago .
+*MOT:	where's the doctor ?
+*MOT:	where's the doctor ?
+*MOT:	oh (.) look who's on the wagon .
+*MOT:	who's on the wagon ?
+*MOT:	nurse and the doctor are on the wagon (.) aren't they ?
+*MOT:	the doctor falling down too ?
+*MOT:	they're sliding down ?

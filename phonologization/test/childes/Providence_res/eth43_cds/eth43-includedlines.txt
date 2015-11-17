@@ -1,0 +1,836 @@
+*MOT:	should we pump up the balloon ? 0_3251
+*MOT:	okay . 6819_7788
+*MOT:	oka:y . 14245_15895
+*MOT:	pu:mp . 17000_18060
+*MOT:	you gotta keep pumping , keep pumping . 18060_27850
+*MOT:	can you try ? 27851_29421
+*MOT:	you try it now . 29421_30150
+*MOT:	pump pump pump quickly it's going down ! 30150_32291
+*MOT:	pump . 32291_34600
+*MOT:	we'll do it together . 34600_35525
+*MOT:	pump . 35525_37000
+*MOT:	you know what I think there must be a hole in this one . 37000_39731
+*MOT:	maybe not . 39731_42508
+*MOT:	try again . 42508_43493
+*MOT:	pu:mp . 43493_45286
+*MOT:	pu:mp , pu:mp . 45286_50190
+*MOT:	there you go , looks like the sun . 50190_52813
+*MOT:	do you want it ? 52813_56835
+*MOT:	xxx keep pumping +//?
+*MOT:	ouch . 56836_59036
+*MOT:	uhoh it's deflati:ng , it's deflating , it's shrinking , it's +... 59036_66310
+*MOT:	uhoh where did it go: ? 66310_69653
+*MOT:	right next to your bottle !
+*MOT:	it appeared , yes it did . 76455_78428
+*MOT:	it's not disappeared , now it's appeared . 81750_84368
+*MOT:	I'm gonna turn on this fan here . 84368_89693
+*MOT:	now we'll be cool .
+*MOT:	you put the balloon on the pump again ? 105760_108073
+*MOT:	oh then we have_to switch right ? 109900_112126
+*MOT:	to take this one off . 112126_115040
+*MOT:	stick that one on there , now can you stick the balloon on the pump ? 115040_122500
+*MOT:	there you go ! 122500_124741
+*MOT:	rea:dy ? 124741_127110
+*MOT:	I'll hold it down . 127110_131061
+*MOT:	I'll hold it down and you go up and do:wn , there you go . 131061_137400
+*MOT:	and up again . 137400_138300
+*MOT:	xxx you have_to keep going . 138300_140750
+*MOT:	putting more and more air inside , ah . 140750_142955
+*MOT:	eh , xxx . 142955_145718
+*MOT:	it's hard work , huh ? 145718_149075
+*MOT:	there you go . 149076_150100
+*MOT:	now one more time ! 150100_151155
+*MOT:	xxx . 151155_152500
+*MOT:	one more time ! 152500_153510
+*MOT:	whoosh .
+*MOT:	xxx .
+*MOT:	keep goi(ng) +//.
+*MOT:	oh it shrunk . 155678_158341
+*MOT:	you want me to do it ? 158341_159750
+*MOT:	you want me to do it ? 160786_166795
+*MOT:	a present for you . 166796_168703
+*MOT:	you wanna tie it , you want me to make it bigger ? 169353_171293
+*MOT:	should I tie it when it's bigger ? 172470_173890
+*MOT:	oops . 173890_178530
+*MOT:	big enough ? 178530_181440
+*MOT:	now should I tie it ? 181441_184425
+*MOT:	you wanna tie it onto what ? 187631_188946
+*MOT:	your finger +//?
+*MOT:	heh . 189900_190985
+*MOT:	let's see . 190985_192700
+*MOT:	it might hurt ! 192700_193695
+*MOT:	let's tie it onto the train . 193695_195275
+*MOT:	or something .
+*MOT:	let's see if we can figure out a way +//.
+*MOT:	you can take your backpack off if you want . 198080_201255
+*MOT:	let's see .
+*MOT:	can we tie it onto the back of the train ? 204241_206970
+*MOT:	okay , yeah , that'll be interesting . 210750_212745
+*MOT:	let's see if we could do that . 212745_215431
+*MOT:	I'm gonna try . 218630_220006
+*MOT:	mm yep [: yes] !
+*MOT:	and I think I have_to let a little air out . 231678_235300
+*MOT:	okay . 235300_236183
+*MOT:	now I have_to make a knot .
+*MOT:	a:nd stick it i:n . 240638_246140
+*MOT:	and +... 246141_247646
+*MOT:	there we go , now let's make the train go . 247646_251960
+*MOT:	what happened +//?
+*MOT:	oh . 254076_259410
+*MOT:	xxx , uhoh it's gonna knock everything over .
+*MOT:	xxx . 263883_265925
+*MOT:	it won't be able to go through that bridge . 268800_270981
+*MOT:	(be)cause the balloon is too big . 270981_274141
+*MOT:	it's stuck stuck stuck ! 274141_278581
+*MOT:	what should we do about it ? 279901_281653
+*MOT:	I don't know ! 283381_284415
+*MOT:	let's see , we'll lift it up woo: and then let it go again . 284415_291005
+*MOT:	balloon train !
+*MOT:	&uh ! 295973_297300
+*MOT:	did that one , uhoh it's coming to the stuck place again . 297000_300326
+*MOT:	xxx . 300326_302048
+*MOT:	what are we gonna do about it ? 302048_304808
+*MOT:	I don't know ! 306275_307225
+*MOT:	okay move that out of the way . 308700_310398
+*MOT:	that didn't help . 310398_312270
+*MOT:	the train +//.
+*MOT:	the bridge is too narrow . 312270_314493
+*MOT:	and the balloon is too +..? 314493_317023
+*MOT:	what's the opposite of narrow ? 317023_319248
+*MOT:	I can't make the bridge wide ! 323208_325943
+*MOT:	yeah maybe we need a different kind of bridge . 328610_334900
+*MOT:	let's see . 334900_335900
+*MOT:	yeah we need a wide bridge , this is not wide is it ? 337411_342060
+*MOT:	that's pretty narrow too . 342061_343813
+*MOT:	and that one is even more narrow than that one . 343813_348720
+*MOT:	uhoh: .
+*MOT:	you wanna take that one away +//?
+*MOT:	okay . 357640_359151
+*MOT:	and let's turn this off for a little bit . 359151_362500
+*MOT:	while you switch the tracks +//.
+*MOT:	it's right behind you honey .
+*MOT:	that's right .
+*MOT:	there you go . 372948_374830
+*MOT:	xxx . 374830_376773
+*MOT:	you can make the Little Engine That Could go through that bridge . 378571_385845
+*MOT:	whoops . 385846_387021
+*MOT:	not backwards it won't . 387021_394800
+*MOT:	perfect ! 394800_395816
+*MOT:	perfect for a plane ? 401641_403608
+*MOT:	to go through , yeah . 406663_408225
+*MOT:	let's lift up the green thing , oop . 408225_412146
+*MOT:	it's gotta stop ! 412146_413746
+*MOT:	now pull the green thing down . 413746_415713
+*MOT:	pull the lever . 415713_417705
+*MOT:	will you push the lever ? 417705_419741
+*MOT:	that's right , oop , thank you . 419741_422070
+*MOT:	now the Little Engine can go . 422070_425520
+*MOT:	oop , we need the tunnel huh ? 425520_429676
+*MOT:	right through the trestle bridge . 429678_438156
+*MOT:	earth to Ethan , earth to Etha:n , are you there ? 438158_445880
+*MOT:	are you thinking ?
+*MOT:	oop , let's keep that up there . 449941_455680
+*MOT:	&dawee &dawee &dawee &da . 459446_461448
+*MOT:	want some more +..?
+*MOT:	should we make +//.
+*MOT:	you wanna make Hokey and Pokey ? 466375_469558
+*MOT:	you wanna make Hokey and Pokey ? 471000_472903
+*MOT:	no ? 474315_474815
+*MOT:	0should we get the Play Doh ? 474815_478310
+*MOT:	here . 478311_488475
+*MOT:	what color do you wanna make Pokey ? 496693_500356
+*MOT:	what +//?
+*MOT:	or Pokey . 502050_503460
+*MOT:	which one , which color ? 503460_505406
+*MOT:	xxx . 508323_509500
+*MOT:	you're gonna make a big stack ? 512000_517070
+*MOT:	xxx .
+*MOT:	the truck's gonna knock it down , okay there you go .
+*MOT:	o:h !
+*MOT:	xxx , you knocked down my Play Doh stack . 528110_531683
+*MOT:	xxx . 531683_533710
+*MOT:	that's a fancy black car . 533710_537500
+*MOT:	I like that car . 537500_538678
+*MOT:	and you like that truck +//.
+*MOT:	what about this ? 541120_543125
+*MOT:	xxx , too short , xxx . 543125_547000
+*MOT:	it's not a tall enough hill . 547000_548660
+*MOT:	&yoo: ! 548660_552600
+*MOT:	oh those are the sunglasses you made for the truck . 552600_555965
+*MOT:	everything looks fuzzy and funny when you took the glasses off , that's what happens . 561620_567140
+*MOT:	he has a box , I wonder what's in the box . 571311_573903
+*MOT:	what do you think ?
+*MOT:	maybe something , I bet you're right , it's something , wee: . 580320_585031
+*MOT:	xxx . 585031_586750
+*MOT:	hey , so are we gonna build Hokey ? 591406_594128
+*MOT:	or Pokey ?
+*MOT:	or Dooby ?
+*MOT:	we can't get the bench out of the way sweetie (be)cause it's stuck there . 604838_609746
+*MOT:	what house ? 616980_618118
+*MOT:	in the shed , oh the shed we made .
+*MOT:	can you squeeze the Play Doh all up between the walls of the house ? 627600_630780
+*MOT:	o:h ! 631980_633800
+*MOT:	xxx , is it getting squashed ? 641000_642678
+*MOT:	xxx . 649200_650798
+*MOT:	is that your squashing machine ? 650798_652966
+*MOT:	your special super+duper squashing machine ? 652966_656940
+*MOT:	let's do it on the mat okay ? 660975_662778
+*MOT:	not on the rug . 662778_663975
+*MOT:	on the mat . 665798_666798
+*MOT:	whoops . 666798_668246
+*MOT:	xxx . 668246_671248
+*MOT:	this looks like a big tongue , doesn't it ? 674350_676316
+*MOT:	xxx , huh . 676316_679251
+*MOT:	xxx . 679251_683200
+*MOT:	but it's really (.) a wing for a plane . 683200_687163
+*MOT:	don't flap a xxx , xxx , what was it +//? 687163_691731
+*MOT:	wobble a wing !
+*MOT:	xxx , could be the flap too . 697060_699251
+*MOT:	yeah . 699251_700208
+*MOT:	xxx .
+*MOT:	why don't we make an airplane this time ? 704501_706451
+*MOT:	we're always making trains , let's make the airplane . 706451_710245
+*MOT:	I think the wings go in the side of the plane . 712900_717726
+*MOT:	woo: .
+*MOT:	it needs something to land , does it need its wheels ?
+*MOT:	which ones are the plane wheels +//?
+*MOT:	oh here they are .
+*MOT:	right ? 743371_746000
+*MOT:	xxx it's flyi:ng ! 746000_749500
+*MOT:	xxx , it landed just (.) on its body with no wheels . 756115_761971
+*MOT:	mhm . 766450_769088
+*MOT:	there you go , it's a funny shape plane . 769088_773500
+*MOT:	usually the wheels go on the si(de) +//.
+*MOT:	the wings go on this side right ? 773500_778630
+*MOT:	and then you could put the face in . 780421_782573
+*MOT:	xxx . 782573_786213
+*MOT:	a face up top ? 786213_788570
+*MOT:	and what about the tail ? 788570_789816
+*MOT:	you want this tail or (.) that tail ? 789816_797518
+*MOT:	(o)kay . 798493_801460
+*MOT:	there you go .
+*MOT:	and it needs its wheels . 805356_807785
+*MOT:	it already has a hole doesn't it ? 811600_813830
+*MOT:	there you go !
+*MOT:	Buzz One to ranger station , Buzz One . 817038_820103
+*MOT:	coming down for a landing , xxx ! 820103_825295
+*MOT:	it is a sea plane . 827001_828200
+*MOT:	except it has wheels instead of +... 828200_830681
+*MOT:	pontoons !
+*MOT:	okay , I'll put the xxx pontoons in +//.
+*MOT:	there's one . 838100_840566
+*MOT:	and two . 841943_843478
+*MOT:	want me to hold it up for you ?
+*MOT:	let's fill up this hole first .
+*MOT:	mhm . 851350_853421
+*MOT:	other way , yep [: yes] . 853423_856765
+*MOT:	xxx , spread (th)em out .
+*MOT:	now it really is a sea plane . 860248_862131
+*MOT:	di(d) +//.
+*MOT:	and we made a lake on the cardboard . 865478_867885
+*MOT:	(re)member we made a lake ? 867885_870008
+*MOT:	it can land , heh it's skating . 873465_876796
+*MOT:	the +//.
+*MOT:	whoops . 879436_881693
+*MOT:	there's the lake .
+*MOT:	whoops .
+*MOT:	he needs to be repaired a little huh ? 896288_900555
+*MOT:	let's fix his body . 900556_904285
+*MOT:	are you gonna put his ice+skates on ? 908100_910201
+*MOT:	I'd like to see an airplane ice+skating , that would be interesting . 910201_914093
+*MOT:	then we would need what kinda [: kind of] truck to clean the ice ? 914093_917543
+*MOT:	what kinda [: kind of] truck cleans the ice ? 917543_920916
+*MOT:	a xxx +... 920916_923456
+*MOT:	0do you remember ? 923456_925518
+*MOT:	Zamboni , that's right , xxx ! 926295_929595
+*MOT:	okay , you want to put the xxx xxx pontoons in ? 929595_934188
+*MOT:	xxx . 934188_939985
+*MOT:	the fan was making a funny noise huh ? 939986_947490
+*MOT:	okay . 947491_948831
+*MOT:	it's ice+skating , gli:de , gli:de , gli:(de) +//.
+*MOT:	woo doing fancy tricks on i(ce) +//. 951931_959986
+*MOT:	skates , xxx . 959986_963200
+*MOT:	you have the wheels between your toes . 964795_966786
+*MOT:	mm you're a little monkey , you can pick up things with your toes . 971540_974930
+*MOT:	so can I . 974930_979745
+*MOT:	xxx .
+*MOT:	okay . 984750_985650
+*MOT:	xxx , there we go . 988873_990650
+*MOT:	now what face ? 990650_994018
+*MOT:	you wanna put the Dooby face in ? 994018_996141
+*MOT:	yeah that face is really for a plane . 999823_1003408
+*MOT:	&hoo . 1003408_1004675
+*MOT:	where is it +//?
+*MOT:	ah here it is . 1006075_1007940
+*MOT:	okay . 1021176_1021960
+*MOT:	pig nose here . 1022960_1024410
+*MOT:	another piece . 1024410_1027126
+*MOT:	now you wanna cover up his eyes ? 1039041_1040586
+*MOT:	xxx it'll look green ? 1040586_1041993
+*MOT:	a pinch here . 1045528_1047728
+*MOT:	a pinch there . 1047728_1050483
+*MOT:	xxx . 1050483_1054511
+*MOT:	gobble up some grub here . 1055713_1059665
+*MOT:	mhm . 1061400_1063100
+*MOT:	mhm . 1066246_1068475
+*MOT:	that's a snack truck , yep [: yes] , in the book . 1073500_1076351
+*MOT:	have your snack . 1076351_1079556
+*MOT:	now he looks really funny , heh .
+*MOT:	green eyes and a pink nose . 1083296_1086518
+*MOT:	xxx his eyeballs are covered up by the green huh ? 1089500_1094430
+*MOT:	mm yep [: yes] . 1097226_1097926
+*MOT:	does he need any wings or anything ? 1101075_1104996
+*MOT:	and pontoons , well there's one pontoon . 1113280_1117860
+*MOT:	shh , and here's the other one . 1117861_1122710
+*MOT:	xxx . 1124300_1126903
+*MOT:	xxx xxx xxx xxx . 1126903_1129700
+*MOT:	that goes on the bottom right ? 1132118_1134000
+*MOT:	that's where the pontoons go . 1134000_1136821
+*MOT:	yeah a little pink got in there huh ? 1137900_1139790
+*MOT:	must have been from his nose . 1139790_1144680
+*MOT:	good boy .
+*MOT:	xxx huh ?
+*MOT:	wheels .
+*MOT:	what if there were no wheels Ethan , how would people go ? 1169191_1174501
+*MOT:	whee:l , xxx . 1174503_1176510
+*MOT:	I'm thirsty little guy . 1178103_1181046
+*MOT:	I need to get something to drink .
+*MOT:	ups ! 1207608_1208660
+*MOT:	xxx . 1208660_1211730
+*MOT:	yep [: yes] . 1215376_1217195
+*MOT:	xxx . 1217195_1220806
+*MOT:	do you wanna open one ? 1220808_1223246
+*MOT:	or two ? 1225235_1235020
+*MOT:	that's +...
+*MOT:	yep [: yes] , xxx . 1239106_1242290
+*MOT:	do you wanna race them ? 1245930_1257091
+*MOT:	mhm , this is the car container . 1263100_1265890
+*MOT:	yep [: yes] , you're right , two car containers (.) for two cars . 1268330_1278160
+*MOT:	hmm . 1278160_1279545
+*MOT:	I'm not sure that will come off . 1279545_1281683
+*MOT:	xxx try ? 1284270_1296810
+*MOT:	xxx .
+*MOT:	yep [: yes] ! 1300600_1301118
+*MOT:	yep [: yes] , oop . 1302518_1304273
+*MOT:	oh your microphone fell . 1304273_1309175
+*MOT:	snap crackle . 1309176_1312760
+*MOT:	whoops . 1321581_1322081
+*MOT:	maybe you could stick the two containers together to make one big container for one car . 1324081_1329185
+*MOT:	stick the car in here . 1329185_1332260
+*MOT:	we could tape them together . 1335241_1337208
+*MOT:	you want some tape ? 1338856_1342476
+*MOT:	where's the tape +//?
+*MOT:	here it is . 1342478_1345221
+*MOT:	something's happening with the air+conditioner . 1350430_1358045
+*MOT:	the car is broken ? 1363223_1367476
+*MOT:	mm , xxx . 1369750_1371575
+*MOT:	it's also the shape of the box +//.
+*MOT:	do you want to hook the two +..?
+*MOT:	oh you mean like the engine in the park was broken (be)cause it was sticking up in the air . 1380000_1384800
+*MOT:	so they could see the engine .
+*MOT:	who could help out ?
+*MOT:	maybe the Truckbot ?
+*MOT:	he pulled and pulled , he's trying to fix him ? 1404990_1407173
+*MOT:	he did it . 1409291_1410000
+*MOT:	he got him out of that tough situation , huh ? 1410000_1413475
+*MOT:	that was a tough situation when he went into the mine . 1419613_1425461
+*MOT:	here , do you need a piece of tape ? 1425463_1427493
+*MOT:	hmm mm ? 1429583_1431183
+*MOT:	you're gonna hook the two boxes together ?
+*MOT:	there you go . 1439818_1444415
+*MOT:	whoops , do you have the tape upside down Ev ? 1444415_1447026
+*MOT:	it's sticking to your fingers , you have_to flip it over . 1447026_1449626
+*MOT:	like that . 1449626_1451986
+*MOT:	xxx . 1451986_1453531
+*MOT:	let's see . 1453531_1459355
+*MOT:	xxx , now they're stuck together . 1459356_1466515
+*MOT:	mhm . 1475611_1477770
+*MOT:	now they're front to front .
+*MOT:	kind of front to front right ? 1493836_1496665
+*MOT:	what truck can help out ? 1496665_1499123
+*MOT:	can a fire+truck help in this situation ? 1499123_1504355
+*MOT:	mhm .
+*MOT:	xxx .
+*MOT:	xxx .
+*MOT:	what about the other one +//?
+*MOT:	he's still stuck . 1522426_1524608
+*MOT:	do you know what number he is +//?
+*MOT:	he has a number on him . 1524608_1528298
+*MOT:	do you see what number he is ? 1528298_1530011
+*MOT:	yeah he it is plain , this one has the number seven . 1532731_1535475
+*MOT:	I think it is plain , you're right . 1537298_1539155
+*MOT:	(ex)cept it has a gold stripe on it . 1539155_1542153
+*MOT:	shoop@o ! 1542153_1558660
+*MOT:	you wanna unstick them together ? 1558660_1560761
+*MOT:	no ? 1561990_1565416
+*MOT:	naw he can't fit . 1567418_1568883
+*MOT:	the cars can , yep [: yes] . 1574481_1581591
+*MOT:	xxx xxx dreaming about it ? 1585018_1589035
+*MOT:	oh what is the car dreaming about ? 1592735_1594723
+*MOT:	I think cars dream about roads (.) where they can go fast and far . 1594723_1605175
+*MOT:	xxx , sometimes they're in trouble yeah . 1607941_1610810
+*MOT:	maybe this ti:me an airplane can help out ! 1613346_1618921
+*MOT:	xxx xxx xxx . 1620221_1623026
+*MOT:	xxx xxx . 1623026_1626506
+*MOT:	mhm .
+*MOT:	well we could close the door +//.
+*MOT:	you want me to show you like this ? 1639146_1642911
+*MOT:	put them together , okay . 1642911_1644515
+*MOT:	put the car inside . 1644515_1647346
+*MOT:	xxx , then it's got a little shed inside , then we can tape it . 1647346_1651691
+*MOT:	xxx . 1651691_1655420
+*MOT:	now the door's really closed , it's stuck inside . 1655420_1660321
+*MOT:	xxx . 1661321_1662835
+*MOT:	who could help out that situation ? 1662835_1665681
+*MOT:	where is the other car +//?
+*MOT:	yeah . 1670243_1672106
+*MOT:	it's invisible: ! 1674415_1676435
+*MOT:	he's disappeared somewhere ! 1676435_1678490
+*MOT:	there , it appeared . 1680478_1681875
+*MOT:	xxx can't budge it , mm . 1689178_1691038
+*MOT:	xxx .
+*MOT:	that could happen but what if he bumped into Miss Rooter's desk and spilled a:ll the pencils ? 1703458_1708771
+*MOT:	that's right , that's what you hafta do . 1713633_1715915
+*MOT:	0do you wanna sit down on the couch for a little bit and read a story ? 1715915_1719073
+*MOT:	or do you want the Truckbot to help out ? 1721036_1723678
+*MOT:	he had the good hand , I think he could do it , watch this . 1723678_1726753
+*MOT:	xxx xxx xxx xxx , xxx xxx xxx xxx . 1726753_1731386
+*MOT:	xxx .
+*MOT:	the Truckbot did it .
+*MOT:	good job !
+*MOT:	he made the word stop ? 1737575_1739430
+*MOT:	xxx , he was very useful , he's saying hip_hip_hoora:y ! 1739430_1744200
+*MOT:	hip_hip_hoora:y ! 1744200_1745860
+*MOT:	ooh !
+*MOT:	there he has a good view from up there . 1749090_1751636
+*MOT:	xxx , yeah he's watching the Little Engine That Could . 1755098_1758565
+*MOT:	whoops !
+*MOT:	xxx .
+*MOT:	my head grew ? 1771828_1773145
+*MOT:	it did ? 1773145_1774678
+*MOT:	is it still growing and growing and growing ? 1774678_1778136
+*MOT:	it's a grownup head , it is a grownup head . 1780248_1782765
+*MOT:	it's bigger than your head . 1784000_1785741
+*MOT:	xxx , you are so sweet . 1787043_1789546
+*MOT:	xxx .
+*MOT:	okay .
+*MOT:	xxx .
+*MOT:	do you wanna look at my head +//?
+*MOT:	xxx . 1793941_1795871
+*MOT:	my big head ? 1795871_1797541
+*MOT:	my growing growing growing head ? 1797541_1800421
+*MOT:	now it looks tiny , it looks tiny all the way over there . 1800421_1805240
+*MOT:	xxx .
+*MOT:	look at my head +//?
+*MOT:	xxx . 1808285_1809793
+*MOT:	look at this . 1809793_1812548
+*MOT:	whoops ! 1812548_1813740
+*MOT:	uhoh: . 1813548_1815740
+*MOT:	uhoh I'm crooked . 1815740_1818420
+*MOT:	wanna wave +//?
+*MOT:	hi: , hi: , hi over the:re . 1820808_1825686
+*MOT:	oh . 1829046_1831678
+*MOT:	I'm not crooked anymore , thank you . 1831678_1833748
+*MOT:	&hoo ! 1833748_1835423
+*MOT:	I popped back . 1835423_1836246
+*MOT:	xxx . 1836246_1840096
+*MOT:	oh thank goodness . 1845981_1848293
+*MOT:	now I'm straight . 1849838_1851121
+*MOT:	oh no , what happened this time ?
+*MOT:	it's the kisser , it's the kisse:r ! 1855248_1858990
+*MOT:	don't kiss me please ! 1858990_1861325
+*MOT:	xxx please don't kiss me: . 1861325_1865126
+*MOT:	oh no: ! 1865126_1867758
+*MOT:	o:h , you'll leave me crying like this ?
+*MOT:	will you make me feel better plea:se ?
+*MOT:	please please please +//?
+*MOT:	oh o:h , I'm so glad , come give me a hug , give me a hug . 1877138_1882213
+*MOT:	oh thank you , I feel so much xxx be +//.
+*MOT:	xxx oh my gosh it's the kisser , he's still here ! 1882213_1890151
+*MOT:	xxx . 1890151_1891886
+*MOT:	my head looks very small ?
+*MOT:	so does yours , I can hardly see you way down there . 1896485_1901486
+*MOT:	xxx . 1905305_1906615
+*MOT:	xxx oh ! 1906615_1908431
+*MOT:	yeah .
+*MOT:	you're getting closer and closer and your head is getting big(ger) +//.
+*MOT:	bigger and uhoh not anymore , you're going backwards , careful don't bump into the bi:n ! 1911421_1925300
+*MOT:	the bin is behind you . 1925301_1927648
+*MOT:	you wanna pump up ? 1931888_1936726
+*MOT:	xxx . 1947930_1950010
+*MOT:	xxx . 1953325_1953525
+*MOT:	we need something to pump up don't we ? 1957796_1960121
+*MOT:	hmm .
+*MOT:	like the noonoo@c . 1962943_1968795
+*MOT:	xxx xxx xxx xxx .
+*MOT:	hmm chase after the noonoo@c ? 1972510_1974543
+*MOT:	0it makes tickles , wanna feel the tickle ? 1974543_1977018
+*MOT:	xxx . 1977018_1981848
+*MOT:	xxx , I wonder &um +... 1981848_1986945
+*MOT:	you wanna blow up a balloon ? 1991841_1994756
+*MOT:	a different one ? 1994758_1996595
+*MOT:	this one's still attached to the train isn't it ?
+*MOT:	okay . 2002615_2003785
+*MOT:	all clea:r , train coming through with a balloon on the back . 2006381_2010416
+*MOT:	all clear ! 2010416_2011611
+*MOT:	uhoh . 2011611_2016050
+*MOT:	uho:h . 2016051_2017593
+*MOT:	uho:h . 2017593_2019548
+*MOT:	yep [: yes] it's stuck there . 2022871_2024643
+*MOT:	xxx .
+*MOT:	let the tr(ain) +//.
+*MOT:	oh ! 2026806_2028721
+*MOT:	that's funny . 2028721_2030008
+*MOT:	it suddenly moved but there's nothing it can do now . 2030008_2034195
+*MOT:	the Little Engine is going to come and to try to rescue it by pushing it back out of the tunnel . 2034195_2042105
+*MOT:	let's see what happens . 2042105_2049585
+*MOT:	push Little Engine push ! 2049585_2052475
+*MOT:	push Little Engine push , oh it is ! 2052475_2056008
+*MOT:	it's getting it out of the tough situation . 2056008_2058406
+*MOT:	push Little Engine push ! 2058406_2059705
+*MOT:	&uh ! 2059705_2063378
+*MOT:	there we go ! 2063378_2066170
+*MOT:	the Little Engine saved the day ! 2066170_2068506
+*MOT:	huh ? 2074876_2075810
+*MOT:	yep [: yes] it's a plane engine with no face but it has an engine ear . 2080100_2087350
+*MOT:	see the engineer ? 2087350_2092760
+*MOT:	&doop &uh &doop &uh &doop &uh &doop &uh &doo .
+*MOT:	you're blowing on me .
+*MOT:	keep doing it . 2098828_2100628
+*MOT:	I'm pumping you up , right , xxx .
+*MOT:	you made me big , here . 2106438_2107438
+*MOT:	whoops , shrunk . 2110210_2112273
+*MOT:	xxx .
+*MOT:	okay .
+*MOT:	oo:h , wow I blew up a little bit didn't I ? 2116628_2122165
+*MOT:	what about you ?
+*MOT:	can I blow you up ? 2123765_2125946
+*MOT:	xxx . 2128393_2133490
+*MOT:	okay ready ? 2133491_2138850
+*MOT:	you're much bigger now ! 2138851_2141821
+*MOT:	you're almost as big as I am ! 2141821_2144828
+*MOT:	you 0have gotta stop taking that off ! 2144828_2148251
+*MOT:	xxx somewhere else . 2148251_2156370
+*MOT:	huh ah ah ah ah ah ah a:h . 2158918_2164295
+*MOT:	xxx xxx that , xxx xxx xxx . 2165295_2168501
+*MOT:	you could look at yourself . 2168501_2169571
+*MOT:	why don't you look at yourself . 2169571_2170541
+*MOT:	whoops , ups . 2170541_2173385
+*MOT:	can you see ?
+*MOT:	there you are ! 2176218_2177478
+*MOT:	oop , you disappeared . 2177478_2179106
+*MOT:	no , let's not do that sweetie . 2179106_2181763
+*MOT:	yeah . 2181763_2183323
+*MOT:	better to move , but I can see you . 2183323_2186243
+*MOT:	in the box +//?
+*MOT:	when Amanda comes back . 2188818_2193175
+*MOT:	wanna read a story ? 2193176_2194220
+*MOT:	the couch is looks funny doesn't it . 2197620_2200091
+*MOT:	I know let's read your favorite . 2200091_2207540
+*MOT:	xxx xxx wanna read Honey Bunny ? 2207541_2211478
+*MOT:	Funny Bunny ? 2211478_2212818
+*MOT:	xxx .
+*MOT:	xxx . 2215065_2216883
+*MOT:	I'm gonna turn that off (be)cause it's not doing any good . 2216883_2236496
+*MOT:	xxx . 2236498_2240898
+*MOT:	(o)kay . 2240898_2243343
+*MOT:	Honey Bunny Funny Bunny had a big brother . 2243343_2247443
+*MOT:	his name was +... 2247443_2249495
+*MOT:	p+j Funny Bunny . 2249495_2252141
+*MOT:	xxx .
+*MOT:	yep [: yes] it's easier to do . 2259726_2261238
+*MOT:	p+j Funny Bunny (.) and Honey Bunny Funny Bunny . 2261238_2267556
+*MOT:	p+j Funny Bunny loved Honey Bunny Funny Bunny very much . 2267558_2272351
+*MOT:	but he liked to tease her . 2272351_2274695
+*MOT:	every morning p+j pulled the covers off Honey Bunny's bed . 2274695_2281293
+*MOT:	uhoh ! 2281293_2282600
+*MOT:	no covers . 2282600_2285030
+*MOT:	sometimes he poured orange juice on her +... 2285030_2291368
+*MOT:	corn+flakes . 2291368_2293886
+*MOT:	he liked to tie knots in the sleeves of her pretty dresses . 2293886_2298063
+*MOT:	he bored poured blue paint in her yellow paint jar and yellow paint in her (.) blue paint jar . 2298063_2306210
+*MOT:	do you know what those colors make together , if you mix yellow and blue together ? 2306210_2311175
+*MOT:	what color does it make ? 2311175_2312413
+*MOT:	that's right , very good .
+*MOT:	he even switched the heads on her dolls . 2316478_2322001
+*MOT:	what's that ? 2323141_2324093
+*MOT:	Allibunny ! 2325213_2326450
+*MOT:	what's that ?
+*MOT:	looks like a dogillator@wp . 2330613_2333078
+*MOT:	that's what we call that one . 2333078_2335110
+*MOT:	duck dog !
+*MOT:	xxx .
+*MOT:	and a bun duck .
+*MOT:	xxx . 2347445_2350208
+*MOT:	and what one's that ? 2350208_2351208
+*MOT:	it's a bear and a hen together , what would you call that ? 2351208_2356030
+*MOT:	a bear hen ? 2356030_2359940
+*MOT:	that's a hard one , I don't know . 2359941_2362896
+*MOT:	but every night at the dinner table p+j smashed mashed carrots on poor Honey Bunny's head . 2362896_2375165
+*MOT:	look at Honey Bunny +//.
+*MOT:	after that he put her favorite fuzzy bunny blanket in the freezer +//.
+*MOT:	what happens when you put something in the freezer ? 2375165_2382663
+*MOT:	yeah it gets cold and hard too . 2386026_2388493
+*MOT:	at bedtime he hid under her bed and yelled +... 2388493_2393275
+*MOT:	boo ! 2393275_2400015
+*MOT:	at least p+j can't bother me while I'm sleeping , said Honey Bunny Funny Bunny . 2400016_2405318
+*MOT:	the:n o:ne night +... 2405318_2409360
+*MOT:	when Honey Bunny was fast aslee:p (.) p+j painted her face bright green . 2409360_2423725
+*MOT:	Mom , cried Honey Bunny in the morning , look what p+j did . 2423725_2428506
+*MOT:	Mr Funny Bunny was very angry . 2428506_2432565
+*MOT:	he sent p+j to his room . 2432565_2435161
+*MOT:	you were a very bad bunny , Mrs Funny Bunny said . 2435161_2438941
+*MOT:	after that things were very different at the Funny Bunny house . 2438941_2445390
+*MOT:	Honey Bunny had her corn+flakes with +... 2445390_2449583
+*MOT:	what ? 2449583_2450901
+*MOT:	yeah , milk . 2452015_2452973
+*MOT:	her pretty dresses stayed nice and pretty . 2452973_2457265
+*MOT:	with her blue and yellow paint she painted big yellow suns in blue skies . 2457265_2463278
+*MOT:	Honey Bunny's dolls kept their own heads . 2463278_2467428
+*MOT:	they're not switched anymore are they ? 2467428_2472581
+*MOT:	bear bunny duck alligator and hen . 2472583_2476486
+*MOT:	p+j Funny Bunny had stopped teasing Honey Bunny Funny Bunny . 2476486_2484720
+*MOT:	who's that ? 2484720_2486581
+*MOT:	yeah , Grandpa Funny Bunny . 2487925_2489665
+*MOT:	at first Honey Bunny was very happy . 2489665_2495215
+*MOT:	but after a while she began to feel something was missing . 2495215_2501265
+*MOT:	where's p+j , she asked her mother one day . 2501265_2505446
+*MOT:	he's gone out to play with his friends , said Mrs Funny Bunny . 2505446_2513350
+*MOT:	Honey Bunny sat down by the window . 2513350_2516665
+*MOT:	she did not want to paint . 2516665_2518365
+*MOT:	she did not want to play dolls . 2518365_2520065
+*MOT:	she did not even want to play with her friends . 2520065_2523965
+*MOT:	she sat and sat and waited for p+j to come home . 2523965_2534140
+*MOT:	finally p+j came up the walk . 2534141_2537303
+*MOT:	hi p+j , said Honey Bunny . 2537303_2539696
+*MOT:	but p+j went right past Honey Bunny . 2539696_2542938
+*MOT:	what's on the wall ? 2542938_2545118
+*MOT:	hmm ? 2546058_2547006
+*MOT:	a carrot , yeah a picture of a carrot . 2548048_2550808
+*MOT:	yep [: yes] they live in their house just like you live in your house . 2553646_2558730
+*MOT:	they do live in a house that's made out of a tree yeah . 2562035_2565585
+*MOT:	that's right , xxx exactly . 2569236_2571483
+*MOT:	xxx . 2571483_2574305
+*MOT:	let's leave it on okay ? 2574305_2576076
+*MOT:	that night at dinner p+j sat and ate his mashed carrots . 2576076_2581555
+*MOT:	Honey Bunny just stared at hers . 2581555_2584178
+*MOT:	when it was time for bed Honey Bunny's fuzzy bunny blanket was soft and warm . 2584178_2592051
+*MOT:	but Honey Bunny did not care . 2592051_2595376
+*MOT:	yeah her ears are big too . 2599083_2601618
+*MOT:	well they're bunnies , bunnies have big ears . 2601618_2605378
+*MOT:	Honey Bunny looked under her bed . 2605378_2608341
+*MOT:	no p+j . 2608341_2610186
+*MOT:	no boo . 2610186_2611208
+*MOT:	the next morning p+j did not pull the covers off Honey Bunny's bed . 2611208_2617386
+*MOT:	Honey Bunny was as sa:d as sa:d can be . 2617386_2623226
+*MOT:	I don't know , he's hiding . 2626243_2627843
+*MOT:	Mo:m , she cried , p+j doesn't love me anymo:re . 2627843_2632691
+*MOT:	Mrs Funny Bunny looked at Honey Bunny then she smiled +//.
+*MOT:	what should she say ? 2632691_2638441
+*MOT:	oh yes he does , she said . 2640618_2642518
+*MOT:	come with me . 2642518_2644011
+*MOT:	Mrs Funny Bunny took Honey Bunny to the bathroom . 2644011_2650141
+*MOT:	she lifted her up in front of the mirror . 2650141_2652486
+*MOT:	Honey Bunny could not believe her eyes ! 2652486_2655811
+*MOT:	her face was painted blue with +... 2655811_2658656
+*MOT:	yellow polka+dots . 2658656_2662605
+*MOT:	p+j loves me , she cried . 2662606_2666275
+*MOT:	Honey Bunny Funny Bunny was very happy . 2666275_2669415
+*MOT:	she ran to p+j's room . 2669415_2672048
+*MOT:	p+j Funny Bunny you are the best brother a bunny could ever have , said Honey Bunny Funny Bunny . 2672048_2677856
+*MOT:	and she gave him a great big fuzzy bunny hug . 2677856_2682585
+*MOT:	what's that what ? 2684545_2686425
+*MOT:	what room is it ? 2687606_2688626
+*MOT:	hmm . 2688626_2690610
+*MOT:	I think she went into p+j's room . 2690610_2693191
+*MOT:	that's p+j's bedroom . 2693191_2697610
+*MOT:	and she's giving him a hug . 2697611_2701231
+*MOT:	and p+j's ears are sticking up in the air . 2701233_2703888
+*MOT:	xxx . 2703888_2711575
+*MOT:	0did you see the sun come back in the sky ? 2711575_2715630
+*MOT:	xxx .
+*MOT:	yeah the sun came back , it was raining +//.
+*MOT:	you have an owie huh ? 2717150_2720631
+*MOT:	yeah , remember when we were outside before it was raining and now it's sunny . 2722258_2731206
+*MOT:	I turned the air+conditioner on . 2736256_2738543
+*MOT:	it's hot , yeah . 2738543_2741320
+*MOT:	0it 0will keep us nice and cool right ? 2741321_2750905
+*MOT:	are you a sleepy guy ? 2750905_2753143
+*MOT:	sweetie ? 2753143_2754246
+*MOT:	you wanna make the sky dark ? 2757398_2758555
+*MOT:	you want 0to (.) go upstairs and close the shades ? 2758555_2763080
+*MOT:	xxx pull down the shades ? 2763080_2765608
+*MOT:	in your bedroom +//?
+*MOT:	that's the only way we can make the sky dark . 2765608_2771360
+*MOT:	oof . 2771360_2772718
+*MOT:	sorry .
+*MOT:	xxx the moon will come out , the moon will come out tonight . 2776008_2778960
+*MOT:	that's how +//.
+*MOT:	that's when the sky will get dark . 2778960_2783088
+*MOT:	at night . 2783088_2784223
+*MOT:	leave it [x 11] ! 2784223_2791830
+*MOT:	xxx .
+*MOT:	I have one already . 2794921_2801545
+*MOT:	see ? 2801546_2803160
+*MOT:	it does snap , yep [: yes] . 2805031_2807680
+*MOT:	but it's supposed to stay .
+*MOT:	microphone stay ! 2814676_2816773
+*MOT:	stay microphone . 2816773_2819080
+*MOT:	xxx . 2821613_2823048
+*MOT:	you pulled it o:ff . 2824785_2826840
+*MOT:	mhm . 2829315_2830670
+*MOT:	you tugged it off , yeah . 2837738_2839475
+*MOT:	now I don't have a microphone anymore +//.
+*MOT:	what am I gonna do ?
+*MOT:	you wanna xxx snap it in for me ? 2849051_2851460
+*MOT:	the propeller in ? 2856161_2857561
+*MOT:	mhm . 2868286_2869290
+*MOT:	the alligator clip . 2869290_2873606
+*MOT:	here you go +//.
+*MOT:	now can you snap the ball into the clip ? 2873608_2876378
+*MOT:	that's what it's called . 2880658_2883530
+*MOT:	xxx .
+*MOT:	mm you clip the ball right here . 2890841_2893275
+*MOT:	want me to show you ?
+*MOT:	mhm . 2898450_2899250
+*MOT:	xxx it's hungry , it's eating the ball . 2900660_2903106
+*MOT:	hmm . 2903106_2904828
+*MOT:	mhm . 2913440_2915910
+*MOT:	xxx it's hungry , it's gonna eat up the ball .
+*MOT:	mm it's thirsty ? 2924756_2926260
+*MOT:	mm what is it going to drink ? 2926260_2932381
+*MOT:	milk , ah . 2936546_2938228
+*MOT:	alligators drink milk huh ? 2938228_2941771
+*MOT:	thirsty alligators drink milk . 2941773_2944373
+*MOT:	mhm . 2949760_2951108
+*MOT:	balls do bounce , yeah . 2955996_2957763
+*MOT:	yep [: yes] . 2962943_2964688
+*MOT:	that ball is supposed to clip to there . 2964788_2967036
+*MOT:	xxx . 2970288_2971381
+*MOT:	mhm . 2973651_2974451
+*MOT:	that's right . 2976120_2977210
+*MOT:	want me to (.) open the mouth ?
+*MOT:	xxx xxx xxx , xxx .
+*MOT:	xxx xxx xxx .
+*MOT:	xxx xxx , it's sharp in there , that's why it's called an alligator clip . 2984751_2990151
+*MOT:	xxx . 2992898_2993691
+*MOT:	it's hard to do . 2993691_2995101
+*MOT:	mm +...
+*MOT:	you have_to squeeze really hard +...
+*MOT:	between your two fingers +... 3008785_3010823
+*MOT:	hmm . 3010823_3012575
+*MOT:	let's see how you could do it +//.
+*MOT:	how I could help you .
+*MOT:	xxx see , put one finger here and one finger here and +... 3015943_3019480
+*MOT:	squee:ze , xxx . 3019480_3022678
+*MOT:	I don't know if your little fingers can do it pumpkin . 3027546_3030846
+*MOT:	I'm not sure your little fingers can . 3032880_3037155
+*MOT:	squeeze . 3037155_3041156
+*MOT:	ooh careful , heh , did it pinch you ? 3041158_3043368
+*MOT:	xxx , xxx . 3043368_3046815
+*MOT:	xxx , mm . 3050021_3054355
+*MOT:	delicious finger . 3054355_3055315
+*MOT:	xxx . 3060628_3066875
+*MOT:	ouch +//.
+*MOT:	xxx . 3066876_3069541
+*MOT:	mm xxx , and a few nibbles too . 3069541_3076586
+*MOT:	mm xxx . 3076586_3079718
+*MOT:	better ? 3079718_3080773
+*MOT:	xxx . 3087291_3089261
+*MOT:	xxx . 3091998_3096876
+*MOT:	don't do i:t ! 3096878_3101740
+*MOT:	nibble nibble ni(bble) +//.
+*MOT:	oops . 3101741_3104253
+*MOT:	nibble nibble nibble . 3104253_3105841
+*MOT:	one more time . 3108396_3112300
+*MOT:	xxx xxx xxx xxx xxx xxx xxx , xxx . 3112300_3115608
+*MOT:	xxx . 3115608_3120058
+*MOT:	do you need a kiss +//?
+*MOT:	xxx .
+*MOT:	now you're all tangled up . 3133890_3136256
+*MOT:	xxx can't tell whose is whose is whose is whose . 3136256_3140585
+*MOT:	Sue sues , Sue sews whose shoes ? 3142291_3144791
+*MOT:	who sews Sue's shoes ? 3144791_3146350
+*MOT:	xxx . 3146350_3147286
+*MOT:	I don't like that book . 3147286_3149005
+*MOT:	xxx . 3149005_3150425
+*MOT:	who sews Sue's shoes ? 3150425_3151546
+*MOT:	Sue sews shoe sues . 3151546_3152663
+*MOT:	who shows , Sue shows who sues you show shoe show shoe sues . 3152663_3157220
+*MOT:	I can't say it ! 3158676_3160040
+*MOT:	xxx . 3160040_3160713
+*MOT:	xxx .
+*MOT:	my tongue is not made of rubber , xxx . 3166663_3170240
+*MOT:	it can't go xxx , who sews shoe shows shoes so xxx , xxx . 3170240_3176946
+*MOT:	my tongue isn't rubber , it's only a tongue . 3179750_3182646
+*MOT:	but it can twist around . 3182646_3184965
+*MOT:	glubbity_glub@wp . 3184965_3186076
+*MOT:	and yours can too but Daddy cannot . 3186076_3189613
+*MOT:	Daddy ? 3191506_3193775
+*MOT:	&doot &da &doo , &da &doot &da &doo , &da &doot &da &doot &da &da &doot &da &doo .
+*MOT:	&doot &da doo .
+*MOT:	&doot &da doo .
+*MOT:	&da &doo ? 3204301_3205173
+*MOT:	&da &doo ? 3205173_3207310
+*MOT:	xxx , &da doo ? 3207310_3213340
+*MOT:	can you see yourself ? 3216151_3217463
+*MOT:	in the camera all the way from over there +//?
+*MOT:	you look little . 3217463_3221036
+*MOT:	xxx . 3221036_3222076
+*MOT:	you look bi:g .
+*MOT:	yeah you look small . 3227526_3228950
+*MOT:	that's all . 3228950_3229893
+*MOT:	xxx , xxx .
+*MOT:	you really are pushing me hard too , oh: . 3232798_3238223
+*MOT:	Sue sews who sues .
+*MOT:	who sews Sue sues , Sue sews Sue's shoes . 3241950_3244876
+*MOT:	who slows +//?
+*MOT:	who sews Slow Joe Crow's shoes ? 3247460_3250118
+*MOT:	so Joe , Slow Joe Crow sews Sue's shoes , that's who . 3250118_3255860
+*MOT:	some(th)ing like that . 3255861_3257341
+*MOT:	xxx . 3257341_3259143
+*MOT:	do you remember what the name of that book is ? 3261230_3263295
+*MOT:	Slow Joe Crow . 3264778_3266110
+*MOT:	what's the name of the book ? 3266110_3269676
+*MOT:	fox +... 3269678_3271078
+*MOT:	in socks ! 3271726_3272386
+*MOT:	xxx .
+*MOT:	that's right . 3276211_3276790
+*MOT:	Knox . 3277941_3278725
+*MOT:	Knox in socks ! 3278725_3280046
+*MOT:	Knox in box ! 3280046_3281295
+*MOT:	fox in socks on Knox in box ! 3281295_3283455
+*MOT:	it is really hard to say . 3286481_3288141
+*MOT:	it's a tongue+twister . 3288141_3291696
+*MOT:	xxx .
+*MOT:	Pe:ter Piper picked a pecka [: peck of] pickled peppers . 3299636_3304301
+*MOT:	if Peter Piper picked a pecka [: peck of] pickled peppers , how many pickled peppers did Peter Piper pick ? 3304898_3309398
+*MOT:	go ahead , you try . 3309398_3311826
+*MOT:	xxx .
+*MOT:	xxx , xxx .
+*MOT:	Peter Piper picked a pecka [: peck of] picked peppers . 3317838_3319540
+*MOT:	if Peter xxx pi(cked) +//.
+*MOT:	xxx . 3319540_3323036
+*MOT:	if Peter Piper picked a pecka [: peck of] pickled peppers , how many pick pickled peppers did Peter Piper pick ? 3323036_3327228
+*MOT:	mm .
+*MOT:	Honey Bunny Funny Bunny Honey Bunny Funny Bunny (.) tried fried +//.
+*MOT:	rice ! 3337895_3338783
+*MOT:	xxx .
+*MOT:	do you want some fried rice +//?
+*MOT:	we do have some fried rice if you would really really really +/.
+*MOT:	really (.) really really really really +/.
+*MOT:	really re(ally) +//.
+*MOT:	hey .
+*MOT:	you broke it . 3353093_3355941
+*MOT:	xxx , xxx ! 3355941_3358876
+*MOT:	okay .
+*MOT:	xxx , Slow Joe Crow . 3363290_3365473
+*MOT:	peppers . 3377678_3381485
+*MOT:	pickled peppers . 3381485_3382968
+*MOT:	mhm .
+*MOT:	pickled peppers ! 3387026_3387960
+*MOT:	pickled peppers ! 3387960_3388751
+*MOT:	pickled peppers ! 3388751_3389516
+*MOT:	pickled peppers , pickled xxx ! 3389516_3391190
+*MOT:	you want some peppers or do you want some fried rice ? 3392638_3395495
+*MOT:	oh we're falling apart here Eth(an) huh ?

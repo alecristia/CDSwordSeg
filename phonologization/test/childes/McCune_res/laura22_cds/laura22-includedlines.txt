@@ -1,0 +1,508 @@
+*MOT:	those are big beads .
+*MOT:	those are enormous beads .
+*MOT:	that's the elephant .
+*MOT:	that's Dumbo .
+*MOT:	remember him ?
+*MOT:	Dumbo .
+*MOT:	Dumbo went inside .
+*MOT:	you found him .
+*MOT:	0 .
+*MOT:	you like that .
+*MOT:	don't you ?
+*MOT:	I don't know where Dumbo is .
+*MOT:	there he is .
+*MOT:	you found him .
+*MOT:	where is Dumbo ?
+*MOT:	he's inside .
+*MOT:	there he is .
+*MOT:	0 .
+*MOT:	you found him .
+*MOT:	he's hiding .
+*MOT:	I think he likes to play peek a boo .
+*MOT:	what was that ?
+*MOT:	that's what I thought you said .
+*MOT:	that's an iron .
+*MOT:	that's it .
+*MOT:	that's right .
+*MOT:	if you can make your clothes nice not wrinkled .
+*MOT:	you have_to be careful .
+*MOT:	because irons can get very hot .
+*MOT:	what ?
+*MOT:	that's Oscar too .
+*MOT:	that's Oscar .
+*MOT:	Oscar_the_Grouch .
+*MOT:	0 .
+*MOT:	hi Laura .
+*MOT:	I'm a grouch .
+*MOT:	0 .
+*MOT:	do you wanna read this ?
+*MOT:	are you gonna read it to mommy ?
+*MOT:	Judy .
+*MOT:	and who's that ?
+*MOT:	who ?
+*MOT:	Paul .
+*MOT:	right .
+*MOT:	boy .
+*MOT:	soft .
+*MOT:	oh .
+*MOT:	it's so soft .
+*MOT:	wait .
+*MOT:	what was on this page ?
+*MOT:	Judy's playing peek a boo with Paul .
+*MOT:	now you play peek a boo with Paul .
+*MOT:	the rabbit is on the other page .
+*MOT:	no .
+*MOT:	this page .
+*MOT:	yeah .
+*MOT:	very soft and cuddly .
+*MOT:	oh now .
+*MOT:	oh .
+*MOT:	Paul could smell the flowers .
+*MOT:	now you could smell the flowers .
+*MOT:	no .
+*MOT:	these flowers over here .
+*MOT:	can you smell something ?
+*MOT:	0 .
+*MOT:	do they smell nice ?
+*MOT:	it smells like powder .
+*MOT:	doesn't it ?
+*MOT:	that's right .
+*MOT:	the smell is coming out_of those holes .
+*MOT:	it smells like powder .
+*MOT:	doesn't it ?
+*MOT:	those ones don't smell .
+*MOT:	just these .
+*MOT:	no .
+*MOT:	just these .
+*MOT:	uhuh .
+*MOT:	Judy and Paul .
+*MOT:	do you wanna see this other page ?
+*MOT:	Judy can look at the mirror .
+*MOT:	now you look at the mirror .
+*MOT:	Laura .
+*MOT:	let me see .
+*MOT:	0 .
+*MOT:	mommy .
+*MOT:	no .
+*MOT:	0 .
+*MOT:	look at this one .
+*MOT:	see ?
+*MOT:	this is daddy's scratchy face .
+*MOT:	does your daddy have a scratchy face ?
+*MOT:	uhhuh .
+*MOT:	0 .
+*MOT:	daddy's face is scratchy .
+*MOT:	and this is a little book .
+*MOT:	0 .
+*MOT:	look this says put your finger through mommy's ring .
+*MOT:	0 .
+*MOT:	that's all .
+*MOT:	byebye .
+*MOT:	can you say byebye@q ?
+*MOT:	Paul and Judy are waving byebye at you .
+*MOT:	the end .
+*MOT:	0 .
+*MOT:	you always look so pleased with yourself when you do that .
+*MOT:	you really feel proud .
+*MOT:	don't you ?
+*MOT:	0 .
+*MOT:	are you going to put Dumbo down for a little rest ?
+*MOT:	and here's a little monkey who sucks his thumb .
+*MOT:	that's it .
+*MOT:	you see .
+*MOT:	he's sucking his thumb .
+*MOT:	shall I hold it ?
+*MOT:	oops .
+*MOT:	his thumb fell out .
+*MOT:	there .
+*MOT:	no monkey .
+*MOT:	you have_to take the top off .
+*MOT:	here .
+*MOT:	push up on this .
+*MOT:	there .
+*MOT:	what ?
+*MOT:	what is that ?
+*MOT:	a piece of orange .
+*MOT:	let's see .
+*MOT:	what shall we do ?
+*MOT:	how about putting one on the plate ?
+*MOT:	0 .
+*MOT:	and the cup .
+*MOT:	0 .
+*MOT:	what do you wanna have for breakfast ?
+*MOT:	we don't have that .
+*MOT:	so what do you wanna have for breakfast ?
+*MOT:	but we don't have any cookies .
+*MOT:	do you want an apple ?
+*MOT:	0 .
+*MOT:	do you want a banana ?
+*MOT:	0 .
+*MOT:	do you want grapes ?
+*MOT:	okay .
+*MOT:	here's your breakfast Laura .
+*MOT:	is it good ?
+*MOT:	could I have some ?
+*MOT:	I want some corn .
+*MOT:	could I have some corn ?
+*MOT:	and I want the carrot too .
+*MOT:	can I have some carrots ?
+*MOT:	corn and carrots .
+*MOT:	oh but I thought you were going to give it to me .
+*MOT:	thank_you .
+*MOT:	soup .
+*MOT:	yeah .
+*MOT:	ooh .
+*MOT:	it's hot .
+*MOT:	no .
+*MOT:	you have_to blow .
+*MOT:	it's not hot .
+*MOT:	it is hot .
+*MOT:	can I have some milk now ?
+*MOT:	in the cup .
+*MOT:	can you give me milk in the cup ?
+*MOT:	pour some milk in the cup .
+*MOT:	you don't know but these are milk bottles .
+*MOT:	pour the milk in the cup .
+*MOT:	no .
+*MOT:	cold .
+*MOT:	do you want me to drink the whole bottle ?
+*MOT:	0 .
+*MOT:	it's very good .
+*MOT:	thank_you .
+*MOT:	no .
+*MOT:	yes .
+*MOT:	&mm .
+*MOT:	good .
+*MOT:	salty .
+*MOT:	0 .
+*MOT:	don't you wanna play with this ?
+*MOT:	wait a minute .
+*MOT:	where are you sitting ?
+*MOT:	you're sitting in the middle of the beads .
+*MOT:	0 .
+*MOT:	what else do you wanna play with ?
+*MOT:	do you wanna play with something else ?
+*MOT:	uhhuh .
+*MOT:	what are those called ?
+*MOT:	do you know ?
+*MOT:	tools .
+*MOT:	toy chest .
+*MOT:	tool chest .
+*MOT:	yeah .
+*MOT:	tool chest .
+*MOT:	and these are the tools .
+*MOT:	that's the saw .
+*MOT:	and that's the pliers .
+*MOT:	0 .
+*MOT:	what are you gonna do ?
+*MOT:	are you fixing something ?
+*MOT:	look .
+*MOT:	0 .
+*MOT:	go like this .
+*MOT:	see ?
+*MOT:	watch that part .
+*MOT:	see how it opens and closes ?
+*MOT:	can you hold this part .
+*MOT:	hold this part like this .
+*MOT:	see ?
+*MOT:	that's right .
+*MOT:	open and close .
+*MOT:	open .
+*MOT:	close it .
+*MOT:	open .
+*MOT:	close it .
+*MOT:	see ?
+*MOT:	close it .
+*MOT:	oh .
+*MOT:	you've caught my finger .
+*MOT:	oh .
+*MOT:	that's it .
+*MOT:	you put that around something .
+*MOT:	open the tool chest .
+*MOT:	you can open it .
+*MOT:	screwdriver .
+*MOT:	are you fixing something with the screwdriver ?
+*MOT:	you can fix the car .
+*MOT:	maybe .
+*MOT:	0 .
+*MOT:	see ?
+*MOT:	you can make the wheels turn .
+*MOT:	see ?
+*MOT:	that way if the wheel is broken you can fix it .
+*MOT:	yeah .
+*MOT:	this is a car .
+*MOT:	0 .
+*MOT:	well like your comfy .
+*MOT:	isn't it ?
+*MOT:	it's very soft .
+*MOT:	it's the baby's blanket .
+*MOT:	off that .
+*MOT:	do you wanna take the hat off ?
+*MOT:	here .
+*MOT:	look .
+*MOT:	pull on this .
+*MOT:	pull .
+*MOT:	yes .
+*MOT:	that's right .
+*MOT:	now put your finger in here .
+*MOT:	and loosen it up .
+*MOT:	that's right .
+*MOT:	you did it .
+*MOT:	you can open it .
+*MOT:	that's a snap .
+*MOT:	wait a minute .
+*MOT:	I think there's a little snap .
+*MOT:	that's right .
+*MOT:	you took all the baby's clothes off .
+*MOT:	now you're putting the hat back on .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	shall I tie the hat ?
+*MOT:	0 .
+*MOT:	okay .
+*MOT:	now you gonna have_to put the diaper on the baby .
+*MOT:	it's not too tight .
+*MOT:	you just have_to stick the leg in there .
+*MOT:	okay .
+*MOT:	that's it .
+*MOT:	wait .
+*MOT:	xxx .
+*MOT:	you're not done .
+*MOT:	can you snap this ?
+*MOT:	I'll help you .
+*MOT:	there .
+*MOT:	that doesn't look so good Laura .
+*MOT:	we didn't do such a good job in putting this baby's diaper on .
+*MOT:	what did we do wrong ?
+*MOT:	look Laura .
+*MOT:	look .
+*MOT:	the baby's tushy is sticking out .
+*MOT:	this is no good the way we did it .
+*MOT:	wait a minute .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	wait a second [x 1] .
+*MOT:	that's not right .
+*MOT:	oh you look very very intellectual .
+*MOT:	they don't fit mommy .
+*MOT:	all right .
+*MOT:	I give up .
+*MOT:	oh .
+*MOT:	I think I did it .
+*MOT:	this is good enough here .
+*MOT:	do you wanna put the baby's jacket on now ?
+*MOT:	0 .
+*MOT:	you have_to put them over your head .
+*MOT:	what ?
+*MOT:	shall I put them on ?
+*MOT:	puts necklace on .
+*MOT:	I don't want to sweep the floor .
+*MOT:	you sweep the floor .
+*MOT:	is it grandpa ?
+*MOT:	if it's grandpa .
+*MOT:	okay .
+*MOT:	hello grandpa Eli .
+*MOT:	do you wanna talk to Laura ?
+*MOT:	talk to grandpa Eli .
+*MOT:	hello Laura .
+*MOT:	it's grandpa Eli .
+*MOT:	lady .
+*MOT:	you're talking to a lady .
+*MOT:	hello Laura .
+*MOT:	how are you ?
+*MOT:	I'm fine .
+*MOT:	how are you ?
+*MOT:	are you having fun playing ?
+*MOT:	what toys do you like best ?
+*MOT:	those .
+*MOT:	do you like the doggy ?
+*MOT:	byebye Laura .
+*MOT:	Eli .
+*MOT:	let's call grandpa Eli .
+*MOT:	okay .
+*MOT:	okay dial .
+*MOT:	you dial .
+*MOT:	I'll hold it for you .
+*MOT:	you dial .
+*MOT:	two .
+*MOT:	nine .
+*MOT:	you're pushing it the wrong way .
+*MOT:	wait a minute .
+*MOT:	you have_to dial first .
+*MOT:	two .
+*MOT:	four .
+*MOT:	nine .
+*MOT:	oh .
+*MOT:	six .
+*MOT:	hello Laura ?
+*MOT:	Laura is that you ?
+*MOT:	what are you doing ?
+*MOT:	is it Eli ?
+*MOT:	grandpa Eli ?
+*MOT:	say when are you going to come see us ?
+*MOT:	yes .
+*MOT:	when are you going to come ?
+*MOT:	what ?
+*MOT:	0 .
+*MOT:	bye Laura .
+*MOT:	do you wanna play with any of the things up there ?
+*MOT:	that's a little pitcher .
+*MOT:	what should I do ?
+*MOT:	0 .
+*MOT:	delicious .
+*MOT:	more .
+*MOT:	do I have_to drink the whole thing ?
+*MOT:	0 .
+*MOT:	oh .
+*MOT:	I love it .
+*MOT:	oh I want more Laura .
+*MOT:	I want more .
+*MOT:	I'm still hungry .
+*MOT:	0 .
+*MOT:	no more .
+*MOT:	you can have some now .
+*MOT:	do you want some ?
+*MOT:	do you like it ?
+*MOT:	what kind is this ?
+*MOT:	blue .
+*MOT:	it's a blue top .
+*MOT:	uhhuh .
+*MOT:	what about it ?
+*MOT:	what ?
+*MOT:	you have trouble getting that out .
+*MOT:	don't you ?
+*MOT:	but you did it .
+*MOT:	yeah .
+*MOT:	that's the box .
+*MOT:	you got it out .
+*MOT:	no [x 1] .
+*MOT:	wait .
+*MOT:	xxx .
+*MOT:	who's this ?
+*MOT:	rabbit .
+*MOT:	a very soft rabbit .
+*MOT:	a white rabbit .
+*MOT:	it feels nice to touch .
+*MOT:	doesn't it ?
+*MOT:	that's mommy's ring .
+*MOT:	can you put your finger through mommy's ring ?
+*MOT:	you want me to read the book to you ?
+*MOT:	yes .
+*MOT:	do you want me to read it ?
+*MOT:	here are Paul and Judy .
+*MOT:	they could do lots_of things .
+*MOT:	you could do lots_of things too .
+*MOT:	Judy can pat the bunny .
+*MOT:	do you wanna hear the book ?
+*MOT:	no .
+*MOT:	I didn't think so .
+*MOT:	shall I put it away ?
+*MOT:	you're hammering very well .
+*MOT:	you could hammer on Dumbo .
+*MOT:	or you could hammer on this .
+*MOT:	it would make a great sound .
+*MOT:	if you hammer on that it it would make a very loud sound .
+*MOT:	oh no .
+*MOT:	I didn't mean that .
+*MOT:	I meant on that .
+*MOT:	yeah .
+*MOT:	that makes a good sound .
+*MOT:	and this too .
+*MOT:	boy .
+*MOT:	that's loud hammering .
+*MOT:	what should I do ?
+*MOT:	do you want to play with some of the toys up there ?
+*MOT:	let's see what's up here .
+*MOT:	look what's up here .
+*MOT:	what's this ?
+*MOT:	yeah .
+*MOT:	do you want to play with the pocketbook ?
+*MOT:	turn this .
+*MOT:	turn that top little thing .
+*MOT:	yeah .
+*MOT:	that's it .
+*MOT:	more [x 1] .
+*MOT:	that's it .
+*MOT:	almost .
+*MOT:	0 .
+*MOT:	okay .
+*MOT:	you did it .
+*MOT:	almost .
+*MOT:	is there anything in there ?
+*MOT:	what ?
+*MOT:	what ?
+*MOT:	no .
+*MOT:	there's nothing in there .
+*MOT:	you could put things in it though .
+*MOT:	do you wanna put things in it ?
+*MOT:	we're gonna pretend then that we're gonna go shopping or to a
+*MOT:	to a restaurant .
+*MOT:	and you could put this little box in .
+*MOT:	do you want to put that in ?
+*MOT:	let's see .
+*MOT:	do the eyeglasses fit .
+*MOT:	0 .
+*MOT:	yep .
+*MOT:	the eyeglasses fit .
+*MOT:	you can put them in .
+*MOT:	0 .
+*MOT:	put this block in .
+*MOT:	what else ?
+*MOT:	oh .
+*MOT:	do you wanna take this comb ?
+*MOT:	in_case you have_to comb your hair in the restaurant .
+*MOT:	okay .
+*MOT:	now we could close it up .
+*MOT:	0 .
+*MOT:	now we're ready to go byebye to the restaurant .
+*MOT:	yes .
+*MOT:	that's it [x 1] .
+*MOT:	okay .
+*MOT:	do you wanna put it over your head ?
+*MOT:	turn this .
+*MOT:	it's all out .
+*MOT:	is everything all out ?
+*MOT:	it's a box .
+*MOT:	look .
+*MOT:	you know what you could do with this .
+*MOT:	you could look through it .
+*MOT:	I see you .
+*MOT:	do you wanna look through it ?
+*MOT:	do you see me ?
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	okay .
+*MOT:	let's play some more Laura .
+*MOT:	look .
+*MOT:	this could be a napkin .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	should I put it on my lap so I don't get dirty ?
+*MOT:	0 .
+*MOT:	a little bit hot .
+*MOT:	I don't want the bottle .
+*MOT:	you could give that to the baby .
+*MOT:	I don't want the bottle .
+*MOT:	I just want the spoon .
+*MOT:	and I drink from the cup like this .
+*MOT:	give the box to the baby .
+*MOT:	0 .
+*MOT:	the baby's crying .
+*MOT:	0 .
+*MOT:	she must be hungry [x 1] .
+*MOT:	here .
+*MOT:	maybe you should do rock a bye baby and feed her .
+*MOT:	what ?
+*MOT:	that's better .
+*MOT:	shall I do rock a bye baby ?
+*MOT:	yes or no .
+*MOT:	what ?
+*MOT:	bib .
+*MOT:	eat .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	good soup .
+*MOT:	what kind of soup .
+*MOT:	blue soup .
+*MOT:	my_goodness .
+*MOT:	does it have noodles in it ?

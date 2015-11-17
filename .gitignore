@@ -10,7 +10,9 @@ algoComp/scripts/*pyc
 *~
 algoComp/scripts/*.pyc
 *.pyc
-phonologization/examples
 *.DS_Store
 */*.DS_Store
 */*/*.DS_Store
+phonologization/test/childes/*/*
+/phonologization/scripts/examples
+phonologization/test/childes/*

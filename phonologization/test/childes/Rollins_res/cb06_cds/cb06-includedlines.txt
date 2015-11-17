@@ -1,0 +1,32 @@
+*MOT:	hello Chi . 332130_335010
+*MOT:	how are you today . 335010_336508
+*MOT:	0 [=! voc] . 337776_338981
+*MOT:	<I love you> [>] . 338981_340681
+*MOT:	I love you . 340681_341873
+*MOT:	&uh . 341873_342205
+*MOT:	does that taste good . 342205_343658
+*MOT:	come here give me kisses . 343658_345285
+*MOT:	give me kisses (.) huh . 345285_346120
+*MOT:	0 [= smack] . 346120_346736
+*MOT:	0 [= smack] . 346736_347453
+*MOT:	0 [= smack] . 347453_347891
+*MOT:	high . 347891_349488
+*MOT:	0 [= voc] . 349655_350065
+*MOT:	high . 350065_351071
+*MOT:	yes . 351071_351953
+*MOT:	whose that . 351953_354361
+*MOT:	<that's> [<] Big_Bird . 354361_355426
+*MOT:	that's big bird . 355426_357465
+*MOT:	yes . 357465_358593
+*MOT:	does he not taste good . 358593_361061
+*MOT:	does Big_Bird taste funny ? 361061_363645
+*MOT:	0 [= smack] . 363645_364218
+*MOT:	0 [= smack] [= iteritive] . 364335_372500
+*MOT:	<0 [= smack] [= iteritive]> [<] . 372500_389000
+*MOT:	I love you . 389000_390521
+*MOT:	0 [= smack] . 390521_391031
+*MOT:	I love you . 391031_393468
+*MOT:	<yes I do 0 [=! giggle]> [<] . 393468_398205
+*MOT:	yes I do . 398205_399096
+*MOT:	I love you . 399096_399908
+*MOT:	<0 [=! giggle]> [<] . 399908_403350

@@ -1,0 +1,216 @@
+*MOT:	does it taste like the one at home . 284796_287586
+*MOT:	oh you dropped it can you get it . 287586_290513
+*MOT:	there you go . 290513_291998
+*MOT:	there you go . 291998_293261
+*MOT:	yay that's a nice toy isn't it oh . 293261_297483
+*MOT:	yummy . 297483_298305
+*MOT:	yay: yummy . 298305_300360
+*MOT:	you want to see another one . 300360_302768
+*MOT:	okay how about the orange one . 302768_304176
+*MOT:	there's the orange ring oh and the red one g(o)es by the wayside .
+*MOT:	what a good boy . 308015_311086
+*MOT:	okay . 311086_311920
+*MOT:	how (a)bout a yellow one . 311920_313118
+*MOT:	they're getting bigger . 313118_315181
+*MOT:	harder to hold . 315181_318123
+*MOT:	what a good boy . 318123_320456
+*MOT:	you ready for more . 320456_324220
+*MOT:	my_goodness you're going through toys today . 324220_326313
+*MOT:	there's a green one . 326313_328511
+*MOT:	that's a green ring . 328511_329640
+*MOT:	does it make a nice sound . 329640_333855
+*MOT:	oh there it g(o)es . 333855_335888
+*MOT:	do you want it back or do you want the blue one . 335888_337536
+*MOT:	oh you like the yellow one . 337536_340345
+*MOT:	you pick . 340345_340908
+*MOT:	blue . 340908_341908
+*MOT:	okay . 341908_342550
+*MOT:	here you go . 342550_343295
+*MOT:	can you get that one in your mouth . 343295_347961
+*MOT:	oh they all fell down . 347961_349588
+*MOT:	do you want some of the rings back . 349588_352191
+*MOT:	you want some of the rings back are you going to give them back to
+*MOT:	thank you . 356100_356766
+*MOT:	thank you . 356766_357715
+*MOT:	you want it back again . 357715_358768
+*MOT:	here you go . 358768_361510
+*MOT:	can't quite get that one in your mouth . 361510_366161
+*MOT:	maybe the red one . 366161_367546
+*MOT:	almost . 367546_374848
+*MOT:	and oh . 374848_376533
+*MOT:	it's under your foot . 376533_378355
+*MOT:	that's going to make it hard to get . 378355_379741
+*MOT:	can you get it . 379741_383725
+*MOT:	I don't think so should we help . 383725_385405
+*MOT:	here . 385405_385750
+*MOT:	what if we turn it this way . 385750_387023
+*MOT:	can you get that . 387023_387948
+*MOT:	<no> [<] . 387948_389473
+*MOT:	how about this one . 389473_390668
+*MOT:	that's a yummy toy . 390668_396541
+*MOT:	that's a yummy toy . 396541_400078
+*MOT:	have you about had it with the rings . 400078_410883
+*MOT:	yay are you losing interest . 410883_413516
+*MOT:	alright let's see what else is in here . 413516_415111
+*MOT:	oh look here . 415111_417265
+*MOT:	let's see . 417265_417985
+*MOT:	here's something you can xxx hold . 417985_419656
+*MOT:	look at that . 419656_420725
+*MOT:	here's a pink pig . 420725_422086
+*MOT:	he goes 0 [=! snort] . 422086_424126
+*MOT:	he goes 0 [=! snort] . 424126_426151
+*MOT:	oink@o oink@o . 426151_427010
+*MOT:	can you get him . 427010_428328
+*MOT:	you almost have him . 428328_430666
+*MOT:	oh . 430666_431008
+*MOT:	can you pick him up . 431008_432188
+*MOT:	there you got him by the nose . 432188_438300
+*MOT:	oh piggie's almost out_of reach . 438300_442063
+*MOT:	there he is . 442063_443570
+*MOT:	what a nice pink pig . 443570_446400
+*MOT:	he's kind of hard to hang on to isn't he . 446400_450721
+*MOT:	there he g(o)es . 450721_452721
+*MOT:	alright you want to try something else . 452721_454438
+*MOT:	let's see . 454438_455463
+*MOT:	oh Chi . 455463_457555
+*MOT:	look at this . 457555_459225
+*MOT:	look at this . 459225_461651
+*MOT:	oh isn't that nice . 461651_463755
+*MOT:	isn't that <nice xxx oh hey> [>] . 463755_467251
+*MOT:	oh you don't like it do you wanna hold it . 467251_470880
+*MOT:	okay . 470880_471593
+*MOT:	yay I didn't think so . 471593_473188
+*MOT:	it's not fun when Mot holds it „ is it . 473188_478201
+*MOT:	oh there it g(o)es . 478201_480761
+*MOT:	you want back . 480761_481770
+*MOT:	here you go . 481770_484520
+*MOT:	no you want to see it again or you want something else . 489793_491750
+*MOT:	that has a nice rattle to it „ doesn't it . 491750_497728
+*MOT:	can you pick it up and make those blue balls rattle again . 499921_509285
+*MOT:	can you kick it . 509285_511473
+*MOT:	can you get it . 511473_514883
+*MOT:	oh there you go . 514883_516554
+*MOT:	what a good boy . 516554_518148
+*MOT:	oh . 518148_523450
+*MOT:	there it g(o)es . 523450_524226
+*MOT:	you want it back . 524226_525391
+*MOT:	do you want it back . 525391_527890
+*MOT:	here it is . 527890_530135
+*MOT:	yay that's a nice rattle . 530135_535003
+*MOT:	yay . 535003_537390
+*MOT:	oh look how those blue balls go round and round in the xxx . 537390_543015
+*MOT:	that's a pretty great toy isn't it . 543015_549848
+*MOT:	oh . 549848_550420
+*MOT:	ahhah . 550420_551210
+*MOT:	where are the balls going . 551210_552258
+*MOT:	where are the balls going . 552258_553688
+*MOT:	oh you're making them go away . 553688_558978
+*MOT:	there they go oh here they come back . 558978_560693
+*MOT:	what a nice rattle . 560693_567423
+*MOT:	oh you got_to use your foot to pick it up don't you it's so long .
+*MOT:	yay . 574831_578151
+*MOT:	you're a good boy . 578151_579250
+*MOT:	it's pretty fun to come play with the new toys isn't it . 579250_583991
+*MOT:	can you taste that one . 583991_586135
+*MOT:	can you taste that one what d(o)es it taste like . 586135_590413
+*MOT:	oh there go those blue balls again . 590413_609978
+*MOT:	<oh:> [<] you got it . 609978_612280
+*MOT:	you're okay . 612280_613431
+*MOT:	yay you're okay . 613431_614606
+*MOT:	okay you ready for something else . 614606_619553
+*MOT:	alright . 619553_620418
+*MOT:	here let's get <this out_of> [>] the way . 620418_621961
+*MOT:	<let's see what else is in here> [<] . 621961_624206
+*MOT:	do you want to see a <doll it's an awfully big doll> [>] isn't it .
+*MOT:	look here . 626981_628693
+*MOT:	you want to see you want this back . 628693_631123
+*MOT:	your choice . 631123_632116
+*MOT:	there you go . 632116_633336
+*MOT:	did you want the blue balls to come back is that what you were
+*MOT:	well you know if you tip it upside down they'll come back . 642650_649353
+*MOT:	yay that's pretty close . 649353_655165
+*MOT:	okay you want to see the doll . 655165_657905
+*MOT:	okay here you go . 657905_659515
+*MOT:	there's the doll . 659515_661633
+*MOT:	oh are you going to pat the doll on the back . 661633_667088
+*MOT:	can you get a hold <of her> [>] . 667088_672823
+*MOT:	yay she's hard to hold on to . 672823_674781
+*MOT:	here . 674781_675811
+*MOT:	take her take her like this . 675811_677813
+*MOT:	oh . 679690_680583
+*MOT:	are you going to talk to her . 680583_681968
+*MOT:	oh yay you got somet(h)ing to say to her . 684386_686605
+*MOT:	say hi doll . 686605_690091
+*MOT:	hi doll . 690091_692356
+*MOT:	can you say hi doll . 692356_695698
+*MOT:	say hi . 695698_697285
+*MOT:	say hi doll . 697285_698533
+*MOT:	she's a nice doll isn't she . 698533_702336
+*MOT:	<xxx she is> [<] oh pretty eyes . 702336_706276
+*MOT:	<brown hair> [<] . 706276_707751
+*MOT:	<yay> [<] . 708525_709751
+*MOT:	can you hold her . 709751_710776
+*MOT:	are you give her kiss . 710776_713418
+*MOT:	what do you see „ huh . 713418_718378
+*MOT:	oh you taste the hair . 718378_721435
+*MOT:	does it taste like your puppy+dog's hair . 721435_724395
+*MOT:	does it taste like Annie's hair . 724395_726200
+*MOT:	oh you going to pull on it . 726200_735828
+*MOT:	ahhah what are you saying . 738890_740485
+*MOT:	oh . 748043_749370
+*MOT:	do you like that doll Chi . 749370_754171
+*MOT:	you like the car seat . 754171_757598
+*MOT:	oh . 757598_762693
+*MOT:	you going to get a good mouthful . 762693_764765
+*MOT:	are you gettin(g) sleepy „ huh . 764765_770168
+*MOT:	are you gettin(g) sleepy . 770168_771756
+*MOT:	okay . 771756_773813
+*MOT:	you want to hang on to her or you want to see another toy . 773813_776421
+*MOT:	you keep her and we'll see and we'll see xxx . 776421_778885
+*MOT:	oh look what I see here . 778885_781685
+*MOT:	look what I see here . 781685_783988
+*MOT:	it's a squishy hand . 783988_786148
+*MOT:	can you hang on to that . 786148_788436
+*MOT:	there you go . 788436_790046
+*MOT:	should we move her out_of the way . 790046_792936
+*MOT:	yay oops . 792936_795060
+*MOT:	here you go . 795060_797845
+*MOT:	we'll put the doll here and if you want her back you just tell me
+*MOT:	oh . 805043_806158
+*MOT:	there went a burpie . 806158_807451
+*MOT:	okay . 807451_809633
+*MOT:	dry one huh . 809633_810933
+*MOT:	here you go . 810933_811620
+*MOT:	you want to see this . 811620_814531
+*MOT:	not too much . 816298_817443
+*MOT:	not too much . 817443_819586
+*MOT:	<yay your> [<] good boy . 819586_821413
+*MOT:	we've got some other toys still let's see what's down here . 821413_824388
+*MOT:	do you want to see a red foot . 825780_827398
+*MOT:	<oh> [<] that's kind of nice . 827398_833305
+*MOT:	no . 835036_835910
+*MOT:	you want to see the <doll then> [>] . 835910_839440
+*MOT:	are you going to talk to her . 839440_840955
+*MOT:	yay . 842318_843220
+*MOT:	she's nice to talk to isn't she . 843220_845228
+*MOT:	are you going to tell her <about your day> [>] . 845228_847350
+*MOT:	are you going to tell her about all you've done today . 847350_850561
+*MOT:	yay . 851898_852781
+*MOT:	you want to see her again . 852781_854081
+*MOT:	here you go . 854081_855753
+*MOT:	hi doll . 855753_857966
+*MOT:	yay that's her <hand> [>] . 860263_862183
+*MOT:	that's her hand . 863085_865066
+*MOT:	oh you're going to chew on the hand . 865066_866270
+*MOT:	oh . 866270_866706
+*MOT:	that looks like a good mouth sized morsel . 866706_869010
+*MOT:	good tasting hair „ huh . 869010_883660
+*MOT:	yay you like to chew on that don't you . 883660_885795
+*MOT:	let's see: do you want to see a hat . 885795_889755
+*MOT:	do you want to see a hat . 889755_891531
+*MOT:	look here . 891531_893435
+*MOT:	there's somebody on that hat . 893435_895571
+*MOT:	now that tastes good too doesn't it . 895571_898268
+*MOT:	huh . 898268_898858
+*MOT:	do you have too many toys here now . 902801_904668
+*MOT:	xxx red foot . 904668_909816

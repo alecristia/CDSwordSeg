@@ -1,0 +1,464 @@
+*MOT:	well we can't turn it on now because the tape recorder's on me . 1948_5646
+*MOT:	we'll put it on later when you're ready to go to bed . 5646_8371
+*MOT:	who's this ? 8371_10013
+*MOT:	+< that was a present from +//. 16068_17605
+*MOT:	here shall I put this over here so_that we can find it +/. 17605_19818
+*MOT:	+< that's not a present no . 20735_22056
+*MOT:	dinosaur is a present . 23970_25400
+*MOT:	that was a dinosaur present . 27330_29043
+*MOT:	oh is he doing a somersault ? 37230_39196
+*MOT:	that was cute . 39196_40248
+*MOT:	wanna [: want to] read that book ? 58596_59930
+*MOT:	okay . 59930_60488
+*MOT:	this is a Christmas book . 63735_65336
+*MOT:	that's an a@l b@l c@l book . 66160_67468
+*MOT:	how did you know that ? 67468_68571
+*MOT:	where d(oe)s it say a@l b@l c@l ? 70195_71751
+*MOT:	yeah it was a present a long time ago . 74915_76986
+*MOT:	this says a@l is for angel . 81900_85398
+*MOT:	b@l is for bell . 85398_86986
+*MOT:	c@l is for candle and carol as_well d@l is for . 86986_94713
+*MOT:	e@l is for elf . 96423_98161
+*MOT:	f@l is for fun . 98161_101056
+*MOT:	filling Christmas itself g@l is for gifts . 101056_106340
+*MOT:	what's a gift ? 106340_107110
+*MOT:	gifts are the same thing as presents Nathaniel . 109435_112261
+*MOT:	right gifts and presents are the same thing . 116093_119656
+*MOT:	h@l is for holly . 119656_122805
+*MOT:	i@l is for (..) ice cream . 122805_127586
+*MOT:	+< which is the i@l ? 131738_132873
+*MOT:	i@l . 136118_136690
+*MOT:	no that's an i@l . 137560_139716
+*MOT:	and that's a little i@l . 143078_144015
+*MOT:	no this is a big i@l . 151576_152463
+*MOT:	a big i@l . 152463_153366
+*MOT:	right . 157471_157920
+*MOT:	h@l is for holly . 157920_159880
+*MOT:	i@l is for ice cream . 159880_160901
+*MOT:	and j@l is for jolly [>] . 160901_163976
+*MOT:	i@l is for ice cream . 166855_168248
+*MOT:	j@l is for jolly . 168248_169503
+*MOT:	b@l is for blow your nose . 169503_171610
+*MOT:	harder . 171610_173148
+*MOT:	oh Nathaniel you're much better . 173148_176128
+*MOT:	you're much better . 176128_178116
+*MOT:	you know that . 178116_179508
+*MOT:	your nose isn't running . 179508_180776
+*MOT:	k@l is for kings who came . 180776_185261
+*MOT:	l@l is for lamb . 185261_190078
+*MOT:	m@l is for Mary and manger and man . 190078_194511
+*MOT:	n@l-s for Noel . 194511_197070
+*MOT:	offering is o@l . 197070_199028
+*MOT:	n@l that's right . 200771_201861
+*MOT:	and that's a little n@l . 201861_202678
+*MOT:	p@l is for . 202678_205943
+*MOT:	presents . 208118_209340
+*MOT:	and &fla [>] +/. 210626_211785
+*MOT:	two presents ? 212701_213605
+*MOT:	yah [: yeah] [=! laughs] . 217658_221546
+*MOT:	you're a dope . 224491_227686
+*MOT:	q@l is for quiet times . 227686_231131
+*MOT:	r@l is for rose . 231131_233325
+*MOT:	what's that ? 236385_237390
+*MOT:	that's right s@l is for Santa_Claus sleigh bells and snows . 242755_248508
+*MOT:	t@l is for tree trimmings . 248508_251920
+*MOT:	u@l is for us . 251920_253715
+*MOT:	v@l is for village and visits by bus . 253715_258980
+*MOT:	w@l is wise men and winter and white . 258980_264836
+*MOT:	x@l is a letter the sign of the Christ . 264836_267560
+*MOT:	y@l is for yule+logs that crackle and glow . 267560_273801
+*MOT:	z@l is for zither for carols you know . 273801_278068
+*MOT:	we could start over again and again for Christmas has meanings
+*MOT:	Jesus what a crummy book . 283451_284860
+*MOT:	crummy book . 286633_287583
+*MOT:	do you like this book ? 293071_294026
+*MOT:	oh that's nice . 294026_295165
+*MOT:	that's a train that's right . 296000_297771
+*MOT:	mhm . 300385_301303
+*MOT:	a trolley train ? 303110_304315
+*MOT:	is that a trolley ? 312116_313016
+*MOT:	+< who's that in the trolley ? 313520_314706
+*MOT:	+< you see who that is ? 316871_317995
+*MOT:	that's somebody you know . 317995_319300
+*MOT:	that's Ernie . 322515_323120
+*MOT:	Ern:ie . 324856_326616
+*MOT:	that's the trolley . 327550_328875
+*MOT:	+^ can you say Ern:ie ? 328875_330246
+*MOT:	Ern:ie . 331571_332791
+*MOT:	right . 334766_335770
+*MOT:	you did it . 335770_337791
+*MOT:	careful . 346591_347126
+*MOT:	uhoh . 348333_349671
+*MOT:	read about Grover . 352530_353985
+*MOT:	okay . 355006_355665
+*MOT:	but this isn't Grover honey . 355665_356890
+*MOT:	who's this ? 356890_358986
+*MOT:	who's that ? 361043_362333
+*MOT:	Oscar yeah . 362333_364005
+*MOT:	I don't know . 366396_366885
+*MOT:	maybe he's been in here . 366885_367808
+*MOT:	that's right that's Oscar . 374608_375665
+*MOT:	that's Oscar the grouch that's right . 379055_381548
+*MOT:	Oscar the grouch . 384585_385370
+*MOT:	this is Oscar the grouch's +... 385370_387593
+*MOT:	a@l b@l c@l book . 387593_391846
+*MOT:	he lives in a garbage can . 399208_401135
+*MOT:	holding it ? 406401_407943
+*MOT:	this is Oscar's a@l is for alphabet . 419735_424166
+*MOT:	b@l is for &bl busted balloon . 424166_427546
+*MOT:	d@l is for dust . 427546_431916
+*MOT:	e@l is for eggshells . 431916_438956
+*MOT:	h@l is for hat . 438956_442586
+*MOT:	i@l is for ice cream . 442586_446551
+*MOT:	m@l is for mangled mirror . 446551_450330
+*MOT:	r@l is for rotten rubbers . 450330_455198
+*MOT:	t@l is for taxi . 455198_458126
+*MOT:	v@l is for violin . 458126_462910
+*MOT:	who's that ? 462910_466205
+*MOT:	who's that ? 467460_468060
+*MOT:	yes Ernie and Bert . 469651_471591
+*MOT:	throwin(g) stuff at Oscar the grouch . 471591_473530
+*MOT:	w@l is for worm . 473530_477495
+*MOT:	x@l is for x_ray whiskers . 477495_481060
+*MOT:	Oscar the grouch's alphabet . 481060_485910
+*MOT:	do you have something in your pants down here little boy ? 485910_493470
+*MOT:	anything in there ? 493470_497218
+*MOT:	just a pee+pee in there ? 501933_503125
+*MOT:	okay . 503125_503858
+*MOT:	honey this is your music book . 512543_513755
+*MOT:	I can't read this . 513755_514618
+*MOT:	what happened there ? 517414_518518
+*MOT:	what happened ? 521815_523251
+*MOT:	what happened to this book ? 525543_527135
+*MOT:	what did happen to this book ? 529250_531868
+*MOT:	did you do that with your teeth ? 535665_537203
+*MOT:	did you do that with your little teeth ? 538991_540768
+*MOT:	yah [: yeah] . 543145_544496
+*MOT:	you bit the book . 544496_546033
+*MOT:	don't eat books . 548878_550501
+*MOT:	supposed to read books . 550501_552395
+*MOT:	+< eat peanut+butter and read books . 557398_559703
+*MOT:	what do you do with balls ? 559703_562316
+*MOT:	you throw (th)em . 564271_565116
+*MOT:	what do you do with shoes ? 565116_566486
+*MOT:	what do you do with water ? 569078_570951
+*MOT:	what do you do with yogurt ? 573946_575301
+*MOT:	what do you do with crayons ? 577608_579330
+*MOT:	draw on a piece of paper . 583480_584416
+*MOT:	what do you do with blankets ? 584416_585738
+*MOT:	snuggle in that's right . 588605_590760
+*MOT:	what do you do with +... 590760_593551
+*MOT:	+, tape recorders . 594456_595393
+*MOT:	yeah and listen to them . 598208_599331
+*MOT:	what do you do with Kicker the frog ? 599331_603361
+*MOT:	squeeze him . 606355_607375
+*MOT:	what do you do with blocks ? 612226_613933
+*MOT:	you knock them over . 619035_620121
+*MOT:	what do you do with +... 620121_623116
+*MOT:	+, fingers . 624136_624720
+*MOT:	what ? 626780_627933
+*MOT:	you wiggle them ahhah . 629423_631378
+*MOT:	what do you do with pillows ? 631378_633175
+*MOT:	what do you do with sucky+sucks ? 634948_636886
+*MOT:	&=laughs . 638358_639446
+*MOT:	what do you do with potties ? 639446_642390
+*MOT:	what do you do with tables ? 644798_648346
+*MOT:	what do you do with spoons ? 651745_654031
+*MOT:	what do you do with knifes [: knives] [*] ? 655555_657613
+*MOT:	what do you do with brushes ? 662620_666501
+*MOT:	what do you do with tooth brushes ? 668860_670703
+*MOT:	with tooth brushes ? 673143_674480
+*MOT:	do you brush your hair with tooth brushes ? 680586_682278
+*MOT:	what do you do with glasses ? 686196_687450
+*MOT:	what do you do with radios ? 689660_692735
+*MOT:	what do you do with lights ? 694928_696381
+*MOT:	what do you do with curtains ? 698975_700900
+*MOT:	what do you do with drawers ? 704143_707791
+*MOT:	what do you do with plates ? 710986_713228
+*MOT:	what do you do with stoves ? 716456_719266
+*MOT:	what do you do with dish+washers ? 721673_724033
+*MOT:	no that's clothes+washers . 727530_729353
+*MOT:	what do you do with trolleys ? 731578_732931
+*MOT:	you ride on them . 736263_737015
+*MOT:	what do you do with airplanes ? 737015_738370
+*MOT:	get on the airplane ? 742655_744006
+*MOT:	go for trips . 744006_745463
+*MOT:	yeah . 747938_748573
+*MOT:	what do you do with dromedaries ? 748573_751501
+*MOT:	you look at them that's right . 753828_755215
+*MOT:	what do you do with donkeys ? 755215_757456
+*MOT:	what do you do with donkeys ? 761878_764955
+*MOT:	ride them . 767783_768533
+*MOT:	what do you do with bath+tubs ? 768533_769871
+*MOT:	what do you do with towels ? 772883_775878
+*MOT:	<what do you do> [//] <that's with> [/] that's with soap and
+*MOT:	what do you do with towels ? 781431_782500
+*MOT:	you get dry with towels ? 790555_792426
+*MOT:	what do you do with +... 795603_799333
+*MOT:	daddies ? 800070_802480
+*MOT:	you look at Daddy . 805210_806058
+*MOT:	what do you do with music boxes ? 806058_809458
+*MOT:	you look at them ? 813628_814316
+*MOT:	don't you listen to them ? 814316_815418
+*MOT:	what do you do with . 817861_820321
+*MOT:	he's getting dressed ? 825791_827178
+*MOT:	policeman's getting dressed . 830273_831965
+*MOT:	that's really an undershirt yeah . 840581_843683
+*MOT:	hah . 858485_859121
+*MOT:	hey what would you like for dinner ? 859121_860575
+*MOT:	yogurt ? 863823_865028
+*MOT:	want some yogurt for dinner ? 866985_867906
+*MOT:	what about some fish ? 867906_869226
+*MOT:	okay . 873143_876853
+*MOT:	we'll find a song you know and you can sing it . 876853_878781
+*MOT:	no music on that page . 891725_893316
+*MOT:	writing . 907225_908591
+*MOT:	is that a good song ? 917060_917853
+*MOT:	well Baaee [= Mommy] doesn't know it . 917853_918871
+*MOT:	+< Baaee [= Mommy] doesn't know that one . 922271_923356
+*MOT:	&=gasps you know this one . 929166_933648
+*MOT:	+< we'll sing it together . 936883_938001
+*MOT:	in Dublin's fair city . 938001_941048
+*MOT:	where girls are so pretty I first set my eyes on sweet (.) Molly
+*MOT:	as she wheeled her wheelbarrow . 951200_954378
+*MOT:	through streets broad and (.) narrow . 954378_958526
+*MOT:	crying . 958526_960706
+*MOT:	+< alive . 966561_967420
+*MOT:	alive alive oh ho . 971755_974026
+*MOT:	alive alive oh ho . 974026_976688
+*MOT:	crying . 976688_977675
+*MOT:	+< okay let's go find one that Baaee [= Mommy] knows . 993321_995945
+*MOT:	when I was a bachelor I lived all alone . 995945_1007305
+*MOT:	I worked at the weaver's trade . 1007305_1010573
+*MOT:	and the only only thing that I did that was wrong was (.) I wooed
+*MOT:	in [//] I wooed her in the winter time . 1020583_1024400
+*MOT:	and in the summer through . 1024400_1026238
+*MOT:	and the only only thing that I did that was wrong . 1026238_1029935
+*MOT:	was to +... 1029935_1031808
+*MOT:	keep her from the foggy foggy dew . 1034668_1036661
+*MOT:	that's right . 1036661_1037261
+*MOT:	that's right . 1039285_1040096
+*MOT:	oh you know this one don't you ? 1040096_1049211
+*MOT:	got a mule . 1049211_1052008
+*MOT:	her name is Sal . 1052008_1053128
+*MOT:	fifteen miles on the +... 1053128_1055033
+*MOT:	she's a good ole [: old] worker and a good ole [: old] pal . 1058113_1061578
+*MOT:	fifteen miles on the +... 1061578_1063485
+*MOT:	Erie &can +... 1065243_1066066
+*MOT:	filled with lumber coal and hay . 1073960_1077106
+*MOT:	and we know every inch of the way from +... 1077106_1081085
+*MOT:	from Albany to Buffalo . 1088471_1091730
+*MOT:	low bridge . 1091730_1092670
+*MOT:	everybody down . 1092670_1094273
+*MOT:	low bridge . 1094273_1095545
+*MOT:	for we're coming to a town . 1095545_1097216
+*MOT:	oh you'll always know your neighbor . 1097216_1100300
+*MOT:	and you'll always know your +... 1100300_1102608
+*MOT:	if you've ever navigated on the +... 1104166_1107743
+*MOT:	+< Erie canal . 1109551_1110658
+*MOT:	that was good . 1110658_1111508
+*MOT:	I come from Alabama with a banjo on my knee . 1115766_1120768
+*MOT:	and I'm goin(g) to Lousiana my true love for to see . 1120768_1125603
+*MOT:	oh Suzanna . 1125603_1127698
+*MOT:	oh don't you cry for me . 1127698_1129770
+*MOT:	for I'm come from Alabama with my +... 1129770_1133166
+*MOT:	very good . 1137531_1138920
+*MOT:	the trolley song . 1141830_1142966
+*MOT:	some think the world is made for fun and frolic . 1142966_1146571
+*MOT:	and so do I . 1151011_1152366
+*MOT:	some think it well to be all melancholic . 1152366_1156296
+*MOT:	to pine and sigh . 1160045_1161681
+*MOT:	but I . 1161681_1163305
+*MOT:	tralala@si lala@si lala@si lala@si . 1180341_1184475
+*MOT:	joy is &eis everywhere . 1184475_1186305
+*MOT:	finiculi@si finicula@si [<] . 1188796_1191588
+*MOT:	oh love oh love oh careless love . 1191988_1202905
+*MOT:	love [>] +/. 1202905_1205016
+*MOT:	love oh love oh careless love . 1208323_1212285
+*MOT:	you see what careless love has done . 1212285_1215513
+*MOT:	once I wore my apron low . 1215513_1219430
+*MOT:	four what ? 1227353_1228293
+*MOT:	four feet . 1229681_1230420
+*MOT:	four feet . 1233530_1234163
+*MOT:	mm one foot yeah . 1237943_1239298
+*MOT:	okay let's find some more that we know . 1239298_1242915
+*MOT:	did you ever hear tell of sweet Betsy from pike . 1242915_1263175
+*MOT:	who +/. 1263175_1263666
+*MOT:	who crossed the prairies with her lover Ike . 1267530_1270506
+*MOT:	with two yoke . 1270506_1272048
+*MOT:	+< Nathaniel not while I'm singing . 1271946_1274823
+*MOT:	with two yoke of (.) cattle and one spotted hog . 1274823_1281646
+*MOT:	tall Shanghai rooster and an old yeller dog . 1281646_1286081
+*MOT:	good . 1288776_1289278
+*MOT:	you don't know this one ? 1293625_1295853
+*MOT:	Nathaniel I don't like that . 1295853_1297173
+*MOT:	please don't do that . 1297173_1297841
+*MOT:	please please . 1297841_1299263
+*MOT:	+< okay I'm gonna [: going to] go downstairs to the kitchen then
+*MOT:	+< okay then don't squeeze . 1307313_1308785
+*MOT:	here's one you like . 1316116_1316955
+*MOT:	which one's this ? 1320716_1321233
+*MOT:	do you know which one this is ? 1321233_1322238
+*MOT:	that's right Jimmy crack corn and I don't care . 1326086_1328426
+*MOT:	when I was young I used to wait on massah [: master] and hand him
+*MOT:	and pass the bottle when he got dry . 1334036_1336811
+*MOT:	and brush away the blue+tailed fly . 1336811_1339470
+*MOT:	Jimmy crack corn and +... 1339470_1342168
+*MOT:	Jimmy crack corn and I don't care . 1346770_1348996
+*MOT:	Jimmy crack corn and +... 1348996_1351910
+*MOT:	ole [: old] massah's [: master has] gone away . 1354131_1356241
+*MOT:	no I don't know this one either . 1366131_1367370
+*MOT:	in a cavern in a canyon excavatin(g) for a mine . 1367370_1374628
+*MOT:	dwelled a miner forty+niner . 1374628_1377890
+*MOT:	and his daughter +... 1377890_1379798
+*MOT:	Clementine . 1382715_1384236
+*MOT:	oh my darlin(g) oh my darlin(g) &=yawns . 1387115_1391186
+*MOT:	oh my darlin(g) Clementine . 1391186_1393696
+*MOT:	thou art lost and gone forever . 1393696_1396388
+*MOT:	dreadful sorry . 1396388_1397978
+*MOT:	in the water Clementine . 1399768_1402178
+*MOT:	carry me back to +//. 1404770_1410173
+*MOT:	I don't think you know that one . 1410173_1411258
+*MOT:	drink to me only with thine eyes and I will pledge with mine . 1411258_1421583
+*MOT:	or leave a kiss within the cup and I'll not ask for wine . 1421583_1427735
+*MOT:	the thirst that from the soul doth [: does] rise doth [: does] ask
+*MOT:	but might I of Jove's nectar sup I would not change for thine . 1436875_1444470
+*MOT:	you like that one ? 1444470_1446895
+*MOT:	down in the valley the valley so low . 1446895_1455696
+*MOT:	hang your head over +... 1455696_1458480
+*MOT:	hear the wind blow dear . 1462191_1465186
+*MOT:	hear the wind blow . 1465186_1466610
+*MOT:	hang your head over . 1466610_1469155
+*MOT:	hear the wind blow . 1469155_1473970
+*MOT:	what are you doing ? 1473970_1482303
+*MOT:	what are you doin(g) ? 1482303_1485345
+*MOT:	alright . 1488390_1489060
+*MOT:	can't turn the page if you're drivin(g) on it . 1489060_1490915
+*MOT:	I don't know this song . 1494311_1495233
+*MOT:	oh you know that one . 1495233_1515271
+*MOT:	that's alouette@s:fra that's right . 1518400_1520175
+*MOT:	how (doe)s it go ? 1520175_1522248
+*MOT:	no this is alouette@s:fra . 1527186_1527868
+*MOT:	this is not alouette@s:fra . 1527868_1528706
+*MOT:	this is alouette@s:fra . 1528706_1529260
+*MOT:	that's right . 1536710_1537246
+*MOT:	alouette@s:fra gentil@s:fra alouette@s:fra . 1537246_1540790
+*MOT:	alouette@s:fra . 1540790_1542296
+*MOT:	je@s:fra te@s:fra plumerai@s:fra le@s:fra tete@s:fra . 1545410_1547733
+*MOT:	a:h . 1552520_1553731
+*MOT:	alouette@s:fra gentil@s:fra alouette@s:fra . 1557695_1561361
+*MOT:	alouette@s:fra je@s:fra te@s:fra plumerai@s:fra . 1561361_1564221
+*MOT:	je@s:fra te@s:fra plumerai@s:fra le@s:fra cou@s:fra . 1564221_1566838
+*MOT:	it is one page that's right . 1570300_1571628
+*MOT:	are you gonna [: going to] sing this song or shall we turn the page
+*MOT:	je@s:fra te@s:fra plumerai@s:fra le@s:fra cou@s:fra . 1573555_1576233
+*MOT:	okay . 1579765_1580541
+*MOT:	oh what's this one ? 1580541_1597111
+*MOT:	this is Shenandoah . 1598111_1601625
+*MOT:	+< no this isn't Blow_the_man_down actually . 1604018_1605595
+*MOT:	shall we find Blow_the_man_down ? 1605595_1606850
+*MOT:	I'm not sure that's in here . 1608745_1609805
+*MOT:	this is oh Shenandoah . 1609805_1613865
+*MOT:	I long to see you . 1613865_1616108
+*MOT:	away you rolling river . 1616108_1618700
+*MOT:	where's Blow_the_man_down ? 1618700_1621816
+*MOT:	you know this one ? 1621816_1625083
+*MOT:	from this valley they say you are goin(g) . 1625083_1630486
+*MOT:	we will miss your bright eyes and sweet smile . 1630486_1634550
+*MOT:	for they say you are taking the sun shine . 1634550_1638630
+*MOT:	that brightens our pathways awhile . 1638630_1642311
+*MOT:	come and sit by my side if you love me . 1642311_1646525
+*MOT:	do not hasten to bid me adieu@s:fra . 1646525_1649940
+*MOT:	but remember the red river valley . 1649940_1653936
+*MOT:	and the girl who has loved you so true . 1653936_1658236
+*MOT:	here . 1658236_1662323
+*MOT:	+< that's right . 1665265_1667005
+*MOT:	oh ho blow the men down bullies +... 1667005_1669730
+*MOT:	to me way I blow the man down . 1673433_1679321
+*MOT:	oh ho blow the man down bullies +... 1679321_1681781
+*MOT:	give me some time to +... 1685211_1687770
+*MOT:	very good . 1690613_1693321
+*MOT:	can you sing it all by yourself ? 1693321_1696703
+*MOT:	bullies +... 1700465_1701236
+*MOT:	mmkay [: okay] . 1705250_1707211
+*MOT:	what this ? 1707696_1709420
+*MOT:	what's that ? 1710323_1710991
+*MOT:	that's she'll be comin(g) round the mountain when she comes . 1712196_1715458
+*MOT:	she'll be comin(g) round the mountain when she comes . 1715458_1718970
+*MOT:	she'll be comin(g) round the mountain . 1718970_1721466
+*MOT:	she'll be comin(g) round the mountain . 1721466_1723440
+*MOT:	she'll be comin(g) round the mountain &=yawns when she comes . 1723440_1727941
+*MOT:	you're fixing it . 1733645_1734381
+*MOT:	+^ what's wrong with it ? 1734381_1735151
+*MOT:	<what's wrong> [<] what's [/] what's broken ? 1737348_1738988
+*MOT:	a:h . 1742936_1759398
+*MOT:	that's called the drunken sailor . 1761723_1763096
+*MOT:	but I don't know that . 1763096_1764115
+*MOT:	&uh: yeah daddy sings it sometimes I guess . 1766941_1769200
+*MOT:	know this one ? 1769200_1774990
+*MOT:	I wish I was in the land of cotton . 1774990_1778005
+*MOT:	old times there are not forgotten . 1778005_1780078
+*MOT:	look away . 1780078_1780981
+*MOT:	look away . 1780981_1781885
+*MOT:	look away . 1781885_1783053
+*MOT:	Dixieland . 1783053_1783923
+*MOT:	nope ? 1783923_1786718
+*MOT:	okay . 1786718_1787420
+*MOT:	when Johnny comes marchin(g) home again . 1787420_1792580
+*MOT:	hurrah . 1794973_1796463
+*MOT:	we'll give him a hearty welcome then . 1796463_1798853
+*MOT:	hurrah . 1801931_1802601
+*MOT:	the men will cheer the boys will shout . 1805711_1807503
+*MOT:	the ladies they will all turn out . 1807503_1809493
+*MOT:	and we'll all feel gay when +... 1809493_1812473
+*MOT:	well . 1817993_1831995
+*MOT:	this is the part of the book where Baaee [= Mommy] doesn't know so
+*MOT:	wanna [: want to] sing another one ? 1842433_1843153
+*MOT:	well let's see . 1843153_1845780
+*MOT:	there's some here in the back that we know . 1845780_1847586
+*MOT:	there's some of these spirituals that we can sing . 1847586_1849476
+*MOT:	you know this one don't you ? 1849476_1851616
+*MOT:	&de dis [: this] is eh yyy . 1851616_1854411
+*MOT:	on the first day of christmas my true love sent to me . 1854411_1857905
+*MOT:	a partridge in a pear tree . 1857905_1863343
+*MOT:	+< okay . 1865355_1865923
+*MOT:	let's find another one . 1866586_1867421
+*MOT:	let's see . 1867421_1872561
+*MOT:	it's not a very good time of year to be singing christmas carols .
+*MOT:	let's do some of these . 1874718_1876826
+*MOT:	<let's see> [/] let's see . 1876826_1880713
+*MOT:	oh Nathaniel . 1887405_1895566
+*MOT:	rock of ages . 1895566_1903511
+*MOT:	cleft for me . 1903511_1905436
+*MOT:	let me hide my +... 1905436_1907310
+*MOT:	wanna [: want to] sing the Jesus +... 1911358_1912411
+*MOT:	you know this one ? 1913615_1914475
+*MOT:	what's this one ? 1914475_1914930
+*MOT:	how's this one go ? 1914930_1915833
+*MOT:	&=laughs . 1918153_1919073
+*MOT:	this . 1919073_1919656
+*MOT:	nobody knows the trouble I see . 1920378_1924246
+*MOT:	nobody knows but +... 1924246_1926486
+*MOT:	nobody know the trouble I see . 1928360_1931271
+*MOT:	glory [>] . 1931271_1932391
+*MOT:	that's right . 1937861_1940025
+*MOT:	no this is the one that daddy sings with you . 1944608_1946180
+*MOT:	Joshua fit the battle of Jericho Jericho Jericho . 1946180_1950025
+*MOT:	Joshua fit the battle of Jericho . 1950025_1951885
+*MOT:	and the walls came tumblin(g) down . 1951885_1954025
+*MOT:	oh rock a my soul in the bosom of Abraham . 1954025_1963443
+*MOT:	rock a my soul in the bosom of Abraham . 1963443_1965766
+*MOT:	rock a my soul in the bosom of Abraham . 1965766_1968176
+*MOT:	oh rock a my soul . 1968176_1971168
+*MOT:	oh here . 1971168_1981223
+*MOT:	what about this one ? 1981223_1981810
+*MOT:	swing low sweet chariot . 1981810_1985008
+*MOT:	comin(g) for to carry me home . 1985008_1987196
+*MOT:	swing low sweet chariot . 1987196_1990675
+*MOT:	comin(g) for to carry me home . 1990675_1993183
+*MOT:	well that was the music book . 1993183_2000776
+*MOT:	nobody knows the trouble I seen . 2000776_2004995
+*MOT:	nobody knows but Nathaniel . 2004995_2008540
+*MOT:	yogurt and granola for dinner ? 2014176_2015983
+*MOT:	what a silly dinner . 2015983_2017005
+*MOT:	how about if you go in the bath+room and find your glasses ? 2019890_2022803

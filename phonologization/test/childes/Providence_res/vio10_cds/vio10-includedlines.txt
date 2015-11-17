@@ -1,0 +1,342 @@
+*MOT:	say hello . 0_1931
+*MOT:	say hello . 1931_3818
+*MOT:	&uh , ow don't you bonk your head . 3818_6713
+*MOT:	Vaivy say hello . 6713_8168
+*MOT:	say hello . 8485_10331
+*MOT:	say hello .
+*MOT:	you didn't &uh whoa +//.
+*MOT:	alright don't dump that out . 17660_23900
+*MOT:	you didn't say hello . 23900_26615
+*MOT:	how come you didn't say hello . 26615_28308
+*MOT:	huh . 28308_31586
+*MOT:	let's see if we can get this on here . 31586_34780
+*MOT:	uhoh . 34780_37493
+*MOT:	somebody's [: somebody is] gonna get it . 37493_40331
+*MOT:	who's makin(g) a mess ? 40331_42760
+*MOT:	who's makin(g) a mess ? 45863_48423
+*MOT:	is it you ? 49863_51438
+*MOT:	we don't need batteries . 53160_54886
+*MOT:	we all we already put the batteries in . 54886_75260
+*MOT:	whaddya [: what do you] have now ? 76180_95410
+*MOT:	&uh let's see what's garbage in here . 95411_99595
+*MOT:	sticker . 99595_104426
+*MOT:	this is garbage garbage . 104426_111680
+*MOT:	I don't know what to do with this phone I think we'll just get rid of it . 111680_122280
+*MOT:	huh ? 122280_126546
+*MOT:	I'm gonna put that phone in the garbage . 126546_161281
+*MOT:	alright mommy's gonna make her tea . 161283_164491
+*MOT:	and we're gonna clean up in here . 164491_169915
+*MOT:	(o)kay you help me ? 169915_172251
+*MOT:	clean up . 172251_175035
+*MOT:	clean up everybody everywhere . 175035_182971
+*MOT:	clean up clean up . 182971_187680
+*MOT:	everybody do your share . 187680_192460
+*MOT:	I went to Piccadilly_Circus . 192460_225706
+*MOT:	oh pretty pretty belly . 225708_230275
+*MOT:	pretty pretty . 230275_231553
+*MOT:	stickers . 231923_233918
+*MOT:	oh pretty . 233918_237246
+*MOT:	thank you thank you pretty pretty . 237246_243975
+*MOT:	thank you . 243975_248278
+*MOT:	thank you . 248278_249918
+*MOT:	that's a baby huh , see the baby baby . 249918_256096
+*MOT:	and your gonna stick them all on me . 256096_261591
+*MOT:	number eight . 261591_264056
+*MOT:	number eight . 264056_266595
+*MOT:	where did ya [: you] stick it ? 267665_268690
+*MOT:	tea's [: tea is] ready . 273028_274226
+*MOT:	let's throw this away . 275411_276598
+*MOT:	tea's [: tea is] ready . 280011_281465
+*MOT:	hot . 289286_292101
+*MOT:	hot baby . 292101_294238
+*MOT:	what do you what dya [: do you] need , you want a drink ? 294238_299430
+*MOT:	you want a drink . 299430_300638
+*MOT:	huh ? 301775_303060
+*MOT:	do you want a drink ? 303931_305083
+*MOT:	not tea but I'll give you a different drink . 305083_308995
+*MOT:	that's hot . 308995_310523
+*MOT:	tea's [: tea is] hot . 310523_312476
+*MOT:	here mommy give you a drink in here , you want some juicy ? 312476_317631
+*MOT:	(o)kay here's some juicy for you if you want . 341065_343185
+*MOT:	here's you juice +//.
+*MOT:	&uh we got_to fix that . 343185_353520
+*MOT:	yeah mommy fix it .
+*MOT:	it's suppose to be in here . 357623_359911
+*MOT:	(o)kay . 359911_361343
+*MOT:	there's your juice . 362845_401766
+*MOT:	I got_to get some &uh q_tips today . 401768_430686
+*MOT:	let's go clean up in here . 430688_432376
+*MOT:	no you don't need any binkies . 432376_434688
+*MOT:	let's go clean up . 434688_436941
+*MOT:	you don't need any binkies . 436941_439296
+*MOT:	come on in here . 439296_441520
+*MOT:	you got_to help me with the arts and crafts . 441520_443815
+*MOT:	come here Vaivy . 443815_460950
+*MOT:	I don't know what to do with this (.) we gotta ask daddy . 460950_472170
+*MOT:	wow your playing some music .
+*MOT:	wow . 501860_505971
+*MOT:	music , yeah .
+*MOT:	no you got_to wear you go to keep that on . 510186_519985
+*MOT:	come on you want to help me ? 519985_521548
+*MOT:	let's find the kitty .
+*MOT:	no you got_to keep that on please . 521548_523661
+*MOT:	you got_to keep it on look mommy's wearing hers . 523661_527943
+*MOT:	cmon [: come on] I see the kitty: , meow meow . 527943_533168
+*MOT:	let's see what's under here . 533168_537410
+*MOT:	&uh it's a big mess . 537410_539520
+*MOT:	it's a big mess Vaivy . 539520_541631
+*MOT:	who's gonna clean up this big mess ? 541631_543515
+*MOT:	uhoh . 543515_544826
+*MOT:	who's gonna clean up the big mess ? 544826_548178
+*MOT:	is it you ? 548178_552115
+*MOT:	is it you ? 552115_553481
+*MOT:	what's over there that's my camera okay . 553481_556523
+*MOT:	put this back on , who's gonna help me clean up the big mess ? 556523_561613
+*MOT:	who made a big mess ? 561613_563573
+*MOT:	you do oh good .
+*MOT:	oh Violet help me , you need a pencil . 568720_571120
+*MOT:	I need a garbage pile is what I need to do . 571120_576980
+*MOT:	well that's what's gonna happen now . 576980_579620
+*MOT:	look at this . 579620_581743
+*MOT:	hi .
+*MOT:	who is it ? 584963_585595
+*MOT:	is that xxx and Lilly ? 586626_588053
+*MOT:	xxx and Lilly . 591030_592948
+*MOT:	are they in the snow ? 592948_599976
+*MOT:	what's this one ? 599976_602836
+*MOT:	okay we're having a problem with this today ? 603788_608845
+*MOT:	what rock what ? 610611_613173
+*MOT:	what ?
+*MOT:	alright we need a garbage pail here okay ? 619331_623278
+*MOT:	we gotta , you know what we should do is figure out this whole draw .
+*MOT:	that's gonna be a big project . 632681_634943
+*MOT:	I don't know if I'm up for it . 634943_637308
+*MOT:	here's xxx camera .
+*MOT:	&uh who's this ? 643988_647810
+*MOT:	who's that ? 647810_649771
+*MOT:	who's that ? 649771_651980
+*MOT:	is that xxx ? 651980_654171
+*MOT:	who's this ? 654171_660323
+*MOT:	that's Violet . 660323_662115
+*MOT:	is that Violet ? 662115_666011
+*MOT:	the pretty baby . 666011_668276
+*MOT:	that the pretty girl +//?
+*MOT:	who's this ? 668276_670810
+*MOT:	this Aceland . 672711_677976
+*MOT:	right ? 677976_681343
+*MOT:	now the problem here is I don't really know what it is but (.) we got too much junk . 681343_690893
+*MOT:	junk . 690893_693510
+*MOT:	Aceland and Violet . 700723_704643
+*MOT:	can you say Violet ? 704643_706833
+*MOT:	no .
+*MOT:	Violet .
+*MOT:	Violet . 717831_727301
+*MOT:	that's Aceland .
+*MOT:	and Violet . 736146_739586
+*MOT:	I think I'm gonna put these legos downstairs . 739586_744943
+*MOT:	what do you think is that a good idea ? 744943_751525
+*MOT:	If I put these legos downstairs . 751525_753811
+*MOT:	we'll at least get one thing out of the way , huh ? 753811_756763
+*MOT:	you sit down there for a minute mommy's got_to get something . 756763_764496
+*MOT:	&uh it's all stuck .
+*MOT:	these two things I don't know what to do with . 801901_806015
+*MOT:	look , at this ready ? 806015_811876
+*MOT:	look , ready . 811876_813708
+*MOT:	peekaboo . 813708_817076
+*MOT:	xxx xxx . 817076_822508
+*MOT:	remember this one where the sheep goes with the lamb . 829831_833530
+*MOT:	remember that one ? 833530_859231
+*MOT:	we got_to get this thing out a here . 859233_860816
+*MOT:	how do we do it ? 860816_865488
+*MOT:	Violet .
+*MOT:	there we go . 871011_872860
+*MOT:	what's that ?
+*MOT:	what is it horsie ?
+*MOT:	we gotta find the baby that go with the horsie so we got_to find all the matching ones . 880216_886385
+*MOT:	see the baby , does the horsie have a baby ? 886385_890545
+*MOT:	where's the baby , let's find the baby that goes with the horsie . 890545_897408
+*MOT:	let's see first we put all those +... 897408_900568
+*MOT:	you see it yet ? 900568_909073
+*MOT:	we got too much stuff Violet , that's just it we got way too much stuff , that's our problem . 920656_926041
+*MOT:	&uh here comes the horsie baby . 926041_930490
+*MOT:	I think I found it . 930490_932241
+*MOT:	let's see . 932241_933476
+*MOT:	here's the goat , the hen and the chick . 933476_938076
+*MOT:	cow and here's the baby calf that goes with the cow , right ? 938076_945541
+*MOT:	here's the baby horse . 945541_948235
+*MOT:	this goes with that . 948235_951563
+*MOT:	this goes with this . 951563_955515
+*MOT:	hey , put that with the mama get the mama . 955515_960530
+*MOT:	here's the mama right here , mama horse . 960530_969681
+*MOT:	that's good . 969681_975448
+*MOT:	right I think I'm gonna get rid of this thing . 975448_978360
+*MOT:	yup [: yes] you put the horse , look it . 978360_982486
+*MOT:	there the mama and the baby . 982486_987095
+*MOT:	right this stuff all goes with that box . 987095_996415
+*MOT:	yeah . 996415_1001350
+*MOT:	what happened ? 1008225_1010923
+*MOT:	broken ?
+*MOT:	can you fix it ? 1014083_1018363
+*MOT:	put it down you go to put it down here ? 1018363_1020755
+*MOT:	there , here's the baby pig . 1020755_1025568
+*MOT:	right ? 1025568_1042829
+*MOT:	wait wait , this one goes with this one . 1044295_1046528
+*MOT:	this one needs a mama pig . 1046528_1052465
+*MOT:	where's the mama pig ? 1052465_1054810
+*MOT:	here see we got the cow the hen , we have the goat but we have_to find the mama pig . 1054810_1063598
+*MOT:	where's the mama pig ? 1063598_1067478
+*MOT:	&uh , I found it here's the mama pig . 1069810_1073213
+*MOT:	put that with the baby pig . 1073213_1078810
+*MOT:	well those ones don't go together you have_to put the mama pig +//.
+*MOT:	where's the baby pig ? 1078810_1088236
+*MOT:	where's the baby pig ? 1088236_1092261
+*MOT:	that's the baby horse where's the baby piggy ?
+*MOT:	that's the mama where's the baby ?
+*MOT:	is it over there ? 1100895_1104176
+*MOT:	right , so we put the mama with the baby , there .
+*MOT:	and what's this ? 1112190_1113921
+*MOT:	a horse .
+*MOT:	with the baby , there now we only have_to find the goat baby . 1115993_1121240
+*MOT:	right ? 1121240_1125768
+*MOT:	we got_to find the goat baby ? 1125768_1128610
+*MOT:	do ya [: you] see it ? 1128610_1136040
+*MOT:	it's gonna be hard to find . 1136040_1138496
+*MOT:	you know it's in there . 1138496_1148975
+*MOT:	oh look string for kites . 1148975_1152423
+*MOT:	stri:ng . 1152423_1155376
+*MOT:	what do ya [: you] need you lookin(g) for the mama ? 1155376_1162591
+*MOT:	let's take this all out , let's see if it's in here . 1166111_1169286
+*MOT:	oh what's that ? 1178993_1181105
+*MOT:	what's this , oh these are xxx birthday cards from when he was four . 1181105_1188681
+*MOT:	and you know what he'll do when it's his birthday again ? 1188681_1194970
+*MOT:	oh oh oh , here's a sticker book (.) these are licky stickers though . 1194970_1208731
+*MOT:	those aren't , you can't really do those ones because they're licky stickers . 1208731_1215210
+*MOT:	well I don't know where the baby is here . 1215210_1223181
+*MOT:	do you ? 1223181_1225695
+*MOT:	(o)kay let's see we go this and this that's good . 1225695_1233343
+*MOT:	let's check this out is this one all used up ? 1233343_1242798
+*MOT:	no you got more in there . 1242798_1244143
+*MOT:	oh thank you . 1244143_1247253
+*MOT:	thank you . 1247253_1248365
+*MOT:	thank you . 1248365_1250026
+*MOT:	this is a book that goes in the book case with stickers . 1250026_1254865
+*MOT:	look at these stickers . 1254865_1257016
+*MOT:	we got lots_of stickers huh ? 1257016_1262345
+*MOT:	sticker . 1262345_1264626
+*MOT:	alright we go the sand . 1264626_1279153
+*MOT:	can't get them off ? 1279153_1284041
+*MOT:	let's rip out a page . 1284041_1293418
+*MOT:	you can get this one . 1293418_1297953
+*MOT:	we'll see if we can fit this in here . 1297953_1306441
+*MOT:	I don't know it might be too big . 1306441_1312593
+*MOT:	oh no , there we go now that's much better . 1312593_1316690
+*MOT:	okay stickers and (.) we'll put these games down stairs . 1316690_1323978
+*MOT:	stick it on me . 1323978_1329220
+*MOT:	thank you . 1329220_1332235
+*MOT:	thank you . 1332235_1333810
+*MOT:	we'll put all this stuff in xxx box okay ? 1333810_1342075
+*MOT:	sticker . 1342075_1348308
+*MOT:	more stickers . 1348308_1356171
+*MOT:	what does that one say ? 1356171_1358168
+*MOT:	what does it say ? 1359520_1360576
+*MOT:	it does ? 1362888_1365610
+*MOT:	here's a cool origami book . 1365610_1372478
+*MOT:	put that in here . 1372478_1375441
+*MOT:	okay let's see what else we have . 1375441_1378456
+*MOT:	we have this black paper . 1378456_1382450
+*MOT:	which I don't know what we are going to do with . 1382450_1385441
+*MOT:	we have this card that xxx likes so we'll put that in there . 1385441_1388450
+*MOT:	these xxx likes , this xxx likes . 1388450_1401278
+*MOT:	okay I think we're going to be getting rid of all of this other stuff here . 1401278_1405876
+*MOT:	tha:nk you . 1405876_1410430
+*MOT:	tha:nk you . 1410430_1412328
+*MOT:	&uh , I don't know Vaivy , should we put these on the table again ? 1412328_1421973
+*MOT:	put these on the table in the kitchen . 1421973_1431491
+*MOT:	and a big bag to throw all the rest of this stuff out in . 1431491_1437076
+*MOT:	but don't tell xxx okay ? 1437076_1441898
+*MOT:	we need to go get big bag in kitchen . 1444951_1446615
+*MOT:	you know where the bags are ?
+*MOT:	where's the bags ? 1449810_1451351
+*MOT:	oh don't forget about these , see everytime I look at stuff I find stuff I need to keep . 1451351_1456410
+*MOT:	what ?
+*MOT:	what , what is it ?
+*MOT:	with the chick on it ? 1465850_1467321
+*MOT:	oh flower . 1467321_1469876
+*MOT:	pretty thank you . 1469876_1472263
+*MOT:	thank you . 1472263_1473638
+*MOT:	pretty pretty flower . 1473638_1475760
+*MOT:	thank you . 1475760_1477991
+*MOT:	thank you . 1477991_1480993
+*MOT:	kite string . 1480993_1484945
+*MOT:	picture of your cousins . 1487120_1491225
+*MOT:	now do you want to keep these things ? 1491225_1494408
+*MOT:	I think you like these don't ya [: you] ? 1494408_1496108
+*MOT:	we'll keep those for Vaivy huh ? 1496108_1498515
+*MOT:	kite string . 1498515_1501243
+*MOT:	and keep that paper for mommy .
+*MOT:	I figure I'm gonna get rid of this . 1506811_1509948
+*MOT:	that kinda drives me crazy , I don't really like that . 1509948_1514331
+*MOT:	that's a place mat . 1514331_1518396
+*MOT:	well you can look at those while I get the bag , let me get the bag . 1518396_1526076
+*MOT:	yup [: yes] I got_to get the bag . 1526076_1529220
+*MOT:	here's the bag . 1537425_1541608
+*MOT:	all this stuff gotta go in the bag . 1541608_1545840
+*MOT:	(o)kay ? 1545840_1546990
+*MOT:	yes . 1547958_1548750
+*MOT:	alright . 1550910_1553711
+*MOT:	(o)kay we got a pad of paper here . 1553711_1563406
+*MOT:	oh we won't throw that away because xxx likes that . 1563406_1590216
+*MOT:	wanna take your socks off ? 1590218_1640185
+*MOT:	put this in xxx (.) &uh desk , (o)kay . 1640185_1645983
+*MOT:	desk . 1650900_1656105
+*MOT:	okay , oh your putting stickers on your feet , silly . 1656105_1663756
+*MOT:	stickers on your feet , you silly . 1664410_1668706
+*MOT:	alright what do we got here , books ? 1668706_1673985
+*MOT:	alright put those in the book case , put that in there . 1673985_1678881
+*MOT:	sponge Bob square pants . 1678881_1685251
+*MOT:	sponge Bob square pants . 1685251_1687301
+*MOT:	sponge Bob square pants . 1687301_1691215
+*MOT:	you know what I really want to work on too is your photo album . 1691215_1701106
+*MOT:	I haven't done that in a lo:ng time . 1701106_1705483
+*MOT:	a long long time . 1705483_1744430
+*MOT:	&uh , I don't know about this thing , Vaivy . 1744430_1756641
+*MOT:	what do you think ? 1756641_1758155
+*MOT:	huh , what do you think ? 1758155_1768088
+*MOT:	I got an elastic for my hair so that was lucky . 1768088_1786791
+*MOT:	what are you gonna do with that ?
+*MOT:	(o)kay all this stuff goin(g) in the basement . 1816638_1822398
+*MOT:	(o)kay you can play those ones .
+*MOT:	these are all goin(g) in the basement . 1827058_1830166
+*MOT:	basement . 1830166_1833551
+*MOT:	don't pull stuff out of the garbage . 1833551_1846285
+*MOT:	don't pull stuff out of the garbage . 1846285_1858355
+*MOT:	say hi kitty . 1860228_1862903
+*MOT:	okay . 1862903_1867118
+*MOT:	okay we can keep that black paper , that goes with the memory game , that goes in the garbage that goes in there . 1867118_1875768
+*MOT:	now the big question is this thing . 1875768_1880385
+*MOT:	I don't know . 1880385_1883316
+*MOT:	if I could just take off this roll part . 1883316_1887185
+*MOT:	xxx will probably be upset , so we better put this in here . 1887185_1894655
+*MOT:	wanna [: want a] necklace ?
+*MOT:	wanna [: want a] necklace ? 1897438_1898331
+*MOT:	necklace .
+*MOT:	necklace .
+*MOT:	in the bag ? 1911596_1915086
+*MOT:	you don't want the necklace ? 1915086_1919646
+*MOT:	pretty . 1919646_1923170
+*MOT:	we'll throw that in the bag , okay . 1923170_1925148
+*MOT:	throw that in the bag too , but don't tell xxx . 1925148_1932491
+*MOT:	(o)kay .
+*MOT:	you gotta promise not to tell xxx .
+*MOT:	or we'll get in trouble . 1936835_1938748
+*MOT:	(o)kay . 1942123_1943731
+*MOT:	no no you don't want to put your socks in the bag . 1943731_1947220
+*MOT:	put your socks on your feet . 1947220_1949103
+*MOT:	socks go on your feet . 1949103_1957723
+*MOT:	yup . 1962773_1964253
+*MOT:	I really should go through that cabinet but I don't have the energy +...
+*MOT:	no don't put those in the bag cause this is garbage . 1988481_1994795
+*MOT:	we'll put this out for the garbage . 1994795_2001391
+*MOT:	don't put your socks in the garbage silly Billy . 2001391_2007618
+*MOT:	alright .
+*MOT:	well that was good now we can sweep in here , where's your broom ? 2024368_2030456

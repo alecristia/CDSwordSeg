@@ -1,0 +1,26 @@
+*MOT:	okay you talk to Daddy . 0_21177
+*MOT:	you talk to Daddy on the phone . 24637_26123
+*MOT:	no that phone . 26123_27121
+*MOT:	no this is not Daddy , that's Daddy . 27221_28940
+*MOT:	this is a tape recorder , that is Daddy . 30936_32910
+*MOT:	talk to Daddy on the telephone . 32910_35239
+*MOT:	that's right . 35239_35726
+*MOT:	yes this is mine . 37700_38831
+*MOT:	yeah this is my Daddy . 143112_143855
+*MOT:	I have_to go turn off the other phone . 143855_145796
+*MOT:	that's a d@l ? 152381_154610
+*MOT:	is that a letter d@l ? 160183_164352
+*MOT:	this is cereal . 171039_173268
+*MOT:	yeah (.) have you &um (.) do you have alphabits at school ? 175312_182185
+*MOT:	alphabits cereal ? 183011_185343
+*MOT:	you do ? 186000_187284
+*MOT:	what did you do at school ? 187284_192485
+*MOT:	yeah . 195251_197377
+*MOT:	at school ? 200349_201175
+*MOT:	no . 202578_203590
+*MOT:	yeah . 205819_207305
+*MOT:	well did you go swimming today . 223818_229019
+*MOT:	Daddy go go swimming with you ? 234963_238678
+*MOT:	when ? 239335_241378
+*MOT:	yeah . 243876_244619
+*MOT:	where ? 245362_246002

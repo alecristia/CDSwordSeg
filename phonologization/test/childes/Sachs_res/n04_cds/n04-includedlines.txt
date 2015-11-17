@@ -1,0 +1,254 @@
+*MOT:	would you like to read something (.) honey ? 10000_13258
+*MOT:	&hmm . 13258_14041
+*MOT:	would you like to read a little ? 14041_15207
+*MOT:	look at some pictures ? 15207_18576
+*MOT:	oh (.) you want to look at the book ? 24044_25060
+*MOT:	okay . 25060_25594
+*MOT:	would you like to read (.) honey ? 45594_48629
+*MOT:	why don't you read ? 49212_50062
+*MOT:	what's that ? 56249_57033
+*MOT:	&hmm (.) duck . 58235_60001
+*MOT:	what's the little girl doing ? 60001_62703
+*MOT:	what's she doing ? 65422_66938
+*MOT:	she's feeding the ducks . 68288_69207
+*MOT:	feeding . 69207_71157
+*MOT:	I just don't want you to get the crayon on your clothes . 92198_95833
+*MOT:	Nomi (.) why don't we play with the baby ? 95833_106872
+*MOT:	feed the baby and give it some coffee . 106872_108808
+*MOT:	yeah . 113110_113726
+*MOT:	give the baby some coffee . 113726_115395
+*MOT:	here (.) let's get this baby . 115395_118514
+*MOT:	what's the baby doing ? 118514_122399
+*MOT:	squeak squeak . 126334_127286
+*MOT:	do you see a cup ? 127286_131837
+*MOT:	there's one right there . 131837_135458
+*MOT:	you gonna give the baby some coffee ? 135458_137175
+*MOT:	give the baby some coffee . 138743_144831
+*MOT:	baby's squeaking . 153831_156531
+*MOT:	wants some coffee . 156531_157533
+*MOT:	yeah (.) sit down . 171891_172974
+*MOT:	coffee (.) coffee she says . 172974_180913
+*MOT:	coffee (.) coffee . 180913_182932
+*MOT:	okay . 235748_241636
+*MOT:	are we ready to have some coffee ? 241636_242819
+*MOT:	now (.) do you want any more babies ? 256675_260977
+*MOT:	more babies . 262360_264179
+*MOT:	how about the elephant ? 264179_267214
+*MOT:	would the elephant like some coffee ? 268566_270383
+*MOT:	no . 272101_272751
+*MOT:	the elephant wants some . 272751_275153
+*MOT:	hug (.) hug . 275153_276103
+*MOT:	the elephant wants some . 276103_279704
+*MOT:	please (.) Nomi (.) can I have some coffee ? 279704_286627
+*MOT:	can I have some coffee (.) please ? 286627_290396
+*MOT:	please ? 290396_292264
+*MOT:	give the elephant some coffee . 293464_296983
+*MOT:	who's that ? 303720_306322
+*MOT:	who's that ? 306322_307791
+*MOT:	bunny wants some coffee (.) too . 309057_311659
+*MOT:	bunny wants some coffee . 311659_315045
+*MOT:	alright . 341067_343335
+*MOT:	you can get +... 343335_347452
+*MOT:	oh (.) you got stuck there . 347452_349118
+*MOT:	okay . 349118_349585
+*MOT:	your lamb wants some coffee (.) too . 357358_360093
+*MOT:	your lamb wants some coffee . 360093_366647
+*MOT:	what (.) honey ? 376169_377887
+*MOT:	what dadee@b (.) honey ? 380839_382958
+*MOT:	dolly ? 384058_384741
+*MOT:	dolly ? 384741_387593
+*MOT:	which dolly do you want ? 387593_392197
+*MOT:	do you want the bear ? 392964_394783
+*MOT:	here's the bear . 395583_398751
+*MOT:	there . 398751_399768
+*MOT:	hug (.) hug (.) hug (.) Nomi . 399768_401970
+*MOT:	what's the lamb doing ? 418970_419903
+*MOT:	what's he doing ? 421436_422755
+*MOT:	jumping . 424338_428040
+*MOT:	jumping . 428040_428842
+*MOT:	jumping . 428842_429509
+*MOT:	jumping . 432444_433994
+*MOT:	jumping . 433994_434929
+*MOT:	jumping . 434929_435929
+*MOT:	jumping . 438162_439064
+*MOT:	now what are they doing ? 447235_448451
+*MOT:	hug (.) right . 450553_451936
+*MOT:	hug (.) hug . 451936_453505
+*MOT:	there . 467079_472516
+*MOT:	there . 473582_475118
+*MOT:	with a flower . 475118_476601
+*MOT:	that dolly is called +"/. 478303_480053
+*MOT:	+" skunk . 480053_480586
+*MOT:	skunk . 480586_482738
+*MOT:	okay . 484407_491227
+*MOT:	you've got all your dollies . 491227_492227
+*MOT:	doggie (.) doggie (.) baby (.) lamb (.) kitty (.) doggie (.) doggie
+*MOT:	they're all wanting to have coffee . 524998_529136
+*MOT:	all want to have coffee . 529136_532454
+*MOT:	what is that (.) honey ? 546454_550622
+*MOT:	broken . 554224_555776
+*MOT:	the flower is broken ? 555776_558362
+*MOT:	broken . 563247_564682
+*MOT:	oh (.) that's too bad . 564682_567648
+*MOT:	can you smell the flower ? 567648_569500
+*MOT:	that's too bad . 577206_578073
+*MOT:	let's put it over here and let it rest . 578073_581108
+*MOT:	maybe it won't be broken any more . 581108_582844
+*MOT:	there . 582844_584560
+*MOT:	the dolly's going to have coffee . 584560_592082
+*MOT:	o:h (.) a pear . 606082_609950
+*MOT:	pear . 611000_612169
+*MOT:	maybe the dolly would like to eat the pear . 612169_613902
+*MOT:	what else would the babies like to eat ? 624902_627211
+*MOT:	a radio . 634332_636565
+*MOT:	boom . 639334_641284
+*MOT:	what (.) honey ? 646286_647738
+*MOT:	what's dup@b ? 649071_652190
+*MOT:	what is that ? 653375_654892
+*MOT:	broken ? 657544_659746
+*MOT:	glasses . 689348_690848
+*MOT:	yes (.) Nomi has her glasses on . 690848_693150
+*MOT:	she looks like a movie star . 693150_698404
+*MOT:	she looks like a movie star . 698404_701906
+*MOT:	she looks like a movie star . 701906_706409
+*MOT:	peekaboo . 707859_708609
+*MOT:	peekaboo . 708609_710378
+*MOT:	peekaboo . 710378_713513
+*MOT:	&hmm (.) book . 721148_723817
+*MOT:	read the dollies a story . 723817_727569
+*MOT:	read the dollies a story . 727569_731171
+*MOT:	do@b do@b do@b do@b . 750565_753134
+*MOT:	what's that (.) Nomi ? 837184_838667
+*MOT:	what's that on the card ? 839650_841486
+*MOT:	what are they doing ? 843554_844388
+*MOT:	they're kissing (.) honey (.) kissing . 846790_849258
+*MOT:	kissing . 850992_853344
+*MOT:	chickie . 884344_885827
+*MOT:	chickie . 887662_888579
+*MOT:	all around are little chickies . 888579_892381
+*MOT:	what ? 899754_901254
+*MOT:	(..) elephant . 916657_918707
+*MOT:	(..) baby . 920059_925696
+*MOT:	bunny . 925696_930781
+*MOT:	kitty . 934652_935369
+*MOT:	lamb . 940922_941705
+*MOT:	bear . 946690_948256
+*MOT:	doggie . 956479_957262
+*MOT:	pear . 957262_960914
+*MOT:	now everything is on the floor . 980833_983249
+*MOT:	all your toys are on the floor . 983249_986737
+*MOT:	no (.) Nomi (.) you can't walk with all the toys on the floor . 1048737_1052705
+*MOT:	you've got so many toys on the floor . 1052705_1056690
+*MOT:	so many toys . 1061644_1062744
+*MOT:	&hmm (.) car . 1091033_1094451
+*MOT:	&hmm . 1096753_1097887
+*MOT:	what ? 1221089_1223308
+*MOT:	uhhum (.) blanket . 1226560_1227543
+*MOT:	do you want some xxx (.) Nomi ? 1227543_1229312
+*MOT:	shh (.) shh . 1254453_1255738
+*MOT:	uhhum . 1277518_1279384
+*MOT:	what's going to happen when you put your diaper on ? 1279384_1283872
+*MOT:	you'll get it all damp . 1286374_1287457
+*MOT:	let me get you a fresh diaper . 1287457_1293111
+*MOT:	I don't want you to get a cold . 1293111_1299014
+*MOT:	I don't want you to get a cold . 1300481_1302533
+*MOT:	no . 1302533_1303149
+*MOT:	I have_to get you a diaper first because you're getting damp . 1311739_1314607
+*MOT:	damp (.) damp . 1316909_1320044
+*MOT:	damp . 1320694_1323079
+*MOT:	you're getting damp . 1324146_1325229
+*MOT:	what is this ? 1330333_1337037
+*MOT:	what is it called ? 1337037_1338222
+*MOT:	what is this ? 1339055_1339938
+*MOT:	what is this ? 1339938_1340890
+*MOT:	no (.) not cold . 1342390_1343476
+*MOT:	what is this ? 1343476_1343942
+*MOT:	what's your name ? 1344576_1346994
+*MOT:	Nomi (.) say (.) +"/. 1347961_1349663
+*MOT:	+" Nomi . 1349663_1350080
+*MOT:	Nomi (.) yes (.) Nomi . 1351663_1353482
+*MOT:	that's your name . 1353482_1355098
+*MOT:	Nomi . 1356634_1357867
+*MOT:	what's your name ? 1367867_1369533
+*MOT:	Nomi . 1370919_1372235
+*MOT:	what's your name ? 1373169_1374704
+*MOT:	Nomi (.) you say (.) Nomi@q (.) when I say (.) +"/. 1376171_1379758
+*MOT:	+" what's your name ? 1379758_1380158
+*MOT:	what's your name ? 1380158_1381358
+*MOT:	Nomi (.) you're just not getting the right idea . 1382627_1388996
+*MOT:	what's your name ? 1388996_1393065
+*MOT:	Nomi . 1393965_1394917
+*MOT:	that's what you're supposed to say when I say (.) +"/. 1395634_1399902
+*MOT:	+" what's your name ? 1399902_1401171
+*MOT:	off (.) off . 1402804_1404023
+*MOT:	that's attached . 1404023_1405406
+*MOT:	that's my arm . 1405872_1407189
+*MOT:	how can I take my arm off ? 1408458_1409708
+*MOT:	how can I take my arm off ? 1413260_1415562
+*MOT:	it's attached to my body . 1415562_1416728
+*MOT:	creepmouse@c (.) creepmouse@c . 1426728_1428485
+*MOT:	say it (.) +"/. 1428485_1430435
+*MOT:	+" creepmouse@c (.) creepmouse@c . 1430435_1431903
+*MOT:	where's Nomi ? 1446903_1450121
+*MOT:	I can't see her . 1450121_1451371
+*MOT:	where is she ? 1451371_1452990
+*MOT:	where is she ? 1452990_1454673
+*MOT:	where is she ? 1454673_1457992
+*MOT:	is she a creep ? 1457992_1461663
+*MOT:	is she a creep ? 1461663_1463846
+*MOT:	creepmouse@c (.) creepmouse@c (.) creepmouse@c (.) creepmouse@c all
+*MOT:	creepmouse@c creepmouse@c . 1480407_1494784
+*MOT:	oh (.) Nomi (.) you're wetter . 1503273_1506042
+*MOT:	you're wet because you don't have your rubber pants pulled up . 1506042_1510193
+*MOT:	no wonder you're wet . 1510193_1519599
+*MOT:	no wonder you're wet . 1521617_1524669
+*MOT:	I'm not a bit surprised . 1524669_1528838
+*MOT:	I'm not a bit surprised . 1531407_1532875
+*MOT:	you're not surprised either . 1534159_1535644
+*MOT:	are you surprised ? 1535644_1537894
+*MOT:	surprised . 1537894_1540463
+*MOT:	no (.) that doesn't open . 1542915_1545533
+*MOT:	hey (.) don't tear that apart . 1545533_1553638
+*MOT:	Nomi (.) don't tear it . 1553638_1557707
+*MOT:	you're tearing it . 1560957_1563059
+*MOT:	don't tear the book . 1563059_1566127
+*MOT:	don't tear it . 1566127_1569598
+*MOT:	let me attach you . 1590181_1592031
+*MOT:	here . 1592224_1592690
+*MOT:	fasten you up again . 1592690_1594074
+*MOT:	o:h (.) fall down . 1594074_1600078
+*MOT:	hold still for a minute (.) you fall down girl . 1600078_1605398
+*MOT:	hold still for a minute . 1605398_1607081
+*MOT:	you fall down girl . 1620341_1621058
+*MOT:	you fall down girl . 1622541_1626511
+*MOT:	get up . 1627144_1627811
+*MOT:	get up . 1627811_1629113
+*MOT:	get up . 1629113_1630296
+*MOT:	get up . 1630296_1632148
+*MOT:	get up . 1632148_1634031
+*MOT:	get up .
+*MOT:	there's a duck and a dog . 1646022_1648791
+*MOT:	can you say that (.) +"/. 1648791_1651826
+*MOT:	+" doggie ? 1651826_1652459
+*MOT:	duck . 1653678_1654611
+*MOT:	mhm . 1655428_1656996
+*MOT:	duck (.) right .
+*MOT:	oh (.) is it cute . 1675274_1676390
+*MOT:	is it cute . 1676390_1677624
+*MOT:	oh (.) you . 1709086_1712404
+*MOT:	hat . 1735756_1737603
+*MOT:	&hmm (.) bed . 1761551_1764137
+*MOT:	oopsie . 1764137_1776028
+*MOT:	boom . 1776995_1778147
+*MOT:	Nomi (.) careful . 1785400_1787468
+*MOT:	you fell down (.) didn't you ? 1788335_1789854
+*MOT:	oh (.) Nomi (.) you have so many toys on the floor . 1789854_1799543
+*MOT:	you keep stepping on toys (.) don't you ? 1809782_1812183
+*MOT:	you keep stepping on them . 1812183_1815702
+*MOT:	Nomi (.) can you find the arm for the dolly ? 1835702_1837935
+*MOT:	where's the dolly's arm ? 1837935_1839754
+*MOT:	where's that dolly's arm (.) honey ? 1839754_1846041
+*MOT:	oh (.) crunch . 1905975_1908927
+*MOT:	do you want to come over here and rest a minute ? 1908927_1912529
+*MOT:	you lie in this for a minute . 1926529_1931431
+*MOT:	lie still .

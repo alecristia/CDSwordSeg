@@ -1,0 +1,537 @@
+*MOT:	robot yeah . 0_1373
+*MOT:	you can sit outside if you want , or on the front porch since it's such a nice day .
+*MOT:	let's look when it's done okay ?
+*MOT:	see the toys , gentle you're gonna move the camera .
+*MOT:	ready set . 13893_17155
+*MOT:	what do you see ?
+*MOT:	yeah your blocks . 22841_27103
+*MOT:	and that's the camera . 27103_29785
+*MOT:	and that's the bathroom . 29785_35211
+*MOT:	yeah .
+*MOT:	bathroom door that's right . 40153_43415
+*MOT:	here let me stick this in your bag .
+*MOT:	yeah , I'm just fixing your backpack . 47593_50458
+*MOT:	there you go .
+*MOT:	yeah , the batteries are in there , we'll just leave the batteries in there .
+*MOT:	come here . 60080_63946
+*MOT:	are you falling dow:n , bonk ? 66286_70846
+*MOT:	falling dow:n .
+*MOT:	yeah , the battery's [: battery is] in the back do you wanna [: want to] see the battery ? 76355_79078
+*MOT:	battery .
+*MOT:	what're [: what are] you doing to the battery ? 94960_99243
+*MOT:	sticking it in your eye ? 99243_102663
+*MOT:	ow . 102663_106238
+*MOT:	why are you sticking the battery in your eye ? 106238_110625
+*MOT:	no let's look at the toys later .
+*MOT:	let's play with the toys now . 117818_119526
+*MOT:	then you could look at it later okay ? 119526_121121
+*MOT:	camera's taking pictures of the toys .
+*MOT:	and Ethan . 124981_125711
+*MOT:	the camera needs +//.
+*MOT:	Ethan won't be in there if you're looking in the camera , we'll look at it later . 126435_130376
+*MOT:	Ethan don't touch please . 130376_132230
+*MOT:	don't touch please .
+*MOT:	one more time . 134813_136151
+*MOT:	you have_to be careful . 136151_141221
+*MOT:	do you wanna put something in there so we can see it , how (a)bout the house , come ? 143541_149075
+*MOT:	let's get the house . 149100_151291
+*MOT:	put your house and barn in the middle . 151291_156775
+*MOT:	put your house there . 156776_158450
+*MOT:	and xxx the barn there and the house now , come with mommy . 158518_164756
+*MOT:	xxx . 167570_169298
+*MOT:	yup . 170771_171686
+*MOT:	yup .
+*MOT:	that's right . 181076_181890
+*MOT:	we can move your hoop more . 185890_189523
+*MOT:	let's see . 189523_193646
+*MOT:	water inside .
+*MOT:	daddy put water inside . 200885_202615
+*MOT:	&uh hum .
+*MOT:	mhm . 205040_205978
+*MOT:	daddy put water inside so it would be heavy . 207463_209698
+*MOT:	so it wouldn't fall over . 209698_214120
+*MOT:	you wanna hear it ? 216698_221991
+*MOT:	later can take it outside and get the hose . 228845_231361
+*MOT:	we have_to put it inside with the hose . 231361_233731
+*MOT:	yeah , it's your backpack .
+*MOT:	what're [: what are] you doing ? 245718_251681
+*MOT:	you wanna see your toys again ? 255178_261644
+*MOT:	we have_to stop looking at them , last time okay , no more .
+*MOT:	no more , there are your toys .
+*MOT:	yup .
+*MOT:	that's right , your house and your barn . 267596_289486
+*MOT:	I'm gonna fix the barn . 289488_291461
+*MOT:	(be)cause the door is broken . 291461_294463
+*MOT:	you wanna put the house next to the barn ? 310328_321925
+*MOT:	oh you're stuck .
+*MOT:	oh no . 325253_326643
+*MOT:	xxx , you really were stuck . 326643_332215
+*MOT:	there you go . 332215_335685
+*MOT:	you gonna put the tree next to the house , that's nice . 335685_341463
+*MOT:	a:nd what about the bush ? 341463_346760
+*MOT:	where does the bush go ? 346760_355686
+*MOT:	you've too bushes . 355688_358030
+*MOT:	that's right . 381065_382165
+*MOT:	a rooster's [: rooster is] on the bush .
+*MOT:	and what does the rooster say ?
+*MOT:	cock a doodle doo .
+*MOT:	xxx . 402488_426226
+*MOT:	what do you want ? 438280_440628
+*MOT:	yup that's the little book . 442425_445260
+*MOT:	you want him to sit down ? 453778_459505
+*MOT:	uhhuh .
+*MOT:	sit on mommy's lap . 464566_468186
+*MOT:	where's the book .
+*MOT:	my name is Ethan . 470785_473395
+*MOT:	I am eighteen months . 473395_475876
+*MOT:	I have a mommy . 475876_478103
+*MOT:	and a daddy . 478103_479573
+*MOT:	and a cat and fish . 479573_481716
+*MOT:	the end . 481716_484436
+*MOT:	he's gonna read the book . 484436_490656
+*MOT:	that's a book about Ethan . 504685_508040
+*MOT:	it's a little book about Ethan . 507943_512156
+*MOT:	does the dad like the book about Ethan ? 515309_521751
+*MOT:	it's a nice book . 521751_524676
+*MOT:	why doesn't he sit in a chair ?
+*MOT:	&um huh . 541750_543426
+*MOT:	there you go .
+*MOT:	breakfast , oh xxx what's he having for breakfast . 554741_558846
+*MOT:	eggs huh ?
+*MOT:	gotcha [: got you] . 561440_562281
+*MOT:	Sam I am . 574710_576376
+*MOT:	I would not eat them on a train , I would not eat them in the rain . 576376_581050
+*MOT:	I do not like them , Sam I am , I do not like . 581050_584676
+*MOT:	yup , yup .
+*MOT:	I would not eat them in a train . 588985_591233
+*MOT:	I would not eat them in the rain . 591233_593421
+*MOT:	chug chug choo choo , uhhuh .
+*MOT:	there is a bell on the train that's right .
+*MOT:	there's a pussy cat on the train . 609033_610883
+*MOT:	chugga@o chugga@o chugga@o , are you the engineer .
+*MOT:	you need a hat yeah . 618916_621730
+*MOT:	should I give you an engineer hat ? 621730_623961
+*MOT:	and you can drive the train . 623961_627021
+*MOT:	what's in the back ? 627021_629923
+*MOT:	caboose . 629923_634430
+*MOT:	hook the train up , yeah sometimes a tow truck can hook the train up too .
+*MOT:	when it's broken down , right ? 652576_655700
+*MOT:	your trains are upstairs . 655700_660276
+*MOT:	we have one train , down here . 660276_664243
+*MOT:	your big blue train .
+*MOT:	I don't see a train . 672515_674065
+*MOT:	xxx this train xxx .
+*MOT:	xxx . 681090_690146
+*MOT:	I don't I don't . 691473_693158
+*MOT:	are you uncomfortable ? 705460_707320
+*MOT:	xxx .
+*MOT:	if the train should hit the track .
+*MOT:	that's right train gonna get your mommy's back .
+*MOT:	you're tickling my foot . 724378_727153
+*MOT:	xxx . 727153_730396
+*MOT:	you're tickling my foot .
+*MOT:	tickle tickle . 732943_738218
+*MOT:	put cars up when they're broken down . 742230_744520
+*MOT:	hey let's try it with the red car . 745843_747820
+*MOT:	ow . 747820_753985
+*MOT:	here's your box of cars . 755618_757956
+*MOT:	maybe the tow truck . 760961_764216
+*MOT:	hmm . 764216_769143
+*MOT:	I know what we'll do . 769143_770983
+*MOT:	I'll show you how to hook up a car .
+*MOT:	it's a xxx , watch this .
+*MOT:	string a string there we go it's hooked up . 821648_824223
+*MOT:	xxx . 824371_826493
+*MOT:	and lift it up .
+*MOT:	you want it up okay .
+*MOT:	that's untangle yeah .
+*MOT:	I'm taking it off , here you go . 859115_861316
+*MOT:	you wan(t) it on there ?
+*MOT:	xxx , it's hanging .
+*MOT:	whoop it's getting tangled up . 896030_898780
+*MOT:	you wan(t) it off ?
+*MOT:	a string , uhhuh . 933231_936480
+*MOT:	it goes boing boing boing . 936480_941031
+*MOT:	ooh it's goin [: going] up in the air . 944390_946373
+*MOT:	xxx . 946373_954690
+*MOT:	little track . 954690_960491
+*MOT:	here it is maybe works with this one too . 960493_966145
+*MOT:	rubber band that's right . 968483_970608
+*MOT:	should we hook on this one ? 970608_974770
+*MOT:	this has a little hook . 974770_978290
+*MOT:	you want it on that one ? 994423_997856
+*MOT:	how (a)bout hooking up a bus . 997858_1002913
+*MOT:	maybe the bus is broken down . 1002913_1010485
+*MOT:	xxx .
+*MOT:	what ?
+*MOT:	there we go let's pull the bus .
+*MOT:	want mommy to take it off ?
+*MOT:	bus , no more broken down ? 1032228_1035845
+*MOT:	stuck . 1035845_1039435
+*MOT:	what is it ? 1045825_1046911
+*MOT:	what is that called ? 1046951_1049643
+*MOT:	not in your mouth sweetie . 1049643_1052696
+*MOT:	careful don't let go it hurts . 1052696_1059046
+*MOT:	not in your mouth sweetie , mommy has to take it away if you put it in your mouth . 1059046_1064995
+*MOT:	another piece of what ? 1072231_1075155
+*MOT:	string . 1078526_1080328
+*MOT:	that's a rubber band .
+*MOT:	it's like a string . 1084206_1085720
+*MOT:	not in your mouth . 1085720_1090058
+*MOT:	car fell down .
+*MOT:	yup the bus +//.
+*MOT:	the school bus put out the stop sign .
+*MOT:	what does that mean ? 1138773_1141235
+*MOT:	stop yeah .
+*MOT:	it means , children crossing . 1143891_1148258
+*MOT:	&chi , &chi , &chi .
+*MOT:	are you sleepy ?
+*MOT:	hmm , string .
+*MOT:	you put it in your mouth , no more string . 1199511_1202436
+*MOT:	should we make a tunnel ? 1205213_1208025
+*MOT:	I can make you a tunnel for the car . 1208025_1210993
+*MOT:	we need some scissors .
+*MOT:	see if there's +//.
+*MOT:	yeah .
+*MOT:	yup , scissors in the cup .
+*MOT:	take the snake .
+*MOT:	S . 1256255_1263090
+*MOT:	wow woo woo , here's the tunnel . 1269741_1272131
+*MOT:	scissors , no you can't play with scissors , those are not toys . 1280040_1290515
+*MOT:	you're eating a snake . 1290515_1293085
+*MOT:	oh the snake goes in the tunnel . 1293085_1295316
+*MOT:	hiss hiss hiss . 1299323_1301048
+*MOT:	xxx . 1301048_1310555
+*MOT:	xxx . 1310555_1313088
+*MOT:	you got it stuck on your arm . 1313088_1316865
+*MOT:	xxx . 1325036_1327590
+*MOT:	xxx , it's stuck on your arm . 1327590_1334835
+*MOT:	this is our , over there yes . 1349715_1351931
+*MOT:	clip clip clip .
+*MOT:	I think it goes on this side try this side .
+*MOT:	tha:t's right . 1383891_1387500
+*MOT:	ooh .
+*MOT:	it went inside . 1391793_1396253
+*MOT:	xxx . 1396253_1400715
+*MOT:	it's stuck ? 1400715_1401686
+*MOT:	ready ?
+*MOT:	xxx put your bottle ? 1420355_1430990
+*MOT:	here you go sweetie . 1430990_1449480
+*MOT:	what shape is that ? 1449481_1460503
+*MOT:	what shape is this ? 1461931_1463438
+*MOT:	that's right it's a circle .
+*MOT:	what shape is the box ? 1466325_1469636
+*MOT:	that's right .
+*MOT:	that's a rectangle .
+*MOT:	what shape is the roof . 1480945_1483040
+*MOT:	yeah it's a hard one , the roof is usually a triangle . 1485961_1489235
+*MOT:	a rectangle .
+*MOT:	yeah , the bottle is like a circle too that's right .
+*MOT:	it has letters on the top of the bottle . 1508428_1512238
+*MOT:	that's right , p@l l@l a@l t@l e@l x@l . 1516348_1520231
+*MOT:	t_bone .
+*MOT:	t_bon:e . 1547450_1549183
+*MOT:	t@l t@l t@l . 1552618_1553791
+*MOT:	t_bone , that's a funny name .
+*MOT:	cement coming out , that's right out of the mixer .
+*MOT:	cement mixer , yup . 1572521_1574665
+*MOT:	mhm .
+*MOT:	A B C . 1592955_1595013
+*MOT:	E E . 1595013_1597541
+*MOT:	F . 1597541_1599175
+*MOT:	uhhuh . 1604520_1606246
+*MOT:	you're a thirsty guy . 1608038_1611980
+*MOT:	you a thirsty guy . 1611980_1615390
+*MOT:	you're a funny guy .
+*MOT:	you're a funny guy . 1624160_1627858
+*MOT:	you're a thirsty guy and a funny guy . 1627858_1630508
+*MOT:	and I'm gonna tickle you (be)cause I can see your leg .
+*MOT:	a what guy , thirsty guy . 1635791_1638520
+*MOT:	thirsty guy .
+*MOT:	you're stuck . 1645030_1646486
+*MOT:	ooh , you have_to open the door . 1646486_1650743
+*MOT:	that's right that's where the driver sits .
+*MOT:	mhm .
+*MOT:	driver sits and what does he do with this , what's this ? 1661860_1665928
+*MOT:	can you see it inside , what's that round thing ? 1665928_1670630
+*MOT:	steering wheel . 1670630_1673986
+*MOT:	strawberry . 1679843_1681123
+*MOT:	there's a strawberry in there . 1683895_1685520
+*MOT:	xxx . 1686366_1700683
+*MOT:	raspberry . 1707433_1709616
+*MOT:	strawberry , raspberry . 1709616_1712421
+*MOT:	make a pie . 1717168_1718878
+*MOT:	strawberry , raspberry , pickleberry@wp pie . 1718878_1721678
+*MOT:	there's a pickleberry@wp in there . 1726966_1729648
+*MOT:	there's a finger in that too . 1729648_1732923
+*MOT:	are you sleepy ? 1732923_1743141
+*MOT:	the wheels are turning turning turning . 1750173_1752725
+*MOT:	the wheels on the taxi go round and round . 1752725_1756938
+*MOT:	round and round , round and round , the wheels on the taxi and the truck and the car . 1756938_1766555
+*MOT:	go round and round , and on the school bus , the wheels on the bus go round and round . 1766555_1773080
+*MOT:	round and round . 1773080_1775085
+*MOT:	that's right the wheels on the school bus go round and round .
+*MOT:	all around the town . 1786775_1788930
+*MOT:	up the hill , down the hill . 1791556_1795036
+*MOT:	you have a circle on your foot . 1804746_1809038
+*MOT:	thirsty guy . 1816460_1818413
+*MOT:	xxx . 1818296_1822925
+*MOT:	yeah , funny guy , yeah .
+*MOT:	you funny guy .
+*MOT:	you funny mommy . 1833656_1837036
+*MOT:	you funny truck .
+*MOT:	you funny bunny . 1841850_1848916
+*MOT:	you funny clown .
+*MOT:	you funny clown . 1852911_1855885
+*MOT:	uhhuh .
+*MOT:	you funny clown . 1860773_1862155
+*MOT:	ring clown .
+*MOT:	you funny clown . 1865035_1868425
+*MOT:	yeah .
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	is there a clown on this one ? 1885091_1886953
+*MOT:	&uh , no no clown . 1886953_1889375
+*MOT:	see orange bunny . 1889351_1892213
+*MOT:	you funny bunny , &uh oh: , no clown on that one .
+*MOT:	no clown .
+*MOT:	xxx .
+*MOT:	I don't have a clown do you ? 1923756_1925358
+*MOT:	the green one has a clown . 1925358_1930960
+*MOT:	I don't see a clown on that one , it has a puppy dog though .
+*MOT:	purple puppy dog .
+*MOT:	uhhuh .
+*MOT:	mhm .
+*MOT:	there it is . 1957473_1959321
+*MOT:	mhm .
+*MOT:	&uh , I see it . 1963363_1970901
+*MOT:	mhm . 1974255_1975225
+*MOT:	blue clown . 1975225_1977660
+*MOT:	that's good you can build a tower . 1977660_1988110
+*MOT:	&uh , it's getting very tall , as you're doing it . 1988110_1991445
+*MOT:	xxx , you knocked it down with your nose . 1991445_1994578
+*MOT:	that's right , xxx you knocked it down with your head . 2003103_2007346
+*MOT:	&uh , silly . 2007346_2010033
+*MOT:	purple clown .
+*MOT:	it has letters on it too . 2019480_2021498
+*MOT:	here's a B . 2021498_2023785
+*MOT:	do you know what letter that is ? 2025675_2029156
+*MOT:	yup .
+*MOT:	they wake xxx all the clowns in a row . 2038461_2041648
+*MOT:	you can look at all the clowns , clown . 2041766_2045051
+*MOT:	clown . 2045051_2046908
+*MOT:	clown . 2046908_2049448
+*MOT:	no clown on the orange one .
+*MOT:	that's a penguin . 2079818_2081811
+*MOT:	penguin on a skateboard . 2081811_2085036
+*MOT:	remember we saw the skateboard yesterday ? 2084941_2088980
+*MOT:	the boy on the skateboard . 2088980_2090780
+*MOT:	turn the page ? 2108875_2110495
+*MOT:	no clown . 2118433_2119608
+*MOT:	doggy . 2119820_2121365
+*MOT:	does that one have a doggy ? 2121365_2124558
+*MOT:	does the orange block have a dog ? 2124558_2127510
+*MOT:	no , let's see .
+*MOT:	right , no dog on that . 2133253_2135421
+*MOT:	you're right , it's upside down . 2145763_2148355
+*MOT:	toop@o toop@o .
+*MOT:	uhhuh .
+*MOT:	mhm , on the skateboard , penguin on the skateboard . 2177291_2181611
+*MOT:	xxx , it's like a road a street . 2181611_2186983
+*MOT:	for this little car . 2186983_2189491
+*MOT:	mhm , street .
+*MOT:	cars go on the street . 2193773_2195688
+*MOT:	people go on the where do people go ?
+*MOT:	sidewalk yes .
+*MOT:	that's right . 2206128_2207563
+*MOT:	looks like sidewalk too . 2207563_2210313
+*MOT:	under .
+*MOT:	xxx make a sidewalk ? 2218175_2219960
+*MOT:	we need a person . 2221493_2225246
+*MOT:	doo doo doo doo doo doo doo doo doo doo doo doo doo doo doo doo doo doo . 2225246_2230635
+*MOT:	he's on the sidewalk , doo doo doo doo doo doo doo doo doo doo doo . 2230635_2234743
+*MOT:	doo doo doo doo doo doo doo doo doo doo doo . 2234743_2237413
+*MOT:	people on the sidewalk . 2239571_2241176
+*MOT:	can you stand up ? 2241176_2243931
+*MOT:	wha:t about ? 2243931_2247423
+*MOT:	a cat on the sidewalk too . 2248421_2251721
+*MOT:	meow . 2251721_2253620
+*MOT:	meow . 2253620_2255091
+*MOT:	put the next down .
+*MOT:	now put the cat in the nest . 2282690_2284581
+*MOT:	meow . 2293100_2298660
+*MOT:	whoops fell out of the nest . 2298661_2302391
+*MOT:	how about the dog ?
+*MOT:	in the dog house . 2312785_2318656
+*MOT:	bow wow . 2320233_2321613
+*MOT:	whoops . 2325555_2327901
+*MOT:	there's no hole , there's no door , there's the door , that's right there goes the dog .
+*MOT:	in the dog house , here I'll hold the dog house and you put the dog in there xxx . 2346410_2354575
+*MOT:	oh he's coming out , it's morning he's awake . 2354576_2361233
+*MOT:	he was sleeping . 2361233_2364305
+*MOT:	and now he's awake , oh . 2364305_2365565
+*MOT:	going back to sleep ? 2365565_2367060
+*MOT:	xxx , oh , now he's coming out . 2367420_2371456
+*MOT:	in out in out in out . 2371456_2375141
+*MOT:	bow wow . 2377428_2395046
+*MOT:	xxx . 2399748_2400921
+*MOT:	wow wow wow . 2402433_2403911
+*MOT:	eek eek said the mouse .
+*MOT:	xxx .
+*MOT:	bow wow eek bow wow eek . 2411123_2412823
+*MOT:	you're eating that poor doggy . 2420548_2422893
+*MOT:	mhm .
+*MOT:	the tail is sticking out .
+*MOT:	mhm the tail is sticking out .
+*MOT:	now you're putting the head in , yeah , so he can sleep . 2448315_2452158
+*MOT:	doggy's gonna be on the dog house . 2463438_2474241
+*MOT:	on the car .
+*MOT:	you need a bigger car .
+*MOT:	maybe he's a fire engine dog ?
+*MOT:	he can go on top of the fire engine right here . 2486823_2490178
+*MOT:	uhhuh .
+*MOT:	just like spot xxx xxx .
+*MOT:	spot the firehouse dog . 2497096_2499420
+*MOT:	it's stuck on there sweetie .
+*MOT:	it's not the wiper , the wiper's [: wiper is] right here .
+*MOT:	this is a bumper . 2531890_2533766
+*MOT:	bumper for when the car goes bump . 2534051_2539618
+*MOT:	bump .
+*MOT:	pump , ow , gentle , don't hurt yourself . 2544753_2549790
+*MOT:	there it goes . 2549790_2554958
+*MOT:	it's gonna come back to you , ready set , oops . 2554958_2560101
+*MOT:	xxx , tadah . 2574153_2577295
+*MOT:	xxx . 2594860_2596953
+*MOT:	yeah it's ripped .
+*MOT:	clipper clip clip .
+*MOT:	yeah we clipped your nails today , didn't we ? 2612123_2614555
+*MOT:	only one hand . 2614555_2616690
+*MOT:	clip you nails yeah . 2624458_2626750
+*MOT:	yeah we clipped your nails .
+*MOT:	ooh , I see a little hand in there . 2648570_2651445
+*MOT:	yeah , it's Ethan's hand .
+*MOT:	you wancher [: want your] bottle ? 2655725_2659581
+*MOT:	hum , thirsty guy . 2693376_2696776
+*MOT:	you wan(t) a book about Ethan . 2702775_2705090
+*MOT:	here's the book about Ethan .
+*MOT:	it says Ethan's book . 2713698_2716693
+*MOT:	you want the dad , here's the dad . 2722541_2725488
+*MOT:	you want him to sit on mommy's lap ?
+*MOT:	and Ethan too ? 2737490_2739778
+*MOT:	my name is +//.
+*MOT:	oh you want him to sit okay . 2747025_2750046
+*MOT:	my name is Ethan . 2750046_2751986
+*MOT:	I am eighteen months . 2751986_2754326
+*MOT:	I have a mommy .
+*MOT:	and a daddy . 2757331_2758565
+*MOT:	and cat and fish . 2758565_2760491
+*MOT:	I have two cousins . 2760491_2763516
+*MOT:	three cousins , four cousins , five cousins , I have five cousins . 2763516_2766906
+*MOT:	their names are Max . 2766906_2768631
+*MOT:	Oliver . 2768631_2770245
+*MOT:	Ana . 2770245_2771360
+*MOT:	Mason and Cole .
+*MOT:	yeah .
+*MOT:	Ethan and Max . 2775990_2778186
+*MOT:	your friend yes , he's your friend and your cousin .
+*MOT:	and you can play with him .
+*MOT:	Max friend , yeah , william is your friend too .
+*MOT:	yeah .
+*MOT:	uhhuh .
+*MOT:	mommy is Bridget's friend . 2808610_2810508
+*MOT:	now William is Ethan's friend . 2810508_2813363
+*MOT:	and Bridget loves Ethan too . 2813363_2821660
+*MOT:	you're eating the dad . 2833503_2835545
+*MOT:	yeah , you got it all wet .
+*MOT:	we need to clean it . 2840366_2844523
+*MOT:	can you bring me the towel ? 2844523_2846973
+*MOT:	the green towel . 2846973_2849186
+*MOT:	do you see the towel , right there . 2849186_2852798
+*MOT:	one two three four five six .
+*MOT:	seven eight nine ten .
+*MOT:	Pooh , mhm .
+*MOT:	it's called the blustery day , that means windy day .
+*MOT:	one very windy day . 2881326_2887058
+*MOT:	Pooh went to visit his thinking spot . 2887058_2890948
+*MOT:	Pooh sat thinking very hard until up popped friend . 2890948_2896235
+*MOT:	there's his friend , Pooh decided to wish everyone a happy winds day beginning with Piglet . 2896235_2905516
+*MOT:	the wind was blowing very hard as Pooh came near Piglet's house . 2905516_2912878
+*MOT:	look what's happening to Piglet ? 2912878_2914931
+*MOT:	he's blowing in the wind . 2914891_2919428
+*MOT:	to Pooh's surprise the wind carried Piglet up into the air . 2919428_2926971
+*MOT:	&uh oh , Piglet's flying . 2926971_2929996
+*MOT:	Roo thought Piglet was a kite . 2929996_2938393
+*MOT:	Piglet flew over the entire countryside dragging Pooh behind him . 2938393_2948276
+*MOT:	Pooh plowed through Rabbit's garden at top speed digging up all . 2948276_2956681
+*MOT:	uhhuh , uhhuh .
+*MOT:	that's owl . 2964485_2966995
+*MOT:	napping in his house in the tree . 2966995_2969831
+*MOT:	he did not notice the wind because he was (.) sleeping .
+*MOT:	hmm , it's a pot yeah it's a tea pot .
+*MOT:	I'm a little teapot short and spout , here is my handle here is my spout . 2980256_2993190
+*MOT:	let's see , the wind tipped Owl's house .
+*MOT:	and Pooh and Piglet slid across the road . 2998780_3003903
+*MOT:	they're sliding . 3003903_3010880
+*MOT:	who's that ? 3016918_3018258
+*MOT:	uhhuh .
+*MOT:	Owl and Pooh . 3021441_3029350
+*MOT:	hmm ? 3030766_3032038
+*MOT:	yeah , your backpack's [: backpack is] on .
+*MOT:	let's leave it on for a little bit more . 3037078_3042626
+*MOT:	we'll take it off soon . 3042626_3044490
+*MOT:	let's see pumpkin .
+*MOT:	we'll do something else . 3051411_3053886
+*MOT:	be in your pocket . 3056048_3057755
+*MOT:	xxx , cool dude . 3057755_3060158
+*MOT:	cool dude in the pocket .
+*MOT:	leave it in the pocket okay . 3066433_3068860
+*MOT:	you pants are falling down .
+*MOT:	hey don't pull your pants down . 3075633_3080153
+*MOT:	whoops . 3099640_3100961
+*MOT:	oopsie . 3102631_3106030
+*MOT:	whoopsie doopsie doo . 3106030_3109116
+*MOT:	here we go . 3109116_3110861
+*MOT:	okay . 3110861_3112911
+*MOT:	xxx , you're done . 3112911_3122255
+*MOT:	xxx , what're [: what are] you doing . 3122256_3127758
+*MOT:	you shaking your head . 3127758_3133376
+*MOT:	is the wire bothering you . 3133376_3136930
+*MOT:	xxx mommy has one too . 3136930_3141886
+*MOT:	wire .
+*MOT:	mhm , whoops . 3149258_3161965
+*MOT:	don't take it out . 3161965_3165021
+*MOT:	mhm , microphone , not in your mouth let's put it back here .
+*MOT:	tickle tickle .
+*MOT:	do you wanna read a story ? 3188076_3191111
+*MOT:	is it bothering you ? 3194790_3197406
+*MOT:	xxx , are you sleepy ? 3197406_3208190
+*MOT:	whoopsie .
+*MOT:	xxx .
+*MOT:	xxx .
+*MOT:	why don't you sit on mommy's lap ? 3236396_3244026
+*MOT:	ooh , oh no , oh sweetie . 3244028_3249553
+*MOT:	you went kerplunk . 3249553_3252098
+*MOT:	you went kerplunk . 3252098_3255238
+*MOT:	you don't like it in your pocket . 3261446_3264575
+*MOT:	it's a cool dude . 3264575_3268496
+*MOT:	it's a cool dude in your pocket . 3271795_3273720
+*MOT:	there we go . 3279081_3280915
+*MOT:	I'll just hold it . 3280915_3284188
+*MOT:	no more . 3284188_3286878
+*MOT:	it tickles .
+*MOT:	all gone . 3297056_3298621
+*MOT:	not in your mouth .
+*MOT:	mhm .
+*MOT:	mhm .
+*MOT:	not in your mouth sweetie . 3319845_3322955
+*MOT:	not in your mouth .
+*MOT:	yeah that's the wire .
+*MOT:	yuck that's right , yeah put it in the cup .
+*MOT:	wanna clip it back on ? 3365076_3368273
+*MOT:	how (a)bout on your sleeve ? 3368838_3372151
+*MOT:	sleeve .
+*MOT:	sleep .
+*MOT:	yeah it's on your sleeve .
+*MOT:	we just huh lost it here .
+*MOT:	xxx . 3393225_3395985
+*MOT:	xxx . 3395985_3397850

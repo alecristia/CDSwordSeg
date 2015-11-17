@@ -1,0 +1,409 @@
+*MOT:	oh , my_goodness . 0_4504
+*MOT:	a telephone [=! extremely high-pitched] . 4504_5665
+*MOT:	we don't have push buttons at home +... 7918_9102
+*MOT:	dink@o (.) dink@o (.) dink@o . 9913_12026
+*MOT:	pull that out (.) pull that out [=! whispered] . 12050_17576
+*MOT:	com(e) on , pull that out [=! stronger] . 17576_17924
+*MOT:	see that ? 17924_19364
+*MOT:	say hi . 19364_20061
+*MOT:	(.) hello [=! extremely high+pitched] . 20060_21105
+*MOT:	<I'm gonna call> [/] I'm gonna call daddy
+*MOT:	okay (.) &ah (.) dink@o (.) dink@o (.) dink@o . 23451_27537
+*MOT:	hello ! 27537_28977
+*MOT:	dada [=! exagerated contour] ! 29000_30533
+*MOT:	oh (.) dada on the telephone [=! high pitched] ? 32576_34991
+*MOT:	say hi . 36105_36779
+*MOT:	no , hi: ! 37404_38914
+*MOT:	<hang that up> [/] hang that little telephone up 0
+*MOT:	ring ! 42025_42768
+*MOT:	ring ! 42791_42954
+*MOT:	say hello [=! high , exagerated voice] . 42977_46367
+*MOT:	dada [=! high] . 46367_48875
+*MOT:	he's on the phone , he's calling you [=! high] . 50569_52381
+*MOT:	dada's calling . 54261_56049
+*MOT:	dada , hi (.) ! 59114_61738
+*MOT:	can you push the buttons ? 61738_65616
+*MOT:	(.) look [=! softly] . 65616_66870
+*MOT:	you know how to push (.) buttons (.) no [=! laughs] ? 66870_73604
+*MOT:	Ka:y ? 73604_75508
+*MOT:	sweetheart ? 75508_76599
+*MOT:	this is a good book . 76599_80337
+*MOT:	this is like your friend's book [=! whispered] . 80337_81707
+*MOT:	look [=! whispered] . 81707_82961
+*MOT:	o:h ! 82961_84842
+*MOT:	here are Paul and Judy [=! rhythmically] . 84842_86259
+*MOT:	pat the bunny [=! low whisper urgingly] . 86259_89695
+*MOT:	can you pat the bunny [=! high whisper] ? 89695_93434
+*MOT:	whoa , nice [=! in same inton .contour as k's previous utt] oh , oh
+*MOT:	peekaboo [=! high] . 99237_101838
+*MOT:	do it [=! quickly] ? 101861_103742
+*MOT:	you play peek . 105785_106761
+*MOT:	peek (.) a boo ! 106761_108943
+*MOT:	peeka(boo) &wh that's a good girl [=! whispered] . 112101_115143
+*MOT:	can ya do it again [=! whispered] ? 115166_116281
+*MOT:	where's Paul [=! sung] ? 116281_117117
+*MOT:	where's Paul [=! more normal intonation] ? 118022_118719
+*MOT:	good girl [=! whispered] . 123015_123851
+*MOT:	(o)kay [=! whispered] . 123851_125522
+*MOT:	Paul can smell the flowers , can you smell the flowers , here (.) 0
+*MOT:	no , you don't know smelling , do ya ? 129493_133440
+*MOT:	(.) oh , loo:k ! 133464_134230
+*MOT:	Judy can look in the mirror , can you look in the mirror
+*MOT:	who's in that mirror ? 140105_140662
+*MOT:	who's in that mirror ? 141869_142752
+*MOT:	op ! 142752_143402
+*MOT:	&ah ho ! 144888_145956
+*MOT:	y(ou) (.) dropped it ! 145956_146978
+*MOT:	what ? 152899_153433
+*MOT:	telephone's ringing ? 154965_156057
+*MOT:	who's on the telephone [=! high , melodic] ? 160608_166947
+*MOT:	(.) hello ! 166947_169478
+*MOT:	it's &garæmmi [=! still high and melodic] . 169478_172241
+*MOT:	hi ! 173054_174377
+*MOT:	no [=! laughs] ? 175701_176421
+*MOT:	(.) oh , my ! 176421_179764
+*MOT:	look at that ! 181506_182249
+*MOT:	I never saw one of those . 184803_186127
+*MOT:	look , honey [=! very whispery] . 187798_188193
+*MOT:	hi , Kay [=! very deep voice] ! 188193_191746
+*MOT:	hi [=! high whisper] ! 191769_195438
+*MOT:	telephone [=! high] ? 195461_202682
+*MOT:	telephone's ringing [=! high , exagerated] . 202682_204586
+*MOT:	o:h , loo:k ! 210833_214803
+*MOT:	wha(t)'s (th)at [=! whispered] ? 214803_217473
+*MOT:	oo: +... 218379_219888
+*MOT:	what is that [=! very elongated] ? 220446_221908
+*MOT:	oh [=! again , close match to intonation] . 222884_224138
+*MOT:	oh [=! again , close match to intonation] . 225043_226622
+*MOT:	what is it ? 226622_228758
+*MOT:	what is it ? 230500_231011
+*MOT:	what does it look like ? 231011_231870
+*MOT:	look at it . 231869_232543
+*MOT:	look at it [=! quickly whispered] . 233402_234145
+*MOT:	doggie [=! exag] ! 237648_238461
+*MOT:	(.) woof , woof , woof ! 238484_240110
+*MOT:	woof , woof [=! gruffly] . 242432_243686
+*MOT:	o:h [=! same intonation] . 245218_246356
+*MOT:	o:h [=! repeats her previous intonation contour] . 246797_248678
+*MOT:	you dropped it ! 253879_255156
+*MOT:	&uh , oh +... 255202_256224
+*MOT:	the telephone's wrapped around your leg . 264653_267996
+*MOT:	telephone [=! high , exagerated] . 268947_279304
+*MOT:	doggy (.) wha:t a good doggie ! 289079_291332
+*MOT:	oh ! 294582_295836
+*MOT:	whe(re) (a)re ya going ? 296347_297044
+*MOT:	duck ! 297067_297671
+*MOT:	come (h)ere . 297671_299064
+*MOT:	here comes a doggie (.) woof , woof , woof , woof [=! gruffly] . 299062_303451
+*MOT:	look . 303474_309674
+*MOT:	look . 309697_310255
+*MOT:	oh (.) look +... 310254_312367
+*MOT:	Ka:y , a ba:by . 312832_314434
+*MOT:	look , a boy ! 314457_317731
+*MOT:	take that and the dog , too [=! laughs] ? 321933_326160
+*MOT:	come (h)ere (.) look , what else [=! gets whispery] . 326183_329921
+*MOT:	look (.) oh ! 329921_331198
+*MOT:	oh (.) you look honey ! 334008_335146
+*MOT:	psst ! 335169_337375
+*MOT:	look [=! whispered] ! 337375_338002
+*MOT:	look [=! normal] . 338025_340231
+*MOT:	look [=! whispered] . 340231_341624
+*MOT:	two (.) three [=! exag . contour] (.) four +... 341623_348659
+*MOT:	one (.) two [=! laughing] . 350099_356693
+*MOT:	three (.) op ! 358110_362568
+*MOT:	(.) four [=! laughing] . 362568_363241
+*MOT:	five [=! high and prolonged] ! 363241_368210
+*MOT:	xxx (.) me do it ? 368210_369487
+*MOT:	here , hon ? 369487_370416
+*MOT:	two ? 370416_370974
+*MOT:	three ? 370974_373783
+*MOT:	where do we see a kitty [=! whispered precisely] ? 373783_376059
+*MOT:	&ah ! 376059_377011
+*MOT:	look [=! loud whisper] ! 377011_377568
+*MOT:	look [=! high+pitched] ! 377568_378590
+*MOT:	kit:ty [=! high+pitched and prolonged] . 378590_381933
+*MOT:	d(o) ya see that kit:ty ? 381933_385556
+*MOT:	look [=! high] ! 385556_386066
+*MOT:	look ! 386066_388180
+*MOT:	one , two (.) here's the three +... 388180_398420
+*MOT:	three (.) do four ? 399163_401508
+*MOT:	do five (.) oops ! 401531_406616
+*MOT:	uhoh , they all fell down ! 406616_409008
+*MOT:	three ? 410796_412305
+*MOT:	do (.) ? 412305_413698
+*MOT:	here . 413698_414627
+*MOT:	one (.) you do two +... 414627_416299
+*MOT:	good girl . 416299_420223
+*MOT:	do three [=! laughs] ? 420223_425564
+*MOT:	thank_you [=! exag] ! 425564_426887
+*MOT:	op ! 426887_427468
+*MOT:	I dropped it ! 427468_428396
+*MOT:	three ? 428396_429627
+*MOT:	show it to mama +... 429627_440726
+*MOT:	thank_you: (.) he catch . 440726_444232
+*MOT:	okay , I'm gonna put it on . 444232_451663
+*MOT:	here's one (.) two . 451663_453288
+*MOT:	three: . 453288_456423
+*MOT:	get that one [=! fry voice] ! 460394_466291
+*MOT:	okay (.) there's one . 466291_470285
+*MOT:	two [=! gets higher] . 470285_473954
+*MOT:	here , I'm gonna put the (.) woof+woof on [=! whisper] . 473954_479387
+*MOT:	woof+woof ! 479387_480200
+*MOT:	o:h (.) &ah (.) . 481106_483753
+*MOT:	now I'm gonna put the boy on . 483753_488002
+*MOT:	woof+woof [=! gruffly] . 498707_499474
+*MOT:	woof ! 500681_502144
+*MOT:	woof+woof ! 502167_502678
+*MOT:	that's good . 505209_506138
+*MOT:	woof woof woof ! 506161_507090
+*MOT:	woof woof woof woof woof [=! quickly] . 507090_508530
+*MOT:	tha:t's a girl (.) woof , woof . 511200_513499
+*MOT:	look . 513499_514845
+*MOT:	wha's [: what is] (th)at [=! whispered] ? 516076_517539
+*MOT:	what's that [=! slightly stronger whisper] ? 517539_518398
+*MOT:	what is that [=! normal voice] ? 518398_523576
+*MOT:	kitty [=! whispered] ? 523576_524203
+*MOT:	&hmm ? 526291_526756
+*MOT:	come (h)ere [=! whispered] I'm going to (.) pile one +... 534442_542685
+*MOT:	two +... 544589_545401
+*MOT:	th:ree: [=! laughs] . 546284_550905
+*MOT:	oh . 553389_557035
+*MOT:	I hear th(e) telephone ringing [=! high+pitched] . 557035_558242
+*MOT:	I hear the telephone [=! high+pitched] . 558242_561075
+*MOT:	who is it [=! high] ? 561075_565649
+*MOT:	it's for you , Kay [=! high] ! 565673_568203
+*MOT:	it's Dada calling for you: [=! high] . 568203_572778
+*MOT:	huh ? 573451_574310
+*MOT:	say , hello [=! high] ! 574310_576005
+*MOT:	&h hi ! 576702_577515
+*MOT:	dada . 577515_578583
+*MOT:	hi , dada [=! higher pitched] ! 578583_582925
+*MOT:	do you know how I'm doing that ? 582925_589218
+*MOT:	here , push . 589218_589775
+*MOT:	push . 589775_590495
+*MOT:	you push on the button (.) push ! 590495_597577
+*MOT:	push ! 597576_597878
+*MOT:	push ! 597902_598296
+*MOT:	hallo: [: hello] [=! high , exagerated] ! 598320_604635
+*MOT:	(.) hi ! 604635_606888
+*MOT:	dada ! 606888_607468
+*MOT:	hi [=! very high and prolonged] ! 607468_609744
+*MOT:	when are you coming ho:me ? 609744_611810
+*MOT:	byebye dada [=! high] . 612391_613552
+*MOT:	ye:s (.) dada's on the telephone [=! whispered very softly] . 618033_620355
+*MOT:	(it)s for me [=! high] ? 620354_622073
+*MOT:	hello (.) grammie [=! exag contour] [=! laughs] ! 622096_623930
+*MOT:	hello , grammie ! 623954_625207
+*MOT:	hi ! 625207_626392
+*MOT:	byebye [=! all of above in same contour] ! 627344_628551
+*MOT:	let's see (.) oh , my (.) oh (.) loo:k ! 635099_641949
+*MOT:	your fa:v(o)rite . 641949_643226
+*MOT:	yeah , that's nice [=! laughing whisper] . 643226_647266
+*MOT:	that's nice , combing your hair [=! fry voice] . 647290_649542
+*MOT:	&um &hmm , you needed that . 649542_652770
+*MOT:	oh ! 652770_654929
+*MOT:	I get it ! 654952_655649
+*MOT:	look , Kay ! 655649_657321
+*MOT:	look [=! exagerated] ! 657321_659596
+*MOT:	(th)at's a doggie's house ! 659596_665076
+*MOT:	oh , comb the doggie's hair , that's a good girl +... 665076_667839
+*MOT:	where's the doggie [=! exagerated] ? 667839_671810
+*MOT:	where's a (.) woof+woof ? 672274_673459
+*MOT:	(h)ere's a woof+woof ! 673459_675989
+*MOT:	put it up . 675989_678172
+*MOT:	oo: oo: oo: the:re ! 678799_682700
+*MOT:	(.) put the woof+woof in his house [=! urging whisper] . 682700_685370
+*MOT:	woof+woof [=! gruffly] ! 685370_686462
+*MOT:	(.) woof ! 686485_687390
+*MOT:	can you comb the doggie's hair ? 691942_693033
+*MOT:	&mm: ? 693056_695680
+*MOT:	are you comb(ing) the doggie's hair ? 695680_697004
+*MOT:	no ? 697027_698768
+*MOT:	you don't need to comb the telephone . 698768_700997
+*MOT:	sweetheart ? 701021_703528
+*MOT:	whe:re's the woof+woof ? 703527_706755
+*MOT:	here he is ! 709495_710261
+*MOT:	whe:re's the woof+woof ? 713466_716809
+*MOT:	what a silly xxx +... 720988_722404
+*MOT:	o:h . 723449_724355
+*MOT:	got (.) one block (.) two blocks (.) three [=! laughing] blocks (.)
+*MOT:	here ya are [=! very faint whisper] . 738008_744045
+*MOT:	I see another book [=! sing+song] . 744045_747203
+*MOT:	look . 747203_748295
+*MOT:	n:eat ! 748295_752405
+*MOT:	I bet there's kit:ties in here , Kay ! 752405_755841
+*MOT:	y(ou) &g like the box best [=! laughs] ! 755864_763829
+*MOT:	c(o)me (h)ere and look at the kit:ties [=! gets whispery] . 763829_766801
+*MOT:	I found a kit:ty ! 766800_767961
+*MOT:	(.) no , I found a doggie . 768008_769215
+*MOT:	look . 769238_769796
+*MOT:	look . 769819_771026
+*MOT:	wha(t)'s that [=! whisper] ? 771050_772675
+*MOT:	what is that ? 774811_775438
+*MOT:	(.) huh ? 775461_777458
+*MOT:	what is it ? 777482_780570
+*MOT:	oh , boy (.) kit:ties ! 780593_786166
+*MOT:	Ka:y ! 786189_788906
+*MOT:	Kay ? 788929_790670
+*MOT:	honey +... 790717_791112
+*MOT:	c(o)me (h)ere , look at the kitties [=! whispered quickly] ! 791135_794223
+*MOT:	look [=! they laugh] ! 797380_801212
+*MOT:	loo:k ! 801235_802953
+*MOT:	wha's [: what is] zat [: that] [=! whispered] ? 802953_804625
+*MOT:	one (.) two (.) three (.) kit:ties [=! gets progressively higher] !
+*MOT:	three kit:ties . 815166_817117
+*MOT:	good girl ! 817140_817372
+*MOT:	kit:ty says me:ow &=whispers ! 817395_821226
+*MOT:	me:ow . 821226_823200
+*MOT:	oh , look [=! voice returns to normal] . 823200_825197
+*MOT:	what's that +... 825197_827055
+*MOT:	what is it [=! whisper] ? 828843_830538
+*MOT:	those are &w &wt (.) ducks [=! whispered] . 835483_840336
+*MOT:	ri:ght ! 842285_843679
+*MOT:	those are ducks [=! very deliberate] . 845745_846744
+*MOT:	Kay where (a)re ya goin(g) with that thing ? 859212_863763
+*MOT:	huh ? 863786_864251
+*MOT:	let's see . 864251_864785
+*MOT:	he's gonna getchyou [: get you] (.) .
+*MOT:	he's gonna getchyou [: get you] [=! whispered] . 864808_867502
+*MOT:	huh (.) xxx [=! laughing] ! 867500_871075
+*MOT:	alligator's gonna getchyou [: get you] [=! makes funny noises] ! 871980_881360
+*MOT:	peek (.) a boo ! 881384_886074
+*MOT:	whe:re's the +... 886097_889929
+*MOT:	(.) whatever he is (.) alligator [=! gets high+pitched] ? 890741_893249
+*MOT:	peekaboo [=! very high] ! 893249_895130
+*MOT:	w(a)n(t) put your hand in him ? 895130_896523
+*MOT:	look . 896523_896964
+*MOT:	let's see [=! very faint whisper] put your hand in there 0
+*MOT:	&hmm ? 902304_906298
+*MOT:	took mommy's watch ! 906298_910060
+*MOT:	alright , you can have it . 910060_911685
+*MOT:	there , look . 911708_912358
+*MOT:	can ya hear it ? 912358_913612
+*MOT:	goes tick tick tick tick tick tick tick [=! very softly] . 913612_916724
+*MOT:	yeah: [=! softly] ? 916724_918442
+*MOT:	you never saw that before , did you ? 918442_921577
+*MOT:	oh , my . 921577_924363
+*MOT:	(.) good [=! semi+whisper] . 924363_925222
+*MOT:	ya want it on ? 925222_930052
+*MOT:	here , put it on [=! fairly high] . 930052_931166
+*MOT:	where's y(ou) wrist [=! whisper] ? 931166_932606
+*MOT:	there (.) oh (.) nice ! 932606_935485
+*MOT:	pretty ! 935509_937273
+*MOT:	now put your hand in (.) the alligator . 937273_941546
+*MOT:	o:h , pretty [=! high] [=! laughs] ! 942961_948697
+*MOT:	nah ! 948720_950578
+*MOT:	okay , mommy takes it ! 950578_952203
+*MOT:	look ! 952203_953248
+*MOT:	put your hand there [=! whispered] ! 953248_954130
+*MOT:	&ah ! 954130_954966
+*MOT:	o:h ! 963418_964579
+*MOT:	ni:ce ! 964579_965183
+*MOT:	pretty ! 965182_968248
+*MOT:	(.) there ! 968294_969200
+*MOT:	that's a nice watch (.) says tick tick tick tick [=! whisper] . 969129_986103
+*MOT:	listen . 986126_986312
+*MOT:	tick tick tick [=! whisper] d(o) ya hear that ? 986335_989842
+*MOT:	it's the wa:tch ! 993975_994741
+*MOT:	(o)kay , here . 1001057_1001730
+*MOT:	here ya are [=! sing+song] ! 1001730_1003681
+*MOT:	other ? 1018355_1025530
+*MOT:	ones ? 1025554_1025763
+*MOT:	let's make a bi:g pile , okay ? 1025786_1031219
+*MOT:	there [=! exagerated] ! 1031243_1032427
+*MOT:	there you are , Kay ! 1035631_1039671
+*MOT:	oh , oh ! 1051606_1053418
+*MOT:	you knocked it over ! 1053441_1055600
+*MOT:	hoho ! 1056274_1057922
+*MOT:	you: knocked it over , (.) I'm gonna make it again . 1060639_1062218
+*MOT:	there it is [=! faint] . 1070089_1074757
+*MOT:	ya dropped your watch , tick tick +... 1074780_1078797
+*MOT:	here [=! laughing] it didn't go up your sleeve , it's here . 1078797_1082442
+*MOT:	there [=! whispered] . 1082442_1084463
+*MOT:	okay ? 1084463_1086506
+*MOT:	o:h (.) isn't that pret:ty . 1086506_1093704
+*MOT:	ya better not uhoh my watch ! 1096073_1099347
+*MOT:	huh ? 1099347_1099834
+*MOT:	may I have it ? 1099857_1101297
+*MOT:	here , put it on mommy . 1101297_1102296
+*MOT:	may I wear it ? 1102296_1105500
+*MOT:	here Kay , may I wear it ? 1111328_1113743
+*MOT:	no ? 1113743_1115229
+*MOT:	here , look [=! whispered] there [=! stronger] that's where it
+*MOT:	gen:tle with a watch . 1122358_1125980
+*MOT:	d(o) you wan(t) it ? 1125980_1127396
+*MOT:	mommy , may I please have your watch [=! falsetto] ? 1127396_1130949
+*MOT:	uhoh [=! mimics] ! 1144091_1145090
+*MOT:	uhoh [=! adjusted accordingly] ! 1147017_1147946
+*MOT:	you knocked it over again . 1147946_1149223
+*MOT:	uhoh ! 1152033_1152288
+*MOT:	uhoh ! 1154564_1154912
+*MOT:	there we are [=! some inton contour] . 1154911_1156490
+*MOT:	where did it go ? 1163062_1164060
+*MOT:	uhoh +... 1177108_1183679
+*MOT:	I hear the telephone ringing ! 1189136_1192781
+*MOT:	dada , that's who it is [=! laughing] . 1196729_1198076
+*MOT:	dada ! 1200653_1201698
+*MOT:	hel:lo: ! 1203439_1204275
+*MOT:	can't do that , can you [=! under breath] ? 1204949_1225429
+*MOT:	y(ou) need a dial telephone +... 1225429_1228029
+*MOT:	push . 1228028_1229236
+*MOT:	push [=! whisper] . 1229259_1230350
+*MOT:	push [=! whisper] . 1230350_1238385
+*MOT:	hel:lo: ? 1238385_1246721
+*MOT:	hi: ? 1246721_1247487
+*MOT:	may I speak ? 1247510_1248903
+*MOT:	hi: ? 1248903_1250389
+*MOT:	hi: ? 1250389_1251875
+*MOT:	dada +... 1251875_1252781
+*MOT:	how's everything at work , dada ? 1252781_1257541
+*MOT:	byebye [=! these three lines in exagerated contour] . 1257541_1261163
+*MOT:	here , put it on that way +... 1286032_1286984
+*MOT:	there [=! straining] (.) two more (.) okay ? 1300359_1307301
+*MOT:	here we go . 1307301_1307789
+*MOT:	one (.) two . 1307789_1309740
+*MOT:	(.) this way (.) three (.) four +... 1309763_1313455
+*MOT:	can you put one on ? 1313455_1317913
+*MOT:	oh (.) a hair+brush ! 1323926_1333818
+*MOT:	nice [=! laughing] ! 1333818_1338787
+*MOT:	can you brush my hair ? 1348470_1350188
+*MOT:	could you brush mommy's hair , please ? 1350188_1352673
+*MOT:	(.) Kay ? 1352673_1354530
+*MOT:	o:h , thank_you ! 1355436_1359314
+*MOT:	that's nice [=! gets high and soft] ! 1359314_1361589
+*MOT:	can you brush your hair ? 1361589_1366303
+*MOT:	brush Kay's hair ? 1366303_1368091
+*MOT:	where is the doggie [=! very exag contour] ? 1372851_1377634
+*MOT:	woof+woof ! 1382255_1385413
+*MOT:	whatcha [: what you] goin(g) for xxx . 1405637_1408215
+*MOT:	huh ? 1408215_1411489
+*MOT:	another block [=! stronger] . 1411489_1413184
+*MOT:	you thought you had thrown all those away , didn't you ? 1413184_1416574
+*MOT:	yeah [=! laughs] ya got rid of all those ! 1416574_1418339
+*MOT:	are you gonna knock that pile over ? 1425698_1427301
+*MOT:	here , can ya brush the little boy's hair ? 1438421_1439768
+*MOT:	brush his hair ! 1440767_1441812
+*MOT:	oh +... 1442671_1443042
+*MOT:	can you brush his hair ? 1443065_1449335
+*MOT:	that'll be nice (.) here . 1449335_1451727
+*MOT:	see his hair there ? 1451727_1452679
+*MOT:	that's his hair [=! getting high and soft] ! 1452679_1454141
+*MOT:	o:h (.) nice [=! softly] ! 1454141_1456510
+*MOT:	can you do that ? 1457578_1458878
+*MOT:	that's a good girl . 1458878_1463778
+*MOT:	oh , thank_you . 1470765_1471439
+*MOT:	brush mommy's hair . 1471485_1472252
+*MOT:	Kay ? 1472275_1478498
+*MOT:	look . 1478521_1479961
+*MOT:	hi , Kay [=! low funny voice] o:h (.) hi , Kay [=! more normally] !
+*MOT:	I didn't know it did that ! 1488947_1490688
+*MOT:	let me outta [: out_of] my cage [=! high falsetto voice] ! 1490688_1499001
+*MOT:	oh , you put me back in my cage . 1506129_1510192
+*MOT:	let me outta [: out_of] my cage [=! gets deeper] . 1510192_1511423
+*MOT:	open the door [=! back to falsetto] ! 1511423_1514674
+*MOT:	open the door , please [=! deeper voice] . 1521036_1527143
+*MOT:	open the door ! 1528675_1529581
+*MOT:	open my door ! 1530417_1532205
+*MOT:	apparently not (.) <if she> [/] if she had xxx (.) but she can't
+*MOT:	she has dial phones at home [=! laughs] and our phones all have
+*MOT:	she (.) told me that she understood the telephone before I knew it

@@ -1,0 +1,273 @@
+*MOT:	September twenty fifth . 1000_3194
+*MOT:	what do you wanna say ? 7749_9129
+*MOT:	what do you wanna tell the tape today, Ben ? 9129_10842
+*MOT:	you like to play rattlesnakes . 17342_19055
+*MOT:	what else ? 19055_20119
+*MOT:	you can't remember . 26851_27999
+*MOT:	what did you do yesterday in school ? 27999_29943
+*MOT:	you made somethin(g), like what ? 33850_35712
+*MOT:	you made a plate ? 39619_41165
+*MOT:	what was on the plate ? 41165_42064
+*MOT:	come here . 56443_57076
+*MOT:	come sit over here and &te, tell me a little bit . 57076_58638
+*MOT:	come here . 60638_61969
+*MOT:	come here and talk to me for a minute . 63498_65027
+*MOT:	what can you tell me about your day yesterday ? 67721_69916
+*MOT:	what did you do ? 69916_70480
+*MOT:	you made a play, what else ? 72193_74155
+*MOT:	oh a plate, oh . 78277_79739
+*MOT:	what did you put on the plate ? 79739_81452
+*MOT:	you can't remember, why not ? 87487_89017
+*MOT:	what el(se), okay, well what else did you do in school ? 89017_93090
+*MOT:	do you remember what you did in school ? 93090_94737
+*MOT:	what'd [: what did] you do in school ? 95534_96847
+*MOT:	you played in circle time . 103431_104628
+*MOT:	what kinds of things did you do in circle time ? 104628_106257
+*MOT:	yeah, and what else ? 114387_117961
+*MOT:	a horsie like what ? 146322_147053
+*MOT:	a rocking horsie . 147951_149331
+*MOT:	what would you do on a rocking horsie ? 151127_153321
+*MOT:	ride on it . 155100_155831
+*MOT:	where would you ride off to ? 155831_156896
+*MOT:	&=laughs where, what kind of food would you be eatin(g) ? 170794_173970
+*MOT:	chicken and french fries, okay . 179571_181534
+*MOT:	and what else would you be doin(g) ? 181534_182497
+*MOT:	it looks like, it looks like a pig . 192089_195182
+*MOT:	what &uh, what kinds of things do you do in your sandbox ? 203639_208028
+*MOT:	yeah, what do you do though ? 210007_211204
+*MOT:	+< make a cake . 214044_215544
+*MOT:	what do you do with your Lincoln Logs ? 215544_218254
+*MOT:	yeah . 221479_222942
+*MOT:	you were trying to make a house ? 227331_228711
+*MOT:	yeah, that was fun to make a house with us (.) with Lincoln Logs . 228711_232152
+*MOT:	what other things have you been doin(g) lately ? 233099_236625
+*MOT:	mm hm, go in your sandbox, but what else ? 242942_245053
+*MOT:	you play game . 249692_250506
+*MOT:	what kind of games do you like to play ? 250506_251588
+*MOT:	rattlesna(kes), why do you keep talkin(g), I don't know what this rattlesnake stuff is . 253914_257273
+*MOT:	what's [: what does] your rattlesnake stuff mean ? 257273_260830
+*MOT:	oh ? 264487_266864
+*MOT:	+< and play the zebras . 269123_270454
+*MOT:	you wanna go to the zoo ? 273845_275641
+*MOT:	what [/] what kind of animals do you like to see at the zoo ? 276272_278982
+*MOT:	zebras, that's your favorite, and then what ? 281243_283287
+*MOT:	gira:ffes, what else ? 285083_287360
+*MOT:	you like lions ? 294323_296304
+*MOT:	yeah . 310635_311699
+*MOT:	that's Playdoh, you have_to make the stuff yourself . 315107_317718
+*MOT:	all right, maybe we'll do Playdoh after this . 320876_323486
+*MOT:	why don't you (.) tell me some more stuff ? 323486_325347
+*MOT:	make some more stuff like that . 327324_328870
+*MOT:	what else &um (.) what other things have you been doin(g) lately ? 328870_333109
+*MOT:	did you go: to the doctor for a physical ? 337556_340000
+*MOT:	<what did> [/] what did the doctor talk about, what did she check on
+*MOT:	all right, all right . 353516_355194
+*MOT:	we'll talk a little bit more later then, okay ? 355194_358203
+*MOT:	you wanna talk about giraffes, and what else ? 362583_364229
+*MOT:	a rhino . 367786_368618
+*MOT:	we don't have rhinos at our zoo . 368618_370231
+*MOT:	do we have hippos ? 370231_371527
+*MOT:	yeah, when we were at the, I think the Buffalo zoo had rhinos . 382849_386490
+*MOT:	yeah . 388535_389035
+*MOT:	yeah . 394903_395368
+*MOT:	&um . 399840_401868
+*MOT:	zebras can't what ? 403497_405127
+*MOT:	I think you're, hey, I think you're makin(g) too much noise . 407255_409914
+*MOT:	it is . 420404_420803
+*MOT:	do you like, what stories do you like to read ? 420803_423263
+*MOT:	Clifford, and what else ? 427071_429414
+*MOT:	a giraffe and a zebra . 444643_446189
+*MOT:	yeah, at the Little Rock zoo there's a lot o(f) mommy (.) zebras . 461550_466022
+*MOT:	and (.) whole bunch of baby zebras too . 468865_470828
+*MOT:	I don't think there's any hornets . 476994_479356
+*MOT:	well, there's probably hornets there . 479356_480902
+*MOT:	yeah . 483429_484127
+*MOT:	<did you> [/] did you get stung by a hornet this year ? 486001_489260
+*MOT:	right between your eyes, huh ? 492750_494379
+*MOT:	I know, you still got a mark there . 501046_502842
+*MOT:	how [//] what did that feel like ? 502842_503906
+*MOT:	right . 509211_510774
+*MOT:	you thought a bird attacked you . 513774_515544
+*MOT:	that bee was so big stingin(g) ya [: you] in between your eyes . 516708_521562
+*MOT:	what other fun things happened to you this summer ? 521562_524405
+*MOT:	you went to the beach . 529525_530756
+*MOT:	what'd [: what did] you do at the beach ? 530756_531636
+*MOT:	you tried to dig a big hole . 536025_537654
+*MOT:	and then what else did you do ? 538636_540016
+*MOT:	did you see any animals or birds <at the zo(o)> [//] at the beach ? 544812_550015
+*MOT:	what'd [: what did] you see ? 552044_553108
+*MOT:	no, no zebras at the beach . 556183_557812
+*MOT:	what other animals though ? 557812_559109
+*MOT:	did you see &um +... 559109_561303
+*MOT:	let's see, what'd you se(e), what kind of little [/] little animals
+*MOT:	little what, what did we search for ? 579840_582617
+*MOT:	no . 585876_586440
+*MOT:	little crabs . 587273_588570
+*MOT:	remember the little crabs we saw ? 588570_590931
+*MOT:	and they'd run out of their little hole . 592061_593691
+*MOT:	you remember that . 595985_596800
+*MOT:	what else did we see at the beach ? 598800_600921
+*MOT:	yeah, you did . 603864_605178
+*MOT:	you were a good +/. 605178_605678
+*MOT:	yeah . 610964_611696
+*MOT:	you were good, you did good findin(g) (th)em in the sand . 611696_614937
+*MOT:	what color were they ? 615919_616900
+*MOT:	you can't remember, okay . 620159_621539
+*MOT:	I think they were white . 623484_624715
+*MOT:	do you think they were white ? 624715_626111
+*MOT:	yeah . 627956_628687
+*MOT:	what kind of birds did we see ? 630687_632345
+*MOT:	no . 635687_636335
+*MOT:	what kind of birds did we see ? 636335_637715
+*MOT:	yeah, how do you know we didn't see a daddy bird ? 640907_642620
+*MOT:	oh, a daddy crab . 646925_648555
+*MOT:	I don't know . 648555_649203
+*MOT:	(be)cause they weren't big . 649203_650268
+*MOT:	yeah, they were . 654407_655738
+*MOT:	we saw some big holes though, didn't we ? 655738_657416
+*MOT:	we just didn't see any big crabs . 657416_658879
+*MOT:	no . 660110_661257
+*MOT:	Zoey, yeah, she can look at that . 665830_667675
+*MOT:	no . 670851_671415
+*MOT:	hey, what did we do yesterday ? 671415_672628
+*MOT:	<what did we> [//] did you go to school ? 675637_678830
+*MOT:	+< are you gonna go to school tomorrow ? 682569_683883
+*MOT:	how (a)bout on Friday ? 691031_691928
+*MOT:	do you go to school on Friday ? 691928_693225
+*MOT:	you didn't have_to go potty at school ? 697383_699327
+*MOT:	yeah, you're goin(g) potty now in the (.) in the big potty though,
+*MOT:	just like a big boy . 707623_709020
+*MOT:	oh there's a, there's a potty by . 720308_722685
+*MOT:	oh, so you can go potty at school ? 724379_726888
+*MOT:	okay, good . 727787_729981
+*MOT:	okay . 735352_736683
+*MOT:	sure, thanks . 736683_738527
+*MOT:	oh, what's he eatin(g) ? 740340_741786
+*MOT:	he's a crab ? 746258_747422
+*MOT:	you got a pet crab ? 749434_750515
+*MOT:	+< what's the pet crabs name ? 750515_752311
+*MOT:	oh he doesn't ? 756367_757098
+*MOT:	okay . 757098_757698
+*MOT:	no, why can't he go to bed in his bed ? 770431_772875
+*MOT:	well who took his bed away ? 778180_779857
+*MOT:	the evil chairs . 784746_786357
+*MOT:	oh . 788635_790431
+*MOT:	well how do you get rid of those evil chairs ? 790431_791977
+*MOT:	okay . 802218_803199
+*MOT:	okay, well thank you for protectin(g) the family . 830578_833022
+*MOT:	<what's your> [/] what's your favorite movie that you've been
+*MOT:	Star_Wars, what happens in Star_Wars ? 841419_843398
+*MOT:	mm, so they have a little fight ? 853173_855916
+*MOT:	who wins ? 857462_858710
+*MOT:	okay . 862184_863581
+*MOT:	do you wanna be like Luke_Skywalker, or Darth_Vader ? 863581_866257
+*MOT:	Luke_Skywalker, okay . 868452_869832
+*MOT:	I thought so . 869832_871295
+*MOT:	what else happens in the movie ? 871295_873258
+*MOT:	Darth_Vader comes . 877647_879110
+*MOT:	now what other Darth_Vader did you see ? 883499_886090
+*MOT:	oh yeah . 892126_893091
+*MOT:	yeah, what's your pet crab's name ? 901951_903730
+*MOT:	yeah . 915183_916646
+*MOT:	do you pick him up ? 916646_917377
+*MOT:	do they have little claws ? 920636_921618
+*MOT:	yeah ? 925192_926006
+*MOT:	he's a little hermit crab . 926006_928368
+*MOT:	you can't put him in there too much (be)cause he might not be able to breathe . 943180_946405
+*MOT:	that happens . 949068_950531
+*MOT:	+< Zoey, you're makin(g) noises ! 950531_953141
+*MOT:	Zoey ! 959651_961022
+*MOT:	she's makin(g) silly noises . 961953_964131
+*MOT:	who has a swing ? 975253_976334
+*MOT:	oh . 977929_979260
+*MOT:	yeah, that's usually best . 989334_991063
+*MOT:	who [/] who +/? 992343_994389
+*MOT:	what ? 994703_995785
+*MOT:	I don't know, does he ? 998445_1000241
+*MOT:	&=laughs you better clean it up ? 1004297_1005676
+*MOT:	okay . 1005676_1006490
+*MOT:	oh, thanks . 1008768_1010148
+*MOT:	who ? 1031711_1032277
+*MOT:	you better make &sh [//] him go, it's your (.) pet crab . 1034971_1037730
+*MOT:	hey, are you eatin(g) your carrot ? 1037730_1042285
+*MOT:	no, you're not gonna be like Bugs_Bunny anymore ? 1044812_1047174
+*MOT:	okay . 1059174_1060405
+*MOT:	+< uhoh, was she stuck ? 1066357_1067986
+*MOT:	oh, thanks for rescuing her . 1070180_1071643
+*MOT:	what do you got there, what are you playing with ? 1071643_1074005
+*MOT:	what is that car ? 1078494_1080024
+*MOT:	is that a dump truck ? 1083847_1085493
+*MOT:	&=laughs you have some goldfish crackers ? 1095335_1097928
+*MOT:	what's he gonna do with those goldfish crackers ? 1099391_1101370
+*MOT:	oh, okay . 1103398_1105243
+*MOT:	you drivin(g) his big truck ? 1105243_1106474
+*MOT:	whoop, ooh [x 2], sorry sweetie . 1110963_1113622
+*MOT:	okay . 1116622_1117205
+*MOT:	what else is goin(g) on ? 1122205_1123352
+*MOT:	what else you got over there ? 1123352_1125797
+*MOT:	and what's that ? 1130120_1131416
+*MOT:	is it a llama ? 1133777_1135140
+*MOT:	they're called K_Nex . 1139445_1141158
+*MOT:	they're a build(ing), they're a kind a building block . 1143834_1145963
+*MOT:	well, they're [//] kids like to build stuff, don't you like to build
+*MOT:	yeah ? 1157516_1158398
+*MOT:	okay, well you gotta get your (.) you gotta get some more blocks . 1160991_1163917
+*MOT:	you want +/? 1163917_1166046
+*MOT:	all right, go get the building pieces . 1167657_1169120
+*MOT:	what ? 1171462_1172675
+*MOT:	you need a space shuttle for Batman ? 1188767_1191479
+*MOT:	well, we can make it then . 1199858_1202153
+*MOT:	yeah . 1218228_1219358
+*MOT:	sometimes you do . 1219375_1220191
+*MOT:	that's why we have a picture so we can make it again . 1220191_1223050
+*MOT:	well, what do you have_to do when somethin(g) breaks ? 1240135_1242745
+*MOT:	that's right . 1245124_1245938
+*MOT:	ooh, that's pretty, what is that ? 1248133_1249894
+*MOT:	it's just a pretty design, huh ? 1252255_1254699
+*MOT:	go ahead . 1292513_1293893
+*MOT:	now what are you gonna do now that you dumped it out ? 1301023_1303300
+*MOT:	what did you find, what is that ? 1309604_1310967
+*MOT:	what are you sayin(g) ? 1321939_1324948
+*MOT:	the chicken said that, huh ? 1333327_1334624
+*MOT:	where'd [: where did] the chicken come from ? 1335521_1336818
+*MOT:	okay . 1343652_1344799
+*MOT:	cool . 1410583_1412777
+*MOT:	it looks like it could be part of a dinosaur . 1426342_1428786
+*MOT:	okay . 1439027_1439841
+*MOT:	what's not talkin(g) yet ? 1464712_1466175
+*MOT:	well that's (be)cause you're still talkin(g), and we have_to record you . 1468154_1471146
+*MOT:	because . 1472276_1473406
+*MOT:	yeah, it might rain today . 1479110_1480424
+*MOT:	hey how do your, how do your new sweatpants fit ? 1486941_1488388
+*MOT:	no, not while you have the little toys out . 1491164_1494422
+*MOT:	hey, hey, hey Ben, you're makin(g) too much noise . 1499941_1505526
+*MOT:	you wanna make a Longneck and a T_Rex ? 1509915_1511628
+*MOT:	well why don't you sit down and look at some parts . 1512359_1514471
+*MOT:	what parts do you think will make a Longneck and a T_Rex ? 1514471_1517098
+*MOT:	well what would make a long neck ? 1529533_1531329
+*MOT:	which piece would make a long neck ? 1531329_1532643
+*MOT:	you think that would make a T_Rex ? 1566484_1567697
+*MOT:	okay . 1567697_1568162
+*MOT:	is that his head or his arms ? 1568162_1569394
+*MOT:	okay . 1600863_1601595
+*MOT:	didn't know where he was, huh ? 1625243_1627520
+*MOT:	the T_Rex was dead ? 1641751_1644261
+*MOT:	oh, that's too bad . 1645807_1648733
+*MOT:	they have_to be dead when they're evil ? 1653122_1655168
+*MOT:	well, people don't want (th)em around . 1658742_1661685
+*MOT:	but, actually there were no people around when the T_Rex was around . 1661685_1664992
+*MOT:	yeah, there was people, people weren't alive yet when T_Rexes were around . 1670844_1675583
+*MOT:	no, there were no roads . 1682631_1684825
+*MOT:	there just weren't . 1686223_1689214
+*MOT:	there weren't any cars either . 1699788_1701202
+*MOT:	Zoey's sure makin(g) a big noise, huh . 1728081_1730276
+*MOT:	the T_Rex is alive ? 1736609_1737841
+*MOT:	yeah . 1740385_1741266
+*MOT:	xxx . 1744840_1747616
+*MOT:	I don't know . 1770625_1771488
+*MOT:	I don't know . 1773117_1773932
+*MOT:	it looks like his guy's got a little helmet . 1790506_1793367
+*MOT:	why do you think someone would wear a helmet ? 1793367_1795960
+*MOT:	why do they need a helmet on when they're ridin(g) a motorcycle ? 1801994_1806533
+*MOT:	no they gotta keep, they have_to keep themselves safe . 1812867_1815792
+*MOT:	there's a big . 1838302_1839681

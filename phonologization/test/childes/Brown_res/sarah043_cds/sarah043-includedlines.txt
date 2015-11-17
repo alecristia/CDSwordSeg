@@ -1,0 +1,333 @@
+*MOT:	Sarah .
+*MOT:	what cha [: you] doing ?
+*MOT:	making a bed ?
+*MOT:	for your cousin ?
+*MOT:	&a:h (.) good girl .
+*MOT:	for your baby ?
+*MOT:	huh ?
+*MOT:	oh (.) put them back .
+*MOT:	where's the box ?
+*MOT:	where ?
+*MOT:	xxx .
+*MOT:	no (.) you got enough right here .
+*MOT:	what ?
+*MOT:	last week ?
+*MOT:	what ?
+*MOT:	put them back ?
+*MOT:	now what are you doing ?
+*MOT:	how many you going to have ?
+*MOT:	three ?
+*MOT:	looks more like you got come over here and play .
+*MOT:	c(o)me (h)ere (.) I wanna tell you a story .
+*MOT:	Sarah .
+*MOT:	c(o)me (h)ere (.) I wanna tell you a story .
+*MOT:	I wanna tell you a story .
+*MOT:	I want you to tell me a story about the three bears .
+*MOT:	you going down the beach today ?
+*MOT:	you wanna go in the water ?
+*MOT:	wanna go swimming ?
+*MOT:	well (.) alright .
+*MOT:	we're gonna go if you sit up here and be a good girl .
+*MOT:	where's your coloring book ?
+*MOT:	where's your coloring book ?
+*MOT:	what ?
+*MOT:	well (.) c(o)me on over here .
+*MOT:	I can't hear you in there .
+*MOT:	huh ?
+*MOT:	you want the ice+cream ?
+*MOT:	huh ?
+*MOT:	want ice+cream ?
+*MOT:	alright (.) sit up here in the chair .
+*MOT:	come over here .
+*MOT:	yeah .
+*MOT:	watch out for the coffee .
+*MOT:	don't knock it over .
+*MOT:	I can't even get it open .
+*MOT:	how can you get it open ?
+*MOT:	wait a minute .
+*MOT:	alright (.) you open it and I'll get you a spoon .
+*MOT:	whoops !
+*MOT:	yeah .
+*MOT:	you see Mummy knows how to work it (.) uhhuh .
+*MOT:	here you go .
+*MOT:	don't do that .
+*MOT:	why don't you let me help you ?
+*MOT:	Sarah ?
+*MOT:	huh ?
+*MOT:	&aw (.) c(o)me on .
+*MOT:	let Mama help .
+*MOT:	you can't get that out by yourself .
+*MOT:	c(o)me on (.) let me do it .
+*MOT:	that's gonna be all melted before you get the top off .
+*MOT:	yes (.) it will .
+*MOT:	&hmm ?
+*MOT:	why ?
+*MOT:	here [//] what'd you do with it ?
+*MOT:	what ?
+*MOT:	taste good ?
+*MOT:	I'll get this hair out_of your eyes .
+*MOT:	so you can see .
+*MOT:	you got a real smart Mama .
+*MOT:	huh ?
+*MOT:	&mm .
+*MOT:	taste good ?
+*MOT:	what's (th)e matter ?
+*MOT:	you're awful quiet .
+*MOT:	huh ?
+*MOT:	why don't you tell me a story ?
+*MOT:	huh ?
+*MOT:	wanna eat your ice+cream ?
+*MOT:	what are you gonna tell me a story about ?
+*MOT:	three bears ?
+*MOT:	oh (.) all over your leg (.) huh ?
+*MOT:	whose girl are you ?
+*MOT:	my girl ?
+*MOT:	you gonna have a good time down the beach today ?
+*MOT:	huh ?
+*MOT:	oh (.) Sarah .
+*MOT:	what's your name ?
+*MOT:	you can't xxx with all the ice+cream .
+*MOT:	first eat what you got in your mouth and tell me .
+*MOT:	xxx ?
+*MOT:	o:h (.) that's an awful big bite .
+*MOT:	whose girl are you ?
+*MOT:	how about Daddy ?
+*MOT:	&aw (.) you got ice+cream all over your face .
+*MOT:	you know that ?
+*MOT:	yes (.) you have .
+*MOT:	you're not talking very much .
+*MOT:	why don't you talk to me ?
+*MOT:	huh ?
+*MOT:	I thought you were going to tell me a story .
+*MOT:	<up (.) up> [/] (.) up .
+*MOT:	is it ?
+*MOT:	whyn't [: why don't] you put it in the sink .
+*MOT:	huh ?
+*MOT:	you're like a little kitty cat (.) huh ?
+*MOT:	it drips ?
+*MOT:	no .
+*MOT:	you can have some more when we go down the beach .
+*MOT:	huh ?
+*MOT:	you can have some more in a few minutes .
+*MOT:	I want you to tell me a story first .
+*MOT:	yeah .
+*MOT:	what's that ?
+*MOT:	what's all that noise ?
+*MOT:	you're not telling me anything .
+*MOT:	you're just making noise .
+*MOT:	I thought you were supposed to be telling me a story .
+*MOT:	what was the little girl's name ?
+*MOT:	what was the little girl's name ?
+*MOT:	the little girl who went in the three bears' house .
+*MOT:	what were their name ?
+*MOT:	what was her name ?
+*MOT:	what's her name ?
+*MOT:	what ?
+*MOT:	I don't know what you're saying .
+*MOT:	Blitzen .
+*MOT:	that's Rudolph .
+*MOT:	Goldilocks !
+*MOT:	Goldilocks .
+*MOT:	yeah .
+*MOT:	Goldilocks is in the Three Bears' story .
+*MOT:	three bears ?
+*MOT:	huh ?
+*MOT:	no (.) they won't bite you .
+*MOT:	what are you doing now ?
+*MOT:	God bless you .
+*MOT:	hey (.) get out_of there .
+*MOT:	get out .
+*MOT:	what are you looking for ?
+*MOT:	you just had an ice+cream .
+*MOT:	shut the +...
+*MOT:	you want another one ?
+*MOT:	that's a sundae .
+*MOT:	I know it's ice+cream .
+*MOT:	you open it .
+*MOT:	le(t) me see .
+*MOT:	a little one ?
+*MOT:	oh (.) strawberry .
+*MOT:	yeah .
+*MOT:	yeah (.) put that in the basket .
+*MOT:	yeah (.) do that .
+*MOT:	put that in the basket .
+*MOT:	huh ?
+*MOT:	sit right here and eat it .
+*MOT:	strawberry .
+*MOT:	you my girl ?
+*MOT:	huh ?
+*MOT:	I know it's hard .
+*MOT:	supposed to be hard .
+*MOT:	you like that ?
+*MOT:	ups_a_daisy !
+*MOT:	do you want the strawberry on it ?
+*MOT:	huh ?
+*MOT:	yeah (.) I know it's cold .
+*MOT:	it always is .
+*MOT:	oops (.) be careful .
+*MOT:	you'll fall .
+*MOT:	don't do that .
+*MOT:	here (.) wipe it up (.) here .
+*MOT:	Sarah !
+*MOT:	Uncle Pat's looking for his pigeons (.) see ?
+*MOT:	come here (.) see Uncle Pat up there on the roof ?
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	you can go up there too ?
+*MOT:	yeah ?
+*MOT:	yeah (.) you'd hurt yourself (.) uhhuh .
+*MOT:	<he hurt him &h> [//] he hurt his hand ?
+*MOT:	what did you do ?
+*MOT:	forget it was on ?
+*MOT:	you what ?
+*MOT:	I didn't mess your crib up .
+*MOT:	you're going to get fat .
+*MOT:	all you're doing is eating .
+*MOT:	<eat (.) eat (.) eat (.) eat> [/] (.) eat (.) huh ?
+*MOT:	oop .
+*MOT:	break it off .
+*MOT:	huh ?
+*MOT:	what do you want me to do ?
+*MOT:	feed you ?
+*MOT:	you baby doll .
+*MOT:	&aw (.) can I have some ?
+*MOT:	can I have some ?
+*MOT:	&mm (.) it's good (.) isn't it .
+*MOT:	huh ?
+*MOT:	yeah .
+*MOT:	no (.) big girl .
+*MOT:	you don't have any more ice+cream (.) you know .
+*MOT:	no more ice+cream .
+*MOT:	no .
+*MOT:	no (.) not today .
+*MOT:	later tonight .
+*MOT:	what's the matter ?
+*MOT:	want anymore ?
+*MOT:	no ?
+*MOT:	why don't you finish this ?
+*MOT:	that's my girl c(o)me (h)ere .
+*MOT:	here (.) put this away .
+*MOT:	throw that away in the bucket .
+*MOT:	put this in the sink .
+*MOT:	no more .
+*MOT:	c(o)me (h)ere .
+*MOT:	no .
+*MOT:	get out_of there .
+*MOT:	that's enough .
+*MOT:	no [/] (.) no (.) you can have it when you come home later .
+*MOT:	you just had two .
+*MOT:	Daddy's not here .
+*MOT:	oh (.) cry baby .
+*MOT:	it's on the floor .
+*MOT:	whoops !
+*MOT:	look in the box there .
+*MOT:	just give me the cow .
+*MOT:	give me the cow .
+*MOT:	on the other side of the piano .
+*MOT:	over there by the horsie .
+*MOT:	give me the monkey .
+*MOT:	give me the monkey in the +...
+*MOT:	right there .
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	alright (.) give me the bunny .
+*MOT:	c(o)me on .
+*MOT:	where's the bunny ?
+*MOT:	oh (.) I thought you were going to give him to me .
+*MOT:	alright (.) let's see .
+*MOT:	what's his name ?
+*MOT:	yeah (.) well (.) he has_to have a name .
+*MOT:	you call him Peter ?
+*MOT:	what's his name ?
+*MOT:	what is it ?
+*MOT:	Melisandy (.) yeah .
+*MOT:	well (.) c(o)me (h)ere .
+*MOT:	out here [/] (.) here .
+*MOT:	right here .
+*MOT:	here it is !
+*MOT:	sit down here on the floor and do it .
+*MOT:	that's it .
+*MOT:	what are you doing ?
+*MOT:	yeah .
+*MOT:	do you know how to put your slippers on now ?
+*MOT:	huh ?
+*MOT:	yeah .
+*MOT:	here (.) why don't you wipe your nose ?
+*MOT:	your nose is running .
+*MOT:	do the other one .
+*MOT:	oh (.) you're doing good .
+*MOT:	you're doing real good .
+*MOT:	huh ?
+*MOT:	yeah .
+*MOT:	over there (.) see the dirt on your leg ?
+*MOT:	what ?
+*MOT:	you can't get it off ?
+*MOT:	wipe that off your leg .
+*MOT:	put your leg out straight .
+*MOT:	yeah (.) nice and clean (.) huh ?
+*MOT:	no (.) I'll hold it .
+*MOT:	wipe your leg off .
+*MOT:	up further .
+*MOT:	yes (.) right there .
+*MOT:	that's it .
+*MOT:	oh (.) do it nice .
+*MOT:	oh (.) what a good girl you are (.) uhhuh .
+*MOT:	your boo+boo came off ?
+*MOT:	well (.) it's getting better .
+*MOT:	we haven't got any Bandaids .
+*MOT:	you have_to get them .
+*MOT:	they're all down the beach .
+*MOT:	yeah .
+*MOT:	yeah .
+*MOT:	yeah (.) you did good .
+*MOT:	wipe what off ?
+*MOT:	let me see .
+*MOT:	uh(huh) .
+*MOT:	no (.) I won't scratch it .
+*MOT:	it hurts ?
+*MOT:	how did you do that ?
+*MOT:	out in the street ?
+*MOT:	what street ?
+*MOT:	in the middle ?
+*MOT:	oh .
+*MOT:	what were you doing out there ?
+*MOT:	you're not supposed to be out there (.) are you ?
+*MOT:	oh .
+*MOT:	what ?
+*MOT:	what's gone ?
+*MOT:	yeah .
+*MOT:	it's getting better .
+*MOT:	your Daddy what ?
+*MOT:	Daddy isn't painting any more ?
+*MOT:	oh .
+*MOT:	okay .
+*MOT:	they're nice and clean .
+*MOT:	gonna brush his hair ?
+*MOT:	oh (.) that doesn't come off .
+*MOT:	he hasn't got a bathing+suit like you .
+*MOT:	huh ?
+*MOT:	yeah .
+*MOT:	you gonna wash his hands ?
+*MOT:	he's got a bang ?
+*MOT:	how'd he get the bang ?
+*MOT:	how'd he do it ?
+*MOT:	on the floor ?
+*MOT:	oh .
+*MOT:	he cried ?
+*MOT:	do you cry when you get a boo+boo ?
+*MOT:	when you fell down ?
+*MOT:	do you cry ?
+*MOT:	no ?
+*MOT:	oh (.) he does ?
+*MOT:	oh .
+*MOT:	he knocks on the door ?
+*MOT:	yeah .
+*MOT:	&um (.) let me see (.) now .
+*MOT:	I don't know .
+*MOT:	what did you do with it ?
+*MOT:	did you have the brush ?
+*MOT:	oh (.) let me see your hand .
+*MOT:	c(o)me (h)ere .
+*MOT:	what happened there ?
+*MOT:	huh ?
+*MOT:	how'd ya get the cut ?

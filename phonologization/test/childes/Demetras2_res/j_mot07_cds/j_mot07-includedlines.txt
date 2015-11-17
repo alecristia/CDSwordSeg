@@ -1,0 +1,352 @@
+*MOT:	I don't know .
+*MOT:	where are all the doughnuts ?
+*MOT:	did we have doughnuts the other day ?
+*MOT:	here pull your pajamas back up .
+*MOT:	there .
+*MOT:	yeah .
+*MOT:	let's see .
+*MOT:	yeah .
+*MOT:	do you know how to stack these up ?
+*MOT:	you do ?
+*MOT:	can you teach me ?
+*MOT:	which one goes on first ?
+*MOT:	well don't they go on here ?
+*MOT:	let's see how they go .
+*MOT:	whoops .
+*MOT:	I think somethin(g) went wrong .
+*MOT:	what happened ?
+*MOT:	&hmm .
+*MOT:	yeah let's go back down here a ways .
+*MOT:	now which one goes on ?
+*MOT:	which one's the big one ?
+*MOT:	right .
+*MOT:	now which ones the big one ?
+*MOT:	&uh oh .
+*MOT:	what's that one ?
+*MOT:	yellow .
+*MOT:	yeah .
+*MOT:	that's good .
+*MOT:	where does that one go ?
+*MOT:	right on the old toys .
+*MOT:	can we make em stand up ?
+*MOT:	look it that .
+*MOT:	eee: .
+*MOT:	look it your arm .
+*MOT:	you look pretty silly .
+*MOT:	okay .
+*MOT:	put em on there .
+*MOT:	whoops .
+*MOT:	which one goes on first ?
+*MOT:	uhhuh .
+*MOT:	right there .
+*MOT:	&uh oh: .
+*MOT:	on your nose .
+*MOT:	oh: .
+*MOT:	okay .
+*MOT:	get em over there .
+*MOT:	get em straight up .
+*MOT:	now take it out .
+*MOT:	oh look at that .
+*MOT:	that's pretty funny .
+*MOT:	&uh oh is right .
+*MOT:	there .
+*MOT:	is that a lemon ?
+*MOT:	Mr Rabbit's gonna help .
+*MOT:	can you talk to Mr Rabbit ?
+*MOT:	&hmm ?
+*MOT:	oh look what Mr Rabbit's gonna do .
+*MOT:	whoops .
+*MOT:	whoops .
+*MOT:	Mr Rabbit can only hold one .
+*MOT:	I don't think he can hold two .
+*MOT:	now he can hold onto that one .
+*MOT:	there .
+*MOT:	oh let's be careful .
+*MOT:	yeah .
+*MOT:	oh let's not bite him .
+*MOT:	no .
+*MOT:	okay which one goes on there ?
+*MOT:	well talk to Mr Bunny .
+*MOT:	oh you're gonna give him a hug ?
+*MOT:	oh: .
+*MOT:	what's Mr Bunny's name ?
+*MOT:	your bunny ?
+*MOT:	frisky ?
+*MOT:	frisky the bunny ?
+*MOT:	and what does bunny do ?
+*MOT:	eat ?
+*MOT:	and what does bunny eat ?
+*MOT:	oh I thought bunnies liked carrots .
+*MOT:	oh: .
+*MOT:	this looks like a pole he could slide down .
+*MOT:	whoosh: .
+*MOT:	an he climbs back up .
+*MOT:	an he could go peek a boo .
+*MOT:	oh: what do you tell bunny ?
+*MOT:	tell bunny I love you .
+*MOT:	oh the bunny's gonna get your pigs .
+*MOT:	and he'll get your nose .
+*MOT:	wee wee all the way home .
+*MOT:	is that what he said ?
+*MOT:	what picture ?
+*MOT:	mine what ?
+*MOT:	I don't know what you're talking about .
+*MOT:	&ah: .
+*MOT:	who is this .
+*MOT:	is this Donald Duck ?
+*MOT:	oh Donald and bunny are gonna hug .
+*MOT:	&mm .
+*MOT:	oh: .
+*MOT:	oh where's Baldy ?
+*MOT:	here's Baldy .
+*MOT:	well Baldy's gonna give you a kiss .
+*MOT:	&hmm .
+*MOT:	what happened ?
+*MOT:	oh: don't hit Baldy .
+*MOT:	no: .
+*MOT:	we don't hit Baldy .
+*MOT:	hey .
+*MOT:	hey now that's not very nice to Baldy .
+*MOT:	okay love your bunny .
+*MOT:	you threw him over there .
+*MOT:	hey .
+*MOT:	what are these ?
+*MOT:	dump dump dump .
+*MOT:	okay .
+*MOT:	can you find all the yellow ones ?
+*MOT:	let's see if you can find all the yellow ones .
+*MOT:	what ?
+*MOT:	what are you gonna do ?
+*MOT:	no .
+*MOT:	you need to sit down .
+*MOT:	okay .
+*MOT:	well let's see what we can find .
+*MOT:	oh is bunny rabbit gonna pick up ?
+*MOT:	what's he gonna find ?
+*MOT:	let's see if you can find all the red ones then .
+*MOT:	does bunny know which ones are red ?
+*MOT:	oh boy bunny you're good .
+*MOT:	can you get it in there ?
+*MOT:	good .
+*MOT:	okay bunny .
+*MOT:	go find another red one .
+*MOT:	oh .
+*MOT:	is that a short one or a tall one ?
+*MOT:	a little one ?
+*MOT:	oh and he got it right in the hole .
+*MOT:	I'm gonna do this one .
+*MOT:	okay .
+*MOT:	oh you want the bunny to clap for you ?
+*MOT:	okay .
+*MOT:	bunny says go find another red one .
+*MOT:	that's right .
+*MOT:	&mm .
+*MOT:	okay .
+*MOT:	bunny says he wants to put em all in a row .
+*MOT:	oh he's got the red ones all in a row .
+*MOT:	oh thank_you Oliver .
+*MOT:	thank_you Oliver .
+*MOT:	whoops .
+*MOT:	there .
+*MOT:	okay .
+*MOT:	Oliver you put that one in the hole .
+*MOT:	oh you want bunny to do it ?
+*MOT:	thank_you .
+*MOT:	oo: bunny can't get that one in .
+*MOT:	can Oliver help him ?
+*MOT:	good .
+*MOT:	&mm .
+*MOT:	&mm .
+*MOT:	you're so nice to bunny .
+*MOT:	okay .
+*MOT:	thank_you Oliver .
+*MOT:	oh bunny says I thought there was another green one .
+*MOT:	we're missin(g) a green one .
+*MOT:	oh: .
+*MOT:	I think I see it .
+*MOT:	I think it's over there .
+*MOT:	wow .
+*MOT:	oh the bunny's puttin(g) it in ?
+*MOT:	okay .
+*MOT:	bunny will put the orange one in .
+*MOT:	oh is that like an orange popsicle ?
+*MOT:	oh .
+*MOT:	that's good .
+*MOT:	thank_you .
+*MOT:	oo: .
+*MOT:	&mm .
+*MOT:	that's very nice .
+*MOT:	oh Donald Duck is gonna watch bunny rabbit .
+*MOT:	oh bunny you're playing with those blocks so nice .
+*MOT:	yes .
+*MOT:	well hold onto it , bunny rabbit .
+*MOT:	good .
+*MOT:	oh good helper .
+*MOT:	Donald Duck is clapping .
+*MOT:	yeah says Donald .
+*MOT:	did you tell bunny rabbit that we're gonna go see Donald ?
+*MOT:	yeah .
+*MOT:	who else are we gonna go see ?
+*MOT:	is bunny gonna go with ya to see Donald ?
+*MOT:	yeah .
+*MOT:	an you're gonna have a hot dog ?
+*MOT:	you're gonna eat a hot dog at Disneyland ?
+*MOT:	is that what you want ?
+*MOT:	oh: .
+*MOT:	what else are we going to do at Disneyland ?
+*MOT:	oh I don't remember that they had any ducks to feed .
+*MOT:	do you think they had ducks to feed ?
+*MOT:	oh .
+*MOT:	I remember that you rode on Dumbo .
+*MOT:	remember riding on Dumbo the elephant ?
+*MOT:	ummhm .
+*MOT:	I think you and Grampa rode on Dumbo .
+*MOT:	ummhm and Daddy .
+*MOT:	oh I don't think that Mommy rode on Dumbo last time .
+*MOT:	go last night what ?
+*MOT:	where ?
+*MOT:	where did you see one ?
+*MOT:	oh there it is .
+*MOT:	yeah .
+*MOT:	very good .
+*MOT:	you put all the blocks in with bunny's help .
+*MOT:	that was a nice job .
+*MOT:	oh let's clap for Donald ?
+*MOT:	oh clap clap clap clap clap .
+*MOT:	yeah .
+*MOT:	&mm .
+*MOT:	clap clap clap clap clap .
+*MOT:	I think he's in the kitchen .
+*MOT:	yeah , I think so .
+*MOT:	yeah .
+*MOT:	hey did you get a new boo boo today ?
+*MOT:	what did you do there ?
+*MOT:	oh you put some water on it ?
+*MOT:	&mm .
+*MOT:	was Zackery there today ?
+*MOT:	no .
+*MOT:	was Zackery sick ?
+*MOT:	he went home ?
+*MOT:	oh .
+*MOT:	well what kind of things did you do at school today ?
+*MOT:	did you play in the sand ?
+*MOT:	a baggie ?
+*MOT:	you puttin(g) all the sticks in the baggie ?
+*MOT:	you shake em up .
+*MOT:	you shake em up ?
+*MOT:	oo: look .
+*MOT:	they all fell out .
+*MOT:	hi bunny .
+*MOT:	I don't think he's going any where , is he ?
+*MOT:	okay .
+*MOT:	fill him up .
+*MOT:	oh .
+*MOT:	oh .
+*MOT:	that's two .
+*MOT:	there .
+*MOT:	ummhm that's four .
+*MOT:	you filled him up .
+*MOT:	is that like you eat your supper and you get all filled up ?
+*MOT:	oh can you sing rock a bye to him ?
+*MOT:	no ?
+*MOT:	oh .
+*MOT:	where's your horn ?
+*MOT:	oh this horn ?
+*MOT:	where's what ?
+*MOT:	oh that looks like a doggie with no head .
+*MOT:	he's got two tails .
+*MOT:	yeah .
+*MOT:	right here .
+*MOT:	you gonna put a tail on the horn ?
+*MOT:	that looks pretty funny .
+*MOT:	you know what that looks like ?
+*MOT:	like the hose that Daddy pumps gas with .
+*MOT:	doesn't that look like the pump that Daddy pumps gas with ?
+*MOT:	oh you're going to squirt his hair .
+*MOT:	like Inez does .
+*MOT:	squirt squirt squirt .
+*MOT:	oh comb his hair ?
+*MOT:	okay .
+*MOT:	co:mb comb comb .
+*MOT:	oh Donald you have such pretty hair .
+*MOT:	squirt squirt squirt .
+*MOT:	did we give Donald a shampoo ?
+*MOT:	let's bleach it .
+*MOT:	bleach it ?
+*MOT:	who bleaches their hair ?
+*MOT:	you're Inez ?
+*MOT:	Inez bleaches peoples hair ?
+*MOT:	oh is that what she does ?
+*MOT:	oh .
+*MOT:	squirt squirt .
+*MOT:	you given me a shampoo ?
+*MOT:	&hmm ?
+*MOT:	what's that ?
+*MOT:	you being Tarzan ?
+*MOT:	no ?
+*MOT:	Donald's right here .
+*MOT:	you're silly .
+*MOT:	oh you want me to hold his ear ?
+*MOT:	&ah: .
+*MOT:	okay comb it like Inez would comb it .
+*MOT:	okay hose him off .
+*MOT:	okay .
+*MOT:	is that how Inez washes your hair ?
+*MOT:	&hmm ?
+*MOT:	what you lookin(g) for ?
+*MOT:	&hmm ?
+*MOT:	no come back over here .
+*MOT:	oh here let's do Baldy .
+*MOT:	Baldy's got lots_of hair .
+*MOT:	look it all that hair .
+*MOT:	can you give Baldy a shampoo ?
+*MOT:	shampoo his hair .
+*MOT:	rub rub rub rub .
+*MOT:	oh we're gonna give him a blow dry now ?
+*MOT:	can you give him a shave ?
+*MOT:	give him a shave .
+*MOT:	&hmm ?
+*MOT:	what's that ?
+*MOT:	&ah: .
+*MOT:	okay .
+*MOT:	I think Baldy needs another shampoo .
+*MOT:	help him with his shampoo ?
+*MOT:	oh my Baldy .
+*MOT:	oh we need to put some mousse on his hair .
+*MOT:	okay .
+*MOT:	squirt the mousse on .
+*MOT:	you like mousse ?
+*MOT:	rub it in .
+*MOT:	okay .
+*MOT:	now can you comb it ?
+*MOT:	you've got all that mousse on there you'd better comb it .
+*MOT:	oh .
+*MOT:	you would make a nice hair dresser .
+*MOT:	oh where we goin(g) ?
+*MOT:	oh we're taken Baldy to San Diego ?
+*MOT:	&ah: .
+*MOT:	where in San Diego ?
+*MOT:	at the San Diego Zoo ?
+*MOT:	who lives at the San Diego Zoo ?
+*MOT:	oh the zoo keeper lives there ?
+*MOT:	what does the zoo keeper do ?
+*MOT:	I don't know .
+*MOT:	I think Marty's home sick .
+*MOT:	yeah Marty went to the doctor today .
+*MOT:	yeah .
+*MOT:	oh you think she went to Dr Labell ?
+*MOT:	I don't know .
+*MOT:	would you like to go see Dr Labell ?
+*MOT:	no ?
+*MOT:	what does Dr Labell do ?
+*MOT:	no don't play with your microphone .
+*MOT:	it's there .
+*MOT:	come here .
+*MOT:	what does Dr Labelle do ?
+*MOT:	&hmm ?
+*MOT:	does Dr Labell look in your ears ?
+*MOT:	where does he look ?
+*MOT:	&ah .
+*MOT:	in your mouth .
+*MOT:	what does he see in there ?
+*MOT:	your supper ?

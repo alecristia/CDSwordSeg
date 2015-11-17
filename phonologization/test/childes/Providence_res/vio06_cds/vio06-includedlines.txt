@@ -1,0 +1,557 @@
+*MOT:	okay . 64796_65893
+*MOT:	xxx . 65893_68915
+*MOT:	xxx , silly beans . 68915_70588
+*MOT:	alright . 70588_75261
+*MOT:	let's see . 75263_76563
+*MOT:	this thing isn't staying on . 76563_80128
+*MOT:	maybe could I xxx xxx xxx xxx .
+*MOT:	okay , Violet .
+*MOT:	xxx xxx tried it +//.
+*MOT:	xxx xxx try and lower this down a little bit . 99290_101838
+*MOT:	you're gonna keep that on . 101838_106850
+*MOT:	can you keep it on ? 106851_111346
+*MOT:	xxx . 111348_113105
+*MOT:	don't make that silly face . 113105_116905
+*MOT:	alright . 116905_117951
+*MOT:	alright .
+*MOT:	it's crooked anyway .
+*MOT:	if we sit over by the chair +...
+*MOT:	okay .
+*MOT:	cmon [: come on] , let's go do our coloring .
+*MOT:	go over there . 131361_135031
+*MOT:	let's go get our crayons . 135031_137313
+*MOT:	&uhp .
+*MOT:	go get our +//.
+*MOT:	where's the crayons ? 138098_140676
+*MOT:	where's the crayons ? 146298_148530
+*MOT:	alright . 148531_149525
+*MOT:	xxx I'm f@l one +... 149525_152760
+*MOT:	and you're f@l +... 152760_153891
+*MOT:	f@l two .
+*MOT:	right , let's just be sure that you're f@l two .
+*MOT:	oh: , we're gonna make a picture . 157575_162191
+*MOT:	yup [: yes] , you're f@l two . 162193_163663
+*MOT:	okay . 163663_165496
+*MOT:	over here , we're gonna make a picture . 165496_166800
+*MOT:	here's some crayons . 166800_169421
+*MOT:	I don't know why I keep thinkin(g) it's not really xxx . 169423_171575
+*MOT:	xxx . 171575_173395
+*MOT:	okay . 173395_175991
+*MOT:	but anyway xxx . 175993_178955
+*MOT:	so +... 178956_179785
+*MOT:	today +//.
+*MOT:	&uhp no writing on your face ! 179785_182211
+*MOT:	we're gonna (.) do your tape at a different time and see if we get any different results because (.) this is when it's almost Violet's bedtime . 182211_189048
+*MOT:	hmm ? 189048_190376
+*MOT:	so we'll see . 190376_192023
+*MOT:	what are we gonna make ? 192023_194301
+*MOT:	let's see what we can make .
+*MOT:	you know we need to do ? 196510_199893
+*MOT:	need to put a book underneath it like this . 199893_201661
+*MOT:	okay . 201661_202651
+*MOT:	can I have a crayon ? 202651_203706
+*MOT:	thank you . 203706_205506
+*MOT:	now , what do you wanna make ? 205506_206881
+*MOT:	how (a)bout we make +... 208100_209775
+*MOT:	what ? 210661_213386
+*MOT:	what should we make ? 213388_214461
+*MOT:	what can we make ? 215750_216956
+*MOT:	what ?
+*MOT:	teddy+bear ? 218413_220180
+*MOT:	kitty+cat ? 220180_222283
+*MOT:	monkey ? 222283_224213
+*MOT:	how (a)bout I make +...
+*MOT:	Violet .
+*MOT:	you want 0me 0to make Violet again ? 227790_233425
+*MOT:	let's see . 233426_234975
+*MOT:	I'm gonna make +... 234975_236863
+*MOT:	what ?
+*MOT:	Violet ? 238785_239956
+*MOT:	you want to make Violet ? 239956_241256
+*MOT:	make Violet .
+*MOT:	ready ? 241256_243208
+*MOT:	he:re she comes +... 243208_245423
+*MOT:	here's her hair +... 245423_248291
+*MOT:	here's her arms +... 248293_250191
+*MOT:	here's her eyes +... 250191_252873
+*MOT:	here's her pretty dress . 252873_256031
+*MOT:	and here's her feet , and there's her shiny shoes . 256031_260943
+*MOT:	who's that ? 262841_264106
+*MOT:	who's that ? 264106_265711
+*MOT:	that's Violet ! 267945_269418
+*MOT:	see ?
+*MOT:	we color her dress in . 269418_276346
+*MOT:	xxx yeah .
+*MOT:	what do you wanna make now ? 277216_282100
+*MOT:	what ? 282101_283240
+*MOT:	what should we make now ? 283240_285211
+*MOT:	can we make +//.
+*MOT:	we made a Violet .
+*MOT:	should we make a xxx ? 287551_289228
+*MOT:	do we need a xxx ? 289228_293751
+*MOT:	he's in his room , but we can draw a picture of xxx .
+*MOT:	ya [: you] wanna make a picture of xxx ? 293753_297440
+*MOT:	let's make a xxx . 297440_300040
+*MOT:	&uhp , I made a funny head xxx . 300040_304410
+*MOT:	there's xxx ! 304411_308320
+*MOT:	look ! 308320_317520
+*MOT:	there's xxx ! 317521_318906
+*MOT:	xxx . 318906_322381
+*MOT:	now what should Violet hold ? 322383_324043
+*MOT:	how (a)bout she hold a teacup ? 324043_329500
+*MOT:	can Violet have a teacup ? 329500_331188
+*MOT:	watch this . 331188_338700
+*MOT:	Violet have a teacup ! 338700_342093
+*MOT:	what will xxx have ? 343378_348575
+*MOT:	0does xxx maybe have a train ? 348576_351106
+*MOT:	0does he have a train sometimes ? 351106_354095
+*MOT:	train ? 354095_356846
+*MOT:	okay , we'll make a train . 356846_358573
+*MOT:	choo choo: ! 358573_362485
+*MOT:	chugga@o chugga@o [x 3] +/.
+*MOT:	xxx xxx have a train .
+*MOT:	what ? 368195_369726
+*MOT:	what do you want xxx to have ?
+*MOT:	somethin(g) else ? 369726_374776
+*MOT:	should we have the brooms ? 374778_376160
+*MOT:	should I make a broom ? 376160_380941
+*MOT:	the baby ? 383218_384076
+*MOT:	want me to make the baby ? 384076_388165
+*MOT:	yeah ? 388166_388676
+*MOT:	the baby ? 388676_389436
+*MOT:	okay , ready ? 389436_390395
+*MOT:	here's the baby . 390395_391880
+*MOT:	we'll make a little baby this time . 391880_399085
+*MOT:	oh: , xxx , it's a little baby ! 399086_404853
+*MOT:	that's a baby . 404853_406923
+*MOT:	now what do we make ?
+*MOT:	what do we make to go with the baby ? 410891_412691
+*MOT:	who does the baby need ? 413890_415186
+*MOT:	who holds the baby ? 415186_419155
+*MOT:	who holds the baby ? 419156_422210
+*MOT:	is it the mama ? 423875_426356
+*MOT:	do we need a mama for the baby ? 426356_430741
+*MOT:	okay , let's make a mama . 430743_434475
+*MOT:	here's gonna be the mama . 434476_435788
+*MOT:	here comes the mama .
+*MOT:	she's gonna hold her baby . 437283_446010
+*MOT:	yay . 446010_447420
+*MOT:	xxx mama hold her baby . 447420_455900
+*MOT:	should we make some animals now ? 455900_459475
+*MOT:	should we make the +//?
+*MOT:	how (a)bout we make a cow ? 459475_463075
+*MOT:	should we make a cow ? 463076_464243
+*MOT:	lemme [: let me] try and make a cow . 464243_467163
+*MOT:	ready ? 467163_468116
+*MOT:	let's see .
+*MOT:	xxx xxx , it's gonna be tough . 470463_473013
+*MOT:	xxx .
+*MOT:	there's the horns . 475276_478960
+*MOT:	xxx xxx look like a cow , does it ? 478961_482303
+*MOT:	what does a cow say ? 487285_488621
+*MOT:	it's not a very good cow . 488621_492881
+*MOT:	just pretend it's a cow . 492883_493980
+*MOT:	how does the cow's head go ? 493980_495381
+*MOT:	moo: !
+*MOT:	he says moo .
+*MOT:	that's not a very good cow , is it ?
+*MOT:	how do you make +//?
+*MOT:	how come I can't draw anything lately ? 506218_508758
+*MOT:	what ? 510410_511346
+*MOT:	the baby cow ? 515611_518429
+*MOT:	oh , you're gonna show me the baby ? 520016_521620
+*MOT:	where's the baby ? 521620_522835
+*MOT:	where's the baby ? 522835_524740
+*MOT:	right .
+*MOT:	now , where's xxx ? 524740_529210
+*MOT:	no , that's not xxx . 529211_530713
+*MOT:	that's Violet . 530713_532355
+*MOT:	right , that's xxx . 532355_535655
+*MOT:	now where:'s Violet ? 535655_538486
+*MOT:	right .
+*MOT:	where's the mama ? 538488_542020
+*MOT:	no that's the baby . 542020_543543
+*MOT:	where's the mama ? 543543_544626
+*MOT:	righ:t . 544626_546621
+*MOT:	xxx the mama . 546621_549763
+*MOT:	how come I can't make a cow ?
+*MOT:	we need to see a picture of a cow .
+*MOT:	let's find a picture of a cow . 551025_555546
+*MOT:	so mommy can try and make a better one . 555546_558090
+*MOT:	let's see +... 558090_562461
+*MOT:	this have any cows in it ? 564476_566146
+*MOT:	let's see if this has any cows . 566146_568180
+*MOT:	so I can try and make a picture of a cow . 568180_571515
+*MOT:	there's a cow ! 571515_573076
+*MOT:	0is that a cow ? 573076_574721
+*MOT:	let me try and make a cow now . 574721_577326
+*MOT:	here we go .
+*MOT:	ready ? 577326_579875
+*MOT:	xxx still +//.
+*MOT:	still tough , huh ? 596350_601570
+*MOT:	what , you want me to use that one ? 603966_607645
+*MOT:	well I think I need +//. 607646_610383
+*MOT:	I don't think I can use that color on here .
+*MOT:	is that a cow ?
+*MOT:	xxx . 611753_613240
+*MOT:	0it 0is not very good , I know . 615876_617016
+*MOT:	oh I know why !
+*MOT:	(be)cause I keep forgetting to +//.
+*MOT:	xxx I didn't make the udder . 621711_631351
+*MOT:	like that one ? 631353_639200
+*MOT:	what does a cow say ? 639200_640376
+*MOT:	what does a cow say ? 640376_646665
+*MOT:	what does he say ? 646665_647676
+*MOT:	does the cow say quack quack ?
+*MOT:	no: ! 650376_652496
+*MOT:	does he say bah bah ? 652496_655441
+*MOT:	have_to keep that on , okay ? 655441_657193
+*MOT:	that's how we do our special jobs . 657193_659008
+*MOT:	how (a)bout he says +...
+*MOT:	how (a)bout the cow says +...
+*MOT:	moo: . 659008_665120
+*MOT:	does he say moo ? 665360_668896
+*MOT:	no ? 668898_669930
+*MOT:	you wann [: want to] +//?
+*MOT:	you wanna d(o) +//?
+*MOT:	do something else ? 669930_673146
+*MOT:	what ? 675566_676625
+*MOT:	shall we make another picture ? 678410_682000
+*MOT:	how (a)bout I make +... 682000_683560
+*MOT:	picture of daddy ? 684695_687485
+*MOT:	I'll make a picture of daddy ? 687486_690416
+*MOT:	no ? 691728_698595
+*MOT:	ooh: , very nice .
+*MOT:	what are you making ? 711261_714585
+*MOT:	is that daddy ? 714585_716656
+*MOT:	is that picture of daddy ? 716656_718103
+*MOT:	that's good . 718103_721456
+*MOT:	that's good girl . 721456_725093
+*MOT:	wo:w ! 726331_727986
+*MOT:	(o)kay , let me see . 727986_729076
+*MOT:	I'm gonna make a picture of a giraffe . 729076_734930
+*MOT:	lo:ng neck . 734931_741290
+*MOT:	that look like a giraffe ? 742418_749481
+*MOT:	there he is . 749483_750761
+*MOT:	gira:ffe . 750761_752630
+*MOT:	you don't like the giraffes ? 755411_757146
+*MOT:	no , you don't like a giraffe ? 757146_759743
+*MOT:	did we see +//?
+*MOT:	did we see a giraffe at the zoo ?
+*MOT:	did we see a giraffe at the zoo ? 769285_772650
+*MOT:	no , you didn't ? 773931_775460
+*MOT:	xxx has all sorts of funny things on his neck , too , like this . 775460_780115
+*MOT:	what ? 785645_786971
+*MOT:	where's the other crayon ?
+*MOT:	I thought I brought four crayons . 786971_790395
+*MOT:	there another crayon somewhere ? 790395_795030
+*MOT:	where'd it go ? 797800_799998
+*MOT:	yeah xxx know we have three , but I thought we had another one . 801150_803675
+*MOT:	hmm ? 803675_805503
+*MOT:	what ? 810260_816445
+*MOT:	one , two , three crayons .
+*MOT:	but we have +//.
+*MOT:	supposed to have one more crayon . 816446_820561
+*MOT:	do you know where it went to ? 820561_823043
+*MOT:	where'd it go ? 824281_827080
+*MOT:	where'd the crayon go ? 833318_837493
+*MOT:	xxx .
+*MOT:	I don't +//.
+*MOT:	it went byebye ?
+*MOT:	are you sitting on it ? 840851_841996
+*MOT:	&uhp !
+*MOT:	is that it right there ? 841996_844681
+*MOT:	here it is . 844681_845903
+*MOT:	here it is . 845903_848043
+*MOT:	should we make a baby giraffe ? 848043_850155
+*MOT:	let's make a baby giraffe . 850155_861600
+*MOT:	xxx . 861600_863078
+*MOT:	xxx the one xxx the baby . 863078_865051
+*MOT:	baby and the mama . 865051_869058
+*MOT:	giraffe . 870376_874236
+*MOT:	he has a long neck , doesn't he ? 874238_876228
+*MOT:	you know what he eats ? 876228_879163
+*MOT:	we'll make a tree for him to eat .
+*MOT:	he eats the branches from the trees . 881220_884171
+*MOT:	he eats the trees .
+*MOT:	look I put trees in his mouth .
+*MOT:	he has trees for numnums . 884171_889715
+*MOT:	and the baby has trees , too . 889715_891923
+*MOT:	see ?
+*MOT:	xxx xxx xxx xxx xxx xxx xxx they eat the trees . 891923_896851
+*MOT:	how's your jelly+belly doin(g) ? 896851_900191
+*MOT:	hmm ? 900191_902710
+*MOT:	xxx xxx xxx . 902710_904900
+*MOT:	is that your jelly+belly ? 904900_907571
+*MOT:	xxx . 910236_915845
+*MOT:	ey: ! 915845_917693
+*MOT:	well , I thought we're gonna keep that on , so we can do our taping .
+*MOT:	should we go check and see what xxx is doin(g) ? 925900_928243
+*MOT:	and give him his medicine ?
+*MOT:	do you think xxx xxx +//?
+*MOT:	we can give him his medicine ? 929971_933911
+*MOT:	he needs to have his medicine , doesn't he ?
+*MOT:	he doesn't feel good . 937115_939643
+*MOT:	you want me to take (th)em ?
+*MOT:	where should I put (th)em ? 944041_951000
+*MOT:	thank you . 951000_953770
+*MOT:	tha:nk you . 953771_956140
+*MOT:	now , let's try xxx medicine .
+*MOT:	where's his medicine ?
+*MOT:	let's go check him . 960648_963173
+*MOT:	now we got this (.) medicine and this medicine . 963173_969966
+*MOT:	yeah , that's garbage . 969968_975710
+*MOT:	alright , I'm gonna go +//.
+*MOT:	let's go check xxx . 976911_980523
+*MOT:	xxx . 984013_988036
+*MOT:	shh: , xxx night+night . 994943_998773
+*MOT:	shh: xxx . 1002213_1004811
+*MOT:	quiet !
+*MOT:	shh: +/.
+*MOT:	cmon [: come on] . 1008455_1009106
+*MOT:	xxx night+night . 1009106_1009880
+*MOT:	time to go . 1009880_1015941
+*MOT:	night+night xxx . 1015943_1020300
+*MOT:	he's a tired boy , huh ? 1020300_1024515
+*MOT:	xxx . 1024516_1027783
+*MOT:	xxx throw it away in the garbage right here . 1029278_1032930
+*MOT:	there . 1032931_1037040
+*MOT:	alright . 1037041_1040013
+*MOT:	let's find you some peejays [: pajamas] , huh ? 1040013_1044345
+*MOT:	you wanna do some books ? 1046906_1050786
+*MOT:	let's see if we have a book . 1050788_1053225
+*MOT:	there +//.
+*MOT:	oh: , look at this book ! 1053226_1054843
+*MOT:	dolphins and porpoises , you like this one ? 1054843_1058745
+*MOT:	is that 0a good one ? 1059818_1061090
+*MOT:	yeah .
+*MOT:	up and down they leap . 1064101_1072440
+*MOT:	can you see the playful dolphins ? 1072440_1074665
+*MOT:	dolphins and porpoises are good swimmers . 1074665_1077708
+*MOT:	xxx fishy . 1077708_1079585
+*MOT:	xxx xxx . 1079585_1081103
+*MOT:	just like we saw at the aquarium , huh ? 1081103_1083228
+*MOT:	they live in the water like fish . 1083228_1086376
+*MOT:	but they are not fish . 1086376_1088026
+*MOT:	dolphins and porpoises are mammals .
+*MOT:	they are warm blooded animals . 1088026_1094631
+*MOT:	they must keep warm even in the coldest water . 1094633_1097850
+*MOT:	dolphins and porpoises have thick skin . 1097850_1100276
+*MOT:	below their skin is a thick layer of fat called blubber .
+*MOT:	blubber keeps them warm .
+*MOT:	I'll finish +... 1106216_1108640
+*MOT:	you don't want the one about the dolphins ? 1108641_1111911
+*MOT:	want this one instead ? 1113210_1115085
+*MOT:	what's this one about ? 1116210_1117620
+*MOT:	xxx go dog go . 1117620_1119730
+*MOT:	go do:g (.) go . 1119730_1125061
+*MOT:	go on skates , or go by bike . 1125063_1127416
+*MOT:	go by foot .
+*MOT:	run , skip , or +... 1127416_1129691
+*MOT:	hike . 1129691_1131760
+*MOT:	go by scooter .
+*MOT:	go by skis .
+*MOT:	bundle up so you don't freeze ! 1131761_1135771
+*MOT:	go by blimp . 1135771_1138060
+*MOT:	by boat . 1138060_1139970
+*MOT:	by car . 1139970_1142386
+*MOT:	go dogs go , it's not too far . 1142386_1144898
+*MOT:	stop dog stop .
+*MOT:	the light is red . 1144898_1148578
+*MOT:	xxx xxx xxx .
+*MOT:	go dogs go , it's green ahead ! 1148578_1152011
+*MOT:	you're almost there , stop at that tree . 1152011_1154728
+*MOT:	climb that ladder to +... 1154728_1156941
+*MOT:	xxx ! 1156941_1157826
+*MOT:	a dog party: !
+*MOT:	yippee: ! 1157826_1160595
+*MOT:	yeah .
+*MOT:	the doggies had a big party , don't they ? 1161911_1164410
+*MOT:	can you get your peejays [: pajamas] so we can get your peejays [: pajamas] on ? 1164410_1167976
+*MOT:	can you get some peejays [: pajamas] out of your bottom drawer there ? 1167976_1170625
+*MOT:	you want me to change your diaper and get your peejays [: pajamas] on ? 1170625_1178116
+*MOT:	that one's a good one , right there . 1178118_1179771
+*MOT:	yeah . 1179771_1181545
+*MOT:	that's a good one . 1181545_1182663
+*MOT:	here xxx take off your backpack .
+*MOT:	cmere [: come here] . 1182663_1184161
+*MOT:	getcha booboo . 1184161_1185861
+*MOT:	yep [: yes] .
+*MOT:	mommy's gonna take it off and just put it near you . 1186483_1189290
+*MOT:	while we do this .
+*MOT:	(o)kay ? 1189290_1192446
+*MOT:	oy oy oy . 1192446_1193306
+*MOT:	yeah , I'll take mine off in a minute , but we gotta change your britches . 1194368_1203500
+*MOT:	after you get your peejays [: pajamas] on you can put the backpack back on . 1225810_1228635
+*MOT:	(o)kay ?
+*MOT:	it'll be more comfortable xxx xxx xxx belly .
+*MOT:	(o)kay , wait a minute . 1239328_1240688
+*MOT:	oh we gotta get you a shirt . 1240688_1245000
+*MOT:	you need a shirt .
+*MOT:	little girt@wp . 1246626_1248478
+*MOT:	shirt for the girt@wp . 1248478_1251513
+*MOT:	cmere [: come here] girtiegoo@wp . 1251513_1253433
+*MOT:	what is it ? 1261626_1263771
+*MOT:	bucket ? 1263771_1266851
+*MOT:	bucket . 1266853_1268356
+*MOT:	xxx . 1268356_1272476
+*MOT:	hat . 1272476_1281710
+*MOT:	alright .
+*MOT:	cmere [: come here] , put this on . 1286821_1287795
+*MOT:	come on . 1288886_1289721
+*MOT:	come on , then you can wear your backpack . 1294411_1296176
+*MOT:	come on . 1296176_1298481
+*MOT:	mm , gotta put this on first .
+*MOT:	&uh [x 4] . 1300743_1303010
+*MOT:	yep [: yes] , first you gotta put on your peejays [: pajamas] . 1304725_1306675
+*MOT:	(o)kay ? 1306675_1308060
+*MOT:	first you put your peejays [: pajamas] on . 1308060_1309456
+*MOT:	the:n you can wear the backpack again . 1309456_1312145
+*MOT:	(o)kay ?
+*MOT:	xxx put your peejays [: pajamas] on . 1312145_1323875
+*MOT:	there we go .
+*MOT:	first xxx put your peejays [: pajamas] on first love . 1323875_1326610
+*MOT:	put your peejays [: pajamas] on , look .
+*MOT:	put your feet in here . 1326610_1332618
+*MOT:	where's your foot go ? 1332620_1333528
+*MOT:	foot ! 1333528_1335510
+*MOT:	foot , go in there . 1335510_1336381
+*MOT:	foot , go in there . 1336381_1342460
+*MOT:	there we go one . 1342461_1345430
+*MOT:	there we go: two ! 1345430_1350500
+*MOT:	okay . 1350500_1351300
+*MOT:	arm in . 1351300_1351853
+*MOT:	ar:m in . 1353126_1356875
+*MOT:	alrighty . 1356876_1362875
+*MOT:	uhoh . 1362875_1363941
+*MOT:	stuck . 1363941_1364858
+*MOT:	okay .
+*MOT:	here we +//.
+*MOT:	now we can put your backpack on . 1364858_1370835
+*MOT:	here we go . 1372796_1373885
+*MOT:	tha:t's a girl . 1380746_1384210
+*MOT:	alrigh:ty . 1384211_1385708
+*MOT:	lookin(g) goo:d ! 1385708_1388458
+*MOT:	we both have ours on , don't we ? 1388458_1390978
+*MOT:	microphone ! 1390978_1396281
+*MOT:	(o)kay , leave Mama's though . 1396283_1398451
+*MOT:	not supposed to touch it . 1398451_1400626
+*MOT:	okay . 1400626_1403885
+*MOT:	xxx you wanna throw this diaper away ? 1407143_1409078
+*MOT:	throw it in the garbage . 1409078_1416290
+*MOT:	then we're gonna do our bed stories . 1416291_1425608
+*MOT:	did you throw it away ? 1427558_1428953
+*MOT:	good girl . 1428953_1431625
+*MOT:	we done makin(g) our pictures ?
+*MOT:	now we do our nighttime stories . 1441280_1445116
+*MOT:	so we can go to bed . 1445116_1448310
+*MOT:	0let 0us find our books . 1448310_1451445
+*MOT:	let's see +... 1458950_1460981
+*MOT:	how (a)bout Dinosaur's_Binkit ? 1462486_1465706
+*MOT:	we haven't done that +//.
+*MOT:	we haven't done this one either .
+*MOT:	who lives here . 1465706_1467795
+*MOT:	you want that one ?
+*MOT:	(o)kay . 1471143_1472675
+*MOT:	we can do that one . 1472675_1474245
+*MOT:	what is it ? 1474245_1475263
+*MOT:	Nicky's (.) noisy night . 1475263_1478220
+*MOT:	(o)kay . 1478220_1479171
+*MOT:	Nicky's noisy night . 1482631_1484156
+*MOT:	Ma:ma , Nicky says , I can't sleep because it's too noisy . 1484156_1489355
+*MOT:	something is blowing .
+*MOT:	what is it ? 1489355_1492478
+*MOT:	swish swish: xxx . 1492478_1496833
+*MOT:	tap [x 3] , what is that ? 1496833_1500900
+*MOT:	it's a tree . 1500901_1502230
+*MOT:	the wind blowing outside , huh ? 1502230_1504811
+*MOT:	windy [x 2] . 1504811_1506710
+*MOT:	someone is nibbling .
+*MOT:	who is it ? 1506710_1509578
+*MOT:	a mouse . 1509578_1513995
+*MOT:	squeak [x 2] . 1513996_1515153
+*MOT:	something is banging .
+*MOT:	what is it ? 1516618_1519078
+*MOT:	crash bang . 1519078_1521518
+*MOT:	the doggy: . 1521518_1523556
+*MOT:	bad doggy knocked over the garbage . 1523556_1529575
+*MOT:	something is dripping .
+*MOT:	what is it ? 1529576_1531776
+*MOT:	drip drip drip . 1531776_1532985
+*MOT:	the water . 1532985_1538311
+*MOT:	someone is calling .
+*MOT:	who is it ? 1538313_1540208
+*MOT:	hoo:@o [x 2] . 1540208_1543330
+*MOT:	it's the owl ! 1544330_1548575
+*MOT:	someone is singing .
+*MOT:	who is it ? 1548575_1550583
+*MOT:	cuckoo [x 2] . 1550583_1552423
+*MOT:	tick+tock [x 4] . 1552423_1557016
+*MOT:	cuckoo . 1557016_1558776
+*MOT:	xxx clock .
+*MOT:	cuckoo clock . 1558776_1562040
+*MOT:	someone is running .
+*MOT:	who is it ? 1562040_1566171
+*MOT:	ruff ruff .
+*MOT:	meow: . 1566173_1572810
+*MOT:	doggy's [: doggy is] chasin(g) the cat . 1572811_1574278
+*MOT:	mama tell(s) everyone to be quiet . 1574278_1577791
+*MOT:	mama whispers , be quiet house , be quiet mouse , be quiet dog , be quiet cat , be quiet owl , and be quiet Nicky . 1577791_1584341
+*MOT:	night+night . 1584341_1587800
+*MOT:	xxx Nicky go night+night ? 1587800_1591730
+*MOT:	we didn't brush your teeth yet . 1591730_1593366
+*MOT:	I think you brushed (th)em , but I didn't brush (th)em . 1593366_1596110
+*MOT:	who lives here ?
+*MOT:	who lives in the tree ?
+*MOT:	is this a bunny ? 1596110_1599745
+*MOT:	no: . 1599745_1601391
+*MOT:	xxx fish ? 1601391_1602775
+*MOT:	no: . 1602775_1604108
+*MOT:	sea horse ? 1604108_1605643
+*MOT:	no: . 1605643_1606975
+*MOT:	the owl ? 1606975_1608213
+*MOT:	yay . 1608213_1610885
+*MOT:	who lives in the little house ? 1610885_1612750
+*MOT:	is it the: pig ? 1612750_1616293
+*MOT:	no: . 1616293_1617943
+*MOT:	lion ? 1617943_1619740
+*MOT:	no: . 1619740_1621011
+*MOT:	peacock ? 1621011_1623431
+*MOT:	no: . 1623431_1624566
+*MOT:	the dog ? 1624566_1625741
+*MOT:	yay: ! 1625741_1627880
+*MOT:	who lives underground ? 1627880_1630353
+*MOT:	the birdy ? 1630353_1632365
+*MOT:	no: . 1632365_1633590
+*MOT:	octopus ? 1633590_1635775
+*MOT:	no: . 1635775_1637063
+*MOT:	butterfly ? 1637063_1639591
+*MOT:	no: . 1639591_1641103
+*MOT:	rabbit ? 1641103_1643173
+*MOT:	yay: ! 1643173_1645678
+*MOT:	who lives in the tree ? 1645678_1648301
+*MOT:	is it the duck ? 1648301_1649458
+*MOT:	no: . 1649458_1651545
+*MOT:	it the crab ? 1651545_1653660
+*MOT:	no: . 1653660_1655395
+*MOT:	xxx chicken ? 1655395_1657125
+*MOT:	no: . 1657125_1658510
+*MOT:	it the squirrel ? 1658510_1660480
+*MOT:	yay: . 1660480_1662390
+*MOT:	who lives in the water ? 1662390_1664756
+*MOT:	the mouse ? 1664756_1666950
+*MOT:	no: . 1666950_1670180
+*MOT:	kitty+cat ? 1670181_1671435
+*MOT:	no: . 1671435_1672685
+*MOT:	fishy ? 1672685_1674411
+*MOT:	yay: . 1674411_1676628
+*MOT:	who lives in the reeds ? 1676628_1679045
+*MOT:	0is it the dog ? 1679045_1680676
+*MOT:	no: . 1680676_1682443
+*MOT:	the monkey ? 1682443_1684678
+*MOT:	no: . 1684678_1686500
+*MOT:	the duck ? 1686500_1689411
+*MOT:	yay: ! 1689411_1692051
+*MOT:	who lives in the tree ? 1692051_1694340
+*MOT:	fox ? 1694340_1696681
+*MOT:	no: . 1696681_1697669

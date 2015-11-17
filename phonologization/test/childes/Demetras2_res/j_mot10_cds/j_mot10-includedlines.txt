@@ -1,0 +1,358 @@
+*MOT:	let's see .
+*MOT:	that says Grover .
+*MOT:	what can you make with the blocks ?
+*MOT:	&hmm ?
+*MOT:	is Bert and Ernie there ?
+*MOT:	oo: do do .
+*MOT:	what can we make ?
+*MOT:	&hmm ?
+*MOT:	what ?
+*MOT:	what are you makin(g) ?
+*MOT:	you think I can make a water fountain .
+*MOT:	I don't know .
+*MOT:	what do you get out_of a water fountain ?
+*MOT:	water ?
+*MOT:	what do you do with it ?
+*MOT:	put it in your mouth .
+*MOT:	you knocked it over .
+*MOT:	let's see .
+*MOT:	push it with your feet ?
+*MOT:	look at that mess .
+*MOT:	let's see .
+*MOT:	oh you want to stack those up ?
+*MOT:	okay .
+*MOT:	okay I'll get these out_of your way .
+*MOT:	we'll put em right over there .
+*MOT:	what's this ?
+*MOT:	what's that on the bottom ?
+*MOT:	a what ?
+*MOT:	I thought it was a whale .
+*MOT:	no I don't think so .
+*MOT:	no it's mommy's turn .
+*MOT:	Mommy's first .
+*MOT:	&ah that one has an elephant on it .
+*MOT:	did you see that ?
+*MOT:	looks like a walrus .
+*MOT:	that looks like a hippo .
+*MOT:	ummhm .
+*MOT:	what color's your hippo in your room ?
+*MOT:	whoops .
+*MOT:	this one fell off .
+*MOT:	the lion fell off .
+*MOT:	and there's a seal .
+*MOT:	and that looks like a doggie .
+*MOT:	you have_to stand up maybe .
+*MOT:	does that look like a doggie ?
+*MOT:	that one looks like a kitty .
+*MOT:	oh you gave him a kiss .
+*MOT:	what's that one .
+*MOT:	a duck .
+*MOT:	yeah .
+*MOT:	whoops .
+*MOT:	whoops .
+*MOT:	we're knockin(g) em over .
+*MOT:	okay what's that one have on it ?
+*MOT:	a bunny .
+*MOT:	put the red one on .
+*MOT:	no put the red one on .
+*MOT:	no the red o:ne .
+*MOT:	what's the green one got on it ?
+*MOT:	oh the red one has a mouse .
+*MOT:	on what's the green one have ?
+*MOT:	a butterfly .
+*MOT:	a beautiful butterfly .
+*MOT:	oh well we don't have it here right now .
+*MOT:	we need to just play right here for a while .
+*MOT:	can you knock it over ?
+*MOT:	your fingers are guns ?
+*MOT:	Mommy doesn't like guns .
+*MOT:	woo .
+*MOT:	careful .
+*MOT:	oh bruiser here .
+*MOT:	come on let's sit down .
+*MOT:	come on .
+*MOT:	here .
+*MOT:	did you and Daddy talk on the telephone ?
+*MOT:	who did you talk to ?
+*MOT:	did you call Gramma Davis ?
+*MOT:	you called who ?
+*MOT:	oh Gramma Hankey .
+*MOT:	what did you tell Gramma Hankey ?
+*MOT:	you told Gramma Hankey to come back ?
+*MOT:	when she comin(g) ?
+*MOT:	did she tell you when she was comin(g) ?
+*MOT:	when ?
+*MOT:	when is she comin(g) ?
+*MOT:	when ?
+*MOT:	she didn't tell you , &eh ?
+*MOT:	let's see if she's home now .
+*MOT:	does she answer the phone ?
+*MOT:	oh okay .
+*MOT:	see if Gramma Davis is at home .
+*MOT:	okay .
+*MOT:	very good .
+*MOT:	oh alright .
+*MOT:	purple what ?
+*MOT:	who has a purple shirt on ?
+*MOT:	oh Gramma Hankey has a purple shirt on ?
+*MOT:	how did you know that ?
+*MOT:	oh .
+*MOT:	okay .
+*MOT:	say hello .
+*MOT:	has a red one .
+*MOT:	is she sleepin(g) in her bed ?
+*MOT:	did she have a nice trip ?
+*MOT:	ask her .
+*MOT:	oo: .
+*MOT:	yeah .
+*MOT:	why don't you call Aunt Gwin and see if she's home .
+*MOT:	see if Gwin and Virginia are home .
+*MOT:	oh she's at work ?
+*MOT:	okay call her at work .
+*MOT:	is she workin(g) at the grocery store ?
+*MOT:	yeah .
+*MOT:	she's ringin(g) that cash register .
+*MOT:	yeah .
+*MOT:	cause that's how she's makin(g) her money .
+*MOT:	she's ringin(g) the cash register .
+*MOT:	Gwin .
+*MOT:	for the grocery store .
+*MOT:	remember .
+*MOT:	yeah .
+*MOT:	okay I'll call Gwinny [: Jinny] .
+*MOT:	ring ring .
+*MOT:	oh okay you call Virginia .
+*MOT:	oh yes I'd like to talk to Virginia .
+*MOT:	is she watchin(g) television ?
+*MOT:	oh you didn't answer her ?
+*MOT:	can I talk to her ?
+*MOT:	oo: that's a_lot_of ringin(g) .
+*MOT:	that's your what ?
+*MOT:	I don't know .
+*MOT:	keep ringin(g) the phone .
+*MOT:	yeah .
+*MOT:	oh .
+*MOT:	let me talk on the phone .
+*MOT:	no ?
+*MOT:	oh let's see .
+*MOT:	who could I talk to on the phone ?
+*MOT:	&um Reva .
+*MOT:	okay you answer .
+*MOT:	hello Reva .
+*MOT:	how are you ?
+*MOT:	is Cindy coming back to school on Monday ?
+*MOT:	she is .
+*MOT:	oh Oliver will look forward to seeing her .
+*MOT:	okay .
+*MOT:	okay .
+*MOT:	Oliver wants to tell you good bye .
+*MOT:	no that's Reva .
+*MOT:	but she said Cindy's comin(g) back to school on Monday .
+*MOT:	she's havin(g) her dinner .
+*MOT:	John's mommy's comin(g) ?
+*MOT:	oh I didn't know that .
+*MOT:	oh .
+*MOT:	did you miss Cindy this week at school ?
+*MOT:	okay .
+*MOT:	you call Cindy .
+*MOT:	ask her if she had a nice vacation .
+*MOT:	maybe she went to Disneyland .
+*MOT:	I don't know .
+*MOT:	oo: careful .
+*MOT:	careful .
+*MOT:	oo: that's not a way to treat your phone .
+*MOT:	let's see .
+*MOT:	did you try callin(g) Gramma Guynun ?
+*MOT:	Gramma Grace ?
+*MOT:	&mm .
+*MOT:	I'm gonna make a tower .
+*MOT:	what are these ?
+*MOT:	blocks .
+*MOT:	oo: .
+*MOT:	okay I'll just get one right here .
+*MOT:	cause they do fall over on the carpet , don't they ?
+*MOT:	yeah .
+*MOT:	there .
+*MOT:	well stack em on the magazine .
+*MOT:	this is the tower .
+*MOT:	we make a tall tower ?
+*MOT:	I think maybe he's talking to Michael .
+*MOT:	look it all those blocks .
+*MOT:	oh here's one more .
+*MOT:	&hmm ?
+*MOT:	oh you need one down at the bottom ?
+*MOT:	okay put it up here ?
+*MOT:	what one ?
+*MOT:	oh okay .
+*MOT:	can you put one more on the top ?
+*MOT:	put it up there ?
+*MOT:	now what is it ?
+*MOT:	&hmm what did we make ?
+*MOT:	that says Bert .
+*MOT:	where's Ernie ?
+*MOT:	I don't know .
+*MOT:	we'll have_to find Ernie .
+*MOT:	you got Ernie over there ?
+*MOT:	there's a little bird .
+*MOT:	there's Ernie .
+*MOT:	there's Bert and There's Ernie .
+*MOT:	that's right , there's two Ernies .
+*MOT:	I don't know .
+*MOT:	oh .
+*MOT:	okay .
+*MOT:	you like Bert and Ernie .
+*MOT:	oh: .
+*MOT:	do you watch Bert on tv ?
+*MOT:	tall tower .
+*MOT:	you want a set this up there ?
+*MOT:	wow .
+*MOT:	oo: look it that tower fell down .
+*MOT:	yeah .
+*MOT:	you were kinda mad last night , weren't ya ?
+*MOT:	I don't know why .
+*MOT:	you broke Mommy's glass in the dish+washer didn't ya ?
+*MOT:	cause you slammed the door on the dish+washer .
+*MOT:	no the garbage man won't fix it honey .
+*MOT:	cause there's no fix after you break the glass .
+*MOT:	it had to go in the trash and the garbage man took it away .
+*MOT:	yeah .
+*MOT:	yeah but he took the glass that we broke last night didn't he ?
+*MOT:	yeah .
+*MOT:	you broke it in the dish+washer .
+*MOT:	well I guess cause you got mad and slammed the dish+washer door .
+*MOT:	good job .
+*MOT:	good job .
+*MOT:	whoops .
+*MOT:	oo: alright .
+*MOT:	I'm sorry .
+*MOT:	you put it on .
+*MOT:	&uh oh .
+*MOT:	&uh oh .
+*MOT:	you knocked them over .
+*MOT:	hi sweety .
+*MOT:	yeah .
+*MOT:	it's there .
+*MOT:	yeah .
+*MOT:	shall I build them up again ?
+*MOT:	no I'm not gonna rip a magazine .
+*MOT:	no .
+*MOT:	cause it's not nice to rip magazines .
+*MOT:	cause they're like newspapers , they're to read .
+*MOT:	an like your books .
+*MOT:	you don't rip your books do you ?
+*MOT:	no .
+*MOT:	do you read books at school with Reva ?
+*MOT:	sure you do .
+*MOT:	&uh: .
+*MOT:	woo: .
+*MOT:	what did you make today at school ?
+*MOT:	&hmm ?
+*MOT:	what did you make ?
+*MOT:	what did you do for snack ?
+*MOT:	what was that you made for snack ?
+*MOT:	oh alright .
+*MOT:	okay let's put them in the sack .
+*MOT:	can you count em as you put em in ?
+*MOT:	oh it's too dark in the sack .
+*MOT:	yeah .
+*MOT:	peek a boo .
+*MOT:	xxx play peek a boo with the blocks in the bag .
+*MOT:	peek a boo block .
+*MOT:	peek a boo block .
+*MOT:	okay .
+*MOT:	open the sack .
+*MOT:	well it's a navy blue bag and so it's dark inside there .
+*MOT:	oh you think they have lights in those bags ?
+*MOT:	oh the blocks are gonna turn the light on in the bag ?
+*MOT:	woo: .
+*MOT:	woo: .
+*MOT:	that's pretty funny .
+*MOT:	okay well open the bag so we can put the rest of the blocks in .
+*MOT:	there's a pirate in the bag ?
+*MOT:	what's his name ?
+*MOT:	captain Hook .
+*MOT:	oh boy we'd better get the blocks in and close the bag so Captain
+*MOT:	here's one more .
+*MOT:	two more .
+*MOT:	oh .
+*MOT:	can you pull the string ?
+*MOT:	close up that bag and keep Captain Hook in there .
+*MOT:	oh he's not going to get out now .
+*MOT:	is peter Pan in there ?
+*MOT:	no: .
+*MOT:	oh .
+*MOT:	close up that bag .
+*MOT:	oh you look like Santa now that you have your sack over your
+*MOT:	is that Santa and his sack ?
+*MOT:	and does Santa have toys in his sack ?
+*MOT:	to the what ?
+*MOT:	I think you must be crazy .
+*MOT:	there's your bag .
+*MOT:	your what ?
+*MOT:	who helps Santa ?
+*MOT:	oh he doesn't need help .
+*MOT:	o:kay .
+*MOT:	&mm .
+*MOT:	you stacked those up very good .
+*MOT:	here's the other green one .
+*MOT:	whoops honey you dropped your microphone .
+*MOT:	there .
+*MOT:	okay can you put the green one in .
+*MOT:	okay find some room for the green one .
+*MOT:	good job .
+*MOT:	very good .
+*MOT:	woo: .
+*MOT:	no you gotta stay right here .
+*MOT:	when John's done you can take it back to your room .
+*MOT:	oh you're takin(g) it to Santa Claus ?
+*MOT:	where's Santa ?
+*MOT:	I think he must be at the North Pole .
+*MOT:	why ?
+*MOT:	because it isn't Christmas .
+*MOT:	and Santa only comes at Christmas time .
+*MOT:	&uh &hmm .
+*MOT:	Santa lives at the North Pole .
+*MOT:	well Oliver lives in Tucson .
+*MOT:	and Santa lives at the North Pole .
+*MOT:	and Gramma lives in Michigan .
+*MOT:	and David lives in Washington .
+*MOT:	yeah .
+*MOT:	garbage man ?
+*MOT:	oh is that a sack of garbage ?
+*MOT:	you're gonna put it in a garbage can ?
+*MOT:	an he went +...
+*MOT:	woo: .
+*MOT:	you threw Captain Hook .
+*MOT:	captain Hook are you in there ?
+*MOT:	I think you're silly .
+*MOT:	where we gonna throw him ?
+*MOT:	oh we're gonna throw Captain Hook in the garbage can .
+*MOT:	why not ?
+*MOT:	why don't you like Captain Hook ?
+*MOT:	yeah .
+*MOT:	you help Daddy take the garbage out ?
+*MOT:	don't you help Daddy take the garbage out ?
+*MOT:	ummhm .
+*MOT:	sometimes .
+*MOT:	okay call the garbage man .
+*MOT:	tell him you got a big sack full .
+*MOT:	yeah .
+*MOT:	here comes Captain Hook .
+*MOT:	where are the rest of the pirates ?
+*MOT:	oh all the pirates are in there ?
+*MOT:	how many ?
+*MOT:	you look in there and see how many pirates are in there .
+*MOT:	&ha: .
+*MOT:	there's five pirates in that bag ?
+*MOT:	oo: you'd better close it up .
+*MOT:	don't let them out .
+*MOT:	oh oh oh .
+*MOT:	oh he is .
+*MOT:	oh: .
+*MOT:	you ate him for dinner ?
+*MOT:	did you cook him and make Captain Hook stew ?
+*MOT:	oh: .
+*MOT:	you're funny .
+*MOT:	okay .
+*MOT:	oh you put the stew in there .
+*MOT:	did you put salt and pepper ?

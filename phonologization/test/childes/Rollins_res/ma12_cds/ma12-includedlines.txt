@@ -1,0 +1,334 @@
+*MOT:	hello Chi . 0_1391
+*MOT:	0 [=! kisses] . 1391_2083
+*MOT:	ahhah . 2083_3128
+*MOT:	0 [=! kisses] . 3128_3956
+*MOT:	thank you . 5703_7915
+*MOT:	alright . 7915_19006
+*MOT:	thank you . 19006_23641
+*MOT:	baby+doll . 23641_34608
+*MOT:	dollie . 34608_36700
+*MOT:	this dollie plays patty_cake . 36700_40373
+*MOT:	patty_cake patty_cake bakers man . 40373_43996
+*MOT:	bake me a cake as fast as you can . 43996_46931
+*MOT:	roll it . 46931_48693
+*MOT:	pat it . 48693_49541
+*MOT:	you like that one . 49541_52658
+*MOT:	0 [=! voc] . 58453_59471
+*MOT:	that's always a favorite huh . 64761_65975
+*MOT:	ahhah . 65975_79660
+*MOT:	&a:h . 79660_81995
+*MOT:	soft . 81995_83065
+*MOT:	&a:h . 83065_84803
+*MOT:	dollie . 84803_88105
+*MOT:	look . 88105_88871
+*MOT:	dollie . 88871_90703
+*MOT:	baby+doll . 90703_93268
+*MOT:	it's not quite as soft as your other doll huh . 93268_100118
+*MOT:	Bert's pretty soft . 100118_102746
+*MOT:	ahhah . 102746_103785
+*MOT:	&a:h . 103785_105568
+*MOT:	ahhah &a:h . 105568_107540
+*MOT:	0 [=! laughs] [<] . 107540_112630
+*MOT:	here you go . 112630_114431
+*MOT:	what else do we have . 114431_120438
+*MOT:	ahhah . 120438_133521
+*MOT:	train . 133521_134815
+*MOT:	can you do that . 134815_141793
+*MOT:	here . 141793_142658
+*MOT:	there . 142658_150126
+*MOT:	ahhah . 150126_152223
+*MOT:	boom@o . 152223_153303
+*MOT:	good girl . 153303_156681
+*MOT:	there . 156681_158676
+*MOT:	o:h . 158676_159701
+*MOT:	ahhah . 159701_162170
+*MOT:	thank you . 162170_164855
+*MOT:	is that a brush . 167060_173008
+*MOT:	it's a brush . 173008_176033
+*MOT:	thank you . 177508_178465
+*MOT:	brush my hair . 178465_179888
+*MOT:	can you brush your hair . 179888_181423
+*MOT:	can you brush your hair . 181423_183795
+*MOT:	brush your hair . 183795_186120
+*MOT:	right here . 186120_187735
+*MOT:	here's your hair . 187735_188970
+*MOT:	there . 188970_189948
+*MOT:	o:h . 189948_190986
+*MOT:	brush your hair . 190986_192553
+*MOT:	brush your hair . 192553_196445
+*MOT:	just like this ahhah . 196445_197505
+*MOT:	brush your hair . 197505_199495
+*MOT:	&a:h . 199495_201721
+*MOT:	<you just like that> [>] . 201721_211793
+*MOT:	you wanna brush your hair some more . 211793_219535
+*MOT:	o:h Big_Bird . 223901_225241
+*MOT:	Big_Bird wants to play patty_cake . 225241_227891
+*MOT:	0 [=! laughs] [<] . 229540_230991
+*MOT:	oh . 230991_232480
+*MOT:	loves . 232480_234471
+*MOT:	ahhah . 234471_236911
+*MOT:	oh . 236911_238146
+*MOT:	thank you . 238146_239335
+*MOT:	patty_cake . 239335_241563
+*MOT:	do you want to play patty_cake . 241563_242751
+*MOT:	ahhah . 242751_243823
+*MOT:	patty_cake . 243823_244890
+*MOT:	oh you got other toys you wanna look at . 244890_246600
+*MOT:	boo@o . 249995_253706
+*MOT:	boo@o . 253706_257204
+*MOT:	peek_a_boo . 257204_260186
+*MOT:	do you wanna play . 260186_263251
+*MOT:	no . 263251_265026
+*MOT:	not peek_a_boo okay . 265026_266608
+*MOT:	where's that green . 266608_275896
+*MOT:	here . 275896_276521
+*MOT:	whaddya [: what are you] going to do now . 276521_278795
+*MOT:	brush . 278795_288226
+*MOT:	thank you . 288226_290620
+*MOT:	brush my hair . 290620_292245
+*MOT:	ahhah . 292245_292898
+*MOT:	brush my hair . 292898_294540
+*MOT:	can you brush your hair . 294540_295910
+*MOT:	want to walk around . 295910_307681
+*MOT:	want to get some things . 307681_308856
+*MOT:	there . 308856_311530
+*MOT:	push the button . 311530_313975
+*MOT:	there . 313975_326563
+*MOT:	good girl . 326563_327960
+*MOT:	that fun . 327960_330573
+*MOT:	ugh . 330573_332220
+*MOT:	that's heavy idn't [: isn't] it . 332220_333168
+*MOT:	that's pretty heavy . 333168_334823
+*MOT:	hey you got it . 334823_338768
+*MOT:	0 [=! voc] . 344203_345243
+*MOT:	oh . 348101_348718
+*MOT:	look . 348718_349095
+*MOT:	can you see yourself in the mirror . 349095_353663
+*MOT:	xxx . 353663_354596
+*MOT:	brush . 356048_357386
+*MOT:	0 [=! voc] . 358065_358848
+*MOT:	ahhah . 358848_361808
+*MOT:	thank you . 362701_363485
+*MOT:	oh . 363485_364300
+*MOT:	you like that . 364300_367146
+*MOT:	you sing lalala@si . 367146_373710
+*MOT:	you want to stand up . 373710_382276
+*MOT:	see where you wanna look at . 382276_384570
+*MOT:	&hmm . 384570_385388
+*MOT:	all the toys you want right here . 387301_388896
+*MOT:	0 [=! voc] . 389786_391210
+*MOT:	what are you gonna do now . 391210_393850
+*MOT:	0 [=! voc] . 394838_395581
+*MOT:	piggie . 395581_397900
+*MOT:	piggie [= itr] . 397900_399495
+*MOT:	0 [=! laughs] . 399495_401438
+*MOT:	wanna give the piggie piggie kiss: . 401438_404683
+*MOT:	0 [=! kiss] . 404683_405421
+*MOT:	oh . 405421_412233
+*MOT:	<what do you have> [>] . 412233_413331
+*MOT:	0 [=! voc] [<] . 414275_414978
+*MOT:	thank you . 414978_416233
+*MOT:	hello . 416233_425551
+*MOT:	hello . 425551_426983
+*MOT:	phone . 426983_428336
+*MOT:	hello . 428336_429746
+*MOT:	hello . 429746_431063
+*MOT:	some buttons to press . 431063_435143
+*MOT:	thank you . 435143_438213
+*MOT:	hello . 438213_439403
+*MOT:	hello Chi . 439403_440968
+*MOT:	are you there . 440968_442121
+*MOT:	0 [=! laughs] . 442121_445523
+*MOT:	wanna try saying hello . 445523_448751
+*MOT:	hello . 448751_453705
+*MOT:	hello . 453705_455730
+*MOT:	hello . 455730_457703
+*MOT:	thank you . 457703_464695
+*MOT:	so many things to play with . 464695_474946
+*MOT:	<Big_Bird wants to play patty_cake> [>] . 474946_478018
+*MOT:	&hmm . 481596_483026
+*MOT:	how (a)bout 0 [=! kiss] . 483026_484636
+*MOT:	0 [=! kisses] . 484636_486865
+*MOT:	can you do your little fish [/-] &uh kisses . 486865_489483
+*MOT:	0 [=! kiss] . 489483_491871
+*MOT:	0 [=! kisses] . 491871_493955
+*MOT:	that's pretty neat . 493955_497975
+*MOT:	heehee [= itr] . 497975_504383
+*MOT:	0 [=! voc] . 504383_509591
+*MOT:	brush brush brush can you brush Mot hair . 509591_514913
+*MOT:	brush brush brush . 514913_517169
+*MOT:	yes that's right . 517169_522039
+*MOT:	good girl . 522039_526006
+*MOT:	yay . 526006_527858
+*MOT:	thank you . 527858_529810
+*MOT:	brush brush brush . 529810_532083
+*MOT:	you're all girl huh . 532083_535881
+*MOT:	yay . 535881_546845
+*MOT:	yay . 546845_548060
+*MOT:	look at Big_Bird . 548060_557698
+*MOT:	where is he . 557698_561046
+*MOT:	there he is Big_Bird . 561046_568756
+*MOT:	yay . 568756_570486
+*MOT:	0 [=! voc] [<] . 570486_573993
+*MOT:	ahhah . 573993_579720
+*MOT:	oh . 579720_581293
+*MOT:	Big_Bird . 581293_583563
+*MOT:	0 [=! sings] . 583563_589338
+*MOT:	0 [=! sings] . 589338_590708
+*MOT:	hello . 590708_592920
+*MOT:	hello . 592920_594756
+*MOT:	is it for me . 594756_596271
+*MOT:	hello . 596271_598160
+*MOT:	yes . 598160_599343
+*MOT:	nice to talk to you . 599343_601781
+*MOT:	okay goodbye . 601781_603033
+*MOT:	ahhah . 607151_607896
+*MOT:	hello . 607896_611486
+*MOT:	it's for you . 611486_614031
+*MOT:	buttons on the back . 614031_620303
+*MOT:	<that's exceptional> [?] . 620303_623356
+*MOT:	hello . 623356_626458
+*MOT:	shall we hide Big_Bird again . 626458_637955
+*MOT:	look . 637955_643528
+*MOT:	boo@o . 643528_647533
+*MOT:	hi . 647533_650431
+*MOT:	0 [=! sings] oh uhoh . 650431_655083
+*MOT:	hi . 658071_658810
+*MOT:	<hi> [>] . 660773_661693
+*MOT:	hi . 661976_662601
+*MOT:	hi . 664628_665983
+*MOT:	sheep . 665983_669375
+*MOT:	&hmm . 669375_673321
+*MOT:	boo@o . 676520_680460
+*MOT:	boo@o . 680460_685300
+*MOT:	0 [=! laughs] . 685300_687391
+*MOT:	oh we're gonna get some tickles . 687391_693135
+*MOT:	tickle [= itr] . 693135_695866
+*MOT:	tickle [= itr] . 695866_698616
+*MOT:	ahhah . 703553_706526
+*MOT:	tickle tickle tickle . 706526_707785
+*MOT:	<where you goin(g)> [<] . 726070_727911
+*MOT:	where you going . 727911_728843
+*MOT:	anything you want . 730305_732945
+*MOT:	the book . 735218_736086
+*MOT:	thank you . 736086_738426
+*MOT:	ahhah . 738426_741895
+*MOT:	hi . 741895_746928
+*MOT:	thank you . 752863_754866
+*MOT:	see . 754866_756951
+*MOT:	0 [=! voc] [<] . 756951_758501
+*MOT:	there you are . 758501_760626
+*MOT:	Chi . 760626_767213
+*MOT:	Chi . 767213_769448
+*MOT:	hey . 769448_770771
+*MOT:	ahhah . 770771_773828
+*MOT:	0 [=! laughs] . 773828_779685
+*MOT:	0 [=! voc] . 783523_784066
+*MOT:	a doll . 784066_785535
+*MOT:	thank you . 785535_787703
+*MOT:	oh . 787703_788365
+*MOT:	baby . 788365_789543
+*MOT:	wants you . 789543_793381
+*MOT:	Big_Bird . 797973_799161
+*MOT:	patty_cake patty_cake baker's man . 799161_804506
+*MOT:	that's Big_Bird ahhah . 804506_807171
+*MOT:	0 [=! tickles] . 807171_808330
+*MOT:	eyes . 808330_809258
+*MOT:	and a beak . 809258_810590
+*MOT:	hands . 810590_813021
+*MOT:	oh thank you . 820690_822135
+*MOT:	that's kinda [: kind of] heavy „ huh . 822135_823303
+*MOT:	0 [=! voc] . 823303_825523
+*MOT:	see how fast it goes . 825523_833411
+*MOT:	so many things to do . 833411_837385
+*MOT:	0 [=! claps] . 837385_843521
+*MOT:	patty_cake . 843521_846698
+*MOT:	patty_cake patty_cake . 846698_849280
+*MOT:	thank you ahhah . 855255_858078
+*MOT:	hello Chi 0 [=! tickles] . 858078_860201
+*MOT:	tickle tickle tickle . 860201_861678
+*MOT:	tickle [= itr] . 861678_864755
+*MOT:	pig . 864755_883328
+*MOT:	want a kiss 0 [=! kiss] . 883328_886133
+*MOT:	0 [=! kisses] . 886133_887095
+*MOT:	0 [=! kiss] . 887095_890070
+*MOT:	woo [= itr] . 890070_893720
+*MOT:	0 [=! laughs] whoa . 897890_899125
+*MOT:	it's red . 905260_906285
+*MOT:	thank you . 906285_907300
+*MOT:	oh thank you very much . 910550_913125
+*MOT:	do you see yourself . 915066_917566
+*MOT:	<come on over here> [<] . 917566_920396
+*MOT:	<alright> [>] . 920396_925071
+*MOT:	see some more toys . 925995_930528
+*MOT:	truck . 930528_937355
+*MOT:	put it on the ground . 937355_939470
+*MOT:	go like that . 939470_941501
+*MOT:	come over here . 941501_946095
+*MOT:	so many things to do . 946095_954946
+*MOT:	thank you . 954946_957438
+*MOT:	flip . 961970_967245
+*MOT:	flip . 967245_969835
+*MOT:	sheep . 974991_979665
+*MOT:	this is a sheep . 979665_981968
+*MOT:	baa@o . 981968_983001
+*MOT:	baa@o . 983001_983693
+*MOT:	baa@o . 983693_984738
+*MOT:	0 [=! laughs] . 984738_986630
+*MOT:	what is it . 995646_998618
+*MOT:	bring it over here . 998618_1000033
+*MOT:	show Mot . 1000033_1004348
+*MOT:	you're going to fall down on your diaper ugh . 1007801_1011323
+*MOT:	clown oh it's a cl [/-] soft . 1012990_1016436
+*MOT:	ahhah soft . 1016436_1017858
+*MOT:	don't chew on it . 1017858_1019568
+*MOT:	0 [=! voc] . 1028911_1029606
+*MOT:	<boo oh you wanna chew his nose off> [>] . 1029606_1032776
+*MOT:	0 [=! kiss] . 1035298_1036944
+*MOT:	ahhah haha [= itr] . 1036944_1039618
+*MOT:	heehee [= itr] . 1039618_1041204
+*MOT:	tickle tickle tickle . 1041204_1042973
+*MOT:	tickle [= itr] . 1042973_1044925
+*MOT:	tickle [= itr] . 1044925_1046466
+*MOT:	nose . 1052513_1054073
+*MOT:	nose . 1054073_1055970
+*MOT:	nose . 1057475_1058581
+*MOT:	ugh . 1060160_1061951
+*MOT:	that fits right in your mouth „ huh . 1061951_1064255
+*MOT:	that fits right in your mouth . 1064255_1066388
+*MOT:	I don't know if they want you chewing on his nose . 1066388_1071150
+*MOT:	okay . 1071150_1074155
+*MOT:	xxx put him right there . 1074155_1078160
+*MOT:	you just like that clownie . 1083420_1086303
+*MOT:	&hmm . 1095840_1097315
+*MOT:	is that delicious . 1098821_1100463
+*MOT:	how (a)bout the Big_Bird and the clown . 1104956_1107658
+*MOT:	how (a)bout this . 1107658_1114086
+*MOT:	wonder if you can put these on can you put that on . 1114086_1116698
+*MOT:	put it on here . 1116698_1120453
+*MOT:	almost . 1120453_1123013
+*MOT:	put it on . 1123013_1125603
+*MOT:	so much to do . 1125603_1127945
+*MOT:	here . 1127945_1133821
+*MOT:	put that on there . 1133821_1136698
+*MOT:	you wanna try it . 1136698_1140560
+*MOT:	you wanna try that one . 1140560_1143526
+*MOT:	put it on here . 1143526_1147476
+*MOT:	you just want to take it off . 1147476_1150698
+*MOT:	that's okay too . 1150698_1154266
+*MOT:	blue . 1154266_1156441
+*MOT:	now can you put it on like that . 1156441_1158993
+*MOT:	see . 1158993_1161441
+*MOT:	ahhah . 1161441_1162706
+*MOT:	yay . 1162706_1165316
+*MOT:	for me . 1165316_1169080
+*MOT:	0 [=! voc] . 1175280_1177725
+*MOT:	<you play that patty_cake game> [<] . 1177725_1182100
+*MOT:	put it on . 1182100_1185703
+*MOT:	oh almost . 1185703_1186686
+*MOT:	there . 1186686_1187868
+*MOT:	that's the telephone . 1191775_1199476
+*MOT:	for me . 1201696_1203746
+*MOT:	you bring it to Mot .
+*MOT:	thank you .
+*MOT:	hello .

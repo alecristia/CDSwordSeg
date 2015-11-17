@@ -1,0 +1,706 @@
+*MOT:	what's that ?
+*MOT:	what do you do with it ?
+*MOT:	you do ?
+*MOT:	what do you do at school ?
+*MOT:	something in what ?
+*MOT:	what do you want to put in it ?
+*MOT:	oh .
+*MOT:	you put some toys in .
+*MOT:	which toys do you want to put in it ?
+*MOT:	okay (.) you find the right ones .
+*MOT:	you did ?
+*MOT:	do you eat sandwiches at school ?
+*MOT:	here's some food for your lunch box .
+*MOT:	what's in here ?
+*MOT:	what is that ?
+*MOT:	&um [= what] ?
+*MOT:	no these are foods .
+*MOT:	what are these ?
+*MOT:	do you put grapes in your lunch box ?
+*MOT:	you gonna make a lunch for school with it ?
+*MOT:	that's a can of Spam .
+*MOT:	it doesn't open .
+*MOT:	it's just a pretend can .
+*MOT:	it's just pretend .
+*MOT:	it doesn't open .
+*MOT:	you'll break it if you open it .
+*MOT:	no .
+*MOT:	just little cans of food .
+*MOT:	aren't they pretty ?
+*MOT:	what are you gonna put in your lunch box ?
+*MOT:	ummhm [= yes] .
+*MOT:	sure .
+*MOT:	what are you gonna put in ?
+*MOT:	what do you eat at school ?
+*MOT:	and what else ?
+*MOT:	yeah [= yes] (.) who eats bananas ?
+*MOT:	what animals like bananas ?
+*MOT:	remember the animals in the play ?
+*MOT:	what did they eat ?
+*MOT:	remember the monkeys ?
+*MOT:	what did they eat ?
+*MOT:	what fruit did the monkey eat in the play we saw the other night ?
+*MOT:	did you like that play ?
+*MOT:	what was it about ?
+*MOT:	and what happened to the man ?
+*MOT:	what happened to his face ?
+*MOT:	did he become a beast ?
+*MOT:	what happened to him ?
+*MOT:	they did ?
+*MOT:	was he happy when he turned into a beast ?
+*MOT:	what did he do ?
+*MOT:	those are peas (.) aren't they ?
+*MOT:	you can feed your dollies too .
+*MOT:	you want some plates to put these on ?
+*MOT:	are you gonna serve supper ?
+*MOT:	to all of us ?
+*MOT:	that's tuna .
+*MOT:	and here's the salt +...
+*MOT:	to put on the food .
+*MOT:	and here's salt +...
+*MOT:	to put on the food .
+*MOT:	what's that ?
+*MOT:	oh boy (.) who's going to get to eat the peas ?
+*MOT:	where is Gumpy ?
+*MOT:	where ?
+*MOT:	I don't see him .
+*MOT:	in where ?
+*MOT:	oh .
+*MOT:	do you think food or people go in lunch boxes .
+*MOT:	so what are people doing in there ?
+*MOT:	at school what do you usually bring in your lunch box ?
+*MOT:	what do you bring in your lunch box when you go to school ?
+*MOT:	and what else do you bring in your lunch box ?
+*MOT:	what kind of sandwich ?
+*MOT:	what did I give you the other day with your sandwich ?
+*MOT:	what kind of fruit did you bring ?
+*MOT:	where do you eat at school ?
+*MOT:	do you sit at a table ?
+*MOT:	who else sits at the table ?
+*MOT:	what's that ?
+*MOT:	oh (.) that looks like a cucumber .
+*MOT:	but I think it may be a green pepper .
+*MOT:	it's a green pepper ?
+*MOT:	oh (.) they're lots_of vegetables here (.) aren't there ?
+*MOT:	that's a lemon .
+*MOT:	are you going to make lemonade for us ?
+*MOT:	no (.) that's an egg .
+*MOT:	that's an egg .
+*MOT:	oh (.) why don't you cook some eggs right now for me ?
+*MOT:	what are you doing to it ?
+*MOT:	and then what are you going to do ?
+*MOT:	where are you gonna put it ?
+*MOT:	oh (.) how are you making it ?
+*MOT:	can you put it somewhere ?
+*MOT:	where are you gonna put it ?
+*MOT:	oh (.) thank_you (.) Nina .
+*MOT:	can I have some salt please ?
+*MOT:	what are you doing ?
+*MOT:	oh (.) you're putting a_lot_of salt .
+*MOT:	it looks like you're pouring a lot .
+*MOT:	ummhm [= yes] .
+*MOT:	who's going to get to eat the carrot ?
+*MOT:	you want to make a salad for me ?
+*MOT:	oh (.) that's a strawberry .
+*MOT:	oh what are you doing ?
+*MOT:	oh (.) is strawberry a fruit or a vegetable ?
+*MOT:	a strawberry .
+*MOT:	and are grapes fruits or +...
+*MOT:	vegetables ?
+*MOT:	and show me a vegetable .
+*MOT:	what's a vegetable ?
+*MOT:	where's a vegetable ?
+*MOT:	what's this ?
+*MOT:	is that a vegetable ?
+*MOT:	it's a vegetable though .
+*MOT:	is a carrot a fruit or vegetable ?
+*MOT:	no a carrot is a vegetable .
+*MOT:	what is a carrot ?
+*MOT:	oh it's good (.) Nina .
+*MOT:	I would like a vegetable (.) though .
+*MOT:	find me a vegetable .
+*MOT:	what's a vegetable ?
+*MOT:	I don't know what that is .
+*MOT:	what do you think it is ?
+*MOT:	what are these ?
+*MOT:	are peas vegetables ?
+*MOT:	&uh (.) then I think you can make me some peas .
+*MOT:	can you find a pot for the peas and make them ?
+*MOT:	I want them nice and warm .
+*MOT:	thank_you .
+*MOT:	do you think the dolls would like some too ?
+*MOT:	what do dolls like to eat ?
+*MOT:	there's some more pots in your doll house .
+*MOT:	okay .
+*MOT:	now I gonna put this lemon in .
+*MOT:	and I'm gonna put this in .
+*MOT:	I don't know what that green vegetable is .
+*MOT:	do you know what these are ?
+*MOT:	what are these ?
+*MOT:	oh (.) are oranges fruits or vegetables ?
+*MOT:	are they fruits ?
+*MOT:	uhhuh [= yes] .
+*MOT:	but are they a kind of fruit or a kind of vegetable ?
+*MOT:	no (.) they're a kind of fruit .
+*MOT:	what are you doing ?
+*MOT:	the orange ?
+*MOT:	oh (.) oranges don't get cooked (.) do they ?
+*MOT:	how (a)bout making me some juice out_of it ?
+*MOT:	can you squeeze it (.) and make me juice ?
+*MOT:	now what are you doing ?
+*MOT:	in where ?
+*MOT:	for whom ?
+*MOT:	for me ?
+*MOT:	oh that was nice of you .
+*MOT:	where am I spilling it ?
+*MOT:	on where ?
+*MOT:	on my bathrobe ?
+*MOT:	uhoh [= trouble] (.) what shall we do ?
+*MOT:	you better get me a rag .
+*MOT:	hurry up .
+*MOT:	uhoh [= trouble] (.) the orange juice is going all over me .
+*MOT:	hurry (.) hurry .
+*MOT:	are you gonna mop up the orange juice ?
+*MOT:	what did you wipe off ?
+*MOT:	oh .
+*MOT:	uhoh [= trouble] (.) I just spilled my peas on the floor .
+*MOT:	what are you gonna do ?
+*MOT:	oh dear (.) we're wasting food (.) aren't we ?
+*MOT:	we shouldn't waste food (.) should we ?
+*MOT:	oh (.) yes I do .
+*MOT:	okay .
+*MOT:	I'll be more careful .
+*MOT:	where should I eat ?
+*MOT:	should I eat at the table or in my room ?
+*MOT:	why ?
+*MOT:	okay (.) here's the kitchen .
+*MOT:	here's the kitchen table .
+*MOT:	we are ?
+*MOT:	I'm thirsty .
+*MOT:	can you find anything to drink in there ?
+*MOT:	okay .
+*MOT:	what are you gonna do with it ?
+*MOT:	oh (.) great .
+*MOT:	thank_you .
+*MOT:	okay .
+*MOT:	&um (.) that's really good (.) Nina .
+*MOT:	do you have any juice in there ?
+*MOT:	what kind is it ?
+*MOT:	yeah [= yes] .
+*MOT:	what do you think it's made out_of ?
+*MOT:	what kind of juice do you think it is ?
+*MOT:	yeah [= yes] (.) but I think strawberry juice would be red .
+*MOT:	what color would the juice be that's made out_of lemons ?
+*MOT:	lemonade .
+*MOT:	do you think that's lemonade ?
+*MOT:	why ?
+*MOT:	what ?
+*MOT:	just us what ?
+*MOT:	okay .
+*MOT:	what did you do ?
+*MOT:	what is it ?
+*MOT:	is it a piece of fruit ?
+*MOT:	a piece of lettuce ?
+*MOT:	what do you make out_of lettuce ?
+*MOT:	lettuce is +...
+*MOT:	is lettuce a fruit or a vegetable ?
+*MOT:	a vegetable .
+*MOT:	can you say +"/.
+*MOT:	+" vegetable ?
+*MOT:	so lettuce is a vegetable (.) right ?
+*MOT:	one what ?
+*MOT:	what is it ?
+*MOT:	what kind of vegetable ?
+*MOT:	oh (.) I think it's a piece of lettuce .
+*MOT:	does it fit ?
+*MOT:	does it fit ?
+*MOT:	why not ?
+*MOT:	is my finger too big or too little ?
+*MOT:	do you think it'll fit on this finger ?
+*MOT:	this is my little finger .
+*MOT:	what ?
+*MOT:	yup [= yes] .
+*MOT:	what are you gonna do with this lettuce ?
+*MOT:	put what on the table ?
+*MOT:	did Bridgette and Miranda come for supper the other day ?
+*MOT:	what did you do with them ?
+*MOT:	did you eat supper with them ?
+*MOT:	what did we make for supper for them ?
+*MOT:	no (.) what did we make ?
+*MOT:	we had some meat (.) remember ?
+*MOT:	what was it ?
+*MOT:	liver ?
+*MOT:	right ?
+*MOT:	did you like the liver ?
+*MOT:	I'd like some corn to eat .
+*MOT:	I'd like some butter on it first please .
+*MOT:	and some salt .
+*MOT:	where are you gonna find the butter ?
+*MOT:	okay .
+*MOT:	are you gonna spread it for me ?
+*MOT:	did you put some on your piece too ?
+*MOT:	now can I eat the corn with a fork and spoon +...
+*MOT:	or with my +...
+*MOT:	oh (.) it's too hard to eat with a fork and spoon ?
+*MOT:	a cob of corn .
+*MOT:	a corn cob's pretty hard to cut up (.) isn't it ?
+*MOT:	so how do I hold it ?
+*MOT:	in the middle or on the end ?
+*MOT:	how do you eat it ?
+*MOT:	oh (.) where are you holding it ?
+*MOT:	oh (.) at the two ends you mean ?
+*MOT:	I see .
+*MOT:	&um (.) that tastes very good (.) but I think I need a little more
+*MOT:	did you really put enough (.) you think ?
+*MOT:	I want some more .
+*MOT:	you're always telling me to put more butter on your food (.) aren't
+*MOT:	little bit more butter ?
+*MOT:	okay (.) thank_you .
+*MOT:	that was good .
+*MOT:	I finished it all up .
+*MOT:	I think she would like some ?
+*MOT:	who are you sharing it with ?
+*MOT:	don't bite too hard (.) (be)cause it's made out_of plastic and it
+*MOT:	it's just pretend food (.) isn't it ?
+*MOT:	okay (.) what else are you gonna give me ?
+*MOT:	what are you putting away ?
+*MOT:	I see .
+*MOT:	who did we eat with last night ?
+*MOT:	no (.) Pierre and Maryse ?
+*MOT:	where did we eat with Pierre and Maryse ?
+*MOT:	no (.) what did we eat with them ?
+*MOT:	remember ?
+*MOT:	bean cake ?
+*MOT:	did you like that bean cake ?
+*MOT:	where did we eat it ?
+*MOT:	okay .
+*MOT:	who's going to come and have supper with you ?
+*MOT:	who ?
+*MOT:	uhhuh [= yes] .
+*MOT:	what are you going to make for them when they come ?
+*MOT:	gonna make a what ?
+*MOT:	do you think Nonna will come maybe ?
+*MOT:	did you talk to Nonna on the telephone ?
+*MOT:	what did she tell you ?
+*MOT:	oh (.) it's at Justin's house .
+*MOT:	we'll have_to get it on Monday (.) right ?
+*MOT:	what did Nonna tell you on the telephone ?
+*MOT:	you have a telephone .
+*MOT:	it's at Justin's house .
+*MOT:	yes you do .
+*MOT:	&uh (.) it's a white telephone .
+*MOT:	Mommy's telephone is black (.) right ?
+*MOT:	who did you talk to on the telephone ?
+*MOT:	on Mommy's telephone .
+*MOT:	and what did Nonna tell you ?
+*MOT:	she's gonna buy you a doll carriage ?
+*MOT:	oh .
+*MOT:	how come ?
+*MOT:	does that mean she loves you (.) doesn't it ?
+*MOT:	you know what ?
+*MOT:	Nonna sent you a little card .
+*MOT:	look at the card that Nonna sent you .
+*MOT:	what's on that card ?
+*MOT:	what kind of an animal is it ?
+*MOT:	it's a porcupine .
+*MOT:	he has very sharp prickers (.) see .
+*MOT:	what would happen if you touched them ?
+*MOT:	what's on his head ?
+*MOT:	oh that's silly .
+*MOT:	do porcupines wear ribbons ?
+*MOT:	that was a cute card .
+*MOT:	lemme see it .
+*MOT:	oh .
+*MOT:	hey (.) who is he looking at ?
+*MOT:	think so ?
+*MOT:	what's he doing there ?
+*MOT:	it says: we miss you Nina very much .
+*MOT:	here's a little porcupine for you to look at and put in your room .
+*MOT:	shall we put it up on your wall ?
+*MOT:	the rubber porcupine ?
+*MOT:	that belonged to Samantha .
+*MOT:	that's at Samantha's house .
+*MOT:	oh (.) there's something else in here .
+*MOT:	smell it .
+*MOT:	oh (.) I wonder what it is .
+*MOT:	what's on the envelope ?
+*MOT:	&uh [= yes] ?
+*MOT:	where are they ?
+*MOT:	oh (.) they're so cute .
+*MOT:	what's in this basket ?
+*MOT:	oh (.) it's a piece of cardboard .
+*MOT:	it smells +...
+*MOT:	smell it .
+*MOT:	what does it smell of ?
+*MOT:	it smells of soap .
+*MOT:	these are funny smelling kitties (.) aren't they ?
+*MOT:	uhoh [= trouble] (.) we shouldn't have ripped that .
+*MOT:	what got torn ?
+*MOT:	what are those ?
+*MOT:	oh (.) we'll have_to find some scotch tape and fix it .
+*MOT:	look at these kitties +...
+*MOT:	how many kitties +...
+*MOT:	how many kitties are in there ?
+*MOT:	do you like kitties ?
+*MOT:	did you have a kitty at your other house ?
+*MOT:	it's pretty close to here .
+*MOT:	we'll have_to go back and visit (.) okay ?
+*MOT:	no .
+*MOT:	we go there by car .
+*MOT:	Nonna sent that to you too (.) didn't she ?
+*MOT:	that's little red riding+hood and +...
+*MOT:	yeah [= yes] .
+*MOT:	where is the fox ?
+*MOT:	what's he hiding behind ?
+*MOT:	oh .
+*MOT:	what's sticking out_of his mouth ?
+*MOT:	it's a little puzzle .
+*MOT:	we'll open it later when we have time to make it .
+*MOT:	who's underneath her foot ?
+*MOT:	oh (.) what is she wearing ?
+*MOT:	no .
+*MOT:	he's going to run over to her grandmother's house (.) isn't he ?
+*MOT:	and pretend to be her grandmother .
+*MOT:	what is she wearing on her head ?
+*MOT:	oh (.) it's a pretty one (.) isn't it ?
+*MOT:	oh .
+*MOT:	she's carrying something (.) isn't she ?
+*MOT:	what is she carrying ?
+*MOT:	what is that ?
+*MOT:	leaves and what else ?
+*MOT:	oh (.) what's hanging over her arm ?
+*MOT:	I wonder what's in that basket .
+*MOT:	what do you think is in it ?
+*MOT:	and what's underneath that ?
+*MOT:	I think that's just a napkin .
+*MOT:	a blanket would be too big to fit in a little basket (.) wouldn't
+*MOT:	what do you think is underneath that little napkin ?
+*MOT:	okay .
+*MOT:	oh (.) it's very hard to open (.) (be)cause you know what ?
+*MOT:	one loses pieces .
+*MOT:	did you make a puzzle the other night ?
+*MOT:	who did you make it with ?
+*MOT:	with Adele ?
+*MOT:	what kind of puzzle was it ?
+*MOT:	oh (.) did you have supper there first before making the puzzle ?
+*MOT:	what did you have for supper ?
+*MOT:	meat and what else that was so good ?
+*MOT:	o:h (.) how many people were there ?
+*MOT:	oh (.) you know what ?
+*MOT:	this is a very complicated jig+saw puzzle .
+*MOT:	we have_to be careful that it doesn't fall apart .
+*MOT:	what happened ?
+*MOT:	do you have a little box that we can keep the pieces in ?
+*MOT:	where ?
+*MOT:	ummhm [= yes] .
+*MOT:	yes they do .
+*MOT:	what do you want to take off ?
+*MOT:	there .
+*MOT:	uhoh [= trouble] .
+*MOT:	who's missing from the puzzle now ?
+*MOT:	it's kind of stiff .
+*MOT:	I guess it doesn't want to come apart .
+*MOT:	you took it apart ?
+*MOT:	here's another puzzle that Pierre and Maryse brought for you .
+*MOT:	lots_of houses .
+*MOT:	can you open them ?
+*MOT:	here I'll take this .
+*MOT:	you see if you can open this .
+*MOT:	look at that .
+*MOT:	what are they ?
+*MOT:	I love that .
+*MOT:	another one .
+*MOT:	what are these ?
+*MOT:	that's the last one .
+*MOT:	what are these things ?
+*MOT:	do you like them ?
+*MOT:	what are they ?
+*MOT:	you have_to start with the little one (.) right ?
+*MOT:	what is this ?
+*MOT:	is this a house for your animals ?
+*MOT:	&uh [= yes] ?
+*MOT:	what are you doing ?
+*MOT:	you want me to show you how to do it this time ?
+*MOT:	okay .
+*MOT:	what is this ?
+*MOT:	do you know ?
+*MOT:	what is it ?
+*MOT:	a little what ?
+*MOT:	oh (.) now we have_to find the next size that goes in here .
+*MOT:	now what are you gonna put on top of it ?
+*MOT:	what's this ?
+*MOT:	oh (.) what are you gonna put on top of it ?
+*MOT:	&uh [= yes] ?
+*MOT:	what part of the house is that ?
+*MOT:	is that the door ?
+*MOT:	no (.) what is this ?
+*MOT:	what goes on top of the house ?
+*MOT:	I think it's a fence .
+*MOT:	it's a roof (.) isn't it ?
+*MOT:	where does the chimney go ?
+*MOT:	oh (.) isn't that sweet .
+*MOT:	you going to make a village with all of these houses ?
+*MOT:	here we can put all of the houses together .
+*MOT:	here's one house .
+*MOT:	here's another house .
+*MOT:	look at all the little houses .
+*MOT:	oh (.) see .
+*MOT:	here you have a village with lots_of little houses .
+*MOT:	where's the puzzle ?
+*MOT:	right over here .
+*MOT:	what are you doing ?
+*MOT:	you're what ?
+*MOT:	took part of a foot away ?
+*MOT:	oh poor puzzle .
+*MOT:	it's getting all broken (.) isn't it ?
+*MOT:	what can you see still +...
+*MOT:	in that puzzle ?
+*MOT:	what is the hand of a fox called ?
+*MOT:	the wolf .
+*MOT:	is it called a hand ?
+*MOT:	no (.) what is it called ?
+*MOT:	do you have a paw or a hand ?
+*MOT:	and what does the bunny have ?
+*MOT:	does the bunny have a paw or a hand ?
+*MOT:	what about a kitty ?
+*MOT:	where are these pretty kitties ?
+*MOT:	oh (.) I like them .
+*MOT:	&um smell .
+*MOT:	what does this smell like ?
+*MOT:	it's a scented picture (.) isn't it ?
+*MOT:	do you think your dolly would like it ?
+*MOT:	what are you doing ?
+*MOT:	they're hard to fit together (.) aren't they ?
+*MOT:	this is an easier puzzle I think .
+*MOT:	what's in it ?
+*MOT:	no .
+*MOT:	but we can put some people in if you want .
+*MOT:	it can be somebody's home .
+*MOT:	they're (.) they're people in that box I think (.) aren't there ?
+*MOT:	you could put some animals in one of them too .
+*MOT:	this is my home .
+*MOT:	who's gonna go in my home ?
+*MOT:	my favorite animal is the mouse .
+*MOT:	he's very soft .
+*MOT:	I love him .
+*MOT:	who liked this mouse yesterday ?
+*MOT:	what friend of yours played with him yesterday ?
+*MOT:	did Miranda play with him ?
+*MOT:	what happened to his tail ?
+*MOT:	what had happened to his tail ?
+*MOT:	did it come off ?
+*MOT:	oh (.) who's in my house ?
+*MOT:	which ones ?
+*MOT:	I can't see them .
+*MOT:	what are they ?
+*MOT:	you put the roof on backwards .
+*MOT:	turn it around .
+*MOT:	that's the way the roof goes on .
+*MOT:	no they're just painted on .
+*MOT:	these are shades .
+*MOT:	these are curtains .
+*MOT:	what a nice (.) nice house .
+*MOT:	Pierre and Maryse gave this to you .
+*MOT:	it's missing a part of it (.) isn't it ?
+*MOT:	what part is it missing ?
+*MOT:	what are you doing ?
+*MOT:	oh (.) what are you doing ?
+*MOT:	are you fixing it or are you breaking it ?
+*MOT:	how are you fixing it ?
+*MOT:	you try .
+*MOT:	here (.) I'll hold it .
+*MOT:	now you put the bottom (.) the top on .
+*MOT:	is that the roof ?
+*MOT:	oh (.) what did you do ?
+*MOT:	is that house bigger or littler than this house ?
+*MOT:	which house is bigger ?
+*MOT:	can you find me the tiniest house here ?
+*MOT:	the smallest ?
+*MOT:	what's that ?
+*MOT:	oh .
+*MOT:	where is the medium house ?
+*MOT:	medium size house .
+*MOT:	and where is the biggest house ?
+*MOT:	what's that ?
+*MOT:	and what's this ?
+*MOT:	and what's this ?
+*MOT:	what's this one ?
+*MOT:	is it the biggest or the smallest house ?
+*MOT:	uhoh [= trouble] (.) what happened ?
+*MOT:	hold what ?
+*MOT:	the bottom or the top of the house ?
+*MOT:	what are you gonna do ?
+*MOT:	uhoh [= trouble] .
+*MOT:	it's on backwards again .
+*MOT:	uhoh [= trouble] (.) what happened ?
+*MOT:	maybe your dump truck can come and visit the village and bring
+*MOT:	where's your dump truck ?
+*MOT:	oh (.) why doesn't the dump truck come and bring some +...
+*MOT:	food to the village ?
+*MOT:	food for all the different people who live in the village with all
+*MOT:	who lives in this house ?
+*MOT:	oh .
+*MOT:	so what is the dump truck going to bring to the mouse ?
+*MOT:	people ?
+*MOT:	the lady knocked the house down ?
+*MOT:	oh my (.) she must be a very strong lady .
+*MOT:	what's she knocking houses down for ?
+*MOT:	what's she doing now ?
+*MOT:	the biggest house is still standing .
+*MOT:	what did she do ?
+*MOT:	where are they ?
+*MOT:	are they standing up ?
+*MOT:	that's good .
+*MOT:	can you say +"/.
+*MOT:	+" knock ?
+*MOT:	is somebody there ?
+*MOT:	yes (.) I'm home .
+*MOT:	will you come and have tea with me please ?
+*MOT:	hi (.) what's your name ?
+*MOT:	what's your name ?
+*MOT:	what's your name ?
+*MOT:	Karen (.) will you come and have some cheese and tea with me ?
+*MOT:	the little mouse is talking to her .
+*MOT:	do you think she hears him ?
+*MOT:	will you have some tea and cheese with me (.) Karen ?
+*MOT:	what would you like with it ?
+*MOT:	sugar or milk ?
+*MOT:	oh (.) well why don't you get me a cup ?
+*MOT:	and I'll serve you some sugar and tea .
+*MOT:	where's the cup ?
+*MOT:	let me see the cup .
+*MOT:	is he kissing her ?
+*MOT:	now the mouse is tired .
+*MOT:	it's time for the mouse to go to bed .
+*MOT:	I see .
+*MOT:	what is he gonna drink with the lady ?
+*MOT:	in where ?
+*MOT:	oh (.) are they gonna go for a ride in the truck ?
+*MOT:	where are you going to take them ?
+*MOT:	what are they gonna see in California ?
+*MOT:	the top for what ?
+*MOT:	where is it ?
+*MOT:	it was in the dump truck (.) wasn't it ?
+*MOT:	nope (.) it's backwards .
+*MOT:	no (.) it's still backwards .
+*MOT:	turn it around .
+*MOT:	look out .
+*MOT:	oh (.) I feel like doing some exercises .
+*MOT:	why not ?
+*MOT:	what are you gonna do with the village ?
+*MOT:	right here .
+*MOT:	that's all there is .
+*MOT:	one (.) two (.) three (.) four (.) five houses .
+*MOT:	which one ?
+*MOT:	oh (.) it's too small I guess .
+*MOT:	well we can pretend this is a door right here .
+*MOT:	what else does this one have ?
+*MOT:	oh .
+*MOT:	where do the people come out of: the door or the window ?
+*MOT:	oh .
+*MOT:	what does this house have ?
+*MOT:	does it have any windows ?
+*MOT:	it just has a door .
+*MOT:	and what does that house have ?
+*MOT:	do you think they'll make some windows ?
+*MOT:	it's nice to have windows .
+*MOT:	do you have a window in your room ?
+*MOT:	there's a big window .
+*MOT:	you have lots_of windows in your room (.) don't you ?
+*MOT:	that's a big window there and that's a window .
+*MOT:	yeah [= yes] (.) and that's a door .
+*MOT:	we have doors and windows .
+*MOT:	does your doll house have doors and +...
+*MOT:	where's the tiger ?
+*MOT:	in where ?
+*MOT:	what are you doing with your dump truck ?
+*MOT:	there's the kitchen table .
+*MOT:	no the other table is filled with our breakfast still and they
+*MOT:	I haven't washed the dishes yet .
+*MOT:	can you bring me a shoe in your dump truck ?
+*MOT:	yeah [= yes] (.) I see some shoes over there .
+*MOT:	we should put them on .
+*MOT:	wanna bring it over here in your dump truck ?
+*MOT:	what are you doing ?
+*MOT:	you sitting in a box .
+*MOT:	it's gonna break .
+*MOT:	you'll break the box and you won't have any place to hold your
+*MOT:	right ?
+*MOT:	no (.) we don't have any other boxes .
+*MOT:	those boxes are all being used for something .
+*MOT:	where's the big card that Nonna brought you ?
+*MOT:	can I see it ?
+*MOT:	it's over on the bookshelf .
+*MOT:	she sent you a big card a few days ago .
+*MOT:	oh (.) what is it ?
+*MOT:	let me see it .
+*MOT:	yeah [= yes] (.) this one .
+*MOT:	let me have this .
+*MOT:	oh .
+*MOT:	let me (.) let me see that card .
+*MOT:	oh (.) it's like a little doll (.) isn't it ?
+*MOT:	what is she wearing ?
+*MOT:	I can't see it ?
+*MOT:	why not ?
+*MOT:	would you like to put it up on your wall ?
+*MOT:	no ?
+*MOT:	let me see it .
+*MOT:	oh (.) poor doll (.) don't throw her around .
+*MOT:	she has very big eyes (.) doesn't she ?
+*MOT:	I'm hiding her .
+*MOT:	where's the doll ?
+*MOT:	where's the doll ?
+*MOT:	she almost looks like a girl .
+*MOT:	let's see how tall she is .
+*MOT:	hold her up next_to you and I'll see if she's as tall as you are .
+*MOT:	okay (.) let's hold her up and see where she comes .
+*MOT:	oh (.) she comes up all the way to the end of your leg .
+*MOT:	she's a very tall girl .
+*MOT:	do you think she's happy or sad ?
+*MOT:	oh (.) she's very +...
+*MOT:	see she's as tall as Nina's leg .
+*MOT:	now she's as tall as Nina's head if I put her up there .
+*MOT:	let's see what it says inside .
+*MOT:	it says: +"/.
+*MOT:	+" I love you (.) Nonna .
+*MOT:	she has bangs (.) doesn't she ?
+*MOT:	do you have bangs ?
+*MOT:	where are your bangs ?
+*MOT:	oh (.) did we cut your bangs recently ?
+*MOT:	where ?
+*MOT:	where did we cut your bangs ?
+*MOT:	are you gonna hide in there ?
+*MOT:	where is Nina ?
+*MOT:	I don't see Nina anymore .
+*MOT:	I wonder where she is .
+*MOT:	bunny (.) have you seen Nina ?
+*MOT:	well (.) I guess we'll have_to go away and look for her somewhere
+*MOT:	where are you ?
+*MOT:	oh the bunny got sad .
+*MOT:	he couldn't find you anywhere .
+*MOT:	where were you ?
+*MOT:	in where ?
+*MOT:	in the oven ?
+*MOT:	what's that ?
+*MOT:	yeah [= yes] (.) he wanted you to play with him .
+*MOT:	what do you want to do right now ?
+*MOT:	goodbye .
+*MOT:	goodbye .
+*MOT:	oh (.) where's Nina ?
+*MOT:	I don't know where you are .
+*MOT:	I wonder where Nina is .
+*MOT:	dolly (.) have you seen Nina around ?
+*MOT:	oh (.) nobody's seen Nina .
+*MOT:	oh (.) that's too bad .
+*MOT:	where are you ?
+*MOT:	where were you ?
+*MOT:	we couldn't find you .
+*MOT:	we looked everywhere .
+*MOT:	I looked out the door .
+*MOT:	you were in the closet .
+*MOT:	you weren't out the door .
+*MOT:	my_goodness .
+*MOT:	well (.) I guess this time Nina has really disappeared .
+*MOT:	now where are you ?
+*MOT:	where ?
+*MOT:	you always hide in the same place .

@@ -1,0 +1,555 @@
+*INV:	like have_to make it get done .
+*INV:	oh (.) boy I feel like yawning today .
+*INV:	mkay .
+*INV:	okay .
+*INV:	why don't you like my hat ?
+*INV:	&hmm ?
+*INV:	okay .
+*INV:	well (.) first I have_to brush my hair since I took my hat off .
+*INV:	I'll just give my hair a little brush (.) okay ?
+*INV:	there .
+*INV:	you don't like my hat ?
+*INV:	do you want to try it on ?
+*INV:	why don't you like it ?
+*INV:	why does it make you mad ?
+*INV:	why do you get mad at me ?
+*INV:	oh .
+*INV:	you hate my hat ?
+*INV:	so it makes you mad ?
+*INV:	huh ?
+*INV:	oh .
+*INV:	that's pretty interesting .
+*INV:	I guess I better not wear a hat anymore (.) huh ?
+*INV:	least not around you .
+*INV:	now why do you think that that hat makes you mad ?
+*INV:	what do you [//] what does it look like ?
+*INV:	okay .
+*INV:	okay .
+*INV:	+" not one little bit .
+*INV:	what are these things ?
+*INV:	are they toys ?
+*INV:	what do you play with those balls ?
+*INV:	that's called a racquet .
+*INV:	do you know what that game is called ?
+*INV:	what ?
+*INV:	no .
+*INV:	it's called tennis .
+*INV:	yeah .
+*INV:	there's a game called tennis that you play with a [//] a racquet
+*INV:	they're sitting in their chairs looking out at the rain .
+*INV:	+" and then something went bump .
+*INV:	+" how that bump made us jump .
+*INV:	+" we looked .
+*INV:	+" then we saw him step in on the mat .
+*INV:	+" we looked and we saw him (.) the cat in the hat .
+*INV:	+" and he said to us (.) why do you sit there like that ?
+*INV:	+" I know it is wet and the sun is not sunny .
+*INV:	+" but we can have lots_of good fun that is funny .
+*INV:	what does that mean ?
+*INV:	mkay .
+*INV:	+" I have some good games we would play (.) said the cat .
+*INV:	+" I know some new tricks (.) said the cat in the hat .
+*INV:	+" a_lot_of good tricks .
+*INV:	+" I will show them to you .
+*INV:	+" your mother will not mind at all if I do .
+*INV:	+" then Sally and I did not know what to say .
+*INV:	+" our mother was out_of the house for the day .
+*INV:	+" but our fish said (.) no (.) no .
+*INV:	+" make that cat go away .
+*INV:	+" tell that cat in the hat you do not want to play .
+*INV:	+" he should not be here .
+*INV:	+" he should not be about .
+*INV:	+" he should not be here when your mother is out .
+*INV:	+" no (.) no .
+*INV:	+" have no fear (.) said the cat in the hat .
+*INV:	+" my tricks are not bad .
+*INV:	+" why we can have lots_of good fun if you wish with a game that I
+*INV:	+" put me down (.) said the fish .
+*INV:	+" this is no fun at all .
+*INV:	+" put me down (.) said the fish .
+*INV:	+" I do not wish to fall .
+*INV:	+" have no fear (.) said the cat .
+*INV:	+" I will not leave you fall .
+*INV:	+" I will hold you up high as I stand on a ball .
+*INV:	+" with a book on one hand and a cup on my hat .
+*INV:	+" and that is not all I can do (.) said the cat .
+*INV:	maybe you could help me read this story ?
+*INV:	why did they what ?
+*INV:	what do you mean ?
+*INV:	oh (.) I see what you mean .
+*INV:	like that ?
+*INV:	like that ?
+*INV:	like what ?
+*INV:	oh (.) because they're so surprised .
+*INV:	because the cat in the hat is doing some strange tricks .
+*INV:	look at all these things he has .
+*INV:	he says +"/.
+*INV:	+" I can hold up two books and a cake .
+*INV:	are you sleepy ?
+*INV:	okay .
+*INV:	+" look at me (.) said the cat (.) with a cup and a cake on top of
+*INV:	+" I can hold up two books .
+*INV:	+" I can hold up the fish .
+*INV:	+" and a little toy ship and some milk on a dish .
+*INV:	+" and look .
+*INV:	+" I can hop up and down on the ball .
+*INV:	+" but that is not all .
+*INV:	+" oh (.) no .
+*INV:	+" that is not all .
+*INV:	+" look at me .
+*INV:	+" look at me .
+*INV:	+" look at me now .
+*INV:	+" it is fun to have fun but you have_to know how .
+*INV:	+" I can hold up the cup (.) and the milk (.) and the cake .
+*INV:	+" I can hold up these books and the fish on the rake .
+*INV:	+" I can hold the toy ship and a little toy man .
+*INV:	+" and look .
+*INV:	+" with my tail I can hold a red fan .
+*INV:	+" I can fan with one hand as I hop on the ball .
+*INV:	+" but that is not all .
+*INV:	+" oh no (.) that is not all .
+*INV:	+" that is what the cat said when he fell on his head .
+*INV:	+" he came down with a bump from up there on the ball and Sally and
+*INV:	because he slipped on the ball and he dropped them all .
+*INV:	right ?
+*INV:	okay .
+*INV:	+" and our fish came down too and fell into a pot .
+*INV:	+" he said (.) do I like this ?
+*INV:	+" and (.) no (.) I do not .
+*INV:	+" this is not a good game (.) said our fish as he lit .
+*INV:	+" no (.) I do not like it (.) not one little bit .
+*INV:	+" now look what you did (.) said the fish to the cat .
+*INV:	+" now look at this house .
+*INV:	+" now look at this (.) look at that .
+*INV:	+" you sank our toy ship .
+*INV:	+" sank it deep in the cake .
+*INV:	+" you shook up our house and you bent our new rake .
+*INV:	+" you should not be here when your mother is not .
+*INV:	+" so get out_of this house (.) said the fish in the pot .
+*INV:	oh (.) look at all these things that he did .
+*INV:	he bent the rake .
+*INV:	spilled the milk .
+*INV:	+" but I like to be here .
+*INV:	+" oh (.) I like it a lot (.) said the cat in the hat to the fish
+*INV:	+" I will not go away .
+*INV:	+" I do not wish to go .
+*INV:	+" and so (.) said the cat in the hat (.) so (.) so (.) so (.) I
+*INV:	+" and then he ran out .
+*INV:	+" and then (.) fast as a fox (.) the cat in the hat came back in
+*INV:	+" a big (.) red (.) wood box .
+*INV:	+" now look at this trick (.) said the cat .
+*INV:	+" take a look .
+*INV:	+" then he got up on top of the tip of his head .
+*INV:	+" I call this game fun in a box (.) said the cat .
+*INV:	+" in this box are two things I will show to you now .
+*INV:	+" you will like these two things (.) said the cat with a bow .
+*INV:	+" I will pick up the book .
+*INV:	+" you will see something new .
+*INV:	+" two things (.) and I call them (.) Thing One and Thing Two .
+*INV:	+" these things will not bite you .
+*INV:	+" they want to have fun .
+*INV:	+" get out_of the box (.) Thing Two and Thing One .
+*INV:	+" then they ran to us fast .
+*INV:	+" they said (.) how do you do ?
+*INV:	+" would you like to shake hands with Thing One and Thing Two ?
+*INV:	would you like to shake hands with Thing One and Thing Two ?
+*INV:	why ?
+*INV:	oh .
+*INV:	well (.) Shem (.) wait just a second .
+*INV:	okay ?
+*INV:	how come you have Anna's bottle in your mouth ?
+*INV:	huh ?
+*INV:	you're a little baby ?
+*INV:	oh .
+*INV:	come here (.) little baby .
+*INV:	hello (.) little baby .
+*INV:	are you a little baby ?
+*INV:	huh ?
+*INV:	the records ?
+*INV:	you talk pretty good for a little baby .
+*INV:	here (.) better take the bottle out_of your mouth .
+*INV:	you might bite through the nipple there .
+*INV:	okay .
+*INV:	well (.) I don't think we should turn on the record+player yet .
+*INV:	mkay ?
+*INV:	let's finish reading this book .
+*INV:	okay ?
+*INV:	okay .
+*INV:	+" I will pick up the book .
+*INV:	+" you will see something new .
+*INV:	on this is Thing One and Thing Two .
+*INV:	we've already talked about them .
+*INV:	you can turn the page now .
+*INV:	okay .
+*INV:	+" Sally and I did not know what to do .
+*INV:	+" so we had to shake hands with Thing One and Thing Two .
+*INV:	+" we shook their hands but our fish said (.) no (.) no .
+*INV:	+" these things should not be in the house .
+*INV:	+" make them go .
+*INV:	what would you do if they were in your house ?
+*INV:	huh ?
+*INV:	would you tell them to get out ?
+*INV:	and say (.) get out Thing One and Thing Two ?
+*INV:	and what if they didn't get out ?
+*INV:	then what would you do ?
+*INV:	then they couldn't come back in .
+*INV:	so turn the page .
+*INV:	+" have no fear (.) little fish (.) said the cat in the hat .
+*INV:	+" these things are good things .
+*INV:	+" and he gave them a pat .
+*INV:	+" they are tame (.) oh (.) so tame .
+*INV:	+" they have come here to play .
+*INV:	+" they will give you some fun on this wet (.) wet (.) wet day .
+*INV:	you turn the page .
+*INV:	+" now here is a game that they like (.) said the cat .
+*INV:	+" they like to fly kites (.) said the cat in the hat .
+*INV:	+" no (.) not in the house (.) said the fish in the pot .
+*INV:	+" they should not fly kites in the house .
+*INV:	+" they should not .
+*INV:	+" oh (.) the things they will bump .
+*INV:	+" the things they will hit .
+*INV:	+" then Sally and I saw them run down the hall .
+*INV:	+" we saw those two things bump their kites on the wall .
+*INV:	+" bump (.) thump (.) thump (.) bump (.) bump (.) thump (.) thump
+*INV:	what's happening here ?
+*INV:	huh ?
+*INV:	everything's falling apart .
+*INV:	what is their mommy gonna say ?
+*INV:	Hhh ?
+*INV:	what would your mommy say if she came in and saw everything all
+*INV:	would she be mad ?
+*INV:	let me take a drink of coffee here .
+*INV:	&mm .
+*INV:	okay .
+*INV:	turn the page .
+*INV:	oh (.) you turned two pages .
+*INV:	no (.) that's okay .
+*INV:	+" then those things ran about with big jumps (.) bumps (.) and
+*INV:	oh (.) you missed that page ?
+*INV:	here .
+*INV:	turn back to it .
+*INV:	+" Thing Two and Thing One (.) they ran up (.) they ran down .
+*INV:	+" on the string of one kite we saw mother's new gown .
+*INV:	+" her gown with the dots that are pink (.) white (.) and red .
+*INV:	+" then we saw one kite bump on the head of her bed .
+*INV:	uhoh .
+*INV:	look it .
+*INV:	they have Mother's new dress on the line of the kites .
+*INV:	think she's gonna be very happy about that ?
+*INV:	no ?
+*INV:	in fact (.) she might get pretty mad and spank them .
+*INV:	+" then those things ran about with big bumps (.) jumps (.) and
+*INV:	+" and I said (.) I do not like the way that they play .
+*INV:	+" if mother could see this (.) oh (.) what would she say ?
+*INV:	that's right .
+*INV:	what else would she say (.) though ?
+*INV:	and what else ?
+*INV:	would she tell them to clean it up ?
+*INV:	she would ?
+*INV:	&mm .
+*INV:	dear .
+*INV:	I have something on my coat .
+*INV:	I think it's something that we had in our tortillas .
+*INV:	&mm .
+*INV:	yeah .
+*INV:	I'll have_to take it off later .
+*INV:	okay (.) next page .
+*INV:	+" then +...
+*INV:	take this stuff off my coat ?
+*INV:	take the coat off ?
+*INV:	(be)cause I'm cold now .
+*INV:	I wanna keep it on .
+*INV:	oh (.) no .
+*INV:	+" then the fish said (.) look !
+*INV:	+" look !
+*INV:	+" here mother is on her way home .
+*INV:	+" oh (.) what will she do to us ?
+*INV:	+" what will she say ?
+*INV:	+" oh (.) she will not like it to find us this way .
+*INV:	uhoh .
+*INV:	+" do something fast !
+*INV:	+" said the fish .
+*INV:	+" do you hear ?
+*INV:	+" I saw your mother (.) your mother is near .
+*INV:	+" as fast as you can (.) think of something to do .
+*INV:	+" you will have_to get rid of Thing One and Thing Two .
+*INV:	uhoh .
+*INV:	+" so as fast as I could I went after my net .
+*INV:	+" I said (.) with my net I could get them I bet .
+*INV:	+" I bet with my net I could ge(t) those things yet .
+*INV:	oh .
+*INV:	so he caught the two things .
+*INV:	+" and told the cat in the hat (.) take those two things away .
+*INV:	+" oh (.) dear (.) said the cat (.) you did not like our game .
+*INV:	+" oh (.) dear .
+*INV:	+" what a shame .
+*INV:	+" then he shut up the things in the box with a hook and the cat
+*INV:	+" that is good (.) said the fish .
+*INV:	+" he is gone .
+*INV:	+" yes .
+*INV:	+" but your mother will come .
+*INV:	+" she will find this big mess .
+*INV:	+" and this mess is so big (.) so deep (.) and so tall (.) we can
+*INV:	+" there is no way at all .
+*INV:	+" and then (.) who was back in the house ?
+*INV:	+" why (.) the cat .
+*INV:	+" have no fear of this mess (.) said the cat in the hat .
+*INV:	+" I always pick up all my play things .
+*INV:	+" and so (.) I will show you another good trick that I know .
+*INV:	what is this ?
+*INV:	this is a big machine .
+*INV:	what does the machine do ?
+*INV:	yeah (.) it's a machine that picks up messes .
+*INV:	boy (.) wouldn't that be nice to have .
+*INV:	+" Then we saw him pick up all the things that were down .
+*INV:	+" he picked up the cake and the rake and the gown (.) the milk (.)
+*INV:	+" and he put them away .
+*INV:	+" and he said (.) that is that .
+*INV:	+" and then he was gone with a tip of his hat .
+*INV:	+" and then their mother came in and said (.) you two (.) did you
+*INV:	+" tell me .
+*INV:	+" what did you do ?
+*INV:	+" and Sally and I did not know what to say .
+*INV:	+" should we tell her the things that went on there that day ?
+*INV:	+" should we tell her about it ?
+*INV:	+" well (.) what would you do if your mother asked you ?
+*INV:	no (.) it doesn't show her face .
+*INV:	I wonder why not ?
+*INV:	now +...
+*INV:	yeah .
+*INV:	on lego blocks .
+*INV:	do you wan(t) lego blocks ?
+*INV:	okay .
+*INV:	well (.) let's go get it .
+*INV:	yep (.) snow+men .
+*INV:	xxx .
+*INV:	this ?
+*INV:	do you want this one ?
+*INV:	or do you want this one ?
+*INV:	this one ?
+*INV:	okay .
+*INV:	and let's bring some paper with us .
+*INV:	okay ?
+*INV:	okay .
+*INV:	so we can put it down and not get the floor messy .
+*INV:	and maybe +...
+*INV:	okay .
+*INV:	Okay (.) let's go .
+*INV:	we can't do it on the floor ?
+*INV:	I think we should do it on the floor (be)cause that [//] all your
+*INV:	so let's do it on the floor .
+*INV:	mkay .
+*INV:	move this stuff .
+*INV:	all these things .
+*INV:	okay .
+*INV:	oh: (.) you have a cough .
+*INV:	you can sit on that side and I'll sit on this side .
+*INV:	okay ?
+*INV:	now we have_to be careful to keep it on the paper .
+*INV:	right ?
+*INV:	there we go .
+*INV:	yeah .
+*INV:	okay .
+*INV:	good .
+*INV:	you opened it .
+*INV:	okay .
+*INV:	here's some more .
+*INV:	here's +...
+*INV:	+, some more .
+*INV:	here's some more .
+*INV:	and here's some more .
+*INV:	here's some more .
+*INV:	okay (.) now let's play with this for a while and then we can take
+*INV:	okay .
+*INV:	here (.) I'll make the head .
+*INV:	here's the head .
+*INV:	okay .
+*INV:	you make the middle of the body .
+*INV:	you make this part into a ball (.) okay ?
+*INV:	make this part .
+*INV:	yeah .
+*INV:	that's right .
+*INV:	like this .
+*INV:	use both your hands like this .
+*INV:	like this .
+*INV:	see ?
+*INV:	put it between your (.) right .
+*INV:	okay .
+*INV:	oh (.) you want it higher ?
+*INV:	okay (.) well then (.) we'll have_to put in some more .
+*INV:	now (.) what do you want to make to go with the snow+man ?
+*INV:	okay .
+*INV:	I'll give you some more and you can make a person and I'll make a
+*INV:	okay ?
+*INV:	it's hard ?
+*INV:	well you can learn how to do it .
+*INV:	what kind of person do you want to make ?
+*INV:	here .
+*INV:	this is how you start .
+*INV:	you start with a little teeny head like this .
+*INV:	you take a little piece .
+*INV:	uhoh .
+*INV:	the snow+man fell down .
+*INV:	there he goes .
+*INV:	take a little tiny piece like this .
+*INV:	oh (.) no .
+*INV:	okay (.) first you take a little [//] you wanna make [//] you know
+*INV:	(o)kay .
+*INV:	take a little tiny piece .
+*INV:	okay ?
+*INV:	okay .
+*INV:	a little bit more so +...
+*INV:	a little bit more than that .
+*INV:	a little bit bigger than that .
+*INV:	that's good .
+*INV:	that's good .
+*INV:	now you roll it up in your fingers into a little tiny ball .
+*INV:	right .
+*INV:	Ttat's right .
+*INV:	keep rolling .
+*INV:	roll it like this .
+*INV:	put it between your two hands and roll it .
+*INV:	like a piece of soap .
+*INV:	right .
+*INV:	okay (.) now (.) take it out .
+*INV:	there .
+*INV:	you have a little head .
+*INV:	okay ?
+*INV:	now (.) to make the next part of the person (.) you take another
+*INV:	take a little piece .
+*INV:	okay .
+*INV:	that's good .
+*INV:	now you go like this and make it into a snake .
+*INV:	like this .
+*INV:	right .
+*INV:	now (.) that's the arm .
+*INV:	one of [//] that's one of the arms of the person .
+*INV:	right ?
+*INV:	Kay .
+*INV:	now (.) put it down next_to your little head .
+*INV:	that's one of the arms .
+*INV:	see (.) you stick it on right there .
+*INV:	now make another arm .
+*INV:	make take another little piece .
+*INV:	good .
+*INV:	now (.) what do you think that he needs next ?
+*INV:	yeah .
+*INV:	what should we make next ?
+*INV:	part of the body ?
+*INV:	okay .
+*INV:	so you rip off another piece .
+*INV:	that [//] a little bit bigger than that .
+*INV:	a little bit bigger than that .
+*INV:	no (.) a little bit more .
+*INV:	that's good .
+*INV:	okay (.) now (.) you make it into (.) kind of a roll .
+*INV:	right .
+*INV:	that's right .
+*INV:	like kind of a fat snake .
+*INV:	like this .
+*INV:	yeah (.) that's good .
+*INV:	that's perfectly good .
+*INV:	that's very good .
+*INV:	no (.) now you stick it on to the head .
+*INV:	stick it on (.) right here .
+*INV:	right (.) good .
+*INV:	now we have_to make one more thing .
+*INV:	do you know what it is ?
+*INV:	what ?
+*INV:	what ?
+*INV:	that's what we need too .
+*INV:	but we also need legs .
+*INV:	dresses ?
+*INV:	okay .
+*INV:	well (.) first let's make the legs .
+*INV:	you can take another little piece .
+*INV:	and you roll it like this .
+*INV:	well (.) your piece is a little bit too big .
+*INV:	it's gotta be littler than that .
+*INV:	no (.) do it (.) stop .
+*INV:	now make it a little bit smaller (.) okay ?
+*INV:	cut off half of that .
+*INV:	yeah (.) break it in half .
+*INV:	that's good .
+*INV:	now use one of those halves .
+*INV:	right .
+*INV:	that's good .
+*INV:	now make it into a little leg .
+*INV:	little legs to xxx .
+*INV:	well (.) you just do it the same way .
+*INV:	and then you stick it on here .
+*INV:	that's good .
+*INV:	good .
+*INV:	good (.) good (.) good (.) good .
+*INV:	okay (.) now (.) take another little piece .
+*INV:	yeah .
+*INV:	see ?
+*INV:	there's a person .
+*INV:	isn't that good ?
+*INV:	oh (.) you need a head (.) too (.) right ?
+*INV:	okay (.) so make a head now .
+*INV:	take another piece .
+*INV:	yeah .
+*INV:	right .
+*INV:	now maybe if [//] if we had a pencil we could make a mouth and a
+*INV:	we could put a little nose and mouth in .
+*INV:	you think ?
+*INV:	no ?
+*INV:	no (.) just like this .
+*INV:	here .
+*INV:	I'll show you .
+*INV:	maybe you could do it with a [//] here .
+*INV:	You could do it with a little key like this .
+*INV:	look .
+*INV:	you just go +...
+*INV:	see ?
+*INV:	++ eyes and a nose and a mouth .
+*INV:	yeah .
+*INV:	that's the head .
+*INV:	isn't that a head ?
+*INV:	poke it ?
+*INV:	okay .
+*INV:	here's a belly button .
+*INV:	and a shirt ?
+*INV:	here's the buttons on his shirt .
+*INV:	okay .
+*INV:	here .
+*INV:	I'll take eyes and nose on yours .
+*INV:	yeah .
+*INV:	here you can make that .
+*INV:	yeah .
+*INV:	that's good .
+*INV:	now what are we gonna do with the people ?
+*INV:	bake (th)em ?
+*INV:	they're cookies ?
+*INV:	but you can't eat (th)em .
+*INV:	okay .
+*INV:	let's pick them up and see if they can say hello to the snow+man .
+*INV:	oh (.) I fell down .
+*INV:	hello Mister Snow_man .
+*INV:	hello .
+*INV:	boom .
+*INV:	oh (.) he fell down !
+*INV:	help me pick him up .
+*INV:	oh (.) my legs fell off !
+*INV:	I'll have_to stick them back on .
+*INV:	okay .
+*INV:	now you stand up .
+*INV:	you stand up (.) Shem's person you stand up too .
+*INV:	come on .
+*INV:	don't you want to stand up ?
+*INV:	you what ?
+*INV:	you're naughty ?
+*INV:	jawing@c ?
+*INV:	oh .
+*INV:	hello .
+*INV:	are you going to stand up (.) thawing ?
+*INV:	can't you stand up ?
+*INV:	come on .
+*INV:	&aw (.) stand up .
+*INV:	hi .
+*INV:	let's play together .
+*INV:	we'll go talk to the snow+man .
+*INV:	you have_to help me pick him up .
+*INV:	there .
+*INV:	hello .

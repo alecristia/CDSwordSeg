@@ -1,0 +1,222 @@
+*MOT:	say hi . 381100_382428
+*MOT:	0 [=! voc] . 383228_385216
+*MOT:	0 [=! kiss sound] . 386030_386921
+*MOT:	0 [=! voc] . 386921_389886
+*MOT:	hello . 389886_391650
+*MOT:	hello Chi . 391435_394680
+*MOT:	I love you . 394515_396593
+*MOT:	wanna [= want to] give him a hug ? 399010_401666
+*MOT:	give him a hug . 401706_404703
+*MOT:	give him a hug . 405415_407050
+*MOT:	wanna give him a hug ? 407960_410746
+*MOT:	no . 411791_413600
+*MOT:	okay this one's really xxx . 414028_416338
+*MOT:	want Big_Bird to help ? 432516_435531
+*MOT:	0 [=! gasp] . 443056_443645
+*MOT:	do you want Big_Bird ? 446226_448528
+*MOT:	0 [=! tapping noise] . 449328_451375
+*MOT:	0 [=! tapping noise] . 453431_455093
+*MOT:	0 . 455093_456078
+*MOT:	where'd he go ? 456878_458023
+*MOT:	0 [=! gasp] . 469601_470723
+*MOT:	uhoh , did that hurt ? 472650_474380
+*MOT:	0 [=! laughs] . 475471_477321
+*MOT:	hey (.) where'd Big_Bird go ? 478376_481793
+*MOT:	peek_a_boo . 481793_483825
+*MOT:	0 . 485120_487016
+*MOT:	peek_a_boo . 487016_487935
+*MOT:	0 . 487935_489221
+*MOT:	0 [=! gasp] . 491835_492346
+*MOT:	peek_a_boo ! 492346_497698
+*MOT:	0 . 500588_505625
+*MOT:	0 . 513486_516750
+*MOT:	0 . 516750_519241
+*MOT:	0 [=! laughs] . 521018_522041
+*MOT:	0 . 522041_523116
+*MOT:	0 . 526098_530056
+*MOT:	0 [=! laughs] . 530808_532345
+*MOT:	0 [=! voc] . 532345_535446
+*MOT:	0 [=! laughs] . 536273_539540
+*MOT:	0 [=! laughs] . 539540_541558
+*MOT:	0 . 543196_544295
+*MOT:	0 [=! laughs] . 547435_549368
+*MOT:	look (.) can you talk on the telephone ? 549368_552763
+*MOT:	say hello . 552763_555053
+*MOT:	0 [=! gasp] . 558573_559170
+*MOT:	0 . 560540_561041
+*MOT:	you don't want the tel(e)phone ? 561041_563110
+*MOT:	hey . 564030_565213
+*MOT:	say hello . 565213_567048
+*MOT:	hello . 567048_569185
+*MOT:	you got the numbers ? 572528_575555
+*MOT:	the buttons ? 575555_576608
+*MOT:	can you push the buttons ? 576608_578610
+*MOT:	push it . 578610_579603
+*MOT:	oh no . 581396_582665
+*MOT:	push the buttons . 582665_585825
+*MOT:	you want this thing ? 599383_600895
+*MOT:	did you do that ? 609665_620701
+*MOT:	0 . 622691_624438
+*MOT:	0 . 624438_625806
+*MOT:	0 . 627406_628273
+*MOT:	0 . 628973_629575
+*MOT:	0 [=! laugh] . 634285_635445
+*MOT:	wanna [= want to] try something else ? 635445_637660
+*MOT:	let's see . 637660_640218
+*MOT:	moo@o . 642406_645583
+*MOT:	0 [=! gasp] . 647160_648910
+*MOT:	moo@o . 648910_650208
+*MOT:	is that a cow ? 652806_654121
+*MOT:	0 . 657103_658481
+*MOT:	0 . 663645_670381
+*MOT:	0 . 677691_678871
+*MOT:	whoa ! 684863_685870
+*MOT:	hey [=! laughs] ! 685870_687248
+*MOT:	Here , try that . 687248_692936
+*MOT:	0 . 694830_695341
+*MOT:	0 [=! gasp] . 716108_716756
+*MOT:	you like that one ? 716756_718640
+*MOT:	look . 718640_719738
+*MOT:	0 [=! laughs] . 726385_727908
+*MOT:	you like that one ? 727908_731380
+*MOT:	0 . 734976_739530
+*MOT:	let's see . 740886_742901
+*MOT:	you wanna [= want to] read a book ? 742501_743630
+*MOT:	it says look and see . 743630_747611
+*MOT:	there's a bear . 747611_751120
+*MOT:	and look ! 751120_752303
+*MOT:	what's that ? 752303_754665
+*MOT:	yyy . 754665_758090
+*MOT:	there's Chi . 758090_760378
+*MOT:	look Chi . 761855_763793
+*MOT:	baby . 763793_765691
+*MOT:	baby ? 767106_769230
+*MOT:	0 . 787036_789451
+*MOT:	0 . 789451_791436
+*MOT:	0 . 794906_797276
+*MOT:	0 . 797380_803936
+*MOT:	0 . 803936_806170
+*MOT:	can you brush your hair ? 812856_814948
+*MOT:	&hmm ? 814948_816236
+*MOT:	whatcha [: what do you] got ? 820301_821708
+*MOT:	who do you want , Big_Bird ? 821708_823208
+*MOT:	where's Big_Bird ? 824885_826016
+*MOT:	hey ! 826986_827426
+*MOT:	0 [=! voc] . 827426_828131
+*MOT:	peek_a_boo . 828131_831278
+*MOT:	peek_a_boo . 834033_835328
+*MOT:	peek_a_boo . 836953_840755
+*MOT:	where'd he go . 842858_843525
+*MOT:	peek_a_boo . 843525_847380
+*MOT:	peek_a_boo . 847380_848528
+*MOT:	0 . 848528_849241
+*MOT:	peek_a_boo . 850355_851575
+*MOT:	here (.) look . 854640_856333
+*MOT:	0 . 867735_870308
+*MOT:	0 . 871815_874653
+*MOT:	0 . 877196_878993
+*MOT:	0 . 878993_882143
+*MOT:	oop ! 883225_884046
+*MOT:	you just wanna [= want to] keep big bird right there „ don't you .
+*MOT:	say Big_Bird . 887523_890946
+*MOT:	0 . 890946_892671
+*MOT:	0 [=! imitates Chi voc] . 897083_898076
+*MOT:	no (.) I don't think we're done yet . 898076_899965
+*MOT:	0 [=! voc] . 899965_901393
+*MOT:	well here . 901393_903773
+*MOT:	you wanna [= want to] play patty_cake ? 903773_906793
+*MOT:	patty_cake patty_cake , baker's man . 906793_912263
+*MOT:	bake me a cake as fast as you can . 912263_915800
+*MOT:	roll it and pat it and mark it with a b@l and . 915800_921040
+*MOT:	put it in the oven for baby and me . 921040_923920
+*MOT:	0 [=! clears throat] . 923920_926771
+*MOT:	yay . 929641_930370
+*MOT:	want a hat ? 930370_932276
+*MOT:	0 [=! gasp] ! 933531_934523
+*MOT:	you so pretty . 934523_935731
+*MOT:	you like that ? 938565_939385
+*MOT:	no ? 939385_940318
+*MOT:	0 . 944006_949495
+*MOT:	0 [=! gasp] ! 949495_950471
+*MOT:	take it off . 952640_954650
+*MOT:	put it on . 954650_956208
+*MOT:	you can play . 956208_957976
+*MOT:	peek_a_boo . 957976_959993
+*MOT:	0 . 961181_963246
+*MOT:	0 . 966090_967218
+*MOT:	0 [=! gasp] ! 969995_972156
+*MOT:	0 . 974406_978321
+*MOT:	yay . 979135_990053
+*MOT:	you take (th)em off ? 990053_991153
+*MOT:	&uh oh . 991153_992013
+*MOT:	how (a)bout that one ? 992013_997275
+*MOT:	yay ! 1000653_1001391
+*MOT:	you've got one more . 1004598_1005586
+*MOT:	0 . 1006695_1007326
+*MOT:	0 [=! gasp] !
+*MOT:	0 [=! laughs] . 1008226_1009625
+*MOT:	&uh oh . 1009625_1011301
+*MOT:	okay . 1011301_1016210
+*MOT:	put that one back on ? 1016210_1017536
+*MOT:	0 [=! voc] . 1017536_1019938
+*MOT:	hey , Chi . 1019938_1021006
+*MOT:	peek_a_boo . 1021006_1024079
+*MOT:	0 [=! gasp] ! 1024079_1026359
+*MOT:	put it back on . 1026359_1028436
+*MOT:	put this one on . 1028436_1029958
+*MOT:	0 . 1031310_1036616
+*MOT:	0 . 1039191_1041028
+*MOT:	0 [=! gasp] ! 1042826_1043510
+*MOT:	you got it off ? 1043510_1046791
+*MOT:	0 . 1057636_1059180
+*MOT:	0 . 1064148_1064588
+*MOT:	look . 1064588_1066180
+*MOT:	look . 1066180_1069583
+*MOT:	0 . 1069583_1072408
+*MOT:	wanna put that one on ? 1072408_1075255
+*MOT:	yay . 1077223_1078041
+*MOT:	good ! 1078041_1079200
+*MOT:	0 . 1079200_1080200
+*MOT:	here .
+*MOT:	put that one on . 1080200_1081256
+*MOT:	0 [=! laugh] . 1083693_1084345
+*MOT:	&uh oh . 1103193_1104683
+*MOT:	did you do that ? 1116565_1118898
+*MOT:	did you do that ? 1118898_1121275
+*MOT:	good . 1121275_1124311
+*MOT:	can you put it on ? 1124311_1125380
+*MOT:	here . 1125380_1126508
+*MOT:	good try . 1126508_1129943
+*MOT:	put that one on ? 1129943_1132681
+*MOT:	oh ! 1132681_1134216
+*MOT:	good one . 1134216_1135273
+*MOT:	here , what about this one ? 1135273_1137215
+*MOT:	very good . 1141055_1142283
+*MOT:	0 [=! laughs] . 1142440_1144666
+*MOT:	oh . 1147783_1148451
+*MOT:	take them off ? 1148451_1150236
+*MOT:	oh . 1157123_1158005
+*MOT:	did you do that ? 1158005_1159871
+*MOT:	now what ? 1166348_1167445
+*MOT:	what you gonna do [>] ? 1172118_1174616
+*MOT:	what ? 1174616_1175441
+*MOT:	let's put (th)em back on . 1175441_1176675
+*MOT:	0 [=! gasp] . 1176675_1180591
+*MOT:	0 [=! laughs] . 1182505_1184051
+*MOT:	you gonna (.) look at it . 1187671_1190763
+*MOT:	that one ? 1195545_1199588
+*MOT:	Big_Bird . 1206423_1207356
+*MOT:	0 [=! laughs] . 1211588_1213321
+*MOT:	0 . 1218935_1222771
+*MOT:	0 . 1228586_1230895
+*MOT:	well you tell me . 1230895_1233748
+*MOT:	what do you want ? 1233748_1234711
+*MOT:	0 . 1234711_1237858
+*MOT:	what ? 1237858_1239550
+*MOT:	what do you want ? 1241426_1243030
+*MOT:	wanna [= want a] foot ? 1243030_1248435
+*MOT:	0 .
+*MOT:	you wanna [= want a ] hand ?
+*MOT:	0 [=! gasp] .
+*MOT:	peek_a_boo .
+*MOT:	0 [=! voc] .

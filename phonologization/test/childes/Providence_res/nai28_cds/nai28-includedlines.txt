@@ -1,0 +1,840 @@
+*MOT:	what are you doing with your aqua shoes ? 2700_4560
+*MOT:	you taking them down ? 4560_6811
+*MOT:	and the duck puzzle is there , too .
+*MOT:	I'll just put it in the backpack xxx . 19348_21191
+*MOT:	where are +//.
+*MOT:	do we have all the pieces for the duck puzzle ? 21191_24040
+*MOT:	do you know if we have all those pieces ? 24040_29116
+*MOT:	oh , you wanna play with the blocks ? 36163_38631
+*MOT:	somebody +... 46753_48150
+*MOT:	oh , you're gonna make a table , somebody's gonna [: going to] sit at that table to eat ? 50958_53991
+*MOT:	great . 53991_55620
+*MOT:	oh .
+*MOT:	yeah , that's about Pooh bear , isn't it ? 61221_65379
+*MOT:	Winnie the Pooh and Eeyore's tail . 65379_71045
+*MOT:	today is December +... 78620_83290
+*MOT:	fifth +//.
+*MOT:	&uh no , today is December sixth , Friday . 83290_86483
+*MOT:	and we taped recently , but +... 88521_91906
+*MOT:	we're taping again , okay . 93600_95225
+*MOT:	I will read that book . 95225_96821
+*MOT:	do you wanna sit in my lap to read it ? 96821_98970
+*MOT:	mm . 98970_102825
+*MOT:	hey , what's happening there ? 102825_104826
+*MOT:	well , Christopher Robin is using a hammer to put Eeyore's tail back on him . 108985_115013
+*MOT:	and who's that ? 117350_121970
+*MOT:	yeah . 123370_125361
+*MOT:	that's Eeyore . 125361_127248
+*MOT:	and look , he doesn't have a tail in that picture . 127248_129831
+*MOT:	oh sorry +//.
+*MOT:	he doesn't have a tail in that picture . 129831_133791
+*MOT:	and here is a picture of +... 134823_139325
+*MOT:	xxx , who's in that picture ? 139325_142425
+*MOT:	who's +...
+*MOT:	who do you see ? 146710_148711
+*MOT:	yeah . 150000_151438
+*MOT:	and that's Tigger . 151438_153416
+*MOT:	and that's Eeyore . 153416_155150
+*MOT:	and in this picture , they're having a picnic , see they have picnic baskets . 155150_162440
+*MOT:	mm . 162440_164488
+*MOT:	well , either a tail is there or isn't there , you can't make a mistake about it , and yours isn't there . 164488_171326
+*MOT:	they're trying to figure out what happened to Eeyore's tail . 172118_174820
+*MOT:	hmm , everybody's walking on that little road . 174820_180821
+*MOT:	and here is the tree . 180821_186890
+*MOT:	yeah . 192276_193588
+*MOT:	how is he coming down ? 199163_201018
+*MOT:	what's he using to come down out of the tree ? 202065_205196
+*MOT:	looks like a rope . 207346_210080
+*MOT:	hmm , okay .
+*MOT:	oh . 219480_221315
+*MOT:	there's an owl , do you see the owl ? 221315_225043
+*MOT:	yes . 226085_227285
+*MOT:	well , yeah . 233498_234958
+*MOT:	and the owl says , hello Pooh , how's things ? 234958_238170
+*MOT:	and Pooh says , terrible and sad . 238170_241291
+*MOT:	because Eeyore , who is a friend of mine , has lost his tail and he's moping about it . 241291_246260
+*MOT:	okay , this is where the other page is , this is a pop+up book . 247845_250891
+*MOT:	oh , this is the owl's house . 250891_253831
+*MOT:	well , said owl , the customary procedure in such cases is as follows +... 253831_259881
+*MOT:	in the house , look he has a fireplace too , just like we have . 259881_263355
+*MOT:	that's a fireplace like we have . 263355_266218
+*MOT:	and Pooh bear is sitting in something . 266218_268823
+*MOT:	you think the owl is having a picnic in his house ? 275988_278623
+*MOT:	oh . 286453_287026
+*MOT:	oh , gotta turn the page again . 289215_292681
+*MOT:	mm . 292681_295431
+*MOT:	the owl is there , that's the owl . 304496_307105
+*MOT:	mm owl is talking to Pooh bear . 309311_313056
+*MOT:	the owl is telling Pooh bear something . 317895_320566
+*MOT:	there is Christopher Robin . 324106_326348
+*MOT:	Christopher Robin is talking to Pooh bear now . 329851_332813
+*MOT:	look at that , there seem to be some stairs inside that tree . 332813_337416
+*MOT:	huh , huh .
+*MOT:	who's gonna use those stairs , do you think ? 341731_344053
+*MOT:	who do you think ? 348730_351228
+*MOT:	who's gonna use those stairs to get up in the tree ? 357788_360445
+*MOT:	you wonder ? 368881_369930
+*MOT:	hmm , I think maybe +... 371281_374491
+*MOT:	mhm . 374491_377080
+*MOT:	hmm , let's see if we see a picture of those stairs back here . 377080_380383
+*MOT:	there's the tree . 380383_381815
+*MOT:	I think it's the owl who lives +... 381815_386793
+*MOT:	&uh , in the tree . 386793_389100
+*MOT:	hmm . 397628_399705
+*MOT:	and now what's happening ? 399705_402928
+*MOT:	who's having the picnic ? 408283_409850
+*MOT:	Tigger . 414225_414986
+*MOT:	Tigger the tiger . 416018_417108
+*MOT:	his name is Tigger , but he's a tiger . 418555_421211
+*MOT:	that's confusing isn't it ? 421211_424211
+*MOT:	what do you think he's eating ? 428013_429146
+*MOT:	grapes . 431620_432648
+*MOT:	that looks like Roo . 440000_442011
+*MOT:	I think that's Roo . 446580_447676
+*MOT:	mhm . 452250_453176
+*MOT:	mhm , that's a tiger whose name is Tigger . 454200_457146
+*MOT:	mm . 460905_462513
+*MOT:	I think that animal's name is Roo , I think it's a baby Joey . 463991_468275
+*MOT:	I don't see , is it , I don't see where Kanga is . 471700_474651
+*MOT:	well no +//.
+*MOT:	oh wait , here , see ? 478565_480681
+*MOT:	here she is . 480681_482016
+*MOT:	that's Roo's mother . 484276_485953
+*MOT:	Kanga_a , I suppose you call her Kanga .
+*MOT:	Kanga_a and Roo . 490746_492890
+*MOT:	mm . 497210_498496
+*MOT:	they have some little cups and plates don't they ? 499713_502553
+*MOT:	mhm . 504585_505348
+*MOT:	what ? 510818_512521
+*MOT:	uhhuh , that's Roo . 515148_516128
+*MOT:	yeah . 517791_518960
+*MOT:	that's Kanga_a . 521200_522625
+*MOT:	Kanga_a is carrying a basket on her back , it looks like . 524475_528215
+*MOT:	what's Christopher Robin doing ? 531161_532571
+*MOT:	looks like he's using a tool . 539596_542751
+*MOT:	Eeyore's tail . 550485_554598
+*MOT:	yeah .
+*MOT:	mm , blow your nose , okay . 574550_575828
+*MOT:	let's look at the picture we were talking about here . 575828_585575
+*MOT:	they're having a picnic . 585575_590051
+*MOT:	Christopher Robin is putting the tail +... 590051_593725
+*MOT:	back on Eeyore . 593725_595883
+*MOT:	let's see that nose . 595883_600188
+*MOT:	hey you have the picture of xxx . 600188_603171
+*MOT:	right ? 603171_605196
+*MOT:	remember xxx , that's xxx . 605196_607828
+*MOT:	she's looking at you in that picture . 609638_612080
+*MOT:	xxx . 616796_617973
+*MOT:	he's there . 621080_622076
+*MOT:	he is a little boy . 622918_623931
+*MOT:	Christopher Robin is a little boy . 623931_626708
+*MOT:	those books are the ones that really , really +//.
+*MOT:	those are for when you get a little bit older , actually . 636675_642748
+*MOT:	well I'm just gonna put them here for now , okay ? 649461_651988
+*MOT:	some of them aren't in very good shape , those were Mommy's books when Mommy was a little girl . 651988_657325
+*MOT:	and , and Grandma even . 657325_660765
+*MOT:	they're real old books . 660765_663451
+*MOT:	let's put the diapers in the dryer . 663451_668691
+*MOT:	you gonna help me ? 668691_669881
+*MOT:	I know you can help me do this . 669881_674301
+*MOT:	let's take out these sheets . 674301_680985
+*MOT:	hey , who's on the other side of that picture that you have there ? 680985_686300
+*MOT:	on , on the other side of xxx , turn it over . 689148_692441
+*MOT:	doctor Dankner ! 692441_697325
+*MOT:	xxx . 702090_703165
+*MOT:	what's , do you remember +//.
+*MOT:	what do you remember about doctor Dankner ? 706308_709028
+*MOT:	hmm . 709028_712123
+*MOT:	these diapers do not smell one hundred percent clean to me . 721258_725418
+*MOT:	unfortunately , I think +//.
+*MOT:	turn it over ? 731056_732825
+*MOT:	okay , here's doctor Dankner . 732825_734995
+*MOT:	I'm gonna run the laundry again . 739091_740648
+*MOT:	she is wearing +//.
+*MOT:	what is she wearing around her neck ? 740648_743966
+*MOT:	what is that ? 747426_748428
+*MOT:	does Daddy wear one of those sometimes ? 748428_751581
+*MOT:	mhm . 753063_753913
+*MOT:	what does she have around her neck in this picture ? 756656_759491
+*MOT:	do you see ? 760458_761378
+*MOT:	what is that ? 761378_769715
+*MOT:	I thought we were gonna go look for rocket in my pocket , we can go look for that again . 781278_787563
+*MOT:	what do you say ? 787563_788906
+*MOT:	no ? 789850_790860
+*MOT:	look for Sally ? 799170_800398
+*MOT:	well we're gonna look for the apple , I know that . 806370_808946
+*MOT:	oh you have some nice stickers there . 814355_818218
+*MOT:	you gave the sticker to xxx today . 823105_824786
+*MOT:	who ? 838151_838951
+*MOT:	oh , the books that I don't wanna give you , those are +//.
+*MOT:	books are kinda [: kind of] old and frail . 838951_847760
+*MOT:	that's called frail . 847760_850771
+*MOT:	yeah the apple , I know that I saw some +//.
+*MOT:	now these are duck pieces , these go to your duck puzzle . 864820_870828
+*MOT:	and I think that there are some other pieces . 875200_879028
+*MOT:	mhm . 883768_884308
+*MOT:	mhm . 885835_886613
+*MOT:	yeah that +//.
+*MOT:	near the fireplace maybe ? 895561_908396
+*MOT:	that other one . 916778_917595
+*MOT:	yeah . 917595_918776
+*MOT:	you wonder if it's in there ? 928356_929788
+*MOT:	it might be . 929788_932550
+*MOT:	oh , that's your rhyming puzzle that Grandma gave you . 938116_941053
+*MOT:	xxx . 950358_951031
+*MOT:	I'm not sure where the apple is , but I know I saw a couple of pieces at +//.
+*MOT:	I'm just trying to think of what happened to them . 961095_971376
+*MOT:	a couple of pieces . 974088_975425
+*MOT:	there's the goose . 978680_980481
+*MOT:	Mommy's checking what I have in the oven here . 987621_989838
+*MOT:	I think that's done . 989838_992383
+*MOT:	I'm gonna take it out of the oven . 992383_995238
+*MOT:	out .
+*MOT:	Mommy took the pudding out of the oven . 999098_1003798
+*MOT:	pudding . 1005111_1006311
+*MOT:	I don't see the apple in here though . 1006311_1008413
+*MOT:	I don't know what happened to it . 1008413_1012966
+*MOT:	hmm .
+*MOT:	oh , you're gonna look for it now ? 1020943_1022038
+*MOT:	yes , I have the goose here . 1027798_1029551
+*MOT:	and the parasurulafalafalafalafalus@wp . 1029551_1032966
+*MOT:	parasurulafalafalafalafalus@wp .
+*MOT:	alright I'm gonna +//.
+*MOT:	oh and here's another +//.
+*MOT:	hey , here's the Spinosaurus ! 1035678_1042681
+*MOT:	we were missing that Spinosaurus . 1042993_1045943
+*MOT:	yeah . 1047645_1048381
+*MOT:	she goes to another puzzle , she goes to the dinosaur puzzle . 1057030_1060311
+*MOT:	parasurlulafalafalus@wp , parasuralulafalafalus@wp parololafalus@wp , I don't know how to say what that is . 1066951_1073318
+*MOT:	I need to look it up , I think . 1073318_1076030
+*MOT:	yeah , two dinosaurs , one in each hand . 1082053_1085153
+*MOT:	what's in your right hand ? 1085153_1086415
+*MOT:	yes , what's in your left hand ? 1088400_1091231
+*MOT:	xxx . 1093076_1093846
+*MOT:	a parasuralulafalafalus@wp .
+*MOT:	oh , you want to put them back in the puzzle , okay . 1106016_1109011
+*MOT:	yeah , I think the puzzle's [: puzzle is] near Mommy's desk . 1119425_1121586
+*MOT:	there , you gonna put them back ? 1125193_1126841
+*MOT:	here , xxx off . 1131530_1133910
+*MOT:	the Pteranodon is +... 1144198_1147101
+*MOT:	you wanna have it , don't you ? 1149078_1150455
+*MOT:	you wanna borrow it back from xxx ? 1161681_1163745
+*MOT:	well he has had it for quite a while . 1163745_1166976
+*MOT:	but they might not have even found it at his house . 1166976_1171146
+*MOT:	it might still be lost there . 1171146_1173088
+*MOT:	oh dear .
+*MOT:	Mommy must make a phone call pronto . 1194000_1198095
+*MOT:	those books , I really don't want you to have them +... 1209893_1212493
+*MOT:	we have many other books for you . 1213503_1215460
+*MOT:	I'll , I'll have_to move these away . 1215460_1217681
+*MOT:	oh the Tigger book , oh . 1219911_1221950
+*MOT:	I think that book's still in your room actually . 1225913_1228166
+*MOT:	wanna get it out and we'll read it again ? 1228166_1231305
+*MOT:	get the Tigger book and I'll read it again to you . 1237560_1239325
+*MOT:	Tigger ! 1243215_1244231
+*MOT:	oh Tigger , Tigger book !
+*MOT:	where are you , Tigger book ?
+*MOT:	maybe I put it in some funny place , hold on .
+*MOT:	I'm gonna help you find it . 1263278_1264645
+*MOT:	oh , it's up here . 1266923_1269618
+*MOT:	it's right up here . 1269618_1272181
+*MOT:	hmm ?
+*MOT:	okay . 1276565_1277608
+*MOT:	read it in that place ? 1288510_1290680
+*MOT:	okay . 1290680_1292786
+*MOT:	hmm .
+*MOT:	oh , okay . 1297988_1298816
+*MOT:	hmm .
+*MOT:	this is called Winnie the Pooh and Eeyore's tail . 1301835_1306081
+*MOT:	mm . 1307853_1308750
+*MOT:	the old gray donkey Eeyore stood by himself in a thistly corner of the forest . 1310691_1317946
+*MOT:	his front feet well part , his head on one side , and thought about things . 1317946_1322731
+*MOT:	sometimes he thought sadly to himself (.) why , and sometimes he thought (.) wherefore , and sometimes he thought (.) in as much as which , and sometimes he didn't quite know what he was thinking about . 1322731_1334956
+*MOT:	so when Winnie the Pooh came stomping along Eeyore was very glad to be able to stop thinking for a little +... 1336881_1344628
+*MOT:	in order to say how do you do , in a gloomy manner to him . 1344628_1349035
+*MOT:	and how are you , said Winnie the Pooh . 1349035_1352363
+*MOT:	gloomy . 1354986_1356818
+*MOT:	gloomy xxx . 1358150_1359386
+*MOT:	Eeyore shook his head from side to side , not very how he said , I don't seem to have felt at all how for a long time . 1359386_1369108
+*MOT:	xxx .
+*MOT:	that is +... 1371015_1371950
+*MOT:	Piglet . 1374486_1375353
+*MOT:	and here is +... 1375353_1378675
+*MOT:	who's this ? 1378675_1380525
+*MOT:	Kanga . 1381661_1383815
+*MOT:	and who's that ? 1383815_1387220
+*MOT:	yeah . 1389173_1390350
+*MOT:	dear dear , said Pooh , I'm sorry about that , let's have a look at you . 1390350_1395840
+*MOT:	so Eeyore stood there gazing sadly at the ground , and Winnie the Pooh walked all around him once . 1395840_1402413
+*MOT:	why , what's happened to your tail , he said in surprise . 1402413_1407893
+*MOT:	what has happened to it , said Eeyore . 1407893_1411910
+*MOT:	it isn't there ! 1411910_1414580
+*MOT:	are you sure ? 1414580_1416461
+*MOT:	well , either a tail is there , or isn't there , you can't make a mistake about it , and yours isn't there . 1416461_1423860
+*MOT:	then what is ? 1423860_1426116
+*MOT:	nothing ! 1426116_1427165
+*MOT:	well , it looks like the bunny rabbit and Kanga have baskets . 1430508_1434795
+*MOT:	mhm . 1440746_1441543
+*MOT:	they're carrying baskets , what do you think is in the baskets ? 1443183_1446610
+*MOT:	mhm .
+*MOT:	mhm . 1460351_1460991
+*MOT:	what do you think is in the baskets ? 1465676_1467153
+*MOT:	I think there may be some +//.
+*MOT:	or Tigger came down the tree , you're right . 1474756_1478388
+*MOT:	I think there might be some picnic food in the baskets . 1478388_1482181
+*MOT:	what are the animals going to do ? 1489771_1491413
+*MOT:	what are they going to do ? 1491413_1495648
+*MOT:	you think they're going to eat ? 1496881_1498216
+*MOT:	at , at the table .
+*MOT:	hmm . 1503493_1506156
+*MOT:	they went to the hundred acre wood . 1506156_1511061
+*MOT:	yeah , that's Piglet . 1513018_1514348
+*MOT:	it looks like Piglet is looking up at Pooh bear (.) who is trying to +... 1518476_1527010
+*MOT:	use a rope to get up to the door +... 1527010_1531825
+*MOT:	of the owl's house . 1531825_1534643
+*MOT:	who ? 1538775_1539951
+*MOT:	Pooh bear ? 1542681_1543391
+*MOT:	he's using a rope to get up to (.) into the tree . 1543391_1549153
+*MOT:	that's the owl's house , I think so . 1554698_1557226
+*MOT:	looks like the owl has stairs that go into his house also . 1560216_1563581
+*MOT:	you see them ? 1563581_1566161
+*MOT:	where are they , yeah . 1566161_1567263
+*MOT:	mhm .
+*MOT:	mm , Pooh bear can climb down them . 1572743_1574950
+*MOT:	is he gonna be careful when he climbs up the stairs ? 1580750_1585081
+*MOT:	yeah , there's no railing there , is there ? 1588718_1590748
+*MOT:	hmm , I hope he's careful when he climbs up those stairs . 1591878_1595655
+*MOT:	when he climbs down them too . 1598351_1599590
+*MOT:	xxx here's the house , there's a close+up of the house . 1599590_1604255
+*MOT:	hmm , we need to fix this book . 1604255_1606960
+*MOT:	yeah . 1612240_1612888
+*MOT:	okay , there's Pooh bear , he's knocking on (.) the owl's door . 1612888_1618168
+*MOT:	these notices had been written by Christopher Robin , who was the only one in the forest who could spell . 1618168_1625583
+*MOT:	that's the door of the owl's house . 1627920_1630326
+*MOT:	yeah , and there's owl coming out to see , to see who's knocking at his door . 1634878_1639560
+*MOT:	mm . 1641578_1642658
+*MOT:	mm , Mommy will try to fix it sometime . 1644481_1646875
+*MOT:	mm . 1648131_1648973
+*MOT:	well Chris +//.
+*MOT:	&uh , Pooh bear is up in the tree (.) at owl's house saying hello to owl . 1652615_1660880
+*MOT:	I think that's what's happening . 1662375_1663991
+*MOT:	that's the owl .
+*MOT:	the owl is saying , hello Pooh ! 1670388_1672350
+*MOT:	how's things ? 1672350_1674295
+*MOT:	when Pooh says , terrible and sad . 1676691_1680625
+*MOT:	because Eeyore has lost his tail . 1680625_1684046
+*MOT:	how can +//. 1684046_1687081
+*MOT:	okay .
+*MOT:	let's turn the page here . 1687081_1689793
+*MOT:	on this page we have another pop+up . 1689793_1693648
+*MOT:	oh , this is owl's living room . 1693648_1697895
+*MOT:	it looks a little bit like our living room because it has a fire+place . 1697895_1702945
+*MOT:	is he eating at that table ? 1709425_1710998
+*MOT:	hmm . 1710998_1712638
+*MOT:	what else does the owl have in his house ?
+*MOT:	what else is in the picture ? 1720096_1722130
+*MOT:	you wanna turn the page , okay . 1724946_1726025
+*MOT:	this is called a pop+up book . 1730081_1731680
+*MOT:	yeah , because it has these things that stick up when you turn the pages . 1737778_1741235
+*MOT:	every word , said owl very loudly , we rightly noticed to say that we will give a large +//.
+*MOT:	okay . 1748950_1749623
+*MOT:	hey , what's that he's got there ? 1749623_1756185
+*MOT:	that's Eeyore's tail ! 1758265_1759751
+*MOT:	and Christopher Robin says , I came across it in the forest , it was hanging over a bush . 1759751_1770450
+*MOT:	and I thought at first somebody lived there , so I rang it and nothing happened , and then I ran +//.
+*MOT:	okay , let's turn the page again . 1777000_1778888
+*MOT:	that's not your new book . 1784595_1786921
+*MOT:	that's a book of Mommy's . 1786921_1788596
+*MOT:	it's a blank book , we're gonna paste photographs in it later . 1788596_1792413
+*MOT:	here's this nice picture . 1792413_1794721
+*MOT:	do you see the owl , where's the owl right now ? 1794721_1798418
+*MOT:	that's Kanga . 1805096_1806330
+*MOT:	Kanga is +... 1808083_1810615
+*MOT:	watching Christopher Robin put Eeyore's tail back on . 1810615_1817015
+*MOT:	hey , the sun is out . 1817015_1819520
+*MOT:	even though there's snow . 1819520_1821423
+*MOT:	mm . 1822783_1823970
+*MOT:	who is that ? 1828300_1829256
+*MOT:	what is he standing on ?
+*MOT:	what are these things ? 1840055_1841215
+*MOT:	well , they're like benches , aren't they ? 1847176_1850326
+*MOT:	I think those are benches . 1852095_1856215
+*MOT:	good question , nobody's sitting there right now , nobody . 1859568_1863080
+*MOT:	somebody should sit there ? 1864526_1865903
+*MOT:	nobody is sitting there . 1868248_1870488
+*MOT:	right , nobody is sitting there right now . 1870488_1872566
+*MOT:	dogerty@c ?
+*MOT:	nobody's sitting at that bench , it's empty . 1879521_1882641
+*MOT:	and who's that ? 1885280_1888008
+*MOT:	somebody's drinking some juice there . 1892300_1894458
+*MOT:	Roo ! 1897741_1899226
+*MOT:	yeah , that's Roo . 1901900_1903148
+*MOT:	yeah .
+*MOT:	yeah , that's a picnic table . 1907000_1908460
+*MOT:	yeah .
+*MOT:	that's Roo . 1914213_1915685
+*MOT:	where's Kanga ? 1916891_1917955
+*MOT:	yeah .
+*MOT:	yeah it's a pop+up book . 1925291_1927418
+*MOT:	xxx it's a pop+up book .
+*MOT:	mhm .
+*MOT:	mhm .
+*MOT:	yeah .
+*MOT:	Roo looks like Roo is having some juice . 1943300_1946301
+*MOT:	yeah , drinking juice . 1948000_1949418
+*MOT:	I see a river , do you see a river in this picture ? 1949418_1953096
+*MOT:	look carefully . 1955215_1956495
+*MOT:	it's a river and it has +//.
+*MOT:	what's over the river ?
+*MOT:	you know what that is ? 1974286_1975463
+*MOT:	it's a bridge . 1976600_1977953
+*MOT:	there's a bridge over the river . 1979428_1981346
+*MOT:	there he is . 1991600_1992200
+*MOT:	yeah . 1995600_1996391
+*MOT:	this is a pop+up book . 1998383_2001286
+*MOT:	okay . 2005660_2006728
+*MOT:	yeah , that is a photograph of Naima's costume for Halloween . 2010300_2014465
+*MOT:	Naima's in the picture and ? 2014465_2017713
+*MOT:	and ? 2019170_2019880
+*MOT:	yes , Grandma xxx , and who else is in that picture ? 2022481_2025320
+*MOT:	there are three people in that picture . 2027798_2030280
+*MOT:	Naima +... 2030280_2031631
+*MOT:	Grandma xxx , and +... 2031631_2033521
+*MOT:	that's part of Mommy , you can't really see my face . 2035955_2039680
+*MOT:	but who's that ? 2039680_2041015
+*MOT:	yes , great+grandma xxx . 2043100_2045506
+*MOT:	oh , is your nose xxx ? 2048000_2049526
+*MOT:	kay [: okay] , I'll get a tissue . 2049526_2052571
+*MOT:	nursie nursie nursie ? 2058600_2059855
+*MOT:	we have_to find some wrapping paper , (be)cause we have a present for somebody we have_to wrap . 2059855_2073375
+*MOT:	yes , we xxx +//.
+*MOT:	okay .
+*MOT:	you need a present ? 2078821_2080828
+*MOT:	oh .
+*MOT:	uhhuh . 2084458_2085641
+*MOT:	well , it's not for Naima , it's for somebody else . 2093100_2096131
+*MOT:	it's for somebody Daddy works with . 2097100_2099275
+*MOT:	we need to wrap it . 2101700_2103056
+*MOT:	for the +//. 2103056_2104346
+*MOT:	oh_my_goodness . 2104346_2105481
+*MOT:	no , said Naima ?
+*MOT:	I have no idea where the wrapping paper is though . 2109643_2113400
+*MOT:	you think the wrapping paper's also for Naima ? 2116615_2119440
+*MOT:	read it again ? 2124530_2126500
+*MOT:	let's take a little break so I can find the wrapping paper . 2126500_2129706
+*MOT:	that's a good question . 2141291_2143100
+*MOT:	had , I had some . 2143100_2147731
+*MOT:	yeah , I'm looking for the wrapping paper . 2152600_2154300
+*MOT:	well , let's look +... 2156051_2161961
+*MOT:	let's look over here . 2161961_2164058
+*MOT:	Mommy's looking for the wrapping paper , I'm gonna look in this closet over here . 2168216_2174215
+*MOT:	oh I know , I think it's in here .
+*MOT:	I think it's in this bathroom . 2185816_2189598
+*MOT:	ye:s . 2189598_2193316
+*MOT:	okay , here's some wrapping paper . 2193316_2196521
+*MOT:	well you can play with some . 2199500_2201373
+*MOT:	here . 2201373_2202610
+*MOT:	you can have that . 2202610_2204691
+*MOT:	mm , now you have wrapping paper . 2204691_2209378
+*MOT:	Mommy's gonna wrap the present that we need to wrap . 2217056_2221046
+*MOT:	well it's for somebody that Daddy works with .
+*MOT:	that's a pop+up book , alright . 2250513_2252230
+*MOT:	yeah . 2254553_2255656
+*MOT:	we need some tissue paper +... 2284415_2289431
+*MOT:	maybe we can buy some at the store . 2289431_2293955
+*MOT:	yeah we could use some at the store I think . 2297023_2300358
+*MOT:	xxx with nobody neigh ? 2311520_2313841
+*MOT:	are you thinking of that rhyme about xxx table and stable . 2313841_2319321
+*MOT:	Billy horse , Billy horse , where do you lie ? 2319321_2323215
+*MOT:	out in the stable with nobody neigh . 2323215_2327393
+*MOT:	with somebody neigh ? 2333368_2335475
+*MOT:	actually nobody . 2337300_2339100
+*MOT:	can I take this , please ? 2339100_2341713
+*MOT:	you wanna nurse ? 2343516_2344578
+*MOT:	okay . 2344578_2345398
+*MOT:	nurse ? 2346988_2348038
+*MOT:	nurse , nurse .
+*MOT:	nurse . 2350430_2351101
+*MOT:	let Mommy get this ready to go . 2355686_2359688
+*MOT:	you fell down , are you okay ? 2361000_2363158
+*MOT:	I think you're okay . 2363158_2365105
+*MOT:	I think Lucille is still actually in the car . 2375200_2378596
+*MOT:	nurse , nurse , nurse ?
+*MOT:	nurse . 2397095_2398221
+*MOT:	nurse .
+*MOT:	nurse ? 2401060_2402048
+*MOT:	xxx here . 2404876_2408978
+*MOT:	I'm just gonna put this right here . 2408978_2416420
+*MOT:	I'm just putting this here , where you are . 2419810_2422123
+*MOT:	what ?
+*MOT:	off came the button . 2437396_2438633
+*MOT:	yeah .
+*MOT:	off came the button ! 2443155_2447353
+*MOT:	off came the button ! 2447353_2450361
+*MOT:	oh , and there was a loud crash , this is the story of Corduroy , isn't it ? 2453296_2458993
+*MOT:	there was a loud crash , he knocks over something , what does he knock over in that book ? 2458993_2463753
+*MOT:	yep [: yes] , he knocks over a light . 2468700_2470636
+*MOT:	and the policeman says , what's that ? 2471946_2474598
+*MOT:	right ? 2474598_2477018
+*MOT:	yeah . 2481900_2482615
+*MOT:	and it's Corduroy ! 2482615_2486826
+*MOT:	mhm . 2489700_2491916
+*MOT:	knocking over the light . 2491916_2494095
+*MOT:	what does the policeman say ? 2500078_2503315
+*MOT:	how did you get up there ? 2505400_2507521
+*MOT:	that's right . 2507521_2510028
+*MOT:	and what does the policeman do with Corduroy ? 2513700_2516315
+*MOT:	mhm . 2520000_2521243
+*MOT:	carries him down the escalator , that's what he does . 2523570_2526618
+*MOT:	the policeman says , who is that up there ? 2534748_2538150
+*MOT:	how did you get upstairs ? 2538150_2540556
+*MOT:	said the policeman , yeah . 2543415_2545345
+*MOT:	he gets Corduroy . 2546700_2548548
+*MOT:	yup [: yes] , that's what happens . 2550000_2552528
+*MOT:	hmm . 2552528_2563896
+*MOT:	what ? 2565528_2566833
+*MOT:	who is hiding ? 2568618_2569833
+*MOT:	yes , his two fuzzy brown ears are sticking up out from under the +... 2570600_2575431
+*MOT:	covers . 2576683_2577810
+*MOT:	xxx . 2579880_2580833
+*MOT:	what are you eating for lunch there ? 2580833_2587680
+*MOT:	you have a lot of things on your plate . 2587680_2589688
+*MOT:	frozen corn . 2592000_2593548
+*MOT:	frozen banana . 2598686_2600096
+*MOT:	mm . 2600096_2616986
+*MOT:	what ? 2622398_2623816
+*MOT:	somebody's hiding around here . 2626151_2627696
+*MOT:	what ? 2630695_2631968
+*MOT:	off came the button !
+*MOT:	that's right . 2634718_2635920
+*MOT:	off came the button ! 2635920_2637210
+*MOT:	off came the button !
+*MOT:	the cracker fell in the hummus ? 2656300_2658128
+*MOT:	oh , yes I see , that was a while ago . 2664220_2667000
+*MOT:	hmm , you have a better memory than I do . 2667000_2669951
+*MOT:	off came the button ! 2680700_2682700
+*MOT:	off came Corduroy's button . 2692300_2694285
+*MOT:	a button comes off of a mattress there , doesn't it ? 2694285_2697623
+*MOT:	yeah . 2702700_2703500
+*MOT:	mhm . 2704561_2706240
+*MOT:	well I'm thinking of making some millet . 2720820_2724176
+*MOT:	I'm thinking of making millet . 2728791_2730883
+*MOT:	but , I was thinking of making millet . 2734700_2737700
+*MOT:	but I think that's a little too ambitious . 2737913_2740101
+*MOT:	sophisticated baby .
+*MOT:	what a sophisticated baby . 2747300_2749625
+*MOT:	I guess I'm gonna make some rice . 2752590_2755436
+*MOT:	I'm going to make some brown rice . 2764218_2766661
+*MOT:	plain brown rice .
+*MOT:	somebody's hiding around here . 2775216_2778780
+*MOT:	who says that ? 2778780_2779881
+*MOT:	no , I think the policeman says that . 2782000_2784616
+*MOT:	ya [: you] think so ? 2786200_2787816
+*MOT:	oh the , off came the button off the mattress . 2797653_2802506
+*MOT:	you know that story really well . 2803786_2807021
+*MOT:	I'm looking for (.) the cover that belongs with this pot . 2809178_2816798
+*MOT:	I'm looking for the cover that belongs to this pot . 2820396_2823840
+*MOT:	I'm looking for the cover that belongs to this pot . 2828043_2832020
+*MOT:	there it is . 2836000_2838051
+*MOT:	yeah , I found it . 2841500_2844130
+*MOT:	want some more sesame ? 2854000_2855991
+*MOT:	okay . 2855991_2858065
+*MOT:	you have hummus there , don't you ? 2861925_2864636
+*MOT:	there's the hummus , you can use the spoon to eat it if you want to .
+*MOT:	you want some sesame on that ? 2870641_2873718
+*MOT:	let me find it for you . 2873718_2879193
+*MOT:	the pleasure is all mine . 2879193_2882225
+*MOT:	here's the sesame seeds . 2883693_2886258
+*MOT:	sprinkle , sprinkle , sprinkle . 2886258_2889561
+*MOT:	now +... 2889561_2903485
+*MOT:	I need that measuring cup , again . 2903485_2906355
+*MOT:	well , I think I'm gonna boil some water . 2914165_2917080
+*MOT:	you have some sesame there , don't you ? 2923168_2925545
+*MOT:	mhm . 2928700_2930023
+*MOT:	is it delicious ? 2930023_2931931
+*MOT:	oh I'm so glad . 2934011_2936091
+*MOT:	I'm so glad it's delicious . 2936091_2939248
+*MOT:	rice . 2950305_2952021
+*MOT:	this is what the rice looks like before it gets cooked , it's very hard . 2952021_2957923
+*MOT:	it's too hard to eat , it has to be cooked . 2957923_2960576
+*MOT:	I'm gonna cook it in the hot water , and then it will get soft enough to eat . 2960576_2966146
+*MOT:	oh , you know we should have had Daddy buy tomato sauce when he went shopping . 2983900_2988718
+*MOT:	I forgot that you are so into it now . 2988718_2992783
+*MOT:	Mommy's gonna stir the beans that are on the stove . 3000038_3003693
+*MOT:	you're closing the high+chair ? 3018000_3019908
+*MOT:	with your foot ? 3019908_3021655
+*MOT:	the foot+rest you mean ? 3021655_3023555
+*MOT:	mm . 3023555_3027021
+*MOT:	are you talking about (.) the place in the back of the car near your car+seat where you stick your foot ? 3048500_3055815
+*MOT:	the door handle , that was where you rest your foot when you're there sometimes . 3056500_3060460
+*MOT:	you had some trouble getting your foot in there today . 3061556_3063988
+*MOT:	I noticed that . 3064800_3066243
+*MOT:	you wanted to play my foot is stuck . 3066243_3070555
+*MOT:	oh , at the store ? 3077515_3079526
+*MOT:	you played trains at the bookstore . 3080300_3082173
+*MOT:	you put trains in the train house . 3086196_3087763
+*MOT:	I think that's called the round house . 3087500_3089986
+*MOT:	that's called the round house where you were putting those trains . 3091021_3094180
+*MOT:	yup [: yes] . 3095500_3096396
+*MOT:	and then closing the doors +//.
+*MOT:	that was fun to play with , wasn't it ? 3099100_3102660
+*MOT:	what's that ? 3109455_3110746
+*MOT:	oh , there was a big house for the trains , and there was a little house for the trains . 3113700_3117771
+*MOT:	that's right . 3117771_3119461
+*MOT:	the green train ? 3121345_3122636
+*MOT:	uhhuh . 3123400_3124420
+*MOT:	yes ? 3128888_3130595
+*MOT:	was there a purple train , I didn't notice that . 3134481_3137326
+*MOT:	it's yeah , oh . 3139295_3140166
+*MOT:	there were a lot of trains on that train table , actually . 3140890_3144408
+*MOT:	you were putting a practicing putting in the house , weren't you ? 3148448_3151620
+*MOT:	do you want a little more of this yogurt , to drink ? 3151620_3154930
+*MOT:	oh you didn't like that , okay . 3156500_3158095
+*MOT:	Mommy will drink it . 3158095_3161978
+*MOT:	how did you get upstairs , said the policeman to Corduroy . 3168306_3172288
+*MOT:	would you like some cook(ies) +//?
+*MOT:	what ? 3176758_3177961
+*MOT:	off came the button from the mattress ! 3180020_3182195
+*MOT:	yeah ! 3183098_3183851
+*MOT:	off came the button ! 3186500_3188195
+*MOT:	and Corduroy goes flying up in the air ! 3188195_3192676
+*MOT:	and he falls down knocking over a lamp . 3192676_3195621
+*MOT:	and the policeman says +... 3196676_3200156
+*MOT:	somebody up there ? 3200156_3202308
+*MOT:	and it turns out to be Corduroy . 3204500_3206451
+*MOT:	Naima , would you like some cookies ? 3211100_3213153
+*MOT:	do you want elephant cookies or Naima's cookies ? 3215965_3218686
+*MOT:	oh you're eating more sesame , okay . 3222000_3223776
+*MOT:	let me know if you want some cookies . 3223776_3227513
+*MOT:	I'm noticing that this needs rinsing +... 3230750_3233648
+*MOT:	and this needs putting away . 3233648_3246365
+*MOT:	now I'm putting the rice in the boiling water . 3246365_3260088
+*MOT:	to cook it . 3260088_3262413
+*MOT:	now we have_to make it boil again . 3262413_3270455
+*MOT:	off came the button from the mattress ! 3279865_3282485
+*MOT:	I'm eating egg whites with sesame seeds . 3288400_3292291
+*MOT:	mm mm mm . 3292291_3298383
+*MOT:	mm mm mm ! 3302200_3303351
+*MOT:	mm mm !
+*MOT:	xxx . 3307436_3308161
+*MOT:	mm breathed little bird , mm mm mm .
+*MOT:	that's a good story too . 3314665_3316743
+*MOT:	little bird's mama tucks little bird in , gets that baby ready for bed , right ? 3316743_3324543
+*MOT:	no she's not waking you up , she's getting her ready to sleep . 3326375_3329313
+*MOT:	what ? 3330683_3331551
+*MOT:	she's checking him in , as you well know . 3333288_3336521
+*MOT:	are you making a joke ? 3336521_3338166
+*MOT:	you sure ? 3340173_3342946
+*MOT:	yeah .
+*MOT:	I think you're making a joke . 3345930_3348630
+*MOT:	you know little bird's going to sleep in that book . 3348630_3352011
+*MOT:	her mommy tucks her in . 3356200_3358238
+*MOT:	what ? 3362821_3364631
+*MOT:	who ? 3366841_3368215
+*MOT:	you mean , little bird's mama ? 3369790_3371905
+*MOT:	little bird's mama +... 3373581_3375586
+*MOT:	is tucking her into bed . 3377716_3380560
+*MOT:	I forgot to turn the rice down now . 3380560_3383238
+*MOT:	yeah . 3387081_3387855
+*MOT:	let me see if I need to put salt in the beans , oh I do . 3387855_3398595
+*MOT:	salt . 3402951_3404391
+*MOT:	off came the button from the mattress . 3412975_3416171
+*MOT:	xxx hippos play with great delight . 3425956_3429500
+*MOT:	are you reciting all your books now ? 3429500_3432103
+*MOT:	are you reading all your books ? 3432103_3437300
+*MOT:	without the books , you telling the stories ? 3437300_3441213
+*MOT:	how did you get up there ? 3447485_3452636
+*MOT:	said the policeman . 3453200_3454725
+*MOT:	on the train table ? 3470558_3472451
+*MOT:	at the , at the bookstore .
+*MOT:	the train table is at the bookstore . 3476093_3480060
+*MOT:	mhm . 3482000_3484195
+*MOT:	supper's [: supper is] gone ? 3498290_3499565
+*MOT:	what ? 3499565_3500546
+*MOT:	suppers +... 3504400_3505888
+*MOT:	who ? 3513100_3513901
+*MOT:	I'm sorry I don't understand what you're saying , who , which story is this about , what story are you telling ?
+*MOT:	which book ? 3529716_3531293
+*MOT:	supper's [: supper is] gone ? 3533875_3535443
+*MOT:	shoppers . 3540228_3541151
+*MOT:	oh , after all the shoppers had gone home , that's when Corduroy goes up the escalator . 3542300_3548593
+*MOT:	mhm . 3549601_3550610
+*MOT:	that's in the book . 3553186_3554613
+*MOT:	after all the shoppers have gone +... 3554613_3558150
+*MOT:	the other house is far away . 3580500_3582253
+*MOT:	the round house is hard to reach for you , (be)cause it's in the middle of the table . 3582253_3586651
+*MOT:	I think for little children it's difficult to reach that house .
+*MOT:	mhm . 3591653_3593031
+*MOT:	well , little girls and little boys . 3594761_3596841
+*MOT:	yeah .
+*MOT:	for Naima .
+*MOT:	mhm . 3605300_3606615
+*MOT:	the green train doesn't go in it ? 3608500_3610400
+*MOT:	or it does go in it ? 3611411_3612743
+*MOT:	it does , there was a purple train that wasn't there . 3613400_3618276
+*MOT:	are you finished with your lunch , (be)cause we can clean your hands if you want . 3620400_3624226
+*MOT:	you wanna eat more sesame ? 3626615_3628013
+*MOT:	with your fingers , okay . 3631300_3632551
+*MOT:	so we'll wait to clean you up , that's fine . 3632551_3634713
+*MOT:	the beans are gonna be cooking for quite a while . 3641723_3644731
+*MOT:	they're not gonna be ready yet . 3644731_3647371
+*MOT:	you can eat the beans tonight . 3647371_3649955
+*MOT:	hmm . 3649955_3655523
+*MOT:	you done eating ? 3655523_3660018
+*MOT:	oh , you're still eating . 3660973_3662355
+*MOT:	still munching . 3662355_3663593
+*MOT:	you're still munching . 3663593_3666353
+*MOT:	nibbling , you're nibbling .
+*MOT:	nibble nibble nibble nibble like a mouse . 3669905_3672816
+*MOT:	squeak squeak squeak ! 3672816_3674841
+*MOT:	nibble nibble nibble nibble .
+*MOT:	nibble nibble . 3690291_3696351
+*MOT:	the water's looking for something to eat ? 3703700_3705998
+*MOT:	you mean the water in your sippy cup ? 3706950_3709061
+*MOT:	hmm . 3710553_3711715
+*MOT:	are you pretending ? 3714830_3716288
+*MOT:	what are you pretending ? 3716288_3722758
+*MOT:	xxx . 3727658_3728876
+*MOT:	you see some letters there on your sippy cup ? 3735400_3738083
+*MOT:	let's see . 3739300_3740853
+*MOT:	let me see . 3742700_3744886
+*MOT:	show Mommy . 3744886_3746093
+*MOT:	oh does that look like a G ? 3748680_3750365
+*MOT:	hmm I don't see any G's , I see T +... 3750365_3754628
+*MOT:	and a U , and an M +... 3754628_3757750
+*MOT:	and a B , and an L , and an E . 3757750_3762680
+*MOT:	there is a G ? 3763600_3764851
+*MOT:	okay , I guess I'm not seeing where the G is . 3768500_3771615
+*MOT:	off came the button off the mattress ! 3780440_3783356
+*MOT:	a D , yeah , I think there might be a D . 3786835_3789756
+*MOT:	I think it says do not boil .
+*MOT:	hmm , mhm .
+*MOT:	I'm boiling the rice , and I'm boiling the beans . 3798501_3803591
+*MOT:	boiling is a kind of cooking . 3806615_3809148
+*MOT:	boiling is a way to cook things . 3809148_3812348
+*MOT:	oh you're pretending to wash the spoon +//?
+*MOT:	would you like to &uh , wash Liza ? 3815501_3820645
+*MOT:	because when xxx was visiting yesterday , she had Liza in her mouth , you remember that ? 3821500_3826285
+*MOT:	xxx was chewing on Liza a little bit , because xxx teething . 3826285_3833980
+*MOT:	you like the sesame don't you ? 3857693_3860180
+*MOT:	that's yummy . 3860180_3862020
+*MOT:	what dropped ? 3868018_3870190
+*MOT:	what ? 3872023_3873441
+*MOT:	nursie ? 3874700_3875730
+*MOT:	you can drink nursie milk after . 3889315_3892043
+*MOT:	you wanna give Liza her bath ? 3895000_3897153
+*MOT:	here she is . 3900000_3901385
+*MOT:	she's quite dirty because xxx had her in her mouth , remember ? 3901385_3905395
+*MOT:	mm .
+*MOT:	mhm .
+*MOT:	let's get some nice warm water for her . 3913090_3923436
+*MOT:	does she like warm water ? 3923436_3931858
+*MOT:	gesundeit@s:deu .
+*MOT:	okay , here's Liza's bath . 3941625_3951020
+*MOT:	you're giving her a nice bath , aren't you ? 3956626_3959496
+*MOT:	she's got a lot of bubbles in her bath . 3959496_3965413
+*MOT:	she's in her bath ! 3974385_3976785
+*MOT:	having a good time , it looks like . 3976785_3979865
+*MOT:	where did she go , anyway ?
+*MOT:	is she having a good bath ? 4003893_4006580
+*MOT:	is she getting all clean ? 4006580_4010028
+*MOT:	are you scrubbing her and scrub_a_dub_dubbing [: scrubbing] her ? 4012600_4015433
+*MOT:	washie washie washie +... 4017145_4019573
+*MOT:	washie washie washie +... 4019573_4022958
+*MOT:	washie washie Liza +... 4024500_4026630
+*MOT:	pick peck . 4026630_4029398
+*MOT:	poke . 4029398_4032083
+*MOT:	are you scrub_a_dub [: scrub] bing her ? 4032083_4035718
+*MOT:	are you giving her bath ? 4057000_4058700
+*MOT:	oh . 4058700_4062623
+*MOT:	looks like fun . 4062623_4066423
+*MOT:	what is she doing ? 4076833_4078093
+*MOT:	she's singing mommies on the bus ? 4083700_4086551
+*MOT:	how does it go , what's she sing ? 4087400_4089968
+*MOT:	the mommies on the bus say +... 4089968_4092858
+*MOT:	shh shh shh ! 4092858_4094320
+*MOT:	shh shh shh ! 4094320_4095890
+*MOT:	shh shh shh ! 4095890_4097621
+*MOT:	what do the parents on the bus say ? 4101000_4103040
+*MOT:	shh shh shh ! 4105425_4106973
+*MOT:	the parents on the bus say shh shh shh ! 4108600_4112380
+*MOT:	all through the town . 4112380_4116168
+*MOT:	what do the wheels on the bus go ? 4121346_4123453
+*MOT:	yeah ! 4125000_4125878
+*MOT:	the wheels on the bus go round and round +...
+*MOT:	round and round +... 4130351_4131753
+*MOT:	yeah you sing that in your swimming class , I know . 4135100_4137625
+*MOT:	yeah . 4138300_4139380
+*MOT:	yeah . 4141718_4142223
+*MOT:	oh yeah . 4143228_4143981
+*MOT:	is she ready to get out of her bath ? 4143981_4147125
+*MOT:	is she , is she done with her bath ?
+*MOT:	you guys are clean now ? 4152101_4157218
+*MOT:	oh , she likes to go back in , that sounds like you . 4158700_4161913
+*MOT:	you like to go in again and again , you don't like to come out . 4161913_4166018
+*MOT:	hmm . 4166018_4168028
+*MOT:	you dumped the water out .
+*MOT:	she might get cold now . 4170356_4172413
+*MOT:	what ? 4219611_4221080
+*MOT:	your pants are wet . 4222300_4223625
+*MOT:	your jeans are wet , I think that's (be)cause you spilled the water there , right ? 4225100_4228663
+*MOT:	was it uncomfortable ? 4228663_4231230
+*MOT:	we could get a new pair of pants on . 4233956_4236851
+*MOT:	we could do that .
+*MOT:	new jeans . 4242200_4243580
+*MOT:	you could wear some new jeans . 4246363_4248755
+*MOT:	dry ones . 4252000_4253420
+*MOT:	dry jeans . 4253420_4255751
+*MOT:	you could use some dry jeans . 4255751_4260196
+*MOT:	what ? 4262900_4263680
+*MOT:	yeah , okay we'll change them . 4265700_4267820
+*MOT:	let's wipe up the water now .
+*MOT:	it got on your jeans , huh ? 4304440_4306285
+*MOT:	yeah the water from the bath got on your jeans . 4307600_4310416
+*MOT:	I know . 4310416_4313016
+*MOT:	that's what happens .
+*MOT:	okay let's see here . 4325785_4329215
+*MOT:	let's take off your bib . 4329215_4338511
+*MOT:	you're pretending that the sippy cup's [: cup is] going to the play+ground ? 4346900_4349721
+*MOT:	oh . 4357248_4357966
+*MOT:	your jeans are wet , I know . 4367778_4369898
+*MOT:	Mommy will take care of it . 4369898_4371785
+*MOT:	we'll get , we'll get a new pair of pants on . 4371785_4375951
+*MOT:	okay , we'll get a new pair of jeans . 4378500_4380550
+*MOT:	yeah , oh it's very wet , isn't it . 4380550_4382986
+*MOT:	yeah I know . 4383886_4385346
+*MOT:	oh , it's wet ! 4386505_4387921
+*MOT:	she's drying off . 4391500_4392966
+*MOT:	she's busy getting dry . 4392966_4396326
+*MOT:	well +... 4397633_4399465
+*MOT:	she's right over here , I'll give her to you in just a second . 4409768_4412883
+*MOT:	oh does she want to go in the school+bus ? 4417265_4419526
+*MOT:	okay .
+*MOT:	okay . 4423550_4425083
+*MOT:	what's good ? 4436788_4437798
+*MOT:	what ? 4439796_4441708
+*MOT:	your cheeks ? 4441708_4443683
+*MOT:	your cheeks feel good ? 4445851_4447253
+*MOT:	look at all of those +... 4454620_4455686
+*MOT:	pots on the stove . 4455686_4457416
+*MOT:	yes those jeans are very wet . 4462200_4464238
+*MOT:	we're gonna take them off . 4464238_4466436
+*MOT:	these jeans are coming off . 4473081_4475753
+*MOT:	is what these jeans are . 4475753_4477676
+*MOT:	taking off your overalls . 4478930_4480503
+*MOT:	xxx there . 4480503_4482485
+*MOT:	well they're jean [: jeans] overalls , they're still overalls . 4482485_4485481
+*MOT:	yeah . 4486800_4487585
+*MOT:	oh , what a nice hug . 4490100_4492208
+*MOT:	okay . 4497240_4498755
+*MOT:	xxx you gonna call her Liza_a ? 4502516_4504976
+*MOT:	Liza_a . 4504976_4506648
+*MOT:	she's going to the other room ? 4525613_4527411
+*MOT:	okay . 4527411_4528611
+*MOT:	ya [: you] mean . 4532463_4533558
+*MOT:	you mean the living+room ? 4536080_4537528
+*MOT:	that's the living+room . 4539000_4540655
+*MOT:	mhm .
+*MOT:	&uh , this last session was taped on (.) December eighth , Sunday . 4545048_4554353
+*MOT:	so this session is from +...
+*MOT:	Friday the sixth and Sunday the eighth are all together . 4557811_4561351

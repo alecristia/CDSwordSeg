@@ -1,0 +1,884 @@
+*MOT:	what are those ?
+*MOT:	oh (.) look at all the blocks .
+*MOT:	what are you going to make with them ?
+*MOT:	oh my .
+*MOT:	the rich people live in that castle ?
+*MOT:	rich people ?
+*MOT:	a king and queen ?
+*MOT:	they do ?
+*MOT:	okay .
+*MOT:	yeah [= yes] (.) you make another castle .
+*MOT:	I'll go get a king and queen (.) okay ?
+*MOT:	you build a castle .
+*MOT:	here's a king .
+*MOT:	what does he have under his chin ?
+*MOT:	what's that ?
+*MOT:	and what does he have on his head ?
+*MOT:	okay (.) here .
+*MOT:	is he going to come in your castle ?
+*MOT:	okay (.) I'll put him here .
+*MOT:	we have a queen here .
+*MOT:	<do you like to play> [//] have the queen come in your castle ?
+*MOT:	here's the queen .
+*MOT:	what is she wearing ?
+*MOT:	she's broken .
+*MOT:	I don't know where her head is .
+*MOT:	here's the queen and king (.) though .
+*MOT:	here they are .
+*MOT:	they're puppets (.) aren't they ?
+*MOT:	w(h)oop (.) the head falls off .
+*MOT:	it breaks very easily (.) doesn't it ?
+*MOT:	let me fix it .
+*MOT:	you build a castle (.) okay ?
+*MOT:	and I'll fix the puppets .
+*MOT:	you going to build a road to the castle too ?
+*MOT:	what color castle are you making ?
+*MOT:	a yellow castle for him ?
+*MOT:	who's she ?
+*MOT:	just hold her ?
+*MOT:	what is she wearing on her head ?
+*MOT:	and what is she wearing ?
+*MOT:	oh (.) it's a pretty dress .
+*MOT:	it's velvet .
+*MOT:	feel how soft it is .
+*MOT:	that's silk .
+*MOT:	is it soft ?
+*MOT:	pat her dress ?
+*MOT:	how come ?
+*MOT:	<what is it> [/] what is it made out_of ?
+*MOT:	green what ?
+*MOT:	what kind of material ?
+*MOT:	green velvet .
+*MOT:	what happened to the king ?
+*MOT:	put what on again ?
+*MOT:	oh (.) did his head fall off again ?
+*MOT:	his head's always falling off (.) isn't it ?
+*MOT:	he has funny hair (.) doesn't he ?
+*MOT:	oh dear .
+*MOT:	I think we better just lie him down somewhere so he doesn't break .
+*MOT:	can you make a bed for the king ?
+*MOT:	you make a bed for the king .
+*MOT:	where's the bed ?
+*MOT:	what shall we do now ?
+*MOT:	putting a blanket on him ?
+*MOT:	what color blanket shall we put ?
+*MOT:	he doesn't want a blanket on ?
+*MOT:	who ?
+*MOT:	who wants to sleep on another bed ?
+*MOT:	who's she ?
+*MOT:	is she a king too ?
+*MOT:	no (.) what is she ?
+*MOT:	oh (.) I see .
+*MOT:	where's the pillow ?
+*MOT:	&uh .
+*MOT:	where does her head go ?
+*MOT:	is that the queen now ?
+*MOT:	what happened to the pillow ?
+*MOT:	does she not need a pillow ?
+*MOT:	there's nothing left .
+*MOT:	that puppet's all broken .
+*MOT:	just a piece of material .
+*MOT:	we'll have_to look for it later .
+*MOT:	<I'm afraid that the> [//] &uh [//] head fell off .
+*MOT:	would you like to build a little village for the king and queen ?
+*MOT:	let's build a little village for the king and queen .
+*MOT:	shall we build a village ?
+*MOT:	yeah [= yes] .
+*MOT:	<look what shall we> [//] how shall we build a village ?
+*MOT:	look at all the things to build a village with .
+*MOT:	let's build with this first .
+*MOT:	oh (.) what are these ?
+*MOT:	what's on that block ?
+*MOT:	let's see .
+*MOT:	o:h .
+*MOT:	that must be a tower with a clock to tell time .
+*MOT:	it's nine o'clock .
+*MOT:	that's a church .
+*MOT:	these go beside the church .
+*MOT:	now we have a church in our village .
+*MOT:	shall we build a pasture for the animals ?
+*MOT:	all the animals go in this pasture ?
+*MOT:	look at all the little animals .
+*MOT:	yeah [= yes] (.) this shows the different kinds of villages that we
+*MOT:	which kind shall we build ?
+*MOT:	shall we build this with all the animals .
+*MOT:	where's the car going ?
+*MOT:	okay (.) shall we build a zoo for the animals ?
+*MOT:	what animals shall we put in the zoo ?
+*MOT:	a village .
+*MOT:	okay (.) will there be a zoo in the village ?
+*MOT:	okay (.) look at these animals .
+*MOT:	who's in the zoo ?
+*MOT:	here's a man .
+*MOT:	here's a tree .
+*MOT:	see it .
+*MOT:	oh (.) is that a tree too ?
+*MOT:	and what's that ?
+*MOT:	I think that's an elephant .
+*MOT:	shall we build a zoo for them ?
+*MOT:	build a cage ?
+*MOT:	okay (.) I show you .
+*MOT:	help me .
+*MOT:	can you help me ?
+*MOT:	we're building fences .
+*MOT:	okay (.) put the stick in here .
+*MOT:	can you push it in here ?
+*MOT:	where are you pushing it in ?
+*MOT:	there .
+*MOT:	where are the sticks ?
+*MOT:	okay (.) shall we finish building the fence ?
+*MOT:	put this red piece on .
+*MOT:	it's hard (.) isn't it ?
+*MOT:	here on this side .
+*MOT:	has_to go in the little holes .
+*MOT:	now we need to build a little bit more fence on this side (.) right
+*MOT:	so they can't get out ?
+*MOT:	that's a pretty car that you have .
+*MOT:	where's that car going ?
+*MOT:	it's on the road ?
+*MOT:	build a road .
+*MOT:	you build a road with these blocks (.) okay ?
+*MOT:	how do you want to build the road ?
+*MOT:	what are you doing ?
+*MOT:	oh (.) did you make a bump in the road ?
+*MOT:	oh (.) what happened ?
+*MOT:	did somebody bump their head when the car bumped ?
+*MOT:	okay (.) here's a fence .
+*MOT:	can you put all the animals inside ?
+*MOT:	what are you putting inside the fence ?
+*MOT:	what kind of animals are in your fence ?
+*MOT:	&um [= what] ?
+*MOT:	where's the tree ?
+*MOT:	what is that ?
+*MOT:	what kind of animal ?
+*MOT:	does that look like an alligator ?
+*MOT:	oh look how many animals in that fence .
+*MOT:	shall we build another one ?
+*MOT:	is there space for everyone ?
+*MOT:	let's build another one with these blocks (.) okay ?
+*MOT:	we'll put some animals in here .
+*MOT:	okay (.) find some animals .
+*MOT:	what's that ?
+*MOT:	what else shall we make in the village ?
+*MOT:	shall we make some houses ?
+*MOT:	what are these ?
+*MOT:	what's that ?
+*MOT:	what are you gonna put on top of the house ?
+*MOT:	what did you put up ?
+*MOT:	is that a village ?
+*MOT:	what are you building in the village ?
+*MOT:	what's this ?
+*MOT:	where's the truck going ?
+*MOT:	they're going to their home ?
+*MOT:	are they going to go by the railroad tracks and see the train ?
+*MOT:	you don't want them together .
+*MOT:	this is a big truck with two pieces .
+*MOT:	do you want it together ?
+*MOT:	no ?
+*MOT:	this is the wagon that goes behind the truck .
+*MOT:	this is what ?
+*MOT:	that's a truck .
+*MOT:	who's going to see the train ?
+*MOT:	yeah [= yes] (.) where are the animals ?
+*MOT:	in where ?
+*MOT:	behind the fence ?
+*MOT:	<shall we make a big> [//] big fence ?
+*MOT:	what are you gonna put behind this big fence ?
+*MOT:	you want what ?
+*MOT:	here's a kitty cat .
+*MOT:	where are you going to put the kitty cat ?
+*MOT:	yes it is .
+*MOT:	look at her long tail .
+*MOT:	see ?
+*MOT:	do you think that looks more like a mouse ?
+*MOT:	I think that that's a kitty cat .
+*MOT:	let's see what other animals we can find .
+*MOT:	here is a cow .
+*MOT:	where are you going to put the cow ?
+*MOT:	aren't there too many animals in there ?
+*MOT:	It looks pretty crowded .
+*MOT:	shall we build a forest ?
+*MOT:	help me build a forest .
+*MOT:	can you help me build a forest (.) Nina ?
+*MOT:	help me build a forest .
+*MOT:	yeah [= yes] (.) those cards show different villages that you can
+*MOT:	tell me (.) what's in this village ?
+*MOT:	and what else ?
+*MOT:	where are these little houses ?
+*MOT:	are they in front or behind the church ?
+*MOT:	in front of the church .
+*MOT:	what's beside the houses ?
+*MOT:	yeah [= yes] and what else ?
+*MOT:	trees .
+*MOT:	you gonna put trees beside these houses ?
+*MOT:	where are you going to put that tree ?
+*MOT:	yeah [= yes] (.) this is a nice game (.) isn't it ?
+*MOT:	what's that ?
+*MOT:	is that a fence ?
+*MOT:	what is it ?
+*MOT:	on top of what ?
+*MOT:	oh (.) I thought that was the train .
+*MOT:	is that the train ?
+*MOT:	it's a car (.) oh .
+*MOT:	it looks like a train to me .
+*MOT:	it has smoke stacks like a train .
+*MOT:	too_toot@o .
+*MOT:	where is the train going ?
+*MOT:	you going to take the train to the village ?
+*MOT:	make him go in_between all the houses ?
+*MOT:	this is a goat with a horn .
+*MOT:	right there .
+*MOT:	and this is a +...
+*MOT:	cow .
+*MOT:	and this is a chicken .
+*MOT:	are the animals all on top of each_other ?
+*MOT:	aren't they getting a little bit crowded ?
+*MOT:	look at this village street .
+*MOT:	shall we take the car for a ride in the village ?
+*MOT:	in here and out here .
+*MOT:	where's the car now ?
+*MOT:	what did he do ?
+*MOT:	oh dear (.) he has_to be more careful when he drives (.) doesn't he
+*MOT:	don't want him knocking trees down .
+*MOT:	wants to go for a ride in the forest (.) but he has_to be careful .
+*MOT:	we can build a forest on here .
+*MOT:	maybe the trees won't fall down so easily .
+*MOT:	shall we ?
+*MOT:	what fell down ?
+*MOT:	does that look like a hippopotamus ?
+*MOT:	that's a lady .
+*MOT:	she's a funny color .
+*MOT:	that's why you didn't recognize her .
+*MOT:	that's right .
+*MOT:	here's another train for the village .
+*MOT:	look at that .
+*MOT:	isn't that a cute little train ?
+*MOT:	do you like that train ?
+*MOT:	here's the station .
+*MOT:	here's the train station .
+*MOT:	see the train station ?
+*MOT:	here's a conductor .
+*MOT:	see the man ?
+*MOT:	what's this ?
+*MOT:	a roof for the house you mean ?
+*MOT:	right here .
+*MOT:	see the man .
+*MOT:	he's the conductor of the train .
+*MOT:	he goes on the train .
+*MOT:	see .
+*MOT:	where does he go ?
+*MOT:	no (.) this is coal .
+*MOT:	it's rough .
+*MOT:	feel how rough it is .
+*MOT:	there's coal in that wagon .
+*MOT:	where are you gonna take the train ?
+*MOT:	that's part of the wheel .
+*MOT:	see the wheel got broken here .
+*MOT:	let's fix it (.) shall we ?
+*MOT:	see this is one of the train wheels .
+*MOT:	okay (.) here we go .
+*MOT:	alright take the train for a ride .
+*MOT:	where is it going ?
+*MOT:	gonna take it to the forest ?
+*MOT:	is that a big train or a little train ?
+*MOT:	no the roof doesn't come off that house .
+*MOT:	the roof come off this house though .
+*MOT:	what's this ?
+*MOT:	that's the station .
+*MOT:	you gonna bring +...
+*MOT:	no (.) that roof doesn't come off .
+*MOT:	is the train gonna go to the circus ?
+*MOT:	look at that .
+*MOT:	that's a magnet .
+*MOT:	look can you see ?
+*MOT:	you make the horse ride .
+*MOT:	what's the horse doing ?
+*MOT:	who's riding on the magnet now ?
+*MOT:	what's that ?
+*MOT:	do you know ?
+*MOT:	what is it ?
+*MOT:	what's he doing ?
+*MOT:	how's he hanging ?
+*MOT:	what's the clown doing ?
+*MOT:	from his feet .
+*MOT:	is he hanging upside down ?
+*MOT:	now how is he hanging ?
+*MOT:	look how he's hanging now .
+*MOT:	look (.) Nina .
+*MOT:	how's he hanging now ?
+*MOT:	from his hand ?
+*MOT:	and now how is he hanging ?
+*MOT:	is he hanging right side up or upside down .
+*MOT:	you going to make him hang ?
+*MOT:	how you going to hang him ?
+*MOT:	oh (.) how's he hanging ?
+*MOT:	from his feet ?
+*MOT:	what's that ?
+*MOT:	is that a circle ?
+*MOT:	that's a nail .
+*MOT:	let's see if the magnet catches the nail .
+*MOT:	I caught it .
+*MOT:	you wanna play with it ?
+*MOT:	no (.) you can't catch things made out_of wood .
+*MOT:	you catch things made out_of metal .
+*MOT:	what did you catch ?
+*MOT:	you took the whole village out now (.) didn't you ?
+*MOT:	they're sleeping .
+*MOT:	I made them a new bed over here .
+*MOT:	they're sleeping in the village .
+*MOT:	here's the king and queen .
+*MOT:	they're sleeping near the village .
+*MOT:	yup [= yes] .
+*MOT:	shall we finish the village ?
+*MOT:	you want to build a house ?
+*MOT:	shall we go visit someone on the train ?
+*MOT:	who shall we go visit ?
+*MOT:	okay .
+*MOT:	shall build a house too ?
+*MOT:	which is Lijah's house ?
+*MOT:	okay (.) and what was around Elijah's house ?
+*MOT:	well (.) Nina (.) you know what ?
+*MOT:	we're going to a birthday party today .
+*MOT:	we're going to Ari's birthday party .
+*MOT:	I bought a teddy bear for Ari .
+*MOT:	shall we wrap it up ?
+*MOT:	did you see the teddy bear that I bought for Ari ?
+*MOT:	we'll make a package (.) okay ?
+*MOT:	I bought a teddy bear for Ari .
+*MOT:	and we'll wrap it up .
+*MOT:	you see it ?
+*MOT:	this is for Ari .
+*MOT:	Nina's gonna give it to him as a birthday present .
+*MOT:	we're going to wrap him up .
+*MOT:	do you want to look at him ?
+*MOT:	well this is for Ari .
+*MOT:	you can hold him for a minute (.) and then we're going to make a
+*MOT:	do you think Ari will like him ?
+*MOT:	is he cute ?
+*MOT:	what does he have around his neck .
+*MOT:	no (.) he's Ari's .
+*MOT:	he's for Ari .
+*MOT:	we'll put him in a package .
+*MOT:	and then we'll wrap him up in blue paper .
+*MOT:	do you want to help me put the scotch tape ?
+*MOT:	okay .
+*MOT:	we have_to put him in the bag first .
+*MOT:	what is he wearing around his neck ?
+*MOT:	do you want to give him a hug before we wrap him up ?
+*MOT:	is he soft ?
+*MOT:	do you think Ari will like him ?
+*MOT:	what will Ari do with him ?
+*MOT:	you show me one of your teddy bears .
+*MOT:	do you have some teddy bears in your toy box ?
+*MOT:	oh (.) I think you do .
+*MOT:	shall we wrap him up ?
+*MOT:	what color paper shall we use to wrap him up ?
+*MOT:	that's for Ari .
+*MOT:	a birthday present .
+*MOT:	shall we wrap him up in blue paper ?
+*MOT:	do you want to help me with the scotch tape ?
+*MOT:	yeah [= yes] (.) we're going to make lots_of paper around him .
+*MOT:	now (.) will you hold the scotch tape for me ?
+*MOT:	what are you holding ?
+*MOT:	okay (.) now I need a piece of scotch tape .
+*MOT:	w(h)oops (.) is that scotch tape sticky ?
+*MOT:	where shall I put it ?
+*MOT:	on the present ?
+*MOT:	can you hold it down for me ?
+*MOT:	now let's do this side .
+*MOT:	will we need another piece of scotch tape here ?
+*MOT:	okay (.) are you gonna carry this present to Ari ?
+*MOT:	you're going to give it to him ?
+*MOT:	what are you going to say when you give him the present ?
+*MOT:	are you going to say +"/.
+*MOT:	+" happy birthday (.) Ari ?
+*MOT:	do you think we'll have cake at the party ?
+*MOT:	what'll be on the cake ?
+*MOT:	oh (.) what are you going to do with the candles ?
+*MOT:	you gonna blow on them ?
+*MOT:	okay (.) where shall we put Ari's birthday present ?
+*MOT:	do you want to hold it ?
+*MOT:	where are you going to put it ?
+*MOT:	on your shelf ?
+*MOT:	where are you going to put the present ?
+*MOT:	where did you put his present ?
+*MOT:	oh (.) is he missing an arm (.) that man ?
+*MOT:	poor man .
+*MOT:	here's a little horse that came to see your village .
+*MOT:	you don't want him ?
+*MOT:	who is ?
+*MOT:	that man ?
+*MOT:	does he look like a snowman ?
+*MOT:	oh (.) I didn't know that he looked like a snowman .
+*MOT:	are there snowmen in your book about the seasons ?
+*MOT:	where ?
+*MOT:	where is there a snowman ?
+*MOT:	show me where the snowman is .
+*MOT:	oh (.) he's a funny one .
+*MOT:	who's making the snowman ?
+*MOT:	she's making the snowman ?
+*MOT:	is she Nina ?
+*MOT:	I see .
+*MOT:	what is she wearing ?
+*MOT:	oh (.) is that the color of your snowsuit jacket ?
+*MOT:	when it's cold (.) what do you wear ?
+*MOT:	what do you wear on your head when it's cold ?
+*MOT:	a red hat ?
+*MOT:	is that what she's wearing ?
+*MOT:	but now it's not winter anymore (.) is it ?
+*MOT:	so you don't have_to wear a hat .
+*MOT:	now it's almost summer (.) so what can we do in the summer ?
+*MOT:	oh (.) are you gonna go swimming in the water ?
+*MOT:	oh (.) Gail has a swimming pool (.) doesn't she ?
+*MOT:	did you fall in Gail's swimming pool ?
+*MOT:	oh (.) would you like to go swimming in it sometime ?
+*MOT:	no (.) if you go with Mommy you won't fall .
+*MOT:	you can just swim .
+*MOT:	you can hold on .
+*MOT:	what do you do when you swim ?
+*MOT:	do you splash a lot ?
+*MOT:	you do ?
+*MOT:	do you get wet ?
+*MOT:	well you fell in the swimming pool because you went down the slide
+*MOT:	but if you go in at the shallow end (.) then you can touch .
+*MOT:	and soon you'll learn how to swim .
+*MOT:	what ?
+*MOT:	what a funny face .
+*MOT:	what did Mommy just put up on your wall ?
+*MOT:	that's a nice thing .
+*MOT:	is that to show how tall Nina is ?
+*MOT:	has all the inches on it ?
+*MOT:	who's at the bottom ?
+*MOT:	and he's looking up at someone .
+*MOT:	who is he looking at ?
+*MOT:	can I see ?
+*MOT:	who's he looking at ?
+*MOT:	you want to finish building the village ?
+*MOT:	okay (.) you finish building the village .
+*MOT:	what do you want me to build ?
+*MOT:	a what ?
+*MOT:	a horse ?
+*MOT:	here's a horse .
+*MOT:	you gonna put the horse in the middle of the forest ?
+*MOT:	oh (.) that horse .
+*MOT:	okay (.) that horse can only stand up with the magnet .
+*MOT:	here .
+*MOT:	shall I make him gallop down the street of the village ?
+*MOT:	let go .
+*MOT:	there he goes .
+*MOT:	you want to make him go ?
+*MOT:	yup [= yes] .
+*MOT:	who's riding on the horse ?
+*MOT:	oh (.) what happened to the horse ?
+*MOT:	does he have a mane ?
+*MOT:	where is his mane ?
+*MOT:	I see .
+*MOT:	who's riding on the horse ?
+*MOT:	a man or a lady ?
+*MOT:	what is the man wearing ?
+*MOT:	oh (.) what is he wearing on his head ?
+*MOT:	a blue hat ?
+*MOT:	no .
+*MOT:	a red hat .
+*MOT:	he's riding his horse to the circus .
+*MOT:	there must be a circus in this village .
+*MOT:	what did you do ?
+*MOT:	you hurt your foot ?
+*MOT:	how did you hurt your foot ?
+*MOT:	show me where you hurt your foot .
+*MOT:	on where ?
+*MOT:	on your big toe or your little toe ?
+*MOT:	on your big toe ?
+*MOT:	you want to stand your train up ?
+*MOT:	no (.) that's paper left over for another present sometime .
+*MOT:	but we don't have any other presents today .
+*MOT:	we'll go to Rachel's birthday party soon +...
+*MOT:	and then we'll wrap her present in this blue paper too .
+*MOT:	shall we put this paper away very carefully that's left over ?
+*MOT:	shall we get dressed up for Ari's birthday party ?
+*MOT:	that's for Nina .
+*MOT:	what is that ?
+*MOT:	no (.) Mommy bought it for you yesterday at the store .
+*MOT:	what do you say ?
+*MOT:	thank_you ?
+*MOT:	what is it ?
+*MOT:	what is that animal ?
+*MOT:	is that a donkey ?
+*MOT:	that's a donkey .
+*MOT:	let's get dressed up for Ari's birthday .
+*MOT:	yeah [= yes] (.) that's a harness on the donkey .
+*MOT:	are you going to help me get you dressed ?
+*MOT:	what'll come off ?
+*MOT:	the harness ?
+*MOT:	no (.) I think it's stuck on .
+*MOT:	doesn't he have cute eyes ?
+*MOT:	what color eyes does he have ?
+*MOT:	black eyes .
+*MOT:	shall we put a pretty dress on for Ari's birthday party ?
+*MOT:	and what else ?
+*MOT:	shall we put on this dress here ?
+*MOT:	with the blouse and the skirt ?
+*MOT:	what color blouse is this ?
+*MOT:	green flowers on it ?
+*MOT:	do you like it ?
+*MOT:	I like this .
+*MOT:	what is that ?
+*MOT:	oh (.) you know what ?
+*MOT:	we better put the skirt on first .
+*MOT:	what color skirt is it ?
+*MOT:	that's an apron .
+*MOT:	okay (.) <first we'll put on> [/] first we'll put on a clean diaper
+*MOT:	that's what we'll put on first .
+*MOT:	let's just put it on .
+*MOT:	<would you like to hold> [/] would you like to hold your donkey ?
+*MOT:	hold your apron ?
+*MOT:	we're going to a birthday party .
+*MOT:	who are you going to see at Ari's house ?
+*MOT:	who's going to be there ?
+*MOT:	yeah [= yes] (.) so did Nina .
+*MOT:	remember your birthday party ?
+*MOT:	what did you do at your birthday party ?
+*MOT:	eat what ?
+*MOT:	eat candy ?
+*MOT:	what else ?
+*MOT:	did you eat cake at your birthday party ?
+*MOT:	okay (.) let's put your diapers on .
+*MOT:	who are we singing happy birthday to today ?
+*MOT:	that's right he's going to be +...
+*MOT:	but today it's Ari's birthday .
+*MOT:	Ari's going to be one year old .
+*MOT:	Becca will be there too .
+*MOT:	who else will be there ?
+*MOT:	she'll be at Ari's house too .
+*MOT:	where's Becca ?
+*MOT:	at Ari's home .
+*MOT:	Ellie and David will be there too .
+*MOT:	why poor Becca ?
+*MOT:	that's right .
+*MOT:	do you want to play out in the yard ?
+*MOT:	what are we gonna play in the yard ?
+*MOT:	are you gonna +...
+*MOT:	what are we gonna play ?
+*MOT:	what is that ?
+*MOT:	ashes (.) you mean ?
+*MOT:	all fall down .
+*MOT:	are you going to go on their slide ?
+*MOT:	now what shall we put on first ?
+*MOT:	your skirt ?
+*MOT:	over your head ?
+*MOT:	can you pull it ?
+*MOT:	what are you doing ?
+*MOT:	is that for you do go dancing in ?
+*MOT:	does Mommy wear skirts when she goes dancing ?
+*MOT:	what are you going to do in this skirt ?
+*MOT:	shall we put suspenders on to hold up the skirt ?
+*MOT:	<I think we better (be)cause> [//] <we'll put> [/] we'll put a
+*MOT:	you won't be able to see the suspenders .
+*MOT:	well the skirt'll fall down when you dance .
+*MOT:	see ?
+*MOT:	so (.) I think we better put suspenders on .
+*MOT:	are you dancing ?
+*MOT:	you really +...
+*MOT:	I'll show you .
+*MOT:	let me just show you (.) and then you can decide .
+*MOT:	(be)cause I want to put this +...
+*MOT:	do you want to put this on ?
+*MOT:	then you have_to put the suspenders on underneath (.) so_that this
+*MOT:	(be)cause remember at the other birthday party your dress kept
+*MOT:	it kept falling down .
+*MOT:	so if we put suspenders on (.) it won't fall down .
+*MOT:	whose suspenders are these ?
+*MOT:	okay (.) turn around .
+*MOT:	are they Becca's ?
+*MOT:	what a cute skirt .
+*MOT:	okay (.) you snap .
+*MOT:	push .
+*MOT:	hey (.) what did you do ?
+*MOT:	do you want to snap the other one too ?
+*MOT:	let me open it up .
+*MOT:	okay (.) let's fix it like this .
+*MOT:	okay .
+*MOT:	good for you .
+*MOT:	is it all snapped ?
+*MOT:	do you want to have your black shoes ?
+*MOT:	your black party shoes ?
+*MOT:	okay (.) let's put on your blouse next .
+*MOT:	oh (.) this is so pretty .
+*MOT:	what color blouse is it ?
+*MOT:	who is it for ?
+*MOT:	to wear to Becca's party ?
+*MOT:	let me see if I can +...
+*MOT:	would like a dress .
+*MOT:	oh (.) I love it .
+*MOT:	I think you look very pretty in it .
+*MOT:	do you think you look pretty in it ?
+*MOT:	what shall we do with your hair ?
+*MOT:	want to wear ponytails in your hair ?
+*MOT:	what do you want to do with your hair ?
+*MOT:	you want what ?
+*MOT:	you want to be Nina ?
+*MOT:	of course you're Nina .
+*MOT:	I meant what do you want me to do with your hair ?
+*MOT:	shall I put pigtails or a ponytail on it ?
+*MOT:	okay (.) turn around .
+*MOT:	that's the apron .
+*MOT:	stand up .
+*MOT:	let's put the apron on .
+*MOT:	oh (.) that's so cute .
+*MOT:	what are you doing ?
+*MOT:	what are you doing in your new dress ?
+*MOT:	okay (.) you better stop dancing (.) so I can get this on .
+*MOT:	what did I put on now ?
+*MOT:	what's that ?
+*MOT:	&um [= what] ?
+*MOT:	that's an apron .
+*MOT:	careful (.) don't touch it .
+*MOT:	it'll pinch you .
+*MOT:	yeah [= yes] (.) we have_to be careful (.) don't we ?
+*MOT:	yeah [= yes] (.) we have_to put socks on .
+*MOT:	shall we put some pretty white socks on or tights ?
+*MOT:	wanna wear tights ?
+*MOT:	okay .
+*MOT:	white tights ?
+*MOT:	what do you have on your +...
+*MOT:	ankle ?
+*MOT:	why (.) what happened ?
+*MOT:	when did you hurt yourself ?
+*MOT:	when did you hurt yourself ?
+*MOT:	yesterday ?
+*MOT:	who put the band_aid on ?
+*MOT:	oh (.) how did you hurt yourself ?
+*MOT:	at the park ?
+*MOT:	at your home ?
+*MOT:	what did you do ?
+*MOT:	you helping me ?
+*MOT:	did that band_aid come off ?
+*MOT:	you know it's so warm (.) I don't think we need tights .
+*MOT:	I think we can wear white socks .
+*MOT:	it's very warm out today .
+*MOT:	okay ?
+*MOT:	we'll bring the white tights along if it gets cold .
+*MOT:	let's put these on for now .
+*MOT:	who sent you these black shoes ?
+*MOT:	Sandy did (.) right ?
+*MOT:	I put some cotton in the shoe because it's a little bit too big for
+*MOT:	see how it compares to your brown shoes .
+*MOT:	it's a little bit bigger .
+*MOT:	you see they're a little bigger than your brown shoes (.) so you
+*MOT:	what's that ?
+*MOT:	okay (.) let me put your sock on first .
+*MOT:	&um (.) you have a nice foot .
+*MOT:	for your hands ?
+*MOT:	what are you doing ?
+*MOT:	clapping with your hands ?
+*MOT:	that's a funny place to have shoes .
+*MOT:	where do people wear shoes ?
+*MOT:	on their feet ?
+*MOT:	what do you wear on your hand ?
+*MOT:	remember (.) Mommy was wearing some yesterday when she picked up
+*MOT:	what do you call those ?
+*MOT:	do you call those shoes ?
+*MOT:	no (.) you call those gloves .
+*MOT:	so what do you wear on your hands ?
+*MOT:	you pretending those shoes are gloves ?
+*MOT:	okay (.) let's put on your pretty black shoes .
+*MOT:	which one goes on which foot ?
+*MOT:	this goes on this foot .
+*MOT:	have_to untie it .
+*MOT:	did Mr Wood fix these for you ?
+*MOT:	what did he do ?
+*MOT:	he fixed it ?
+*MOT:	did he make an extra hole ?
+*MOT:	did you sleep at Missus Wood's house last night ?
+*MOT:	where did you sleep ?
+*MOT:	in a bed ?
+*MOT:	who did you sleep with ?
+*MOT:	did she give you an animal to sleep with ?
+*MOT:	what animal did she give you ?
+*MOT:	oh (.) was he cute ?
+*MOT:	did you hug him ?
+*MOT:	you held him ?
+*MOT:	did you play with the woods before going to sleep ?
+*MOT:	w(h)oops (.) that wasn't the way to put on your shoe .
+*MOT:	this is the way (.) right ?
+*MOT:	now we still have_to brush your hair .
+*MOT:	you don't want to ?
+*MOT:	you don't want a ponytail ?
+*MOT:	what do you want ?
+*MOT:	pigtails ?
+*MOT:	David is gonna take pictures (.) so you should look pretty .
+*MOT:	stand up .
+*MOT:	okay (.) wait a minute .
+*MOT:	stand up .
+*MOT:	I want to see if the dress fits you .
+*MOT:	let's see if the dress fits you .
+*MOT:	does it fit you ?
+*MOT:	do you want to brush Mommy's hair ?
+*MOT:	you brush Mommy's hair .
+*MOT:	Mommy's hair needs brushing .
+*MOT:	yeah [= yes] (.) I'm going to wear a ponytail .
+*MOT:	do you want one too ?
+*MOT:	why not ?
+*MOT:	you don't want to ?
+*MOT:	okay (.) I'll just give you a quick brush .
+*MOT:	w(h)oop .
+*MOT:	show me your new bangs .
+*MOT:	where are your new bangs ?
+*MOT:	okay (.) <we better put some of these toys away before going to see
+*MOT:	yeah [= yes] .
+*MOT:	we have time to look at this little book if you want to .
+*MOT:	this is a book all about a doggy (.) isn't it ?
+*MOT:	what is the doggy doing ?
+*MOT:	my_goodness .
+*MOT:	where is he ?
+*MOT:	with whom ?
+*MOT:	oh (.) isn't that funny .
+*MOT:	and where is he here ?
+*MOT:	in the shopping cart ?
+*MOT:	oh that's a terrible place for him to be .
+*MOT:	he's going to break all the eggs (.) isn't he ?
+*MOT:	and what did the dog do here ?
+*MOT:	on whose back ?
+*MOT:	is that a policeman ?
+*MOT:	he did ?
+*MOT:	my that dog goes in a_lot_of places .
+*MOT:	where is he here ?
+*MOT:	what did he do to the house ?
+*MOT:	he made the house go upside down .
+*MOT:	in the ice+cream truck .
+*MOT:	oh (.) that dog is everywhere (.) isn't it ?
+*MOT:	there he's in the house .
+*MOT:	does he have a long something hanging out_of his mouth ?
+*MOT:	what is that ?
+*MOT:	oh (.) what is he licking ?
+*MOT:	he's licking the house .
+*MOT:	he's got such a long tongue that he can lick the house .
+*MOT:	here he turned the house +...
+*MOT:	oh (.) goodness sakes .
+*MOT:	he made everything go upside down ?
+*MOT:	everybody's looking at him .
+*MOT:	who's playing with the dog ?
+*MOT:	what are they looking at ?
+*MOT:	what is that boy wearing ?
+*MOT:	what else ?
+*MOT:	he has a finger in his mouth ?
+*MOT:	and what does he have on his nose and on his eyes ?
+*MOT:	no (.) he's wearing glasses (.) right ?
+*MOT:	uhoh [= trouble] (.) what is the dog doing here ?
+*MOT:	he's jumping isn't he ?
+*MOT:	where's he jumping into ?
+*MOT:	what is the dog doing ?
+*MOT:	he's jumping into the carriage .
+*MOT:	is the Mommy happy ?
+*MOT:	she said +"/.
+*MOT:	+" oh dear (.) what are you doing to my baby ?
+*MOT:	is she happy here ?
+*MOT:	what is she doing here ?
+*MOT:	the dog's under the carriage here (.) and the Mommy smiles at the
+*MOT:	who's in the carriage ?
+*MOT:	she doesn't want the doggy to bother her baby (.) does she ?
+*MOT:	what is the Mommy doing ?
+*MOT:	what is she pushing ?
+*MOT:	that's a what ?
+*MOT:	a dress ?
+*MOT:	what is the baby doing ?
+*MOT:	what is the baby doing ?
+*MOT:	is she patting the doggy ?
+*MOT:	does she like the doggy ?
+*MOT:	what's the dog doing here ?
+*MOT:	he's sitting on the +...
+*MOT:	no (.) that's not a bookcase .
+*MOT:	that's a tractor .
+*MOT:	and what happened to the Man's hat ?
+*MOT:	because he jumped on so quickly .
+*MOT:	what's he telling the dog ?
+*MOT:	he's angry .
+*MOT:	what is he telling him ?
+*MOT:	+" go away .
+*MOT:	(.) right ?
+*MOT:	he doesn't want the dog there .
+*MOT:	who's holding the dog now ?
+*MOT:	&um [= what] ?
+*MOT:	uhoh [= trouble] .
+*MOT:	what's the dog doing now ?
+*MOT:	he's jumping on the ice+cream truck (.) right ?
+*MOT:	what is he doing here ?
+*MOT:	what is he feeding him ?
+*MOT:	ice+cream cones .
+*MOT:	what are these children eating ?
+*MOT:	with what ?
+*MOT:	and their +...
+*MOT:	they're licking it (.) aren't they ?
+*MOT:	with what ?
+*MOT:	that's right .
+*MOT:	do you see a little girl in this picture ?
+*MOT:	uhhuh [= yes] .
+*MOT:	where's the little girl ?
+*MOT:	where is she ?
+*MOT:	is this the little girl ?
+*MOT:	where's the little girl ?
+*MOT:	and what are these two ?
+*MOT:	I see (.) and who's this ?
+*MOT:	the Man's feeding the dog ice+cream .
+*MOT:	I guess he likes the dog .
+*MOT:	he's taking a ride in the cart at the store .
+*MOT:	do you ride with Mommy at the store ?
+*MOT:	do you go in the cart too ?
+*MOT:	is there a seat for you ?
+*MOT:	do you sit in the seat ?
+*MOT:	what do you do at the store ?
+*MOT:	do you do what the dog does ?
+*MOT:	no (.) you don't sit on top of the groceries (.) do you ?
+*MOT:	where do you sit ?
+*MOT:	and look what happened ?
+*MOT:	what did he break ?
+*MOT:	he broke the eggs (.) didn't he ?
+*MOT:	where are the eggs ?
+*MOT:	what did the dog do ?
+*MOT:	bad dog .
+*MOT:	what did he do ?
+*MOT:	what did he do ?
+*MOT:	what did he make go on the floor ?
+*MOT:	the eggs ?
+*MOT:	now where is he jumping into ?
+*MOT:	where's he going now ?
+*MOT:	of what ?
+*MOT:	where's he going ?
+*MOT:	in the door of what ?
+*MOT:	of the bus ?
+*MOT:	oh (.) he's talking to the bus driver here (.) isn't he ?
+*MOT:	what is the girl doing ?
+*MOT:	what's the girl doing ?
+*MOT:	where's the dog now ?
+*MOT:	what is he doing ?
+*MOT:	he's riding .
+*MOT:	he's riding on a scooter with wheels .
+*MOT:	uhoh [= trouble] (.) he's going awfully fast .
+*MOT:	<what the children have_to do> [//] to catch him ?
+*MOT:	they're trying to catch him .
+*MOT:	what are they doing ?
+*MOT:	he's going far away .
+*MOT:	so what do they have_to do ?
+*MOT:	do they have_to walk or run ?
+*MOT:	who are they running after ?
+*MOT:	they're running after the doggy .
+*MOT:	uhoh [= trouble] (.) where is he going to ?
+*MOT:	what color light is here ?
+*MOT:	we'll get that off later (.) so it won't break .
+*MOT:	what color light is on the street ?
+*MOT:	no .
+*MOT:	that's a red light .
+*MOT:	what does that mean ?
+*MOT:	we have_to stop .
+*MOT:	are the cars gonna stop ?
+*MOT:	should the dog go in the road ?
+*MOT:	why (.) what'll happen ?
+*MOT:	why (.) what'll happen ?
+*MOT:	the boy hurt himself .
+*MOT:	they're afraid that the dog's going to go on the street (.) right ?
+*MOT:	look at all the different cars on the street .
+*MOT:	what's on the street ?
+*MOT:	he's on the street .
+*MOT:	and there're many what on the street ?
+*MOT:	and what else ?
+*MOT:	where's the fire engine .

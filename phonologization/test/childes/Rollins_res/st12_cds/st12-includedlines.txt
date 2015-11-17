@@ -1,0 +1,415 @@
+*MOT:	xxx . 0_1406
+*MOT:	do you do it , wanna do it . 3476_5363
+*MOT:	0 . [+ trn] 6130_6818
+*MOT:	wanna push . 7155_7808
+*MOT:	push it . 7808_9008
+*MOT:	0 . [+ trn] 9008_13246
+*MOT:	0 [=! voc] . [+ trn] 13246_15881
+*MOT:	I want to play with those . 20655_22108
+*MOT:	this one xxx come off . 22108_24278
+*MOT:	xxx . 24278_26303
+*MOT:	&hmm . 26303_26720
+*MOT:	0 . [+ trn] 30918_32840
+*MOT:	xxx one . 33890_35808
+*MOT:	it doesn't push . 35808_37328
+*MOT:	this one pushes . 37328_38545
+*MOT:	0 . [+ trn] 43318_44961
+*MOT:	0 . [+ trn] 46681_51790
+*MOT:	want to stack (th)em up . 51790_53191
+*MOT:	0 . [+ trn] 53191_56445
+*MOT:	0 . [+ trn] 59181_62018
+*MOT:	wanna put it on there . 62018_66938
+*MOT:	0 [=! voc] . 69798_71950
+*MOT:	0 . [+ trn] 70348_71970
+*MOT:	good job . 71970_73525
+*MOT:	good job Chi . 73525_75728
+*MOT:	say yay . 78586_80420
+*MOT:	0 . [+ trn] 80420_83745
+*MOT:	0 . [+ trn] 87416_91038
+*MOT:	0 [=! laugh] . 91038_94156
+*MOT:	can you get it off . 97426_98745
+*MOT:	0 . [+ trn] 100746_102018
+*MOT:	can you say Big_Bird . 107893_109145
+*MOT:	bird . 110663_111330
+*MOT:	hum . 111330_113386
+*MOT:	ya [: you] wanna put this on . 114395_116315
+*MOT:	0 . [+ trn] 123510_125213
+*MOT:	0 . [+ trn] 128199_132788
+*MOT:	it's on your head . 130324_132543
+*MOT:	0 [=! laughs] . [+ trn] 133515_134901
+*MOT:	0 . [+ trn] 135135_136743
+*MOT:	0 . [+ trn] 138561_142650
+*MOT:	0 [=! laughs] . 147888_149578
+*MOT:	push it xxx . 152548_154103
+*MOT:	good job . 154103_155305
+*MOT:	yay Chi . 155305_157506
+*MOT:	yay Chi . 158325_161116
+*MOT:	0 . [+ trn] 161830_163850
+*MOT:	yay Chi . 168870_170921
+*MOT:	0 . [+ trn] 170855_173025
+*MOT:	0 . [+ trn] 172883_177906
+*MOT:	0 . [+ trn] 179425_180776
+*MOT:	0 . [+ trn] 180776_182178
+*MOT:	0 . [+ trn] 182178_184958
+*MOT:	0 . [+ trn] 188130_189080
+*MOT:	is there one on my head . 189481_191016
+*MOT:	0 . 191016_191866
+*MOT:	0 [=! laughs] . 192820_195171
+*MOT:	see y(ou) bow . 195171_196875
+*MOT:	0 . [+ trn] 197995_198880
+*MOT:	0 . 198880_200641
+*MOT:	0 [=! voc] . [+ trn] 202001_202435
+*MOT:	huh . 203068_203801
+*MOT:	0 . [+ trn] 203801_205138
+*MOT:	what's on your head [=! laughs] . 206638_209691
+*MOT:	what's on your head . 210568_212336
+*MOT:	0 . [+ trn] 213505_217610
+*MOT:	mhm . 218326_218945
+*MOT:	you wanna get it . 218945_221246
+*MOT:	0 . [+ trn] 222565_225335
+*MOT:	0 [=! voc] . [+ trn] 227953_228370
+*MOT:	0 . [+ trn] 228370_230140
+*MOT:	0 [=! laughs] . [+ trn] 230590_232280
+*MOT:	0 . [+ trn] 232280_238263
+*MOT:	0 . [+ trn] 240658_243246
+*MOT:	0 [=! voc] . [+ trn] 244098_244600
+*MOT:	0 . [+ trn] 244600_248670
+*MOT:	0 [=! laughs] . 249433_250951
+*MOT:	0 . [+ trn] 251751_253586
+*MOT:	0 [=! voc] . [+ trn] 253985_254620
+*MOT:	can you say bird . 258175_259306
+*MOT:	bird . 259306_261208
+*MOT:	bird . 262175_263183
+*MOT:	&hmm . 263966_264996
+*MOT:	bird . 265763_267631
+*MOT:	0 [=! voc] . [+ trn] 268940_272728
+*MOT:	0 [=! voc] . [+ trn] 273046_274966
+*MOT:	can you say bird . 274966_276635
+*MOT:	boo@o . 276635_280221
+*MOT:	0 [=! laughs] . [+ trn] 280771_281740
+*MOT:	boo@o . [+ itr] 281740_283011
+*MOT:	baabaa@o . [+ itr] 283613_285916
+*MOT:	0 [=! voc] . [+ trn] 286553_287886
+*MOT:	0 . [+ trn] 288158_290093
+*MOT:	xxx Big_Bird Chi . 290960_292955
+*MOT:	0 [=! voc] . [+ trn] 294548_296918
+*MOT:	0 [=! voc] . [+ trn] 296918_299756
+*MOT:	0 [=! laughs] . 300573_301173
+*MOT:	0 [=! voc] [>] . [+ trn] 301173_303796
+*MOT:	0 [=! laughs] . 303796_305365
+*MOT:	0 [=! voc] . [+ trn] 306490_307218
+*MOT:	0 [=! voc] [>] . [+ trn] 307218_309120
+*MOT:	0 [=! voc] [<] . [+ trn] 309665_310478
+*MOT:	0 [=! voc] . [+ trn] 310478_311261
+*MOT:	0 [=! voc] . [+ trn] 311261_312265
+*MOT:	0 [=! voc] . [+ trn] 313003_313821
+*MOT:	0 [=! voc] . [+ trn] 313821_315188
+*MOT:	0 [=! voc] . [+ trn] 315188_315706
+*MOT:	0 [=! voc] . [+ trn] 316395_317018
+*MOT:	0 [=! laughs] [<] . 317018_318656
+*MOT:	0 [=! voc] . [+ trn] 318687_319358
+*MOT:	0 [=! laughs] [<] . [+ trn] 319358_320863
+*MOT:	0 [=! voc] . [+ trn] 320863_322666
+*MOT:	0 [=! laughs] [<] . [+ trn] 322666_325436
+*MOT:	0 [=! voc] . [+ trn] 325436_326338
+*MOT:	0 [=! voc] . [+ trn] 328408_329325
+*MOT:	0 [=! voc] . [+ trn] 331126_332328
+*MOT:	0 [= ! voc] . [+ trn] 332328_334430
+*MOT:	0 [=! voc] [<] . [+ trn] 334430_336065
+*MOT:	0 [=! voc] . [+ trn] 336781_339563
+*MOT:	0 [=! voc] . [+ trn] 339563_342388
+*MOT:	0 [=! voc] . [+ trn] 343156_345041
+*MOT:	0 [=! voc] . [+ trn] 345876_347228
+*MOT:	0 [=! voc] . [+ trn] 348630_349980
+*MOT:	behind you . 349980_353183
+*MOT:	0 . [+ trn] 353183_355053
+*MOT:	0 . [+ trn] 356338_357425
+*MOT:	0 [=! voc] [<] . [+ trn] 358593_359611
+*MOT:	0 [=! laughs] . [+ trn] 359611_361463
+*MOT:	where Big_Bird go . 361638_363401
+*MOT:	where'd Big_Bird go . 363401_364536
+*MOT:	Chi . 364998_365981
+*MOT:	where'd Big_Bird go . 365981_367266
+*MOT:	peek_a_boo . 367266_370270
+*MOT:	peek_a_boo . 370270_372573
+*MOT:	peek_a_boo . 374208_374791
+*MOT:	Chi . 376676_378111
+*MOT:	who's this . 378111_379713
+*MOT:	is this Big_Bird . 381265_382183
+*MOT:	yay Chi . 386310_389020
+*MOT:	who's this . 389486_390471
+*MOT:	who's this . 392071_393158
+*MOT:	Chi . 393158_394891
+*MOT:	boo@o . 396615_398555
+*MOT:	where'd he go . 399638_400673
+*MOT:	ahhah . 400673_401641
+*MOT:	peek_a_boo . 401641_403363
+*MOT:	0 [=! laughs] . [+ trn] 403363_404113
+*MOT:	where'd he go . 404113_405183
+*MOT:	0 . [+ trn] 405533_406635
+*MOT:	<peek_a_boo> [<] . 406908_408426
+*MOT:	where'd Big_Bird go . 409961_411980
+*MOT:	ahhah . 411980_412848
+*MOT:	peek_a_boo . 413883_415751
+*MOT:	where'd Big_Bird go ahhah . 417101_419200
+*MOT:	0 [=! voc] . [+ trn] 419200_423376
+*MOT:	0 [=! voc] . [+ trn] 423376_424778
+*MOT:	0 [=! voc] [>] . [+ trn] 424883_427135
+*MOT:	0 . [+ trn] 427235_428420
+*MOT:	where'd Big_Bird go . 429140_430760
+*MOT:	Chi . 432161_432695
+*MOT:	0 [=! whispers] . [+ trn] 434635_438371
+*MOT:	0 . [+ trn] 441620_445180
+*MOT:	0 . [+ trn] 448361_450563
+*MOT:	0 . 452765_454643
+*MOT:	0 . [+ trn] 456478_460766
+*MOT:	0 . [+ trn] 460958_463928
+*MOT:	0 . [+ trn] 468218_471871
+*MOT:	0 [=! laughs] . 473493_474888
+*MOT:	0 . [+ trn] 475691_478693
+*MOT:	0 . [+ trn] 481363_487953
+*MOT:	0 [=! voc] . [+ trn] 489271_489755
+*MOT:	we bored with that . 491758_493310
+*MOT:	huh . 493310_494046
+*MOT:	0 . [+ trn] 494046_495431
+*MOT:	where's Big_Bird . 495431_496033
+*MOT:	Big_Bird on Mot's shoulder . 496033_498753
+*MOT:	is Big_Bird on Mot's shoulder . 499650_501190
+*MOT:	0 . [+ trn] 503591_507746
+*MOT:	good job . 509066_511070
+*MOT:	y(ou) want to read a book . 511411_512628
+*MOT:	what else do we have here . 512628_514434
+*MOT:	it's a rattle . 517888_519691
+*MOT:	yay . 520342_521659
+*MOT:	look what we have . 523861_526448
+*MOT:	it's a phone . 529468_531736
+*MOT:	y(ou) wanna say hi . 531736_532738
+*MOT:	hello . 532738_535108
+*MOT:	hello . 535108_536560
+*MOT:	0 . [+ trn] 539511_540665
+*MOT:	0 . [+ trn] 541498_543768
+*MOT:	0 . 547721_548606
+*MOT:	hello . 548606_550310
+*MOT:	c(an) you say hello . 554030_555983
+*MOT:	good job Chi . 556688_559496
+*MOT:	0 . [+ trn] 560531_561835
+*MOT:	0 . 561835_562698
+*MOT:	push . 563320_564176
+*MOT:	push . 565215_566450
+*MOT:	0 . [+ trn] 566450_573290
+*MOT:	0 . 576946_581081
+*MOT:	do you know what this is lamb . 581081_584501
+*MOT:	sheep . 584501_585853
+*MOT:	baa@o . 585951_586986
+*MOT:	baa@o . 586986_588238
+*MOT:	sheep . 588238_589538
+*MOT:	sheep . 589538_592325
+*MOT:	phone . 596213_597698
+*MOT:	0 . 599618_603475
+*MOT:	we don't like hats do we . 603475_605700
+*MOT:	we don't like hats . 606601_607735
+*MOT:	oh but you look so cute . 607735_609593
+*MOT:	say take that off . 610411_612398
+*MOT:	take that off . 612398_614383
+*MOT:	who's that . 615438_618075
+*MOT:	ahhah who's that . 618063_620110
+*MOT:	0 . [+ trn] 625045_626696
+*MOT:	0 . [+ trn] 626251_627668
+*MOT:	who's that . 631490_632673
+*MOT:	is that Chi . 632673_634338
+*MOT:	is that Chi . 634338_635990
+*MOT:	is that Chi . 635990_637073
+*MOT:	you like the rattle . 643016_645226
+*MOT:	huh . 645608_646825
+*MOT:	you like the rattle . 646825_648298
+*MOT:	(do) you like the rattle . 649801_652771
+*MOT:	(isn't) that cool . 652771_653840
+*MOT:	0 . [+ trn] 655156_656810
+*MOT:	0 . [+ trn] 663033_665473
+*MOT:	0 . [+ trn] 669946_677711
+*MOT:	huh . 680581_681081
+*MOT:	baby . 684651_687573
+*MOT:	is that a baby . 687573_688375
+*MOT:	baby . 688375_689873
+*MOT:	who's he . 690691_692293
+*MOT:	bear . 693326_694245
+*MOT:	ahhah Chi . 694245_697648
+*MOT:	rabbit . 697648_698633
+*MOT:	cat . 699518_700286
+*MOT:	meow@o . 700286_701106
+*MOT:	cat . 701106_702513
+*MOT:	cat . 702513_704298
+*MOT:	meow@o . 704298_705050
+*MOT:	rabbit . 707385_708870
+*MOT:	cat . 708870_711456
+*MOT:	Chi . 711456_714526
+*MOT:	look at Chi . 714526_715783
+*MOT:	look at Chi . 715783_717121
+*MOT:	who is that . 717245_718726
+*MOT:	0 [=! voc] . [+ trn] 724398_725218
+*MOT:	gettin(g) a little bored with that . 726238_727843
+*MOT:	cat . 727843_728961
+*MOT:	yay . 728961_730046
+*MOT:	meow@o . 730046_730846
+*MOT:	cat say meow@o . 730846_734368
+*MOT:	o:h xxx . 739196_740751
+*MOT:	you got the box . 740751_742905
+*MOT:	0 [=! laughs] . [+ trn] 742905_744723
+*MOT:	0 . 746308_748593
+*MOT:	xxx the dollie . 748593_749965
+*MOT:	love the dollie . 749965_751878
+*MOT:	you want to love the dollie . 751878_753118
+*MOT:	oh no . 753118_754408
+*MOT:	can you get up . 755176_757278
+*MOT:	0 [=! voc] . [+ trn] 758861_760231
+*MOT:	pig . 772001_772606
+*MOT:	pig . 773073_773808
+*MOT:	pig . 774710_775976
+*MOT:	pig . 777111_779598
+*MOT:	0 . [+ trn] 779801_784056
+*MOT:	0 . [+ trn] 791703_798411
+*MOT:	is that the pig . 805050_806240
+*MOT:	(does) the pink say oink@o . 806240_808493
+*MOT:	pig . 810916_812238
+*MOT:	0 . [+ trn] 812263_816250
+*MOT:	pig . 817240_818190
+*MOT:	pig . 819725_821260
+*MOT:	0 [=! laugh] . 823768_825220
+*MOT:	make noise . 831201_832775
+*MOT:	0 . [+ trn] 839081_840270
+*MOT:	you want to love the doll . 841071_843493
+*MOT:	you want to love the doll . 843495_845065
+*MOT:	&hmm . 845533_846268
+*MOT:	you wan(t) love the dollie . 847451_848986
+*MOT:	0 [=! laughs] . [+ trn] 854010_855043
+*MOT:	ya (you) wanna (want) make noise . 855043_856396
+*MOT:	0 . [+ trn] 860135_862421
+*MOT:	(we) don't like things stacked do we . 873803_876640
+*MOT:	we mustn't have them stacked . 876640_879978
+*MOT:	huh . 880300_881401
+*MOT:	that make noise . 889660_891213
+*MOT:	do you xxx dancin(g) . 891213_892401
+*MOT:	0 [=! sings] . [+ trn] 892401_894758
+*MOT:	0 [=! sings] . [+ trn] 894758_895808
+*MOT:	0 [=! sings] . [+ trn] 895808_896943
+*MOT:	0 . [+ trn] 896943_899835
+*MOT:	0 [=! sings] . [+ trn] 899835_900420
+*MOT:	0 [=! sings] . [+ trn] 900420_901138
+*MOT:	0 [=! sings] . [+ trn] 901138_902128
+*MOT:	0 [=! sings] . [+ trn] 902128_903996
+*MOT:	0 [=! voc] . [+ trn] 903996_904970
+*MOT:	0 [=! sings] . [+ trn] 904970_905420
+*MOT:	xxx [=! sings] . [+ trn] 905420_906746
+*MOT:	xxx [=! sings] [=! laughs] . [+ trn] 912145_915448
+*MOT:	0 . 918219_918508
+*MOT:	0 [=! laughs] dancy@n [x 3] . 918508_921511
+*MOT:	0 . [+ trn] 922583_925023
+*MOT:	0 [=! laughs] . [+ trn] 925395_927110
+*MOT:	0 . [+ trn] 927861_928528
+*MOT:	0 [=! laugh] [<] . 929400_931736
+*MOT:	0 . [+ trn] 930236_931405
+*MOT:	0 [=! voc] . [+ trn] 931405_934201
+*MOT:	0 [=! laughs] . [+ trn] 934886_935820
+*MOT:	0 [>] boo@o . 935820_936505
+*MOT:	0 [=! voc] . [+ trn] 937363_938533
+*MOT:	0 [=! laughs] . 938533_939435
+*MOT:	boo@o . 940385_942020
+*MOT:	0 [<] boo@o . 942020_943196
+*MOT:	0 [>] boo@o . 943196_943911
+*MOT:	0 [>] boom boo@o . 943911_945551
+*MOT:	0 [>] boo@o . 945551_946808
+*MOT:	0 [=! laughs] [<] . 946808_948315
+*MOT:	boo@o . 948315_949871
+*MOT:	0 . [+ trn] 951556_952523
+*MOT:	0 [=! voc] [>] . [+ trn] 953178_955151
+*MOT:	0 [=! laughs] . 955151_956051
+*MOT:	0 [=! laughs] love birdie . 956051_957608
+*MOT:	&um &hmm . 958476_959210
+*MOT:	bird . 959210_961846
+*MOT:	bird . 961846_963683
+*MOT:	can you say bird . 963683_964700
+*MOT:	0 . [+ trn] 966685_969855
+*MOT:	0 [=! laughs] [>] . [+ trn] 968816_973036
+*MOT:	bird . 975460_976333
+*MOT:	bird . 976333_978753
+*MOT:	it's a beak . 978753_981906
+*MOT:	eye . 983156_984008
+*MOT:	eye . 984008_985543
+*MOT:	eye . 985543_986360
+*MOT:	eye . 987135_988701
+*MOT:	nose . 988701_991055
+*MOT:	0 . [+ trn] 997701_1000318
+*MOT:	0 . [+ trn] 1000353_1001686
+*MOT:	0 . [+ trn] 1001686_1002691
+*MOT:	0 . [+ trn] 1002691_1003893
+*MOT:	0 [=! laughs] . [+ trn] 1003865_1006855
+*MOT:	eye . 1008891_1009840
+*MOT:	eye . 1009840_1012493
+*MOT:	eye . 1012493_1013778
+*MOT:	nose . 1014296_1015831
+*MOT:	nose . 1015831_1016933
+*MOT:	he doesn't have any ears . 1018588_1020208
+*MOT:	he d(o)esn't have any ears . 1020700_1022603
+*MOT:	0 . [+ trn] 1022616_1023893
+*MOT:	0 [=! voc] . [+ trn] 1023893_1026963
+*MOT:	0 [=! voc] . [+ trn] 1027533_1028805
+*MOT:	0 [=! voc] . [+ trn] 1029805_1030621
+*MOT:	0 [=! laughs] . 1031290_1034216
+*MOT:	you lovin(g) the birdie . 1035133_1037418
+*MOT:	0 . [+ trn] 1037418_1038440
+*MOT:	0 [=! tickles] . [+ trn] 1039843_1041680
+*MOT:	0 . [+ trn] 1046446_1047501
+*MOT:	boo@o . 1048136_1048993
+*MOT:	ahhah . 1051021_1051971
+*MOT:	you g(oing) (to) give Mot a hug . 1053123_1054628
+*MOT:	where you goin(g) . 1054628_1055691
+*MOT:	where you goin(g) . 1056693_1057950
+*MOT:	where do you think you're goin(g) . 1059585_1060836
+*MOT:	0 [=! voc] . [+ trn] 1060836_1061855
+*MOT:	where do you think you're goin(g) . 1062255_1064306
+*MOT:	say he got in the way . 1064306_1065558
+*MOT:	didn't he . 1065960_1067210
+*MOT:	0 . [+ trn] 1067210_1068495
+*MOT:	0 . [+ trn] 1071415_1074068
+*MOT:	0 . 1073630_1078888
+*MOT:	0 . [+ trn] 1084595_1086613
+*MOT:	0 . [+ trn] 1089266_1090901
+*MOT:	0 . [+ trn] 1096191_1097926
+*MOT:	oh (e)xcuse me . 1101098_1102455
+*MOT:	0 . [+ trn] 1109390_1110003
+*MOT:	can you see what's going around in there . 1114380_1116815
+*MOT:	look . 1116815_1118616
+*MOT:	Big_Bird . 1118616_1120171
+*MOT:	0 . [+ trn] 1120973_1121408
+*MOT:	do you see Big_Bird . 1121408_1122698
+*MOT:	bear . 1129408_1130191
+*MOT:	bear . 1130191_1132568
+*MOT:	rabbit . 1132568_1134358
+*MOT:	cat . 1134960_1135926
+*MOT:	meow@o . 1135926_1136810
+*MOT:	baby . 1139713_1141165
+*MOT:	rabbit . 1141165_1142606
+*MOT:	see the rabbit . 1142606_1143693
+*MOT:	bear . 1145568_1146808
+*MOT:	rabbit . 1147998_1149583
+*MOT:	cat . 1151668_1153086
+*MOT:	you want to turn it right side up . 1153086_1154521
+*MOT:	0 . [+ trn] 1154746_1157115
+*MOT:	look . 1157115_1158350
+*MOT:	0 [=! laughs] . [+ trn] 1160385_1163340
+*MOT:	lookee . 1163340_1165241
+*MOT:	cat . 1174043_1174931
+*MOT:	see the cat . 1176250_1177401
+*MOT:	what's the cat say Chi . 1178671_1181131
+*MOT:	meow@o . 1181131_1181986
+*MOT:	meow@o . 1181986_1184173
+*MOT:	cat . 1192290_1193441
+*MOT:	ca(t) . 1198531_1200331
+*MOT:	who's that . 1200331_1200713
+*MOT:	is that Chi . 1200713_1201548
+*MOT:	rabbit . 1202816_1203701
+*MOT:	it's a rabbit . 1203701_1205238
+*MOT:	0 . [+ trn] 1206386_1207491
+*MOT:	baby . 1207358_1208895
+*MOT:	cat . 1208895_1211413
+*MOT:	say cat . 1213065_1214106

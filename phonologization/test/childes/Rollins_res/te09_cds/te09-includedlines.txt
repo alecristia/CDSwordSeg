@@ -1,0 +1,212 @@
+*MOT:	what d(o)es Big Bird say ? 192691_194845
+*MOT:	oh . 195311_196463
+*MOT:	don't chew on him . 196463_198340
+*MOT:	you're <silly> [>] . 198340_200741
+*MOT:	what d(o)es Big Bird say ? 201526_204278
+*MOT:	cootchykoo . 204278_207415
+*MOT:	he's gonna get you . 207315_208601
+*MOT:	oh nice Big Bird . 213591_216261
+*MOT:	what do you see ? 218931_223451
+*MOT:	0 [=! laughs] . 223936_225121
+*MOT:	don't chew Big Bird . 225121_227490
+*MOT:	don't chew on him . 227490_229525
+*MOT:	I'm gonna get him . 229525_232846
+*MOT:	peek_a_boo . 232846_235398
+*MOT:	there he is . 235398_237018
+*MOT:	there's Big Bird . 237018_239503
+*MOT:	what'd you find ? 241373_245595
+*MOT:	don't chew on him . 245595_247351
+*MOT:	poor Big Bird . 247351_249101
+*MOT:	no yuck yuck . 250336_252605
+*MOT:	don't chew on it . 252605_254541
+*MOT:	everybody else has_to play with him too . 254541_257383
+*MOT:	they don't want him all chewed up . 257383_259218
+*MOT:	cootchykoo . 259218_261454
+*MOT:	no . 261454_263675
+*MOT:	no [= itr] . 263675_264476
+*MOT:	don't chew . 264476_266100
+*MOT:	peek_a_boo . 266100_270388
+*MOT:	ch@o [= itr] . 270388_272106
+*MOT:	what else is in there ? 272106_280165
+*MOT:	what else do you see ? 280165_282516
+*MOT:	look . 282516_283836
+*MOT:	uhoh . 283836_287088
+*MOT:	what's that ? 287088_291376
+*MOT:	can you shake him ? 291376_293713
+*MOT:	shake [= itr] . 293713_296968
+*MOT:	that's a good boy . 296968_301538
+*MOT:	0 . [+ trn] 301973_302373
+*MOT:	oh . 303891_304626
+*MOT:	shake it . 304626_305795
+*MOT:	<shake it> [= itr] . 305795_307580
+*MOT:	that's right . 311300_312801
+*MOT:	and what else is in there ? 312801_315338
+*MOT:	you're chewin(g) (.) his mouth . 322466_325003
+*MOT:	you're gonna bite it right off . 325003_326353
+*MOT:	that's his beak . 326353_327340
+*MOT:	that's a good boy . 329395_330613
+*MOT:	shake it shake it shake it . 330613_332015
+*MOT:	are you dancing ? 332015_333520
+*MOT:	peek_a_boo . 333520_337291
+*MOT:	peek_a_boo . 337291_340963
+*MOT:	ch@o . 340963_344551
+*MOT:	<don't> [/] don't do that . 344551_346971
+*MOT:	dancing dancing . 348258_352211
+*MOT:	can we shake it ? 352211_355883
+*MOT:	0 . 359436_360126
+*MOT:	dancin(g) dancin(g) dancin(g) . 364846_366515
+*MOT:	0 . 371038_372391
+*MOT:	is that Big Bird like this Big Bird ? 372391_374643
+*MOT:	d(o)es that look like this Big Bird ? 375716_377868
+*MOT:	&hmm . 377868_380488
+*MOT:	Big Bird xxx . 380488_385543
+*MOT:	where did he go ? 392400_394220
+*MOT:	where did he go ? 394220_397940
+*MOT:	I still have him . 397940_408885
+*MOT:	cootchykoo . 408885_410655
+*MOT:	cootchykoo . 411688_413575
+*MOT:	here . 418261_419463
+*MOT:	I wish you wouldn't chew everything . 420515_423485
+*MOT:	shake it . 423485_426606
+*MOT:	shake it shake it shake it . 427006_428993
+*MOT:	uhoh . 431813_438136
+*MOT:	look what I see . 438136_440121
+*MOT:	a book . 441190_442675
+*MOT:	wanna look at the book ? 442675_445678
+*MOT:	oh . 445678_449668
+*MOT:	am I putting the bird away ? 449668_451738
+*MOT:	let's look at the book . 454743_456550
+*MOT:	wanna look ? 456550_457500
+*MOT:	0 [=! gasp] . [+ trn] 457500_460321
+*MOT:	look_it the baby . 460321_462323
+*MOT:	nice baby . 462323_464591
+*MOT:	oh . 464591_470165
+*MOT:	what's that ? 470165_471365
+*MOT:	is that a ducky like in your bath+tub ? 471365_474803
+*MOT:	&hmm ? 474803_477423
+*MOT:	oh . 477423_478140
+*MOT:	you just skipped ahead . 478140_479491
+*MOT:	what's the next page ? 479491_481893
+*MOT:	0 [=! gasp] . [+ trn] 481893_483661
+*MOT:	look_it the fire truck . 483661_486115
+*MOT:	that's a good boy . 486115_491103
+*MOT:	pink . 491103_492990
+*MOT:	let's look <what's here after> [//] what's after pink . 492990_499713
+*MOT:	good boy . 499713_504390
+*MOT:	turn them . 504390_505406
+*MOT:	there's a boat . 505406_509378
+*MOT:	turn just one page . 509378_515284
+*MOT:	look . 515284_516235
+*MOT:	turn just one <page> [>] . 516235_518088
+*MOT:	0 [=! voc] . [+ trn] 517956_518758
+*MOT:	uhoh look what's right here . 518758_521561
+*MOT:	that's a kitty cat . 521561_525333
+*MOT:	what d(o)es the kitty cat say ? 525333_528235
+*MOT:	&hmm ? 528235_530370
+*MOT:	cat say meow@o . 530370_532423
+*MOT:	meow@o . 534391_535226
+*MOT:	oops . 545896_549146
+*MOT:	you want it back ? 549146_551066
+*MOT:	oops . 551066_558923
+*MOT:	you looking at the little book ? 558923_573510
+*MOT:	&hmm ? 573510_575125
+*MOT:	don't chew it . 575125_580831
+*MOT:	don't chew it . 580831_582215
+*MOT:	yuck . 582215_583450
+*MOT:	yuck yuck yuck . 583450_585118
+*MOT:	there's that kitty cat . 585118_597115
+*MOT:	there's that kitty cat . 597115_599170
+*MOT:	wanna see if there's a doggie ? 599170_600611
+*MOT:	you think there's a doggie ? 600611_603515
+*MOT:	0 [=! gasp] . [+ trn] 603515_604583
+*MOT:	what's that ? 604583_605801
+*MOT:	a teddy bear . 605801_606801
+*MOT:	is that a little boy ? 606801_613860
+*MOT:	does that look like Chi ? 613860_617063
+*MOT:	uhoh . 617063_622418
+*MOT:	what else is in there ? 644626_645916
+*MOT:	&hmm ? 645916_647551
+*MOT:	want that back ? 647551_650821
+*MOT:	wanna put the book back in the box ? 650821_657063
+*MOT:	put it back here ? 657063_658996
+*MOT:	you wanna put it down ? 658996_661216
+*MOT:	oh you know this . 661216_662885
+*MOT:	you know what to do with that . 662885_665521
+*MOT:	oh . 671515_672783
+*MOT:	0 [= laughs] . 672783_674451
+*MOT:	uhoh . 674903_676236
+*MOT:	that rolled far away . 676236_678590
+*MOT:	oops . 690371_691393
+*MOT:	did it fall ? 693495_696165
+*MOT:	want me to get it ? 696165_703576
+*MOT:	no hold it . 703576_709216
+*MOT:	I'm not gonna keep getting it . 709835_712721
+*MOT:	you want this one ? 712721_714723
+*MOT:	do you want it ? 720501_722870
+*MOT:	xxx . 728210_729845
+*MOT:	is that funny ? 729845_731178
+*MOT:	where did it go ? 747243_748881
+*MOT:	I think it fell on the blue carpet . 748881_753586
+*MOT:	you probably can't see it . 753586_757410
+*MOT:	0 . 757410_762085
+*MOT:	want the red one ? 762085_763203
+*MOT:	0 . 774231_776566
+*MOT:	peek_a_boo .
+*MOT:	there it is . 776921_777690
+*MOT:	oh . 778975_779841
+*MOT:	0 . 779841_781611
+*MOT:	did you drop it ? 804068_806888
+*MOT:	where did it go ? 813311_814663
+*MOT:	want it back ? 816278_818066
+*MOT:	don't chew on it . 821751_824456
+*MOT:	now Chi . 825360_826566
+*MOT:	you'll ruin it . 826566_828488
+*MOT:	don't chew . 828336_828903
+*MOT:	don't chew . 828903_829416
+*MOT:	no [= itr] . 829416_831500
+*MOT:	don't chew on all their stuff . 831500_834270
+*MOT:	look . 836513_838083
+*MOT:	I don't want you to chew . 839815_841485
+*MOT:	I'm sorry . 841485_845276
+*MOT:	0 [=! voc] . [+ trn] 851260_856253
+*MOT:	where did it go ? 861145_865283
+*MOT:	you want the red one back ? 865283_867486
+*MOT:	want it back ? 867486_869938
+*MOT:	okay . 870995_871911
+*MOT:	don't drop it . 883275_884813
+*MOT:	don't drop it . 884813_885763
+*MOT:	don't drop it . 885763_887965
+*MOT:	it fell behind you . 888255_893678
+*MOT:	you can't see it . 893678_895116
+*MOT:	what are you gonna do with the blue one ? 901010_904080
+*MOT:	give it to me ? 904080_906883
+*MOT:	all_gone . 908201_910271
+*MOT:	they're all_gone . 910271_912556
+*MOT:	all_gone . 914378_915380
+*MOT:	0 . 917936_924243
+*MOT:	can you dance ? 924243_926146
+*MOT:	dance [= itr] . 926146_928235
+*MOT:	dance dance dance . 928235_930000
+*MOT:	wanna take it ? 930000_935255
+*MOT:	you shake the bird ? 952058_953765
+*MOT:	can you shake it ? 953765_955316
+*MOT:	<shake it> [= itr] . 956150_959238
+*MOT:	Chi . 959838_967013
+*MOT:	shake it . 967013_968046
+*MOT:	oh . 975738_977540
+*MOT:	uhoh . 977540_979393
+*MOT:	that one rolled far away . 979393_982678
+*MOT:	hat . 1004216_1005263
+*MOT:	gonna put it on your head . 1005263_1007883
+*MOT:	I'm gonna put the hat on . 1007883_1009285
+*MOT:	you're not gonna wear the hat ? 1009285_1014223
+*MOT:	you're not gonna wear the hat ? 1014223_1020113
+*MOT:	he's dancing . 1020113_1041775
+*MOT:	0 [=! gasp] . [+ trn] 1041775_1048301
+*MOT:	uhoh . 1048301_1058378
+*MOT:	I got him . 1058378_1059413
+*MOT:	I have it . 1059413_1068990
+*MOT:	where'd everything go ? 1068990_1076300
+*MOT:	what do you want me to do ?
+*MOT:	did it fall ?
+*MOT:	want it back ?

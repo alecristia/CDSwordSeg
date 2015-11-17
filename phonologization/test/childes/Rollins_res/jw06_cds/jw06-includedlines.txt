@@ -1,0 +1,156 @@
+*MOT:	just like your book at home . 257300_258678
+*MOT:	do you want to look at that: it says look . 258678_261795
+*MOT:	see . 261795_262958
+*MOT:	there's a face with glass: . 262958_265983
+*MOT:	ahhah . 265983_266561
+*MOT:	look there's Pooh_Bear . 266561_267880
+*MOT:	there's a baby bear with his bottle . 267880_270430
+*MOT:	who's that . 272576_273540
+*MOT:	is that Chi . 273540_275656
+*MOT:	ahhah I think I see Chi . 275656_277123
+*MOT:	there he is . 277123_277688
+*MOT:	there he is . 277688_278366
+*MOT:	yay yay there he is . 278366_279578
+*MOT:	0 [=! laughs] . 279578_280751
+*MOT:	you see yourself . 280751_283055
+*MOT:	that's my pretty baby boy . 283055_285313
+*MOT:	I'm sorry that's handsome baby boy . 285313_288021
+*MOT:	<you like that> [>] . 288021_291093
+*MOT:	<yay> [<] . 291093_292388
+*MOT:	look there's a bunny+rabbit . 292388_295763
+*MOT:	see . 295763_298936
+*MOT:	there's kitty+cat . 298936_300646
+*MOT:	oh . 300646_302565
+*MOT:	kitty+cat . 302565_304598
+*MOT:	and who's this it's a baby . 304598_306051
+*MOT:	it's a baby . 306051_307558
+*MOT:	yay . 307558_309791
+*MOT:	want to look at that . 309791_313676
+*MOT:	oh . 313676_316175
+*MOT:	does it fit your mouth . 316175_317213
+*MOT:	let's see what else there is in here . 317213_319020
+*MOT:	There's a +... 319020_323551
+*MOT:	+, a pink pig . 323551_325005
+*MOT:	oink@o [= itr] . 325005_328128
+*MOT:	you like that book it's very red . 328128_331893
+*MOT:	red is a good thing isn't it . 331893_333111
+*MOT:	oink@o [= itr] . 333111_337498
+*MOT:	oink@o [= itr] . 337498_339846
+*MOT:	oink@o [= itr] . 339846_341623
+*MOT:	oink@o [= itr] . 341623_344905
+*MOT:	oink@o [= itr] . 344905_347758
+*MOT:	0 [=! clicks] . 347758_348863
+*MOT:	oink@o [=! itr] . 348863_349988
+*MOT:	you want your book back don't you . 351011_352593
+*MOT:	let's see: do you want to see who this is . 352593_355453
+*MOT:	this is Big_Bird . 355453_357208
+*MOT:	0 . 357208_358606
+*MOT:	enough with that . 358606_364123
+*MOT:	can you read your book again , you like the book . 364123_370280
+*MOT:	look . 370280_371771
+*MOT:	see . 371771_372758
+*MOT:	you want to see if it fits in your mouth . 372758_377755
+*MOT:	is that what you want to see . 377755_378741
+*MOT:	oh that's too big . 378741_380713
+*MOT:	what do you know 0 [=! laughs] . 380713_382198
+*MOT:	wanna see what's inside . 387026_395480
+*MOT:	you want to hold it like that . 395480_398166
+*MOT:	whoop . 400063_401011
+*MOT:	here . 401011_402451
+*MOT:	xxx face <glass:> [>] . 402451_403851
+*MOT:	there's baby bear with his <bottle> [>] . 403851_406185
+*MOT:	<see baby bear> [>] . 406290_408283
+*MOT:	<yay:> [<] see <baby bear> [>] . 408283_410631
+*MOT:	and then who's this . 411100_412171
+*MOT:	who's that . 412171_413391
+*MOT:	whose picture is that do you see yourself in the mirror . 413391_416666
+*MOT:	that's Chi . 416666_419111
+*MOT:	xxx . 425195_427933
+*MOT:	still want to see if it fits in your mouth . 433288_436500
+*MOT:	oh what do you think . 436500_437683
+*MOT:	does it fit nice . 437683_438668
+*MOT:	0 [=! laughs] . 438668_439986
+*MOT:	that's such a pretty red . 439986_453176
+*MOT:	<It's red like your socks> [>] . 453176_455371
+*MOT:	and red like your the edging on your outfit and all those other
+*MOT:	yay . 463393_464185
+*MOT:	look here's something else I know you like at home , can you look
+*MOT:	you just love that book . 467126_471748
+*MOT:	0 [=! clicks] . 481995_513100
+*MOT:	that is so much fun the way that fits in your mouth . 513700_516853
+*MOT:	0 [=! clicks] . 516853_517571
+*MOT:	0 [=! laughs] . 517571_525676
+*MOT:	do you see Cookie_Monster over there . 525676_531698
+*MOT:	is that who you are looking at . 531698_533650
+*MOT:	that fits in your mouth: oh that's just great . 533650_537103
+*MOT:	that's just great . 537103_539490
+*MOT:	it fits in your mouth . 539490_540355
+*MOT:	hey can we try this . 540355_541988
+*MOT:	I'm going to put your hand on this . 541988_544073
+*MOT:	you can grab this this is pretty neat because you can grab it just
+*MOT:	there you got it . 548423_549795
+*MOT:	good: job . 549795_551856
+*MOT:	0 [=! cough] . 551856_553016
+*MOT:	you want this back in your hand . 553016_562156
+*MOT:	you want it in this hand maybe . 562156_563525
+*MOT:	let's open your <fingers a little bit> [>] . 563525_568281
+*MOT:	can I <help you by opening your> [>] fingers . 568281_570183
+*MOT:	there . 570000_570416
+*MOT:	you got it . 570416_571050
+*MOT:	you got it . 571050_571760
+*MOT:	oh you got it . 571760_573385
+*MOT:	good for you . 573385_575205
+*MOT:	you want it to make noise . 578998_587641
+*MOT:	there are some beautiful colors in here aren't there . 595800_600571
+*MOT:	that is so neat the way it does that . 621030_624940
+*MOT:	you want it back . 624940_625743
+*MOT:	xxx in your hand: you can grab . 625743_628935
+*MOT:	xxx . 628935_630160
+*MOT:	oh you got it you got it . 630445_631813
+*MOT:	yay Chi . 631813_632678
+*MOT:	do you like sitting up in that seat , that's pretty neat . 632678_644271
+*MOT:	xxx you would like it to be able to sit up more . 644271_647228
+*MOT:	you're almost there . 647228_648735
+*MOT:	almost xxx . 648735_650796
+*MOT:	you got it . 650796_654898
+*MOT:	here . 654898_655840
+*MOT:	yay . 655840_657736
+*MOT:	0 . 660960_672055
+*MOT:	oh . 686628_687705
+*MOT:	is that so <fun> [<] . 687705_688803
+*MOT:	you want to catch it . 689533_690735
+*MOT:	<catch it catch it> [>] . 690735_691621
+*MOT:	you got it . 691688_692268
+*MOT:	<yay> [>] . 692268_693570
+*MOT:	I like the sound that makes I think you like it too . 709005_711911
+*MOT:	do you shake xxx . 711911_716005
+*MOT:	you got it . 716005_716933
+*MOT:	we have one of those at home for you too if we could just keep that
+*MOT:	you better learn to hang on to your toys real well . 724873_727838
+*MOT:	or she'll get them . 727838_729141
+*MOT:	you'll have_to tackle her and get them away from her [=! laughs] .
+*MOT:	what you doing . 743200_744060
+*MOT:	oh did it run away from you . 744060_752480
+*MOT:	you got it . 752480_753035
+*MOT:	is that fun . 755895_761796
+*MOT:	is that a fun toy . 761796_763506
+*MOT:	what's that . 786400_788706
+*MOT:	xxx . 788706_790618
+*MOT:	<oh dear> [>] . 790618_791345
+*MOT:	oh dear that's so messy . 791345_793540
+*MOT:	so messy . 793540_794946
+*MOT:	yes all that drool I just don't know . 794946_797243
+*MOT:	<&mm> [<] . 799311_800801
+*MOT:	<ahhah: you like that> [<] . 801500_802968
+*MOT:	ahhah . 802968_804295
+*MOT:	ahhah . 806575_807878
+*MOT:	ahhah . 809308_810603
+*MOT:	0 [=! vocalizes] . 813766_815925
+*MOT:	0 [=! voclaizes] . 815925_822190
+*MOT:	ahhah . 828390_829790
+*MOT:	0 [=! vocalizes] . 837648_838533
+*MOT:	oh what baby . 842823_843943
+*MOT:	you not sure about that . 843943_845108
+*MOT:	would you like to sit up a little bit more . 845653_847161
+*MOT:	that's kind of a funny thing to sit in isn't it .
+*MOT:	you like that better .

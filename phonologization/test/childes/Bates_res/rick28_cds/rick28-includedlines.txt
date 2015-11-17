@@ -1,0 +1,54 @@
+*MOT:	look (.) look .
+*MOT:	where they going ?
+*MOT:	they go byebye ?
+*MOT:	what ?
+*MOT:	oh (.) you closing all the doors ?
+*MOT:	okay .
+*MOT:	whoops .
+*MOT:	can you get that ?
+*MOT:	see it rolled way over there ?
+*MOT:	oh (.) okay .
+*MOT:	thank_you .
+*MOT:	here's another one .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	picks up shape box object and holds .
+*MOT:	which one ?
+*MOT:	okay .
+*MOT:	here's some xxx .
+*MOT:	we can make the lady lie down .
+*MOT:	oop(s) (.) there you go .
+*MOT:	who's this one ?
+*MOT:	this one ?
+*MOT:	who's this one (.) Matt ?
+*MOT:	who's this one ?
+*MOT:	you don't know ?
+*MOT:	oh (.) here's some dinner .
+*MOT:	you have_to go pottie ?
+*MOT:	okay .
+*MOT:	c(o)me (h)ere .
+*MOT:	you wan(t) (t)a play for a minute ?
+*MOT:	okay .
+*MOT:	can you build me a tall tower again ?
+*MOT:	can you build me a big tower again ?
+*MOT:	uhoh .
+*MOT:	be careful .
+*MOT:	oh .
+*MOT:	whoa .
+*MOT:	0 .
+*MOT:	here (.) who's this ?
+*MOT:	okay .
+*MOT:	oh (.) want to set it up ?
+*MOT:	yeah ?
+*MOT:	here .
+*MOT:	put your chair in the living room .
+*MOT:	okay .
+*MOT:	look_it (.) they're cookin(g) .
+*MOT:	they're gonna eat .
+*MOT:	the doggie's gonna sit there at the table .
+*MOT:	mom's gonna sit there next_to dad .
+*MOT:	yeah (.) can you put (th)em back ?
+*MOT:	can you drive your people back in the car and they can have dinner
+*MOT:	they can +...
+*MOT:	she can sit here .
+*MOT:	and someone can sit over here .

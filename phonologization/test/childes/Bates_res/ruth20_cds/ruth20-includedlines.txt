@@ -1,0 +1,139 @@
+*MOT:	here's another ball .
+*MOT:	can you put it back ?
+*MOT:	where do they go ?
+*MOT:	where do they go ?
+*MOT:	right !
+*MOT:	good girl !
+*MOT:	see another ball ?
+*MOT:	see another ball ?
+*MOT:	oh .
+*MOT:	are the people +...
+*MOT:	can you say people ?
+*MOT:	people .
+*MOT:	where are they going ?
+*MOT:	people go byebye .
+*MOT:	byebye !
+*MOT:	byebye !
+*MOT:	uhoh !
+*MOT:	uhoh !
+*MOT:	some more ?
+*MOT:	where are the people ?
+*MOT:	people .
+*MOT:	where are the people ?
+*MOT:	where are the people ?
+*MOT:	where are they ?
+*MOT:	people !
+*MOT:	people !
+*MOT:	they're over here !
+*MOT:	right here .
+*MOT:	here are the people .
+*MOT:	can the people go byebye in the car ?
+*MOT:	can the people go byebye in the car ?
+*MOT:	can you put the people in the car ?
+*MOT:	can you put the people in the car ?
+*MOT:	no ?
+*MOT:	what're ya going to do ?
+*MOT:	what're you gonna do ?
+*MOT:	yeah .
+*MOT:	oh (.) a chickie [!] !
+*MOT:	a chickie !
+*MOT:	chickie (.) right .
+*MOT:	what's this ?
+*MOT:	what's that ?
+*MOT:	car !
+*MOT:	that's a chair [!] .
+*MOT:	chair !
+*MOT:	good girl !
+*MOT:	oh (.) bye !
+*MOT:	bye !
+*MOT:	stay here !
+*MOT:	your people are over here .
+*MOT:	no !
+*MOT:	here !
+*MOT:	here's a bed !
+*MOT:	can you put the people night+night ?
+*MOT:	can you put the people night+night ?
+*MOT:	here's a bed .
+*MOT:	here's a bed .
+*MOT:	can you put the people night+night ?
+*MOT:	night+night people .
+*MOT:	night+night people .
+*MOT:	where're you goin(g) ?
+*MOT:	no !
+*MOT:	no !
+*MOT:	stay here .
+*MOT:	can you put the beds in here ?
+*MOT:	can you put (.) boom !
+*MOT:	can you put the beds +...
+*MOT:	did you hurt your knee ?
+*MOT:	oh .
+*MOT:	oh (.) bummer !
+*MOT:	can you put the people in the house ?
+*MOT:	can you put (th)em back in ?
+*MOT:	can't you ?
+*MOT:	are they gonna go night+night ?
+*MOT:	can the people go night+night ?
+*MOT:	night+night people !
+*MOT:	what's this ?
+*MOT:	what's that ?
+*MOT:	dog [/] dog !
+*MOT:	what does the dog_dog@c say ?
+*MOT:	dog_dog@c .
+*MOT:	people .
+*MOT:	uhhuh (.) there's a people .
+*MOT:	a ball .
+*MOT:	is that on your finger ?
+*MOT:	did you put the people on your finger ?
+*MOT:	did you do [!] that ?
+*MOT:	uhoh !
+*MOT:	baby .
+*MOT:	mhm .
+*MOT:	is that a baby people ?
+*MOT:	people !
+*MOT:	where is the dog_dog@c ?
+*MOT:	where's the dog_dog@c ?
+*MOT:	dog_dog@c !
+*MOT:	dog_dog@c !
+*MOT:	huh ?
+*MOT:	here [/] here come the cups [?] .
+*MOT:	xxx cup .
+*MOT:	here .
+*MOT:	can you put this one in ?
+*MOT:	can you put this in ?
+*MOT:	uhoh .
+*MOT:	here .
+*MOT:	will this fit in there ?
+*MOT:	will that one go in there ?
+*MOT:	boom !
+*MOT:	does that fit in there ?
+*MOT:	no ?
+*MOT:	it doesn't ?
+*MOT:	uhoh .
+*MOT:	what do you hear ?
+*MOT:	what do you hear ?
+*MOT:	it's not Kristy .
+*MOT:	it's somebody else .
+*MOT:	Krissy's busy .
+*MOT:	busy .
+*MOT:	Krissy's busy .
+*MOT:	c(o)m(e) on .
+*MOT:	huh ?
+*MOT:	no !
+*MOT:	c(o)m(e) on !
+*MOT:	let's play with the toys .
+*MOT:	c(o)m(e) on !
+*MOT:	Mama's gonna play dog_dog@c .
+*MOT:	Mama's got the dog_dog@c .
+*MOT:	hi (.) dog_dog@c !
+*MOT:	dog_dog@c !
+*MOT:	dog_dog@c !
+*MOT:	I'm gonna get you !
+*MOT:	dog_dog@c !
+*MOT:	c(o)me (h)ere !
+*MOT:	c(o)me (h)ere !
+*MOT:	yeah !
+*MOT:	yeah !
+*MOT:	please !
+*MOT:	c(o)me (h)ere !
+*MOT:	look_it !
+*MOT:	the dog_dog@c (i)s sittin(g) in the car .

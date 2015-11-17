@@ -1,0 +1,748 @@
+*MOT:	okay , it's ready , we can turn this off now . 13116_16645
+*MOT:	should we shut this off ? 16645_17725
+*MOT:	what do you think about that show ? 18940_20880
+*MOT:	good . 22426_23131
+*MOT:	maybe later you can watch teletubbies . 23619_25565
+*MOT:	right now we'll do something else because we're gonna put this tape on . 27107_30230
+*MOT:	okay ? 30230_32751
+*MOT:	no , you don't need to put your hand there . 35751_37645
+*MOT:	you 0can come over here if you want . 37645_40821
+*MOT:	you wanna do lacing ? 40821_43236
+*MOT:	you know how to do it ? 44140_45325
+*MOT:	come here , I'll show you . 45815_47680
+*MOT:	mhm .
+*MOT:	can you believe it ?
+*MOT:	hey , you had a +//.
+*MOT:	you found a cookie monster this morning and then there was a show about cookie monsters , isn't that funny ?
+*MOT:	xxx . 61541_63771
+*MOT:	okay , which one you wanna do ?
+*MOT:	you pick one (.) for me and you . 67501_69916
+*MOT:	yeah .
+*MOT:	which one do you like ? 73691_74891
+*MOT:	okay . 79991_81008
+*MOT:	and which one for mommy ? 81008_84081
+*MOT:	the kitty for mommy ? 85518_86775
+*MOT:	okay , now which ones for Vaivy ?
+*MOT:	alright , let's take this out first . 93680_95770
+*MOT:	now , which color string do you wanna do ?
+*MOT:	yellow ?
+*MOT:	okay , do you know how to do it ?
+*MOT:	let's [: let us] put the string in the holes .
+*MOT:	mhm .
+*MOT:	yeah , like this . 108121_109743
+*MOT:	put the string in the hole , and then pull it . 109743_113541
+*MOT:	I'm gonna make a kitty decoration . 116408_119508
+*MOT:	mhm .
+*MOT:	alright .
+*MOT:	put it in the hole and pull it . 130548_132525
+*MOT:	good girl: . 132525_135971
+*MOT:	good girl , okay , lemme [: let me] just tie the end now so you can do it all , (o)kay ? 135971_140415
+*MOT:	we'll just tie the end .
+*MOT:	well , look , the doggy's [: doggy is] all ready , you can do the doggy now .
+*MOT:	here , it's all ready , take this +/.
+*MOT:	and now you put it through any holes you want and pull it through .
+*MOT:	(o)kay ?
+*MOT:	you do the dog , and I do the cat . 151228_154008
+*MOT:	see , I put it through the hole +/. 154008_157788
+*MOT:	and pull !
+*MOT:	yep , keep pulling !
+*MOT:	good job ! 168810_171723
+*MOT:	pull it , pull it , keep pulling !
+*MOT:	pull from here .
+*MOT:	okay . 179115_179970
+*MOT:	now put 0it through another hole . 179970_181280
+*MOT:	mhm , this is sewing . 183450_184896
+*MOT:	mhm , 0do you like it ?
+*MOT:	this is kinda [: kind of] like what grandma does .
+*MOT:	mhm .
+*MOT:	sewing .
+*MOT:	sometimes she does knitting . 199408_200856
+*MOT:	you know when she makes you those shirts ? 200856_203316
+*MOT:	she does knitting .
+*MOT:	those sweaters . 204978_207778
+*MOT:	yeah , you wanna do a fishy now ?
+*MOT:	alright , you want this one ?
+*MOT:	here you go . 216378_217471
+*MOT:	hmm ? 224241_225278
+*MOT:	0it goes for the farm ? 227943_228986
+*MOT:	yay !
+*MOT:	oh you gotta put it through all the holes . 238475_240376
+*MOT:	or as many holes as you can . 242383_244045
+*MOT:	xxx . 246995_248518
+*MOT:	you caught a fish ! 248518_249638
+*MOT:	yep [: yes] . 251381_252208
+*MOT:	maybe we can start our sewing today .
+*MOT:	I xxx mittens for christmas . 254341_256548
+*MOT:	with the sewing machine . 256548_258415
+*MOT:	you know hot to do that ? 258415_259998
+*MOT:	you do ? 260883_261376
+*MOT:	you are ?
+*MOT:	xxx , now you 0are gonna do the fish .
+*MOT:	xxx . 289325_290128
+*MOT:	you're doing a good job . 290128_296456
+*MOT:	yep [: yes] . 297850_299116
+*MOT:	am I doing a good job ? 299116_300950
+*MOT:	look , it's all finished .
+*MOT:	is that 0a pretty kitty ?
+*MOT:	meow ! 310945_314721
+*MOT:	someone else started this xxx +//. 319920_324041
+*MOT:	bunny . 324041_325041
+*MOT:	you did ?
+*MOT:	he did ?
+*MOT:	oh , yeah you're right , I did make that turtle .
+*MOT:	you wanna take the lace outta [: out of] the turtle and start it again ?
+*MOT:	0are you feeling any better ?
+*MOT:	maybe later we'll give you some medicine . 357531_363911
+*MOT:	you don't ? 368413_369043
+*MOT:	you're not sick ?
+*MOT:	are you sure ? 374976_376743
+*MOT:	okay +... 377641_380376
+*MOT:	here's [: here is] the bunny . 380376_384108
+*MOT:	yep [: yes] . 385731_387176
+*MOT:	bunny's [: bunny is] gonna talk to the kitty . 387176_391441
+*MOT:	meow ! 391441_395706
+*MOT:	meow ! 395706_398045
+*MOT:	you want me to take that out ? 398045_400241
+*MOT:	0do you know how to pull it out ? 400910_402245
+*MOT:	just keep pulling it like this . 404186_405930
+*MOT:	(o)kay .
+*MOT:	pull it +...
+*MOT:	oh , 0are you gonna lace it now ?
+*MOT:	alright , I'm gonna do this dog then . 421913_423946
+*MOT:	mhm . 425773_426320
+*MOT:	can I do the dog ? 426320_427350
+*MOT:	alright .
+*MOT:	alright .
+*MOT:	good !
+*MOT:	that's how you do sewing .
+*MOT:	did he , did he eat those cookies today on the show ?
+*MOT:	no , he didn't , did he ? 457610_459383
+*MOT:	somebody else took the cookies , but they thought it was cookie monster . 460350_463860
+*MOT:	hmm . 463861_466248
+*MOT:	that is cookie monster , yeah .
+*MOT:	he likes all sortsa [: sorts of] cookies . 473710_477511
+*MOT:	maybe we could bake some cookies today . 477511_480778
+*MOT:	what kinda [: kind of] cookies do you wanna bake ? 480778_483411
+*MOT:	chocolate chip cookies ?
+*MOT:	that's your favorite ? 489528_491108
+*MOT:	me too .
+*MOT:	yay !
+*MOT:	yay !
+*MOT:	xxx .
+*MOT:	yay !
+*MOT:	he did ?
+*MOT:	yeah , daddy said that .
+*MOT:	we're gonna have_to clean out the car today too , we got lotsa [: lots_of] jobs today . 516705_523918
+*MOT:	we 0are 0going 0to clean out the car because you had a throw+up in there . 523918_527441
+*MOT:	meow .
+*MOT:	nope , we don't have one now , that's good . 538100_540440
+*MOT:	yeah . 543450_544661
+*MOT:	and on the way home ? 544663_545976
+*MOT:	&aw . 546745_547643
+*MOT:	in your seat ? 547643_548876
+*MOT:	hmm . 551060_551775
+*MOT:	no ? 554851_555650
+*MOT:	(o)kay +... 565381_568236
+*MOT:	doggy's done . 568236_569441
+*MOT:	how's [: how does] he look ? 570706_571646
+*MOT:	should we put a collar on him ? 572196_573546
+*MOT:	there is his collar . 574076_575980
+*MOT:	there . 578006_585218
+*MOT:	this 0is how he walks along , xxx . 585218_587016
+*MOT:	come on doggy ! 587016_588440
+*MOT:	xxx .
+*MOT:	good for you , you did this ? 593881_595445
+*MOT:	hi turtle ! 596251_597456
+*MOT:	what's this doing in here ? 597458_599978
+*MOT:	I know . 602525_603545
+*MOT:	you can ? 605243_606575
+*MOT:	I think it's broken .
+*MOT:	lemme [: let me] just +//. 607975_610945
+*MOT:	I'll tie it if you want .
+*MOT:	want me to tie it ? 610945_611795
+*MOT:	alright , lemme [: let me] tie this .
+*MOT:	hold on +... 616571_617453
+*MOT:	hold on +... 617453_617863
+*MOT:	wait a minute , wait a minute , wait a minute .
+*MOT:	alright , now you can wear it . 620908_624680
+*MOT:	can you blow it ?
+*MOT:	almost , blow harder .
+*MOT:	tough , huh ?
+*MOT:	probably (be)cause you're sick you can't do it . 646121_647925
+*MOT:	you think ? 647925_653245
+*MOT:	maybe it's broken , it could be broken , here lemme [: let me] see . 654046_656480
+*MOT:	xxx . 656480_658930
+*MOT:	xxx . 658930_660350
+*MOT:	xxx . 660350_662111
+*MOT:	what about the fishy ? 667321_672646
+*MOT:	shall I do the fishy now +/.
+*MOT:	you're gonna do the fishy , okay .
+*MOT:	and then we'll be all done . 679140_681778
+*MOT:	he can ?
+*MOT:	doo_dee_doo@si , and he carried a big bucket of cookies . 689580_693580
+*MOT:	hmm hmm hmm . 706048_706981
+*MOT:	he wants to go for a walk .
+*MOT:	the farm ? 725080_726036
+*MOT:	what's at the farm ?
+*MOT:	oh , what kind of animals does he like ?
+*MOT:	mm . 736551_737571
+*MOT:	have fun ! 737573_741318
+*MOT:	hi ! 747048_747523
+*MOT:	how's the farm ? 748438_750011
+*MOT:	0did you see any horses ? 751286_753106
+*MOT:	did you feed (th)em ? 753786_756040
+*MOT:	did you ride (th)em ?
+*MOT:	xxx , you rode on (th)em ? 758923_760875
+*MOT:	wow ! 761776_762851
+*MOT:	xxx , did you ever ride on a horse , Violet ?
+*MOT:	you did ? 766350_767705
+*MOT:	did xxx ride on a horse when we went to Martha's_Vineyard ? 768915_771773
+*MOT:	yeah . 772815_773858
+*MOT:	did ya [: you] see him sitting on the horsie ? 773858_776505
+*MOT:	and next time we go , you can ride on the horse , right ?
+*MOT:	yeah , 0are you gonna do it ? 780393_781546
+*MOT:	yeah .
+*MOT:	that'll [: that will] be fun . 782725_784880
+*MOT:	to ride on a horsie . 786680_788261
+*MOT:	riding on a horsie ! 788261_791110
+*MOT:	xxx . 791110_792143
+*MOT:	whoa .
+*MOT:	and he hopped on !
+*MOT:	donkey riding , donkey riding , hey oh hey +/.
+*MOT:	riding on a +..?
+*MOT:	have you ever been to France ? 826076_828443
+*MOT:	donkey riding , donkey riding . 828443_830981
+*MOT:	no you did . 834848_836185
+*MOT:	yeah , you did a good job on it , didn't you ?
+*MOT:	mhm . 844608_845593
+*MOT:	and the bunny .
+*MOT:	so now we 0have got the fish left , are you gonna do it ? 849846_852005
+*MOT:	or should I do it ? 852375_853236
+*MOT:	alright , I'll do it .
+*MOT:	hey oh , away we go , fishy , fishy , fishy xxx . 860366_865875
+*MOT:	fishy . 865875_868455
+*MOT:	&uh oh , ring_a_ling_a_ling_a_ling@si . 868455_872078
+*MOT:	whoops !
+*MOT:	I fell down . 874816_875975
+*MOT:	hold on a second , lemme [: let me] just grab the phone . 875975_877760
+*MOT:	hello ?
+*MOT:	hey , what's up ? 883998_885610
+*MOT:	oh , Violet's [: Violet is] sick . 885610_888288
+*MOT:	yeah xxx . 888288_890720
+*MOT:	oh I dunno [: don't know] , are they throwing up ? 890720_893385
+*MOT:	yeah , she's throwing up . 893385_895478
+*MOT:	well , she's fi(ne) +//. 895478_898608
+*MOT:	she's alright right now but harry +...
+*MOT:	said she threw up on the way to school and on the way home . 898608_901111
+*MOT:	I know , so , but we're just playing now and she's , she's , &um +... 901111_906465
+*MOT:	she's got a runny nose , you know . 906465_908376
+*MOT:	so +... 908376_910758
+*MOT:	yeah . 910758_911985
+*MOT:	and I know there's , I know that , &um +... 911985_914910
+*MOT:	a lotta [: lot of] the kids at xxx school are sick , so +/.
+*MOT:	I'm just waiting for the call from , for him today .
+*MOT:	xxx , I know , I hope I don't get it . 920781_923055
+*MOT:	yeah , so we're just hanging out , but the concert was really fun , oh don't pull that .
+*MOT:	yeah it was good , except they made you wait forever . 928551_931496
+*MOT:	my back is broken . 931496_933431
+*MOT:	like , I hadn't been to a concert like that in so long , it made me feel so old . 933431_939118
+*MOT:	(be)cause it was like , wait in line +... 939118_941280
+*MOT:	for like , two hours , (be)cause Jess(ica) +/. 941280_943761
+*MOT:	well , Jessica wanted to go (.) early , (be)cause she thought they would let you in early . 943761_949210
+*MOT:	at , (be)cause it , the thing said 0it starts at eight , so she was like oh +/.
+*MOT:	well maybe we could get in at like seven , or you know . 952720_955426
+*MOT:	so we get there at like , quarter of seven and we wait in line (un)til like seven , no (un)til like eight fifteen +/.
+*MOT:	and then they let us in . 962728_964430
+*MOT:	and then , at like nine o'clock , or ten after nine +... 964431_968481
+*MOT:	then the opening act comes , who was (.) , yeah , who sucked +/.
+*MOT:	so we were so pissed , we were like , oh my god , I , I was like ready to leave I was so mad +/.
+*MOT:	but then she came and 0of course she's , she made up for it (be)cause she was really good .
+*MOT:	yeah , she was , she did a lot of poetry , it was good , but &um , the cr(owd) , it was just a , it was a weird crowd .
+*MOT:	as it always is , but it's it's it's , I don't [: do not] know , that place is kinda [: kind of] grungy , (.) you know ?
+*MOT:	it reminds me of this place I used to go a long time ago when I was in college +/.
+*MOT:	it's like everything's [: everything is] black .
+*MOT:	yeah .
+*MOT:	&uh huh .
+*MOT:	oh yeah ? 1014761_1017023
+*MOT:	yeah . 1017023_1022088
+*MOT:	oh yeah . 1022088_1027088
+*MOT:	oh , yeah . 1027088_1029208
+*MOT:	I know , and they're jerks too . 1029208_1033224
+*MOT:	xxx . 1033224_1034636
+*MOT:	so anyway +...
+*MOT:	I think so , yeah . 1037123_1040526
+*MOT:	it was really crowded . 1040526_1042986
+*MOT:	this girl was like , she's like , I've been to like twenty concerts and I never saw it this crowded . 1042986_1047361
+*MOT:	yeah . 1047361_1048390
+*MOT:	so , &uh , yeah , definitely +/.
+*MOT:	it was a really big college scene , yeah +/.
+*MOT:	it's a big lesbian scene really . 1055625_1057878
+*MOT:	yeah .
+*MOT:	it is .
+*MOT:	definitely , I mean it's +//.
+*MOT:	there , like there's like , xxx ten women to every one man there . 1064031_1068378
+*MOT:	xxx . 1068378_1070633
+*MOT:	yeah . 1070633_1072311
+*MOT:	oh no , well bring (th)em over if they're sick xxx !
+*MOT:	xxx .
+*MOT:	I know . 1088746_1090408
+*MOT:	well , did you take (th)em out for a walk or anything ? 1090408_1092711
+*MOT:	how (a)bout to the mall , put them in the stroller and bring (th)em to the mall . 1092711_1095406
+*MOT:	I know . 1095408_1097783
+*MOT:	ooh ! 1097783_1102265
+*MOT:	yeah . 1102265_1104985
+*MOT:	what time is that at ? 1104985_1106880
+*MOT:	&uh huh .
+*MOT:	well I think xxx would like to see that .
+*MOT:	no , he saw it , but I know he would like , he'd [: he would] like to see it again . 1113476_1117850
+*MOT:	maybe I'll [: I will] take him after school . 1117850_1120560
+*MOT:	I haven't seen it yet . 1120560_1125521
+*MOT:	I know , I wanna see it . 1125521_1128585
+*MOT:	maybe I'll take him after school . 1128585_1130546
+*MOT:	yeah .
+*MOT:	oh , hmm , I think they'd [: they would] get a , Violet would be too afraid at that .
+*MOT:	you know ? 1145633_1147120
+*MOT:	xxx , I don't even know if she'd [: she would] make it through a regular movie , but +//. 1147120_1150665
+*MOT:	no .
+*MOT:	yeah ? 1155698_1157103
+*MOT:	you like teletubbies , yeah .
+*MOT:	I know , but the fact that she can't watch the muppets +... 1162371_1165185
+*MOT:	you know xxx . 1165185_1167943
+*MOT:	xxx not yeah . 1167943_1169295
+*MOT:	I might be pushing her , but you never know . 1169295_1172595
+*MOT:	she may love it . 1172595_1174680
+*MOT:	where is the cheap place again ? 1174680_1179680
+*MOT:	okay . 1179680_1184123
+*MOT:	mhm .
+*MOT:	mhm . 1192465_1193510
+*MOT:	yeah , yeah that's right , you said , yeah you couldn't find it , yeah .
+*MOT:	yeah that's xxx trophy . 1198750_1200450
+*MOT:	yeah . 1200450_1201590
+*MOT:	well , I could , they probably have directions . 1201590_1205045
+*MOT:	on the computer . 1205045_1206440
+*MOT:	&um , like ten of three .
+*MOT:	you can look at it , but don't break it . 1212200_1213720
+*MOT:	don't eat it . 1213721_1216713
+*MOT:	yuck . 1216713_1217581
+*MOT:	xxx Violet , go get your Mickey Mouse thing outta [: out of] there . 1217581_1220463
+*MOT:	Mickey Mouse . 1220463_1222046
+*MOT:	so , Jessica's [: Jessica is] thinking about having a christmas party though .
+*MOT:	yes , we could invite Russ . 1225776_1227928
+*MOT:	mhm . 1227928_1229386
+*MOT:	so that's exciting . 1229386_1230731
+*MOT:	yeah . 1230731_1231581
+*MOT:	so she said I have_to plan it though .
+*MOT:	and she'll have it at her house . 1234416_1236126
+*MOT:	I was like , okay . 1236126_1238796
+*MOT:	xxx .
+*MOT:	oh no , it's not in there , where is it ? 1241188_1244108
+*MOT:	oh , we left it at grandma's house .
+*MOT:	so , what else can you do , you can , &um +... 1248780_1252196
+*MOT:	oh no . 1257453_1259583
+*MOT:	oh .
+*MOT:	yeah .
+*MOT:	I know +...
+*MOT:	I , &uh oh , see , that's why I don't want you touching it (be)cause you already broke it . 1269091_1273750
+*MOT:	oh , okay .
+*MOT:	I dunno [: don't know] , somebody gave it to her for her , for her birthday . 1283148_1287788
+*MOT:	probably , I bet you could get it at like K_B_Toy or something like that . 1287788_1293115
+*MOT:	you know there's one over by the Shaw's . 1293115_1295988
+*MOT:	a K_B_Toy . 1295988_1297510
+*MOT:	yeah . 1297510_1298853
+*MOT:	and then there's , I think there's one at the mall but I dunno [: do not know] . 1298853_1301988
+*MOT:	that's the kind of place I think +//.
+*MOT:	you know ?
+*MOT:	doesn't have it xxx +//.
+*MOT:	how (a)bout like a , &um , +... 1309506_1311711
+*MOT:	yeah I guess it depends if you have any money , I was going to say a trip to like the job lot or like building nineteen or something . 1311713_1317240
+*MOT:	you know , that's always a good pick me up . 1317241_1319855
+*MOT:	xxx . 1319855_1321611
+*MOT:	oh yeah .
+*MOT:	yeah , check that , yeah , do that and then go to the movie or something . 1330110_1333330
+*MOT:	we gotta [: have got_to] leave that on , okay ? 1333330_1335598
+*MOT:	yeah ?
+*MOT:	alright , well call me later . 1336748_1338781
+*MOT:	if you find anything exciting to do , we're just , we're just stuck in the house too . 1338781_1343353
+*MOT:	Violet wants to go for a walk so maybe we'll go for a walk . 1343353_1346211
+*MOT:	she wants to go to the farm , I don't where , what farm she's talking about . 1350328_1353813
+*MOT:	xxx . 1353813_1355921
+*MOT:	I don't know , alright , I'll talk to you later , bye . 1355921_1359175
+*MOT:	that was Mara , her kids are still sick .
+*MOT:	mhm .
+*MOT:	what , the Mickey and Minnie ? 1368596_1369973
+*MOT:	we must have left it at grandma and grandpa's , do you think we did ? 1370645_1374978
+*MOT:	we did ? 1382050_1382880
+*MOT:	where ? 1383641_1384326
+*MOT:	no +/. 1387350_1388865
+*MOT:	let's see who's on your shirt .
+*MOT:	who's this one ? 1390781_1392485
+*MOT:	Twinky_Winky . 1392485_1395246
+*MOT:	dipsy . 1395246_1397353
+*MOT:	la la . 1397353_1399641
+*MOT:	Po , who's your favorite one ? 1399641_1402578
+*MOT:	which one is your favorite one ? 1402578_1404661
+*MOT:	I think I like la la . 1409905_1411841
+*MOT:	you like Po ?
+*MOT:	Po's [: Po is] the baby . 1421245_1422586
+*MOT:	and Po has a circle . 1424575_1429265
+*MOT:	right ?
+*MOT:	mm , they all have ears .
+*MOT:	right .
+*MOT:	hmm . 1448788_1451908
+*MOT:	that's xxx trophy , huh ? 1451908_1454063
+*MOT:	you think it's going to fit in there ? 1457050_1458508
+*MOT:	now let's see if we can put it in .
+*MOT:	let's see +... 1463380_1464543
+*MOT:	oh boy +... 1466531_1469905
+*MOT:	I: dunno [: don't know] if it's gonna fit in there .
+*MOT:	you think it is ? 1473595_1475575
+*MOT:	oh yeah , that's a good idea .
+*MOT:	okay , let's , let's do it like that and shut the lid , don't worry about that thing . 1481111_1484915
+*MOT:	now watch this , open the door +...
+*MOT:	ah , xxx trophy ! 1487645_1490278
+*MOT:	East Side Sports Lions . 1491743_1494011
+*MOT:	xxx xxx . 1494013_1495615
+*MOT:	that's his soccer , soccer prize .
+*MOT:	when you play soccer , you'll get a trophy too . 1498951_1501541
+*MOT:	are you gonna play soccer when you get big ?
+*MOT:	yeah ?
+*MOT:	with xxx ? 1507245_1508178
+*MOT:	okay .
+*MOT:	oh , you're going to open the door ? 1512905_1514263
+*MOT:	okay , hello !
+*MOT:	it's a funny day out . 1527013_1528443
+*MOT:	oh 0are you gonna put the necklace in there ? 1540543_1543906
+*MOT:	mhm .
+*MOT:	hello . 1573171_1575116
+*MOT:	no ? 1584796_1585846
+*MOT:	no .
+*MOT:	that goes in there ?
+*MOT:	they could both probably fit in there .
+*MOT:	xxx ! 1613260_1614496
+*MOT:	xxx . 1615580_1616853
+*MOT:	hello . 1627443_1628350
+*MOT:	hello . 1629786_1630530
+*MOT:	goodbye . 1630530_1633673
+*MOT:	goodbye . 1635078_1637713
+*MOT:	xxx . 1646593_1651613
+*MOT:	it's a trophy , did you win a trophy ?
+*MOT:	for what ?
+*MOT:	xxx , there . 1662980_1665211
+*MOT:	it says xxx xxx . 1666446_1669050
+*MOT:	what's your name ? 1670785_1672508
+*MOT:	Violet what ?
+*MOT:	is your name Violet +..?
+*MOT:	xxx ?
+*MOT:	can you say that ? 1678478_1679545
+*MOT:	it says +...
+*MOT:	East Side Sports . 1682721_1684571
+*MOT:	Lions , xxx xxx . 1684571_1687378
+*MOT:	you're gonna get one that says Violet xxx . 1688845_1695116
+*MOT:	yours will say Violet xxx . 1695116_1697478
+*MOT:	right ? 1697478_1698548
+*MOT:	it's windy out today .
+*MOT:	you see the wind blowing out there ? 1704948_1707550
+*MOT:	it's a strong wind .
+*MOT:	open , shut them !
+*MOT:	xxx a little .
+*MOT:	open , shut them . 1738211_1740720
+*MOT:	put them in your +..? 1743380_1745680
+*MOT:	huh .
+*MOT:	I dunno [: don't know] if that's the way it goes . 1755910_1759848
+*MOT:	how does it get in there ? 1764256_1765775
+*MOT:	you gotta turn it I think .
+*MOT:	yeah , so it can fit in .
+*MOT:	you gotta slide it down . 1790976_1792513
+*MOT:	yeah , see if you can put it in there now . 1796911_1798860
+*MOT:	that's a tough one , Violet , you gotta turn it so it's standing up . 1809050_1814325
+*MOT:	yeah , now try like that . 1814325_1816181
+*MOT:	yeah , yeah , yeah , yeah , yeah [: yes] ! 1816181_1819786
+*MOT:	yeah , yeah , yeah ! 1819786_1821351
+*MOT:	oh . 1821351_1829181
+*MOT:	yay !
+*MOT:	you got it ! 1832846_1834060
+*MOT:	yay !
+*MOT:	now can you see it in there ? 1838911_1843126
+*MOT:	you can't ? 1844458_1846063
+*MOT:	what do you see ? 1851078_1852178
+*MOT:	I gotta get up some energy to do something . 1869248_1873926
+*MOT:	alright . 1880713_1882873
+*MOT:	yay . 1889076_1890930
+*MOT:	now you got it perfect .
+*MOT:	whadda [: what do] you see ? 1900971_1901905
+*MOT:	mhm . 1904730_1905346
+*MOT:	you see it ?
+*MOT:	and now it's a hat .
+*MOT:	I gotta go get you a tissue . 1920793_1922945
+*MOT:	xxx .
+*MOT:	lemme [: let me] go get you one . 1934100_1935350
+*MOT:	I'll go get you a tissue , okay ? 1935350_1938143
+*MOT:	yeah , in here . 1939610_1940650
+*MOT:	I'll get you one . 1940650_1941813
+*MOT:	yeah ? 1953983_1955743
+*MOT:	you did ? 1959481_1960638
+*MOT:	here , let's use this .
+*MOT:	(be)cause I can't find a tissue .
+*MOT:	okay ? 1965678_1967811
+*MOT:	we did it ? 1967811_1970776
+*MOT:	you wanna read some books ?
+*MOT:	let's see +... 1982465_1983583
+*MOT:	mm , you pick what you want to read . 1988840_1990841
+*MOT:	maybe like where the sidewalk ends now .
+*MOT:	did you ever see this one ?
+*MOT:	that's a good one .
+*MOT:	but I don't know if you'll like it yet . 2000313_2003256
+*MOT:	do you like +/.
+*MOT:	oh you like the bug one ? 2009515_2010941
+*MOT:	alright , let's go sit on the couch and look .
+*MOT:	or the chair .
+*MOT:	oh , dear zoo book ?
+*MOT:	good . 2024458_2025650
+*MOT:	which one do you want first ? 2025650_2027908
+*MOT:	dear zoo ? 2029258_2029780
+*MOT:	xxx .
+*MOT:	ooh yeah .
+*MOT:	I have a feeling we're gonna read a lotta [: lot of] books today . 2036246_2039053
+*MOT:	dear zoo +... 2039053_2040280
+*MOT:	I wrote to the pet to send me , I wrote to the zoo xxx to send me a pet .
+*MOT:	they sent me an +..? 2044941_2046810
+*MOT:	xxx , he was too +..? 2047593_2049143
+*MOT:	jumpy , xxx , is an elephant jumpy ? 2050286_2054968
+*MOT:	he was too big .
+*MOT:	too big for a pet . 2060706_2062713
+*MOT:	so I sent him back , so they sent me a +..? 2062713_2065596
+*MOT:	giraffe , but he was too +..? 2067776_2071908
+*MOT:	(.) what's he ? 2071908_2076283
+*MOT:	too what ? 2076283_2077315
+*MOT:	xxx , too tall . 2079824_2081880
+*MOT:	see how tall he is ?
+*MOT:	he's too tall .
+*MOT:	I sent him back , so they sent me a +..? 2085175_2088913
+*MOT:	a lion .
+*MOT:	he was too +..? 2091946_2093186
+*MOT:	what was he ? 2093186_2098976
+*MOT:	too fierce . 2100850_2102146
+*MOT:	we're scared of that lion so I sent him back . 2103745_2106956
+*MOT:	so they sent me a +..?
+*MOT:	ah , a camel for a pet , but he was too +..? 2111415_2114638
+*MOT:	grumpy . 2114638_2117783
+*MOT:	so I sent him back . 2120080_2121455
+*MOT:	he was grumpy old camel . 2121455_2123320
+*MOT:	so they sent me a +..?
+*MOT:	you don't like the snake ?
+*MOT:	you want me to open it ?
+*MOT:	he was too scary . 2130980_2135181
+*MOT:	xxx sent him back , so they sent me a +..? 2135181_2137975
+*MOT:	yeah , you wanna see it , he's in the basket . 2139265_2144510
+*MOT:	now what are they sending ? 2146445_2148976
+*MOT:	they sent me a +..? 2148976_2150943
+*MOT:	he was too +..?
+*MOT:	naughty . 2153315_2155910
+*MOT:	he was a bad monkey .
+*MOT:	so I sent him back . 2160773_2162413
+*MOT:	so they sent me a +..? 2162413_2166141
+*MOT:	he was too +..?
+*MOT:	ri:ght .
+*MOT:	I sent him back . 2172571_2174321
+*MOT:	so they thought very hard . 2175726_2178258
+*MOT:	and sent me a +..? 2178258_2180448
+*MOT:	he was just +..? 2182171_2183975
+*MOT:	so I kept him .
+*MOT:	xxx . 2188146_2189855
+*MOT:	which animal would you like to keep for a pet ? 2193315_2195441
+*MOT:	all of these ?
+*MOT:	do you think we could fit (th)em in the house ?
+*MOT:	where would the elephant sleep ?
+*MOT:	xxx , you think he would fit on here ?
+*MOT:	what about , where would the lion sleep ? 2211978_2214708
+*MOT:	okay , where would the giraffe sleep ? 2218580_2221576
+*MOT:	wow , they're gonna be squashed , where would the monkey sleep ? 2223728_2226516
+*MOT:	where ? 2229911_2230658
+*MOT:	on the floor , how (a)bout the snake ? 2232571_2234150
+*MOT:	the floor too ? 2235445_2236571
+*MOT:	and the camel ?
+*MOT:	xxx . 2242528_2244065
+*MOT:	xxx , you're crazy . 2244065_2246116
+*MOT:	you think those animals would fit in here ? 2246116_2248510
+*MOT:	you do , I think a giraffe would be so tall his neck wouldn't , his neck wouldn't fit in here !
+*MOT:	but he would be taller than our ceiling . 2259781_2262263
+*MOT:	he can walk ?
+*MOT:	the elephant might be so fat that he takes up the whole room ! 2265848_2271180
+*MOT:	xxx .
+*MOT:	the camel might make a poopy on the floor . 2274716_2277705
+*MOT:	the lion can run around fast ! 2283013_2285441
+*MOT:	xxx , mhm , the snake can go on the floor and the monkey can hang from the chandelier .
+*MOT:	no , chandelier , right there , see that ?
+*MOT:	up there , see the light up there , that's called a chandelier .
+*MOT:	yep [: yes] .
+*MOT:	or he can hang on your ear if you want . 2306480_2308643
+*MOT:	xxx .
+*MOT:	look you got butter in your hair or something today .
+*MOT:	did you put butter in your hair ?
+*MOT:	xxx , how come it's all greasy buttery ?
+*MOT:	you didn't ?
+*MOT:	did daddy put butter in there ?
+*MOT:	did xxx put butter in it ? 2329846_2331986
+*MOT:	xxx .
+*MOT:	xxx , what do you think , you wanna try where the sidewalk ends ? 2333920_2339483
+*MOT:	this is a funny one about poems .
+*MOT:	mhm . 2345101_2346141
+*MOT:	whoops ! 2346143_2348043
+*MOT:	xxx .
+*MOT:	0i 0put the cover on the wrong way . 2349911_2351393
+*MOT:	ickle@wp me , pickle me . 2353750_2355013
+*MOT:	tickle me too . 2355351_2356353
+*MOT:	went for a ride in a flying shoe . 2356353_2358368
+*MOT:	hooray , what fun ! 2358368_2359503
+*MOT:	it's time we flew , said ickle@wp me pickle me tickle me too . 2359503_2362648
+*MOT:	xxx .
+*MOT:	you like that one ?
+*MOT:	that's what it , kind of book it is . 2366328_2368973
+*MOT:	I must remember . 2368973_2370645
+*MOT:	turkey on Thanksgiving . 2370646_2373000
+*MOT:	pudding on christmas . 2373000_2374000
+*MOT:	eggs on easter , chicken on sunday . 2374000_2376071
+*MOT:	fish on friday . 2376073_2377011
+*MOT:	leftovers monday . 2377011_2378240
+*MOT:	ah me , I'm such a dunce . 2378240_2380855
+*MOT:	I went and ate them all at once ! 2380855_2382973
+*MOT:	look at that big fat belly . 2382973_2384106
+*MOT:	home+made boat . 2384106_2389380
+*MOT:	this boat that we just built is +... 2389380_2392375
+*MOT:	just fine , and don't try to tell us it's not . 2392375_2395520
+*MOT:	the sides and the back are divine . 2395520_2397650
+*MOT:	it's the bottom I guess we forgot . 2397650_2399571
+*MOT:	xxx . 2399573_2401348
+*MOT:	acrobats . 2401348_2405206
+*MOT:	I'll swing by my ankles , she'll cling to your knees , as you hang by your nose from high +//. 2405206_2411183
+*MOT:	high up trapeze , but just one thing please , as we float through the breeze +... 2411183_2415641
+*MOT:	don't sneeze . 2415643_2417713
+*MOT:	xxx . 2417713_2419776
+*MOT:	if you are a dreamer , come in . 2419776_2425050
+*MOT:	if you are a dreamer , a wisher , a liar +... 2425050_2427380
+*MOT:	a hoper , a prayer , a magic bean buyer +... 2427380_2429415
+*MOT:	if you're a pretender , come sit by my fire . 2429415_2431713
+*MOT:	for we have some flax golden tales to spin . 2431713_2434528
+*MOT:	come in , come in ! 2434528_2436390
+*MOT:	one sister for sale . 2436390_2444515
+*MOT:	one sister for sale . 2444515_2446246
+*MOT:	one crying and spying young sister for sale . 2446246_2449778
+*MOT:	I'm really not kidding , so who will start the bidding ? 2449778_2452450
+*MOT:	do I hear a dollar , a nickel , a penny ? 2452450_2454310
+*MOT:	oh isn't there , isn't there , isn't there any ? 2454310_2456578
+*MOT:	one kid who will buy this old sister for sale , this crying and spying young sister for sale ? 2456578_2461241
+*MOT:	xxx . 2461241_2462861
+*MOT:	you can't sell sisters , can you ? 2462861_2465180
+*MOT:	invention . 2465180_2469045
+*MOT:	I've done it , I've done it , guess what I've done ? 2469045_2472618
+*MOT:	invented a light that plugs into the sun . 2472618_2474931
+*MOT:	the sun is bright enough , the bulb is strong enough . 2474931_2477650
+*MOT:	but oh , there's only one thing wrong +... 2477650_2479715
+*MOT:	the chord ain't [: is not] long enough ! 2479716_2481711
+*MOT:	xxx . 2481711_2487380
+*MOT:	the snake eating you . 2487380_2488650
+*MOT:	man , two boxes . 2488651_2490580
+*MOT:	two boxes met upon the road . 2490580_2492988
+*MOT:	said one to the other , if you're a box and I'm a box , then you must be my brother . 2492988_2497083
+*MOT:	our sides are thin , we're caving in +... 2497083_2499193
+*MOT:	and we must get no thinner . 2499193_2500743
+*MOT:	and so two boxes , hand in hand , went home to have their dinner . 2500743_2503846
+*MOT:	xxx , boxes . 2503848_2507545
+*MOT:	pancake . 2507546_2514878
+*MOT:	who wants a pancake ? 2514878_2517350
+*MOT:	sweet and piping hot . 2517350_2518680
+*MOT:	good little Gracie looks up and says , I'll take the one on top . 2518680_2522460
+*MOT:	who else wants a pancake , fresh off the griddle ? 2522460_2525108
+*MOT:	terrible Theresa smiles and says , I'll take the one in the middle . 2525108_2529011
+*MOT:	mm , look at all those pancakes .
+*MOT:	that's a lot of pancakes , huh ? 2532510_2535311
+*MOT:	Joey , Joey , took a stone +... 2535313_2543241
+*MOT:	and knocked down the sun . 2543241_2544908
+*MOT:	and whoosh , it swizzled@o down so hard , and bloop@o , it bounced in his backyard , and goink@o , it landed on his toe +... 2544908_2550793
+*MOT:	and the world was dark and the corn wouldn't grow and , and the wind wouldn't blow +... 2550793_2554573
+*MOT:	and the cock wouldn't crow . 2554573_2556076
+*MOT:	and it was night . 2556076_2557720
+*MOT:	and it was always night , night , night . 2557720_2559978
+*MOT:	all because of a stone and Joe . 2559978_2563181
+*MOT:	orchestra , ourchestra@wp . 2563181_2575800
+*MOT:	so you haven't got a drum , just beat your belly . 2575800_2578216
+*MOT:	so haven't got a horn , I'll play my nose . 2578218_2580773
+*MOT:	so we haven't any cymbals , we'll just slap our hands together . 2580773_2584041
+*MOT:	and though there may be orchestras that sound a little better +... 2584041_2587013
+*MOT:	with their fancy , shiny instruments that cost an awful lot +... 2587013_2590010
+*MOT:	hey , we're making music twice as good by playing what we've got . 2590010_2593383
+*MOT:	that Captain Hook . 2593383_2601245
+*MOT:	see +... 2601245_2602638
+*MOT:	ickle@wp me , pickle me . 2602638_2606750
+*MOT:	tickle me too . 2606750_2607945
+*MOT:	went for a ride in a flying shoe . 2607945_2610841
+*MOT:	hooray , what fun , it's time we flew , said ickle@wp me pickle me tickle me too . 2610841_2614780
+*MOT:	what do you think about that one ? 2614780_2617238
+*MOT:	did you like that one ? 2617238_2618508
+*MOT:	let's see if there's anything else that you might like . 2618508_2622810
+*MOT:	some of them are a little bit scary . 2622810_2624700
+*MOT:	the long haired boy . 2624700_2626110
+*MOT:	there was a boy in our town with long hair , I mean really long hair . 2626110_2632781
+*MOT:	and everybody pointed at him and laughed at him and made fun of him . 2632781_2635673
+*MOT:	and when he walked down the street , the people would roar and stick out their tongues and make funny faces . 2635673_2640081
+*MOT:	and run in and slam the door and shut (th)em +... 2640081_2642548
+*MOT:	from the window until he couldn't stand anymore , so he sat down and cried . 2642548_2645840
+*MOT:	till his whole body shook , and pretty soon his hair shook too . 2645840_2649256
+*MOT:	and it flapped and flapped and lifted and flew . 2649256_2653480
+*MOT:	wow . 2653480_2655773
+*MOT:	the longest nose in the world belongs to Betsy blue bonnet . 2655773_2661171
+*MOT:	who lets me write things on it . 2661171_2663013
+*MOT:	xxx . 2663013_2666311
+*MOT:	xxx , let's see , what else ? 2666311_2677108
+*MOT:	dancing pants ? 2677108_2678310
+*MOT:	and now for the dancing pants , doing their fabulous dance . 2678310_2683186
+*MOT:	from the seat to the pleat , they will bounce to the beat with no legs inside them . 2683186_2687180
+*MOT:	and no feet beneath they'll whirl and twirl and jiggle and prance +... 2687180_2691041
+*MOT:	so just start the music and give (th)em a chance . 2691041_2693438
+*MOT:	let's have a big hand , for the wonderful , marvelous , super sensational +... 2693438_2697386
+*MOT:	utterly fabulous +... 2697386_2699128
+*MOT:	talented dancing pants . 2699128_2701248
+*MOT:	dancing pants ? 2701248_2703391
+*MOT:	0is that funny ? 2703391_2704846
+*MOT:	do you like this book or not ? 2707715_2709046
+*MOT:	yeah , you like the pictures , huh ? 2710590_2712513
+*MOT:	the pictures are kinda [: kind of] like that book , &uh +...
+*MOT:	who wants a cheap rhinoceros ? 2715720_2717571
+*MOT:	oh what a day , what a day , my baby brother ran away . 2717571_2721981
+*MOT:	now my tuba will not play . 2721981_2723995
+*MOT:	I'm eight years old and turning grey , oh what a day , oh what a day , look +... 2723995_2727775
+*MOT:	the baby brother's [: brother is] hiding in there . 2727775_2729390
+*MOT:	shadow wash . 2734481_2739986
+*MOT:	I've never washed my shadow out in all the time I've had it , it was absolutely filthy I suppose . 2739986_2745323
+*MOT:	and so today I peeled it off the wall where it was leaning , and stuck it in the wash tub with the clothes . 2745323_2750796
+*MOT:	I put in the soap and the bleach and stuff , I let it soak for hours . 2750796_2754211
+*MOT:	I wrung it out and hung it to dry . 2754211_2756236
+*MOT:	and who would ever thunk ? 2756238_2757843
+*MOT:	that it would have gone and shrunk ? 2757843_2759800
+*MOT:	for now it's so much littler than I . 2759800_2762448
+*MOT:	what's in the sack , what's in the sack ? 2762448_2772245
+*MOT:	is it some mushrooms or is it the moon ? 2772245_2774541
+*MOT:	is it love letters or downy goose feathers ? 2774541_2777800
+*MOT:	or maybe the world's most enormous balloon . 2777800_2780446
+*MOT:	what do you think is in the sack ? 2780448_2783456
+*MOT:	hmm , what's in there ? 2783456_2788016
+*MOT:	do you know ? 2788016_2790063
+*MOT:	the sun , xxx . 2792125_2793391
+*MOT:	the what ? 2795708_2796975
+*MOT:	designs ? 2797975_2799045
+*MOT:	the signs ? 2800411_2801483
+*MOT:	ah . 2802435_2803505
+*MOT:	under the growth , there dwells a bloath@wp , who feeds upon poets and tea . 2803505_2808745
+*MOT:	luckily , I know this about him , while he knows almost nothing of me . 2808745_2814250
+*MOT:	xxx . 2814250_2816438
+*MOT:	(.) , if I had a brontosaurus +... 2816438_2832945
+*MOT:	I would name him Horace or Morris . 2832945_2835040
+*MOT:	but if suddenly one day he had a lot , a lot of little brontosauri [: brontosauruses] +... 2835040_2839978
+*MOT:	I would change his , of brontosauri [: brontosauruses] , I would change his name to Lory . 2839978_2844310
+*MOT:	I didn't read that one very good . 2844310_2848400
+*MOT:	alright , let's shut off the video camera . 2848400_2850175
+*MOT:	xxx . 2850175_2851481
+*MOT:	(o)kay ? 2851481_2852508
+*MOT:	oy , then we can read some about the , the insect book . 2852508_2855413
+*MOT:	wanna do that ? 2855411_2856741
+*MOT:	(o)kay , say bye to the camera . 2858788_2860311

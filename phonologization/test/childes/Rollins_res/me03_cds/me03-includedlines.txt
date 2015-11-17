@@ -1,0 +1,330 @@
+*MOT:	you want to hold it . 2232_3500
+*MOT:	you want to do the rattle , ahhah . 3498_4871
+*MOT:	oh that's good grip . 4903_6739
+*MOT:	good grip . 6737_7941
+*MOT:	let me see you do it . 8039_9375
+*MOT:	let me see you . 9375_10976
+*MOT:	&=laugh . 10976_13212
+*MOT:	that makes lots_of noise don't it , oh don't hit yourself in the
+*MOT:	don't hit yourself in the nose . 18217_21119
+*MOT:	yeah . 21119_22688
+*MOT:	yeah . 22688_24957
+*MOT:	0 . [+ trn] 24957_26447
+*MOT:	are you making music . 26448_27960
+*MOT:	are you making music . 27960_29793
+*MOT:	yeah . 29793_30996
+*MOT:	are you making music . 30996_32330
+*MOT:	look at the book . 32330_34867
+*MOT:	look . 34867_35701
+*MOT:	look see . 35701_37069
+*MOT:	look see let's see . 37069_38302
+*MOT:	ahhah: . 38302_39653
+*MOT:	what is that . 39654_40906
+*MOT:	<is that another> [//] what's that baby have . 40873_43108
+*MOT:	what's that bear have . 43109_44775
+*MOT:	he got a bottle . 44775_46112
+*MOT:	yeah: he's got a bottle . 46112_48846
+*MOT:	ahhah oh . 48846_50916
+*MOT:	who's that pretty baby . 51816_53820
+*MOT:	who's that pretty baby . 53820_55421
+*MOT:	can you see . 55419_56721
+*MOT:	oh: . 57021_58124
+*MOT:	that's Mot's pretty baby isn't it . 58122_60593
+*MOT:	that's Mot's pretty baby . 60792_63094
+*MOT:	yes: ahhah . 63094_64296
+*MOT:	what's this . 64296_64795
+*MOT:	is that a bunny+rabbit . 64794_66464
+*MOT:	is that a bunny+rabbit . 66598_67800
+*MOT:	huh is that a big bunny+rabbit . 67800_70468
+*MOT:	ahhah . 70136_72038
+*MOT:	what's the kitty . 72039_73471
+*MOT:	I think that's Ambrose . 73471_75728
+*MOT:	is that Ambrose . 75727_77143
+*MOT:	meow@o . 77143_79242
+*MOT:	is that old Ambrose . 79242_80913
+*MOT:	oh: who is that . 80913_82748
+*MOT:	is that another baby . 82748_84049
+*MOT:	is that another baby . 84049_85716
+*MOT:	yes it is . 85715_87151
+*MOT:	and . 87152_89304
+*MOT:	that's Fat and Mot . 89302_91445
+*MOT:	ahhah that can be Courtney your big sister . 91443_94108
+*MOT:	and you . 94106_95582
+*MOT:	hey . 95583_97463
+*MOT:	let me see . 97463_99230
+*MOT:	let me see . 99229_100799
+*MOT:	what else is in here . 100899_102601
+*MOT:	ahhah oh that's a little sheep . 102601_105568
+*MOT:	you want the little sheep . 105938_107171
+*MOT:	you want the she(ep) . 107172_108004
+*MOT:	baa@o [=! itr] . 108003_110174
+*MOT:	you want to get the little sheep . 110475_113010
+*MOT:	can you get him . 113010_114311
+*MOT:	can you get the sheep . 114311_116082
+*MOT:	huh . 116082_117216
+*MOT:	yeah: . 117282_119250
+*MOT:	xxx . 119250_120149
+*MOT:	is he cute . 120147_121521
+*MOT:	what else is in here . 121521_123122
+*MOT:	oh: that's a moo+cow . 123122_125257
+*MOT:	moo@o [=! itr] . 125257_128060
+*MOT:	that's the moo+cow . 128060_129395
+*MOT:	the moo+cow will get you . 129728_131429
+*MOT:	the moo+cow will get you . 131429_132462
+*MOT:	yes yes . 132462_134065
+*MOT:	xxx . 134063_135031
+*MOT:	yes: you going to laugh for Mot . 135030_136967
+*MOT:	are you going to laugh . 136965_138136
+*MOT:	yeah: you like to laugh . 138370_140504
+*MOT:	yeah . 140504_141939
+*MOT:	you laugh when you bit your big sister your big sister can always
+*MOT:	she can always make you laugh . 146746_148715
+*MOT:	<boo@o> [>] [=! itr] . 148713_152317
+*MOT:	ahhah <is that> [>] funny . 152317_153983
+*MOT:	is that funny . 153982_155188
+*MOT:	yeah you think that's funny don't you . 155187_157357
+*MOT:	hey what else we got in here . 157623_159789
+*MOT:	it's a pig . 159789_162291
+*MOT:	it's a pig . 162289_163328
+*MOT:	oink@o [=! itr] . 163326_166262
+*MOT:	&=vocalize . [+ trn] 166260_167233
+*MOT:	&=laugh . 167231_168593
+*MOT:	oink@o [=! itr] . 168764_170803
+*MOT:	&=vocalize . 170801_171501
+*MOT:	is that funny . 172528_173500
+*MOT:	is that funny . 173501_175273
+*MOT:	as grandma does . 175273_177109
+*MOT:	what does grandma do . 177108_178675
+*MOT:	what does grandma do she says . 178744_180045
+*MOT:	here comes the bumblebee the bumblebee the bumble , <bzz> [>] . 180044_187453
+*MOT:	yeah . 187285_187954
+*MOT:	bzz it gets you . 187954_189455
+*MOT:	yeah: . 189754_190450
+*MOT:	it does . 190450_191424
+*MOT:	it gets you . 191423_192584
+*MOT:	ahhah it gets you . 192585_194493
+*MOT:	yes . 195860_197096
+*MOT:	hey . 197096_197597
+*MOT:	want to make some more noise . 197597_199096
+*MOT:	huh . 199096_199665
+*MOT:	want to make some more noise . 199665_201433
+*MOT:	look at the ball . 201433_202799
+*MOT:	you see the balls going round . 202799_204502
+*MOT:	the balls going round . 204500_205838
+*MOT:	yeah . 206238_206706
+*MOT:	xxx . 206706_207573
+*MOT:	here . 207573_208171
+*MOT:	grab . 208171_208939
+*MOT:	what are you going to be . 209506_210375
+*MOT:	you going to be right handed or left handed . 210375_212442
+*MOT:	you don't know . 212441_213379
+*MOT:	say I don't know Mot . 213378_214814
+*MOT:	I don't know Mot . 214814_216980
+*MOT:	oh . 217115_219418
+*MOT:	are you going to be my drummer . 219317_221480
+*MOT:	are you going to be my little drummer . 221480_223122
+*MOT:	yes: . 223189_224087
+*MOT:	yes: . 224087_225557
+*MOT:	what else we got in here , oh rolly_polly . 225557_228527
+*MOT:	oh this makes noise too . 228694_232064
+*MOT:	what is that . 232064_233733
+*MOT:	is that a big bird . 233733_235600
+*MOT:	is that a big one . 235600_236685
+*MOT:	yeah . 237103_238403
+*MOT:	oh . 238937_241205
+*MOT:	0 . 241206_243180
+*MOT:	do [=! itr] . 243180_244471
+*MOT:	do [=! itr] . 244469_245737
+*MOT:	do [=! itr] . 245737_246679
+*MOT:	let me see you get those feet going . 246679_248611
+*MOT:	let me see . 248609_249412
+*MOT:	like when you go in the pool . 249411_250883
+*MOT:	we going to go in the pool today . 250882_253250
+*MOT:	look: up here . 253250_255802
+*MOT:	look . 255802_258123
+*MOT:	are we going to go in the pool today . 258123_259607
+*MOT:	go in the pool make big splashes . 259607_262093
+*MOT:	like last night . 262527_263829
+*MOT:	you made big splashes didn't you xxx . 263829_265864
+*MOT:	you got the carpet in the bath+room all wet . 265864_268600
+*MOT:	yes you did . 268600_270200
+*MOT:	hey . 270200_271878
+*MOT:	xxx look over here , see the birdie . 271877_274100
+*MOT:	see the birdie . 274100_275971
+*MOT:	oh: yes: yes: . 275971_278505
+*MOT:	I know . 278505_280179
+*MOT:	let's see . 280179_281043
+*MOT:	0 [=! vocalizes] . 281041_282781
+*MOT:	you want to hold the bird you want Mot to hold this . 286850_289054
+*MOT:	huh . 289054_290057
+*MOT:	<you want to hold the b(ird)> [//] oh: he's a funny bird isn't he .
+*MOT:	he makes noise . 294458_296627
+*MOT:	I think he goes rollie let's see . 296627_298463
+*MOT:	let's see how he goes on the floor . 298463_300071
+*MOT:	let's see , is he a birdie that tips . 300071_302452
+*MOT:	oh look he's a rolly_polly bird . 302452_304610
+*MOT:	look he cann't fall over . 304610_308340
+*MOT:	he's not falling over . 308340_309766
+*MOT:	no . 309766_311413
+*MOT:	here's the moo+cow . 311413_313779
+*MOT:	here's the moo+cow . 313778_315436
+*MOT:	here's moo+cow . 315389_316716
+*MOT:	oh we can put the pig over here . 316716_318902
+*MOT:	are you going to hit the pig . 318901_321587
+*MOT:	oh: are you going to knock the pig over . 321585_324157
+*MOT:	don't knock the pig over . 324156_327036
+*MOT:	xxx . 327036_330094
+*MOT:	oh there went the cow . 330095_331716
+*MOT:	there went the cow . 331715_332809
+*MOT:	oh: there went the pig . 332808_334366
+*MOT:	there went the cow . 334364_337170
+*MOT:	there we go . 337505_338713
+*MOT:	choo@o choo@o . 338713_339874
+*MOT:	you want to hold the pig . 339905_341105
+*MOT:	what's the pig say . 341106_342029
+*MOT:	oink@o oink@o . 342028_342909
+*MOT:	oink@o oink@o . 342908_343809
+*MOT:	you got pig . 343807_345643
+*MOT:	can you get . 345641_347488
+*MOT:	too much in your hands . 347489_348981
+*MOT:	get the piggie . 348981_350568
+*MOT:	get the piggie . 350568_351876
+*MOT:	yes: . 351875_352685
+*MOT:	yes: . 352683_353719
+*MOT:	oh . 353718_354798
+*MOT:	yes: . 354798_355870
+*MOT:	what else we got . 355870_357390
+*MOT:	oh you have +... 357388_358925
+*MOT:	we have these at grandma's . 358924_360259
+*MOT:	grandma has these doesn't she . 360258_362294
+*MOT:	she has the big rings . 362293_365298
+*MOT:	doesn't she . 365298_366837
+*MOT:	yes . 366836_367699
+*MOT:	you want to make a bracelet . 367698_370162
+*MOT:	you want to make a bracelet . 370160_371404
+*MOT:	&hmm . 371402_372639
+*MOT:	can you get that . 372639_373627
+*MOT:	what you going to do with that . 373625_375707
+*MOT:	maybe the pig . 375706_378598
+*MOT:	xxx the pig . 378599_379978
+*MOT:	put the pig in there . 379978_382247
+*MOT:	is that blue . 382247_383715
+*MOT:	that's blue . 383715_384629
+*MOT:	what color's this . 384629_386180
+*MOT:	is that green . 386180_388087
+*MOT:	green: you going to get the green one too . 388087_390394
+*MOT:	yes: . 390393_391491
+*MOT:	I can put the yellow one on your foot . 391490_394435
+*MOT:	put the yellow one on your foots [: feet] [*] . 394436_396029
+*MOT:	ahhah oh boy you knocked it off . 396029_400043
+*MOT:	you knocked it off . 400043_401942
+*MOT:	choo@o [= itr] . 401943_405204
+*MOT:	choo@o [= itr] . 405202_406572
+*MOT:	knock them together . 406948_408875
+*MOT:	knock them together like this . 408874_409709
+*MOT:	choo@o [= itr] . 409709_411644
+*MOT:	let me see you do that . 411642_413746
+*MOT:	huh . 413745_415191
+*MOT:	yeah that's good that's good . 415191_418451
+*MOT:	that's good . 418450_420088
+*MOT:	you want to trade . 420086_422421
+*MOT:	you like knocking them together don't you . 422420_424924
+*MOT:	you like knocking them together don't you . 424922_427828
+*MOT:	you want to trade . 427827_428802
+*MOT:	you take the yellow one . 428800_429677
+*MOT:	you want the yellow one . 429676_430329
+*MOT:	Mot has the green one . 430328_431597
+*MOT:	yeah . 431596_432932
+*MOT:	yeah . 432931_434400
+*MOT:	here let's see . 434398_435968
+*MOT:	can you put it on the ring . 435967_437343
+*MOT:	can you put it on the ring . 437341_439039
+*MOT:	let me see you put it try to put it on the ring . 439039_441907
+*MOT:	oh you just going to take it . 441905_446577
+*MOT:	are you going to take it . 446576_447513
+*MOT:	huh . 447512_448047
+*MOT:	let's see . 448045_450083
+*MOT:	hey look look . 450082_450922
+*MOT:	look up here . 450920_451884
+*MOT:	let's go . 451883_452685
+*MOT:	watch . 452684_453118
+*MOT:	boo@o . 453117_455088
+*MOT:	what color goes next . 455087_456756
+*MOT:	xxx look . 456754_457757
+*MOT:	oh do you want that ring back . 457756_459665
+*MOT:	you took my ring Mot . 459664_461791
+*MOT:	you want it back . 461792_464130
+*MOT:	you want it backs . 464130_465836
+*MOT:	there you go . 465836_467304
+*MOT:	there you go . 467303_468967
+*MOT:	ahhah . 468791_470281
+*MOT:	<oh: are y ou going> [//] are you going to chew on it . 470280_473439
+*MOT:	are you going to chew on its . 473438_475307
+*MOT:	yes yes . 475306_478680
+*MOT:	oh: let's sit you up sit you up . 478681_481781
+*MOT:	yeah . 481780_483032
+*MOT:	hey . 483033_484038
+*MOT:	hey . 484037_484503
+*MOT:	let me have that . 484502_485284
+*MOT:	let me have that . 485283_486653
+*MOT:	let me have that . 486652_487557
+*MOT:	ahhah what's this . 487556_489088
+*MOT:	what does Mot look like with the hat on . 489086_491405
+*MOT:	do I look pretty good with the hat on . 491406_494051
+*MOT:	&hmm . 494051_494792
+*MOT:	&hmm . 494791_496084
+*MOT:	do I look pretty good xxx . 496082_499232
+*MOT:	peekaboo . 499231_500936
+*MOT:	peekaboo . 500937_504003
+*MOT:	0 [=! laugh] . 504003_505545
+*MOT:	peekaboo . 505545_507550
+*MOT:	ahhah . 507550_509474
+*MOT:	ahhah . 509472_510313
+*MOT:	who's this on the hat . 510312_513077
+*MOT:	<I think this is> [//] oh that's Minnie_Mouse . 513079_515993
+*MOT:	do you see Minnie_mouse . 515992_517482
+*MOT:	yes: you see Minnie_Mouse . 517483_521112
+*MOT:	hey . 521111_521834
+*MOT:	oh get that ring . 521833_522927
+*MOT:	get that ring . 522927_523688
+*MOT:	get it . 523687_524290
+*MOT:	let me see you grab it . 524288_525624
+*MOT:	let me see you grab . 525623_527064
+*MOT:	ahhah . 527063_527634
+*MOT:	hey . 527633_528375
+*MOT:	let me see you grab it . 528375_529553
+*MOT:	reach for it . 529554_530670
+*MOT:	come on . 530669_531062
+*MOT:	reach for it . 531061_531997
+*MOT:	<reach for it> [//] which one do you want you want the green one
+*MOT:	here . 534108_534734
+*MOT:	reach for the ring . 534733_535900
+*MOT:	can you get it . 535899_536770
+*MOT:	there you go . 536769_538655
+*MOT:	good girl . 538654_540038
+*MOT:	that's a good girl . 540037_541540
+*MOT:	that's a good girl . 541539_543775
+*MOT:	you want the blue one . 543773_544711
+*MOT:	you want the blue one . 544710_545844
+*MOT:	can you reach for it . 545842_547180
+*MOT:	can you reach for the blue one . 547180_548948
+*MOT:	huh . 548947_550461
+*MOT:	ahhah what are you doing . 550462_553619
+*MOT:	ahhah what are you doing . 553619_555599
+*MOT:	what if I put it on your head . 555599_557856
+*MOT:	do you know where it is . 557855_558925
+*MOT:	do you know where it went . 558924_560157
+*MOT:	where did it go . 560157_561826
+*MOT:	you don't know . 561824_563167
+*MOT:	it's on your head . 563166_564430
+*MOT:	it was on your head . 564429_567018
+*MOT:	ahhah oh . 567019_568874
+*MOT:	no [= itr] . 568873_571469
+*MOT:	what if someone else wants to play with those and you'll have your
+*MOT:	you'll have your baby drool on them . 576564_578344
+*MOT:	0 [=! voc] . 578343_580311
+*MOT:	yeah . 580312_581113
+*MOT:	hey . 581112_581814
+*MOT:	here's the birdie . 581813_584584
+*MOT:	here the birdie . 584583_586418
+*MOT:	does the bird go up . 586417_587313

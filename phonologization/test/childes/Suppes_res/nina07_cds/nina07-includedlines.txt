@@ -1,0 +1,534 @@
+*MOT:	who's sleeping ?
+*MOT:	where is he sleeping ?
+*MOT:	he is ?
+*MOT:	are you closing the door ?
+*MOT:	in the dog house ?
+*MOT:	no (.) that's the barn .
+*MOT:	what is that ?
+*MOT:	a sheep ?
+*MOT:	what color is that lamb ?
+*MOT:	oh .
+*MOT:	he's a nice little lamb .
+*MOT:	he has one ear ?
+*MOT:	he's running ?
+*MOT:	oh (.) you're turning his head around ?
+*MOT:	that's an elephant .
+*MOT:	what happened to the lamb ?
+*MOT:	take him on my hand ?
+*MOT:	all the toys fell off the chair (.) didn't they ?
+*MOT:	did the truck fall down ?
+*MOT:	you want mommy to have the chair on her hand ?
+*MOT:	let's put it on the floor .
+*MOT:	can you put it on the floor ?
+*MOT:	you don't want me to have it ?
+*MOT:	you don't want the lamb to have it either ?
+*MOT:	is the kitty on the wall ?
+*MOT:	there's a big horsie on the wall too .
+*MOT:	here (.) I'll show you .
+*MOT:	there's the horse .
+*MOT:	who sent the lion to Nina ?
+*MOT:	that's right .
+*MOT:	the lion's on the wall .
+*MOT:	who sent the picture of the lion to Nina ?
+*MOT:	not Mrs Wood (.) Nonna .
+*MOT:	Betta gave you the picture of the horse .
+*MOT:	no (.) Nonna gave the picture of the lion to Nina .
+*MOT:	Nina (.) would you like to open your birthday presents now ?
+*MOT:	did you go to a birthday party yesterday ?
+*MOT:	yes (.) with Miriam .
+*MOT:	thank_you .
+*MOT:	mommy saved your birthday presents for you .
+*MOT:	would you like to open them now ?
+*MOT:	these are Nina's presents .
+*MOT:	what's on it ?
+*MOT:	a big queen ?
+*MOT:	he's holding something in his hand .
+*MOT:	that's called a pipe .
+*MOT:	it's a king .
+*MOT:	okay (.) let's look at your other presents first .
+*MOT:	what's in here ?
+*MOT:	Ellie and David gave this to Nina .
+*MOT:	you want to open the box ?
+*MOT:	you open the box .
+*MOT:	what's in there ?
+*MOT:	a present .
+*MOT:	what is it ?
+*MOT:	what is this ?
+*MOT:	it's a birthday present .
+*MOT:	what is it ?
+*MOT:	do you know what this is (.) Nina ?
+*MOT:	it's a birthday present .
+*MOT:	it's a pair of pants .
+*MOT:	for Nina .
+*MOT:	it's for Nina .
+*MOT:	isn't pretty ?
+*MOT:	daddy gave you the ball .
+*MOT:	that's right .
+*MOT:	and Ellie and David gave you this pair of pants .
+*MOT:	shall we open another present ?
+*MOT:	this is from Leila .
+*MOT:	this present is from Leila .
+*MOT:	it's a birthday present for Nina .
+*MOT:	can you open it ?
+*MOT:	can you open the present ?
+*MOT:	let's see .
+*MOT:	you try .
+*MOT:	is it hard to open ?
+*MOT:	are you going to tear the paper ?
+*MOT:	tear the paper ?
+*MOT:	oh (.) what did you do ?
+*MOT:	what's there ?
+*MOT:	a what ?
+*MOT:	a +...
+*MOT:	a monkey .
+*MOT:	a puppet .
+*MOT:	who gave this monkey to Nina ?
+*MOT:	no (.) Leila .
+*MOT:	Leila gave it to Nina for her birthday .
+*MOT:	excuse me ?
+*MOT:	you going to put the hand away ?
+*MOT:	what are you doing ?
+*MOT:	you're clapping ?
+*MOT:	what are you clapping ?
+*MOT:	monkey's what ?
+*MOT:	you're clapping the monkey's hand ?
+*MOT:	you want me to hold him ?
+*MOT:	there's a king there .
+*MOT:	are you putting the stethoscope on your ear ?
+*MOT:	you want mommy to put them on her ears ?
+*MOT:	do you want me to listen to you ?
+*MOT:	do you want me to listen to your bottom with the stethoscope ?
+*MOT:	oh (.) that's pretty funny .
+*MOT:	what a nice monkey .
+*MOT:	Leila gave you this book too .
+*MOT:	what is that .
+*MOT:	what is that animal ?
+*MOT:	a fox ?
+*MOT:	I think he's a dog .
+*MOT:	where's this man ?
+*MOT:	you're going to tie the ribbon ?
+*MOT:	monkey has a ribbon around his neck .
+*MOT:	Leila gave him to you .
+*MOT:	for your birthday .
+*MOT:	did you have a big birthday cake ?
+*MOT:	you didn't ?
+*MOT:	remember the pretty birthday cake with cars ?
+*MOT:	were there candles on your birthday cake (.) Nina ?
+*MOT:	did you blow them ?
+*MOT:	Leila blow them .
+*MOT:	did Nina blow the candles too ?
+*MOT:	what was on your birthday cake ?
+*MOT:	oh (.) more presents .
+*MOT:	do you want to open this present ?
+*MOT:	this is from Rachel .
+*MOT:	this present is from Rachel .
+*MOT:	do you want to open it ?
+*MOT:	that's Rachel's present .
+*MOT:	it's Nina's birthday present from Rachel .
+*MOT:	do you want to open it ?
+*MOT:	let's see what's inside ?
+*MOT:	and this present is from Maggie .
+*MOT:	look at the pretty paper .
+*MOT:	that's Rachel's present ?
+*MOT:	do you want to open Rachel's present first or Maggie's ?
+*MOT:	first Maggie's ?
+*MOT:	look what's on the paper ?
+*MOT:	what are those animals ?
+*MOT:	are you tearing the paper ?
+*MOT:	what is this present ?
+*MOT:	is there a lady on it ?
+*MOT:	what is it ?
+*MOT:	are you tearing the paper ?
+*MOT:	what is it ?
+*MOT:	what did you get from Maggie ?
+*MOT:	what is this (.) Nina ?
+*MOT:	is this a book ?
+*MOT:	you want to open Rachel's .
+*MOT:	okay .
+*MOT:	you want to take off the paper ?
+*MOT:	you take off the paper .
+*MOT:	that's Maggie's present .
+*MOT:	what are you doing ?
+*MOT:	you're opening Rachel's present .
+*MOT:	oh (.) you're tearing the paper .
+*MOT:	the book from Rachel ?
+*MOT:	let's see (.) .
+*MOT:	what is it ?
+*MOT:	oh .
+*MOT:	do you want to read Rachel's book or Maggie's book ?
+*MOT:	that's a big book (.) isn't it ?
+*MOT:	this is a book about sleeping beauty .
+*MOT:	oh (.) what a beautiful book .
+*MOT:	shall we look at the book together ?
+*MOT:	all these animals .
+*MOT:	look at all these pretty animals .
+*MOT:	yes .
+*MOT:	what's this animal here ?
+*MOT:	I think that's an owl .
+*MOT:	that's a bird .
+*MOT:	yes (.) the girl's holding a basket .
+*MOT:	and she's putting her foot in what ?
+*MOT:	that's a squirrel .
+*MOT:	the squirrel's looking at sleeping beauty .
+*MOT:	there's a king there .
+*MOT:	there's a mommy with a baby .
+*MOT:	that's a mommy .
+*MOT:	that's not a mommy .
+*MOT:	what's that ?
+*MOT:	I think that's a little boy .
+*MOT:	yeah [= yes] (.) that's a mommy holding a baby .
+*MOT:	blue noun .
+*MOT:	what ?
+*MOT:	you mean a blue pillow ?
+*MOT:	what is the king wearing on his head ?
+*MOT:	do you know what that's called ?
+*MOT:	that's called a crown .
+*MOT:	that's a big fat man (.) isn't it ?
+*MOT:	yeah [= yes] (.) that's a king .
+*MOT:	that's a king too .
+*MOT:	mhm .
+*MOT:	crowns on their head (.) don't they ?
+*MOT:	what is this lady doing ?
+*MOT:	is the lady cooking ?
+*MOT:	she's holding a spoon .
+*MOT:	I think the eggs are on the table .
+*MOT:	what's that ?
+*MOT:	those are tomatoes ?
+*MOT:	I don't think so .
+*MOT:	that looks like cereal to me .
+*MOT:	yeah [= yes] .
+*MOT:	what color is he ?
+*MOT:	no (.) he's not blue .
+*MOT:	yes (.) he's black .
+*MOT:	no (.) he's black .
+*MOT:	this one is red .
+*MOT:	that's a girl .
+*MOT:	is the girl walking ?
+*MOT:	this is Maggie's book .
+*MOT:	wasn't Maggie nice to give you such a pretty birthday present ?
+*MOT:	where's Rachel's birthday present ?
+*MOT:	what should I do ?
+*MOT:	you want to finish Maggie's book ?
+*MOT:	yes (.) Rachel gave you that book .
+*MOT:	and what did Leila give you for your birthday ?
+*MOT:	no (.) Leila gave you this .
+*MOT:	what is this ?
+*MOT:	this is Rachel's book .
+*MOT:	Leila gave Nina a monkey .
+*MOT:	what happened to his head ?
+*MOT:	he's lying down on your hand ?
+*MOT:	does the monkey like to lie down on your hand ?
+*MOT:	he's lying down on your red pants .
+*MOT:	he got hurt ?
+*MOT:	you have many puppets (.) don't you ?
+*MOT:	where are your other puppets ?
+*MOT:	you have a monkey puppet and +...
+*MOT:	you have a dolly puppet .
+*MOT:	that's a monkey puppet .
+*MOT:	holding the big monkey puppet ?
+*MOT:	he has big hands (.) doesn't he ?
+*MOT:	more presents .
+*MOT:	oh (.) here's your birthday hat .
+*MOT:	do you want to put it on your head ?
+*MOT:	where's the birthday hat ?
+*MOT:	where did mommy put the birthday hat ?
+*MOT:	oh (.) another present .
+*MOT:	this present is from Colby .
+*MOT:	you wanna open it ?
+*MOT:	what color is the paper ?
+*MOT:	that's Colby's present to Nina .
+*MOT:	oh (.) what is that ?
+*MOT:	can you open it ?
+*MOT:	there's a man in there ?
+*MOT:	he fell down ?
+*MOT:	can we take him out_of the package ?
+*MOT:	okay (.) let's tear the paper here .
+*MOT:	tear the paper here and you can open +/.
+*MOT:	you want your birthday hat ?
+*MOT:	where do you want it ?
+*MOT:	where shall I put your birthday hat ?
+*MOT:	oh (.) that looks nice .
+*MOT:	mommy has a birthday hat on her head too now .
+*MOT:	you have two birthday hats .
+*MOT:	did you wear your birthday hat at your party ?
+*MOT:	were there many children at Nina's birthday party ?
+*MOT:	what is this present ?
+*MOT:	what funny people .
+*MOT:	that's a doctor .
+*MOT:	they move (.) don't they ?
+*MOT:	you can move their arms and legs and head .
+*MOT:	look (.) how funny .
+*MOT:	do you want to make this person move ?
+*MOT:	look at that .
+*MOT:	shall I make her sit down ?
+*MOT:	uhoh [= trouble] .
+*MOT:	can you make him stand up ?
+*MOT:	you want me to make that man stand up ?
+*MOT:	I guess we have_to do this and make his feet stand up straight .
+*MOT:	that's a woman .
+*MOT:	in fact that's called a nurse .
+*MOT:	can you make her feet straight ?
+*MOT:	let's pull her apart .
+*MOT:	there we go .
+*MOT:	make the nurse stand up ?
+*MOT:	where do you want the nurse to stand ?
+*MOT:	no (.) there's no more puppets in there .
+*MOT:	I can't make this nurse stand up .
+*MOT:	uhoh [= trouble] .
+*MOT:	the man's holding something (.) isn't he ?
+*MOT:	he's holding a doctor's case .
+*MOT:	a doctor's bag .
+*MOT:	you going to make the nurse say hi ?
+*MOT:	yeah [= yes] (.) the nurse is hugging the doctor .
+*MOT:	isn't that funny ?
+*MOT:	can you say +"/.
+*MOT:	+" nurse ?
+*MOT:	this is a nurse and this is a doctor .
+*MOT:	what is the doctor doing ?
+*MOT:	the doctor's asleep ?
+*MOT:	no (.) the bag is attached to the doctor's hand .
+*MOT:	it doesn't come off .
+*MOT:	no .
+*MOT:	who gave this doctor to Nina ?
+*MOT:	are you moving his legs ?
+*MOT:	you're making the doctor sit down ?
+*MOT:	you want the nurse to sit down ?
+*MOT:	want me to make the nurse sit down ?
+*MOT:	how do I make the nurse sit down ?
+*MOT:	that's sleeping beauty .
+*MOT:	oh (.) there's a little card here from Ellie and David with the
+*MOT:	it says happy birthday .
+*MOT:	happy birthday to you ?
+*MOT:	did we sing happy birthday to you ?
+*MOT:	yes (.) many children sang that (.) didn't they ?
+*MOT:	did you have many children at your birthday party ?
+*MOT:	do you want to read your new book ?
+*MOT:	is he holding Goldy's hand ?
+*MOT:	that's sleeping beauty .
+*MOT:	she has yellow hair (.) doesn't she ?
+*MOT:	little stars .
+*MOT:	I like this present that Ellie and David gave you .
+*MOT:	it's going to look very nice on Nina .
+*MOT:	shall we wear it tomorrow to go to Maggie's house ?
+*MOT:	there's lots_of little buttons .
+*MOT:	Linda gave you the puppet for your birthday .
+*MOT:	that was given to you by David and Ellie .
+*MOT:	I like the box that it came in .
+*MOT:	shall we put it back in the box ?
+*MOT:	what a cute box .
+*MOT:	there're teddy bears on the box .
+*MOT:	what other animals are on the box .
+*MOT:	yeah [= yes] .
+*MOT:	the girl is sleeping .
+*MOT:	on a big bed .
+*MOT:	that's not Goldilocks (.) that's sleeping beauty .
+*MOT:	that's a queen .
+*MOT:	what is she doing ?
+*MOT:	she stood up .
+*MOT:	she's running (.) isn't she ?
+*MOT:	look what happened to the doctor .
+*MOT:	I twisted his hands together .
+*MOT:	can you untwist them ?
+*MOT:	there's a wheel at the bottom of the vacuum cleaner .
+*MOT:	I think we have one more present in here .
+*MOT:	this one has already been opened .
+*MOT:	what is it ?
+*MOT:	no (.) this isn't a book .
+*MOT:	what is this ?
+*MOT:	this is a magic slate .
+*MOT:	do you want to draw a picture ?
+*MOT:	what are you drawing ?
+*MOT:	l@l [= letter] .
+*MOT:	what are you doing (.) Nina ?
+*MOT:	you're gonna draw a doggy ?
+*MOT:	what ?
+*MOT:	you want me to try ?
+*MOT:	what am I drawing ?
+*MOT:	the picture's all_gone .
+*MOT:	what do you want me to draw ?
+*MOT:	what is that ?
+*MOT:	xxx .
+*MOT:	that's a what ?
+*MOT:	no (.) I think it's a girl (be)cause she has long hair .
+*MOT:	what am I drawing inside the mouth ?
+*MOT:	that's a mouth .
+*MOT:	and what's inside the mouth ?
+*MOT:	what's inside the mouth ?
+*MOT:	the nose isn't inside the mouth .
+*MOT:	what did we draw inside the mouth ?
+*MOT:	what's inside this mouth ?
+*MOT:	teeth .
+*MOT:	draw ?
+*MOT:	do you want me to draw some more ?
+*MOT:	can you draw the neck ?
+*MOT:	you draw the neck .
+*MOT:	do you want me to draw ?
+*MOT:	what's this ?
+*MOT:	what did I just draw ?
+*MOT:	you want me to draw more ?
+*MOT:	but I just drew something .
+*MOT:	what did I just draw ?
+*MOT:	what shall we draw this time ?
+*MOT:	shall I draw a doggy ?
+*MOT:	what else shall we draw ?
+*MOT:	we have a dog walking in the sun .
+*MOT:	what else shall we draw in this picture ?
+*MOT:	what ?
+*MOT:	more drawing ?
+*MOT:	but what shall we draw ?
+*MOT:	you have_to decide what we're going to draw .
+*MOT:	you're drawing with your finger ?
+*MOT:	shall we draw a big doggy or a little doggy ?
+*MOT:	what happened to your birthday hat ?
+*MOT:	oh (.) did the elastic hurt you ?
+*MOT:	<you want me to draw one more> [//] I'll draw one more picture .
+*MOT:	okay ?
+*MOT:	I'll draw a picture of a kitty cat ?
+*MOT:	you want doggies in the picture too ?
+*MOT:	what's that ?
+*MOT:	there's a doggy .
+*MOT:	oh (.) this is the dolly that you got yesterday .
+*MOT:	did Jerry give you this dolly ?
+*MOT:	you got it at Miriam's house (.) didn't you ?
+*MOT:	and what happened to your dolly ?
+*MOT:	did the dog bite your dolly ?
+*MOT:	and what happened to the dress ?
+*MOT:	did the dress get torn by the dog ?
+*MOT:	bad dog .
+*MOT:	what did he do to Nina's dolly ?
+*MOT:	that's the doctor .
+*MOT:	she has nice hair (.) doesn't she ?
+*MOT:	she had such a pretty dress and the dog tore the dress all up .
+*MOT:	he ate the dress .
+*MOT:	can you imagine that ?
+*MOT:	shall we go to the store and buy a new dress for dolly ?
+*MOT:	we'll have_to buy a new dress for dolly .
+*MOT:	what color dress shall we buy for dolly ?
+*MOT:	shall we buy dolly a blue dress or a pink dress ?
+*MOT:	what are you doing ?
+*MOT:	you're pulling the string of the hat ?
+*MOT:	you want me to take the hat ?
+*MOT:	what shall I do with it ?
+*MOT:	are there three hats on mommy's head ?
+*MOT:	do you want me to keep the two hats on my head at the same time ?
+*MOT:	you took both birthday hats off my head now (.) didn't you ?
+*MOT:	thank_you .
+*MOT:	is that yours ?
+*MOT:	is that yours ?
+*MOT:	oh (.) I think the string broke .
+*MOT:	that string break ?
+*MOT:	what are you doing ?
+*MOT:	where's the string ?
+*MOT:	yes (.) I see the doggy .
+*MOT:	did I draw a big doggy ?
+*MOT:	let's make them disappear .
+*MOT:	we lift up the magic slate .
+*MOT:	okay (.) it's your turn to draw now .
+*MOT:	where's the pencil ?
+*MOT:	where is your pencil ?
+*MOT:	look on the floor .
+*MOT:	do you see it ?
+*MOT:	you're going to make the doctor draw ?
+*MOT:	monkey drawing .
+*MOT:	can you say +"/.
+*MOT:	+" draw ?
+*MOT:	it's Nina's turn to draw .
+*MOT:	are you pretending to be a doctor ?
+*MOT:	you going to listen to mommy ?
+*MOT:	do you want to listen to my arm ?
+*MOT:	you're listening to my bottom ?
+*MOT:	you can't listen to a bottom .
+*MOT:	you're so silly .
+*MOT:	want to listen to my arm ?
+*MOT:	oh (.) did you get that tiger at a birthday yesterday ?
+*MOT:	mommy turn ?
+*MOT:	that's a nice little tiger .
+*MOT:	that's your little tiger .
+*MOT:	these are whiskers .
+*MOT:	do you like your little tiger ?
+*MOT:	did Miriam give it to you ?
+*MOT:	did we have birthday cake yesterday too ?
+*MOT:	were there little animals on the birthday cake yesterday ?
+*MOT:	this is a little elephant .
+*MOT:	it was on one of the cup cakes yesterday (.) wasn't it ?
+*MOT:	and that's a little lion .
+*MOT:	are these big or tiny ?
+*MOT:	what do you want me to do ?
+*MOT:	put it down ?
+*MOT:	where ?
+*MOT:	you want to put the elephant down ?
+*MOT:	where ?
+*MOT:	that's not a chicken .
+*MOT:	that's a lion .
+*MOT:	these are such tiny animals .
+*MOT:	no (.) that's a lion .
+*MOT:	the lion was on the little cup cake yesterday (.) wasn't it ?
+*MOT:	no (.) it's not a chicken .
+*MOT:	that's a little elephant .
+*MOT:	it was on another cup cake .
+*MOT:	were the (.) were the cup cakes good ?
+*MOT:	did they taste good ?
+*MOT:	what else did we have at the birthday party ?
+*MOT:	what did +...
+*MOT:	you don't want me to take them ?
+*MOT:	is that man in a bath tub ?
+*MOT:	no he's in a boat .
+*MOT:	did you bump into me ?
+*MOT:	what do you want me to do with the boat ?
+*MOT:	oh (.) are you giving me a big hug ?
+*MOT:	oh .
+*MOT:	big hug .
+*MOT:	a big hug .
+*MOT:	a big hug .
+*MOT:	you want me to lie down ?
+*MOT:	what are you doing ?
+*MOT:	oh (.) time to get up .
+*MOT:	what shall we do with these little animals ?
+*MOT:	where do you want to put them ?
+*MOT:	do you want to put them on the table over there ?
+*MOT:	if we put them on the floor they might get stepped on and broken .
+*MOT:	I don't want to break them .
+*MOT:	can you put them on your shelf ?
+*MOT:	what ?
+*MOT:	let's put the little animals on the shelf .
+*MOT:	there .
+*MOT:	did we go to the park yesterday with Miriam ?
+*MOT:	did you go in the boat at the park ?
+*MOT:	did you like that boat that you went in ?
+*MOT:	did you sit in the boat ?
+*MOT:	did you (.) did you sit in the boat and go up and down ?
+*MOT:	did you go +...
+*MOT:	did Jerry push you ?
+*MOT:	with Miriam ?
+*MOT:	what did you say ?
+*MOT:	did you catch Miriam ?
+*MOT:	did we play tag ?
+*MOT:	did you run after me ?
+*MOT:	did you catch me ?
+*MOT:	your doggy's crying ?
+*MOT:	is your dog in the living room ?
+*MOT:	you want me to hold the dog on my head ?
+*MOT:	that's not where one holds a dog .
+*MOT:	hi (.) Nina .
+*MOT:	you want me to lie down again ?
+*MOT:	okay .
+*MOT:	I wanna stand up .
+*MOT:	okay .
+*MOT:	let's put away your birthday presents .
+*MOT:	can you help me ?
+*MOT:	put (.) can you put Rachel's book on the shelf ?
+*MOT:	can you cut it out later ?
+*MOT:	look at all the pretty clothes .
+*MOT:	these are little dolls (.) you see .
+*MOT:	and we're going to dress them up .
+*MOT:	okay .
+*MOT:	do you want to put Maggie's book on the shelf ?
+*MOT:	where is it ?
+*MOT:	can you get it ?
+*MOT:	okay (.) I can think it goes on the bottom shelf .
+*MOT:	do you think it'll fit on the bottom shelf ?
+*MOT:	let's see if it fits on the bottom shelf .
+*MOT:	it doesn't fit on the bottom shelf ?
+*MOT:	then let's put it on the top shelf .
+*MOT:	is that your book ?
+*MOT:	you got that from Miriam yesterday (.) didn't you ?

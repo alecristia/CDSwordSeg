@@ -1,0 +1,406 @@
+*MOT:	thank_you . 737_1630
+*MOT:	I don't want no more . 2990_4073
+*MOT:	thank_you . 8343_9047
+*MOT:	here . 10057_10440
+*MOT:	here . 12300_12833
+*MOT:	here . 14673_14957
+*MOT:	it's good . 15743_16373
+*MOT:	&mm good . 16497_17990
+*MOT:	&mm . 18593_19477
+*MOT:	&mm . 20310_20957
+*MOT:	&mm . 23273_24000
+*MOT:	apples . 25577_26163
+*MOT:	&mm . 28027_28563
+*MOT:	&mm . 29440_30060
+*MOT:	xxx apple . 30903_31573
+*MOT:	&mm . 31950_32473
+*MOT:	&mm . 33983_34550
+*MOT:	eat it , baby ! 36877_37803
+*MOT:	here . 38073_38460
+*MOT:	stop it , son ! 47893_49400
+*MOT:	guess you don't like these apples . 54610_56123
+*MOT:	I don't know . 56213_56863
+*MOT:	you like bananas don't you ? 56947_58207
+*MOT:	like (ba)nana ? 59690_60483
+*MOT:	(ba)nana . 63317_64047
+*MOT:	(ba)nana . 66330_66870
+*MOT:	(ba)nana . 68467_68987
+*MOT:	lemme see what's in your ear ! 74013_75317
+*MOT:	&hmm . 100977_101777
+*MOT:	say apple@q ! 107183_108070
+*MOT:	apple . 110037_110830
+*MOT:	apple . 116460_117793
+*MOT:	apple . 120427_121467
+*MOT:	you are just a smart baby . 128173_130213
+*MOT:	come on ! 130523_130793
+*MOT:	let's walk ! 130800_131250
+*MOT:	Mama . 132070_132607
+*MOT:	want apple ? 133837_134703
+*MOT:	say apple@q ! 135623_136560
+*MOT:	who you hollering at ? 139843_140593
+*MOT:	apple . 141430_142147
+*MOT:	boy , you better get you some xxx . 146913_149023
+*MOT:	Mama . 150257_151410
+*MOT:	come on ! 151423_151583
+*MOT:	let's walk ! 151593_151947
+*MOT:	I'm the mama . 153847_154473
+*MOT:	I'm your only mama . 154487_155497
+*MOT:	don't go around (.) telling people ! 155507_157047
+*MOT:	say Mama@q to other people . 158353_159813
+*MOT:	they not your mama . 160933_161917
+*MOT:	just me . 161927_162547
+*MOT:	you xxx xxx xxx . 166187_167330
+*MOT:	wan(na) walk ? 169627_170120
+*MOT:	you want the apple ? 171387_172207
+*MOT:	you want the apple ? 174127_175133
+*MOT:	Vas . 199290_200107
+*MOT:	this is not a jungle gym . 201823_203507
+*MOT:	get off my furniture ! 203527_204717
+*MOT:	my foot . 206127_206807
+*MOT:	get down ! 207577_208517
+*MOT:	get down ! 209300_210113
+*MOT:	you hear me . 212420_213087
+*MOT:	get down ! 214480_215260
+*MOT:	that's right . 217117_217903
+*MOT:	you not so crazy after all huh ? 220953_223073
+*MOT:	one . 224080_224700
+*MOT:	you one ? 225753_226387
+*MOT:	look at this , Man_man ! 227193_228130
+*MOT:	one . 229950_230397
+*MOT:	one . 235057_235567
+*MOT:	one . 239853_240193
+*MOT:	one . 244433_244927
+*MOT:	one . 249680_250243
+*MOT:	are you one , Man_man ? 257923_259467
+*MOT:	Vasie . 266580_267237
+*MOT:	Vasie . 268607_270093
+*MOT:	Vasie , get down ! 280610_281990
+*MOT:	and what ? 286403_286970
+*MOT:	Mama . 289887_290577
+*MOT:	you ready to walk ? 290917_291937
+*MOT:	it's a apple . 299220_300080
+*MOT:	xxx . 304100_304700
+*MOT:	you want some of that ? 334040_334903
+*MOT:	thank_you . 338707_339533
+*MOT:	thank_you . 341297_342333
+*MOT:	thank_you &=laugh . 349553_350450
+*MOT:	I don't want any more . 350610_351667
+*MOT:	them nasty apples . 354677_356467
+*MOT:	them baby food . 360220_361443
+*MOT:	apple . 365103_365907
+*MOT:	apple . 367987_369313
+*MOT:	getting to be a big boy . 370607_371863
+*MOT:	say one@q ! 371877_372610
+*MOT:	one . 374387_374873
+*MOT:	you're not gonna say it for me ? 375337_376440
+*MOT:	say one@q ! 377087_377657
+*MOT:	one . 378553_378960
+*MOT:	one . 380367_380743
+*MOT:	one . 382680_383080
+*MOT:	say one@q ! 391577_392203
+*MOT:	don't wanna do one ? 396760_397787
+*MOT:	one . 398763_400470
+*MOT:	like on Sesame_street . 401377_402597
+*MOT:	the big one (wi)ll come on . 402743_403997
+*MOT:	o:h you be stinky [=! voice] . 407470_409233
+*MOT:	your feet stinky . 410467_412053
+*MOT:	lemme see ! 412947_413503
+*MOT:	you want some ? 419140_419820
+*MOT:	you want some more apple ? 419917_420863
+*MOT:	here . 420943_421117
+*MOT:	xxx give you some more apple . 422383_423597
+*MOT:	you just wanna play with the spoon . 423610_425063
+*MOT:	yeah . 426117_426470
+*MOT:	apple . 427297_428373
+*MOT:	apple . 429663_430653
+*MOT:	Mommy made you eat it . 436357_437783
+*MOT:	apple . 439970_441227
+*MOT:	Mikey likes it [=! voice] . 443630_445563
+*MOT:	apple . 447077_448603
+*MOT:	apple . 450107_451337
+*MOT:	apple . 454470_455847
+*MOT:	apple . 457283_458533
+*MOT:	o:h the baby eating good . 460297_462320
+*MOT:	apple . 465303_466287
+*MOT:	you like apple ? 467240_467933
+*MOT:	next time you gon(na) ask for it huh ? 471823_473470
+*MOT:	say “gimme apple” ! 474163_475377
+*MOT:	gimme kiss ! 475633_475987
+*MOT:	yeah . 478373_480157
+*MOT:	you clap . 484153_484807
+*MOT:	yeah . 485987_487367
+*MOT:	here , Man_man . 490323_490940
+*MOT:	here . 491237_491450
+*MOT:	apple . 492453_493683
+*MOT:	thank_you . 503250_504320
+*MOT:	you really think you giving me some don't you ? 507017_508683
+*MOT:	that's not nothing you giving me . 510060_511777
+*MOT:	that's nothing in your hand . 512543_513823
+*MOT:	what ? 514830_515073
+*MOT:	what ? 516740_517210
+*MOT:	Baebae say you calling her Mama@q . 519867_521563
+*MOT:	her name is not Mama . 521570_522810
+*MOT:	or you just think that's a word like everything else . 526577_528733
+*MOT:	or you just telling her “I want my Mama (be)cause I'm ready to go
+*MOT:	you want apple ? 538147_538843
+*MOT:	&hmm ? 539850_540140
+*MOT:	want some more apple ? 541050_542103
+*MOT:	no need to throw a fit up in here . 545030_547040
+*MOT:	I'm telling you . 547047_547653
+*MOT:	xxx xxx xxx xxx . 548847_550210
+*MOT:	apple . 561190_562040
+*MOT:	just (...) food . 563773_565153
+*MOT:	say food@q ! 565457_566447
+*MOT:	I don't know a word for that one . 570540_571887
+*MOT:	this . 572293_573023
+*MOT:	say this@q ! 574540_575390
+*MOT:	this . 577923_578540
+*MOT:	this . 580483_581177
+*MOT:	this . 583183_583897
+*MOT:	apple . 584490_585273
+*MOT:	you can say “(ba)nana” . 612413_614030
+*MOT:	for banana . 614767_615547
+*MOT:	banana . 617627_618427
+*MOT:	eat ! 619173_619470
+*MOT:	eat with this ! 620290_620897
+*MOT:	you eat it all up with the spoon . 626853_628557
+*MOT:	thank_you . 684383_685140
+*MOT:	thank_you . 685943_686660
+*MOT:	I don't want no more . 686663_687647
+*MOT:	food . 690650_691127
+*MOT:	eat ! 692743_693100
+*MOT:	eat ! 693393_693700
+*MOT:	wanna play pattycake ? 700723_701840
+*MOT:	I don't want that , son . 703660_705263
+*MOT:	thank_you . 707600_708403
+*MOT:	thank_you . 709113_709960
+*MOT:	thank_you . 710883_711947
+*MOT:	back to you . 715713_716190
+*MOT:	here . 716233_716517
+*MOT:	you want me do you like that ? 720823_722067
+*MOT:	it don't taste good (un)less it's got the apple on it . 727183_729677
+*MOT:	you can't eat the spoon . 730887_732097
+*MOT:	you want some apple ? 735403_736363
+*MOT:	say apple@q ! 737903_738533
+*MOT:	fifteen . 773127_773623
+*MOT:	sixteen seventeen eighteen nineteen twenty . 774193_776590
+*MOT:	see ! 788447_788677
+*MOT:	I'm (g)onna have_to get this away from you . 788693_790227
+*MOT:	apple . 790283_791403
+*MOT:	open wide ! 792620_793550
+*MOT:	apple . 794500_795510
+*MOT:	open up for the apple ! 798207_799470
+*MOT:	apple . 807997_808500
+*MOT:	applesauce . 809653_810203
+*MOT:	I don't taste the cherries . 812507_813700
+*MOT:	applesauce . 816323_817160
+*MOT:	like applesauce ? 820133_820927
+*MOT:	what ? 827620_827947
+*MOT:	who ? 828780_829107
+*MOT:	when ? 834333_834833
+*MOT:	where ? 835227_835570
+*MOT:	how ? 835660_835897
+*MOT:	why ? 838003_838547
+*MOT:	say why@q ! 840433_841193
+*MOT:	why ? 844210_844813
+*MOT:	I don't want that . 845680_846407
+*MOT:	why you trying to spoon feed me ? 846407_848117
+*MOT:	I don't want it though . 851790_853190
+*MOT:	come on ! 854757_855003
+*MOT:	let's play another game ! 855013_855973
+*MOT:	(be)cause you dangerous with that utensil . 857377_859660
+*MOT:	sticking it all in . 861573_862717
+*MOT:	my face like that . 863487_865133
+*MOT:	you giving me all the kisses this morning . 881273_884280
+*MOT:	little baby , get off my furniture playing ! 896077_898433
+*MOT:	get down ! 899750_900347
+*MOT:	get down ! 900533_900977
+*MOT:	let's play pattycake with Mommy ! 908860_910667
+*MOT:	you don't wanna play games with Mommy ? 911130_912823
+*MOT:	come on ! 913797_914043
+*MOT:	let's play it ! 914057_914597
+*MOT:	pattycake . 915183_915867
+*MOT:	pattycake . 916203_916827
+*MOT:	clap your hands ! 916870_917540
+*MOT:	clap (th)em ! 917853_918253
+*MOT:	clap your hands ! 919413_920373
+*MOT:	pattycake . 921317_922043
+*MOT:	pattycake . 922307_922973
+*MOT:	baker man . 923237_924523
+*MOT:	roll and roll and put (th)em in the pan ! 925040_929803
+*MOT:	come on ! 932607_932997
+*MOT:	pattycake . 933600_934300
+*MOT:	pattycake . 934527_935227
+*MOT:	bak(er) . 935503_935797
+*MOT:	clap your hands ! 935983_936743
+*MOT:	clap (th)em ! 937760_938400
+*MOT:	pattycake . 938900_939610
+*MOT:	pattycake . 939837_940517
+*MOT:	baker man . 940823_942293
+*MOT:	rolling and a rolling and . 942887_946943
+*MOT:	put it in the pan [=! voice] ! 947577_949453
+*MOT:	you so goofy . 950900_952030
+*MOT:	you wanna play again ? 952623_953800
+*MOT:	let's play peekaboo ! 955427_956847
+*MOT:	peekaboo . 958243_959493
+*MOT:	I see you . 959510_960887
+*MOT:	come on ! 963020_963337
+*MOT:	peekaboo . 965987_966767
+*MOT:	peekaboo . 969353_970297
+*MOT:	peekaboo . 971963_972857
+*MOT:	where you going , Man_man ? 976300_977563
+*MOT:	get that spoon ! 980157_981147
+*MOT:	I done started something with that spoon . 981157_983187
+*MOT:	uhuh don't put that in mouth like that , sweetie ! 1038460_1040663
+*MOT:	you gon(na) hurt yourself . 1040667_1041883
+*MOT:	no more playing with the spoon ! 1042060_1043597
+*MOT:	no no . 1043613_1044473
+*MOT:	sorry . 1046487_1047170
+*MOT:	you gon(na) have_to find something else to play with . 1047190_1048823
+*MOT:	you want toy ? 1050043_1051017
+*MOT:	what happened to that rattle I gave ? 1051877_1053377
+*MOT:	you want everything you not supposed to play with . 1053800_1055790
+*MOT:	sweetie , what are you trying to do ? 1061390_1063103
+*MOT:	apples . 1064983_1065613
+*MOT:	you want some apples ? 1067563_1068580
+*MOT:	here let Mommy open the apples for you ! 1079573_1081353
+*MOT:	yeah the baby eating the apples . 1105363_1107787
+*MOT:	yeah xxx . 1108317_1110127
+*MOT:	here . 1111427_1111743
+*MOT:	hey . 1117880_1118687
+*MOT:	here . 1119140_1119423
+*MOT:	yeah . 1120613_1121950
+*MOT:	hooray for Man_man . 1126770_1128697
+*MOT:	you like to clap . 1130507_1131377
+*MOT:	here here here . 1131690_1132567
+*MOT:	you want some more ? 1141623_1142393
+*MOT:	party all the time . 1171000_1172243
+*MOT:	party all the . 1172600_1173330
+*MOT:	xxx xxx . 1177077_1178243
+*MOT:	Vas , don't go in there ! 1258697_1260077
+*MOT:	boy so hard+headed . 1266743_1267833
+*MOT:	guess we can play with the toys again . 1267847_1269567
+*MOT:	www . 1271533_1272423
+*MOT:	www . 1277183_1277680
+*MOT:	www . 1278350_1280213
+*MOT:	come on , Man_man ! 1291850_1292543
+*MOT:	play with these toys ! 1292560_1294840
+*MOT:	you like (.) toys ? 1295600_1296917
+*MOT:	she got some Bubblicious gum . 1298607_1300893
+*MOT:	Bubblicious . 1301743_1302930
+*MOT:	xxx . 1306230_1307040
+*MOT:	the Furby . 1310430_1312003
+*MOT:	say “excuse me” ! 1332567_1333743
+*MOT:	well excuse me [=! voice] ! 1338503_1341100
+*MOT:	xxx xxx xxx . 1346853_1347843
+*MOT:	Man_man , you can't eat that Bubbilicious . 1411793_1413510
+*MOT:	give it to me ! 1413520_1414140
+*MOT:	who you doing that to ? 1417350_1418350
+*MOT:	I'm over here &=laugh . 1421193_1422233
+*MOT:	give it to me ! 1423527_1424360
+*MOT:	give it to Mommy ! 1424600_1425390
+*MOT:	Mommy right here . 1434737_1435973
+*MOT:	who are you looking at ? 1435987_1436950
+*MOT:	that's a Mickey_mouse . 1436957_1438027
+*MOT:	what's wrong with you , sweetie ? 1713767_1715263
+*MOT:	Sweetie_beetie . 1716690_1717687
+*MOT:	get that bag (.) with the bunny in it ! 1739617_1741637
+*MOT:	wanna write your name ? 1743247_1744217
+*MOT:	Vas . 1744473_1744957
+*MOT:	v@l a@l s@l . 1747107_1747797
+*MOT:	Vas . 1747907_1748277
+*MOT:	no you can't play with these crayons . 1791277_1792893
+*MOT:	I don't know why she ain't (...) picked this stuff up . 1793333_1795957
+*MOT:	look ! 1797160_1797403
+*MOT:	look at that car ! 1797417_1798220
+*MOT:	car . 1798610_1799060
+*MOT:	wanna play with that car ? 1800717_1801623
+*MOT:	you got the car ? 1819480_1820227
+*MOT:	you didn't get it . 1821037_1821807
+*MOT:	this crayon you (.) color in your book [?] . 1823163_1825327
+*MOT:	that's how you do this [?] . 1827213_1828350
+*MOT:	whatcha whining for ? 2050643_2051663
+*MOT:	say Mama@q ! 2053150_2053883
+*MOT:	Mama . 2056583_2057223
+*MOT:	Dada . 2059257_2059900
+*MOT:	Dada . 2060423_2060923
+*MOT:	Dada . 2063553_2064017
+*MOT:	Mama Dada . 2065113_2066253
+*MOT:	Nana . 2066633_2067290
+*MOT:	Nana . 2070607_2071210
+*MOT:	baby . 2074243_2074850
+*MOT:	ow . 2164743_2165470
+*MOT:	that's crayon you color with . 2166263_2167647
+*MOT:	I told [?] . 2167663_2168083
+*MOT:	no not on Mommy . 2168837_2169953
+*MOT:	on on a book . 2169973_2170933
+*MOT:	don't put my eye out , son ! 2175583_2177140
+*MOT:	no . 2177147_2177550
+*MOT:	no hit me ! 2180060_2181417
+*MOT:	eye . 2183397_2183957
+*MOT:	no no . 2186043_2186663
+*MOT:	no . 2188603_2189197
+*MOT:	want some more toys ? 2189780_2190817
+*MOT:	this a dinosaur . 2227513_2228633
+*MOT:	don't mess with that ! 2230390_2231370
+*MOT:	the dinosaur man gon(na) get you . 2238603_2240250
+*MOT:	this a dinosaur . 2355823_2357040
+*MOT:	get you . 2358563_2359053
+*MOT:	watch ! 2361173_2361527
+*MOT:	it's gonna get you . 2361963_2362997
+*MOT:	look at her [?] ! 2370517_2371093
+*MOT:	she messing up this comforter with these crayons . 2371117_2373683
+*MOT:	say one@q ! 2383797_2384763
+*MOT:	one . 2386113_2386763
+*MOT:	uhhuh . 2390750_2391603
+*MOT:	whatcha want ? 2474477_2474967
+*MOT:	Tommy ? 2474973_2475407
+*MOT:	Tommy . 2476380_2477323
+*MOT:	Elmo . 2477877_2479117
+*MOT:	what's wrong , sweetie ? 2582070_2583040
+*MOT:	why you throwing stuff all around ? 2586483_2588083
+*MOT:	&hmm . 2717930_2718530
+*MOT:	why would you do that ? 2719577_2720310
+*MOT:	you don't know if her baby (i)s sleeping or not . 2720330_2722000
+*MOT:	stop throwing ! 2723023_2723937
+*MOT:	here . 2725110_2725430
+*MOT:	no need to whine . 2772010_2774767
+*MOT:	what happened to your music ? 2775170_2776177
+*MOT:	Cookie_monster . 2912150_2913153
+*MOT:	Blue's_clues . 2913163_2914173
+*MOT:	you wanna play the See_and_say ? 2915617_2916987
+*MOT:	xxx . 3164640_3165253
+*MOT:	ow . 3177230_3177697
+*MOT:	ow . 3180573_3181097
+*MOT:	xxx . 3182717_3183033
+*MOT:	whatcha doing , Man_man ? 3277223_3278327
+*MOT:	&hmm ? 3443780_3444093
+*MOT:	&hmm ? 3450623_3450993
+*MOT:	whatcha want now ? 3501307_3502050
+*MOT:	See_and_say ? 3502090_3502693
+*MOT:	stop throwing stuff , Man_man ! 3590397_3591670
+*MOT:	that's not . 3591680_3592097
+*MOT:	you xxx xxx xxx room . 3594443_3595613
+*MOT:	your stinky feet . 3610243_3611543
+*MOT:	want a baba ? 3631977_3632713
+*MOT:	Vas , stop all that whining ! 3674397_3675803
+*MOT:	you could play with (.) all the toys . 3685417_3687680
+*MOT:	uhuh uhuh . 3758057_3758883
+*MOT:	Man_man . 3971370_3971900
+*MOT:	why aren't you talking ? 3973303_3974380
+*MOT:	huh ? 3976640_3976963
+*MOT:	Man_man , you are too noisy . 4345193_4346920
+*MOT:	oh look at Dyeisha room ! 4347700_4348850
+*MOT:	she gon(na) be mad . 4348890_4349673
+*MOT:	she gon(na) whip somebody . 4351807_4353540
+*MOT:	you , Man_man . 4354907_4355650
+*MOT:	she gon(na) say “Man_man mess up my xxx” . 4356423_4358123
+*MOT:	here . 4359943_4360227
+*MOT:	come on (be)cause you are not talking ! 4377487_4379000
+*MOT:	you ain't said nothing . 4379017_4380207
+*MOT:	and we only got thirty minutes . 4383180_4384583
+*MOT:	clap ! 4385750_4386113
+*MOT:	clap ! 4387837_4388247
+*MOT:	one . 4389710_4390183
+*MOT:	say one@q Man_man ! 4392327_4393237
+*MOT:	xxx xxx . 4410880_4411720

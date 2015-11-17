@@ -1,0 +1,373 @@
+*MOT:	book .
+*MOT:	three little puppies were playing with my train (.) they ran around
+*MOT:	where's the puppy ?
+*MOT:	there's the train .
+*MOT:	where's the puppy ?
+*MOT:	book .
+*MOT:	book .
+*MOT:	no .
+*MOT:	okay .
+*MOT:	three little puppies were playing with my train (.) they ran around
+*MOT:	can you pick out a puppy ?
+*MOT:	this is a train .
+*MOT:	miaw@o ?
+*MOT:	is that the kitty that says miaw@o ?
+*MOT:	this is a kitty .
+*MOT:	where's the duck ?
+*MOT:	can you tell me where the duck is ?
+*MOT:	no ?
+*MOT:	a puppy (.) a kitten (.) a duck and a bunny are watching two ducks
+*MOT:	there's a bunny .
+*MOT:	there's a kitty .
+*MOT:	there's a puppy .
+*MOT:	two chicks .
+*MOT:	and there's a duck .
+*MOT:	quietly (.) quietly (.) not a sound (.) while the kitten sleeps
+*MOT:	is this a baby kitty (.) huh ?
+*MOT:	uhhuh .
+*MOT:	it's a baby kitty .
+*MOT:	is that a duck ?
+*MOT:	baby kitty huh ?
+*MOT:	is this <a d@l> [>] .
+*MOT:	ball ?
+*MOT:	there's no ball .
+*MOT:	there's a bell .
+*MOT:	there's a bell .
+*MOT:	oh (.) uhhuh .
+*MOT:	what's that ?
+*MOT:	it's a little girl (.) isn't it ?
+*MOT:	yours ?
+*MOT:	mine !
+*MOT:	there's no .
+*MOT:	ball .
+*MOT:	uhhuh .
+*MOT:	no (.) this is mine .
+*MOT:	no (.) this is mine .
+*MOT:	this is yours .
+*MOT:	uhhuh .
+*MOT:	book .
+*MOT:	okay .
+*MOT:	shall we start on a different page ?
+*MOT:	okay .
+*MOT:	kitten had a big surprise when through the open door a little .
+*MOT:	duck and duckling quacked across the floor .
+*MOT:	&mm (.) oh .
+*MOT:	kitty ?
+*MOT:	yeh .
+*MOT:	cheeky puppy in a bucket so grand watches kitty as she plays in the
+*MOT:	quietly (.) quietly not a sound while the kitten sleeps upon the
+*MOT:	there's no ball .
+*MOT:	is that bell ?
+*MOT:	that's a duck .
+*MOT:	that's a calf .
+*MOT:	horses .
+*MOT:	quack (.) quack cries the duck (.) as off we trot to play (.) won't
+*MOT:	okay (.) lonely little duckling asks if he can play with the
+*MOT:	it's a puppy .
+*MOT:	there's a duck .
+*MOT:	those are ducks too .
+*MOT:	only those are toys (.) huh .
+*MOT:	kitten had a big surprise when through the open door a little duck
+*MOT:	cheeky puppy in the bucket so grand as watches kitten as she plays
+*MOT:	quack (.) quack cries the duck as off we trot to play (.) won't we
+*MOT:	it's a duck .
+*MOT:	lonely little duckling asks if he can play with the cheerful
+*MOT:	yeh (.) baby chickens (.) huh ?
+*MOT:	little duckling watches as one cute chicken sleeps (.) while cheeky
+*MOT:	little duckling watches as one sweet chicken sleeps (.) while
+*MOT:	baby chicken (.) uhhuh .
+*MOT:	it's a duck .
+*MOT:	little baby kittens like to play and sleep but when they saw the
+*MOT:	what ?
+*MOT:	it's a kitty .
+*MOT:	it's a mama kitty .
+*MOT:	miaw@o .
+*MOT:	what's that ?
+*MOT:	miaw@o .
+*MOT:	well (.) there's no kitties there .
+*MOT:	it's a duck .
+*MOT:	Whitey the Lamb with his tinkling bell is calling the ducklings to
+*MOT:	no ?
+*MOT:	those are balls .
+*MOT:	three naughty kittens play with mommy's wool (.) one throws it (.)
+*MOT:	where's the kitty ?
+*MOT:	book .
+*MOT:	children are paddling and splashing and having fun .
+*MOT:	there's children there playing in the water .
+*MOT:	yeh (.) what's that ?
+*MOT:	no ?
+*MOT:	would you like to play with something else ?
+*MOT:	no ?
+*MOT:	are you sure ?
+*MOT:	no .
+*MOT:	children are paddling and splashing and having fun .
+*MOT:	would you like to play with something else ?
+*MOT:	how about this ?
+*MOT:	little red riding hood .
+*MOT:	remember little red riding hood ?
+*MOT:	remember little red riding hood's story ?
+*MOT:	uhhuh .
+*MOT:	little red riding hood goes to see grandma with some goodies and
+*MOT:	hello (.) grandma are you there ?
+*MOT:	and the grandma comes to the door .
+*MOT:	and grandma comes to see little red riding hood .
+*MOT:	remember that ?
+*MOT:	huh ?
+*MOT:	baby .
+*MOT:	uhhuh .
+*MOT:	remember grandma wasn't feeling well ?
+*MOT:	little red riding hood thought that was very funny .
+*MOT:	remember that (.) huh ?
+*MOT:	uhhuh .
+*MOT:	and then red riding hood told her grandma she didn't look like
+*MOT:	remember she told grandma she looked funny ?
+*MOT:	grandma you look funny (.) huh ?
+*MOT:	uhhuh .
+*MOT:	no (.) &s mine .
+*MOT:	uhhuh .
+*MOT:	mine .
+*MOT:	uhhuh .
+*MOT:	remember what little red riding hood said to her grandmother when
+*MOT:	grandma (.) what big teeth you have !
+*MOT:	you remember that ?
+*MOT:	and the wolf said (.) the better to eat you with !
+*MOT:	book .
+*MOT:	what's that ?
+*MOT:	what ?
+*MOT:	book (.) okay .
+*MOT:	miaw@o (.) a kitten likes to play .
+*MOT:	miaw@o .
+*MOT:	oops !
+*MOT:	baby koala bear likes to ride on mother's back .
+*MOT:	here's a mama koala bear and a baby koala bear .
+*MOT:	&er (.) pigs actually .
+*MOT:	oink (.) oink (.) baby pigs are piglets .
+*MOT:	what are those ?
+*MOT:	those are real funny looking little things .
+*MOT:	what do they look like ?
+*MOT:	miaw@o ?
+*MOT:	oh (.) you're thinking about that other book (.) okay .
+*MOT:	a bunny goes by (.) hippety hoppety hop .
+*MOT:	peep+peep (.) one chick breaks out_of it's shell .
+*MOT:	see (.) there's the shell .
+*MOT:	there's the chick .
+*MOT:	what are those ?
+*MOT:	miaw@o .
+*MOT:	uhhuh .
+*MOT:	okay .
+*MOT:	ride a cock+horse to Banbury cross to see a fine lady upon a white
+*MOT:	no .
+*MOT:	ride a cock+horse to Banbury cross to see a fine lady upon a white
+*MOT:	book ?
+*MOT:	Wee Willie Winkie runs through the town (.) upstairs and downstairs
+*MOT:	what ?
+*MOT:	what do you see ?
+*MOT:	can you tell me what you see ?
+*MOT:	puttaputta@c .
+*MOT:	who's there ?
+*MOT:	who's that ?
+*MOT:	Peter Piper ?
+*MOT:	is that Peter Piper ?
+*MOT:	Peter Piper picked a peck of pickle peppers (.) a peck of pickle
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	who's that ?
+*MOT:	goo ?
+*MOT:	old Mother Goose when she wanted to wander would fly through the
+*MOT:	which one ?
+*MOT:	Old Farmer Giles (.) he went several miles with his faithful dog
+*MOT:	this one ?
+*MOT:	that one ?
+*MOT:	book .
+*MOT:	okay .
+*MOT:	what do you see ?
+*MOT:	puttaputta@c .
+*MOT:	one morning while Donald Duck was busy inventing things (.) the
+*MOT:	no ?
+*MOT:	oh .
+*MOT:	oh .
+*MOT:	oh (.) okay .
+*MOT:	no ?
+*MOT:	hello (.) wanna talk to June ?
+*MOT:	okay (.) just a minute .
+*MOT:	it's your Grandma .
+*MOT:	you gonna say something ?
+*MOT:	don't wanna say anything (.) &eh [= huh] .
+*MOT:	are you sure ?
+*MOT:	no .
+*MOT:	what about your choo+choo train (.) huh ?
+*MOT:	here (.) it's your train .
+*MOT:	no ?
+*MOT:	it's what ?
+*MOT:	oh .
+*MOT:	puttaputta@c .
+*MOT:	anything in particular ?
+*MOT:	huh ?
+*MOT:	we've already been through that one .
+*MOT:	shall we have a different one ?
+*MOT:	how about this one ?
+*MOT:	what's that ?
+*MOT:	here (.) do you wanna bring it over here ?
+*MOT:	here (.) is that better ?
+*MOT:	puttaputta@c .
+*MOT:	is this what you want ?
+*MOT:	who is that ?
+*MOT:	oh_goodness .
+*MOT:	my [>] that was a short call .
+*MOT:	hello (.) you wanna talk to June ?
+*MOT:	okay (.) just a moment .
+*MOT:	it's your Grandma again .
+*MOT:	no (.) you don't wanna talk ?
+*MOT:	you sure ?
+*MOT:	book .
+*MOT:	who's that ?
+*MOT:	tubbie time is so much fun (.) rubber ducky you're the one .
+*MOT:	is that a duck ?
+*MOT:	what's he doing ?
+*MOT:	puttaputta@c .
+*MOT:	what's that ?
+*MOT:	book .
+*MOT:	who is that ?
+*MOT:	who's in the book ?
+*MOT:	shall we bring this out a little bit better .
+*MOT:	oh (.) thank_you .
+*MOT:	would you like it ?
+*MOT:	you're welcome .
+*MOT:	oh (.) thank_you .
+*MOT:	who is that ?
+*MOT:	book (.) thank_you .
+*MOT:	who's there ?
+*MOT:	oh .
+*MOT:	thank_you .
+*MOT:	oh .
+*MOT:	oh (.) thank_you .
+*MOT:	here .
+*MOT:	no ?
+*MOT:	hello (.) wanna talk to June ?
+*MOT:	just a moment .
+*MOT:	it's for you June .
+*MOT:	it's your Aunt Rose .
+*MOT:	hello June .
+*MOT:	don't wanna talk to your aunt ?
+*MOT:	book .
+*MOT:	oh (.) thank_you .
+*MOT:	who's that ?
+*MOT:	no ?
+*MOT:	ball .
+*MOT:	you mean this ?
+*MOT:	uhhuh .
+*MOT:	uhhuh .
+*MOT:	duck .
+*MOT:	thank_you .
+*MOT:	oh (.) thank_you .
+*MOT:	is that a duck ?
+*MOT:	yeh .
+*MOT:	it's Donald Duck isn't it ?
+*MOT:	duck .
+*MOT:	Donald Duck and the super sticky secret .
+*MOT:	book .
+*MOT:	oh (.) thank_you .
+*MOT:	uhhuh .
+*MOT:	oh (.) that's very nice dear .
+*MOT:	yeh .
+*MOT:	what do you see ?
+*MOT:	puttaputta@c ?
+*MOT:	up ?
+*MOT:	uhhuh .
+*MOT:	who's there ?
+*MOT:	what (.) what little animals are there (.) huh ?
+*MOT:	what .
+*MOT:	what's there ?
+*MOT:	what little animals ?
+*MOT:	where's the duck ?
+*MOT:	where's the kitty ?
+*MOT:	where's the kitty ?
+*MOT:	miaw@o .
+*MOT:	is that the kitty ?
+*MOT:	uhhuh .
+*MOT:	<that's what the> [>] kitty said .
+*MOT:	where's the kitty ?
+*MOT:	no (.) those are doggies .
+*MOT:	those are puppies .
+*MOT:	there you go .
+*MOT:	yeh .
+*MOT:	yeh (.) you're right it is a ball .
+*MOT:	June (.) d(o) you wanna come out here ?
+*MOT:	oh (.) thank_you .
+*MOT:	who's that ?
+*MOT:	oh (.) what's this ?
+*MOT:	who is that ?
+*MOT:	baby (.) is that your baby ?
+*MOT:	oh (.) dada .
+*MOT:	uhhuh .
+*MOT:	are you gonna tell a story ?
+*MOT:	what's &er [//] what's your friend doing ?
+*MOT:	daddy (.) huh ?
+*MOT:	oh (.) thank_you .
+*MOT:	duck .
+*MOT:	oh (.) okay .
+*MOT:	uhhuh .
+*MOT:	this what you want ?
+*MOT:	hey little girl (.) what's your name ?
+*MOT:	huh ?
+*MOT:	what can you say ?
+*MOT:	my name's peppy .
+*MOT:	what's your name ?
+*MOT:	hi !
+*MOT:	hi !
+*MOT:	yeh .
+*MOT:	oh (.) thank_you .
+*MOT:	oh (.) you're welcome .
+*MOT:	oh (.) here's a bunny .
+*MOT:	June ?
+*MOT:	here's a bunny .
+*MOT:	oh (.) thank_you .
+*MOT:	hippity@wp (.) hoppity@wp (.) hop (.) huh ?
+*MOT:	oh (.) thank_you .
+*MOT:	would you like the bunny ?
+*MOT:	hello little girl (.) what's your name ?
+*MOT:	my name's bunny .
+*MOT:	oh (.) you want the bunny to talk on the phone ?
+*MOT:	here (.) what does the bunny say on the phone (.) huh ?
+*MOT:	think the bunny talks to his friend ?
+*MOT:	hello (.) is this the bunny ?
+*MOT:	coming out for Easter (.) &hmm ?
+*MOT:	what does the bunny say ?
+*MOT:	oh (.) hello .
+*MOT:	would you like to talk to June ?
+*MOT:	okay (.) just a moment .
+*MOT:	it's for you .
+*MOT:	it's the Easter bunny .
+*MOT:	no ?
+*MOT:	she doesn't wanna talk right now .
+*MOT:	wanna try again ?
+*MOT:	June (.) it's for you .
+*MOT:	wanna talk ?
+*MOT:	no ?
+*MOT:	uhhuh .
+*MOT:	oh (.) yeh .
+*MOT:	what kind of book is that ?
+*MOT:	uhhuh .
+*MOT:	oh .
+*MOT:	here (.) do you wanna play with this ?
+*MOT:	my_goodness (.) you put rubbish in here don't you (.) huh ?
+*MOT:	oh (.) okay .
+*MOT:	where are you going ?
+*MOT:	June ?
+*MOT:	thinks it belongs in there .
+*MOT:	June ?
+*MOT:	here (.) what about this ?
+*MOT:	where does this belong ?
+*MOT:	does it belong there ?
+*MOT:	oh (.) you think it goes in there ?
+*MOT:	shall we try it in here ?
+*MOT:	think it will work there ?
+*MOT:	no ?
+*MOT:	let's see .
+*MOT:	try it (.) try it right there .
+*MOT:	I think it'll fit there .
+*MOT:	yeh !
+*MOT:	how about that ?
+*MOT:	try this one (.) there .
+*MOT:	will that fit in there ?
+*MOT:	I don't think it'll fit there .

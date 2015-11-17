@@ -1,0 +1,648 @@
+*MOT:	okay .
+*MOT:	tell me (.) what did you see at Sing's house ?
+*MOT:	where was the big tiger ?
+*MOT:	a bite me .
+*MOT:	did he bite you ?
+*MOT:	did he have big teeth ?
+*MOT:	he bit the whole house ?
+*MOT:	where was he ?
+*MOT:	was he on the floor ?
+*MOT:	or was he on the wall ?
+*MOT:	he had a black face ?
+*MOT:	was the tiger on the wall or on the floor ?
+*MOT:	where ?
+*MOT:	he fell on the floor (.) the tiger ?
+*MOT:	see the puppets .
+*MOT:	no (.) they might break .
+*MOT:	we have_to leave them up there .
+*MOT:	no (.) I think they'll stay up there .
+*MOT:	tell me were there lots_of children at Sing's house ?
+*MOT:	what did you do with them ?
+*MOT:	you drank ?
+*MOT:	what ?
+*MOT:	a what drink ?
+*MOT:	oh the boys drank too ?
+*MOT:	did you watch tv ?
+*MOT:	Melloan watched tv ?
+*MOT:	is Melloan a little girl or a little boy ?
+*MOT:	she's a little boy ?
+*MOT:	I think she's a little girl (.) isn't she ?
+*MOT:	go on the floor ?
+*MOT:	is that the tiger that Miriam gave to you ?
+*MOT:	Miriam [/] Miriam had a fox .
+*MOT:	no (.) Nina got a tiger and Miriam got a fox .
+*MOT:	Becky got a tiger .
+*MOT:	you put the tiger in the living room ?
+*MOT:	I see .
+*MOT:	did you go and visit Rachel and Becca yesterday ?
+*MOT:	who else was there ?
+*MOT:	did you catch Becca ?
+*MOT:	what did you do ?
+*MOT:	did you run ?
+*MOT:	what did you run .
+*MOT:	around the house ?
+*MOT:	Becca took a nap while you were there (.) didn't she ?
+*MOT:	did you take a nap ?
+*MOT:	did you play with Rachel and Becca ?
+*MOT:	what did you play with ?
+*MOT:	and did you play with puzzles ?
+*MOT:	with Rachel's puzzles .
+*MOT:	did you eat lunch there ?
+*MOT:	what did you eat for lunch ?
+*MOT:	what did you eat ?
+*MOT:	I know (.) you ate in Rachel's house .
+*MOT:	do you remember what you ate ?
+*MOT:	in Becca's house too .
+*MOT:	what did you eat ?
+*MOT:	did you eat chicken ?
+*MOT:	what did you eat ?
+*MOT:	did you eat hamburger ?
+*MOT:	no (.) it wasn't hamburger .
+*MOT:	what was it ?
+*MOT:	you had ketchup .
+*MOT:	and what else ?
+*MOT:	anything else ?
+*MOT:	did you have some peas ?
+*MOT:	where did you eat ?
+*MOT:	did you eat at the big table or the little table ?
+*MOT:	with whom ?
+*MOT:	that's a little part (.) yeah [= yes] .
+*MOT:	that's a little part of the doll house .
+*MOT:	it's going to fall down ?
+*MOT:	it's gonna fall down .
+*MOT:	oh (.) another piece fell down .
+*MOT:	uhoh [= trouble] .
+*MOT:	yes (.) I guess that piece can fall down too .
+*MOT:	oh my .
+*MOT:	that's a picture of a little girl .
+*MOT:	is she playing with her doll house ?
+*MOT:	that's a little girl .
+*MOT:	she's playing with the doll house .
+*MOT:	does her doll house look like Nina's ?
+*MOT:	oh (.) it has snow on top ?
+*MOT:	I guess this rip on the roof looks like snow (.) doesn't it ?
+*MOT:	that girl has snow on the roof .
+*MOT:	is a girl .
+*MOT:	what's this on top of the roof ?
+*MOT:	no (.) that's a chimney .
+*MOT:	would you like to make some things with clay ?
+*MOT:	here (.) let me give you some clay .
+*MOT:	here's some clay .
+*MOT:	what would you like to make ?
+*MOT:	what color clay is this ?
+*MOT:	is this yellow clay ?
+*MOT:	blue clay .
+*MOT:	boy (.) can't open the top .
+*MOT:	you wanna make something with the clay ?
+*MOT:	you want this color ?
+*MOT:	well (.) let's see if we can open it .
+*MOT:	you take off the top ?
+*MOT:	what are you trying to do ?
+*MOT:	you trying to open it ?
+*MOT:	pull .
+*MOT:	can you pull ?
+*MOT:	pull it .
+*MOT:	oh (.) did you get it open ?
+*MOT:	what color is that clay ?
+*MOT:	now you have three different color clay .
+*MOT:	what shall we make with it ?
+*MOT:	will you make something for me ?
+*MOT:	what are you going to make ?
+*MOT:	you going to make something with a blue piece of clay ?
+*MOT:	you going to make a house ?
+*MOT:	you going to make a doll house with a chimney ?
+*MOT:	just like yours ?
+*MOT:	here .
+*MOT:	that's a part of the blue clay .
+*MOT:	this is yellow clay .
+*MOT:	well what happened to clay ?
+*MOT:	where is it ?
+*MOT:	where did the clay finish up ?
+*MOT:	where is that ?
+*MOT:	did you get some clay on your nose ?
+*MOT:	no I won't mix them up .
+*MOT:	that's the yellow one ?
+*MOT:	shall I make something with the yellow one ?
+*MOT:	and you're going to make something with the red one ?
+*MOT:	what are you going to make ?
+*MOT:	let's put it on this big box .
+*MOT:	okay (.) let me see your house .
+*MOT:	you going to make a red hot dog ?
+*MOT:	what color hot dog shall I make ?
+*MOT:	two hot dogs .
+*MOT:	a yellow one and a red one (.) we have .
+*MOT:	now you sit here and you make something for Mommy now .
+*MOT:	what are you making ?
+*MOT:	what are you going to make ?
+*MOT:	what are you going to put on the house ?
+*MOT:	what are you going to put on the house ?
+*MOT:	you're making a rabbit ?
+*MOT:	ho (.) ho +...
+*MOT:	you making another rabbit ?
+*MOT:	you're making a butterfly ?
+*MOT:	you want to put the butterfly on top of the box ?
+*MOT:	what's that ?
+*MOT:	what color house ?
+*MOT:	it's a yellow house like this little girl's house ?
+*MOT:	what is this little girl holding ?
+*MOT:	what's on top of the box ?
+*MOT:	no (.) what did Mommy make on top of the box ?
+*MOT:	a butterfly ?
+*MOT:	does it look like a butterfly ?
+*MOT:	Mommy made a little fox .
+*MOT:	where do you want to put the fox ?
+*MOT:	you put it somewhere .
+*MOT:	yeah [= yes] .
+*MOT:	what is this ?
+*MOT:	what part of the fox is that ?
+*MOT:	the tail .
+*MOT:	do you have a tail ?
+*MOT:	uhoh [= trouble] (.) what happened to the tail ?
+*MOT:	you want to take his tail off ?
+*MOT:	you taking the tail off ?
+*MOT:	shall [//] can you make a ball for Mommy ?
+*MOT:	how do you make a ball ?
+*MOT:	what do you do to make a ball ?
+*MOT:	somebody just slammed the door .
+*MOT:	that must be Ray going to work .
+*MOT:	yeah [= yes] .
+*MOT:	he has_to go to work early .
+*MOT:	what did I make ?
+*MOT:	a red ball (.) right ?
+*MOT:	can you put it in here ?
+*MOT:	where do you want to put the red ball ?
+*MOT:	is that a little piece of clay ?
+*MOT:	is there clay on you ?
+*MOT:	is there clay on your finger ?
+*MOT:	what's this ?
+*MOT:	what did Mommy just make ?
+*MOT:	oh (.) thank_you .
+*MOT:	can I have that little piece of blue clay ?
+*MOT:	shall we make a snowman ?
+*MOT:	a yellow snowman ?
+*MOT:	I'm making a snowman .
+*MOT:	we don't have any white clay so we'll make him out_of yellow clay .
+*MOT:	that's the bottom of the snowman .
+*MOT:	will you make the eyes for the snowman ?
+*MOT:	what color eyes is he going to have ?
+*MOT:	red eyes (.) we're going to make .
+*MOT:	here's the snowman .
+*MOT:	okay (.) you want to make the eyes ?
+*MOT:	put the eyes on .
+*MOT:	that's a little snowman .
+*MOT:	do you want to put the eye on ?
+*MOT:	now what else does he need ?
+*MOT:	he needs another eye .
+*MOT:	he has two eyes (.) doesn't he ?
+*MOT:	can you put the other eye on ?
+*MOT:	what does he have now ?
+*MOT:	oh (.) he's a funny snowman .
+*MOT:	shall we make some buttons ?
+*MOT:	what color buttons shall we make ?
+*MOT:	red buttons ?
+*MOT:	where are you putting the button ?
+*MOT:	&um [= what] ?
+*MOT:	where did you put the button ?
+*MOT:	where ?
+*MOT:	what did you say ?
+*MOT:	you want another button on him ?
+*MOT:	where do you want the other button ?
+*MOT:	up here ?
+*MOT:	now shall we make him some arms ?
+*MOT:	you make an arm .
+*MOT:	can you roll the clay ?
+*MOT:	you have_to roll the clay like this .
+*MOT:	can you roll it ?
+*MOT:	what are you doing ?
+*MOT:	are you rolling the clay ?
+*MOT:	yes you are .
+*MOT:	you're rolling it .
+*MOT:	look what I just put on the snowman .
+*MOT:	that's not a butterfly .
+*MOT:	that's a snowman .
+*MOT:	now what else shall we make with the snowman ?
+*MOT:	do you want to make a hat for the snowman ?
+*MOT:	what color hat shall we make ?
+*MOT:	what color hat shall we make for the snowman .
+*MOT:	red or blue ?
+*MOT:	do you want to make a blue hat for the snowman ?
+*MOT:	where shall we put the hat ?
+*MOT:	shall we put the hat on his nose ?
+*MOT:	where ?
+*MOT:	you want to make a jacket too ?
+*MOT:	that's hard to make out_of clay .
+*MOT:	uhhuh [= yes] (.) do you like our snowman ?
+*MOT:	you make a blue jacket for the snowman ?
+*MOT:	okay .
+*MOT:	Nina make it .
+*MOT:	you can make a big blue jacket for the snowman .
+*MOT:	you gonna make a little jacket .
+*MOT:	you want Mommy to make the jacket ?
+*MOT:	you make the buttons for the jacket ?
+*MOT:	I think he had the jacket on already .
+*MOT:	see if he has buttons on him ?
+*MOT:	shall we put some blue clay around him for a jacket ?
+*MOT:	stick it on here .
+*MOT:	can you stick some on ?
+*MOT:	you stick some on .
+*MOT:	that jacket is blue (.) isn't it ?
+*MOT:	that's a blue jacket .
+*MOT:	yeah [= yes] .
+*MOT:	oh (.) it's a blue jacket .
+*MOT:	blue jacket .
+*MOT:	a blue jacket .
+*MOT:	did I catch it ?
+*MOT:	I'll be right back .
+*MOT:	shall we put the clay back ?
+*MOT:	or do you want to make some more things ?
+*MOT:	what do you want to make ?
+*MOT:	what more things shall we make ?
+*MOT:	lots_of clay you have here .
+*MOT:	what shall we make ?
+*MOT:	we have one snowman .
+*MOT:	shall we make a chair ?
+*MOT:	to go in your doll house ?
+*MOT:	what color chair ?
+*MOT:	did you make a hole in the clay ?
+*MOT:	what did you use to make the hole ?
+*MOT:	what were you doing ?
+*MOT:	are you making a face ?
+*MOT:	what are you making ?
+*MOT:	oh (.) look at all the holes that Nina's making in the clay .
+*MOT:	you making the hole with your arm ?
+*MOT:	no (.) you're making it with your finger (.) aren't you ?
+*MOT:	oh (.) you took the tail off .
+*MOT:	let's put it on this [//] on the box (.) because you know if we put
+*MOT:	see all the clay gets messed up in the rug .
+*MOT:	let's keep it on this box .
+*MOT:	here's a little table .
+*MOT:	why don't you make a plate to put on the table ?
+*MOT:	what else shall we make for the table ?
+*MOT:	what's that ?
+*MOT:	that's clay .
+*MOT:	look I made it into a little glass .
+*MOT:	now we have a plate and a glass on the table .
+*MOT:	see ?
+*MOT:	see there's a hole on the clay that's on the box .
+*MOT:	do you like the feel of it ?
+*MOT:	it's squishy (.) isn't it ?
+*MOT:	squish (.) squish with my hands .
+*MOT:	I like to do that .
+*MOT:	can you squeeze it ?
+*MOT:	you squeeze it .
+*MOT:	what are you doing ?
+*MOT:	what are you doing ?
+*MOT:	you made a long tail (.) didn't you ?
+*MOT:	are you going to make another tail with the clay ?
+*MOT:	yeah [= yes] (.) go ahead .
+*MOT:	you want to make a red tail this time ?
+*MOT:	what color tail ?
+*MOT:	was there clay at Rachel's house ?
+*MOT:	did you play with it ?
+*MOT:	is this Nina's clay ?
+*MOT:	do you play with clay at Maggie's house too ?
+*MOT:	does Leila play there too ?
+*MOT:	Leila has clay too ?
+*MOT:	everybody has clay .
+*MOT:	there's clay at Sing's house too ?
+*MOT:	what else was there at Sing's house ?
+*MOT:	there was clay ?
+*MOT:	were there books there ?
+*MOT:	are you tired of the clay ?
+*MOT:	shall we put it away ?
+*MOT:	you're tired ?
+*MOT:	okay (.) let's put the clay in the box .
+*MOT:	this box is for the red clay .
+*MOT:	put the clay away in the red box .
+*MOT:	can you help me get all the red clay up ?
+*MOT:	you don't (.) you don't want to put it away yet ?
+*MOT:	you want to keep it out ?
+*MOT:	you want to put away the yellow clay ?
+*MOT:	which clay do you want to put away ?
+*MOT:	you want to keep it out (.) and play some more ?
+*MOT:	I'm going to make a kitty (.) okay ?
+*MOT:	here's the kitty's head .
+*MOT:	you hold the kitty's head .
+*MOT:	now what shall I make ?
+*MOT:	you making (.) what are you making (.) ears ?
+*MOT:	what are you making ?
+*MOT:	no kitty .
+*MOT:	you making a kitty .
+*MOT:	you've got blue clay under your finger nails .
+*MOT:	shall we make a flower ?
+*MOT:	shall I make a flower ?
+*MOT:	they're many flowers on this box (.) aren't there ?
+*MOT:	shall I make a flower like this one ?
+*MOT:	what color is that one ?
+*MOT:	oh it's impossible to take off because it's drawn on (.) but we'll
+*MOT:	you coughing ?
+*MOT:	no (.) we can't take that off .
+*MOT:	what is that ?
+*MOT:	no (.) it's not a kitty it's a flower .
+*MOT:	do you like it ?
+*MOT:	and what are you going to make ?
+*MOT:	and Nina (.) what is Nina going to make ?
+*MOT:	you are going to make a Nonna ?
+*MOT:	did Nonna go away ?
+*MOT:	she went away on the airplane ?
+*MOT:	we'll see Nonna next summer though (.) right ?
+*MOT:	what did Nonna give to Nina ?
+*MOT:	yeah [= yes] (.) and what else did she bring Nina ?
+*MOT:	she brought something else that you have at Maggie's house .
+*MOT:	what do you have at Maggie's house ?
+*MOT:	something big and red .
+*MOT:	what do you go on at Maggie's house ?
+*MOT:	bicycle .
+*MOT:	a bicycle ?
+*MOT:	did Nonna give you the bicycle ?
+*MOT:	can you ride it ?
+*MOT:	are you going to ride your bicycle today ?
+*MOT:	what do you have_to do to ride your bicycle ?
+*MOT:	what do you have_to do ?
+*MOT:	push your feet ?
+*MOT:	is it hard ?
+*MOT:	is it a big bicycle or a little bicycle ?
+*MOT:	it's a little bicycle .
+*MOT:	what color is it ?
+*MOT:	yeah [= yes] (.) what color is the seat of your bicycle ?
+*MOT:	is it a blue bicycle or a red bicycle ?
+*MOT:	which one ?
+*MOT:	a red bicycle .
+*MOT:	do you let Leila have a turn on your bicycle ?
+*MOT:	no you don't ?
+*MOT:	yeah [= yes] .
+*MOT:	you just let Nina rides it ?
+*MOT:	oh (.) I bet you let Leila have a turn too .
+*MOT:	does Maggie push you ?
+*MOT:	no ?
+*MOT:	does she have her own bicycle ?
+*MOT:	oh (.) I see she has her own .
+*MOT:	can you ride your bicycle by yourself or does Maggie push you ?
+*MOT:	and Mommy pushes you sometime too (.) doesn't she ?
+*MOT:	what is on your finger ?
+*MOT:	uhoh [= trouble] (.) look at all the clay on the rug .
+*MOT:	let's pick it up .
+*MOT:	can you help me pick it up ?
+*MOT:	look it's all squished into the rug .
+*MOT:	let's put all the clay on the box (.) okay ?
+*MOT:	did Nonna bring Snoopy to you too ?
+*MOT:	are you hugging Snoopy ?
+*MOT:	you love Snoopy too .
+*MOT:	I love Snoopy too .
+*MOT:	she does ?
+*MOT:	is he soft ?
+*MOT:	is your Snoopy soft ?
+*MOT:	no (.) you don't want me to touch him .
+*MOT:	I can touch him .
+*MOT:	can I pat him ?
+*MOT:	very soft .
+*MOT:	is he very soft ?
+*MOT:	he's very soft that Snoopy (.) isn't he ?
+*MOT:	he's very soft .
+*MOT:	he's very soft .
+*MOT:	do you want me to come and sit down ?
+*MOT:	look at this picture .
+*MOT:	what is that a picture of ?
+*MOT:	and what's Mommy doing ?
+*MOT:	Mommy's holding Nina (.) isn't she ?
+*MOT:	what's Nina doing ?
+*MOT:	Nina has a hat on (.) doesn't she ?
+*MOT:	no (.) Mommy doesn't have a hat .
+*MOT:	Mommy's hair's blowing (be)cause there's lots_of wind .
+*MOT:	we're outside at the park .
+*MOT:	do you like to go to the park with Mommy ?
+*MOT:	what's blowing ?
+*MOT:	Mommy's hair .
+*MOT:	what's Nina doing ?
+*MOT:	are you touching my hair ?
+*MOT:	in the picture (.) are you touching my hair ?
+*MOT:	because it's blowing in the wind .
+*MOT:	oh (.) you can't take the picture of Mommy out (be)cause that's a
+*MOT:	here's real Mommy (.) and there's a picture of Mommy .
+*MOT:	we're sitting in the park .
+*MOT:	what do you do in the park ?
+*MOT:	do you go on the swings when you go to the park ?
+*MOT:	what do you do at the park ?
+*MOT:	what do you like to do at the park ?
+*MOT:	what do you like to do at the park ?
+*MOT:	&um [= what] ?
+*MOT:	do you like to swing ?
+*MOT:	you don't ?
+*MOT:	do you like to go on the slide ?
+*MOT:	did you go with Nonna to the park (.) when she was here ?
+*MOT:	did Nonna take you to the park ?
+*MOT:	&um [= what] ?
+*MOT:	oh (.) Nonna took you to the zoo (.) didn't she ?
+*MOT:	where else did Nonna take you ?
+*MOT:	Mommy took you too .
+*MOT:	where else did we go with Nonno and Nonna ?
+*MOT:	did we go to the beach ?
+*MOT:	yes we did .
+*MOT:	remember we went with Annette and the dogs to the beach ?
+*MOT:	that was fun .
+*MOT:	what did we do on the beach ?
+*MOT:	we caught Auchela (.) that's right .
+*MOT:	we went running to catch Auchela (.) didn't we ?
+*MOT:	did Nina catch Auchela ?
+*MOT:	Mommy tried to catch Auchela too but Auchela ran very fast
+*MOT:	no (.) he was a +...
+*MOT:	big dog .
+*MOT:	is Mommy big in that picture ?
+*MOT:	who's bigger (.) Mommy or Nina ?
+*MOT:	that's a picture of Mommy and Nina .
+*MOT:	you want me to play with the clay some more ?
+*MOT:	okay (.) I want to show you something .
+*MOT:	Nonno and Nonna left this for Nina .
+*MOT:	look what they left .
+*MOT:	what is that ?
+*MOT:	what is that ?
+*MOT:	you know what that is ?
+*MOT:	that's a Santa_Claus cookie .
+*MOT:	look at that .
+*MOT:	who is this ?
+*MOT:	uhoh [= trouble] .
+*MOT:	wait a minute (.) let's put him together .
+*MOT:	who is this ?
+*MOT:	do you know who this is ?
+*MOT:	you're eating him .
+*MOT:	who is this ?
+*MOT:	what is he wearing on his head ?
+*MOT:	he's wearing a red [//] what's he wearing ?
+*MOT:	he's wearing a red hat (.) and what does he have here ?
+*MOT:	here he has a big white mustache .
+*MOT:	can you say +"/.
+*MOT:	+" mustache ?
+*MOT:	what color is his mustache .
+*MOT:	uhoh [= trouble] what's this ?
+*MOT:	his eye .
+*MOT:	you going to eat his eye ?
+*MOT:	is it good ?
+*MOT:	you going to eat his eye ?
+*MOT:	let's put him back together a minute .
+*MOT:	what's that ?
+*MOT:	is that his big red nose ?
+*MOT:	did you see Santa_Claus in the store ?
+*MOT:	you didn't ?
+*MOT:	didn't Santa_Claus give you a candy at the store ?
+*MOT:	did you like Santa_Claus ?
+*MOT:	you love Santa_Claus ?
+*MOT:	what did Santa_Claus do ?
+*MOT:	did he give you a candy ?
+*MOT:	are you eating ?
+*MOT:	what are you doing ?
+*MOT:	shall we wrap this cookie up and take it to Maggie's house ?
+*MOT:	what did you just do ?
+*MOT:	did you eat his mustache ?
+*MOT:	what did you do ?
+*MOT:	eat the mustache .
+*MOT:	poor Santa_Claus .
+*MOT:	do you like the cookie ?
+*MOT:	is it a good cookie or a bad cookie .
+*MOT:	what kind of cookie is it (.) a good one or a bad one ?
+*MOT:	it's not a cookie ?
+*MOT:	&um (.) it's a good cookie (.) isn't it ?
+*MOT:	shall we feed Snoopy some cookie ?
+*MOT:	what shall we feed him ?
+*MOT:	what part of the Santa_Claus cookie ?
+*MOT:	you don't want Snoopy to eat ?
+*MOT:	what are you doing ?
+*MOT:	what are you eating ?
+*MOT:	a Santa_Claus cookie .
+*MOT:	who left this cookie for Nina ?
+*MOT:	Nonna .
+*MOT:	when she left she said (.) +"/.
+*MOT:	+" I'm sad to leave .
+*MOT:	+" we had such a nice Christmas (.) so I'm going to leave this
+*MOT:	and here it is .
+*MOT:	I can't eat any ?
+*MOT:	can I eat it ?
+*MOT:	oh (.) are you going to feed me ?
+*MOT:	&um .
+*MOT:	delicious .
+*MOT:	oh (.) it's delicious cookie .
+*MOT:	see all the icing ?
+*MOT:	what color nose does Santa_Claus have ?
+*MOT:	what color is his nose ?
+*MOT:	you want me to eat his nose ?
+*MOT:	are you going to eat his eye ?
+*MOT:	okay let's bring some to Maggie .
+*MOT:	let's bring this part to Maggie .
+*MOT:	Nina can eat this part ?
+*MOT:	do you want to wrap this up and take it to Maggie's house ?
+*MOT:	you can eat it there .
+*MOT:	what are you doing ?
+*MOT:	are you going to eat some more .
+*MOT:	do you want to wrap that up too ?
+*MOT:	let's put it in the paper .
+*MOT:	then you can eat some more later .
+*MOT:	that was nice .
+*MOT:	what is this ?
+*MOT:	Santa_Claus .
+*MOT:	shall we wrap it up well ?
+*MOT:	take to Maggie's house (.) and show Maggie your Santa_Claus cookie
+*MOT:	want to put it up on the table ?
+*MOT:	we're not going to Maggie's house quite yet though .
+*MOT:	yes (.) we're going to take Santa_Claus to Maggie's house .
+*MOT:	well (.) I guess Christmas is just about over .
+*MOT:	I took down all the cards .
+*MOT:	would you like to keep some of the Christmas cards ?
+*MOT:	what's on this Christmas card ?
+*MOT:	yeah [= yes] (.) we put that (.) put that in the house .
+*MOT:	put it in the kitchen .
+*MOT:	the cookies go in the kitchen .
+*MOT:	can you put it in the kitchen .
+*MOT:	where do you want to put it ?
+*MOT:	where ?
+*MOT:	on the floor ?
+*MOT:	are you unwrapping the Santa_Claus cookie again ?
+*MOT:	you going to wrap it up ?
+*MOT:	going to take it out ?
+*MOT:	uhoh [= trouble] .
+*MOT:	don't spill the cookie on the floor .
+*MOT:	it'll get all dirty .
+*MOT:	let's put it back on the [/] on the [/] on the paper .
+*MOT:	can you put it on the paper ?
+*MOT:	look at the pretty Christmas card that Mommy took off the wall .
+*MOT:	don't what ?
+*MOT:	oh (.) you can't manage to wrap it up well ?
+*MOT:	is a piece sticking out still ?
+*MOT:	okay (.) do you want Mommy to wrap it ?
+*MOT:	are your hands sticky from that cookie ?
+*MOT:	let me see your hands .
+*MOT:	oh (.) are they sticky .
+*MOT:	does Maggie make cookies for Nina ?
+*MOT:	is Santa_Claus in there ?
+*MOT:	poor Santa_Claus .
+*MOT:	you started to eat him all up .
+*MOT:	poor Santa_Claus .
+*MOT:	are you trying to (.) close it ?
+*MOT:	push hard .
+*MOT:	what are you doing ?
+*MOT:	you're going to eat him .
+*MOT:	are you eating him all up ?
+*MOT:	you want to sit on your chair ?
+*MOT:	taking all the things out_of the doll house ?
+*MOT:	what are you going to put in it ?
+*MOT:	shall we put our Christmas cards up in the doll house ?
+*MOT:	which ones shall we put up first ?
+*MOT:	shall we put this one up ?
+*MOT:	what's on this Christmas card ?
+*MOT:	horses .
+*MOT:	and what's on this Christmas card ?
+*MOT:	I hold this for you .
+*MOT:	shall I hold it ?
+*MOT:	you want to put the Christmas card in the doll house ?
+*MOT:	oh Nina's doll house is all full of Christmas cards .
+*MOT:	what's on this Christmas card ?
+*MOT:	a little boy and who else ?
+*MOT:	they're touching a little baby .
+*MOT:	oh Nina has her doll house all full of Christmas cards .
+*MOT:	shall we put one more Christmas card in your doll house ?
+*MOT:	where are you putting it ?
+*MOT:	is it hard to get in ?
+*MOT:	it's a big Christmas card (.) isn't it ?
+*MOT:	let's try putting it down in the living room (.) okay ?
+*MOT:	what's on this Christmas card ?
+*MOT:	that's a bell .
+*MOT:	what color is the bell ?
+*MOT:	what color is the bell ?
+*MOT:	is that a blue bell ?
+*MOT:	no what color is it ?
+*MOT:	well (.) Nina's doll house is all ready for Christmas now .
+*MOT:	Santa_Claus cookies and Christmas cards .
+*MOT:	what ?
+*MOT:	that's falling .
+*MOT:	shall we [/] shall we get a little box for your Santa_Claus cookie
+*MOT:	here .
+*MOT:	put him on here .
+*MOT:	oh (.) what did you just take apart ?
+*MOT:	the eye .
+*MOT:	and what's that ?
+*MOT:	no (.) that's not the eye .
+*MOT:	what is that ?
+*MOT:	oh (.) look at all the crumbs .
+*MOT:	there we go .
+*MOT:	my_goodness (.) that's a very crumbly cookie .
+*MOT:	a crumbly cookie .
+*MOT:	what are you eating ?
+*MOT:	what part of Santa_Claus are you eating ?
+*MOT:	are you eating the mustache ?
+*MOT:	you're eating the mustache .
+*MOT:	let's leave some mustache for Leila .
+*MOT:	would you like to eat another part ?
+*MOT:	what are you going to eat now ?
+*MOT:	what did you just eat ?
+*MOT:	the eye ?
+*MOT:	what did you eat ?
+*MOT:	the eye of Santa_Claus .
+*MOT:	you're eating another eye now ?
+*MOT:	does it taste good ?
+*MOT:	look at your hands .
+*MOT:	are your hands sticky ?
+*MOT:	can you clean off your hands ?
+*MOT:	&uh (.) what did you do ?
+*MOT:	you ate the other eye .
+*MOT:	poor Santa_Claus .
+*MOT:	you're eating the whole cookie up (.) aren't you ?
+*MOT:	you're eating a big eye .
+*MOT:	goodness sakes .

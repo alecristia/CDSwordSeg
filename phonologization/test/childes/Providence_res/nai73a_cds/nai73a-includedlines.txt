@@ -1,0 +1,423 @@
+*MOT:	oh you think the fox might eat the cat ?
+*MOT:	well , I fixed it but it broke again . 29556_31558
+*MOT:	I used some string to tie it with . 36031_38453
+*MOT:	yeah I might try , I might hafta tie it again . 41565_44813
+*MOT:	today is Wednesday the twenty first of January . 44813_48863
+*MOT:	yes , it didn't +... 48863_51328
+*MOT:	lemme [: let me] see if I can tie it again . 51328_52861
+*MOT:	I don't know how it got broken for a second time , hmm ! 52861_57751
+*MOT:	I don't know if I can fix this . 57751_60091
+*MOT:	let's see +... 60091_65628
+*MOT:	yeah ?
+*MOT:	Pushba has to have a conversation with Veena . 81043_83066
+*MOT:	what does Pushba need to say to Veena ?
+*MOT:	oh , the fox might eat our cat ! 92460_95350
+*MOT:	oh no ! 95350_96420
+*MOT:	there's a fox ! 96420_97711
+*MOT:	it's evening and foxes go about in the evening in the dark . 104361_110608
+*MOT:	cats , you better stay in the barn tonight ! 110608_116418
+*MOT:	no no , that's our cat !
+*MOT:	okay .
+*MOT:	no fox , that's our cat ! 127986_130860
+*MOT:	don't take our cat away ! 130860_132616
+*MOT:	the fox hid the cat ? 137413_139580
+*MOT:	oh good , I'm so glad that the fox +... 140570_142821
+*MOT:	Veena , Veena , the fox did not eat our cat ! 142821_146250
+*MOT:	our barn kitten is still there . 146250_149203
+*MOT:	I'm going to go tell the big barn cat . 149203_155348
+*MOT:	that a fox did not take +... 155348_160331
+*MOT:	the fox did not take the big cat away ! 160331_163713
+*MOT:	the small cat I mean .
+*MOT:	oh .
+*MOT:	meow , meow . 174763_176988
+*MOT:	the fox came and tried to take away the barn cat . 176988_182818
+*MOT:	the little barn cat . 182818_184290
+*MOT:	but the fox went away and did not take away the kitten . 184290_188505
+*MOT:	oh , both cats are babies ? 200743_202090
+*MOT:	mhm .
+*MOT:	oh no , the fox is running off with our kitten !
+*MOT:	how strange Pushba , the fox keeps hiding our kittens . 221563_227740
+*MOT:	I have never seen a fox hide kittens before . 227741_232081
+*MOT:	it's a very weird fox . 232081_235426
+*MOT:	mm . 249201_250315
+*MOT:	we have_to look for the other cat ? 260871_262891
+*MOT:	where's that kitten ? 273691_275891
+*MOT:	here's one of them . 275891_277305
+*MOT:	this one I will put you back in the barn . 277305_280466
+*MOT:	where's the other one ?
+*MOT:	is it in here ? 284898_286900
+*MOT:	nope [: no] . 286901_289401
+*MOT:	it's not in that cat puppet . 289401_291378
+*MOT:	is it down here ?
+*MOT:	is it in the chicken coop , I wonder ?
+*MOT:	I'm going to open the chicken coop . 304726_307856
+*MOT:	and see who or what is inside . 307858_310921
+*MOT:	opening the door to the chicken coop . 310921_313828
+*MOT:	look at all those chickens ! 313828_315706
+*MOT:	and one cat . 315706_318408
+*MOT:	oh come on out and have your milk . 318408_331540
+*MOT:	let's leave one side of this open . 337425_339353
+*MOT:	because it's hard to keep it together otherwise when we're playing with it . 339300_344620
+*MOT:	but we can pretend that there's a wall around . 344620_347771
+*MOT:	all the way around . 347771_349448
+*MOT:	this way , you can move them in and out if you need to . 349448_353540
+*MOT:	they wanna come out and get fresh air and eat green don't they ? 353540_358106
+*MOT:	good night . 358106_383961
+*MOT:	colt . 383961_385353
+*MOT:	are we missing a kitten ? 388866_390650
+*MOT:	are we missing a kitten Pushba ?
+*MOT:	it's right up here ? 399141_400548
+*MOT:	kitten , kitten . 401731_403208
+*MOT:	what are you doing there ? 403208_405433
+*MOT:	I'm going to carry this kitten back to where it belongs . 405433_409841
+*MOT:	up in the barn . 409841_411955
+*MOT:	with the other barn cat . 411955_413890
+*MOT:	did you say promptly at eleven ? 431145_433280
+*MOT:	promptly at eleven , kitten ! 436088_442105
+*MOT:	it's the cat , it's the barn cat ! 442105_444906
+*MOT:	come back .
+*MOT:	whoa .
+*MOT:	is our kitten in here ? 455216_458081
+*MOT:	you know what , it's almost becoming time to brush teeth Naima . 468755_473513
+*MOT:	I know this is a fun game , but we have_to start thinking about getting ready for bed . 473513_478395
+*MOT:	oh , you can pretend the other is one there you know . 478395_484090
+*MOT:	okay , the chickens and roosters are all in the chicken coop . 484090_492420
+*MOT:	and there's my cat ! 492420_495520
+*MOT:	come back cats . 495520_497311
+*MOT:	come to the barn . 497311_500398
+*MOT:	careful .
+*MOT:	hmm +... 528885_530685
+*MOT:	Veena is looking . 534033_536315
+*MOT:	the cat's not here in the chicken coop , good night chickens , good night roosters ! 536315_541565
+*MOT:	good night chicks ! 541565_542666
+*MOT:	Veena and Pushba are tired farmers who'd like to go to bed . 542666_553235
+*MOT:	I'm gonna take the pigs into the barn now .
+*MOT:	she went to sleep at last . 599453_605853
+*MOT:	good night , Veena . 608491_610715
+*MOT:	good night .
+*MOT:	one evening where was the fox ? 626850_629268
+*MOT:	I don't know . 630688_631816
+*MOT:	really ?
+*MOT:	oh , there's a fox in here . 635190_639675
+*MOT:	there's definitely a fox in here . 639675_642788
+*MOT:	there's a fox who lives near the farm , uhoh . 642788_646820
+*MOT:	the animals could be in danger . 648035_650770
+*MOT:	Pushba , Veena , a fox lives near your farm . 650770_654956
+*MOT:	better watch out . 654956_656346
+*MOT:	oh , the fox is taking a cat . 662955_666138
+*MOT:	and hiding it in the chicken coop . 666138_668820
+*MOT:	what a funny fox . 668820_670971
+*MOT:	dangerous one , hmm +...
+*MOT:	oh .
+*MOT:	mhm .
+*MOT:	mhm . 706868_708931
+*MOT:	whoa . 708931_722223
+*MOT:	careful . 722223_723203
+*MOT:	where was the cat ? 731906_734210
+*MOT:	Pushba and Veena are going to look for that cat . 738586_740931
+*MOT:	Pushba is looking +...
+*MOT:	in the tree for the cat . 747176_748588
+*MOT:	climbing the tree to find the cat . 748588_750460
+*MOT:	are you in the tree cat ? 750460_752036
+*MOT:	are you in here ? 752036_753831
+*MOT:	are you hiding in the tree ? 753831_755411
+*MOT:	are you in here cat ? 755411_758516
+*MOT:	are you in the watering trough ? 758516_763195
+*MOT:	I don't see the cat there . 763195_765620
+*MOT:	oh_my_goodness ! 767940_770618
+*MOT:	cat !
+*MOT:	cat , what are you doing in the chicken coop ? 774581_777253
+*MOT:	it's highly unusual for a cat like you to be in a chicken coop . 777253_785731
+*MOT:	why do you think ?
+*MOT:	she was resting , I think . 812633_814523
+*MOT:	what is this supposed to be ? 814523_818011
+*MOT:	hmm good question , maybe it's like an +... 818011_820748
+*MOT:	outdoor chair to sit in . 820748_822850
+*MOT:	like a porch chair . 822850_827661
+*MOT:	it's eight o'clock , it's kind of time to brush . 838161_842186
+*MOT:	your teeth , but if you are hungry , I would like to give you something more to eat . 844201_847240
+*MOT:	are you interested in having anything more to eat , Naima ? 847240_850371
+*MOT:	like what ?
+*MOT:	do you want some cow's milk and a cookie ?
+*MOT:	well it's getting +...
+*MOT:	okay .
+*MOT:	after Veena finds the cat and finds Pushba , then we'll go have a cookie and some milk . 872736_877820
+*MOT:	hmm , I wonder if I will find anything unusual in my chicken coop this evening . 877820_884666
+*MOT:	hmm +... 884666_887900
+*MOT:	where's the cat ? 887900_891925
+*MOT:	oh that kitten is right here . 891925_896103
+*MOT:	kitten , come out of the chicken coop . 896103_900491
+*MOT:	let the chicken sleep , they need to get their sleep , kitten .
+*MOT:	alright .
+*MOT:	roar , roar , roar , roar , roar . 918893_924228
+*MOT:	Pushba where did you go , it's time for bed . 924228_927435
+*MOT:	Pushba are you in here ? 927435_933418
+*MOT:	Pushba , did you fall down into that well ? 933418_937300
+*MOT:	come on out ! 937300_939971
+*MOT:	let's sit here and have a conversation before we go to bed .
+*MOT:	now it's time to have a cookie and milk .
+*MOT:	what's the matter with her ?
+*MOT:	let's go have a little bed time snack . 958275_962933
+*MOT:	and then we're gonna brush our teeth after that . 962933_965156
+*MOT:	yeah . 970113_971645
+*MOT:	Naima , come have some milk and cookie .
+*MOT:	oh !
+*MOT:	sweetie . 1010100_1011821
+*MOT:	a nice glass of milk . 1016746_1021715
+*MOT:	what happened ? 1021715_1034283
+*MOT:	was it wet on the floor there ? 1034283_1036565
+*MOT:	yeah .
+*MOT:	that's alright . 1038540_1040099
+*MOT:	I'm looking for the valve . 1040099_1044308
+*MOT:	a valve . 1047474_1048826
+*MOT:	here's a valve for one of your sippy cups . 1048826_1051426
+*MOT:	alright , I put some milk in here . 1051426_1062905
+*MOT:	I think it's time , sometime soon to start +... 1062905_1071825
+*MOT:	drinking out of cups that aren't sippy cups . 1071826_1076351
+*MOT:	well when you're tired it's one thing , but because you're old enough you can drink without spilling from a regular cup . 1077375_1084630
+*MOT:	here you go honey . 1084631_1086340
+*MOT:	is that where you wanna sit ? 1091261_1093075
+*MOT:	or do you wanna sit at your table ? 1093075_1094636
+*MOT:	where , in the living room ? 1096075_1098340
+*MOT:	okay .
+*MOT:	do you want some +...
+*MOT:	you wanna [: want a] couple of letter cookies ? 1103300_1105011
+*MOT:	yeah ? 1105811_1106723
+*MOT:	or would you rather have some bread and jam ? 1106723_1109401
+*MOT:	like Frances . 1109401_1111166
+*MOT:	do you want bread and jam or a couple letter cookies ? 1115561_1118411
+*MOT:	okay . 1120201_1130675
+*MOT:	mm ! 1130675_1132608
+*MOT:	an l@l and an a@l . 1132611_1135101
+*MOT:	you know what l@l and a@l spells ? 1135101_1137666
+*MOT:	&la .
+*MOT:	like moo_ba_la_la_la@si . 1141090_1144133
+*MOT:	you can have the l@l and the a@l . 1144108_1150438
+*MOT:	xxx .
+*MOT:	let me see if this is dry .
+*MOT:	well L and A spells la .
+*MOT:	Naima would you like some bear food ?
+*MOT:	what's , who's gonna watch ? 1236155_1238363
+*MOT:	oh .
+*MOT:	are you gonna sit and have your cookies ? 1251001_1253043
+*MOT:	oh , okay .
+*MOT:	okay . 1257205_1260780
+*MOT:	you don't really need to put that seat+belt on , honey .
+*MOT:	you don't need it . 1278760_1282100
+*MOT:	are the dolls going for a stroll ? 1282100_1287435
+*MOT:	oh she's got her baby right in there . 1299861_1301961
+*MOT:	oh .
+*MOT:	with a toddler , not a real little tiny baby ?
+*MOT:	today is Thursday , the twenty second .
+*MOT:	I'm going in the room now . 1341456_1349010
+*MOT:	is there something you needed help with or are you okay ?
+*MOT:	oh .
+*MOT:	okay .
+*MOT:	okay . 1358051_1358736
+*MOT:	the daddy's legs are cold . 1366263_1367931
+*MOT:	yeah .
+*MOT:	hey , did you put that dress on the daddy ?
+*MOT:	all by yourself , wow .
+*MOT:	oh the shorts are a little bit hard to get on , aren't they ? 1376051_1379953
+*MOT:	I can help .
+*MOT:	I usually do it one at a time . 1382591_1386593
+*MOT:	get one all the way on . 1386593_1388813
+*MOT:	and then try and get the other foot in . 1388813_1391873
+*MOT:	oh there now the daddy's legs aren't cold anymore . 1391873_1400596
+*MOT:	and should we put +... 1400596_1403706
+*MOT:	oh okay . 1409403_1410435
+*MOT:	even though it's overalls ? 1410435_1412041
+*MOT:	you wanna pretend something else is a jacket ? 1416313_1419026
+*MOT:	how (a)bout +... 1419026_1420818
+*MOT:	how (a)bout this ? 1420818_1421908
+*MOT:	oh .
+*MOT:	oh , okay .
+*MOT:	that's overalls also . 1429086_1430690
+*MOT:	yes , it's the same pair .
+*MOT:	yeah [x 2] . 1441088_1442651
+*MOT:	because when Grandma xxx got you these last year for Christmas , she got you two different sets of dolls . 1444841_1451601
+*MOT:	and some of the dolls were the same and had the same clothes even . 1451601_1456421
+*MOT:	I was wondering if you were a little bit cold there . 1456421_1474968
+*MOT:	it is ? 1482655_1483560
+*MOT:	tickly . 1485681_1488283
+*MOT:	so , is the daddy gonna stroll that baby ? 1488283_1493305
+*MOT:	oh yeah . 1498508_1500013
+*MOT:	a velcro jacket ? 1503185_1511193
+*MOT:	you gonna put it on him ? 1512298_1514683
+*MOT:	now that you can put things on by yourself . 1514683_1517595
+*MOT:	now let's see +... 1517595_1521098
+*MOT:	I was doing +... 1521098_1523626
+*MOT:	a little cleaning up in here . 1523626_1525553
+*MOT:	oh .
+*MOT:	you having trouble putting the jacket on ? 1602150_1604555
+*MOT:	do you want me to come and help ? 1605456_1607555
+*MOT:	if you ask me I will come . 1607555_1617636
+*MOT:	would you like some help ? 1671230_1672663
+*MOT:	you wanna scream , oh .
+*MOT:	oh that jacket just won't go on , huh ? 1701623_1706498
+*MOT:	can we do it together ? 1706498_1708695
+*MOT:	yeah , okay .
+*MOT:	let's see . 1711651_1712800
+*MOT:	this arm +... 1712800_1715078
+*MOT:	that's in(side) , that arm's [: arm is] inside out , maybe that's why it was a problem . 1715078_1719410
+*MOT:	now that both arm's are in the right place +... 1721478_1724938
+*MOT:	you wanna put this other arm through ? 1724938_1727315
+*MOT:	you gotta pull and stretch it . 1727315_1729581
+*MOT:	yeah [x 3] .
+*MOT:	there . 1731743_1733423
+*MOT:	oh , what a nice red jacket ! 1733423_1735318
+*MOT:	that Daddy's [: Daddy is] not gonna be cold at all . 1735318_1738461
+*MOT:	oh dear .
+*MOT:	what's happening ?
+*MOT:	the velcro doesn't attach ?
+*MOT:	just a sec . 1772646_1776671
+*MOT:	do you want my help ?
+*MOT:	okay .
+*MOT:	I was just putting down my drink , so it wouldn't spill over here .
+*MOT:	okay , what is the problem with the red jacket ? 1797886_1802653
+*MOT:	okay , okay .
+*MOT:	do you want me to put the daddy's hands on the stroller ?
+*MOT:	okay . 1817175_1818326
+*MOT:	let's see , how will this go ? 1818326_1824710
+*MOT:	there , how's that ?
+*MOT:	is that how you want it to be ? 1831471_1835401
+*MOT:	hmm +... 1848125_1849888
+*MOT:	it must be somewhere in there . 1849888_1852773
+*MOT:	I bet . 1852773_1855480
+*MOT:	I would look for it in here . 1855480_1858103
+*MOT:	you might see it if you take a few things out . 1858103_1861718
+*MOT:	hmm +... 1861718_1876110
+*MOT:	I'm not sure where it is , you know it could be somewhere else . 1876110_1879505
+*MOT:	it's a very small thing . 1879505_1881096
+*MOT:	here's a piece of clothing . 1881096_1884760
+*MOT:	that's not a back+pack though , is it ? 1884760_1887671
+*MOT:	hmm , oh wait what's this , tadah . 1887671_1892303
+*MOT:	is it empty is there something in it ? 1892303_1894958
+*MOT:	oh dear .
+*MOT:	you need , you need help putting the back+pack on ?
+*MOT:	okay .
+*MOT:	&um I think the green part's [: part is] the back , but I'm gonna [: going to] come check okay , (be)cause I can't see too well from all the way over here . 2022400_2028680
+*MOT:	oh come show me , yeah .
+*MOT:	the green part , yes that's the back , that's the part that will go against the back of the daddy doll .
+*MOT:	xxx xxx xxx . 2150728_2175923
+*MOT:	xxx xxx xxx . 2175923_2197238
+*MOT:	mhm ?
+*MOT:	oh you know where it is , it's on +... 2206891_2209783
+*MOT:	it's on the , it's either on the table where your stable is I think . 2209783_2223666
+*MOT:	oh , goodness . 2228841_2235320
+*MOT:	hi .
+*MOT:	oh . 2251801_2252831
+*MOT:	okay I will come and look for it , I just saw it so it's somewhere in your room . 2252831_2256731
+*MOT:	xxx .
+*MOT:	Naima you know what , you're talking to me in a not very nice tone of voice .
+*MOT:	no it's not . 2268416_2269046
+*MOT:	please use a regular tone of +...
+*MOT:	please use a regular tone of voice . 2271103_2273350
+*MOT:	and I'm coming to help you after all .
+*MOT:	yes , that is a nice regular voice .
+*MOT:	I just saw that thing . 2278168_2281311
+*MOT:	where is it ?
+*MOT:	it's on your changing table .
+*MOT:	here . 2285673_2287465
+*MOT:	oh , Pikes with Parents . 2299385_2311088
+*MOT:	should I take a picture of you putting clothes on a doll so we can have it in Naima's night that shows all the things you can do ? 2311088_2320340
+*MOT:	I'll take a picture right now . 2321570_2323798
+*MOT:	hey , and you put the back+pack on too . 2323798_2326473
+*MOT:	is that daddy taking that child to Pikes with Parents ? 2326473_2330021
+*MOT:	can you , can you show me how you put that on and I'll take a picture . 2335175_2339270
+*MOT:	(be)cause now you can do it . 2339270_2342983
+*MOT:	this is the first day you've ever done that , isn't it ? 2342983_2345390
+*MOT:	yeah .
+*MOT:	there's some clothes here . 2351548_2353311
+*MOT:	how (a)bout that ?
+*MOT:	oh .
+*MOT:	well that's +...
+*MOT:	we'll fluff them up . 2362786_2364236
+*MOT:	yeah .
+*MOT:	yup [: yes] .
+*MOT:	you got her arms right out in front of her , that's a good idea . 2387800_2390103
+*MOT:	mhm . 2409568_2410560
+*MOT:	they do . 2417183_2418158
+*MOT:	here , put her hands right up like that and put one of the sleeves right over . 2419711_2423500
+*MOT:	you know what ?
+*MOT:	you wanna put it this way .
+*MOT:	right ? 2432935_2433655
+*MOT:	yeah .
+*MOT:	that's fine . 2440615_2441495
+*MOT:	do one arm at a time . 2441495_2445135
+*MOT:	you need to put it on inside .
+*MOT:	look look , this is where her arm goes .
+*MOT:	there . 2451150_2452400
+*MOT:	you know what ?
+*MOT:	can I show you ?
+*MOT:	this is where her arms are gonna go , inside these holes . 2480940_2484280
+*MOT:	they're not gonna go in this way , that would be putting it on backwards . 2484280_2488735
+*MOT:	her arms have_to go in these holes . 2488735_2491075
+*MOT:	one at a time is a good way to do it . 2491075_2495438
+*MOT:	yup [: yes] . 2495438_2499145
+*MOT:	I see her other arm . 2499145_2503785
+*MOT:	there . 2503785_2507620
+*MOT:	now she's got a night+gown on . 2507620_2510750
+*MOT:	is she gonna velcro up the back ? 2510750_2513790
+*MOT:	it's that green one right there , isn't it ? 2531420_2534855
+*MOT:	and I think you put the , is the mattress and the blanket over here ? 2536520_2542091
+*MOT:	I think this is the mattress . 2542091_2544691
+*MOT:	and that's the blanket . 2544691_2545971
+*MOT:	the red's [: red is] the blanket and that's the mattress , the futon . 2545971_2554736
+*MOT:	I'm going to make a phone call .
+*MOT:	seven seven one o@l o@l nine three . 2566393_2568525
+*MOT:	xxx xxx o@l o@l nine three . 2568525_2596351
+*MOT:	hi , &um I have a Eureka Mighty_Might that needs a little repairing . 2596351_2601710
+*MOT:	&um it's actually just the part that attaches , I don't know even what you call it . 2601713_2606870
+*MOT:	attaches into the main body of the vacuum . 2606870_2610153
+*MOT:	yeah [x 2] , the place where the hose attaches there's a tiny tiny piece of plastic that's broken off . 2610153_2616303
+*MOT:	but it may need , the whole hose may therefore need replacing . 2616303_2620860
+*MOT:	do you carry all those parts , or +..? 2620860_2627468
+*MOT:	yeah . 2627468_2631246
+*MOT:	right . 2631246_2632315
+*MOT:	that's right , except that it's been a really good machine , so +... 2632315_2641393
+*MOT:	yeah . 2641393_2642011
+*MOT:	yeah . 2642013_2646443
+*MOT:	how long does it take to order parts usually for those ?
+*MOT:	mm . 2649858_2651821
+*MOT:	that's awhile , okay , well &um if I can I will try and bring it in later . 2651821_2656330
+*MOT:	what are your hours normally ? 2656331_2660686
+*MOT:	thank you very much , okay , byebye . 2660686_2668108
+*MOT:	mm . 2668108_2671681
+*MOT:	phooey said Mommy . 2671683_2673998
+*MOT:	you okay ? 2673998_2675773
+*MOT:	xxx .
+*MOT:	oh , to pretend that they are +...
+*MOT:	yeah . 2692251_2694283
+*MOT:	is that gonna be Pikes with Parents ? 2694283_2696453
+*MOT:	xxx .
+*MOT:	do you need some help ? 2880513_2882120
+*MOT:	oh .
+*MOT:	do you want some help sweetie ? 3006048_3007805
+*MOT:	no ?
+*MOT:	oh dear .
+*MOT:	there seems to be a lot of unhappiness in this house . 3034070_3039835
+*MOT:	is there something you'd like to do ? 3039835_3042691
+*MOT:	that would be more fun ?
+*MOT:	oh .
+*MOT:	that's the swimsuit , it's , it is very hard .
+*MOT:	can I hold her while you put it on ? 3054935_3056935
+*MOT:	would that help ? 3056935_3058150
+*MOT:	you know , yeah .
+*MOT:	that's not how it goes , you're right .
+*MOT:	let's look at this , if you were putting on your swim+suit would you put your feet in first ? 3063885_3069076
+*MOT:	is that how we put your swimsuit on you ?
+*MOT:	okay , if you hold it +... 3071295_3073556
+*MOT:	I'll put her feet in . 3073558_3075618
+*MOT:	there's one foot . 3075618_3077266
+*MOT:	hey , is she gonna wear these black shoes into the pool ?
+*MOT:	they don't come off , I know .
+*MOT:	yeah .
+*MOT:	so now she's got it on her bottom . 3087496_3090190
+*MOT:	now she just needs to get out her arms . 3090190_3092246
+*MOT:	I will hold it and what you wanna do is stretch it way out until it gets unto her shoulder like that . 3092246_3099135
+*MOT:	now her other one stretch that sleeve way out there , yup [: yes] . 3099135_3103140
+*MOT:	it's very stretchy fabric . 3103140_3106868
+*MOT:	oh , it's like the yarn sweater . 3106868_3110921
+*MOT:	now you can velcro it up . 3110921_3114243
+*MOT:	hey . 3114243_3116808

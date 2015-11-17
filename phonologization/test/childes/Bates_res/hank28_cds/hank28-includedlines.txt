@@ -1,0 +1,99 @@
+*MOT:	let's get all the beds .
+*MOT:	there's a bed .
+*MOT:	another one .
+*MOT:	what are we going to put on the beds ?
+*MOT:	&hmm ?
+*MOT:	I don't think they have any pillows here .
+*MOT:	those are pillows ?
+*MOT:	nice .
+*MOT:	is that [!] a pillow ?
+*MOT:	that looks like a table (.) Hank .
+*MOT:	mhm .
+*MOT:	what do you want to eat ?
+*MOT:	frankfurter ?
+*MOT:	she'll be back .
+*MOT:	here's some chairs to eat at the table .
+*MOT:	mhm .
+*MOT:	here's another one .
+*MOT:	let's get some people .
+*MOT:	they having dinner ?
+*MOT:	yeah ?
+*MOT:	who's going to sleep on the beds ?
+*MOT:	Hank (.) do you have_to go pottie ?
+*MOT:	do you have_to go pottie ?
+*MOT:	no ?
+*MOT:	ssh .
+*MOT:	go to sleep .
+*MOT:	doggie's going to sleep on the bed ?
+*MOT:	Hank (.) do doggie's sleep on the bed ?
+*MOT:	no .
+*MOT:	just (be)c(a)use you doggie does .
+*MOT:	Margie will be back .
+*MOT:	don't worry .
+*MOT:	doggie fell out again (.) Hank .
+*MOT:	how about this ?
+*MOT:	anyone going to go for a ride ?
+*MOT:	the mommy ?
+*MOT:	who else ?
+*MOT:	two moms !
+*MOT:	what's that ?
+*MOT:	nah .
+*MOT:	doggie ?
+*MOT:	where're they going ?
+*MOT:	to school ?
+*MOT:	you have_to pee ?
+*MOT:	I should drive ?
+*MOT:	here we go .
+*MOT:	&aw .
+*MOT:	everybody fell out .
+*MOT:	now everybody's crying .
+*MOT:	now they're all crying (.) Hank .
+*MOT:	you hurt them .
+*MOT:	yeah .
+*MOT:	that's better .
+*MOT:	maybe we should put them back in the house .
+*MOT:	play with different things .
+*MOT:	put everyone back in the house .
+*MOT:	that's a window .
+*MOT:	where's the doors ?
+*MOT:	I don't know (.) where are they ?
+*MOT:	oh !
+*MOT:	those the doors ?
+*MOT:	that's a window .
+*MOT:	what's that ?
+*MOT:	yeah (.) like they have at the beach (.) huh ?
+*MOT:	okay (.) let's put everything back in the house and I'll let you
+*MOT:	go over there and get the mommies (.) Hank .
+*MOT:	get the stuff .
+*MOT:	get the mommies (.) Hank .
+*MOT:	want to play with the cups ?
+*MOT:	okay .
+*MOT:	can you do this Hank ?
+*MOT:	this is hard one .
+*MOT:	yeah (.) let's see how you do this ?
+*MOT:	okay .
+*MOT:	no (.) yes (.) very good .
+*MOT:	what color is that one ?
+*MOT:	mhm .
+*MOT:	uhuh .
+*MOT:	no .
+*MOT:	right .
+*MOT:	(y)ep .
+*MOT:	right .
+*MOT:	what color ?
+*MOT:	what comes next ?
+*MOT:	right .
+*MOT:	good !
+*MOT:	what comes next ?
+*MOT:	no +...
+*MOT:	0 .
+*MOT:	no (.) those are little .
+*MOT:	need to do the big ones first .
+*MOT:	mhm .
+*MOT:	no .
+*MOT:	right !
+*MOT:	uhoh .
+*MOT:	upside down .
+*MOT:	good .
+*MOT:	let's see .
+*MOT:	uhoh .

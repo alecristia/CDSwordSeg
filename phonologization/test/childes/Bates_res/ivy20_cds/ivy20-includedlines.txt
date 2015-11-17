@@ -1,0 +1,61 @@
+*MOT:	what chu [: you] do ?
+*MOT:	stack (th)em up .
+*MOT:	make it get big .
+*MOT:	huh [<] .
+*MOT:	yeah (.) chicken .
+*MOT:	there's another chicken .
+*MOT:	what's this ?
+*MOT:	wow .
+*MOT:	what's this ?
+*MOT:	look .
+*MOT:	put it in there .
+*MOT:	put it in there .
+*MOT:	yay Ivy !
+*MOT:	where's another one ?
+*MOT:	yay Ivy .
+*MOT:	where's it go ?
+*MOT:	no .
+*MOT:	put this one in .
+*MOT:	ouch .
+*MOT:	where's this one go ?
+*MOT:	try over here .
+*MOT:	try there .
+*MOT:	try that one in here .
+*MOT:	Gin (.) look at Momma !
+*MOT:	no (.) that won't fit .
+*MOT:	that's a chair .
+*MOT:	look (.) that's a chair .
+*MOT:	see ?
+*MOT:	try this one .
+*MOT:	try this one .
+*MOT:	now try +...
+*MOT:	now that won't fit .
+*MOT:	look it (.) that's a ladder .
+*MOT:	that's a ladder .
+*MOT:	see ?
+*MOT:	look what Mommy's got .
+*MOT:	look at the dog .
+*MOT:	take the lady for a ride .
+*MOT:	take the chicken for a ride .
+*MOT:	don't throw it .
+*MOT:	no (.) that'll break .
+*MOT:	<count (th)em> [?] .
+*MOT:	one +...
+*MOT:	can you count (th)em ?
+*MOT:	let's do the balls .
+*MOT:	you had fun with the balls .
+*MOT:	one +...
+*MOT:	two +...
+*MOT:	can you count ?
+*MOT:	three .
+*MOT:	four .
+*MOT:	five .
+*MOT:	six .
+*MOT:	now try .
+*MOT:	try it over this one .
+*MOT:	look .
+*MOT:	look at Mom .
+*MOT:	let Mommy show you .
+*MOT:	look at this one .
+*MOT:	look at this .
+*MOT:	it's a table .

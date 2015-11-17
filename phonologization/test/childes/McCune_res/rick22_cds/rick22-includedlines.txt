@@ -1,0 +1,289 @@
+*MOT:	wanna see what's in here ? 1997_9248
+*MOT:	what did you do ? 29595_30030
+*MOT:	I'll kiss it . 34055_35310
+*MOT:	is it all better ? 35310_39297
+*MOT:	0 . 41460_43367
+*MOT:	later Patrick . 49168_51718
+*MOT:	0 . 62242_66108
+*MOT:	0 . 66108_67406
+*MOT:	hmm . 67991_69245
+*MOT:	finish chewing your apple . 69245_73216
+*MOT:	so you can swallow it . 74056_77443
+*MOT:	come on give me the skin . 77443_80451
+*MOT:	you want me to take the skin ? 80451_81860
+*MOT:	0 . 83522_86057
+*MOT:	that was an apple . 92260_93560
+*MOT:	you'll have another one later . 93560_95031
+*MOT:	0 . 97536_97871
+*MOT:	would you like to work on this puzzle ? 97871_99423
+*MOT:	let me see . 106715_112920
+*MOT:	0 . 112920_115548
+*MOT:	this is a bunny rabbit . 115548_119648
+*MOT:	can you feel the fur ? 124477_126028
+*MOT:	feels nice . 127738_129986
+*MOT:	it's soft . 129986_130748
+*MOT:	Judy is playing peek a boo with Paul . 137285_143129
+*MOT:	can you play peek a boo ? 143129_144521
+*MOT:	can you play peek a boo ? 144932_147449
+*MOT:	oh . 148226_148906
+*MOT:	peek . 148906_150552
+*MOT:	and look at this . 150552_151820
+*MOT:	who's behind here ? 151820_153039
+*MOT:	the boy's hiding . 154673_155796
+*MOT:	yes . 155796_156192
+*MOT:	that's Paul . 157237_158698
+*MOT:	behind the cloth . 158698_160738
+*MOT:	it can't come off .
+*MOT:	well .
+*MOT:	we're not gonna cut it off .
+*MOT:	oh .
+*MOT:	what's on this page ?
+*MOT:	oh flowers .
+*MOT:	you can smell them if you want .
+*MOT:	do you wanna smell ?
+*MOT:	how does it smell ?
+*MOT:	they're beads .
+*MOT:	mm hm . 167591_168621
+*MOT:	yeah . 170366_171378
+*MOT:	Patrick do it . 187490_190228
+*MOT:	go ahead . 190228_192062
+*MOT:	I'll show you . 207590_209127
+*MOT:	you have_to get them over your ears . 209127_210994
+*MOT:	having a hard time . 210994_212515
+*MOT:	huh . 212515_212942
+*MOT:	there you go . 212942_215459
+*MOT:	oh how handsome you look . 215459_218452
+*MOT:	0 . 224958_226129
+*MOT:	you're telling Nanna ? 253498_256585
+*MOT:	what does she say ? 256585_257803
+*MOT:	that's a necklace . 299516_301178
+*MOT:	0 . 301178_302001
+*MOT:	how pretty . 313892_315458
+*MOT:	0 . 326019_327111
+*MOT:	whose bottle is that ? 328663_331071
+*MOT:	yes . 332165_332704
+*MOT:	is there a baby ? 332704_333608
+*MOT:	is there a baby in there ? 335037_336335
+*MOT:	that's kinda big . 352023_353747
+*MOT:	I don't think that fits that bottle, that cap . 353747_356724
+*MOT:	why don't you go and see if there's a baby to drink it ? 363328_365686
+*MOT:	0 . 380996_383686
+*MOT:	you open it . 386251_387200
+*MOT:	you have_to open it on this part . 391492_393724
+*MOT:	you did it . 399344_401132
+*MOT:	Patrick opened it . 401132_403269
+*MOT:	0 . 424198_424988
+*MOT:	is that apple cider ? 424988_426572
+*MOT:	oh . 431621_432555
+*MOT:	what's that ? 432555_433505
+*MOT:	yeah . 435103_435578
+*MOT:	oh . 437923_438681
+*MOT:	you think it will fit me ? 438681_440043
+*MOT:	0 . 440043_443383
+*MOT:	you . 447847_448307
+*MOT:	Patrick put it on . 448307_449258
+*MOT:	oh . 449781_450936
+*MOT:	does it fit ? 450936_451997
+*MOT:	you know what ? 458377_459278
+*MOT:	0 . 459278_460388
+*MOT:	uhhuh . 464395_465344
+*MOT:	shoe . 467411_468644
+*MOT:	see if they fit this little girl . 468644_470523
+*MOT:	see if they fit the girl . 470523_471884
+*MOT:	okay . 484244_485385
+*MOT:	that's hard to do . 485385_486464
+*MOT:	there's one . 486464_492607
+*MOT:	one more . 494839_496089
+*MOT:	there we go . 496089_503008
+*MOT:	yeah . 504147_505128
+*MOT:	she's all dressed . 505128_506617
+*MOT:	0 . 506617_512094
+*MOT:	thank_you . 540163_541143
+*MOT:	0 . 542870_546479
+*MOT:	oh . 546479_548334
+*MOT:	it's good . 548334_549125
+*MOT:	good apple cider . 549125_551007
+*MOT:	0 . 559207_559459
+*MOT:	0 . 563938_565173
+*MOT:	pocketbook . 565173_566756
+*MOT:	Maryjane's ? 569210_570489
+*MOT:	maybe . 570489_571074
+*MOT:	does it look like hers ? 571074_573227
+*MOT:	you have_to turn this Patrick . 576552_586622
+*MOT:	turn it . 586622_587424
+*MOT:	see . 587424_588200
+*MOT:	you do it . 588200_589768
+*MOT:	turn it . 591686_593095
+*MOT:	uhhuh . 619276_620273
+*MOT:	cheese bread . 622011_623388
+*MOT:	what else could this be ? 623388_625889
+*MOT:	cider . 629862_630385
+*MOT:	and what's this ? 630385_632870
+*MOT:	0 . 632870_634972
+*MOT:	yeah . 647589_648794
+*MOT:	grapes . 648794_650759
+*MOT:	mm hm . 668746_669741
+*MOT:	what are you doing ? 680508_681282
+*MOT:	what are you doing Patrick ? 681282_686822
+*MOT:	brushing the floor . 689958_691399
+*MOT:	scrubbing it . 691399_694564
+*MOT:	okay . 697826_699363
+*MOT:	I'll take a sip . 711437_712864
+*MOT:	0 . 712864_715096
+*MOT:	you can take a sip too . 720685_722522
+*MOT:	0 . 725895_729536
+*MOT:	0 . 734175_737373
+*MOT:	do you have anything else to do, you have anything to eat Patrick ?
+*MOT:	what else is here ? 742356_745095
+*MOT:	what ? 749808_750331
+*MOT:	what happens ? 750331_754968
+*MOT:	0 . 756631_759157
+*MOT:	baby . 759467_760258
+*MOT:	0 . 772494_775420
+*MOT:	0 . 780358_787134
+*MOT:	coffee . 787134_788668
+*MOT:	you do it Patrick . 801794_802476
+*MOT:	you can do it . 802476_803554
+*MOT:	uhoh . 804870_806247
+*MOT:	yes it's stuck . 811377_813181
+*MOT:	try it again . 813181_814495
+*MOT:	0 . 815003_818897
+*MOT:	uhoh . 824171_824867
+*MOT:	it's stuck . 824867_826766
+*MOT:	0 . 826766_829030
+*MOT:	0 . 829030_832971
+*MOT:	I'm trying . 832625_833733
+*MOT:	0 . 833733_841174
+*MOT:	there you go . 844117_845813
+*MOT:	uhhuh . 849599_850260
+*MOT:	0 . 851653_852778
+*MOT:	yeah you got it . 858051_859949
+*MOT:	0 . 869544_870921
+*MOT:	what does the dolly have on ? 891802_893561
+*MOT:	0 . 893561_894177
+*MOT:	what is she wearing ? 894177_895307
+*MOT:	what ? 897574_898443
+*MOT:	it's fixed . 898443_899364
+*MOT:	it's okay . 899364_900423
+*MOT:	it's fixed . 905900_907770
+*MOT:	shoes . 909875_910322
+*MOT:	and what else ? 910322_910860
+*MOT:	what's this ? 910860_911827
+*MOT:	the same as you . 911827_913584
+*MOT:	the same as me . 913584_915848
+*MOT:	pants . 915848_917573
+*MOT:	pants . 917573_919744
+*MOT:	come on over here . 934013_939823
+*MOT:	0 . 960793_961886
+*MOT:	where's the sponge ? 961886_966176
+*MOT:	oh there it is . 977701_979095
+*MOT:	where is it ? 992760_994390
+*MOT:	oh . 996718_997767
+*MOT:	there it is . 998590_1000142
+*MOT:	tie it around your neck . 1004654_1006648
+*MOT:	Patrick's tying it . 1012396_1013884
+*MOT:	is it too tight ? 1023161_1024254
+*MOT:	I'll loosen it for you . 1025394_1028163
+*MOT:	0 . 1030541_1035177
+*MOT:	0 . 1065241_1065936
+*MOT:	you got it off . 1068247_1069703
+*MOT:	where's Patrick ? 1076606_1080817
+*MOT:	oh . 1080817_1082498
+*MOT:	I see you . 1082498_1083767
+*MOT:	oh how nice . 1110221_1113149
+*MOT:	what is that [x 2] ? 1115588_1118786
+*MOT:	what is this Patrick ? 1136462_1138393
+*MOT:	oh . 1139850_1140199
+*MOT:	dress . 1140199_1141066
+*MOT:	what ? 1167809_1168248
+*MOT:	0 . 1168248_1171703
+*MOT:	you open it Patrick . 1173998_1175563
+*MOT:	0 . 1177225_1177637
+*MOT:	go ahead . 1177637_1178171
+*MOT:	you'll do it . 1178571_1179483
+*MOT:	you do it Patrick . 1179483_1180829
+*MOT:	go ahead . 1180829_1182332
+*MOT:	have_to pull it hard . 1182332_1184714
+*MOT:	try to pull it . 1184714_1189060
+*MOT:	there you did it . 1190808_1193326
+*MOT:	0 . 1201969_1203935
+*MOT:	there's a_lot_of tools there . 1203935_1209110
+*MOT:	that's a wrench . 1213389_1215874
+*MOT:	no . 1217140_1217792
+*MOT:	that's pliers . 1217792_1218865
+*MOT:	that's pliers Patrick here . 1218865_1223282
+*MOT:	0 . 1223282_1224723
+*MOT:	see . 1224723_1227238
+*MOT:	you can pull stuff with it . 1227238_1228872
+*MOT:	0 . 1228872_1231310
+*MOT:	this is a wrench . 1231310_1233161
+*MOT:	right . 1243852_1244595
+*MOT:	you fix it . 1244595_1245288
+*MOT:	are you gonna fix your shoes ? 1264650_1266248
+*MOT:	they're tied . 1278407_1279610
+*MOT:	they're tied Patrick . 1279610_1281542
+*MOT:	0 . 1281542_1283663
+*MOT:	maybe you could work on this see . 1283663_1286958
+*MOT:	mommy's, shoes . 1305208_1306921
+*MOT:	0 . 1306921_1307886
+*MOT:	maybe you could work on the truck . 1313413_1314933
+*MOT:	Nanna gave you one . 1321344_1323244
+*MOT:	yes . 1323244_1323639
+*MOT:	she gave you a different kind . 1323639_1325160
+*MOT:	like this . 1337650_1342146
+*MOT:	0 . 1342146_1344190
+*MOT:	0 . 1364911_1368094
+*MOT:	good for you . 1369601_1370678
+*MOT:	what ? 1391877_1393052
+*MOT:	how about working on it over here ? 1393052_1397534
+*MOT:	Nanna bought one for you . 1421310_1424571
+*MOT:	she bought it for you . 1424571_1428243
+*MOT:	in your mouth . 1435924_1438283
+*MOT:	pliers . 1446391_1448672
+*MOT:	she bought one . 1450348_1451693
+*MOT:	she didn't make it . 1451693_1453399
+*MOT:	pliers . 1459542_1460874
+*MOT:	right . 1463516_1464132
+*MOT:	like this . 1475121_1476974
+*MOT:	pick [/] pick some things up with this . 1476974_1479681
+*MOT:	0 . 1479681_1479682
+*MOT:	watch . 1479682_1485868
+*MOT:	0 . 1485868_1492500
+*MOT:	what ? 1510149_1511396
+*MOT:	with the screwdriver . 1513041_1515448
+*MOT:	what ? 1520228_1520862
+*MOT:	a saw . 1525659_1526656
+*MOT:	let's find something for you to saw . 1544495_1547122
+*MOT:	saw the truck . 1547122_1550098
+*MOT:	0 . 1550098_1551190
+*MOT:	<like this> [/] like this, watch . 1554032_1560359
+*MOT:	here honey . 1569747_1570757
+*MOT:	turn it around . 1570757_1571866
+*MOT:	you need wood to saw . 1585418_1587790
+*MOT:	here's some . 1587790_1589912
+*MOT:	here Patrick . 1589912_1592873
+*MOT:	Patrick . 1592873_1594439
+*MOT:	here you go . 1594439_1597190
+*MOT:	0 . 1597190_1599783
+*MOT:	what's this ? 1603362_1604544
+*MOT:	yes . 1605196_1605847
+*MOT:	you're banging but what is that ? 1605847_1607778
+*MOT:	0 . 1616532_1617564
+*MOT:	this is wood . 1620020_1621333
+*MOT:	a block . 1621333_1621938
+*MOT:	yes . 1623425_1623426
+*MOT:	0 . 1623426_1624506
+*MOT:	Patrick . 1634415_1634983
+*MOT:	not on your head . 1634983_1634984
+*MOT:	doesn't that hurt ? 1634984_1636077
+*MOT:	what ? 1640240_1640985
+*MOT:	you're being silly . 1640985_1643173
+*MOT:	0 . 1646860_1650770
+*MOT:	see if there are any more . 1654316_1656611
+*MOT:	0 . 1656611_1660459
+*MOT:	maybe you can find some over there . 1660459_1662358
+*MOT:	oh you're right . 1691088_1694050
+*MOT:	0 . 1696977_1700017
+*MOT:	watch this . 1700017_1700811
+*MOT:	0 . 1700811_1702642
+*MOT:	what are you doing to the truck ? 1720164_1725404

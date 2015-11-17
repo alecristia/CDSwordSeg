@@ -1,0 +1,121 @@
+*MOT:	see ?
+*MOT:	oops !
+*MOT:	move the box .
+*MOT:	what ?
+*MOT:	can you go sit over there ?
+*MOT:	okay ?
+*MOT:	alright .
+*MOT:	see (.) can you build like that ?
+*MOT:	watch .
+*MOT:	like that +...
+*MOT:	look it !
+*MOT:	a tower !
+*MOT:	can you build a tower ?
+*MOT:	you got ta put these on .
+*MOT:	yeah !
+*MOT:	look !
+*MOT:	then you can do it .
+*MOT:	look at all of those .
+*MOT:	look how tall it's getting .
+*MOT:	okay .
+*MOT:	pretty soon it's your turn !
+*MOT:	it's your turn .
+*MOT:	(uh)oh .
+*MOT:	can you build a tower now ?
+*MOT:	you build one .
+*MOT:	no (.) you have_to put the right shapes on .
+*MOT:	put this one .
+*MOT:	okay .
+*MOT:	oop(s) (.) that fell down .
+*MOT:	wait !
+*MOT:	pick it up .
+*MOT:	pick the orange one up .
+*MOT:	that the right one ?
+*MOT:	(o)kay .
+*MOT:	doesn't want to stay .
+*MOT:	there .
+*MOT:	uhhuh .
+*MOT:	okay (.) go ahead .
+*MOT:	no (.) this one !
+*MOT:	want to do it your way ?
+*MOT:	xxx .
+*MOT:	build two towers .
+*MOT:	you wan(t) (t)a put those back [?] ?
+*MOT:	can you put (th)em back together ?
+*MOT:	no (.) the bottom xxx .
+*MOT:	no put that one in .
+*MOT:	that one in there .
+*MOT:	then that one .
+*MOT:	that one .
+*MOT:	then that one .
+*MOT:	and that one .
+*MOT:	that one .
+*MOT:	and that one ?
+*MOT:	not yet .
+*MOT:	that one goes in there .
+*MOT:	no (.) this one goes next .
+*MOT:	now that one .
+*MOT:	and that one .
+*MOT:	done [?] !
+*MOT:	can you play with baby and the house ?
+*MOT:	no ?
+*MOT:	watch .
+*MOT:	Kathy .
+*MOT:	you sit back over here ?
+*MOT:	here (.) let's put this in the middle .
+*MOT:	sit back over there .
+*MOT:	watch !
+*MOT:	look !
+*MOT:	put the ladder against the house ?
+*MOT:	and then (.) climb up the ladder ?
+*MOT:	boin_boin_boin_boin@o !
+*MOT:	boin_boin_boin_boin_boin@o .
+*MOT:	ssh .
+*MOT:	coming down ?
+*MOT:	coming down ?
+*MOT:	here [/] here's their car [!] .
+*MOT:	a car [!] .
+*MOT:	gonna have a barbecue ?
+*MOT:	a lawn chair .
+*MOT:	can you turn back that way ?
+*MOT:	okay ?
+*MOT:	alrightie .
+*MOT:	a chair [?] ?
+*MOT:	yeah !
+*MOT:	here's a picnic table .
+*MOT:	and here's the bench for them to sit at the table .
+*MOT:	see ?
+*MOT:	they can sit at the table and eat .
+*MOT:	look at that .
+*MOT:	sit at the table and eat .
+*MOT:	put the beds in their bed+rooms ?
+*MOT:	make them sleep ?
+*MOT:	and here's some chairs for their living room ?
+*MOT:	what's that ?
+*MOT:	doggie !
+*MOT:	doggie !
+*MOT:	oh (.) here's another picnic bench .
+*MOT:	there .
+*MOT:	and here's another bed for the bed+room .
+*MOT:	there's the barbecue .
+*MOT:	okay .
+*MOT:	park the car over there ?
+*MOT:	oop(s) (.) we need someone else to eat lunch .
+*MOT:	eat lunch ?
+*MOT:	<is the turk(ey)> [//] is the chicken for barbecue ?
+*MOT:	is the duckie for barbecue ?
+*MOT:	is that what you're cooking ?
+*MOT:	is that what you're cooking ?
+*MOT:	gonna go to bed ?
+*MOT:	they all went to bed [!] .
+*MOT:	where's the doggie ?
+*MOT:	want to [?] put the doggies outside ?
+*MOT:	oh (.) you don't put the doggies on the table !
+*MOT:	no .
+*MOT:	no .
+*MOT:	no !
+*MOT:	shut the doors ?
+*MOT:	it's getting cold out .
+*MOT:	shut the doors ?
+*MOT:	yeah .
+*MOT:	uhhuh (.) it's a button .

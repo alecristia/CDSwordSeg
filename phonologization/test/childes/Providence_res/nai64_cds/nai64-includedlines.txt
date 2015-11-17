@@ -1,0 +1,810 @@
+*MOT:	xxx oh . 0_1085
+*MOT:	in Maine ?
+*MOT:	does Carmen like it in Maine ? 8705_10991
+*MOT:	Griz lives in Canada ? 31476_33375
+*MOT:	I didn't know that . 33375_34675
+*MOT:	close to you in Canada ?
+*MOT:	uhhuh . 40600_41640
+*MOT:	well I'm trying to find a good place for it . 44416_47123
+*MOT:	this is your special library microphone . 47123_52281
+*MOT:	and +...
+*MOT:	what are the books that the children that the bird children are gonna be listening to today at the library ?
+*MOT:	oh , okay . 67290_68343
+*MOT:	they just wanna hear this Babybug ? 68343_70108
+*MOT:	where are they ?
+*MOT:	don't they need to sit +//?
+*MOT:	oh I see , they're all down there .
+*MOT:	okay . 73943_74783
+*MOT:	oh really ?
+*MOT:	should we keep looking for Carwin ?
+*MOT:	alright . 79841_80786
+*MOT:	I think that would be +...
+*MOT:	oh you think so ?
+*MOT:	let's look in here .
+*MOT:	mm xxx .
+*MOT:	I don't see Carwin in here .
+*MOT:	you're right .
+*MOT:	okay .
+*MOT:	lemme [: let me] put these animals back and then we'll look (.) for Carwin .
+*MOT:	I know I've seen Carwin somewhere .
+*MOT:	xxx . 100521_102061
+*MOT:	Carwin are you in +//.
+*MOT:	xxx !
+*MOT:	oh who's gonna sit in the rocking chair ? 108826_110791
+*MOT:	no one . 112458_113941
+*MOT:	oh okay .
+*MOT:	doesn't the librarian sometimes sit in the rocking xxx +//? 113941_120145
+*MOT:	are you gonna xxx +//?
+*MOT:	are you going to be a bird child ?
+*MOT:	are you gonna sit next to them while I read this ? 120145_123223
+*MOT:	here they are . 124928_129960
+*MOT:	okay here's the Babybug .
+*MOT:	this is the bird library . 129960_132900
+*MOT:	we're here in the xxx xxx library in xxx today . 132900_138298
+*MOT:	and it is xxx +...
+*MOT:	xxx October twenty seventh is today .
+*MOT:	Monday .
+*MOT:	oh Griz is sleeping in Canada right now ?
+*MOT:	y'anna [: do you want to] sit next to the bird children ?
+*MOT:	it's a hardwood forest that he's sleeping in ?
+*MOT:	oh he must really like it then .
+*MOT:	mm . 175163_175906
+*MOT:	Canada ? 178090_178800
+*MOT:	the his forest in Canada is close to Maine .
+*MOT:	mm: . 185775_186791
+*MOT:	d'you [: do you] want me to read ?
+*MOT:	Kim and Carrots . 190026_194688
+*MOT:	Kim has lots_of toy cars .
+*MOT:	Kim puts them in a row , big in front little in back . 194688_198926
+*MOT:	Carrot Darrot , which one is the little car ? 198926_208945
+*MOT:	right . 208945_210498
+*MOT:	Kim finds a mommy sheep and a little lamb . 212751_219528
+*MOT:	a duck with two ducklings and a little rabbit (.) for Carrots . 219528_224928
+*MOT:	mm how many ducklings do you see there ? 224928_229795
+*MOT:	little ducks .
+*MOT:	mm how many xxx +//?
+*MOT:	how many +/?
+*MOT:	sheep are there ?
+*MOT:	yes .
+*MOT:	Carrots has some big friends and some little friends . 244395_248746
+*MOT:	Kim loves Carrots best of all . 248746_251530
+*MOT:	wanna [: do you want to] wanna [: do you want to] count all the animals ?
+*MOT:	'kay [: okay] .
+*MOT:	yes , there are five animals there . 267753_270441
+*MOT:	that's how many animals , stuffed animals Kim has I think . 271520_276216
+*MOT:	should I read this one ?
+*MOT:	what's this one called , d'you [: do you] remember ?
+*MOT:	long long , yeh [: yes] . 283758_285343
+*MOT:	Tyler went to the zoo . 285343_294896
+*MOT:	he saw a giraffe with a long long neck .
+*MOT:	the giraffe had four long long legs .
+*MOT:	Tyler watched (.) it for a long long time .
+*MOT:	that's the end of that story . 294896_299713
+*MOT:	that is a very very short story .
+*MOT:	do any of these bird children have a favorite animal ? 299713_305808
+*MOT:	Pappy come close and look at this picture of the giraffe , why don'choo [: don't you] ?
+*MOT:	see: ?
+*MOT:	mm .
+*MOT:	let's see , who's here today ? 319096_323000
+*MOT:	hello Carwin . 322950_326350
+*MOT:	hello Carwin .
+*MOT:	hello Carwin +...
+*MOT:	xxx hello .
+*MOT:	hello Parrot (.) Darrot .
+*MOT:	hello Parrot Darrot . 337743_339648
+*MOT:	hello Parrot Darrot , (.) it's time to say hello .
+*MOT:	hello Motorcycle Chicken .
+*MOT:	hello Motorcycle Chicken . 348390_350650
+*MOT:	hello Motorcycle Chicken , it's time to say hello . 350650_355378
+*MOT:	and you're here too . 355378_356876
+*MOT:	hello Naima . 356876_359161
+*MOT:	hello Naima . 359161_361715
+*MOT:	hello Naima , it's time to say hello . 361715_366036
+*MOT:	who does ? 374388_375296
+*MOT:	girls come to this library also ?
+*MOT:	oh , what do the girls do at the library ? 378658_380818
+*MOT:	mhm . 383386_384355
+*MOT:	do they bring 'em [: them] to the librarian ? 384355_386915
+*MOT:	what kind of books do you like to get at the library when you're there ? 387778_393013
+*MOT:	y'like [: you like] to see which ones you like at the library ? 398415_400900
+*MOT:	do the bird children wanna pick out some books now ?
+*MOT:	they could take them home .
+*MOT:	they could check out books . 406768_409561
+*MOT:	I wonder if Motorcycle Chicken would like the tale of two bad mice . 409561_415568
+*MOT:	alright .
+*MOT:	I will finish reading the other stories here . 423771_426248
+*MOT:	this one is big and little .
+*MOT:	big cat , little hat . 429046_431050
+*MOT:	big hat , little cat . 431050_433281
+*MOT:	big pig , little wig . 434353_439515
+*MOT:	big wig , little: pig . 439515_443176
+*MOT:	you want me to read this one ?
+*MOT:	I have a dog and his name is Dandy . 447776_450815
+*MOT:	his tail is long and his legs are bandy . 450790_453416
+*MOT:	his eyes are brown and his coat is sandy . 453416_456741
+*MOT:	the best in the world is my dog Dandy . 456741_460321
+*MOT:	beep beep says the car . 463476_465735
+*MOT:	honk honk says the truck . 465685_467443
+*MOT:	squelch squelch says the mud . 467443_469978
+*MOT:	don't get stuck . 469978_471265
+*MOT:	well mud can sometimes make cars stop . 472986_476435
+*MOT:	and get stuck in the mud 'cause [: because] the tires won't spin . 476435_480541
+*MOT:	tires need to spin for the car to go . 480541_483376
+*MOT:	and mud can stop tires from spinning . 483376_487193
+*MOT:	the frogs are watching them .
+*MOT:	it looks almost as if the frogs are saying watch out , don't get stuck ! 497970_502476
+*MOT:	is there another page to that one ?
+*MOT:	there isn't .
+*MOT:	'cause [: because] they might get in an accident . 506088_509161
+*MOT:	xxx .
+*MOT:	those're [: those are] just children in toy cars though .
+*MOT:	should we read the next one ?
+*MOT:	bubbles in the bath go +... 523473_526673
+*MOT:	pop .
+*MOT:	mhm . 528300_529011
+*MOT:	water splashes all around . 529011_531951
+*MOT:	slop slop slop .
+*MOT:	slop . 535970_537276
+*MOT:	slop . 538196_539035
+*MOT:	Mommy says please you must +... 539035_542315
+*MOT:	yeah .
+*MOT:	now I have_to go get a +... 545053_547200
+*MOT:	right . 548963_549818
+*MOT:	stomping in puddles , splashes and laughter , my favorite part of a storm (.) is the after: . 550955_559106
+*MOT:	oh , why don't the bird children pick out some books now ? 562243_565193
+*MOT:	you could help them pick out which ones they like .
+*MOT:	not yet ? 569075_570828
+*MOT:	mm .
+*MOT:	what else do people do at a library ? 570828_573860
+*MOT:	they read books , they pick out books to take home . 573860_578613
+*MOT:	sometimes libraries have toys . 578613_581948
+*MOT:	sometimes you go and you talk to the librarian about something . 581948_587091
+*MOT:	the tale of two bad mice .
+*MOT:	oh .
+*MOT:	once upon a time there was a very beautiful doll house . 597353_609235
+*MOT:	it was red brick with white windows and it had real muslin curtains and a front door and a chimney .
+*MOT:	what does your house have , Naima ?
+*MOT:	yes we do have a chimney . 613113_616230
+*MOT:	what other things does our house have ?
+*MOT:	yes , we have a book rack . 617535_618941
+*MOT:	and +/.
+*MOT:	what color is our house on the outside ? 623011_625566
+*MOT:	outside , when we drive up and we look at our house and we're still in the car and we're going to go in the house , what color is the outside of the house ? 626911_634741
+*MOT:	d'you [: do you] remember ?
+*MOT:	is it brownish gray ?
+*MOT:	what color's [: color is] the door ? 640356_642443
+*MOT:	what color ? 646013_646973
+*MOT:	purple , yeah .
+*MOT:	does our house have white curtains ?
+*MOT:	where ?
+*MOT:	I think that's &uh those are blue curtains .
+*MOT:	oh , you mean the bathroom ?
+*MOT:	those're [: those are] white curtains . 663771_665820
+*MOT:	you want me to read this ?
+*MOT:	it belonged to two dolls named Lucinda and Jane . 668673_676366
+*MOT:	at least it belonged to Lucinda , but she never ordered meals .
+*MOT:	Jane was the cook . 676366_679090
+*MOT:	but she never did any cooking because the dinner had been bought ready made in a box full of shavings . 679090_685035
+*MOT:	there were two red lobsters and a ham . 688173_692988
+*MOT:	a fish , a pudding and some pears and oranges . 692988_696578
+*MOT:	they would not come off the plates but they were extremely beautiful . 696578_700980
+*MOT:	this is describing some toy food . 700980_704525
+*MOT:	one morning Lucinda and Jane had gone out for a drive in the dolls (.) perambulator . 704525_714475
+*MOT:	which is another name for (.) stroller .
+*MOT:	there was no one in the nursery and it was very quiet . 714475_720258
+*MOT:	presently there was a little scuffling scratching noise .
+*MOT:	in a corner near the fireplace where there was a hole under the skirting board . 720258_724700
+*MOT:	Tom Thumb put out his head for a moment and then popped it in again . 724700_728290
+*MOT:	Tom Thumb was a mouse . 728290_730436
+*MOT:	this is a story about mice . 730436_738986
+*MOT:	d'you [: do you] want me to keep reading ? 738986_742116
+*MOT:	a minute afterwards Hunka Munka , his wife , put out her head too . 743281_747288
+*MOT:	and when she saw that there was no one in the nursery she ventured out on the oil cloth under the coal box . 747213_752780
+*MOT:	the dolls' house stood at the other side of the fireplace . 752780_758508
+*MOT:	Tom Thumb and Hunka Munka went cautiously across the hearth rug . 758508_763008
+*MOT:	they pushed the front door . 763008_766371
+*MOT:	it was not fast .
+*MOT:	Tom Thumb and Hunka Munka went upstairs and peeped into the dining room . 766371_771923
+*MOT:	then they squeaked with joy . 771873_774236
+*MOT:	squeak ! 774236_775720
+*MOT:	such a lovely dinner was laid out upon the table . 775720_780420
+*MOT:	there were tin spoons and lead knives and forks and two dolly chairs , all so convenient . 780370_786540
+*MOT:	xxx . 786540_788526
+*MOT:	look they're eating .
+*MOT:	Tom Thumb set to work at once to carve the ham . 788526_792835
+*MOT:	it was a beautiful shiny yellow streaked with red . 792835_797051
+*MOT:	the knife crumpled up and hurt him . 797051_802546
+*MOT:	he put his finger in his mouth .
+*MOT:	it is not boiled enough , it is hard . 802546_807845
+*MOT:	you have a try Hunka Munka .
+*MOT:	Hunka Munka stood up on her chair and chopped at the ham with another lead knife . 807845_814613
+*MOT:	it's as hard as the hams at the cheese monger's . 814613_818845
+*MOT:	said Hunka Munka +".
+*MOT:	Hunka Munka , isn't that a funny name ? 818845_823518
+*MOT:	the ham broke off the plate with a jerk and rolled under the table . 823518_827811
+*MOT:	let it alone . 827811_833053
+*MOT:	said Tom Thumb .
+*MOT:	give me some fish Hunka Munka .
+*MOT:	Hunka Munka tried every tin spoon in turn , the fish was glued to the dish . 833053_839781
+*MOT:	then Tom Thumb lost his temper , he put the ham in the middle of the floor and hit it with the tongs . 839781_846140
+*MOT:	and with the shovel the shovel . 846140_851210
+*MOT:	bang bang smash smash .
+*MOT:	d'you [: do you] still want me to keep reading ?
+*MOT:	okay , let's xxx something else . 855173_856900
+*MOT:	okay , bird children , thank you for coming to library story time . 856900_862100
+*MOT:	I'm glad you could come today . 862100_864273
+*MOT:	oh , they are ? 867593_868750
+*MOT:	I thought maybe they were finished . 868750_871031
+*MOT:	a Richard Scary book is happening now ? 874690_876810
+*MOT:	okay I'm gonna ask the bird children questions about the pictures . 881610_885820
+*MOT:	what do you see ?
+*MOT:	who sees a shower curtain ? 891743_895108
+*MOT:	Parrot Darrot does ?
+*MOT:	Parrot Darrot what color is the shower curtain ?
+*MOT:	does Parrot Darrot know her colors ? 902456_907545
+*MOT:	or is she +/?
+*MOT:	very good .
+*MOT:	okay , Motorcycle Chicken , how many (.) hats are on the hat rack . 910398_917028
+*MOT:	mm: .
+*MOT:	and Pappy , I want you to guess , what where is Mommy going to go after she gets dressed this morning ? 928491_936371
+*MOT:	Pappy , can you guess ? 936371_943113
+*MOT:	where do you think Mommy might go after she gets dressed this morning ?
+*MOT:	well I don't know , you could make something up . 943940_946341
+*MOT:	deginneme@c ? 949373_950446
+*MOT:	oh , she's going deginneme@c ?
+*MOT:	oh .
+*MOT:	and (.) why is Daddy doing what he's doing ? 954996_960485
+*MOT:	why is daddy cat doing what he's doing ? 960485_963851
+*MOT:	what's he doing ? 968051_969476
+*MOT:	mm . 971356_974908
+*MOT:	why do people wash their faces ?
+*MOT:	'cause [: because] they're dirty ? 975998_977236
+*MOT:	okay (.) Carwin , tell me what's happening in this picture . 979580_984611
+*MOT:	xxx . 988073_988608
+*MOT:	uhhuh , and what else is happening Carwin ? 988608_991596
+*MOT:	mhm . 997621_999496
+*MOT:	what's Loli doing ? 1003810_1005910
+*MOT:	what's Loli do(ing) +/? 1005910_1012588
+*MOT:	he's in the cereal bowl . 1012538_1015455
+*MOT:	does he belong there ?
+*MOT:	no . 1016701_1019158
+*MOT:	xxx .
+*MOT:	Sally's looking surprised . 1027581_1031365
+*MOT:	she's surprised that something got burned , I think . 1041766_1044700
+*MOT:	wha'd'you [: what do you] think ? 1045781_1048211
+*MOT:	what do you think ?
+*MOT:	to:ast .
+*MOT:	the toast is burning .
+*MOT:	who is vacuuming ? 1069461_1072710
+*MOT:	Daddy is vacuuming . 1075303_1080976
+*MOT:	those look like little pieces of paper . 1084540_1086765
+*MOT:	he's cleaning up the room , maybe they were on the floor . 1091838_1095046
+*MOT:	xxx . 1102383_1103466
+*MOT:	did he slip on something ?
+*MOT:	oh .
+*MOT:	someone's bringing a mop but it's too late . 1110488_1114038
+*MOT:	if someone had mopped up that water before , then daddy cat wouldn't have slipped . 1114038_1122210
+*MOT:	'cause [: because] he's already slipping .
+*MOT:	she can't stop him from slipping by mopping it up .
+*MOT:	'cause [: because] he's already slipping . 1133956_1145598
+*MOT:	Pappy have you ever been to a play+ground ? 1164248_1167943
+*MOT:	is she too little or has she been to one ?
+*MOT:	oh , what does she do when she goes to a play+ground ?
+*MOT:	ah . 1180431_1181518
+*MOT:	seesaws are her favorite ? 1181518_1186208
+*MOT:	hmm .
+*MOT:	she tried the swings after she went on the seesaw ?
+*MOT:	big girl swings or or &uh baby swings ? 1197410_1200473
+*MOT:	uhhuh . 1203476_1204256
+*MOT:	letters !
+*MOT:	oh , I like this page , though .
+*MOT:	can we look at this page for a minute ?
+*MOT:	do these bird children know the alphabet ?
+*MOT:	they know all the letters ?
+*MOT:	lemme [: let me] check and see . 1224761_1226041
+*MOT:	Motorcycle Chicken what letter's [: letter is] that ? 1225991_1228230
+*MOT:	okay , Parrot Darrot what letter's [: letter is] that ? 1229730_1232240
+*MOT:	u@l stands for +...
+*MOT:	yeah .
+*MOT:	what's this ?
+*MOT:	what's this ? 1242440_1243981
+*MOT:	and what's the first letter of zebra ? 1245946_1248006
+*MOT:	right .
+*MOT:	and what is this ?
+*MOT:	I wanna know if Pappy knows what this is . 1254000_1256156
+*MOT:	actually that's a crab . 1257491_1259145
+*MOT:	what letter does it begin with ? 1260078_1261635
+*MOT:	c@l is for crab .
+*MOT:	okay .
+*MOT:	what's on this page ?
+*MOT:	I do , it's the page that has to do with counting . 1272526_1275570
+*MOT:	see the numbers ?
+*MOT:	okay .
+*MOT:	that's a number four . 1286840_1289350
+*MOT:	four . 1300815_1305883
+*MOT:	yes there are four children wai:ting for buse:s .
+*MOT:	how many children are on bicycles ? 1305883_1309548
+*MOT:	mhm , five children are on bicycles . 1316656_1319141
+*MOT:	how many police officers are there ? 1319141_1323106
+*MOT:	you see police officers ?
+*MOT:	up here . 1325568_1326641
+*MOT:	how many police officers are there ? 1328943_1331663
+*MOT:	no the answer to the question is there are two police officers . 1332866_1337495
+*MOT:	how many street cleaners are there ?
+*MOT:	right , there are three street cleaners . 1346031_1349090
+*MOT:	there's [= there are] more numbers here . 1349090_1351280
+*MOT:	we have here +//. 1351280_1352943
+*MOT:	oh !
+*MOT:	how many +//?
+*MOT:	what're [: what are] these ?
+*MOT:	these're [: these are] pencil cars .
+*MOT:	how many pencil cars ?
+*MOT:	yeah . 1365743_1367305
+*MOT:	xxx .
+*MOT:	he's painting another pig by accident .
+*MOT:	he's not looking at where he's putting the brush .
+*MOT:	he's looking in front of him , he's not looking at where he's putting the brush .
+*MOT:	I don't know why , he must be distracted .
+*MOT:	sometimes I get distracted and I say the wrong thing , or I do the wrong thing .
+*MOT:	sometimes you get distracted .
+*MOT:	those are letter carriers .
+*MOT:	that means postal workers +/.
+*MOT:	alright .
+*MOT:	actually why'on'tchoo [: why don't you] sta(rt) xxx ?
+*MOT:	yeh [: yes] .
+*MOT:	xxx and then there's one here . 1412820_1415141
+*MOT:	one , two , three , four , five +...
+*MOT:	six .
+*MOT:	seven xxx .
+*MOT:	one is driving .
+*MOT:	number seven is driving . 1432458_1434753
+*MOT:	how many &uh bug taxis are there ?
+*MOT:	these are the bug taxis .
+*MOT:	oh , start over over here .
+*MOT:	nine .
+*MOT:	nine xxx .
+*MOT:	yes , very good .
+*MOT:	oh , these are different kinds of whats ?
+*MOT:	xxx . 1475600_1476410
+*MOT:	oh , my gosh . 1476410_1478410
+*MOT:	oh , this is the manners page .
+*MOT:	oh: , making a mess .
+*MOT:	xxx .
+*MOT:	oh , let's see .
+*MOT:	that one's getting messy . 1500081_1503011
+*MOT:	he's trying to grab a serving bowl of food .
+*MOT:	without asking someone to pass it to him . 1508216_1511755
+*MOT:	oh boy , it's Mommy's nap time . 1513980_1516598
+*MOT:	xxx .
+*MOT:	yeah ?
+*MOT:	that pig is +//. 1522525_1528035
+*MOT:	oh , he's lying under the table cloth which is a big me:ss .
+*MOT:	can you let Mommy have a little tiny nap and play by yourself for a minute ?
+*MOT:	sometimes you let me do that . 1533885_1535641
+*MOT:	Mommy's too sleepy , I'm gonna just sleep a little .
+*MOT:	well , you can xxx ask the bird children what's happening . 1543163_1546475
+*MOT:	oh_my_goodness , Naima .
+*MOT:	xxx . 1560608_1562083
+*MOT:	okay , I'm very tired .
+*MOT:	I'll read it to you .
+*MOT:	after I read this to you (.) I'm gonna take a break . 1567430_1572771
+*MOT:	and close my eyes for two minutes . 1572771_1575220
+*MOT:	okay . 1575195_1575985
+*MOT:	a visit to the doctor . 1575985_1582795
+*MOT:	today Huckle has an appointment for a physical check up with Doctor Bones .
+*MOT:	0do you see him ?
+*MOT:	after Huckle takes off his clothes Doctor Bones listens to Huckle's heart through his stethoscope . 1589378_1595451
+*MOT:	your heart is thumping very nicely Huckle . 1595451_1600185
+*MOT:	says Doctor Bones .
+*MOT:	Loli steps on the scale .
+*MOT:	you have put on a lot of weight since the last time you were here , Loli . 1603816_1609106
+*MOT:	says nurse Nora .
+*MOT:	Doctor Bones measures Huckle's height . 1609106_1613208
+*MOT:	my , you are growing tall . 1613208_1618230
+*MOT:	he says .
+*MOT:	you must be eating everything your mother serves you .
+*MOT:	next Doctor Bones checks Huckle's eyesight . 1618230_1623065
+*MOT:	I can see everything on the chart . 1623065_1626628
+*MOT:	says Huckle .
+*MOT:	you have very good eyes . 1626628_1629853
+*MOT:	says Doctor Bones .
+*MOT:	I must give you a shot to keep you well and healthy . 1629853_1635530
+*MOT:	says Doctor Bones .
+*MOT:	it may hurt a little bit , but only for a second . 1635530_1639078
+*MOT:	it doesn't hurt too much . 1639078_1642010
+*MOT:	then Doctor Bones looks at Huckle's throat . 1642010_1645420
+*MOT:	he also looks down Loli's throat . 1645420_1648961
+*MOT:	say a:h , Loli . 1648961_1651910
+*MOT:	Loli says a:h .
+*MOT:	you have a very nice long throat , Loli . 1656076_1661260
+*MOT:	oh yes , Doctor Bones taps on Huckle's back .
+*MOT:	he looks in Huckle's ears . 1661260_1665408
+*MOT:	he squeezes Huckle's tummy a little bit .
+*MOT:	that tickles . 1665408_1667961
+*MOT:	says Huckle +".
+*MOT:	well Huckle , says Doctor Bones , it has been a pleasure to examine such a fine healthy boy as you . 1669600_1676258
+*MOT:	you may get dressed now .
+*MOT:	as Huckle and Loli leave Doctor Bones says +". 1676258_1683483
+*MOT:	keep eating properly and I am sure that you will be much bigger on your next visit .
+*MOT:	goodbye: and thank you Doctor Bones . 1683483_1687763
+*MOT:	okay , 0are you gonna show it to the bird children ? 1689923_1692665
+*MOT:	okay .
+*MOT:	I'm sure they would really enjoy it if you told them what's happening in the pictures . 1694516_1714643
+*MOT:	that is your radio . 1719660_1722401
+*MOT:	it was making a little noise for a sec [: second] . 1722326_1724475
+*MOT:	Carwin is ? 1741101_1742275
+*MOT:	oh , he's nice and close . 1742946_1744791
+*MOT:	are you gonna tell him what the words are , 'cause [: because] I don't think he knows ? 1744791_1750380
+*MOT:	what happens there ?
+*MOT:	mm , whatcha [: what are you] showing me ? 1844746_1846343
+*MOT:	oh , yeh . 1849300_1850948
+*MOT:	mm .
+*MOT:	I see all the doctor's equipment there too .
+*MOT:	he has 0a tongue depressor and a syringe . 1856876_1861480
+*MOT:	I think he's getting a vaccination with the syringe . 1864276_1867740
+*MOT:	to keep him healthy . 1871260_1887348
+*MOT:	the poems page ?
+*MOT:	do you remember the poems ? 1900773_1902378
+*MOT:	xxx okay .
+*MOT:	you want me to do them ? 1906501_1908390
+*MOT:	which one ?
+*MOT:	let me see , which one is that ?
+*MOT:	Tom , Tom , the piper's son ? 1913315_1916948
+*MOT:	Doctor Foster ? 1918100_1919290
+*MOT:	Jack ? 1919290_1921228
+*MOT:	which one ? 1921203_1921996
+*MOT:	point again to which one you want .
+*MOT:	take your hand off my microphone .
+*MOT:	Jack Sprat ?
+*MOT:	Jack Sprat could eat no fat , his wife could eat no lean .
+*MOT:	and so between them both , you see , they lick the platter clean . 1931111_1934291
+*MOT:	whaddaya [: what do you] think she's doing ? 1934291_1939531
+*MOT:	that big pig . 1940741_1942186
+*MOT:	the big pig , the larger pig . 1943843_1946146
+*MOT:	yeah ? 1946146_1948916
+*MOT:	that's right , she's eating corn . 1949940_1951531
+*MOT:	ouch , Naima .
+*MOT:	ouch !
+*MOT:	well , then then we should +...
+*MOT:	mm (o)kay . 1960501_1964683
+*MOT:	Georgie Porgie pudding and pie , kissed the girls .
+*MOT:	Georgie Porgie ran +... 1967331_1971708
+*MOT:	awa:y .
+*MOT:	that's right .
+*MOT:	away [x 3] .
+*MOT:	little miss Muffet tuffet eating her curds and whey . 1976626_1980146
+*MOT:	along came a spider who sat down beside her and frightened miss Muffet a +... 1980146_1984043
+*MOT:	way .
+*MOT:	I think I hear that the (.) washing machine stopped and that means I need to go and put the laundry that's in the washing machine into the dryer . 1986171_1997115
+*MOT:	'cause [: because] I need to make it dry now .
+*MOT:	d'you [: do you] wanna help or d'you [: do you] wanna [: want to] stay here and play ? 2000315_2006180
+*MOT:	okay , come with me . 2007981_2009331
+*MOT:	is that bothering you ? 2009331_2015213
+*MOT:	you just leave it alone and ignore it .
+*MOT:	I know it has a red light , but +... 2015213_2018523
+*MOT:	let's see if we can ignore that for now . 2018523_2021556
+*MOT:	mm (o)kay . 2021556_2025615
+*MOT:	oh , boy . 2025615_2026808
+*MOT:	xxx pretending .
+*MOT:	0are you pretending the microphone is something ? 2030091_2033878
+*MOT:	what are you pretending it is ?
+*MOT:	pretending it was what ?
+*MOT:	nail polish ? 2046811_2047943
+*MOT:	Sleepy Bear was pretending that was nail polish ? 2049475_2052635
+*MOT:	that red light on the microphone ?
+*MOT:	oh , I see , that's why ?
+*MOT:	hey , I know whatchoo [: what you] could help me do . 2067253_2070931
+*MOT:	you know we have a whole big batch of laundry that (.) has crayon marks on it . 2070931_2076675
+*MOT:	we need to get those crayon marks off . 2076675_2080283
+*MOT:	alright , you're gonna push yours in ?
+*MOT:	yeah , now push this in . 2084780_2087475
+*MOT:	push that in . 2087475_2089436
+*MOT:	and this . 2089436_2092108
+*MOT:	and this . 2092108_2094485
+*MOT:	and this . 2094485_2097636
+*MOT:	alright . 2097636_2104940
+*MOT:	I'm going to +...
+*MOT:	oh , the lint trap . 2111291_2113641
+*MOT:	good idea . 2113591_2114676
+*MOT:	0are you gonna get the lint out ?
+*MOT:	mm , lift it up and put it in the garbage . 2121236_2125236
+*MOT:	mhm . 2125236_2127073
+*MOT:	mm: , thank you , Naima . 2127023_2129008
+*MOT:	you cleaned the lint trap . 2129008_2132108
+*MOT:	mm .
+*MOT:	mhm .
+*MOT:	oh , alright . 2145441_2148340
+*MOT:	just a minute , though .
+*MOT:	xxx . 2148340_2163881
+*MOT:	let's see let me get this (.) laundry going .
+*MOT:	xxx turn on the dryer ?
+*MOT:	xxx , am I cooking nursies over a fire ?
+*MOT:	no .
+*MOT:	here I'm 'unna [: going to] help you (.) turn on the dryer . 2190393_2193628
+*MOT:	I know , it's kinda [: kind of] hard to reach , isn't it ? 2200951_2203188
+*MOT:	there , you did it . 2203188_2208608
+*MOT:	you did it . 2208608_2210690
+*MOT:	okay . 2210690_2212500
+*MOT:	no , that mail you may not open .
+*MOT:	we're gonna let Daddy open that . 2217278_2219030
+*MOT:	sweetie pie +/.
+*MOT:	it is .
+*MOT:	come with me . 2221235_2221931
+*MOT:	I'll find you some mail you can open in a little bit .
+*MOT:	xxx .
+*MOT:	are you getting hungry ?
+*MOT:	let's see , what time is it ?
+*MOT:	it is ten past four . 2233716_2237208
+*MOT:	which means it's really ten past five in the old time . 2237208_2242125
+*MOT:	no wonder you're hungry .
+*MOT:	xxx 0are you okay ? 2248455_2250343
+*MOT:	uhhuh . 2254738_2260246
+*MOT:	oh , this is your microphone .
+*MOT:	where's the clip ? 2279296_2281501
+*MOT:	here's the clip .
+*MOT:	xxx put it back here . 2281501_2283990
+*MOT:	put this over here . 2283990_2287173
+*MOT:	are the bird children gonna walk on the bridge ? 2287173_2291408
+*MOT:	is that what you were saying ?
+*MOT:	or do you need to make a bridge over that river ?
+*MOT:	is that is that green the river ? 2295740_2298888
+*MOT:	oh .
+*MOT:	oh , it's a crosswalk .
+*MOT:	are they learning about how to be safe ? 2307493_2311483
+*MOT:	I see . 2312318_2313180
+*MOT:	they are wrong about that , aren't they ? 2319876_2324080
+*MOT:	you're gonna hafta teach them .
+*MOT:	you know the rules about being safe . 2324080_2327836
+*MOT:	you should teach them .
+*MOT:	0are y'gonna [: you going to] keep them safe ? 2327836_2331301
+*MOT:	who's Gurzy ? 2342806_2343846
+*MOT:	who's Gurzy ?
+*MOT:	oh , that's Koala's long name ?
+*MOT:	I see .
+*MOT:	I didn't think I knew that .
+*MOT:	uhhuh .
+*MOT:	we definitely need a little more light in here . 2392071_2394453
+*MOT:	xxx . 2394453_2395045
+*MOT:	it's so: dark . 2395045_2436000
+*MOT:	yes , sweetie ?
+*MOT:	okay .
+*MOT:	hold on .
+*MOT:	yeh [: yes] ?
+*MOT:	xxx gonna need to have some supper first .
+*MOT:	oh , dear , Mommy keeps knocking things down . 2473375_2476918
+*MOT:	xxx .
+*MOT:	oh , lemme [: let me] help you with that . 2515023_2517015
+*MOT:	yeh [: yes] , I need to get that microphone . 2517015_2519783
+*MOT:	oh , this darn thing . 2519783_2522990
+*MOT:	okay (.) we're gonna keep it right here . 2522990_2526575
+*MOT:	there ya [: you] go . 2526575_2528926
+*MOT:	oh , what's carrot Darrot Parrot Darrot doing ? 2528926_2532391
+*MOT:	Parrot Darrot , are you going for a ride on a barge ? 2532391_2537126
+*MOT:	it's not ?
+*MOT:	okay .
+*MOT:	Pappy's right over here on the floor .
+*MOT:	who's going for a ride ? 2570573_2572408
+*MOT:	oh , let me see . 2630550_2631993
+*MOT:	o:h , you did make a picture there . 2634948_2640973
+*MOT:	you used up all of the space .
+*MOT:	now half of it is erased . 2640973_2643911
+*MOT:	now the other +//. 2643911_2647788
+*MOT:	oh , almost all of it is erased .
+*MOT:	now , almost all of it is erased . 2647788_2651053
+*MOT:	now it's gone . 2654130_2657745
+*MOT:	are you gonna draw another one ?
+*MOT:	now it's empty . 2659838_2685390
+*MOT:	let's see , I think I might write something here . 2702841_2705988
+*MOT:	how many (.) circles (.) did Mommy draw ? 2705988_2715706
+*MOT:	how many circles did I draw ? 2725206_2727368
+*MOT:	there are s(ix) +//. 2747113_2749573
+*MOT:	you were right , Naima , there are six .
+*MOT:	you were right the first time . 2749523_2751170
+*MOT:	can you draw two squares ? 2751170_2756546
+*MOT:	can you draw two letter i@l . 2757820_2769380
+*MOT:	who's she Naima ? 2769380_2771170
+*MOT:	did I ask you to get something ? 2781038_2791316
+*MOT:	oh , lots_of books on the floor . 2791316_2793721
+*MOT:	xxx .
+*MOT:	oh , you got that one out ?
+*MOT:	okay .
+*MOT:	Naima , d'you [: do you] need a clean diaper ?
+*MOT:	does your diaper need to be changed ?
+*MOT:	xxx turn around a little bit , okay ?
+*MOT:	hmm . 2818278_2823308
+*MOT:	I don't know , I can't really tell . 2824633_2826968
+*MOT:	I think maybe it doesn't need changing .
+*MOT:	yeah ?
+*MOT:	I think I'll move this off the floor .
+*MOT:	oh , it was the crosswalk .
+*MOT:	I don't anyone was walking in it .
+*MOT:	oh , you were ?
+*MOT:	okay .
+*MOT:	what's a crosswalk for ? 2848138_2850188
+*MOT:	d'you [: do you] remember ?
+*MOT:	yeah .
+*MOT:	what's a crosswalk ?
+*MOT:	d'you [: do you] remember ?
+*MOT:	that's right .
+*MOT:	xxx .
+*MOT:	great .
+*MOT:	you were safe when you crossed over ?
+*MOT:	xxx .
+*MOT:	oh , you had to use the crosswalk to get over there to get it ? 2871220_2874171
+*MOT:	I see . 2874171_2875508
+*MOT:	yeh . 2875408_2876140
+*MOT:	I'm gonna go hang up your vest in the other room .
+*MOT:	xxx .
+*MOT:	oh , you sat down so we could read together ? 2963453_2965608
+*MOT:	mm (o)kay . 2965608_2966743
+*MOT:	oh , d'you [: do you] have the Little Bear dolls there ?
+*MOT:	they're where ? 2974460_2975741
+*MOT:	you hid them . 2977290_2979045
+*MOT:	xxx . 2979945_2980598
+*MOT:	oh my gosh !
+*MOT:	where's the Little Bear ?
+*MOT:	I think maybe we should make a dark cave .
+*MOT:	should we make a dark cave ?
+*MOT:	xxx .
+*MOT:	you don't wanna make one ? 2991523_2992746
+*MOT:	d'you [: do you] wanna make a lantern ?
+*MOT:	why don't we make a little lantern ? 2996153_2998656
+*MOT:	let's see , what would be a good lantern shape ?
+*MOT:	oh , I know exactly what would be a good lantern shape .
+*MOT:	you'll see . 3006616_3007810
+*MOT:	oh , it's getting dark so early these days . 3007810_3012400
+*MOT:	okay , let's see .
+*MOT:	xxx . 3021698_3023698
+*MOT:	here's a little lantern . 3025971_3030490
+*MOT:	here's a bigger lantern .
+*MOT:	and now we need a quite big lantern .
+*MOT:	hmm . 3039698_3040706
+*MOT:	hmm . 3040706_3043543
+*MOT:	I know . 3043543_3056351
+*MOT:	xxx . 3071521_3076348
+*MOT:	here are the lanterns . 3078930_3082511
+*MOT:	we should make a lantern cupboard , I think . 3082511_3087433
+*MOT:	isn't that where Big Bear keeps the lanterns ?
+*MOT:	here's a lantern cupboard .
+*MOT:	Big Bear can get lanterns out of the big (.) lantern cupboard if he needs them . 3098843_3105760
+*MOT:	there's a small one , a bigger one , and then there's the biggest one of them all . 3105760_3112570
+*MOT:	should we have Griz be a big bear ? 3117700_3120225
+*MOT:	Griz could be a big bear . 3122545_3124906
+*MOT:	oh , you don't wanna pretend ?
+*MOT:	you just wanna read ? 3132230_3133490
+*MOT:	okay . 3133490_3134760
+*MOT:	because (.) there's [: there] isn't much room to do things in (.) in your room with books scattered all over the bed and the floor and everywhere , okay . 3139690_3149815
+*MOT:	okay .
+*MOT:	xxx all the bear (.) paper dolls are in the book . 3153250_3158123
+*MOT:	xxx Big Bear's carrying somebody . 3160141_3162563
+*MOT:	does Little Bear like to be carried and held ?
+*MOT:	let's see . 3171233_3172515
+*MOT:	what's happening there ? 3172515_3174228
+*MOT:	Big Bear is reading +... 3174228_3177513
+*MOT:	the bear book .
+*MOT:	and in this one +... 3179808_3182995
+*MOT:	&uh , Big Bear's carrying the la:nte:rn . 3182995_3189808
+*MOT:	which lantern is that ?
+*MOT:	is that the biggest of them all ?
+*MOT:	or is that the littlest ? 3189808_3192218
+*MOT:	I think so .
+*MOT:	did you see that I put some lanterns in the lantern cupboard ? 3194671_3205500
+*MOT:	o:h . 3210845_3212248
+*MOT:	oh , let's get Griz xxx .
+*MOT:	xxx .
+*MOT:	mm .
+*MOT:	here , I'll put it back on here . 3275193_3276745
+*MOT:	that's actually called the transmitter .
+*MOT:	the microphone is the other piece . 3279275_3282041
+*MOT:	look , Griz is there next to the lanterns . 3282041_3286570
+*MOT:	oh , yeah ?
+*MOT:	okay . 3296555_3297186
+*MOT:	uhhuh . 3304668_3310746
+*MOT:	xxx . 3310746_3314285
+*MOT:	xxx .
+*MOT:	oh , okay . 3355225_3356123
+*MOT:	does he need his bed to +/.
+*MOT:	d'you [: do you] wanna use that white pillow behind you for his bed and this can be the blanket ? 3363346_3367493
+*MOT:	alright .
+*MOT:	okay .
+*MOT:	oh , okay .
+*MOT:	it's a very big piece though . 3380301_3382875
+*MOT:	I thought maybe it would be too big if I let it be flat .
+*MOT:	you want the whole whole thing on the ground ?
+*MOT:	that's a big bed for a very little bear ! 3390125_3392710
+*MOT:	excuse me , Griz . 3392710_3395125
+*MOT:	well I needed to move him out of the way a little bit .
+*MOT:	that's such a big bed , Griz . 3405241_3408896
+*MOT:	xxx .
+*MOT:	oh no , the transmitter .
+*MOT:	if that transmitter falls down again I'm gonna hafta stop transmitting .
+*MOT:	well I don't wanna damage it by having it (.) fall all the time .
+*MOT:	there we go . 3441975_3442881
+*MOT:	oh , Griz is under his blanket .
+*MOT:	oh , okay .
+*MOT:	what're [: what are] you doing down there ? 3458760_3461276
+*MOT:	are you getting some letters ?
+*MOT:	oh , are you gonna read to him ? 3467563_3469388
+*MOT:	oh , I bet he'll like that .
+*MOT:	oh . 3479380_3480158
+*MOT:	oh , just like Mommy has a special place for books that are broken , huh ? 3496126_3500148
+*MOT:	mm , you also have your own place ?
+*MOT:	mhm ? 3508373_3509210
+*MOT:	o:h . 3518923_3519931
+*MOT:	oh .
+*MOT:	okay .
+*MOT:	you did say it in a nice way .
+*MOT:	you did .
+*MOT:	you did . 3552795_3553421
+*MOT:	let's see .
+*MOT:	you know , I think that when we go to the library next we'll get one of the other Little Bear books out too .
+*MOT:	'member [: remember] we've read some other ones about Little Bear .
+*MOT:	some other books like (.) the one about (.) plop plop plop (.) plop plop plop .
+*MOT:	d'you [: do you] remember that one ?
+*MOT:	Little Bear heard a sound .
+*MOT:	I thought I heard plop plop plop . 3579881_3582810
+*MOT:	doesn'e [: doesn't he] say that when they go for a walk in the forest ? 3582810_3586626
+*MOT:	can'tchoo [: can't you] sleep Little Bear ? 3586626_3590145
+*MOT:	oh , there they are . 3590145_3593983
+*MOT:	where's the cave ? 3593933_3595681
+*MOT:	d'you [: do you] see it ?
+*MOT:	yeah . 3595681_3597360
+*MOT:	once there were two bears , Big Bear and Little Bear . 3597360_3601288
+*MOT:	Big Bear's the big bear and Little Bear's the little bear . 3601213_3603293
+*MOT:	they played all day long in the bright sunlight . 3603243_3606943
+*MOT:	when night came and the sun went down Big Bear took Little Bear home to the bear cave . 3606943_3612033
+*MOT:	0are you getting hungry , sweetie ? 3612033_3617220
+*MOT:	Big Bear put Little Bear to bed in the dark part of the cave . 3617220_3623146
+*MOT:	go to sleep , Little Bear . 3623146_3627458
+*MOT:	he said .
+*MOT:	and Little Bear tried .
+*MOT:	Big Bear settled in the bear chair and read his bear book by the light of the fire .
+*MOT:	xxx . 3633703_3634778
+*MOT:	but Little Bear couldn't get +...
+*MOT:	what's the matter with him ? 3638838_3641585
+*MOT:	how come he can't get to sleep ?
+*MOT:	why d'you [: do you] think ?
+*MOT:	can'tchoo [: can't you] sleep , Little Bear , asked Big Bear , putting down his bear book which was just getting to the interesting part and padding over to the bed . 3644898_3655491
+*MOT:	whada [: what are] you doing all the way over there ? 3655491_3659255
+*MOT:	oh .
+*MOT:	well after I read this we're gonna have some supper xxx . 3667276_3670998
+*MOT:	'cause [: because] it will be your supper time . 3670998_3673625
+*MOT:	yeah , there aren't any pictures in that actually . 3677505_3682281
+*MOT:	we need put some pictures in there for you to look at .
+*MOT:	would you like to find some to put in there (.) for you ?
+*MOT:	0do 0you wanna do that right now ? 3690303_3691555
+*MOT:	0do 0you want me to finish reading ? 3692083_3693388
+*MOT:	okay . 3694210_3695508
+*MOT:	I'm scared . 3695458_3697455
+*MOT:	said Little Bear .
+*MOT:	why are you scared , Little Bear ? 3697455_3700953
+*MOT:	asked Big Bear .
+*MOT:	I don't like the dark . 3700953_3703441
+*MOT:	said Little Bear . 3703441_3704500
+*MOT:	what dark ?
+*MOT:	said Big Bear .
+*MOT:	d'you [: do you] want me to keep reading ?
+*MOT:	the dark all around us . 3710763_3713163
+*MOT:	said Little Bear .
+*MOT:	Big Bear looked and he saw that the dark part of the cave was very dark . 3713163_3719508
+*MOT:	so he went to the lantern cupboard and took out the ti:niest lantern that was there . 3719458_3724275
+*MOT:	Big Bear lit the tiniest lantern and put it next to Little Bear's bed . 3724275_3729458
+*MOT:	are you gonna do that ? 3729458_3731273
+*MOT:	right next to Griz .
+*MOT:	there's there's a tiny light +...
+*MOT:	whoops . 3742310_3744325
+*MOT:	whoops , those things fell out .
+*MOT:	I will . 3758371_3759588
+*MOT:	c'mere [: come here] .
+*MOT:	xxx I don't know if it will transmit or not . 3765316_3767771
+*MOT:	you think it might not transmit ? 3767771_3770343
+*MOT:	your beautiful voice ?
+*MOT:	your wonderful voice ? 3773196_3774973
+*MOT:	oh , that's like a little table next to (.) Griz's bed , huh ?
+*MOT:	nice . 3783210_3784700
+*MOT:	xxx .
+*MOT:	ah , jeez .
+*MOT:	that was quite loud . 3793906_3795851
+*MOT:	oh , and that transmitter is falling down again . 3795851_3801103
+*MOT:	I think we'll stop now . 3801053_3802675
+*MOT:	well , I don't think you can have the transmitter because I think the transmitter's [: transmitter is] gonna stop working if we drop it one more time . 3810885_3825173

@@ -1,0 +1,321 @@
+*KAR:	what is this ?
+*KAR:	a bird .
+*KAR:	what color is that bird ?
+*KAR:	blue ?
+*KAR:	do you like blue ?
+*KAR:	is blue a pretty color ?
+*KAR:	what are you doing ?
+*KAR:	are you kicking with your new tennis shoes ?
+*KAR:	are those tennis shoes comfortable ?
+*KAR:	does it feel good ?
+*KAR:	look what is this Baxter ?
+*KAR:	do you know what this is ?
+*KAR:	(.) what did you turn on ?
+*KAR:	what is that ?
+*KAR:	do you know what that is ?
+*KAR:	what is that ?
+*KAR:	is that a night+light ?
+*KAR:	(.) Baxter , do you want to read another book ?
+*KAR:	do you want to read another book with me ?
+*KAR:	huh ?
+*KAR:	or do you just want to here and eat ?
+*KAR:	do you wanna eat ?
+*KAR:	do you want to these in here ?
+*KAR:	can you show me where they go ?
+*KAR:	can you show me where that one goes ?
+*KAR:	look , what is this ?
+*KAR:	is it a star ?
+*KAR:	let's see where it goes (.) ?
+*KAR:	can you put it in for me ?
+*KAR:	Baxter , your shoe is untied .
+*KAR:	do you know how to tie your shoe (.) ?
+*KAR:	do you want me to tie it for you ?
+*KAR:	you don't want it tied ?
+*KAR:	okay .
+*KAR:	Baxter , what is this ?
+*KAR:	huh ?
+*KAR:	where did your elephant go ?
+*KAR:	I don't know .
+*KAR:	do you know where it is ?
+*KAR:	I don't know where it is .
+*KAR:	what is this ?
+*KAR:	is that a lion ?
+*KAR:	is that a lion ?
+*KAR:	where did it go ?
+*KAR:	oh , okay .
+*KAR:	what is this ?
+*KAR:	is this a seal ?
+*KAR:	Baxter , what is this ?
+*KAR:	is this a ball ?
+*KAR:	is this your basketball ?
+*KAR:	who's is it ?
+*KAR:	(.) who's is it ?
+*KAR:	what are you doing ?
+*KAR:	huh ?
+*KAR:	did the man fall off ?
+*KAR:	did he ?
+*KAR:	is he hurt ?
+*KAR:	what is this ?
+*KAR:	is this a table ?
+*KAR:	what is it ?
+*KAR:	is it a chair ?
+*KAR:	<do they sit in it> [//] do they sit in this ?
+*KAR:	he keeps falling off doesn't he ?
+*KAR:	do you want this monkey ?
+*KAR:	do you want to hold it ?
+*KAR:	do you want me to give it to you ?
+*KAR:	can you put the people in it for me ?
+*KAR:	uhhuh .
+*KAR:	can you put &em in here for me ?
+*KAR:	turn it over ?
+*KAR:	do you not want to play with it anymore ?
+*KAR:	you don't ?
+*KAR:	what do you want to play with ?
+*KAR:	what's wrong ?
+*KAR:	do you want to read a book ?
+*KAR:	show me who they are ?
+*KAR:	who is this ?
+*KAR:	you don't want to ?
+*KAR:	what color are your shoes ?
+*KAR:	what color are your shoes ?
+*KAR:	blue ?
+*KAR:	is blue your favorite color ?
+*KAR:	huh ?
+*KAR:	is blue your favorite color ?
+*KAR:	are you going to hand that to me ?
+*KAR:	or do you want to keep it .
+*KAR:	do you want me to put it on for you ?
+*KAR:	huh ?
+*KAR:	okay , put it on your finger .
+*KAR:	is your finger hurting ?
+*KAR:	okay , show me which finger [>] .
+*KAR:	do you want it around this finger ?
+*KAR:	is your finger hurtin(g) you ?
+*KAR:	do you feel better now ?
+*KAR:	does it fell better ?
+*KAR:	what is this ?
+*KAR:	you wanna show me [//] hey , what is this ?
+*KAR:	Baxter , what is this ?
+*KAR:	is that a bunny rabbit ?
+*KAR:	do you like to play with bunny rabbits ?
+*KAR:	look does this look like your room ?
+*KAR:	that's a bed .
+*KAR:	isn't it ?
+*KAR:	is it your bed ?
+*KAR:	that's your bed .
+*KAR:	this is somebody else's bed .
+*KAR:	isn't it ?
+*KAR:	this isn't yours .
+*KAR:	(.) is it ?
+*KAR:	what is that right there ?
+*KAR:	huh ?
+*KAR:	it's your light ?
+*KAR:	(.) thank_you .
+*KAR:	what is this ?
+*KAR:	is this a picture ?
+*KAR:	what is it a picture of ?
+*KAR:	flowers .
+*KAR:	what is that ?
+*KAR:	a jacket ?
+*KAR:	what color is that jacket ?
+*KAR:	huh ?
+*KAR:	is that a coat ?
+*KAR:	what color is this jacket right here ?
+*KAR:	okay .
+*KAR:	(.) do you want to get another book ?
+*KAR:	xxx .
+*KAR:	do you want to get your own book ?
+*KAR:	xxx .
+*KAR:	oh , that's a butterfly .
+*KAR:	that's a pretty butterfly isn't it ?
+*KAR:	do you want me to turn the page ?
+*KAR:	okay .
+*KAR:	huh ?
+*KAR:	read the book ?
+*KAR:	okay , this is in the morning .
+*KAR:	right ?
+*KAR:	it is eight o'clock in the morning .
+*KAR:	that's early .
+*KAR:	do you get up at eight o'clock in the morning ?
+*KAR:	uhhuh .
+*KAR:	what's this ?
+*KAR:	that's a truck isn't it ?
+*KAR:	that's a cute truck .
+*KAR:	what color is that truck ?
+*KAR:	green .
+*KAR:	what is your favorite color ?
+*KAR:	xxx .
+*KAR:	okay .
+*KAR:	do you want me to turn the page ?
+*KAR:	do you know what those are ?
+*KAR:	strawberries .
+*KAR:	do you like strawberries .
+*KAR:	is that mushroom ?
+*KAR:	what is that ?
+*KAR:	mushrooms .
+*KAR:	do you like mushrooms ?
+*KAR:	uhhuh .
+*KAR:	what is that ?
+*KAR:	do you have a dog ?
+*KAR:	<and that's a> [<] [/] that's another bird ?
+*KAR:	isn't it ?
+*KAR:	is that a pretty bird ?
+*KAR:	do you like this bird or the blue bird ?
+*KAR:	you like the blue bird ?
+*KAR:	what's this little boy doing ?
+*KAR:	(.) what's he doing ?
+*KAR:	huh ?
+*KAR:	what's he doing ?
+*KAR:	is he taking a bath ?
+*KAR:	do you take baths every night and brush your teeth ?
+*KAR:	oh , do you ?
+*KAR:	(.) what is that ?
+*KAR:	yeah , it's pretty .
+*KAR:	what is this ?
+*KAR:	the moon .
+*KAR:	what is those ?
+*KAR:	huh ?
+*KAR:	that's a clock .
+*KAR:	isn't it ?
+*KAR:	that's your clock ?
+*KAR:	It says twelve o'clock doesn't it ?
+*KAR:	<twelve o'clock> [<] .
+*KAR:	&uh huh , yeah .
+*KAR:	(.) what's this little girl doing ?
+*KAR:	Is she sleeping ?
+*KAR:	do you sleep right there ?
+*KAR:	in that bed ?
+*KAR:	is that where you sleep ?
+*KAR:	<what's> [//] does that look like your kitty cat ?
+*KAR:	does that look like your kitty cat ?
+*KAR:	you like your kitty cat ?
+*KAR:	(.) it is pretty isn't it ?
+*KAR:	here , do you want to play with this ?
+*KAR:	look , I think there is a star in there ?
+*KAR:	don't you ?
+*KAR:	whoops , is your finger caught in there ?
+*KAR:	whoops , did you hurt your finger ?
+*KAR:	do you want to put the star in ?
+*KAR:	yeah , the star goes there .
+*KAR:	here we go ?
+*KAR:	here's something else .
+*KAR:	here we go .
+*KAR:	what is this ?
+*KAR:	what number is that in there ?
+*KAR:	what is this right here ?
+*KAR:	where does it go ?
+*KAR:	go right here ?
+*KAR:	does it go right here ?
+*KAR:	can you put it in for me ?
+*KAR:	that's an eight ?
+*KAR:	yeah for Baxter , yeah .
+*KAR:	Baxter , can you put this in ?
+*KAR:	<this is number six> [/] this is number six .
+*KAR:	<can you put it in for me> [/] can you put it in for me ?
+*KAR:	yeah , that was good .
+*KAR:	yeah , that is part of your bandaid .
+*KAR:	here is another part of it , right ?
+*KAR:	<oh that> [//] yeah , I have a bandaid on too .
+*KAR:	yours is bigger than mine , though .
+*KAR:	is it make it feel better ?
+*KAR:	yeah (.) do you want to look at this book ?
+*KAR:	can you turn your light off ?
+*KAR:	is it hot ?
+*KAR:	when do you turn that on ?
+*KAR:	do you turn it on at night when you go to bed ?
+*KAR:	you don't ?
+*KAR:	oh , you don't want to turn that over .
+*KAR:	do you ?
+*KAR:	huh ?
+*KAR:	look , is this your cash register ?
+*KAR:	is that where you keep all your money ?
+*KAR:	(.) huh ?
+*KAR:	is that where you keep your money ?
+*KAR:	come here <I want> [/] I want you to show me how to use this ?
+*KAR:	can you show me ?
+*KAR:	do you want me to put it up ?
+*KAR:	uhhuh , what do you do with this ?
+*KAR:	how do you use that ?
+*KAR:	oh , so_that is how you open it , right ?
+*KAR:	is there any money in there ?
+*KAR:	is there ?
+*KAR:	<what is that> [/] what is that ?
+*KAR:	it's a bell .
+*KAR:	who's there ?
+*KAR:	do you want to look at another book ?
+*KAR:	(.) huh ?
+*KAR:	kitty cat (.) what is that ?
+*KAR:	let's look at the teddy bear .
+*KAR:	do you want to look at the teddy bear ?
+*KAR:	huh ?
+*KAR:	do you want to sit down here with me and look at the book ?
+*KAR:	do you want to look at this book with me ?
+*KAR:	(.) huh ?
+*KAR:	what is that ?
+*KAR:	Baxter , what is this ?
+*KAR:	Baxter ?
+*KAR:	huh ?
+*KAR:	Baxter .
+*KAR:	huh ?
+*KAR:	do you want a green one ?
+*KAR:	<let me> [/] let me find you a green one .
+*KAR:	<can we look> [//] are there some over there ?
+*KAR:	did you find one ?
+*KAR:	what color is that ?
+*KAR:	uhhuh .
+*KAR:	red .
+*KAR:	uhhuh .
+*KAR:	push this right here .
+*KAR:	push the green button .
+*KAR:	and it will come out .
+*KAR:	see ?
+*KAR:	the money came back out_of the cash register .
+*KAR:	push the green one and it will come out .
+*KAR:	there it is .
+*KAR:	we need to push that first .
+*KAR:	xxx .
+*KAR:	is there any in there ?
+*KAR:	do you have any money ?
+*KAR:	<what is> [//] what will this do ?
+*KAR:	will it make the money go down ?
+*KAR:	look you found a red one .
+*KAR:	didn't you ?
+*KAR:	is this your teddy bear ?
+*KAR:	Baxter , is this your bear ?
+*KAR:	is this your bear ?
+*KAR:	Baxter , listen is this your bear ?
+*KAR:	is this your bear ?
+*KAR:	(.) is this your bear ?
+*KAR:	huh ?
+*KAR:	<we can't> [//] that is too heavy .
+*KAR:	we can't turn that over .
+*KAR:	what is that ?
+*KAR:	huh ?
+*KAR:	is that your toy box ?
+*KAR:	Baxter , is that your toy box ?
+*KAR:	come here I want to show you something .
+*KAR:	I want to show you a picture .
+*KAR:	I want you to tell me what this is ?
+*KAR:	huh ?
+*KAR:	come here .
+*KAR:	do you want to draw a picture for me ?
+*KAR:	come here and draw a picture for me .
+*KAR:	here's your pen .
+*KAR:	here I'll hold it for you .
+*KAR:	do you want to use a pencil ?
+*KAR:	would you rather use a pencil ?
+*KAR:	what are you going to draw ?
+*KAR:	do you want the pen (.) ?
+*KAR:	that's pretty , what is that ?
+*KAR:	what is it a picture of ?
+*KAR:	<can you draw a picture of me> [/] can you draw a picture of me ?
+*KAR:	is that me ?
+*KAR:	uhhuh .
+*KAR:	it's pretty , I like it .
+*KAR:	okay .
+*KAR:	can you draw a picture of a monkey ?
+*KAR:	can you draw a picture of this ?
+*KAR:	okay (.) are you drawing a monkey ?
+*KAR:	huh .
+*KAR:	do you want me to take it off for you ?
+*KAR:	come here and let me show you how to take off .

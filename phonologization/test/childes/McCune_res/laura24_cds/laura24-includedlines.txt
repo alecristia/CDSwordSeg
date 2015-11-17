@@ -1,0 +1,38 @@
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	screwdriver .
+*MOT:	right .
+*MOT:	are you going to build something ?
+*MOT:	what are you going to build ?
+*MOT:	here .
+*MOT:	here's some wood .
+*MOT:	you can bang it with the hammer .
+*MOT:	yeah .
+*MOT:	here .
+*MOT:	good .
+*MOT:	do you wanna saw it ?
+*MOT:	here .
+*MOT:	that's a screwdriver .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	my turn .
+*MOT:	you're being very fair this morning .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	I'm going to take the screw out .
+*MOT:	0 .
+*MOT:	0 .
+*MOT:	I don't know .
+*MOT:	you have_to open it and find out .
+*MOT:	you have_to turn this .
+*MOT:	turn this .
+*MOT:	yeah [x 1] .
+*MOT:	that's right .
+*MOT:	oh .
+*MOT:	you did it .
+*MOT:	you turned it too far .
+*MOT:	turn it again .
+*MOT:	just a little .
+*MOT:	because you turned it .
+*MOT:	that's it .
+*MOT:	stop [x 1] .
