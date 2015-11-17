@@ -82,10 +82,10 @@ def main():
 
 def check_childes():
     """Check all files in the childes database"""
-
+    # TODO automate this
     # The ortholines file contains the list of all input files in the
     # childes database.
-    # $ find test/childes -name '*ortholines.txt' > ortholines
+    # $ find PATH_TO_CHILDES -name '*ortholines.txt' > ortholines
     for f in open('ortholines').read().splitlines():
         try:
             check_file(f)
