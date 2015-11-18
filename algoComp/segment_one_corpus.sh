@@ -29,7 +29,7 @@ echo $CFGOLD > ${RESFOLDER}_$KEYNAME-cfgold.txt
 #2. List all algo scripts that will be launched
 ALGO_LIST="./puddle.sh"
 #./dibs.sh ./ngrams.sh"
-# ./TPs.sh  ./puddle.sh ./AGu.sh ./AGc3s"
+# ./TPs.sh  ./puddle.sh ./AGc3sf.sh"
 # 
 
 
