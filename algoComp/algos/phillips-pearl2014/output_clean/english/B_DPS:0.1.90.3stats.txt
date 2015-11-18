@@ -1,0 +1,74 @@
+# particle, Wed Nov 18 12:33:25 2015
+# debug-level=100
+# data-file=../corpora_clean/train-uni-9mos-clean3.txt
+# data-start-index=0
+# data-num-sents=0
+# eval-file=../corpora_clean/test-uni-9mos-clean3.txt
+# eval-start-index=0
+# eval-num-sents=0
+# eval-maximize=1
+# eval-interval=2000
+# output-file=                                          ../output_clean/english/B_DPS:0.1.90.3.txt
+# estimator= T
+# decay_rate=1
+# samples_per_utt=1000
+# mode=      online
+# ngram=2
+# do_mbdp=0
+# a1=0
+# b1=1
+# a2=0
+# b2=90
+# Pstop=0.5
+# hypersamp-ratio=0
+# aeos=2
+# init_pboundary=0.5
+# pya-beta-a=1
+# pya-beta-b=1
+# pyb-gamma-s=10
+# pyb-gamma-c=0.1
+# randseed=1278025958
+# trace-every=500
+# nsubjects=1
+# forget-rate=0
+# burnin-iterations=1
+# anneal-iterations=0
+# anneal-start-temperature=1
+# anneal-stop-temperature=1
+# anneal-a=10
+# anneal-b=0.2
+# result-field-separator=	
+# nchartypes=2241
+# nsentences=25551
+initial probability = 0
+#Iter	Temp	-logP	a1	b1	Pstop	a2	b2
+0	0	-0	0	1	-1	0	90 P 48.83 R 36.93 F 42.05 BP 76.32 BR 49.89 BF 60.34 LP 11.43 LR 58.87 LF 19.14
+Test set after 0 sentences of training 
+P 20.49 R 5.511 F 8.687 BP -nan BR 0 BF -nan LP 6.468 LR 11.58 LF 8.3
+Test set after 2000 sentences of training 
+P 57.49 R 28.17 F 37.81 BP 97.3 BR 29.43 BF 45.19 LP 18.34 LR 29.51 LF 22.62
+Test set after 4000 sentences of training 
+P 67.33 R 40.58 F 50.64 BP 97.79 BR 44.64 BF 61.29 LP 26.74 LR 40.62 LF 32.25
+Test set after 6000 sentences of training 
+P 70.6 R 45.97 F 55.68 BP 97.35 BR 50.88 BF 66.83 LP 31.24 LR 45 LF 36.88
+Test set after 8000 sentences of training 
+P 73.2 R 50.7 F 59.91 BP 97.21 BR 56.33 BF 71.33 LP 35.51 LR 49.67 LF 41.42
+Test set after 10000 sentences of training 
+P 74.91 R 55.21 F 63.57 BP 96.36 BR 61.7 BF 75.23 LP 40.95 LR 55.37 LF 47.08
+Test set after 12000 sentences of training 
+P 76.39 R 57.94 F 65.89 BP 96.36 BR 64.52 BF 77.29 LP 43.8 LR 58.36 LF 50.04
+Test set after 14000 sentences of training 
+P 77.45 R 60.06 F 67.65 BP 96.34 BR 66.75 BF 78.86 LP 46.19 LR 60.5 LF 52.38
+Test set after 16000 sentences of training 
+P 77.86 R 61.3 F 68.59 BP 96.18 BR 68.2 BF 79.81 LP 48.33 LR 62.09 LF 54.35
+Test set after 18000 sentences of training 
+P 78.14 R 61.92 F 69.09 BP 96.15 BR 68.85 BF 80.24 LP 49.42 LR 63.4 LF 55.54
+Test set after 20000 sentences of training 
+P 78.58 R 62.8 F 69.81 BP 96.14 BR 69.74 BF 80.84 LP 50.48 LR 64.24 LF 56.53
+Test set after 22000 sentences of training 
+P 78.89 R 63.61 F 70.43 BP 96.14 BR 70.66 BF 81.45 LP 51 LR 64.52 LF 56.97
+Test set after 24000 sentences of training 
+P 79.06 R 64.23 F 70.88 BP 96.05 BR 71.41 BF 81.92 LP 51.95 LR 65.92 LF 58.11
+Test set at end of training 
+testing final posterior = -621796
+P 79.42 R 64.91 F 71.43 BP 96.1 BR 72.07 BF 82.37 LP 53.14 LR 67.13 LF 59.32

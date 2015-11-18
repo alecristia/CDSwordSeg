@@ -1,0 +1,166 @@
+README for dpseg v2.0 alpha
+(c) Sharon Goldwater sgwater@inf.ed.ac.uk
+This program also contains code written by Mark Johnson.
+
+v. 2.0 alpha: 6 Oct. 2009.  Please do not distribute as this is still
+an alpha version!
+
+
+This program implements the functionality of dpseg v1.2, but is a
+complete rewrite and also includes a lot of additional functionality.
+Primary changes include:
+
+1.  Uses a hierarchical Pitman-Yor process rather than a hierarchical
+Dirichlet process model.  The HDP model can be recovered by setting
+the PY parameters appropriately (described below).
+
+2.  Implements several different estimation procedures, including the
+original Gibbs sampler ("flip sampler") as well as a sentence-based
+Gibbs sampler that uses dynamic programming ("tree sampler") and a
+similar dynamic programming algorithm that chooses the best
+segmentation of each utterance rather than a sample.  The latter two
+algorithms can be run either in batch mode or in online mode.  If in
+online mode, they can also be set to "forget" parts of the previously
+analysis.  This is described in more detail below.
+
+3.  Functionality for using separate training and testing files.
+
+4.  Changes in the format and names of input arguments.
+
+5.  Code for running experimental stimuli (as in Frank et al., 2007,
+in submission) is also included and can be compiled.  However, a
+number of changes have occurred since this code has been tested, so it
+may not work at the moment.
+
+Compilation requires that you have the Boost program_options library
+installed.
+
+----------------------------------------
+
+To run:
+
+> dpseg -C config.txt
+
+uses configuration file config.txt to set command-line options.
+Alternatively, these options can be set by hand, e.g.
+
+> dpseg --data-file test.in --output-file test.out
+
+or in combination with the configuration file (command-line takes
+precedence over config file):
+
+> dpseg -C config.txt -d 10000
+
+----------------------------------------
+
+Options:
+
+Full options can be seen by using the -h command-line option.  I list
+only some of them below.  Note that some have short versions (e.g., -h
+is short for --help).  Note also that depending on the system you
+compile under, the config file can be picky in the sense that if you
+put an argument in there with a name that isn't one of the ones listed
+below, or include an argument twice, it may cause the program to crash
+without a useful error message.
+
+program_options:
+
+  -h [ --help ]                          produce help message
+  -C [ --config-file ] arg               read options from this file
+  -d [ --debug-level ] arg (=0)          debugging level
+[A good idea to set this to 100, to print out the values of all the 
+other options]
+
+  --data-file arg                        training data file (default is stdin)
+  --data-start-index arg (=0)            sentence index to start reading 
+                                         training data file
+  --data-num-sents arg (=0)              number of training sentences to use (0
+                                         = all)
+[taken together, the above determine the training data used.  e.g.,
+setting the start index to 10 and num-sents to 100 will read 100
+training sentences from the training file starting from sentence
+number 10 (0-indexed).]
+
+  --eval-file arg                        testing data file (default is training
+                                         file)
+  --eval-start-index arg (=0)            sentence index to start reading eval 
+                                         data file
+  --eval-num-sents arg (=0)              number of testing sentences to use (0 
+                                         = all)
+[works similarly to the arguments for the training data.  If no
+eval-file is listed, evaluation will be on the training file.  Note
+that listing the same file for both training and testing has different
+functionality than not listing a test file, due to the way that the
+test file is segmented.  See below.]
+
+  --eval-maximize arg (=0)               1 = choose max prob segmentation of
+                                         test sentences, 0 (default) = sample
+                                         instead
+[See below]
+
+  --eval-interval arg (=0)		how many iterations are run before the test set is evaluated,
+  		      			    	 	    0 (default) means to only evaluate the test set after all iterations are complete.
+
+  -o [ --output-file ] arg               segmented output file
+  --estimator arg (=F)                   possible values are: V(iterbi), 
+                                         F(lip), T(ree)
+[Viterbi does dynamic programming maximization, Tree does dynamic
+programming sampling, Flip does original Gibbs sampler.]
+
+  --mode arg (=batch)                    possible values are: online, batch
+  --ngram arg (=2)                       possible values are: 1 (unigram), 2 
+                                         (bigram)
+
+  --a1 arg (=0)                          Unigram Pitman-Yor a parameter
+  --b1 arg (=1)                          Unigram Pitman-Yor b parameter
+  --a2 arg (=0)                          Bigram Pitman-Yor a parameter
+  --b2 arg (=1)                          Bigram Pitman-Yor b parameter
+[To run a DP model, set a1 and a2 to 0.  b1 and b2 then correspond to
+the DP parameters.]
+
+  --hypersamp-ratio arg (=0.1)           Standard deviation for new hyperparm 
+                                         proposals (0 turns off hyperp 
+                                         sampling)
+[I'm not completely sure that hyper parameter sampling is working
+correctly yet.  However it does yield pretty good results when using
+all four PY parameters.]
+
+  --trace-every arg (=100)               Epochs between printing out trace 
+                                         information (0 = don't trace)
+  -s [ --nsubjects ] arg (=1)            Number of subjects to simulate
+[Only change this if running experimental stimuli]
+
+  -f [ --forget-rate ] arg (=0)          Number of utterances whose words can 
+                                         be remembered
+  -i [ --burnin-iterations ] arg (=2000) Number of burn-in epochs
+[This is actually the total number of iterations through the training
+data.]
+
+  --anneal-iterations arg (=0)           Number of epochs to anneal for
+[Number of iterations to anneal for.  So, burn-in = 100, anneal = 90
+would leave 10 iters at the end at the final annealing temp.]
+
+  --anneal-a arg (=0)                    Parameter in annealing temperature 
+                                         sigmoid function (0 = use ACL06 
+                                         schedule)
+  --anneal-b arg (=0.2)                  Parameter in annealing temperature 
+                                         sigmoid function
+[These two arguments are because I'm using a fancier annealing
+function that Mark implemented.  It is a smooth function rather than a
+step function.]
+
+----------------------------------------
+
+Implementation of separate training/testing files:
+
+If you provide an evaluation file, the program will first run through
+its full training procedure (i.e., using whichever algorithm for
+however many iterations, kneeling, etc.).  After that, it will freeze
+the lexicon in whatever state it is in and then make a single pass
+through the evaluation data, segmenting each sentence according to the
+probabilities computed from the frozen lexicon.  No new words/counts
+will be added to the lexicon during evaluation.  Evaluation can be set
+to either sample segmentations or choose the maximum probability
+segmentation for each utterance.  Scores will be printed out at the
+end of the complete run based on either the evaluation data (if
+provided) or the training data (if not).
