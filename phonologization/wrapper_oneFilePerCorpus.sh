@@ -43,7 +43,7 @@ elif [ "$LANGUAGE" = "english" ]
 	echo "recognized $LANGUAGE"
 
 	echo "using festival"
-	python scripts/phonologize.py $ORTHO -o $RESFOLDER${KEYNAME}-tags.txt
+	./scripts/phonologize $ORTHO -o $RESFOLDER${KEYNAME}-tags.txt
 
 else
 	echo "Adapt the script to a new language"

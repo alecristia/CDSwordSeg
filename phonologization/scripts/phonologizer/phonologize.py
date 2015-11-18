@@ -1,73 +1,19 @@
-#!/usr/bin/env python3
-"""This script allows the phonologization of text utterances.
-
-Dependancies
-------------
-
-To run this you need **festival** installed on your system.  See
-http://www.cstr.ed.ac.uk/projects/festival/
-On Debian simply run 'apt-get install festival'. Otherwise,
-visit http://www.festvox.org/docs/manual-2.4.0/festival_6.html#Installation
-For example http://www.cstr.ed.ac.uk/downloads/festival/2.4/.
-One doc is in
-http://pkgs.fedoraproject.org/repo/pkgs/festival/festdoc-1.4.2.tar.gz/md5/faabc25a6c1b11854c41adc257c47bdb/
-And the voices for instance in
-http://www.cstr.ed.ac.uk/downloads/festival/2.4/voices/
-
-Examples
---------
-
-First, have a
-$ python phonologize.py --help
-
-$ echo "hello world" > hello.txt
-$ python phonologize.py hello.txt
-hh ax l ;esyll ow ;esyll ;eword w er l d ;esyll ;eword
-$ python phonologize.py hello.txt -o hello.phon
-$ cat hello.phon
-hh ax l ;esyll ow ;esyll ;eword w er l d ;esyll ;eword
-
-Potential problems
-------------------
-
-The program may print on stderr something like:
-
-  UniSyn: using default diphone ax-ax for y-pau
-
-This is related to wave synthesis (done by festival during
-phonologization). It should be useful to overload this configuration
-if the phonologization takes too long (I began this but it seems a bit
-tricky and time consuming).
-
+"""Phonologize text utterances with **festival**
 
 Copyright 2015 Mathieu Bernard.
 
 """
 
-import argparse
 import os
 import subprocess
 import sys
 import tempfile
-import lispy
 
-DEFAULT_SCRIPT = os.path.join(os.path.dirname(os.path.realpath(__file__)),
-                              'template.scm')
+from . import lispy
 
-def parse_args():
-    """Argument parser for the phonologization script."""
-    parser = argparse.ArgumentParser()
-    parser.add_argument('input',
-                        help='input text file to be processed')
-    parser.add_argument('-o', '--output',
-                        help='output text file (default is to write on stdout)',
-                        default=sys.stdout)
-    parser.add_argument('-s', '--script',
-                        help='festival script to be launched on background '
-                        '(default is {})'.format(DEFAULT_SCRIPT),
-                        default=DEFAULT_SCRIPT)
-    return parser.parse_args()
-
+def default_script():
+    return os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                        'template.scm')
 
 def is_double_quoted(line):
     """Return True is the string *line* begin and end whith double quotes."""
@@ -165,12 +111,3 @@ def phonologize(filein, fileout, script):
         fileout.write(text)
     else:
         open(fileout, 'w').write(text)
-
-def main():
-    """Compute the phonologization of an input text through *festival*."""
-    args = parse_args()
-    phonologize(args.input, args.output, args.script)
-
-
-if __name__ == '__main__':
-    main()

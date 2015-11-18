@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
-"""This script is used to check and optionnaly correct utterances files.
+"""Checks and corrects utterances files before phonologization.
 
 Copyright 2015 Mathieu Bernard.
 
 """
 
-import argparse
+import os
 
 def check_text(text, on_error='raise'):
     """This function checks if the `text` is well formatted.
@@ -63,35 +62,3 @@ def check_text(text, on_error='raise'):
 
 def check_file(filename, on_error='raise'):
     return check_text(open(filename, 'r').read(), on_error)
-
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('input',
-                        help='input text file to be checked')
-    parser.add_argument('-o', '--output',
-                        help='output corrected file. If not specifed, '
-                        'do not correct anything and raise on the first error.',
-                        default=None)
-    args = parser.parse_args()
-
-    on_error = 'raise' if args.output is None else 'correct'
-    if on_error == 'raise':
-        check_file(args.input, on_error)
-    else:
-        open(args.output, 'w').write(check_file(args.input, on_error))
-
-def check_childes():
-    """Check all files in the childes database"""
-    # TODO automate this
-    # The ortholines file contains the list of all input files in the
-    # childes database.
-    # $ find PATH_TO_CHILDES -name '*ortholines.txt' > ortholines
-    for f in open('ortholines').read().splitlines():
-        try:
-            check_file(f)
-        except RuntimeError as err:
-            print('{} : {}'.format(f, str(err)))
-
-if __name__ == '__main__':
-    #main()
-    check_childes()

@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+"""This script is used to check all utterances files in a directory.
+
+Copyright 2015 Mathieu Bernard.
+
+"""
+
+import argparse
+import os
+from phonologizer import check_file
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('directory',
+                        help='The directory to check. '
+                        'Only otholines files are checked.')
+    directory = parser.parse_args().directory
+
+    orthofiles = []
+    for root, _, files in os.walk(directory):
+        for f in files:
+            if 'ortholines.txt' in f:
+                orthofiles += [os.path.join(root, f)]
+
+    for f in orthofiles:
+        try:
+            check_file(f)
+        except RuntimeError as err:
+            print('{} : {}'.format(f, str(err)))
+
+if __name__ == '__main__':
+    main()
