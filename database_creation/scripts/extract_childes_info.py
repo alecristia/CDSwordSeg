@@ -23,7 +23,7 @@ def list_cha(input_dir=first_arg):
 
 
 def extract_info(cha_files, out=second_arg):
-    non_adult_tag = {}
+    #non_adult_tag = {}
     outfile = open(out, "w")
     outfile.write('dir path\tfilename\tchild age\t# participants\tpartipant type\t# adults\n')
     participant_list = []

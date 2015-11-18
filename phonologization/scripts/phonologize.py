@@ -8,14 +8,17 @@ To run this you need **festival** installed on your system.  See
 http://www.cstr.ed.ac.uk/projects/festival/
 On Debian simply run 'apt-get install festival'. Otherwise,
 visit http://www.festvox.org/docs/manual-2.4.0/festival_6.html#Installation
-For example http://www.cstr.ed.ac.uk/downloads/festival/2.4/
+For example http://www.cstr.ed.ac.uk/downloads/festival/2.4/.
 One doc is in
 http://pkgs.fedoraproject.org/repo/pkgs/festival/festdoc-1.4.2.tar.gz/md5/faabc25a6c1b11854c41adc257c47bdb/
-And the voices for instance in 
+And the voices for instance in
 http://www.cstr.ed.ac.uk/downloads/festival/2.4/voices/
 
 Examples
 --------
+
+First, have a
+$ python phonologize.py --help
 
 $ echo "hello world" > hello.txt
 $ python phonologize.py hello.txt
@@ -48,6 +51,8 @@ import sys
 import tempfile
 import lispy
 
+DEFAULT_SCRIPT = os.path.join(os.path.dirname(os.path.realpath(__file__)),
+                              'template.scm')
 
 def parse_args():
     """Argument parser for the phonologization script."""
@@ -57,14 +62,18 @@ def parse_args():
     parser.add_argument('-o', '--output',
                         help='output text file (default is to write on stdout)',
                         default=sys.stdout)
+    parser.add_argument('-s', '--script',
+                        help='festival script to be launched on background '
+                        '(default is {})'.format(DEFAULT_SCRIPT),
+                        default=DEFAULT_SCRIPT)
     return parser.parse_args()
 
 
-def is_festival_compliant(line):
+def is_double_quoted(line):
     """Return True is the string *line* begin and end whith double quotes."""
     if len(line) < 3:
         return False
-    return line[0] == line[-2] == '"'
+    return line[0] == line[-2] == '"' # line[-1] is '\n'
 
 
 def preprocess(filein):
@@ -78,7 +87,8 @@ def preprocess(filein):
     res = ''
     with open(filein, 'r') as fin:
         for line in fin:
-            line = (line if is_festival_compliant(line)
+            # line = line.strip()
+            line = (line if is_double_quoted(line)
                     else '"' + line[:-1] + '"\n')
             res += line
     return res
@@ -126,7 +136,8 @@ def postprocess(text):
     for utt in text.split('\n')[:-1]:
         # iterate on words
         for word in lispy.parse(utt):
-        # itererate on syllabes
+            # TODO Check the word is not empty
+            # itererate on syllabes
             for syllabe in word[1:]:
                 #iterate on phoneme
                 for phone in syllabe[1:]:
@@ -138,13 +149,13 @@ def postprocess(text):
     return res
 
 
-def phonologize(filein, fileout):
+def phonologize(filein, fileout, script):
     """This function provides an easy wrapper to phonologization facilities."""
     # load and format input for festival
     text = preprocess(filein)
 
     # get the syllabe structure of the input
-    text = process(text)
+    text = process(text, script)
 
     # parse it to the output format
     text = postprocess(text)
@@ -153,14 +164,12 @@ def phonologize(filein, fileout):
     if fileout == sys.stdout:
         fileout.write(text)
     else:
-        with open(fileout, 'w') as f:
-            f.write(text)
-
+        open(fileout, 'w').write(text)
 
 def main():
     """Compute the phonologization of an input text through *festival*."""
     args = parse_args()
-    phonologize(args.input, args.output)
+    phonologize(args.input, args.output, args.script)
 
 
 if __name__ == '__main__':

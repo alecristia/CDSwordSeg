@@ -10,7 +10,10 @@ algoComp/scripts/*pyc
 *~
 algoComp/scripts/*.pyc
 *.pyc
-phonologization/examples
 *.DS_Store
 */*.DS_Store
 */*/*.DS_Store
+phonologization/scripts/examples
+/phonologization/scripts/bern.out
+/phonologization/scripts/bern.phon
+phonologization/scripts/test/
