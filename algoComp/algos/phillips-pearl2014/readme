@@ -1,6 +1,7 @@
 Syllabic Bayesian word segmenter
 Lawrence Phillips
 10/10/2014
+Edits by Alex Cristia <alecristia@gmail.com> 2015-11-18
 
 #############################
 
@@ -18,9 +19,9 @@ First, acquire the Boost program_options library. Directions can be found at htt
 
 If you're having trouble installing the boost library, another set of useful directions can be found at http://ubuntuforums.org/showthread.php?t=1180792
 
-You'll need to download the boost library and extract it from the archive. From the command line, move to the extracted directory and install using './bootstrap.sh --exec-prefix=/usr/local' (you can limit the number of libraries installed by using the --with-libraries flag). Then build the program_options library using the built-in function './b2 install'. This should throw the header files in /usr/local/include and the libraries in /usr/local/lib.
+You'll need to download the boost library and extract it from the archive. From the command line, move to the extracted directory and install using './bootstrap.sh --exec-prefix=/usr/local' (you can limit the number of libraries installed by using the --with-libraries flag). Then build the program_options library using the built-in function './b2 install'. This should throw the header files in /usr/local/include and the libraries in /usr/local/lib. 
 
-Then, in the 'dpseg_files' folder, compile the program 'dpseg' by using the 'make' function. If the program does not compile, check the Makefile. In particular, make sure the variable CFLAGS is pointing to the folder containing the boost header files and that the variable LIBS is pointing to the folder containing the boost libraries (.so files).
+Then, in the 'dpseg_files' folder, compile the program 'dpseg' by using the 'make' function. If the program does not compile, check the Makefile. In particular, make sure the variable CFLAGS is pointing to the folder containing the boost header files and that the variable LIBS is pointing to the folder containing the boost libraries (.so files). #comment: modified LIBS to adapt to our system
 
 Finally, make dpseg executable using 'chmod +x dpseg' and copy the file to the parent folder.
 
@@ -49,3 +50,5 @@ read_okayerrors.pl - Reads the reasonable error files and prints a summary in th
 read_contexterrors.pl - Similar to 'read_okayerrors.pl', except prints the output of the learner rather than showing what the error should have been.
 
 'frequency.pl' - Calculates a frequency metric to determine for each learner how frequent (on average), the words they correctly identified were.
+
+# edits: added english subfolder to output_clean; English subfolder to results
