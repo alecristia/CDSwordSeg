@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #################### definining parameters ###################
-GRAMMARFILE="grammars/Colloq0_enFestival.lt" 		#location of the file holding the grammar
+GRAMMARFILE="grammars/Coll3syll_enFestival.lt" 		#location of the file holding the grammar
 
 
 ##Passed by user
@@ -15,7 +15,7 @@ RUNFILE="run"			#beginning of the name for a run file, this will probably not ch
 OUTFILE="ag-output"		#beginning of the name for an output file, this will probably not change (but you can change it if you want to)
 
 LEVEL="Colloq0"   #this is the level that is tested -- colloq0 is supposed to be the word level; 
-                #in coll0 model because it is the level at which phonemes are combined; in coll3syll it is defined as groups of syllables
+		#in coll0 model because it is the level at which phonemes are combined; in coll3syll it is defined as groups of syllables
 
 INMBRFILE="-${LEVEL}.seg"		#ending of the files to be used as input for the minimum bayes risk calculation, choose the level that interests you - here, the word segmentation
 OUTMBRFILE="_mbr-${LEVEL}.seg"	#ending of the files to be used as OUTPUT for the minimum bayes risk calculation, choose the level that interests you - here, the word segmentation
@@ -67,6 +67,6 @@ done
 ###########################
 # d) Extract the most frequent segmentation in the 800 sample segmentations (minimum bayes risk) and to be used in the evaluation
 
-python $MBRPYFILE $RESFOLDER$OUTFILE*$INMBRFILE > $RESFOLDER${KEYNAME}-agU-cfgold.txt
+python $MBRPYFILE $RESFOLDER$OUTFILE*$INMBRFILE > $RESFOLDER${KEYNAME}-agC3-cfgold.txt
 
 

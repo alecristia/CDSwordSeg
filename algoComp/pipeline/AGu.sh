@@ -24,7 +24,7 @@ ABSPATH=$1
 KEYNAME=$2
 RESFOLDER=$3
 
-ALGO="ag"
+ALGO="agU"
 
 # Navigate to the AG folder
 cd ${ABSPATH}algos/AG
@@ -55,4 +55,4 @@ rm *.prs
 rm input.*
 rm tmp*
 
-echo "done with AG"
+echo "done with AG unigram"
