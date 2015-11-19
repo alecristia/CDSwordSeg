@@ -25,7 +25,7 @@ ABSPATH=$1
 KEYNAME=$2
 RESFOLDER=$3
 
-ALGO="agC"
+ALGO="agc3s"
 
 # Navigate to the AG folder
 cd ${ABSPATH}algos/AG

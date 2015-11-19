@@ -1,0 +1,56 @@
+#ngram = 1
+#a1 = 0
+#b1 = 20
+
+#uncomment these and comment above, if running bigrams
+#ngram = 2
+#b1 = 3000
+#a2 = 0
+#b2 = 100
+
+#currently this will read the first 9790 utts for training
+#data-file = ../corpora/engbrent-text-unicode2.txt
+#data-file = train-uni.txt
+#data-file = test.in
+#data-file = /Users/lpearl/Desktop/Bayesian-WordSeg/Goldwater Code/test.in
+#data-num-sents = 25519
+data-num-sents = 0
+#data-num-sents = 8
+data-start-index = 0
+
+#if train/test are the same, comment these out
+#currently this will read 1000 utts for eval, starting after the 8000th
+#eval-file = brent9mos-uni.txt
+#eval-num-sents = 1000
+#eval-start-index = 8000
+eval-maximize = 1
+# if using online learners (Decayed MCMC, Tree Sampler, Viterbi), this will be after how many utterances rather than how many iterations
+eval-interval = 2000
+
+#output-file = brent9mos-uni-results.txt
+
+estimator = T
+#mode = batch
+mode = online
+# if using D(ecayed MCMC), need decay_rate and samples_per_utt
+#decay_rate = 1.5
+#samples_per_utt = 10
+
+# if no annealing, set this to 0; otherwise = burnin-iterations (though if annealing start and stop temperatures are both 1 below, then shouldn't do anything anyway)
+anneal-iterations = 0
+# burn-in is total iterations through training data
+burnin-iterations = 1
+trace-every = 500
+debug-level = 100
+
+#probably don't change the stuff below
+hypersamp-ratio = 0
+#nchartypes = 0
+init_pboundary = 0.5
+# originally 10 for annealing; set to 1 if no annealing
+anneal-start-temperature = 1
+anneal-stop-temperature = 1
+#burnin-iterations = 1
+anneal-a = 10
+
+randseed=1278025958

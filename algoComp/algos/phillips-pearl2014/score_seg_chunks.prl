@@ -1,0 +1,360 @@
+#!/usr/bin/perl -w
+use Getopt::Std;
+use strict;
+use vars qw($opt_v $opt_n $opt_m $opt_c $opt_x);
+
+# (c) Sharon Goldwater, June 2008
+
+# This program may be used freely for research purposes.  Please
+# acknowledge the author in any publications containing results
+# produced by this program or code derived from this program.
+
+my $usage = "$0 [-c <first|last>] [-n <lines_to_skip>] [-m <chunk size>] <true_seg> <found_seg(s)>
+Calculates precision/recall for found_seg relative to true_seg.
+Each file should be a segmentation with spaces indicating word boundaries.
+Found_seg may contain multiple segmentations, separated by a blank line.
+(found_seg may also be the full output file from dpseg.)
+-c <first|last> computes scores only for first/last word of each utterance.
+-mM computes and prints scores for each M-utterance chunk of data separately.
+-nN skips N lines at the beginning of the file before starting scoring\n";
+
+getopts('v:n:m:c:x');
+die $usage unless ($#ARGV > 0);
+my $true_file = shift;
+my $verbose = 0 || $opt_v;
+my $n = 0;
+$n = $opt_n if $opt_n;
+$opt_c = "all" unless $opt_c;
+#my $multi_only = 0 || $opt_x;
+
+my ($words_correct, $found_words, $true_words,
+    $bs_correct, $found_bs, $true_bs, $total_chars);
+my %true_lex;
+my %found_lex;
+my %incorrect; #counts of words not in the correct lexicon
+
+while (my $found_file = shift) {
+    %found_lex = ();
+    %true_lex = ();
+ my $full_output_file = 0;	#flag: do we have full output file from dpseg or only segmentation?
+  open FOUND, $found_file or die "couldn't open $found_file\n";
+  print "% Results for $found_file";
+  print " (skipping first $n utterances)" if $n;
+print ", $opt_c words only" if $opt_c ne "all";
+  print "\n";
+    printf "%% P     R     F     BP    BR    BF    LP    LR    LF    TrLen FdLen\n" if $opt_m;
+  my $found  = <FOUND>;
+  #if this is a full output file, read until we get to segmentation
+  if ($found =~ /^(Segmenting|init)/) {
+    $full_output_file = 1;
+    while (defined($found =<FOUND>) and not $found =~ /State:/) {}
+    $found =<FOUND>;
+    die "Didn't find segmentation in $found_file\n" unless $found;
+  }
+  my $nresults = 0;		#number of segmentations in results file
+  while ($found) {
+    $nresults++;
+    open TRUE, $true_file or die "couldn't open $true_file\n";
+    print STDERR ".";
+    initialize_counts();
+    my $i=0;
+my $m = 0;
+    while (my $true = <TRUE>) {
+      die "found_seg is shorter than true_seg\n" unless (defined($found) and $found);
+      $i++;
+$m++;
+      if ($i > $n) {
+      chomp $true;
+      chomp $found;
+      add_words_to_lex($found,\%found_lex);
+  add_words_to_lex($true,\%true_lex);
+if ($opt_c ne "all") {
+      score_first_last($true, $found);
+}
+else {
+      score_utterance($true, $found);
+}
+      #  print "$true_words, $found_words\n";
+}
+      $found = <FOUND>;
+if ($opt_m and $m % $opt_m == 0) {
+print_scores($words_correct, $found_words, $true_words,
+		     $bs_correct, $found_bs, $true_bs, $total_chars);
+initialize_counts();
+$m = 0;
+}
+    }
+    if ($found) {
+      if ($full_output_file) {
+	die "found_seg is longer than true_seg\n" unless $found =~ /nstrings/ or $found eq "\n";
+	while (defined($found =<FOUND>)) {}
+      }
+      else {
+	if ($found eq "\n") {#multiple segmentations infile
+	  $found = <FOUND>; #ready for next loop
+	}
+	else {
+	  die "found_seg is longer than true_seg\n";
+	}
+      }
+    }
+print_scores($words_correct, $found_words, $true_words,
+		     $bs_correct, $found_bs, $true_bs, $total_chars);
+    close TRUE;
+  }
+  print "($nresults segmentations found)\n" if $nresults > 1;
+  close FOUND;
+}
+
+sub print_scores {
+  my ($words_correct, $found_words, $true_words,
+      $bs_correct, $found_bs, $true_bs, $total_chars) = @_;
+  my ($p, $r, $f, $lp, $lr, $lf, $bp, $br, $bf) =
+    compute_scores($words_correct, $found_words, $true_words,
+		     $bs_correct, $found_bs, $true_bs);
+  my $true_length = $total_chars/$true_words;
+  my $found_length = $total_chars/$found_words;
+  #print "$total_chars\n";
+  if ($opt_m) {
+    printf "%1.2f %1.2f %1.2f %1.2f %1.2f %1.2f %1.2f %1.2f %1.2f %1.2f %1.2f\n",
+      $p*100, $r*100, $f*100, $bp*100, $br*100, $bf*100, $lp*100, $lr*100, $lf*100,
+	$true_length, $found_length;
+  } 
+  else {
+    printf "P %1.2f R %1.2f F %1.2f BP %1.2f BR %1.2f BF %1.2f LP %1.2f LR %1.2f LF %1.2f \n",
+      $p*100, $r*100, $f*100, $bp*100, $br*100, $bf*100, $lp*100, $lr*100, $lf*100;
+    printf "Avg word length: %1.2f (true), %1.2f (found)\n",
+      $true_length, $found_length;
+  }
+}
+
+sub initialize_counts {
+    $words_correct = 0;
+    $found_words = 0;
+    $true_words = 0;
+    $bs_correct = 0;
+    $found_bs = 0;
+    $true_bs = 0;
+    $total_chars = 0;
+    %incorrect = ();
+}
+
+sub compute_scores {
+  my ($words_correct, $found_words, $true_words, $bs_correct, $found_bs, $true_bs) = @_;
+  my ($lp, $lr) = score_lexicon(\%true_lex, \%found_lex);
+  my $lf = fmeas($lp,$lr);
+  my $p = $words_correct/$found_words;
+  my $r = $words_correct/$true_words;
+  my $f = fmeas($p,$r);
+  my $bp = $bs_correct/$found_bs;
+  my $br = $bs_correct/$true_bs;
+  my $bf = fmeas($bp,$br);
+  return ($p, $r, $f, $lp, $lr, $lf, $bp, $br, $bf);
+}
+
+sub fmeas {
+  my ($p, $r) = @_;
+  return 2*$p*$r/($p+ $r);
+}
+
+
+sub add_words_to_lex {
+  my ($utt, $lexicon) = @_;
+  my @words = split / /, $utt;
+#  return if $multi_only and $#words == 0;
+  if ($opt_c eq "first") {
+    $$lexicon{$words[0]}++;
+  }
+  elsif ($opt_c eq "last") {
+    $$lexicon{$words[$#words]}++;
+  }
+#   elsif ($opt_c eq "only" and $#words == 0) {
+#     $$lexicon{$words[0]}++;
+#   }
+  else {
+    for my $word (@words) {
+      $$lexicon{$word}++;
+    }
+  }
+}
+
+
+#$true: true lexicon
+#$found: found lexicon
+#returns (lexicon precision, lexicon recall)
+sub score_lexicon {
+  my ($true, $found) = @_;
+  my $correct = 0;
+  for my $item (keys %$found) {
+    $correct++ if exists($$true{$item});
+  }
+  return ($correct/scalar(keys(%$found)),
+	  $correct/scalar(keys(%$true)));
+}
+
+#we iterate through the utterance pair by characters.
+#when boundaries match, we set left_match to 1.
+#if left_match is already 1, we got the word right.
+#to look for collocations, we also look for true
+#boundaries intervening between two matches.
+#This function fills in %simple, %complex,
+#%complex_no_spaces, %placement_errors,
+#and %incorrect with counts of correctly found words,
+#found collocations (with and without spaces),
+# correct words found in the wrong places,
+#and other incorrect words.  we will check for collocation
+#placement errors in %incorrect later.
+sub score_utterance {
+  my ($true, $found) = @_;
+  my @true = split(//, $true);
+#  return if $multi_only and $#true == 0;
+  my @found = split(//, $found);
+  push @true, ' ' if ($true[$#true] ne ' ');
+  push @found, ' ' if ($found[$#found] ne ' ');
+  $total_chars += $#true + 1; #but we have to subtract spaces
+  my ($t,$f) = (0,0);
+  my $left_match = 1;
+  my $is_complex = 0;
+  my $found_word = "";
+  my $with_spaces = "";
+  while ($f <= $#found) {
+    die "utterances do not match:\n$true\n$found\n" if $t > $#true;
+    if (($found[$f] eq ' ') and ($true[$t] eq ' ')) {
+      $found_word =~ s/ //g;
+      die "$found_word not found\n" unless exists $found_lex{$found_word};
+      $total_chars--;
+      if ($left_match) {
+	$words_correct++;
+      }
+      else {
+	$incorrect{$found_word}++;
+      }
+      $bs_correct++;
+      $true_bs++;
+      $found_bs++;
+      $found_words++;
+      $true_words++;
+      $left_match = 1;
+      $found_word = "";
+      $t++;
+      $f++;
+    }
+    elsif ($found[$f] eq ' ') {
+      $found_word =~ s/ //g;
+      die "$found_word not found\n" unless exists $found_lex{$found_word};
+      $incorrect{$found_word}++ ;
+      $found_bs++;
+      $found_words++;
+      $left_match = 0;
+      $found_word = "";
+      $f++;
+    }
+    elsif ($true[$t] eq ' ') {
+      $incorrect{$found_word}++;
+      $total_chars--;
+      $true_bs++;
+      $true_words++;
+      $left_match = 0;
+      $found_word = $found_word." ";
+      $t++;
+    }
+    else {
+      $found_word = $found_word.$found[$f];
+      $t++;
+      $f++;
+    }
+  }
+  die "utterances do not match:\n$true\n$found\n" if $t < $#true;
+  #subtract final utterance boundary
+  $bs_correct--;
+  $true_bs--;
+  $found_bs--;
+}
+
+#score only the first or last word of utterance.
+sub score_first_last {
+  my ($true, $found) = @_;
+#    die "utterances do not match:\n$true\n$found\n" if $t > $#true;
+  my @true = split(/ /, $true);
+#  return if $multi_only and $#true == 0;
+  my @found = split(/ /, $found);
+  my ($f, $t);
+  if ($opt_c eq "first") {
+    ($f, $t) = ($found[0], $true[0]);
+  }
+  elsif ($opt_c eq "last") {
+    ($f, $t) = ($found[$#found], $true[$#true]);
+  }
+#  elsif ($opt_c eq "only" and $#true == 0) {
+#    ($f, $t) = ($found[$#found], $true[$#true]);
+#  }
+  else {
+    die "-c must be 'first', 'last', or 'only'\n";
+  }
+  die "$f not found\n" unless exists $found_lex{$f};
+  if ($t eq $f) {
+    $words_correct++;
+    $bs_correct++;
+#    $total_chars--;
+  }
+  else {
+    $incorrect{$f}++;
+  }
+  $true_bs++;
+  $found_bs++;
+  $found_words++;
+  $true_words++;
+}
+
+########################################
+#functions for debugging follow.
+
+
+sub common_elements {
+  my ($first, $second) = @_;
+  my %return;
+  for my $key (keys %$first) {
+    $return{$key}++ if exists $$second{$key};
+  }
+  return [keys %return];
+}
+
+sub distinct_elements {
+  my ($first) = @_;
+  my %return;
+  my %seen;
+  for my $key (keys %$first) {
+    my $original = $key;
+    $key =~ s/ //g;
+    if (exists $seen{$key}) {
+      $return{$original}= $seen{$key};
+    } else {
+      $seen{$key} = $original;
+    }
+  }
+  return {%return};
+}
+
+sub print_list {
+  my ($list, $delimiter, $file) = @_;
+  $delimiter = " " unless $delimiter;
+  $file = \*STDOUT unless $file;
+  for my $item (@$list) {
+    print $file "$item$delimiter";
+  }
+  print $file "\n" unless $delimiter eq "\n";
+}
+
+
+
+sub print_hash {
+my ($hash, $delimiter, $file) = @_;
+$delimiter = ", " unless $delimiter;
+$file = \*STDOUT unless $file;
+  my @ks = sort keys %$hash;
+  for my $k1 (@ks) {
+    print $file "$k1 $$hash{$k1}$delimiter";
+        }
+    print $file "\n" unless $delimiter eq "\n";
+  }
+
