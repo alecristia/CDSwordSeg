@@ -27,7 +27,7 @@ def check_text(text, on_error='raise'):
     res = '' # will append corrected lines here
 
     # we keep EOL characters to look for '\r'
-    lines = text.splitlines(keepends=True)
+    lines = text.splitlines(True)
     for line_nb, line in enumerate(lines):
         line_nb += 1
 
