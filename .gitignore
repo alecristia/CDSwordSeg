@@ -17,3 +17,4 @@ phonologization/scripts/examples
 /phonologization/scripts/bern.out
 /phonologization/scripts/bern.phon
 phonologization/scripts/test/
+algoComp/algos/phillips-pearl2014/output_clean/*

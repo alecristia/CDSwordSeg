@@ -9,16 +9,17 @@ Our current pipeline involves three steps:
 3. Segmentation. Takes a phonological-like text transcript and returns one or several versions of the same corpus, with automatically-determined word boundaries, as well as lists of the most frequent words, and all this based on a selection of algorithms (chosen by user).
 
 ********************** TODO  ******************
-*** troubleshoot oberon on step 3 segmentation, which boils down to the following 4
+*** troubleshoot oberon on step 3 segmentation, which boils down to the following
 - dibs OK though odd that performance for dibs is 1pc lower with the new phon set, no?? maybe forget, since we will rerun everything anyway...
 - ngrams OK
 - TP OK, odd that performance is 2pc higher now; notice that standard format cannot be created now because spaces between letters are lost
-- AG OK, standard format cannot be created bc spaces bet letters lost
-
-*** check puddle: no output
+- AG OK, changed to c3syll+functionwords standard format cannot be created bc spaces bet letters lost
+- Puddle: poor performance because testing on the whole thing!!!! --> we decide to test on last 20% for all corpora
 
 *** implement phillips
-*** add colloc3syll
+- now: ran one iteration of DMCMC on their own input; output looks okay
+- use our own input
+
 *** check branching in of trs-based pipeline
 
 ********************** STEP 1: Database creation ******************
