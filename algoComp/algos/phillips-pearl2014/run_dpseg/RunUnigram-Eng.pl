@@ -40,11 +40,12 @@ $ngram = 1;
 #}
 
 #DMCMC
-for($i=1;$i<=5;$i++){
+#for($i=1;$i<=5;$i++){
+i=1
 print "DMCMC\t$i\n";
 $output = 'U_DMCMC:' . $a . '.' . $b1 . '.ver' . $i . '.txt';
 $stats = 'U_DMCMC:' . $a . '.' . $b1 . '.ver' . $i .'stats.txt';
 $train = 'train-uni-9mos-clean' . $i . '.txt';
 $test = 'test-uni-9mos-clean' . $i . '.txt';
-system("./../dpseg -C ../configs/config-uni-dmcmc.txt -o ../output_clean/english/$output --data-file ../corpora_clean/$train --eval-file ../corpora_clean/$test --ngram $ngram --a1 $a --b1 $b1 > ../output_clean/english/$stats");
-}
+system("./../dpseg_files/dpseg -C ../configs/config-uni-dmcmc.txt -o ../output_clean/english/$output --data-file ../corpora_clean/$train --eval-file ../corpora_clean/$test --ngram $ngram --a1 $a --b1 $b1 > ../output_clean/english/$stats");
+#}
