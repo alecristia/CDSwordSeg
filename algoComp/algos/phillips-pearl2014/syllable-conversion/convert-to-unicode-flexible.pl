@@ -3,10 +3,13 @@ $corpusname = $ARGV[0];
 $ortho = $ARGV[1];
 $outfolder = $ARGV[2];
 
-# Convert **INPUT** file ($ortho) to unicode <--- Alex Cristia -- now we get 2 arguments to decide what is converted #TODO pass also dictionary & code name for conversion target
+# Convert **INPUT** file ($ortho) to unicode <--- Alex Cristia -- now
+# we get 2 arguments to decide what is converted TODO pass also
+# dictionary & code name for conversion target
 
 # Read unicode/word pairs from unicode-word-dict.txt
-open(DICT, "../input/unicode-word-dict.txt") || die "Couldn't open ../input/unicode-word-dict.txt for reading\n";
+open(DICT, "original/unicode-word-dict.txt")
+        or die "Couldn't open ../input/unicode-word-dict.txt for reading\n";
 binmode(DICT, ":utf8");
 
 %dict = ();
@@ -16,14 +19,17 @@ close(DICT);
 foreach $dict_line (@dict_lines){
   if($dict_line =~ /(.+)\t(.+)$/){
     #print("debug: syllable = $1, unicode character = $2\n");
-    $dict{$1} = $2;  
+    $dict{$1} = $2;
 	}
 }
-open(IN, "<$ortho") or die("Couldn't open $ortho\n");
-open(OUT, ">$outfolder$corpusname-text-unicode.txt") or die("Couldn't open $outfolder$corpusname-text-unicode.txt\n");
-open(ADD, ">$outfolder$corpusname-ADD.txt") or die("Couldn't open $outfolder$corpusname-ADD.txt\n");
 
 
+open(IN, "<$ortho")
+        or die("Couldn't open $ortho\n");
+open(OUT, ">$outfolder$corpusname-text-unicode.txt")
+        or die("Couldn't open $outfolder$corpusname-text-unicode.txt\n");
+open(ADD, ">$outfolder$corpusname-ADD.txt")
+        or die("Couldn't open $outfolder$corpusname-ADD.txt\n");
 
 binmode(IN, ":utf8");
 binmode(OUT, ":utf8");
@@ -34,6 +40,7 @@ binmode(STDOUT, ":utf8");
 while(defined($inputfileline = <IN>)){
   # line should be words divided by one space each
   # get rid of newline at the end
+
   # debug print
   #print("$inputfileline");
 
