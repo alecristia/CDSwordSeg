@@ -1,11 +1,9 @@
 #! usr/bin/perl
+$KEYNAME = $ARGV[0];
+$RESFOLDER = $ARGV[1];
 
-system("perl edit-dict-brent.pl");
-system("perl adding-syllabification.pl");
-system("perl create-unicode-dict.pl");
-system("perl convert-to-unicode.pl");
-system("perl convert-to-english.pl");
-system("perl RemoveEndSpaces.pl");
+system("perl convert-to-unicode-flexible.pl $corpusname $ortho");
+system("perl RemoveEndSpaces.pl $corpusname");
 
 system("cp -b brent9mos-klatt.txt ../corpora_clean/");
 system("cp -b brent9mos-unicode.txt ../corpora_clean/");

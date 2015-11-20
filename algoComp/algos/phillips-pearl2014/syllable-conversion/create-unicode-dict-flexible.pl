@@ -1,8 +1,12 @@
 #!/usr/bin/perl 
 
 # Creates/updates unicode-dict.txt
-# unicode-dict.txt is a dictionary of possible syllabes, taken from syllabified-dict.txt
+# unicode-dict.txt is a dictionary of possible syllables, taken from syllabified-dict.txt
 # represented as unicode characters.
+
+$INPUT = $ARGV[0];
+$OUTPUT = $ARGV[1];
+
 
 use Encode; 
  
@@ -12,8 +16,8 @@ $base = 3001; # shouldn't be any control characters below this range
 $current_uni = 0;
 
 binmode(STDOUT, ":utf8");
-open(IN, "<syllabified-dict.txt") || die "Couldn't open syllabified-dict.txt\n";
-open(WORDDICT, ">unicode-word-dict.txt") || die "Couldn't open unicode-word-dict.txt\n";
+open(IN, "<$INPUT") || die "Couldn't open $INPUT\n";
+open(WORDDICT, ">$OUTPUT") || die "Couldn't open $OUTPUT\n";
 binmode(WORDDICT, ":utf8");
 %checkhash = (); #hash for checking duplicate unicode values
 
