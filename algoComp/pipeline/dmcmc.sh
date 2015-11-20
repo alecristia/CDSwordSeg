@@ -38,6 +38,12 @@ sed -n $Nbegtest,${N}p $RESFOLDER$KEYNAME-syl-unicode.txt > $RESFOLDER$KEYNAME-s
 
 
 # actual algo running
+
+$a = 0;
+$b1 = 1;
+$ngram = 1;
+
+
 #ATTENTION this section was written in perl
 #NOT DONE: needs to be translated into bash
 	# also, not sure it will work as we expect - it should, since we are still feeding it unicode input as before, but one never knows...
