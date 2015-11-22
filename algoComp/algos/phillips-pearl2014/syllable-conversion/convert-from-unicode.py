@@ -49,7 +49,7 @@ def main():
     with open(args.output, 'w') as out:
         # convert each syllable of each line
         for line in read_lines(args.input):
-            for syl in line:
+            for syl in line.replace(' ', ''):
                 if not syl == '':
                     out.write(c.convert(syl) + ' ')
             out.write('\n')
