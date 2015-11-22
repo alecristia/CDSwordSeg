@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-"""Convert a list of syllables to unicode mapping
+"""Convert a list of unicode chars to syllables
 
 This script is a perl to python simplified transcription of the
-original convert-to-unicode-flexible.pl
+original convert-from-unicode-flexible.pl
 
 Copyright 2015 Mathieu Bernard
 
@@ -26,7 +26,7 @@ class Converter(object):
 
         for line in read_lines(dict_file):
             l = line.split('\t')
-            self._dict[l[0]] = l[1]
+            self._dict[l[1]] = l[0]
 
     def convert(self, syllable):
         try:
@@ -49,9 +49,9 @@ def main():
     with open(args.output, 'w') as out:
         # convert each syllable of each line
         for line in read_lines(args.input):
-            for syl in line.split(' '):
+            for syl in line:
                 if not syl == '':
-                    out.write(c.convert(syl))
+                    out.write(c.convert(syl) + ' ')
             out.write('\n')
 
 

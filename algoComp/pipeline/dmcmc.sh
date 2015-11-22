@@ -24,20 +24,20 @@ sed 's/;eword//g' $ROOT-tags.txt | tr -d ' ' | sed 's/;esyll/ /g' > $ROOT-syl.tx
 sed 's/ /\n/g' $ROOT-syl.txt |
     sort | uniq | sed '/^$/d'  > $ROOT-sylList.txt
 
-exit
-
 # Create a unicode equivalent for each syllable on that list
-echo Creating syllables to unicode dictionary
+echo Creating syllables to unicode dictionary...
 $PYTHON syllable-conversion/create-unicode-dict.py \
      $ROOT-sylList.txt \
-     $ROOT-sylList-unicode.txt
+     $ROOT-sylDict.txt
+echo Writed $ROOT-sylDict.txt
 
 # Translate the corpus into a unicode format
-echo Converting syllables to unicode
+echo Converting syllables to unicode...
 $PYTHON syllable-conversion/convert-to-unicode.py \
      $ROOT-syl.txt \
-     $ROOT-sylList-unicode.txt \
+     $ROOT-sylDict.txt \
      $ROOT-syl-unicode.txt
+echo Writed $ROOT-syl-unicode.txt
 
 # Split training and test
 #NOTE: set up for a single run -- might need to revise if multirun
@@ -59,8 +59,8 @@ ngram=1
 # ATTENTION not sure it will work as we expect - it should, since we
 # are still feeding it unicode input as before, but one never knows...
 
-output=U_DMCMC_$a_$b1.txt
-stats=U_DMCMC_$a_$b1_stats.txt
+output=DMCMC_$a_$b1.txt
+stats=DMCMC_$a_$b1_stats.txt
 train=$ROOT-syl-unicode-train.txt
 test=$ROOT-syl-unicode-test.txt
 ./../dpseg_files/dpseg \
@@ -71,10 +71,10 @@ test=$ROOT-syl-unicode-test.txt
     > ../output_clean/english/$stats #--eval-file ../corpora_clean/$test
 
 # Translate output back from unicode format
-# TODO
 $PYTHON syllable-conversion/convert-from-unicode.py \
-     ../output_clean/english/$output \
-     $ROOT-${ALGO}-cfgold.txt
+        ../output_clean/english/$output \
+        $ROOT-sylDict.txt \
+        $ROOT-${ALGO}-cfgold.txt
 
 # NOTE writing with standard format IS possible for this algo but not
 # implemented
