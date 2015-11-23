@@ -9,6 +9,9 @@ CHAFOLDER="/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/cha/" #will be cre
 #*********************************#
 #NOTE: there are lots of annotation below, hopefully explanatory
 
+mkdir $CHAFOLDER
+
+
 #Step 1: generate a file that contains only sentences we want
 for j in $TRSFOLDER*.trs; do
 	k="${j%????}"
@@ -31,15 +34,14 @@ for j in $TRSFOLDER*.trs; do
 #grep -v '|C[0-9]' = ... as well as their continuations
 #sed 's/&lt;//g' |  sed 's/&gt;//g'| sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g" = remove ugly characters
 
-mkdir $CHAFOLDER
 #OPTION 1: to analyze only the adult-directed speech		!#!!!
-	grep -e ' |.|A' < ${TRSFOLDER}temp.txt > "${TRSFOLDER}ADS_${k}"			 
+	grep -e ' |.|A' < ${TRSFOLDER}temp.tmp > "${k}_ADS.txt"			 
 
 #OPTION 2: to analyze only and all the child-directed speech		!#!!!
-	grep  -e ' |.|O' -e ' |.|C' < ${TRSFOLDER}temp.txt > "${TRSFOLDER}CDS_${j}"			 
+	grep  -e ' |.|O' -e ' |.|C' < ${TRSFOLDER}temp.tmp > "${k}_CDS.txt"			 
 #								 !#!!!
 #OPTION 3: to analyze only the KEY child-directed speech		!#!!!
-	grep  -e ' |.|C' < ${TRSFOLDER}temp.txt > "${TRSFOLDER}KDS_${j}"			 
+	grep  -e ' |.|C' < ${TRSFOLDER}temp.tmp > "${k}_KDS.txt"			 
 
 	rm ${TRSFOLDER}temp.tmp
 done
