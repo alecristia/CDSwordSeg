@@ -11,7 +11,7 @@ CHAFOLDER="/home/rolthiolliere/Documents/databases/LENA201507/CHAads/" #will be 
 #Step 1: generate a file that contains only sentences we want
 for j in $TRSFOLDER*.trs; do
 	k="${j%???}"txt
-	grep "|" "$j" | grep -v '^|' | grep -v '^VOC' | sed 's/|.C.*F.|/|/g' | sed 's/CRY//g' | sed 's/SIL//g' | sed 's/BBL//g' | sed 's/VOC//g' | sed 's/VFX//g'  | tr '.' '\n' | grep -v '^[0-9]' | grep -v ' |T|' | grep -v ' |C|' | grep -v ' |U|' | grep -v '|I[0-9]' | grep -v '|C[0-9]' | sed 's/&lt;//g' |  sed 's/&gt;//g' | sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g"  > ~/Desktop/temp.txt
+	grep "|" "$j" | grep -v '^|' | grep -v '^VOC' | sed 's/|.C.*F.|/|/g' | sed 's/CRY//g' | sed 's/SIL//g' | sed 's/BBL//g' | sed 's/VOC//g' | sed 's/VFX//g'  | tr '.' '\n' | grep -v '^[0-9]' | grep -v ' |T|' | grep -v ' |C|' | grep -v ' |O|' | grep -v ' |U|' | grep -v '|I[0-9]' | grep -v '|C[0-9]' | sed 's/&lt;//g' |  sed 's/&gt;//g' | sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g"  > ~/Desktop/temp.txt
 # 
 #This means: 
 #grep "|" $j | = focus on lines which contain | codes, because they may contain transcriptions
@@ -23,7 +23,8 @@ for j in $TRSFOLDER*.trs; do
 #grep -v '^[0-9]' = remove sentences that start with numbers because those are overlaps
 #grep -v ' |T|' | = remove utterances by the target child
 #grep -v ' |C|' | = remove utterances by an uncertain child
-#grep -v ' |U|' | = remove utterances that are uncertain
+#grep -v ' |0|' | = remove utterances by another child
+#grep -v ' |U|' | = remove utterances by an uncertain speaker
 #grep -v '|I[0-9]' | = remove utterances that are initiated and cut by an overlap...
 #grep -v '|C[0-9]' = ... as well as their continuations
 #sed 's/&lt;//g' |  sed 's/&gt;//g'| sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g" = remove ugly characters

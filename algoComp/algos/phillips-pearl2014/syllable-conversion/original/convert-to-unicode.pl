@@ -1,5 +1,4 @@
 # Convert Brent file to unicode
-
 # Read unicode/word pairs from unicode-word-dict.txt
 open(DICT, "<unicode-word-dict.txt") || die "Couldn't open unicode-word-dict.txt for reading\n";
 binmode(DICT, ":utf8");
@@ -11,10 +10,9 @@ close(DICT);
 foreach $dict_line (@dict_lines){
   if($dict_line =~ /(.+)\t(.+)$/){
     #print("debug: syllable = $1, unicode character = $2\n");
-    $dict{$1} = $2;  
+    $dict{$1} = $2;
 	}
 }
-
 
 open(IN, "<brent9mos.txt") or die("Couldn't open brent9mos.txt\n");
 open(OUT, ">brent9mos-unicode.txt") or die("Couldn't open brent9mos-unicode.txt\n");
