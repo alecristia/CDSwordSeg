@@ -70,8 +70,8 @@ The necessary scripts are found in the folder called database_creation
 
 IMPORTANT!!! ALSO notice that there is a section in the middle that needs to be changed to select subsets of sentences! There is more explanation in comments (lines starting with #) in the middle of scripts/trs2cha_all.text.
 
-3. In a terminal window, navigate to your database_creation folder, e.g.
-$ cd /home/rolthiolliere/Documents/database_creation
+3. In a terminal window, navigate to the scripts subfolder of your database_creation folder, e.g.
+$ cd /home/rolthiolliere/Documents/database_creation/scripts 
 (you don't type the "$" -- this is just a convention to indicate that a line is copied + pasted into a terminal window)
 
 4. Now run the script from the terminal window by typing:
