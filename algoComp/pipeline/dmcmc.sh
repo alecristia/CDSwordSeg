@@ -65,7 +65,7 @@ ver=1
 # ATTENTION not sure it will work as we expect - it should, since we
 # are still feeding it unicode input as before, but one never knows...
 
-DPSEG=./dpseg # ./dpseg_files/dpseg
+DPSEG=./dpseg_files/dpseg
 output=U_DMCMC:$a.$b1.ver$ver.txt
 stats=U_DMCMC:$a.$b1.ver${ver}stats.txt
 train=syl-unicode-train.txt

@@ -131,7 +131,7 @@ def evaluate(options, trainwords, trainstringpos, goldwords, goldstringpos):
     if goldwords != trainwords:
         sys.stderr.write("## ** gold and train terminal words don't match (so results are bogus)\n")
         sys.stderr.write("## len(goldwords) = %s, len(trainwords) = %s\n" % (len(goldwords), len(trainwords)))
-        for i in xrange(min(len(goldwords), len(trainwords))):
+        for i in range(min(len(goldwords), len(trainwords))):
             if goldwords[i] != trainwords[i]:
                 sys.stderr.write("# first difference at goldwords[%s] = %s\n# first difference at trainwords[%s] = %s\n"%
                                  (i,goldwords[i],i,trainwords[i]))
@@ -178,11 +178,11 @@ if __name__ == '__main__':
         sys.stderr.write("## ** gold and train both read from same source\n")
         sys.exit(2)
     if options.goldfile:
-        goldf = file(options.goldfile, "rU")
+        goldf = open(options.goldfile, "rU")
     else:
         goldf = sys.stdin
     if options.trainfile:
-        trainf = file(options.trainfile, "rU")
+        trainf = open(options.trainfile, "rU")
     else:
         trainf = sys.stdin
 
