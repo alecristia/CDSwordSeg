@@ -91,10 +91,15 @@ awk '{gsub("\"",""); print}' > tmp.tmp
 	sed "s/ im / I\'m /g" |
 	iconv -t ISO-8859-1 > "$RESFOLDER$ORTHO"
 
-#This is to process all the "junk" that were generated when making the changes from included to ortho.
-#For e.g., the cleaning process generated double spaces between 2 words (while not present in included)
+
+#This is to process all the "junk" that were generated when making the
+#changes from included to ortho.  For e.g., the cleaning process
+#generated double spaces between 2 words (while not present in
+#included)
 sed -i -e 's/  $//g' $RESFOLDER$ORTHO
 sed -i -e 's/  / /g' $RESFOLDER$ORTHO
 sed -i -e 's/  / /g' $RESFOLDER$ORTHO	#not same encoding as above?
 sed -i -e 's/^ //g' $RESFOLDER$ORTHO
 sed -i -e 's/ $//g' $RESFOLDER$ORTHO
+
+rm -f tmp.tmp

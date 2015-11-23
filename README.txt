@@ -2,94 +2,155 @@ Instructions for text analyses
 For questions contact Alex Cristia alecristia@gmail.com
 
 ********************** Overview ******************
-In this project, we seek to study a set of algorithms for word segmentation from phonological-like text transcriptions.
+
+In this project, we seek to study a set of algorithms for word
+segmentation from phonological-like text transcriptions.
+
 Our current pipeline involves three steps:
-1. Database creation. In this step, a set of conversations or transcriptions are processed to e.g. select specific speakers and remove annotations, leaving only the orthographic form of what was said. 
-2. Phonologization. Takes a (set of) orthographic (clean) output(s) and converts it (them) into a surface phonological form.
-3. Segmentation. Takes a phonological-like text transcript and returns one or several versions of the same corpus, with automatically-determined word boundaries, as well as lists of the most frequent words, and all this based on a selection of algorithms (chosen by user).
+
+1. Database creation. In this step, a set of conversations or
+   transcriptions are processed to e.g. select specific speakers and
+   remove annotations, leaving only the orthographic form of what was
+   said.
+
+2. Phonologization. Takes a (set of) orthographic (clean) output(s)
+   and converts it (them) into a surface phonological form.
+
+3. Segmentation. Takes a phonological-like text transcript and returns
+   one or several versions of the same corpus, with
+   automatically-determined word boundaries, as well as lists of the
+   most frequent words, and all this based on a selection of
+   algorithms (chosen by user).
+
 
 ********************** TODO  ******************
-*** troubleshoot oberon on step 3 segmentation, which boils down to the following
-- dibs OK though odd that performance for dibs is 1pc lower with the new phon set, no?? maybe forget, since we will rerun everything anyway...
+
+*** troubleshoot oberon on step 3 segmentation, which boils down to
+    the following
+
+- dibs OK though odd that performance for dibs is 1pc lower with the
+  new phon set, no?? maybe forget, since we will rerun everything
+  anyway...
+
 - ngrams OK
-- TP OK, odd that performance is 2pc higher now; notice that standard format cannot be created now because spaces between letters are lost
-- AG OK, changed to c3syll+functionwords standard format cannot be created bc spaces bet letters lost
-- Puddle: poor performance because testing on the whole thing!!!! --> we decide to test on last 20% for all corpora
+
+- TP OK, odd that performance is 2pc higher now; notice that standard
+  format cannot be created now because spaces between letters are lost
+
+- AG OK, changed to c3syll+functionwords standard format cannot be
+  created bc spaces bet letters lost
+
+- Puddle: poor performance because testing on the whole thing!!!! -->
+  we decide to test on last 20% for all corpora
 
 *** implement phillips
+
 - now: ran one iteration of DMCMC on their own input; output looks okay
+
 - in process: adaptation to our own input
 
-*** change pipeline so that 
-- the first step is to create train (first 80% lines) and test (last 20% lines) corpora (see dmcmc.sh for code "split training and test")
+*** change pipeline so that
+
+- the first step is to create train (first 80% lines) and test (last
+  20% lines) corpora (see dmcmc.sh for code "split training and test")
+
 - the evaluation is done only on test section
 
 *** check branching in of trs-based pipeline
 
 ********************** STEP 1: Database creation ******************
+
 The necessary scripts are found in the folder called database_creation
 
 *** Alternative 1: .cha files
 
-1. Open and adapt scripts/cha2sel.sh, particularly the parts marked with "Attention". By doing this, you are selecting which speakers (lines) will be analyzed.
+1. Open and adapt scripts/cha2sel.sh, particularly the parts marked
+   with "Attention". By doing this, you are selecting which speakers
+   (lines) will be analyzed.
 
-2. Open and adapt scripts/selcha2clean.sh, particularly the parts marked with "Attention". By doing this you are correcting common misspellings in your database
+2. Open and adapt scripts/selcha2clean.sh, particularly the parts
+   marked with "Attention". By doing this you are correcting common
+   misspellings in your database.
 
 3. Open and adapt one of the wrappers or create a new one, such as:
-wrapper_clean_many_files.sh
-wrapper_oneFilePerCorpus.sh
+   wrapper_clean_many_files.sh
+   wrapper_oneFilePerCorpus.sh
 
 Further instructions are provided inside those files.
 
 4. Run the scripts by navigating to the folder and launching them:
-cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
-./wrapper_clean_many_files.sh
+   cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
+   ./wrapper_clean_many_files.sh
 
-OR
+   OR
 
-./wrapper_oneFilePerCorpus.sh
-
+   ./wrapper_oneFilePerCorpus.sh
 
 NOTES:
-- YOUR_ABSOLUTE_PATH_GOES_HERE is the absolute path leading to your local copy of database_creation
-- If this doesn't run at all (you get a "permission denied" error), it probably means that you haven't rendered the scripts executable. Do so by typing:
-chmod +x ./scripts/cha2sel.sh
-chmod +x ./scripts/selcha2clean.sh
-chmod +x wrapper_clean_many_files.sh
+
+- YOUR_ABSOLUTE_PATH_GOES_HERE is the absolute path leading to your
+  local copy of database_creation
+
+- If this doesn't run at all (you get a "permission denied" error), it
+  probably means that you haven't rendered the scripts executable. Do
+  so by typing:
+
+  chmod +x ./scripts/cha2sel.sh
+  chmod +x ./scripts/selcha2clean.sh
+  chmod +x wrapper_clean_many_files.sh
 
 *** Alternative 2: BUCKEYE
-1. Adapt the following variables, being careful to provide absolute paths. Then copy and paste these 4 lines onto a terminal window
 
+1. Adapt the following variables, being careful to provide absolute
+   paths. Then copy and paste these 4 lines onto a terminal window.
 
-KEYNAME="buckeye_allbreaks" #pick a nice name for your phonological corpus, because this keyname will be used for every output file!
-RAWFOLDER="/Users/caofrance/Documents/databases/Buckeyebootphon/" #must exist and contain cha files - NOTICE THE / AT THE END OF THE NAME
-RESFOLDER="/Users/caofrance/Documents/tests/res_buckeye_allbreaks/"   #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
-LANGUAGE="english" #right now, only options is english -- NOTICE, IN SMALL CAPS
+# pick a nice name for your phonological corpus, because this keyname
+# will be used for every output file!
+KEYNAME="buckeye_allbreaks"
 
+# must exist and contain cha files - notice the / at the end of the name
+RAWFOLDER="/Users/caofrance/Documents/databases/Buckeyebootphon/"
 
-2. Open and adapt if necessary fromBuckeye2clean_human.text, particularly the part that is marked with "Attention" - this concerns boundary decisions.
+# will be created and loads of output files will be stored there -
+# notice the / at the end of the name
+RESFOLDER="/Users/caofrance/Documents/tests/res_buckeye_allbreaks/"
 
+ # right now, only options is english -- NOTICE, IN SMALL CAPS
+LANGUAGE="english"
+
+2. Open and adapt if necessary fromBuckeye2clean_human.text,
+   particularly the part that is marked with "Attention" - this
+   concerns boundary decisions.
 
 3. Run the scripts by navigating to the folder and launching them:
-cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
-./fromBuckeye2clean_human.text $KEYNAME $RAWFOLDER $RESFOLDER $LANGUAGE
+
+   cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
+   ./fromBuckeye2clean_human.text $KEYNAME $RAWFOLDER $RESFOLDER $LANGUAGE
 
 ********************** STEP 2: Phonologizing ******************
 The necessary scripts are found in the folder called phonologization
 
-This step is (internally) very different depending on whether you are analyzing Qom or English (the two languages we have worked with so far). There is one example wrapper that contains information for phonologizing both languages:
+This step is (internally) very different depending on whether you are
+analyzing Qom or English (the two languages we have worked with so
+far). There is one example wrapper that contains information for
+phonologizing both languages:
+
 wrapper_oneFilePerCorpus.sh
 
-And another example wrapper that phonologizes all files within the list produced by wrapper_clean_many_files.sh in Step 1. #NOTE! this wrapper is actually not finished; it would be the version that works with the multicorpora that Xuan Nga has been analyzing...
+And another example wrapper that phonologizes all files within the
+list produced by wrapper_clean_many_files.sh in Step 1.
+
+#NOTE! this wrapper is actually not finished; it would be the version
+that works with the multicorpora that Xuan Nga has been analyzing...
 
 
 ********************** STEP 3: Segmentation  ******************
+
 The necessary scripts are found in the folder called algoComp
 
 1. In a terminal window, navigate to the algoComp/ subfolder
 
-2. Adapt the following variables
-and copy-paste them into a terminal 
+2. Adapt the following variables and copy-paste them into a terminal
 
 ABSPATH="`pwd`/"
 KEYNAME="bernsteinads"
@@ -102,7 +163,7 @@ Follow one the 3.1 or 3.2 alternatives
 
 3.1. Compute it on your machine
 
-    ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER  
+    ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER
 #AG isn't working anymore on my mac - to be checked!
 #other than that, ALL OK 2015-10-14
 
@@ -116,13 +177,15 @@ argument matters, not its content. See pipeline/clusterize.sh for more
 details.
 
     ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER notnull
-#AG not run yet because checking problem in the macbook pro bootphon
-#of the other algos,
-#only ngrams seems to work & produce a non-empty gold -- is it a problem with python??
+
+# AG not run yet because checking problem in the macbook pro bootphon
+# of the other algos, only ngrams seems to work & produce a non-empty
+# gold -- is it a problem with python??
 
 
-
-4. This will result in many files being added to your results directory. The most interesting one might be the one called _<YOUR KEYNAME>-cfgold.txt, which looks like this:
+4. This will result in many files being added to your results
+   directory. The most interesting one might be the one called _<YOUR
+   KEYNAME>-cfgold.txt, which looks like this:
 
 algo token_f-score token_precision token_recall boundary_f-score boundary_precision boundary_recall
 dibs 0.2353 0.3118 0.189 0.4861 0.6915 0.3748
@@ -202,7 +265,9 @@ a different version of adaptor grammar -- ask Alex about it.
 - If you get an error
 ./do_colloq0_english.sh: line 49: py-cfg-new/py-cfg: cannot execute binary file
 
-this means that something went wrong with the Adaptor Grammar build. Navigate to algos/AG/py-cfg-new and run
+this means that something went wrong with the Adaptor Grammar
+build. Navigate to algos/AG/py-cfg-new and run
+
 make clean
 make
 
@@ -228,7 +293,7 @@ Tests:
 		mini	oberon	macbook
 1.database	OK	OK
 2.phonol	fail	OK
-3.segment	( )	
+3.segment	( )
 
 errors mac mini phonologize
 Traceback (most recent call last):

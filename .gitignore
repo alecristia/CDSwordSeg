@@ -16,7 +16,11 @@ algoComp/scripts/*.pyc
 phonologization/scripts/examples
 /phonologization/scripts/bern.out
 /phonologization/scripts/bern.phon
-phonologization/scripts/test/
+phonologization/scripts/test*
 /algoComp/algos/phillips-pearl2014/dpseg
 /algoComp/algos/phillips-pearl2014/dpseg_files/dpseg
 /algoComp/algos/phillips-pearl2014/output_clean/*
+/algoComp/algos/phillips-pearl2014/syllable-conversion/in.txt
+/algoComp/algos/phillips-pearl2014/syllable-conversion/out.txt
+algoComp/test/*.txt*
+algoComp/algos/phillips-pearl2014/dpseg_files/dpseg
