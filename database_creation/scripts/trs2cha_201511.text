@@ -1,17 +1,22 @@
 #Converting trs files to CHILDES-like format
-#Alex Cristia alecristia@gmail.com 2015-06-17
+#Alex Cristia alecristia@gmail.com 2015-11 comparison
+#this version generates three versions of the corpus: adult directed only, child directed only, and directed to the key child only
 
 #########VARIABLES
 #*****VARIABLES TO CHANGE*********#
-TRSFOLDER="/home/rolthiolliere/Documents/databases/LENA201507/TRS/" #must exist and contain trs files
-CHAFOLDER="/home/rolthiolliere/Documents/databases/LENA201507/CHAads/" #will be created and output cha files will be stored there
+TRSFOLDER="/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/trs/" #must exist and contain trs files
+CHAFOLDER="/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/cha/" #will be created and output cha files will be stored there
 #*********************************#
-#NOTE: there are lots of annotation below, but there is only one bit you need to pay attention to, and it's indicated with an elegant decoration
+#NOTE: there are lots of annotation below, hopefully explanatory
+
+mkdir $CHAFOLDER
+
 
 #Step 1: generate a file that contains only sentences we want
 for j in $TRSFOLDER*.trs; do
-	k="${j%???}"txt
-	grep "|" "$j" | grep -v '^|' | grep -v '^VOC' | sed 's/|.C.*F.|/|/g' | sed 's/CRY//g' | sed 's/SIL//g' | sed 's/BBL//g' | sed 's/VOC//g' | sed 's/VFX//g'  | tr '.' '\n' | grep -v '^[0-9]' | grep -v ' |T|' | grep -v ' |C|' | grep -v ' |U|' | grep -v '|I[0-9]' | grep -v '|C[0-9]' | sed 's/&lt;//g' |  sed 's/&gt;//g' | sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g"  > ~/Desktop/temp.txt
+	k="${j%????}"
+	grep "|" "$j" | grep -v '^|' | grep -v '^VOC' | sed 's/|.C.*F.|/|/g' | sed 's/CRY//g' | sed 's/SIL//g' | sed 's/BBL//g' | sed 's/VOC//g' | sed 's/VFX//g'  | tr '.' '\n' | grep -v '^[0-9]' | grep -v ' |T|' | grep -v ' |C|' | grep -v ' |O|' | grep -v ' |U|' | grep -v '|I[0-9]' | grep -v '|C[0-9]' | sed 's/&lt;//g' |  sed 's/&gt;//g' | sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g"  > ${TRSFOLDER}temp.tmp
+
 # 
 #This means: 
 #grep "|" $j | = focus on lines which contain | codes, because they may contain transcriptions
@@ -23,36 +28,33 @@ for j in $TRSFOLDER*.trs; do
 #grep -v '^[0-9]' = remove sentences that start with numbers because those are overlaps
 #grep -v ' |T|' | = remove utterances by the target child
 #grep -v ' |C|' | = remove utterances by an uncertain child
-#grep -v ' |U|' | = remove utterances that are uncertain
+#grep -v ' |O|' | = remove utterances by another child
+#grep -v ' |U|' | = remove utterances by an uncertain person
 #grep -v '|I[0-9]' | = remove utterances that are initiated and cut by an overlap...
 #grep -v '|C[0-9]' = ... as well as their continuations
 #sed 's/&lt;//g' |  sed 's/&gt;//g'| sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g" = remove ugly characters
 
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!
-#! 	ATTENTION HUMAN !!! A CHOICE NEEDS TO BE MADE HERE!!	 !#!!!
-#!								 !#!!!
-#OPTION 1: Do you want to analyze only the adult-directed speech?!#!!!
-#Then uncomment the next line and comment out 			 !#!!!
-#(add "#" at the beginning of the line) the other options	 !#!!!
-	grep -e ' |.|A' < ~/Desktop/temp.txt > "$k"			 
-#								 !#!!!
-#OPTION 2: Do you want to analyze only the child-directed speech?!#!!!
-#Then uncomment the next line and comment out the other options	 !#!!!
-	grep -e ' |.|O' -e ' |.|C' < ~/Desktop/temp.txt > "$k"			 
-#								 !#!!!
-#OPTION 3: Do you want to collapse across all of the addresses?	 !#!!!
-#Uncomment the next line and comment out the other options	 !#!!!
-	mv ~/Desktop/temp.txt "$k"
-#Good choice!		 					 !#!!!
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!
+#OPTION 1: to analyze only the adult-directed speech		!#!!!
+	grep -e ' |.|A' < ${TRSFOLDER}temp.tmp > "${k}_ADS.txt"			 
 
+#OPTION 2: to analyze only and all the child-directed speech		!#!!!
+	grep  -e ' |.|O' -e ' |.|C' < ${TRSFOLDER}temp.tmp > "${k}_CDS.txt"			 
+#								 !#!!!
+#OPTION 3: to analyze only the KEY child-directed speech		!#!!!
+	grep  -e ' |.|C' < ${TRSFOLDER}temp.tmp > "${k}_KDS.txt"			 
+
+	rm ${TRSFOLDER}temp.tmp
 done
+
 
 
 #Step 2: Fake CHILDES format lines
 for j in $TRSFOLDER*.txt; do
 	k="${j%???}"cha
 	sed '/ |M/ s/[a-z]*/\*FAT: &/' "$j" | sed '/ |F/ s/[a-z]*/\*MOT: &/' | sed '/ |O/ s/[a-z]*/\*SIB: &/' | sed 's/|.*|//g' > "$k"
+	nl=`wc -l "$j" | cut -f1 -d' '`
+	nw=`wc -w "$j" | cut -f1 -d' '`
+	echo "$j" "$nl" "$nw" >> ${CHAFOLDER}summary.txt
 done
 
 #This means:
@@ -61,12 +63,5 @@ done
 #sed '/ \|O/ s/[a-z]*/\*SIB: &/' | =add SIBLING at the beginning (same for all "other child" utterances
 #sed 's/\|.*\|//g' =remove the old codes of who spoke to whom & how
 
-mkdir $CHAFOLDER
 mv $TRSFOLDER*cha $CHAFOLDER
-
-#Step 3: Add fake CHILDES header TODO!!!
-#for j in $CHAFOLDER*.cha
-#do
-#cat CHA/base.txt $j > CHA/$j
-#done
 

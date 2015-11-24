@@ -10,9 +10,7 @@ RESFOLDER=$3
 ROOT=$RESFOLDER$KEYNAME
 ALGO="dmcmc"
 
-# ATTENTION
-# Must be python3: unicode support is far more better than in python2
-PYTHON=python3
+PYTHON=python
 
 # Navigate to the folder
 cd ${ABSPATH}algos/phillips-pearl2014
@@ -65,6 +63,7 @@ ver=1
 # ATTENTION not sure it will work as we expect - it should, since we
 # are still feeding it unicode input as before, but one never knows...
 
+
 DPSEG=./dpseg_files/dpseg
 output=U_DMCMC:$a.$b1.ver$ver.txt
 stats=U_DMCMC:$a.$b1.ver${ver}stats.txt
@@ -88,11 +87,13 @@ $PYTHON syllable-conversion/convert-from-unicode.py \
 # NOTE writing with standard format IS possible for this algo but not
 # implemented
 
+# Do the evaluation
 echo Do the evaluation...
+
 cd ${ABSPATH}scripts
 ./doAllEval.text $RESFOLDER $KEYNAME $ALGO
 
-# Final clean up
+# Final clean up TODO
 #cd $RESFOLDER
 #rm *.seg
 
