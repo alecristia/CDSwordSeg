@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 """Create a unicode mapping of a list of syllables.
 
@@ -20,6 +20,7 @@ Copyright 2015 Mathieu Bernard
 """
 
 import argparse
+import codecs
 
 def main():
     parser = argparse.ArgumentParser()
@@ -30,16 +31,16 @@ def main():
     base = 3001
     current = 0
 
-    with open(args.output, 'w') as out:
+    with codecs.open(args.output, 'w', encoding='utf-8') as out:
         # process input file line per line
-        for syl in open(args.input, 'r').read().splitlines():
+        for syl in codecs.open(args.input, 'r', encoding='utf-8').read().splitlines():
             # As in the original script, this ensures the syllable is
             # not encoded as a space (not sure it's really usefull).
             encoded = ' '
             while ' ' in encoded:
-                encoded = chr(base + current)
+                encoded = unichr(base + current)
                 current += 1
-            out.write(syl + '\t' + encoded + '\n')
+            out.write(syl + ' ' + encoded + '\n')
 
 if __name__ == '__main__':
     main()

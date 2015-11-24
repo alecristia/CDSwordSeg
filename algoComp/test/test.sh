@@ -18,7 +18,7 @@ rm -f $RESFOLDER$KEYNAME*
 # setup input file and phonologize it
 ORTHO=$RESFOLDER$KEYNAME-ortholines.txt
 TAGS=$RESFOLDER$KEYNAME-tags.txt
-cp $CHILDES_ROOT/Brent_res/w1-1005_cds/w1-1005-ortholines.txt $ORTHO
+scp oberon:$CHILDES_ROOT/Brent_res/w1-1005_cds/w1-1005-ortholines.txt $ORTHO
 chmod -x $ORTHO
 
 echo Phonologizing $ORTHO...

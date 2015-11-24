@@ -10,9 +10,7 @@ RESFOLDER=$3
 ROOT=$RESFOLDER$KEYNAME
 ALGO="dmcmc"
 
-# ATTENTION
-# Must be python3: unicode support is far more better than in python2
-PYTHON=python3
+PYTHON=python
 
 # Navigate to the folder
 cd ${ABSPATH}algos/phillips-pearl2014

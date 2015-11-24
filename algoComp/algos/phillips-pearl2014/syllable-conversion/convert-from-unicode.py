@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 """Convert a list of unicode chars to syllables
 
@@ -10,6 +10,7 @@ Copyright 2015 Mathieu Bernard
 """
 
 import argparse
+import codecs
 import os
 
 
@@ -17,7 +18,7 @@ def read_lines(filename):
     """Return a list of lines in the file"""
     if not os.path.isfile(filename):
         raise OSError('{} is not a file'.format(filename))
-    return open(filename, 'r').read().splitlines()
+    return codecs.open(filename, 'r', encoding='utf-8').read().splitlines()
 
 
 class Converter(object):
@@ -25,7 +26,7 @@ class Converter(object):
         self._dict = {}
 
         for line in read_lines(dict_file):
-            l = line.split('\t')
+            l = line.split(' ')
             self._dict[l[1]] = l[0]
 
     def convert(self, syllable):
@@ -46,7 +47,7 @@ def main():
     # load the syllables/unicode converter
     c = Converter(args.dictionary)
 
-    with open(args.output, 'w') as out:
+    with codecs.open(args.output, 'w', encoding='utf-8') as out:
         # convert each syllable of each line
         for line in read_lines(args.input):
             for syl in line.replace(' ', ''):
