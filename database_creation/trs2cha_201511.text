@@ -76,7 +76,7 @@ done
 #Step 2: Fake CHILDES format lines
 for j in $TRSFOLDER*.txt; do
 	k="${j%???}"cha
-	sed '/ |M/ s/[a-z]*/\*FAT: &/' "$j" | sed '/ |F/ s/[a-z]*/\*MOT: &/' | sed '/ |O/ s/[a-z]*/\*SIB: &/' | sed 's/|./ /g' | tr -d '|' | tr -s ' ' > "$k"
+	sed '/ |M/ s/[a-z]*/\*FAT: &/' "$j" | sed '/ |F/ s/[a-z]*/\*MOT: &/' | sed '/ |O/ s/[a-z]*/\*SIB: &/' | sed 's/|[A-Z][A-Z]/ /g' | sed 's/|./ /g' | tr -d '|' | tr -s ' ' > "$k"
 	nl=`wc -l "$j" | cut -f1 -d' '`
 	nw=`wc -w "$j" | cut -f1 -d' '`
 	echo "$j" "$nl" "$nw" >> ${CHAFOLDER}summary.txt
@@ -88,5 +88,16 @@ done
 #sed '/ \|O/ s/[a-z]*/\*SIB: &/' | =add SIBLING at the beginning (same for all "other child" utterances
 #sed 's/\|[^|]*\|//g' =remove the old codes of who spoke to whom & how
 
-mv $TRSFOLDER*cha $CHAFOLDER
+mkdir ${CHAFOLDER}WL_ADS_HS
+mv $TRSFOLDER*ADS_humanseg.cha ${CHAFOLDER}WL_ADS_HS
+
+mkdir ${CHAFOLDER}WL_ADS_LS
+mv $TRSFOLDER*ADS.cha ${CHAFOLDER}WL_ADS_LS
+
+mkdir ${CHAFOLDER}WL_CDS_HS
+mv $TRSFOLDER*CDS_humanseg.cha ${CHAFOLDER}WL_CDS_HS
+
+mkdir ${CHAFOLDER}WL_CDS_LS
+mv $TRSFOLDER*CDS.cha ${CHAFOLDER}WL_CDS_LS
+
 
