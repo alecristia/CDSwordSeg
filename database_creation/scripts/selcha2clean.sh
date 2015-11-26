@@ -31,13 +31,12 @@ tr -d ';' |
 tr -d '\<' |
 tr -d '\>' |
 tr -d ','  |
-tr -d '(' |
-tr -d ')' |
 tr -d ':'  |
 sed 's/&[^ ]*//g' |
 grep -v '\[- spa\]' |
 sed 's/[^ ]*@sspa//g' |
-sed 's/ \[.*\]//g' |
+sed 's/\[[^[]*\]//g' |
+sed 's/([^(]*)//g' |
 sed 's/xxx//g' |
 sed 's/www//g' |
 sed 's/XXX//g' |
