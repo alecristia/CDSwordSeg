@@ -15,7 +15,14 @@ mkdir $CHAFOLDER
 #Step 1: generate a file that contains only sentences we want
 for j in $TRSFOLDER*.trs; do
 	k="${j%????}"
-	grep "|" "$j" | grep -v '^|' | grep -v '^VOC' | sed 's/|.C.*F.|/|/g' | sed 's/CRY//g' | sed 's/SIL//g' | sed 's/BBL//g' | sed 's/VOC//g' | sed 's/VFX//g'  | tr '.' '\n' | grep -v '^[0-9]' | grep -v ' |T|' | grep -v ' |C|' | grep -v ' |O|' | grep -v ' |U|' | grep -v '|I[0-9]' | grep -v '|C[0-9]' | sed 's/&lt;//g' |  sed 's/&gt;//g' | sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g"  > ${TRSFOLDER}temp.tmp
+	grep "|" "$j" | grep -v '^|' | grep -v '^VOC'  | sed 's/CRY//g' | sed 's/SIL//g' | sed 's/BBL//g' | sed 's/VOC//g' |
+	 sed 's/VFX//g' | 
+	sed -r 's/(\|[BRE]C\|[0-9]*\|[0-9]*\|[0-9]*\|[A-Z/]*\|[A-Z]*\|[A-Z]*)(|.\|.\|.*\|.\|$)/\2/g' |
+	 tr '.' '\n' | grep -v '^[0-9]' | grep -v ' |T|' | grep -v ' |C|' | grep -v ' |O|' | grep -v ' |U|' | 
+	grep -v '|I[0-9]' | grep -v '|C[0-9]' | 
+	 sed -r 's/I\|.\|/topaste/' |
+sed '/topaste$/N;s/\n/\t/' |
+	sed 's/&lt;//g' |  sed 's/&gt;//g' | sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g"  > ${TRSFOLDER}temp.tmp
 
 # 
 #This means: 

@@ -49,14 +49,6 @@ Our current pipeline involves three steps:
 
 - in process: adaptation to our own input
 
-*** change pipeline so that
-
-- the first step is to create train (first 80% lines) and test (last
-  20% lines) corpora (see dmcmc.sh for code "split training and test")
-
-- the evaluation is done only on test section
-
-*** check branching in of trs-based pipeline
 
 ********************** STEP 1: Database creation ******************
 
