@@ -24,7 +24,12 @@ Our current pipeline involves three steps:
 
 
 ********************** TODO  ******************
+- Mathieu still working on adapting Phillips
+- AC update the evaluation section for all the batch algos (i.e., not PUDDLE or Phillips)
+- AC start running the experiments on all the batch algos
+- whoever is done first will implement a cross-validation with 20% chunks on the non-batch algos
 
+OLD backup
 *** troubleshoot oberon on step 3 segmentation, which boils down to
     the following
 
