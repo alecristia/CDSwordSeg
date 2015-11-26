@@ -5,6 +5,7 @@
 #########VARIABLES
 #*****VARIABLES TO CHANGE*********#
 TRSFOLDER="/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/trs/" #must exist and contain trs files
+#TRSFOLDER="/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/test/" #must exist and contain trs files
 CHAFOLDER="/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/cha/" #will be created and output cha files will be stored there
 #*********************************#
 #NOTE: there are lots of annotation below, hopefully explanatory
@@ -15,35 +16,59 @@ mkdir $CHAFOLDER
 #Step 1: generate a file that contains only sentences we want
 for j in $TRSFOLDER*.trs; do
 	k="${j%????}"
-	grep "|" "$j" | grep -v '^|' | grep -v '^VOC' | sed 's/|.C.*F.|/|/g' | sed 's/CRY//g' | sed 's/SIL//g' | sed 's/BBL//g' | sed 's/VOC//g' | sed 's/VFX//g'  | tr '.' '\n' | grep -v '^[0-9]' | grep -v ' |T|' | grep -v ' |C|' | grep -v ' |O|' | grep -v ' |U|' | grep -v '|I[0-9]' | grep -v '|C[0-9]' | sed 's/&lt;//g' |  sed 's/&gt;//g' | sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g"  > ${TRSFOLDER}temp.tmp
+	grep "|" "$j" | 
+	sed 's/CRY//g' | sed 's/SIL//g' | sed 's/BBL//g' | sed 's/VOC//g' | sed 's/VFX//g' |
+	tr -s ' ' | grep -v '^ |' |  grep -v '^|' | 
+	sed -r 's/(\|[BRE]C\|[0-9]*\|[0-9]*\|[0-9]*\|[A-Z/]*\|[A-Z]*\|[A-Z]*)(|.\|.\|.*\|.\|$)/ \2/g' |
+	 tr '.' '\n' | 
+	grep -v '^[0-9]' |
+	sed 's/&lt;/ /g' |  sed 's/&gt;/ /g' | sed "s/i'i/i/g" | tr -d '\r' | 
+	sed -r 's/([a-z])(\|)/\1 \2/g' |
+	grep -v ' |T|' | grep -v ' |C|' | grep -v ' |O|' | grep -v ' |U|' | 
+	grep -v '|I[0-9]' | grep -v '|C[0-9]'   > ${TRSFOLDER}temp.tmp
+
 
 # 
 #This means: 
 #grep "|" $j | = focus on lines which contain | codes, because they may contain transcriptions
-#grep -v '^|' | = remove every line that haven't been transcribed, since they start with |
-#grep -v '^VOC' | = remove additional lines that haven't been transcribed, since they start with VOC
-#sed 's/|.C.*F.|/|/g' | = remove the LENA codes for interaction if any
-#sed 's/VOC//g' | sed 's/VFX//g' | = remove VOC and VFX LENA codes for child vocalization (speech-like VOC and fixed VFX)
+#grep -v 'CRY' |... sed 's/VFX//g' | = remove  LENA labels  (speech-like VOC, silence SIL, babble BBL, fixed VFX)
+#tr -s ' ' | grep -v '^ |' | grep -v '^|' | = remove every line that haven't been transcribed, since they start with |
+#sed -r 's/(\|[BRE]C\|[0-9]*\|[0-9]*\|[0-9]*\|[A-Z/]*\|[A-Z]*\|[A-Z]*)(|.\|.\|.*\|.\|$)/\2/g' | = remove the LENA codes for interaction if any
 #tr '.' '\n' = break down sentences coded together in the same turn with a long intervening silence (.) into two separate lines
 #grep -v '^[0-9]' = remove sentences that start with numbers because those are overlaps
+#sed 's/&lt;//g' |  sed 's/&gt;//g' | sed "s/i'i/i/g"  = remove ugly characters
 #grep -v ' |T|' | = remove utterances by the target child
 #grep -v ' |C|' | = remove utterances by an uncertain child
 #grep -v ' |O|' | = remove utterances by another child
 #grep -v ' |U|' | = remove utterances by an uncertain person
 #grep -v '|I[0-9]' | = remove utterances that are initiated and cut by an overlap...
 #grep -v '|C[0-9]' = ... as well as their continuations
-#sed 's/&lt;//g' |  sed 's/&gt;//g'| sed 's/[^ ]*\^[^ ]*//g' | sed "s/i'i/i/g" = remove ugly characters
 
-#OPTION 1: to analyze only the adult-directed speech		!#!!!
-	grep -e ' |.|A' < ${TRSFOLDER}temp.tmp > "${k}_ADS.txt"			 
 
-#OPTION 2: to analyze only and all the child-directed speech		!#!!!
-	grep  -e ' |.|O' -e ' |.|C' < ${TRSFOLDER}temp.tmp > "${k}_CDS.txt"			 
-#								 !#!!!
-#OPTION 3: to analyze only the KEY child-directed speech		!#!!!
-	grep  -e ' |.|C' < ${TRSFOLDER}temp.tmp > "${k}_KDS.txt"			 
+# In the next phase, we create the line selections
+#VERSION 1: to analyze only the adult-directed speech		!#!!!
+	grep -e ' |.|A' < "${TRSFOLDER}temp.tmp" > "${k}_ADS.txt"			 
 
-	rm ${TRSFOLDER}temp.tmp
+#VERSION 2: to analyze only the TARGET CHILD child-directed speech		!#!!!
+	grep  -e ' |.|T' < "${TRSFOLDER}temp.tmp" > "${k}_CDS.txt"			 
+
+#another version, just to check against Melanie's pipeline
+	grep  -e ' |.|T' -e ' |.|O' -e ' |.|C' < "${TRSFOLDER}temp.tmp" > "${k}_KDS.txt"			 
+
+#create a version reflecting segments glued together by humans
+#sed -r 's/I\|.\|/toglue/' | awk '{if($NF~"toglue"){mem=mem $0 " "}else{print mem $0; mem="" }}END{print mem}' = trick to glue together the lines that are considered continuations (without overlap)
+	sed -r 's/I\|.\|/toglue/' < "${TRSFOLDER}temp.tmp" | awk '{if($NF~"toglue"){mem=mem $0 " "}else{print mem $0; mem="" }}END{print mem}' | sed "s/toglue//g" > "${TRSFOLDER}temp_glued.tmp"
+
+#VERSION 1: to analyze only the adult-directed speech - human style segmentation		!#!!!
+	grep -e ' |.|A' < "${TRSFOLDER}temp_glued.tmp" > "${k}_ADS_humanseg.txt"			 
+
+#VERSION 2: to analyze only the TARGET CHILD child-directed speech	-human style segmentation	!#!!!
+	grep  -e ' |.|T' < "${TRSFOLDER}temp_glued.tmp" > "${k}_CDS_humanseg.txt"			 
+
+#another version, just to check against Melanie's pipeline
+	grep  -e ' |.|T' -e ' |.|O' -e ' |.|C' < "${TRSFOLDER}temp_glued.tmp" > "${k}_KDS_humanseg.txt"			 
+
+	rm ${TRSFOLDER}*.tmp
 done
 
 
@@ -51,7 +76,7 @@ done
 #Step 2: Fake CHILDES format lines
 for j in $TRSFOLDER*.txt; do
 	k="${j%???}"cha
-	sed '/ |M/ s/[a-z]*/\*FAT: &/' "$j" | sed '/ |F/ s/[a-z]*/\*MOT: &/' | sed '/ |O/ s/[a-z]*/\*SIB: &/' | sed 's/|.*|//g' > "$k"
+	sed '/ |M/ s/[a-z]*/\*FAT: &/' "$j" | sed '/ |F/ s/[a-z]*/\*MOT: &/' | sed '/ |O/ s/[a-z]*/\*SIB: &/' | sed 's/|./ /g' | tr -d '|' | tr -s ' ' > "$k"
 	nl=`wc -l "$j" | cut -f1 -d' '`
 	nw=`wc -w "$j" | cut -f1 -d' '`
 	echo "$j" "$nl" "$nw" >> ${CHAFOLDER}summary.txt
@@ -61,7 +86,7 @@ done
 #sed '/ \|M/ s/[a-z]*/\*FAT: &/' $j | = use CHILDES code for father (FAT) for all Male adult LENA utterances
 #sed '/ \|F/ s/[a-z]*/\*MOT: &/' | = use CHILDES code for mother (MOT) for all Female adult LENA utterances
 #sed '/ \|O/ s/[a-z]*/\*SIB: &/' | =add SIBLING at the beginning (same for all "other child" utterances
-#sed 's/\|.*\|//g' =remove the old codes of who spoke to whom & how
+#sed 's/\|[^|]*\|//g' =remove the old codes of who spoke to whom & how
 
 mv $TRSFOLDER*cha $CHAFOLDER
 

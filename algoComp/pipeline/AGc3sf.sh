@@ -44,6 +44,15 @@ $GRAMMARFILE $RESFOLDER $KEYNAME
 #sed 's/ /;/g' "${RESFOLDER}_mbr-Colloc0.seg" | sed 's/./& /g' | sed 's/ ;/;aword/g' > $RESFOLDER$KEYNAME-${ALGO}-output.txt
 #sed 's/ //g'  $RESFOLDER$KEYNAME-${ALGO}-output.txt | sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
 
+# Store	the segmented output in	a "full" file, and prepare the last 20%	of lines for evaluation 
+N=`wc -l $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt | cut -f1 -d' '`
+Ntest=`echo "$((N * 1 / 5))"`
+
+mv $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt $RESFOLDER$KEYNAME-${ALGO}-cfgold-full.txt
+
+tail -$Ntest -l $RESFOLDER$KEYNAME-${ALGO}-cfgold-full.txt > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
+
+
 # Do the evaluation
 cd ${ABSPATH}scripts
 ./doAllEval.text $RESFOLDER $KEYNAME $ALGO
