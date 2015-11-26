@@ -20,8 +20,7 @@ CLUSTERIZE=$4
 #############################################
 
 #1. Prepare for the performances
-CFGOLD="algo token_f-score token_precision token_recall
-boundary_f-score boundary_precision boundary_recall"
+CFGOLD="algo token_f-score token_precision token_recall boundary_f-score boundary_precision boundary_recall"
 
 echo $CFGOLD > ${RESFOLDER}_$KEYNAME-cfgold.txt
 

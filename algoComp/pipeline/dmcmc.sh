@@ -23,7 +23,7 @@ cat $ROOT-tags.txt |
 
 # Create a syllable list for this corpus
 cat  $ROOT-syl.txt |
-    sed 's/ /\n/g' |
+    sed 's/ /\n/g' |$RESFOLDER$KEYNAME*
     sort | uniq |
     sed '/^$/d'  > $ROOT-sylList.txt
 
@@ -43,15 +43,15 @@ $PYTHON syllable-conversion/convert-to-unicode.py \
 #echo Writed $ROOT-syl-unicode.txt
 
 #NOTE: set up for a single run -- might need to revise if multirun
-echo Spliting train and test...
-N=`wc -l $ROOT-syl-unicode.txt | cut -f1 -d' '`
-Ntrain=`echo "$((N * 4 / 5))"`
-Nbegtest=`echo "$((Ntrain + 1))"`
+# echo Spliting train and test...
+# N=`wc -l $ROOT-syl-unicode.txt | cut -f1 -d' '`
+# Ntrain=`echo "$((N * 4 / 5))"`
+# Nbegtest=`echo "$((Ntrain + 1))"`
 
-sed -n 1,${Ntrain}p  $ROOT-syl-unicode.txt \
-    > $ROOT-syl-unicode-train.txt
-sed -n $Nbegtest,${N}p $ROOT-syl-unicode.txt \
-    > $ROOT-syl-unicode-test.txt
+# sed -n 1,${Ntrain}p  $ROOT-syl-unicode.txt \
+#     > $ROOT-syl-unicode-train.txt
+# sed -n $Nbegtest,${N}p $ROOT-syl-unicode.txt \
+#     > $ROOT-syl-unicode-test.txt
 
 # running DMCMC algo
 echo -n Running $ALGO
@@ -67,8 +67,9 @@ ver=1
 DPSEG=./dpseg_files/dpseg
 output=U_DMCMC:$a.$b1.ver$ver.txt
 stats=U_DMCMC:$a.$b1.ver${ver}stats.txt
-train=syl-unicode-train.txt
-test=syl-unicode-test.txt
+# train=syl-unicode-train.txt
+# test=syl-unicode-test.txt
+train=syl-unicode.txt
 
 $DPSEG \
     -C ./configs/config-uni-dmcmc.txt \
@@ -77,6 +78,7 @@ $DPSEG \
     --ngram $ngram --a1 $a --b1 $b1 \
     > $ROOT-$stats #--eval-file $ROOT-$test
 
+echo
 echo Translate output back from unicode format...
 cat $ROOT-$output | sed '/^$/d' > $ROOT-$output-seded
 $PYTHON syllable-conversion/convert-from-unicode.py \

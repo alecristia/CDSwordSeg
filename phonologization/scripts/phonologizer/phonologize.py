@@ -85,13 +85,14 @@ def postprocess(text):
             # TODO Check the word is not empty
             # itererate on syllabes
             for syllabe in word[1:]:
-                #iterate on phoneme
+                # iterate on phoneme
                 for phone in syllabe[1:]:
                     # remove the "" quoting each phoneme
                     res += phone[0][0].replace('"', '') + ' '
                 res += ';esyll '
             res += ';eword '
-        res += '\n'
+        # remove the last space before new line
+        res = res[:-1] + '\n'
     return res
 
 
