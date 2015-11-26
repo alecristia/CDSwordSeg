@@ -24,7 +24,7 @@ all: top
 # CFLAGS_BASE = -v -MMD -O0 -Wall $(GCCFLAGS) -g -DNDEBUG
 CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -Wno-deprecated -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)  -g -DNDEBUG
 # Goldwater original flags
-#CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)# -DNDEBUG 
+#CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)# -DNDEBUG
 LDFLAGS_BASE = -Wall -O6
 ifeq ($(OSTYPE),windows)
 CFLAGS = $(CFLAGS_BASE) -DOS_WINDOWS -I /usr/include/boost-1_33_1/
@@ -32,18 +32,19 @@ LDFLAGS = $(LDFLAGS_BASE) -enable-auto-import -L /usr/lib/
 LIBS = boost_program_options-gcc-mt
 CXX = g++-4
 else
-#CFLAGS = $(CFLAGS_BASE) -DOS_LINUX  -I /opt/local/include/gcc44/c++/boost/ 
-# CFLAGS = $(CFLAGS_BASE) -DOS_LINUX  -I /opt/local/include/boost/ 
+#CFLAGS = $(CFLAGS_BASE) -DOS_LINUX  -I /opt/local/include/gcc44/c++/boost/
+# CFLAGS = $(CFLAGS_BASE) -DOS_LINUX  -I /opt/local/include/boost/
 CFLAGS = $(CFLAGS_BASE) -DOS_LINUX -I /usr/local/include/boost/
 LDFLAGS = $(LDFLAGS_BASE) -L /usr/lib/
-#LDFLAGS = $(LDFLAGS_BASE) 
+#LDFLAGS = $(LDFLAGS_BASE)
 
 #######################################################
 # CHANGE THIS TO WHEREVER BOOST INSTALLS LIBRARY      #
 # FILES. CHANGE VERSION NUMBER TO MATCH YOUR CURRENT  #
 # BOOST VERSION                                       #
 #######################################################
-LIBS = /usr/lib64/libboost_program_options.so -lstdc++ -lm
+#LIBS = /usr/lib64/libboost_program_options.so -lstdc++ -lm
+LIBS = -lboost_program_options -lstdc++ -lm
 
 # using GCC 4.4 from macports
 CXX = gcc
@@ -53,7 +54,7 @@ EXEC = time
 #
 # debugging
 #
-# CFLAGS = -g -MMD -Wall -ffast-math -fstrict-aliasing $(GCCFLAGS) # -D_GLIBCXX_DEBUG # -D_GLIBCXX_CONCEPT_CHECKS 
+# CFLAGS = -g -MMD -Wall -ffast-math -fstrict-aliasing $(GCCFLAGS) # -D_GLIBCXX_DEBUG # -D_GLIBCXX_CONCEPT_CHECKS
 # LDFLAGS = -g -Wall
 # EXEC = valgrind --tool=memcheck --leak-check=full
 #
@@ -74,9 +75,9 @@ dpseg: main.o Estimators.o Data.o Sentence.o Scoring.o gammadist.o mt19937ar.o
 stimseg: stimseg.o Estimators.o Data.o Sentence.o Scoring.o gammadist.o mt19937ar.o
 	$(CXX) $(LDFLAGS) $^ -l $(LIBS) -o $@
 
-.PHONY: 
+.PHONY:
 clean:
-	rm -fr *.o *.d core 
+	rm -fr *.o *.d core
 
 .PHONY:
 real-clean: clean

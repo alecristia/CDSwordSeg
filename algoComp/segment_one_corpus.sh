@@ -30,8 +30,6 @@ echo $CFGOLD > ${RESFOLDER}_$KEYNAME-cfgold.txt
 ALGO_LIST="./puddle.sh"
 #./dibs.sh ./ngrams.sh"
 # ./TPs.sh  ./puddle.sh ./AGc3sf.sh"
-# 
-
 
 
 #3. Run all algos either locally or in the cluster

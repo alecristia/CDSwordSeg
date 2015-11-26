@@ -10,39 +10,12 @@ RESFOLDER=$3
 ROOT=$RESFOLDER$KEYNAME
 ALGO="dmcmc"
 
-# ATTENTION
-# Must be python3: unicode support is far more better than in python2
-PYTHON=python3
+PYTHON=python
 
 # Navigate to the folder
 cd ${ABSPATH}algos/phillips-pearl2014
 
 # Remove word tags to create syllabified input:
-<<<<<<< HEAD
-sed 's/;eword//g' $ROOT-tags.txt | tr -d ' ' | sed 's/;esyll/ /g' > $ROOT-syl.txt
-
-# Create a syllable list for this corpus
-sed 's/ /\n/g' $ROOT-syl.txt |
-    sort | uniq | sed '/^$/d'  > $ROOT-sylList.txt
-
-exit
-
-# Create a unicode equivalent for each syllable on that list
-echo Creating syllables to unicode dictionary
-$PYTHON syllable-conversion/create-unicode-dict.py \
-     $ROOT-sylList.txt \
-     $ROOT-sylList-unicode.txt
-
-# Translate the corpus into a unicode format
-echo Converting syllables to unicode
-$PYTHON syllable-conversion/convert-to-unicode.py \
-     $ROOT-syl.txt \
-     $ROOT-sylList-unicode.txt \
-     $ROOT-syl-unicode.txt
-
-# Split training and test
-#NOTE: set up for a single run -- might need to revise if multirun
-=======
 cat $ROOT-tags.txt |
     sed 's/;eword//g' |
     tr -d ' ' |
@@ -71,7 +44,6 @@ $PYTHON syllable-conversion/convert-to-unicode.py \
 
 #NOTE: set up for a single run -- might need to revise if multirun
 echo Spliting train and test...
->>>>>>> 151ff412db042803afcb6b251b51338975415fa8
 N=`wc -l $ROOT-syl-unicode.txt | cut -f1 -d' '`
 Ntrain=`echo "$((N * 4 / 5))"`
 Nbegtest=`echo "$((Ntrain + 1))"`
@@ -82,12 +54,6 @@ sed -n $Nbegtest,${N}p $ROOT-syl-unicode.txt \
     > $ROOT-syl-unicode-test.txt
 
 # running DMCMC algo
-<<<<<<< HEAD
-echo running $ALGO
-a=0
-b1=1
-ngram=1
-=======
 echo -n Running $ALGO
 a=0
 b1=1

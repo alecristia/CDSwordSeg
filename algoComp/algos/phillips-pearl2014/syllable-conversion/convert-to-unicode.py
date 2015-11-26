@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 """Convert a list of syllables to unicode mapping
 
@@ -10,28 +10,23 @@ Copyright 2015 Mathieu Bernard
 """
 
 import argparse
-<<<<<<< HEAD
-
-def load_dict(filename):
-    res = {}
-    for line in open(filename, 'r').read().splitlines():
-=======
+import codecs
 import os
 
 
-def read_lines(filename):
+def readlines(filename):
     """Return a list of lines in the file"""
     if not os.path.isfile(filename):
         raise OSError('{} is not a file'.format(filename))
-    return open(filename, 'r').read().splitlines()
+    return codecs.open(filename, 'r', encoding='utf-8').read().splitlines()
 
 
 class Converter(object):
     def __init__(self, dict_file):
         self._dict = {}
 
-        for line in read_lines(dict_file):
-            l = line.split('\t')
+        for line in readlines(dict_file):
+            l = line.split(' ')
             self._dict[l[0]] = l[1]
 
     def convert(self, syllable):
@@ -40,7 +35,6 @@ class Converter(object):
         except KeyError:
             raise ValueError(
                 '{}: {} is not a valid syllable'.format(__file__, syllable))
->>>>>>> 151ff412db042803afcb6b251b51338975415fa8
 
 
 def main():
@@ -50,21 +44,17 @@ def main():
     parser.add_argument('output')
     args = parser.parse_args()
 
-<<<<<<< HEAD
-    dictionary = load_dict(args.dictionary)
-=======
     # load the syllables/unicode converter
     c = Converter(args.dictionary)
 
-    with open(args.output, 'w') as out:
+    with codecs.open(args.output, 'w', encoding='utf-8') as out:
         # convert each syllable of each line
-        for line in read_lines(args.input):
+        for line in readlines(args.input):
             for syl in line.split(' '):
                 if not syl == '':
                     out.write(c.convert(syl))
             out.write('\n')
 
->>>>>>> 151ff412db042803afcb6b251b51338975415fa8
 
 if __name__ == '__main__':
     main()
