@@ -24,7 +24,12 @@ Our current pipeline involves three steps:
 
 
 ********************** TODO  ******************
+- Mathieu still working on adapting Phillips
+- AC update the evaluation section for all the batch algos (i.e., not PUDDLE or Phillips)
+- AC start running the experiments on all the batch algos
+- whoever is done first will implement a cross-validation with 20% chunks on the non-batch algos
 
+OLD backup
 *** troubleshoot oberon on step 3 segmentation, which boils down to
     the following
 
@@ -49,20 +54,36 @@ Our current pipeline involves three steps:
 
 - in process: adaptation to our own input
 
-*** change pipeline so that
-
-- the first step is to create train (first 80% lines) and test (last
-  20% lines) corpora (see dmcmc.sh for code "split training and test")
-
-- the evaluation is done only on test section
-
-*** check branching in of trs-based pipeline
 
 ********************** STEP 1: Database creation ******************
 
 The necessary scripts are found in the folder called database_creation
 
-*** Alternative 1: .cha files
+*** Alternative 1: .trs files from WinnipegLENA corpus
+
+1. Open and adapt one of the trs2cha scripts, e.g. scripts/trs2cha_201511.text (creates 3 selections) or scripts/trs2cha_all.text (collapses across all addressees). You need to pay attention to the variables at the top:
+- the trs folder is where your trs files are; 
+- the cha folder will be created so pick anything you want. (A reasonable option is that the folder is sister to the trs folder.)
+
+IMPORTANT!!! ALSO notice that there is a section in the middle that needs to be changed to select subsets of sentences! There is more explanation in comments (lines starting with #) in the middle of scripts/trs2cha_all.text.
+
+3. In a terminal window, navigate to the scripts subfolder of your database_creation folder, e.g.
+$ cd /home/rolthiolliere/Documents/database_creation/scripts 
+(you don't type the "$" -- this is just a convention to indicate that a line is copied + pasted into a terminal window)
+
+4. Now run the script from the terminal window by typing:
+$ ./trs2cha_201511.text #or whatever name you gave it
+
+(you might see an error "cannot create directory", don't worry about that - it'll just occur when you've already have a dir with that name, e.g. if you've already worked on this corpus)
+
+If you see a message like
+grep: /home/rolthiolliere/Documents/databases<something else>*.cha: No such file or directory
+it probably means you forgot the "/" at the end of the name.
+
+Normally, this will result in a folder being created, with .cha files inside. You then continue all steps in Alternative 2, because you now have .cha files.
+
+
+*** Alternative 2: .cha files
 
 1. Open and adapt scripts/cha2sel.sh, particularly the parts marked
    with "Attention". By doing this, you are selecting which speakers
@@ -99,7 +120,7 @@ NOTES:
   chmod +x ./scripts/selcha2clean.sh
   chmod +x wrapper_clean_many_files.sh
 
-*** Alternative 2: BUCKEYE
+*** Alternative 3: BUCKEYE
 
 1. Adapt the following variables, being careful to provide absolute
    paths. Then copy and paste these 4 lines onto a terminal window.

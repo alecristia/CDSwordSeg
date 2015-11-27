@@ -35,7 +35,7 @@ CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -Wno-deprecated		\
 -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)	\
 -g -DNDEBUG
 # Goldwater original flags
-#CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)# -DNDEBUG 
+#CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)# -DNDEBUG
 LDFLAGS_BASE = -Wall -O6
 ifeq ($(OSTYPE),windows)
 CFLAGS = $(CFLAGS_BASE) -DOS_WINDOWS -I /usr/include/boost-1_33_1/
@@ -45,7 +45,7 @@ CXX = g++-4
 else
 CFLAGS = $(CFLAGS_BASE) -DOS_LINUX $(BOOST_INCLUDE)
 LDFLAGS = $(LDFLAGS_BASE) -L /usr/lib/
-#LDFLAGS = $(LDFLAGS_BASE) 
+#LDFLAGS = $(LDFLAGS_BASE)
 
 #######################################################
 # CHANGE THIS TO WHEREVER BOOST INSTALLS LIBRARY      #
@@ -65,7 +65,7 @@ EXEC = time
 #
 # debugging
 #
-# CFLAGS = -g -MMD -Wall -ffast-math -fstrict-aliasing $(GCCFLAGS) # -D_GLIBCXX_DEBUG # -D_GLIBCXX_CONCEPT_CHECKS 
+# CFLAGS = -g -MMD -Wall -ffast-math -fstrict-aliasing $(GCCFLAGS) # -D_GLIBCXX_DEBUG # -D_GLIBCXX_CONCEPT_CHECKS
 # LDFLAGS = -g -Wall
 # EXEC = valgrind --tool=memcheck --leak-check=full
 #
@@ -86,9 +86,9 @@ dpseg: main.o Estimators.o Data.o Sentence.o Scoring.o gammadist.o mt19937ar.o
 stimseg: stimseg.o Estimators.o Data.o Sentence.o Scoring.o gammadist.o mt19937ar.o
 	$(CXX) $(LDFLAGS) $^ -l $(LIBS) -o $@
 
-.PHONY: 
+.PHONY:
 clean:
-	rm -fr *.o *.d core 
+	rm -fr *.o *.d core
 
 .PHONY:
 real-clean: clean

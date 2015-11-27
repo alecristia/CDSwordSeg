@@ -13,12 +13,12 @@ RESFOLDER=${ABSPATH}test/
 KEYNAME=Brent_w1_1005
 
 # clean up before testing
-rm -f $RESFOLDER$KEYNAME*
+rm -f $RESFOLDER$KEYNAME* _$RESFOLDER$KEYNAME*
 
 # setup input file and phonologize it
 ORTHO=$RESFOLDER$KEYNAME-ortholines.txt
 TAGS=$RESFOLDER$KEYNAME-tags.txt
-cp $CHILDES_ROOT/Brent_res/w1-1005_cds/w1-1005-ortholines.txt $ORTHO
+scp oberon:$CHILDES_ROOT/Brent_res/w1-1005_cds/w1-1005-ortholines.txt $ORTHO
 chmod -x $ORTHO
 
 echo Phonologizing $ORTHO...
@@ -30,4 +30,6 @@ cat $RESFOLDER${KEYNAME}-tags.txt |
     sed 's/ //g' |
     sed 's/;eword/ /g' > $RESFOLDER${KEYNAME}-gold.txt
 
-../pipeline/dmcmc.sh $ABSPATH $KEYNAME $RESFOLDER
+ALGO=puddle
+#ALGO=dmcmc
+../pipeline/$ALGO.sh $ABSPATH $KEYNAME $RESFOLDER

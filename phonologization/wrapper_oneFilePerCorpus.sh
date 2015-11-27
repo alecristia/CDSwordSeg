@@ -54,4 +54,6 @@ fi
 
 echo "creating gold versions"
 
-sed 's/;esyll//g'  $RESFOLDER${KEYNAME}-tags.txt | sed 's/ //g' | sed 's/;eword/ /g' > $RESFOLDER${KEYNAME}-gold.txt
+sed 's/;esyll//g'  $RESFOLDER${KEYNAME}-tags.txt |
+    sed 's/ //g' |
+    sed 's/;eword/ /g' > $RESFOLDER${KEYNAME}-gold.txt
