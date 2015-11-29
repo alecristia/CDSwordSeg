@@ -24,3 +24,4 @@ phonologization/scripts/test*
 /algoComp/algos/phillips-pearl2014/syllable-conversion/out.txt
 algoComp/test/*.txt*
 algoComp/algos/phillips-pearl2014/dpseg_files/dpseg
+/algoComp/in*.txt
