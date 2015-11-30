@@ -10,6 +10,8 @@ RESFOLDER=$3
 ROOT=$RESFOLDER$KEYNAME
 ALGO="puddle"
 
+echo Running $ALGO...
+
 # subprograms used in this script
 CROSSEVAL="$ABSPATH/crossevaluation.py"
 PUDDLE="gawk -f $ABSPATH/algos/PUDDLE/segment.vowelconstraint.awk"
@@ -19,12 +21,14 @@ sed 's/;esyll//g' $ROOT-tags.txt |
     sed 's/;eword/ /g' |
     sed 's/  *//g' > $ROOT-$ALGO-input.txt
 
-# create 5 folds for cross evaluation.
-$CROSSEVAL fold $ROOT-$ALGO-input.txt --nfolds 5
+NFOLDS=5
+echo Creating $NFOLDS folds for cross evaluation
+$CROSSEVAL fold $ROOT-$ALGO-input.txt --nfolds $NFOLDS
 
 for FOLD in $ROOT-$ALGO-input-fold*.txt
 do
-    echo Processing `basename $FOLD`
+    N=`basename $FOLD | sed 's/.*fold//' | sed 's/\.txt//'`
+    echo Processing fold $N
     # Remove word and syllable tags
     sed 's/;esyll//g' $FOLD |
         sed 's/;eword/ /g' |
@@ -37,7 +41,7 @@ do
         sed 's/\s*$//g' > ${FOLD/input/output}
 done
 
-# unfold the results.
+echo Unfolding to $KEYNAME-$ALGO-cfgold.txt
 $CROSSEVAL unfold $ROOT-$ALGO-output-fold*.txt \
            --index $ROOT-$ALGO-input-index.txt \
            --output $ROOT-$ALGO-cfgold.txt
@@ -45,7 +49,7 @@ $CROSSEVAL unfold $ROOT-$ALGO-output-fold*.txt \
 # local cleanup
 rm -f $ROOT-$ALGO-output* $ROOT-$ALGO-input*
 
-# Do the evaluation
+echo Evaluating
 cd ${ABSPATH}scripts
 ./doAllEval.text $RESFOLDER $KEYNAME $ALGO
 
