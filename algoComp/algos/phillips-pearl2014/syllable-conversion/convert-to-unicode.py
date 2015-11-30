@@ -39,9 +39,12 @@ class Converter(object):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('input')
-    parser.add_argument('dictionary')
-    parser.add_argument('output')
+    parser.add_argument('input', type=str,
+                        help='input tags file')
+    parser.add_argument('dictionary', type=str,
+                        help='output syllable/unicode dictionary file')
+    parser.add_argument('output', type=str,
+                        help='output converted file')
     args = parser.parse_args()
 
     # load the syllables/unicode converter

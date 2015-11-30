@@ -10,7 +10,7 @@ ROOT=`readlink -f ../..`
 
 ABSPATH=$ROOT/algoComp/
 RESFOLDER=${ABSPATH}test/
-KEYNAME=key 
+KEYNAME=key
 
 # clean up before testing
 rm -f $RESFOLDER$KEYNAME-dmcmc* ${RESFOLDER}_$KEYNAME-cfgold.txt
