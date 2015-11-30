@@ -18,11 +18,22 @@ all: top
 #                                                          #
 ############################################################
 
+
+#######################
+# Boost
+
+# BOOST_LIB=/usr/lib/x86_64-linux-gnu/libboost_program_options.so
+# BOOST_INCLUDE=-I /usr/include/boost
+
+
+
 # MAC FLAGS
 # CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -Wno-deprecated -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)
 # debug compile for mac flags
 # CFLAGS_BASE = -v -MMD -O0 -Wall $(GCCFLAGS) -g -DNDEBUG
-CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -Wno-deprecated -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)  -g -DNDEBUG
+CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -Wno-deprecated		\
+-finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)	\
+-g -DNDEBUG
 # Goldwater original flags
 #CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)# -DNDEBUG
 LDFLAGS_BASE = -Wall -O6
@@ -32,9 +43,7 @@ LDFLAGS = $(LDFLAGS_BASE) -enable-auto-import -L /usr/lib/
 LIBS = boost_program_options-gcc-mt
 CXX = g++-4
 else
-#CFLAGS = $(CFLAGS_BASE) -DOS_LINUX  -I /opt/local/include/gcc44/c++/boost/
-# CFLAGS = $(CFLAGS_BASE) -DOS_LINUX  -I /opt/local/include/boost/
-CFLAGS = $(CFLAGS_BASE) -DOS_LINUX -I /usr/local/include/boost/
+CFLAGS = $(CFLAGS_BASE) -DOS_LINUX $(BOOST_INCLUDE)
 LDFLAGS = $(LDFLAGS_BASE) -L /usr/lib/
 #LDFLAGS = $(LDFLAGS_BASE)
 
@@ -43,12 +52,14 @@ LDFLAGS = $(LDFLAGS_BASE) -L /usr/lib/
 # FILES. CHANGE VERSION NUMBER TO MATCH YOUR CURRENT  #
 # BOOST VERSION                                       #
 #######################################################
-#LIBS = /usr/lib64/libboost_program_options.so -lstdc++ -lm
-LIBS = -lboost_program_options -lstdc++ -lm
+LIBS = $(BOOST_LIB) -lstdc++ -lm
 
 # using GCC 4.4 from macports
 CXX = gcc
 endif
+
+CXX = g++
+
 CC = $(CXX)
 EXEC = time
 #

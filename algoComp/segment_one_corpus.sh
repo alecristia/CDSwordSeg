@@ -9,25 +9,30 @@
 #########VARIABLES###########################
 #Variables that have been passed by the user
 
-ABSPATH=$1
-KEYNAME=$2
-RESFOLDER=$3
+# ABSPATH=$1
+# KEYNAME=$2
+# RESFOLDER=$3
+ABSPATH=`readlink -f .`/
+KEYNAME=key
+RESFOLDER=`readlink -f ./test`/
 
 # If the $4 argument is non-empty, jobs are started by the
 # clusterize.sh script.
-CLUSTERIZE=$4
+# CLUSTERIZE=$4
+CLUSTERIZE=y
 
 #############################################
 
 #1. Prepare for the performances
-CFGOLD="algo token_f-score token_precision token_recall
-boundary_f-score boundary_precision boundary_recall"
+CFGOLD="algo token_f-score token_precision token_recall \
+    boundary_f-score boundary_precision boundary_recall"
 
 echo $CFGOLD > ${RESFOLDER}_$KEYNAME-cfgold.txt
 
 
 #2. List all algo scripts that will be launched
-ALGO_LIST="./puddle.sh"
+#ALGO_LIST=./puddle.sh
+ALGO_LIST=./dmcmc.sh
 #./dibs.sh ./ngrams.sh"
 # ./TPs.sh  ./puddle.sh ./AGc3sf.sh"
 
@@ -39,11 +44,11 @@ do
     COMMAND="$ALGO $ABSPATH $KEYNAME $RESFOLDER"
     echo Running command: $COMMAND
 
-    if [ -n $CLUSTERIZE ]
+    if [ -e $CLUSTERIZE ]
     then
-        ./clusterize.sh "$COMMAND"
-    else
         $COMMAND
+    else
+        ./clusterize.sh "$COMMAND"
     fi
 done
 

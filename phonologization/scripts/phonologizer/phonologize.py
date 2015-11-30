@@ -11,15 +11,17 @@ import tempfile
 
 from . import lispy
 
+
 def default_script():
     return os.path.join(os.path.dirname(os.path.realpath(__file__)),
                         'template.scm')
+
 
 def is_double_quoted(line):
     """Return True is the string *line* begin and end whith double quotes."""
     if len(line) < 3:
         return False
-    return line[0] == line[-2] == '"' # line[-1] is '\n'
+    return line[0] == line[-2] == '"'  # line[-1] is '\n'
 
 
 def preprocess(filein):
@@ -75,32 +77,51 @@ def process(text, script='scripts/template.scm'):
         return res.decode('latin1')
 
 
-def postprocess(text):
-    """Conversion from festival output format to desired format."""
+def _postprocess_syll(syll):
     res = ''
-    # iterate on utterances
-    for utt in text.split('\n')[:-1]:
-        # iterate on words
-        for word in lispy.parse(utt):
-            # TODO Check the word is not empty
-            # itererate on syllabes
-            for syllabe in word[1:]:
-                #iterate on phoneme
-                for phone in syllabe[1:]:
-                    # remove the "" quoting each phoneme
-                    res += phone[0][0].replace('"', '') + ' '
-                res += ';esyll '
-            res += ';eword '
-        res += '\n'
+    for phone in syll[1:]:
+        # remove the "" quoting each phoneme
+        res += phone[0][0].replace('"', '') + ' '
+    if not res == '':
+        res += ';esyll'
     return res
 
 
-def phonologize(filein, fileout, script):
+def _postprocess_word(word):
+    res = ''
+    for syll in word[1:]:
+        res += _postprocess_syll(syll) + ' '
+    if not res == '':
+        res += ';eword'
+    return res
+
+
+def _postprocess_line(line):
+    res = ''
+    for word in lispy.parse(line):
+        res += _postprocess_word(word) + ' '
+    # remove the last space
+    return res[:-1]
+
+
+def postprocess(text):
+    """Conversion from festival output format to desired format."""
+    output = []
+    for line in text.splitlines():
+        res = _postprocess_line(line)
+        if not res == '':
+            output += res + '\n'
+    return ''.join(output)
+
+
+def phonologize(filein, fileout, script=None):
     """This function provides an easy wrapper to phonologization facilities."""
     # load and format input for festival
     text = preprocess(filein)
 
     # get the syllabe structure of the input
+    if not script:
+        script = default_script()
     text = process(text, script)
 
     # parse it to the output format

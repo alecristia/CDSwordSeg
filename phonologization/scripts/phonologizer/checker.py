@@ -4,7 +4,6 @@ Copyright 2015 Mathieu Bernard.
 
 """
 
-import os
 
 def check_text(text, on_error='raise'):
     """This function checks if the `text` is well formatted.
@@ -21,10 +20,10 @@ def check_text(text, on_error='raise'):
         If 'correct' then corrects errors and return the corrected file.
 
     """
-    if not on_error in ['raise', 'correct']:
+    if on_error not in ['raise', 'correct']:
         raise ValueError("`on_error` must be either 'raise' or 'correct'")
 
-    res = '' # will append corrected lines here
+    res = ''  # will append corrected lines here
 
     # we keep EOL characters to look for '\r'
     lines = text.splitlines(True)
@@ -42,7 +41,7 @@ def check_text(text, on_error='raise'):
                 raise RuntimeError('line {} is empty'.format(line_nb))
         else: # the line is not empty, performs other checks
             # look for begin or end spaces
-            striped = line.strip(' ')
+            striped = line.strip(' \t')
             if not striped == line and on_error == 'raise':
                 raise RuntimeError('beginning/ending spaces on line {}'
                                    .format(line_nb))
@@ -59,6 +58,7 @@ def check_text(text, on_error='raise'):
             res += line
 
     return res
+
 
 def check_file(filename, on_error='raise'):
     return check_text(open(filename, 'r').read(), on_error)
