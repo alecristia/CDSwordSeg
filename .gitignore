@@ -25,3 +25,5 @@ phonologization/scripts/test*
 algoComp/test/*.txt*
 algoComp/algos/phillips-pearl2014/dpseg_files/dpseg
 /algoComp/in*.txt
+/algoComp/.cache/*
+algoComp/test/xval/*
