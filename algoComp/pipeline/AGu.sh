@@ -11,7 +11,7 @@
 # - when doing so CHECK that the grammar you are using (a) represents
 # your intention (is the tree right?) and (b) contains all the
 # terminals you encounter (is the alphabet correct?)
-# Right now, the grammar is colloq zero or unigram 
+# Right now, the grammar is colloq zero or unigram
 # (sentences are groups of words or
 # single words; groups of words are single words or groups of words;
 # words are groups of phonemes); and the alphabet is the Klatt English
@@ -24,7 +24,7 @@ ABSPATH=$1
 KEYNAME=$2
 RESFOLDER=$3
 
-ALGO="agU"
+ALGO="AGu"
 
 # Navigate to the AG folder
 cd ${ABSPATH}algos/AG

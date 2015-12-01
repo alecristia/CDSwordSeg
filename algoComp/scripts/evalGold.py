@@ -48,8 +48,10 @@ def words_stringpos(ws):
         stringpos.add((left,right))
         left = right
     return stringpos
-    
-def read_data(lines, tree_flag, score_cat_rex=None, ignore_terminal_rex=None, word_split_rex=None, debug_level=0):
+
+def read_data(lines, tree_flag, score_cat_rex=None,
+              ignore_terminal_rex=None, word_split_rex=None,
+              debug_level=0):
     "Reads data either in tree format or in flat format"
 
     if tree_flag:
@@ -63,7 +65,9 @@ def read_data(lines, tree_flag, score_cat_rex=None, ignore_terminal_rex=None, wo
             if debug_level >= 1000:
                 sys.stderr.write("# line = %s,\n# words = %s\n"%(line, words[-1]))
     else:
-        words = [[w for w in word_split_rex.split(line) if w != '' and not ignore_terminal_rex.match(w)] for line in lines if line.count("lexentry")==0]
+        words = [[w for w in word_split_rex.split(line) if w != '' and
+                  not ignore_terminal_rex.match(w)] for line in lines if
+                 line.count("lexentry") == 0]
 
     segments = [''.join(ws) for ws in words]
     if debug_level >= 10000:
@@ -73,7 +77,8 @@ def read_data(lines, tree_flag, score_cat_rex=None, ignore_terminal_rex=None, wo
     stringpos = [words_stringpos(ws) for ws in words]
     return (segments,stringpos)
 
-PrecRecHeader = "# f-score precision recall exact-match";
+PrecRecHeader = "# f-score precision recall exact-match"
+
 
 class PrecRec:
     def __init__(self):
@@ -117,7 +122,7 @@ def stringpos_boundarypos(stringpos):
             for line in stringpos]
 
 def evaluate(options, trainwords, trainstringpos, goldwords, goldstringpos):
-    
+
     if options.debug >= 1000:
         for (tw, tsps, gw, gsps) in zip(trainwords, trainstringpos, goldwords, goldstringpos):
             sys.stderr.write("Gold: ")
@@ -127,7 +132,7 @@ def evaluate(options, trainwords, trainstringpos, goldwords, goldstringpos):
             for l,r in sorted(list(tsps)):
                 sys.stderr.write(" %s"%tw[l:r])
             sys.stderr.write("\n")
-            
+
     if goldwords != trainwords:
         sys.stderr.write("## ** gold and train terminal words don't match (so results are bogus)\n")
         sys.stderr.write("## len(goldwords) = %s, len(trainwords) = %s\n" % (len(goldwords), len(trainwords)))
@@ -140,7 +145,7 @@ def evaluate(options, trainwords, trainstringpos, goldwords, goldstringpos):
     pr = str(data_precrec(trainstringpos, goldstringpos))
     sys.stdout.write(pr)
 
-    pr = str(data_precrec(stringpos_boundarypos(trainstringpos), 
+    pr = str(data_precrec(stringpos_boundarypos(trainstringpos),
                           stringpos_boundarypos(goldstringpos)))
     sys.stdout.write('\t')
     sys.stdout.write(pr)
@@ -153,7 +158,7 @@ def evaluate(options, trainwords, trainstringpos, goldwords, goldstringpos):
         sys.stdout.write("\t(" + options.levelname + ")")
     sys.stdout.write('\n')
     sys.stdout.flush()
-             
+
 
 if __name__ == '__main__':
     parser = optparse.OptionParser(usage=usage)
@@ -173,7 +178,7 @@ if __name__ == '__main__':
     parser.add_option("--extra", dest="extra", help="suffix to print at end of evaluation line")
     parser.add_option("-d", "--debug", dest="debug", help="print debugging information", default=0, type="int")
     (options,args) = parser.parse_args()
-    
+
     if options.goldfile == options.trainfile:
         sys.stderr.write("## ** gold and train both read from same source\n")
         sys.exit(2)
@@ -189,13 +194,13 @@ if __name__ == '__main__':
     if options.debug > 0:
         sys.stderr.write('# score_cat_re = "%s"\n# ignore_terminal_re = "%s"\n# word_split_re = "%s"\n'
                          %(options.score_cat_re, options.ignore_terminal_re, options.word_split_re))
-        
+
     score_cat_rex = re.compile(options.score_cat_re)
     ignore_terminal_rex = re.compile(options.ignore_terminal_re)
     word_split_rex = re.compile(options.word_split_re)
-    
-    (goldwords,goldstringpos) = read_data([line.strip() for line in goldf], 
-                                          tree_flag=options.goldtree_flag, 
+
+    (goldwords,goldstringpos) = read_data([line.strip() for line in goldf],
+                                          tree_flag=options.goldtree_flag,
                                           score_cat_rex=score_cat_rex,
                                           ignore_terminal_rex=ignore_terminal_rex,
                                           word_split_rex=word_split_rex)
@@ -203,7 +208,7 @@ if __name__ == '__main__':
     # print PrecRecHeader
     sys.stdout.write("token_f-score\ttoken_precision\ttoken_recall\tboundary_f-score\tboundary_precision\tboundary_recall\n");
     sys.stdout.flush()
-    
+
     trainlines = []
     for trainline in trainf:
         trainline = trainline.strip()
@@ -211,18 +216,18 @@ if __name__ == '__main__':
             trainlines.append(trainline)
             continue
 
-        (trainwords,trainstringpos) = read_data(trainlines, tree_flag=options.traintree_flag, 
+        (trainwords,trainstringpos) = read_data(trainlines, tree_flag=options.traintree_flag,
                                                 score_cat_rex=score_cat_rex,
                                                 ignore_terminal_rex=ignore_terminal_rex,
-                                                word_split_rex=word_split_rex, 
+                                                word_split_rex=word_split_rex,
                                                 debug_level=options.debug)
         evaluate(options, trainwords, trainstringpos, goldwords, goldstringpos)
         trainlines = []
 
     if trainlines != []:
-        (trainwords,trainstringpos) = read_data(trainlines, tree_flag=options.traintree_flag, 
+        (trainwords,trainstringpos) = read_data(trainlines, tree_flag=options.traintree_flag,
                                                 score_cat_rex=score_cat_rex,
                                                 ignore_terminal_rex=ignore_terminal_rex,
-                                                word_split_rex=word_split_rex, 
+                                                word_split_rex=word_split_rex,
                                                 debug_level=options.debug)
         evaluate(options, trainwords, trainstringpos, goldwords, goldstringpos)

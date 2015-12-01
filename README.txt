@@ -61,14 +61,21 @@ The necessary scripts are found in the folder called database_creation
 
 *** Alternative 1: .trs files from WinnipegLENA corpus
 
-1. Open and adapt one of the trs2cha scripts, e.g. scripts/trs2cha_201511.text (creates 3 selections) or scripts/trs2cha_all.text (collapses across all addressees). You need to pay attention to the variables at the top:
-- the trs folder is where your trs files are; 
-- the cha folder will be created so pick anything you want. (A reasonable option is that the folder is sister to the trs folder.)
+1. Open and adapt one of the trs2cha scripts,
+e.g. scripts/trs2cha_201511.text (creates 3 selections) or
+scripts/trs2cha_all.text (collapses across all addressees). You need
+to pay attention to the variables at the top:
+- the trs folder is where your trs files are;
+- the cha folder will be created so pick anything you want. (A
+  reasonable option is that the folder is sister to the trs folder.)
 
-IMPORTANT!!! ALSO notice that there is a section in the middle that needs to be changed to select subsets of sentences! There is more explanation in comments (lines starting with #) in the middle of scripts/trs2cha_all.text.
+IMPORTANT!!! ALSO notice that there is a section in the middle that
+needs to be changed to select subsets of sentences! There is more
+explanation in comments (lines starting with #) in the middle of
+scripts/trs2cha_all.text.
 
 3. In a terminal window, navigate to the scripts subfolder of your database_creation folder, e.g.
-$ cd /home/rolthiolliere/Documents/database_creation/scripts 
+$ cd /home/rolthiolliere/Documents/database_creation/scripts
 (you don't type the "$" -- this is just a convention to indicate that a line is copied + pasted into a terminal window)
 
 4. Now run the script from the terminal window by typing:

@@ -7,29 +7,21 @@ ABSPATH=$1
 KEYNAME=$2
 RESFOLDER=$3
 
-ROOT=$RESFOLDER$KEYNAME
 ALGO="puddle"
+ALGOPATH=${ABSPATH}algos/PUDDLE
 
-# Navigate to the folder
-cd ${ABSPATH}algos/PUDDLE
+ROOT=$RESFOLDER$KEYNAME
 
 # Remove word and syllable tags to create input:
-cat $ROOT-tags.txt |
-    sed 's/;esyll//g' |
+sed 's/;esyll//g' $ROOT-tags.txt |
     sed 's/;eword/ /g' |
     sed 's/  *//g' > clean_test.txt
 
 # Actual algo running
-gawk -f segment.vowelconstraint.awk clean_test.txt > dirty_output.txt
+gawk -f $ALGOPATH/segment.vowelconstraint.awk clean_test.txt > dirty_output.txt
 
 # Clean up the output file & store it in your desired location
 sed "s/.*://" dirty_output.txt  > $ROOT-${ALGO}-cfgold.txt
 
 # Local clean up
 #rm *.txt
-
-# Do the evaluation
-cd ${ABSPATH}scripts
-./doAllEval.text $RESFOLDER $KEYNAME $ALGO
-
-echo "done with puddle"
