@@ -12,7 +12,7 @@ RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/WinnipegLENA/"
 #########
 
 #1. Prepare for the performances
-CFGOLD="algo token_f-score token_precision token_recall
+CFGOLD="algo token_f-score token_precision token_recall \
 boundary_f-score boundary_precision boundary_recall"
 
 #2. List all algo scripts that will be launched

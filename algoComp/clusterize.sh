@@ -15,6 +15,7 @@
 
 # Step 0: parse input arguments
 JOB=$1
+NAME=$2
 
 # Step 1: silently detect for the 'qsub' executable
 which qsub 2> /dev/null
@@ -25,6 +26,8 @@ if [ $? -ne 0 ]; then
     $JOB
 
 else
-    echo qsub detected, scheduling the job on the cluster
-    echo "$JOB" | qsub -V -cwd -j y
+    echo qsub detected, scheduling the job
+
+    # run the job on the cluster
+    echo "$JOB" | qsub -V -cwd -N $NAME
 fi
