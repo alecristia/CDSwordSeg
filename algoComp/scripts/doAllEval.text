@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 RESFOLDER=$1
 KEYNAME=$2
