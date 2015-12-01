@@ -18,41 +18,50 @@ RESFOLDER=`readlink -f ./test`/
 
 # If the $4 argument is non-empty, jobs are started by the
 # clusterize.sh script.
-# CLUSTERIZE=$4
-CLUSTERIZE=y
+#CLUSTERIZE=$4
+CLUSTERIZE=yes
 
 #############################################
 
 #1. Prepare for the performances
 CFGOLD="algo token_f-score token_precision token_recall \
 boundary_f-score boundary_precision boundary_recall"
-echo $CFGOLD > ${RESFOLDER}_$KEYNAME-cfgold.txt
+echo $CFGOLD > ${RESFOLDER}base-cfgold.txt
+cp ${RESFOLDER}base-cfgold.txt ${RESFOLDER}_$KEYNAME-cfgold.txt
 
+ALL_ALGOS=`ls pipeline/*.sh | sed "s/pipeline\///g" | sed "s/\.sh//g"`
 
-$ALL_ALGOS=`ls pipeline/*.sh | cat | sed "s/pipeline\///g" | sed "s/\.sh//g"`
 #2. List all algo scripts that will be launched
-#ALGO_LIST=./puddle.sh
-#ALGO_LIST=./dmcmc.sh
-#ALGO_LIST=./dibs.sh
-#ALGO_LIST=./ngrams.sh
-#ALGO_LIST=./TPs.sh
-#ALGO_LIST=./AGc3sf.sh
-ALGO_LIST=./AGu.sh
-
+#ALGO_LIST=AGc3sf
+#ALGO_LIST=AGu
+#ALGO_LIST=puddle
+#ALGO_LIST=dmcmc
+#ALGO_LIST=dibs
+#ALGO_LIST=ngrams
+#ALGO_LIST=TPs
+ALGO_LIST=$ALL_ALGOS
 
 #3. Run all algos either locally or in the cluster
 for ALGO in $ALGO_LIST
 do
-    COMMAND="$ALGO $ABSPATH $KEYNAME $RESFOLDER"
+    mkdir -p $RESFOLDER$ALGO
+    cp $RESFOLDER$KEYNAME-tags.txt $RESFOLDER$ALGO/$KEYNAME-tags.txt
+    cp $RESFOLDER$KEYNAME-gold.txt $RESFOLDER$ALGO/$KEYNAME-gold.txt
+    cp ${RESFOLDER}base-cfgold.txt $RESFOLDER$ALGO/_$KEYNAME-cfgold.txt
+
+    COMMAND="$ALGO.sh $ABSPATH $KEYNAME $RESFOLDER$ALGO/"
     echo Running command: $COMMAND
     COMMAND=${ABSPATH}pipeline/$COMMAND
-    
+
     if [ -e $CLUSTERIZE ]
     then
+        # do not clusterize
         $COMMAND
     else
-        ../clusterize.sh "$COMMAND" "$ALGO"
+        ./clusterize.sh "$COMMAND" "$ALGO"
     fi
-done
 
-exit
+    # collapse the results in root
+    sed 1d $RESFOLDER$ALGO/_$KEYNAME-cfgold.txt \
+        >> ${RESFOLDER}_$KEYNAME-cfgold.txt
+done

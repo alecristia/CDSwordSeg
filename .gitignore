@@ -3,7 +3,9 @@ previousResults/
 tests/
 zarchive_versions/
 algoComp/algos/AG/py-cfg-new/*
-algoComp/scripts/*pyc
+*pyc
+algoComp/algos/AG/scripts/lx.pyc
+algoComp/algos/AG/scripts/tb.pyc
 *STDIN*
 *.o
 *.d
@@ -26,4 +28,5 @@ algoComp/test/*.txt*
 algoComp/algos/phillips-pearl2014/dpseg_files/dpseg
 /algoComp/in*.txt
 /algoComp/.cache/*
-algoComp/test/xval/*
+algoComp/test/*/*
+/algoComp/algos/TPs/syllableboundaries_marked.txt

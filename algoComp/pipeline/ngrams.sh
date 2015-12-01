@@ -23,7 +23,8 @@ sed 's/;eword/;esyll/g'  $RESFOLDER$KEYNAME-tags.txt  > input.txt
 rm *tmp
 rm input.txt
 
-head -n 10000 $RESFOLDER$KEYNAME-${ALGO}-freq-all.txt > $RESFOLDER$KEYNAME-${ALGO}-freq-top.txt
+head -n 10000 $RESFOLDER$KEYNAME-${ALGO}-freq-all.txt \
+     > $RESFOLDER$KEYNAME-${ALGO}-freq-top.txt
 
 # Note: n-grams doesn't have a full eval, like the others, because
 # it's not a SEGMENTATION algorithm

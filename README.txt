@@ -32,18 +32,22 @@ PUDDLE or Phillips)
 
 - Mathieu
 
-  - Have a non buggy results on all algos :
-    -> refactor segment_one_corpus.sh to run all in one run
-    -> debug them one by one
-    -> run evaluation on that
-    -> potential issues with other copora (@, etc...)
+  - Potential issues with other copora than bernstein (@, etc...)
 
   - Smart clusterization of crossevaluation.
 
   - Optimize crossevaluation unfold step (no need to load entire
     files, tail is enought).
 
+  - Rewrite segment_one_corpus.sh as a python program with gentle
+    input parameters.
+
+  - Factorize the scripts AG/do_*_english.sh and let the user choose
+    for debug/normal parameters.
+
 ***** OLD TODO backup
+
+- DONE debug all algos when running from segment_one_corpus.sh
 
 - DONE Mathieu still working on adapting Phillips
 

@@ -24,35 +24,45 @@ ABSPATH=$1
 KEYNAME=$2
 RESFOLDER=$3
 
-ALGO="AGu"
+ALGO="agU"
+ROOT=$RESFOLDER$KEYNAME
 
 # Navigate to the AG folder
 cd ${ABSPATH}algos/AG
 
 # Remove spaces within words and syllable boundaries, and replace word
-# tags with spaces to create gold:
-sed 's/;esyll//g'  $RESFOLDER$KEYNAME-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | tr -d ' ' > ${RESFOLDER}input.gold
+# tags with spaces to create gold
+sed 's/;esyll//g'  $ROOT-tags.txt |
+    sed 's/;eword/ /g' |
+    sed '/^$/d' |
+    tr -d ' ' > ${RESFOLDER}input.gold
 
-# Remove word and syllable tags to create input:
-sed 's/;esyll//g'  $RESFOLDER$KEYNAME-tags.txt | sed 's/;eword/ /g' |sed '/^$/d' | sed 's/  */ /g'  > ${RESFOLDER}input.ylt
+# Remove word and syllable tags to create input
+sed 's/;esyll//g'  $RESFOLDER$KEYNAME-tags.txt |
+    sed 's/;eword/ /g' |
+    sed '/^$/d' |
+    sed 's/  */ /g'  > ${RESFOLDER}input.ylt
 
 # actual algo running
 $GRAMMARFILE $RESFOLDER $KEYNAME
 
-# write with standard format
-#sed 's/ /;/g' "${RESFOLDER}_mbr-Colloc0.seg" | sed 's/./& /g' | sed 's/ ;/;aword/g' > $RESFOLDER$KEYNAME-${ALGO}-output.txt
-#sed 's/ //g'  $RESFOLDER$KEYNAME-${ALGO}-output.txt | sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
+# # write with standard format
+# sed 's/ /;/g' ${RESFOLDER}_mbr-Colloc0.seg |
+#     sed 's/./& /g' |
+#     sed 's/ ;/;aword/g' > $ROOT-$ALGO-output.txt
+# sed 's/ //g' $ROOT-$ALGO-output.txt |
+#     sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-$ALGO-cfgold.txt
 
 # Do the evaluation
 cd ${ABSPATH}scripts
 ./doAllEval.text $RESFOLDER $KEYNAME $ALGO
 
 # Final clean up
-cd $RESFOLDER
-rm *.seg
-rm *.wlt
-rm *.prs
-rm input.*
-rm tmp*
+# cd $RESFOLDER
+# rm *.seg
+# rm *.wlt
+# rm *.prs
+# rm input.*
+# rm tmp*
 
 echo "done with AG unigram"

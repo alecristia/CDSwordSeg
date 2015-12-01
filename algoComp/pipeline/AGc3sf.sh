@@ -18,7 +18,6 @@
 # unicode-friendly.
 
 GRAMMARFILE="./do_coll3syll_english.sh"
-
 ###########################
 
 ABSPATH=$1
@@ -48,21 +47,15 @@ sed 's/;esyll//g' $ROOT-tags.txt |
 $GRAMMARFILE $RESFOLDER $KEYNAME
 
 # # write with standard format
-# #sed 's/ /;/g' "${RESFOLDER}_mbr-Colloc0.seg" | sed 's/./& /g' | sed 's/ ;/;aword/g' > $ROOT-${ALGO}-output.txt
-# #sed 's/ //g'  $ROOT-${ALGO}-output.txt | sed 's/;aword/ /g' > $ROOT-${ALGO}-cfgold.txt
+# sed 's/ /;/g' ${RESFOLDER}_mbr-Colloc0.seg |
+#     sed 's/./& /g' |
+#     sed 's/ ;/;aword/g' > $ROOT-$ALGO-output.txt
+# sed 's/ //g' $ROOT-$ALGO-output.txt |
+#     sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-$ALGO-cfgold.txt
 
-# # Store	the segmented output in	a "full" file, and prepare the last 20%	of lines for evaluation
-# N=`wc -l $ROOT-${ALGO}-cfgold.txt | cut -f1 -d' '`
-# Ntest=`echo "$((N * 1 / 5))"`
-
-# mv $ROOT-${ALGO}-cfgold.txt $ROOT-${ALGO}-cfgold-full.txt
-
-tail --lines=$Ntest $RESFOLDER$KEYNAME-${ALGO}-cfgold-full.txt > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
-
-
-# # Do the evaluation
-# cd ${ABSPATH}scripts
-# ./doAllEval.text $RESFOLDER $KEYNAME $ALGO
+# Do the evaluation
+cd ${ABSPATH}scripts
+./doAllEval.text $RESFOLDER $KEYNAME $ALGO
 
 # # Final clean up
 # cd $RESFOLDER
@@ -72,4 +65,4 @@ tail --lines=$Ntest $RESFOLDER$KEYNAME-${ALGO}-cfgold-full.txt > $RESFOLDER$KEYN
 # rm input.*
 # rm tmp*
 
-# echo "done with AG colloc3syll"
+echo "done with AG colloc3syll"

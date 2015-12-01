@@ -35,14 +35,6 @@ sed "s/.*$(printf '\t')//" $ROOT-$ALGO-dirty_output.txt |
 sed 's/ //g' $ROOT-$ALGO-output.txt |
     sed 's/;aword/ /g' > $ROOT-$ALGO-cfgold.txt
 
-# Store the segmented output in a "full" file, and prepare the last
-# 20% of lines for evaluation
-N=`wc -l $ROOT-$ALGO-cfgold.txt | cut -f1 -d' '`
-Ntest=`echo "$((N * 1 / 5))"`
-
-mv $ROOT-$ALGO-cfgold.txt $ROOT-$ALGO-cfgold-full.txt
-tail --lines=$Ntest $ROOT-$ALGO-cfgold-full.txt > $ROOT-$ALGO-cfgold.txt
-
 # Local cleanup
 #rm $ROOT-$ALGO-*.txt
 
