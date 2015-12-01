@@ -11,29 +11,28 @@ ROOT=$RESFOLDER$KEYNAME
 ALGO="dibs"
 
 echo Running $ALGO...
-
-# Navigate to the DIBS folder
-cd ${ABSPATH}algos/DiBS
+DIBS=${ABSPATH}algos/DiBS/apply-dibs.py
 
 # DIBS requires a bit of corpus to calculate some statistics. We'll
 # use 200 lines from the version with the word boundaries to this end
 # (we remove syllable boundaries, which are not needed):
-head -200 $ROOT-tags.txt | sed 's/;esyll//g' > clean_train.txt
+head -200 $ROOT-tags.txt | sed 's/;esyll//g' > $ROOT-$ALGO-clean_train.txt
 
 # Remove word and syllable boundaries to create the test file that
 # will be segmented:
 sed 's/;esyll//g' $ROOT-tags.txt |
     sed 's/;eword//g' |
-    sed 's/  / /g' > clean_test.txt
+    sed 's/  / /g' > $ROOT-$ALGO-clean_test.txt
 
 # Actual algo running
-./apply-dibs.py clean_train.txt clean_test.txt \
-                dirty_output.txt diphones_output.txt
+$DIBS $ROOT-$ALGO-clean_train.txt $ROOT-$ALGO-clean_test.txt \
+      $ROOT-$ALGO-dirty_output.txt $ROOT-$ALGO-diphones_output.txt
 
 # Clean up the output file & store it in your desired location
-OUTFILE=$ROOT-$ALGO-output.txt
-sed "s/.*$(printf '\t')//" dirty_output.txt | sed 's/;eword/;aword/g' > $OUTFILE
-sed 's/ //g' $OUTFILE |
+sed "s/.*$(printf '\t')//" $ROOT-$ALGO-dirty_output.txt |
+    sed 's/;eword/;aword/g' > $ROOT-$ALGO-output.txt
+
+sed 's/ //g' $ROOT-$ALGO-output.txt |
     sed 's/;aword/ /g' > $ROOT-$ALGO-cfgold.txt
 
 # Store the segmented output in a "full" file, and prepare the last
@@ -45,7 +44,7 @@ mv $ROOT-$ALGO-cfgold.txt $ROOT-$ALGO-cfgold-full.txt
 tail --lines=$Ntest $ROOT-$ALGO-cfgold-full.txt > $ROOT-$ALGO-cfgold.txt
 
 # Local cleanup
-rm *.txt
+#rm $ROOT-$ALGO-*.txt
 
 # Do the evaluation
 cd ${ABSPATH}scripts

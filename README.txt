@@ -23,13 +23,35 @@ Our current pipeline involves three steps:
    algorithms (chosen by user).
 
 
-********************** TODO  ******************
-- Mathieu still working on adapting Phillips
-- AC update the evaluation section for all the batch algos (i.e., not PUDDLE or Phillips)
-- AC start running the experiments on all the batch algos
-- whoever is done first will implement a cross-validation with 20% chunks on the non-batch algos
+********************** TODO ******************
 
-OLD backup
+- AC update the evaluation section for all the batch algos (i.e., not
+PUDDLE or Phillips)
+
+- AC start running the experiments on all the batch algos
+
+- Mathieu
+
+  - Have a non buggy results on all algos :
+    -> refactor segment_one_corpus.sh to run all in one run
+    -> debug them one by one
+    -> run evaluation on that
+    -> potential issues with other copora (@, etc...)
+
+  - Smart clusterization of crossevaluation.
+
+  - Optimize crossevaluation unfold step (no need to load entire
+    files, tail is enought).
+
+***** OLD TODO backup
+
+- DONE Mathieu still working on adapting Phillips
+
+- DONE whoever is done first will implement a cross-validation with
+  20% chunks on the non-batch algos
+
+
+
 *** troubleshoot oberon on step 3 segmentation, which boils down to
     the following
 
@@ -61,26 +83,43 @@ The necessary scripts are found in the folder called database_creation
 
 *** Alternative 1: .trs files from WinnipegLENA corpus
 
-1. Open and adapt one of the trs2cha scripts, e.g. scripts/trs2cha_201511.text (creates 3 selections) or scripts/trs2cha_all.text (collapses across all addressees). You need to pay attention to the variables at the top:
-- the trs folder is where your trs files are; 
-- the cha folder will be created so pick anything you want. (A reasonable option is that the folder is sister to the trs folder.)
+1. Open and adapt one of the trs2cha scripts,
+e.g. scripts/trs2cha_201511.text (creates 3 selections) or
+scripts/trs2cha_all.text (collapses across all addressees). You need
+to pay attention to the variables at the top:
 
-IMPORTANT!!! ALSO notice that there is a section in the middle that needs to be changed to select subsets of sentences! There is more explanation in comments (lines starting with #) in the middle of scripts/trs2cha_all.text.
+- the trs folder is where your trs files are;
 
-3. In a terminal window, navigate to the scripts subfolder of your database_creation folder, e.g.
+- the cha folder will be created so pick anything you want. (A
+  reasonable option is that the folder is sister to the trs folder.)
+
+IMPORTANT!!! ALSO notice that there is a section in the middle that
+needs to be changed to select subsets of sentences! There is more
+explanation in comments (lines starting with #) in the middle of
+scripts/trs2cha_all.text.
+
+3. In a terminal window, navigate to the scripts subfolder of your
+database_creation folder, e.g.
+
 $ cd /home/rolthiolliere/Documents/database_creation/scripts 
-(you don't type the "$" -- this is just a convention to indicate that a line is copied + pasted into a terminal window)
+
+(you don't type the "$" -- this is just a convention to indicate that
+a line is copied + pasted into a terminal window)
 
 4. Now run the script from the terminal window by typing:
 $ ./trs2cha_201511.text #or whatever name you gave it
 
-(you might see an error "cannot create directory", don't worry about that - it'll just occur when you've already have a dir with that name, e.g. if you've already worked on this corpus)
+(you might see an error "cannot create directory", don't worry about
+that - it'll just occur when you've already have a dir with that name,
+e.g. if you've already worked on this corpus)
 
 If you see a message like
 grep: /home/rolthiolliere/Documents/databases<something else>*.cha: No such file or directory
 it probably means you forgot the "/" at the end of the name.
 
-Normally, this will result in a folder being created, with .cha files inside. You then continue all steps in Alternative 2, because you now have .cha files.
+Normally, this will result in a folder being created, with .cha files
+inside. You then continue all steps in Alternative 2, because you now
+have .cha files.
 
 
 *** Alternative 2: .cha files

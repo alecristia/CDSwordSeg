@@ -29,26 +29,29 @@ boundary_f-score boundary_precision boundary_recall"
 echo $CFGOLD > ${RESFOLDER}_$KEYNAME-cfgold.txt
 
 
+$ALL_ALGOS=`ls pipeline/*.sh | cat | sed "s/pipeline\///g" | sed "s/\.sh//g"`
 #2. List all algo scripts that will be launched
 #ALGO_LIST=./puddle.sh
 #ALGO_LIST=./dmcmc.sh
-ALGO_LIST=./dibs.sh
-#./dibs.sh ./ngrams.sh"
-# ./TPs.sh ./AGc3sf.sh"
+#ALGO_LIST=./dibs.sh
+#ALGO_LIST=./ngrams.sh
+#ALGO_LIST=./TPs.sh
+#ALGO_LIST=./AGc3sf.sh
+ALGO_LIST=./AGu.sh
 
 
 #3. Run all algos either locally or in the cluster
 for ALGO in $ALGO_LIST
 do
-    cd ${ABSPATH}pipeline/
     COMMAND="$ALGO $ABSPATH $KEYNAME $RESFOLDER"
     echo Running command: $COMMAND
-
+    COMMAND=${ABSPATH}pipeline/$COMMAND
+    
     if [ -e $CLUSTERIZE ]
     then
         $COMMAND
     else
-        ./clusterize.sh "$COMMAND" "$ALGO"
+        ../clusterize.sh "$COMMAND" "$ALGO"
     fi
 done
 
