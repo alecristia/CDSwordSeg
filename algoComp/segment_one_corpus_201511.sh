@@ -17,7 +17,7 @@ boundary_f-score boundary_precision boundary_recall"
 
 #2. List all algo scripts that will be launched
 ALGO_LIST="./dibs.sh"
-# ./TPs.sh ./AGc3sf.sh" 
+# ./TPs.sh ./AGc3sf.sh"
 # ./puddle.sh ./dmcmc.sh" #these are incremental
 #./ngrams.sh this one cannot be evaluated
 
@@ -32,7 +32,7 @@ for VERSION in ${RESFOLDER}WL*; do
 	for ALGO in $ALGO_LIST; do
 	    cd ${ABSPATH}pipeline/
    	    COMMAND="$ALGO $ABSPATH $KEYNAME $RESFOLDER$KEYNAME/ "
-	    echo $COMMAND 
+	    echo $COMMAND
 
 	    ./clusterize.sh "$COMMAND"
 	done
@@ -40,8 +40,3 @@ for VERSION in ${RESFOLDER}WL*; do
 done
 
 exit
-
-
-
-
-
