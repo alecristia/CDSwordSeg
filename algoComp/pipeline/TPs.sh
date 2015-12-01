@@ -29,11 +29,10 @@ Ntest=`echo "$((N * 1 / 5))"`
 
 mv $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt $RESFOLDER$KEYNAME-${ALGO}-cfgold-full.txt
 
-tail -$Ntest -l $RESFOLDER$KEYNAME-${ALGO}-cfgold-full.txt > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
+tail --lines=$Ntest $RESFOLDER$KEYNAME-${ALGO}-cfgold-full.txt > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
 
 # Local clean up
  rm syllable*
- rm temp*
 
 # Do the evaluation
 cd ${ABSPATH}scripts

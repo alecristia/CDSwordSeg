@@ -57,7 +57,7 @@ $GRAMMARFILE $RESFOLDER $KEYNAME
 
 # mv $ROOT-${ALGO}-cfgold.txt $ROOT-${ALGO}-cfgold-full.txt
 
-# tail -$Ntest -l $ROOT-${ALGO}-cfgold-full.txt > $ROOT-${ALGO}-cfgold.txt
+tail --lines=$Ntest $RESFOLDER$KEYNAME-${ALGO}-cfgold-full.txt > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
 
 
 # # Do the evaluation
