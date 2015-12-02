@@ -14,7 +14,8 @@
 # RESFOLDER=$3
 ABSPATH=`readlink -f .`/
 KEYNAME=key
-RESFOLDER=`readlink -f ./test`/
+RESFOLDER=`readlink -f ./test`/results/
+mkdir -p $RESFOLDER
 
 # If the $4 argument is non-empty, jobs are started by the
 # clusterize.sh script.
@@ -32,14 +33,15 @@ cp ${RESFOLDER}base-cfgold.txt ${RESFOLDER}_$KEYNAME-cfgold.txt
 ALL_ALGOS=`ls pipeline/*.sh | sed "s/pipeline\///g" | sed "s/\.sh//g"`
 
 #2. List all algo scripts that will be launched
+ALGO_LIST=AGu
 #ALGO_LIST=AGc3sf
-#ALGO_LIST=AGu
+#ALGO_LIST="AGu AGc3sf"
 #ALGO_LIST=puddle
 #ALGO_LIST=dmcmc
 #ALGO_LIST=dibs
 #ALGO_LIST=ngrams
 #ALGO_LIST=TPs
-ALGO_LIST=$ALL_ALGOS
+#ALGO_LIST=$ALL_ALGOS
 
 #3. Run all algos either locally or in the cluster
 for ALGO in $ALGO_LIST
@@ -65,3 +67,5 @@ do
     sed 1d $RESFOLDER$ALGO/_$KEYNAME-cfgold.txt \
         >> ${RESFOLDER}_$KEYNAME-cfgold.txt
 done
+
+rm -f ${RESFOLDER}base-cfgold.txt

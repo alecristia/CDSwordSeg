@@ -6,8 +6,10 @@
 GRAMMARFILE="grammars/Colloq0_enFestival.lt"
 
 ##### Passed by user
+
 # location of the folder that will come to hold the results
 RESFOLDER=$1
+
 # name of the database
 KEYNAME=$2
 

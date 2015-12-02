@@ -1,18 +1,56 @@
 #!/usr/bin/env bash
 
-#################### definining parameters ###################
-
-# location of the file holding the grammar
-GRAMMARFILE="grammars/Coll3syllfnc_enFestival.lt"
-
-##### Passed by user
+#################### parsing input parameters #####################
 
 # location of the folder that will come to hold the results
 RESFOLDER=$1
+[[ ! -d $RESFOLDER ]] && echo "$0 : invalid directory $RESFOLDER" && exit 1
 
-# name of the database
+# name of the database is $RESFOLDER$KEYNAME-tags.txt
 KEYNAME=$2
+INPUT=$RESFOLDER$KEYNAME-tags.txt
+[[ ! -f $INPUT ]] && echo "$0 : invalid input file $INPUT" && exit 1
 
+# name of the algorithm is either "agU" or "agc3s". This parameter
+# defines :
+#   GRAMMARFILE = location of the file holding the grammar
+#   LEVEL = this is the level that is tested -- colloq0 is supposed to
+#     be the word level; in coll0 model because it is the level at
+#     which phonemes are combined; in coll3syll it is defined as
+#     groups of syllables
+ALGO=$3
+case $ALGO in
+    "agU")
+        GRAMMARFILE="grammars/Colloq0_enFestival.lt"
+        LEVEL="Colloq0"
+        ;;
+    "agc3s")
+        GRAMMARFILE="grammars/Coll3syllfnc_enFestival.lt"
+        LEVEL="Word"
+        ;;
+    *)
+        echo $ALGO is not a valid algo, exiting
+        exit 1
+        ;;
+esac
+
+# Tune AG with normal settings by default, or specify exiplicitly
+# "debug" as the 4th parameter. This parameter defines :
+#    NITER = number of iterations per parse (2000 or 10)
+#    NRED = number thrown out when reducing the parse (100 or 0)
+SETUP=$4
+if [[ "$SETUP" == "debug" ]]
+then
+    echo "Setup $ALGO in debug mode"
+    NITER=10
+    NRED=0
+else
+    NITER=2000
+    NRED=100
+fi
+
+
+#################### definining local variables ###################
 
 # location of the file containing the database in ylt format
 YLTFILE=$RESFOLDER"input.ylt"
@@ -28,11 +66,6 @@ RUNFILE="run"
 # beginning of the name for an output file, this will probably not
 # change (but you can change it if you want to)
 OUTFILE="ag-output"
-
-# this is the level that is tested -- colloq0 is supposed to be the
-# word level; in coll0 model because it is the level at which phonemes
-# are combined; in coll3syll it is defined as groups of syllables
-LEVEL="Word"
 
 # ending of the files to be used as input for the minimum bayes risk
 # calculation, choose the level that interests you - here, the word
@@ -73,14 +106,6 @@ MBRPYFILE=$SCRIPTFOLDER"mbr.py"
 # file containing the python script to evaluate the segmentation
 EVALPY=$SCRIPTFOLDER"eval.py"
 
-# number of iterations per parse, normally 2000 (except for
-# debugging-10)
-NITER=10
-
-# number thrown out when reducing the parse, normally 100 (except for
-# debugging-0)
-NRED=0
-
 
 ###########################
 # a) Create the parse tree files
@@ -120,5 +145,5 @@ done
 ###########################
 # d) Extract the most frequent segmentation in the 800 sample
 # segmentations (minimum bayes risk) and to be used in the evaluation
-python $MBRPYFILE $RESFOLDER$OUTFILE*$INMBRFILE \
-       > $RESFOLDER${KEYNAME}-agc3s-cfgold.txt
+python $MBRPYFILE $RESFOLDER$OUTFILE*$INMBRFILE  \
+       > $RESFOLDER$KEYNAME-$ALGO-cfgold.txt

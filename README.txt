@@ -32,20 +32,22 @@ PUDDLE or Phillips)
 
 - Mathieu
 
-  - Potential issues with other copora than bernstein (@, etc...)
+  - Test segment.py clustered
 
   - Smart clusterization of crossevaluation.
 
   - Optimize crossevaluation unfold step (no need to load entire
     files, tail is enought).
 
-  - Rewrite segment_one_corpus.sh as a python program with gentle
-    input parameters.
-
-  - Factorize the scripts AG/do_*_english.sh and let the user choose
-    for debug/normal parameters.
+  - Potential issues with other copora than bernstein (@, etc...)
 
 ***** OLD TODO backup
+
+- DONE Rewrite segment_one_corpus.sh as a python program with gentle
+  input parameters.
+
+- DONE Factorize the scripts AG/do_*_english.sh and let the user
+  choose for debug/normal parameters.
 
 - DONE debug all algos when running from segment_one_corpus.sh
 

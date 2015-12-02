@@ -9,7 +9,8 @@ ALGO=$3
 python evalGold.py -g $RESFOLDER$KEYNAME-gold.txt \
        < $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt \
        > $RESFOLDER$KEYNAME-${ALGO}-cfgold-res.txt
-
+echo $?
+exit
 a="${ALGO} "`tail -n 1 $RESFOLDER$KEYNAME-${ALGO}-cfgold-res.txt`
 echo $a >> ${RESFOLDER}_$KEYNAME-cfgold.txt
 

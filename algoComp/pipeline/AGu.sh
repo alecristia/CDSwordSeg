@@ -4,6 +4,13 @@
 # Author: Mathieu Bernard <mmathieubernardd@gmail.com>
 # Changes by Alex Cristia <alecristia@gmail.com>
 
+ABSPATH=$1
+KEYNAME=$2
+RESFOLDER=$3
+
+ALGO="agU"
+ROOT=$RESFOLDER$KEYNAME
+
 #*****CRUCIAL PART *******#
 # This grammar file needs to be adapted to your purposes, meaning:
 # - check or change the names of folders, input, and output files
@@ -16,35 +23,25 @@
 # single words; groups of words are single words or groups of words;
 # words are groups of phonemes); and the alphabet is the Klatt English
 # unicode-friendly.
-
-GRAMMARFILE="./do_colloq0_english.sh"
+GRAMMARFILE="./do_AG_english.sh"
 ###########################
-
-ABSPATH=$1
-KEYNAME=$2
-RESFOLDER=$3
-
-ALGO="agU"
-ROOT=$RESFOLDER$KEYNAME
-
-# Navigate to the AG folder
-cd ${ABSPATH}algos/AG
 
 # Remove spaces within words and syllable boundaries, and replace word
 # tags with spaces to create gold
-sed 's/;esyll//g'  $ROOT-tags.txt |
+sed 's/;esyll//g' $ROOT-tags.txt |
     sed 's/;eword/ /g' |
     sed '/^$/d' |
     tr -d ' ' > ${RESFOLDER}input.gold
 
 # Remove word and syllable tags to create input
-sed 's/;esyll//g'  $RESFOLDER$KEYNAME-tags.txt |
+sed 's/;esyll//g' $ROOT-tags.txt |
     sed 's/;eword/ /g' |
     sed '/^$/d' |
-    sed 's/  */ /g'  > ${RESFOLDER}input.ylt
+    sed 's/  */ /g' > ${RESFOLDER}input.ylt
 
 # actual algo running
-$GRAMMARFILE $RESFOLDER $KEYNAME
+cd ${ABSPATH}algos/AG
+$GRAMMARFILE $RESFOLDER $KEYNAME $ALGO "debug"
 
 # # write with standard format
 # sed 's/ /;/g' ${RESFOLDER}_mbr-Colloc0.seg |
@@ -57,7 +54,7 @@ $GRAMMARFILE $RESFOLDER $KEYNAME
 cd ${ABSPATH}scripts
 ./doAllEval.text $RESFOLDER $KEYNAME $ALGO
 
-# Final clean up
+# # Final clean up
 # cd $RESFOLDER
 # rm *.seg
 # rm *.wlt
@@ -65,4 +62,4 @@ cd ${ABSPATH}scripts
 # rm input.*
 # rm tmp*
 
-echo "done with AG unigram"
+echo done with $ALGO

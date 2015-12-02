@@ -36,7 +36,4 @@ for VERSION in ${RESFOLDER}WL*; do
 
 	    ./clusterize.sh "$COMMAND"
 	done
-
 done
-
-exit

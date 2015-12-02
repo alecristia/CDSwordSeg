@@ -8,8 +8,10 @@ usage: %prog [options]
 
 """
 
-import lx, tb
-import optparse, re, sys
+import optparse
+import tb
+import re
+import sys
 
 
 def tree_string(tree, word_rex, ignore_terminal_rex):
@@ -160,7 +162,7 @@ def evaluate(options, trainwords, trainstringpos, goldwords, goldstringpos):
     sys.stdout.flush()
 
 
-if __name__ == '__main__':
+def main():
     parser = optparse.OptionParser(usage=usage)
     parser.add_option("-n", "--name", dest="levelname", help="name of the adaptor being evaluated")
     parser.add_option("-g", "--gold", dest="goldfile", help="gold file")
@@ -231,3 +233,15 @@ if __name__ == '__main__':
                                                 word_split_rex=word_split_rex,
                                                 debug_level=options.debug)
         evaluate(options, trainwords, trainstringpos, goldwords, goldstringpos)
+
+
+if __name__ == '__main__':
+    try:
+        main()
+        exit(0)
+    except Exception as err:
+        print('Error in {}: {}'.format(__file__, err))
+        exit(1)
+    except:
+        print('Error in {}'.format(__file__))
+        exit(1)
