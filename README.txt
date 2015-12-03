@@ -32,6 +32,8 @@ PUDDLE or Phillips)
 
 - Mathieu
 
+  - Fix not-debug mode in AG's
+
   - Test segment.py clustered
 
   - Smart clusterization of crossevaluation.

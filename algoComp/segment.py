@@ -10,6 +10,7 @@ Copyright 2015 Alex Cristia, Mathieu Bernard
 
 import argparse
 import os
+import shlex
 import shutil
 import subprocess
 import sys
@@ -28,7 +29,7 @@ ALGO_CHOICES = ['AGc3sf', 'AGu', 'TPs', 'dibs', 'dmcmc', 'ngrams', 'puddle']
 def clusterizable():
     """Return True if the 'qsub' command is found in the PATH"""
     try:
-        subprocess.check_output('which qsub'.split())
+        subprocess.check_output(shlex.split('which qsub'))
         return True
     except:
         return False
@@ -53,13 +54,12 @@ def run_command(algo, algo_dir, command, clusterize=False):
             fcommand = write_command(command)
             command = ('qsub -j y -cwd -o {} -N {} {}'
                        .format(ofile, algo, fcommand))
-            subprocess.call(command.split(), stdout=sys.stdout)
+            subprocess.call(shlex.split(command), stdout=sys.stdout)
             return algo
         else:
             print('qsub not detected, running the job on local host')
 
-    subprocess.call((command + '&').split(), stdout=ofile)
-    return subprocess.check_output('$!')
+    return subprocess.Popen(shlex.split(command))
 
 
 def wait_jobs(jobs_id, clusterize):
@@ -68,11 +68,11 @@ def wait_jobs(jobs_id, clusterize):
         print('waiting for jobs...')
         fcommand = write_command('echo done')
         command = ('qsub -j y -cwd -o /dev/null -N waiting -sync yes '
-                   '-hold_jid ' + ','.join(jobs_id))
+                   '-hold_jid ' + ','.join(jobs_id) + ' ' + fcommand)
     else:
         for pid in jobs_id:
-            print('waiting {}'.format(pid))
-            subprocess.call('wait {}'.format(pid).split())
+            print('waiting {}'.format(pid.pid))
+            pid.wait()
 
 
 def write_gold_file(tags, gold):
@@ -216,17 +216,33 @@ def main():
         print('launching {}...'.format(algo))
         jobs_id.append(run_command(algo, algo_dir, command, args.clusterize))
 
-
+    return
     # wait all the jobs terminate
-    print('waiting for jobs')
     wait_jobs(jobs_id, args.clusterize)
 
     # finally collapse all the results
+    print('all jobs terminated, collapse results in {}'
+          .format(args.output_file))
     for algo in script.keys():
         if not algo == 'ngrams':
             # get the result score
-            res_file = [f for f in os.listdir(algo_dir)
-                        if 'cfgold-res' in f][0]
+            res_file = args.keyname + '-' + algo + '-cfgold-res.txt'
+            algo_dir = os.path.join(args.output_dir, algo)
+            res_file = os.path.join(algo_dir, res_file)
+
+            # TODO fix this (change algo names in lower layers)
+            # special case of AGu
+            if algo == 'AGu':
+                res_file = res_file.replace('AGu-', 'agU-')
+            # special case of AGc3sf
+            if algo == 'AGc3sf':
+                res_file = res_file.replace('AGc3sf-', 'agc3s-')
+            # special case for TPs
+            elif algo == 'TPs':
+                res_file = res_file.replace('TPs-', 'tpREL-')
+
+            assert os.path.isfile(res_file), ('result file {} not found for '
+                                              'algo {}'.format(res_file, algo))
             with open(os.path.join(algo_dir, res_file), 'r') as r:
                 r.readline()  # consume 1st line (header)
                 res_line = r.readline()
