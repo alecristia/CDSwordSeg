@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 """Script for analyzing a single file in the algoComp2015.1.0 project
 
-Run the file with --help option to get in.
+Replaces the former segment_one_corpus.sh script. Run the file with
+the '--help' option to get in.
 
 Copyright 2015 Alex Cristia, Mathieu Bernard
 
@@ -12,6 +13,8 @@ import os
 import shutil
 import subprocess
 import sys
+import tempfile
+
 
 CFGOLD = ('algo token_f-score token_precision token_recall '
           'boundary_f-score boundary_precision boundary_recall')
@@ -33,15 +36,43 @@ def clusterizable():
 CLUSTERIZABLE = clusterizable()
 
 
-def run_command(algo, command, clusterize=False):
-    """Call the command as a subprocess or schelule it in the cluster"""
+def write_command(command, bin='bash'):
+    """Write a two lines script from command and return its path"""
+    tfile = tempfile.mkstemp()[1]
+    with open(tfile, 'w') as f:
+        f.write('#!/usr/bin/env ' + bin + '\n')
+        f.write(command + '\n')
+    return tfile
+
+
+def run_command(algo, algo_dir, command, clusterize=False):
+    """Call the command as a subprocess or schedule it in the cluster"""
+    ofile = os.path.join(algo_dir, algo + '.stdout')
     if clusterize:
         if CLUSTERIZABLE:
-            command = 'echo "' + command + '" | qsub -j y -cwd -N ' + algo
+            fcommand = write_command(command)
+            command = ('qsub -j y -cwd -o {} -N {} {}'
+                       .format(ofile, algo, fcommand))
+            subprocess.call(command.split(), stdout=sys.stdout)
+            return algo
         else:
             print('qsub not detected, running the job on local host')
 
-    subprocess.call(command.split(), stdout=sys.stdout)
+    subprocess.call((command + '&').split(), stdout=ofile)
+    return subprocess.check_output('$!')
+
+
+def wait_jobs(jobs_id, clusterize):
+    """Wait all the jobs in list are terminated and return"""
+    if clusterize:
+        print('waiting for jobs...')
+        fcommand = write_command('echo done')
+        command = ('qsub -j y -cwd -o /dev/null -N waiting -sync yes '
+                   '-hold_jid ' + ','.join(jobs_id))
+    else:
+        for pid in jobs_id:
+            print('waiting {}'.format(pid))
+            subprocess.call('wait {}'.format(pid).split())
 
 
 def write_gold_file(tags, gold):
@@ -159,6 +190,7 @@ def main():
     if not os.path.isfile(args.output_file):
         open(args.output_file, 'w').write(CFGOLD + '\n')
 
+    jobs_id = []
     for algo in script.keys():
         # create a subdirectory to store intermediate files
         algo_dir = os.path.join(args.output_dir, algo)
@@ -181,8 +213,16 @@ def main():
             command += ' debug'
 
         # call the script and do the computation
-        run_command(algo, command, args.clusterize)
+        print('launching {}...'.format(algo))
+        jobs_id.append(run_command(algo, algo_dir, command, args.clusterize))
 
+
+    # wait all the jobs terminate
+    print('waiting for jobs')
+    wait_jobs(jobs_id, args.clusterize)
+
+    # finally collapse all the results
+    for algo in script.keys():
         if not algo == 'ngrams':
             # get the result score
             res_file = [f for f in os.listdir(algo_dir)
