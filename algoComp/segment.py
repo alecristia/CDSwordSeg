@@ -23,7 +23,7 @@ CDSPATH = os.path.dirname(os.path.abspath(__file__))
 """The algoComp directory in CDSwordSeg"""
 
 ALGO_CHOICES = ['AGc3sf', 'AGu', 'TPs', 'dibs', 'dmcmc', 'ngrams', 'puddle']
-
+"""Algorithms provided in the algoComp pipeline"""
 
 def clusterizable():
     """Return True if the 'qsub' command is found in the PATH"""
