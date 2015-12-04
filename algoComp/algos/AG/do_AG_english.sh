@@ -21,8 +21,8 @@ INPUT=$RESFOLDER$KEYNAME-tags.txt
 ALGO=$3
 case $ALGO in
     "agU")
-        GRAMMARFILE="grammars/Colloq0_enFestival.lt"
-        LEVEL="Colloq0"
+        GRAMMARFILE="grammars/Colloc0_enFestival.lt"
+        LEVEL="Colloc0"
         ;;
     "agc3s")
         GRAMMARFILE="grammars/Coll3syllfnc_enFestival.lt"
