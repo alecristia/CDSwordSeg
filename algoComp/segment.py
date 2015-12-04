@@ -69,6 +69,7 @@ def wait_jobs(jobs_id, clusterize):
         fcommand = write_command('echo done')
         command = ('qsub -j y -cwd -o /dev/null -N waiting -sync yes '
                    '-hold_jid ' + ','.join(jobs_id) + ' ' + fcommand)
+        subprocess.call(shlex.split(command), stdout=sys.stdout)
     else:
         for pid in jobs_id:
             print('waiting {}'.format(pid.pid))
@@ -213,10 +214,8 @@ def main():
             command += ' debug'
 
         # call the script and do the computation
-        print('launching {}...'.format(algo))
         jobs_id.append(run_command(algo, algo_dir, command, args.clusterize))
 
-    return
     # wait all the jobs terminate
     wait_jobs(jobs_id, args.clusterize)
 

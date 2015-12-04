@@ -39,7 +39,7 @@ def check_text(text, on_error='raise'):
         if len(line) < 2:
             if on_error == 'raise':
                 raise RuntimeError('line {} is empty'.format(line_nb))
-        else: # the line is not empty, performs other checks
+        else:  # the line is not empty, performs other checks
             # look for begin or end spaces
             striped = line.strip(' \t')
             if not striped == line and on_error == 'raise':
@@ -55,8 +55,9 @@ def check_text(text, on_error='raise'):
                 line = line.replace('  ', ' ')
 
             # finally append the corrected line
-            res += line
-
+            line = line.strip()
+            if not line == '':
+                res += line + '\n'
     return res
 
 
