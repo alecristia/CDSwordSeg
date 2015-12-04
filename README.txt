@@ -28,20 +28,11 @@ Our current pipeline involves three steps:
 - AC update the evaluation section for all the batch algos (i.e., not
 PUDDLE or Phillips)
 
-- AC start running the experiments on all the batch algos
+- Fix segment.py clustered
 
-- Mathieu
+- Smart clusterization of crossevaluation.
 
-  - Fix not-debug mode in AG's
-
-  - Test segment.py clustered
-
-  - Smart clusterization of crossevaluation.
-
-  - Optimize crossevaluation unfold step (no need to load entire
-    files, tail is enought).
-
-  - Potential issues with other copora than bernstein (@, etc...)
+- Potential issues with other copora than bernstein (@, etc...)
 
 ***** OLD TODO backup
 

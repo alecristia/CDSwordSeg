@@ -7,6 +7,7 @@
 ABSPATH=$1
 KEYNAME=$2
 RESFOLDER=$3
+DEBUG=$4
 
 ALGO="agU"
 ROOT=$RESFOLDER$KEYNAME
@@ -41,7 +42,7 @@ sed 's/;esyll//g' $ROOT-tags.txt |
 
 # actual algo running
 cd ${ABSPATH}algos/AG
-$GRAMMARFILE $RESFOLDER $KEYNAME $ALGO "debug"
+$GRAMMARFILE $RESFOLDER $KEYNAME $ALGO $DEBUG
 
 # # write with standard format
 # sed 's/ /;/g' ${RESFOLDER}_mbr-Colloc0.seg |

@@ -157,6 +157,7 @@ def main_unfold():
     # load the last block of each input files from the index
     last_blocks = []
     for i, f in enumerate(sorted(args.files)):
+        # TODO Optimize, no need to load entire files, tail is enought
         lines = open(f, 'r').readlines()
         if not len(lines) == length:
             raise ValueError('{} must have {} lines but have {}'
