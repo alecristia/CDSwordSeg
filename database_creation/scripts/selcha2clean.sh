@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 # cleaning up selected lines from cha files in prep to generating a phono format
 # Alex Cristia alecristia@gmail.com 2015-10-26
 
