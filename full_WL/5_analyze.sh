@@ -22,10 +22,9 @@ KEYNAME=`basename ${VERSION#$RESFOLDER}`
 $PIPELINE --goldfile $VERSION/gold.txt \
           --output-dir $RESFOLDER/$KEYNAME \
           --algorithms all \
-          --ag-debug \
           --clusterize \
           $VERSION/tags.txt
 done
 
 # bring together the results
-# grep '[0-9]' $RESFOLDER/*/*cfgold.txt > $RESFOLDER/results.txt
+grep '[0-9]' $RESFOLDER/*/*cfgold.txt > $RESFOLDER/results.txt

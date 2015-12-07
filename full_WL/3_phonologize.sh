@@ -18,20 +18,10 @@ do
 
     echo "phonologizing $ORTHO in $BASE/tags.txt"
     ../phonologization/scripts/phonologize $ORTHO -o $BASE/tags.txt
-    #sed -i -e 's/  / /g' -e '/^ ?$/d' $BASE/tags.txt
 
     echo "creating gold versions ${BASE}-gold.txt"
     sed 's/;esyll//g' $BASE/tags.txt |
         sed 's/ //g' |
         sed 's/;eword/ /g' |
         sed 's/ $//g' > $BASE/gold.txt
-
-    mv $BASE/gold.txt $BASE/gold-full.txt
-    # mv $BASE/tags.txt $BASE/tags-full.txt
-
-    N=`wc -l $BASE/gold-full.txt | cut -f1 -d' '`
-    Ntest=`echo "$((N * 1 / 5))"`
-
-    tail --lines=$Ntest $BASE/gold-full.txt > $BASE/gold.txt
-    # tail --lines=$Ntest $BASE/gold-tags.txt > $BASE/tags.txt
 done
