@@ -52,10 +52,11 @@ def run_command(algo, algo_dir, command, clusterize=False):
     if clusterize:
         if CLUSTERIZABLE:
             fcommand = write_command(command)
-            command = ('qsub -j y -cwd -o {} -N {} {}'
+            command = ('qsub -j y -V -cwd -o {} -N {} {}'
                        .format(ofile, algo, fcommand))
-            subprocess.call(shlex.split(command), stdout=sys.stdout)
-            return algo
+            res = subprocess.check_output(
+                shlex.split(command))
+            return res.split()[2] # job pid on the cluster
         else:
             print('qsub not detected, running the job on local host')
 
@@ -67,7 +68,7 @@ def wait_jobs(jobs_id, clusterize):
     if clusterize:
         print('waiting for jobs...')
         fcommand = write_command('echo done')
-        command = ('qsub -j y -cwd -o /dev/null -N waiting -sync yes '
+        command = ('qsub -j y -V -cwd -o /dev/null -N waiting -sync yes '
                    '-hold_jid ' + ','.join(jobs_id) + ' ' + fcommand)
         subprocess.call(shlex.split(command), stdout=sys.stdout)
     else:

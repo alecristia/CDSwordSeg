@@ -3,15 +3,15 @@
 
 HOST=oberon
 SRC=/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/trs
-DEST=/home/mbernard/dev/CDSwordSeg/full_WL/trs
+DEST=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/trs
 
 # copy the files from SRC to DEST
-mkdir -p $DEST
-scp $HOST:$SRC/*.trs $DEST
+mkdir -p $DEST/raw
+scp $HOST:$SRC/*.trs $DEST/raw
 
 # simplify names to remove date and FINAL
-for TRS in $DEST/*.trs
+for TRS in $DEST/raw/*.trs
 do
-    TRS2=$DEST/`basename $TRS | cut -d_ -f1`.trs
-    mv $TRS $TRS2
+    TRS2=$DEST/`basename $TRS | cut -d_ -f1-2`.trs
+    sed '/^>.*>$/d' $TRS | sed '/^$/d' > $TRS2
 done

@@ -5,19 +5,14 @@
 #only, child directed only, and directed to the key child only
 
 #########VARIABLES
-#*****VARIABLES TO CHANGE*********#
 
 # must exist and contain trs files
-TRSFOLDER=/home/mbernard/dev/CDSwordSeg/full_WL/trs
-#TRSFOLDER="/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/test/"
+TRSFOLDER=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/trs
 
 # will be created and output cha files will be stored there
 CHAFOLDER=${TRSFOLDER/trs/cha}
-
-#*********************************#
-#NOTE: there are lots of annotation below, hopefully explanatory
-
 mkdir -p $CHAFOLDER
+
 
 #Step 1: generate a file that contains only sentences we want
 for TRS in $TRSFOLDER/*.trs
