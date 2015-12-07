@@ -5,7 +5,7 @@
 
 #########VARIABLES
 LANGUAGE="english"
-ORTFOLDER=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/ortho
+ORTFOLDER=/home/mbernard/dev/CDSwordSeg/full_WL/ortho
 RESFOLDER=${ORTFOLDER/ortho/phono}
 #########
 
@@ -17,12 +17,14 @@ do
     mkdir -p $BASE
 
     echo "phonologizing $ORTHO in $BASE/tags.txt"
-    ../phonologization/scripts/phonologize $ORTHO -o $BASE/tags.txt || exit 1
+    ../phonologization/scripts/phonologize $ORTHO -o $BASE/tags.txt
+    #sed -i -e 's/  / /g' -e '/^ ?$/d' $BASE/tags.txt
 
     echo "creating gold versions ${BASE}-gold.txt"
     sed 's/;esyll//g' $BASE/tags.txt |
         sed 's/ //g' |
-        sed 's/;eword/ /g' > $BASE/gold.txt
+        sed 's/;eword/ /g' |
+        sed 's/ $//g' > $BASE/gold.txt
 
     mv $BASE/gold.txt $BASE/gold-full.txt
     # mv $BASE/tags.txt $BASE/tags-full.txt

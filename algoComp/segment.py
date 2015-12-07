@@ -60,16 +60,18 @@ def run_command(algo, algo_dir, command, clusterize=False):
         else:
             print('qsub not detected, running the job on local host')
 
-    return subprocess.Popen(shlex.split(command))
+    return subprocess.Popen(shlex.split(command),
+                            stdout=open(os.path.join(algo_dir, 'log'), 'a'),
+                            stderr=subprocess.STDOUT)
 
 
 def wait_jobs(jobs_id, clusterize):
     """Wait all the jobs in list are terminated and return"""
-    if clusterize:
+    if clusterize and CLUSTERIZABLE:
         print('waiting for jobs...')
         fcommand = write_command('echo done')
         command = ('qsub -j y -V -cwd -o /dev/null -N waiting -sync yes '
-                   '-hold_jid ' + ','.join(jobs_id) + ' ' + fcommand)
+                   '-hold_jid {} {}'.format(','.join(jobs_id), fcommand))
         subprocess.call(shlex.split(command), stdout=sys.stdout)
     else:
         for pid in jobs_id:

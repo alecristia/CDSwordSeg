@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-WL=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/phono
+WL=/home/mbernard/dev/CDSwordSeg/full_WL/phono
 
 # SPECIAL STEP: Add length-matched versions of the CDS corpora - for
 # now, only the lena-segmented (add human seg if results change) --
