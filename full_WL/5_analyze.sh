@@ -7,24 +7,22 @@
 # 2015-11-26 for winnipeglena corpus analysis
 
 #########VARIABLES###########################
-PHONFOLDER=/home/mbernard/dev/CDSwordSeg/full_WL/phono
+PHONFOLDER=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/phono
 RESFOLDER=${PHONFOLDER/phono/results}
-PIPELINE=/home/mbernard/dev/CDSwordSeg/algoComp/segment.py
+PIPELINE=/home/mbernard/scratch/dev/CDSwordSeg/algoComp/segment.py
 #########
 
 mkdir -p $RESFOLDER
 
 # Run all algos in the cluster, once per version
-# for VERSION in ${PHONFOLDER}/WL_ADS_*S ${PHONFOLDER}/WL_CDS_*S
-for VERSION in ${PHONFOLDER}/WL_ADS_LS
+#for VERSION in ${PHONFOLDER}/WL_ADS_*S ${PHONFOLDER}/WL_CDS_*S
+for VERSION in ${PHONFOLDER}/WL_*
 do
-KEYNAME=`basename ${VERSION#$RESFOLDER}`
-$PIPELINE --goldfile $VERSION/gold.txt \
-          --output-dir $RESFOLDER/$KEYNAME \
-          --algorithms all \
-          --clusterize \
-          $VERSION/tags.txt
+    KEYNAME=`basename ${VERSION#$RESFOLDER}`
+    echo Clusterizing $KEYNAME
+    $PIPELINE --goldfile $VERSION/gold.txt \
+              --output-dir $RESFOLDER/$KEYNAME \
+              --algorithms all \
+              --clusterize \
+              $VERSION/tags.txt &
 done
-
-# bring together the results
-grep '[0-9]' $RESFOLDER/*/*cfgold.txt > $RESFOLDER/results.txt

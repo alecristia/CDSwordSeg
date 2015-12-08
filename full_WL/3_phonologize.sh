@@ -5,7 +5,7 @@
 
 #########VARIABLES
 LANGUAGE="english"
-ORTFOLDER=/home/mbernard/dev/CDSwordSeg/full_WL/ortho
+ORTFOLDER=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/ortho
 RESFOLDER=${ORTFOLDER/ortho/phono}
 #########
 

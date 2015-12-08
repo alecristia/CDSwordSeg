@@ -3,7 +3,7 @@
 
 HOST=oberon
 SRC=/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/trs
-DEST=/home/mbernard/dev/CDSwordSeg/full_WL/trs
+DEST=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/trs
 
 # copy the files from SRC to DEST
 mkdir -p $DEST/raw
