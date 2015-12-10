@@ -8,21 +8,22 @@
 
 #########VARIABLES###########################
 PHONFOLDER=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/phono
-RESFOLDER=${PHONFOLDER/phono/results}
 PIPELINE=/home/mbernard/scratch/dev/CDSwordSeg/algoComp/segment.py
+RESFOLDER=${1:-${PHONFOLDER/phono/results\/test_segment}}
 #########
 
 mkdir -p $RESFOLDER
 
 # Run all algos in the cluster, once per version
-#for VERSION in ${PHONFOLDER}/WL_ADS_*S ${PHONFOLDER}/WL_CDS_*S
+#for VERSION in ${PHONFOLDER}/WL_ADS_*S
 for VERSION in ${PHONFOLDER}/WL_*
 do
-    KEYNAME=`basename ${VERSION#$RESFOLDER}`
-    echo Clusterizing $KEYNAME
+    VNAME=`basename ${VERSION#$RESFOLDER}`
+    echo Clusterizing $VNAME
     $PIPELINE --goldfile $VERSION/gold.txt \
-              --output-dir $RESFOLDER/$KEYNAME \
-              --algorithms all \
+              --output-dir $RESFOLDER/$VNAME \
+              --algorithms TPs \
               --clusterize \
-              $VERSION/tags.txt &
+              --jobs-basename $VNAME \
+              $VERSION/tags.txt
 done

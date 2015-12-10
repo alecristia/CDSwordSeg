@@ -6,7 +6,7 @@
 # Mathieu Bernard
 
 #########VARIABLES###########################
-RESFOLDER=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/results_little
+RESFOLDER=${1:-/home/mbernard/scratch/dev/CDSwordSeg/full_WL/results/all}
 #########
 
 HEADER="version algo token_f-score token_precision token_recall \
