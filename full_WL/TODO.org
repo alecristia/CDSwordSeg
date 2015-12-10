@@ -1,0 +1,40 @@
+* pipeline
+** DONE segment.py
+   CLOSED: [2015-12-09 Wed 11:00]
+*** DONE Delete the collapsing stuff because it's done in step 6
+    CLOSED: [2015-12-09 Wed 10:26]
+*** DONE Delete keyname
+    CLOSED: [2015-12-09 Wed 10:26]
+*** DONE Rename all stdouts as log
+    CLOSED: [2015-12-09 Wed 10:26]
+** DONE TPs & ngrams
+   CLOSED: [2015-12-09 Wed 14:21]
+*** DONE correct the script and remove the cd.
+    CLOSED: [2015-12-09 Wed 14:21]
+*** DONE Ensure no file clash when clusterized.
+    CLOSED: [2015-12-09 Wed 14:21]
+** DONE Debug TPs (issue in last line ?)
+   CLOSED: [2015-12-09 Wed 15:27]
+** TODO Debug dmcmc segfault on non ADS corpora
+   Processing fold 0.
+   /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
+   line 53: 52767 Segmentation fault (core dumped) $DPSEG -o
+   ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
+   Processing fold 1.................................................
+   Processing fold 2.................................................
+   Processing fold 3.................................................
+   Processing fold 4.
+   /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
+   line 53: 30818 Segmentation fault (core dumped) $DPSEG -o
+   ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
+
+** DONE Debug AGc3sf parse failure on non ADS corpora
+   CLOSED: [2015-12-10 Thu 16:10]
+* 4_special_step.sh
+** TODO debug wordmatch
+* DONE 5_analyze.sh
+  CLOSED: [2015-12-09 Wed 14:21]
+** DONE rm key-cfgold.txt in version dir
+   CLOSED: [2015-12-09 Wed 10:27]
+** DONE fix that error in evalGold.py
+   CLOSED: [2015-12-09 Wed 12:10]
