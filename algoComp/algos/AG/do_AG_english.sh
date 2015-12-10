@@ -6,10 +6,12 @@
 RESFOLDER=$1
 [[ ! -d $RESFOLDER ]] && echo "$0 : invalid directory $RESFOLDER" && exit 1
 
-# name of the database is $RESFOLDER$KEYNAME-tags.txt
-KEYNAME=$2
-INPUT=$RESFOLDER$KEYNAME-tags.txt
+# name of the database is $RESFOLDER/tags.txt
+INPUT=$RESFOLDER/tags.txt
 [[ ! -f $INPUT ]] && echo "$0 : invalid input file $INPUT" && exit 1
+
+# path to the AG folder (where this file is located)
+ABSPATH=`dirname $0`
 
 # name of the algorithm is either "agU" or "agc3s". This parameter
 # defines :
@@ -18,14 +20,14 @@ INPUT=$RESFOLDER$KEYNAME-tags.txt
 #     be the word level; in coll0 model because it is the level at
 #     which phonemes are combined; in coll3syll it is defined as
 #     groups of syllables
-ALGO=$3
+ALGO=$2
 case $ALGO in
     "agU")
-        GRAMMARFILE="grammars/Colloc0_enFestival.lt"
+        GRAMMARFILE=$ABSPATH/grammars/Colloc0_enFestival.lt
         LEVEL="Colloc0"
         ;;
     "agc3s")
-        GRAMMARFILE="grammars/Coll3syllfnc_enFestival.lt"
+        GRAMMARFILE=$ABSPATH/grammars/Coll3syllfnc_enFestival.lt
         LEVEL="Word"
         ;;
     *)
@@ -35,10 +37,10 @@ case $ALGO in
 esac
 
 # Tune AG with normal settings by default, or specify exiplicitly
-# "debug" as the 4th parameter. This parameter defines :
+# "debug" as the 3rd parameter. This parameter defines :
 #    NITER = number of iterations per parse (2000 or 10)
 #    NRED = number thrown out when reducing the parse (100 or 0)
-SETUP=$4
+SETUP=$3
 if [[ "$SETUP" == "debug" ]]
 then
     echo "Setup $ALGO in debug mode"
@@ -53,7 +55,7 @@ fi
 #################### definining local variables ###################
 
 # location of the file containing the database in ylt format
-YLTFILE=$RESFOLDER"input.ylt"
+YLTFILE=$RESFOLDER/input.ylt
 
 #OUTPUT files - they won't be there, not created yet, but check names
 #to see if they make sense to you or you'd like them to be called
@@ -78,15 +80,15 @@ INMBRFILE="-${LEVEL}.seg"
 OUTMBRFILE="_mbr-${LEVEL}.seg"
 
 
-#### HAVE A LOOK BUT PROBABLY NOT CHANGE
+#### HAVE A LOOKBUT PROBABLY NOT CHANGE
 
 # Folder containing the py cfg routines, typically this will not
 # change
-PYCFG="py-cfg-new/py-cfg"
+PYCFG=$ABSPATH/py-cfg-new/py-cfg
 
 # location of the folder containing the key scripts that you will edit
 # (reduce_prs.py, etc.)
-SCRIPTFOLDER="scripts/"
+SCRIPTFOLDER=$ABSPATH/scripts
 
 # beginning of the name for a temporary file, typically this will not
 # change
@@ -95,16 +97,16 @@ TMPFILE="tmp"
 ## ANALYSIS Files - check that they are there
 
 # file containing the python script to reduce the parses
-REDUCEPRSFILE=$SCRIPTFOLDER"reduce_prs.py"
+REDUCEPRSFILE=$SCRIPTFOLDER/reduce_prs.py
 
 # file containing the python script to segment
-TREESFILE=$SCRIPTFOLDER"trees-words.py"
+TREESFILE=$SCRIPTFOLDER/trees-words.py
 
 # file containing the python script to calculate minimum bayes risk
-MBRPYFILE=$SCRIPTFOLDER"mbr.py"
+MBRPYFILE=$SCRIPTFOLDER/mbr.py
 
 # file containing the python script to evaluate the segmentation
-EVALPY=$SCRIPTFOLDER"eval.py"
+EVALPY=$SCRIPTFOLDER/eval.py
 
 
 ###########################
@@ -112,12 +114,12 @@ EVALPY=$SCRIPTFOLDER"eval.py"
 for i in {0..7}
 do
     $PYCFG -n $NITER \
-           -G $RESFOLDER$RUNFILE$i.wlt \
-           -A $RESFOLDER$TMPFILE$i.prs \
-           -F $RESFOLDER$TMPFILE$i.trace \
+           -G $RESFOLDER/$RUNFILE$i.wlt \
+           -A $RESFOLDER/$TMPFILE$i.prs \
+           -F $RESFOLDER/$TMPFILE$i.trace \
            -E -r $RANDOM -d 101 -a 0.0001 -b 10000 \
            -e 1 -f 1 -g 100 -h 0.01 -R -1 -P -x 10 -u $YLTFILE -U cat \
-           > $RESFOLDER$OUTFILE$i.prs $GRAMMARFILE \
+           > $RESFOLDER/$OUTFILE$i.prs $GRAMMARFILE \
            < $YLTFILE &
     pid[${i}]=$!
 done
@@ -131,19 +133,19 @@ done
 # b) Reduce the parse trees (-n = number of parses to be removed /
 # br-phono*: all the parse tree files to be applied - e.g. 0 through
 # 7)
-python $REDUCEPRSFILE -n $NRED $RESFOLDER$OUTFILE[0-9].prs
+python $REDUCEPRSFILE -n $NRED $RESFOLDER/$OUTFILE[0-9].prs
 
 ###########################
 # c) Segmentation
 for i in {0..7}
 do
     python $TREESFILE -c $LEVEL \
-           < $RESFOLDER$OUTFILE$i-last.prs \
-           > $RESFOLDER$OUTFILE$i$INMBRFILE
+           < $RESFOLDER/$OUTFILE$i-last.prs \
+           > $RESFOLDER/$OUTFILE$i$INMBRFILE
 done
 
 ###########################
 # d) Extract the most frequent segmentation in the 800 sample
 # segmentations (minimum bayes risk) and to be used in the evaluation
-python $MBRPYFILE $RESFOLDER$OUTFILE*$INMBRFILE  \
-       > $RESFOLDER$KEYNAME-$ALGO-cfgold.txt
+python $MBRPYFILE $RESFOLDER/$OUTFILE*$INMBRFILE  \
+       > $RESFOLDER/cfgold.txt

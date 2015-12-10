@@ -5,12 +5,9 @@
 # Changes by Alex Cristia <alecristia@gmail.com>
 
 ABSPATH=$1
-KEYNAME=$2
-RESFOLDER=$3
-DEBUG=$4
-
+RESFOLDER=$2
+DEBUG=$3
 ALGO="agU"
-ROOT=$RESFOLDER$KEYNAME
 
 #*****CRUCIAL PART *******#
 # This grammar file needs to be adapted to your purposes, meaning:
@@ -24,36 +21,28 @@ ROOT=$RESFOLDER$KEYNAME
 # single words; groups of words are single words or groups of words;
 # words are groups of phonemes); and the alphabet is the Klatt English
 # unicode-friendly.
-GRAMMARFILE="./do_AG_english.sh"
+GRAMMARFILE=$ABSPATH/algos/AG/do_AG_english.sh
 ###########################
 
 # Remove spaces within words and syllable boundaries, and replace word
 # tags with spaces to create gold
-sed 's/;esyll//g' $ROOT-tags.txt |
+sed 's/;esyll//g' $RESFOLDER/tags.txt |
     sed 's/;eword/ /g' |
     sed '/^$/d' |
-    tr -d ' ' > ${RESFOLDER}input.gold
+    tr -d ' ' > $RESFOLDER/input.gold
 
 # Remove word and syllable tags to create input
-sed 's/;esyll//g' $ROOT-tags.txt |
+sed 's/;esyll//g' $RESFOLDER/tags.txt |
     sed 's/;eword/ /g' |
     sed '/^$/d' |
-    sed 's/  */ /g' > ${RESFOLDER}input.ylt
+    sed 's/  */ /g' > $RESFOLDER/input.ylt
 
 # actual algo running
-cd ${ABSPATH}algos/AG
-$GRAMMARFILE $RESFOLDER $KEYNAME $ALGO $DEBUG
-
-# # write with standard format
-# sed 's/ /;/g' ${RESFOLDER}_mbr-Colloc0.seg |
-#     sed 's/./& /g' |
-#     sed 's/ ;/;aword/g' > $ROOT-$ALGO-output.txt
-# sed 's/ //g' $ROOT-$ALGO-output.txt |
-#     sed 's/;aword/ /g' > $RESFOLDER$KEYNAME-$ALGO-cfgold.txt
+$GRAMMARFILE $RESFOLDER $ALGO $DEBUG
 
 # Do the evaluation
-cd ${ABSPATH}scripts
-./doAllEval.text $RESFOLDER $KEYNAME $ALGO
+cd $ABSPATH/scripts
+./doAllEval.text $RESFOLDER
 
 # # Final clean up
 # cd $RESFOLDER
