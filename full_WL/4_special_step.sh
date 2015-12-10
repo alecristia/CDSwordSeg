@@ -17,7 +17,8 @@ N=`wc -l "$WL/WL_ADS_LS/tags.txt" | cut -f1 -d' '`
 head -n $N  $WL/WL_CDS_LS/tags.txt \
      > $WL/WL_CDS_LS_LineMatch/tags.txt
 
-mkdir $WL/WL_CDS_LS_WordMatch
+
+mkdir -p $WL/WL_CDS_LS_WordMatch
 tr -s ' ' < $WL/WL_ADS_LS/gold.txt |
     sed 's/ / toglue\n/g' > $WL/WL_ADS_LS/counting.tmp
 N=`wc -l $WL/WL_ADS_LS/counting.tmp | cut -f1 -d' '`

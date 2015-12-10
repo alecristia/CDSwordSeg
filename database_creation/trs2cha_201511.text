@@ -16,20 +16,20 @@ mkdir $CHAFOLDER
 #Step 1: generate a file that contains only sentences we want
 for j in $TRSFOLDER*.trs; do
 	k="${j%????}"
-	grep "|" "$j" | 
+	grep "|" "$j" |
 	sed 's/CRY//g' | sed 's/SIL//g' | sed 's/BBL//g' | sed 's/VOC//g' | sed 's/VFX//g' |
-	tr -s ' ' | grep -v '^ |' |  grep -v '^|' | 
+	tr -s ' ' | grep -v '^ |' |  grep -v '^|' |
 	sed -r 's/(\|[BRE]C\|[0-9]*\|[0-9]*\|[0-9]*\|[A-Z/]*\|[A-Z]*\|[A-Z]*)(|.\|.\|.*\|.\|$)/ \2/g' |
-	 tr '.' '\n' | 
+	 tr '.' '\n' |
 	grep -v '^[0-9]' |
-	sed 's/&lt;/ /g' |  sed 's/&gt;/ /g' | sed "s/i'i/i/g" | tr -d '\r' | 
+	sed 's/&lt;/ /g' |  sed 's/&gt;/ /g' | sed "s/i'i/i/g" | tr -d '\r' |
 	sed -r 's/([a-z])(\|)/\1 \2/g' |
-	grep -v ' |T|' | grep -v ' |C|' | grep -v ' |O|' | grep -v ' |U|' | 
+	grep -v ' |T|' | grep -v ' |C|' | grep -v ' |O|' | grep -v ' |U|' |
 	grep -v '|I[0-9]' | grep -v '|C[0-9]'   > ${TRSFOLDER}temp.tmp
 
 
-# 
-#This means: 
+#
+#This means:
 #grep "|" $j | = focus on lines which contain | codes, because they may contain transcriptions
 #grep -v 'CRY' |... sed 's/VFX//g' | = remove  LENA labels  (speech-like VOC, silence SIL, babble BBL, fixed VFX)
 #tr -s ' ' | grep -v '^ |' | grep -v '^|' | = remove every line that haven't been transcribed, since they start with |
@@ -47,26 +47,26 @@ for j in $TRSFOLDER*.trs; do
 
 # In the next phase, we create the line selections
 #VERSION 1: to analyze only the adult-directed speech		!#!!!
-	grep -e ' |.|A' < "${TRSFOLDER}temp.tmp" > "${k}_ADS.txt"			 
+	grep -e ' |.|A' < "${TRSFOLDER}temp.tmp" > "${k}_ADS.txt"
 
 #VERSION 2: to analyze only the TARGET CHILD child-directed speech		!#!!!
-	grep  -e ' |.|T' < "${TRSFOLDER}temp.tmp" > "${k}_CDS.txt"			 
+	grep  -e ' |.|T' < "${TRSFOLDER}temp.tmp" > "${k}_CDS.txt"
 
 #another version, just to check against Melanie's pipeline
-	grep  -e ' |.|T' -e ' |.|O' -e ' |.|C' < "${TRSFOLDER}temp.tmp" > "${k}_KDS.txt"			 
+	grep  -e ' |.|T' -e ' |.|O' -e ' |.|C' < "${TRSFOLDER}temp.tmp" > "${k}_KDS.txt"
 
 #create a version reflecting segments glued together by humans
 #sed -r 's/I\|.\|/toglue/' | awk '{if($NF~"toglue"){mem=mem $0 " "}else{print mem $0; mem="" }}END{print mem}' = trick to glue together the lines that are considered continuations (without overlap)
 	sed -r 's/I\|.\|/toglue/' < "${TRSFOLDER}temp.tmp" | awk '{if($NF~"toglue"){mem=mem $0 " "}else{print mem $0; mem="" }}END{print mem}' | sed "s/toglue//g" > "${TRSFOLDER}temp_glued.tmp"
 
 #VERSION 1: to analyze only the adult-directed speech - human style segmentation		!#!!!
-	grep -e ' |.|A' < "${TRSFOLDER}temp_glued.tmp" > "${k}_ADS_humanseg.txt"			 
+	grep -e ' |.|A' < "${TRSFOLDER}temp_glued.tmp" > "${k}_ADS_humanseg.txt"
 
 #VERSION 2: to analyze only the TARGET CHILD child-directed speech	-human style segmentation	!#!!!
-	grep  -e ' |.|T' < "${TRSFOLDER}temp_glued.tmp" > "${k}_CDS_humanseg.txt"			 
+	grep  -e ' |.|T' < "${TRSFOLDER}temp_glued.tmp" > "${k}_CDS_humanseg.txt"
 
 #another version, just to check against Melanie's pipeline
-	grep  -e ' |.|T' -e ' |.|O' -e ' |.|C' < "${TRSFOLDER}temp_glued.tmp" > "${k}_KDS_humanseg.txt"			 
+	grep  -e ' |.|T' -e ' |.|O' -e ' |.|C' < "${TRSFOLDER}temp_glued.tmp" > "${k}_KDS_humanseg.txt"
 
 	rm ${TRSFOLDER}*.tmp
 done
@@ -76,7 +76,12 @@ done
 #Step 2: Fake CHILDES format lines
 for j in $TRSFOLDER*.txt; do
 	k="${j%???}"cha
-	sed '/ |M/ s/[a-z]*/\*FAT: &/' "$j" | sed '/ |F/ s/[a-z]*/\*MOT: &/' | sed '/ |O/ s/[a-z]*/\*SIB: &/' | sed 's/|[A-Z][A-Z]/ /g' | sed 's/|./ /g' | tr -d '|' | tr -s ' ' > "$k"
+	sed '/ |M/ s/[a-z]*/\*FAT: &/' "$j" |
+            sed '/ |F/ s/[a-z]*/\*MOT: &/' |
+            sed '/ |O/ s/[a-z]*/\*SIB: &/' |
+            sed 's/|[A-Z][A-Z]/ /g' |
+            sed 's/|./ /g' |
+            tr -d '|' | tr -s ' ' > "$k"
 	nl=`wc -l "$j" | cut -f1 -d' '`
 	nw=`wc -w "$j" | cut -f1 -d' '`
 	echo "$j" "$nl" "$nw" >> ${CHAFOLDER}summary.txt
@@ -99,5 +104,3 @@ mv $TRSFOLDER*CDS_humanseg.cha ${CHAFOLDER}WL_CDS_HS
 
 mkdir ${CHAFOLDER}WL_CDS_LS
 mv $TRSFOLDER*CDS.cha ${CHAFOLDER}WL_CDS_LS
-
-
