@@ -24,8 +24,8 @@ def is_double_quoted(line):
     return line[0] == line[-2] == '"'  # line[-1] is '\n'
 
 
-def preprocess(filein):
-    """Returns the contents of *filein* formatted for festival input.
+def preprocess(streamin):
+    """Returns the contents of *streamin* formatted for festival input.
 
     This function adds double quotes to begining and end of each line
     in text, if not already presents. The returned result is a
@@ -33,12 +33,11 @@ def preprocess(filein):
 
     """
     res = ''
-    with open(filein, 'r') as fin:
-        for line in fin:
-            # line = line.strip()
-            line = (line if is_double_quoted(line)
-                    else '"' + line[:-1] + '"\n')
-            res += line
+    for line in streamin:
+        # line = line.strip()
+        line = (line if is_double_quoted(line)
+                else '"' + line[:-1] + '"\n')
+        res += line
     return res
 
 
@@ -114,10 +113,10 @@ def postprocess(text):
     return ''.join(output)
 
 
-def phonologize(filein, fileout, script=None):
+def phonologize(streamin, streamout, script=None):
     """This function provides an easy wrapper to phonologization facilities."""
     # load and format input for festival
-    text = preprocess(filein)
+    text = preprocess(streamin)
 
     # get the syllabe structure of the input
     if not script:
@@ -127,8 +126,5 @@ def phonologize(filein, fileout, script=None):
     # parse it to the output format
     text = postprocess(text)
 
-    # Write the result on the output file
-    if fileout == sys.stdout:
-        fileout.write(text)
-    else:
-        open(fileout, 'w').write(text)
+    # Write the result on the output stream
+    streamout.write(text)

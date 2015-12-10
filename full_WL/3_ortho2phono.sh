@@ -17,11 +17,11 @@ do
     mkdir -p $BASE
 
     echo "phonologizing $ORTHO in $BASE/tags.txt"
-    ../phonologization/scripts/phonologize $ORTHO -o $BASE/tags.txt
+    ../phonologization/scripts/phonologize $ORTHO $BASE/tags.txt
 
     echo "creating gold versions ${BASE}-gold.txt"
     sed 's/;esyll//g' $BASE/tags.txt |
         sed 's/ //g' |
         sed 's/;eword/ /g' |
-        sed 's/ $//g' > $BASE/gold.txt
+        sed 's/ $//g' | tr -s ' ' > $BASE/gold.txt
 done
