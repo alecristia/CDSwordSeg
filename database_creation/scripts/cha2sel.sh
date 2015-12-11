@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 # SELECTING speakers from cha files in prep to generating a phono format
 # IMPORTANT!! Includes data selection
 # Alex Cristia alecristia@gmail.com 2015-10-26
@@ -12,7 +12,6 @@ RESFOLDER=$3
 
 
 echo "selecting speakers from $CHAFILE"
-
 
 #********** A T T E N T I O N ***************#
 #Modify this section to select the lines you want, for example here, we exclude speech by children and non-humans
@@ -36,11 +35,9 @@ echo "selecting speakers from $CHAFILE"
 #MacWhinney/*.cha	MAR	Brother
 #Sachs/n61na.cha	JEN	Playmate
 #Weist/Roman/rom*.cha	SOP	Sister
-	iconv -f ISO-8859-1 "$CHAFILE" |
-	 grep '^*' |  
-grep -v 'SI.\|BR.\|CHI\|TO.\|ENV\|BOY\|NON\|MAG\|JEN\|MAG\|CEC\|PAU\|ANN\|JOA\|SAN\|BRU\|CAR\|LEN\|JEM\|JOS\|STV\|LAR\|MAD\|MAR\|SOP' |   #leave this line uncommented to get rid of all child speakers
-#grep 'MOT' |   #leave this line uncommented to focus only on mother's speech
-	iconv -t ISO-8859-1 >> $RESFOLDER$SELFILE
 
-#*******************************************#
-
+iconv -f ISO-8859-1 "$CHAFILE" |
+    grep '^*' |
+    grep -v 'SI.\|BR.\|CHI\|TO.\|ENV\|BOY\|NON\|MAG\|JEN\|MAG\|CEC\|PAU\|ANN\|JOA\|SAN\|BRU\|CAR\|LEN\|JEM\|JOS\|STV\|LAR\|MAD\|MAR\|SOP' |   #leave this line uncommented to get rid of all child speakers
+    #grep 'MOT' |   #leave this line uncommented to focus only on mother's speech
+    iconv -t ISO-8859-1 >> $RESFOLDER$SELFILE

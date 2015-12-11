@@ -238,10 +238,9 @@ def main():
 if __name__ == '__main__':
     try:
         main()
-        exit(0)
     except Exception as err:
-        print('Error in {}: {}'.format(__file__, err))
+        print >> sys.stderr, 'Error in {}: {}'.format(__file__, err)
         exit(1)
     except:
-        print('Error in {}'.format(__file__))
+        print >> sys.stderr, 'Error in {}'.format(__file__)
         exit(1)

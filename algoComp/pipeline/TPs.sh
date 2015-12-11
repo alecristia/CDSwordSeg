@@ -4,34 +4,32 @@
 # Author: Mathieu Bernard <mmathieubernardd@gmail.com>
 
 ABSPATH=$1
-KEYNAME=$2
-RESFOLDER=$3
+RESFOLDER=$2
 
-ALGO="tpREL"
+ALGO="TPs"
 
 
-# Navigate to the TP folder
-cd ${ABSPATH}algos/TPs
+BIN=${ABSPATH}/algos/TPs/TPsegmentation.py
 
 # Reformat the test file for segmentation
-sed 's/ //g'  $RESFOLDER$KEYNAME-tags.txt |
+sed 's/ //g' $RESFOLDER/tags.txt |
     sed 's/;esyll/ /g' |
     sed 's/;eword//g' |
     sed 's/  / /g' |
     sed 's/ $//g' |
     tr '\n' '?' |
-    sed 's/?/ UB /g' > syllableboundaries_marked.txt
+    sed 's/?/ UB /g' > $RESFOLDER/syllableboundaries_marked.txt
+# NOTE (was a bug) add a newline at the end of file
+echo '\n' >>  $RESFOLDER/syllableboundaries_marked.txt
 
 # Actual algo running
-python TPsegmentation.py syllableboundaries_marked.txt \
-       > $RESFOLDER$KEYNAME-${ALGO}-cfgold.txt
+$BIN $RESFOLDER/syllableboundaries_marked.txt > $RESFOLDER/cfgold.txt
 
 # Local clean up
 #rm syllable*
 
 # Do the evaluation
 cd ${ABSPATH}scripts
-./doAllEval.text $RESFOLDER $KEYNAME $ALGO
+./doAllEval.text $RESFOLDER
 
-
-echo "done with tps"
+echo done with $ALGO

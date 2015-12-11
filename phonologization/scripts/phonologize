@@ -20,9 +20,13 @@ Examples
 First, have a
 $ ./phonologize --help
 
+$ echo "hello world" | ./phonologize
+hh ax l ;esyll ow ;esyll ;eword w er l d ;esyll ;eword
+
 $ echo "hello world" > hello.txt
 $ ./phonologize hello.txt
 hh ax l ;esyll ow ;esyll ;eword w er l d ;esyll ;eword
+
 $ ./phonologize hello.txt -o hello.phon
 $ cat hello.phon
 hh ax l ;esyll ow ;esyll ;eword w er l d ;esyll ;eword
@@ -52,11 +56,12 @@ from phonologizer import phonologize, default_script
 def parse_args():
     """Argument parser for the phonologization script."""
     parser = argparse.ArgumentParser()
-    parser.add_argument('input',
-                        help='input text file to be processed')
-    parser.add_argument('-o', '--output',
-                        help='output text file (default write on stdout)',
-                        default=sys.stdout)
+    parser.add_argument('input', default=sys.stdin, nargs='?',
+                        help='input text file to be processed, '
+                        'if not specified read on stdin')
+    parser.add_argument('output', default=sys.stdout, nargs='?',
+                        help='output text file to write in, '
+                        'if not specified write on stdout')
     parser.add_argument('-s', '--script',
                         help='festival script to be launched on background '
                         '(default is {})'.format(default_script()),
@@ -67,7 +72,16 @@ def parse_args():
 def main():
     """Compute the phonologization of an input text through *festival*."""
     args = parse_args()
-    phonologize(args.input, args.output, args.script)
+
+    streamin = args.input
+    if isinstance(streamin, str):
+        streamin = open(streamin, 'r')
+
+    streamout = args.output
+    if isinstance(streamout, str):
+        streamout = open(streamout, 'w')
+
+    phonologize(streamin, streamout, args.script)
 
 
 if __name__ == '__main__':

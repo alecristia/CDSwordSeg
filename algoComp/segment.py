@@ -46,43 +46,48 @@ def write_command(command, bin='bash'):
     return tfile
 
 
-def run_command(algo, algo_dir, command, clusterize=False):
+def run_command(algo, algo_dir, command, clusterize=False, basename=''):
     """Call the command as a subprocess or schedule it in the cluster"""
-    ofile = os.path.join(algo_dir, algo + '.stdout')
-    if clusterize:
-        if CLUSTERIZABLE:
-            fcommand = write_command(command)
-            command = ('qsub -j y -cwd -o {} -N {} {}'
-                       .format(ofile, algo, fcommand))
-            subprocess.call(shlex.split(command), stdout=sys.stdout)
-            return algo
-        else:
-            print('qsub not detected, running the job on local host')
-
-    return subprocess.Popen(shlex.split(command))
+    ofile = os.path.join(algo_dir, 'log')
+    if clusterize and CLUSTERIZABLE:
+        fcommand = write_command(command)
+        jobname = algo if basename == '' else basename + '_' + algo
+        print('name = {}'.format(jobname))
+        command = ('qsub -j y -V -cwd -o {} -N {} {}'
+                   .format(ofile, jobname, fcommand))
+        res = subprocess.check_output(shlex.split(command))
+        return res.split()[2] # job pid on the cluster
+    else:
+        return subprocess.Popen(shlex.split(command),
+                                stdout=open(ofile, 'a'),
+                                stderr=subprocess.STDOUT)
 
 
 def wait_jobs(jobs_id, clusterize):
     """Wait all the jobs in list are terminated and return"""
-    if clusterize:
+    if clusterize and CLUSTERIZABLE:
         print('waiting for jobs...')
         fcommand = write_command('echo done')
-        command = ('qsub -j y -cwd -o /dev/null -N waiting -sync yes '
-                   '-hold_jid ' + ','.join(jobs_id) + ' ' + fcommand)
+        command = ('qsub -j y -V -cwd -o /dev/null -N waiting -sync yes '
+                   '-hold_jid {} {}'.format(','.join(jobs_id.values()),
+                                            fcommand))
         subprocess.call(shlex.split(command), stdout=sys.stdout)
     else:
-        for pid in jobs_id:
-            print('waiting {}'.format(pid.pid))
-            pid.wait()
+        for pid in jobs_id.iteritems():
+            print('waiting {} of pid {}'.format(pid[0], pid[1].pid))
+            pid[1].wait()
 
 
 def write_gold_file(tags, gold):
     """remove ;eword and ;esyll in tags to create gold"""
     with open(gold, 'w') as out:
         for line in open(tags, 'r').xreadlines():
-            out.write(line.replace(';esyll', '')
-                      .replace(' ', '')
-                      .replace(';eword', ' ').strip() + '\n')
+            goldline = (line.replace(';esyll', '')
+                        .replace(' ', '')
+                        .replace(';eword', ' ').strip())
+            # remove multiple contiguous spaces
+            goldline = ' '.join(goldline.split())
+            out.write(goldline + '\n')
 
 
 def algo_dict(algos, directory=CDSPATH):
@@ -128,17 +133,9 @@ def parse_args():
 
     g1.add_argument(
         '-d', '--output-dir', type=str,
-        default=os.path.join(os.path.curdir, 'results'),
-        help='directory to write output files. Default is ./results. '
+        default=os.path.curdir,
+        help='directory to write output files. Default is to write in `.` . '
         "Each selected algo create it's own subdirectory in OUTPUT_DIR")
-
-    g1.add_argument(
-        '-k', '--keyname', type=str, default='key',
-        help='base of generated intermediate files in OUTPUT_DIR')
-
-    g1.add_argument(
-        '-o', '--output-file', type=str, default=None,
-        help='Main result file. Default is OUTPUT_DIR/KEYNAME-cfgold.txt')
 
     g2 = parser.add_argument_group('Computation parameters')
     g2.add_argument(
@@ -150,7 +147,16 @@ def parse_args():
 
     g2.add_argument(
         '-c', '--clusterize', action='store_true',
-        help='enable parallel computations if the qsub command is detected')
+        help='schedule jobs on the cluster if the qsub command is detected. '
+        'Else of if not specified, run jobs as parallel subproceses.')
+
+    g2.add_argument(
+        '-j', '--jobs-basename', type=str, default='',
+        help='If --clusterize, basename of scheduled jobs')
+
+    g2.add_argument(
+        '-s', '--sync', action='store_true',
+        help='Wait all the jobs are terminated before exiting.')
 
     g2.add_argument(
         '--ag-debug', action='store_true',
@@ -161,17 +167,21 @@ def parse_args():
 
 
 def main():
-    # parse input arguments and check for error
+    """Entry point of the segmentation pipeline"""
+    # parse input arguments
     args = parse_args()
+
+    # Check tags file and CDS dir exists
     assert os.path.isfile(args.tagsfile), \
         'invalid input file {}'.format(args.tagsfile)
     assert os.path.isdir(args.cds_dir), \
         'invalid CDS dir {}'.format(args.cds_dir)
 
-    if args.output_file is None:
-        args.output_file = os.path.join(args.output_dir,
-                                        args.keyname + '-cfgold.txt')
+    args.output_dir = os.path.abspath(args.output_dir)
+    if not os.path.isdir(args.output_dir):
+        os.mkdir(args.output_dir)
 
+    # compute the gold file if not given
     if args.goldfile is None:
         base, ext = os.path.splitext(args.tagsfile)
         args.goldfile = base + '-gold' + ext
@@ -180,79 +190,52 @@ def main():
         assert os.path.isfile(args.goldfile), \
             'invalid input file {}'.format(args.goldfile)
 
-    args.output_dir = os.path.abspath(args.output_dir)
-    if not os.path.isdir(args.output_dir):
-        os.mkdir(args.output_dir)
+    # mapping from algo name to script absolute path
+    scripts = algo_dict(args.algorithms, args.cds_dir)
 
-    # retrieve path to the script of each required algorithm
-    script = algo_dict(args.algorithms, args.cds_dir)
+    # mapping from algo name to pid
+    jobs = {}
 
-    # prepare main result file with a header
-    if not os.path.isfile(args.output_file):
-        open(args.output_file, 'w').write(CFGOLD + '\n')
-
-    jobs_id = []
-    for algo in script.keys():
-        # create a subdirectory to store intermediate files
+    # The main loop running all algos on the tags data
+    for algo in scripts.keys():
+        # create a subdirectory to store intermediate files. Be
+        # conservative and do not overwrite any data in the result
+        # directory
         algo_dir = os.path.join(args.output_dir, algo)
-        if not os.path.isdir(algo_dir):
-            os.mkdir(algo_dir)
+        assert not os.path.isdir(algo_dir), \
+            'result directory already exists: {}'.format(algo_dir)
+        os.mkdir(algo_dir)
 
         # copy tags ang gold files in it (this is required by the
         # underlying scripts)
-        shutil.copy(args.tagsfile,
-                    os.path.join(algo_dir, args.keyname + '-tags.txt'))
-        shutil.copy(args.goldfile,
-                    os.path.join(algo_dir, args.keyname + '-gold.txt'))
+        shutil.copy(args.tagsfile, os.path.join(algo_dir, 'tags.txt'))
+        shutil.copy(args.goldfile, os.path.join(algo_dir, 'gold.txt'))
 
         # generate the bash command to call
-        command = ' '.join([script[algo],
+        command = ' '.join([scripts[algo],
                             args.cds_dir + '/',  # ABSPATH
-                            args.keyname,        # KEYNAME
                             algo_dir + '/'])     # RESFOLDER
+
+        # specify debug mode for AG
         if 'AG' in algo and args.ag_debug:
             command += ' debug'
 
-        # call the script and do the computation
-        jobs_id.append(run_command(algo, algo_dir, command, args.clusterize))
+        # call the script and get back the pid
+        jobs[algo] = run_command(algo, algo_dir, command,
+                                 args.clusterize, args.jobs_basename)
 
     # wait all the jobs terminate
-    wait_jobs(jobs_id, args.clusterize)
-
-    # finally collapse all the results
-    print('all jobs terminated, collapse results in {}'
-          .format(args.output_file))
-    for algo in script.keys():
-        if not algo == 'ngrams':
-            # get the result score
-            res_file = args.keyname + '-' + algo + '-cfgold-res.txt'
-            algo_dir = os.path.join(args.output_dir, algo)
-            res_file = os.path.join(algo_dir, res_file)
-
-            # TODO fix this (change algo names in lower layers)
-            # special case of AGu
-            if algo == 'AGu':
-                res_file = res_file.replace('AGu-', 'agU-')
-            # special case of AGc3sf
-            if algo == 'AGc3sf':
-                res_file = res_file.replace('AGc3sf-', 'agc3s-')
-            # special case for TPs
-            elif algo == 'TPs':
-                res_file = res_file.replace('TPs-', 'tpREL-')
-
-            assert os.path.isfile(res_file), ('result file {} not found for '
-                                              'algo {}'.format(res_file, algo))
-            with open(os.path.join(algo_dir, res_file), 'r') as r:
-                r.readline()  # consume 1st line (header)
-                res_line = r.readline()
-
-            # collapse it to the main output file
-            open(args.output_file, 'a').write(algo + '\t' + res_line)
+    if args.sync:
+        wait_jobs(jobs, args.clusterize)
+    else:
+        print('launched jobs are')
+        for k, v in jobs.iteritems():
+            print('  {} : {}'.format(k, v))
 
 
 if __name__ == '__main__':
-    # try:
-    main()
-    # except Exception as err:
-    #     print('fatal error in {} : {}'.format(__file__, err))
-    #     exit(1)
+    try:
+        main()
+    except Exception as err:
+        print >> sys.stderr, 'fatal error in {} : {}'.format(__file__, err)
+        exit(1)

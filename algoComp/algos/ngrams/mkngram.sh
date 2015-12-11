@@ -1,7 +1,10 @@
+#!/usr/bin/env bash
+#
 # script written by Emmanuel Dupoux
-# if considering use please write to him at emmanuel.dupoux@gmail.com 
+# if considering use please write to him at emmanuel.dupoux@gmail.com
+#
+# updated by Mathieu Bernard to use mktemp instead of tmp.tmp
 
-#!/bin/bash
 
 if [ "$1" == "" ]; then
     echo "USAGE: $0 [--syll] input_file"
@@ -28,20 +31,26 @@ if [ ! -f "$1" ]; then
     exit -1
 fi
 
+tmp1=`mktemp`
+tmp2=`mktemp`
+
 #create the ngram-frequency list for both
 if  [ "$SYLL" == "1" ] ; then
-       # cleaning up (removing spurious columns and anything after the orthographic mark)
-    awk '{gsub(";orth=.*","");print}' "$1" > tmp.tmp
+       # cleaning up (removing spurious columns and anything after the
+       # orthographic mark)
+    awk '{gsub(";orth=.*","");print}' "$1" > $tmp1
        # parsing into syll
-    awk -F '[ \t]*;esyll[ \t]*' '{for(i=1;i<=NF;i++){gsub(" ","_",$i);gsub("^_+","",$i);if($i)printf("%s ",$i)}printf("\n")}' tmp.tmp > tmp2.tmp
+    awk -F '[ \t]*;esyll[ \t]*' '{for(i=1;i<=NF;i++){gsub(" ","_",$i);gsub("^_+","",$i);if($i)printf("%s ",$i)}printf("\n")}' $tmp1 > $tmp2
        # setting the limit in nb of syllables
     LIM=4
 else
        # cleaning up (removing spurious columns and anything after the orthographic mark)
-    awk '{gsub(";orth=.*",""); gsub(";esyll",""); $1="";$2="";$3="";$4="";print}' "$1" > tmp2.tmp
+    awk '{gsub(";orth=.*",""); gsub(";esyll",""); $1="";$2="";$3="";$4="";print}' "$1" > $tmp2
     LIM=20
 fi
-    
- # constructing the ngrams
-awk '{gsub("_","");for(n=1;n<='$LIM';n++)for(i=1;i<=NF-n+1;i++){s="";for(k=0;k<n;k++)s=s""$(i+k);S[s]++;L[s]+=n}}END{for(w in S)print S[w],L[w]/S[w],w}' tmp2.tmp |sort -n -r 
 
+ # constructing the ngrams
+awk '{gsub("_","");for(n=1;n<='$LIM';n++)for(i=1;i<=NF-n+1;i++){s="";for(k=0;k<n;k++)s=s""$(i+k);S[s]++;L[s]+=n}}END{for(w in S)print S[w],L[w]/S[w],w}' $tmp2 | sort -n -r
+
+# cleanup
+rm -f $tmp1 $tmp2

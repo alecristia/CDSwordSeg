@@ -30,3 +30,4 @@ algoComp/algos/phillips-pearl2014/dpseg_files/dpseg
 /algoComp/.cache/*
 algoComp/test/*/*
 /algoComp/algos/TPs/syllableboundaries_marked.txt
+full_WL/results/*
