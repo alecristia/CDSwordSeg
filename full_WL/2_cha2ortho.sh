@@ -7,7 +7,7 @@
 #    i.e. WinnipegLENA_Register_Segmentation (Human=based or LENA-based)
 
 #########VARIABLES
-CHAFOLDER=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/cha
+CHAFOLDER=${1:-./cha}
 RESFOLDER=${CHAFOLDER/cha/ortho}
 
 #########
