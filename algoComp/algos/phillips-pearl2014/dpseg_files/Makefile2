@@ -1,0 +1,28 @@
+PROGRAM=dpseg
+CXX = g++
+LIBS = -lboost_program_options
+CFLAGS = -Wall -Wno-deprecated -O3 -MMD
+CXXFLAGS = $(CFLAGS)
+
+SOURCES = stimseg.cc main.cc Estimators.cc Data.cc Sentence.cc Scoring.cc \
+	  gammadist.c mt19937ar.c mygamma.c
+OBJECTS = $(patsubst %.l,%.o,$(patsubst %.c,%.o,$(SOURCES:%.cc=%.o)))
+
+all: $(PROGRAM)
+
+dpseg: main.o Estimators.o Data.o Sentence.o Scoring.o gammadist.o mt19937ar.o
+	$(CXX) $(LDFLAGS) $^ $(LIBS) -o $@
+
+stimseg: stimseg.o Estimators.o Data.o Sentence.o Scoring.o gammadist.o mt19937ar.o
+	$(CXX) $(LDFLAGS) $^ -l $(LIBS) -o $@
+
+.PHONY:
+clean:
+	rm -fr *.o *.d core
+
+.PHONY:
+real-clean: clean
+	rm -fr $(TARGETS)
+
+# this command tells GNU make to look for dependencies in *.d files
+-include $(patsubst %.l,%.d,$(patsubst %.c,%.d,$(SOURCES:%.cc=%.d)))
