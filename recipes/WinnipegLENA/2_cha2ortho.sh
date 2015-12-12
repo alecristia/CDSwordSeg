@@ -7,8 +7,8 @@
 #    i.e. WinnipegLENA_Register_Segmentation (Human=based or LENA-based)
 
 #########VARIABLES
-CHAFOLDER=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/cha
-RESFOLDER=${CHAFOLDER/cha/ortho}
+CHAFOLDER=${1:-/home/mbernard/scratch/dev/CDSwordSeg/full_WL/cha}
+RESFOLDER=${2:-${CHAFOLDER/cha/ortho}}
 
 #########
 mkdir -p $RESFOLDER
