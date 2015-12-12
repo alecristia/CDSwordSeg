@@ -176,7 +176,7 @@ ExperimentalData::read(std::wistream& is, U start, U ns) {
   sentenceboundaries.clear();
 
   //where in the file are we?
-  bool lexicon = true;
+  //bool lexicon = true;
   bool training = false;
   bool testing = false;
 
@@ -200,9 +200,9 @@ ExperimentalData::read(std::wistream& is, U start, U ns) {
     wstring utterance(buffer);
     if (utterance.length() > 7 && 
 	utterance.substr(0,8) == L"Training") {
-      lexicon = false;
-      training = true;
-      S::data.push_back(L'\n');
+        //lexicon = false;
+        training = true;
+        S::data.push_back(L'\n');
     }
     else if (utterance.length() > 3 && 
 	     utterance.substr(0,4) == L"Test") {

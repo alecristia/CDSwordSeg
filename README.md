@@ -1,7 +1,11 @@
+==============================
 Instructions for text analyses
+==============================
+
 For questions contact Alex Cristia alecristia@gmail.com
 
-********************** Overview ******************
+Overview
+========
 
 In this project, we seek to study a set of algorithms for word
 segmentation from phonological-like text transcriptions.
@@ -23,36 +27,31 @@ Our current pipeline involves three steps:
    algorithms (chosen by user).
 
 
-********************** TODO ******************
-
-- AC update the evaluation section for all the batch algos (i.e., not
-PUDDLE or Phillips)
-
-- Fix segment.py clustered
+TODO
+====
 
 - Smart clusterization of crossevaluation.
 
-- Potential issues with other copora than bernstein (@, etc...)
+- Debug dmcmc segfault on non ADS corpora
 
-***** OLD TODO backup
+        Processing fold 0.
+        /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
+        line 53: 52767 Segmentation fault (core dumped) $DPSEG -o
+        ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
+        Processing fold 1.................................................
+        Processing fold 2.................................................
+        Processing fold 3.................................................
+        Processing fold 4.
+        /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
+        line 53: 30818 Segmentation fault (core dumped) $DPSEG -o
+        ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
 
-- DONE Rewrite segment_one_corpus.sh as a python program with gentle
-  input parameters.
+- debug wordmatch in full_WL/4_special_step.sh
 
-- DONE Factorize the scripts AG/do_*_english.sh and let the user
-  choose for debug/normal parameters.
+troubleshoot oberon on step 3 segmentation
+------------------------------------------
 
-- DONE debug all algos when running from segment_one_corpus.sh
-
-- DONE Mathieu still working on adapting Phillips
-
-- DONE whoever is done first will implement a cross-validation with
-  20% chunks on the non-batch algos
-
-
-
-*** troubleshoot oberon on step 3 segmentation, which boils down to
-    the following
+Boils down to the following:
 
 - dibs OK though odd that performance for dibs is 1pc lower with the
   new phon set, no?? maybe forget, since we will rerun everything
@@ -69,73 +68,70 @@ PUDDLE or Phillips)
 - Puddle: poor performance because testing on the whole thing!!!! -->
   we decide to test on last 20% for all corpora
 
-*** implement phillips
 
-- now: ran one iteration of DMCMC on their own input; output looks okay
+STEP 1: Database creation
+=========================
 
-- in process: adaptation to our own input
+The necessary scripts are found in the folder called `database_creation`
 
-
-********************** STEP 1: Database creation ******************
-
-The necessary scripts are found in the folder called database_creation
-
-*** Alternative 1: .trs files from WinnipegLENA corpus
+Alternative 1: .trs files from WinnipegLENA corpus
+--------------------------------------------------
 
 1. Open and adapt one of the trs2cha scripts,
-e.g. scripts/trs2cha_201511.text (creates 3 selections) or
-scripts/trs2cha_all.text (collapses across all addressees). You need
-to pay attention to the variables at the top:
+   e.g. scripts/trs2cha_201511.text (creates 3 selections) or
+   scripts/trs2cha_all.text (collapses across all addressees). You
+   need to pay attention to the variables at the top
 
-- the trs folder is where your trs files are;
+    - the trs folder is where your trs files are;
 
-- the cha folder will be created so pick anything you want. (A
-  reasonable option is that the folder is sister to the trs folder.)
+    - the cha folder will be created so pick anything you want. (A
+      reasonable option is that the folder is sister to the trs folder.)
 
-IMPORTANT!!! ALSO notice that there is a section in the middle that
-needs to be changed to select subsets of sentences! There is more
-explanation in comments (lines starting with #) in the middle of
-scripts/trs2cha_all.text.
+2. **IMPORTANT** ALSO notice that there is a section in the middle
+   that needs to be changed to select subsets of sentences! There is
+   more explanation in comments (lines starting with #) in the middle
+   of `scripts/trs2cha_all.text`.
 
 3. In a terminal window, navigate to the scripts subfolder of your
-database_creation folder, e.g.
+   database_creation folder, e.g. :
 
-$ cd /home/rolthiolliere/Documents/database_creation/scripts
+    $ cd /home/rolthiolliere/Documents/database_creation/scripts
 
-(you don't type the "$" -- this is just a convention to indicate that
-a line is copied + pasted into a terminal window)
+  (you don't type the "$" -- this is just a convention to indicate that
+  a line is copied + pasted into a terminal window)
 
 4. Now run the script from the terminal window by typing:
-$ ./trs2cha_201511.text #or whatever name you gave it
 
-(you might see an error "cannot create directory", don't worry about
-that - it'll just occur when you've already have a dir with that name,
-e.g. if you've already worked on this corpus)
+    $ ./trs2cha_201511.text #or whatever name you gave it
 
-If you see a message like
-grep: /home/rolthiolliere/Documents/databases<something else>*.cha: No such file or directory
-it probably means you forgot the "/" at the end of the name.
+  (you might see an error "cannot create directory", don't worry about
+  that - it'll just occur when you've already have a dir with that
+  name, e.g. if you've already worked on this corpus)
+
+If you see a message like grep:
+/home/rolthiolliere/Documents/databases<something else>*.cha: No such
+file or directory it probably means you forgot the "/" at the end of
+the name.
 
 Normally, this will result in a folder being created, with .cha files
 inside. You then continue all steps in Alternative 2, because you now
 have .cha files.
 
 
-*** Alternative 2: .cha files
+Alternative 2: .cha files
+-------------------------
 
-1. Open and adapt scripts/cha2sel.sh, particularly the parts marked
+1. Open and adapt `scripts/cha2sel.sh`, particularly the parts marked
    with "Attention". By doing this, you are selecting which speakers
    (lines) will be analyzed.
 
-2. Open and adapt scripts/selcha2clean.sh, particularly the parts
+2. Open and adapt `scripts/selcha2clean.sh`, particularly the parts
    marked with "Attention". By doing this you are correcting common
    misspellings in your database.
 
-3. Open and adapt one of the wrappers or create a new one, such as:
-   wrapper_clean_many_files.sh
-   wrapper_oneFilePerCorpus.sh
-
-Further instructions are provided inside those files.
+3. Open and adapt one of the wrappers or create a new one, such as
+   `wrapper_clean_many_files.sh` or `wrapper_oneFilePerCorpus.sh`.
+   Further instructions are provided inside those files.
 
 4. Run the scripts by navigating to the folder and launching them:
    cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
@@ -158,7 +154,8 @@ NOTES:
   chmod +x ./scripts/selcha2clean.sh
   chmod +x wrapper_clean_many_files.sh
 
-*** Alternative 3: BUCKEYE
+Alternative 3: BUCKEYE
+----------------------
 
 1. Adapt the following variables, being careful to provide absolute
    paths. Then copy and paste these 4 lines onto a terminal window.
@@ -174,7 +171,7 @@ RAWFOLDER="/Users/caofrance/Documents/databases/Buckeyebootphon/"
 # notice the / at the end of the name
 RESFOLDER="/Users/caofrance/Documents/tests/res_buckeye_allbreaks/"
 
- # right now, only options is english -- NOTICE, IN SMALL CAPS
+# right now, only options is english -- NOTICE, IN SMALL CAPS
 LANGUAGE="english"
 
 2. Open and adapt if necessary fromBuckeye2clean_human.text,
@@ -183,11 +180,14 @@ LANGUAGE="english"
 
 3. Run the scripts by navigating to the folder and launching them:
 
-   cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
-   ./fromBuckeye2clean_human.text $KEYNAME $RAWFOLDER $RESFOLDER $LANGUAGE
+    cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
+    ./fromBuckeye2clean_human.text $KEYNAME $RAWFOLDER $RESFOLDER $LANGUAGE
 
-********************** STEP 2: Phonologizing ******************
-The necessary scripts are found in the folder called phonologization
+
+STEP 2: Phonologizing
+=====================
+
+The necessary scripts are found in the folder called `phonologization`
 
 This step is (internally) very different depending on whether you are
 analyzing Qom or English (the two languages we have worked with so
@@ -197,15 +197,16 @@ phonologizing both languages:
 wrapper_oneFilePerCorpus.sh
 
 And another example wrapper that phonologizes all files within the
-list produced by wrapper_clean_many_files.sh in Step 1.
+list produced by `wrapper_clean_many_files.sh` in Step 1.
 
-#NOTE! this wrapper is actually not finished; it would be the version
+**NOTE** this wrapper is actually not finished; it would be the version
 that works with the multicorpora that Xuan Nga has been analyzing...
 
 
-********************** STEP 3: Segmentation  ******************
+STEP 3: Segmentation
+====================
 
-The necessary scripts are found in the folder called algoComp
+The necessary scripts are found in the folder called `algoComp`
 
 1. In a terminal window, navigate to the algoComp/ subfolder
 
@@ -220,14 +221,14 @@ RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/" #obero
 
 Follow one the 3.1 or 3.2 alternatives
 
-3.1. Compute it on your machine
+    3.1. Compute it on your machine
 
     ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER
 #AG isn't working anymore on my mac - to be checked!
 #other than that, ALL OK 2015-10-14
 
 
-3.2. Compute it on the cluster
+    3.2. Compute it on the cluster
 
 If you want to run the segmentation process on a cluster managed by
 Sun Grid Engine ('qsub' command needed), provide a 4th argument to the
@@ -254,13 +255,14 @@ ag 0.7242 0.6866 0.766 0.8792 0.8271 0.9384
 
 
 If you want to see how each algorithm segmented the corpus, you can
-look at the files ending with -cfgold. (The true segmentation is usually in
-the file ending with -gold).
+look at the files ending with -cfgold. (The true segmentation is
+usually in the file ending with -gold).
 
 If you're interested in the highest frequency words each algorithm
 found, they are in the files ending with freq-top (top 10k words).
 
-******IMPORTANT****
+IMPORTANT
+=========
 
 If you want to take your results home, please bear in mind that
 several of these files contain substantial parts of the corpus, so be
@@ -277,7 +279,8 @@ so that the originals are kept in this computer):
     rm res_*/*gold.txt
 
 
-**** Troubleshooting:
+Troubleshooting
+===============
 
 - If you get an error:
 
@@ -346,28 +349,3 @@ g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomi
 g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp -DQUADPREC py-cfg.cc -o py-cfg-quad-mp.o
 g++ -fopenmp gammadist.o py-cfg-quad-mp.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad-mp
 
-
-***********************
-Tests:
-		mini	oberon	macbook
-1.database	OK	OK
-2.phonol	fail	OK
-3.segment	( )
-
-errors mac mini phonologize
-Traceback (most recent call last):
-  File "scripts/phonologize.py", line 161, in <module>
-    main()
-  File "scripts/phonologize.py", line 157, in main
-    phonologize(args.input, args.output)
-  File "scripts/phonologize.py", line 141, in phonologize
-    text = process(text)
-  File "scripts/phonologize.py", line 107, in process
-    res = subprocess.check_output(['festival', '-b', tmpscm.name])
-  File "//anaconda/lib/python2.7/subprocess.py", line 566, in check_output
-    process = Popen(stdout=PIPE, *popenargs, **kwargs)
-  File "//anaconda/lib/python2.7/subprocess.py", line 710, in __init__
-    errread, errwrite)
-  File "//anaconda/lib/python2.7/subprocess.py", line 1335, in _execute_child
-    raise child_exception
-OSError: [Errno 2] No such file or directory

@@ -7,9 +7,9 @@
 # 2015-11-26 for winnipeglena corpus analysis
 
 #########VARIABLES###########################
-PHONFOLDER=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/phono
-PIPELINE=/home/mbernard/scratch/dev/CDSwordSeg/algoComp/segment.py
+PIPELINE=~/dev/lscp/CDSwordSeg/algoComp/segment.py
 RESFOLDER=${1:-${PHONFOLDER/phono/results\/test_segment}}
+PHONFOLDER=${2:-./phono}
 #########
 
 mkdir -p $RESFOLDER

@@ -7,7 +7,7 @@
 #########VARIABLES
 
 # must exist and contain trs files
-TRSFOLDER=/home/mbernard/scratch/dev/CDSwordSeg/full_WL/trs
+TRSFOLDER=${1:-./trs}
 
 # will be created and output cha files will be stored there
 CHAFOLDER=${TRSFOLDER/trs/cha}
