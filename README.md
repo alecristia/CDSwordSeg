@@ -34,17 +34,17 @@ TODO
 
 - Debug dmcmc segfault on non ADS corpora
 
-        Processing fold 0.
-        /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
-        line 53: 52767 Segmentation fault (core dumped) $DPSEG -o
-        ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
-        Processing fold 1.................................................
-        Processing fold 2.................................................
-        Processing fold 3.................................................
-        Processing fold 4.
-        /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
-        line 53: 30818 Segmentation fault (core dumped) $DPSEG -o
-        ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
+    Processing fold 0.
+    /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
+    line 53: 52767 Segmentation fault (core dumped) $DPSEG -o
+    ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
+    Processing fold 1.................................................
+    Processing fold 2.................................................
+    Processing fold 3.................................................
+    Processing fold 4.
+    /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
+    line 53: 30818 Segmentation fault (core dumped) $DPSEG -o
+    ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
 
 - debug wordmatch in full_WL/4_special_step.sh
 
