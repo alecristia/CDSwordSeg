@@ -9,7 +9,7 @@
 #########VARIABLES
 CHAFOLDER=${1:-./cha}
 RESFOLDER=${2:-${CHAFOLDER/cha/ortho}}
-SCRIPTS=${3:-../database_creation/scripts}
+SCRIPTS=${3:-../../database_creation/scripts}
 #########
 mkdir -p $RESFOLDER
 

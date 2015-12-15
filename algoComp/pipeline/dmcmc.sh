@@ -56,7 +56,6 @@ do
     # we are still feeding it unicode input as before, but one never
     # knows...  NOTE writing with standard format IS possible for this
     # algo but not implemented
-    stats=$RESFOLDER/stats.txt
     $DPSEG -o ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
     sed 's/ $//g' ${FOLD/input/output} | sed '/^$/d' > seded
     mv seded ${FOLD/input/output}
