@@ -16,8 +16,6 @@ algoComp/scripts/*.pyc
 */*.DS_Store
 */*/*.DS_Store
 phonologization/scripts/examples
-/phonologization/scripts/bern.out
-/phonologization/scripts/bern.phon
 phonologization/scripts/test*
 /algoComp/algos/phillips-pearl2014/dpseg
 /algoComp/algos/phillips-pearl2014/dpseg_files/dpseg
@@ -30,8 +28,8 @@ algoComp/algos/phillips-pearl2014/dpseg_files/dpseg
 /algoComp/.cache/*
 algoComp/test/*/*
 /algoComp/algos/TPs/syllableboundaries_marked.txt
-full_WL/results/*
 */results/*
 */*/results/*
 */*/phono/*
 data/*
+recipes/WinnipegLENA/old/
