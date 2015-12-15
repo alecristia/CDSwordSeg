@@ -78,8 +78,4 @@ echo Evaluating
 cd $ABSPATH/scripts
 ./doAllEval.text $RESFOLDER
 
-# local clean up
-#cd $RESFOLDER
-#rm *.seg
-
 echo done with $ALGO
