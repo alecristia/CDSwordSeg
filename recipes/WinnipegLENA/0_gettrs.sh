@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 # get the WinnipegLENA trs files from oberon
 
-HOST=oberon
-SRC=/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/trs
+SRC=oberon:/fhgfs/bootphon/scratch/acristia/data/WinnipegLENA/trs
 DEST=${1:-./trs}
 
 # copy the files from SRC to DEST
 mkdir -p $DEST/raw
-scp $HOST:$SRC/*.trs $DEST/raw
+scp $SRC/*.trs $DEST/raw
 
 # simplify names to remove date and FINAL
 for TRS in $DEST/raw/*.trs

@@ -1,6 +1,16 @@
-#Wrapper written by Xuan Nga Cao to clean up a large number of talkbank+childes corpora, one transcript at a time
+#Wrapper written by Xuan Nga Cao to clean up a large number of
+#talkbank+childes corpora, one transcript at a time
 
-# The script takes one parent directory with any level of embedding, for instance one root folder and sub-folders containing the different corpora, each of which contains one transcript per child or recording session. For the root folder, it will generate a folder bearing the root folder name and containing all the output files relative to that root and all the corpora included in it. It generates 2 files: one with basic info about the corpus: corpus path, filename, child's age, number of speakers, identity of speakers, number of adults. The second file will list the processed files.
+# The script takes one parent directory with any level of embedding,
+# for instance one root folder and sub-folders containing the
+# different corpora, each of which contains one transcript per child
+# or recording session. For the root folder, it will generate a folder
+# bearing the root folder name and containing all the output files
+# relative to that root and all the corpora included in it. It
+# generates 2 files: one with basic info about the corpus: corpus
+# path, filename, child's age, number of speakers, identity of
+# speakers, number of adults. The second file will list the processed
+# files.
 
 # Adapt the following variables, being careful to provide absolute paths
 PATH_TO_SCRIPTS="YOUR_ABSOLUTE_PATH_TO_SCRIPTS"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
@@ -31,10 +41,10 @@ python $PATH_TO_SCRIPTS/scripts/extract_childes_info.py $INPUT_CORPUS $INPUT_FIL
 echo "done extracting info from corpora"
 for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 level down)
 	cd $CORPUSFOLDER
-	SUBCORPUS_IN=$CHA_FOLDER$(basename $CORPUSFOLDER)$APPEND1/	
+	SUBCORPUS_IN=$CHA_FOLDER$(basename $CORPUSFOLDER)$APPEND1/
 	mkdir -p $SUBCORPUS_IN	#get name of corpus and create the folder with that name+APPEND1 - E.g. "Bernstein_cha" (will contain all cha files for Bernstein corpus)
 	find $CORPUSFOLDER -iname '*.cha' -type f -exec cp {} $SUBCORPUS_IN \;	#search and copy all cha files to the relevant corpus
-	SUBCORPUS_OUT=$RES_FOLDER$(basename $CORPUSFOLDER)$APPEND2/	
+	SUBCORPUS_OUT=$RES_FOLDER$(basename $CORPUSFOLDER)$APPEND2/
 	mkdir -p $SUBCORPUS_OUT	#get name of corpus and create folder with that name+APPEND2 - E.g. "Bernstein_res" (will contain all output files for Bernstein corpus)
 	for f in $SUBCORPUS_IN/*; do	#loop through all cha files
 		#Notice there is a subselection - only docs with 1 adult are processed
@@ -58,5 +68,3 @@ done
 cd $RES_FOLDER
 find . -type d -empty -delete #remove empty folders for non-processed corpora
 echo "done removing empty folders"
-
-

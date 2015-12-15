@@ -34,17 +34,17 @@ TODO
 
 - Debug dmcmc segfault on non ADS corpora
 
-        Processing fold 0.
-        /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
-        line 53: 52767 Segmentation fault (core dumped) $DPSEG -o
-        ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
-        Processing fold 1.................................................
-        Processing fold 2.................................................
-        Processing fold 3.................................................
-        Processing fold 4.
-        /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
-        line 53: 30818 Segmentation fault (core dumped) $DPSEG -o
-        ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
+    Processing fold 0.
+    /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
+    line 53: 52767 Segmentation fault (core dumped) $DPSEG -o
+    ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
+    Processing fold 1.................................................
+    Processing fold 2.................................................
+    Processing fold 3.................................................
+    Processing fold 4.
+    /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
+    line 53: 30818 Segmentation fault (core dumped) $DPSEG -o
+    ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
 
 - debug wordmatch in full_WL/4_special_step.sh
 
@@ -295,7 +295,7 @@ Compare them against the list of letters ("phonemes") with the ones listed in:
 /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp201507/algos/AG/grammars/Colloq0_enKlatt.lt
 
 namely:
-d	e	f	g	h	i	k	l	m	n	o	p	r	@	s	t	u	C	v	D	E	w	x	G	y	z	I	J	O	R	S	T	U	W	Y	Z	^	a	b	c	|	L	M	N	X
+d e f g h i k l m n o p r @ s t u C v D E w x G y z I J O R S T U W Y Z ^ a b c | L M N X
 
 
 There is no "j" in this list -- so that means there is at least one

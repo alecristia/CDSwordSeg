@@ -4,7 +4,6 @@
 # 2015-11-26 - adapted to the winnipeglena corpus in its 4 versions
 
 #########VARIABLES
-LANGUAGE="english"
 ORTFOLDER=${1:-./ortho}
 RESFOLDER=${ORTFOLDER/ortho/phono}
 #########
