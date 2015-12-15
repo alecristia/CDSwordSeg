@@ -11,23 +11,24 @@
 #
 # Author: Mathieu Bernard <mmathieubernardd@gmail.com>
 
-# TODO how to detect the job is terminated ?
-
 # Step 0: parse input arguments
 JOB=$1
-NAME=$2
+JOBNAME=`echo $JOB | cut -d' ' -f1`
+JOBNAME=`basename $JOBNAME`
+
+# options being passed to qsub
+OPT=${2:-"-V -cwd -j y -N $JOBNAME"}
 
 # Step 1: silently detect for the 'qsub' executable
-which qsub 2> /dev/null
+which qsub &> /dev/null
 
 # Step 2: run the JOB accordingly
 if [ $? -ne 0 ]; then
-    echo qsub not detected, running the job on `hostname`
-    $JOB
-
+    $JOB &
+    echo "Your job $! (\"$JOBNAME\") running on `hostname`"
 else
-    echo qsub detected, scheduling the job
-
     # run the job on the cluster
-    echo "$JOB" | qsub -V -cwd -N $NAME
+    echo "$JOB" | qsub $OPT
 fi
+
+exit
