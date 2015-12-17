@@ -29,7 +29,19 @@ class Converter(object):
             l = line.split(' ')
             self._dict[l[0]] = l[1]
 
-    def convert(self, syllable):
+
+    def convert_word(self, word, sylsep=';esyll'):
+        res = ''
+        # for each syllable
+        for syl in word.split(sylsep):
+            phon = ''.join(syl.split(' '))
+            # convert the syllable to unicode
+            if not phon in ['']:
+                res += self.convert_syl(phon)
+        return res
+
+
+    def convert_syl(self, syllable):
         try:
             return self._dict[syllable]
         except KeyError:
@@ -40,7 +52,8 @@ class Converter(object):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('input', type=str,
-                        help='input tags file')
+                        help='input tags file. Words separated by ;eword.'
+                        ' Syllables separated by ;esyll')
     parser.add_argument('dictionary', type=str,
                         help='output syllable/unicode dictionary file')
     parser.add_argument('output', type=str,
@@ -51,12 +64,11 @@ def main():
     c = Converter(args.dictionary)
 
     with codecs.open(args.output, 'w', encoding='utf-8') as out:
-        # convert each syllable of each line
+        # for each utterance
         for line in readlines(args.input):
-            for syl in line.split(' '):
-                if not syl == '':
-                    out.write(c.convert(syl))
-            out.write('\n')
+            # for each word
+            res = ' '.join([c.convert_word(w) for w in line.split(';eword')])
+            out.write(res.strip() + '\n')
 
 
 if __name__ == '__main__':

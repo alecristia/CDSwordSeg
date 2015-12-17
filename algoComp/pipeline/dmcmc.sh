@@ -21,14 +21,12 @@ DPSEG="${ABSPATH}/algos/phillips-pearl2014/dpseg_files/dpseg \
      --ngram $ngram --a1 $a --b1 $b1"
 
 echo Converting syllables to unicode
-# Remove word tags to create syllabified input:
+# Create a syllable list for this corpus
 sed 's/;eword//g' $RESFOLDER/tags.txt |
     tr -d ' ' |
     sed 's/;esyll/ /g' |
-    sed 's/ $//g'> $RESFOLDER/syllables.txt
-
-# Create a syllable list for this corpus
-sed 's/ /\n/g' $RESFOLDER/syllables.txt |
+    sed 's/ $//g' |
+    sed 's/ /\n/g' |
     sort | uniq |
     sed '/^$/d'  > $RESFOLDER/syllables-list.txt
 
@@ -39,9 +37,14 @@ $CONVERTER/create-unicode-dict.py \
 
 # Translate the corpus into a unicode format
 $CONVERTER/convert-to-unicode.py \
-       $RESFOLDER/syllables.txt \
+       $RESFOLDER/tags.txt \
        $RESFOLDER/syllables-dict.txt \
        $RESFOLDER/input.txt
+
+### ATTENTION adding/removing spaces between words in input seems to
+### have no effect but we remove all spaces just in case...
+mv $RESFOLDER/input.txt $RESFOLDER/input-sp.txt
+cat $RESFOLDER/input-sp.txt | tr -d ' ' > $RESFOLDER/input.txt
 
 NFOLDS=5
 echo Creating $NFOLDS folds for cross evaluation
@@ -52,6 +55,13 @@ for FOLD in $RESFOLDER/input-fold*.txt
 do
     N=`basename $FOLD | sed 's/.*fold//' | sed 's/\.txt//'`
     echo -n Processing fold $N
+
+    ### ATTENTION merge the 1st line with the 2nd if it contains only 1
+    ### syllable. See bugfix.py for details.
+    mv $FOLD ${FOLD/input/unfixed}
+    $ABSPATH/algos/phillips-pearl2014/bugfix.py \
+        ${FOLD}/input/unfixed} $FOLD
+
     # ATTENTION not sure it will work as we expect - it should, since
     # we are still feeding it unicode input as before, but one never
     # knows...  NOTE writing with standard format IS possible for this
@@ -62,12 +72,12 @@ do
     echo
 done
 
-echo Unfolding to cfgold.txt
+echo Unfolding to output.txt
 $CROSSEVAL unfold $RESFOLDER/output-fold*.txt \
            --index $RESFOLDER/input-index.txt \
            --output $RESFOLDER/output.txt
 
-echo Translate back output from unicode format
+echo Translate back output from unicode format to cfgold.txt
 $CONVERTER/convert-from-unicode.py \
     $RESFOLDER/output.txt \
     $RESFOLDER/syllables-dict.txt \
