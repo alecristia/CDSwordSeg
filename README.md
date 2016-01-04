@@ -32,7 +32,7 @@ TODO
 
 - Smart clusterization of crossevaluation.
 
-- Debug dmcmc segfault on non ADS corpora
+- Debug dmcmc segfault on non ADS corpora::
 
     Processing fold 0.
     /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
@@ -158,27 +158,27 @@ Alternative 3: BUCKEYE
 ----------------------
 
 1. Adapt the following variables, being careful to provide absolute
-   paths. Then copy and paste these 4 lines onto a terminal window.
+   paths. Then copy and paste these 4 lines onto a terminal window::
 
-# pick a nice name for your phonological corpus, because this keyname
-# will be used for every output file!
-KEYNAME="buckeye_allbreaks"
+     # pick a nice name for your phonological corpus, because this keyname
+     # will be used for every output file!
+     KEYNAME="buckeye_allbreaks"
 
-# must exist and contain cha files - notice the / at the end of the name
-RAWFOLDER="/Users/caofrance/Documents/databases/Buckeyebootphon/"
+     # must exist and contain cha files - notice the / at the end of the name
+     RAWFOLDER="/Users/caofrance/Documents/databases/Buckeyebootphon/"
 
-# will be created and loads of output files will be stored there -
-# notice the / at the end of the name
-RESFOLDER="/Users/caofrance/Documents/tests/res_buckeye_allbreaks/"
+     # will be created and loads of output files will be stored there -
+     # notice the / at the end of the name
+     RESFOLDER="/Users/caofrance/Documents/tests/res_buckeye_allbreaks/"
 
-# right now, only options is english -- NOTICE, IN SMALL CAPS
-LANGUAGE="english"
+     # right now, only options is english -- NOTICE, IN SMALL CAPS
+     LANGUAGE="english"
 
 2. Open and adapt if necessary fromBuckeye2clean_human.text,
    particularly the part that is marked with "Attention" - this
    concerns boundary decisions.
 
-3. Run the scripts by navigating to the folder and launching them:
+3. Run the scripts by navigating to the folder and launching them::
 
     cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
     ./fromBuckeye2clean_human.text $KEYNAME $RAWFOLDER $RESFOLDER $LANGUAGE
@@ -194,7 +194,7 @@ analyzing Qom or English (the two languages we have worked with so
 far). There is one example wrapper that contains information for
 phonologizing both languages:
 
-wrapper_oneFilePerCorpus.sh
+`wrapper_oneFilePerCorpus.sh`
 
 And another example wrapper that phonologizes all files within the
 list produced by `wrapper_clean_many_files.sh` in Step 1.
@@ -348,4 +348,3 @@ g++ gammadist.o py-cfg-quad.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad
 g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp py-cfg.cc -o py-cfg-mp.o
 g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp -DQUADPREC py-cfg.cc -o py-cfg-quad-mp.o
 g++ -fopenmp gammadist.o py-cfg-quad-mp.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad-mp
-
