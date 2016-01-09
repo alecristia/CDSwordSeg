@@ -26,13 +26,12 @@ Our current pipeline involves three steps:
    most frequent words, and all this based on a selection of
    algorithms (chosen by user).
 
-
 TODO
 ====
 
 - Smart clusterization of crossevaluation.
 
-- Debug dmcmc segfault on non ADS corpora
+- Debug dmcmc segfault on non ADS corpora::
 
     Processing fold 0.
     /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
@@ -133,13 +132,14 @@ Alternative 2: .cha files
    `wrapper_clean_many_files.sh` or `wrapper_oneFilePerCorpus.sh`.
    Further instructions are provided inside those files.
 
-4. Run the scripts by navigating to the folder and launching them:
-   cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
-   ./wrapper_clean_many_files.sh
+4. Run the scripts by navigating to the folder and launching them::
 
-   OR
+     cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
+     ./wrapper_clean_many_files.sh
 
-   ./wrapper_oneFilePerCorpus.sh
+   OR::
+
+     ./wrapper_oneFilePerCorpus.sh
 
 NOTES:
 
@@ -148,37 +148,37 @@ NOTES:
 
 - If this doesn't run at all (you get a "permission denied" error), it
   probably means that you haven't rendered the scripts executable. Do
-  so by typing:
+  so by typing::
 
-  chmod +x ./scripts/cha2sel.sh
-  chmod +x ./scripts/selcha2clean.sh
-  chmod +x wrapper_clean_many_files.sh
+    chmod +x ./scripts/cha2sel.sh
+    chmod +x ./scripts/selcha2clean.sh
+    chmod +x wrapper_clean_many_files.sh
 
 Alternative 3: BUCKEYE
 ----------------------
 
 1. Adapt the following variables, being careful to provide absolute
-   paths. Then copy and paste these 4 lines onto a terminal window.
+   paths. Then copy and paste these 4 lines onto a terminal window::
 
-# pick a nice name for your phonological corpus, because this keyname
-# will be used for every output file!
-KEYNAME="buckeye_allbreaks"
+     # pick a nice name for your phonological corpus, because this keyname
+     # will be used for every output file!
+     KEYNAME="buckeye_allbreaks"
 
-# must exist and contain cha files - notice the / at the end of the name
-RAWFOLDER="/Users/caofrance/Documents/databases/Buckeyebootphon/"
+     # must exist and contain cha files - notice the / at the end of the name
+     RAWFOLDER="/Users/caofrance/Documents/databases/Buckeyebootphon/"
 
-# will be created and loads of output files will be stored there -
-# notice the / at the end of the name
-RESFOLDER="/Users/caofrance/Documents/tests/res_buckeye_allbreaks/"
+     # will be created and loads of output files will be stored there -
+     # notice the / at the end of the name
+     RESFOLDER="/Users/caofrance/Documents/tests/res_buckeye_allbreaks/"
 
-# right now, only options is english -- NOTICE, IN SMALL CAPS
-LANGUAGE="english"
+     # right now, only options is english -- NOTICE, IN SMALL CAPS
+     LANGUAGE="english"
 
 2. Open and adapt if necessary fromBuckeye2clean_human.text,
    particularly the part that is marked with "Attention" - this
    concerns boundary decisions.
 
-3. Run the scripts by navigating to the folder and launching them:
+3. Run the scripts by navigating to the folder and launching them::
 
     cd /YOUR_ABSOLUTE_PATH_GOES_HERE/database_creation/
     ./fromBuckeye2clean_human.text $KEYNAME $RAWFOLDER $RESFOLDER $LANGUAGE
@@ -194,7 +194,7 @@ analyzing Qom or English (the two languages we have worked with so
 far). There is one example wrapper that contains information for
 phonologizing both languages:
 
-wrapper_oneFilePerCorpus.sh
+`wrapper_oneFilePerCorpus.sh`
 
 And another example wrapper that phonologizes all files within the
 list produced by `wrapper_clean_many_files.sh` in Step 1.
@@ -210,56 +210,55 @@ The necessary scripts are found in the folder called `algoComp`
 
 1. In a terminal window, navigate to the algoComp/ subfolder
 
-2. Adapt the following variables and copy-paste them into a terminal
+2. Adapt the following variables and copy-paste them into a terminal::
 
-ABSPATH="`pwd`/"
-KEYNAME="bernsteinads"
-RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteinads/" #macbook
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/" #oberon
+     ABSPATH="`pwd`/"
+     KEYNAME="bernsteinads"
+     RESFOLDER="/Users/caofrance/Documents/tests/res_bernsteinads/" #macbook
+     RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/" #oberon
 
 3. Run segmentation as follows:
 
-Follow one the 3.1 or 3.2 alternatives
+   Follow one the 3.1 or 3.2 alternatives
 
-    3.1. Compute it on your machine
+   3.1. Compute it on your machine::
 
-    ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER
-#AG isn't working anymore on my mac - to be checked!
-#other than that, ALL OK 2015-10-14
+     ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER
+     #AG isn't working anymore on my mac - to be checked!
+     #other than that, ALL OK 2015-10-14
 
+   3.2. Compute it on the cluster
 
-    3.2. Compute it on the cluster
+   If you want to run the segmentation process on a cluster managed by
+   Sun Grid Engine ('qsub' command needed), provide a 4th argument to the
+   ./segment_one_corpus.sh script. Only the absence/presence of the 4th
+   argument matters, not its content. See pipeline/clusterize.sh for more
+   details::
 
-If you want to run the segmentation process on a cluster managed by
-Sun Grid Engine ('qsub' command needed), provide a 4th argument to the
-./segment_one_corpus.sh script. Only the absence/presence of the 4th
-argument matters, not its content. See pipeline/clusterize.sh for more
-details.
+     ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER notnull
 
-    ./segment_one_corpus.sh $ABSPATH $KEYNAME $RESFOLDER notnull
-
-# AG not run yet because checking problem in the macbook pro bootphon
-# of the other algos, only ngrams seems to work & produce a non-empty
-# gold -- is it a problem with python??
+     # AG not run yet because checking problem in the macbook pro bootphon
+     # of the other algos, only ngrams seems to work & produce a non-empty
+     # gold -- is it a problem with python??
 
 
 4. This will result in many files being added to your results
    directory. The most interesting one might be the one called _<YOUR
-   KEYNAME>-cfgold.txt, which looks like this:
+   KEYNAME>-cfgold.txt, which looks like this::
 
-algo token_f-score token_precision token_recall boundary_f-score boundary_precision boundary_recall
-dibs 0.2353 0.3118 0.189 0.4861 0.6915 0.3748
-tpABS 0.7743 0.7603 0.7888 0.8994 0.8806 0.919
-tpREL 0.2263 0.3274 0.1729 0.5861 0.9426 0.4253
-ag 0.7242 0.6866 0.766 0.8792 0.8271 0.9384
+     algo token_f-score token_precision token_recall boundary_f-score boundary_precision boundary_recall
+     dibs 0.2353 0.3118 0.189 0.4861 0.6915 0.3748
+     tpABS 0.7743 0.7603 0.7888 0.8994 0.8806 0.919
+     tpREL 0.2263 0.3274 0.1729 0.5861 0.9426 0.4253
+     ag 0.7242 0.6866 0.766 0.8792 0.8271 0.9384
 
 
-If you want to see how each algorithm segmented the corpus, you can
-look at the files ending with -cfgold. (The true segmentation is
-usually in the file ending with -gold).
+   If you want to see how each algorithm segmented the corpus, you can
+   look at the files ending with -cfgold. (The true segmentation is
+   usually in the file ending with -gold).
 
-If you're interested in the highest frequency words each algorithm
-found, they are in the files ending with freq-top (top 10k words).
+   If you're interested in the highest frequency words each algorithm
+   found, they are in the files ending with freq-top (top 10k words).
 
 IMPORTANT
 =========
@@ -268,7 +267,7 @@ If you want to take your results home, please bear in mind that
 several of these files contain substantial parts of the corpus, so be
 careful (DON'T take the whole folder). A fast way to clean up is, in a
 terminal window (to be on the safe side, I do it on the thumb drive,
-so that the originals are kept in this computer):
+so that the originals are kept in this computer)::
 
     cd <the mother folder of the res_folders>
     mkdir cfgold_results
@@ -282,7 +281,7 @@ so that the originals are kept in this computer):
 Troubleshooting
 ===============
 
-- If you get an error:
+- If you get an error::
 
     ## py-cky.h:1014: In inside() Error: earley parse failed, terminals
     that probably means you used a wrong letter in a dictionary entry.
@@ -291,8 +290,9 @@ Troubleshooting
     ## py-cky.h:1014: In inside() Error: earley parse failed, terminals = (s I s i l j x)
 
 This means that one of the letters in "s I s i l j x" is wrong.
-Compare them against the list of letters ("phonemes") with the ones listed in:
-/YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp201507/algos/AG/grammars/Colloq0_enKlatt.lt
+Compare them against the list of letters ("phonemes") with the ones listed in::
+
+  /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp201507/algos/AG/grammars/Colloq0_enKlatt.lt
 
 namely:
 d e f g h i k l m n o p r @ s t u C v D E w x G y z I J O R S T U W Y Z ^ a b c | L M N X
@@ -302,9 +302,10 @@ There is no "j" in this list -- so that means there is at least one
 incorrect entry with j, in this case "s I s i l j x" or rather
 "sIsiljx".
 
-A longer route: Do
-$ cd /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp201507/algos/AG/input
-$ tr -d '/' < input.ylt |sed '/^$/d' | sort | uniq -c | awk '{print $2" "$1}' | sort -n -r > ~/Desktop/letter-count.txt
+A longer route: Do::
+
+  $ cd /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp201507/algos/AG/input
+  $ tr -d '/' < input.ylt |sed '/^$/d' | sort | uniq -c | awk '{print $2" "$1}' | sort -n -r > ~/Desktop/letter-count.txt
 
 This will generate a file called letter-count.txt on your
 Desktop. Open it and paste the contents onto LibreOffice Calc
@@ -316,7 +317,7 @@ Do a search for it, and change it to the appropriate letter.
 Finally, regenerate the dictionary following the instructions in
 SUBROUTINE: ADDING WORDS TO THE DICTIONARY, step 4+
 
-- If you get an error
+- If you get an error::
 
     ## py-cfg.cc:256: In gibbs_estimate() Error in py-cfg::gibbs_estimate(), tprob = 0, trains[XX]
 
@@ -324,28 +325,28 @@ This means that one of your phrases is too long. You might need to use
 a different version of adaptor grammar -- ask Alex about it.
 
 
-- If you get an error
-./do_colloq0_english.sh: line 49: py-cfg-new/py-cfg: cannot execute binary file
+- If you get an error::
+
+    ./do_colloq0_english.sh: line 49: py-cfg-new/py-cfg: cannot execute binary file
 
 this means that something went wrong with the Adaptor Grammar
-build. Navigate to algos/AG/py-cfg-new and run
+build. Navigate to algos/AG/py-cfg-new and run::
 
-make clean
-make
+  make clean
+  make
 
+You should see something like the following, with no errors::
 
-You should see something like the following, with no errors:
-[acristia@oberon py-cfg-new]$ make clean
-rm -fr *.o *.d *.prs *.trace *.wlt *~ core
-[acristia@oberon py-cfg-new]$ make
-g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   gammadist.c -o gammadist.o
-g++ -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing     -c -o py-cfg.o py-cfg.cc
-g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing  mt19937ar.c -o mt19937ar.o
-g++ -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing     -c -o sym.o sym.cc
-g++ gammadist.o py-cfg.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg
-g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -DQUADPREC py-cfg.cc -o py-cfg-quad.o
-g++ gammadist.o py-cfg-quad.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad
-g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp py-cfg.cc -o py-cfg-mp.o
-g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp -DQUADPREC py-cfg.cc -o py-cfg-quad-mp.o
-g++ -fopenmp gammadist.o py-cfg-quad-mp.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad-mp
-
+  [acristia@oberon py-cfg-new]$ make clean
+  rm -fr *.o *.d *.prs *.trace *.wlt *~ core
+  [acristia@oberon py-cfg-new]$ make
+  g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   gammadist.c -o gammadist.o
+  g++ -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing     -c -o py-cfg.o py-cfg.cc
+  g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing  mt19937ar.c -o mt19937ar.o
+  g++ -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing     -c -o sym.o sym.cc
+  g++ gammadist.o py-cfg.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg
+  g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -DQUADPREC py-cfg.cc -o py-cfg-quad.o
+  g++ gammadist.o py-cfg-quad.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad
+  g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp py-cfg.cc -o py-cfg-mp.o
+  g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp -DQUADPREC py-cfg.cc -o py-cfg-quad-mp.o
+  g++ -fopenmp gammadist.o py-cfg-quad-mp.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad-mp

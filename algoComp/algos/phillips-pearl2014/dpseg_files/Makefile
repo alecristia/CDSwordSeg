@@ -22,7 +22,7 @@ all: top
 #######################
 # Boost
 
-# BOOST_LIB=/usr/lib/x86_64-linux-gnu/libboost_program_options.so
+BOOST_LIB=-lboost_program_options
 # BOOST_INCLUDE=-I /usr/include/boost
 
 
