@@ -7,22 +7,22 @@
 # 2015-11-26 for winnipeglena corpus analysis
 
 #########VARIABLES###########################
-PIPELINE=~/dev/lscp/CDSwordSeg/algoComp/segment.py
-RESFOLDER=${1:-${PHONFOLDER/phono/results\/test_segment}}
+RESFOLDER=${1:-./results\/test_dmcmc}
 PHONFOLDER=${2:-./phono}
+PIPELINE=${3:-../../algoComp/segment.py}
 #########
 
 mkdir -p $RESFOLDER
 
 # Run all algos in the cluster, once per version
 #for VERSION in ${PHONFOLDER}/WL_ADS_*S
-for VERSION in ${PHONFOLDER}/WL_*
+for VERSION in ${PHONFOLDER}/WL_CDS_LS
 do
     VNAME=`basename ${VERSION#$RESFOLDER}`
     echo Clusterizing $VNAME
     $PIPELINE --goldfile $VERSION/gold.txt \
               --output-dir $RESFOLDER/$VNAME \
-              --algorithms TPs \
+              --algorithms dmcmc \
               --clusterize \
               --jobs-basename $VNAME \
               $VERSION/tags.txt

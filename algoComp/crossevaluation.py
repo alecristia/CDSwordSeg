@@ -1,7 +1,14 @@
 #!/usr/bin/env python
 """This script is used for cross-evaluation of iterative algos in CDSwordSeg.
 
-From bash, this script must be used in this general framework:
+For help, from command line:
+
+.. codeblock:: bash
+
+    ./crossevaluation.py fold --help
+    ./crossevaluation.py unfold --help
+
+This script must be used in this general framework:
 
 .. codeblock:: bash
 

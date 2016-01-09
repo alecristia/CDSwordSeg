@@ -33,3 +33,4 @@ algoComp/test/*/*
 */*/phono/*
 data/*
 recipes/WinnipegLENA/old/
+recipes/bernstein/test_dmcmc/*

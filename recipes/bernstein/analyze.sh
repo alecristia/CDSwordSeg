@@ -13,7 +13,6 @@ PIPELINE=${3:-../../algoComp/segment.py}
 mkdir -p $RESFOLDER
 
 # Run all algos in the cluster, once per version
-#for VERSION in ${PHONFOLDER}/WL_ADS_*S
 for VERSION in $PHONFOLDER/*
 do
     if [ -d $VERSION ]
@@ -22,7 +21,7 @@ do
         echo Clusterizing $VNAME
         $PIPELINE --goldfile $VERSION/gold.txt \
                   --output-dir $RESFOLDER/$VNAME \
-                  --algorithms all \
+                  --algorithms dmcmc \
                   --clusterize \
                   --jobs-basename $VNAME \
                   $VERSION/tags.txt
