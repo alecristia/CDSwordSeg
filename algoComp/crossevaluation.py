@@ -62,7 +62,7 @@ def flatten(l):
     return list(chain(*l))
 
 
-def fold(lines, nfolds=5):
+def fold(lines, nfolds=5, dmcmc_fix=False):
     """Create `nfolds` versions of input `lines`.
 
     `lines` is list of strings to be folded, `nfolds` is the number of
@@ -90,6 +90,20 @@ def fold(lines, nfolds=5):
     # ...excepted the last block that can be longer
     blocks.append(lines[(nfolds-1)*size:])
 
+    # This is a little trick to deals with a bug in the dpseg
+    # program. Bug description: If the 1st utterence (i.e. line) of
+    # the input is composed of a single syllable, the program fails
+    # with a segmentation fault. solution: If 1st line is a single
+    # syllable, merge it with the next line.
+    if dmcmc_fix:
+        for i, b in enumerate(blocks, 1):
+            if len(b[0].rstrip()) == 1:
+                print('crossevaluation.py fold: dmcmc-bugfix merge '
+                      '"{}" with "{}" in fold {}'
+                      .format(b[0].rstrip(), b[1].rstrip(), i))
+                b[1] = b[0].rstrip() + b[1]
+                del b[0]
+
     # build the folds from the blocks and store index of the last
     # block in each fold
     folds = []
@@ -114,13 +128,16 @@ def main_fold():
                         help='number of folds to create, default is 5')
     parser.add_argument('-v', '--verbose', action='store_true',
                         help='increase verbosity')
+    parser.add_argument('--dmcmc-bugfix', action='store_true', help="""
+                        if 1st line of each fold is a single syllable,
+                        merge it with the next line.""")
     args = parser.parse_args()
 
     # compute the folds
     if args.verbose:
         print('Folding {}'.format(args.file))
     lines = open(args.file, 'r').readlines()
-    lasts, folds = fold(lines, args.nfolds)
+    lasts, folds = fold(lines, args.nfolds, args.dmcmc_bugfix)
 
     # write each fold to an output file and the index file
     base, ext = os.path.splitext(args.file)
@@ -134,7 +151,7 @@ def main_fold():
 
     # write the index file
     indexfile = base + '-index' + ext
-    open(indexfile, 'w').write(str(len(lines)) + ' ' + index[:-1] + '\n')
+    open(indexfile, 'w').write(str(len(folds[0])) + ' ' + index[:-1] + '\n')
     if args.verbose:
         print('Write {}'.format(indexfile))
 

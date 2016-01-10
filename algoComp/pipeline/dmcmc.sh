@@ -38,16 +38,17 @@ $CONVERTER/create-unicode-dict.py \
 $CONVERTER/convert-to-unicode.py \
        $RESFOLDER/tags.txt \
        $RESFOLDER/syllables-dict.txt \
-       $RESFOLDER/input.txt
+       $RESFOLDER/input-sp.txt
 
-### ATTENTION adding/removing spaces between words in input seems to
-### have no effect but we remove all spaces just in case...
-mv $RESFOLDER/input.txt $RESFOLDER/input-sp.txt
+# ATTENTION adding/removing spaces between words in input seems to
+# have no effect but we remove all spaces just in case...
 cat $RESFOLDER/input-sp.txt | tr -d ' ' > $RESFOLDER/input.txt
 
 NFOLDS=5
 echo Creating $NFOLDS folds for cross evaluation
-$CROSSEVAL fold $RESFOLDER/input.txt --nfolds $NFOLDS
+# ATTENTION merge the 1st line with the 2nd if it contains only 1
+# syllable
+$CROSSEVAL fold $RESFOLDER/input.txt --nfolds $NFOLDS --dmcmc-bugfix
 
 # TODO parallelize this loop
 for FOLD in $RESFOLDER/input-fold*.txt
@@ -59,15 +60,10 @@ do
     input=$FOLD
     log=${input/input/log}
     output=${FOLD/input/output}
-
-    # intermediate pre and post processing files
-    input_raw=${input/input/input_raw}
     output_raw=${output/output/output_raw}
 
-    ### ATTENTION merge the 1st line with the 2nd if it contains only 1
-    ### syllable. See bugfix.py for details. TODO replace python by bash
-    $ABSPATH/algos/phillips-pearl2014/bugfix.py $input $input_raw
-    $DPSEG -o $output_raw --data-file $input_raw > $log && echo
+    # running the algo
+    $DPSEG -o $output_raw --data-file $input > $log && echo
     sed -e 's/ $//g' -e '/^$/d' $output_raw  > $output
 done
 
