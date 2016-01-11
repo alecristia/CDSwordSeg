@@ -31,6 +31,7 @@ Copyright 2015 Mathieu Bernard
 """
 
 import argparse
+import codecs
 from itertools import chain
 import numpy as np
 import os
@@ -62,8 +63,18 @@ def flatten(l):
     return list(chain(*l))
 
 
-def fold(lines, nfolds=5, dmcmc_fix=False):
+def fold_boundaries(lines, nfolds):
+    """Return `nfolds` boundaries as a list of indexes in `lines`"""
+    if len(lines) < nfolds:
+        raise ValueError('Not enought lines to make {} folds'.format(nfolds))
+    size = len(lines)/nfolds
+    return [i*size for i in range(nfolds)]
+
+
+def fold(lines, boundaries):
     """Create `nfolds` versions of input `lines`.
+
+    TODO update this docstring
 
     `lines` is list of strings to be folded, `nfolds` is the number of
     folds to create.
@@ -81,31 +92,14 @@ def fold(lines, nfolds=5, dmcmc_fix=False):
     ([2, 3, 3], [[1, 2, 3, 4], [3, 4, 1, 2], [2, 3, 4, 1]])
 
     """
-    if len(lines) < nfolds:
-        raise ValueError('Not enought lines to make {} folds'.format(nfolds))
-
-    # split the input in `nfolds` blocks of equal size...
-    size = len(lines)/nfolds
-    blocks = [lines[i*size:(i+1)*size] for i in range(nfolds-1)]
-    # ...excepted the last block that can be longer
-    blocks.append(lines[(nfolds-1)*size:])
-
-    # This is a little trick to deals with a bug in the dpseg
-    # program. Bug description: If the 1st utterence (i.e. line) of
-    # the input is composed of a single syllable, the program fails
-    # with a segmentation fault. solution: If 1st line is a single
-    # syllable, merge it with the next line.
-    if dmcmc_fix:
-        for i, b in enumerate(blocks, 1):
-            if len(b[0].rstrip()) == 1:
-                print('crossevaluation.py fold: dmcmc-bugfix merge '
-                      '"{}" with "{}" in fold {}'
-                      .format(b[0].rstrip(), b[1].rstrip(), i))
-                b[1] = b[0].rstrip() + b[1]
-                del b[0]
+    # create data blocks from boundaries
+    b = boundaries
+    blocks = [lines[b[i]:b[i+1]] for i in range(len(b)-1)]
+    blocks.append(lines[b[-1]:])
 
     # build the folds from the blocks and store index of the last
     # block in each fold
+    nfolds = len(b)
     folds = []
     index = []
     idx = range(nfolds)
@@ -113,6 +107,8 @@ def fold(lines, nfolds=5, dmcmc_fix=False):
         folds += [flatten([blocks[idx[j]] for j in range(nfolds)])]
         index += [np.cumsum([len(blocks[idx[j]]) for j in range(nfolds)])[-2]]
         idx = permute(idx)
+
+    assert all([len(f) == len(lines) for f in folds])
 
     return index, folds
 
@@ -128,16 +124,33 @@ def main_fold():
                         help='number of folds to create, default is 5')
     parser.add_argument('-v', '--verbose', action='store_true',
                         help='increase verbosity')
-    parser.add_argument('--dmcmc-bugfix', action='store_true', help="""
+    parser.add_argument('--dmcmc-bugfix', metavar='GOLDFILE', type=str,
+                        default=None, help="""
                         if 1st line of each fold is a single syllable,
-                        merge it with the next line.""")
+                        merge it with the next line. Change the gold
+                        file accordingly""")
     args = parser.parse_args()
 
-    # compute the folds
     if args.verbose:
         print('Folding {}'.format(args.file))
-    lines = open(args.file, 'r').readlines()
-    lasts, folds = fold(lines, args.nfolds, args.dmcmc_bugfix)
+    lines = codecs.open(args.file, encoding='utf8', mode='r').readlines()
+
+    # compute fold boundaries
+    boundaries = fold_boundaries(lines, args.nfolds)
+
+    # dmcmc fix if required
+    if args.dmcmc_bugfix:
+        sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                     'algos/phillips-pearl2014'))
+        import bugfix
+        b = bugfix.bugfix(args.file, args.dmcmc_bugfix, lines=boundaries)
+        if b != boundaries:
+            # bugfix modified the tags file, reload it and update boundaries
+            boundaries = b
+            lines = codecs.open(args.file, encoding='utf8', mode='r').readlines()
+
+    # compute the folds from boundaries
+    lasts, folds = fold(lines, boundaries)
 
     # write each fold to an output file and the index file
     base, ext = os.path.splitext(args.file)
@@ -145,7 +158,8 @@ def main_fold():
     for i, indiced_fold in enumerate(zip(lasts, folds)):
         index += str(indiced_fold[0]) + ' '
         outfile = base + '-fold{}'.format(i) + ext
-        open(outfile, 'w').write(''.join(indiced_fold[1]))
+        codecs.open(outfile, encoding='utf8', mode='w').write(
+            ''.join(indiced_fold[1]))
         if args.verbose:
             print('Write {}'.format(outfile))
 
@@ -182,7 +196,7 @@ def main_unfold():
     last_blocks = []
     for i, f in enumerate(sorted(args.files)):
         # TODO Optimize, no need to load entire files, tail is enought
-        lines = open(f, 'r').readlines()
+        lines = codecs.open(f, encoding='utf8', mode='r').readlines()
         if not len(lines) == length:
             raise ValueError('{} must have {} lines but have {}'
                              .format(f, length, len(lines)))
@@ -205,7 +219,7 @@ def main_unfold():
                          .format(len(unfolded), length))
 
     # write results to the output file
-    open(fileout, 'w').write(''.join(unfolded))
+    codecs.open(fileout, encoding='utf8', mode='w').write(''.join(unfolded))
 
 
 def main():
@@ -215,20 +229,21 @@ def main():
     call main_fold() or main_unfold().
 
     """
-    try:
-        arg = sys.argv[1]
-        sys.argv = [sys.argv[0]] + sys.argv[2:]
-        if arg == 'fold':
-            main_fold()
-        elif arg == 'unfold':
-            main_unfold()
-        else:
-            print('Please specify fold or unfold.\n'
-                  'Type "{} fold --help" or "{} unfold --help".'
-                  .format(sys.argv[0], sys.argv[0]))
-    except Exception as err:
-        print('Error in crossevaluation.py {} : {}'.format(arg, err))
-        exit(1)
+    #    try:
+    arg = sys.argv[1]
+    sys.argv = [sys.argv[0]] + sys.argv[2:]
+    if arg == 'fold':
+        main_fold()
+    elif arg == 'unfold':
+        main_unfold()
+    else:
+        print('Please specify fold or unfold.\n'
+              'Type "{} fold --help" or "{} unfold --help".'
+              .format(sys.argv[0], sys.argv[0]))
+    # except Exception as err:
+    #     # print('Error in crossevaluation.py {} : {}'.format(arg, err))
+    #     # exit(1)
+    #     raise err
 
 if __name__ == '__main__':
     main()

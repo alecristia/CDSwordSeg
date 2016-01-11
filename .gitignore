@@ -33,4 +33,6 @@ algoComp/test/*/*
 */*/phono/*
 data/*
 recipes/WinnipegLENA/old/
-recipes/bernstein/test_dmcmc/*
+recipes/bernstein/test_dmcmc*
+
+/recipes/childes/ortholines.txt

@@ -50,11 +50,10 @@ $CONVERTER/create-unicode-dict.py \
 $CONVERTER/convert-to-unicode.py \
        $RESFOLDER/tags.txt \
        $RESFOLDER/syllables-dict.txt \
-       $RESFOLDER/input.txt
+       $RESFOLDER/input-sp.txt
 
 ### ATTENTION adding/removing spaces between words in input has no
 ### effect but we remove all spaces just in case...
-mv $RESFOLDER/input.txt $RESFOLDER/input-sp.txt
 cat $RESFOLDER/input-sp.txt | tr -d ' ' > $RESFOLDER/input-unfixed.txt
 
 ### ATTENTION merge the 1st line with the 2nd if it contains only 1

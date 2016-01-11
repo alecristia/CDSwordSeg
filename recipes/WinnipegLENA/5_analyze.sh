@@ -16,13 +16,13 @@ mkdir -p $RESFOLDER
 
 # Run all algos in the cluster, once per version
 #for VERSION in ${PHONFOLDER}/WL_ADS_*S
-for VERSION in ${PHONFOLDER}/WL_CDS_LS
+for VERSION in ${PHONFOLDER}/WL_*
 do
     VNAME=`basename ${VERSION#$RESFOLDER}`
     echo Clusterizing $VNAME
     $PIPELINE --goldfile $VERSION/gold.txt \
               --output-dir $RESFOLDER/$VNAME \
-              --algorithms dmcmc \
+              --algorithms all \
               --clusterize \
               --jobs-basename $VNAME \
               $VERSION/tags.txt

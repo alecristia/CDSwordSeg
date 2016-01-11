@@ -48,7 +48,10 @@ NFOLDS=5
 echo Creating $NFOLDS folds for cross evaluation
 # ATTENTION merge the 1st line with the 2nd if it contains only 1
 # syllable
-$CROSSEVAL fold $RESFOLDER/input.txt --nfolds $NFOLDS --dmcmc-bugfix
+$CROSSEVAL fold $RESFOLDER/input.txt \
+           --nfolds $NFOLDS \
+           --dmcmc-bugfix $RESFOLDER/gold.txt \
+           --verbose
 
 # TODO parallelize this loop
 for FOLD in $RESFOLDER/input-fold*.txt
