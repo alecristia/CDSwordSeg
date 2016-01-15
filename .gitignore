@@ -34,5 +34,5 @@ algoComp/test/*/*
 data/*
 recipes/WinnipegLENA/old/
 recipes/bernstein/test_dmcmc*
-
-/recipes/childes/ortholines.txt
+/recipes/childes/data/*
+/recipes/childes/results*/*

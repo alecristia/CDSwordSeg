@@ -22,7 +22,7 @@ do
     echo Clusterizing $VNAME
     $PIPELINE --goldfile $VERSION/gold.txt \
               --output-dir $RESFOLDER/$VNAME \
-              --algorithms all \
+              --algorithms dmcmc \
               --clusterize \
               --jobs-basename $VNAME \
               $VERSION/tags.txt
