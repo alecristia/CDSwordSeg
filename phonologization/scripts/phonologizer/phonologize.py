@@ -1,13 +1,13 @@
 """Phonologize text utterances with **festival**
 
-Copyright 2015 Mathieu Bernard.
+Copyright 2015, 2016 Mathieu Bernard.
 
 """
 
 import os
 import subprocess
-import sys
 import tempfile
+import shlex
 
 from . import lispy
 
@@ -41,7 +41,7 @@ def preprocess(streamin):
     return res
 
 
-def process(text, script='scripts/template.scm'):
+def process(text, script='scripts/template.scm', verbose=False):
     """Return the syllabic structure of *text* as parsed by a festival *script*.
 
     This function delegates to **festival** the *text* analysis and
@@ -62,12 +62,17 @@ def process(text, script='scripts/template.scm'):
         tmpdata.close()
 
         # the Scheme script to be send to festival
+        if verbose:
+            print('loading festival script from {}'.format(script))
         scm_script = open(script, 'r').read().format(tmpdata.name)
 
         with tempfile.NamedTemporaryFile('w+', delete=False) as tmpscm:
             tmpscm.write(scm_script)
             tmpscm.close()
-            res = subprocess.check_output(['festival', '-b', tmpscm.name])
+            cmd = 'festival -b ' + tmpscm.name
+            if verbose:
+                print('running ' + cmd)
+            res = subprocess.check_output(shlex.split(cmd))
 
         os.remove(tmpdata.name)
         os.remove(tmpscm.name)
@@ -113,7 +118,7 @@ def postprocess(text):
     return ''.join(output)
 
 
-def phonologize(streamin, streamout, script=None):
+def phonologize(streamin, streamout, script=None, verbose=False):
     """This function provides an easy wrapper to phonologization facilities."""
     # load and format input for festival
     text = preprocess(streamin)
@@ -121,7 +126,7 @@ def phonologize(streamin, streamout, script=None):
     # get the syllabe structure of the input
     if not script:
         script = default_script()
-    text = process(text, script)
+    text = process(text, script, verbose)
 
     # parse it to the output format
     text = postprocess(text)

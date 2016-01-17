@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#
 # Wrapper to run WinnipegLENA experiments 201511
 # Alex Cristia <alecristia@gmail.com> 2015-11-26
 # Mathieu Bernard
@@ -15,8 +16,8 @@
 # Phonologize the ortholines files
 ./3_ortho2phono.sh || exit 1
 
-# Add length-matched versions of the CDS corpora
-./4_special_step.sh || exit 1
+# Add length-matched versions of all the corpora
+./4_length_match.sh || exit 1
 
 # Analyze
 # ./5_analyze.sh

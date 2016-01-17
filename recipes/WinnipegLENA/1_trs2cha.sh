@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
-#Converting trs files to CHILDES-like format
-#Alex Cristia alecristia@gmail.com 2015-11 comparison
-#this version generates three versions of the corpus: adult directed
-#only, child directed only, and directed to the key child only
+#
+# Converting trs files to CHILDES-like format. This version generates
+# three versions of the corpus: adult directed only, child directed
+# only, and directed to the key child only (ADS, CDS and KDS
+# respectively).
 
-#########VARIABLES
+DATAFOLDER=${1:-./data}
 
 # must exist and contain trs files
-TRSFOLDER=${1:-./trs}
+TRSFOLDER=$DATAFOLDER/trs
 
 # will be created and output cha files will be stored there
 CHAFOLDER=${TRSFOLDER/trs/cha}

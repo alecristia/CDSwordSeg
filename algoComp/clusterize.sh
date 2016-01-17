@@ -9,7 +9,7 @@
 # ./clusterize.sh ls        # This run ls either on local host or the cluster
 # ./clusterize.sh "ls -la"  # Note the quotes for commands including spaces
 #
-# Author: Mathieu Bernard <mmathieubernardd@gmail.com>
+# Copyright 2015 Mathieu Bernard <mmathieubernardd@gmail.com>
 
 # Step 0: parse input arguments
 JOB=$1
@@ -23,7 +23,9 @@ OPT=${2:-"-V -cwd -j y -N $JOBNAME"}
 which qsub &> /dev/null
 
 # Step 2: run the JOB accordingly
-if [ $? -ne 0 ]; then
+if [ $? -ne 0 ]
+then
+    # TODO missing & at the end but seems to not work very well...
     $JOB &
     echo "Your job $! (\"$JOBNAME\") running on `hostname`"
 else

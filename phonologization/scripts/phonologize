@@ -44,7 +44,7 @@ if the phonologization takes too long (I began this but it seems a bit
 tricky and time consuming).
 
 
-Copyright 2015 Mathieu Bernard.
+Copyright 2015, 2016 Mathieu Bernard.
 
 """
 
@@ -66,6 +66,8 @@ def parse_args():
                         help='festival script to be launched on background '
                         '(default is {})'.format(default_script()),
                         default=default_script())
+    parser.add_argument('-v', '--verbose', action='store_true',
+                        help='display some log')
     return parser.parse_args()
 
 
@@ -75,13 +77,17 @@ def main():
 
     streamin = args.input
     if isinstance(streamin, str):
+        if args.verbose:
+            print('reading from {}'.format(streamin))
         streamin = open(streamin, 'r')
 
     streamout = args.output
     if isinstance(streamout, str):
+        if args.verbose:
+            print('writing to {}'.format(streamout))
         streamout = open(streamout, 'w')
 
-    phonologize(streamin, streamout, args.script)
+    phonologize(streamin, streamout, args.script, args.verbose)
 
 
 if __name__ == '__main__':

@@ -15,10 +15,11 @@ which qsub &> /dev/null
 # Step 2: run the JOB accordingly
 if [ $? -ne 0 ]
 then
-    for pid in `cat $LIST`
-    do
-        echo waiting for $pid...
-        wait $pid
+    for pid in `cat $LIST`; do
+        echo -n waiting for $pid...
+        while kill -0 "$pid"; do
+            sleep 0.5
+        done
         echo
     done
 else
