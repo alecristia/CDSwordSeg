@@ -9,12 +9,22 @@ import subprocess
 import tempfile
 import shlex
 
-from . import lispy
+# from . import lispy
+import lispy
 
 
 def default_script():
     return os.path.join(os.path.dirname(os.path.realpath(__file__)),
                         'template.scm')
+
+
+def festival_is_here():
+    """Return True is the festival binary is in the PATH"""
+    try:
+        subprocess.check_output(shlex.split('which festival'))
+        return True
+    except:
+        return False
 
 
 def is_double_quoted(line):
