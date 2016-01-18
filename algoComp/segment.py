@@ -4,7 +4,7 @@
 Replaces the former segment_one_corpus.sh script. Run the file with
 the '--help' option to get in.
 
-Copyright 2015 Alex Cristia, Mathieu Bernard
+Copyright 2015, 2016 Alex Cristia, Mathieu Bernard
 
 """
 
@@ -23,8 +23,11 @@ CFGOLD = ('algo token_f-score token_precision token_recall '
 CDSPATH = os.path.dirname(os.path.abspath(__file__))
 """The algoComp directory in CDSwordSeg"""
 
-ALGO_CHOICES = ['AGc3sf', 'AGu', 'TPs', 'dibs', 'dmcmc', 'ngrams', 'puddle']
+ALGO_CHOICES = sorted(
+    ['AGc3sf', 'AGu', 'TPs', 'dibs', 'dmcmc', 'ngrams', 'puddle'],
+    key=str.lower)
 """Algorithms provided in the algoComp pipeline"""
+
 
 def clusterizable():
     """Return True if the 'qsub' command is found in the PATH"""
@@ -56,7 +59,7 @@ def run_command(algo, algo_dir, command, clusterize=False, basename=''):
         command = ('qsub -j y -V -cwd -o {} -N {} {}'
                    .format(ofile, jobname, fcommand))
         res = subprocess.check_output(shlex.split(command))
-        return res.split()[2] # job pid on the cluster
+        return res.split()[2]  # job pid on the cluster
     else:
         return subprocess.Popen(shlex.split(command),
                                 stdout=open(ofile, 'a'),
@@ -78,6 +81,7 @@ def wait_jobs(jobs_id, clusterize):
             pid[1].wait()
 
 
+# TODO review this function
 def write_gold_file(tags, gold):
     """remove ;eword and ;esyll in tags to create gold"""
     with open(gold, 'w') as out:
@@ -90,7 +94,7 @@ def write_gold_file(tags, gold):
             out.write(goldline + '\n')
 
 
-def algo_dict(algos, directory=CDSPATH):
+def algo_dict(algos, directory=CDSPATH, verbose=False):
     """Returns a map of `algos` to *.sh scripts in `directory`/pipeline"""
     # get the list of algo bash scripts
     pipeline = os.path.join(directory, 'pipeline')
@@ -106,26 +110,34 @@ def algo_dict(algos, directory=CDSPATH):
     # fill the resulting dict
     res = {}
     for algo in algos:
-        script = [s for s in scripts if algo in s][0]
+        algo_id = 'AG' if 'AG' in algo else algo
+        script = [s for s in scripts if algo_id in s][0]
         res[algo] = os.path.join(pipeline, script)
     return res
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='')
+    parser = argparse.ArgumentParser(
+        description='This script is a segmentation pipeline binding a '
+        'phonologized input to various word segmentation algorithms.')
 
-    g1 = parser.add_argument_group('I/O parameters')
-    g1.add_argument(
-        'tagsfile', type=str,
+    parser.add_argument(
+        '-v', '--verbose', action='store_true',
+        help='display some log during execution')
+
+    parser.add_argument(
+        'tagsfile', type=str,  metavar='TAGSFILE',
         help='input tag file containing the utterances to segment in words. '
         'One phonologized utterance per line, with ;esyll and ;eword '
         'separators as outputed by the phonologizer')
+
+    g1 = parser.add_argument_group('I/O optional parameters')
 
     g1.add_argument(
         '-g', '--goldfile', type=str, default=None,
         help='gold file containing the gold version of the tags file, '
         'i.e. with ;esyll removed and ;eword replaced by a space. '
-        'If not provided, compute it.')
+        'If not provided, compute it')
 
     g1.add_argument(
         '--cds-dir', type=str, default=CDSPATH,
@@ -134,36 +146,47 @@ def parse_args():
     g1.add_argument(
         '-d', '--output-dir', type=str,
         default=os.path.curdir,
-        help='directory to write output files. Default is to write in `.` . '
-        "Each selected algo create it's own subdirectory in OUTPUT_DIR")
+        help='directory to write output files. Default is to write in `.` , '
+        "each selected algo create it's own subdirectory in OUTPUT_DIR")
 
     g2 = parser.add_argument_group('Computation parameters')
     g2.add_argument(
         '-a', '--algorithms', type=str, nargs='+', default=['dibs'],
         choices=ALGO_CHOICES + ['all'],
         metavar='ALGO',
-        help='Choose algorithms in {}, or choose "all". '
-        'Default is to compute dibs.'.format(ALGO_CHOICES))
+        help='choose algorithms in {}, or choose "all", '
+        'default is to compute dibs.'.format(ALGO_CHOICES))
 
     g2.add_argument(
         '-c', '--clusterize', action='store_true',
-        help='schedule jobs on the cluster if the qsub command is detected. '
-        'Else of if not specified, run jobs as parallel subproceses.')
+        help='schedule jobs on the cluster if the qsub command is detected, '
+        'else of if not specified, run jobs as parallel subproceses.')
 
     g2.add_argument(
         '-j', '--jobs-basename', type=str, default='',
-        help='If --clusterize, basename of scheduled jobs')
+        help='if --clusterize, basename of scheduled jobs')
 
     g2.add_argument(
         '-s', '--sync', action='store_true',
-        help='Wait all the jobs are terminated before exiting.')
+        help='wait all the jobs are terminated before exiting')
 
-    g2.add_argument(
+    g3 = parser.add_argument_group('Adaptor Grammar specific parameters')
+    g3.add_argument(
         '--ag-debug', action='store_true',
-        help='Setup the AGc3sf and AGu algorithm in debug configuration. '
-        'This have no effect on other algorithms')
+        help='setup the AG algorithm in debug configuration, '
+        'this have no effect on other algorithms')
 
-    return parser.parse_args()
+    g3.add_argument(
+        '--ag-median', type=int, default=1, metavar='N',
+        help='run the AG algorithms N times and return the median evaluation, '
+        'default is N=1, this have no effect on other algorithms')
+
+    args = parser.parse_args()
+    if args.verbose:
+        print('parsed arguments are:\n  '
+              + str(args).replace('Namespace(', '').replace(', ', '\n  ')[:-1])
+
+    return args
 
 
 def main():
@@ -171,27 +194,35 @@ def main():
     # parse input arguments
     args = parse_args()
 
-    # Check tags file and CDS dir exists
+    # check that tags file and CDS dir exists
     assert os.path.isfile(args.tagsfile), \
-        'invalid input file {}'.format(args.tagsfile)
+        'invalid tags file {}'.format(args.tagsfile)
     assert os.path.isdir(args.cds_dir), \
         'invalid CDS dir {}'.format(args.cds_dir)
 
+    # create the output dir if needed
     args.output_dir = os.path.abspath(args.output_dir)
-    if not os.path.isdir(args.output_dir):
-        os.mkdir(args.output_dir)
+    assert not os.path.isdir(args.output_dir), \
+        'result directory already exists: {}'.format(args.output_dir)
+    os.mkdir(args.output_dir)
 
     # compute the gold file if not given
     if args.goldfile is None:
         base, ext = os.path.splitext(args.tagsfile)
         args.goldfile = base + '-gold' + ext
+
+        if args.verbose:
+            print('writing gold file to {}'.format(args.goldfile))
+
         write_gold_file(args.tagsfile, args.goldfile)
     else:
         assert os.path.isfile(args.goldfile), \
-            'invalid input file {}'.format(args.goldfile)
+            'invalid gold file {}'.format(args.goldfile)
+
+
 
     # mapping from algo name to script absolute path
-    scripts = algo_dict(args.algorithms, args.cds_dir)
+    scripts = algo_dict(args.algorithms, args.cds_dir, args.verbose)
 
     # mapping from algo name to pid
     jobs = {}
@@ -216,13 +247,29 @@ def main():
                             args.cds_dir + '/',  # ABSPATH
                             algo_dir + '/'])     # RESFOLDER
 
-        # specify debug mode for AG
-        if 'AG' in algo and args.ag_debug:
-            command += ' debug'
+        # special case of AG algos: specify grammar and debug mode
+        if 'AG' in algo:
+            command += ' ' + algo
+            if args.ag_debug:
+                command += ' debug'
 
-        # call the script and get back the pid
-        jobs[algo] = run_command(algo, algo_dir, command,
-                                 args.clusterize, args.jobs_basename)
+        # special case of AG median: run N jobs
+        if 'AG' in algo and args.ag_median > 1:
+            commands = [command] * args.ag_median
+
+            for i, c in enumerate(commands, 1):  # modify RESFOLDER
+                c = c.split()
+                c[3] = c[3][:-1] + '_' + str(i) + '/'
+                print(c[3])
+                print(c)
+                # # call the script and get back the pid
+                # jobs[algo] = run_command(
+                #     algo, algo_dir, c, args.clusterize, args.jobs_basename)
+        else:
+            # call the script and get back the pid
+            print(command)
+            # jobs[algo] = run_command(
+            #     algo, algo_dir, command, args.clusterize, args.jobs_basename)
 
     # wait all the jobs terminate
     if args.sync:
