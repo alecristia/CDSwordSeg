@@ -26,47 +26,6 @@ Our current pipeline involves three steps:
    most frequent words, and all this based on a selection of
    algorithms (chosen by user).
 
-TODO
-====
-
-- Smart clusterization of crossevaluation.
-
-- Debug dmcmc segfault on non ADS corpora::
-
-    Processing fold 0.
-    /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
-    line 53: 52767 Segmentation fault (core dumped) $DPSEG -o
-    ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
-    Processing fold 1.................................................
-    Processing fold 2.................................................
-    Processing fold 3.................................................
-    Processing fold 4.
-    /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
-    line 53: 30818 Segmentation fault (core dumped) $DPSEG -o
-    ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
-
-- debug wordmatch in full_WL/4_special_step.sh
-
-troubleshoot oberon on step 3 segmentation
-------------------------------------------
-
-Boils down to the following:
-
-- dibs OK though odd that performance for dibs is 1pc lower with the
-  new phon set, no?? maybe forget, since we will rerun everything
-  anyway...
-
-- ngrams OK
-
-- TP OK, odd that performance is 2pc higher now; notice that standard
-  format cannot be created now because spaces between letters are lost
-
-- AG OK, changed to c3syll+functionwords standard format cannot be
-  created bc spaces bet letters lost
-
-- Puddle: poor performance because testing on the whole thing!!!! -->
-  we decide to test on last 20% for all corpora
-
 
 STEP 1: Database creation
 =========================

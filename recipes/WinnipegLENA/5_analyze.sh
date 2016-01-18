@@ -1,29 +1,36 @@
 #!/usr/bin/env bash
+#
+# Script for analyzing the different versions of Winnipeg corpora
+#
+# Copyright (C) 2016 by Alex Cristia, Mathieu Bernard
 
-# Script for analyzing a single corpus in the algoComp2015.1.0 project
-# Alex Cristia alecristia@gmail.com 2015-08-25
-# Updated by Mathieu Bernard for 'clusterization' of the pipeline
-# And again by Alex
-# 2015-11-26 for winnipeglena corpus analysis
 
-#########VARIABLES###########################
-RESFOLDER=${1:-./results\/test_dmcmc}
-PHONFOLDER=${2:-./phono}
-PIPELINE=${3:-../../algoComp/segment.py}
-#########
+# will be createed to store results
+output_dir=${1:-./results}
 
-mkdir -p $RESFOLDER
+# input data directory must exists and have a 'matched' subdir
+# containing the results of step 4
+data_dir=${2:-./data}
 
-# Run all algos in the cluster, once per version
-#for VERSION in ${PHONFOLDER}/WL_ADS_*S
-for VERSION in ${PHONFOLDER}/WL_*
+# the segmentation pipeline
+segmenter=${3:-../../algoComp/segment.py}
+
+
+# create the output dir if needed
+mkdir -p $output_dir
+
+# Run all algos on all versions in parallel (on the cluster if available)
+for input_dir in $data_dir/matched/WL_*
 do
-    VNAME=`basename ${VERSION#$RESFOLDER}`
-    echo Clusterizing $VNAME
-    $PIPELINE --goldfile $VERSION/gold.txt \
-              --output-dir $RESFOLDER/$VNAME \
-              --algorithms dmcmc \
+    version=`basename $input_dir`
+
+    echo "Clusterizing version $version"
+    $PIPELINE --output-dir $output_dir/$version \
+              --algorithms all \
               --clusterize \
-              --jobs-basename $VNAME \
-              $VERSION/tags.txt
+              --jobs-basename $version \
+              --goldfile $input_dir/gold.txt \
+              $input_dir/tags.txt || exit 1
 done
+
+exit
