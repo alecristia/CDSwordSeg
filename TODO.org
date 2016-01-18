@@ -1,15 +1,17 @@
 * TODO
-** general [0/4]
+** general [0/5]
 - [ ] update the README to describe the recipes
 - [ ] list software dependancies in the README
+- [ ] properly copyright the project (Alex, Xuan Nga, Mathieu)
 - [ ] properly licencing the project in GPL
   Because we internally use festival (GPL licenced) as phonologizer
   backend, we must licence the whole project in GPL. Ensure this licence
   is OK for all dependancies.
-- [ ] properly copyright the project (Alex, Xuan Nga, Mathieu)
-** data preparation [0/1]
-- [ ] check for festival binary at phonologizer  startup
-** algocomp [2/4]
+- [ ] reorganize the project structure
+  data_preparation, segmentation and recipes top-level directories
+** data preparation [1/1]
+- [X] check for festival binary at phonologizer startup
+** algocomp [2/5]
 - [X] troubleshoot oberon on step 3 segmentation
   - dibs OK though odd that performance for dibs is 1pc lower with the
   new phon set, no?? maybe forget, since we will rerun everything
@@ -34,9 +36,16 @@
     /home/mbernard/scratch/dev/CDSwordSeg/algoComp/pipeline/dmcmc.sh:
     line 53: 30818 Segmentation fault (core dumped) $DPSEG -o
     ${FOLD/input/output} --data-file $FOLD > ${FOLD/input/stats}
-- [ ] update AG scripts to run them 5 times and take the median
+- [-] median result of AG [1/3]
+  - [X] Factorize AGu and AGc3sf
+    - [X] in pipeline script
+    - [X] in segment.py
+  - [-] update AG scripts to run them 5 times and take the median
+    - [X] add a --ag-median N option in segment.py
+    - [ ] update AG pipeline and evaluation with that
+  - [ ] parralelize in do_AG_english ?
 - [ ] Smart clusterization of crossevaluation
-- [ ] parallelize AG and dmcmc
+- [ ] parallelize dmcmc
 ** Winnipeg recipe [2/4]
 - [X] debug wordmatch in full_WL/4_special_step.sh
 - [X] update step 5 and 6
