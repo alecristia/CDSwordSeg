@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+#
+# Copyright (C) 2016 by Alex Cristia, Mathieu Bernard
 
 #################### parsing input parameters #####################
 
@@ -91,7 +93,7 @@ PYCFG=$ABSPATH/py-cfg-new/py-cfg
 SCRIPTFOLDER=$ABSPATH/scripts
 
 # beginning of the name for a temporary file, typically this will not
-# change
+# change TODO use mktemp
 TMPFILE="tmp"
 
 ## ANALYSIS Files - check that they are there
@@ -111,6 +113,7 @@ EVALPY=$SCRIPTFOLDER/eval.py
 
 ###########################
 # a) Create the parse tree files
+# TODO this loop can be clusterized/parallelized in a better way
 for i in {0..7}
 do
     $PYCFG -n $NITER \
@@ -120,7 +123,7 @@ do
            -E -r $RANDOM -d 101 -a 0.0001 -b 10000 \
            -e 1 -f 1 -g 100 -h 0.01 -R -1 -P -x 10 -u $YLTFILE -U cat \
            > $RESFOLDER/$OUTFILE$i.prs $GRAMMARFILE \
-           < $YLTFILE &
+           < $YLTFILE  || exit 1 &
     pid[${i}]=$!
 done
 
@@ -133,7 +136,7 @@ done
 # b) Reduce the parse trees (-n = number of parses to be removed /
 # br-phono*: all the parse tree files to be applied - e.g. 0 through
 # 7)
-python $REDUCEPRSFILE -n $NRED $RESFOLDER/$OUTFILE[0-9].prs
+python $REDUCEPRSFILE -n $NRED $RESFOLDER/$OUTFILE[0-9].prs || exit 1
 
 ###########################
 # c) Segmentation
@@ -141,11 +144,13 @@ for i in {0..7}
 do
     python $TREESFILE -c $LEVEL \
            < $RESFOLDER/$OUTFILE$i-last.prs \
-           > $RESFOLDER/$OUTFILE$i$INMBRFILE
+           > $RESFOLDER/$OUTFILE$i$INMBRFILE || exit 1
 done
 
 ###########################
 # d) Extract the most frequent segmentation in the 800 sample
 # segmentations (minimum bayes risk) and to be used in the evaluation
 python $MBRPYFILE $RESFOLDER/$OUTFILE*$INMBRFILE  \
-       > $RESFOLDER/cfgold.txt
+       > $RESFOLDER/cfgold.txt || exit 1
+
+exit

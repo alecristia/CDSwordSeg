@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
-
-# Script for launching AG, the step 5 of segment_one_corpus.sh
-# Author: Mathieu Bernard <mmathieubernardd@gmail.com>
-# Changes by Alex Cristia <alecristia@gmail.com>
+#
+# Script for launching Adaptor Grammar on different grammars (AGu and AGc3sf).
+#
+# Copyright (C) 2016 by Alex Cristia, Mathieu Bernard
 
 ABSPATH=$1
 RESFOLDER=$2
-DEBUG=$3
-ALGO="agc3s"
-
+ALGO=$3  # must be 'AGu' or 'AGc3sf'
+DEBUG=$4
 
 #*****CRUCIAL PART *******#
 # This grammar file needs to be adapted to your purposes, meaning:
@@ -23,7 +22,6 @@ ALGO="agc3s"
 # words are groups of phonemes); and the alphabet is the Klatt English
 # unicode-friendly.
 GRAMMARFILE=$ABSPATH/algos/AG/do_AG_english.sh
-###########################
 
 # Remove spaces within words and syllable boundaries, and replace word
 # tags with spaces to create gold
@@ -39,7 +37,7 @@ sed 's/;esyll//g' $RESFOLDER/tags.txt |
     sed 's/  */ /g' > $RESFOLDER/input.ylt
 
 # actual algo running
-$GRAMMARFILE $RESFOLDER $ALGO $DEBUG
+$GRAMMARFILE $RESFOLDER $ALGO $DEBUG || exit 1
 
 # Do the evaluation
 cd $ABSPATH/scripts
