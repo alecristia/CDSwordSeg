@@ -24,11 +24,11 @@ ABSPATH=`dirname $0`
 #     groups of syllables
 ALGO=$2
 case $ALGO in
-    "agU")
+    "AGu")
         GRAMMARFILE=$ABSPATH/grammars/Colloc0_enFestival.lt
         LEVEL="Colloc0"
         ;;
-    "agc3s")
+    "AGc3sf")
         GRAMMARFILE=$ABSPATH/grammars/Coll3syllfnc_enFestival.lt
         LEVEL="Word"
         ;;

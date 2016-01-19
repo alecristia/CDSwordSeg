@@ -25,12 +25,13 @@ do
     version=`basename $input_dir`
 
     echo "Clusterizing version $version"
-    $PIPELINE --output-dir $output_dir/$version \
-              --algorithms all \
-              --clusterize \
-              --jobs-basename $version \
-              --goldfile $input_dir/gold.txt \
-              $input_dir/tags.txt || exit 1
+    $segmenter --output-dir $output_dir/$version \
+               --algorithms all \
+               --ag-median 5 \
+               --clusterize \
+               --jobs-basename $version \
+               --goldfile $input_dir/gold.txt \
+               $input_dir/tags.txt || exit 1
 done
 
 exit

@@ -33,7 +33,7 @@ class NonAGSegmenter(object):
     command to be executed.
 
     """
-    def __init__(self, algo, tags, output_dir, script_dir=CDSPATH):
+    def __init__(self, algo, tags, gold, output_dir, script_dir=CDSPATH):
         # check the algo is supported
         if algo not in self.supported_algos():
             raise ValueError('unknown algo {}'.format(algo))
@@ -44,22 +44,29 @@ class NonAGSegmenter(object):
         if not os.path.isfile(self.script):
             raise ValueError('non-existing script {}'.format(self.script))
 
-        # create the output dir and copy the tags file in it. Be
-        # conservative and do not overwrite any data in the result
-        # directory
+        # create the output dir and copy the tags and gold files in
+        # it. Be conservative and do not overwrite any data in the
+        # result directory.
         if os.path.isdir(output_dir):
             raise ValueError('result directory already exists {}'
                              .format(output_dir))
         if not os.path.isfile(tags):
             raise ValueError('non-existing tags file {}'
                              .format(tags))
-        os.mkdir(output_dir)
+        self.output_dir = output_dir
+        os.mkdir(self.output_dir)
         shutil.copy(tags, os.path.join(output_dir, 'tags.txt'))
+        shutil.copy(gold, os.path.join(output_dir, 'gold.txt'))
 
         # create the command lanuching the script
-        self.command = ' '.join([self.script,
-                                 os.join(script_dir, '..') + '/',  # ABSPATH
-                                 self.output_dir + '/'])           # RESFOLDER
+        self.command = ' '.join(
+            [self.script,
+             os.path.abspath(os.path.join(script_dir, '..')) + '/',  # ABSPATH
+             self.output_dir + '/'])  # RESFOLDER
+
+    def __repr__(self):
+        """Return a string representation"""
+        return ' -> '.join([self.algo, self.output_dir])
 
     @staticmethod
     def supported_algos():
@@ -72,9 +79,9 @@ class NonAGSegmenter(object):
 
 
 class AGSegmenter(NonAGSegmenter):
-    def __init__(self, algo, tags, output_dir,
+    def __init__(self, algo, tags, gold, output_dir,
                  script_dir=CDSPATH, debug=False):
-        NonAGSegmenter.__init__(self, algo, tags, output_dir, script_dir)
+        NonAGSegmenter.__init__(self, algo, tags, gold, output_dir, script_dir)
 
         self.command += ' ' + self.algo
         if debug:
@@ -96,7 +103,7 @@ def supported_algos():
 
 def create_nonag(algo, args):
     algo_dir = os.path.join(args.output_dir, algo)
-    return NonAGSegmenter(algo, args.tagsfile, algo_dir, args.cds_dir)
+    return NonAGSegmenter(algo, args.tagsfile, args.goldfile, algo_dir, args.cds_dir)
 
 
 def create_ag(algo, args):
@@ -105,29 +112,29 @@ def create_ag(algo, args):
         jobs = []
         for i in range(1, args.ag_median+1):
             algo_dir = os.path.join(args.output_dir, algo + '_' + str(i))
-            jobs.append(AGSegmenter(algo, args.tagsfile, algo_dir,
-                                    args.cds_dir, args.ag_debug))
+            jobs.append(AGSegmenter(algo, args.tagsfile, args.goldfile,
+                                    algo_dir, args.cds_dir, args.ag_debug))
         return jobs
     else:  # only one job
         algo_dir = os.path.join(args.output_dir, algo)
-        return AGSegmenter(algo, args.tagsfile, algo_dir,
-                           args.cds_dir, args.ag_debug)
+        return AGSegmenter(algo, args.tagsfile, args.goldfile,
+                           algo_dir, args.cds_dir, args.ag_debug)
 
 
 def create_jobs(args):
     """Return a list of initialized WordSegmenter instances"""
-    if args.algos == 'all':
-        args.algos = supported_algos()
+    algos = args.algorithms
+    if algos == ['all']:
+        algos = supported_algos()
 
     jobs = []
-    for algo in args.algos:
+    for algo in algos:
         j = create_ag(algo, args) if 'AG' in algo else create_nonag(algo, args)
         if isinstance(j, list):
             jobs += j
         else:
             jobs.append(j)
     return jobs
-
 
 
 def clusterizable():
@@ -137,8 +144,6 @@ def clusterizable():
         return True
     except:
         return False
-
-CLUSTERIZABLE = clusterizable()
 
 
 def write_command(command, bin='bash'):
@@ -153,7 +158,7 @@ def write_command(command, bin='bash'):
 def run_job(job, clusterize=False, basename=''):
     """Call the command as a subprocess or schedule it in the cluster"""
     ofile = os.path.join(job.output_dir, 'log')
-    if clusterize and CLUSTERIZABLE:
+    if clusterize and clusterizable():
         fcommand = write_command(job.command)
         jobname = job.algo if basename == '' else basename + '_' + job.algo
         print('name = {}'.format(jobname))
@@ -162,27 +167,25 @@ def run_job(job, clusterize=False, basename=''):
         res = subprocess.check_output(shlex.split(command))
         return res.split()[2]  # job pid on the cluster
     else:
-        return subprocess.Popen(shlex.split(command),
+        return subprocess.Popen(shlex.split(job.command),
                                 stdout=open(ofile, 'a'),
                                 stderr=subprocess.STDOUT)
 
 
-def wait_jobs(jobs_id, clusterize):
-    """Wait all the jobs in list are terminated and return"""
-    if clusterize and CLUSTERIZABLE:
+def wait_jobs(pids, clusterize):
+    """Wait all the pids in list are terminated and return"""
+    if clusterize and clusterizable():
         print('waiting for jobs...')
         fcommand = write_command('echo done')
         command = ('qsub -j y -V -cwd -o /dev/null -N waiting -sync yes '
-                   '-hold_jid {} {}'.format(','.join(jobs_id.values()),
-                                            fcommand))
+                   '-hold_jid {} {}'.format(','.join(pids.values()), fcommand))
         subprocess.call(shlex.split(command), stdout=sys.stdout)
     else:
-        for pid in jobs_id.iteritems():
-            print('waiting {} of pid {}'.format(pid[0], pid[1].pid))
+        for pid in pids.iteritems():
+            print('waiting {} of pid {}'.format(pid[0].algo, pid[1].pid))
             pid[1].wait()
 
 
-# TODO review this function
 def write_gold_file(tags, gold):
     """remove ;eword and ;esyll in tags to create gold"""
     with open(gold, 'w') as out:
@@ -299,19 +302,20 @@ def main():
         assert os.path.isfile(args.goldfile), \
             'invalid gold file {}'.format(args.goldfile)
 
-    # create and run the segmentation jobs
+    # create and run the segmentation jobs, store their pid
     jobs = create_jobs(args)
     pids = {}
     for job in jobs:
         pids[job] = run_job(job, args.clusterize, args.jobs_basename)
 
+    if args.verbose:
+        print('launched jobs are')
+        for k, v in pids.iteritems():
+            print('  {} : {}'.format(k, v.pid))
+
     # wait all the jobs terminate
     if args.sync:
         wait_jobs(pids, args.clusterize)
-    else:
-        print('launched jobs are')
-        for k, v in jobs.iteritems():
-            print('  {} : {}'.format(k, v))
 
 
 if __name__ == '__main__':
