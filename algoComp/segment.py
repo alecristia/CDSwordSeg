@@ -17,16 +17,117 @@ import sys
 import tempfile
 
 
-CFGOLD = ('algo token_f-score token_precision token_recall '
-          'boundary_f-score boundary_precision boundary_recall')
+CDSPATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'pipeline')
+"""The algoComp/pipeline directory in CDSwordSeg"""
 
-CDSPATH = os.path.dirname(os.path.abspath(__file__))
-"""The algoComp directory in CDSwordSeg"""
 
-ALGO_CHOICES = sorted(
-    ['AGc3sf', 'AGu', 'TPs', 'dibs', 'dmcmc', 'ngrams', 'puddle'],
-    key=str.lower)
-"""Algorithms provided in the algoComp pipeline"""
+class NonAGSegmenter(object):
+    """A general wrapper to non-AG word segmentation algorithms
+
+    :param str algo: the segmentation algorithm to use, in supported_algos()
+    :param str tags: the tags file of phonologized utterances to segment
+    :param str output_dir: the output directory where to store the results
+    :param str script_dir: algoComp/pipeline directory in CDSwordSeg
+
+    This class creates output_dir, copy tags in it and create the
+    command to be executed.
+
+    """
+    def __init__(self, algo, tags, output_dir, script_dir=CDSPATH):
+        # check the algo is supported
+        if algo not in self.supported_algos():
+            raise ValueError('unknown algo {}'.format(algo))
+        self.algo = algo
+
+        # get the absolute path to the algo script
+        self.script = self._script(script_dir)
+        if not os.path.isfile(self.script):
+            raise ValueError('non-existing script {}'.format(self.script))
+
+        # create the output dir and copy the tags file in it. Be
+        # conservative and do not overwrite any data in the result
+        # directory
+        if os.path.isdir(output_dir):
+            raise ValueError('result directory already exists {}'
+                             .format(output_dir))
+        if not os.path.isfile(tags):
+            raise ValueError('non-existing tags file {}'
+                             .format(tags))
+        os.mkdir(output_dir)
+        shutil.copy(tags, os.path.join(output_dir, 'tags.txt'))
+
+        # create the command lanuching the script
+        self.command = ' '.join([self.script,
+                                 os.join(script_dir, '..') + '/',  # ABSPATH
+                                 self.output_dir + '/'])           # RESFOLDER
+
+    @staticmethod
+    def supported_algos():
+        """Algorithms supported by this class"""
+        return ['dibs', 'dmcmc', 'ngrams', 'puddle', 'TPs']
+
+    def _script(self, script_dir):
+        """Return the absolute path to the script behind self.algo"""
+        return os.path.abspath(os.path.join(script_dir, self.algo + '.sh'))
+
+
+class AGSegmenter(NonAGSegmenter):
+    def __init__(self, algo, tags, output_dir,
+                 script_dir=CDSPATH, debug=False):
+        NonAGSegmenter.__init__(self, algo, tags, output_dir, script_dir)
+
+        self.command += ' ' + self.algo
+        if debug:
+            self.command += ' debug'
+
+    @staticmethod
+    def supported_algos():
+        """Algorithms supported by the WordSegmenter class"""
+        return ['AGc3sf', 'AGu']
+
+    def _script(self, script_dir):
+        """Return the absolute path to the script behind self.algo"""
+        return os.path.abspath(os.path.join(script_dir, 'AG.sh'))
+
+
+def supported_algos():
+    return AGSegmenter.supported_algos() + NonAGSegmenter.supported_algos()
+
+
+def create_nonag(algo, args):
+    algo_dir = os.path.join(args.output_dir, algo)
+    return NonAGSegmenter(algo, args.tagsfile, algo_dir, args.cds_dir)
+
+
+def create_ag(algo, args):
+    # special case of AG median: run N jobs
+    if args.ag_median > 1:
+        jobs = []
+        for i in range(1, args.ag_median+1):
+            algo_dir = os.path.join(args.output_dir, algo + '_' + str(i))
+            jobs.append(AGSegmenter(algo, args.tagsfile, algo_dir,
+                                    args.cds_dir, args.ag_debug))
+        return jobs
+    else:  # only one job
+        algo_dir = os.path.join(args.output_dir, algo)
+        return AGSegmenter(algo, args.tagsfile, algo_dir,
+                           args.cds_dir, args.ag_debug)
+
+
+def create_jobs(args):
+    """Return a list of initialized WordSegmenter instances"""
+    if args.algos == 'all':
+        args.algos = supported_algos()
+
+    jobs = []
+    for algo in args.algos:
+        j = create_ag(algo, args) if 'AG' in algo else create_nonag(algo, args)
+        if isinstance(j, list):
+            jobs += j
+        else:
+            jobs.append(j)
+    return jobs
+
 
 
 def clusterizable():
@@ -49,12 +150,12 @@ def write_command(command, bin='bash'):
     return tfile
 
 
-def run_command(algo, algo_dir, command, clusterize=False, basename=''):
+def run_job(job, clusterize=False, basename=''):
     """Call the command as a subprocess or schedule it in the cluster"""
-    ofile = os.path.join(algo_dir, 'log')
+    ofile = os.path.join(job.output_dir, 'log')
     if clusterize and CLUSTERIZABLE:
-        fcommand = write_command(command)
-        jobname = algo if basename == '' else basename + '_' + algo
+        fcommand = write_command(job.command)
+        jobname = job.algo if basename == '' else basename + '_' + job.algo
         print('name = {}'.format(jobname))
         command = ('qsub -j y -V -cwd -o {} -N {} {}'
                    .format(ofile, jobname, fcommand))
@@ -94,28 +195,6 @@ def write_gold_file(tags, gold):
             out.write(goldline + '\n')
 
 
-def algo_dict(algos, directory=CDSPATH, verbose=False):
-    """Returns a map of `algos` to *.sh scripts in `directory`/pipeline"""
-    # get the list of algo bash scripts
-    pipeline = os.path.join(directory, 'pipeline')
-    scripts = [f for f in os.listdir(pipeline) if '.sh' in f]
-
-    # check for correct algos
-    if 'all' in algos:
-        algos = ALGO_CHOICES
-    else:
-        for algo in algos:
-            assert algo in ALGO_CHOICES, 'unknown algo {}'.format(algo)
-
-    # fill the resulting dict
-    res = {}
-    for algo in algos:
-        algo_id = 'AG' if 'AG' in algo else algo
-        script = [s for s in scripts if algo_id in s][0]
-        res[algo] = os.path.join(pipeline, script)
-    return res
-
-
 def parse_args():
     parser = argparse.ArgumentParser(
         description='This script is a segmentation pipeline binding a '
@@ -141,7 +220,8 @@ def parse_args():
 
     g1.add_argument(
         '--cds-dir', type=str, default=CDSPATH,
-        help='algoComp directory in CDSwordSeg. default is {}'.format(CDSPATH))
+        help='algoComp/pipeline directory in CDSwordSeg. '
+        'default is {}'.format(CDSPATH))
 
     g1.add_argument(
         '-d', '--output-dir', type=str,
@@ -152,10 +232,10 @@ def parse_args():
     g2 = parser.add_argument_group('Computation parameters')
     g2.add_argument(
         '-a', '--algorithms', type=str, nargs='+', default=['dibs'],
-        choices=ALGO_CHOICES + ['all'],
+        choices=supported_algos() + ['all'],
         metavar='ALGO',
         help='choose algorithms in {}, or choose "all", '
-        'default is to compute dibs.'.format(ALGO_CHOICES))
+        'default is to compute dibs.'.format(supported_algos()))
 
     g2.add_argument(
         '-c', '--clusterize', action='store_true',
@@ -219,61 +299,15 @@ def main():
         assert os.path.isfile(args.goldfile), \
             'invalid gold file {}'.format(args.goldfile)
 
-
-
-    # mapping from algo name to script absolute path
-    scripts = algo_dict(args.algorithms, args.cds_dir, args.verbose)
-
-    # mapping from algo name to pid
-    jobs = {}
-
-    # The main loop running all algos on the tags data
-    for algo in scripts.keys():
-        # create a subdirectory to store intermediate files. Be
-        # conservative and do not overwrite any data in the result
-        # directory
-        algo_dir = os.path.join(args.output_dir, algo)
-        assert not os.path.isdir(algo_dir), \
-            'result directory already exists: {}'.format(algo_dir)
-        os.mkdir(algo_dir)
-
-        # copy tags ang gold files in it (this is required by the
-        # underlying scripts)
-        shutil.copy(args.tagsfile, os.path.join(algo_dir, 'tags.txt'))
-        shutil.copy(args.goldfile, os.path.join(algo_dir, 'gold.txt'))
-
-        # generate the bash command to call
-        command = ' '.join([scripts[algo],
-                            args.cds_dir + '/',  # ABSPATH
-                            algo_dir + '/'])     # RESFOLDER
-
-        # special case of AG algos: specify grammar and debug mode
-        if 'AG' in algo:
-            command += ' ' + algo
-            if args.ag_debug:
-                command += ' debug'
-
-        # special case of AG median: run N jobs
-        if 'AG' in algo and args.ag_median > 1:
-            commands = [command] * args.ag_median
-
-            for i, c in enumerate(commands, 1):  # modify RESFOLDER
-                c = c.split()
-                c[3] = c[3][:-1] + '_' + str(i) + '/'
-                print(c[3])
-                print(c)
-                # # call the script and get back the pid
-                # jobs[algo] = run_command(
-                #     algo, algo_dir, c, args.clusterize, args.jobs_basename)
-        else:
-            # call the script and get back the pid
-            print(command)
-            # jobs[algo] = run_command(
-            #     algo, algo_dir, command, args.clusterize, args.jobs_basename)
+    # create and run the segmentation jobs
+    jobs = create_jobs(args)
+    pids = {}
+    for job in jobs:
+        pids[job] = run_job(job, args.clusterize, args.jobs_basename)
 
     # wait all the jobs terminate
     if args.sync:
-        wait_jobs(jobs, args.clusterize)
+        wait_jobs(pids, args.clusterize)
     else:
         print('launched jobs are')
         for k, v in jobs.iteritems():
