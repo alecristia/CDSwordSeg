@@ -47,8 +47,8 @@
     Added a TODO flag
 - [ ] Smart clusterization of crossevaluation
   - [ ] parallelize dmcmc
-** Winnipeg recipe [2/3]
+** Winnipeg recipe [3/3]
 - [X] debug wordmatch in full_WL/4_special_step.sh
 - [X] update step 5 and 6
-- [ ] rerun all pipeline on oberon
+- [X] rerun all pipeline on oberon
 ** Childes recipe
