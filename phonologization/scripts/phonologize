@@ -49,8 +49,19 @@ Copyright 2015, 2016 Mathieu Bernard.
 """
 
 import argparse
+import shlex
+import subprocess
 import sys
-from phonologizer import phonologize, default_script, festival_is_here
+from phonologizer import phonologize, default_script
+
+
+def festival_is_here():
+    """Return True is the festival binary is in the PATH"""
+    try:
+        subprocess.check_output(shlex.split('which festival'))
+        return True
+    except:
+        return False
 
 
 def parse_args():

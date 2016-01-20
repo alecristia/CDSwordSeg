@@ -18,15 +18,6 @@ def default_script():
                         'template.scm')
 
 
-def festival_is_here():
-    """Return True is the festival binary is in the PATH"""
-    try:
-        subprocess.check_output(shlex.split('which festival'))
-        return True
-    except:
-        return False
-
-
 def is_double_quoted(line):
     """Return True is the string *line* begin and end whith double quotes."""
     if len(line) < 3:

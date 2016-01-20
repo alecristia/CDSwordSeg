@@ -31,11 +31,11 @@ then
   wait
 
 else
-    # TODO need to test this
     echo "scheduling jobs to the cluster"
 
     count=0
     njobs=`wc -l $1 | cut -f1 -d' '`
+    temp=`mktemp -d ./eraseme-XXXX`
     while [[ $njobs -gt $count ]]
     do
         let count+=1
@@ -46,8 +46,15 @@ else
         else
             opt=`sed ${count}!d $2`
         fi
-        echo $job | qsub $opt
+        echo $job | qsub $opt | grep "^Your job " | cut -d' ' -f3 >> $temp/pids
     done
+
+    echo "wait for all jobs terminated..."
+    pids=`cat $temp/pids | tr '\n' ',' | sed 's/,$//'`
+    echo 'exit' | qsub -V -cwd -j y -sync yes \
+                       -hold_jid $pids \
+                       -N wait -o /dev/null > /dev/null
+
 fi
 
 exit
