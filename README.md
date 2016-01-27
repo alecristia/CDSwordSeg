@@ -2,6 +2,8 @@
 Instructions for text analyses
 ==============================
 
+Copyright (C) 2015, 2016 by Alex Cristia, Xuan Nga Cao, Mathieu Bernard
+
 For questions contact Alex Cristia alecristia@gmail.com
 
 Overview
@@ -25,6 +27,17 @@ Our current pipeline involves three steps:
    automatically-determined word boundaries, as well as lists of the
    most frequent words, and all this based on a selection of
    algorithms (chosen by user).
+
+Recipes
+-------
+
+These three steps are packaged together in corpora dependant
+recipes. Actually the project support 3 corpora including child
+directed speech:
+
+- bernstein
+- Winnipeg
+- childes
 
 
 STEP 1: Database creation
@@ -160,6 +173,9 @@ list produced by `wrapper_clean_many_files.sh` in Step 1.
 
 **NOTE** this wrapper is actually not finished; it would be the version
 that works with the multicorpora that Xuan Nga has been analyzing...
+
+**NOTE** English phonologization depends on the *festival* open source
+  program. See http://www.cstr.ed.ac.uk/projects/festival/
 
 
 STEP 3: Segmentation

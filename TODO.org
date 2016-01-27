@@ -1,13 +1,6 @@
-* general [0/5]
-- [ ] update the README to describe the recipes
-- [ ] list software dependancies in the README
-- [ ] properly copyright the project (Alex, Xuan Nga, Mathieu)
-- [ ] properly licencing the project in GPL
-  Because we internally use festival (GPL licenced) as phonologizer
-  backend, we must licence the whole project in GPL. Ensure this licence
-  is OK for all dependancies.
-- [ ] reorganize the project structure
-  data_preparation, segmentation and recipes top-level directories
+* general [2/2]
+- [X] update the README to describe the recipes
+- [X] properly copyright the project (Alex, Xuan Nga, Mathieu)
 * data preparation [1/1]
 - [X] check for festival binary at phonologizer startup
 * algocomp [3/4]
