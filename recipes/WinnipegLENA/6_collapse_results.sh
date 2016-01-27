@@ -5,19 +5,28 @@
 # Copyright (C) 2016 by Alex Cristia, Mathieu Bernard
 
 
-# Must exists an dcontains the results (works also on partial results)
-# of step 5
+# Must exists and contains the results (or partial results) of step 5
 data_dir=${1:-./results}
 
 
-header="version algo token_f-score token_precision token_recall \
+header="version segmentation matching algo \
+        token_f-score token_precision token_recall \
         boundary_f-score boundary_precision boundary_recall"
 header=`echo $header | tr -s ' ' | tr ' ' '\t'`
 echo $header > $data_dir/results.txt
 
 for input_dir in $data_dir/WL_*
 do
-    version=`basename $input_dir | sed 's/WL_//'`
+    corpus=`basename $input_dir | sed 's/WL_//'`
+    version=`echo $corpus | cut -d'_' -f 1`
+    segmentation=`echo $corpus | cut -d'_' -f 2`
+    matching=`echo ${corpus: -2}`
+    case $matching in
+        'LM' | 'WM' ) # word or line matching
+        ;;
+        * )
+            matching='NM' # non matched
+    esac
 
     # Populate the cfgold.txt file for each version
     echo $header > $input_dir/cfgold.txt
@@ -26,10 +35,10 @@ do
     do
         # bring together the results
         algo_dir=`dirname $algo`
-        algo_name=`basename $algo_dir`
+        algo_name=`basename $algo_dir | sed 's/3sf/3/'`
 
         line=`grep '[0-9]' $algo`
-        echo $version $algo_name $line |
+        echo $version $segmentation $matching $algo_name $line  |
             tr -s ' ' | tr ' ' '\t' >> $input_dir/cfgold.txt
     done
 

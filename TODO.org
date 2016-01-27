@@ -1,5 +1,4 @@
-* TODO
-** general [0/5]
+* general [0/5]
 - [ ] update the README to describe the recipes
 - [ ] list software dependancies in the README
 - [ ] properly copyright the project (Alex, Xuan Nga, Mathieu)
@@ -9,9 +8,9 @@
   is OK for all dependancies.
 - [ ] reorganize the project structure
   data_preparation, segmentation and recipes top-level directories
-** data preparation [1/1]
+* data preparation [1/1]
 - [X] check for festival binary at phonologizer startup
-** algocomp [3/4]
+* algocomp [3/4]
 - [X] troubleshoot oberon on step 3 segmentation
   - dibs OK though odd that performance for dibs is 1pc lower with the
     new phon set, no?? maybe forget, since we will rerun everything
@@ -43,12 +42,14 @@
   - [X] update AG scripts to run them 5 times and take the median
     - [X] add a --ag-median N option in segment.py
     - [X] update AG pipeline
-  - [X] parralelize in do_AG_english ?
+  - [X] parallelize in do_AG_english ?
     Added a TODO flag
-- [ ] Smart clusterization of crossevaluation
+- [ ] Smart clusterization of crossevaluation [0/2]
   - [ ] parallelize dmcmc
-** Winnipeg recipe [2/3]
+  - [ ] parallelize puddle
+* Winnipeg recipe [3/4]
 - [X] debug wordmatch in full_WL/4_special_step.sh
 - [X] update step 5 and 6
-- [ ] rerun all pipeline on oberon
-** Childes recipe
+- [X] rerun all pipeline on oberon
+- [ ] collapse results when computation are done
+* Childes recipe

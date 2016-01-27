@@ -51,6 +51,7 @@ else
 
     echo "wait for all jobs terminated..."
     pids=`cat $temp/pids | tr '\n' ',' | sed 's/,$//'`
+    rm -rf $temp
     echo 'exit' | qsub -V -cwd -j y -sync yes \
                        -hold_jid $pids \
                        -N wait -o /dev/null > /dev/null
