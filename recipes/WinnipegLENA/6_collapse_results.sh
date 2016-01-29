@@ -28,6 +28,8 @@ do
             matching='NM' # non matched
     esac
 
+    echo -n Collapsing $version $segmentation $matching...
+
     # Populate the cfgold.txt file for each version
     echo $header > $input_dir/cfgold.txt
 
@@ -43,6 +45,8 @@ do
     done
 
     sed 1d $input_dir/cfgold.txt >> $data_dir/results.txt
+    echo
+    echo Writed $data_dir/results.txt
 done
 
 exit
