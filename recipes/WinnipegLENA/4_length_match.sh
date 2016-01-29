@@ -55,7 +55,10 @@ do
             $line_matcher $in $ads_dir/$file.txt\
                           > $output_dir/WL_${cds}_${seg}_LM/$file.txt || exit 1
 
-            $word_matcher $in $ads_dir/$file.txt\
+            # TODO here is a little dirty fix, because word matching
+            # of KDS_HS add an empty line at the end of gold file ->
+            # suppress any empty line.
+            $word_matcher $in $ads_dir/$file.txt | sed '/^$/d'\
                           > $output_dir/WL_${cds}_${seg}_WM/$file.txt || exit 1
         done
     done
