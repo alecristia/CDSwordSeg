@@ -43,6 +43,7 @@ def join_if_singles(tags, gold, lines=[0]):
         updated_lines.append(m)
         assert m < len(tags), \
             'want to read line {} of {}'.format(m, len(tags)-1)
+        print 'line {} have {} utts'.format(m, len(tags[m]))
         if len(tags[m]) == 1:
             print 'dmcmc bugfix: joined lines {} and {}'.format(n, n+1)
             join(tags, m)

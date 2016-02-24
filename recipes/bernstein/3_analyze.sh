@@ -5,15 +5,15 @@
 # Mathieu Bernard adapted it for the bernstein recipe
 
 #########VARIABLES###########################
-PHONFOLDER=${1:-./phono}
-RESFOLDER=${2:-${PHONFOLDER/phono/results}}
+DATAFOLDER=${1:-./data/matched}
+RESFOLDER=${2:-./results}
 PIPELINE=${3:-../../algoComp/segment.py}
 #########
 
 mkdir -p $RESFOLDER
 
 # Run all algos in the cluster, once per version
-for VERSION in $PHONFOLDER/*
+for VERSION in $DATAFOLDER/*
 do
     if [ -d $VERSION ]
     then
@@ -21,9 +21,10 @@ do
         echo Clusterizing $VNAME
         $PIPELINE --goldfile $VERSION/gold.txt \
                   --output-dir $RESFOLDER/$VNAME \
-                  --algorithms dmcmc \
+                  --algorithms all \
+                  --ag-median 5 \
                   --clusterize \
                   --jobs-basename $VNAME \
-                  $VERSION/tags.txt
+                  $VERSION/tags.txt || exit 1
     fi
 done

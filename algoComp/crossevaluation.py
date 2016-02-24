@@ -26,7 +26,7 @@ See test/crossevaluation-exemple.sh for a working exemple.
 Exit 0 on normal operation. Exit 1 and print an error message on
 stdout if anything goes wrong.
 
-Copyright 2015 Mathieu Bernard
+Copyright 2015, 2016 Mathieu Bernard
 
 """
 
@@ -137,11 +137,20 @@ def main_fold():
 
     # compute fold boundaries
     boundaries = fold_boundaries(lines, args.nfolds)
+    # if args.verbose:
+    #     print('Folding boundary lines are:')
+    #     for b in boundaries:
+    #         print(u'{} : {}'.format(b, lines[b].encode('utf8')))
+    #           #.format(boundaries))
 
     # dmcmc fix if required
     if args.dmcmc_bugfix:
-        sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                     'algos/phillips-pearl2014'))
+        if args.verbose:
+            print('Fixing dmcmc issue')
+
+        sys.path.append(
+            os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                         'algos/phillips-pearl2014'))
         import bugfix
         b = bugfix.bugfix(args.file, args.dmcmc_bugfix, lines=boundaries)
         if b != boundaries:

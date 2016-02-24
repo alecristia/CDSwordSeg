@@ -53,6 +53,8 @@ $CROSSEVAL fold $RESFOLDER/input.txt \
            --dmcmc-bugfix $RESFOLDER/gold.txt \
            --verbose
 
+exit
+
 # TODO parallelize this loop
 for FOLD in $RESFOLDER/input-fold*.txt
 do
@@ -66,7 +68,7 @@ do
     output_raw=${output/output/output_raw}
 
     # running the algo
-    $DPSEG -o $output_raw --data-file $input > $log && echo
+    $DPSEG -o $output_raw --data-file $input > $log && echo || exit 1
     sed -e 's/ $//g' -e '/^$/d' $output_raw  > $output
 done
 
