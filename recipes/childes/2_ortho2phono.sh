@@ -1,50 +1,53 @@
 #!/usr/bin/env bash
+#
+# phonologize ortholines files from the childes database : convert
+# each ortholines.txt in the data folder in tags.txt and gold.txt
 
-#########VARIABLES
-ORTFILE=${1:-./data/ortholines-clean.txt}
-RESFOLDER=${2:-./data}
-ROOT=${3:-../..}
-#########
+#input directory where to look for ortholines
+src=${1:-./data}
 
-PHONOLOGIZE=$ROOT/phonologization/scripts/phonologize
+# root directory of the CDSwordSeg project
+root=${3:-../..}
 
-mkdir -p $RESFOLDER
+# phonologization script
+phonologize=$root/phonologization/scripts/phonologize
 
-echo "phonologizing $ORTFILE in $RESFOLDER/tags.txt"
 
-# ortholines is huge (260k lines, split it in 1k lines parts and
-# phonologize them in parallel)
-ortholines=$ORTFILE
-echo -n Splitting $ortholines...
+
+# we need a temporary directory (to store pids)
 temp=`mktemp -d ./eraseme-XXXX`
-splited=$temp/ortho-
-split -a 4 -d $ortholines $splited
-echo
 
-for ortho in $splited*
+echo "phonologizing ortholines files in parallel..."
+for file in `find $src -name ortholines.txt -type f`
 do
-    PART=`echo $ortho | sed 's/^.*-//'`
-    echo -n "Phonologizing part $PART in a new job..."
-    COMMAND="$PHONOLOGIZE $ortho ${ortho/ortho/tags}"
-    JNAME=phonol-$PART
-    JLOG=$temp/phonol-$PART.log
-    $ROOT/algoComp/clusterize.sh "$COMMAND" \
-                                 "-V -cwd -j y -o $JLOG -N $JNAME" \
-                                 > $ortho.pid
-    grep "^Your job " $ortho.pid | cut -d' ' -f3 >> $temp/pids
-    echo -n "pid is "
-    tail -1 $temp/pids
+    key=`basename $(dirname $file)`
+    name=`basename $(dirname $(dirname $file))`_$key
+
+    tags=${file/ortholines/tags}
+    # echo -n "Phonologizing $name in a new job..."
+    command="$phonologize $file $tags"
+    jname=phonol-$name
+    jlog=$temp/phonol-$name.log
+    $root/algoComp/clusterize.sh "$command" \
+                                 " -V -cwd -j y -o $jlog -N $jname" \
+                                 > $temp/$name.pid
+    grep "^Your job " $temp/$name.pid | cut -d' ' -f3 >> $temp/pids
+    #echo -n " pid is "
+    #    tail -1 $temp/pids
 done
 
-# concat the 1k lines parts into one big output file
-$ROOT/algoComp/clusterize_waitfor.sh $temp/pids
-cat ${splited/ortho/tags}* > $RESFOLDER/tags.txt
+$root/algoComp/clusterize_waitfor.sh $temp/pids
 rm -rf $temp
 
-echo "creating gold versions $RESFOLDER/gold.txt"
-sed 's/;esyll//g' $RESFOLDER/tags.txt |
-    sed 's/ //g' |
-    sed 's/;eword/ /g' |
-    sed 's/ $//g' | tr -s ' ' > $RESFOLDER/gold.txt
+echo -n "creating gold files..."
+for file in `find $src -name tags.txt -type f`
+do
+    sed 's/;esyll//g' $file |
+        sed 's/ //g' |
+        sed 's/;eword/ /g' |
+        sed 's/ $//g' | tr -s ' ' > ${file/tags/gold}
+done
+
+echo " done"
 
 exit
