@@ -64,6 +64,8 @@ class NonAGSegmenter(object):
              os.path.abspath(os.path.join(script_dir, '..')) + '/',  # ABSPATH
              self.output_dir + '/'])  # RESFOLDER
 
+        self.ncores = self._ncores()
+
     def __repr__(self):
         """Return a string representation"""
         return ' -> '.join([self.algo, self.output_dir])
@@ -72,6 +74,13 @@ class NonAGSegmenter(object):
     def supported_algos():
         """Algorithms supported by this class"""
         return ['dibs', 'dmcmc', 'ngrams', 'puddle', 'TPs']
+
+
+    def _ncores(self):
+        try:
+            return {'dmcmc': 5}[self.algo]  # 5-fold xeval
+        except KeyError:
+            return 1
 
     def _script(self, script_dir):
         """Return the absolute path to the script behind self.algo"""
@@ -86,6 +95,7 @@ class AGSegmenter(NonAGSegmenter):
         self.command += ' ' + self.algo
         if debug:
             self.command += ' debug'
+        self.ncores = 8
 
     @staticmethod
     def supported_algos():
@@ -162,8 +172,10 @@ def run_job(job, clusterize=False, basename=''):
         fcommand = write_command(job.command)
         jobname = job.algo if basename == '' else basename + '_' + job.algo
         print('name = {}'.format(jobname))
-        command = ('qsub -j y -V -cwd -o {} -N {} {}'
-                   .format(ofile, jobname, fcommand))
+        ncores = ('-pe openmpi {}'.format(job.ncores)
+                  if job.ncores != 1 else '')
+        command = ('qsub {} -j y -V -cwd -o {} -N {} {}'
+                   .format(ncores, ofile, jobname, fcommand))
         res = subprocess.check_output(shlex.split(command))
         return res.split()[2]  # job pid on the cluster
     else:
@@ -324,3 +336,4 @@ if __name__ == '__main__':
     except Exception as err:
         print >> sys.stderr, 'fatal error in {} : {}'.format(__file__, err)
         exit(1)
+    #    main()

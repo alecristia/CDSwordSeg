@@ -53,24 +53,25 @@ $CROSSEVAL fold $RESFOLDER/input.txt \
            --dmcmc-bugfix $RESFOLDER/gold.txt \
            --verbose
 
-exit
-
 # TODO parallelize this loop
 for FOLD in $RESFOLDER/input-fold*.txt
 do
-    N=`basename $FOLD | sed 's/.*fold//' | sed 's/\.txt//'`
-    echo -n Processing fold $N
+    (
+        N=`basename $FOLD | sed 's/.*fold//' | sed 's/\.txt//'`;
+        echo -n Processing fold $N;
 
-    # input, log and output files for the current fold
-    input=$FOLD
-    log=${input/input/log}
-    output=${FOLD/input/output}
-    output_raw=${output/output/output_raw}
+        # input, log and output files for the current fold
+        input=$FOLD;
+        log=${input/input/log};
+        output=${FOLD/input/output};
+        output_raw=${output/output/output_raw};
 
-    # running the algo
-    $DPSEG -o $output_raw --data-file $input > $log && echo || exit 1
-    sed -e 's/ $//g' -e '/^$/d' $output_raw  > $output
+        # running the algo
+        $DPSEG -o $output_raw --data-file $input > $log && echo || exit 1;
+        sed -e 's/ $//g' -e '/^$/d' $output_raw  > $output
+    ) &
 done
+wait
 
 echo Unfolding to $RESFOLDER/cfgold.txt
 $CROSSEVAL unfold $RESFOLDER/output-fold*.txt \
