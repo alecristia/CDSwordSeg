@@ -41,3 +41,4 @@ recipes/bernstein/test_dmcmc*
 recipes/bernstein/test/
 recipes/bernstein/data/
 /recipes/bernstein/core.16781
+/recipes/childes/cron.log

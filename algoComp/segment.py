@@ -313,9 +313,10 @@ def main():
 
     # create the output dir if needed
     args.output_dir = os.path.abspath(args.output_dir)
-    assert not os.path.isdir(args.output_dir), \
-        'result directory already exists: {}'.format(args.output_dir)
-    os.mkdir(args.output_dir)
+    # assert not os.path.isdir(args.output_dir), \
+    #     'result directory already exists: {}'.format(args.output_dir)
+    if not os.path.isdir(args.output_dir):
+        os.mkdir(args.output_dir)
 
     # compute the gold file if not given
     if args.goldfile is None:
