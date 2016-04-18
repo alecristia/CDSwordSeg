@@ -165,9 +165,18 @@ def write_command(command, bin='bash'):
     return tfile
 
 
-def run_job(job, clusterize=False, basename=''):
-    """Call the command as a subprocess or schedule it in the cluster"""
+def run_job(job, clusterize=False, basename='', log2file=True):
+    """Call the command as a subprocess or schedule it in the cluster
+
+    The log2file option can be set to False to log to stdout instead,
+    this option only works when running jobs locally (i.e. with
+    clusterize is False).
+
+    basename is the prefix of the job name when using qsub.
+
+    """
     ofile = os.path.join(job.output_dir, 'log')
+
     if clusterize and clusterizable():
         fcommand = write_command(job.command)
         jobname = job.algo if basename == '' else basename + '_' + job.algo
@@ -179,9 +188,11 @@ def run_job(job, clusterize=False, basename=''):
         res = subprocess.check_output(shlex.split(command))
         return res.split()[2]  # job pid on the cluster
     else:
-        return subprocess.Popen(shlex.split(job.command),
-                                stdout=open(ofile, 'a'),
-                                stderr=subprocess.STDOUT)
+        ofile = (open(ofile, 'a') if log2file else sys.stdout)
+        return subprocess.Popen(
+            shlex.split(job.command),
+            stdout=ofile,
+            stderr=subprocess.STDOUT)
 
 
 def wait_jobs(pids, clusterize):
@@ -220,6 +231,10 @@ def parse_args():
         help='display some log during execution')
 
     parser.add_argument(
+        '--log-to-stdout', action='store_true', help=
+        """output log messages to stdout (by default log to OUTPUT_DIR/log)""")
+
+    parser.add_argument(
         'tagsfile', type=str,  metavar='TAGSFILE',
         help='input tag file containing the utterances to segment in words. '
         'One phonologized utterance per line, with ;esyll and ;eword '
@@ -241,6 +256,7 @@ def parse_args():
     g1.add_argument(
         '-d', '--output-dir', type=str,
         default=os.path.curdir,
+        metavar='OUTPUT_DIR',
         help='directory to write output files. Default is to write in `.` , '
         "each selected algo create it's own subdirectory in OUTPUT_DIR")
 
@@ -318,7 +334,8 @@ def main():
     jobs = create_jobs(args)
     pids = {}
     for job in jobs:
-        pids[job] = run_job(job, args.clusterize, args.jobs_basename)
+        pids[job] = run_job(job, args.clusterize, args.jobs_basename,
+                            log2file=not args.log_to_stdout)
 
     if args.verbose:
         print('launched jobs are')
@@ -331,9 +348,9 @@ def main():
 
 
 if __name__ == '__main__':
+    #    main()
     try:
         main()
     except Exception as err:
         print >> sys.stderr, 'fatal error in {} : {}'.format(__file__, err)
-        exit(1)
-    #    main()
+        sys.exit(1)

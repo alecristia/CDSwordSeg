@@ -5,21 +5,28 @@
 #
 # Mathieu Bernard
 
-#########VARIABLES###########################
-RESFOLDER=${1:-./results}
-#########
 
-HEADER="algo token_f-score token_precision token_recall \
+resfolder=${1:-./results}
+
+
+header="corpus speaker algo token_f-score token_precision token_recall \
         boundary_f-score boundary_precision boundary_recall"
-HEADER=`echo $HEADER | tr -s ' ' | tr ' ' '\t'`
-echo $HEADER > $RESFOLDER/results.txt
+header=$(echo $header | tr -s ' ' | tr ' ' '\t')
+echo $header > $resfolder/results.txt
 
-for ALGO in `find $RESFOLDER -name '*cfgold-res.txt' | sort`
+for algo in $(find $resfolder -name '*cfgold-res.txt' | sort)
 do
+    corpus=$(echo $algo | cut -d/ -f3)
+    ## need to adjust corpus length to align the 1st column
+    #len=${#corpus}
+    #[ $len -lt 10 ] && add=$(( 10 - $len )) || add=0
+    #corpus=$(perl -E "say ' ' x $add")$corpus
+    speaker=$(echo $algo | cut -d/ -f4)
+
     # bring together the results
-    ADIR=`dirname $ALGO`
-    ANAME=`basename $ADIR`
-    LINE=`grep '[0-9]' $ALGO`
-    echo $ANAME $LINE |
-        tr -s ' ' | tr ' ' '\t' >> $RESFOLDER/results.txt
+    adir=$(dirname $algo)
+    aname=$(basename $adir | sed 's/3sf/3/' | tr '_' '.')
+    line=$(grep '[0-9]' $algo)
+    echo $corpus $speaker $aname $line |
+        tr -s ' ' | tr ' ' '\t' >> $resfolder/results.txt
 done
