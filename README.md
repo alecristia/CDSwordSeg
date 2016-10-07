@@ -32,12 +32,26 @@ Recipes
 -------
 
 These three steps are packaged together in corpora dependant
-recipes. Actually the project support 3 corpora including child
-directed speech:
+recipes. Examples of three recipes can be found in the recipes 
+folder; these are corpora that include child-directed speech and 
+sometimes also adult-directed speech:
 
-- bernstein
-- Winnipeg
-- childes
+- bernstein: based on only one corpus, that of Nan Bernstein
+- WinnipegLENA: based on a corpus that is not CHAT formatted (includes "translation" to cha)
+- childes: based on a selection of English-spoken CHILDES corpora
+
+To build your own recipe, we suggest you look at those recipes. 
+You can also do it your own way from the instructions below.
+
+Case study: Extrapolation to all CHILDES Northern French databases
+with kids under 2yo.
+- Since in this case we want to collapse over several CHILDES corpora, I made a copy of childes and renamed it nfrchildes2yo
+- I see that it's missing step 1 - I find Xuan Nga's wrapper inside database_creation and make a copy in my own folder: 0_clean_many_files.sh
+- 
+... not done!! To do:
+- add Camila's bit to select adult speakers (remember to add playmate and Target_Child to the exclusion list)
+- then improve cha2sel
+add coding issues to troubleshooting below
 
 
 STEP 1: Database creation
