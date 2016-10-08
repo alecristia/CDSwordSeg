@@ -1,0 +1,426 @@
+@UTF8
+@PID:	11312/c-00015380-1
+@Begin
+@Languages:	eng
+@Participants:	MOT Mother , NAN Nan Investigator , CHI Child
+@ID:	eng|Bernstein|MOT|||||Mother|||
+@ID:	eng|Bernstein|NAN|||||Investigator|||
+@ID:	eng|Bernstein|CHI|1;10.||||Child|||
+@Situation:	second session , maternal interview
+@Comment:	Child utterances are phonemically transcribed using UNIBET
+*NAN:	how old is Lena at this point ?
+%mor:	adv:wh|how adj|old aux|be&3S n:prop|Lena prep|at det|this n|point ?
+*MOT:	she's gonna (.) be two October fifth (.) so (.) twenty two months ?
+%mor:	pro:sub|she~aux|be&3S part|go-PRESP~inf|to aux|be det:num|two
+	n:prop|October n|fifth adv|so det:num|twenty det:num|two n|month-PL
+	?
+*NAN:	she knew a bunch of words in the basic vocabulary book .
+%mor:	pro:sub|she v|know&PAST det|a n|bunch prep|of n|word-PL prep|in
+	det|the adj|basic n|vocabulary n|book .
+*NAN:	she knew about things like spoons and a cup (.) does she name
+	things around the breakfast table ?
+%mor:	pro:sub|she v|know&PAST prep|about n|thing-PL prep|like n|spoon-PL
+	coord|and det|a n|cup v|do&3S pro:sub|she v|name n|thing-PL
+	prep|around det|the n|breakfast n|table ?
+*MOT:	no .
+%mor:	co|no .
+*MOT:	but .
+%mor:	conj|but .
+*MOT:	they're named .
+%mor:	pro:sub|they~aux|be&PRES part|name-PASTP .
+*NAN:	they're named for her ?
+%mor:	pro:sub|they~aux|be&PRES part|name-PASTP prep|for pro:obj|her ?
+*MOT:	(.) 0 .
+%act:	nods
+*NAN:	what are the sorts of things you name for her ?
+%mor:	adv|what aux|be&PRES det|the n|sort-PL prep|of n|thing-PL pro|you
+	v|name prep|for pro:obj|her ?
+*MOT:	well , it's not conscious .
+%mor:	co|well cm|cm pro|it~cop|be&3S neg|not adj|conscious .
+*MOT:	it's saying , +"/.
+%mor:	pro|it~aux|be&3S part|say-PRESP cm|cm +"/.
+*MOT:	+" Maura , get the bowls for the cereal .
+%mor:	n:prop|Maura cm|cm v|get det|the n|bowl-PL prep|for det|the
+	n|cereal .
+*MOT:	+" we need the spoon .
+%mor:	pro:sub|we v|need det|the n|spoon .
+*MOT:	+" where's your napkin ?
+%mor:	rel|where~aux|be&3S pro:poss:det|your n|napkin ?
+*MOT:	+" does anybody need more juice ?
+%mor:	mod|do&3S pro:indef|anybody v|need qn|more n|juice ?
+*NAN:	around the table (.) you wouldn't say , for instance , +"/.
+%mor:	prep|around det|the n|table pro|you mod|will&COND~neg|not v|say
+	cm|cm prep|for n|instance cm|cm +"/.
+*NAN:	+" what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*NAN:	+" that's a spoon ?
+%mor:	pro:dem|that~cop|be&3S det|a n|spoon ?
+*MOT:	no .
+%mor:	co|no .
+*NAN:	she does know what a brush is (.) does she use one at home ?
+%mor:	pro:sub|she v|do&3S v|know pro:wh|what det|a n|brush aux|be&3S
+	v|do&3S pro:sub|she n|use pro:indef|one prep|at n|home ?
+*MOT:	last night she did the most extraordinary thing .
+%mor:	adj|last n|night pro:sub|she v|do&PAST det|the qn|most
+	adj|extraordinary n|thing .
+*MOT:	she , &u:m found a comb , (.) and she was combing my hair (.) and
+	then she started to comb her hair (.) and she took this hand , and
+	she gathered her hair (.) behind her (.) and started to comb it into
+	a pony tail .
+%mor:	pro:sub|she cm|cm v|find&PAST det|a n|comb cm|cm coord|and
+	pro:sub|she aux|be&PAST&13S n:gerund|comb-PRESP pro:poss:det|my
+	n|hair coord|and adv:tem|then pro:sub|she v|start-PAST inf|to v|comb
+	pro:poss:det|her n|hair coord|and pro:sub|she v|take&PAST det|this
+	n|hand cm|cm coord|and pro:sub|she v|gather-PAST pro:poss:det|her
+	n|hair prep|behind pro:obj|her coord|and v|start-PAST inf|to v|comb
+	pro|it prep|into det|a n|pony n|tail .
+*MOT:	which I thought was extraordinary !
+%mor:	rel|which pro:sub|I v|think&PAST cop|be&PAST&13S adj|extraordinary
+	!
+*NAN:	she uses a brush usually ?
+%mor:	pro:sub|she v|use-3S det|a n|brush adv|usual&dadj-LY ?
+*NAN:	(.) because she named the brush but not the comb .
+%mor:	conj|because pro:sub|she v|name-PAST det|the n|brush conj|but
+	neg|not det|the n|comb .
+*MOT:	didn't name ?
+%mor:	mod|do&PAST~neg|not v|name ?
+*MOT:	(.) no , I was surprised .
+%mor:	co|no cm|cm pro:sub|I aux|be&PAST&13S part|surprise-PASTP .
+*MOT:	no , she knows comb .
+%mor:	co|no cm|cm pro:sub|she v|know-3S n|comb .
+*MOT:	I would say she knows comb better than brush .
+%mor:	pro:sub|I mod|will&COND v|say pro:sub|she v|know-3S n|comb
+	adj|good&CP prep|than n|brush .
+*MOT:	because that's (.) what she used on the kid's hair .
+%mor:	conj|because pro:dem|that~cop|be&3S pro:wh|what pro:sub|she
+	v|use-PAST prep|on det|the n|kid~poss|s n|hair .
+*NAN:	(.) you kept probing for that and +...
+%mor:	pro|you v|keep&PAST n:gerund|probe-PRESP prep|for pro:dem|that
+	coord|and +...
+*MOT:	she wouldn't say it .
+%mor:	pro:sub|she mod|will&COND~neg|not v|say pro|it .
+*MOT:	no .
+%mor:	co|no .
+*CHI:	xxx .
+*MOT:	you are dressed !
+%mor:	pro|you aux|be&PRES part|dress-PASTP !
+%add:	chi
+*CHI:	0 [=! continues to complain] .
+*MOT:	I'll fix it !
+%mor:	pro:sub|I~mod|will v|fix pro|it !
+%add:	chi
+*NAN:	she has a whole bunch of interesting phone routines .
+%mor:	pro:sub|she v|have&3S det|a n|whole n|bunch prep|of
+	n:gerund|interest-PRESP n|phone n|routine-PL .
+*NAN:	you say +"/.
+%mor:	pro|you v|say +"/.
+*NAN:	+" say hello , hello .
+%mor:	v|say n|hello cm|cm n|hello .
+*NAN:	Say +"/.
+%mor:	n:prop|Say +"/.
+*NAN:	+" how are you ?
+%mor:	adv:wh|how aux|be&PRES pro|you ?
+*NAN:	you do that with her ?
+%mor:	pro|you v|do pro:dem|that prep|with pro:obj|her ?
+*MOT:	yeah .
+%mor:	co|yeah .
+*NAN:	she repeated one of them +...
+%mor:	pro:sub|she v|repeat-PAST det:num|one prep|of pro:obj|them +...
+%act:	gropes through notes
+*MOT:	+" how are you , I am fine ?
+%mor:	adv:wh|how aux|be&PRES pro|you cm|cm pro:sub|I aux|be&1S adv|fine ?
+*NAN:	yeah , it sounded like that +...
+%mor:	co|yeah cm|cm pro|it v|sound-PAST prep|like pro:dem|that +...
+*MOT:	yeah , that's what she was (.) I think .
+%mor:	co|yeah cm|cm pro:dem|that~aux|be&3S pro:wh|what pro:sub|she
+	cop|be&PAST&13S pro:sub|I v|think .
+*NAN:	so when she gets on a phone , she actually talks to people .
+%mor:	co|so conj|when pro:sub|she v|get-3S adv|on det|a n|phone cm|cm
+	pro:sub|she adv|actual&dadj-LY v|talk-3S prep|to n|person&PL .
+*MOT:	no , when she gets on a real live phone , she doesn't say a word
+	(.) but (.) when she's playing with a play phone (.) she talks (.)
+	(.) Occasionally , she'll say +"/.
+%mor:	co|no cm|cm adv:wh|when pro:sub|she v|get-3S adv|on det|a adj|real
+	adj|live n|phone cm|cm pro:sub|she mod|do&3S~neg|not v|say det|a
+	n|word conj|but conj|when pro:sub|she~aux|be&3S part|play-PRESP
+	prep|with det|a n|play n|phone pro:sub|she v|talk-3S
+	n:prop|Occasionally cm|cm pro:sub|she~mod|will v|say +"/.
+*MOT:	that's Grammy !
+%mor:	pro:dem|that~aux|be&3S n:prop|Grammy !
+*MOT:	but +...
+%mor:	conj|but +...
+*NAN:	she doesn't just name something; she'll say +"/.
+%mor:	pro:sub|she mod|do&3S~neg|not adj|just n|name pro:indef|something
+	pro:sub|she~mod|will v|say +"/.
+*NAN:	+" that's something .
+%mor:	pro:dem|that~cop|be&3S pro:indef|something .
+*MOT:	yes (.) talks and (.) uses words grammatically .
+%mor:	co|yes v|talk-3S coord|and v|use-3S n|word-PL
+	adv|grammatic&dadj-AL-LY .
+*NAN:	yes , she does .
+%mor:	co|yes cm|cm pro:sub|she v|do&3S .
+*MOT:	+" give it to me , Here , this is yours .
+%mor:	v|give pro|it prep|to pro:obj|me cm|cm n:prop|Here cm|cm
+	pro:dem|this cop|be&3S pro:poss|yours .
+*MOT:	I mean , it's all very grammatical .
+%mor:	pro:sub|I adj|mean cm|cm pro|it~aux|be&3S post|all adv|very
+	adj|grammatic-AL .
+*NAN:	a couple of times , you asked her if she needed help with things .
+%mor:	det|a n|couple prep|of n|time-PL cm|cm pro|you v|ask-PAST
+	pro:obj|her conj|if pro:sub|she v|need-PAST n|help prep|with
+	n|thing-PL .
+*NAN:	does she ask you when she needs help ?
+%mor:	mod|do&3S pro:sub|she v|ask pro|you conj|when pro:sub|she v|need-3S
+	co|help ?
+*NAN:	or do you have_to intuit that she needs help ?
+%mor:	coord|or v|do pro|you mod:aux|have_to v|intuit rel|that pro:sub|she
+	v|need-3S co|help ?
+*MOT:	no , she'll ask .
+%mor:	co|no cm|cm pro:sub|she~mod|will v|ask .
+*NAN:	what will she say ?
+%mor:	pro:wh|what mod|will pro:sub|she v|say ?
+*MOT:	she'll say +"/.
+%mor:	pro:sub|she~mod|will v|say +"/.
+*MOT:	+" Help me .
+%mor:	n:prop|Help pro:obj|me .
+*NAN:	she actually says that ?
+%mor:	pro:sub|she adv|actual&dadj-LY v|say-3S rel|that ?
+*NAN:	(.) I didn't hear her do that +...
+%mor:	pro:sub|I mod|do&PAST~neg|not v|hear pro:obj|her v|do pro:dem|that
+	+...
+*MOT:	well under the circumstances I was right here .
+%mor:	co|well prep|under det|the n|circumstance-PL pro:sub|I
+	cop|be&PAST&13S adv|right adv|here .
+*MOT:	but if she was trying to do something she would come and get me ,
+	and say +"/.
+%mor:	conj|but conj|if pro:sub|she aux|be&PAST&13S part|try-PRESP inf|to
+	v|do pro:indef|something pro:sub|she mod|will&COND v|come coord|and
+	v|get pro:obj|me cm|cm coord|and v|say +"/.
+*MOT:	+" help me .
+%mor:	v|help pro:obj|me .
+*MOT:	+" open the door .
+%mor:	v|open det|the n|door .
+*MOT:	+" I wanna go outside .
+%mor:	pro:sub|I v|want~inf|to v|go adv|outside .
+*MOT:	+" the dolly is stuck .
+%mor:	det|the n|doll-DIM aux|be&3S part|stick&PASTP .
+*MOT:	(.) whatever (.) and she'll tell me as much as she can .
+%mor:	det:wh|whatever conj|and pro:sub|she~mod|will v|tell pro:obj|me
+	prep|as qn|much prep|as pro:sub|she mod|can .
+*NAN:	I was going to ask if she can take her clothes on and off , and I
+	guess I don't have_to !
+%mor:	pro:sub|I aux|be&PAST&13S part|go-PRESP inf|to v|ask conj|if
+	pro:sub|she mod|can v|take pro:poss:det|her n:pt|clothes adv|on
+	coord|and adv|off cm|cm coord|and pro:sub|I v|guess pro:sub|I
+	mod|do~neg|not mod:aux|have_to !
+*MOT:	no , she can !
+%mor:	co|no cm|cm pro:sub|she mod|can !
+*NAN:	are there things with her clothing that are easier for her to take
+	on and off ?
+%mor:	cop|be&PRES adv|there n|thing-PL prep|with pro:poss:det|her
+	n|clothing rel|that cop|be&PRES adj|ease&dn-Y-CP prep|for
+	pro:obj|her inf|to v|take adv|on coord|and prep|off ?
+*MOT:	most of her dresses have buttons in back .
+%mor:	qn|most prep|of pro:poss:det|her n|dress-PL aux|have v|button-3S
+	adv|in adv|back .
+*MOT:	so she can't get those off .
+%mor:	co|so pro:sub|she mod|can~neg|not v|get pro:dem|those adv|off .
+*MOT:	&um , her nightgowns that have buttons in front I have_to to pin
+	closed !
+%mor:	cm|cm pro:poss:det|her n|+n|night+n|gown-PL rel|that v|have
+	n|button-PL prep|in n|front pro:sub|I mod:aux|have_to prep|to n|pin
+	v|close-PAST !
+*MOT:	because she'll take them off .
+%mor:	conj|because pro:sub|she~mod|will v|take pro:obj|them adv|off .
+*MOT:	in the middle of the night .
+%mor:	prep|in det|the n|middle prep|of det|the n|night .
+*MOT:	&um , her underpants she can't get off .
+%mor:	cm|cm pro:obj|her n|underpant-PL pro:sub|she mod|can~neg|not v|get
+	adv|off .
+*NAN:	can she put clothes on a doll ?
+%mor:	mod|can pro:sub|she v|put&ZERO n:pt|clothes adv|on det|a n|doll ?
+*MOT:	they [//] (.) she does , <but she does it> [//] it's not that she's
+	putting a dress on (.) she'll take the dress and drape it over the
+	doll .
+%mor:	pro:sub|she v|do&3S cm|cm pro|it~cop|be&3S neg|not rel|that
+	pro:sub|she~aux|be&3S part|put-PRESP det|a n|dress prep|on
+	pro:sub|she~mod|will v|take det|the n|dress coord|and v|drape pro|it
+	prep|over det|the n|doll .
+*MOT:	or she'll go and she'll get clothes , she'll put on my shoes and
+	becomes Mommy , and gets a bag and goes shopping .
+%mor:	conj|or pro:sub|she~mod|will v|go conj|and pro:sub|she~mod|will
+	aux|get n:pt|clothes cm|cm pro:sub|she~mod|will v|put&ZERO prep|on
+	pro:poss:det|my n|shoe-PL coord|and cop|become-3S n:prop|Mommy cm|cm
+	coord|and v|get-3S det|a n|bag coord|and v|go-3S part|shop-PRESP .
+*NAN:	you asked her at one point what the doll's name was .
+%mor:	pro|you v|ask-PAST pro:obj|her prep|at det:num|one n|point
+	pro:wh|what det|the n|doll~poss|s n|name cop|be&PAST&13S .
+*NAN:	does she name dolls ?
+%mor:	mod|do&3S pro:sub|she v|name n|doll-PL ?
+*MOT:	no [=! probed] Well , (.) Maura does , I've never watched , I don't
+	know whether Lena necessarily knows (.) the names of the particular
+	dolls (.) But she names people !
+%mor:	co|no n:prop|Well cm|cm n:prop|Maura v|do&3S cm|cm
+	pro:sub|I~aux|have adv|never part|watch-PASTP cm|cm pro:sub|I
+	mod|do~neg|not v|know conj|whether n:prop|Lena adv|necessary&dadj-LY
+	v|know-3S det|the n|name-PL prep|of det|the n|particular n|doll-PL
+	n:prop|But pro:sub|she v|name-3S n|person&PL !
+*MOT:	(.) (be)cause Mommy's name is Cassy !
+%mor:	conj|because n:prop|Mommy~poss|s n|name cop|be&3S n:prop|Cassy !
+*MOT:	and if she's Mommy , she calls me Cassy .
+%mor:	conj|and conj|if pro:sub|she~aux|be&3S n:prop|Mommy cm|cm
+	pro:sub|she v|call-3S pro:obj|me n:prop|Cassy .
+*MOT:	isn't that interesting ?
+%mor:	cop|be&3S~neg|not pro:dem|that part|interest-PRESP ?
+*NAN:	when she named the keys , she didn't say keys , she said +...
+%mor:	conj|when pro:sub|she v|name-PAST det|the n|key-PL cm|cm
+	pro:sub|she mod|do&PAST~neg|not v|say n|key-PL cm|cm pro:sub|she
+	v|say&PAST +...
+*MOT:	car keys !
+%mor:	n|car v|key-3S !
+*MOT:	well , those are Mommy's keys , and that's Where she sees them
+	being used , in the car , because we rarely lock the house .
+%mor:	co|well cm|cm pro:dem|those cop|be&PRES n:prop|Mommy~poss|s
+	n|key-PL cm|cm coord|and pro:dem|that~aux|be&3S n:prop|Where
+	pro:sub|she v|see-3S pro:obj|them part|be-PRESP part|use-PASTP cm|cm
+	prep|in det|the n|car cm|cm conj|because pro:sub|we adv|rare&dadj-LY
+	v|lock det|the n|house .
+*NAN:	you were trying to narrow down her definitions of some words (.)
+	she wanted to call the sneakers shoes +...
+%mor:	pro|you aux|be&PAST part|try-PRESP inf|to v|narrow prep|down
+	pro:poss:det|her n|definition-PL prep|of qn|some n|word-PL
+	pro:sub|she v|want-PAST inf|to v|call det|the n|sneaker-PL n|shoe-PL
+	+...
+*MOT:	normally , she calls sneakers sneakers , sandals sandals , slippers
+	, slippers .
+%mor:	adv|normal&dadj-LY cm|cm pro:sub|she v|call-3S n|sneaker-PL
+	n|sneaker-PL cm|cm n|sandal-PL n|sandal-PL cm|cm n|slipper-PL cm|cm
+	n|slipper-PL .
+*NAN:	(.) They're very different things +...
+%mor:	n:prop|They're adv|very adj|different n|thing-PL +...
+*NAN:	do you deliberately try to narrow things down like that ?
+%mor:	mod|do pro|you adv|deliberate&dadj-LY v|try prep|to adj|narrow
+	n|thing-PL adv|down co|like pro:dem|that ?
+*MOT:	I [/] I may .
+%mor:	pro:sub|I mod|may .
+*MOT:	I don't realize it if I'm doing it .
+%mor:	pro:sub|I mod|do~neg|not v|realize pro|it conj|if
+	pro:sub|I~aux|be&1S part|do-PRESP pro|it .
+*MOT:	I mean , I think what I probably do is say “Let's put on your
+	shoes” And after a little while when shoes is a familiar things , I
+	mean , she knows what they're for (.) I say +".
+%mor:	pro:sub|I v|mean cm|cm pro:sub|I v|think pro:wh|what pro:sub|I
+	adv|probable&dadj-LY v|do cop|be&3S co|say bq|bq n:prop|Let~poss|s
+	v|put&ZERO prep|on pro:poss:det|your n|shoe-PL eq|eq n:prop|And
+	prep|after det|a adj|little n|while conj|when n|shoe-PL cop|be&3S
+	det|a adj|familiar n|thing-PL cm|cm pro:sub|I adj|mean cm|cm
+	pro:sub|she v|know-3S pro:wh|what pro:sub|they~aux|be&PRES conj|for
+	pro:sub|I v|say +".
+*MOT:	+" let's put on your sneakers .
+%mor:	v|let~pro:obj|us v|put&ZERO prep|on pro:poss:det|your n|sneaker-PL
+	.
+*MOT:	+" let's put on your sandals .
+%mor:	v|let~pro:obj|us v|put&ZERO prep|on pro:poss:det|your n|sandal-PL .
+*MOT:	+" let's put on your boots .
+%mor:	v|let~pro:obj|us v|put&ZERO prep|on pro:poss:det|your n|boot-PL .
+*MOT:	just , (.) and I don't know what I do .
+%mor:	adv|just cm|cm coord|and pro:sub|I mod|do~neg|not v|know
+	pro:wh|what pro:sub|I v|do .
+*NAN:	you pointed out that one picture was the Cow jumps over the Moon .
+%mor:	pro|you v|point-PAST adv|out rel|that det:num|one n|picture
+	cop|be&PAST&13S det|the n:prop|Cow v|jump-3S prep|over det|the
+	n:prop|Moon .
+*NAN:	do you do nursery rhymes with her ?
+%mor:	mod|do pro|you v|do n|nursery v|rhyme-3S prep|with pro:obj|her ?
+*MOT:	not as much as I should .
+%mor:	neg|not prep|as qn|much prep|as pro:sub|I mod|should .
+*MOT:	(.) Well , I'm just aware of what I did for Maura .
+%mor:	n:prop|Well cm|cm pro:sub|I~aux|be&1S adv|just adj|aware prep|of
+	pro:wh|what pro:sub|I v|do&PAST prep|for n:prop|Maura .
+*MOT:	and less for Jeff (.) and virtually nonexistent for this !
+%mor:	coord|and adj|less prep|for n:prop|Jeff coord|and
+	adv|virtual&dadj-LY non#adj|existent conj|for pro:dem|this !
+*NAN:	does she , know rhymes like that ?
+%mor:	mod|do&3S pro:sub|she cm|cm v|know n|rhyme-PL co|like pro:dem|that
+	?
+*MOT:	I think so .
+%mor:	pro:sub|I v|think co|so .
+*MOT:	she likes that one .
+%mor:	pro:sub|she v|like-3S det|that pro:indef|one .
+*MOT:	she always laughs when she hears about the (.) +"/.
+%mor:	pro:sub|she adv|always n|laugh-PL conj|when pro:sub|she v|hear-3S
+	prep|about det|the +"/.
+*MOT:	+" dish ran away with the spoon .
+%mor:	n|dish v|run&PAST adv|away prep|with det|the n|spoon .
+*MOT:	<she thinks that> [//] she thinks that's funny .
+%mor:	pro:sub|she v|think-3S pro:dem|that~cop|be&3S adj|fun&dn-Y .
+*NAN:	does she know what the moon is ?
+%mor:	mod|do&3S pro:sub|she v|know pro:wh|what det|the n|moon cop|be&3S ?
+*MOT:	<I doubt> [/] I doubt it .
+%mor:	pro:sub|I v|doubt pro|it .
+*MOT:	I don't know .
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*NAN:	www .
+%exp:	asks question about "swimming in the lake" phone conversation
+*MOT:	yes , because the last time we went to my mother's house , we did
+	not go to the lake house and she said +"/.
+%mor:	co|yes cm|cm conj|because det|the adj|last n|time pro:sub|we
+	v|go&PAST prep|to pro:poss:det|my n|mother~poss|s n|house cm|cm
+	pro:sub|we mod|do&PAST neg|not v|go prep|to det|the n|lake n|house
+	coord|and pro:sub|she v|say&PAST +"/.
+*MOT:	+" Where's Grammy's lake ?
+%mor:	n:prop|Where~poss|s n:prop|Grammy~poss|s n|lake ?
+*NAN:	lake is a very advanced term for such a young child +...
+%mor:	n|lake cop|be&3S det|a adv|very part|advance-PASTP n|term prep|for
+	qn|such det|a adj|young n|child +...
+*MOT:	she said <as we appro(ached)> [//] as we pulled into the driveway
+	+".
+%mor:	pro:sub|she v|say&PAST prep|as pro:sub|we v|pull-PAST prep|into
+	det|the n|driveway +".
+*MOT:	+" this is Grammy's house .
+%mor:	pro:dem|this cop|be&3S n:prop|Grammy~poss|s n|house .
+*MOT:	where's Grammy's lake ?
+%mor:	rel|where~aux|be&3S n:prop|Grammy~poss|s n|lake ?
+*MOT:	(.) because she had only seen the lake (.) once !
+%mor:	conj|because pro:sub|she v|have&PAST adv|only part|see&PASTP
+	det|the n|lake adv|once !
+*NAN:	www .
+%exp:	asks about swimming
+*MOT:	she won't let go of me .
+%mor:	pro:sub|she mod|will~neg|not v|let&ZERO v|go prep|of pro:obj|me .
+*MOT:	oh , she went swimming at Lindsey's house .
+%mor:	co|oh cm|cm pro:sub|she v|go&PAST n:gerund|swim-PRESP prep|at
+	n:prop|Lindsey~poss|s n|house .
+*MOT:	yes , she is extraordinarily good in the bath+tub and the little
+	pool .
+%mor:	co|yes cm|cm pro:sub|she aux|be&3S adv|extraordinary&dadj-LY
+	adj|good prep|in det|the n|+n|bath+n|tub coord|and det|the
+	adj|little n|pool .
+*MOT:	but once she's got the life+preserver on in deep water , she clings
+	!
+%mor:	conj|but conj|once pro:sub|she~aux|be&3S part|get&PASTP det|the
+	n|+n|life+n|preserver adv|on prep|in n|deep n|water cm|cm
+	pro:sub|she v|cling-3S !
+*NAN:	(.) you said that the bath+tub is to get the baby clean +...
+%mor:	pro|you v|say&PAST rel|that det|the n|+n|bath+n|tub cop|be&3S
+	inf|to v|get det|the n|baby adj|clean +...
+*NAN:	does she understand that ?
+%mor:	mod|do&3S pro:sub|she v|understand pro:dem|that ?
+*MOT:	yes .
+%mor:	co|yes .
+%com:	rest of tape untranscribed
+*MOT:	she washes her face clean .
+%mor:	pro:sub|she v|wash-3S pro:poss:det|her n|face adj|clean .
+*MOT:	after <she has> [//] she eats , if she spills anything on her dress
+	, her dress has_to come off , and she has_to put on a clean dress .
+%mor:	conj|after pro:sub|she v|eat-3S cm|cm conj|if pro:sub|she
+	v|spill-3S pro:indef|anything prep|on pro:poss:det|her n|dress cm|cm
+	pro:poss:det|her n|dress mod:aux|has_to v|come adv|off cm|cm
+	coord|and pro:sub|she mod:aux|has_to v|put&ZERO prep|on det|a
+	adj|clean n|dress .
+*MOT:	she takes the washcloth and washes her (.) hands , and then she
+	[//] y(ou) know I say +"/.
+%mor:	pro:sub|she v|take-3S det|the n|+n|wash+n|cloth coord|and v|wash-3S
+	pro:poss:det|her n|hand-PL cm|cm coord|and adv:tem|then pro|you
+	v|know pro:sub|I v|say +"/.
+@End
