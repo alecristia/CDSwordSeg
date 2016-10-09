@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/elinlarsen/Documents/CDSwordSeg/algoComp//algos/TPs/TPsegmentation.py", line 63, in <module>
+    last=syls[1]
+IndexError: list index out of range
+done with TPs

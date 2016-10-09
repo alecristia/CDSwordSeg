@@ -1,0 +1,25 @@
+Running puddle...
+Creating 5 folds for cross evaluation
+Processing fold 0
+/Users/elinlarsen/Documents/CDSwordSeg/algoComp/pipeline/puddle.sh: line 39: gawk: command not found
+sed: stdout: Broken pipe
+sed: stdout: Broken pipe
+Processing fold 1
+/Users/elinlarsen/Documents/CDSwordSeg/algoComp/pipeline/puddle.sh: line 39: gawk: command not found
+sed: stdout: Broken pipe
+Processing fold 2
+/Users/elinlarsen/Documents/CDSwordSeg/algoComp/pipeline/puddle.sh: line 39: gawk: command not found
+sed: stdout: Broken pipe
+Processing fold 3
+/Users/elinlarsen/Documents/CDSwordSeg/algoComp/pipeline/puddle.sh: line 39: gawk: command not found
+sed: stdout: Broken pipe
+sed: stdout: Broken pipe
+Processing fold 4
+/Users/elinlarsen/Documents/CDSwordSeg/algoComp/pipeline/puddle.sh: line 39: gawk: command not found
+sed: stdout: Broken pipe
+Unfolding to cfgold.txt
+Error in crossevaluation.py unfold : /Users/elinlarsen/Documents/CDSwordSeg/algoComp/res_bernstein/puddle//output-fold0.txt must have 2668 lines but have 0
+Evaluating
+./doAllEval.text: line 8: /Users/elinlarsen/Documents/CDSwordSeg/algoComp/res_bernstein/puddle//cfgold.txt: No such file or directory
+./doAllEval.text: line 12: /Users/elinlarsen/Documents/CDSwordSeg/algoComp/res_bernstein/puddle//cfgold.txt: No such file or directory
+done with puddle
