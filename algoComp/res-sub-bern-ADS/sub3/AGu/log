@@ -1,0 +1,595 @@
+# Iteration 0, 2096 tables, -logPcorpus = 25315.9, -logPrior = 113.764, 0/266 analyses unchanged, 0/266 rejected.
+# Iteration 0# Iteration , 0, 1673 tables, -logPcorpus = 162424537, -logPrior =  tables, -logPcorpus = 113.764, 0/24679266 analyses unchanged, 0/266 rejected, .-logPrior = 
+113.764, 0/266 analyses unchanged, 0/266 rejected.
+# Iteration 0, 1597 tables, -logPcorpus = 24329.3, -logPrior = 113.764, 0/266 analyses unchanged, 0/266 rejected.
+# Iteration # Iteration 0, 1950 tables, -logPcorpus = 25179.9, -logPrior = 113.764, 0/266 analyses unchanged, 0/266 rejected.
+0, 1427 tables, -logPcorpus = 24138.8, -logPrior = 113.764, 0/266 analyses unchanged, 0/266 rejected.
+# Iteration 0, 1816 tables, -logPcorpus = 24886.3, -logPrior = 113.764, 0/266 analyses unchanged, 0/266 rejected.
+# Iteration 0, 2247 tables, -logPcorpus = 25378.2, -logPrior = 113.764, 0/266 analyses unchanged, 0/266 rejected.
+# Iteration 1, 1926 tables, -logPcorpus = 23936.8, -logPrior = 113.764, 12/266 analyses unchanged, 3/254 rejected.
+# Iteration 1, 1609 tables, -logPcorpus = 23218.8, -logPrior = 113.764, 17/266 analyses unchanged, 3/249 rejected.
+# Iteration 1, 1618 tables, -logPcorpus = 23125.3, -logPrior = 113.764, 13/266 analyses unchanged, 1/253 rejected.
+# Iteration 1, 1420 tables, -logPcorpus = 22840.5, -logPrior = 113.764, 20/266 analyses unchanged, 3/246 rejected.
+# Iteration 1, 1852 tables, -logPcorpus = 23948.2, -logPrior = 113.764, 15/266 analyses unchanged, 2/251 rejected.
+# Iteration 1, 1540 tables, -logPcorpus = 23217, -logPrior = 113.764, 15/266 analyses unchanged, 2/251 rejected.
+# Iteration 1, 1764 tables, -logPcorpus = 23799.3, -logPrior = 113.764, 13/266 analyses unchanged, 1/253 rejected.
+# Iteration 2, 1613 tables, -logPcorpus = 22815.2, -logPrior = 113.764, 24/266 analyses unchanged, 0/242 rejected.
+# Iteration 2, 1891 tables, -logPcorpus = 23526.9, -logPrior = 113.764, 18/266 analyses unchanged, 2/248 rejected.
+# Iteration 2, 1610 tables, -logPcorpus = 22741.3, -logPrior = 113.764, 19/266 analyses unchanged, 2/247 rejected.
+# Iteration 2, 1503 tables, -logPcorpus = 22583.9, -logPrior = 113.764, 28/266 analyses unchanged, 1/238 rejected.
+# Iteration 2, 1516 tables, -logPcorpus = 22677.6, -logPrior = 113.764, 33/266 analyses unchanged, 1/233 rejected.
+# Iteration 2, 1848 tables, -logPcorpus = 23556, -logPrior = 113.764, 23/266 analyses unchanged, 1/243 rejected.
+# Iteration 2, 1753 tables, -logPcorpus = 23079.2, -logPrior = 113.764, 19/266 analyses unchanged, 2/247 rejected.
+# Iteration 1, 2020 tables, -logPcorpus = 24200, -logPrior = 113.764, 8/266 analyses unchanged, 4/258 rejected.
+# Iteration 3, 1515 tables, -logPcorpus = 21328.4, -logPrior = 11.74, 23/266 analyses unchanged, 3/243 rejected.
+# Iteration 3, 1658 tables, -logPcorpus = 21512.9, -logPrior = 11.6936, 24/266 analyses unchanged, 2/242 rejected.
+# Iteration 3, 1815 tables, -logPcorpus = 22257.2, -logPrior = 12.0574, 17/266 analyses unchanged, 3/249 rejected.
+# Iteration 3, 1484 tables, -logPcorpus = 21299.8, -logPrior = 13.602, 22/266 analyses unchanged, 3/244 rejected.
+# Iteration 2, 1913 tables, -logPcorpus = 23705.3, -logPrior = 113.764, 8/266 analyses unchanged, 4/258 rejected.
+# Iteration 3, 1668 tables, -logPcorpus = 21909.6, -logPrior = 13.661, 21/266 analyses unchanged, 2/245 rejected.
+# Iteration 4, 1057 tables, -logPcorpus = 20460.5, -logPrior = 11.0135, 27/266 analyses unchanged, 3/239 rejected.
+# Iteration 3, 1560 tables, -logPcorpus = 21569.8, -logPrior = 12.9817, 29/266 analyses unchanged, 3/237 rejected.
+# Iteration 3, 1829 tables, -logPcorpus = 22494.9, -logPrior = 12.5802, 18/266 analyses unchanged, 2/248 rejected.
+# Iteration 4, 1262 tables, -logPcorpus = 21364.2, -logPrior = 10.5997, 21/266 analyses unchanged, 0/245 rejected.
+# Iteration 4, 1162 tables, -logPcorpus = 20615, -logPrior = 10.5488, 31/266 analyses unchanged, 2/235 rejected.
+# Iteration 4, 1063 tables, -logPcorpus = 20667.9, -logPrior = 12.1786, 24/266 analyses unchanged, 3/242 rejected.
+# Iteration 5, 865 tables, -logPcorpus = 20151.1, -logPrior = 11.8538, 36/266 analyses unchanged, 3/230 rejected.
+# Iteration 3, 1807 tables, -logPcorpus = 22327.9, -logPrior = 11.4961, 15/266 analyses unchanged, 3/251 rejected.
+# Iteration 4, 1206 tables, -logPcorpus = 21245, -logPrior = 12.4865, 19/266 analyses unchanged, 1/247 rejected.
+# Iteration 5, 861 tables, -logPcorpus = 19934.3, -logPrior = 11.2006, 35/266 analyses unchanged, 2/231 rejected.
+# Iteration 5, 1048 tables, -logPcorpus = 20965.9, -logPrior = 11.5682, 31/266 analyses unchanged, 4/235 rejected.
+# Iteration 4, 1263 tables, -logPcorpus = 21520.5, -logPrior = 11.1354, 20/266 analyses unchanged, 1/246 rejected.
+# Iteration 4, 1103 tables, -logPcorpus = 20723.8, -logPrior = 12.1965, 28/266 analyses unchanged, 2/238 rejected.
+# Iteration 5, 889 tables, -logPcorpus = 20297.4, -logPrior = 11.4265, 33/266 analyses unchanged, 4/233 rejected.
+# Iteration 6, 780 tables, -logPcorpus = 19879.6, -logPrior = 11.3086, 41/266 analyses unchanged, 5/225 rejected.
+# Iteration 4, 1252 tables, -logPcorpus = 21214.2, -logPrior = 10.4987, 21/266 analyses unchanged, 3/245 rejected.
+# Iteration 6, 740 tables, -logPcorpus = 19657.1, -logPrior = 11.2223, 39/266 analyses unchanged, 3/227 rejected.
+# Iteration 6, 872 tables, -logPcorpus = 20757.6, -logPrior = 10.8078, 30/266 analyses unchanged, 2/236 rejected.
+# Iteration 5, 1001 tables, -logPcorpus = 20920.6, -logPrior = 11.5955, 28/266 analyses unchanged, 3/238 rejected.
+# Iteration 5, 967 tables, -logPcorpus = 20863.5, -logPrior = 11.4623, 29/266 analyses unchanged, 3/237 rejected.
+# Iteration 5, 906 tables, -logPcorpus = 20376.4, -logPrior = 12.2684, 34/266 analyses unchanged, 4/232 rejected.
+# Iteration 6, 758 tables, -logPcorpus = 20018.1, -logPrior = 12.016, 35/266 analyses unchanged, 6/231 rejected.
+# Iteration 7, 723 tables, -logPcorpus = 19821.9, -logPrior = 12.1912, 35/266 analyses unchanged, 4/231 rejected.
+# Iteration 5, 992 tables, -logPcorpus = 20804.2, -logPrior = 10.7184, 28/266 analyses unchanged, 2/238 rejected.
+# Iteration 7, 661 tables, -logPcorpus = 19485.4, -logPrior = 11.121, 48/266 analyses unchanged, 1/218 rejected.
+# Iteration 7, 766 tables, -logPcorpus = 20366.8, -logPrior = 11.0958, 29/266 analyses unchanged, 3/237 rejected.
+# Iteration 6, 858 tables, -logPcorpus = 20476.5, -logPrior = 12.0787, 28/266 analyses unchanged, 6/238 rejected.
+# Iteration 7, 695 tables, -logPcorpus = 19743.9, -logPrior = 11.9933, 40/266 analyses unchanged, 5/226 rejected.
+# Iteration 8, 697 tables, -logPcorpus = 19879.3, -logPrior = 12.4496, 45/266 analyses unchanged, 1/221 rejected.
+# Iteration 6, 887 tables, -logPcorpus = 20661.7, -logPrior = 12.5869, 29/266 analyses unchanged, 4/237 rejected.
+# Iteration 6, 817 tables, -logPcorpus = 20039.9, -logPrior = 11.7418, 40/266 analyses unchanged, 3/226 rejected.
+# Iteration 6, 819 tables, -logPcorpus = 20477.5, -logPrior = 11.0348, 27/266 analyses unchanged, 5/239 rejected.
+# Iteration 8, 643 tables, -logPcorpus = 19361.1, -logPrior = 11.7597, 54/266 analyses unchanged, 4/212 rejected.
+# Iteration 9, 646 tables, -logPcorpus = 19717.6, -logPrior = 12.4611, 44/266 analyses unchanged, 4/222 rejected.
+# Iteration 8, 686 tables, -logPcorpus = 19567.3, -logPrior = 12.2457, 41/266 analyses unchanged, 3/225 rejected.
+# Iteration 8, 700 tables, -logPcorpus = 20199.2, -logPrior = 12.1146, 31/266 analyses unchanged, 2/235 rejected.
+# Iteration 7, 780 tables, -logPcorpus = 20320.9, -logPrior = 12.0332, 40/266 analyses unchanged, 3/226 rejected.
+# Iteration 7, 759 tables, -logPcorpus = 19908.2, -logPrior = 12.2261, 47/266 analyses unchanged, 4/219 rejected.
+# Iteration 7, 806 tables, -logPcorpus = 20510.3, -logPrior = 11.5608, 38/266 analyses unchanged, 3/228 rejected.
+# Iteration 7, 729 tables, -logPcorpus = 20455.3, -logPrior = 11.4123, 25/266 analyses unchanged, 4/241 rejected.
+# Iteration 10, 628 tables, -logPcorpus = 19618, -logPrior = 12.1642, 51/266 analyses unchanged, 1/215 rejected.
+# Iteration 9, 614 tables, -logPcorpus = 19323, -logPrior = 11.6543, 57/266 analyses unchanged, 7/209 rejected.
+# Iteration 9, 666 tables, -logPcorpus = 19492.9, -logPrior = 12.2941, 46/266 analyses unchanged, 6/220 rejected.
+# Iteration 8, 692 tables, -logPcorpus = 19753.4, -logPrior = 13.0858, 49/266 analyses unchanged, 3/217 rejected.
+# Iteration 9, 651 tables, -logPcorpus = 20096.4, -logPrior = 12.0709, 30/266 analyses unchanged, 1/236 rejected.
+# Iteration 8, 740 tables, -logPcorpus = 20403.9, -logPrior = 12.1803, 43/266 analyses unchanged, 5/223 rejected.
+# Iteration 8, 676 tables, -logPcorpus = 20271.2, -logPrior = 12.4023, 27/266 analyses unchanged, 1/239 rejected.
+# Iteration 8, 714 tables, -logPcorpus = 20359.1, -logPrior = 12.1357, 27/266 analyses unchanged, 1/239 rejected.
+# Iteration 10, 672 tables, -logPcorpus = 19515.9, -logPrior = 12.9531, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 10, 608 tables, -logPcorpus = 19319.8, -logPrior = 11.5742, 58/266 analyses unchanged, 6/208 rejected.
+# Iteration 9, 666 tables, -logPcorpus = 19658.7, -logPrior = 12.9878, 43/266 analyses unchanged, 5/223 rejected.
+# Iteration 9, 708 tables, -logPcorpus = 20154.5, -logPrior = 12.1488, 30/266 analyses unchanged, 6/236 rejected.
+# Iteration 9, 648 tables, -logPcorpus = 20162.3, -logPrior = 12.0965, 29/266 analyses unchanged, 1/237 rejected.
+# Iteration 10, 638 tables, -logPcorpus = 19974.2, -logPrior = 11.3004, 37/266 analyses unchanged, 5/229 rejected.
+# Iteration 9, 681 tables, -logPcorpus = 20269.7, -logPrior = 11.8128, 31/266 analyses unchanged, 4/235 rejected.
+# Iteration 11, 610 tables, -logPcorpus = 19559.1, -logPrior = 12.3733, 49/266 analyses unchanged, 2/217 rejected.
+# Iteration 10, 622 tables, -logPcorpus = 19556.1, -logPrior = 12.7383, 54/266 analyses unchanged, 5/212 rejected.
+# Iteration 10, 630 tables, -logPcorpus = 20109.2, -logPrior = 12.147, 31/266 analyses unchanged, 3/235 rejected.
+# Iteration 10, 667 tables, -logPcorpus = 20014, -logPrior = 11.9089, 41/266 analyses unchanged, 8/225 rejected.
+# Iteration 12, 595 tables, -logPcorpus = 19534.8, -logPrior = 12.1877, 53/266 analyses unchanged, 6/213 rejected.
+# Iteration 11, 641 tables, -logPcorpus = 19402.4, -logPrior = 12.9167, 50/266 analyses unchanged, 7/216 rejected.
+# Iteration 10, 650 tables, -logPcorpus = 20301.2, -logPrior = 12.1759, 37/266 analyses unchanged, 1/229 rejected.
+# Iteration 11, 580 tables, -logPcorpus = 19261.4, -logPrior = 12.5094, 61/266 analyses unchanged, 3/205 rejected.
+# Iteration 11, 623 tables, -logPcorpus = 19981.5, -logPrior = 11.5591, 35/266 analyses unchanged, 7/231 rejected.
+# Iteration 13, 603 tables, -logPcorpus = 19523.6, -logPrior = 12.3822, 48/266 analyses unchanged, 3/218 rejected.
+# Iteration 12, 630 tables, -logPcorpus = 19313.4, -logPrior = 12.7438, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 11, 624 tables, -logPcorpus = 19589.7, -logPrior = 12.7981, 49/266 analyses unchanged, 4/217 rejected.
+# Iteration 11, 595 tables, -logPcorpus = 19959.1, -logPrior = 12.1435, 38/266 analyses unchanged, 7/228 rejected.
+# Iteration # Iteration 11, 63312 tables, , -logPcorpus = 604 tables, -logPcorpus = 20108.919904.8, -logPrior = , -logPrior = 11.7813, 41/266 analyses unchanged, 3/225 rejected.
+12.3141, 39/266 analyses unchanged, 2/227 rejected.
+# Iteration 14, 593 tables, -logPcorpus = 19457.6, -logPrior = 12.2093, 43/266 analyses unchanged, 4/223 rejected.
+# Iteration 12, 594 tables, -logPcorpus = # Iteration 13, 608 tables, -logPcorpus = 19244.3, -logPrior = 12.4257, 58/266 analyses unchanged, 1/208 rejected.
+# Iteration # Iteration # Iteration 12, 598 tables, -logPcorpus = 19771.2, -logPrior = 11.9749, 39/266 analyses unchanged, 3/227 rejected.
+# Iteration # Iteration 15, 591 tables, -logPcorpus = 19390.6, -logPrior = 12.4319, 54/266 analyses unchanged, 5/212 rejected.
+19265.8111213, -logPrior = 12.348, 53/266 analyses unchanged, 2/213 rejected.
+, , , 624 tables, -logPcorpus = 635 tables, -logPcorpus = 58120204.619557.7, -logPrior =  tables, , -logPrior = 12.3658, 52/266 analyses unchanged, 3/214 rejected.-logPcorpus = 12.2693
+19761.1, , 39-logPrior = /11.8736266,  analyses unchanged42/266 analyses unchanged, 2/224 rejected.
+, 1/227 rejected.
+# Iteration 12, 611 tables, -logPcorpus = 20108.7, -logPrior = 12.125, 32/266 analyses unchanged, 3/234 rejected.
+# Iteration 16, 603 tables, -logPcorpus = 19449.9, -logPrior = 12.2751, 56/266 analyses unchanged, 3/210 rejected.
+# Iteration 13, 590 tables, -logPcorpus = 19757.3, -logPrior = 12.3353, 32/266 analyses unchanged, 3/234 rejected.
+# Iteration 13, 588 tables, -logPcorpus = 19338.9, -logPrior = 11.0734, 62/266 analyses unchanged, 6/204 rejected.
+# Iteration 13, 609 tables, -logPcorpus = 19434.4, -logPrior = 12.1627, 46/266 analyses unchanged, 1/220 rejected.
+# Iteration 14, 584 tables, -logPcorpus = 19782.5, -logPrior = 12.0083, 46/266 analyses unchanged, 1/220 rejected.# Iteration 14, 605 tables, -logPcorpus = 19295, -logPrior = 12.1921, 59/266 analyses unchanged, 2/207 rejected.
+
+# Iteration 12, 592 tables, -logPcorpus = 20097.3, -logPrior = 12.2302, 35/266 analyses unchanged, 2/231 rejected.
+# Iteration 13, 575 tables, -logPcorpus = 19985.1, -logPrior = 12.146, 35/266 analyses unchanged, 0/231 rejected.
+# Iteration 17, 584 tables, -logPcorpus = 19270.9, -logPrior = 11.7289, 56/266 analyses unchanged, 2/210 rejected.
+# Iteration 14, 597 tables, -logPcorpus = 19259.7, -logPrior = 11.5221, 63/266 analyses unchanged, 4/203 rejected.
+# Iteration 14, 597 tables, -logPcorpus = 19450.9, -logPrior = 12.4285, 49/266 analyses unchanged, 1/217 rejected.
+# Iteration 15, 593 tables, -logPcorpus = 19712, -logPrior = 12.0216, 41/266 analyses unchanged, 1/225 rejected.
+# Iteration 15, 608 tables, -logPcorpus = 19296.1, -logPrior = 12.3425, 60/266 analyses unchanged, 6/206 rejected.
+# Iteration 14, 566 tables, -logPcorpus = 19670.8, -logPrior = 11.7354, 32/266 analyses unchanged, 2/234 rejected.
+# Iteration 13, 581 tables, -logPcorpus = 20099.3, -logPrior = 12.0995, 41/266 analyses unchanged, 5/225 rejected.
+# Iteration 14, 574 tables, -logPcorpus = 20058.7, -logPrior = 12.0851, 36/266 analyses unchanged, 3/230 rejected.
+# Iteration 18, 590 tables, -logPcorpus = 19310.2, -logPrior = 11.7316, 55/266 analyses unchanged, 5/211 rejected.
+# Iteration # Iteration # Iteration # Iteration # Iteration # Iteration # Iteration # Iteration 16, 570 tables, -logPcorpus = 1516, 600 tables, -logPcorpus = 19242.2, -logPrior = 12.3025, 54/266 analyses unchanged, 5/212 rejected.
+151514151919819, 576 tables, -logPcorpus = 19160.8, -logPrior = 11.6782, 69/266 analyses unchanged, 5/197 rejected.
+, , , , , , 592 tables, -logPcorpus = 19381.5, -logPrior = 12.3403, 45/266 analyses unchanged, 0/221 rejected.
+571 tables, -logPcorpus = 19657.8569575559-logPrior = , -logPrior =  tables, -logPcorpus = 19982.3, -logPrior = 11.8079, 39/266 analyses unchanged, 2/227 rejected.
+ tables, -logPcorpus = 19839.1 tables, 12.1453, 39/266 analyses unchanged, 4/227 rejected.
+11.9341, -logPcorpus = 19226.4, -logPrior = 11.8294, 33, 37/266 analyses unchanged, 4/229 rejected.
+/-logPrior = 12.1816266, 47/266 analyses unchanged, 5/219 rejected.
+ analyses unchanged, 2/233 rejected.
+# Iteration 16, 578 tables, -logPcorpus = 19150.8, -logPrior = 11.7998, 61/266 analyses unchanged, 1/205 rejected.
+# Iteration 16, 577 tables, -logPcorpus = 19800, -logPrior = 12.0467, 44/266 analyses unchanged, 7/222 rejected.
+# Iteration 15, 580 tables, -logPcorpus = 19929.8, -logPrior = 12.367, 41/266 analyses unchanged, 3/225 rejected.
+# Iteration 17, 574 tables, -logPcorpus = 19117.8, -logPrior = 12.233, 59/266 analyses unchanged, 3/207 rejected.
+# Iteration 17, 581 tables, -logPcorpus = 19739, -logPrior = 11.6345, 41/266 analyses unchanged, 2/225 rejected.
+# Iteration # Iteration 16, 567 tables, -logPcorpus = 2019771.6, -logPrior = , 11.9144, 37/564 tables, -logPcorpus = 266 analyses unchanged, 3/19251.8, -logPrior = 229 rejected11.7739, 43/266 analyses unchanged, 6/223 rejected.
+.
+# Iteration 16, 582 tables, -logPcorpus = 19211.3, -logPrior = 12.1859, 58/266 analyses unchanged, 4/208 rejected.
+# Iteration 17, 582 tables, -logPcorpus = 19186.6, -logPrior = 12.0634, 58/266 analyses unchanged, 3/208 rejected.
+# Iteration 17, 575 tables, -logPcorpus = 19760.2, -logPrior = 12.0786, 42/266 analyses unchanged, 2/224 rejected.
+# Iteration 16, 573 tables, -logPcorpus = 19872.1, -logPrior = 11.8217, 43/266 analyses unchanged, 2/223 rejected.
+# Iteration 18, 595 tables, -logPcorpus = 19159.8, -logPrior = 12.1003, 61/266 analyses unchanged, 2/205 rejected.
+# Iteration 17, 548 tables, -logPcorpus = 19757.4, -logPrior = 11.9372, 33/266 analyses unchanged, 3/233 rejected.
+# Iteration 18, 596 tables, -logPcorpus = 19686, -logPrior = 11.3122, 36/266 analyses unchanged, 3/230 rejected.
+# Iteration 17, 575 tables, -logPcorpus = 19359.2, -logPrior = 12.2656, 50/266 analyses unchanged, 4/216 rejected.
+# Iteration 18, 549 tables, -logPcorpus = 19019.7, -logPrior = 11.8025, 64/266 analyses unchanged, 2/202 rejected.
+# Iteration 18, 573 tables, -logPcorpus = 19780.6, -logPrior = 12.3095, 41/266 analyses unchanged, 7/225 rejected.
+# Iteration 17, 579 tables, -logPcorpus = 19925.8, -logPrior = 11.92, 37/266 analyses unchanged, 4/229 rejected.
+# Iteration 19, 584 tables, -logPcorpus = 19260.1, -logPrior = 11.9263, 61/266 analyses unchanged, 2/205 rejected.
+# Iteration 21, 577 tables, -logPcorpus = 19354.4, -logPrior = 11.4396, 56/266 analyses unchanged, 6/210 rejected.
+# Iteration 18, 570 tables, -logPcorpus = 19295.4, -logPrior = 12.1565, 56/266 analyses unchanged, 2/210 rejected.
+# Iteration 18, 528 tables, -logPcorpus = 19592.7, -logPrior = 11.9138, 37/266 analyses unchanged, 4/229 rejected.
+# Iteration 19, 597 tables, -logPcorpus = 19714.9, -logPrior = 11.7465, 37/266 analyses unchanged, 4/229 rejected.
+# Iteration 19, 554 tables, -logPcorpus = 19084.7, -logPrior = 12.0621, 64/266 analyses unchanged, 2/202 rejected.
+# Iteration 19, 579 tables, -logPcorpus = 19789.4, -logPrior = 11.5505, 42/266 analyses unchanged, 3/224 rejected.
+# Iteration 18, 575 tables, -logPcorpus = 19855.5, -logPrior = 12.0715, 36/266 analyses unchanged, 2/230 rejected.
+# Iteration 19, 544 tables, -logPcorpus = 19188.5, -logPrior = 12.1493, 57/266 analyses unchanged, 3/209 rejected.
+# Iteration 20, 594 tables, -logPcorpus = 19129.2, -logPrior = 12.1641, 62/266 analyses unchanged, 3/204 rejected.
+# Iteration 20, 611 tables, -logPcorpus = 19646.5, -logPrior = 12.1168, 43/266 analyses unchanged, 2/223 rejected.
+# Iteration 19, 537 tables, -logPcorpus = 19571.4, -logPrior = 11.6292, 35/266 analyses unchanged, 7/231 rejected.
+# Iteration 22, 588 tables, -logPcorpus = 19244.1, -logPrior = 11.6362, 52/266 analyses unchanged, 5/214 rejected.
+# Iteration 20, 547 tables, -logPcorpus = 19052.3, -logPrior = 12.0066, 64/266 analyses unchanged, 3/202 rejected.
+# Iteration 20, 585 tables, -logPcorpus = 19730.5, -logPrior = 12.012, 48/266 analyses unchanged, 0/218 rejected.
+# Iteration 19, 573 tables, -logPcorpus = 19714.1, -logPrior = 11.4186, 41/266 analyses unchanged, 0/225 rejected.
+# Iteration 20, 555 tables, -logPcorpus = 19094.8, -logPrior = 11.744, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 20, 540 tables, -logPcorpus = 19438.9, -logPrior = 11.5844, 49/266 analyses unchanged, 8/217 rejected.
+# Iteration 23, 572 tables, -logPcorpus = 19243.9, -logPrior = 11.8103, 61/266 analyses unchanged, 3/205 rejected.
+# Iteration 20, 567 tables, -logPcorpus = 19797.1, -logPrior = 11.7827, 47/266 analyses unchanged, 3/219 rejected.
+# Iteration 21, 559 tables, -logPcorpus = 18986.3, -logPrior = 11.6863, 67/266 analyses unchanged, 0/199 rejected.
+# Iteration 21, 584 tables, -logPcorpus = 19552.7, -logPrior = 11.4332, 48/266 analyses unchanged, 5/218 rejected.
+# Iteration 21, 594 tables, -logPcorpus = 19114.8, -logPrior = 12.3328, 58/266 analyses unchanged, 3/208 rejected.
+# Iteration 21, 586 tables, -logPcorpus = 19694.5, -logPrior = 12.0184, 44/266 analyses unchanged, 1/222 rejected.
+# Iteration 24, 564 tables, -logPcorpus = 19292.6, -logPrior = 11.819, 57/266 analyses unchanged, 2/209 rejected.
+# Iteration 21, 556 tables, -logPcorpus = 19151, -logPrior = 11.4764, 58/266 analyses unchanged, 1/208 rejected.
+# Iteration 22, 564 tables, -logPcorpus = 18969.5, -logPrior = 11.7659, 67/266 analyses unchanged, 1/199 rejected.
+# Iteration 22, 571 tables, -logPcorpus = 19537.2, -logPrior = 11.627, 43/266 analyses unchanged, 5/223 rejected.
+# Iteration 22, 586 tables, -logPcorpus = 18997.4, -logPrior = 11.8004, 56/266 analyses unchanged, 7/210 rejected.
+# Iteration 22, 582 tables, -logPcorpus = 19729.6, -logPrior = 12.2693, 48/266 analyses unchanged, 4/218 rejected.
+# Iteration 21, 562 tables, -logPcorpus = 19651.5, -logPrior = 12.1354, 43/266 analyses unchanged, 3/223 rejected.
+# Iteration 21, 522 tables, -logPcorpus = 19363.5, -logPrior = 10.9264, 49/266 analyses unchanged, 7/217 rejected.
+# Iteration 25, 561 tables, -logPcorpus = 19303.6, -logPrior = 11.3524, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 23, 545 tables, -logPcorpus = 18892, -logPrior = 11.65, 66/266 analyses unchanged, 5/200 rejected.
+# Iteration 23, 548 tables, -logPcorpus = 19533.1, -logPrior = 11.9597, 45/266 analyses unchanged, 4/221 rejected.
+# Iteration 22, 554 tables, -logPcorpus = 19046.5, -logPrior = 11.7294, 59/266 analyses unchanged, 1/207 rejected.
+# Iteration 23, 580 tables, -logPcorpus = 19780.1, -logPrior = 12.2141, 41/266 analyses unchanged, 4/225 rejected.
+# Iteration 22, 552 tables, -logPcorpus = 19777, -logPrior = 11.9487, 49/266 analyses unchanged, 3/217 rejected.
+# Iteration 23, 588 tables, -logPcorpus = 19194.7, -logPrior = 12.0338, 62/266 analyses unchanged, 2/204 rejected.
+# Iteration 22, 542 tables, -logPcorpus = 19317.6, -logPrior = 11.0546, 55/266 analyses unchanged, 2/211 rejected.
+# Iteration 26, 563 tables, -logPcorpus = 19185.4, -logPrior = 11.7295, 47/266 analyses unchanged, 4/219 rejected.
+# Iteration 24, 541 tables, -logPcorpus = 18946.9, -logPrior = 12.0684, 64/266 analyses unchanged, 1/202 rejected.
+# Iteration 24, 539 tables, -logPcorpus = 19494.4, -logPrior = 11.4558, 49/266 analyses unchanged, 1/217 rejected.
+# Iteration 23, 557 tables, -logPcorpus = 19039.3, -logPrior = 11.543, 61/266 analyses unchanged, 1/205 rejected.
+# Iteration 23, 541 tables, -logPcorpus = 19764, -logPrior = 12.0175, 43/266 analyses unchanged, 4/223 rejected.
+# Iteration 24, 573 tables, -logPcorpus = 19476.7, -logPrior = 11.5847, 47/266 analyses unchanged, 4/219 rejected.
+# Iteration 23, 531 tables, -logPcorpus = 19195.5, -logPrior = 11.644, 55/266 analyses unchanged, 4/211 rejected.
+# Iteration 24, 592 tables, -logPcorpus = 19109.8, -logPrior = 11.8613, 60/266 analyses unchanged, 2/206 rejected.
+# Iteration 27, 554 tables, -logPcorpus = 19162.9, -logPrior = 12.0789, 54/266 analyses unchanged, 3/212 rejected.
+# Iteration 25, 544 tables, -logPcorpus = 18968.5, -logPrior = 12.0942, 55/266 analyses unchanged, 3/211 rejected.
+# Iteration 25, 535 tables, -logPcorpus = 19478.3, -logPrior = 11.3111, 48/266 analyses unchanged, 3/218 rejected.
+# Iteration 24, 574 tables, -logPcorpus = 19085, -logPrior = 11.0459, 54/266 analyses unchanged, 2/212 rejected.
+# Iteration 24, 563 tables, -logPcorpus = 19837.4, -logPrior = 12.1085, 49/266 analyses unchanged, 7/217 rejected.
+# Iteration 25, 563 tables, -logPcorpus = 19532.7, -logPrior = 11.5941, 43/266 analyses unchanged, 4/223 rejected.
+# Iteration 24, 528 tables, -logPcorpus = 19228.4, -logPrior = 11.358, 54/266 analyses unchanged, 3/212 rejected.
+# Iteration 25, 606 tables, -logPcorpus = 19042.4, -logPrior = 12.012, 64/266 analyses unchanged, 3/202 rejected.
+# Iteration 28# Iteration 26, 551 tables, -logPcorpus = 18996, -logPrior = 12.0411, 58/266 analyses unchanged, 1/208 rejected.
+, 541 tables, -logPcorpus = 19168.2, -logPrior = 11.6267, 55/266 analyses unchanged, 6/211 rejected.
+# Iteration 26, 542 tables, -logPcorpus = 19479.3, -logPrior = 11.6132, 44/266 analyses unchanged, 3/222 rejected.
+# Iteration 25, 570 tables, -logPcorpus = 19081.5, -logPrior = 11.5816, 58/266 analyses unchanged, 3/208 rejected.
+# Iteration 25, 564 tables, -logPcorpus = 19876.6, -logPrior = 11.7719, 40/266 analyses unchanged, 2/226 rejected.
+# Iteration 25, 542 tables, -logPcorpus = 19432.1, -logPrior = 11.4628, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 26, 546 tables, -logPcorpus = 19497, -logPrior = 11.4471, 40/266 analyses unchanged, 3/226 rejected.
+# Iteration 29, 554 tables, -logPcorpus = 19202.4, -logPrior = 12.2314, 48/266 analyses unchanged, 4/218 rejected.
+# Iteration 26, 569 tables, -logPcorpus = 18979.6, -logPrior = 12.0342, 59/266 analyses unchanged, 3/207 rejected.
+# Iteration 27, 539 tables, -logPcorpus = 18977.9, -logPrior = 12.0281, 55/266 analyses unchanged, 1/211 rejected.
+# Iteration 27, 533 tables, -logPcorpus = 19521.3, -logPrior = 11.585, 43/266 analyses unchanged, 3/223 rejected.
+# Iteration 26, 547 tables, -logPcorpus = 19023.4, -logPrior = 11.6318, 50/266 analyses unchanged, 1/216 rejected.
+# Iteration # Iteration 26, 553 tables, -logPcorpus = 19716.1, -logPrior = 3011.9328, , 559 tables, -logPcorpus = 3819207.1, -logPrior = /11.4312, 53/266 analyses unchanged, 3/213 rejected.266
+ analyses unchanged, 2/228 rejected.
+# Iteration 26, 517 tables, -logPcorpus = 19298.5, -logPrior = 11.9107, 52/266 analyses unchanged, 1/214 rejected.
+# Iteration 27, 541 tables, -logPcorpus = 19490.7, -logPrior = 11.4353, 48/266 analyses unchanged, 1/218 rejected.
+# Iteration 28, 543 tables, -logPcorpus = 18912.9, -logPrior = 11.9671, 60/266 analyses unchanged, 1/206 rejected.
+# Iteration 28, 513 tables, -logPcorpus = 19433.6, -logPrior = 11.5383, 39/266 analyses unchanged, 1/227 rejected.
+# Iteration 27, 583 tables, -logPcorpus = 18987.5, -logPrior = 12.272, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 27, 557 tables, -logPcorpus = 19014.3, -logPrior = 11.9442, 57/266 analyses unchanged, 3/209 rejected.
+# Iteration 27, 525 tables, -logPcorpus = 19236.8, -logPrior = 11.3438, 52/266 analyses unchanged, 5/214 rejected.
+# Iteration 29, 570 tables, -logPcorpus = 18974.5, -logPrior = 12.1059, 59/266 analyses unchanged, 6/207 rejected.
+# Iteration 27, 549 tables, -logPcorpus = 19631.8, -logPrior = 11.8111, 43/266 analyses unchanged, 2/223 rejected.
+# Iteration 29, 527 tables, -logPcorpus = 19395.9, -logPrior = 11.6519, 46/266 analyses unchanged, 1/220 rejected.
+# Iteration 28, 534 tables, -logPcorpus = 19494.1, -logPrior = 11.376, 51/266 analyses unchanged, 1/215 rejected.
+# Iteration 28, 569 tables, -logPcorpus = 18986.6, -logPrior = 11.2892, 61/266 analyses unchanged, 2/205 rejected.
+# Iteration 31, 547 tables, -logPcorpus = 19068.8, -logPrior = 11.3884, 61/266 analyses unchanged, 5/205 rejected.
+# Iteration 28, 558 tables, -logPcorpus = 18970.4, -logPrior = 12.1091, 63/266 analyses unchanged, 1/203 rejected.
+# Iteration 30, 550 tables, -logPcorpus = 18974, -logPrior = 11.8938, 61/266 analyses unchanged, 1/205 rejected.
+# Iteration 30, 520 tables, -logPcorpus = 19309.9, -logPrior = 11.4929, 41/266 analyses unchanged, 1/225 rejected.
+# Iteration 28, 539 tables, -logPcorpus = 19276.1, -logPrior = 11.716, 54/266 analyses unchanged, 6/212 rejected.
+# Iteration 28, 557 tables, -logPcorpus = 19620.4, -logPrior = 11.9271, 47/266 analyses unchanged, 4/219 rejected.
+# Iteration 29, 520 tables, -logPcorpus = 19374.4, -logPrior = 11.2311, 57/266 analyses unchanged, 2/209 rejected.
+# Iteration 29, 575 tables, -logPcorpus = 18887.2, -logPrior = 11.6605, 64/266 analyses unchanged, 4/202 rejected.
+# Iteration 32, 551 tables, -logPcorpus = 19174, -logPrior = 11.6659, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 29, 569 tables, -logPcorpus = 19052.4, -logPrior = 11.8591, 56/266 analyses unchanged, 2/210 rejected.
+# Iteration 29, 536 tables, -logPcorpus = 19536.9, -logPrior = 11.3858, 49/266 analyses unchanged, 1/217 rejected.
+# Iteration 29, 531 tables, -logPcorpus = 19245.2, -logPrior = 10.9873, 56/266 analyses unchanged, 4/210 rejected.
+# Iteration 33, 550 tables, -logPcorpus = 19230.9, -logPrior = 12.0194, 52/266 analyses unchanged, 4/214 rejected.
+# Iteration 30, 517 tables, -logPcorpus = 19430.9, -logPrior = 11.512, 54/266 analyses unchanged, 5/212 rejected.
+# Iteration 30, 590 tables, -logPcorpus = 18960.5, -logPrior = 11.8747, 59/266 analyses unchanged, 3/207 rejected.
+# Iteration 31, 562 tables, -logPcorpus = 19006.7, -logPrior = 11.5506, 58/266 analyses unchanged, 2/208 rejected.
+# Iteration 30, 569 tables, -logPcorpus = 19039.5, -logPrior = 11.9606, 56/266 analyses unchanged, 2/210 rejected.
+# Iteration 31, 513 tables, -logPcorpus = 19355.3, -logPrior = 11.4769, 51/266 analyses unchanged, 4/215 rejected.
+# Iteration 30, 531 tables, -logPcorpus = 19515.2, -logPrior = 11.1937, 41/266 analyses unchanged, 3/225 rejected.
+# Iteration 34, 563 tables, -logPcorpus = 19280.1, -logPrior = 11.6735, 50/266 analyses unchanged, 4/216 rejected.
+# Iteration 30, 533 tables, -logPcorpus = 19281.5, -logPrior = 11.8727, 54/266 analyses unchanged, 2/212 rejected.
+# Iteration 32, 561 tables, -logPcorpus = 18987.5, -logPrior = 10.8201, 58/266 analyses unchanged, 2/208 rejected.
+# Iteration 32, 501 tables, -logPcorpus = 19324.8, -logPrior = 11.6358, 50/266 analyses unchanged, 6/216 rejected.
+# Iteration 35, 565 tables, -logPcorpus = 19254.1, -logPrior = 12.0056, 51/266 analyses unchanged, 5/215 rejected.
+# Iteration 33, 556 tables, -logPcorpus = 18960.3, -logPrior = 11.2611, 61/266 analyses unchanged, 2/205 rejected.
+# Iteration 31, 534 tables, -logPcorpus = 19453.2, -logPrior = 11.2028, 53/266 analyses unchanged, 2/213 rejected.
+# Iteration 31, 549 tables, -logPcorpus = 19007.4, -logPrior = 11.626, 62/266 analyses unchanged, 2/204 rejected.
+# Iteration 31, 580 tables, -logPcorpus = 18960.8, -logPrior = 12.0503, 64/266 analyses unchanged, 4/202 rejected.
+# Iteration 36, 569 tables, -logPcorpus = 19131.7, -logPrior = 11.6747, 50/266 analyses unchanged, 1/216 rejected.
+# Iteration 33, 497 tables, -logPcorpus = 19282.9, -logPrior = 11.0482, 51/266 analyses unchanged, 4/215 rejected.
+# Iteration 31, 549 tables, -logPcorpus = 19585.5, -logPrior = 11.2897, 50/266 analyses unchanged, 1/216 rejected.
+# Iteration 34, 565 tables, -logPcorpus = 18935.6, -logPrior = 11.5487, 59/266 analyses unchanged, 1/207 rejected.
+# Iteration 31, 538 tables, -logPcorpus = 19312.9, -logPrior = 11.1498, 55/266 analyses unchanged, 1/211 rejected.
+# Iteration 37, 547 tables, -logPcorpus = 19234.7, -logPrior = 11.8079, 50/266 analyses unchanged, 3/216 rejected.
+# Iteration 32, 540 tables, -logPcorpus = 19445.3, -logPrior = 11.7273, 53/266 analyses unchanged, 5/213 rejected.
+# Iteration 32, 552 tables, -logPcorpus = 18949.3, -logPrior = 11.7056, 59/266 analyses unchanged, 3/207 rejected.
+# Iteration 32, 531 tables, -logPcorpus = 18973.4, -logPrior = 11.8755, 60/266 analyses unchanged, 5/206 rejected.
+# Iteration 34, 512 tables, -logPcorpus = 19285.1, -logPrior = 11.2975, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 32# Iteration 35, 575 tables, , -logPcorpus = 532 tables, -logPcorpus = 19389.8, -logPrior = 11.0813, 49/266 analyses unchanged, 1/217 rejected.18975.3
+, -logPrior = 11.3206, 54/266 analyses unchanged, 0/212 rejected.
+# Iteration 32, 520 tables, -logPcorpus = 19344.4, -logPrior = 11.6192, 51/266 analyses unchanged, 6/215 rejected.
+# Iteration 38, 544 tables, -logPcorpus = 19171.1, -logPrior = 11.4169, 55/266 analyses unchanged, 7/211 rejected.
+# Iteration 33, 558 tables, -logPcorpus = 18995.1, -logPrior = 11.6866, 61/266 analyses unchanged, 3/205 rejected.
+# Iteration 33, 543 tables, -logPcorpus = 18889.6, -logPrior = 11.578, 64/266 analyses unchanged, 3/202 rejected.
+# Iteration 33, 542 tables, -logPcorpus = 19412.4, -logPrior = 11.5982, 57/266 analyses unchanged, 2/209 rejected.
+# Iteration 35, 520 tables, -logPcorpus = 19301.6, -logPrior = 11.3324, 51/266 analyses unchanged, 3/215 rejected.
+# Iteration 36, 561 tables, -logPcorpus = 18996.2, -logPrior = 10.5719, 60/266 analyses unchanged, 2/206 rejected.
+# Iteration 33, 528 tables, -logPcorpus = 19296.3, -logPrior = 11.2149, 50/266 analyses unchanged, 4/216 rejected.
+# Iteration 33, 551 tables, -logPcorpus = 19471.8, -logPrior = 11.2858# Iteration # Iteration # Iteration # Iteration # Iteration # Iteration # Iteration , 51/266 analyses unchanged, 4/215 rejected.
+34343937343634, , , , , 545 tables, -logPcorpus = 19418.2, -logPrior = 11.7288, 58, , 552520566545/266 analyses unchanged, 5/208 rejected.
+530524 tables,  tables,  tables,  tables,  tables, -logPcorpus = 19201.9, -logPrior = 11.9808, 56/266 analyses unchanged, 5/ tables, -logPcorpus = -logPcorpus = -logPcorpus = -logPcorpus = 210 rejected.
+-logPcorpus = 18932.818911.419121.118924.219220.4, -logPrior = 10.9103, 53/266 analyses unchanged, 4/213 rejected.
+, -logPrior = 11.7115, 61/266 analyses unchanged, 1/205 rejected.
+, , , -logPrior = 11.286, 74/266 analyses unchanged, 1/192 rejected.
+-logPrior = -logPrior = 11.6065, 62/266 analyses unchanged, 2/204 rejected11.1646.
+, 56/266 analyses unchanged, 7/210 rejected.
+# Iteration 38, 550 tables, -logPcorpus = 19015.4, -logPrior = 10.9514, 68/266 analyses unchanged, 3/198 rejected.
+# Iteration 35, 527 tables, -logPcorpus = 18982.3, -logPrior = 11.5071, 69/266 analyses unchanged, 2/197 rejected.
+# Iteration 34, 544 tables, -logPcorpus = 19313.6, -logPrior = 11.1558, 46/266 analyses unchanged, 1/220 rejected.
+# Iteration 40, 579 tables, -logPcorpus = 19150.5, -logPrior = 12.238, 58/266 analyses unchanged, 6/208 rejected.
+# Iteration 35, 554 tables, -logPcorpus = 19403.4, -logPrior = 11.9268, 47/266 analyses unchanged, 3/219 rejected.
+# Iteration 37, 539 tables, -logPcorpus = 19123.9, -logPrior = 11.3033, 61/266 analyses unchanged, 4/205 rejected.
+# Iteration 35, 551 tables, -logPcorpus = 18910.1, -logPrior = 11.1452, 62/266 analyses unchanged, 0/204 rejected.
+# Iteration 35, 526 tables, -logPcorpus = 19250.6, -logPrior = 11.1548, 56/266 analyses unchanged, 1/210 rejected.
+# Iteration 36, 536 tables, -logPcorpus = 18976.7, -logPrior = 11.7259, 68/266 analyses unchanged, 4/198 rejected.
+# Iteration 39, 557 tables, -logPcorpus = 18946.4, -logPrior = 11.4273, 58/266 analyses unchanged, 3/208 rejected.
+# Iteration 35, 550 tables, -logPcorpus = 19369.6, -logPrior = 11.2955, 58/266 analyses unchanged, 3/208 rejected.
+# Iteration 38, 533 tables, -logPcorpus = 19134.9, -logPrior = 11.3246, 55/266 analyses unchanged, 1/211 rejected.
+# Iteration 36, 542 tables, -logPcorpus = 19484.5, -logPrior = 11.8323, 54/266 analyses unchanged, 1/212 rejected.
+# Iteration 36, 570 tables, -logPcorpus = 18963.2, -logPrior = 11.595, 66/266 analyses unchanged, 2/200 rejected.
+# Iteration 36, 531 tables, -logPcorpus = 19215.1, -logPrior = 10.9174, 57/266 analyses unchanged, 6/209 rejected.
+# Iteration 37, 548 tables, -logPcorpus = 18979.2, -logPrior = 12.2261, 65/266 analyses unchanged, 1/201 rejected.
+# Iteration 40, 544 tables, -logPcorpus = 18932.8, -logPrior = 11.5659, 70/266 analyses unchanged, 5/196 rejected.
+# Iteration 41, 562 tables, -logPcorpus = 19144.9, -logPrior = 11.4482, 57/266 analyses unchanged, 2/209 rejected.
+# Iteration 36, 543 tables, -logPcorpus = 19262, -logPrior = 10.9814, 54/266 analyses unchanged, 2/212 rejected.
+# Iteration 39, 523 tables, -logPcorpus = 19249.3, -logPrior = 11.5621, 53/266 analyses unchanged, 1/213 rejected.
+# Iteration 37, 559 tables, -logPcorpus = 19379.8, -logPrior = 12.1402, 60/266 analyses unchanged, 1/206 rejected.
+# Iteration 37, 574 tables, -logPcorpus = 19029, -logPrior = 11.4868, 55/266 analyses unchanged, 2/211 rejected.
+# Iteration 38, 575 tables, -logPcorpus = 19058.6, -logPrior = 11.4422, 69/266 analyses unchanged, 2/197 rejected.
+# Iteration 37, 540 tables, -logPcorpus = 19237.1, -logPrior = 10.9639, 54/266 analyses unchanged, 2/212 rejected.
+# Iteration 42, 553 tables, -logPcorpus = 19095.4, -logPrior = 11.7004, 67/266 analyses unchanged, 2/199 rejected.
+# Iteration 37, 538 tables, -logPcorpus = 19421.2, -logPrior = 11.3549, 51/266 analyses unchanged, 3/215 rejected.
+# Iteration 38, 557 tables, -logPcorpus = 19354.4, -logPrior = 11.5008, 48/266 analyses unchanged, 1/218 rejected.
+# Iteration 40, 531 tables, -logPcorpus = 19152.7, -logPrior = 11.7127, 50/266 analyses unchanged, 3/216 rejected.
+# Iteration 38, 552 tables, -logPcorpus = 18967.6, -logPrior = 11.597, 57/266 analyses unchanged, 2/209 rejected.
+# Iteration 39, 569 tables, -logPcorpus = 19068.9, -logPrior = 11.5659, 61/266 analyses unchanged, 2/205 rejected.
+# Iteration 43, 552 tables, -logPcorpus = 19047.3, -logPrior = 11.1241, 66/266 analyses unchanged, 1/200 rejected.
+# Iteration 41, 523 tables, -logPcorpus = 18800, -logPrior = 11.1435, 72/266 analyses unchanged, 6/194 rejected.
+# Iteration 38, 558 tables, -logPcorpus = 19266.8, -logPrior = 10.6256, 55/266 analyses unchanged, 2/211 rejected.
+# Iteration 38, 537 tables, -logPcorpus = 19405.5, -logPrior = 11.3997, 54/266 analyses unchanged, 2/212 rejected.
+# Iteration 39, 540 tables, -logPcorpus = 19340.4, -logPrior = 11.6502, 55/266 analyses unchanged, 1/211 rejected.
+# Iteration 40, 565 tables, -logPcorpus = 19180.8, -logPrior = 11.8428, 59/266 analyses unchanged, 4/207 rejected.
+# Iteration 39, 555 tables, -logPcorpus = 19000.2, -logPrior = 12.1799, 61/266 analyses unchanged, 1/205 rejected.
+# Iteration 44, 556 tables, -logPcorpus = 19053.8, -logPrior = 11.5845, 66/266 analyses unchanged, 3/200 rejected.
+# Iteration 42, 536 tables, -logPcorpus = 18848.2, -logPrior = 11.7782, 69/266 analyses unchanged, 3/197 rejected.
+# Iteration 39, 542 tables, -logPcorpus = 19256, -logPrior = 11.651, 58/266 analyses unchanged, 2/208 rejected.
+# Iteration 40, 540 tables, -logPcorpus = 19219.4, -logPrior = 11.3791, 55/266 analyses unchanged, 4/211 rejected.
+# Iteration 41, 506 tables, -logPcorpus = 18934.4, -logPrior = 11.3634, 56/266 analyses unchanged, 2/210 rejected.
+# Iteration 40, 563 tables, -logPcorpus = 19011.7, -logPrior = 11.2719, 64/266 analyses unchanged, 4/202 rejected.
+# Iteration 39, 568 tables, -logPcorpus = 19286.7, -logPrior = 11.3341, 51/266 analyses unchanged, 2/215 rejected.
+# Iteration 45, 544 tables, -logPcorpus = 19004.2, -logPrior = 11.5539, 67/266 analyses unchanged, 2/199 rejected.
+# Iteration 41, 561 tables, -logPcorpus = 19111.6, -logPrior = 11.5575, 59/266 analyses unchanged, 1/207 rejected.
+# Iteration 40, 552 tables, -logPcorpus = 19370.7, -logPrior = 11.7047, 56/266 analyses unchanged, 4/210 rejected.
+# Iteration 43, 543 tables, -logPcorpus = 18888, -logPrior = 11.0993, 72/266 analyses unchanged, 4/194 rejected.
+# Iteration 40, 562 tables, -logPcorpus = 19188.2, -logPrior = 10.6428, 57/266 analyses unchanged, 3/209 rejected.
+# Iteration 42, 502 tables, -logPcorpus = 18907.4, -logPrior = 11.5782, 73/266 analyses unchanged, 1/193 rejected.
+# Iteration 46, 539 tables, -logPcorpus = 18993.4, -logPrior = 11.7046, 60/266 analyses unchanged, 2/206 rejected.
+# Iteration 42, 544 tables, -logPcorpus = 19022.2, -logPrior = 11.6847, 61/266 analyses unchanged, 2/205 rejected.
+# Iteration 41, 553 tables, -logPcorpus = 18849.3, -logPrior = 11.3965, 72/266 analyses unchanged, 0/194 rejected.
+# Iteration 44, 543 tables, -logPcorpus = 18939.4, -logPrior = 11.7166, 72/266 analyses unchanged, 3/194 rejected.
+# Iteration 41, 531 tables, -logPcorpus = 19253.7, -logPrior = 11.2387, 64/266 analyses unchanged, 4/202 rejected.
+# Iteration 47, 543 tables, -logPcorpus = 18963.3, -logPrior = 11.2679, 54/266 analyses unchanged, 6/212 rejected.
+# Iteration 43, 559 tables, -logPcorpus = 18997.8, -logPrior = 12.2144, 59/266 analyses unchanged, 3/207 rejected.
+# Iteration 43, 499 tables, -logPcorpus = 18817.6, -logPrior = 10.9352, 77/266 analyses unchanged, 3/189 rejected.
+# Iteration 42, 562 tables, -logPcorpus = 18829.6, -logPrior = 11.6271, 71/266 analyses unchanged, 6/195 rejected.
+# Iteration 41, 567 tables, -logPcorpus = 19399.3, -logPrior = 11.9282, 51/266 analyses unchanged, 1/215 rejected.
+# Iteration 41, 546 tables, -logPcorpus = 19202.3, -logPrior = 11.4747, 55/266 analyses unchanged, 2/211 rejected.
+# Iteration 44, 559 tables, -logPcorpus = 19062.9, -logPrior = 12.1821, 55/266 analyses unchanged, 4/211 rejected.
+# Iteration 48, 519 tables, -logPcorpus = 19006.6, -logPrior = 11.5204, 49/266 analyses unchanged, 5/217 rejected.
+# Iteration 45, 539 tables, -logPcorpus = 18901.5, -logPrior = 11.7162, 60/266 analyses unchanged, 4/206 rejected.
+# Iteration 42, 548 tables, -logPcorpus = 19350.7, -logPrior = 12.0528, 59/266 analyses unchanged, 3/207 rejected.
+# Iteration 44, 517 tables, -logPcorpus = 18910.3, -logPrior = 10.9089, 69/266 analyses unchanged, 1/197 rejected.
+# Iteration 43, 570 tables, -logPcorpus = 18953.4, -logPrior = 11.2907, 67/266 analyses unchanged, 5/199 rejected.
+# Iteration 42, 530 tables, -logPcorpus = 19190.5, -logPrior = 11.9015, 56/266 analyses unchanged, 4/210 rejected.
+# Iteration 49, 529 tables, -logPcorpus = 19026.3, -logPrior = 12.0024, 45/266 analyses unchanged, 3/221 rejected.
+# Iteration 42, 570 tables, -logPcorpus = 19360.7, -logPrior = 11.8029, 58/266 analyses unchanged, 2/208 rejected.
+# Iteration 45, 562 tables, -logPcorpus = 18880.9, -logPrior = 11.7526, 55/266 analyses unchanged, 3/211 rejected.
+# Iteration 45, 514 tables, -logPcorpus = 18914.4, -logPrior = 10.8376# Iteration , 46, 510 tables, -logPcorpus = 6518797.6, -logPrior = /11.2006, 71/266 analyses unchanged, 2/195 rejected.
+266 analyses unchanged, 4/201 rejected.
+# Iteration 43, 537 tables, -logPcorpus = 19330, -logPrior = 11.8153, 59/266 analyses unchanged, 3/207 rejected.
+# Iteration 43, 538 tables, -logPcorpus = 19220.6, -logPrior = 11.4562, 49/266 analyses unchanged, 1/217 rejected.
+# Iteration 44, 571 tables, -logPcorpus = 18941.9, -logPrior = 11.8739, 59/266 analyses unchanged, 3/207 rejected.
+# Iteration 50, 534 tables, -logPcorpus = 18996.1, -logPrior = 11.6867, 57/266 analyses unchanged, 3/209 rejected.
+# Iteration 43, 555 tables, -logPcorpus = 19331.9, -logPrior = 11.7037, 56/266 analyses unchanged, 2/210 rejected.
+# Iteration 47, 506 tables, -logPcorpus = 18710.4, -logPrior = 11.5441, 72/266 analyses unchanged, 4/194 rejected.
+# Iteration 44, 535 tables, -logPcorpus = 19269.9, -logPrior = 11.8471, 49/266 analyses unchanged, 3/217 rejected.
+# Iteration 44, 541 tables, -logPcorpus = 19313.8, -logPrior = 11.5429, 58/266 analyses unchanged, 6/208 rejected.
+# Iteration 46, 548 tables, -logPcorpus = 18818.2, -logPrior = 11.3193, 61/266 analyses unchanged, 2/205 rejected.
+# Iteration 46, 498 tables, -logPcorpus = 18793.4, -logPrior = 11.1176, 67/266 analyses unchanged, 2/199 rejected.
+# Iteration 45, 557 tables, -logPcorpus = 18953.4, -logPrior = 11.6569, 65/266 analyses unchanged, 1/201 rejected.
+# Iteration 45, 537 tables, -logPcorpus = 19195.2, -logPrior = 11.6916, 49/266 analyses unchanged, 2/217 rejected.
+# Iteration 44, 570 tables, -logPcorpus = 19459.8, -logPrior = 11.9047, 57/266 analyses unchanged, 4/209 rejected.
+# Iteration 48, 511 tables, -logPcorpus = 18776, -logPrior = 11.6086, 62/266 analyses unchanged, 2/204 rejected.
+# Iteration 47, 542 tables, -logPcorpus = 18724.6, -logPrior = 11.9019, 65/266 analyses unchanged, 2/201 rejected.
+# Iteration 45, 528 tables, -logPcorpus = 19330.3, -logPrior = 11.5457, 54/266 analyses unchanged, 2/212 rejected.
+# Iteration 47, 505 tables, -logPcorpus = 18860.7, -logPrior = 11.5987, 69/266 analyses unchanged, 2/197 rejected.
+# Iteration 46, 535 tables, -logPcorpus = 18953.6, -logPrior = 11.5957, 60/266 analyses unchanged, 2/206 rejected.
+# Iteration 46, 544 tables, -logPcorpus = 19225.8, -logPrior = 11.6636, 59/266 analyses unchanged, 2/207 rejected.
+# Iteration 51, 537 tables, -logPcorpus = 18996.4, -logPrior = 11.6199, 49/266 analyses unchanged, 5/217 rejected.
+# Iteration 45, 575 tables, -logPcorpus = 19498.3, -logPrior = 11.7234, 57/266 analyses unchanged, 3/209 rejected.
+# Iteration 48, 543 tables, -logPcorpus = 18684.9, -logPrior = 12.0186, 72/266 analyses unchanged, 5/194 rejected.
+# Iteration 46, 534 tables, -logPcorpus = 19298, -logPrior = 11.6146, 64/266 analyses unchanged, 5/202 rejected.
+# Iteration 49, 511 tables, -logPcorpus = 18767.7, -logPrior = 12.1701, 71/266 analyses unchanged, 2/195 rejected.
+# Iteration 48, 518 tables, -logPcorpus = 18855.4, -logPrior = 11.2785, 69/266 analyses unchanged, 1/197 rejected.
+# Iteration 47, 521 tables, -logPcorpus = 18912.8, -logPrior = 11.5222, 64/266 analyses unchanged, 3/202 rejected.
+# Iteration 47, 532 tables, -logPcorpus = 19147.4, -logPrior = 11.4567, 56/266 analyses unchanged, 3/210 rejected.
+# Iteration 52, 547 tables, -logPcorpus = 19099.2, -logPrior = 11.6544, 51/266 analyses unchanged, 2/215 rejected.
+# Iteration 46, 554 tables, -logPcorpus = 19302.7, -logPrior = 11.1865, 52/266 analyses unchanged, 1/214 rejected.
+# Iteration 49, 539 tables, -logPcorpus = 18785.1, -logPrior = 11.5431, 65/266 analyses unchanged, 4/201 rejected.
+# Iteration 47, 528 tables, -logPcorpus = 19214.6, -logPrior = 10.9456, 53/266 analyses unchanged, 5/213 rejected.
+# Iteration 50, 528 tables, -logPcorpus = 18794.9, -logPrior = 11.6344, 68/266 analyses unchanged, 2/198 rejected.
+# Iteration 48, 549 tables, -logPcorpus = 18898.4, -logPrior = 11.9135, 63/266 analyses unchanged, 3/203 rejected.
+# Iteration 48, 536 tables, -logPcorpus = 19147.4, -logPrior = 11.4725, 59/266 analyses unchanged, 7/207 rejected.
+# Iteration 49, 527 tables, -logPcorpus = 18956.4, -logPrior = 10.9035, 66/266 analyses unchanged, 1/200 rejected.
+# Iteration 53, 556 tables, -logPcorpus = 19117.1, -logPrior = 11.946, 51/266 analyses unchanged, 1/215 rejected.
+# Iteration 47, 541 tables, -logPcorpus = 19273, -logPrior = 11.2895, 58/266 analyses unchanged, 2/208 rejected.
+# Iteration 50, 545 tables, -logPcorpus = 18798.4, -logPrior = 11.9001, 64/266 analyses unchanged, 3/202 rejected.
+# Iteration 48, 543 tables, -logPcorpus = 19170.8, -logPrior = 11.1766, 54/266 analyses unchanged, 4/212 rejected.
+# Iteration 49, 527 tables, -logPcorpus = 19104, -logPrior = 11.7845, 61/266 analyses unchanged, 4/205 rejected.
+# Iteration 49, 546 tables, -logPcorpus = 18781.3, -logPrior = 11.0897, 57/266 analyses unchanged, 3/209 rejected.
+# Iteration 50, 519 tables, -logPcorpus = 18878.9, -logPrior = 11.506, 63/266 analyses unchanged, 3/203 rejected.
+# Iteration 54, 550 tables, -logPcorpus = 18986.5, -logPrior = 11.6003, 54/266 analyses unchanged, 6/212 rejected.
+# Iteration 48, 565 tables, -logPcorpus = 19279.3, -logPrior = 11.0455, 52/266 analyses unchanged, 2/214 rejected.
+# Iteration 49, 535 tables, -logPcorpus = 19202.4, -logPrior = 11.8034, 59/266 analyses unchanged, 1/207 rejected.
+# Iteration 50, 555 tables, -logPcorpus = 19190.2, -logPrior = 11.77, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 51, 517 tables, -logPcorpus = 18744.9, -logPrior = 11.4184, 68/266 analyses unchanged, 2/198 rejected.
+# Iteration 50, 562 tables, -logPcorpus = 18808.8, -logPrior = 12.0785, 67/266 analyses unchanged, 4/199 rejected.
+# Iteration 55, 574 tables, -logPcorpus = 19068.1, -logPrior = 11.5183, 61/266 analyses unchanged, 5/205 rejected.
+# Iteration 49, 546 tables, -logPcorpus = 19303.8# Iteration , 50-logPrior = , 11.0554527,  tables, 55-logPcorpus = /19262.8266,  analyses unchanged-logPrior = , 11.41760, /55211/ rejected266. analyses unchanged
+, 1/211 rejected.
+# Iteration 51, 555 tables, -logPcorpus = 18779.4, -logPrior = 11.1333, 73/266 analyses unchanged, 9/193 rejected.
+# Iteration 52, 518 tables, -logPcorpus = 18729.8, -logPrior = 11.8146, 76/266 analyses unchanged, 1/190 rejected.
+# Iteration 51, 516 tables, -logPcorpus = 18964.1, -logPrior = 11.3603, 66/266 analyses unchanged, 1/200 rejected.
+# Iteration 50, 534 tables, -logPcorpus = 19212.6, -logPrior = 11.6136, 62/266 analyses unchanged, 1/204 rejected.
+# Iteration 56, 555 tables, -logPcorpus = 18978.7, -logPrior = 11.6986, 60/266 analyses unchanged, 1/206 rejected.
+# Iteration 51, 547 tables, -logPcorpus = 19197.7, -logPrior = 11.7064, 53/266 analyses unchanged, 2/213 rejected.
+# Iteration 51, 546 tables, -logPcorpus = 18858.7, -logPrior = 11.7314, 71/266 analyses unchanged, 6/195 rejected.
+# Iteration 52, 554 tables, -logPcorpus = 18778.4, -logPrior = 11.5969, 68/266 analyses unchanged, 3/198 rejected.
+# Iteration 53, 515 tables, -logPcorpus = 18775, -logPrior = 11.0855, 69/266 analyses unchanged, 4/197 rejected.
+# Iteration 51, 524 tables, -logPcorpus = 19210, -logPrior = 11.1915, 51/266 analyses unchanged, 3/215 rejected.
+# Iteration 52, 517 tables, -logPcorpus = 18948.1, -logPrior = 11.4058, 63/266 analyses unchanged, 2/203 rejected.
+# Iteration 57, 545 tables, -logPcorpus = 18949.3, -logPrior = 11.5924, 57/266 analyses unchanged, 2/209 rejected.
+# Iteration 52, 543 tables, -logPcorpus = 18864.7, -logPrior = 11.7832, 66/266 analyses unchanged, 6/200 rejected.
+# Iteration 52, 538 tables, -logPcorpus = 19138.3, -logPrior = 11.7994, 59/266 analyses unchanged, 0/207 rejected.
+# Iteration 53, 556 tables, -logPcorpus = 18791.8, -logPrior = 11.8875, 64/266 analyses unchanged, 0/202 rejected.
+# Iteration 54, 521 tables, -logPcorpus = 18773.9, -logPrior = 11.7178, 76/266 analyses unchanged, 3/190 rejected.
+# Iteration 52, 510 tables, -logPcorpus = 19173.3, -logPrior = 11.6381, 64/266 analyses unchanged, 0/202 rejected.
+# Iteration 51, 535 tables, -logPcorpus = 19229.1, -logPrior = 11.6643, 55/266 analyses unchanged, 3/211 rejected.
+# Iteration 53, 520 tables, -logPcorpus = 18907.8, -logPrior = 11.7507, 67/266 analyses unchanged, 3/199 rejected.
+# Iteration 58, 541 tables, -logPcorpus = 18885.5, -logPrior = 11.7853, 59/266 analyses unchanged, 1/207 rejected.
+# Iteration 53, 567 tables, -logPcorpus = 18915.3, -logPrior = 10.7703, 65/266 analyses unchanged, 5/201 rejected.
+# Iteration 53, 537 tables, -logPcorpus = 19124.8, -logPrior = 11.374, 56/266 analyses unchanged, 2/210 rejected.
+# Iteration 54, 564 tables, -logPcorpus = 18778.3, -logPrior = 12.0359, 65/266 analyses unchanged, 4/201 rejected.
+# Iteration 55, 519 tables, -logPcorpus = 18689.7, -logPrior = 11.0766, 79/266 analyses unchanged, 3/187 rejected.
+# Iteration 53, 512 tables, -logPcorpus = 19146.4, -logPrior = 11.4182, 71/266 analyses unchanged, 2/195 rejected.
+# Iteration 54, 518 tables, -logPcorpus = 18894, -logPrior = 11.1177, 69/266 analyses unchanged, 5/197 rejected.
+# Iteration 52, 527 tables, -logPcorpus = 19275.1, -logPrior = 11.6305, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 54, 557 tables, -logPcorpus = 18926.4, -logPrior = 11.4894, 63/266 analyses unchanged, 4/203 rejected.
+# Iteration 59, 548 tables, -logPcorpus = 18865.7, -logPrior = 11.9957, 67/266 analyses unchanged, 4/199 rejected.
+# Iteration 54, 511 tables, -logPcorpus = 19202.5, -logPrior = 11.2753, 59/266 analyses unchanged, 2/207 rejected.
+# Iteration 56, 531 tables, -logPcorpus = 18735.8, -logPrior = 11.1012, 69/266 analyses unchanged, 1/197 rejected.
+# Iteration 55, 556 tables, -logPcorpus = 18768, -logPrior = 11.5299, 64/266 analyses unchanged, 4/202 rejected.
+# Iteration 53, 533 tables, -logPcorpus = 19271.2, -logPrior = 11.6934, 58/266 analyses unchanged, 1/208 rejected.
+# Iteration 54, 502 tables, -logPcorpus = 19132.4, -logPrior = 11.5023, 55/266 analyses unchanged, 3/211 rejected.
+# Iteration 55, 518 tables, -logPcorpus = 18887.9, -logPrior = 11.3781, 70/266 analyses unchanged, 3/196 rejected.
+# Iteration 55, 559 tables, -logPcorpus = 18857.3, -logPrior = 11.0553, 67/266 analyses unchanged, 3/199 rejected.
+# Iteration 57, 529 tables, -logPcorpus = 18759.1, -logPrior = 11.3782, 70/266 analyses unchanged, 2/196 rejected.
+# Iteration 60, 535 tables, -logPcorpus = 18855.7, -logPrior = 11.3751, 64/266 analyses unchanged, 6/202 rejected.
+# Iteration 55, 525 tables, -logPcorpus = 19133.6, -logPrior = 11.3689, 50/266 analyses unchanged, 3/216 rejected.
+# Iteration 54, 538 tables, -logPcorpus = 19250.4, -logPrior = 11.9947, 61/266 analyses unchanged, 2/205 rejected.
+# Iteration 56, 538 tables, -logPcorpus = 18791.2, -logPrior = 11.7459, 60/266 analyses unchanged, 4/206 rejected.
+# Iteration 55, 506 tables, -logPcorpus = 19099.9, -logPrior = 11.5284, 55/266 analyses unchanged, 3/211 rejected.
+# Iteration 56, 509 tables, -logPcorpus = 18797.8, -logPrior = 11.3882, 61/266 analyses unchanged, 1/205 rejected.
+# Iteration 58, 528 tables, -logPcorpus = 18739.9, -logPrior = 11.2372, 66/266 analyses unchanged, 3/200 rejected.
+# Iteration 56, 542 tables, -logPcorpus = 18808.8, -logPrior = 11.19, 57/266 analyses unchanged, 3/209 rejected.
+# Iteration 56, 524 tables, -logPcorpus = 19182.7, -logPrior = 11.8339, 59/266 analyses unchanged, 3/207 rejected.
+# Iteration 55, 521 tables, -logPcorpus = 19154.7, -logPrior = 11.808, 65/266 analyses unchanged, 6/201 rejected.
+# Iteration 56, 520 tables, -logPcorpus = 19123.5, -logPrior = 11.6197, 69/266 analyses unchanged, 3/197 rejected.
+# Iteration 59, 523 tables, -logPcorpus = 18713, -logPrior = 11.3283, 78/266 analyses unchanged, 2/188 rejected.
+# Iteration 57, 508 tables, -logPcorpus = 18868.6, -logPrior = 11.3534, 66/266 analyses unchanged, 3/200 rejected.
+# Iteration 57, 536 tables, -logPcorpus = 18716.9, -logPrior = 11.0548, 63/266 analyses unchanged, 1/203 rejected.
+# Iteration 57, 543 tables, -logPcorpus = 18890.2, -logPrior = 11.8464, 67/266 analyses unchanged, 4/199 rejected.
+# Iteration 61, 533 tables, -logPcorpus = 18936.1, -logPrior = 11.4259, 62/266 analyses unchanged, 4/204 rejected.
+# Iteration 57, 532 tables, -logPcorpus = 19197.2, -logPrior = 11.8401, 58/266 analyses unchanged, 0/208 rejected.
+# Iteration 56, 543 tables, -logPcorpus = 19226.1, -logPrior = 11.6612, 56/266 analyses unchanged, 5/210 rejected.
+# Iteration 60, 512 tables, -logPcorpus = 18706.7, -logPrior = 10.7375, 83/266 analyses unchanged, 3/183 rejected.
+# Iteration 57, 505 tables, -logPcorpus = 19136.3, -logPrior = 11.5947, 66/266 analyses unchanged, 6/200 rejected.
+# Iteration 58, 508 tables, -logPcorpus = 18839.7, -logPrior = 11.665, 64/266 analyses unchanged, 4/202 rejected.
+# Iteration 58, 542 tables, -logPcorpus = 18686.9, -logPrior = 11.5733, 75/266 analyses unchanged, 3/191 rejected.
+# Iteration 58, 541 tables, -logPcorpus = 18954.9, -logPrior = 11.7163, 69/266 analyses unchanged, 3/197 rejected.
+# Iteration 62, 531 tables, -logPcorpus = 18893.4, -logPrior = 11.1321, 63/266 analyses unchanged, 4/203 rejected.
+# Iteration 58, 527 tables, -logPcorpus = 19191.1, -logPrior = 11.6829, 61/266 analyses unchanged, 1/205 rejected.
+# Iteration 57, 531 tables, -logPcorpus = 19242.1, -logPrior = 11.4245, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 58, 500 tables, -logPcorpus = 19115.9, -logPrior = 11.2075, 62/266 analyses unchanged, 4/204 rejected.
+# Iteration 59, 529 tables, -logPcorpus = 18882.7, -logPrior = 10.6473, 67/266 analyses unchanged, 1/199 rejected.
+# Iteration 59, 540 tables, -logPcorpus = 18779.9, -logPrior = 11.4681, 70/266 analyses unchanged, 1/196 rejected.
+# Iteration 61, 512 tables, -logPcorpus = 18625.2, -logPrior = 11.113, 72/266 analyses unchanged, 3/194 rejected.
+# Iteration 59, 547 tables, -logPcorpus = 18991.9, -logPrior = 11.6084, 59/266 analyses unchanged, 5/207 rejected.
+# Iteration 63, 541 tables, -logPcorpus = 18886.2, -logPrior = 11.5274, 59/266 analyses unchanged, 3/207 rejected.
+# Iteration 59, 528 tables, -logPcorpus = 18953.3, -logPrior = 11.9108, 56/266 analyses unchanged, 2/210 rejected.
+# Iteration 58, 526 tables, -logPcorpus = 19226.9, -logPrior = 11.7998, 53/266 analyses unchanged, 3/213 rejected.
+# Iteration 60, 539 tables, -logPcorpus = 18907.2, -logPrior = 12.0581, 60/266 analyses unchanged, 2/206 rejected.
+# Iteration 59, 516 tables, -logPcorpus = 19162.3, -logPrior = 11.4009, 60/266 analyses unchanged, 2/206 rejected.
+# Iteration 62, 526 tables, -logPcorpus = 18764.9, -logPrior = 11.8286, 75/266 analyses unchanged, 0/191 rejected.
+# Iteration 60, 555 tables, -logPcorpus = 18793.1, -logPrior = 10.8337, 75/266 analyses unchanged, 5/191 rejected.
+# Iteration 60, 516 tables, -logPcorpus = 18913.9, -logPrior = 11.8174, 58/266 analyses unchanged, 3/208 rejected.
+# Iteration 64, 547 tables, -logPcorpus = 18898.5, -logPrior = 11.9703, 58/266 analyses unchanged, 4/208 rejected.
+# Iteration 60, 535 tables, -logPcorpus = 19048.2, -logPrior = 11.4807, 64/266 analyses unchanged, 2/202 rejected.
+# Iteration 60, 506 tables, -logPcorpus = 19127.8, -logPrior = 11.1358, 58/266 analyses unchanged, 5/208 rejected.
+# Iteration 59, 519 tables, -logPcorpus = 19222.5, -logPrior = 11.4366, 54/266 analyses unchanged, 6/212 rejected.
+# Iteration 63, 523 tables, -logPcorpus = 18816.4, -logPrior = 11.4702, 74/266 analyses unchanged, 3/192 rejected.
+# Iteration 65, 551 tables, -logPcorpus = 18996.3, -logPrior = 11.4509, 55/266 analyses unchanged, 2/211 rejected.
+# Iteration 61, 556 tables, -logPcorpus = 18855.3, -logPrior = 10.6745, 58/266 analyses unchanged, 4/208 rejected.
+# Iteration 61, 555 tables, -logPcorpus = 18753.9, -logPrior = 11.6623, 69/266 analyses unchanged, 2/197 rejected.
+# Iteration 64, 539 tables, -logPcorpus = 18801.2, -logPrior = 11.581, 71/266 analyses unchanged, 1/195 rejected.
+# Iteration 60, 551 tables, -logPcorpus = 19326.1, -logPrior = 11.6467, 51/266 analyses unchanged, 1/215 rejected.
+# Iteration 61, 534 tables, -logPcorpus = 18883.1, -logPrior = 11.3724, 63/266 analyses unchanged, 1/203 rejected.
+# Iteration 66, 561 tables, -logPcorpus = 18970.4, -logPrior = 11.5783, 59/266 analyses unchanged, 4/207 rejected.
+# Iteration 62, 537 tables, -logPcorpus = 18925.5, -logPrior = 11.1271, 65/266 analyses unchanged, 1/201 rejected.
+# Iteration 62, 541 tables, -logPcorpus = 18641.3, -logPrior = 11.8328, 64/266 analyses unchanged, 5/202 rejected.
+# Iteration 61, 540 tables, -logPcorpus = 18976.2, -logPrior = 11.2347, 67/266 analyses unchanged, 1/199 rejected.
+# Iteration 65, 542 tables, -logPcorpus = 18786, -logPrior = 11.1288, 65/266 analyses unchanged, 3/201 rejected.
+# Iteration 61, 512 tables, -logPcorpus = 19166.3, -logPrior = 11.3729, 57/266 analyses unchanged, 3/209 rejected.
+# Iteration 62, 533 tables, -logPcorpus = 18904.2, -logPrior = 11.3048, 66/266 analyses unchanged, 2/200 rejected.
+# Iteration 67, 569 tables, -logPcorpus = 18978.7, -logPrior = 12.1794, 61/266 analyses unchanged, 6/205 rejected.
+# Iteration 63, 562 tables, -logPcorpus = 19056.6, -logPrior = 11.5849, 54/266 analyses unchanged, 4/212 rejected.
+# Iteration 63, 538 tables, -logPcorpus = 18669.7, -logPrior = 11.542, 71/266 analyses unchanged, 4/195 rejected.
+# Iteration 66, 537 tables, -logPcorpus = 18810.4, -logPrior = 11.1036, 68/266 analyses unchanged, 1/198 rejected.
+# Iteration 62, 518 tables, -logPcorpus = 19043.1, -logPrior = 11.303, 61/266 analyses unchanged, 3/205 rejected.
+# Iteration 68, 543 tables, -logPcorpus = 18844.5, -logPrior = 11.4328, 66/266 analyses unchanged, 3/200 rejected.
+# Iteration 62, 522 tables, -logPcorpus = 19248.1, -logPrior = 11.2944, 57/266 analyses unchanged, 2/209 rejected.
+# Iteration 63, 563 tables, -logPcorpus = 18954.1, -logPrior = 12.3328, 66/266 analyses unchanged, 4/200 rejected.
+# Iteration 61, 539 tables, -logPcorpus = 19246, -logPrior = 11.6003, 57/266 analyses unchanged, 1/209 rejected.
+# Iteration 64, 541 tables, -logPcorpus = 18647, -logPrior = 11.4282, 65/266 analyses unchanged, 5/201 rejected.
+# Iteration 64, 552 tables, -logPcorpus = 19178.1, -logPrior = 11.6578, 59/266 analyses unchanged, 2/207 rejected.
+# Iteration 67, 533 tables, -logPcorpus = 18764.7, -logPrior = 11.6961, 68/266 analyses unchanged, 5/198 rejected.
+# Iteration 69, 531 tables, -logPcorpus = 18831.3, -logPrior = 11.479, 69/266 analyses unchanged, 7/197 rejected.
+# Iteration 63, 510 tables, -logPcorpus = 19178.1, -logPrior = 11.876, 55/266 analyses unchanged, 4/211 rejected.
+# Iteration 64, 557 tables, -logPcorpus = 19036.2, -logPrior = 11.0474, 62/266 analyses unchanged, 3/204 rejected.
+# Iteration 63, 521 tables, -logPcorpus = 19012.7, -logPrior = 11.4619, 60/266 analyses unchanged, 2/206 rejected.
+# Iteration 65, 566 tables, -logPcorpus = 18715.7, -logPrior = 11.5271, 70/266 analyses unchanged, 4/196 rejected.
+# Iteration 62, 511 tables, -logPcorpus = 19195.3, -logPrior = 11.7977, 58/266 analyses unchanged, 3/208 rejected.
+# Iteration 68, 539 tables, -logPcorpus = 18803.5, -logPrior = 11.408, 68/266 analyses unchanged, 2/198 rejected.
+# Iteration 65, 531 tables, -logPcorpus = 19056.1, -logPrior = 11.5726, 53/266 analyses unchanged, 2/213 rejected.
+# Iteration 64, 514 tables, -logPcorpus = 19234.5, -logPrior = 11.4852, 59/266 analyses unchanged, 1/207 rejected.
+# Iteration 70, 553 tables, -logPcorpus = 18937.3, -logPrior = 11.5389, 66/266 analyses unchanged, 7/200 rejected.
+# Iteration 65, 548 tables, -logPcorpus = 18847.2, -logPrior = 11.785, 59/266 analyses unchanged, 6/207 rejected.
+# Iteration 64, 523 tables, -logPcorpus = 18981.8, -logPrior = 11.9628, 54/266 analyses unchanged, 3/212 rejected.
+# Iteration 66, 538 tables, -logPcorpus = 18673.4, -logPrior = 11.5681, 65/266 analyses unchanged, 2/201 rejected.
+# Iteration 63, 529 tables, -logPcorpus = 19239.1, -logPrior = 11.7928, 55/266 analyses unchanged, 2/211 rejected.
+# Iteration 66, 537 tables, -logPcorpus = 19046.1, -logPrior = 11.3227, 55/266 analyses unchanged, 0/211 rejected.
+# Iteration 69, 536 tables, -logPcorpus = 18756.5, -logPrior = 10.494, 76/266 analyses unchanged, 0/190 rejected.
+# Iteration 65, 521 tables, -logPcorpus = 19239.6, -logPrior = 11.308, 56/266 analyses unchanged, 1/210 rejected.
+# Iteration 66, 546 tables, -logPcorpus = 18850.9, -logPrior = 11.576, 72/266 analyses unchanged, 3/194 rejected.
+# Iteration 65, 520 tables, -logPcorpus = 18946.2, -logPrior = 11.6016, 64/266 analyses unchanged, 4/202 rejected.
+# Iteration 67, 536 tables, -logPcorpus = 18741.5, -logPrior = 11.5435, 65/266 analyses unchanged, 3/201 rejected.
+# Iteration 67, 522 tables, -logPcorpus = 18962.8, -logPrior = 11.3967, 55/266 analyses unchanged, 2/211 rejected.
+# Iteration 71, 538 tables, -logPcorpus = 18850, -logPrior = 11.503, 62/266 analyses unchanged, 3/204 rejected.
+# Iteration 70, 511 tables, -logPcorpus = 18671.4, -logPrior = 10.8127, 69/266 analyses unchanged, 0/197 rejected.
+# Iteration 66, 539 tables, -logPcorpus = 19190, -logPrior = 11.6162, 58/266 analyses unchanged, 1/208 rejected.
+# Iteration 64, 516 tables, -logPcorpus = 19261.9, -logPrior = 11.3945, 57/266 analyses unchanged, 2/209 rejected.
+# Iteration 67, 556 tables, -logPcorpus = 18951.7, -logPrior = 11.4812, 63/266 analyses unchanged, 3/203 rejected.
+# Iteration 68, 528 tables, -logPcorpus = 18658.4, -logPrior = 11.6269, 66/266 analyses unchanged, 3/200 rejected.
+# Iteration 66, 517 tables, -logPcorpus = 18948.7, -logPrior = 11.2186, 56/266 analyses unchanged, 1/210 rejected.
+# Iteration 72, 526 tables, -logPcorpus = 18892.4, -logPrior = 11.8004, 62/266 analyses unchanged, 4/204 rejected.
+# Iteration 68, 527 tables, -logPcorpus = 18998.2, -logPrior = 11.5545, 60/266 analyses unchanged, 4/206 rejected.
+# Iteration 65, 539 tables, -logPcorpus = 19284.9, -logPrior = 11.5097, 53/266 analyses unchanged, 4/213 rejected.
+# Iteration 67, 538 tables, -logPcorpus = 19221.6, -logPrior = 11.1668, 59/266 analyses unchanged, 2/207 rejected.
+# Iteration 68, 567 tables, -logPcorpus = 18873.1, -logPrior = 11.8563, 62/266 analyses unchanged, 1/204 rejected.
+# Iteration # Iteration 67, 502 tables, -logPcorpus = 18979.2, -logPrior = 11.1566, 69, 525 tables, -logPcorpus = 18617.2, -logPrior = 11.8192, 65/266 analyses unchanged, 4/201 rejected.
+59/266 analyses unchanged, 4/207 rejected.
+# Iteration 73, 524 tables, -logPcorpus = 18935.6, -logPrior = 11.6683, 62/266 analyses unchanged, 3/204 rejected.
+# Iteration 71, 519 tables, -logPcorpus = 18750.8, -logPrior = 10.9437, 81/266 analyses unchanged, 3/185 rejected.
+# Iteration 69, 513 tables, -logPcorpus = 18982.2, -logPrior = 11.2677, 58/266 analyses unchanged, 0/208 rejected.
+# Iteration 68, 524 tables, -logPcorpus = 19084.9, -logPrior = 11.2376, 60/266 analyses unchanged, 2/206 rejected.
+# Iteration 69, 573 tables, -logPcorpus = 18928.4, -logPrior = 11.6003, 61/266 analyses unchanged, 3/205 rejected.
+# Iteration 66, 544 tables, -logPcorpus = 19282.8, -logPrior = 11.4746, 55/266 analyses unchanged, 1/211 rejected.
+# Iteration 68, 510 tables, -logPcorpus = 18983.3, -logPrior = 11.6262, 61/266 analyses unchanged, 1/205 rejected.
+# Iteration 74, 521 tables, -logPcorpus = 18867.1, -logPrior = 11.6378, 63/266 analyses unchanged, 3/203 rejected.
+# Iteration 70, 527 tables, -logPcorpus = 18594.7, -logPrior = 11.704, 66/266 analyses unchanged, 4/200 rejected.
+# Iteration 72, 534 tables, -logPcorpus = 18783.1, -logPrior = 11.0274, 68/266 analyses unchanged, 1/198 rejected.
+# Iteration 70, 505 tables, -logPcorpus = 18953.1, -logPrior = 11.3423, 64/266 analyses unchanged, 2/202 rejected.
+# Iteration 70, 563 tables, -logPcorpus = 18931.7, -logPrior = 11.8108, 62/266 analyses unchanged, 5/204 rejected.
+# Iteration 69, 531 tables, -logPcorpus = 19175.2, -logPrior = 11.315, 53/266 analyses unchanged, 1/213 rejected.
+# Iteration 67, 559 tables, -logPcorpus = 19279.9, -logPrior = 11.6641, 58/266 analyses unchanged, 1/208 rejected.
+# Iteration 69, 504 tables, -logPcorpus = 19000.9, -logPrior = 11.1432, 52/266 analyses unchanged, 5/214 rejected.
+# Iteration 75, 520 tables, -logPcorpus = 18784.6, -logPrior = 11.6567, 67/266 analyses unchanged, 2/199 rejected.
+# Iteration 68, 556 tables, -logPcorpus = 19184.2, -logPrior = 11.675, 61/266 analyses unchanged, 1/205 rejected.
+# Iteration 73, 526 tables, -logPcorpus = 18710.6, -logPrior = 11.0473, 68/266 analyses unchanged, 1/198 rejected.
+# Iteration 70, 530 tables, -logPcorpus = 19102.8, -logPrior = 11.4056, 53/266 analyses unchanged, 1/213 rejected.
+# Iteration 70, 517 tables, -logPcorpus = 19045.6, -logPrior = 11.0276, 60/266 analyses unchanged, 2/# Iteration # Iteration # Iteration # Iteration 69, 561 tables, -logPcorpus = 19244.3, -logPrior = 11.998, 55/266 analyses unchanged, 2/211 rejected.
+# Iteration # Iteration 74, 528 tables, -logPcorpus = 18745.4, -logPrior = 11.2782, 77/266 analyses unchanged, 3/189 rejected.
+2067671, 576 tables, -logPcorpus = 18968.9, -logPrior = 11.8458, 58/266 analyses unchanged, 3/208 rejected.
+71, 519 tables, -logPcorpus = 18894.9, -logPrior = 11.6182, 64/266 analyses unchanged, 2/202 rejected.
+71, 537 tables, -logPcorpus = 18600.2, -logPrior = 11.6642, 79/266 analyses unchanged, 3/187 rejected.
+ rejected, 525 tables, -logPcorpus = 18906.8, -logPrior = 11.2185, 63/266 analyses unchanged, 5/203 rejected.
+.
+# Iteration # Iteration # Iteration # Iteration 72, 520 tables, # Iteration # Iteration 72, 537 tables, -logPcorpus = 18895.1, -logPrior = 11.8672, 63/# Iteration 717077, -logPcorpus = 18846.7, -logPrior = 75266 analyses unchanged, 1/203 rejected.
+72, 544, 524 tables, -logPcorpus = 19131.7, 535 tables, -logPcorpus = 18879.8, -logPrior = 11.6053, 70/266 analyses unchanged, 3/196 rejected.
+10.8437, 535 tables, -logPcorpus = 18805.1, -logPrior = 11.6678, 79/266 analyses unchanged, 2/187 rejected.
+ tables, -logPcorpus = , 557 tables, -logPcorpus = 19278.5, -logPrior = 11.9974, 58/266 analyses unchanged, 1/208 rejected.
+, 18657.2-logPrior = 11.0222, 57/266 analyses unchanged, 5/209 rejected.
+65/266 analyses unchanged, 3/201 rejected., -logPrior = 11.5111, 77
+/266 analyses unchanged, 1/189 rejected.
+# Iteration 73, 527 tables, -logPcorpus = 18835, -logPrior = 12.0353, 65/266 analyses unchanged, 3/201 rejected.
+# Iteration 72, 536 tables, -logPcorpus = 19147.3, -logPrior = 11.0368, 62/266 analyses unchanged, 1/204 rejected.
+# Iteration 78, 541 tables, -logPcorpus = 18890.3, -logPrior = 11.2316, 70/266 analyses unchanged, 3/196 rejected.
+# Iteration 73# Iteration , 524 tables, -logPcorpus = 18724.9, -logPrior = 11.6289, 78/266 analyses unchanged, 2/188 rejected.71
+, 503 tables, -logPcorpus = 18935.3, -logPrior = 11.3845, 48/266 analyses unchanged, 4/218 rejected.
+# Iteration 76, 529 tables, -logPcorpus = 18870.1, -logPrior = 11.7327, 68/266 analyses unchanged, 2/198 rejected.
+# Iteration 73, 506 tables, -logPcorpus = 18885.5, -logPrior = 11.0488, 65/266 analyses unchanged, 3/201 rejected.
+# Iteration 74# Iteration , 73, 518 tables, -logPcorpus = 54619179.9 tables, -logPcorpus = , -logPrior = 18815.8, -logPrior = 11.339211.7463, 68/
