@@ -43,14 +43,24 @@ sometimes also adult-directed speech:
 To build your own recipe, we suggest you look at those recipes. 
 You can also do it your own way from the instructions below.
 
-Case study: Extrapolation to all CHILDES Northern French databases
+Example recipe creation: Extrapolation to all CHILDES Northern French databases
 with kids under 2yo.
-- Since in this case we want to collapse over several CHILDES corpora, I made a copy of childes and renamed it nfrchildes2yo
-- I see that it's missing step 1 - I find Xuan Nga's wrapper inside database_creation and make a copy in my own folder: 0_clean_many_files.sh
-- 
-... not done!! To do:
-- add Camila's bit to select adult speakers (remember to add playmate and Target_Child to the exclusion list)
-- then improve cha2sel
+-------
+
+- Since in this case we want to collapse over several CHILDES corpora, I made a copy of the childes recipe folder and renamed it nfrchildes2yo
+- I see that it's missing step 1 - I find Xuan Nga's wrapper "wrapper_clean_many_files.sh" inside database_creation and make a copy in my own folder: 0_clean_many_files.sh
+- I opened & edited lines 1-32 (wondered what the append items do -- to revisit)
+- I edited the lines that govern which files are analyzed (now all, not just those with a single adult)
+- I added lines to create the participant selection on the fly for each file, based on the specified roles
+- I created a new version of cha2sel that uses that selection
+- then I did:
+cd CDSWordSeg/recipes/nfrchildes2yo/
+chmod +x 0_clean_many_files.sh  
+./0_clean_many_files.sh
+
+ERROR! illegal byte sequence --> probably a problem of encoding due to the fact that these files are French; only occurs with some files (the grégoire) but not others (the camilles)
+however, in the camilles, not all lines in included go through. I looked at three cases; in 2 the line at which the cleaning cut contained a parenthesis, but in the third case there was nothing at all special.
+
 add coding issues to troubleshooting below
 
 

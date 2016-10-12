@@ -33,20 +33,13 @@ tr -d '\>' |
 tr -d ','  |
 tr -d ':'  |
 sed 's/&[^ ]*//g' |
-grep -v '\[- spa\]' |
-sed 's/[^ ]*@sspa//g' |
 sed 's/\[[^[]*\]//g' |
 sed 's/([^(]*)//g' |
 sed 's/xxx//g' |
 sed 's/www//g' |
 sed 's/XXX//g' |
 sed 's/yyy//g' |
-sed 's/0*//g' |
-sed 's/@o//g' |
-sed 's/@f//g' |
-sed 's/@q//g' |
-sed 's/@u//g' |
-sed 's/@c//g' |
+sed 's/0.//g' |
 sed "s/\' / /g"  |
 sed 's/  / /g' |
 sed 's/ $//g' |
@@ -89,18 +82,20 @@ sed 's/allgone/all gone/g' tmp.tmp |
     sed 's/ohh/oh/g' |
     sed "s/ im / I\'m /g" |
     tr -d '\t' |
-    sed '/^$/d' |
-    iconv -t ISO-8859-1 > "$RESFOLDER$ORTHO"
+    sed '/^$/d'  > tmp2.tmp
 
 
 #This is to process all the "junk" that were generated when making the
 #changes from included to ortho.  For e.g., the cleaning process
 #generated double spaces between 2 words (while not present in
 #included)
-sed -i -e 's/  $//g' $RESFOLDER$ORTHO
-sed -i -e 's/  / /g' $RESFOLDER$ORTHO
-sed -i -e 's/  / /g' $RESFOLDER$ORTHO  # not same encoding as above?
-sed -i -e 's/^ //g' $RESFOLDER$ORTHO
-sed -i -e 's/ $//g' $RESFOLDER$ORTHO
+sed  's/  $//g' < tmp2.tmp |
+    sed   's/  / /g' |
+    sed   's/  / /g' |
+    sed   's/^ //g' |
+    sed   's/ $//g' |
+    iconv -t ISO-8859-1> "$RESFOLDER$ORTHO"
+
 
 rm -f tmp.tmp
+rm -f tmp2.tmp
