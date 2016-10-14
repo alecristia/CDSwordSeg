@@ -14,11 +14,14 @@ INCPARTS=$4
 
 echo "selecting $INCPARTS from $CHAFILE"
 
-#********** A T T E N T I O N ***************#
-#Modify this section to select the lines you want, for example here, we exclude speech by children and non-humans
 
 
-iconv -f ISO-8859-1 "$CHAFILE" |
-    grep '^*' |
-    grep "$INCPARTS"  |   
-    iconv -t ISO-8859-1 >> $RESFOLDER$SELFILE
+tr '\015' '\n' < "$CHAFILE"  |
+   grep '^*'   |
+   grep "${INCPARTS}" > $RESFOLDER$SELFILE
+
+
+#iconv -t ISO-8859-1 ||
+
+#    
+ #  grep "$INCPARTS"

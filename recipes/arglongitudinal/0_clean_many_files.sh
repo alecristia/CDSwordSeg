@@ -14,18 +14,18 @@
 # files.
 
 # Adapt the following variables, being careful to provide absolute paths
-PATH_TO_SCRIPTS="/Users/acristia/Documents/CDSWordSeg/database_creation/"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
+PATH_TO_SCRIPTS="/Users/acristia/Documents/CDSWordSeg/database_creation"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
 
-INPUT_CORPUS="/Users/acristia/Documents/test" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
+INPUT_CORPUS="/Users/acristia/Documents/lscp-ciipme-gh/transcripciones_longitudinal/" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 
 #the following will be created
-CHA_FOLDER="/Users/acristia/Documents/processed_corpora/nfrchildes2yo_cha/" #we will make a copy of all cha files that are considered and put them here E.g. CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"- NOTICE THE / AT THE END OF THE NAME
+CHA_FOLDER="/Users/acristia/Documents/processed_corpora/arglongitudinal_cha/" #we will make a copy of all cha files that are considered and put them here E.g. CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"- NOTICE THE / AT THE END OF THE NAME
 
-RES_FOLDER="/Users/acristia/Documents/processed_corpora/nfrchildes2yo_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/Users/acristia/Documents/processed_corpora/arglongitudinal_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
-INPUT_FILES="/Users/acristia/Documents/processed_corpora/nfrchildes2yo_info.txt" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
-OUTPUT_FILE2="/Users/acristia/Documents/processed_corpora/nfrchildes2yo_processedFiles.txt" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
+INPUT_FILES="/Users/acristia/Documents/processed_corpora/arglongitudinal_info.txt" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
+OUTPUT_FILE2="/Users/acristia/Documents/processed_corpora/arglongitudinal_processedFiles.txt" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
 
 
 APPEND1="cha" #whatever you would like to be appended to the corpus folder that will store all cha files E.g. APPEND1="_cha"
@@ -54,7 +54,7 @@ for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 le
 echo "finding out who's a speaker in $f"
 
 	    IncludedParts=`tr '\015' '\n' < $f | #for each file
-		iconv -f ISO-8859-1 | #convert the file to deal with multibyte e.g. accented characters
+		iconv -f ISO-8859-1 | #convert the file to deal with multibyte e.g. accented characters ###!!! try -t
 		grep "@ID" |      #take only @ID lines of the file
 		awk -F "|" '{ print $3, $8 }' | #let through only 3-letter code and role
 		grep -v 'Child\|Sister\|Brother\|Cousin\|Boy\|Girl\|Unidentified\|Sibl.+\|Target_.+\|Non_Hum.+\|Play.+' | #remove all the children and non-human participants to leave only adults
@@ -63,7 +63,6 @@ echo "finding out who's a speaker in $f"
 		sed "s/^/*/g" | #add an asterisk at the beginning
 		sed "s/%/\\\\\|*/g" | #add a pipe between every two
 		sed "s/\\\\\|.$//" ` #remove the pipe* next to the end of line & close the text call
-
 		 
 
 		SUBCORPUS_OUT_LEVEL2=$SUBCORPUS_OUT$(basename "$f" .cha)$APPEND3/
