@@ -47,19 +47,20 @@ Example recipe creation: Extrapolation to all CHILDES Northern French databases
 with kids under 2yo.
 -------
 
-- Since in this case we want to collapse over several CHILDES corpora, I made a copy of the childes recipe folder and renamed it nfrchildes2yo
-- I see that it's missing step 1 - I find Xuan Nga's wrapper "wrapper_clean_many_files.sh" inside database_creation and make a copy in my own folder: 0_clean_many_files.sh
-- I opened & edited lines 1-32 (wondered what the append items do -- to revisit)
-- I edited the lines that govern which files are analyzed (now all, not just those with a single adult)
-- I added lines to create the participant selection on the fly for each file, based on the specified roles
-- I created a new version of cha2sel that uses that selection
-- then I did:
+- Since in this case we want to collapse over several CHILDES corpora, I use as inspiration the childes recipe folder and renamed it nfrchildes2yo
+- Step 1: Database creation
+	- the childes recipe was missing step 1 - I find Xuan Nga's wrapper "wrapper_clean_many_files.sh" inside database_creation and made a copy in nfrchildes2yo: 1_clean_many_files.sh
+	- I opened & edited lines 1-32 (wondered what the append items do -- to revisit)
+	- I edited the lines that govern which files are analyzed (now all, not just those with a single adult)
+	- I added lines to create the participant selection on the fly for each file, based on the specified roles
+	- I created a new version of cha2sel that uses that selection and changed the cha2sel being called inside 1_clean_many_files.sh
+	- finally I did:
 cd CDSWordSeg/recipes/nfrchildes2yo/
-chmod +x 0_clean_many_files.sh  
-./0_clean_many_files.sh
+chmod +x 1_clean_many_files.sh  
+./1_clean_many_files.sh
+	- Note: on my mac got ERROR! illegal byte sequence --> probably a problem of encoding; but this issue does NOT occur on oberon, where all files are treated correctly. No known fix for mac users not working on oberon.
+- Step 2: Phonologization
 
-ERROR! illegal byte sequence --> probably a problem of encoding due to the fact that these files are French; only occurs with some files (the grégoire) but not others (the camilles)
-however, in the camilles, not all lines in included go through. I looked at three cases; in 2 the line at which the cleaning cut contained a parenthesis, but in the third case there was nothing at all special.
 
 add coding issues to troubleshooting below
 
