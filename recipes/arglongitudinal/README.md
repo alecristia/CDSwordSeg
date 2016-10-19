@@ -22,5 +22,28 @@ TODO:
 - thus, we could create three versions: all, CDS, and ADS
 
 # Step 2: Phonologization
-Waiting for Laia's commit
 
+- I used as basis Laia's latest wrapper_oneFilePerCorpus.sh which contains transcription for Spanish
+! note, we know that there is a bug in the perl section
+
+- changed ORTHO definition to a loop because we have many files
+
+TODO:
+create a small sample to test the perl bit
+and run it locally to find the bug
+
+apply phonologizer to Arg files
+
+try the new descriptive file
+
+inspect the results & make some decisions
+
+write the concatenator
+
+segment the Spanish
+
+Do all of the above with Catalan and Castillan
+
+write the language mixer
+
+write the AG grammar for the mix
