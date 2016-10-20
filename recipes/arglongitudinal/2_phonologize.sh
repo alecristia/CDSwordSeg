@@ -46,7 +46,8 @@ for ORTHO in $RESFOLDER/*ortholines.txt; do
 	elif [ "$LANGUAGE" = "aspanish" ]
 	   then
 	  echo "recognized $LANGUAGE"
-	  tr '[:upper:]' '[:lower:]' < "$ORTHO"  | # change uppercase letters to lowercase letters
+iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
+    tr '[:upper:]' '[:lower:]' |# change uppercase letters to lowercase letters
 	  tr -d '^M' |
 	  sed 's/ch/tS/g' | # substitute all ch by tS
 	  sed 's/v/b/g' |
@@ -57,7 +58,7 @@ for ORTHO in $RESFOLDER/*ortholines.txt; do
 	  sed 's/y/S/g' | # substitute all y by S (argentinian, rioplatense)
 	  sed 's/ll/S/g' |
 	  sed 's/j/x/g' |
-	  sed 's/q/k/g' |
+	  sed 's/qu/k/g' |
 	  sed 's/h//g' | # removing h
 	  sed 's/ñ/N/g' |
 	  sed 's/á/a/g' |

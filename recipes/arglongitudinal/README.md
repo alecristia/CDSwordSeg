@@ -19,6 +19,7 @@ chmod +x 1_clean_many_files.sh
 TODO:
 
 - add separation of child and adult directed speech. This should occur just before the cha2sel; look at the bernstein corpus for inspiration? -> thus, we could create three versions: all, CDS, and ADS
+- there's still the possibility that the speaker filter is not perfect - check lucasyoel NI1 and NI2
 
 # Step 2: Phonologization
 
@@ -28,6 +29,8 @@ TODO:
 - changed ORTHO definition to a loop because we have many files
 
 TODO:
+
+- there is a new bug -- intoperl is empty
 create a small sample to test the perl bit
 and run it locally to find the bug
 
