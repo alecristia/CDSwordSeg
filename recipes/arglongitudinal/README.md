@@ -18,8 +18,7 @@ chmod +x 1_clean_many_files.sh
 
 TODO:
 
-- add separation of child and adult directed speech. This should occur just before the cha2sel; look at the bernstein corpus for inspiration
-- thus, we could create three versions: all, CDS, and ADS
+- add separation of child and adult directed speech. This should occur just before the cha2sel; look at the bernstein corpus for inspiration? -> thus, we could create three versions: all, CDS, and ADS
 
 # Step 2: Phonologization
 
