@@ -28,21 +28,20 @@ if [ "$LANGUAGE" = "qom" ]
    then
   echo "recognized $LANGUAGE"
   tr '[:upper:]' '[:lower:]' < "$ORTHO"  | # change uppercase letters to lowercase letters
-  tr -d '^M' |
   sed 's/ch/C/g' |
   sed 's/sh/S/g' |
   sed 's/ñ/N/g' |
   tr "'" "Q"  |
-  iconv -t ISO-8859-1 > intopearl.tmp
+  iconv -f ISO-8859-1 > intoperl.tmp
 
   echo "syllabify-corpus.pl"
-  perl scripts/syllabify-corpus.pl qom intopearl.tmp outofperl.tmp
+  perl scripts/syllabify-corpus.pl qom intoperl.tmp outofperl.tmp
 
   echo "removing blank lines"
   sed '/^$/d' outofperl.tmp |
   sed '/^ $/d'  |
-  sed 's/^\///'  > tmp.tmp
-  mv tmp.tmp $RESFOLDER${KEYNAME}-tags.txt
+  sed 's/^\///'  > intoperl.tmp
+  mv intoperl.tmp $RESFOLDER${KEYNAME}-tags.txt
 
 elif [ "$LANGUAGE" = "english" ]
    then
@@ -55,7 +54,6 @@ elif [ "$LANGUAGE" = "aspanish" ]
    then
   echo "recognized $LANGUAGE"
   tr '[:upper:]' '[:lower:]' < "$ORTHO"  | # change uppercase letters to lowercase letters
-  tr -d '^M' |
   sed 's/ch/tS/g' | # substitute all ch by tS
   sed 's/v/b/g' |
   sed 's/z/s/g' |
@@ -74,7 +72,7 @@ elif [ "$LANGUAGE" = "aspanish" ]
   sed 's/ó/o/g' |
   sed 's/ú/u/g' |
   sed 's/ü/u/g' |
-  iconv -t ISO-8859-1 > intoperl.tmp
+  iconv -f ISO-8859-1 > intoperl.tmp
 
   echo "syllabify-corpus.pl"
   perl scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp
@@ -82,8 +80,8 @@ elif [ "$LANGUAGE" = "aspanish" ]
   echo "removing blank lines"
   sed '/^$/d' outofperl.tmp |
   sed '/^ $/d'  |
-  sed 's/^\///'  > tmp.tmp
-  mv tmp.tmp $RESFOLDER${KEYNAME}-tags.txt
+  sed 's/^\///'  > intoperl.tmp
+  mv intoperl.tmp $RESFOLDER${KEYNAME}-tags.txt
 
 else
 	echo "Adapt the script to a new language"
@@ -99,5 +97,4 @@ sed 's/;esyll//g'  $RESFOLDER${KEYNAME}-tags.txt |
     sed 's/ //g' |
     sed 's/;eword/ /g' > $RESFOLDER${KEYNAME}-gold.txt
 
-echo "end"
-
+echo "finised"

@@ -20,15 +20,16 @@ mkdir $RESFOLDER
 inclines="$RESFOLDER${KEYNAME}-includedlines.txt"
 ortho="$RESFOLDER${KEYNAME}-ortholines.txt"
 
-touch $inclines 
+touch $inclines
 
 for f in ${CHAFOLDER}*.cha
    do
 #	echo "$f"
 
-	bash ./scripts/cha2sel.sh $f $inclines 
+	bash ./scripts/cha2sel.sh $f $inclines
 
 done
 
-bash ./scripts/selcha2clean.sh $inclines $ortho
+  bash ./scripts/selcha2clean.sh $inclines $ortho
 
+echo "done"
