@@ -4,14 +4,14 @@
 
 #########VARIABLES
 #Variables to modify
-KEYNAME="bernsteinads" #pick a nice name for your phonological corpus, because this keyname will be used for every output file!
-CHAFOLDER="/Users/acristia/Documents/databases/Bernstein/Interview/" #must exist and contain cha files - NOTICE THE / AT THE END OF THE NAME
-RESFOLDER="/Users/acristia/Documents/tests/bernsteinads/"   #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
+KEYNAME="buckeye_phono" #pick a nice name for your phonological corpus, because this keyname will be used for every output file!
+CHAFOLDER="/fhgfs/bootphon/data/derived_data/BUCKEYE_revised_bootphon/" #must exist and contain cha files - NOTICE THE / AT THE END OF THE NAME
+RESFOLDER="/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/recipes/buckeye/" #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
 
 
 #oberon versions
-CHAFOLDER="/fhgfs/bootphon/scratch/acristia/data/Interview/" #must exist and contain cha files - NOTICE THE / AT THE END OF THE NAME
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/"   #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
+#CHAFOLDER="/fhgfs/bootphon/scratch/acristia/data/Interview/" #must exist and contain cha files - NOTICE THE / AT THE END OF THE NAME
+#RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201510_bernsteinads/"   #will be created and loads of output files will be stored there - NOTICE THE / AT THE END OF THE NAME
 
 #########
 
@@ -22,7 +22,7 @@ ortho="$RESFOLDER${KEYNAME}-ortholines.txt"
 
 touch $inclines 
 
-for f in ${CHAFOLDER}*.cha
+for f in ${CHAFOLDER}*/*/*.cha #modification 5 nov 2016
    do
 #	echo "$f"
 

@@ -1,4 +1,4 @@
-algos='AGu'
+algos=$1
 for algo in $algos
 do
 for i in {0..9}
