@@ -35,7 +35,7 @@ echo "finding out who's a speaker in $f"
 		sed "s/^/*/g" | #add an asterisk at the beginning
 		sed "s/%/\\\\\|*/g" | #add a pipe between every two
 		sed "s/\\\\\|.$//" ` #remove the pipe* next to the end of line & close the text call
-		 
+
 
 		cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
 
