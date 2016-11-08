@@ -39,6 +39,7 @@ sometimes also adult-directed speech, for instance:
 - bernstein: based on only one corpus, that of Nan Bernstein; contains both chid and adult directed speech
 - WinnipegLENA: based on a corpus that is not CHAT formatted (includes "translation" to cha)
 - childes: based on a selection of English-spoken CHILDES corpora
+- arglongitudinal: probably the most explicit and easy to follow recipe; contains a README explaining step by step how it was created
 
 To build your own recipe, we suggest you look at those recipes. 
 You can also do it your own way from the instructions below.
