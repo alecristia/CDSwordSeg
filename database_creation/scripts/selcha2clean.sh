@@ -25,13 +25,11 @@ tr -d '\"' |
 tr -d '\/' |
 sed 's/\+/ /g' |
 tr -d '\.' |
-tr -d '^M' |
 tr -d '\?' |
 tr -d '!' |
 tr -d ';' |
 tr -d '\<' |
 tr -d '\>' |
-tr '\n' ' ' |
 tr -d ','  |
 tr -d ':'  |
 sed 's/&=[^ ]*//g' |
