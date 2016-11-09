@@ -8,7 +8,7 @@ PATH_TO_SCRIPTS="/Users/Laia/Documents/CDSwordSeg/database_creation"	#path to th
 
 INPUT_CORPUS="/Users/Laia/Documents/corpus/castcorpus" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 
-RES_FOLDER="/Users/Laia/Documents/corpus/processed_corpora/castcorpus_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/Users/Laia/Documents/processed_corpora/castcorpus_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
 INPUT_FILES="/Users/Laia/Documents/processed_corpora/castcorpus_info.txt" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
