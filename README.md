@@ -45,6 +45,16 @@ To build your own recipe, we suggest you look at those recipes.
 You can also do it your own way from the instructions below.
 
 
+Making a new grammar
+-------
+- Duplicate an extant grammar (extension .lt) in CDSWordSeg/algoComp/algos/AG/grammars
+- Rename
+- for colloc0, you just need to change the terminals to the phonemes found in your corpus
+- for colloc3syllfnc, you need to verify whether the language to be segmented is indeed head initial (like all th e grammars we have so far) or head-final (invert fnc word & content word in all appearances); and check also whether the langauage you are segmenting has a more complex syllable structure than english or different word shapes (e.g. for CatSpa we had to add words with up to 8 syllables)
+- Duplicate a grammar caller in CDSWordSeg/algoComp/algos/AG (extension .sh)
+- Modify the grammar being called at the top to the new file you just worked on
+- that's it!
+
 STEP 1: Database creation
 =========================
 
@@ -272,7 +282,7 @@ Troubleshooting
 This means that one of the letters in "s I s i l j x" is wrong.
 Compare them against the list of letters ("phonemes") with the ones listed in::
 
-  /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp201507/algos/AG/grammars/Colloq0_enKlatt.lt
+ algos/AG/grammars/Colloq0_enKlatt.lt
 
 namely:
 d e f g h i k l m n o p r @ s t u C v D E w x G y z I J O R S T U W Y Z ^ a b c | L M N X
