@@ -19,7 +19,6 @@ sed 's/^....:.//g' |
 sed "s/\_/ /g" |
 sed '/^0(.*) .$/d' |
 sed  's/.*$//g' |
-tr -d '^M' |
 tr -d '\"' |
 tr -d '\"' |
 tr -d '\/' |
@@ -33,6 +32,7 @@ tr -d '\>' |
 tr -d ','  |
 tr -d ':'  |
 sed 's/&=[^ ]*//g' |
+sed 's/&[^ ]*//g' |  #delete words beginning with &
 #grep -v '\[- spa\]' |
 #sed 's/[^ ]*@sspa//g' |
 sed 's/\[[^[]*\]//g' |

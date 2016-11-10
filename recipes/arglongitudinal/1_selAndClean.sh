@@ -40,10 +40,16 @@ echo "finding out who's a speaker in $f"
 
 		SELFILE=$(basename "$f" .cha)"-includedlines.txt"
 		bash ./scripts/cha2sel_withinputParticipants.sh $f $SELFILE $RES_FOLDER $IncludedParts
-                CDS=grep [+CHILD] < $IncludedParts # separa lineas de CDS.
-		ADS=grep -v [+CHILD]|[+OCH] < $IncludedParts # separa lineas de ADS.
+
+		mkdir -p $RES_FOLDER/CDS	#create folder that will contain all output files
+              grep '\[+ CHI\]' < $RES_FOLDER/$SELFILE > $RES_FOLDER/CDS/$SELFILE  # separa lineas de CDS.
+
+
+		mkdir -p $RES_FOLDER/ADS	#create folder that will contain all output files
+		ADS=grep -v [+CHILD]|[+OCH] < $IncludedParts # separa lineas de ADS. #homework
+
 		ORTHO=$(basename "$f" .cha)"-ortholines.txt"
-		bash ./scripts/selcha2clean.sh $CDS $ORTHO $RES_FOLDER
+		./scripts/selcha2clean.sh $SELFILE $ORTHO $RES_FOLDER/CDS/
 		bash ./scripts/selcha2clean.sh $ADS $ORTHO $RES_FOLDER
 
 		echo "processed $f" >> $OUTPUT_FILE2
