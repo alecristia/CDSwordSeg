@@ -20,7 +20,7 @@ python $PATH_TO_SCRIPTS/scripts/extract_childes_info.py $INPUT_CORPUS $INPUT_FIL
 echo "done extracting info from corpora"
 
 
-for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 level down)
+for CORPUSFOLDER in $INPUT_CORPUS/l*/; do	#loop through all the sub-folders (1 level down)
 	for f in $CORPUSFOLDER/*.cha; do	#loop through all cha files
 
 echo "finding out who's a speaker in $f"
@@ -36,14 +36,15 @@ echo "finding out who's a speaker in $f"
 		sed "s/%/\\\\\|*/g" | #add a pipe between every two
 		sed "s/\\\\\|.$//" ` #remove the pipe* next to the end of line & close the text call
 
-
 		cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
 
 		SELFILE=$(basename "$f" .cha)"-includedlines.txt"
 		bash ./scripts/cha2sel_withinputParticipants.sh $f $SELFILE $RES_FOLDER $IncludedParts
-
+                CDS=grep [+CHILD] < $IncludedParts # separa lineas de CDS.
+		ADS=grep -v [+CHILD]|[+OCH] < $IncludedParts # separa lineas de ADS.
 		ORTHO=$(basename "$f" .cha)"-ortholines.txt"
-		bash ./scripts/selcha2clean.sh $SELFILE $ORTHO $RES_FOLDER
+		bash ./scripts/selcha2clean.sh $CDS $ORTHO $RES_FOLDER
+		bash ./scripts/selcha2clean.sh $ADS $ORTHO $RES_FOLDER
 
 		echo "processed $f" >> $OUTPUT_FILE2
 

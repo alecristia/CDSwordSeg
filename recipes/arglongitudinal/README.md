@@ -11,7 +11,7 @@ Analisis of audio 1 of the longitudinal transcriptions from Argentina
 - I use the version of cha2sel that uses that speaker selection 
 - I didn't need to edit the section selcha2clean
 - finally I did:
-cd CDSWordSeg/recipes/nfrchildes2yo/
+cd CDSwordSeg/recipes/nfrchildes2yo/
 chmod +x 1_clean_many_files.sh  
 ./1_clean_many_files.sh
 
