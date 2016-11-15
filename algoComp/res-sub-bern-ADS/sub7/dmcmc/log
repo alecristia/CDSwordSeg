@@ -17,15 +17,15 @@ Write /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub7/
 Write /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub7/dmcmc//input-fold4.txt
 Write /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub7/dmcmc//input-index.txt
 Processing fold 2
+Processing fold 4
+Processing fold 0
 Processing fold 1
 Processing fold 3
-Processing fold 0
-/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/pipeline/dmcmc.sh: line 69: /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: No such file or directory
-Processing fold 4
-/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/pipeline/dmcmc.sh: line 69: /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: No such file or directory
-/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/pipeline/dmcmc.sh: line 69: /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: No such file or directory
-/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/pipeline/dmcmc.sh: line 69: /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: No such file or directory
-/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/pipeline/dmcmc.sh: line 69: /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: No such file or directory
+/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: error while loading shared libraries: libboost_program_options.so.1.62.0: cannot open shared object file: No such file or directory
+/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: error while loading shared libraries: libboost_program_options.so.1.62.0: cannot open shared object file: No such file or directory
+/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: error while loading shared libraries: libboost_program_options.so.1.62.0: cannot open shared object file: No such file or directory
+/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: error while loading shared libraries: libboost_program_options.so.1.62.0: cannot open shared object file: No such file or directory
+/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: error while loading shared libraries: libboost_program_options.so.1.62.0: cannot open shared object file: No such file or directory
 Unfolding to /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub7/dmcmc//cfgold.txt
 Error in crossevaluation.py unfold : [Errno 2] No such file or directory: '/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub7/dmcmc//output-fold*.txt'
 Traceback (most recent call last):
