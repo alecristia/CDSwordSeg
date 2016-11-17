@@ -85,7 +85,7 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  echo "removing blank lines"
 	  sed '/^$/d' outofperl.tmp |
 	  sed '/^ $/d'  |
-	  sed 's/^\///'  ' > tmp.tmp
+	  sed 's/^\///'   > tmp.tmp
 
 	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
 
