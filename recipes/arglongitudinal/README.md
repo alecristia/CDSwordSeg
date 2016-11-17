@@ -15,12 +15,9 @@ cd CDSwordSeg/recipes/nfrchildes2yo/
 chmod +x 1_clean_many_files.sh  
 ./1_clean_many_files.sh
 
+this is now working perfectly for alex but it only contains CDS -- Alvaro had as homework to add the ADS
 
-TODO:
 
-- add separation of child and adult directed speech. This should occur just before the cha2sel; look at the bernstein corpus for inspiration? -> thus, we could create three versions: all, CDS, and ADS
-- there's still the possibility that the speaker filter is not perfect - check lucasyoel NI1 and NI2
-ALVARO - esto esta o no???
 
 # Step 2: Phonologization
 

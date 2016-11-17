@@ -41,13 +41,13 @@ echo "finding out who's a speaker in $f"
 
 		mkdir -p ${RES_FOLDER}CDS	#create folder that will contain all output files
               grep '\[+ CHI\]' < ${RES_FOLDER}$SELFILE > ${RES_FOLDER}CDS/$SELFILE  # separa lineas de CDS.
+		ORTHO=$(basename "$f" .cha)"-ortholines.txt"
+		./scripts/selcha2clean.sh $SELFILE $ORTHO ${RES_FOLDER}CDS/
 
 
 #		mkdir -p ${RES_FOLDER}ADS	#create folder that will contain all output files
 #		ADS=grep -v [+CHILD]|[+OCH] < $IncludedParts # separa lineas de ADS. #homework
 
-#		ORTHO=$(basename "$f" .cha)"-ortholines.txt"
-#		./scripts/selcha2clean.sh $SELFILE $ORTHO ${RES_FOLDER}CDS/
 #		bash ./scripts/selcha2clean.sh $ADS $ORTHO $RES_FOLDER
 
 		echo "processed $f" >> $OUTPUT_FILE2
