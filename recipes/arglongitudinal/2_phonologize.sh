@@ -9,12 +9,12 @@
 LANGUAGE="aspanish" #right now, only options are qom, english and aspanish (argentinian spanish) -- NOTICE, IN SMALL CAPS
 
 
-PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
+PATH_TO_SCRIPTS="/home/lscpuser/Documents/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones/RES_FOLDER/CDS"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
-for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
+for ORTHO in ${RES_FOLDER}/2*ortholines.txt; do
 	KEYNAME=$(basename "$ORTHO" -ortholines.txt)
 
 	#########
@@ -64,7 +64,14 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  sed 's/ci/si/g' |
 	  sed 's/rr/R/g' | # substitute the spanish rr by 5
 	  sed 's/ r/ R/g' | # substitue the initial r for R
-	  sed 's/y/S/g' | # substitute all y by S (argentinian, rioplatense)
+	  sed 's/ya/Sa/g' | # substitute all y by S (argentinian, rioplatense)
+	  sed 's/ye/Se/g' |
+	  sed 's/yi/Si/g' |
+	  sed 's/yo/So/g' |
+	  sed 's/yu/Su/g' |
+	  sed 's/ay/ai/g' | # substitute all y glides by i.
+	  sed 's/oy/oi/g' |
+	  sed 's/uy/ui/g' |
 	  sed 's/ll/S/g' |
 	  sed 's/j/x/g' |
 	  sed 's/qu/k/g' |
