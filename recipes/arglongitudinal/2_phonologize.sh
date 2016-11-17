@@ -87,8 +87,7 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  sed '/^ $/d'  |
 	  sed 's/^\///'  |
 	sed 's/ / ;eword //' |
-	sed 's/\/ ;esyll //'
-		 > tmp.tmp
+	sed 's/\// ;esyll //' > tmp.tmp
 
 	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
 
