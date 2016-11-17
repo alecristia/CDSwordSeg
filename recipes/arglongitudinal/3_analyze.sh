@@ -4,8 +4,8 @@
 # Alex Cristia alecristia@gmail.com 2016-11-??
 
 #########VARIABLES###########################
-DATAFOLDER="/fhgfs/bootphon/scratch/acristia/Documents/processed_corpora/arglongitudinal_res/CDS"
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/Documents/processed_corpora/arglongitudinal_res/CDS"
+DATAFOLDER="/fhgfs/bootphon/scratch/acristia/Documents/processed_corpora/arglongitudinal/CDS"
+RESFOLDER="/fhgfs/bootphon/scratch/acristia/Documents/processed_corpora/arglongitudinal/CDS"
 PIPELINE="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/algoComp/segment.py"
 #########
 
