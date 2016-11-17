@@ -7,12 +7,14 @@
 #########VARIABLES
 #Variables to modify
 LANGUAGE="aspanish" #right now, only options are qom, english and aspanish (argentinian spanish) -- NOTICE, IN SMALL CAPS
+
+
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
 #folder where all versions of the file will be stored
-RESFOLDER="/Users/acristia/Documents/processed_corpora/arglongitudinal_res/"
+RESFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal_res"
 
-for ORTHO in $RESFOLDER/*ortholines.txt; do
+for ORTHO in $RESFOLDER/*/*ortholines.txt; do
 	KEYNAME=$(basename "$ORTHO" -ortholines.txt)
 
 	#########
@@ -52,7 +54,11 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  sed 's/ch/tS/g' | # substitute all ch by tS
 	  sed 's/v/b/g' |
 	  sed 's/z/s/g' |
-	  sed 's/c/k/g' |
+	  sed 's/ca/ka/g' |
+	  sed 's/co/ko/g' |
+	  sed 's/cu/ku/g' |
+	  sed 's/ce/se/g' |
+	  sed 's/ci/si/g' |
 	  sed 's/rr/R/g' | # substitute the spanish rr by 5
 	  sed 's/ r/ R/g' | # substitue the initial r for R
 	  sed 's/y/S/g' | # substitute all y by S (argentinian, rioplatense)
