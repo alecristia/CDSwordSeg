@@ -8,7 +8,7 @@ PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/database_creation"	
 
 INPUT_CORPUS="/fhgfs/bootphon/scratch/acristia/lscp-ciipme-gh/transcripciones/longi_audio1" #where you have put the talkbank corpora to be analyzed E.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 INPUT_FILES="${RES_FOLDER}info.txt" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
 
