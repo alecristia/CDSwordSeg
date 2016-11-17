@@ -6,7 +6,7 @@
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/database_creation"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
 
 
-INPUT_CORPUS="/fhgfs/bootphon/scratch/acristia/lscp-ciipme-gh/transcripciones_longitudinal" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
+INPUT_CORPUS="/fhgfs/bootphon/scratch/acristia/lscp-ciipme-gh/transcripciones/longi_audio" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 
 RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
@@ -40,16 +40,16 @@ echo "finding out who's a speaker in $f"
 		SELFILE=$(basename "$f" .cha)"-includedlines.txt"
 		bash ./scripts/cha2sel_withinputParticipants.sh $f $SELFILE $RES_FOLDER $IncludedParts
 
-		mkdir -p $RES_FOLDER/CDS	#create folder that will contain all output files
-              grep '\[+ CHI\]' < $RES_FOLDER/$SELFILE > $RES_FOLDER/CDS/$SELFILE  # separa lineas de CDS.
+		mkdir -p ${RES_FOLDER}CDS	#create folder that will contain all output files
+              grep '\[+ CHI\]' < ${RES_FOLDER}$SELFILE > ${RES_FOLDER}CDS/$SELFILE  # separa lineas de CDS.
 
 
-		mkdir -p $RES_FOLDER/ADS	#create folder that will contain all output files
-		ADS=grep -v [+CHILD]|[+OCH] < $IncludedParts # separa lineas de ADS. #homework
+#		mkdir -p ${RES_FOLDER}ADS	#create folder that will contain all output files
+#		ADS=grep -v [+CHILD]|[+OCH] < $IncludedParts # separa lineas de ADS. #homework
 
-		ORTHO=$(basename "$f" .cha)"-ortholines.txt"
-		./scripts/selcha2clean.sh $SELFILE $ORTHO $RES_FOLDER/CDS/
-		bash ./scripts/selcha2clean.sh $ADS $ORTHO $RES_FOLDER
+#		ORTHO=$(basename "$f" .cha)"-ortholines.txt"
+#		./scripts/selcha2clean.sh $SELFILE $ORTHO ${RES_FOLDER}CDS/
+#		bash ./scripts/selcha2clean.sh $ADS $ORTHO $RES_FOLDER
 
 		echo "processed $f" >> $OUTPUT_FILE2
 
