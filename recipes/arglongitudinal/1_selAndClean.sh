@@ -10,16 +10,16 @@ INPUT_CORPUS="/fhgfs/bootphon/scratch/acristia/lscp-ciipme-gh/transcripciones/lo
 
 RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
-INPUT_FILES=`${RES_FOLDER}info.txt` #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
+INPUT_FILES="${RES_FOLDER}info.txt" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
 
-OUTPUT_FILE2=`${RES_FOLDER}processedFiles.txt` #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
+OUTPUT_FILE2="${RES_FOLDER}processedFiles.txt" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
 
 mkdir -p $RES_FOLDER	#create folder that will contain all output files
-#python $PATH_TO_SCRIPTS/scripts/extract_childes_info.py $INPUT_CORPUS $INPUT_FILES
-#echo "done extracting info from corpora"
+python $PATH_TO_SCRIPTS/scripts/extract_childes_info.py $INPUT_CORPUS $INPUT_FILES
+echo "done extracting info from corpora"
 
 
-for f in ${INPUT_CORPUS}*.cha; do	#loop through all cha files
+for f in ${INPUT_CORPUS}/*.cha; do	#loop through all cha files
 
 echo "finding out who's a speaker in $f"
 
