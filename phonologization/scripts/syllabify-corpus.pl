@@ -8,12 +8,13 @@
 $language=$ARGV[0];
 $filecorpus=$ARGV[1];
 $output=$ARGV[2];
+$scriptdir=$ARGV[3];
 
 #print "\n the language is $language\n";
 
 # Save valid onsets from ValidOnsets.txt
 %onsets = {};
-open(ONSETS, "<input/$language-ValidOnsets.txt") or die("Couldn't open input/$language-ValidOnsets.txt\n");
+open(ONSETS, "<$scriptdir/input/$language-ValidOnsets.txt") or die("Couldn't open $scriptdir/input/$language-ValidOnsets.txt\n");
 while(defined($fileline = <ONSETS>)){
     chomp($fileline);
     #print "$fileline\n";

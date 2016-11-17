@@ -30,7 +30,7 @@ for ORTHO in ${RES_FOLDER}*/*ortholines.txt; do
 	  iconv -t ISO-8859-1 > intopearl.tmp
 
 	  echo "syllabify-corpus.pl"
-	  perl scripts/syllabify-corpus.pl qom intopearl.tmp outofperl.tmp
+	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl qom intopearl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	  echo "removing blank lines"
 	  sed '/^$/d' outofperl.tmp |
@@ -76,7 +76,7 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  iconv -t ISO-8859-1 > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
-	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp
+	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	  echo "removing blank lines"
 	  sed '/^$/d' outofperl.tmp |
