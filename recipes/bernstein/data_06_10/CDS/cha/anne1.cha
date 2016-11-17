@@ -1,0 +1,621 @@
+@UTF8
+@PID:	11312/c-00015341-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Anne Target_Child , MOT Mother
+@ID:	eng|Bernstein|CHI|1;5.|female|typical|MC|Target_Child|||
+@ID:	eng|Bernstein|MOT|||||Mother|||
+@Situation:	first session , mother/child play session
+@Warning:	Child utterances are phonemically transcribed using UNIBET but question for glottal is reversed
+*MOT:	this .
+%mor:	pro:dem|this .
+*MOT:	telephone , yeah .
+%mor:	n|telephone cm|cm co|yeah .
+*MOT:	you're gonna call ?
+%mor:	pro|you~aux|be&PRES part|go-PRESP~inf|to n|call ?
+*MOT:	who's that ?
+%mor:	pro:wh|who~cop|be&3S pro:dem|that ?
+*MOT:	it looks like Humpty Dumpty ?
+%mor:	pro|it v|look-3S prep|like n:prop|Humpty n:prop|Dumpty ?
+*MOT:	is it Humpty Dumpty ?
+%mor:	aux|be&3S pro|it n:prop|Humpty n:prop|Dumpty ?
+*MOT:	yeah .
+%mor:	co|yeah .
+*MOT:	those his eyes ?
+%mor:	pro:dem|those pro:poss:det|his n|eye-PL ?
+*MOT:	wha(t) else ?
+%mor:	pro:wh|what post|else ?
+*MOT:	I see something .
+%mor:	pro:sub|I v|see pro:indef|something .
+*MOT:	yeah .
+%mor:	co|yeah .
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	a zip .
+%mor:	det|a v|zip .
+*MOT:	can you do it ?
+%mor:	mod|can pro|you v|do pro|it ?
+*MOT:	(.) might be easier on that .
+%mor:	mod|might cop|be adj|ease&dn-Y-CP prep|on pro:dem|that .
+*MOT:	try it .
+%mor:	v|try pro|it .
+*MOT:	try it [=! sounds of straining] .
+%mor:	v|try pro|it .
+*MOT:	is he gonna pop out ?
+%mor:	cop|be&3S pro:sub|he part|go-PRESP~inf|to n|pop adv|out ?
+*MOT:	see if you can do it .
+%mor:	v|see conj|if pro|you mod|can v|do pro|it .
+*MOT:	can ya ?
+%mor:	mod|can pro|you ?
+*MOT:	okay .
+%mor:	co|okay .
+*MOT:	<let's try a (.) wh> [//] this is a snap .
+%mor:	pro:dem|this cop|be&3S det|a n|snap .
+*MOT:	okay , yeah , on the snap [=! more quietly] .
+%mor:	co|okay cm|cm co|yeah cm|cm prep|on det|the n|snap .
+*MOT:	yeah .
+%mor:	co|yeah .
+*MOT:	and now let's try this +...
+%mor:	conj|and adv|now v|let~pro:obj|us v|try det|this +...
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	what is it ?
+%mor:	pro:wh|what aux|be&3S pro|it ?
+*MOT:	yeah .
+%mor:	co|yeah .
+*MOT:	can it unbutton [=! very precisely] ?
+%mor:	mod|can pro|it un#v|button ?
+*MOT:	yeah .
+%mor:	co|yeah .
+*MOT:	pop out .
+%mor:	n|pop adv|out .
+*MOT:	alright , let's see if you can do it .
+%mor:	co|alright cm|cm v|let~pro:obj|us v|see conj|if pro|you mod|can
+	v|do pro|it .
+*MOT:	<can you get (th)em out > [<] ?
+%mor:	mod|can pro|you v|get pro:obj|them adv|out ?
+*MOT:	oh no , he doesn't come out .
+%mor:	co|oh co|no cm|cm pro:sub|he mod|do&3S~neg|not v|come adv|out .
+*MOT:	okay .
+%mor:	co|okay .
+*MOT:	Humpty Dumpty (.) ?
+%mor:	n:prop|Humpty n:prop|Dumpty ?
+*MOT:	sat on the wall [=! singing voice] ?
+%mor:	v|sit&PAST prep|on det|the n|wall ?
+*MOT:	okay .
+%mor:	co|okay .
+*MOT:	hi , Humpty [=! high] [=! singing voice] .
+%mor:	co|hi cm|cm n:prop|Humpty .
+*MOT:	hi , Humpty .
+%mor:	co|hi cm|cm n:prop|Humpty .
+%act:	pretending
+*MOT:	bye bye [=! softly] y(ou) wanna see what else she's got ?
+%mor:	co|bye co|bye pro|you v|want~inf|to v|see pro:wh|what post|else
+	pro:sub|she~aux|be&3S part|get&PASTP ?
+*MOT:	what's this [=! softly] ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	be .
+%mor:	cop|be .
+*MOT:	rabbit +...
+%mor:	n|rabbit +...
+*MOT:	hello , hello ?
+%mor:	co|hello cm|cm n|hello ?
+*MOT:	<Humpty Dumpty> [<] !
+%mor:	n:prop|Humpty n:prop|Dumpty !
+*MOT:	are you there ?
+%mor:	cop|be&PRES pro|you adv|there ?
+*MOT:	hi , Annie [=! high whisper] .
+%mor:	co|hi cm|cm n:prop|Annie .
+*MOT:	Annie , what's this ?
+%mor:	n:prop|Annie cm|cm pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	y(ou) wanna look ?
+%mor:	pro|you v|want~inf|to co|look ?
+*MOT:	what is it ?
+%mor:	pro:wh|what aux|be&3S pro|it ?
+*MOT:	(i)s it a puppy ?
+%mor:	aux|be&3S pro|it det|a n|puppy ?
+*MOT:	let's see [=! laughing tone] .
+%mor:	v|let~pro:obj|us v|see .
+*MOT:	is it ?
+%mor:	aux|be&3S pro|it ?
+*MOT:	take it out [=! quickly] .
+%mor:	v|take pro|it adv|out .
+*MOT:	puppy !
+%mor:	n|puppy !
+*MOT:	y(ou) I see a puppy !
+%mor:	pro|you pro:sub|I v|see det|a n|puppy !
+*MOT:	byebye [=! mother echoes softly] .
+%mor:	co|byebye .
+*MOT:	doggie ?
+%mor:	n|dog-DIM ?
+*MOT:	is he hiding in there ?
+%mor:	cop|be&3S pro:sub|he part|hide-PRESP prep|in pro:dem|there ?
+*MOT:	what a nice little place for a puppy .
+%mor:	pro:wh|what det|a adj|nice adj|little n|place prep|for det|a
+	n|puppy .
+*MOT:	y(ou) want the dog to use the phone ?
+%mor:	pro|you v|want det|the n|dog inf|to v|use det|the n|phone ?
+*MOT:	woof+woof , woof+woof !
+%mor:	on|+on|woof+on|woof cm|cm on|+on|woof+on|woof !
+*MOT:	hello .
+%mor:	co|hello .
+*MOT:	okay , you can put (th)em back .
+%mor:	co|okay cm|cm pro|you mod|can v|put&ZERO pro:obj|them adv|back .
+*MOT:	(i)s that the puppy's house ?
+%mor:	cop|be&3S rel|that det|the n|puppy~poss|s n|house ?
+*MOT:	can you see ?
+%mor:	mod|can pro|you v|see ?
+*MOT:	what [=! softly] ?
+%mor:	pro:wh|what ?
+*MOT:	yeah , that's right , that's good .
+%mor:	co|yeah cm|cm pro:dem|that~cop|be&3S adv|right cm|cm
+	pro:dem|that~cop|be&3S adj|good .
+*MOT:	can y(ou) get it ?
+%mor:	mod|can pro|you v|get pro|it ?
+*MOT:	watch , watch , watch [=! softly] .
+%mor:	n|watch cm|cm n|watch cm|cm n|watch .
+*MOT:	stuck !
+%mor:	v|stick&PAST !
+*MOT:	wanna see what else she has ?
+%mor:	v|want~inf|to v|see pro:wh|what post|else pro:sub|she aux|have&3S ?
+*MOT:	where's a puppy ?
+%mor:	adv:wh|where~cop|be&3S det|a n|puppy ?
+*MOT:	(i)s he stuck ?
+%mor:	cop|be&3S pro:sub|he v|stick&PAST ?
+*MOT:	pull him up .
+%mor:	v|pull pro:obj|him adv|up .
+*MOT:	pull .
+%mor:	v|pull .
+*MOT:	good .
+%mor:	adj|good .
+*MOT:	oh , Annie , look at this .
+%mor:	co|oh cm|cm n:prop|Annie cm|cm v|look prep|at pro:dem|this .
+*MOT:	look at this .
+%mor:	v|look prep|at pro:dem|this .
+*MOT:	what is that ?
+%mor:	pro:wh|what cop|be&3S pro:dem|that ?
+*MOT:	no (.) it's not a birdie , it's a dragon [=! precisely] !
+%mor:	co|no pro|it~cop|be&3S neg|not det|a n|bird-DIM cm|cm
+	pro|it~cop|be&3S det|a n|dragon !
+*MOT:	wan(t) try it ?
+%mor:	v|want v|try pro|it ?
+*MOT:	do you remember the dragon book we have ?
+%mor:	mod|do pro|you v|remember det|the n|dragon n|book pro:sub|we v|have
+	?
+*MOT:	you're not at all interested in this dragon , I think
+	[=! voice lowers to soft mutter] .
+%mor:	pro|you~cop|be&PRES neg|not prep|at adv|all v|interest-PAST prep|in
+	det|this n|dragon cm|cm pro:sub|I v|think .
+*MOT:	yeah .
+%mor:	co|yeah .
+*MOT:	watch , it's a puppet .
+%mor:	n|watch cm|cm pro|it~cop|be&3S det|a n|puppet .
+*MOT:	stick your finger in .
+%mor:	v|stick pro:poss:det|your n|finger adv|in .
+*MOT:	stick your hand in [=! laughs] .
+%mor:	v|stick pro:poss:det|your n|hand adv|in .
+*MOT:	it's a puppet .
+%mor:	pro|it~cop|be&3S det|a n|puppet .
+*MOT:	ay [=! laughs] !
+%mor:	co|ay !
+*MOT:	are you making the dragon work ?
+%mor:	cop|be&PRES pro|you part|make-PRESP det|the n|dragon n|work ?
+*MOT:	c(a)n you stick your hand in ?
+%mor:	mod|can pro|you v|stick pro:poss:det|your n|hand adv|in ?
+*MOT:	stick your hand in ?
+%mor:	v|stick pro:poss:det|your n|hand adv|in ?
+*MOT:	yeah , stick your hand in [=! more softly] that's good !
+%mor:	co|yeah cm|cm v|stick pro:poss:det|your n|hand prep|in
+	pro:dem|that~cop|be&3S adj|good !
+*MOT:	xxx .
+*MOT:	dragon !
+%mor:	n|dragon !
+*MOT:	but he's in a cage !
+%mor:	conj|but pro:sub|he~cop|be&3S prep|in det|a n|cage !
+*MOT:	the dragon , right [=! mother makes funny noises] .
+%mor:	det|the n|dragon cm|cm n|right .
+*CHI:	&jo .
+%com:	CHI starts
+*MOT:	are you afraid of the dragon ?
+%mor:	cop|be&PRES pro|you adj|afraid prep|of det|the n|dragon ?
+*MOT:	he's only a puppet .
+%mor:	pro:sub|he~aux|be&3S adv|only det|a n|puppet .
+*MOT:	he's only a puppet with a very nice long +...
+%mor:	pro:sub|he~aux|be&3S adv|only det|a n|puppet prep|with det|a
+	adv|very adj|nice adj|long +...
+*MOT:	are you afraid of it ?
+%mor:	cop|be&PRES pro|you adj|afraid prep|of pro|it ?
+*MOT:	yeah , he's a puppet .
+%mor:	co|yeah cm|cm pro:sub|he~aux|be&3S det|a n|puppet .
+*MOT:	he's a dragon puppet .
+%mor:	pro:sub|he~aux|be&3S det|a n|dragon n|puppet .
+*MOT:	this is fire .
+%mor:	pro:dem|this cop|be&3S v|fire .
+*MOT:	mommy what ?
+%mor:	n|mommy pro:wh|what ?
+*MOT:	&uh !
+*MOT:	like this [=! mother makes growling noises and laughs] .
+%mor:	prep|like pro:dem|this .
+*MOT:	yeah !
+%mor:	co|yeah !
+*MOT:	lemme out [=! falsetto] !
+%mor:	v|let~pro:obj|me adv|out !
+*MOT:	let me out !
+%mor:	v|let&ZERO pro:obj|me adv|out !
+*MOT:	you wanta [: want to] try it ?
+%mor:	pro|you v|want inf|to v|try pro|it ?
+*MOT:	put your hand in the puppet ?
+%mor:	v|put&ZERO pro:poss:det|your n|hand prep|in det|the n|puppet ?
+*MOT:	want the [=! laughs] (.) yeah , you want it , the dragon has_to go
+	out the front way .
+%mor:	v|want det|the co|yeah cm|cm pro|you v|want pro|it cm|cm det|the
+	n|dragon mod:aux|has_to v|go prep|out det|the n|front n|way .
+*MOT:	he has_to come out this way .
+%mor:	pro:sub|he mod:aux|has_to v|come adv|out det|this n|way .
+*MOT:	y(ou) got my nose , ow [=! falsetto] !
+%mor:	pro|you v|get&PAST pro:poss:det|my n|nose cm|cm co|ow !
+*MOT:	hey , let me out [=! growled falsetto] !
+%mor:	co|hey cm|cm v|let&ZERO pro:obj|me adv|out !
+*MOT:	oops [=! laughs] !
+%mor:	co|oops !
+*MOT:	ow !
+%mor:	co|ow !
+*MOT:	can I come out please [=! falsetto] ?
+%mor:	mod|can pro:sub|I v|come adv|out co|please ?
+*MOT:	can I come out ?
+%mor:	mod|can pro:sub|I v|come adv|out ?
+*MOT:	ow [=! laughing] !
+%mor:	co|ow !
+*MOT:	let me out , please [=! falsetto] let me yyy [=! funny noises] ow !
+%mor:	v|let&ZERO pro:obj|me adv|out cm|cm co|please v|let&ZERO pro:obj|me
+	co|ow !
+*MOT:	don't get my nose [=! guttural voice] .
+%mor:	mod|do~neg|not v|get pro:poss:det|my n|nose .
+*MOT:	what do you see ?
+%mor:	pro:wh|what mod|do pro|you v|see ?
+*MOT:	ss:h !
+%mor:	co|ssh !
+*MOT:	that's not a toy .
+%mor:	pro:dem|that~cop|be&3S neg|not det|a n|toy .
+*MOT:	that's not a toy , but I see some toys .
+%mor:	pro:dem|that~cop|be&3S neg|not det|a n|toy cm|cm conj|but pro:sub|I
+	v|see qn|some n|toy-PL .
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	it's a cow [=! last word guttural] .
+%mor:	pro|it~cop|be&3S det|a n|cow .
+*MOT:	moo !
+%mor:	on|moo !
+*MOT:	cow , yes , what else , what's this [=! softly] .
+%mor:	n|cow cm|cm co|yes cm|cm pro:wh|what post|else cm|cm
+	pro:wh|what~cop|be&3S pro:dem|this .
+*MOT:	yeah .
+%mor:	co|yeah .
+*MOT:	flowers , yeah .
+%mor:	n|flower-PL cm|cm co|yeah .
+*MOT:	let's see .
+%mor:	v|let~pro:obj|us v|see .
+*MOT:	I don't know what that is .
+%mor:	pro:sub|I mod|do~neg|not v|know adv|what adv|that cop|be&3S .
+*MOT:	what [=! surprised tone] ?
+%mor:	pro:wh|what ?
+*MOT:	would you like (.) would you like to look at a bunny book ?
+%mor:	mod|will&COND pro|you rel|like mod|will&COND pro|you v|like inf|to
+	v|look prep|at det|a n|bunny n|book ?
+*MOT:	Patrick has this book , do you remember ?
+%mor:	n:prop|Patrick v|have&3S det|this n|book cm|cm v|do pro|you
+	v|remember ?
+*MOT:	d(oe)s Susie have a book ?
+%mor:	mod|do&3S n:prop|Susie v|have det|a n|book ?
+*MOT:	(.) like this ?
+%mor:	prep|like pro:dem|this ?
+*MOT:	I see [=! soft] [=! lilting] .
+%mor:	pro:sub|I v|see .
+*MOT:	it's not a rat , it's a kitty !
+%mor:	pro|it~cop|be&3S neg|not det|a n|rat cm|cm pro|it~cop|be&3S det|a
+	n|kitty !
+*MOT:	boy , yeah .
+%mor:	co|boy cm|cm co|yeah .
+*MOT:	yeah +...
+%mor:	co|yeah +...
+*MOT:	it's not a rat .
+%mor:	pro|it~cop|be&3S neg|not det|a n|rat .
+*MOT:	nope .
+%mor:	co|nope .
+*MOT:	butterflies !
+%mor:	n|+n|butter+n|fly-PL !
+*MOT:	right !
+%mor:	co|right !
+*MOT:	oh , I see something !
+%mor:	co|oh cm|cm pro:sub|I v|see pro:indef|something !
+*MOT:	what's this [=! softly] ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	coffee cups .
+%mor:	n|coffee v|cup-3S .
+*MOT:	chairs ?
+%mor:	n|chair-PL ?
+*MOT:	&Wh what kind of chair is this ?
+%mor:	pro:wh|what n|kind prep|of n|chair aux|be&3S det|this ?
+*CHI:	xxx .
+*MOT:	is this a rocker chair ?
+%mor:	cop|be&3S det|this det|a n|rock&dv-AGT n|chair ?
+*MOT:	Michael's chair [=! softly , in explanation] .
+%mor:	n:prop|Michael~poss|s n|chair .
+*MOT:	does Susie have a chair ?
+%mor:	mod|do&3S n:prop|Susie v|have det|a n|chair ?
+*MOT:	(.) oh , oh .
+%mor:	co|oh cm|cm co|oh .
+*MOT:	do you see these ?
+%mor:	mod|do pro|you co|see det|these ?
+*MOT:	what are these ?
+%mor:	pro:wh|what aux|be&PRES pro:dem|these ?
+*MOT:	balloons (.) and what are these ?
+%mor:	n|balloon-PL coord|and pro:wh|what aux|be&PRES pro:dem|these ?
+*MOT:	yeah , those are pretty .
+%mor:	co|yeah cm|cm pro:dem|those cop|be&PRES adj|pretty .
+*MOT:	these are rosies .
+%mor:	pro:dem|these cop|be&PRES n|rose&dadj-DIM-PL .
+*MOT:	s@l (.) s@l .
+%mor:	n:let|s n:let|s .
+*MOT:	(.) s@l (.) s@l +...
+%mor:	n:let|s n:let|s +...
+*MOT:	lemme out [=! yells in imitation] !
+%mor:	v|let~pro:obj|me adv|out !
+*MOT:	lemme out [=! growls playfully] !
+%mor:	v|let~pro:obj|me adv|out !
+*MOT:	please [=! growls] ?
+%mor:	co|please ?
+*MOT:	please ?
+%mor:	co|please ?
+*MOT:	please , can I come out [=! falsetto] ?
+%mor:	co|please cm|cm mod|can pro:sub|I v|come adv|out ?
+*MOT:	please [=! very high] ?
+%mor:	co|please ?
+*MOT:	honey , please ?
+%mor:	co|honey cm|cm co|please ?
+*MOT:	honey , can I please come out [=! falsetto] .
+%mor:	co|honey cm|cm mod|can pro:sub|I co|please v|come adv|out .
+*MOT:	I see him !
+%mor:	pro:sub|I v|see pro:obj|him !
+*MOT:	Humpty Dumpty ?
+%mor:	n:prop|Humpty n:prop|Dumpty ?
+*MOT:	you want Humpty Dumpty to sit on the wall ?
+%mor:	pro|you v|want n:prop|Humpty n:prop|Dumpty inf|to v|sit prep|on
+	det|the n|wall ?
+*MOT:	(.) <Humpty Dumpty (.) sat on a wall> [=! singing] (.) Humpty
+	Dumpty , (.) 0 [=! expectently] (.) had a great +...
+%mor:	n:prop|Humpty n:prop|Dumpty v|sit&PAST prep|on det|a n|wall
+	n:prop|Humpty n:prop|Dumpty cm|cm v|have&PAST det|a adj|great +...
+*MOT:	fall [=! yells , laughing] !
+%mor:	n|fall !
+*MOT:	xxx .
+*MOT:	you like this , I bet you do .
+%mor:	pro|you prep|like det|this cm|cm pro:sub|I v|bet&ZERO pro|you v|do
+	.
+*MOT:	oh , it's not a toy (.) whoa !
+%mor:	co|oh cm|cm pro|it~cop|be&3S neg|not det|a n|toy co|whoa !
+*MOT:	oh , no !
+%mor:	co|oh cm|cm co|no !
+*MOT:	(.) oh , no !
+%mor:	co|oh cm|cm co|no !
+*MOT:	yup , puppy .
+%mor:	co|yup cm|cm n|puppy .
+*MOT:	I see some other toys here .
+%mor:	pro:sub|I v|see qn|some qn|other n|toy-PL adv|here .
+%com:	gets away from mike .
+*MOT:	they have so many toys !
+%mor:	pro:sub|they v|have adv|so qn|many n|toy-PL !
+*MOT:	these are blocks .
+%mor:	pro:dem|these cop|be&PRES n|block-PL .
+*MOT:	turtle , yeah .
+%mor:	n|turtle cm|cm co|yeah .
+*MOT:	a block , yeah .
+%mor:	det|a n|block cm|cm co|yeah .
+*MOT:	two (.) !
+%mor:	det:num|two !
+*MOT:	three (.) !
+%mor:	det:num|three !
+*MOT:	four !
+%mor:	det:num|four !
+*MOT:	jump !
+%mor:	n|jump !
+*MOT:	oh , no !
+%mor:	co|oh cm|cm co|no !
+*MOT:	oh no !
+%mor:	co|oh co|no !
+*MOT:	I see a mousie !
+%mor:	pro:sub|I v|see det|a n|mouse-DIM !
+*MOT:	puppy !
+%mor:	n|puppy !
+*MOT:	yeah .
+%mor:	co|yeah .
+*CHI:	down puppy .
+%mor:	n|down n|puppy .
+*MOT:	you can put him down .
+%mor:	pro|you mod|can v|put&ZERO pro:obj|him adv|down .
+*MOT:	(.) are you gonna get down , okay .
+%mor:	cop|be&PRES pro|you part|go-PRESP~inf|to v|get adv|down cm|cm
+	adj|okay .
+*MOT:	I did see a mousie there .
+%mor:	pro:sub|I v|do&PAST v|see det|a n|mouse-DIM adv|there .
+*MOT:	there he is .
+%mor:	adv|there pro:sub|he cop|be&3S .
+*MOT:	what's the mousie have ?
+%mor:	rel|what~aux|be&3S det|the n|mouse-DIM v|have ?
+*MOT:	rabbit +...
+%mor:	n|rabbit +...
+*MOT:	that's not a toy !
+%mor:	pro:dem|that~cop|be&3S neg|not det|a n|toy !
+*MOT:	that's not a toy .
+%mor:	pro:dem|that~cop|be&3S neg|not det|a n|toy .
+*MOT:	that's not a toy , either .
+%mor:	pro:dem|that~cop|be&3S neg|not det|a n|toy cm|cm adv|either .
+%com:	last part almost to self
+*MOT:	let's play with this toy +...
+%mor:	v|let~pro:obj|us v|play prep|with det|this n|toy +...
+*MOT:	looks like a nice one .
+%mor:	v|look-3S prep|like det|a adj|nice pro:indef|one .
+*MOT:	d(o) ya [=! voice over] , do you want to be the dragon ?
+%mor:	mod|do pro|you cm|cm v|do pro|you v|want inf|to cop|be det|the
+	n|dragon ?
+*CHI:	a: !
+%mor:	det|a !
+*MOT:	I'm not lettin(g) you out !
+%mor:	pro:sub|I~cop|be&1S neg|not part|let-PRESP pro|you adv|out !
+*MOT:	I gotchyou [: got you] , gotchya [: got you] gotchya [: got you] !
+%mor:	pro:sub|I v|get&PAST pro|you cm|cm v|get&PAST pro|you v|get&PAST
+	pro|you !
+*MOT:	xxx .
+*MOT:	oh , no !
+%mor:	co|oh cm|cm co|no !
+*MOT:	my nose [=! guttural yell] !
+%mor:	pro:poss:det|my n|nose !
+*MOT:	thank_you .
+%mor:	co|thank_you .
+*MOT:	ow !
+%mor:	co|ow !
+*MOT:	we closed the door on my nose +...
+%mor:	pro:sub|we v|close-PAST det|the n|door prep|on pro:poss:det|my
+	n|nose +...
+*MOT:	yeah .
+%mor:	co|yeah .
+*MOT:	it's closed up .
+%mor:	pro|it~aux|be&3S part|close-PASTP adv|up .
+*MOT:	that's why I can't get out .
+%mor:	pro:dem|that~cop|be&3S adv:wh|why pro:sub|I mod|can~neg|not v|get
+	adv|out .
+*MOT:	lemme out [=! laughing] !
+%mor:	v|let~pro:obj|me adv|out !
+*MOT:	let me out .
+%mor:	v|let&ZERO pro:obj|me adv|out .
+*MOT:	let me out .
+%mor:	v|let&ZERO pro:obj|me adv|out .
+*MOT:	&ah !
+*MOT:	let me out !
+%mor:	v|let&ZERO pro:obj|me adv|out !
+*MOT:	Humpty Dumpty +...
+%mor:	n:prop|Humpty n:prop|Dumpty +...
+*MOT:	up ?
+%mor:	adv|up ?
+*MOT:	it's not a toy .
+%mor:	pro|it~cop|be&3S neg|not det|a n|toy .
+*MOT:	you just had your breakfast , honey (.) we're not gonna have supper
+	now [=! quietly] !
+%mor:	pro|you adv|just v|have&PAST pro:poss:det|your n|breakfast cm|cm
+	co|honey pro:sub|we~cop|be&PRES neg|not part|go-PRESP~inf|to v|have
+	n|supper adv|now !
+*MOT:	no , we're not gonna have dinner !
+%mor:	co|no cm|cm pro:sub|we~cop|be&PRES neg|not part|go-PRESP~inf|to
+	v|have n|dinner !
+*MOT:	<you want> [//] oh we can give Humpty Dumpty some dinner .
+%mor:	co|oh pro:sub|we mod|can v|give n:prop|Humpty n:prop|Dumpty qn|some
+	n|dinner .
+*MOT:	what would ya like to give him ?
+%mor:	pro:wh|what mod|will&COND pro|you v|like inf|to v|give pro:obj|him
+	?
+*MOT:	would ya like to do Humpty Dumpty's button ?
+%mor:	mod|will&COND pro|you v|like inf|to v|do n:prop|Humpty
+	n:prop|Dumpty~poss|s n|button ?
+*MOT:	can ya do his button ?
+%mor:	mod|can pro|you v|do pro:poss:det|his n|button ?
+*MOT:	on his pants ?
+%mor:	prep|on pro:poss:det|his n:pt|pants ?
+*MOT:	yeah .
+%mor:	co|yeah .
+*MOT:	button [=! laughs] .
+%mor:	n|button .
+*MOT:	that's the snap !
+%mor:	pro:dem|that~cop|be&3S det|the n|snap !
+*MOT:	here's the snap [=! strains] !
+%mor:	pro:exist|here~cop|be&3S det|the n|snap !
+*MOT:	push !
+%mor:	n|push !
+*MOT:	(.) yeah , the button doesn't work the same way; ya have_to put it
+	through the hole .
+%mor:	co|yeah cm|cm det|the n|button mod|do&3S~neg|not v|work det|the
+	adj|same n|way pro|you mod:aux|have_to v|put&ZERO pro|it
+	prep|through det|the n|hole .
+*MOT:	see (.) see the hole ?
+%mor:	co|see v|see det|the n|hole ?
+*MOT:	you want mommy to come out ?
+%mor:	pro|you v|want n|mommy inf|to v|come adv|out ?
+*MOT:	let me out [=! funny voice] !
+%mor:	v|let&ZERO pro:obj|me adv|out !
+*MOT:	lemme out !
+%mor:	v|let~pro:obj|me adv|out !
+*MOT:	okay , and how's (a)bout his zip ?
+%mor:	co|okay cm|cm coord|and rel|how~aux|be&3S prep|about
+	pro:poss:det|his v|zip ?
+*MOT:	z@l (.) z@l .
+%mor:	n:let|z n:let|z .
+*MOT:	(.) z@l +...
+%mor:	n:let|z +...
+*MOT:	you're silly .
+%mor:	pro|you~cop|be&PRES adj|silly .
+*MOT:	yup , it's all zipped .
+%mor:	co|yup cm|cm pro|it~cop|be&3S adv|all part|zip-PASTP .
+*MOT:	(.) I see shoes .
+%mor:	pro:sub|I v|see n|shoe-PL .
+*MOT:	two roses ?
+%mor:	det:num|two n|rose-PL ?
+*MOT:	would you like to play rosie <with the> [//] with Humpty ?
+%mor:	mod|will&COND pro|you v|like prep|to n|play n|rose&dadj-DIM
+	prep|with n:prop|Humpty ?
+*MOT:	no no no , don't touch , please !
+%mor:	co|no co|no co|no cm|cm mod|do~neg|not n|touch cm|cm co|please !
+*MOT:	(.) don't touch .
+%mor:	mod|do~neg|not v|touch .
+*MOT:	it's not a toy .
+%mor:	pro|it~cop|be&3S neg|not det|a n|toy .
+*MOT:	not a toy .
+%mor:	neg|not det|a n|toy .
+*MOT:	you've got plenty of toys +...
+%mor:	pro|you~aux|have part|get&PASTP n|plenty prep|of n|toy-PL +...
+*MOT:	you want to play rosie with Humpty ?
+%mor:	pro|you v|want prep|to n|play n|rose&dadj-DIM prep|with
+	n:prop|Humpty ?
+*MOT:	alright .
+%mor:	co|alright .
+*MOT:	ring around the rosie (.) a pock(et) +...
+%mor:	n|ring prep|around det|the n|rose&dadj-DIM det|a n|pocket +...
+*MOT:	ket(tle) full of posies (.) hopscotch , hopscotch , we all fall
+	+...
+%mor:	n|kettle adv|full prep|of n|posy-PL n|+v|hop+n|scotch cm|cm
+	n|+v|hop+n|scotch cm|cm pro:sub|we post|all v|fall +...
+*MOT:	down [=! loud and gutteral] !
+%mor:	adv|down !
+*MOT:	whoops .
+%mor:	co|whoops .
+*MOT:	yup .
+%mor:	co|yup .
+*MOT:	he fall down ?
+%mor:	pro:sub|he v|fall adv|down ?
+*MOT:	oh , no !
+%mor:	co|oh cm|cm co|no !
+*MOT:	stand him up ?
+%mor:	v|stand pro:obj|him adv|up ?
+*MOT:	rosie (.) pocket full +...
+%mor:	n|rose&dadj-DIM n|pocket adv|full +...
+*MOT:	all fall down [=! laughs] .
+%mor:	qn|all n|fall adv|down .
+*MOT:	are you sleepy now ?
+%mor:	cop|be&PRES pro|you adj|sleep&dn-Y adv|now ?
+*MOT:	no .
+%mor:	co|no .
+*MOT:	okay .
+%mor:	co|okay .
+*MOT:	what's all_gone ?
+%mor:	rel|what~cop|be&3S co|all_gone ?
+*MOT:	all_gone ?
+%mor:	co|all_gone ?
+*MOT:	can you put the toys back , Anne ?
+%mor:	mod|can pro|you v|put&ZERO det|the n|toy-PL adv|back cm|cm
+	n:prop|Anne ?
+*MOT:	can you put the toys in the box for us ?
+%mor:	mod|can pro|you v|put&ZERO det|the n|toy-PL prep|in det|the n|box
+	prep|for pro:obj|us ?
+*MOT:	yeah , I see a lion !
+%mor:	co|yeah cm|cm pro:sub|I v|see det|a n|lion !
+@End

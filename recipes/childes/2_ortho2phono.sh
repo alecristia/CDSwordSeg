@@ -13,7 +13,6 @@ root=${3:-../..}
 phonologize=$root/phonologization/scripts/phonologize
 
 
-
 # we need a temporary directory (to store pids)
 temp=`mktemp -d ./eraseme-XXXX`
 

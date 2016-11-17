@@ -1,0 +1,660 @@
+@UTF8
+@PID:	11312/c-00015361-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Marie Target_Child , MOT Mother , NAN Nan_Bernstein Investigator
+@ID:	eng|Bernstein|CHI|1;10.|female|typical|MC|Target_Child|||
+@ID:	eng|Bernstein|MOT|||||Mother|||
+@ID:	eng|Bernstein|NAN|||||Investigator|||
+@Media:	marie3, audio
+@Situation:	third session , mother/child play session
+@Warning:	Child utterances are phonemically transcribed using UNIBET but question for glottal is reversed
+*MOT:	who's gonna get down ? 2507_4109
+%mor:	rel|who~aux|be&3S part|go-PRESP~inf|to v|get adv|down ?
+*MOT:	oh ! 8103_9009
+%mor:	co|oh !
+*MOT:	what's that ? 9032_9961
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	phone ? 12051_12887
+%mor:	n|phone ?
+*NAN:	she into phones ? 12887_18111
+%mor:	pro:sub|she prep|into n|phone-PL ?
+*MOT:	yeah , she is . 18111_18901
+%mor:	co|yeah cm|cm pro:sub|she cop|be&3S .
+%add:	NAN
+*MOT:	finally . 18901_19435
+%mor:	adv|final&dadj-LY .
+*MOT:	she hasn't been for a long time . 19435_21942
+%mor:	pro:sub|she aux|have&3S~neg|not cop|be&PASTP prep|for det|a
+	adj|long n|time .
+*MOT:	<she going> [//] she's had a change in her situation . 21942_25541
+%mor:	pro:sub|she~aux|be&3S part|have&PASTP det|a n|change prep|in
+	pro:poss:det|her n|situation .
+*MOT:	she's been going to day care (.) for +... 25541_28235
+%mor:	pro:sub|she~aux|be&3S aux|be&PASTP part|go-PRESP prep|to n|day
+	n|care prep|for +...
+*MOT:	+, the past (.) month . 29791_30278
+%mor:	det|the adj|past n|month .
+*MOT:	poops ! 30998_31602
+%mor:	n|poop-PL !
+*MOT:	you have poops ? 31602_32972
+%mor:	pro|you v|have n|poop-PL ?
+*MOT:	do you need to be changed ? 35015_35712
+%mor:	mod|do pro|you v|need inf|to aux|be part|change-PASTP ?
+*MOT:	no ? 36315_37151
+%mor:	co|no ?
+*MOT:	(.) yeah [=! imitates phone ringing] ! 37198_43955
+%mor:	co|yeah !
+*MOT:	hi , Marie [=! sing+song] ! 60186_62090
+%mor:	co|hi cm|cm n:prop|Marie !
+*MOT:	who are ya talkin(g) to ? 62090_64365
+%mor:	pro:wh|who aux|be&PRES pro|you part|talk-PRESP inf|to ?
+*MOT:	oh , that's nice ! 65201_66943
+%mor:	co|oh cm|cm pro:dem|that~cop|be&3S adj|nice !
+*MOT:	what are ya goin(g) ta say ? 66943_68313
+%mor:	pro:wh|what aux|be&PRES pro|you part|go-PRESP inf|to v|say ?
+*MOT:	hi ! 69938_70844
+%mor:	co|hi !
+*MOT:	(.) there we go . 70867_73375
+%mor:	adv|there pro:sub|we v|go .
+*MOT:	hi , marie ! 78831_80805
+%mor:	co|hi cm|cm n|mare-DIM !
+*MOT:	wan(t) mommy talk ? 81710_82686
+%mor:	v|want n|mommy n|talk ?
+*MOT:	hi , marie ! 82686_83940
+%mor:	co|hi cm|cm n|mare-DIM !
+*MOT:	what are ya doing ? 83940_85286
+%mor:	pro:wh|what aux|be&PRES pro|you part|do-PRESP ?
+*MOT:	(.) huh ? 85286_87237
+%mor:	co|huh ?
+*MOT:	what are ya doing today ? 87237_88491
+%mor:	pro:wh|what aux|be&PRES pro|you part|do-PRESP adv:tem|today ?
+*MOT:	you're ringing the phones ? 88491_92972
+%mor:	pro|you~aux|be&PRES part|ring-PRESP det|the n|phone-PL ?
+*MOT:	there ya go; your very own phone . 92972_101262
+%mor:	adv|there pro|you v|go pro:poss:det|your adv|very adj|own n|phone .
+*MOT:	mommy talk ? 110480_111664
+%mor:	n|mommy n|talk ?
+*MOT:	think you can make it ring; it rings like the phone at home
+	[=! imitates phone] . 111664_116958
+%mor:	v|think pro|you mod|can v|make pro|it v|ring pro|it v|ring-3S
+	prep|like det|the n|phone prep|at n|home .
+*MOT:	I'm right here . 120348_123158
+%mor:	pro:sub|I~aux|be&1S adv|right adv|here .
+*MOT:	I'm nearby . 123158_123831
+%mor:	pro:sub|I~aux|be&1S adv|nearby .
+*MOT:	oh ! 126409_129985
+%mor:	co|oh !
+*MOT:	a block ! 129985_131958
+%mor:	det|a n|block !
+*MOT:	you wanna put it inside there ? 133143_135906
+%mor:	pro|you v|want~inf|to v|put&ZERO pro|it adv|inside adv|there ?
+*MOT:	how could you put it in there ? 135906_138065
+%mor:	adv:wh|how mod|could pro|you v|put&ZERO pro|it prep|in
+	pro:dem|there ?
+*MOT:	is that hole big enough ? 144288_144915
+%mor:	cop|be&3S pro:dem|that v|hole adj|big adv|enough ?
+*MOT:	no . 145542_146494
+%mor:	co|no .
+*MOT:	watch (.) here's a little door . 147957_151486
+%mor:	v|watch pro:exist|here~cop|be&3S det|a adj|little n|door .
+*MOT:	see ya lift that up ? 151486_153925
+%mor:	co|see pro|you v|lift pro:dem|that adv|up ?
+*MOT:	ya put it inside +... 153925_155991
+%mor:	pro|you v|put&ZERO pro|it adv|inside +...
+*MOT:	a book ? 155991_163956
+%mor:	det|a n|book ?
+*MOT:	(.) what's that ? 163956_165813
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	mommy read your book ? 170062_171432
+%mor:	n|mommy v|read&ZERO pro:poss:det|your n|book ?
+*MOT:	what's that ? 177632_179258
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	that's a little house ! 179258_180349
+%mor:	pro:dem|that~cop|be&3S det|a adj|little n|house !
+*MOT:	little house; with a door (.) shut the door . 180349_188545
+%mor:	adj|little n|house prep|with det|a n|door v|shut&ZERO det|the
+	n|door .
+*MOT:	(i)t's another book . 188545_195117
+%mor:	pro|it~aux|be&3S qn|another n|book .
+*MOT:	oh ! 195117_197439
+%mor:	co|oh !
+*MOT:	Paul and Judy . 197439_200132
+%mor:	n:prop|Paul coord|and n:prop|Judy .
+*MOT:	pat (.) pat the bunny ? 202385_204219
+%mor:	n|pat v|pat det|the n|bunny ?
+*MOT:	(.) what's that ? 204219_208956
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	daddy's what ? 210303_211858
+%mor:	n|daddy~poss|s pro:wh|what ?
+*MOT:	face ? 213205_213995
+%mor:	n|face ?
+*MOT:	oh , what's that in there ? 213995_224838
+%mor:	co|oh cm|cm pro:wh|what~cop|be&3S pro:dem|that prep|in
+	pro:dem|there ?
+*MOT:	oh ! 233591_235681
+%mor:	co|oh !
+*MOT:	do you have that book at home ? 235704_236726
+%mor:	mod|do pro|you v|have det|that n|book prep|at n|home ?
+*MOT:	yes (.) what's that boy doing ? 237400_240256
+%mor:	co|yes pro:wh|what~cop|be&3S pro:dem|that n|boy part|do-PRESP ?
+*MOT:	eating . 241370_241997
+%mor:	part|eat-PRESP .
+*MOT:	eating what ? 242020_242972
+%mor:	part|eat-PRESP pro:wh|what ?
+*MOT:	breakfast ? 244528_245596
+%mor:	n|breakfast ?
+*MOT:	yeah +... 263429_264729
+%mor:	co|yeah +...
+*MOT:	take what off ? 275991_276966
+%mor:	v|take pro:wh|what adv|off ?
+*MOT:	do ya want me (.) to pull down the zipper ? 276966_282237
+%mor:	mod|do pro|you v|want pro:obj|me inf|to v|pull prep|down det|the
+	v|zipper ?
+*MOT:	there ! 282237_283352
+%mor:	adv|there !
+*MOT:	can you pull it up ? 283375_285093
+%mor:	mod|can pro|you v|pull pro|it adv|up ?
+*MOT:	(.) there . 285117_288274
+%mor:	adv|there .
+*MOT:	it's all the way down now . 288274_289505
+%mor:	pro|it~aux|be&3S qn|all det|the n|way adv|down adv|now .
+*MOT:	oh ! 290666_291502
+%mor:	co|oh !
+*MOT:	take the pants off ? 291502_292222
+%mor:	v|take det|the n:pt|pants adv|off ?
+*MOT:	(.) well , the straps come off (.) the arms , but that's (.) as far
+	as it goes . 292222_298840
+%mor:	co|well cm|cm det|the n|strap-PL v|come prep|off det|the n|arm-PL
+	cm|cm conj|but pro:dem|that~cop|be&3S adv|as adv|far conj|as pro|it
+	v|go-3S .
+*MOT:	see ? 298840_299559
+%mor:	v|see ?
+*MOT:	it's sewn in the back . 299559_300256
+%mor:	pro|it~aux|be&3S part|sew&PASTP prep|in det|the n|back .
+*MOT:	yes . 301881_302601
+%mor:	co|yes .
+*MOT:	leave on . 302601_303158
+%mor:	n|leave adv|on .
+*CHI:	xxx . 303158_305248
+*MOT:	mommy will leave it on . 305503_306990
+%mor:	n|mommy mod|will v|leave pro|it adv|on .
+*CHI:	&dowt &we &deau xxx . 307013_333623
+*MOT:	what ? 333646_334180
+%mor:	pro:wh|what ?
+*MOT:	the book ? 335039_335480
+%mor:	det|the n|book ?
+*MOT:	what about the book ? 337965_339010
+%mor:	pro:wh|what adv|about det|the n|book ?
+*MOT:	&hmm ? 340798_341843
+*MOT:	wanna read the book . 341843_343282
+%mor:	v|want~inf|to v|read&ZERO det|the n|book .
+*MOT:	oh , it's an a@l b@l c@l book ! 343282_344908
+%mor:	co|oh cm|cm pro|it~cop|be&3S det|a n:let|a n:let|b n:let|c n|book !
+*MOT:	oh , a is for apple ? 344908_349134
+%mor:	co|oh cm|cm det|a cop|be&3S prep|for n|apple ?
+*MOT:	airplane and ants (.) an(d) what's the baby doing ? 349134_359049
+%mor:	n|airplane coord|and n|ant-PL coord|and pro:wh|what~aux|be&3S
+	det|the n|baby part|do-PRESP ?
+*MOT:	napping [=! laughs] ? 360765_361718
+%mor:	part|nap-PRESP ?
+*MOT:	right ! 361741_362344
+%mor:	co|right !
+*MOT:	ya wanna go in the high chair ? 366269_367569
+%mor:	pro|you v|want~inf|to v|go prep|in det|the n|high n|chair ?
+*MOT:	okay . 368242_369032
+%mor:	co|okay .
+*MOT:	you're bringing that too ? 387909_389349
+%mor:	pro|you~aux|be&PRES part|bring-PRESP det|that post|too ?
+*MOT:	okay . 390881_391880
+%mor:	co|okay .
+*MOT:	yeah , here's a seat ! 403676_406346
+%mor:	co|yeah cm|cm pro:exist|here~cop|be&3S det|a n|seat !
+*MOT:	there we go . 406346_407437
+%mor:	adv|there pro:sub|we v|go .
+*MOT:	how do ya like that ? 407437_412267
+%mor:	adv:wh|how mod|do pro|you prep|like pro:dem|that ?
+*MOT:	the telephone ? 416516_417608
+%mor:	det|the n|telephone ?
+*MOT:	here ya go . 418397_423529
+%mor:	adv|here pro|you v|go .
+*MOT:	hello , marie ! 429937_431400
+%mor:	co|hello cm|cm n|mare-DIM !
+*MOT:	&hmm ! 433119_435975
+*MOT:	rang the bell ! 435975_453088
+%mor:	v|ring&PAST det|the n|bell !
+*MOT:	hi ! 467925_469109
+%mor:	co|hi !
+*MOT:	hi , marie ! 469109_470387
+%mor:	co|hi cm|cm n|mare-DIM !
+*MOT:	how are you today ? 470387_473010
+%mor:	adv:wh|how aux|be&PRES pro|you adv:tem|today ?
+*MOT:	did you see this dragon ? 510459_520458
+%mor:	mod|do&PAST pro|you v|see det|this n|dragon ?
+*MOT:	okay , we'll lift up the cage door (.) and come out ! 520458_523965
+%mor:	co|okay cm|cm pro:sub|we~mod|will v|lift prep|up det|the n|cage
+	n|door coord|and v|come adv|out !
+*MOT:	I'll get you ! 523988_525335
+%mor:	pro:sub|I~mod|will aux|get pro|you !
+*MOT:	(.) hi , marie ! 525335_527773
+%mor:	co|hi cm|cm n|mare-DIM !
+*MOT:	have it ? 528887_529793
+%mor:	v|have pro|it ?
+*MOT:	oh , don't touch it . 529793_531488
+%mor:	co|oh cm|cm mod|do~neg|not v|touch pro|it .
+*MOT:	see its tongue ? 538291_539127
+%mor:	v|see pro:poss:det|its n|tongue ?
+*MOT:	(.) where's your tongue ? 539127_541380
+%mor:	rel|where~aux|be&3S pro:poss:det|your n|tongue ?
+*MOT:	there ! 541380_542773
+%mor:	adv|there !
+*MOT:	there it is ! 542796_544654
+%mor:	adv|there pro|it cop|be&3S !
+*MOT:	there's mommy's tongue (.) see the dragon's tongue ? 547138_551248
+%mor:	pro:dem|there~aux|be&3S n|mommy~poss|s n|tongue v|see det|the
+	n|dragon~poss|s n|tongue ?
+*MOT:	a long , red tongue (.) oh ! 551248_555637
+%mor:	det|a adj|long cm|cm n|red n|tongue co|oh !
+*MOT:	do you know how this door works ? 555637_560513
+%mor:	mod|do pro|you v|know adv:wh|how det|this n|door n|work-PL ?
+*MOT:	y(ou) lift it up from the top . 560513_562161
+%mor:	pro|you v|lift pro|it adv|up prep|from det|the n|top .
+*MOT:	there ! 562161_564390
+%mor:	adv|there !
+*MOT:	hi ! 572169_574305
+%mor:	co|hi !
+*MOT:	(.) oh , thank_you for the nice kiss . 574305_580644
+%mor:	co|oh cm|cm n|thank_you prep|for det|the adj|nice n|kiss .
+*MOT:	see the dragon's eyes ? 580644_588121
+%mor:	v|see det|the n|dragon~poss|s n|eye-PL ?
+*MOT:	op ! 588144_593717
+%mor:	co|op !
+*MOT:	no ? 594646_595412
+%mor:	co|no ?
+*MOT:	do you wanna get out ? 602309_603470
+%mor:	mod|do pro|you v|want~inf|to v|get adv|out ?
+*MOT:	okay +... 604073_604770
+%mor:	co|okay +...
+*MOT:	that's the end of that , huh ? 607857_612664
+%mor:	pro:dem|that~cop|be&3S det|the n|end prep|of det|that cm|cm co|huh
+	?
+*MOT:	out ! 625667_626457
+%mor:	adv|out !
+*MOT:	okay , jump . 626503_627316
+%mor:	co|okay cm|cm n|jump .
+*MOT:	one (.) two (.) three , whee ! 627316_629777
+%mor:	det:num|one det:num|two det:num|three cm|cm co|whee !
+*MOT:	there we go . 629777_631402
+%mor:	adv|there pro:sub|we v|go .
+*MOT:	tissues ! 640412_641341
+%mor:	n|tissue-PL !
+*MOT:	what ? 646054_647122
+%mor:	pro:wh|what ?
+*MOT:	blow too ? 649653_650675
+%mor:	n|blow adv|too ?
+*MOT:	are ya goin(g) to blow your nose ? 650698_652835
+%mor:	cop|be&PRES pro|you part|go-PRESP inf|to v|blow pro:poss:det|your
+	n|nose ?
+*MOT:	let's put the others back . 655551_658454
+%mor:	v|let~pro:obj|us v|put&ZERO det|the n:pt|others adv|back .
+*MOT:	oh , thank_you . 659197_659870
+%mor:	co|oh cm|cm n|thank_you .
+*MOT:	one more; just one more , honey . 659870_678028
+%mor:	det:num|one adv|more adj|just pro:indef|one adv|more cm|cm n|honey
+	.
+*MOT:	okay , put the other one back . 678028_683160
+%mor:	co|okay cm|cm v|put&ZERO det|the qn|other pro:indef|one n|back .
+*MOT:	put it +... 683160_684855
+%mor:	v|put&ZERO pro|it +...
+*MOT:	put (th)em back . 685992_686503
+%mor:	v|put&ZERO pro:obj|them adv|back .
+*MOT:	done ? 693841_698810
+%mor:	part|do&PASTP ?
+*MOT:	mommy's what ? 705009_705869
+%mor:	n|mommy~poss|s pro:wh|what ?
+*MOT:	yeah +... 718616_719476
+%mor:	co|yeah +...
+*MOT:	ya wanna open that ? 728740_729855
+%mor:	pro|you v|want~inf|to v|open pro:dem|that ?
+*MOT:	that on your cheeks ? 731434_732548
+%mor:	pro:dem|that prep|on pro:poss:det|your n|cheek-PL ?
+*MOT:	okay . 733640_734476
+%mor:	co|okay .
+*MOT:	oh ? 734476_736333
+%mor:	co|oh ?
+*MOT:	(.) (o)kay , put it away now . 736333_745877
+%mor:	co|okay cm|cm v|put&ZERO pro|it adv|away adv|now .
+*MOT:	put it back . 745877_749336
+%mor:	v|put&ZERO pro|it adv|back .
+*MOT:	put it down here [=! laughs] ? 752076_753470
+%mor:	v|put&ZERO pro|it adv|down adv|here ?
+*MOT:	open that ? 761527_762270
+%mor:	v|open pro:dem|that ?
+*MOT:	this is eye+shadow . 763408_765915
+%mor:	pro:dem|this cop|be&3S n|+n|eye+n|shadow .
+*MOT:	ya can't put this on your eyes , though . 765915_767239
+%mor:	pro|you mod|can~neg|not v|put&ZERO pro:dem|this prep|on
+	pro:poss:det|your n|eye-PL cm|cm adv|though .
+*MOT:	just look at it . 767239_768098
+%mor:	adv|just v|look prep|at pro|it .
+*MOT:	yeah . 772371_774739
+%mor:	co|yeah .
+*MOT:	you're putting on your cheeks . 776318_777525
+%mor:	pro|you~aux|be&PRES part|put-PRESP prep|on pro:poss:det|your
+	n|cheek-PL .
+*MOT:	(.) oh , okay . 777525_781566
+%mor:	co|oh cm|cm adj|okay .
+*MOT:	put it back . 781566_782146
+%mor:	v|put&ZERO pro|it adv|back .
+*MOT:	yeah: ! 783586_784306
+%mor:	co|yeah !
+*MOT:	there ! 784306_787974
+%mor:	adv|there !
+*MOT:	open that ? 796820_797726
+%mor:	v|open pro:dem|that ?
+*MOT:	no , we mustn't open that one . 797726_798933
+%mor:	co|no cm|cm pro:sub|we mod|must~neg|not v|open det|that
+	pro:indef|one .
+*MOT:	(be)cause this can get us all dirty . 798933_800535
+%mor:	conj|because det|this mod|can v|get pro:obj|us adv|all
+	adj|dirt&dn-Y .
+*MOT:	keep this one closed . 800535_801813
+%mor:	v|keep det|this pro:indef|one v|close-PAST .
+*MOT:	don't open that one , either ! 809939_811216
+%mor:	mod|do~neg|not v|open rel|that det:num|one cm|cm adv|either !
+*MOT:	open that . 814537_815605
+%mor:	v|open pro:dem|that .
+*MOT:	you can open that . 815628_816116
+%mor:	pro|you mod|can v|open pro:dem|that .
+*MOT:	(.) can ya close it ? 816139_823894
+%mor:	mod|can pro|you v|close pro|it ?
+*MOT:	very good ! 823894_825589
+%mor:	adv|very adj|good !
+*MOT:	you cut your finger a little bit . 829258_830744
+%mor:	pro|you v|cut&ZERO pro:poss:det|your n|finger det|a adj|little
+	n|bit .
+*MOT:	yeah ! 833275_837176
+%mor:	co|yeah !
+*MOT:	that's right . 837176_852826
+%mor:	pro:dem|that~cop|be&3S adv|right .
+*MOT:	put (th)em away (.) o:h , good . 852826_865876
+%mor:	v|put&ZERO pro:obj|them adv|away co|oh cm|cm adj|good .
+*MOT:	you want the doll ? 877207_877950
+%mor:	pro|you v|want det|the n|doll ?
+*MOT:	I don't think it will fit in there ! 881085_884707
+%mor:	pro:sub|I mod|do~neg|not v|think pro|it mod|will v|fit&ZERO prep|in
+	pro:dem|there !
+*MOT:	carry the doll ? 885705_886657
+%mor:	v|carry det|the n|doll ?
+*MOT:	look at the doll's shoes ! 886680_887516
+%mor:	v|look prep|at det|the n|doll~poss|s n|shoe-PL !
+*MOT:	has red sneakers , like marie . 889792_893762
+%mor:	v|have&3S n|red n|sneaker-PL cm|cm prep|like n|mare-DIM .
+*MOT:	yes (.) with ties on them . 894877_897454
+%mor:	co|yes prep|with n|tie-PL prep|on pro:obj|them .
+*MOT:	marie ? 905303_919072
+%mor:	n|mare-DIM ?
+*MOT:	change your diapers ? 920535_921742
+%mor:	v|change pro:poss:det|your n|diaper-PL ?
+*MOT:	marie , I don't want you to do that (.) to undo that . 921742_926549
+%mor:	n|mare-DIM cm|cm pro:sub|I mod|do~neg|not v|want pro|you inf|to
+	v|do pro:dem|that inf|to un#v|do pro:dem|that .
+*MOT:	we (.) have these toys here to play with . 926549_928406
+%mor:	pro:sub|we v|have det|these n|toy-PL adv|here prep|to n|play
+	prep|with .
+*MOT:	I want you to play with the toys with me . 928406_929985
+%mor:	pro:sub|I v|want pro|you inf|to v|play prep|with det|the n|toy-PL
+	prep|with pro:obj|me .
+*MOT:	okay ? 929985_930845
+%mor:	co|okay ?
+*MOT:	there a piece of tape on that ? 930845_935651
+%mor:	adv|there det|a n|piece prep|of n|tape prep|on pro:dem|that ?
+*MOT:	oh ! 935651_940945
+%mor:	co|oh !
+*MOT:	I found the doggie that lives in this house ! 940945_942687
+%mor:	pro:sub|I v|find&PAST det|the n|dog-DIM det|that n|life-PL prep|in
+	det|this n|house !
+*MOT:	(.) see ? 942687_944451
+%mor:	v|see ?
+*MOT:	this house is for the doggie . 944451_946170
+%mor:	det|this n|house cop|be&3S prep|for det|the n|dog-DIM .
+*MOT:	doghouse . 946170_946843
+%mor:	n|+n|dog+n|house .
+*MOT:	I'll put him inside (.) (doe)s he fit inside ? 946843_950674
+%mor:	pro:sub|I~mod|will v|put&ZERO pro:obj|him n|inside v|do&3S
+	pro:sub|he v|fit&ZERO adv|inside ?
+*MOT:	op ! 950674_951139
+%mor:	co|op !
+*MOT:	there he is . 951139_951719
+%mor:	adv|there pro:sub|he cop|be&3S .
+*MOT:	close the door ? 953182_954134
+%mor:	v|close det|the n|door ?
+*MOT:	do you know how to take him out ? 954157_956804
+%mor:	mod|do pro|you v|know adv:wh|how inf|to v|take pro:obj|him adv|out
+	?
+*MOT:	oh , like a little pocketbook , huh ? 956804_961472
+%mor:	co|oh cm|cm prep|like det|a adj|little n|+n|pocket+n|book cm|cm
+	co|huh ?
+*CHI:	xxx . 961472_967486
+*MOT:	who's in the house ? 967486_968438
+%mor:	pro:wh|who~cop|be&3S prep|in det|the n|house ?
+*MOT:	(.) who's in the house ? 968461_969483
+%mor:	pro:wh|who~cop|be&3S prep|in det|the n|house ?
+*MOT:	yeah ? 970574_971270
+%mor:	co|yeah ?
+*MOT:	carry that ? 972873_974103
+%mor:	v|carry pro:dem|that ?
+*MOT:	(.) byebye ! 974103_976565
+%mor:	co|byebye !
+*MOT:	(.) byebye ! 976565_978167
+%mor:	co|byebye !
+*MOT:	yeah +... 991240_991936
+%mor:	co|yeah +...
+*MOT:	high chair again ? 1009700_1010489
+%mor:	adj|high n|chair adv|again ?
+*MOT:	is there anything else that you want to bring up into the high
+	chair ? 1012045_1017710
+%mor:	cop|be&3S adv|there pro:indef|anything post|else pro:dem|that
+	pro|you v|want inf|to v|bring adv|up prep|into det|the n|high
+	n|chair ?
+*MOT:	what else ? 1017710_1019220
+%mor:	pro:wh|what post|else ?
+*MOT:	the phone ? 1020520_1021100
+%mor:	det|the n|phone ?
+*MOT:	&hmm ? 1024073_1024792
+*MOT:	the tongue ? 1025652_1027579
+%mor:	det|the n|tongue ?
+*MOT:	there it is ! 1029181_1030272
+%mor:	adv|there pro|it cop|be&3S !
+*MOT:	oh boy , let me lift you up . 1034197_1039375
+%mor:	co|oh n|boy cm|cm v|let&ZERO pro:obj|me v|lift pro|you adv|up .
+*MOT:	there ya go (.) all of your friends ! 1039398_1042881
+%mor:	adv|there pro|you v|go qn|all prep|of pro:poss:det|your n|friend-PL
+	!
+*MOT:	a doll , a dragon , and doggie ! 1042881_1046039
+%mor:	det|a n|doll cm|cm det|a n|dragon cm|cm coord|and n|dog-DIM !
+*MOT:	you want some more ? 1052146_1053074
+%mor:	pro|you v|want qn|some pro:indef|more ?
+*MOT:	wanna see him ? 1053840_1054746
+%mor:	v|want~inf|to v|see pro:obj|him ?
+*MOT:	say hi again ? 1054769_1055907
+%mor:	co|say co|hi adv|again ?
+*MOT:	(.) hi , marie . 1055930_1057695
+%mor:	co|hi cm|cm n|mare-DIM .
+*MOT:	(.) hi [=! growls] . 1057718_1059251
+%mor:	co|hi .
+*MOT:	he'll get you [=! growls] ! 1059251_1062455
+%mor:	pro:sub|he~mod|will aux|get pro|you !
+*MOT:	see his tongue [=! softly] ? 1062455_1066658
+%mor:	v|see pro:poss:det|his n|tongue ?
+*MOT:	nice red tongue +... 1066681_1068074
+%mor:	adj|nice adj|red n|tongue +...
+*MOT:	more ? 1070675_1071418
+%mor:	pro:indef|more ?
+*MOT:	I'm a dragon ! 1071418_1079963
+%mor:	pro:sub|I~cop|be&1S det|a n|dragon !
+*MOT:	I have a long tongue ! 1079963_1083237
+%mor:	pro:sub|I v|have det|a adj|long n|tongue !
+*MOT:	woo ! 1083260_1084444
+%mor:	v|woo !
+*MOT:	(.) woo ! 1084468_1086604
+%mor:	v|woo !
+*MOT:	do ya like the way that feels ? 1088067_1090667
+%mor:	mod|do pro|you prep|like det|the n|way rel|that v|feel-3S ?
+*MOT:	more [=! growls] ? 1092293_1094754
+%mor:	pro:indef|more ?
+*MOT:	gonna get you ! 1099050_1102092
+%mor:	part|go-PRESP~inf|to v|get pro|you !
+*MOT:	op ! 1102092_1103508
+%mor:	co|op !
+*MOT:	I got your hand ! 1103531_1104344
+%mor:	pro:sub|I v|get&PAST pro:poss:det|your n|hand !
+*MOT:	there . 1104344_1107780
+%mor:	adv|there .
+*MOT:	ya see how mommy does it ? 1107780_1110520
+%mor:	pro|you v|see adv|how n|mommy mod|do&3S pro|it ?
+*MOT:	put in the back ? 1110520_1111705
+%mor:	v|put&ZERO prep|in det|the n|back ?
+*MOT:	more ? 1114282_1114932
+%mor:	pro:indef|more ?
+*MOT:	(I)m gonna get your hand (.) see in the back ? 1117486_1124708
+%mor:	n:prop|Im part|go-PRESP~inf|to v|get pro:poss:det|your n|hand v|see
+	prep|in det|the n|back ?
+*MOT:	(i)t's where ya put your hand in (.) there to make the puppet (.)
+	(.) see ? 1125520_1128678
+%mor:	pro|it~cop|be&3S rel|where pro|you v|put&ZERO pro:poss:det|your
+	n|hand prep|in pro:dem|there inf|to v|make det|the n|puppet v|see ?
+*MOT:	you want mommy do it ? 1129932_1130931
+%mor:	pro|you v|want n|mommy v|do pro|it ?
+*MOT:	okay . 1131442_1132185
+%mor:	co|okay .
+*MOT:	hi (.) hi , marie ! 1133206_1136504
+%mor:	co|hi co|hi cm|cm n|mare-DIM !
+*MOT:	(.) I'm a silly , dragon (.) I'm a silly dragon ? 1136504_1140474
+%mor:	pro:sub|I~cop|be&1S det|a co|silly cm|cm n|dragon
+	pro:sub|I~cop|be&1S det|a co|silly n|dragon ?
+*MOT:	this is my cage an(d) there's the cage door . 1140473_1145837
+%mor:	pro:dem|this cop|be&3S pro:poss:det|my n|cage coord|and
+	pro:exist|there~cop|be&3S det|the n|cage n|door .
+*MOT:	put [//] push the door down (.) there ! 1145860_1149135
+%mor:	v|push det|the n|door adv|down adv|there !
+*MOT:	byebye ! 1149158_1149622
+%mor:	co|byebye !
+*MOT:	lift it up ? 1150388_1153523
+%mor:	v|lift pro|it adv|up ?
+*MOT:	here we go ! 1156054_1160443
+%mor:	adv|here pro:sub|we v|go !
+*MOT:	I'm trying to get out ! 1160466_1163392
+%mor:	pro:sub|I~aux|be&1S part|try-PRESP inf|to v|get adv|out !
+*MOT:	I'm trying to get out ! 1163392_1165110
+%mor:	pro:sub|I~aux|be&1S part|try-PRESP inf|to v|get adv|out !
+*MOT:	(I)m get you ! 1165110_1165737
+%mor:	n:prop|Im v|get pro|you !
+*MOT:	(.) yeah ! 1165737_1170125
+%mor:	co|yeah !
+*MOT:	baby do it ? 1173980_1174862
+%mor:	n|baby v|do pro|it ?
+*MOT:	oh , yeah ! 1174862_1176232
+%mor:	co|oh cm|cm co|yeah !
+*MOT:	push , that's right . 1181828_1184545
+%mor:	n|push cm|cm pro:dem|that~cop|be&3S adv|right .
+*MOT:	(.) see ya put your hand in here . 1184545_1187285
+%mor:	co|see pro|you v|put&ZERO pro:poss:det|your n|hand prep|in
+	pro:dem|here .
+*MOT:	&ah ! 1187285_1190652
+*MOT:	get you ! 1190675_1191813
+%mor:	v|get pro|you !
+*MOT:	I got you ! 1191813_1192649
+%mor:	pro:sub|I v|get&PAST pro|you !
+*MOT:	an(d) that's what it feels like . 1192672_1195203
+%mor:	conj|and pro:dem|that~cop|be&3S pro:wh|what pro|it v|feel-3S
+	prep|like .
+*MOT:	op ! 1195203_1196782
+%mor:	co|op !
+*MOT:	I got you , lemme open the door . 1196782_1198175
+%mor:	pro:sub|I v|get&PAST pro|you cm|cm v|let~pro:obj|me v|open det|the
+	n|door .
+*MOT:	there ! 1198198_1199336
+%mor:	adv|there !
+*MOT:	now try and get out ! 1199336_1200218
+%mor:	adv|now v|try coord|and v|get adv|out !
+*MOT:	ya wan(t) mommy to do it [=! growls] ? 1205651_1207787
+%mor:	pro|you v|want n|mommy inf|to v|do pro|it ?
+*MOT:	gotchyou [: got you] [=! laughs] ! 1207810_1216820
+%mor:	v|get&PAST pro|you !
+*MOT:	you wanna have it ? 1224993_1226270
+%mor:	pro|you v|want~inf|to v|have pro|it ?
+*MOT:	(.) oh the dragon can only go so far +... 1226270_1233840
+%mor:	co|oh det|the n|dragon mod|can adv|only v|go co|so adv|far +...
+*MOT:	he can't come all the way out . 1233840_1234955
+%mor:	pro:sub|he mod|can~neg|not v|come qn|all det|the n|way adv|out .
+*MOT:	just as far as that . 1234978_1236116
+%mor:	adv|just conj|as adj|far adv|as pro:dem|that .
+*MOT:	oh ! 1236116_1243058
+%mor:	co|oh !
+*MOT:	you're tryin(g) to get it ? 1243081_1244266
+%mor:	pro|you~aux|be&PRES part|try-PRESP inf|to v|get pro|it ?
+*MOT:	there ! 1248026_1250488
+%mor:	adv|there !
+*MOT:	(.) hi marie (.) oh ! 1250511_1257686
+%mor:	co|hi n|mare-DIM co|oh !
+*MOT:	who's [//] who's this in here ? 1257709_1262864
+%mor:	pro:wh|who~cop|be&3S pro:dem|this prep|in pro:dem|here ?
+*MOT:	are ya tryin(g) to take the dragon out ? 1267392_1268715
+%mor:	cop|be&PRES pro|you part|try-PRESP inf|to v|take det|the n|dragon
+	adv|out ?
+*MOT:	he doesn't come out , honey . 1269807_1272245
+%mor:	pro:sub|he mod|do&3S~neg|not v|come adv|out cm|cm n|honey .
+*MOT:	he stays in the cage . 1272245_1273615
+%mor:	pro:sub|he v|stay-3S prep|in det|the n|cage .
+*MOT:	has_to stay in the cage (.) see ? 1273615_1276819
+%mor:	mod:aux|has_to v|stay prep|in det|the n|cage v|see ?
+*MOT:	right here it's attached . 1276819_1277678
+%mor:	adv|right adv|here pro|it~cop|be&3S part|attach-PASTP .
+*MOT:	has_to stay inside (.) you're gonna keep him inside ? 1277678_1288778
+%mor:	mod:aux|has_to v|stay adv|inside pro|you~aux|be&PRES
+	part|go-PRESP~inf|to v|keep pro:obj|him adv|inside ?
+*MOT:	op ! 1288801_1289265
+%mor:	co|op !
+*MOT:	his tongue is hangin(g) out . 1289264_1290542
+%mor:	pro:poss:det|his n|tongue aux|be&3S part|hang-PRESP adv|out .
+*MOT:	push it in ? 1295766_1296997
+%mor:	v|push pro|it adv|in ?
+*MOT:	oh , okay . 1296997_1297879
+%mor:	co|oh cm|cm adj|okay .
+*MOT:	there ! 1297879_1298436
+%mor:	adv|there !
+*MOT:	there he is ! 1298436_1300596
+%mor:	adv|there pro:sub|he cop|be&3S !
+*MOT:	in the cage ! 1300596_1301200
+%mor:	prep|in det|the n|cage !
+*MOT:	he's gonna go (.) take a nap . 1301200_1302616
+%mor:	pro:sub|he~aux|be&3S part|go-PRESP~inf|to v|go v|take det|a n|nap .
+*MOT:	do you see how ? 1307585_1310000
+%mor:	mod|do pro|you v|see adv|how ?
+*MOT:	this opens here . 1310000_1310952
+%mor:	pro:dem|this v|open-3S adv|here .
+*MOT:	who's inside the house ? 1310952_1316455
+%mor:	pro:wh|who~cop|be&3S prep|inside det|the n|house ?
+*MOT:	this animal (.) can come out if you pull hard enough (.) (.) pull
+	(.) go (a)head . 1322748_1330433
+%mor:	det|this n|animal mod|can v|come adv|out conj|if pro|you v|pull
+	adv|hard adv|enough v|pull v|go adv|ahead .
+*MOT:	pull . 1330433_1330782
+%mor:	v|pull .
+*MOT:	you want mommy to take him out ? 1331246_1333197
+%mor:	pro|you v|want n|mommy inf|to v|take pro:obj|him adv|out ?
+*MOT:	huh ? 1334381_1334776
+%mor:	co|huh ?
+*MOT:	close the door ? 1334798_1337655
+%mor:	v|close det|the n|door ?
+*MOT:	there (.) now the door is open . 1343343_1344852
+%mor:	adv|there adv|now det|the n|door cop|be&3S adj|open .
+*MOT:	you can put him in here . 1351144_1353002
+%mor:	pro|you mod|can v|put&ZERO pro:obj|him prep|in pro:dem|here .
+*MOT:	there ! 1353002_1359225
+%mor:	adv|there !
+*MOT:	no , I didn't think it would fit , either . 1365864_1369510
+%mor:	co|no cm|cm pro:sub|I mod|do&PAST~neg|not v|think pro|it
+	mod|will&COND v|fit&ZERO cm|cm adv|either .
+@End

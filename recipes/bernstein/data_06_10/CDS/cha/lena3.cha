@@ -1,0 +1,1087 @@
+@UTF8
+@PID:	11312/c-00015358-1
+@Begin
+@Languages:	eng
+@Participants:	CHI Lena Target_Child , MOT Mother
+@ID:	eng|Bernstein|CHI|2;0.|female|typical|MC|Target_Child|||
+@ID:	eng|Bernstein|MOT|||||Mother|||
+@Situation:	third session , mother/child play session
+@Warning:	Child utterances are phonemically transcribed using UNIBET but question for glottal is reversed
+*MOT:	there ya go .
+%mor:	adv|there pro|you v|go .
+*MOT:	what do you want ?
+%mor:	pro:wh|what mod|do pro|you v|want ?
+*MOT:	(.) what do you want ?
+%mor:	pro:wh|what mod|do pro|you v|want ?
+*MOT:	the brush ?
+%mor:	det|the n|brush ?
+*MOT:	oh , you mean the brush for the doggie's hair ?
+%mor:	co|oh cm|cm pro|you v|mean det|the n|brush prep|for det|the
+	n|dog-DIM~poss|s n|hair ?
+*MOT:	I don't know whether there was one in here .
+%mor:	pro:sub|I mod|do~neg|not v|know conj|whether pro:exist|there
+	cop|be&PAST&13S det:num|one prep|in pro:dem|here .
+*MOT:	yes , who ?
+%mor:	co|yes cm|cm rel|who ?
+*MOT:	who're ya gonna call ?
+%mor:	rel|who~aux|be&PRES pro|you part|go-PRESP~inf|to n|call ?
+*MOT:	oh , what are you going say to daddy ?
+%mor:	co|oh cm|cm pro:wh|what aux|be&PRES pro|you part|go-PRESP v|say
+	prep|to n|daddy ?
+*MOT:	oh , hello daddy , how are you today ?
+%mor:	co|oh cm|cm n|hello n|daddy cm|cm rel|how aux|be&PRES pro|you
+	adv:tem|today ?
+*MOT:	he said +"/.
+%mor:	pro:sub|he v|say&PAST +"/.
+*MOT:	+" I wanna talk to Lena .
+%mor:	pro:sub|I v|want~inf|to n|talk prep|to n:prop|Lena .
+*MOT:	you talk to daddy .
+%mor:	pro|you v|talk prep|to n|daddy .
+*MOT:	ask daddy what he wants for lunch .
+%mor:	v|ask n|daddy pro:wh|what pro:sub|he v|want-3S prep|for n|lunch .
+*MOT:	what kind of a sandwich ?
+%mor:	pro:wh|what n|kind prep|of det|a n|sandwich ?
+*MOT:	does daddy want ?
+%mor:	mod|do&3S n|daddy v|want ?
+*MOT:	does he want a peanut+butter and jelly sandwich ?
+%mor:	mod|do&3S pro:sub|he v|want det|a n|+n|peanut+n|butter coord|and
+	n|jelly n|sandwich ?
+*MOT:	ask daddy what kind of a sandwich .
+%mor:	v|ask n|daddy pro:wh|what n|kind prep|of det|a n|sandwich .
+*MOT:	a sandwich ?
+%mor:	det|a n|sandwich ?
+*MOT:	ask him what he wants to drink .
+%mor:	v|ask pro:obj|him pro:wh|what pro:sub|he v|want-3S inf|to v|drink .
+*MOT:	what does he say ?
+%mor:	pro:wh|what v|do&3S pro:sub|he v|say ?
+*MOT:	it goes this way .
+%mor:	pro|it v|go-3S det|this n|way .
+*MOT:	what else do you want ?
+%mor:	pro:wh|what post|else v|do pro|you v|want ?
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	where ?
+%mor:	adv:wh|where ?
+*MOT:	(.) oh !
+%mor:	co|oh !
+*MOT:	yeah (.) what's this ?
+%mor:	co|yeah pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	do you see a girl here ?
+%mor:	mod|do pro|you v|see det|a n|girl adv|here ?
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	this one ?
+%mor:	det|this pro:indef|one ?
+*MOT:	this book ?
+%mor:	det|this n|book ?
+*MOT:	(.) oh !
+%mor:	co|oh !
+*MOT:	what are those ?
+%mor:	pro:wh|what aux|be&PRES pro:dem|those ?
+*MOT:	what kind of shoes ?
+%mor:	pro:wh|what n|kind prep|of n|shoe-PL ?
+*MOT:	dress ones ?
+%mor:	n|dress pro:indef|one-PL ?
+*MOT:	what color are those shoes ?
+%mor:	pro:wh|what n|color cop|be&PRES det|those n|shoe-PL ?
+*MOT:	&um &hmm !
+*MOT:	what do you do with the brush ?
+%mor:	pro:wh|what mod|do pro|you v|do prep|with det|the n|brush ?
+*MOT:	is that mommy's brush ?
+%mor:	cop|be&3S pro:dem|that n|mommy~poss|s n|brush ?
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	the dolly ?
+%mor:	det|the n|doll-DIM ?
+*MOT:	this ?
+%mor:	pro:dem|this ?
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	(.) what's that called ?
+%mor:	rel|what~aux|be&3S rel|that v|call-PAST ?
+*MOT:	what are ya gonna do with the the brush ?
+%mor:	pro:wh|what aux|be&PRES pro|you part|go-PRESP~inf|to v|do prep|with
+	det|the det|the n|brush ?
+*MOT:	(.) oh (.) make it pretty !
+%mor:	co|oh v|make pro|it adv|pretty !
+*MOT:	(.) oh (.) nice job !
+%mor:	co|oh adj|nice n|job !
+*MOT:	I think that's enough .
+%mor:	pro:sub|I v|think pro:dem|that~cop|be&3S adv|enough .
+*MOT:	I think the doggie's gonna bark .
+%mor:	pro:sub|I v|think det|the n|dog-DIM~poss|s part|go-PRESP~inf|to
+	n|bark .
+*MOT:	oh , you're gonna love the doggie ?
+%mor:	co|oh cm|cm pro|you~aux|be&PRES part|go-PRESP~inf|to v|love det|the
+	n|dog-DIM ?
+*MOT:	the puppy ?
+%mor:	det|the n|puppy ?
+*MOT:	I think the doggie does want some food .
+%mor:	pro:sub|I v|think det|the n|dog-DIM mod|do&3S v|want qn|some n|food
+	.
+*MOT:	what shall we give the doggie ?
+%mor:	pro:wh|what mod|shall pro:sub|we v|give det|the n|dog-DIM ?
+*MOT:	okay .
+%mor:	co|okay .
+*MOT:	here (.) here's some food for the doggie .
+%mor:	adv|here pro:exist|here~cop|be&3S qn|some n|food prep|for det|the
+	n|dog-DIM .
+*MOT:	you give it to the doggie .
+%mor:	pro|you v|give pro|it prep|to det|the n|dog-DIM .
+*MOT:	the doggie think that's delicious ?
+%mor:	det|the n|dog-DIM v|think pro:dem|that~cop|be&3S adj|delicious ?
+*MOT:	good .
+%mor:	adj|good .
+*MOT:	shall we take the puppy out_of the house ?
+%mor:	mod|shall pro:sub|we v|take det|the n|puppy prep|out_of det|the
+	n|house ?
+*MOT:	and you can love the puppy [=! softly] .
+%mor:	conj|and pro|you mod|can v|love det|the n|puppy .
+*CHI:	(o)kay +...
+%mor:	co|okay +...
+*MOT:	oh +...
+%mor:	co|oh +...
+*MOT:	you might hurt the doggie !
+%mor:	pro|you mod|might v|hurt&ZERO det|the n|dog-DIM !
+*MOT:	if you brush his hair !
+%mor:	conj|if pro|you v|brush pro:poss:det|his n|hair !
+*MOT:	what do you think ?
+%mor:	pro:wh|what mod|do pro|you v|think ?
+*MOT:	oh (.) good .
+%mor:	co|oh adj|good .
+*MOT:	maybe we should read the doggie a book .
+%mor:	adv|maybe pro:sub|we mod|should v|read&ZERO det|the n|dog-DIM det|a
+	n|book .
+*MOT:	the puppy a book .
+%mor:	det|the n|puppy det|a n|book .
+*MOT:	read the puppy the book .
+%mor:	v|read&ZERO det|the n|puppy det|the n|book .
+*MOT:	what color is that ?
+%mor:	pro:wh|what n|color cop|be&3S pro:dem|that ?
+*MOT:	yes [=! laughs] what's this ?
+%mor:	co|yes pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	what's yarn (.) what color is this ?
+%mor:	rel|what~aux|be&3S n|yarn adv|what n|color aux|be&3S det|this ?
+*MOT:	right (.) what color is that ?
+%mor:	adv|right adv|what n|color cop|be&3S pro:dem|that ?
+*MOT:	(.) orange +...
+%mor:	adj|orange +...
+*MOT:	<what &pic> [//] look (.) the same color as your shirt !
+%mor:	v|look det|the adj|same n|color prep|as pro:poss:det|your n|shirt !
+*MOT:	see ?
+%mor:	v|see ?
+*MOT:	it matches .
+%mor:	pro|it v|match-3S .
+*MOT:	(.) it's the same color as the doggie's house !
+%mor:	pro|it~cop|be&3S det|the adj|same n|color prep|as det|the
+	n|dog-DIM~poss|s n|house !
+*MOT:	look !
+%mor:	co|look !
+*MOT:	it matches !
+%mor:	pro|it v|match-3S !
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	look at this !
+%mor:	v|look prep|at pro:dem|this !
+*MOT:	hiding behind the chair !
+%mor:	part|hide-PRESP prep|behind det|the n|chair !
+*MOT:	is that a lemon ?
+%mor:	cop|be&3S rel|that det|a n|lemon ?
+*MOT:	a ball ?
+%mor:	det|a n|ball ?
+*MOT:	what color is that ?
+%mor:	pro:wh|what n|color cop|be&3S pro:dem|that ?
+*MOT:	is he going to sleep ?
+%mor:	cop|be&3S pro:sub|he part|go-PRESP inf|to v|sleep ?
+*MOT:	night_night !
+%mor:	co|night_night !
+*MOT:	what are ya gonna sing ?
+%mor:	pro:wh|what aux|be&PRES pro|you part|go-PRESP~inf|to v|sing ?
+*CHI:	wok_a_bebi [: rock_a_bye baby] +...
+%mor:	co|rock_a_bye n|baby +...
+*MOT:	okay .
+%mor:	co|okay .
+*MOT:	yes , Lena .
+%mor:	co|yes cm|cm n:prop|Lena .
+*MOT:	is daddy talking to you ?
+%mor:	cop|be&3S n|daddy part|talk-PRESP prep|to pro|you ?
+*MOT:	that way .
+%mor:	det|that n|way .
+*MOT:	the doggie wants you to read the rest of the book !
+%mor:	det|the n|dog-DIM v|want-3S pro|you inf|to v|read&ZERO det|the
+	n|rest prep|of det|the n|book !
+*MOT:	yes !
+%mor:	co|yes !
+*MOT:	what color is the chair ?
+%mor:	pro:wh|what n|color cop|be&3S det|the n|chair ?
+*CHI:	xxx .
+*MOT:	okay .
+%mor:	co|okay .
+*MOT:	here tie it up again .
+%mor:	adv|here v|tie pro|it adv|up adv|again .
+*MOT:	I don't think the shoes come off .
+%mor:	pro:sub|I mod|do~neg|not v|think det|the n|shoe-PL v|come adv|off .
+*MOT:	no .
+%mor:	co|no .
+*MOT:	they stay on <the &do> [//] the dolly's feet .
+%mor:	pro:sub|they v|stay prep|on det|the n|doll-DIM~poss|s n|foot&PL .
+*MOT:	&um !
+*MOT:	good job !
+%mor:	adj|good n|job !
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	that's a zipper .
+%mor:	pro:dem|that~cop|be&3S det|a v|zipper .
+*MOT:	okay .
+%mor:	co|okay .
+*MOT:	pull it [=! whisper] .
+%mor:	v|pull pro|it .
+*MOT:	I don't think his pants come off (.) what's this ?
+%mor:	pro:sub|I mod|do~neg|not v|think pro:poss:det|his n:pt|pants v|come
+	prep|off pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	what's the dolly gonna put in his pocket ?
+%mor:	adv:wh|what~aux|be&3S det|the n|doll-DIM part|go-PRESP~inf|to
+	v|put&ZERO prep|in pro:poss:det|his n|pocket ?
+*MOT:	oh , look at this !
+%mor:	co|oh cm|cm v|look prep|at pro:dem|this !
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	that's a snap !
+%mor:	pro:dem|that~cop|be&3S det|a n|snap !
+*MOT:	which one ?
+%mor:	rel|which pro:indef|one ?
+*MOT:	this one ?
+%mor:	det|this pro:indef|one ?
+*MOT:	I don't know .
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*MOT:	a swimming pool ?
+%mor:	det|a part|swim-PRESP n|pool ?
+*MOT:	where ?
+%mor:	adv:wh|where ?
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	my heavens !
+%mor:	pro:poss:det|my n|heaven-PL !
+*MOT:	what's that boy doing ?
+%mor:	adv:wh|what~cop|be&3S det|that n|boy part|do-PRESP ?
+*MOT:	yeah +...
+%mor:	co|yeah +...
+*MOT:	what's this girl doing ?
+%mor:	adv:wh|what~cop|be&3S det|this n|girl part|do-PRESP ?
+*MOT:	is that an apple ?
+%mor:	cop|be&3S rel|that det|a n|apple ?
+*MOT:	what does she have in her hand ?
+%mor:	pro:wh|what v|do&3S pro:sub|she v|have prep|in pro:poss:det|her
+	n|hand ?
+*MOT:	what's that called ?
+%mor:	rel|what~aux|be&3S rel|that v|call-PAST ?
+*MOT:	&ah !
+*MOT:	yeah (.) !
+%mor:	co|yeah !
+*MOT:	night_night !
+%mor:	co|night_night !
+*MOT:	a doggie .
+%mor:	det|a n|dog-DIM .
+*MOT:	an apple , I made a mistake !
+%mor:	det|a n|apple cm|cm pro:sub|I v|make&PAST det|a n|mistake !
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	oh , what's she doing ?
+%mor:	co|oh cm|cm rel|what~aux|be&3S pro:sub|she part|do-PRESP ?
+*MOT:	yeah , what was mommy doing yesterday ?
+%mor:	co|yeah cm|cm pro:wh|what cop|be&PAST&13S n|mommy part|do-PRESP
+	adv:tem|yesterday ?
+*MOT:	do you remember when mommy was doing that ?
+%mor:	mod|do pro|you v|remember conj|when n|mommy aux|be&PAST&13S
+	part|do-PRESP rel|that ?
+*MOT:	what is that boy eating ?
+%mor:	pro:wh|what cop|be&3S rel|that n|boy part|eat-PRESP ?
+*MOT:	(.) what's that [=! whisper] ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	those pancakes ?
+%mor:	det|those n|pancake-PL ?
+*MOT:	what do you wanna get ?
+%mor:	pro:wh|what mod|do pro|you v|want~inf|to v|get ?
+*MOT:	pancakes ?
+%mor:	n|pancake-PL ?
+*MOT:	for breakfast ?
+%mor:	prep|for n|breakfast ?
+*MOT:	can we have some tomorrow ?
+%mor:	mod|can pro:sub|we v|have qn|some adv:tem|tomorrow ?
+*MOT:	uhoh .
+%mor:	co|uhoh .
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	I think those are your favorites +...
+%mor:	pro:sub|I v|think det|those cop|be&PRES pro:poss:det|your
+	n|favorite-PL +...
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	what's this though ?
+%mor:	adv:wh|what~cop|be&3S det|this adv|though ?
+*MOT:	do you &s +...
+%mor:	mod|do pro|you +...
+*MOT:	watch it quiver [=! sings jingle] !
+%mor:	v|watch pro|it v|quiver !
+*MOT:	those are jelly beans !
+%mor:	pro:dem|those cop|be&PRES n|jelly n|bean-PL !
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	yeah (.) I see a butterfly +...
+%mor:	co|yeah pro:sub|I v|see det|a n|+n|butter+n|fly +...
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	(.) I like this (.) who's that person ?
+%mor:	pro:sub|I v|like det|this rel|who~aux|be&3S det|that n|person ?
+*MOT:	is that the grandma ?
+%mor:	cop|be&3S rel|that det|the grand#n|ma ?
+*MOT:	nice grandma (.) oh !
+%mor:	adj|nice grand#n|ma co|oh !
+*MOT:	look at those !
+%mor:	v|look prep|at pro:dem|those !
+*MOT:	what are those ?
+%mor:	pro:wh|what aux|be&PRES pro:dem|those ?
+*MOT:	oh , dear +...
+%mor:	co|oh cm|cm co|dear +...
+*MOT:	hello , Lena !
+%mor:	co|hello cm|cm n:prop|Lena !
+*MOT:	Lena , what are you going to have for lunch today ?
+%mor:	n:prop|Lena cm|cm pro:wh|what aux|be&PRES pro|you part|go-PRESP
+	inf|to v|have prep|for n|lunch adv:tem|today ?
+*MOT:	Cheerios ?
+%mor:	n:prop|Cheerios ?
+*MOT:	don't you usually have a sandwich for lunch ?
+%mor:	mod|do~neg|not pro|you adv|usual&dadj-LY v|have det|a n|sandwich
+	prep|for n|lunch ?
+*MOT:	what are you going to have , ham or balogna@f ?
+%mor:	pro:wh|what aux|be&PRES pro|you part|go-PRESP inf|to v|have cm|cm
+	n|ham coord|or fam|balogna ?
+*MOT:	balogna@f (.) yum !
+%mor:	fam|balogna n|yum !
+*MOT:	oh , look at this !
+%mor:	co|oh cm|cm v|look prep|at pro:dem|this !
+*MOT:	look at that !
+%mor:	v|look prep|at pro:dem|that !
+*MOT:	do you remember what those are ?
+%mor:	mod|do pro|you v|remember adv|what det|those cop|be&PRES ?
+*MOT:	raisins +...
+%mor:	n|raisin-PL +...
+*MOT:	don't with the doggie (.) oh !
+%mor:	mod|do~neg|not prep|with det|the n|dog-DIM co|oh !
+*MOT:	<who has> [/] who has train tracks ?
+%mor:	pro:wh|who aux|have&3S n|train n|track-PL ?
+*MOT:	are those like Jeffrey's train tracks ?
+%mor:	cop|be&PRES det|those v|like n:prop|Jeffrey~poss|s n|train
+	n|track-PL ?
+*MOT:	uhoh !
+%mor:	co|uhoh !
+*MOT:	look at that !
+%mor:	v|look prep|at pro:dem|that !
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	what do we have for dessert at night ?
+%mor:	pro:wh|what mod|do pro:sub|we v|have prep|for n|dessert prep|at
+	n|night ?
+*MOT:	that's ice+cream !
+%mor:	pro:dem|that~cop|be&3S n|+n|ice+n|cream !
+*CHI:	ai_kin [: ice+cream] +...
+%mor:	n|+n|ice+n|cream +...
+*MOT:	yeah +...
+%mor:	co|yeah +...
+*CHI:	oh oh !
+%mor:	co|oh co|oh !
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	let's see look at this !
+%mor:	v|let~pro:obj|us v|see v|look prep|at pro:dem|this !
+*MOT:	do you have this ?
+%mor:	mod|do pro|you v|have pro:dem|this ?
+*MOT:	did you get that for your birthday ?
+%mor:	v|do&PAST pro|you v|get pro:dem|that prep|for pro:poss:det|your
+	n|+n|birth+n|day ?
+*MOT:	what's that called ?
+%mor:	rel|what~aux|be&3S rel|that v|call-PAST ?
+*MOT:	that's an egg .
+%mor:	pro:dem|that~cop|be&3S det|a n|egg .
+*MOT:	you don't like these kind of eggs; you like scrambled eggs .
+%mor:	pro|you mod|do~neg|not v|like det|these n|kind prep|of n|egg-PL
+	pro|you v|like part|scramble-PASTP n|egg-PL .
+*MOT:	oh , look at that girl .
+%mor:	co|oh cm|cm v|look prep|at det|that n|girl .
+*MOT:	she sleepy ?
+%mor:	pro:sub|she adj|sleep&dn-Y ?
+*MOT:	(.) where should she go ?
+%mor:	adv:wh|where mod|should pro:sub|she v|go ?
+*MOT:	where's she gonna go ?
+%mor:	rel|where~aux|be&3S pro:sub|she part|go-PRESP~inf|to v|go ?
+*MOT:	look +...
+%mor:	co|look +...
+*MOT:	yeah +...
+%mor:	co|yeah +...
+*MOT:	yeah +...
+%mor:	co|yeah +...
+*MOT:	is that her mommy ?
+%mor:	cop|be&3S rel|that pro:poss:det|her n|mommy ?
+*MOT:	what's her mommy doing ?
+%mor:	pro:wh|what~cop|be&3S pro:poss:det|her n|mommy part|do-PRESP ?
+*MOT:	what ?
+%mor:	pro:wh|what ?
+*MOT:	what do you want to get for your birthday ?
+%mor:	pro:wh|what mod|do pro|you v|want inf|to v|get prep|for
+	pro:poss:det|your n|+n|birth+n|day ?
+*MOT:	tell me .
+%mor:	v|tell pro:obj|me .
+*MOT:	what do you want ?
+%mor:	pro:wh|what mod|do pro|you v|want ?
+*MOT:	yes , Lena [=! deep voice] .
+%mor:	co|yes cm|cm n:prop|Lena .
+*MOT:	what did daddy say [=! whisper] ?
+%mor:	adv|what v|do&PAST n|daddy v|say ?
+*MOT:	ask daddy when he's coming home .
+%mor:	v|ask n|daddy conj|when pro:sub|he~aux|be&3S part|come-PRESP n|home
+	.
+*MOT:	did he say soon ?
+%mor:	mod|do&PAST pro:sub|he v|say adv|soon ?
+*MOT:	what else ?
+%mor:	pro:wh|what post|else ?
+*MOT:	this book ?
+%mor:	det|this n|book ?
+*MOT:	(.) or this block ?
+%mor:	coord|or det|this n|block ?
+*MOT:	(.) which ?
+%mor:	rel|which ?
+*MOT:	you want the alphabet ?
+%mor:	pro|you v|want det|the n|alphabet ?
+*MOT:	what's happened ?
+%mor:	rel|what~aux|be&3S part|happen-PASTP ?
+*MOT:	uhoh !
+%mor:	co|uhoh !
+*MOT:	there ya go +...
+%mor:	adv|there pro|you v|go +...
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	who's that ?
+%mor:	pro:wh|who~cop|be&3S pro:dem|that ?
+*MOT:	a mouse ?
+%mor:	det|a n|mouse ?
+*MOT:	where's the kitty cat [=! whisper] ?
+%mor:	adv:wh|where~cop|be&3S det|the n|kitty n|cat ?
+*MOT:	is that a kitty cat ?
+%mor:	cop|be&3S rel|that det|a adj|kit&dn-Y n|cat ?
+*MOT:	wow !
+%mor:	co|wow !
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	kitty cat [=! whisper] !
+%mor:	adj|kit&dn-Y n|cat !
+*MOT:	look at this what's that ?
+%mor:	v|look prep|at det|this pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	what a silly turtle !
+%mor:	pro:wh|what det|a co|silly n|turtle !
+*MOT:	look at this !
+%mor:	v|look prep|at pro:dem|this !
+*MOT:	you know what this is ?
+%mor:	pro|you v|know adv|what det|this cop|be&3S ?
+*MOT:	a whale !
+%mor:	det|a n|whale !
+*MOT:	I don't think so , I think he's swimming .
+%mor:	pro:sub|I mod|do~neg|not v|think conj|so cm|cm pro:sub|I v|think
+	pro:sub|he~aux|be&3S part|swim-PRESP .
+*MOT:	you see the squirrel ?
+%mor:	pro|you v|see det|the n|squirrel ?
+*MOT:	find the squirrel .
+%mor:	v|find det|the n|squirrel .
+*MOT:	&um &hmm !
+*MOT:	what's that boy doin(g) ?
+%mor:	adv:wh|what~cop|be&3S det|that n|boy part|do-PRESP ?
+*MOT:	yeah (.) and look at this !
+%mor:	co|yeah coord|and v|look prep|at pro:dem|this !
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	what's this big animal ?
+%mor:	adv:wh|what~cop|be&3S det|this adj|big n|animal ?
+*MOT:	look at this big animal (.) what's that big animal ?
+%mor:	v|look prep|at det|this adj|big n|animal rel|what~aux|be&3S
+	adv|that adj|big n|animal ?
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	look at this !
+%mor:	v|look prep|at pro:dem|this !
+*MOT:	see the cow jumping over the moon ?
+%mor:	v|see det|the n|cow part|jump-PRESP prep|over det|the n|moon ?
+*MOT:	see that little dog laugh ?
+%mor:	v|see rel|that adj|little n|dog n|laugh ?
+*MOT:	can you make a tower ?
+%mor:	mod|can pro|you v|make det|a n|tower ?
+*MOT:	how do you make a tower ?
+%mor:	adv:wh|how mod|do pro|you v|make det|a n|tower ?
+*MOT:	no !
+%mor:	co|no !
+*MOT:	not meow +...
+%mor:	neg|not on|meow +...
+*MOT:	that's a tower .
+%mor:	pro:dem|that~cop|be&3S det|a n|tower .
+*MOT:	yeah .
+%mor:	co|yeah .
+*MOT:	that's so high !
+%mor:	pro:dem|that~cop|be&3S adv|so adv|high !
+*MOT:	what's gonna happen ?
+%mor:	rel|what~aux|be&3S part|go-PRESP~inf|to v|happen ?
+*MOT:	where'd it go ?
+%mor:	rel|where~mod|genmod pro|it v|go ?
+*MOT:	look at this , who's on this one ?
+%mor:	v|look prep|at det|this cm|cm rel|who~aux|be&3S prep|on det|this
+	pro:indef|one ?
+*MOT:	oh ho , look at this silly one !
+%mor:	co|oh co|ho cm|cm v|look prep|at det|this co|silly pro:indef|one !
+*MOT:	piggy !
+%mor:	adj|pig&dn-Y !
+*MOT:	silly piggy !
+%mor:	co|silly n|pig-DIM !
+*MOT:	here +...
+%mor:	adv|here +...
+*MOT:	look at this !
+%mor:	v|look prep|at pro:dem|this !
+*MOT:	do you know what that is ?
+%mor:	mod|do pro|you v|know adv|what adv|that cop|be&3S ?
+*MOT:	right there ?
+%mor:	adv|right adv|there ?
+*MOT:	umbrella +...
+%mor:	n|umbrella +...
+*MOT:	that's a &u +...
+%mor:	pro:dem|that~cop|be&3S det|a +...
+*MOT:	no .
+%mor:	co|no .
+*MOT:	here's a p@l .
+%mor:	pro:exist|here~cop|be&3S det|a n:let|p .
+*MOT:	see the letter p@l ?
+%mor:	v|see det|the n|letter n:let|p ?
+*MOT:	parrot starts with p@l .
+%mor:	n|parrot v|start-3S prep|with n:let|p .
+*MOT:	I don't know what happened .
+%mor:	pro:sub|I mod|do~neg|not v|know pro:wh|what v|happen-PAST .
+*MOT:	what happened ?
+%mor:	pro:wh|what v|happen-PAST ?
+*MOT:	there ya go +...
+%mor:	adv|there pro|you v|go +...
+*MOT:	you making a house ?
+%mor:	pro|you part|make-PRESP det|a n|house ?
+*MOT:	who lives in this house ?
+%mor:	pro:wh|who n|life-PL prep|in det|this n|house ?
+*MOT:	whoops !
+%mor:	co|whoops !
+*CHI:	0 [=! whisper] xxx .
+*MOT:	hello , daddy .
+%mor:	co|hello cm|cm n|daddy .
+*MOT:	tell daddy where you went this morning !
+%mor:	v|tell n|daddy rel|where pro|you v|go&PAST det|this n|morning !
+*MOT:	tell daddy who drove in the car with us +...
+%mor:	v|tell n|daddy rel|who v|drive&PAST prep|in det|the n|car prep|with
+	pro:obj|us +...
+*MOT:	who was in the car with us ?
+%mor:	rel|who cop|be&PAST&13S prep|in det|the n|car prep|with pro:obj|us
+	?
+*MOT:	tell him who came down &wi [//] in the car with us ?
+%mor:	v|tell pro:obj|him rel|who v|come&PAST adv|down prep|in det|the
+	n|car prep|with pro:obj|us ?
+*MOT:	who took us to it ?
+%mor:	pro:wh|who v|take&PAST pro:obj|us prep|to pro|it ?
+*MOT:	aunt Susie ?
+%mor:	n|aunt n:prop|Susie ?
+*MOT:	where is she ?
+%mor:	adv:wh|where cop|be&3S pro:sub|she ?
+*MOT:	where did she go ?
+%mor:	adv:wh|where mod|do&PAST pro:sub|she v|go ?
+*MOT:	to her +...
+%mor:	prep|to pro:obj|her +...
+*MOT:	yes !
+%mor:	co|yes !
+*MOT:	what does she do at her office ?
+%mor:	pro:wh|what v|do&3S pro:sub|she v|do prep|at pro:poss:det|her
+	n|office ?
+*MOT:	what does she do at her office ?
+%mor:	pro:wh|what v|do&3S pro:sub|she v|do prep|at pro:poss:det|her
+	n|office ?
+*MOT:	I don't know .
+%mor:	pro:sub|I mod|do~neg|not v|know .
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	all_gone !
+%mor:	co|all_gone !
+*MOT:	whose telephone is that ?
+%mor:	rel|whose n|telephone cop|be&3S pro:dem|that ?
+*MOT:	where'd your pocketbook go ?
+%mor:	rel|where~mod|genmod pro:poss:det|your n|+n|pocket+n|book v|go ?
+*MOT:	where'd it go [=! high] .
+%mor:	rel|where~mod|genmod pro|it v|go .
+*CHI:	xxx .
+*CHI:	xxx .
+*MOT:	oh , dear !
+%mor:	co|oh cm|cm co|dear !
+*MOT:	look !
+%mor:	co|look !
+*MOT:	they match !
+%mor:	pro:sub|they v|match !
+*MOT:	uhoh !
+%mor:	co|uhoh !
+*MOT:	make me (.) make two piles that match .
+%mor:	v|make pro:obj|me v|make det:num|two n|pile-PL det|that n|match .
+*MOT:	no (.) can you make two piles ?
+%mor:	co|no mod|can pro|you v|make det:num|two n|pile-PL ?
+*MOT:	two towers ?
+%mor:	det:num|two n|tower-PL ?
+*MOT:	whoops !
+%mor:	co|whoops !
+*MOT:	I don't know !
+%mor:	pro:sub|I mod|do~neg|not v|know !
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	make two !
+%mor:	v|make det:num|two !
+*MOT:	uhoh !
+%mor:	co|uhoh !
+*MOT:	(.) I want one .
+%mor:	pro:sub|I v|want pro:indef|one .
+*MOT:	I want one .
+%mor:	pro:sub|I v|want pro:indef|one .
+*MOT:	I want two !
+%mor:	pro:sub|I v|want det:num|two !
+*MOT:	I want this one !
+%mor:	pro:sub|I v|want det|this pro:indef|one !
+*MOT:	can't I have this one ?
+%mor:	mod|can~neg|not pro:sub|I v|have det|this pro:indef|one ?
+*MOT:	thank_you .
+%mor:	co|thank_you .
+*MOT:	(.) I want this one .
+%mor:	pro:sub|I v|want det|this pro:indef|one .
+*MOT:	can't I have this one ?
+%mor:	mod|can~neg|not pro:sub|I v|have det|this pro:indef|one ?
+*MOT:	but I want this one .
+%mor:	conj|but pro:sub|I v|want det|this pro:indef|one .
+*MOT:	where're ya gonna put it ?
+%mor:	rel|where~aux|be&PRES pro|you part|go-PRESP~inf|to v|put&ZERO
+	pro|it ?
+*MOT:	but mommy wants one !
+%mor:	conj|but n|mommy v|want-3S pro:indef|one !
+*MOT:	can't mommy have one ?
+%mor:	mod|can~neg|not n|mommy aux|have pro:indef|one ?
+*MOT:	which one could I have ?
+%mor:	rel|which pro:indef|one mod|could pro:sub|I v|have ?
+*MOT:	tell me which one .
+%mor:	v|tell pro:obj|me rel|which pro:indef|one .
+*MOT:	which one ?
+%mor:	rel|which pro:indef|one ?
+*MOT:	this one ?
+%mor:	det|this pro:indef|one ?
+*MOT:	I took it !
+%mor:	pro:sub|I v|take&PAST pro|it !
+*MOT:	this one's mine !
+%mor:	det|this pro:indef|one~aux|be&3S pro:poss|mine !
+*MOT:	no , it's mine !
+%mor:	co|no cm|cm pro|it~aux|be&3S pro:poss|mine !
+*MOT:	but I want one .
+%mor:	conj|but pro:sub|I v|want pro:indef|one .
+*MOT:	thank_you .
+%mor:	co|thank_you .
+*MOT:	can I have another one ?
+%mor:	mod|can pro:sub|I v|have qn|another pro:indef|one ?
+*MOT:	could I have two , please ?
+%mor:	mod|could pro:sub|I v|have det:num|two cm|cm co|please ?
+*MOT:	which one could I have ?
+%mor:	rel|which pro:indef|one mod|could pro:sub|I v|have ?
+*MOT:	show me which one I could have .
+%mor:	v|show pro:obj|me rel|which pro:indef|one pro:sub|I mod|could
+	v|have .
+*MOT:	I have (.) this green one ?
+%mor:	pro:sub|I v|have det|this n|green pro:indef|one ?
+*MOT:	this red one ?
+%mor:	det|this n|red pro:indef|one ?
+*MOT:	this blue one ?
+%mor:	det|this n|blue pro:indef|one ?
+*MOT:	which one ?
+%mor:	rel|which pro:indef|one ?
+*MOT:	what is daddy saying ?
+%mor:	pro:wh|what cop|be&3S n|daddy part|say-PRESP ?
+*MOT:	does he say +"/.
+%mor:	mod|do&3S pro:sub|he v|say +"/.
+*MOT:	+" hello , hello ?
+%mor:	co|hello cm|cm n|hello ?
+*MOT:	are you going to work today ?
+%mor:	cop|be&PRES pro|you part|go-PRESP inf|to v|work adv:tem|today ?
+*MOT:	where did daddy go today ?
+%mor:	rel|where v|do&PAST n|daddy v|go adv:tem|today ?
+*MOT:	are you going to the store today ?
+%mor:	cop|be&PRES pro|you part|go-PRESP prep|to det|the n|store
+	adv:tem|today ?
+*MOT:	would you buy something at the store for me ?
+%mor:	mod|will&COND pro|you v|buy pro:indef|something prep|at det|the
+	n|store prep|for pro:obj|me ?
+*MOT:	what else besides raisins ?
+%mor:	pro:wh|what post|else prep|besides n|raisin-PL ?
+*MOT:	what else are we gonna get at the store ?
+%mor:	pro:wh|what post|else cop|be&PRES pro:sub|we part|go-PRESP~inf|to
+	v|get prep|at det|the n|store ?
+*MOT:	you need your pocketbook !
+%mor:	pro|you v|need pro:poss:det|your n|+n|pocket+n|book !
+*MOT:	you gonna bring your doggie ?
+%mor:	pro|you part|go-PRESP~inf|to v|bring pro:poss:det|your n|dog-DIM ?
+*MOT:	what's inside your pocketbook ?
+%mor:	pro:wh|what~cop|be&3S prep|inside pro:poss:det|your
+	n|+n|pocket+n|book ?
+*MOT:	maybe we should read that doggie another book .
+%mor:	adv|maybe pro:sub|we mod|should v|read&ZERO rel|that n|dog-DIM
+	qn|another n|book .
+*MOT:	which book ?
+%mor:	rel|which n|book ?
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	I see something in this book !
+%mor:	pro:sub|I v|see pro:indef|something prep|in det|this n|book !
+*MOT:	yeah !
+%mor:	co|yeah !
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	what're those ?
+%mor:	rel|what~aux|be&PRES pro:dem|those ?
+*MOT:	do you know what those are called ?
+%mor:	mod|do pro|you v|know adv|what det|those aux|be&PRES
+	part|call-PASTP ?
+*MOT:	scissors +...
+%mor:	n|scissors +...
+*MOT:	what are those ?
+%mor:	pro:wh|what aux|be&PRES pro:dem|those ?
+*MOT:	smell them +...
+%mor:	v|smell pro:obj|them +...
+*MOT:	what do they smell like !
+%mor:	pro:wh|what mod|do pro:sub|they v|smell prep|like !
+*MOT:	they smell like eggs ?
+%mor:	pro:sub|they v|smell prep|like n|egg-PL ?
+*MOT:	what do you use to smell things ?
+%mor:	pro:wh|what mod|do pro|you v|use inf|to v|smell n|thing-PL ?
+*MOT:	what color is that ball ?
+%mor:	pro:wh|what n|color cop|be&3S pro:dem|that v|ball ?
+*MOT:	my book .
+%mor:	pro:poss:det|my n|book .
+*MOT:	we didn't read this book !
+%mor:	pro:sub|we mod|do&PAST~neg|not v|read&ZERO det|this n|book !
+*MOT:	look at this one !
+%mor:	v|look prep|at det|this pro:indef|one !
+*MOT:	what's that girl doing ?
+%mor:	adv:wh|what~cop|be&3S det|that n|girl part|do-PRESP ?
+*CHI:	xxx .
+*MOT:	open it up [=! whisper] .
+%mor:	v|open pro|it adv|up .
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	look at that !
+%mor:	v|look prep|at pro:dem|that !
+*MOT:	yeah !
+%mor:	co|yeah !
+*MOT:	let's look at the next page (.) here .
+%mor:	v|let~pro:obj|us v|look prep|at det|the adj|next n|page adv|here .
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	what's the girl doing ?
+%mor:	adv:wh|what~cop|be&3S det|the n|girl part|do-PRESP ?
+*MOT:	what does she do ?
+%mor:	pro:wh|what v|do&3S pro:sub|she v|do ?
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	look at what she's got in her hair (.) !
+%mor:	v|look prep|at pro:wh|what pro:sub|she~aux|be&3S v|get&PAST prep|in
+	pro:poss:det|her n|hair !
+*MOT:	yeah !
+%mor:	co|yeah !
+*MOT:	what's this called ?
+%mor:	adv:wh|what~cop|be&3S det|this part|call-PASTP ?
+*MOT:	is that a bow ?
+%mor:	cop|be&3S rel|that det|a n|bow ?
+*MOT:	(.) a ribbon ?
+%mor:	det|a n|ribbon ?
+*MOT:	&s here .
+%mor:	adv|here .
+*MOT:	let's look at this page .
+%mor:	v|let~pro:obj|us v|look prep|at det|this n|page .
+*MOT:	you skipped this page !
+%mor:	pro|you v|skip-PAST det|this n|page !
+*MOT:	I wanna see this page .
+%mor:	pro:sub|I v|want~inf|to v|see det|this n|page .
+*MOT:	what's she doing ?
+%mor:	rel|what~aux|be&3S pro:sub|she part|do-PRESP ?
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	yeah (.) look over here (.) oh !
+%mor:	co|yeah v|look prep|over pro:dem|here co|oh !
+*MOT:	what's she doing now ?
+%mor:	rel|what~aux|be&3S pro:sub|she part|do-PRESP adv|now ?
+*MOT:	she all finished ?
+%mor:	pro:sub|she post|all v|finish-PAST ?
+*MOT:	what's she eating there ?
+%mor:	rel|what~aux|be&3S pro:sub|she part|eat-PRESP adv|there ?
+*MOT:	I wonder <what kind of cereal> [/] what kind of cereal is she
+	eating ?
+%mor:	pro:sub|I v|wonder pro:wh|what n|kind prep|of n|cereal cop|be&3S
+	pro:sub|she part|eat-PRESP ?
+*MOT:	Cheerios ?
+%mor:	n:prop|Cheerios ?
+*MOT:	Captain_Crunch ?
+%mor:	n:prop|Captain_Crunch ?
+*MOT:	yes !
+%mor:	co|yes !
+*MOT:	all done ?
+%mor:	post|all part|do&PASTP ?
+*MOT:	shall we read another book ?
+%mor:	mod|shall pro:sub|we v|read&ZERO qn|another n|book ?
+*MOT:	what are these ?
+%mor:	pro:wh|what aux|be&PRES pro:dem|these ?
+*MOT:	you got bones .
+%mor:	pro|you v|get&PAST n|bone-PL .
+*MOT:	what's this called ?
+%mor:	adv:wh|what~cop|be&3S det|this part|call-PASTP ?
+*MOT:	you see any numbers ?
+%mor:	pro|you v|see qn|any n|number-PL ?
+*MOT:	where ?
+%mor:	adv:wh|where ?
+*MOT:	what are these ?
+%mor:	pro:wh|what aux|be&PRES pro:dem|these ?
+*MOT:	yeah !
+%mor:	co|yeah !
+*MOT:	oh , what's that [=! whisper] ?
+%mor:	co|oh cm|cm pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	yeah !
+%mor:	co|yeah !
+*MOT:	what are those ?
+%mor:	pro:wh|what aux|be&PRES pro:dem|those ?
+*MOT:	wait a minute !
+%mor:	v|wait det|a n|minute !
+*MOT:	we skipped a page !
+%mor:	pro:sub|we v|skip-PAST det|a n|page !
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	look !
+%mor:	co|look !
+*MOT:	and your favorite +...
+%mor:	conj|and pro:poss:det|your n|favorite +...
+*MOT:	you got lots_of balloons (.) for your birthday .
+%mor:	pro|you v|get&PAST qn|lots_of n|balloon-PL prep|for
+	pro:poss:det|your n|+n|birth+n|day .
+*MOT:	what are those ?
+%mor:	pro:wh|what aux|be&PRES pro:dem|those ?
+*MOT:	what are those ?
+%mor:	pro:wh|what aux|be&PRES pro:dem|those ?
+*MOT:	tadah !
+%mor:	co|tadah !
+*MOT:	you see any numbers ?
+%mor:	pro|you v|see qn|any n|number-PL ?
+*MOT:	what's your favorite ?
+%mor:	pro:wh|what~cop|be&3S pro:poss:det|your n|favorite ?
+*MOT:	all done !
+%mor:	post|all part|do&PASTP !
+*MOT:	no .
+%mor:	co|no .
+*MOT:	y(ou) wanna see the girl again ?
+%mor:	pro|you v|want~inf|to v|see det|the n|girl adv|again ?
+*MOT:	wait a minute .
+%mor:	v|wait det|a n|minute .
+*MOT:	let's try this page .
+%mor:	v|let~pro:obj|us v|try det|this n|page .
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	no ?
+%mor:	co|no ?
+*MOT:	oh , where is she ?
+%mor:	co|oh cm|cm rel|where cop|be&3S pro:sub|she ?
+*MOT:	she [//] maybe she's only on the cover !
+%mor:	adv|maybe pro:sub|she~aux|be&3S adv|only prep|on det|the n|cover !
+*MOT:	right there !
+%mor:	adv|right adv|there !
+*MOT:	was she there ?
+%mor:	cop|be&PAST&13S pro:sub|she adv|there ?
+*MOT:	is she there ?
+%mor:	cop|be&3S pro:sub|she adv|there ?
+*MOT:	where's the girl ?
+%mor:	adv:wh|where~cop|be&3S det|the n|girl ?
+*MOT:	where did she go ?
+%mor:	adv:wh|where mod|do&PAST pro:sub|she v|go ?
+*MOT:	what do you do with those crayons ?
+%mor:	pro:wh|what mod|do pro|you v|do prep|with det|those n|crayon-PL ?
+*MOT:	do you like crayons ?
+%mor:	mod|do pro|you prep|like n|crayon-PL ?
+*MOT:	there ?
+%mor:	adv|there ?
+*MOT:	(.) do you see her ?
+%mor:	mod|do pro|you v|see pro:obj|her ?
+*MOT:	look !
+%mor:	co|look !
+*MOT:	what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	let's see , let's see !
+%mor:	v|let~pro:obj|us v|see cm|cm v|let~pro:obj|us v|see !
+*MOT:	open the page !
+%mor:	v|open det|the n|page !
+*MOT:	what's she doing ?
+%mor:	rel|what~aux|be&3S pro:sub|she part|do-PRESP ?
+*MOT:	can you do that too ?
+%mor:	mod|can pro|you v|do det|that post|too ?
+*CHI:	peekaboo !
+%mor:	co|peekaboo !
+*MOT:	<what's this> [//] what are those ?
+%mor:	pro:wh|what aux|be&PRES pro:dem|those ?
+*MOT:	no , those are flowers .
+%mor:	co|no cm|cm pro:dem|those cop|be&PRES n|flower-PL .
+*MOT:	they look like butterflies [=! muttered] .
+%mor:	pro:sub|they v|look prep|like n|+n|butter+n|fly-PL .
+*MOT:	what do you see in the mirror ?
+%mor:	pro:wh|what mod|do pro|you v|see prep|in det|the n|mirror ?
+*MOT:	who's in that mirror ?
+%mor:	pro:wh|who~cop|be&3S prep|in det|that n|mirror ?
+*MOT:	look again .
+%mor:	v|look adv|again .
+*MOT:	who's in that mirror ?
+%mor:	pro:wh|who~cop|be&3S prep|in det|that n|mirror ?
+*MOT:	what do you see ?
+%mor:	pro:wh|what mod|do pro|you v|see ?
+*MOT:	let me see if I can see anybody in that mirror .
+%mor:	v|let&ZERO pro:obj|me v|see conj|if pro:sub|I mod|can v|see
+	pro:indef|anybody prep|in det|that n|mirror .
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	you look !
+%mor:	pro|you v|look !
+*MOT:	look at this .
+%mor:	v|look prep|at pro:dem|this .
+*MOT:	what's his daddy doing ?
+%mor:	pro:wh|what~cop|be&3S pro:poss:det|his n|daddy part|do-PRESP ?
+*MOT:	you like daddy's whiskers ?
+%mor:	pro|you prep|like n|daddy~poss|s n|whisker-PL ?
+*MOT:	what does daddy do to his whiskers ?
+%mor:	pro:wh|what mod|do&3S n|daddy v|do inf|to pro:poss:det|his
+	n|whisker-PL ?
+*MOT:	what's she doing ?
+%mor:	rel|what~aux|be&3S pro:sub|she part|do-PRESP ?
+*MOT:	let's see .
+%mor:	v|let~pro:obj|us v|see .
+*MOT:	what's this one ?
+%mor:	adv:wh|what~cop|be&3S det|this pro:indef|one ?
+*MOT:	we skipped one .
+%mor:	pro:sub|we v|skip-PAST pro:indef|one .
+*MOT:	what's this ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|this ?
+*MOT:	&Bu what's that ?
+%mor:	pro:wh|what~cop|be&3S pro:dem|that ?
+*MOT:	that's mommy's ring !
+%mor:	pro:dem|that~aux|be&3S n|mommy~poss|s n|ring !
+*MOT:	(.) see ?
+%mor:	v|see ?
+*MOT:	<who's in that> [//] who's in this ?
+%mor:	pro:wh|who~cop|be&3S prep|in pro:dem|this ?
+*MOT:	who's inside this mirror ?
+%mor:	pro:wh|who~cop|be&3S prep|inside det|this n|mirror ?
+*MOT:	no ?
+%mor:	co|no ?
+*MOT:	okay .
+%mor:	co|okay .
+*MOT:	what are these children doing ?
+%mor:	pro:wh|what aux|be&PRES det|these n|child&PL part|do-PRESP ?
+*MOT:	what do they say ?
+%mor:	pro:wh|what mod|do pro:sub|they v|say ?
+*MOT:	what are they doing ?
+%mor:	adv|what aux|be&PRES pro:sub|they part|do-PRESP ?
+*MOT:	dids [: did] [* +es] ?
+%mor:	v|do&PAST ?
+*MOT:	what does that mean ?
+%mor:	pro:wh|what mod|do&3S pro:dem|that adj|mean ?
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	what a mess !
+%mor:	pro:wh|what det|a n|mess !
+*MOT:	you want mommy to pick it up ?
+%mor:	pro|you v|want n|mommy inf|to v|pick pro|it adv|up ?
+*MOT:	what a mess !
+%mor:	pro:wh|what det|a n|mess !
+*MOT:	oh , look at this , we didn't look at this !
+%mor:	co|oh cm|cm v|look prep|at det|this cm|cm pro:sub|we
+	mod|do&PAST~neg|not v|look prep|at pro:dem|this !
+*MOT:	see the back of that book ?
+%mor:	v|see det|the n|back prep|of det|that n|book ?
+*MOT:	what's gonna happen there ?
+%mor:	rel|what~aux|be&3S part|go-PRESP~inf|to v|happen adv|there ?
+*MOT:	oh !
+%mor:	co|oh !
+*MOT:	I saw somebody that you like !
+%mor:	pro:sub|I v|see&PAST pro:indef|somebody rel|that pro|you v|like !
+*MOT:	turn that over !
+%mor:	v|turn pro:dem|that adv|over !
+*MOT:	who's on that ?
+%mor:	pro:wh|who~cop|be&3S prep|on pro:dem|that ?
+*MOT:	who's that ?
+%mor:	pro:wh|who~cop|be&3S pro:dem|that ?
+*MOT:	who's this ?
+%mor:	pro:wh|who~cop|be&3S pro:dem|this ?
+*MOT:	who's this rabbit ?
+%mor:	rel|who~aux|be&3S det|this n|rabbit ?
+*MOT:	who's this ?
+%mor:	pro:wh|who~cop|be&3S pro:dem|this ?
+*MOT:	and who's that ?
+%mor:	conj|and pro:wh|who~cop|be&3S pro:dem|that ?
+*MOT:	who's this ?
+%mor:	pro:wh|who~cop|be&3S pro:dem|this ?
+*MOT:	oh , look who's that +...
+%mor:	co|oh cm|cm co|look pro:wh|who~cop|be&3S pro:dem|that +...
+*MOT:	that's on your bedspread (.) that girl +...
+%mor:	pro:dem|that~aux|be&3S prep|on pro:poss:det|your n|bedspread
+	det|that n|girl +...
+*MOT:	her name is Ra:ggedy +...
+%mor:	pro:poss:det|her n|name cop|be&3S n:prop|Raggedy +...
+*MOT:	where's Raggedy ?
+%mor:	rel|where~aux|be&3S n:prop|Raggedy ?
+*MOT:	yeah !
+%mor:	co|yeah !
+*CHI:	xxx .
+*MOT:	jelly+beans .
+%mor:	n|+n|jelly+n|bean-PL .
+*MOT:	you had jelly+beans at your birthday party +...
+%mor:	pro|you v|have&PAST n|+n|jelly+n|bean-PL prep|at pro:poss:det|your
+	n|+n|birth+n|day n|party +...
+*MOT:	what else happened at your birthday party ?
+%mor:	pro:wh|what post|else v|happen-PAST prep|at pro:poss:det|your
+	n|+n|birth+n|day n|party ?
+*MOT:	you had a lollipop at your birthday party ?
+%mor:	pro|you v|have&PAST det|a n|lollipop prep|at pro:poss:det|your
+	n|+n|birth+n|day n|party ?
+*MOT:	what do you wanna: get ?
+%mor:	pro:wh|what mod|do pro|you v|want~inf|to v|get ?
+*MOT:	lollipop ?
+%mor:	n|lollipop ?
+*MOT:	where's your pocketbook ?
+%mor:	rel|where~aux|be&3S pro:poss:det|your n|+n|pocket+n|book ?
+*MOT:	what a mess !
+%mor:	pro:wh|what det|a n|mess !
+*MOT:	uhoh !
+%mor:	co|uhoh !
+*MOT:	what happened ?
+%mor:	pro:wh|what v|happen-PAST ?
+*MOT:	what happened ?
+%mor:	pro:wh|what v|happen-PAST ?
+*MOT:	go tell daddy what happened .
+%mor:	v|go v|tell n|daddy pro:wh|what v|happen-PAST .
+*MOT:	what are you gonna tell him ?
+%mor:	pro:wh|what aux|be&PRES pro|you part|go-PRESP~inf|to v|tell
+	pro:obj|him ?
+*MOT:	hello , Lena [=! deep] .
+%mor:	co|hello cm|cm n:prop|Lena .
+*MOT:	yeah !
+%mor:	co|yeah !
+*MOT:	oh , honey , mommy's mike'll break .
+%mor:	co|oh cm|cm n|honey cm|cm n|mommy~poss|s n|mike~mod|will v|break .
+@End

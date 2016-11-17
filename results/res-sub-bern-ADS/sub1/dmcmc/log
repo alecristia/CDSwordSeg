@@ -1,0 +1,40 @@
+Converting syllables to unicode
+Creating 5 folds for cross evaluation
+Folding /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//input.txt
+Folding boundary lines are: [0, 53, 106, 159, 212, 266]
+Fixing dmcmc issue
+DMCMC bugfix from /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//input.txt and /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//gold.txt
+line 0 is made of 18 syllables
+line 53 is made of 4 syllables
+line 106 is made of 14 syllables
+line 159 is made of 1 syllables
+dmcmc bugfix: joined lines 159 and 160
+line 211 is made of 9 syllables
+Write /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//input-fold0.txt
+Write /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//input-fold1.txt
+Write /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//input-fold2.txt
+Write /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//input-fold3.txt
+Write /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//input-fold4.txt
+Write /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//input-index.txt
+Processing fold 1
+Processing fold 4
+Processing fold 3
+Processing fold 2
+Processing fold 0
+/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: error while loading shared libraries: libboost_program_options.so.1.62.0: cannot open shared object file: No such file or directory
+/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: error while loading shared libraries: libboost_program_options.so.1.62.0: cannot open shared object file: No such file or directory
+/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: error while loading shared libraries: libboost_program_options.so.1.62.0: cannot open shared object file: No such file or directory
+/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: error while loading shared libraries: libboost_program_options.so.1.62.0: cannot open shared object file: No such file or directory
+/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/dpseg_files/dpseg: error while loading shared libraries: libboost_program_options.so.1.62.0: cannot open shared object file: No such file or directory
+Unfolding to /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//cfgold.txt
+Error in crossevaluation.py unfold : [Errno 2] No such file or directory: '/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//output-fold*.txt'
+Traceback (most recent call last):
+  File "/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/syllable-conversion/convert-from-unicode.py", line 60, in <module>
+    main()
+  File "/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/syllable-conversion/convert-from-unicode.py", line 52, in main
+    for line in read_lines(args.input):
+  File "/fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp//algos/phillips-pearl2014/syllable-conversion/convert-from-unicode.py", line 20, in read_lines
+    raise OSError('{} is not a file'.format(filename))
+OSError: /fhgfs/bootphon/scratch/elarsen/CDSwordSeg/algoComp/res-sub-bern-ADS/sub1/dmcmc//output.txt is not a file
+Evaluating
+done with dmcmc

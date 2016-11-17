@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 # cleaning up selected lines from cha files in prep to generating a phono format
 # Alex Cristia alecristia@gmail.com 2015-10-26
@@ -47,6 +48,19 @@ sed 's/@f//g' |
 sed 's/@q//g' |
 sed 's/@u//g' |
 sed 's/@c//g' |
+sed 's/@n//g' |  # ajout elin 4/10/2016
+sed 's/mhm//g' |  # ajout elin 4/10/2016
+sed 's/@l//g' |  # suppression de @l, ajout elin 5/10/2016
+sed 's/@wp//g' |  # suppression de @wp, ajout elin 6/10/2016
+sed 's/this//g' | # elin 6/10/2016
+sed 's/grr//g' | # elin 6/10/2016
+sed 's/ rr//g' | # elin 6/10/2016
+sed 's/ ws//g' | # elin 6/10/2016
+sed 's/ ths//g' | # elin 6/10/2016
+sed 's/ nt//g' | # elin 6/10/2016
+sed 's/ ds//g' | # elin 6/10/2016
+sed 's/ shpoon//g' | # elin 6/10/2016
+sed 's/ wh//g' | # elin 6/10/2016
 sed "s/\' / /g"  |
 sed 's/  / /g' |
 sed 's/ $//g' |

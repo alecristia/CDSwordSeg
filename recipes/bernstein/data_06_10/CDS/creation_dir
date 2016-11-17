@@ -1,0 +1,5 @@
+for i in {0..9} 
+do
+mkdir sub$i 
+echo directory sub$i created 
+done

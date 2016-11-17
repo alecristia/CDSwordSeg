@@ -29,7 +29,7 @@ echo "cleaning"
 	
 lf=$'\n'
 
-for j in ${RAWFOLDER}*.txt
+for j in ${RAWFOLDER}*/*/*.txt # modification elin 05/11
    do
 	#echo "$j"
 
