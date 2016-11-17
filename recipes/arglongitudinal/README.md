@@ -36,20 +36,5 @@ ALVARO please also change this file to process both CDS and ADS -- you could cal
 
 - In the future we could use the fancy scripts that Laia will create, but for now we just do a brute merge of all files within CDS.
 
-TODO:
-
-apply phonologizer to Arg files
-
-try the new descriptive file
-
-inspect the results & make some decisions
-
-write the concatenator
-
-segment the Spanish
-
-Do all of the above with Catalan and Castillan
-
-write the language mixer
-
-write the AG grammar for the mix
+fatal error in /fhgfs/bootphon/scratch/acristia/CDSwordSeg/algoComp/segment.py : invalid tags file tags.txt
+and I get kicked out

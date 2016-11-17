@@ -193,7 +193,7 @@ that works with the multicorpora that Xuan Nga has been analyzing...
   program. See http://www.cstr.ed.ac.uk/projects/festival/
 
 
-STEP 3: Segmentation
+STEP 3: Segmentation -- THESE ARE OLD AND NEED UPDATING!!!
 ====================
 
 The necessary scripts are found in the folder called `algoComp`
