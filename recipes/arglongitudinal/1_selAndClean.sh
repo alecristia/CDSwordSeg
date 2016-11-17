@@ -6,7 +6,7 @@
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/database_creation"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
 
 
-INPUT_CORPUS="/fhgfs/bootphon/scratch/acristia/lscp-ciipme-gh/transcripciones/longi_audio" #where you have put the talkbank corpora to be analyzed E.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
+INPUT_CORPUS="/fhgfs/bootphon/scratch/acristia/lscp-ciipme-gh/transcripciones/longi_audio1" #where you have put the talkbank corpora to be analyzed E.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 
 RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
