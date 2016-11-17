@@ -13,7 +13,7 @@ $output=$ARGV[2];
 
 # Save valid onsets from ValidOnsets.txt
 %onsets = {};
-open(ONSETS, "<../data/$language-ValidOnsets.txt") or die("Couldn't open ../data/$language-ValidOnsets.txt\n");
+open(ONSETS, "<../input/$language-ValidOnsets.txt") or die("Couldn't open ../input/$language-ValidOnsets.txt\n");
 while(defined($fileline = <ONSETS>)){
     chomp($fileline);
     #print "$fileline\n";
