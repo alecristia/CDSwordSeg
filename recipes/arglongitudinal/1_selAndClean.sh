@@ -8,12 +8,11 @@ PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/database_creation"	
 
 INPUT_CORPUS="/fhgfs/bootphon/scratch/acristia/lscp-ciipme-gh/transcripciones_longitudinal" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 
-RES_FOLDER="/Users/acristia/Documents/processed_corpora/arglongitudinal_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
+INPUT_FILES=`${RES_FOLDER}info.txt` #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
 
-INPUT_FILES="/Users/acristia/Documents/processed_corpora/arglongitudinal_info.txt" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
-
-OUTPUT_FILE2="/Users/acristia/Documents/processed_corpora/arglongitudinal_processedFiles.txt" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
+OUTPUT_FILE2=`${RES_FOLDER}processedFiles.txt` #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
 
 mkdir -p $RES_FOLDER	#create folder that will contain all output files
 python $PATH_TO_SCRIPTS/scripts/extract_childes_info.py $INPUT_CORPUS $INPUT_FILES
