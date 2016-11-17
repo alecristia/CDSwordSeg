@@ -40,7 +40,7 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 
 echo "creating gold versions"
 
-sed 's/;esyll//g'  ${RES_FOLDER}/${KEYNAME}-tags.txt |
+sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
     sed 's/ //g' |
     sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
 
@@ -86,7 +86,7 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 
 echo "creating gold versions"
 
-sed 's/;esyll//g'  ${KEYNAME}-tags.txt |
+sed 's/;esyll//g'  < ${KEYNAME}-tags.txt |
     sed 's/ //g' |
     sed 's/;eword/ /g' > ${KEYNAME}-gold.txt
 
@@ -99,7 +99,7 @@ sed 's/;esyll//g'  ${KEYNAME}-tags.txt |
 
 echo "creating gold versions"
 
-sed 's/;esyll//g'  ${RES_FOLDER}/${KEYNAME}-tags.txt |
+sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
     sed 's/ //g' |
     sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
 
