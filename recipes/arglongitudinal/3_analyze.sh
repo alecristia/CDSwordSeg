@@ -4,22 +4,22 @@
 # Alex Cristia alecristia@gmail.com 2016-11-??
 
 #########VARIABLES###########################
-DATAFOLDER="/fhgfs/bootphon/scratch/acristia/Documents/processed_corpora/arglongitudinal/CDS"
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/Documents/processed_corpora/arglongitudinal/CDS"
+ORIGFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS/"
+RESFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS_ALL"
 PIPELINE="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/algoComp/segment.py"
 #########
 
 
 # merge the subcorpora -- this is super ugly and needs to be fixed
-mkdir -p ${DATAFOLDER}/parts
-cp ${DATAFOLDER}/*txt ${DATAFOLDER}/parts/
+mkdir -p $RESFOLDER
+cp ${ORIGFOLDER}/*txt $RESFOLDER/
 
-for j in ${DATAFOLDER}/parts/*gold.txt; do
-	cat $j >> ${DATAFOLDER}/gold.txt
+for j in ${RESFOLDER}/*gold.txt; do
+	cat $j >> ${RESFOLDER}/gold.txt
 done
 
-for j in ${DATAFOLDER}/parts/*tags.txt; do
-	cat $j >> ${DATAFOLDER}/tags.txt
+for j in ${RESFOLDER}/*tags.txt; do
+	cat $j >> ${RESFOLDER}/tags.txt
 done
 
 

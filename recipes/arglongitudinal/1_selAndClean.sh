@@ -57,3 +57,4 @@ done
 cd $RES_FOLDER
 find . -type d -empty -delete #remove empty folders for non-processed corpora
 echo "done removing empty folders"
+echo "done with ${RES_FOLDER}"
