@@ -35,7 +35,11 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 	  echo "removing blank lines"
 	  sed '/^$/d' outofperl.tmp |
 	  sed '/^ $/d'  |
-	  sed 's/^\///'  > tmp.tmp
+	  sed 's/^\///' |
+	sed 's/ / ;eword //' |
+	sed 's/\/ ;esyll //'
+		 > tmp.tmp
+
 	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
 
 echo "creating gold versions"
@@ -82,13 +86,17 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  sed '/^$/d' outofperl.tmp |
 	  sed '/^ $/d'  |
 	  sed 's/^\///'  > tmp.tmp
+	sed 's/ / ;eword //' |
+	sed 's/\/ ;esyll //'
+		 > tmp.tmp
+
 	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
 
 echo "creating gold versions"
 
-sed 's/;esyll//g'  < ${KEYNAME}-tags.txt |
+sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
     sed 's/ //g' |
-    sed 's/;eword/ /g' > ${KEYNAME}-gold.txt
+    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
 
 	elif [ "$LANGUAGE" = "english" ]
 	   then
