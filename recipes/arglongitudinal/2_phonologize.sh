@@ -11,10 +11,10 @@ LANGUAGE="aspanish" #right now, only options are qom, english and aspanish (arge
 
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal_res/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal_res/CDS"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
-for ORTHO in ${RES_FOLDER}*/*ortholines.txt; do
+for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 	KEYNAME=$(basename "$ORTHO" -ortholines.txt)
 
 	#########
@@ -36,14 +36,14 @@ for ORTHO in ${RES_FOLDER}*/*ortholines.txt; do
 	  sed '/^$/d' outofperl.tmp |
 	  sed '/^ $/d'  |
 	  sed 's/^\///'  > tmp.tmp
-	  mv tmp.tmp ${KEYNAME}-tags.txt
+	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
 
-	elif [ "$LANGUAGE" = "english" ]
-	   then
-	  echo "recognized $LANGUAGE"
+echo "creating gold versions"
 
-	  echo "using festival"
-	  ./scripts/phonologize $ORTHO -o ${KEYNAME}-tags.txt
+sed 's/;esyll//g'  ${RES_FOLDER}/${KEYNAME}-tags.txt |
+    sed 's/ //g' |
+    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
+
 
 	elif [ "$LANGUAGE" = "aspanish" ]
 	   then
@@ -82,7 +82,27 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  sed '/^$/d' outofperl.tmp |
 	  sed '/^ $/d'  |
 	  sed 's/^\///'  > tmp.tmp
-	  mv tmp.tmp ${KEYNAME}-tags.txt
+	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
+
+echo "creating gold versions"
+
+sed 's/;esyll//g'  ${KEYNAME}-tags.txt |
+    sed 's/ //g' |
+    sed 's/;eword/ /g' > ${KEYNAME}-gold.txt
+
+	elif [ "$LANGUAGE" = "english" ]
+	   then
+	  echo "recognized $LANGUAGE"
+
+	  echo "using festival"
+	  ./scripts/phonologize $ORTHO -o ${KEYNAME}-tags.txt
+
+echo "creating gold versions"
+
+sed 's/;esyll//g'  ${RES_FOLDER}/${KEYNAME}-tags.txt |
+    sed 's/ //g' |
+    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
+
 
 	else
 		echo "Adapt the script to a new language"
@@ -92,11 +112,6 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 
 done
 
-echo "creating gold versions"
-
-sed 's/;esyll//g'  ${KEYNAME}-tags.txt |
-    sed 's/ //g' |
-    sed 's/;eword/ /g' > ${KEYNAME}-gold.txt
 
 echo "end"
 
