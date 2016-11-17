@@ -37,7 +37,7 @@ echo "finding out who's a speaker in $f"
 		cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
 
 		SELFILE=$(basename "$f" .cha)"-includedlines.txt"
-		bash ./scripts/cha2sel_withinputParticipants.sh $f $SELFILE $RES_FOLDER $IncludedParts
+		./scripts/cha2sel_withinputParticipants.sh $f $SELFILE $RES_FOLDER $IncludedParts
 
 		mkdir -p ${RES_FOLDER}CDS	#create folder that will contain all output files
               grep '\[+ CHI\]' < ${RES_FOLDER}$SELFILE > ${RES_FOLDER}CDS/$SELFILE  # separa lineas de CDS.

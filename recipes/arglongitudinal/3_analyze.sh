@@ -12,7 +12,7 @@ PIPELINE="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/algoComp/segment.py"
 
 # merge the subcorpora -- this is super ugly and needs to be fixed
 mkdir -p ${DATAFOLDER}/parts
-mv ${DATAFOLDER}*txt ${DATAFOLDER}/parts
+mv ${DATAFOLDER}/*txt ${DATAFOLDER}/parts/
 
 for j in ${DATAFOLDER}/parts/*gold.txt; do
 	cat $j >> ${DATAFOLDER}/gold.txt
@@ -42,7 +42,7 @@ done
 
         $PIPELINE --goldfile gold.txt \
                   --output-dir $RESFOLDER \
-                  --algorithms dibs ngrams puddle TPs \
+                  --algorithms dibs \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename CDS \
