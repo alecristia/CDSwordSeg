@@ -19,7 +19,7 @@ python $PATH_TO_SCRIPTS/scripts/extract_childes_info.py $INPUT_CORPUS $INPUT_FIL
 echo "done extracting info from corpora"
 
 
-for CORPUSFOLDER in $INPUT_CORPUS/l*/; do	#loop through all the sub-folders (1 level down)
+for CORPUSFOLDER in $INPUT_CORPUS/; do	#loop through all the sub-folders (1 level down)
 	for f in $CORPUSFOLDER/*.cha; do	#loop through all cha files
 
 echo "finding out who's a speaker in $f"
