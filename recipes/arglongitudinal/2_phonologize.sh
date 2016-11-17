@@ -36,9 +36,8 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 	  sed '/^$/d' outofperl.tmp |
 	  sed '/^ $/d'  |
 	  sed 's/^\///' |
-	sed 's/ / ;eword //' |
-	sed 's/\// ;esyll //'
-		 > tmp.tmp
+	sed 's/ / \;eword /g' |
+	sed 's/\// \;esyll /g' > tmp.tmp
 
 	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
 

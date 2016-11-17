@@ -15,7 +15,7 @@ cd CDSwordSeg/recipes/nfrchildes2yo/
 chmod +x 1_clean_many_files.sh  
 ./1_clean_many_files.sh
 
-this is now working perfectly for alex but it only contains CDS -- Alvaro had as homework to add the ADS
+IN SUM: this is now working OK for alex but it only contains CDS -- ALVARO had as homework to add the ADS
 
 
 
@@ -26,9 +26,15 @@ this is now working perfectly for alex but it only contains CDS -- Alvaro had as
 
 - changed ORTHO definition to a loop because we have many files
 
+IN SUM:  this is also working okay other than that there are LOADS of errors because the rewrite rules based on non-unicode characters are not being applied because the file is converted OUT of this format at the beginning and back into it at the end
+so when the rule "convert ñ to N" is applied, "ñ" doesn't look like an "ñ"
+ALVARO, LAIA, could you try to fix this please?
+
+ALVARO please also change this file to process both CDS and ADS -- you could call this file twice with a variable, or something like that... (not thinking straight now!)
+
 # Step 3: Concatenate corpus
 
-- In the future we could use the fancy scripts that Laia will create, but for now we just do a brute merge.
+- In the future we could use the fancy scripts that Laia will create, but for now we just do a brute merge of all files within CDS.
 
 TODO:
 
