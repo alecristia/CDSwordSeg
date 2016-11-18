@@ -51,8 +51,7 @@ sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
 	elif [ "$LANGUAGE" = "aspanish" ]
 	   then
 	  echo "recognized $LANGUAGE"
-iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
-    tr '[:upper:]' '[:lower:]' |# change uppercase letters to lowercase letters
+    tr '[:upper:]' '[:lower:]' < "$ORTHO" |# change uppercase letters to lowercase letters
 	  tr -d '^M' |
 	  sed 's/ch/tS/g' | # substitute all ch by tS
 	  sed 's/v/b/g' |
@@ -89,44 +88,33 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	  echo "removing blank lines"
-	  sed '/^$/d' outofperl.tmp |
+	  sed '/^$/d'  outofperl.tmp |
 	  sed '/^ $/d'  |
-	  sed 's/^\///'  |
-	sed 's/ /\;eword/g' |
-	  sed -e 's/\(.\)/\1 /g'  |
-	sed 's/\ ; e w o r d/\;eword/g' |
-	sed 's/\//\;esyll/g' > tmp.tmp
+	  sed 's/^\///' |
+	  sed 's/ /\;eword/g' |
+	 	 sed -e 's/\(.\)/\1 /g' |
+	  sed 's/\ ; e w o r d/\;eword/g' |
+	  sed 's/\//\;esyll /g' > tmp.tmp
 
 	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
 
-echo "creating gold versions"
+        elif [ "$LANGUAGE" = "english" ]
+           then
+          echo "recognized $LANGUAGE"
 
-sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
-    sed 's/ //g' |
-    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
-
-	elif [ "$LANGUAGE" = "english" ]
-	   then
-	  echo "recognized $LANGUAGE"
-
-	  echo "using festival"
-	  ./scripts/phonologize $ORTHO -o ${KEYNAME}-tags.txt
-
-echo "creating gold versions"
-
-sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
-    sed 's/ //g' |
-    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
-
+          echo "using festival"
+          ./scripts/phonologize $ORTHO -o ${KEYNAME}-tags.txt
 
 	else
 		echo "Adapt the script to a new language"
 		echo "I don't know $LANGUAGE"
-
 	fi
-
 done
 
+echo "creating gold versions"
+
+sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
+    sed 's/ //g' |
+    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
 
 echo "end"
-
