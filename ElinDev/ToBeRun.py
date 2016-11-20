@@ -14,7 +14,23 @@ import numpy as np
 import collections
 import operator
 from itertools import izip
+import glob
 #from functions-subset.py import *
+
+
+#########################  MERGE data files (ortholines, tags, gold) of each child to get a big corpus 
+def merge_data_files(corpus_path, name_corpus, name_file):
+    ''' name_file ="/ortholines.txt", "/tags.txt", "/gold.txt" '''
+    ''' the output is writtent in the current working directory'''
+    path=corpus_path + "*" + "/"+ name_file                  
+    for file in glob.glob(path):
+        with open(file,'r') as infile:
+            with open(corpus_path+name_file,'a') as outfile:
+                for line in infile:
+                    outfile.write(line)
+#TEST        
+os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data')
+merge_data_files(corpus_path="/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data/Providence/", name_corpus="Brent", name_file="ortholines.txt")
 
 
 ######################### OPEN TEXT FILE AS LIST OF TOKEN
