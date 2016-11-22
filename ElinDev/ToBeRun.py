@@ -53,7 +53,7 @@ def count_lines_corpus(corpus_file='/Users/elinlarsen/Documents/CDSwordSeg/recip
     print 'number of non-blank lines found: %d' % non_blank_count
     return(non_blank_count)
 
-cds_lines= count_lines_corpus('/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/CDS/phono/tags.txt')
+count_lines_corpus('/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data/Brent/tags.txt')
 
 
 ######################### CREATION OF SUB-CORPUS : the whole corpus is divided k times
@@ -77,8 +77,8 @@ def divide_corpus(text_file,k, output_dir,output_name="/gold.txt"):
         dataFile=open(nom,'w')
         for line in lines[j*q:(j+1)*q]:
             dataFile.write(line)
-#test
-test_sub=sub_corpus(text_file=path_tags,k=10,output_dir=path_data,output_name="/tags.txt")            
+#test            
+divide_corpus("/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data/Brent/tags.txt",k=10,output_dir="/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data/Brent/",output_name="/tags.txt")            
 
 ######################### OPEN FREQ FILE AS A LIST OF TOKEN 
 def list_freq_token_per_algo(algo,sub,path_res,freq_file="/freq-top.txt"):
@@ -222,14 +222,14 @@ def intersection_all_algo(path_res, dic_corpus, sub=["sub0","sub1","sub2","sub3"
                           algos=['dibs','ngrams','tps','puddle','dmcmc','AGu'],algo_ref="dibs",freq_file="/freq-top.txt"):
     """for each sub-corpus, look at types segmented by all algorithms """
     res=[]
-    dic={}
-    a_ortho={}
-    a_wrong_seg={}
     n=len(algos)-2
     for ss in sub:
+        dic={}
         ref_ortho=compare_token_btw_algo(path_res, dic_corpus,[ss],algos,algo_ref,freq_file)[0].values()[n]["ortho"]
         ref_wrong_seg=compare_token_btw_algo(path_res, dic_corpus,[ss],algos,algo_ref,freq_file)[0].values()[n]["wrong_segmentation"]
         for algo in algos:
+            a_ortho={}
+            a_wrong_seg={}
             if not algo==algo_ref:
                 a_ortho[algo]=compare_token_btw_algo(path_res, dic_corpus,[ss],algos,algo_ref,freq_file)[0][algo]["ortho"]
                 a_wrong_seg[algo]=compare_token_btw_algo(path_res, dic_corpus,[ss],algos,algo_ref,freq_file)[0][algo]["wrong_segmentation"]
@@ -237,6 +237,7 @@ def intersection_all_algo(path_res, dic_corpus, sub=["sub0","sub1","sub2","sub3"
                 ref_wrong_seg=list(set(ref_wrong_seg).intersection(set(a_wrong_seg[algo])))
         dic["ortho"]=ref_ortho
         dic["wrong_segmentation"]=ref_wrong_seg
+        print(dic["ortho"][0])
         res.append(dic)
     file = open("TypesBySubsInAllAlgos.txt", "w")
     for i in range(len(sub)): 
@@ -248,8 +249,8 @@ def intersection_all_algo(path_res, dic_corpus, sub=["sub0","sub1","sub2","sub3"
             for types in res[i][j]:
                 file.write(types +"\n")
                 count+=1
+            file.write("Number of types well segmented by all algorithms in " + sub[i] + " are : " + str(count) +"\n"+"\n")
         mean_o+=count
-        file.write("Number of types well segmented by all algorithms in " + sub[i] + " are : " + str(count) +"\n"+"\n")
         mean_ws=0
         for jj in ["wrong_segmentation"]: 
             count=0
@@ -257,14 +258,65 @@ def intersection_all_algo(path_res, dic_corpus, sub=["sub0","sub1","sub2","sub3"
             for types in res[i][jj]:
                 file.write(types +"\n")
                 count+=1
+            file.write("Number of types badly segmented by all algorithms in the subcorpus " + sub[i] + " are : " + str(count) +"\n"+"\n")   
         mean_ws+=count
-        file.write("Number of types badly segmented by all algorithms in the subcorpus " + sub[i] + " are : " + str(count) +"\n"+"\n")   
     mean_o=mean_o/len(sub)
     mean_ws=mean_ws/len(sub)
     file.write("Mean word per sub is :"+str(mean_o)+ "\n")
     file.write("Mean wrong segmented types per sub is :"+str(mean_ws)+"\n")
     file.close()
     return(res)
+    
+
+#test
+os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/results/res-brent-CDS/test')
+inter_all_algo=intersection_all_algo(path_res, dic_corpus, sub=SUBS,algos=ALGOS,algo_ref="dibs",freq_file="/freq-top.txt")
+    
+def inter_all_algo_inter_all_sub(res_all_algo):
+  """look at types segmented by all algorithms  in all sub"""
+  n=len(res_all_algo)
+  ortho=set(res_all_algo[n-1]["ortho"])
+  ws=set(res_all_algo[n-1]['wrong_segmentation'])
+  file=open("IntersectionAllAlgoAllSub.txt","w")
+  for i in range(n-1):
+        file.write("\n"+"Number of intersection between subcorpus : "+ str(i+2) + "\n")
+        for ii in range(i):
+            ortho= set(ortho) & set(res_all_algo[ii]["ortho"])
+            ws= set(ws) & set(res_all_algo[ii]['wrong_segmentation'])
+        file.write("\n"+"Words types : "+"\n" )
+        for word in ortho:
+            file.write(word + "\n")  
+        file.write("\n"+"Badly segmented"+ "\n")
+        for word in ws:
+            file.write( word + "\n")
+        file.write("\n"+ "Number of words types segmented in all algo between subcorpus : "+ str(len(ortho)) + "\n")
+        file.write("\n"+"Number of types badly segmented in all algo between subcorpus : "+ str(len(ws)) + "\n")
+  return([ortho,ws]) 
+  
+#test
+inter_all_algo_inter_all_sub(inter_all_algo) 
+    
+def Inter_signature(signature,name_algo): 
+    """" signature of one algo for each sub corpus"""
+    n=len(signature)
+    ortho=set(signature[n-1]["ortho"])
+    ws=set(signature[n-1]['wrong_segmentation'])
+    file=open("Signature"+ name_algo+"PerSub.txt","w")
+    for i in range(n-1):
+        file.write("\n"+"Number of intersection between subcorpus : "+ str(i+2) + "\n")
+        for ii in range(i):
+            ortho= set(ortho) & set(signature[ii]["ortho"])
+            ws= set(ws) & set(signature[ii]['wrong_segmentation'])
+        file.write("\n"+"Words types : "+"\n" )
+        for word in ortho:
+            file.write(word + "\n")  
+        file.write("\n"+"Badly segmented"+ "\n")
+        for word in ws:
+            file.write( word + "\n")
+        file.write("\n"+ "Number of words types segmented in common between subcorpus : "+ str(len(ortho)) + "\n")
+        file.write("\n"+"Number of types badly segmented in common between subcorpus : "+ str(len(ws)) + "\n")
+    return([ortho,ws])
+    
     
 def compare_token_btw_sub(path_res,dic_corpus,sub=["sub0","sub1","sub2","sub3","sub4","sub5","sub6","sub7","sub8","sub9"],sub_ref="sub0",
                           algos=['dibs','ngrams','tps','puddle','dmcmc','AGu'],freq_file="/freq-top.txt"):
@@ -438,52 +490,6 @@ def count_type_well_segmented_per_algo_per_sub(dic,algos,sub,path_res,freq_file=
             file.write(j+" " +str("wrong_segmentation")+" " +str(count_ws)+"\n")
     file.close()
 
-    
-
-######################### TESTS  
-#Arguments of corpus
-k=10
-path_data="/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/"
-path_res="/Users/elinlarsen/Documents/CDSwordSeg/algoComp/res-sub-bern-ADS/"
-path_tags="/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/phono/tags.txt"
-path_gold="/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/phono/gold.txt"
-path_ortho="/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/ortho/ortholines.txt"
-path_ortho_sub0="/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/sub0/ortholines.txt"
-#cleaning arguments
-#args_ortho=['nt','n','ll']
-#args_phono=['ehn','tiy','ehl']
-
-#arguments of algos
-ALGOS=['tps','dibs','puddle']
-SUBS=["sub0","sub1","sub2","sub3","sub4","sub5","sub6","sub7","sub8","sub9"]
-
-#lists of token
-o=corpus_as_list(path_ortho)
-g=corpus_as_list(path_gold)
-t=corpus_as_list(tags)
-
-### number of lines
-lines_ortho=count_lines_corpus(corpus_file=path_ortho)
-lines_gold=count_lines_corpus(path_gold)
-
-lines_sub=[]
-for ss in SUBS: 
-    sub_ortho=path_data+ss+"/"+"ortholines.txt"
-    sub_gold=path_data+ss+"/"+"gold.txt"
-    d_subcorpus.append(count_lines_corpus(sub_gold))
-  
-    
-#### freq file
-freq_ngrams_0=list_freq_token_per_algo("ngrams","sub0",path_res,"/freq-top.txt")[0]
-freq_tps_0=list_freq_token_per_algo("tps","sub0",path_res,"/freq-top.txt")[0]
-freq_dibs_0=list_freq_token_per_algo("dibs","sub0",path_res,"/freq-top.txt")[0]
-freq_puddle_0=list_freq_token_per_algo("puddle","sub0",path_res,"/freq-top.txt")[0]
-
-seg_ngrams_0=split_segmented_token(dic_corpus, freq_ngrams_0)
-seg_tps_0=split_segmented_token(dic_corpus, freq_tps_0)
-seg_dibs_0=split_segmented_token(dic_corpus, freq_dibs_0)
-seg_puddle_0=split_segmented_token(dic_corpus, freq_puddle_0)
-
 def mean_token_segmented_per_sub(algos, sub,path_res, dic, freq_file):
     freq={}
     seg_freq={}
@@ -505,51 +511,8 @@ def mean_token_segmented_per_sub(algos, sub,path_res, dic, freq_file):
         mean_ws[algo]=mean_ws[algo]/len(sub)
         res["ortho"]=mean_o
         res["wrong_segmentation"]=mean_ws
-    #file=open("MeanTokensSegmentedAllSubs.txt",'w')
-    #file.write(res)
-    #file.close()
-    return(res)
-        
-mean_freq_res=mean_token_segmented_per_sub(ALGOS, SUBS,path_res, dic_corpus, freq_file="/freq-top.txt")
+    return(res)  
 
-#dictionary phono to ortho of ADS bernstein corpus
-d=build_phono_to_ortho(path_gold,path_ortho)
-dic_corpus= build_phono_to_ortho_representative(d)[0]
-freq_token=build_phono_to_ortho_representative(d)[1]
-freq_ortho_0=freq_token_in_corpus(path_ortho_sub0)
-
-d_subcorpus=[]
-for ss in SUBS: 
-    sub_ortho=path_data+ss+"/"+"ortholines.txt"
-    sub_gold=path_data+ss+"/"+"gold.txt"
-    d_subcorpus.append(build_phono_to_ortho(sub_gold,sub_ortho))
-    
-    
-countType=count_type_segmented_per_algo_per_sub(ALGOS,SUBS,path_res,freq_file="/freq-top.txt")    
-countTypeSplit=count_type_well_segmented_per_algo_per_sub(dic_corpus,ALGOS,SUBS,path_res,freq_file="/freq-top.txt")
-                        
-intersection_btw_algo=compare_token_btw_algo(path_res,dic_corpus,SUBS,ALGOS,"dibs","/freq-top.txt")
-     
-intersection_btw_sub=compare_token_btw_sub(path_res,dic_corpus,SUBS,sub_ref="sub0",algos=ALGOS,freq_file="/freq-top.txt")
-    
-intersection_all_sub=compare_token_all_sub(path_res,dic_corpus,sub=SUBS,algos=ALGOS,freq_file="/freq-top.txt" )
-
-intersection_all_algo=intersection_all_algo(path_res, dic_corpus, sub=SUBS,algos=ALGOS,algo_ref="dibs",freq_file="/freq-top.txt")
-
-#for one sub !!!!
-list_inter_exclu=intersection_exclusive_in_2_algo(path_res,dic_corpus,"sub0",ALGOS, freq_file="/freq-top.txt") 
-
-
-## tokens segmented by all algos in all 
-ALGOS=['dibs','tps','puddle']
- dibs_signature=signature_algo(path_res,dic_corpus,sub=SUBS,algo_ref="dibs",algos=ALGOS,freq_file="/freq-top.txt")
- tps_signature=signature_algo(path_res,dic_corpus,sub=SUBS,algo_ref="tps",algos=ALGOS,freq_file="/freq-top.txt")
- puddle_signature=signature_algo(path_res,dic_corpus,sub=SUBS,algo_ref="puddle",algos=ALGOS,freq_file="/freq-top.txt")
-  
-ALGOS=['ngrams', 'dibs','tps','puddle']
-ngrams_signature=signature_algo(path_res,dic_corpus,sub=SUBS,algo_ref="ngrams",algos=ALGOS,freq_file="/freq-top.txt")
- 
-### mean singnature across all sub
 def mean_signature_all_sub(signature, sub):
     mean_sign_o=0
     mean_sign_ws=0
@@ -598,6 +561,113 @@ def Inter_signature(signature,name_algo):
         file.write("\n"+ "Number of words types segmented in common between subcorpus : "+ str(len(ortho)) + "\n")
         file.write("\n"+"Number of types badly segmented in common between subcorpus : "+ str(len(ws)) + "\n")
     return([ortho,ws])
+
+def average_signature_per_sub(signature):
+    n=len(signature)
+    ref_ortho=signature[n-1].values()[0]
+    ref_ws=signature[n-1].values()[1]
+    for i in range(n):
+        ref_ortho=set(signature[i].values()[0]).intersection(set(ref_ortho))
+        ref_ws=set(signature[i].values()[1]).intersection(set(ref_ws))
+    return[ref_ortho,ref_ws]
+    
+def average_len_signature_per_sub(signature):
+    n=len(signature)
+    len_o=[]
+    len_ws=[]
+    res={}
+    for i in range(n):
+        len_o.append(len(signature[i].values()[0]))
+        len_ws.append(len(signature[i].values()[1]))
+    res["ortho"]=sum(len_o)/len(len_o)
+    res["ws"]=sum(len_ws)/len(len_ws)
+    return res
+    
+    
+######################### TESTS  
+#Arguments of corpus
+k=10
+path_data="/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/"
+path_res="/Users/elinlarsen/Documents/CDSwordSeg/algoComp/res-sub-bern-ADS/"
+path_tags="/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/phono/tags.txt"
+path_gold="/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/phono/gold.txt"
+path_ortho="/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/ortho/ortholines.txt"
+path_ortho_sub0="/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/sub0/ortholines.txt"
+#cleaning arguments
+#args_ortho=['nt','n','ll']
+#args_phono=['ehn','tiy','ehl']
+
+#arguments of algos
+ALGOS=['tps','dibs','puddle']
+SUBS=["sub0","sub1","sub2","sub3","sub4","sub5","sub6","sub7","sub8","sub9"]
+
+#lists of token
+o=corpus_as_list(path_ortho)
+g=corpus_as_list(path_gold)
+t=corpus_as_list(tags)
+
+### number of lines
+lines_ortho=count_lines_corpus(corpus_file=path_ortho)
+lines_gold=count_lines_corpus(path_gold)
+
+lines_sub=[]
+for ss in SUBS: 
+    sub_ortho=path_data+ss+"/"+"ortholines.txt"
+    sub_gold=path_data+ss+"/"+"gold.txt"
+    d_subcorpus.append(count_lines_corpus(sub_gold))
+    
+#### freq file
+freq_ngrams_0=list_freq_token_per_algo("ngrams","sub0",path_res,"/freq-top.txt")[0]
+freq_tps_0=list_freq_token_per_algo("tps","sub0",path_res,"/freq-top.txt")[0]
+freq_dibs_0=list_freq_token_per_algo("dibs","sub0",path_res,"/freq-top.txt")[0]
+freq_puddle_0=list_freq_token_per_algo("puddle","sub0",path_res,"/freq-top.txt")[0]
+
+seg_ngrams_0=split_segmented_token(dic_corpus, freq_ngrams_0)
+seg_tps_0=split_segmented_token(dic_corpus, freq_tps_0)
+seg_dibs_0=split_segmented_token(dic_corpus, freq_dibs_0)
+seg_puddle_0=split_segmented_token(dic_corpus, freq_puddle_0)
+
+mean_freq_res=mean_token_segmented_per_sub(ALGOS, SUBS,path_res, dic_corpus, freq_file="/freq-top.txt")
+
+#dictionary phono to ortho of ADS bernstein corpus
+d=build_phono_to_ortho(path_gold,path_ortho)
+dic_corpus= build_phono_to_ortho_representative(d)[0]
+freq_token=build_phono_to_ortho_representative(d)[1]
+freq_ortho_0=freq_token_in_corpus(path_ortho_sub0)
+
+d_subcorpus=[]
+for ss in SUBS: 
+    sub_ortho=path_data+ss+"/"+"ortholines.txt"
+    sub_gold=path_data+ss+"/"+"gold.txt"
+    d_subcorpus.append(build_phono_to_ortho(sub_gold,sub_ortho))
+    
+    
+countType=count_type_segmented_per_algo_per_sub(ALGOS,SUBS,path_res,freq_file="/freq-top.txt")    
+countTypeSplit=count_type_well_segmented_per_algo_per_sub(dic_corpus,ALGOS,SUBS,path_res,freq_file="/freq-top.txt")
+                        
+intersection_btw_algo=compare_token_btw_algo(path_res,dic_corpus,SUBS,ALGOS,"dibs","/freq-top.txt")
+     
+intersection_btw_sub=compare_token_btw_sub(path_res,dic_corpus,SUBS,sub_ref="sub0",algos=ALGOS,freq_file="/freq-top.txt")
+    
+intersection_all_sub=compare_token_all_sub(path_res,dic_corpus,sub=SUBS,algos=ALGOS,freq_file="/freq-top.txt" )
+
+intersection_all_algo=intersection_all_algo(path_res, dic_corpus, sub=SUBS,algos=ALGOS,algo_ref="dibs",freq_file="/freq-top.txt")
+
+#for one sub !!!!`
+import numpy
+list_inter_exclu=intersection_exclusive_in_2_algo(path_res,dic_corpus,"sub0",ALGOS, freq_file="/freq-top.txt") 
+
+
+## tokens segmented by all algos in all 
+ALGOS=['dibs','tps','puddle']
+ dibs_signature=signature_algo(path_res,dic_corpus,sub=SUBS,algo_ref="dibs",algos=ALGOS,freq_file="/freq-top.txt")
+ tps_signature=signature_algo(path_res,dic_corpus,sub=SUBS,algo_ref="tps",algos=ALGOS,freq_file="/freq-top.txt")
+ puddle_signature=signature_algo(path_res,dic_corpus,sub=SUBS,algo_ref="puddle",algos=ALGOS,freq_file="/freq-top.txt")
+  
+ALGOS=['ngrams', 'dibs','tps','puddle']
+ngrams_signature=signature_algo(path_res,dic_corpus,sub=SUBS,algo_ref="ngrams",algos=ALGOS,freq_file="/freq-top.txt")
+ 
+### mean singnature across all sub
 
 test_sign_inter=Inter_signature_per_sub(2, dibs_signature)
 ##Check: well segmented token       
@@ -702,28 +772,6 @@ puddle_all=intersection_all_sub["puddle"]
 
 ortho_all=set(dibs_all["ortho"]) & set(ngrams_all["ortho"]) & set(tps_all["ortho"]) & set(puddle_all["ortho"])
 wrong_seg_all=set(dibs_all['bag segmented']) & set(ngrams_all['bag segmented']) & set(tps_all['bag segmented']) & set(puddle_all['bag segmented'])
-
-def average_signature_per_sub(signature):
-    n=len(signature)
-    ref_ortho=signature[n-1].values()[0]
-    ref_ws=signature[n-1].values()[1]
-    for i in range(n):
-        ref_ortho=set(signature[i].values()[0]).intersection(set(ref_ortho))
-        ref_ws=set(signature[i].values()[1]).intersection(set(ref_ws))
-    return[ref_ortho,ref_ws]
-    
-def average_len_signature_per_sub(signature):
-    n=len(signature)
-    len_o=[]
-    len_ws=[]
-    res={}
-    for i in range(n):
-        len_o.append(len(signature[i].values()[0]))
-        len_ws.append(len(signature[i].values()[1]))
-    res["ortho"]=sum(len_o)/len(len_o)
-    res["ws"]=sum(len_ws)/len(len_ws)
-    return res
-    
     
 mean_dibs_signature=average_signature_per_sub(dibs_signature)
 mean_tps_signature=average_signature_per_sub(tps_signature)
