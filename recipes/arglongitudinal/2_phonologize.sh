@@ -88,15 +88,23 @@ sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
 	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	  echo "removing blank lines"
-	  sed '/^$/d'  |
+	  sed '/^$/d' < outofperl.tmp  |
 	  sed '/^ $/d'  |
 	  sed 's/^\///' |
+	  sed -n '$p' |
 	  sed 's/ / \;eword /g' |
 	  sed -e 's/\(.\)/\1 /g' |
 	  sed 's/\ ; e w o r d/\;eword/g' |
 	  sed 's/\//\;esyll /g' > tmp.tmp
 
 	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
+
+echo "creating gold versions"
+
+sed 's/;esyll/ /g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
+    sed 's/ //g' |
+    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
+
 
         elif [ "$LANGUAGE" = "english" ]
            then
@@ -110,11 +118,5 @@ sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
 		echo "I don't know $LANGUAGE"
 	fi
 done
-
-echo "creating gold versions"
-
-sed 's/;esyll/ /g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
-    sed 's/ //g' |
-    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
 
 echo "end"
