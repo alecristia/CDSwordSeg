@@ -43,3 +43,4 @@ recipes/bernstein/data/
 /recipes/bernstein/core.16781
 /recipes/childes/cron.log
 *.prs
+results/*
