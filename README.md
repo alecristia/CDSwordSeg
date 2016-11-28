@@ -340,3 +340,19 @@ You should see something like the following, with no errors::
   g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp py-cfg.cc -o py-cfg-mp.o
   g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp -DQUADPREC py-cfg.cc -o py-cfg-quad-mp.o
   g++ -fopenmp gammadist.o py-cfg-quad-mp.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad-mp
+
+- If you get an error:
+bogdan@precisiont7610:~/CDSwordSeg/algoComp/pipeline$ ./AG.sh ~/CDSwordSeg/algoComp ~/CDSwordSeg/results/AG_baseIDS AGc3s
+# Iteration 0, 86161 tables, -logPcorpus = 432815, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 85681 tables, -logPcorpus = 447553, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 87531 tables, -logPcorpus = 437737, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 85505 tables, -logPcorpus = 431854, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 88133 tables, -logPcorpus = 437727, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 88130 tables, -logPcorpus = 443818, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 85507 tables, -logPcorpus = 445540, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 83784 tables, -logPcorpus = 431983, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+py-cfg: py-cky.h:509: F pycfg_type::decrtree(pycfg_type::tree*, pycfg_type::U): Assertion `weight <= tp->count' failed.
+/home/bogdan/CDSwordSeg/algoComp/algos/AG/do_AG_japanese.sh: line 117:  1462 Aborted                 (core dumped) $PYCFG -n $NITER -G $RESFOLDER/$RUNFILE$i.wlt -A $RESFOLDER/$TMPFILE$i.prs -F $RESFOLDER/$TMPFILE$i.trace -E -r $RANDOM -d 101 -a 0.0001 -b 10000 -e 1 -f 1 -g 100 -h 0.01 -R -1 -P -x 10 -u $YLTFILE -U cat $GRAMMARFILE > $RESFOLDER/$OUTFILE$i.prs < $YLTFILE
+The grammar was parsing all the sentences without a problem, as I fixed all issues that arose during parsing. I was getting the error after the first parse, when AG was trying to update the model.
+
+I've tried several things, among which testing AG with a grammar that works. So I've created an English toy test set and I ran AG using the colloc3syllFunc grammar that came with the package. It worked fine. So, after more testing I've changed my Japanese grammar to something more similar to the English grammar and it finally passes the model updating step. It appears that it is important to know what levels of the grammar to adapt, as that was the sole difference between the working and non-working grammars. You can find attached the two grammars.
