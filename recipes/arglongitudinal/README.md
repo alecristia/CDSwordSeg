@@ -15,11 +15,9 @@ cd CDSwordSeg/recipes/nfrchildes2yo/
 chmod +x 1_clean_many_files.sh  
 ./1_clean_many_files.sh
 
+IN SUM: this is now working OK for alex but it only contains CDS -- ALVARO had as homework to add the ADS
 
-TODO:
 
-- add separation of child and adult directed speech. This should occur just before the cha2sel; look at the bernstein corpus for inspiration? -> thus, we could create three versions: all, CDS, and ADS
-- there's still the possibility that the speaker filter is not perfect - check lucasyoel NI1 and NI2
 
 # Step 2: Phonologization
 
@@ -28,24 +26,15 @@ TODO:
 
 - changed ORTHO definition to a loop because we have many files
 
-TODO:
+IN SUM:  this is also working okay other than that there are LOADS of errors because the rewrite rules based on non-unicode characters are not being applied because the file is converted OUT of this format at the beginning and back into it at the end
+so when the rule "convert ñ to N" is applied, "ñ" doesn't look like an "ñ"
+ALVARO, LAIA, could you try to fix this please?
 
-- there is a new bug -- intoperl is empty
-create a small sample to test the perl bit
-and run it locally to find the bug
+ALVARO please also change this file to process both CDS and ADS -- you could call this file twice with a variable, or something like that... (not thinking straight now!)
 
-apply phonologizer to Arg files
+# Step 3: Concatenate corpus
 
-try the new descriptive file
+- In the future we could use the fancy scripts that Laia will create, but for now we just do a brute merge of all files within CDS.
 
-inspect the results & make some decisions
-
-write the concatenator
-
-segment the Spanish
-
-Do all of the above with Catalan and Castillan
-
-write the language mixer
-
-write the AG grammar for the mix
+fatal error in /fhgfs/bootphon/scratch/acristia/CDSwordSeg/algoComp/segment.py : invalid tags file tags.txt
+and I get kicked out

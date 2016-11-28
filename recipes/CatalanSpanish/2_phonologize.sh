@@ -7,12 +7,12 @@
 #########VARIABLES
 #Variables to modify
 LANGUAGE="aspanish" #right now, only options are qom, english and aspanish (argentinian spanish) -- NOTICE, IN SMALL CAPS
-PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
+PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
 #folder where all versions of the file will be stored
-RESFOLDER="/Users/acristia/Documents/processed_corpora/arglongitudinal_res/"
+RESFOLDER="/fhgfs/bootphon/scratch/lfibla/RES_corpus/CDS"
 
-for ORTHO in $RESFOLDER/*ortholines.txt; do
+for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 	KEYNAME=$(basename "$ORTHO" -ortholines.txt)
 
 	#########
@@ -28,20 +28,23 @@ for ORTHO in $RESFOLDER/*ortholines.txt; do
 	  iconv -t ISO-8859-1 > intopearl.tmp
 
 	  echo "syllabify-corpus.pl"
-	  perl scripts/syllabify-corpus.pl qom intopearl.tmp outofperl.tmp
+	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl qom intopearl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	  echo "removing blank lines"
 	  sed '/^$/d' outofperl.tmp |
 	  sed '/^ $/d'  |
-	  sed 's/^\///'  > tmp.tmp
-	  mv tmp.tmp ${KEYNAME}-tags.txt
+	  sed 's/^\///' |
+	sed 's/ / \;eword /g' |
+	sed 's/\// \;esyll /g' > tmp.tmp
 
-	elif [ "$LANGUAGE" = "english" ]
-	   then
-	  echo "recognized $LANGUAGE"
+	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
 
-	  echo "using festival"
-	  ./scripts/phonologize $ORTHO -o ${KEYNAME}-tags.txt
+echo "creating gold versions"
+
+sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
+    sed 's/ //g' |
+    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
+
 
 	elif [ "$LANGUAGE" = "aspanish" ]
 	   then
@@ -52,7 +55,11 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  sed 's/ch/tS/g' | # substitute all ch by tS
 	  sed 's/v/b/g' |
 	  sed 's/z/s/g' |
-	  sed 's/c/k/g' |
+	  sed 's/ca/ka/g' |
+	  sed 's/co/ko/g' |
+	  sed 's/cu/ku/g' |
+	  sed 's/ce/se/g' |
+	  sed 's/ci/si/g' |
 	  sed 's/rr/R/g' | # substitute the spanish rr by 5
 	  sed 's/ r/ R/g' | # substitue the initial r for R
 	  sed 's/y/S/g' | # substitute all y by S (argentinian, rioplatense)
@@ -70,13 +77,38 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  iconv -t ISO-8859-1 > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
-	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp
+	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	  echo "removing blank lines"
 	  sed '/^$/d' outofperl.tmp |
 	  sed '/^ $/d'  |
-	  sed 's/^\///'  > tmp.tmp
-	  mv tmp.tmp ${KEYNAME}-tags.txt
+	  sed 's/^\///'  |
+	sed 's/ /\;eword/g' |
+	  sed -e 's/\(.\)/\1 /g'  |
+	sed 's/\ ; e w o r d/\;eword/g' |
+	sed 's/\//\;esyll/g' > tmp.tmp
+
+	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
+
+echo "creating gold versions"
+
+sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
+    sed 's/ //g' |
+    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
+
+	elif [ "$LANGUAGE" = "english" ]
+	   then
+	  echo "recognized $LANGUAGE"
+
+	  echo "using festival"
+	  ./scripts/phonologize $ORTHO -o ${KEYNAME}-tags.txt
+
+echo "creating gold versions"
+
+sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
+    sed 's/ //g' |
+    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
+
 
 	else
 		echo "Adapt the script to a new language"
@@ -86,11 +118,5 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 
 done
 
-echo "creating gold versions"
-
-sed 's/;esyll//g'  ${KEYNAME}-tags.txt |
-    sed 's/ //g' |
-    sed 's/;eword/ /g' > ${KEYNAME}-gold.txt
 
 echo "end"
-
