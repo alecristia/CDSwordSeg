@@ -6,7 +6,7 @@
 #########VARIABLES###########################
 ORIGFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS/"
 RESFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS_ALL"
-PIPELINE="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/algoComp/segment_aes.py"
+PIPELINE="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/algoComp/segment_aesp.py"
 #########
 
 
