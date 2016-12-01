@@ -11,7 +11,7 @@ LANGUAGE="aspanish" #right now, only options are qom, english and aspanish (arge
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
 #folder where all versions of the file will be stored
-RESFOLDER="/fhgfs/bootphon/scratch/lfibla/RES_corpus/CDS"
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus"
 
 for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 	KEYNAME=$(basename "$ORTHO" -ortholines.txt)

@@ -8,7 +8,7 @@ PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/database_creation"	#p
 
 INPUT_CORPUS="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/corpus_database/trycorpus" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/RES_corpus/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
 INPUT_FILES="${RES_FOLDER}info.txt" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"

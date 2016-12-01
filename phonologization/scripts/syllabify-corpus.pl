@@ -37,9 +37,10 @@ open(CORPUS, "<$filecorpus") or die("Couldn't open $filecorpus for reading");
 
 while(defined($fileline = <CORPUS>)){
     #print "entered first while\n";
+	chomp($fileline);
 	$currline = $fileline;
     @wordarray = split(" ", $currline); # divide the line into a set of words
-    $syllword="";#we start with a clean slate for each line
+    $syllline="";#we start with a clean slate for each line
     while(@wordarray > 0){
         $currword = pop(@wordarray); # cut out the last word in the word array & put it in currword
         #print "now looking at $currword\n";
