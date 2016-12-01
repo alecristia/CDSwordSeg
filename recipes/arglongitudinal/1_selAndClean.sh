@@ -5,7 +5,7 @@
 # Adapt the following variables, being careful to provide absolute paths
 PATH_TO_SCRIPTS="/home/lscpuser/Documents/CDSwordSeg/database_creation"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
 
-INPUT_CORPUS="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
+INPUT_CORPUS="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones/longi_audio1" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 
 RES_FOLDER="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones/RES_FOLDER"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
