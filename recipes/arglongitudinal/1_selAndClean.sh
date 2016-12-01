@@ -19,7 +19,9 @@ python $PATH_TO_SCRIPTS/scripts/extract_childes_info.py $INPUT_CORPUS $INPUT_FIL
 echo "done extracting info from corpora"
 
 
-for f in ${INPUT_CORPUS}/*.cha; do	#loop through all cha files
+for f in ${INPUT_CORPUS}/[89]*.cha; do	#loop through all cha files
+
+#ATTENTION!!! SELECTION OF ONLY A SUBSET OF FILES!!!
 
 echo "finding out who's a speaker in $f"
 

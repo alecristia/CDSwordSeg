@@ -52,7 +52,7 @@ sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
 	   then
 	  echo "recognized $LANGUAGE"
 tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
-	  sed 's/ch/tS/g' | # substitute all ch by tS
+	  sed 's/ch/C/g' | # substitute all ch by tS
 	  sed 's/v/b/g' |
 	  sed 's/z/s/g' |
 	  sed 's/ce/se/g' |
