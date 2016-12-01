@@ -43,24 +43,7 @@ sed 's/www//g' |
 sed 's/XXX//g' |
 sed 's/yyy//g' |
 sed 's/0*//g' |
-sed 's/@o//g' |
-sed 's/@f//g' |
-sed 's/@q//g' |
-sed 's/@u//g' |
-sed 's/@c//g' |
-sed 's/@n//g' |  # ajout elin 4/10/2016
-sed 's/mhm//g' |  # ajout elin 4/10/2016
-sed 's/@l//g' |  # suppression de @l, ajout elin 5/10/2016
-sed 's/@wp//g' |  # suppression de @wp, ajout elin 6/10/2016
-sed 's/this//g' | # elin 6/10/2016
-sed 's/grr//g' | # elin 6/10/2016
-sed 's/ rr//g' | # elin 6/10/2016
-sed 's/ ws//g' | # elin 6/10/2016
-sed 's/ ths//g' | # elin 6/10/2016
-sed 's/ nt//g' | # elin 6/10/2016
-sed 's/ ds//g' | # elin 6/10/2016
-sed 's/ shpoon//g' | # elin 6/10/2016
-sed 's/ wh//g' | # elin 6/10/2016
+sed 's/@[^ ]*//g' | #delete tags beginning with @
 sed "s/\' / /g"  |
 sed 's/  / /g' |
 sed 's/ $//g' |
@@ -96,6 +79,16 @@ sed 's/ueee*/uee/g' tmp.tmp |
 #    sed "s/'re/ are/g" |
 #    sed "s/klenex/kleenex/g" |
 #    sed 's/yogourt/yogurt/g' |
+sed 's/mhm//g' |  # ajout elin 4/10/2016
+sed 's/this//g' | # elin 6/10/2016
+sed 's/grr//g' | # elin 6/10/2016
+sed 's/ rr//g' | # elin 6/10/2016
+sed 's/ ws//g' | # elin 6/10/2016
+sed 's/ ths//g' | # elin 6/10/2016
+sed 's/ nt//g' | # elin 6/10/2016
+sed 's/ ds//g' | # elin 6/10/2016
+sed 's/ shpoon//g' | # elin 6/10/2016
+sed 's/ wh//g' | # elin 6/10/2016
     sed 's/oooo*/oh/g' |
     sed 's/ oo / oh /g' |
     sed 's/ohh/oh/g' |

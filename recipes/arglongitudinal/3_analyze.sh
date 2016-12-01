@@ -40,7 +40,7 @@ done
 
         $PIPELINE --goldfile $ORIGFOLDER/gold.txt \
                   --output-dir $RESFOLDER \
-                  --algorithms all  \
+                  --algorithms TPs dibs puddle AGu  \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename CDS \
