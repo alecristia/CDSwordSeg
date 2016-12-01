@@ -17,23 +17,23 @@ echo $header > $data_dir/results.txt
 
 
     # Populate the cfgold.txt file for each version
-    echo $header > $input_dir/cfgold.txt
+    echo $header > $data_dir/cfgold.txt
 
-    for algo in `find $input_dir -name '*cfgold-res.txt' | sort`
+    for algo in `find $data_dir -name '*cfgold-res.txt' | sort`
     do
         # bring together the results
         algo_dir=`dirname $algo`
         algo_name=`basename $algo_dir | sed 's/3sf/3/'`
 
         line=`grep '[0-9]' $algo`
-        echo $corpus $matching $algo_name $line  |
-            tr -s ' ' | tr ' ' '\t' >> $input_dir/cfgold.txt
+        echo $corpus  $algo_name $line  |
+            tr -s ' ' | tr ' ' '\t' >> $data_dir/cfgold.txt
     done
 
-    sed 1d $input_dir/cfgold.txt >> $data_dir/results.txt
+    sed 1d $data_dir/cfgold.txt >> $data_dir/results.txt
     echo
 
 
-echo Writed $input_dir/results.txt
+echo Writed $data_dir/results.txt
 
 exit
