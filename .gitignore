@@ -1,3 +1,5 @@
+recipes/*/core.*
+recipes/*/*.tmp
 results*
 MechelexTask1_goalsFromGrant.rtf
 previousResults/

@@ -9,12 +9,15 @@
 LANGUAGE="aspanish" #right now, only options are qom, english and aspanish (argentinian spanish) -- NOTICE, IN SMALL CAPS
 
 
-PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
+PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/phonologization"	
+#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS/"	
+#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" 
+# NOTICE THE / AT THE END OF THE NAME
 
 
-for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
+for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	KEYNAME=$(basename "$ORTHO" -ortholines.txt)
 
 	#########
@@ -26,8 +29,7 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 	  sed 's/ch/C/g' |
 	  sed 's/sh/S/g' |
 	  sed 's/ñ/N/g' |
-	  tr "'" "Q"  |
-	  iconv -t ISO-8859-1 > intopearl.tmp
+	  tr "'" "Q"  > intopearl.tmp
 
 	  echo "syllabify-corpus.pl"
 	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl qom intopearl.tmp outofperl.tmp $PATH_TO_SCRIPTS
@@ -81,10 +83,11 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 	  sed '/^$/d' outofperl.tmp |
 	  sed '/^ $/d'  |
 	  sed 's/^\///'  |
-	sed 's/ / \;eword /g' |
+	sed 's/ / ;eword /g' |
 	  sed -e 's/\(.\)/\1 /g'  |
-	sed 's/\ ; e w o r d/\;eword/g' |
-	sed 's/\//\;esyll/g' > tmp.tmp
+	sed 's/ ; e w o r d/ ;eword /g' |
+	sed 's/\// ;esyll /g'|
+	tr -s ' ' > tmp.tmp
 
 	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
 

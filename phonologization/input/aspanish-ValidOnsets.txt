@@ -13,7 +13,7 @@ R
 s
 t
 S
-tS
+C
 bl
 dr
 fl
