@@ -21,7 +21,7 @@ DEBUG=$4
 # single words; groups of words are single words or groups of words;
 # words are groups of phonemes); and the alphabet is the Klatt English
 # unicode-friendly.
-GRAMMARFILE=$ABSPATH/algos/AG/do_AG_aes.sh
+GRAMMARFILE=$ABSPATH/algos/AG/do_AG_aesp.sh
 
 # Remove spaces within words and syllable boundaries, and replace word
 # tags with spaces to create gold

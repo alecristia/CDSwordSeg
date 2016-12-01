@@ -25,11 +25,11 @@ ABSPATH=`dirname $0`
 ALGO=$2
 case $ALGO in
     "AGu")
-        GRAMMARFILE=$ABSPATH/grammars/Colloc0_aes.lt
+        GRAMMARFILE=$ABSPATH/grammars/Colloc0_aesp.lt
         LEVEL="Colloc0"
         ;;
     "AGc3sf")
-        GRAMMARFILE=$ABSPATH/grammars/Coll3syllfnc_aes.lt
+        GRAMMARFILE=$ABSPATH/grammars/Coll3syllfnc_aesp.lt
         LEVEL="Word"
         ;;
     *)
