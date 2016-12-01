@@ -81,7 +81,7 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 	  sed '/^$/d' outofperl.tmp |
 	  sed '/^ $/d'  |
 	  sed 's/^\///'  |
-	sed 's/ /\;eword/g' |
+	sed 's/ / \;eword /g' |
 	  sed -e 's/\(.\)/\1 /g'  |
 	sed 's/\ ; e w o r d/\;eword/g' |
 	sed 's/\//\;esyll/g' > tmp.tmp
