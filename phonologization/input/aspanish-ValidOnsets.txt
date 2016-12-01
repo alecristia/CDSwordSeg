@@ -23,5 +23,7 @@ gr
 pl
 pr
 tr
+kl
+br
 r
 v
