@@ -32,4 +32,5 @@ ALVARO please also change this file to process both CDS and ADS AND each NS sepa
 
 - In the future we could use the fancy scripts that Laia will create, but for now we just do a brute merge of all files within CDS.
 
-...
+# Step 4: concatenate results
+- minor edits in the one from bernstein to specify the absolute path, and remove the for loop given that we only have one version for now (to be changed in the future!)
