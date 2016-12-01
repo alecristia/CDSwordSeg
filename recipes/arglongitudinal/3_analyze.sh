@@ -40,12 +40,12 @@ done
 #    fi
 #done
 
-        $PIPELINE --goldfile gold.txt \
+        $PIPELINE --goldfile $RESFOLDER/gold.txt \
                   --output-dir $RESFOLDER \
                   --algorithms dibs \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename CDS \
-                  tags.txt || exit 1
+                  $RESFOLDER/tags.txt || exit 1
 #    fi
 #done
