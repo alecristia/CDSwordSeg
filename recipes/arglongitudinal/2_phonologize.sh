@@ -51,19 +51,16 @@ sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
 	elif [ "$LANGUAGE" = "aspanish" ]
 	   then
 	  echo "recognized $LANGUAGE"
-iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
-    tr '[:upper:]' '[:lower:]' |# change uppercase letters to lowercase letters
-	  tr -d '^M' |
+tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 	  sed 's/ch/tS/g' | # substitute all ch by tS
 	  sed 's/v/b/g' |
 	  sed 's/z/s/g' |
-	  sed 's/ca/ka/g' |
-	  sed 's/co/ko/g' |
-	  sed 's/cu/ku/g' |
 	  sed 's/ce/se/g' |
 	  sed 's/ci/si/g' |
+	  sed 's/c/k/g' |
 	  sed 's/rr/R/g' | # substitute the spanish rr by 5
 	  sed 's/ r/ R/g' | # substitue the initial r for R
+	  sed 's/^r/R/g' | # substitue the initial r for R
 	  sed 's/y/S/g' | # substitute all y by S (argentinian, rioplatense)
 	  sed 's/ll/S/g' |
 	  sed 's/j/x/g' |
@@ -75,8 +72,7 @@ iconv -f ISO-8859-1  < "$ORTHO"  | #Spanish files have different encoding
 	  sed 's/í/i/g' |
 	  sed 's/ó/o/g' |
 	  sed 's/ú/u/g' |
-	  sed 's/ü/u/g' |
-	  iconv -t ISO-8859-1 > intoperl.tmp
+	  sed 's/ü/u/g'  > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
 	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
