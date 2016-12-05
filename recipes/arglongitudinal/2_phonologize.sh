@@ -15,7 +15,7 @@ RES_FOLDER="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones/RES_FOLDER"	
 
 
 for CORPUSFOLDER in $RES_FOLDER/*DS; do
-	cd $CORPUSFOLDER
+	cd $CORPUSFOLDER		#scope into the RES_Folder and look for the ADS and CDS.
 	for ORTHO in $CORPUSFOLDER/2*ortholines.txt; do
 		KEYNAME=$(basename "$ORTHO" -ortholines.txt)
 
@@ -55,7 +55,6 @@ for CORPUSFOLDER in $RES_FOLDER/*DS; do
 	  	  echo "recognized $LANGUAGE"
     		tr '[:upper:]' '[:lower:]' < "$ORTHO" | # change uppercase letters to lowercase letters
 	  	  tr -d '^M' |
-		  tr -d '\n' |
 	  	  sed 's/ch/tS/g' | # substitute all ch by tS
 	  	  sed 's/z/s/g' |
                   sed 's/ñ/N/g' |
@@ -89,8 +88,7 @@ for CORPUSFOLDER in $RES_FOLDER/*DS; do
 	  	  sed 's/ll/S/g' |
 	  	  sed 's/j/x/g' |
 	  	  sed 's/qu/k/g' |
-	  	  sed 's/h//g' | # removing h
-	  	  iconv -t ISO-8859-1 > intoperl.tmp
+	  	  sed 's/h//g' > intoperl.tmp
 
 	  	  echo "syllabify-corpus.pl"
 	  	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
@@ -99,7 +97,6 @@ for CORPUSFOLDER in $RES_FOLDER/*DS; do
 	  	  sed '/^$/d' < outofperl.tmp  |
 	  	  sed '/^ $/d'  |
 	  	  sed 's/^\///' |
-	  	 # sed -n '$p' |		#takes only the last line and errases the previous repetitions.
 	  	  sed 's/ / \;eword /g' |
 	  	  sed -e 's/\(.\)/\1 /g' |
 	  	  sed 's/\ ; e w o r d/\;eword/g' |
