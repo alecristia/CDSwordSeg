@@ -13,7 +13,7 @@ R
 s
 t
 S
-tS
+C
 bl
 dr
 fl
@@ -23,5 +23,8 @@ gr
 pl
 pr
 tr
+kr
+kl
+br
 r
 v

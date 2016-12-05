@@ -11,7 +11,7 @@ LANGUAGE="aspanish" #right now, only options are qom, english and aspanish (arge
 
 PATH_TO_SCRIPTS="/home/lscpuser/Documents/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones/RES_FOLDER"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/home/lscpuser/Documents/RES_FOLDER"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
 for CORPUSFOLDER in $RES_FOLDER/*DS; do
@@ -55,23 +55,26 @@ for CORPUSFOLDER in $RES_FOLDER/*DS; do
 	  	  echo "recognized $LANGUAGE"
     		tr '[:upper:]' '[:lower:]' < "$ORTHO" | # change uppercase letters to lowercase letters
 	  	  tr -d '^M' |
-	  	  sed 's/ch/tS/g' | # substitute all ch by tS
+	  	  sed 's/ch/C/g' | # substitute all ch by C.
 	  	  sed 's/z/s/g' |
                   sed 's/ñ/N/g' |
+                  sed 's/x/ks/g' |
+                  sed 's/cc/ks/g' |
                   sed 's/á/a/g' |
                   sed 's/é/e/g' |
                   sed 's/í/i/g' |
                   sed 's/ó/o/g' |
                   sed 's/ú/u/g' |
+                  sed 's/ge/xe/g' |
+                  sed 's/gi/xi/g' |
+                  sed 's/gue/ge/g' |
+                  sed 's/gui/gi/g' |
                   sed 's/ü/u/g' |
-                  sed 's/cl/kl/g' |
-                  sed 's/cr/kr/g' |
-		  sed 's/cc/ks/g' |
-	  	  sed 's/ca/ka/g' |
-	  	  sed 's/co/ko/g' |
-	  	  sed 's/cu/ku/g' |
+		  sed 's/ sp/ esp/g' |  
+		  sed 's/ st/ est/g' |
 	  	  sed 's/ce/se/g' |
 	  	  sed 's/ci/si/g' |
+		  sed 's/c/k/g' |
 	  	  sed 's/rr/R/g' | # substitute the spanish rr by 5
 	  	  sed 's/ r/ R/g' | # substitue the initial r for R
 		  sed 's/^r/^R/g' |
@@ -80,14 +83,14 @@ for CORPUSFOLDER in $RES_FOLDER/*DS; do
 	  	  sed 's/yi/Si/g' |
 	  	  sed 's/yo/So/g' |
 	  	  sed 's/yu/Su/g' |
-	  	  sed 's/ay/ai/g' | # substitute all y glides by i.
-		  sed 's/ey/ei/g' |
-	  	  sed 's/oy/oi/g' |
-	  	  sed 's/uy/ui/g' |
-		  sed 's/ y/ i/g' |
+		  sed 's/y/i/g' |
 	  	  sed 's/ll/S/g' |
+		  sed 's/Sl/l/g' | # it errases all orthographic double consonants not belonging to spanish.
+		  sed 's/tt/t/g' |
+		  sed 's/ss/s/g' |
 	  	  sed 's/j/x/g' |
 	  	  sed 's/qu/k/g' |
+		  sed 's/sh/S/g' |
 	  	  sed 's/h//g' > intoperl.tmp
 
 	  	  echo "syllabify-corpus.pl"

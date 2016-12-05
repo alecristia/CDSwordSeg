@@ -22,19 +22,15 @@ IN SUM: this is now working OK for alex but it only contains CDS -- ALVARO had a
 # Step 2: Phonologization
 
 - I used as basis Laia's latest wrapper_oneFilePerCorpus.sh which contains transcription for Spanish
-! note, we know that there is a bug in the perl section
-
 - changed ORTHO definition to a loop because we have many files
 
-IN SUM:  this is also working okay other than that there are LOADS of errors because the rewrite rules based on non-unicode characters are not being applied because the file is converted OUT of this format at the beginning and back into it at the end
-so when the rule "convert ñ to N" is applied, "ñ" doesn't look like an "ñ"
-ALVARO, LAIA, could you try to fix this please?
+IN SUM:  this is also working okay
 
-ALVARO please also change this file to process both CDS and ADS -- you could call this file twice with a variable, or something like that... (not thinking straight now!)
+ALVARO please also change this file to process both CDS and ADS AND each NS separately
 
 # Step 3: Concatenate corpus
 
 - In the future we could use the fancy scripts that Laia will create, but for now we just do a brute merge of all files within CDS.
 
-fatal error in /fhgfs/bootphon/scratch/acristia/CDSwordSeg/algoComp/segment.py : invalid tags file tags.txt
-and I get kicked out
+# Step 4: concatenate results
+- minor edits in the one from bernstein to specify the absolute path, and remove the for loop given that we only have one version for now (to be changed in the future!)
