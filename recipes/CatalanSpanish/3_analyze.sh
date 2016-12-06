@@ -5,7 +5,7 @@
 
 #########VARIABLES###########################
 ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/Results/RES_corpus/"
-RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/Results/RES_corpus/AS_ALL"
+RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/Results/AS_ALL"
 PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_aesp.py"
 #########
 

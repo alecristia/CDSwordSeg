@@ -7,7 +7,7 @@
 
 
 # Must exists and contains the results (or partial results) of step 5
-data_dir="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/Results/RES_corpus/AS_ALL/"
+data_dir="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/Results/AS_ALL/"
 
 header="version matching algo \
         token_f-score token_precision token_recall \
