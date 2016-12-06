@@ -4,19 +4,19 @@
 # Alex Cristia alecristia@gmail.com 2016-11-??
 
 #########VARIABLES###########################
-ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus/"
-RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/AS_ALL"
+ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus"
+RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus/AS_ALL"
 PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_aesp.py"
 #########
 
 
 # merge the subcorpora -- this is super ugly and needs to be fixed
 
-for j in ${ORIGFOLDER}/[0-9]*gold.txt; do
+for j in ${ORIGFOLDER}/*gold.txt; do
 	cat $j >> ${ORIGFOLDER}/gold.txt
 done
 
-for j in ${ORIGFOLDER}/[0-9]*tags.txt; do
+for j in ${ORIGFOLDER}/*tags.txt; do
 	cat $j >> ${ORIGFOLDER}/tags.txt
 done
 
