@@ -4,7 +4,7 @@
 # Alex Cristia alecristia@gmail.com 2016-11-??
 
 #########VARIABLES###########################
-ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus"
+#ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus"
 RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc/res_conc"
 PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_aesp.py"
 #########
@@ -38,12 +38,12 @@ PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_aesp.py"
 #    fi
 #done
 
-        $PIPELINE --goldfile $ORIGFOLDER/gold.txt \
+        $PIPELINE --goldfile $RESFOLDER/gold.txt \
                   --output-dir $RESFOLDER \
                   --algorithms TPs \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename CDS \
-                  $ORIGFOLDER/tags.txt || exit 1
+                  $RESFOLDER/tags.txt || exit 1
 #    fi
 #done
