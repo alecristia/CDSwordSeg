@@ -24,7 +24,7 @@ for f in ${ORIGFOLDER}/*tags.txt; do
     paste -d\\n $f >> ${RES_FOLDER}/tags.txt
 done
 
-echo "processed $f" #>> ConcatenatedFiles.txt
+echo "done with conc" #>> ConcatenatedFiles.txt
 
 #done
 
