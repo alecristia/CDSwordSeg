@@ -30,19 +30,11 @@ TODO:
 
 TODO:
 
-- there is a new bug -- intoperl is empty
-create a small sample to test the perl bit
-and run it locally to find the bug
-
-apply phonologizer to Arg files
-
-try the new descriptive file
+new phonologiser for cat and spa
 
 inspect the results & make some decisions
 
 write the concatenator
-
-segment the Spanish
 
 Do all of the above with Catalan and Castillan
 
