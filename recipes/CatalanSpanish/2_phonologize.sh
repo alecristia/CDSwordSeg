@@ -12,7 +12,7 @@ LANGUAGE="aspanish" #right now, only options are qom, english and aspanish (arge
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
 #path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus/AS/"	
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus"	
 #this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/"
 # NOTICE THE / AT THE END OF THE NAME
 

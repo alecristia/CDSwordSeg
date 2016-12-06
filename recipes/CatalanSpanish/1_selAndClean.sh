@@ -40,10 +40,8 @@ echo "finding out who's a speaker in $f"
 		SELFILE=$(basename "$f" .cha)"-includedlines.txt"
 		./scripts/cha2sel_withinputParticipants.sh $f $SELFILE $RES_FOLDER $IncludedParts
 
-		mkdir -p ${RES_FOLDER}AS < ${RES_FOLDER}$SELFILE > ${RES_FOLDER}AS/$SELFILE #create folder that will contain all output files
-
  		ORTHO=$(basename "$f" .cha)"-ortholines.txt"
-		./scripts/selcha2clean.sh $SELFILE $ORTHO ${RES_FOLDER}AS/
+		./scripts/selcha2clean.sh $SELFILE $ORTHO $RES_FOLDER
 
 
 		echo "processed $f" >> $OUTPUT_FILE2
