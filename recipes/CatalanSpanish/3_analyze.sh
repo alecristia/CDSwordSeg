@@ -42,7 +42,7 @@ done
 
         $PIPELINE --goldfile $RESFOLDER/gold.txt \
                   --output-dir $RESFOLDER \
-                  --algorithms dibs \
+                  --algorithms all \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename CDS \
