@@ -17,14 +17,16 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc/res_conc"	#this is whe
 #GOLD=$(basename "${RES_FOLDER}"*.cha)"-gold.txt"
 
 for f in ${ORIGFOLDER}/*gold.txt; do                               # loop thought all files
-    paste -d\\n $f>> ${RES_FOLDER}/gold.txt
+    cut -f 2000 $f | # cut the fist and the second line of each file and past them in the output
+    grep -v "^$" >> ${RES_FOLDER}/gold.txt
 done
 
 for f in ${ORIGFOLDER}/*tags.txt; do
-    paste -d\\n $f >> ${RES_FOLDER}/tags.txt
+    cut -f 2000 $f |
+    grep -v "^$" >> ${RES_FOLDER}/tags.txt
 done
 
-echo "done with conc" #>> ConcatenatedFiles.txt
+echo "done mixing lines" #>> ConcatenatedFiles.txt
 
 #done
 
