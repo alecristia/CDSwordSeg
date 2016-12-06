@@ -4,8 +4,8 @@
 # Alex Cristia alecristia@gmail.com 2016-11-??
 
 #########VARIABLES###########################
-ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/Results/RES_corpus/"
-RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/Results/AS_ALL"
+ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus/AS/"
+RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/AS_ALL"
 PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_aesp.py"
 #########
 
