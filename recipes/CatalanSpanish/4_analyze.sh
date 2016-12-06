@@ -5,20 +5,20 @@
 
 #########VARIABLES###########################
 ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus"
-RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus/AS_ALL"
+RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc/res_conc"
 PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_aesp.py"
 #########
 
 
 # merge the subcorpora -- this is super ugly and needs to be fixed
 
-for j in ${ORIGFOLDER}/*gold.txt; do
-	cat $j >> ${ORIGFOLDER}/gold.txt
-done
+#for j in ${ORIGFOLDER}/*gold.txt; do
+#	cat $j >> ${ORIGFOLDER}/gold.txt
+#done
 
-for j in ${ORIGFOLDER}/*tags.txt; do
-	cat $j >> ${ORIGFOLDER}/tags.txt
-done
+#for j in ${ORIGFOLDER}/*tags.txt; do
+#	cat $j >> ${ORIGFOLDER}/tags.txt
+#done
 
 
  # Run all algos in the cluster, once per version
