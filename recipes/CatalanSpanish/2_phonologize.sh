@@ -6,13 +6,13 @@
 
 #########VARIABLES
 #Variables to modify
-LANGUAGE="cspanish" #language options: qom, english, cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
+LANGUAGE="catalan" #language options: qom, english, cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
 
 
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
 #path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus/"
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat/"
 #this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/"
 # NOTICE THE / AT THE END OF THE NAME
 
@@ -50,7 +50,7 @@ sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
     sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
 
 
-	elif [ "$LANGUAGE" = "aspanish" ]
+	elif [ "$LANGUAGE" = "cspanish" ]
 	   then
 	  echo "recognized $LANGUAGE"
 tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
