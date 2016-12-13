@@ -9,14 +9,14 @@
 LANGUAGE="aspanish" #right now, only options are qom, english and aspanish (argentinian spanish) -- NOTICE, IN SMALL CAPS
 
 
-PATH_TO_SCRIPTS="/home/lscpuser/Documents/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
+PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/aiturralde/CDSwordSeg/phonologization"	#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/home/lscpuser/Documents/RES_FOLDER"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/fhgfs/bootphon/scratch/aiturralde/RES_FOLDER"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
 for CORPUSFOLDER in $RES_FOLDER/*DS; do
 	cd $CORPUSFOLDER		#scope into the RES_Folder and look for the ADS and CDS.
-	for ORTHO in $CORPUSFOLDER/2*ortholines.txt; do
+	for ORTHO in $CORPUSFOLDER/*ortholines.txt; do
 		KEYNAME=$(basename "$ORTHO" -ortholines.txt)
 
 	#########

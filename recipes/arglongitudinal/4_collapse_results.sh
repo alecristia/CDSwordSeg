@@ -7,7 +7,7 @@
 
 
 # Must exists and contains the results (or partial results) of step 5
-data_dir="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS_ALL/"
+data_dir="/fhgfs/bootphon/scratch/aiturralde/RES_FOLDER/ADS"
 
 header="version matching algo \
         token_f-score token_precision token_recall \

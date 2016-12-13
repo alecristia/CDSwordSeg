@@ -4,9 +4,8 @@
 # Alex Cristia alecristia@gmail.com 2016-11-??
 
 #########VARIABLES###########################
-ORIGFOLDER="/home/lscpuser/Documents/RES_FOLDER"
-RESFOLDER="/home/lscpuser/Documents/RES_FOLDER/"
-PIPELINE="/home/lscpuser/Documents/CDSwordSeg/algoComp/segment_aesp.py"
+ORIGFOLDER="/fhgfs/bootphon/scratch/aiturralde/RES_FOLDER"
+PIPELINE="/fhgfs/bootphon/scratch/aiturralde/CDSwordSeg/algoComp/segment_aesp.py"
 #########
 
 
