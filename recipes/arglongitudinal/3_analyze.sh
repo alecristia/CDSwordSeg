@@ -4,20 +4,26 @@
 # Alex Cristia alecristia@gmail.com 2016-11-??
 
 #########VARIABLES###########################
-ORIGFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS/"
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS_ALL"
-PIPELINE="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/algoComp/segment_aesp.py"
+ORIGFOLDER="/home/lscpuser/Documents/RES_FOLDER"
+RESFOLDER="/home/lscpuser/Documents/RES_FOLDER/"
+PIPELINE="/home/lscpuser/Documents/CDSwordSeg/algoComp/segment_aesp.py"
 #########
 
 
 # merge the subcorpora -- this is super ugly and needs to be fixed
 
-for j in ${ORIGFOLDER}/[0-9]*gold.txt; do
-	cat $j >> ${ORIGFOLDER}/gold.txt
+for CORPUSFOLDER in ${ORIGFOLDER}/*DS; do
+	cd $CORPUSFOLDER
+	for j in $CORPUSFOLDER/*gold.txt; do
+		cat $j >> $CORPUSFOLDER/gold.txt
+	done
 done
 
-for j in ${ORIGFOLDER}/[0-9]*tags.txt; do
-	cat $j >> ${ORIGFOLDER}/tags.txt
+for CORPUSFOLDER in ${ORIGFOLDER}/*DS; do
+	cd $CORPUSFOLDER
+	for j in $CORPUSFOLDER/*tags.txt; do
+		cat $j >> $CORPUSFOLDER/tags.txt
+	done
 done
 
 
@@ -38,12 +44,14 @@ done
 #    fi
 #done
 
-        $PIPELINE --goldfile $ORIGFOLDER/gold.txt \
-                  --output-dir $RESFOLDER \
+for CORPUSFOLDER in ${ORIGFOLDER}/*DS; do
+        cd $CORPUSFOLDER
+        $PIPELINE --goldfile $CORPUSFOLDER/gold.txt \
+                  --output-dir $CORPUSFOLDER \
                   --algorithms TPs dibs puddle AGu  \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename CDS \
-                  $ORIGFOLDER/tags.txt || exit 1
+                  $CORPUSFOLDER/tags.txt || exit 1
 #    fi
-#done
+done
