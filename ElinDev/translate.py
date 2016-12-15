@@ -6,6 +6,7 @@ Created on Thu Dec 15 11:45:59 2016
 """
 
 import os 
+import sys
 import random
 import itertools
 import matplotlib.pyplot as plt
@@ -14,6 +15,10 @@ import collections
 import operator
 from itertools import izip
 import glob
+
+#import file 
+os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/ElinDev')
+import read
 
 ######################### Dictionnary from phono text to ortho text
 # open ortho and gold file and check if in each line, the number of words match

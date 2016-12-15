@@ -15,7 +15,7 @@ Created on Thu Dec 15 11:44:52 2016
 #!/usr/bin/python
 
 import os
-import random
+import sys
 import itertools
 import matplotlib.pyplot as plt
 import numpy as np
@@ -24,6 +24,7 @@ import operator
 import sys
 import argparse
 
+
 def divide_corpus(text_file, k, output_dir,output_name):
     non_blank_count=0
     with open(text_file,'r') as text:
@@ -31,7 +32,6 @@ def divide_corpus(text_file, k, output_dir,output_name):
             if line.strip():
                 non_blank_count+=1
     q=non_blank_count/k
-    r=non_blank_count%k
     with open(text_file,'r') as f:
         lines = f.readlines()
     for j in range(k):
@@ -54,5 +54,3 @@ if __name__=="__main__":
      args=parser.parse_args()
      divide_corpus(text_file=args.text_file,k=args.k,output_dir=args.output_dir, output_name=args.output_name )
      
-#test            
-divide_corpus("/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data/Brent/tags.txt",k=10,output_dir="/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data/Brent/",output_name="/tags.txt")            

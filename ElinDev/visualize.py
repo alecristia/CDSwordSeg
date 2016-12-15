@@ -15,6 +15,15 @@ from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import lxml.html
 from lxml.html import builder as E
 
+# Scientific libraries
+import numpy as np
+from numpy import arange,array,ones
+from scipy import stats
+
+#import file
+import read
+import analyze
+
 def plot_algos_CDI_fit_by_age(path_ortho,path_res, sub, algos, ages, CDI_file, save_file=False, average_algos=False,freq_file="/freq-words.txt"):
     data=[]
     df_r_2=pd.DataFrame(0, columns=ages, index=ALGOS+['gold'])
@@ -27,9 +36,9 @@ def plot_algos_CDI_fit_by_age(path_ortho,path_res, sub, algos, ages, CDI_file, s
             y=df_data['prop']
             slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
             line=slope*x+intercept
-            df_r_2.iloc[ALGOS.index(algo), ages.index(age)]=r_value**2
+            df_r_2.iloc[algos.index(algo), ages.index(age)]=r_value**2
             name='algo ' + algo+ ' age ' + str(age) 
-            '''trace=go.Scatter(
+            trace=go.Scatter(
                 x=x,
                 y=y,
                 mode='markers+text',
@@ -38,7 +47,7 @@ def plot_algos_CDI_fit_by_age(path_ortho,path_res, sub, algos, ages, CDI_file, s
                 textposition='top', 
                 visible='legendonly',
                 legendgroup=name
-                )'''
+                )
             trace_fit=go.Scatter(
                 x=x,
                 y=line,
@@ -60,7 +69,7 @@ def plot_algos_CDI_fit_by_age(path_ortho,path_res, sub, algos, ages, CDI_file, s
                 yaxis='y2',
                 #showlegend=False,
                 )
-            data.append(trace)
+            '''data.append(trace)'''
             data.append(trace_fit)
             data.append(trace_hist)
             #data.append(df_data['lexical_classes'])
@@ -70,9 +79,9 @@ def plot_algos_CDI_fit_by_age(path_ortho,path_res, sub, algos, ages, CDI_file, s
         y=df_data_g['prop']
         slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
         line=slope*x+intercept
-        df_r_2.iloc[(ALGOS+['gold']).index('gold'), ages.index(age)]=r_value**2
+        df_r_2.iloc[(algos+['gold']).index('gold'), ages.index(age)]=r_value**2
         name_gold= 'gold' + ' age ' + str(age)
-        '''trace_g=go.Scatter(
+        trace_g=go.Scatter(
             x=x,
             y=y,
             mode='markers+text',
@@ -80,7 +89,7 @@ def plot_algos_CDI_fit_by_age(path_ortho,path_res, sub, algos, ages, CDI_file, s
             text=df_data_g['Type'],
             textposition='top', 
             visible='legendonly', 
-            legendgroup=name_gold)'''
+            legendgroup=name_gold)
         trace_fit_g=go.Scatter(
             x=x,
             y=line,
@@ -141,15 +150,15 @@ def plot_algos_CDI_fit_by_age(path_ortho,path_res, sub, algos, ages, CDI_file, s
     plot=py.iplot(fig, filename='CDIScore_AlgoScore')
     return(df_r_2)
     
-def plot_by_lexical_classes(lexical_classes): 
+def plot_by_lexical_classes(path_res, sub, algos, ages, CDI_file, lexical_classes, save_file=False, average_algos=False,freq_file="/freq-words.txt"):  
     data=[]
-    df_r_2=pd.DataFrame(0, columns=ages, index=ALGOS+['gold'])
+    df_r_2=pd.DataFrame(0, columns=ages, index=algos+['gold'])
     for age in ages: 
         for algo in algos:
             df_CDI=read_CDI_data_by_age(CDI_file, age, save_file=True)
             df_algo=create_df_freq_all_algo_all_sub(path_res, sub, algo, average_algos, freq_file)
             df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
-            data_gr=df_data.groupe_by('lexical_classes').get_group(lexical_classes)
+            df_data_gr=df_data.groupe_by('lexical_classes').get_group(lexical_classes)
             x=np.log(df_data_gr['Freq'+algo])
             y=df_data_gr['prop']
             trace=go.Scatter(

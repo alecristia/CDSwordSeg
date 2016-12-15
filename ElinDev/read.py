@@ -4,9 +4,9 @@ Created on Thu Dec 15 11:39:15 2016
 
 @author: elinlarsen
 """
-
+### importing libraries
 import os 
-import random
+import sys
 import itertools
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,6 +14,11 @@ import collections
 import operator
 from itertools import izip
 import glob
+import pandas as pd
+
+#import file 
+import translate
+
 
 #########################  MERGE data files (ortholines, tags, gold) of each child to get a big corpus 
 def merge_data_files(corpus_path, name_corpus, name_file):
@@ -25,9 +30,6 @@ def merge_data_files(corpus_path, name_corpus, name_file):
             with open(corpus_path+name_file,'a') as outfile:
                 for line in infile:
                     outfile.write(line)
-#TEST        
-os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data')
-merge_data_files(corpus_path="/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data/Providence/", name_corpus="Brent", name_file="ortholines.txt")
 
 
 ######################### OPEN TEXT FILE AS LIST OF TOKEN
@@ -65,7 +67,14 @@ def list_freq_token_per_algo(algo,sub,path_res,freq_file="/freq-top.txt"):
     
 ######################### read the CDI database
 #create a dataframe of CDI words for the age wanted
-      
+
+def clean_CDI(CDI_file,save_file=True):
+    '''remove the regular expression * '''
+    df_CDI=pd.read_csv(CDI_file, sep=None, header=0)
+    df_CDI['words']=df_CDI['words'].str.replace('*', '')
+    return(df_CDI)
+    
+    
 def read_CDI_data_by_age(CDI_file, age, save_file=True):
     '''  age must be an integer between 8 and 18 or 'all' meaning that all age will be considered and averaged'''
     ''' save_file is a boolean indicating if you want to save file in you current directory '''
@@ -86,3 +95,39 @@ def read_CDI_data_by_age(CDI_file, age, save_file=True):
         if save_file==True: 
             df_mean.to_csv('Mean_prop_understand_CDI_Age.csv', sep='\t', index=False)
         return(df_mean)
+
+        
+def create_df_freq_all_algo_all_sub(path_res, sub, algos, average_algos, freq_file="/freq-words.txt"):
+    ''' if average_algos=True, then algos must be a list of strings of algos, else algos must be a string of one algo'''
+    if average_algos==True: 
+        df_algo_0=pd.read_table(path_res+"/"+sub[0]+"/"+algos[0]+freq_file,sep=None, header=0, names=('Freq'+ ''+ algos[0] , 'Type'))
+        for algo in algos:
+            if algo!= algos[0]:
+                df_0=pd.read_table(path_res+"/"+sub[0]+"/"+algo+freq_file,sep=None, header=0, names=('Freq'+''+ algo, 'Type'))
+                df_algo_0=pd.merge(df_0, df_algo_0,how='inner', on=['Type'])
+            df_sub=pd.DataFrame(df_algo_0[["Freq"+s for s in algos]].mean(axis=1))
+            df_sub['Type']=pd.DataFrame(df_algo_0['Type'])
+        for SS in sub:
+            if SS!=sub[0]:
+                df_algo=pd.read_table(path_res+"/"+SS+"/"+algos[0]+freq_file,sep=None, header=0, names=('Freq'+''+ algos[0], 'Type'))
+                for algo in algos:
+                    if algo!= "dibs":
+                        df_=pd.read_table(path_res+"/"+SS+"/"+algo+freq_file,sep=None, header=0, names=('Freq'+''+ algo, 'Type'))
+                        df_algo=pd.merge(df_, df_algo,how='inner', on=['Type'])
+                df_mean=pd.DataFrame(df_algo[["Freq"+s for s in algos]].mean(axis=1))
+                df_mean['Type']=pd.DataFrame(df_algo['Type'])
+                df_sub=pd.merge(df_sub, df_algo, how='outer', on='Type')
+        df_sub.fillna(0, inplace=True)
+        df_final=pd.DataFrame(df_sub.sum(axis=1))
+        df_final.columns = ['SumMeanFreq']
+    else :
+        df_sub=pd.read_table(path_res+"/"+sub[0]+"/"+algos+freq_file,sep=None, header=0, names=('Freq'+ ''+ algos[0] , 'Type'))
+        for SS in sub:
+            if SS!=sub[0]:
+                df_algo=pd.read_table(path_res+"/"+SS+"/"+algos+freq_file,sep=None, header=0, names=('Freq'+''+ algos, 'Type'))
+                df_sub=pd.merge(df_sub, df_algo, how='outer', on='Type')
+        df_sub.fillna(0, inplace=True)
+        df_final=pd.DataFrame(df_sub.sum(axis=1))
+        df_final.columns = ['Freq'+algos]
+    df_final['Type']=pd.DataFrame(df_sub['Type'])
+    return(df_final)

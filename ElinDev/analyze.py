@@ -5,7 +5,7 @@ Created on Thu Dec 15 11:47:40 2016
 @author: elinlarsen
 """
 import os 
-import random
+import sys
 import itertools
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,8 +14,12 @@ import operator
 from itertools import izip
 import glob
 
+# import file
+os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/ElinDev')
+import read
+
 #########################  Count lines of text and occurences of words in text files
-def count_lines_corpus(corpus_file='/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/phono/tags.txt'):
+def count_lines_corpus(corpus_file):
     ''' count the number of lines in a text file '''
     non_blank_count=0
     with open(corpus_file,'r') as text:
@@ -24,8 +28,6 @@ def count_lines_corpus(corpus_file='/Users/elinlarsen/Documents/CDSwordSeg/recip
                 non_blank_count+=1
     print 'number of non-blank lines found: %d' % non_blank_count
     return(non_blank_count)
-
-count_lines_corpus('/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data/Brent/tags.txt')
 
 
 def freq_token_in_corpus(ortho_file):
@@ -145,28 +147,6 @@ def inter_all_algo_inter_all_sub(res_all_algo):
         file.write("\n"+ "Number of words types segmented in all algo between subcorpus : "+ str(len(ortho)) + "\n")
         file.write("\n"+"Number of types badly segmented in all algo between subcorpus : "+ str(len(ws)) + "\n")
   return([ortho,ws]) 
-  
-    
-def Inter_signature(signature,name_algo): 
-    """" signature of one algo for each sub corpus"""
-    n=len(signature)
-    ortho=set(signature[n-1]["ortho"])
-    ws=set(signature[n-1]['wrong_segmentation'])
-    file=open("Signature"+ name_algo+"PerSub.txt","w")
-    for i in range(n-1):
-        file.write("\n"+"Number of intersection between subcorpus : "+ str(i+2) + "\n")
-        for ii in range(i):
-            ortho= set(ortho) & set(signature[ii]["ortho"])
-            ws= set(ws) & set(signature[ii]['wrong_segmentation'])
-        file.write("\n"+"Words types : "+"\n" )
-        for word in ortho:
-            file.write(word + "\n")  
-        file.write("\n"+"Badly segmented"+ "\n")
-        for word in ws:
-            file.write( word + "\n")
-        file.write("\n"+ "Number of words types segmented in common between subcorpus : "+ str(len(ortho)) + "\n")
-        file.write("\n"+"Number of types badly segmented in common between subcorpus : "+ str(len(ws)) + "\n")
-    return([ortho,ws])
     
     
 def compare_token_btw_sub(path_res,dic_corpus,sub=["sub0","sub1","sub2","sub3","sub4","sub5","sub6","sub7","sub8","sub9"],sub_ref="sub0",
@@ -288,10 +268,8 @@ def common_type_in_all_sub(sub, path_data,name_gold="ortholines.txt"):
     
 def intersection_exclusive_in_2_algo( path_res, dic_corpus, sub, algos, freq_file="/freq-top.txt"):
     '''for one sub !!!! '''
-    tuple_res=()
     res=[]
-    z=list(numpy.copy(algos))
-    n=len(algos)*(len(algos)-1)/2
+    z=list(np.copy(algos))
     file = open("TypesCommonsIn2Algos.txt", "w")
     for algo1 in z:  
         for algo2 in z:
@@ -332,7 +310,6 @@ def count_type_segmented_per_algo_per_sub(algos,sub,path_res, freq_file="/freq-t
     return(res)  
     
 def count_type_well_segmented_per_algo_per_sub(dic,algos,sub,path_res,freq_file="/freq-top.txt"):
-    res=[]
     file=open("NumberTypesPerAlgoPerSub.txt","w")
     for i in sub: 
         file.write("\n"+i+"\n")
@@ -411,6 +388,7 @@ def Inter_signature(signature,name_algo):
         file.write("\n"+ "Number of words types segmented in common between subcorpus : "+ str(len(ortho)) + "\n")
         file.write("\n"+"Number of types badly segmented in common between subcorpus : "+ str(len(ws)) + "\n")
     return([ortho,ws])
+
 
 def average_signature_per_sub(signature):
     n=len(signature)
