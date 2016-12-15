@@ -5,19 +5,9 @@ Created on Thu Dec 15 11:39:15 2016
 @author: elinlarsen
 """
 ### importing libraries
-import os 
-import sys
-import itertools
-import matplotlib.pyplot as plt
-import numpy as np
-import collections
-import operator
-from itertools import izip
+
 import glob
 import pandas as pd
-
-#import file 
-import translate
 
 
 #########################  MERGE data files (ortholines, tags, gold) of each child to get a big corpus 

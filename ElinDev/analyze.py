@@ -4,18 +4,12 @@ Created on Thu Dec 15 11:47:40 2016
 
 @author: elinlarsen
 """
-import os 
-import sys
-import itertools
-import matplotlib.pyplot as plt
+
+
 import numpy as np
 import collections
-import operator
-from itertools import izip
-import glob
 
 # import file
-os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/ElinDev')
 import read
 
 #########################  Count lines of text and occurences of words in text files
@@ -67,10 +61,10 @@ def compare_token_btw_algo(path_res, dic_corpus, sub=["sub0","sub1","sub2","sub3
     res=[]
     for i in range(len(sub)):
         dic_inter={}
-        ref=list_freq_token_per_algo(algo_ref,sub[i],path_res,freq_file)[0]
+        ref=read.list_freq_token_per_algo(algo_ref,sub[i],path_res,freq_file)[0]
         for j in range(len(algos)):
             if algos[j]!=algo_ref:
-                b=list_freq_token_per_algo(algos[j],sub[i],path_res,freq_file)[0]
+                b=read.list_freq_token_per_algo(algos[j],sub[i],path_res,freq_file)[0]
                 list_inter=list(set(ref).intersection(set(b)))
                 dic_inter[algos[j]]=split_segmented_token(dic_corpus, list_inter)
         res.append(dic_inter)   
@@ -155,10 +149,10 @@ def compare_token_btw_sub(path_res,dic_corpus,sub=["sub0","sub1","sub2","sub3","
     res={}
     for j in range(len(algos)):
         comparison_sub_for_one_algo=[]
-        ref=list_freq_token_per_algo(algos[j],sub_ref,path_res,freq_file)[0]
+        ref=read.list_freq_token_per_algo(algos[j],sub_ref,path_res,freq_file)[0]
         for i in range(len(sub)):
             dic_inter={} #empty dictionnary
-            b=list_freq_token_per_algo(algos[j],sub[i],path_res,freq_file)[0]
+            b=read.list_freq_token_per_algo(algos[j],sub[i],path_res,freq_file)[0]
             list_inter=list(set(ref).intersection(set(b)))# intersection of token of sub[i] and sub_ref for one algo
             dic_inter[sub[i]]=split_segmented_token(dic_corpus, list_inter) # distinction of token as word or badly segmented for one sub_corpus
             comparison_sub_for_one_algo.append(dic_inter) # add the comparison in a list 
@@ -169,9 +163,9 @@ def compare_token_all_sub(path_res,dic_corpus,sub=["sub0","sub1","sub2","sub3","
     n=len(sub)-1
     res={}
     for i in range(len(algos)):
-        comp_all_sub_per_algo=list_freq_token_per_algo(algos[i],sub[n],path_res,freq_file)[0]# list of freq words for algo[i] computed in  sub[n]
+        comp_all_sub_per_algo=read.list_freq_token_per_algo(algos[i],sub[n],path_res,freq_file)[0]# list of freq words for algo[i] computed in  sub[n]
         for j in range(n):
-            a=list_freq_token_per_algo(algos[i],sub[j],path_res,freq_file)[0]
+            a=read.list_freq_token_per_algo(algos[i],sub[j],path_res,freq_file)[0]
             comp_all_sub_per_algo=list(set(a).intersection(set(comp_all_sub_per_algo)))
         all_sub_per_algo_dis=split_segmented_token(dic_corpus, comp_all_sub_per_algo) 
         res[algos[i]]=all_sub_per_algo_dis
@@ -204,7 +198,7 @@ def differentiate_token_btwn_algo(path_res,dic_corpus,sub=["sub0","sub1","sub2",
         ref=list_freq_token_per_algo(algo_ref,sub[i],path_res,freq_file)[0]
         for j in range(len(algos)):
             if algos[j]!=algo_ref:
-                b=list_freq_token_per_algo(algos[j],sub[i],path_res,freq_file)[0]
+                b=read.list_freq_token_per_algo(algos[j],sub[i],path_res,freq_file)[0]
                 list_diff=[k for k in ref if not k in b]
                 dic_inter[algos[j]]=split_segmented_token(dic_corpus, list_diff)
         res.append(dic_inter)     
@@ -216,10 +210,10 @@ def signature_algo(path_res,dic_corpus,sub=["sub0","sub1","sub2","sub3","sub4","
     n=len(algos)
     for i in range(len(sub)):
         dic_inter={}
-        ref=list_freq_token_per_algo(algo_ref,sub[i],path_res,freq_file)[0]
+        ref=read.list_freq_token_per_algo(algo_ref,sub[i],path_res,freq_file)[0]
         for j in range(n):
             if not algos[j]==algo_ref: 
-                b=list_freq_token_per_algo(algos[j],sub[i],path_res, freq_file)[0]
+                b=read.list_freq_token_per_algo(algos[j],sub[i],path_res, freq_file)[0]
                 dic_inter[algos[j]]=[k for k in ref if not k in b] # which token is segmented in ref and not in algo j
         sign_ref=dic_inter.values()[0]
         for j in range(n-1):
@@ -231,8 +225,8 @@ def signature_algo(path_res,dic_corpus,sub=["sub0","sub1","sub2","sub3","sub4","
 
 def in_common_two_algo( path_res,dic_corpus, sub, algos, algo1, algo2, freq_file):
     dic_inter={}
-    ref1=list_freq_token_per_algo(algo1,sub,path_res,freq_file)[0]
-    ref2=list_freq_token_per_algo(algo2,sub,path_res,freq_file)[0]
+    ref1=read.list_freq_token_per_algo(algo1,sub,path_res,freq_file)[0]
+    ref2=read.list_freq_token_per_algo(algo2,sub,path_res,freq_file)[0]
     inter=list(set(ref1).intersection(set(ref2)))
     for j in range(len(algos)):
         if (algos[j]!=algo1 and algos[j]!=algo2):
@@ -244,13 +238,13 @@ def in_common_two_algo( path_res,dic_corpus, sub, algos, algo1, algo2, freq_file
 def common_type_in_all_sub(sub, path_data,name_gold="ortholines.txt"):
     sub_ref=sub[1]
     path_ref=path=path_data+str(sub_ref)+"/"+name_gold
-    list_ref=corpus_as_list(path_ref)
+    list_ref=read.corpus_as_list(path_ref)
     count_freq={}
     file=open("TypesCommonsInAllSUBs.txt", "w")
     for i in sub: 
         if not sub==sub_ref:
             path=path_data+str(i)+"/"+name_gold
-            list_sub=corpus_as_list(corpus_file=path)
+            list_sub=read.corpus_as_list(corpus_file=path)
             list_sub=[x for x in list_sub if x in list_ref] # list of all token in all subcorpus 
     #=> need to find the types and its frequencies
     for token in list_sub: 
@@ -303,7 +297,7 @@ def count_type_segmented_per_algo_per_sub(algos,sub,path_res, freq_file="/freq-t
     for i in sub: 
         file.write("\n"+i+"\n")
         for j in algos: 
-            count=list_freq_token_per_algo(j,i,path_res,freq_file)[1]
+            count=read.list_freq_token_per_algo(j,i,path_res,freq_file)[1]
             file.write(j+" " +str(count)+"\n")
             res.append(count)
     file.close()
@@ -314,7 +308,7 @@ def count_type_well_segmented_per_algo_per_sub(dic,algos,sub,path_res,freq_file=
     for i in sub: 
         file.write("\n"+i+"\n")
         for j in algos: 
-            list_type=list_freq_token_per_algo(j,i,path_res,freq_file)[0]
+            list_type=read.list_freq_token_per_algo(j,i,path_res,freq_file)[0]
             splitted=split_segmented_token(dic, list_type)
             count_o=len(splitted["ortho"])
             file.write(j+" " + str("ortho")+" " +str(count_o)+"\n")
@@ -332,7 +326,7 @@ def mean_token_segmented_per_sub(algos, sub,path_res, dic, freq_file):
     count_ws={}
     for algo in algos: 
         for ss in sub: 
-            freq[ss]=list_freq_token_per_algo(algo,ss,path_res,freq_file)[0]
+            freq[ss]=read.list_freq_token_per_algo(algo,ss,path_res,freq_file)[0]
             seg_freq[ss]=split_segmented_token(dic, freq[ss])
             count_o[ss]=len(seg_freq[ss].values()[0])
             print(count_o[ss])

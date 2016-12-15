@@ -15,13 +15,6 @@ Created on Thu Dec 15 11:44:52 2016
 #!/usr/bin/python
 
 import os
-import sys
-import itertools
-import matplotlib.pyplot as plt
-import numpy as np
-import collections
-import operator
-import sys
 import argparse
 
 

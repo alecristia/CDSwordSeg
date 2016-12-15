@@ -5,19 +5,11 @@ Created on Thu Dec 15 11:45:59 2016
 @author: elinlarsen
 """
 
-import os 
-import sys
-import random
-import itertools
-import matplotlib.pyplot as plt
-import numpy as np
 import collections
-import operator
 from itertools import izip
-import glob
+import pandas as pd
 
 #import file 
-os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/ElinDev')
 import read
 
 ######################### Dictionnary from phono text to ortho text
@@ -72,7 +64,7 @@ def create_file_word_freq(path_res, dic, sub, algos, freq_file="/freq-top.txt"):
         for algo in algos: 
             path=path_res+"/"+SS+"/"+algo+freq_file
             df_token=pd.read_table(path,sep=None, header=None, names=('Freq','phono'),  index_col=None)
-            list_token=list_freq_token_per_algo(algo,SS,path_res,freq_file)
+            list_token=read.list_freq_token_per_algo(algo,SS,path_res,freq_file)
             d={}
             for item in list_token: 
                 if dic.has_key(item)==True: 
