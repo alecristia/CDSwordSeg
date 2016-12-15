@@ -52,6 +52,7 @@ sed 's/^[ ]*//g' |
 sed 's/ $//g' |
 sed '/^$/d' |
 sed '/^ $/d' |
+sed '/\^/d' |
 awk '{gsub("\"",""); print}' > tmp.tmp
 
 #********** A T T E N T I O N ***************

@@ -2,7 +2,7 @@
 # Wrapper to take a single cleaned up transcript and phonologize it
 # Alex Cristia alecristia@gmail.com 2015-10-26
 # Modified by Laia Fibla laia.fibla.reixachs@gmail.com 2016-09-28 adapted to arg spanish
-
+#Modified by Alvaro Iturralde alvaro_miz@hotmail.com 2016-12-05
 
 #########VARIABLES
 #Variables to modify
@@ -14,8 +14,8 @@ PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/aiturralde/CDSwordSeg/phonologization"	
 RES_FOLDER="/fhgfs/bootphon/scratch/aiturralde/RES_FOLDER"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
-for CORPUSFOLDER in $RES_FOLDER/*DS; do
-	cd $CORPUSFOLDER		#scope into the RES_Folder and look for the ADS and CDS.
+for CORPUSFOLDER in $RES_FOLDER/*DS/NS*; do
+	cd $CORPUSFOLDER/		#scope into the RES_Folder and look for the ADS and CDS.
 	for ORTHO in $CORPUSFOLDER/*ortholines.txt; do
 		KEYNAME=$(basename "$ORTHO" -ortholines.txt)
 

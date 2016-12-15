@@ -57,9 +57,18 @@ echo "finding out who's a speaker in $f"
 
 		echo "processed $f" >> $OUTPUT_FILE2
 
+		
+
 done
 
 cd $RES_FOLDER
 find . -type d -empty -delete #remove empty folders for non-processed corpora
 echo "done removing empty folders"
+for j in $RES_FOLDER/*S; do	#divinding corpus into SESfolders.
+	cd $j
+	mkdir -p NSB
+	mkdir -p NSM
+	mv *-nsb-1audio-*lines.txt NSB
+	mv *-nsm-1audio-*lines.txt NSM
+done
 echo "done with ${RES_FOLDER}"
