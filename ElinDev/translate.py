@@ -5,6 +5,15 @@ Created on Thu Dec 15 11:45:59 2016
 @author: elinlarsen
 """
 
+import os 
+import random
+import itertools
+import matplotlib.pyplot as plt
+import numpy as np
+import collections
+import operator
+from itertools import izip
+import glob
 
 ######################### Dictionnary from phono text to ortho text
 # open ortho and gold file and check if in each line, the number of words match

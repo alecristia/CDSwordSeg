@@ -11,7 +11,6 @@ import pandas as pd
 from pandas import DataFrame
 from pandas import concat
 from pandas.util.testing import rands
-#import ToBeRun.py
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import lxml.html
 from lxml.html import builder as E

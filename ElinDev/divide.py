@@ -7,7 +7,24 @@ Created on Thu Dec 15 11:44:52 2016
 
 
 ######################### CREATION OF SUB-CORPUS : the whole corpus is divided k times
-def divide_corpus(text_file,k, output_dir,output_name="/gold.txt"):
+
+# created by elin larsen on November 8 th 2016
+#can be run on terminal by using arparse
+# the file takes corpus in text files of 'n' lines and divide the number of lines by 'k' 
+# and return k text files with (n-r)/k lines (r = rest of euclidian division)
+#!/usr/bin/python
+
+import os
+import random
+import itertools
+import matplotlib.pyplot as plt
+import numpy as np
+import collections
+import operator
+import sys
+import argparse
+
+def divide_corpus(text_file, k, output_dir,output_name):
     non_blank_count=0
     with open(text_file,'r') as text:
         for line in text:
@@ -27,5 +44,15 @@ def divide_corpus(text_file,k, output_dir,output_name="/gold.txt"):
         dataFile=open(nom,'w')
         for line in lines[j*q:(j+1)*q]:
             dataFile.write(line)
+
+if __name__=="__main__":
+     parser = argparse.ArgumentParser(description='Divide your corpus in k sub corpus linearly.')
+     parser.add_argument('-t', '--text_file', help='text file either orthographic, phonological or phonological with tags')
+     parser.add_argument('-k', type=int,  help='number of division')
+     parser.add_argument('-o', '--output_dir', help='the absolute path of your output directory')
+     parser.add_argument('-n', '--output_name', help='the name of the texte file divided, for example /gold.txt')
+     args=parser.parse_args()
+     divide_corpus(text_file=args.text_file,k=args.k,output_dir=args.output_dir, output_name=args.output_name )
+     
 #test            
 divide_corpus("/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data/Brent/tags.txt",k=10,output_dir="/Users/elinlarsen/Documents/CDSwordSeg/recipes/childes/data/Brent/",output_name="/tags.txt")            

@@ -4,6 +4,15 @@ Created on Thu Dec 15 11:47:40 2016
 
 @author: elinlarsen
 """
+import os 
+import random
+import itertools
+import matplotlib.pyplot as plt
+import numpy as np
+import collections
+import operator
+from itertools import izip
+import glob
 
 #########################  Count lines of text and occurences of words in text files
 def count_lines_corpus(corpus_file='/Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein/data_06_10/ADS/phono/tags.txt'):

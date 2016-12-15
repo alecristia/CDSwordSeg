@@ -62,3 +62,27 @@ def list_freq_token_per_algo(algo,sub,path_res,freq_file="/freq-top.txt"):
     #res=[algo_list,len(algo_list)]
     res=algo_list
     return(res)
+    
+######################### read the CDI database
+#create a dataframe of CDI words for the age wanted
+      
+def read_CDI_data_by_age(CDI_file, age, save_file=True):
+    '''  age must be an integer between 8 and 18 or 'all' meaning that all age will be considered and averaged'''
+    ''' save_file is a boolean indicating if you want to save file in you current directory '''
+    df=pd.read_csv(CDI_file, sep=None, header=0)
+    if isinstance(age, int):
+        grouped_age=df.groupby('age')
+        df_age=grouped_age.get_group(age) # get the words and the proportion of understanding at age defined 
+        df_age.columns=['lexical_classes','Type','prop','age']
+        if save_file==True: 
+            df_age.to_csv('Prop_understand_CDI_at_age_'+str(age)+'.csv', sep='\t', index=False)
+        return(df_age)
+    else :
+        grouped_random_age=df.groupby('age').get_group(10)
+        df_mean=df.groupby('words').mean()
+        df_mean['lexical_classes']=grouped_random_age['lexical_classes']
+        del df_mean['age']
+        df_mean['Type']=df_mean.index
+        if save_file==True: 
+            df_mean.to_csv('Mean_prop_understand_CDI_Age.csv', sep='\t', index=False)
+        return(df_mean)
