@@ -1,0 +1,396 @@
+lexical_classes	Type	prop	age
+nouns	airplane	0.0560747663551	9
+function_words	all	0.018691588785	9
+adjectives	all gone	0.411214953271	9
+nouns	animal	0.018691588785	9
+function_words	another	0.018691588785	9
+nouns	apple	0.121495327103	9
+nouns	arm	0.0373831775701	9
+adjectives	asleep	0.0560747663551	9
+other	aunt	0.0841121495327	9
+function_words	away	0.018691588785	9
+other	baa baa	0.383177570093	9
+other	baby	0.355140186916	9
+other	babysitter	0.0747663551402	9
+other	babysitter's name	0.158878504673	9
+function_words	back	0.0560747663551	9
+adjectives	bad	0.121495327103	9
+nouns	ball	0.411214953271	9
+nouns	balloon	0.130841121495	9
+nouns	banana	0.242990654206	9
+other	bath	0.523364485981	9
+nouns	bathroom	0.11214953271	9
+nouns	bathtub	0.271028037383	9
+nouns	beach	0.018691588785	9
+nouns	beads	0.0280373831776	9
+nouns	bear	0.0841121495327	9
+nouns	bed	0.214953271028	9
+nouns	bedroom	0.0747663551402	9
+nouns	bee	0.0280373831776	9
+nouns	belly button	0.0934579439252	9
+nouns	bib	0.177570093458	9
+nouns	bicycle	0.00934579439252	9
+adjectives	big	0.0841121495327	9
+nouns	bird	0.168224299065	9
+verbs	bite	0.214953271028	9
+nouns	blanket	0.224299065421	9
+nouns	block	0.121495327103	9
+verbs	blow	0.0467289719626	9
+adjectives	blue	0.00934579439252	9
+nouns	book	0.383177570093	9
+nouns	boots	0.0373831775701	9
+nouns	bottle	0.523364485981	9
+nouns	bowl	0.0560747663551	9
+nouns	box	0.00934579439252	9
+other	boy	0.0280373831776	9
+nouns	bread	0.0934579439252	9
+verbs	break	0.0	9
+other	breakfast	0.233644859813	9
+verbs	bring	0.0373831775701	9
+adjectives	broken	0.00934579439252	9
+nouns	broom	0.00934579439252	9
+other	brother	0.233644859813	9
+nouns	brush	0.0747663551402	9
+nouns	bubbles	0.0654205607477	9
+nouns	bug	0.00934579439252	9
+verbs	bump	0.0560747663551	9
+nouns	bunny	0.0934579439252	9
+nouns	bus	0.0	9
+nouns	butter	0.0	9
+nouns	butterfly	0.0280373831776	9
+nouns	button	0.0280373831776	9
+other	bye	0.710280373832	9
+nouns	cake	0.0280373831776	9
+nouns	candy	0.0280373831776	9
+nouns	car	0.205607476636	9
+adjectives	careful	0.140186915888	9
+nouns	carrots	0.0280373831776	9
+nouns	cat	0.289719626168	9
+nouns	cereal	0.177570093458	9
+nouns	chair	0.0280373831776	9
+nouns	cheek	0.0373831775701	9
+nouns	cheerios	0.252336448598	9
+nouns	cheese	0.0841121495327	9
+nouns	chicken (animal)	0.0467289719626	9
+nouns	chicken (food)	0.0467289719626	9
+other	child	0.018691588785	9
+other	child's own name	0.710280373832	9
+other	choo choo	0.0560747663551	9
+nouns	church	0.0280373831776	9
+verbs	clean (action)	0.0747663551402	9
+adjectives	clean (description)	0.0467289719626	9
+nouns	clock	0.0	9
+verbs	close	0.00934579439252	9
+nouns	coat	0.018691588785	9
+other	cockadoodledoo	0.018691588785	9
+nouns	coffee	0.00934579439252	9
+adjectives	cold	0.018691588785	9
+nouns	comb	0.0467289719626	9
+nouns	cookie	0.242990654206	9
+nouns	couch	0.0560747663551	9
+nouns	cow	0.0560747663551	9
+nouns	cracker	0.224299065421	9
+nouns	crib	0.196261682243	9
+verbs	cry	0.140186915888	9
+nouns	cup	0.252336448598	9
+adjectives	cute	0.0747663551402	9
+other	daddy	0.897196261682	9
+verbs	dance	0.130841121495	9
+adjectives	dark	0.0	9
+other	day	0.0280373831776	9
+nouns	deer	0.00934579439252	9
+nouns	diaper	0.467289719626	9
+other	dinner	0.168224299065	9
+adjectives	dirty	0.0747663551402	9
+nouns	dish	0.018691588785	9
+nouns	dog	0.411214953271	9
+nouns	doll	0.130841121495	9
+other	don't	0.345794392523	9
+nouns	donkey	0.0	9
+nouns	door	0.0747663551402	9
+function_words	down	0.0934579439252	9
+verbs	draw	0.0	9
+nouns	drawer	0.00934579439252	9
+nouns	dress (object)	0.0373831775701	9
+verbs	drink (action)	0.242990654206	9
+nouns	drink (beverage)	0.252336448598	9
+verbs	drive	0.0280373831776	9
+adjectives	dry (description)	0.018691588785	9
+nouns	duck	0.11214953271	9
+nouns	ear	0.0560747663551	9
+verbs	eat	0.355140186916	9
+nouns	egg	0.0280373831776	9
+nouns	elephant	0.018691588785	9
+adjectives	empty	0.0934579439252	9
+nouns	eye	0.102803738318	9
+nouns	face	0.11214953271	9
+verbs	fall	0.0841121495327	9
+adjectives	fast	0.00934579439252	9
+verbs	feed	0.0560747663551	9
+adjectives	fine	0.0	9
+nouns	finger	0.0841121495327	9
+verbs	finish	0.0654205607477	9
+nouns	firetruck	0.018691588785	9
+nouns	fish (animal)	0.0747663551402	9
+nouns	fish (food)	0.0280373831776	9
+nouns	flower	0.0654205607477	9
+nouns	food	0.18691588785	9
+nouns	foot	0.11214953271	9
+nouns	fork	0.0	9
+nouns	frog	0.00934579439252	9
+nouns	garage	0.0	9
+nouns	garden	0.018691588785	9
+adjectives	gentle	0.102803738318	9
+verbs	get	0.0654205607477	9
+nouns	giraffe	0.0	9
+other	girl	0.0373831775701	9
+verbs	give	0.14953271028	9
+nouns	glass	0.0	9
+nouns	glasses	0.102803738318	9
+verbs	go	0.11214953271	9
+adjectives	good	0.224299065421	9
+other	night night	0.420560747664	9
+nouns	goose	0.0	9
+other	grandma	0.457943925234	9
+other	grandpa	0.261682242991	9
+other	grrr	0.252336448598	9
+nouns	hair	0.130841121495	9
+nouns	hammer	0.00934579439252	9
+nouns	hand	0.140186915888	9
+adjectives	happy	0.0841121495327	9
+adjectives	hard	0.00934579439252	9
+nouns	hat	0.121495327103	9
+nouns	head	0.0560747663551	9
+other	hello	0.308411214953	9
+verbs	help	0.00934579439252	9
+function_words	her	0.018691588785	9
+other	hi	0.504672897196	9
+nouns	high chair	0.168224299065	9
+function_words	his	0.00934579439252	9
+verbs	hit	0.11214953271	9
+nouns	home	0.140186915888	9
+nouns	horse	0.018691588785	9
+adjectives	hot	0.102803738318	9
+nouns	house	0.0467289719626	9
+function_words	how	0.00934579439252	9
+verbs	hug	0.242990654206	9
+adjectives	hungry	0.130841121495	9
+verbs	hurry	0.0	9
+adjectives	hurt	0.018691588785	9
+function_words	i	0.00934579439252	9
+nouns	ice cream	0.0373831775701	9
+function_words	in	0.018691588785	9
+function_words	inside	0.018691588785	9
+function_words	it	0.0373831775701	9
+nouns	jacket	0.0280373831776	9
+nouns	jeans	0.0	9
+nouns	juice	0.299065420561	9
+verbs	jump	0.0654205607477	9
+nouns	keys	0.233644859813	9
+verbs	kick	0.018691588785	9
+verbs	kiss	0.411214953271	9
+nouns	kitchen	0.0934579439252	9
+nouns	kitty	0.364485981308	9
+nouns	knee	0.0280373831776	9
+other	lady	0.0	9
+nouns	lamb	0.0467289719626	9
+nouns	lamp	0.0	9
+other	later	0.0373831775701	9
+nouns	leg	0.018691588785	9
+nouns	light	0.0841121495327	9
+nouns	lion	0.018691588785	9
+adjectives	little (description)	0.0	9
+nouns	living room	0.00934579439252	9
+verbs	look	0.242990654206	9
+verbs	love	0.121495327103	9
+other	lunch	0.121495327103	9
+other	man	0.0	9
+function_words	me	0.0373831775701	9
+nouns	meat	0.0560747663551	9
+nouns	medicine	0.0654205607477	9
+other	meow	0.242990654206	9
+nouns	milk	0.280373831776	9
+function_words	mine	0.0934579439252	9
+other	mommy	0.897196261682	9
+nouns	money	0.00934579439252	9
+nouns	monkey	0.0560747663551	9
+other	moo	0.121495327103	9
+nouns	moon	0.0373831775701	9
+function_words	more	0.14953271028	9
+other	morning	0.0747663551402	9
+nouns	motorcycle	0.018691588785	9
+nouns	mouse	0.018691588785	9
+nouns	mouth	0.177570093458	9
+function_words	my	0.0280373831776	9
+other	nap	0.242990654206	9
+adjectives	naughty	0.0373831775701	9
+nouns	necklace	0.0	9
+adjectives	nice	0.0560747663551	9
+other	night	0.0841121495327	9
+other	no	0.738317757009	9
+function_words	none	0.00934579439252	9
+nouns	nose	0.196261682243	9
+function_words	not	0.00934579439252	9
+other	now	0.0467289719626	9
+function_words	off	0.0560747663551	9
+adjectives	old	0.0	9
+function_words	on	0.0560747663551	9
+verbs	open	0.0373831775701	9
+nouns	orange (food)	0.0280373831776	9
+function_words	other	0.0	9
+other	ouch	0.214953271028	9
+function_words	out	0.0467289719626	9
+nouns	outside	0.252336448598	9
+nouns	oven	0.00934579439252	9
+nouns	owie/boo boo	0.102803738318	9
+nouns	owl	0.00934579439252	9
+nouns	pajamas	0.0934579439252	9
+nouns	pants	0.0841121495327	9
+nouns	paper	0.0841121495327	9
+nouns	park	0.0280373831776	9
+nouns	party	0.00934579439252	9
+nouns	noodles, spaghetti	0.0467289719626	9
+other	pattycake	0.429906542056	9
+nouns	peas	0.018691588785	9
+other	peekaboo	0.654205607477	9
+nouns	pen	0.018691588785	9
+nouns	penguin	0.0	9
+nouns	penny	0.0	9
+other	people	0.018691588785	9
+other	person	0.0280373831776	9
+nouns	picture	0.0373831775701	9
+nouns	pig	0.0747663551402	9
+nouns	pillow	0.0373831775701	9
+nouns	pizza	0.018691588785	9
+nouns	plant	0.018691588785	9
+nouns	plate	0.00934579439252	9
+verbs	play	0.158878504673	9
+nouns	play pen	0.11214953271	9
+other	please	0.0747663551402	9
+nouns	pony	0.018691588785	9
+nouns	pool	0.102803738318	9
+nouns	potty	0.0373831775701	9
+adjectives	pretty	0.0654205607477	9
+verbs	pull	0.0	9
+nouns	puppy	0.140186915888	9
+nouns	purse	0.0373831775701	9
+verbs	push	0.018691588785	9
+verbs	put	0.00934579439252	9
+other	quack quack	0.121495327103	9
+nouns	radio	0.018691588785	9
+nouns	rain	0.00934579439252	9
+nouns	raisin	0.00934579439252	9
+verbs	read	0.0841121495327	9
+adjectives	red	0.0	9
+nouns	refrigerator	0.0747663551402	9
+verbs	ride	0.0373831775701	9
+nouns	rock	0.00934579439252	9
+nouns	rocking chair	0.00934579439252	9
+verbs	run	0.0	9
+function_words	same	0.0	9
+verbs	say	0.0280373831776	9
+adjectives	scared	0.0	9
+nouns	school	0.0467289719626	9
+nouns	scissors	0.00934579439252	9
+verbs	see	0.14953271028	9
+nouns	sheep	0.018691588785	9
+other	shh/shush/hush	0.224299065421	9
+nouns	shirt	0.0934579439252	9
+nouns	shoe	0.14953271028	9
+nouns	shorts	0.018691588785	9
+nouns	shovel	0.0	9
+verbs	show	0.0280373831776	9
+adjectives	sick	0.00934579439252	9
+verbs	sing	0.0841121495327	9
+nouns	sink	0.00934579439252	9
+other	sister	0.252336448598	9
+nouns	sky	0.018691588785	9
+verbs	sleep	0.177570093458	9
+adjectives	sleepy	0.205607476636	9
+nouns	slide (object)	0.0373831775701	9
+verbs	smile	0.205607476636	9
+nouns	snow	0.0280373831776	9
+nouns	soap	0.0747663551402	9
+nouns	sock	0.18691588785	9
+adjectives	soft	0.0280373831776	9
+function_words	some	0.0280373831776	9
+verbs	splash	0.168224299065	9
+nouns	spoon	0.177570093458	9
+nouns	squirrel	0.018691588785	9
+nouns	stairs	0.0373831775701	9
+nouns	star	0.0	9
+verbs	stop	0.18691588785	9
+nouns	store	0.0560747663551	9
+nouns	stove	0.00934579439252	9
+nouns	stroller	0.233644859813	9
+nouns	sun	0.018691588785	9
+nouns	sweater	0.0280373831776	9
+verbs	swim	0.0373831775701	9
+verbs	swing (action)	0.0560747663551	9
+nouns	swing (object)	0.0841121495327	9
+nouns	table	0.0467289719626	9
+verbs	take	0.018691588785	9
+other	teacher	0.018691588785	9
+nouns	teddybear	0.18691588785	9
+nouns	telephone	0.196261682243	9
+other	thank you	0.177570093458	9
+function_words	that	0.0373831775701	9
+function_words	there	0.0373831775701	9
+adjectives	thirsty	0.121495327103	9
+function_words	this	0.0373831775701	9
+verbs	throw	0.0747663551402	9
+verbs	tickle	0.14953271028	9
+nouns	tiger	0.018691588785	9
+adjectives	tired	0.121495327103	9
+nouns	toast	0.0560747663551	9
+other	today	0.0280373831776	9
+nouns	toe	0.0934579439252	9
+other	tomorrow	0.0	9
+nouns	tongue	0.0560747663551	9
+other	tonight	0.018691588785	9
+nouns	tooth	0.11214953271	9
+nouns	toothbrush	0.0654205607477	9
+verbs	touch	0.0654205607477	9
+nouns	towel	0.0373831775701	9
+nouns	toy (object)	0.280373831776	9
+nouns	train	0.0373831775701	9
+nouns	trash	0.018691588785	9
+nouns	tree	0.0373831775701	9
+nouns	truck	0.0841121495327	9
+nouns	tummy	0.177570093458	9
+nouns	turkey	0.0	9
+nouns	turtle	0.0280373831776	9
+nouns	tv	0.158878504673	9
+other	uh oh	0.355140186916	9
+other	uncle	0.0654205607477	9
+function_words	under	0.00934579439252	9
+function_words	up	0.14953271028	9
+nouns	vacuum	0.0373831775701	9
+other	vroom	0.102803738318	9
+other	wait	0.102803738318	9
+verbs	walk	0.0934579439252	9
+other	wanna/want to	0.0654205607477	9
+verbs	wash	0.102803738318	9
+verbs	watch (action)	0.0560747663551	9
+nouns	watch (object)	0.0280373831776	9
+nouns	water (beverage)	0.233644859813	9
+nouns	water (not beverage)	0.158878504673	9
+adjectives	wet	0.130841121495	9
+function_words	what	0.0560747663551	9
+function_words	when	0.0	9
+function_words	where	0.0841121495327	9
+function_words	who	0.0467289719626	9
+function_words	why	0.018691588785	9
+nouns	window	0.0467289719626	9
+verbs	wipe	0.0841121495327	9
+other	woof woof	0.261682242991	9
+nouns	work (place)	0.018691588785	9
+verbs	write	0.0	9
+nouns	backyard	0.0747663551402	9
+other	yes	0.252336448598	9
+function_words	you	0.121495327103	9
+function_words	your	0.0560747663551	9
+adjectives	yucky	0.18691588785	9
+other	yum yum	0.233644859813	9
+nouns	zipper	0.0373831775701	9
+nouns	zoo	0.00934579439252	9

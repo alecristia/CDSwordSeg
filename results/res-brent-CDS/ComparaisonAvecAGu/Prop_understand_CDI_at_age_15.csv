@@ -1,0 +1,396 @@
+lexical_classes	Type	prop	age
+nouns	airplane	0.54	15
+function_words	all	0.18	15
+adjectives	all gone	0.9	15
+nouns	animal	0.32	15
+function_words	another	0.18	15
+nouns	apple	0.59	15
+nouns	arm	0.42	15
+adjectives	asleep	0.33	15
+other	aunt	0.33	15
+function_words	away	0.17	15
+other	baa baa	0.57	15
+other	baby	0.85	15
+other	babysitter	0.17	15
+other	babysitter's name	0.28	15
+function_words	back	0.26	15
+adjectives	bad	0.43	15
+nouns	ball	0.94	15
+nouns	balloon	0.73	15
+nouns	banana	0.82	15
+other	bath	0.9	15
+nouns	bathroom	0.66	15
+nouns	bathtub	0.78	15
+nouns	beach	0.25	15
+nouns	beads	0.16	15
+nouns	bear	0.48	15
+nouns	bed	0.7	15
+nouns	bedroom	0.46	15
+nouns	bee	0.31	15
+nouns	belly button	0.56	15
+nouns	bib	0.49	15
+nouns	bicycle	0.42	15
+adjectives	big	0.31	15
+nouns	bird	0.71	15
+verbs	bite	0.64	15
+nouns	blanket	0.67	15
+nouns	block	0.62	15
+verbs	blow	0.5	15
+adjectives	blue	0.13	15
+nouns	book	0.91	15
+nouns	boots	0.21	15
+nouns	bottle	0.82	15
+nouns	bowl	0.45	15
+nouns	box	0.43	15
+other	boy	0.33	15
+nouns	bread	0.51	15
+verbs	break	0.17	15
+other	breakfast	0.6	15
+verbs	bring	0.64	15
+adjectives	broken	0.23	15
+nouns	broom	0.36	15
+other	brother	0.33	15
+nouns	brush	0.66	15
+nouns	bubbles	0.54	15
+nouns	bug	0.31	15
+verbs	bump	0.31	15
+nouns	bunny	0.52	15
+nouns	bus	0.36	15
+nouns	butter	0.2	15
+nouns	butterfly	0.28	15
+nouns	button	0.34	15
+other	bye	0.95	15
+nouns	cake	0.28	15
+nouns	candy	0.33	15
+nouns	car	0.79	15
+adjectives	careful	0.53	15
+nouns	carrots	0.38	15
+nouns	cat	0.66	15
+nouns	cereal	0.61	15
+nouns	chair	0.64	15
+nouns	cheek	0.27	15
+nouns	cheerios	0.65	15
+nouns	cheese	0.68	15
+nouns	chicken (animal)	0.38	15
+nouns	chicken (food)	0.42	15
+other	child	0.11	15
+other	child's own name	0.86	15
+other	choo choo	0.47	15
+nouns	church	0.17	15
+verbs	clean (action)	0.36	15
+adjectives	clean (description)	0.26	15
+nouns	clock	0.33	15
+verbs	close	0.54	15
+nouns	coat	0.38	15
+other	cockadoodledoo	0.3	15
+nouns	coffee	0.23	15
+adjectives	cold	0.45	15
+nouns	comb	0.38	15
+nouns	cookie	0.79	15
+nouns	couch	0.43	15
+nouns	cow	0.53	15
+nouns	cracker	0.72	15
+nouns	crib	0.51	15
+verbs	cry	0.5	15
+nouns	cup	0.81	15
+adjectives	cute	0.29	15
+other	daddy	0.95	15
+verbs	dance	0.65	15
+adjectives	dark	0.14	15
+other	day	0.1	15
+nouns	deer	0.16	15
+nouns	diaper	0.85	15
+other	dinner	0.52	15
+adjectives	dirty	0.46	15
+nouns	dish	0.29	15
+nouns	dog	0.86	15
+nouns	doll	0.56	15
+other	don't	0.68	15
+nouns	donkey	0.11	15
+nouns	door	0.74	15
+function_words	down	0.64	15
+verbs	draw	0.34	15
+nouns	drawer	0.29	15
+nouns	dress (object)	0.3	15
+verbs	drink (action)	0.83	15
+nouns	drink (beverage)	0.66	15
+verbs	drive	0.29	15
+adjectives	dry (description)	0.19	15
+nouns	duck	0.65	15
+nouns	ear	0.65	15
+verbs	eat	0.78	15
+nouns	egg	0.33	15
+nouns	elephant	0.34	15
+adjectives	empty	0.3	15
+nouns	eye	0.73	15
+nouns	face	0.42	15
+verbs	fall	0.39	15
+adjectives	fast	0.12	15
+verbs	feed	0.3	15
+adjectives	fine	0.03	15
+nouns	finger	0.49	15
+verbs	finish	0.16	15
+nouns	firetruck	0.34	15
+nouns	fish (animal)	0.51	15
+nouns	fish (food)	0.3	15
+nouns	flower	0.5	15
+nouns	food	0.44	15
+nouns	foot	0.65	15
+nouns	fork	0.35	15
+nouns	frog	0.35	15
+nouns	garage	0.24	15
+nouns	garden	0.17	15
+adjectives	gentle	0.43	15
+verbs	get	0.61	15
+nouns	giraffe	0.19	15
+other	girl	0.29	15
+verbs	give	0.73	15
+nouns	glass	0.28	15
+nouns	glasses	0.43	15
+verbs	go	0.74	15
+adjectives	good	0.59	15
+other	night night	0.87	15
+nouns	goose	0.22	15
+other	grandma	0.68	15
+other	grandpa	0.58	15
+other	grrr	0.55	15
+nouns	hair	0.68	15
+nouns	hammer	0.22	15
+nouns	hand	0.6	15
+adjectives	happy	0.34	15
+adjectives	hard	0.12	15
+nouns	hat	0.61	15
+nouns	head	0.5	15
+other	hello	0.61	15
+verbs	help	0.34	15
+function_words	her	0.09	15
+other	hi	0.87	15
+nouns	high chair	0.62	15
+function_words	his	0.09	15
+verbs	hit	0.46	15
+nouns	home	0.5	15
+nouns	horse	0.45	15
+adjectives	hot	0.74	15
+nouns	house	0.37	15
+function_words	how	0.07	15
+verbs	hug	0.78	15
+adjectives	hungry	0.53	15
+verbs	hurry	0.2	15
+adjectives	hurt	0.28	15
+function_words	i	0.2	15
+nouns	ice cream	0.42	15
+function_words	in	0.45	15
+function_words	inside	0.31	15
+function_words	it	0.19	15
+nouns	jacket	0.4	15
+nouns	jeans	0.13	15
+nouns	juice	0.78	15
+verbs	jump	0.32	15
+nouns	keys	0.77	15
+verbs	kick	0.43	15
+verbs	kiss	0.92	15
+nouns	kitchen	0.51	15
+nouns	kitty	0.74	15
+nouns	knee	0.23	15
+other	lady	0.17	15
+nouns	lamb	0.3	15
+nouns	lamp	0.23	15
+other	later	0.11	15
+nouns	leg	0.34	15
+nouns	light	0.45	15
+nouns	lion	0.28	15
+adjectives	little (description)	0.17	15
+nouns	living room	0.36	15
+verbs	look	0.68	15
+verbs	love	0.57	15
+other	lunch	0.49	15
+other	man	0.21	15
+function_words	me	0.34	15
+nouns	meat	0.22	15
+nouns	medicine	0.31	15
+other	meow	0.68	15
+nouns	milk	0.77	15
+function_words	mine	0.36	15
+other	mommy	0.99	15
+nouns	money	0.27	15
+nouns	monkey	0.39	15
+other	moo	0.53	15
+nouns	moon	0.28	15
+function_words	more	0.62	15
+other	morning	0.12	15
+nouns	motorcycle	0.28	15
+nouns	mouse	0.27	15
+nouns	mouth	0.68	15
+function_words	my	0.17	15
+other	nap	0.67	15
+adjectives	naughty	0.13	15
+nouns	necklace	0.24	15
+adjectives	nice	0.38	15
+other	night	0.29	15
+other	no	0.96	15
+function_words	none	0.21	15
+nouns	nose	0.84	15
+function_words	not	0.11	15
+other	now	0.18	15
+function_words	off	0.48	15
+adjectives	old	0.04	15
+function_words	on	0.44	15
+verbs	open	0.55	15
+nouns	orange (food)	0.38	15
+function_words	other	0.11	15
+other	ouch	0.53	15
+function_words	out	0.48	15
+nouns	outside	0.81	15
+nouns	oven	0.3	15
+nouns	owie/boo boo	0.35	15
+nouns	owl	0.21	15
+nouns	pajamas	0.55	15
+nouns	pants	0.48	15
+nouns	paper	0.38	15
+nouns	park	0.34	15
+nouns	party	0.13	15
+nouns	noodles, spaghetti	0.41	15
+other	pattycake	0.68	15
+nouns	peas	0.33	15
+other	peekaboo	0.89	15
+nouns	pen	0.41	15
+nouns	penguin	0.15	15
+nouns	penny	0.17	15
+other	people	0.26	15
+other	person	0.12	15
+nouns	picture	0.37	15
+nouns	pig	0.41	15
+nouns	pillow	0.43	15
+nouns	pizza	0.27	15
+nouns	plant	0.31	15
+nouns	plate	0.33	15
+verbs	play	0.5	15
+nouns	play pen	0.28	15
+other	please	0.44	15
+nouns	pony	0.24	15
+nouns	pool	0.33	15
+nouns	potty	0.3	15
+adjectives	pretty	0.37	15
+verbs	pull	0.29	15
+nouns	puppy	0.6	15
+nouns	purse	0.4	15
+verbs	push	0.39	15
+verbs	put	0.44	15
+other	quack quack	0.59	15
+nouns	radio	0.29	15
+nouns	rain	0.32	15
+nouns	raisin	0.33	15
+verbs	read	0.48	15
+adjectives	red	0.07	15
+nouns	refrigerator	0.53	15
+verbs	ride	0.43	15
+nouns	rock	0.38	15
+nouns	rocking chair	0.32	15
+verbs	run	0.32	15
+function_words	same	0.06	15
+verbs	say	0.38	15
+adjectives	scared	0.1	15
+nouns	school	0.18	15
+nouns	scissors	0.17	15
+verbs	see	0.56	15
+nouns	sheep	0.28	15
+other	shh/shush/hush	0.52	15
+nouns	shirt	0.44	15
+nouns	shoe	0.93	15
+nouns	shorts	0.26	15
+nouns	shovel	0.26	15
+verbs	show	0.42	15
+adjectives	sick	0.1	15
+verbs	sing	0.41	15
+nouns	sink	0.26	15
+other	sister	0.29	15
+nouns	sky	0.28	15
+verbs	sleep	0.56	15
+adjectives	sleepy	0.42	15
+nouns	slide (object)	0.42	15
+verbs	smile	0.44	15
+nouns	snow	0.08	15
+nouns	soap	0.42	15
+nouns	sock	0.72	15
+adjectives	soft	0.25	15
+function_words	some	0.15	15
+verbs	splash	0.4	15
+nouns	spoon	0.63	15
+nouns	squirrel	0.25	15
+nouns	stairs	0.54	15
+nouns	star	0.18	15
+verbs	stop	0.59	15
+nouns	store	0.41	15
+nouns	stove	0.27	15
+nouns	stroller	0.69	15
+nouns	sun	0.23	15
+nouns	sweater	0.24	15
+verbs	swim	0.16	15
+verbs	swing (action)	0.39	15
+nouns	swing (object)	0.44	15
+nouns	table	0.48	15
+verbs	take	0.37	15
+other	teacher	0.1	15
+nouns	teddybear	0.61	15
+nouns	telephone	0.69	15
+other	thank you	0.65	15
+function_words	that	0.32	15
+function_words	there	0.38	15
+adjectives	thirsty	0.43	15
+function_words	this	0.28	15
+verbs	throw	0.57	15
+verbs	tickle	0.48	15
+nouns	tiger	0.24	15
+adjectives	tired	0.47	15
+nouns	toast	0.37	15
+other	today	0.03	15
+nouns	toe	0.53	15
+other	tomorrow	0.04	15
+nouns	tongue	0.34	15
+other	tonight	0.06	15
+nouns	tooth	0.47	15
+nouns	toothbrush	0.64	15
+verbs	touch	0.42	15
+nouns	towel	0.4	15
+nouns	toy (object)	0.67	15
+nouns	train	0.38	15
+nouns	trash	0.5	15
+nouns	tree	0.47	15
+nouns	truck	0.53	15
+nouns	tummy	0.61	15
+nouns	turkey	0.17	15
+nouns	turtle	0.27	15
+nouns	tv	0.67	15
+other	uh oh	0.81	15
+other	uncle	0.18	15
+function_words	under	0.31	15
+function_words	up	0.62	15
+nouns	vacuum	0.54	15
+other	vroom	0.58	15
+other	wait	0.41	15
+verbs	walk	0.64	15
+other	wanna/want to	0.38	15
+verbs	wash	0.45	15
+verbs	watch (action)	0.35	15
+nouns	watch (object)	0.37	15
+nouns	water (beverage)	0.58	15
+nouns	water (not beverage)	0.68	15
+adjectives	wet	0.38	15
+function_words	what	0.39	15
+function_words	when	0.04	15
+function_words	where	0.39	15
+function_words	who	0.22	15
+function_words	why	0.08	15
+nouns	window	0.46	15
+verbs	wipe	0.37	15
+other	woof woof	0.66	15
+nouns	work (place)	0.2	15
+verbs	write	0.2	15
+nouns	backyard	0.39	15
+other	yes	0.72	15
+function_words	you	0.4	15
+function_words	your	0.18	15
+adjectives	yucky	0.46	15
+other	yum yum	0.53	15
+nouns	zipper	0.22	15
+nouns	zoo	0.17	15
