@@ -91,6 +91,7 @@ for CORPUSFOLDER in $RES_FOLDER/*DS/NS*; do
 	  	  sed 's/j/x/g' |
 	  	  sed 's/qu/k/g' |
 		  sed 's/sh/S/g' |
+		  sed 's/w/u/g' |
 	  	  sed 's/h//g' > intoperl.tmp
 
 	  	  echo "syllabify-corpus.pl"

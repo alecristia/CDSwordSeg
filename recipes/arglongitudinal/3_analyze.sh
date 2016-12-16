@@ -9,23 +9,6 @@ PIPELINE="/fhgfs/bootphon/scratch/aiturralde/CDSwordSeg/algoComp/segment_aesp.py
 #########
 
 
-# merge the subcorpora -- this is super ugly and needs to be fixed
-
-for CORPUSFOLDER in ${ORIGFOLDER}/*DS/NS*; do
-	cd $CORPUSFOLDER
-	for j in $CORPUSFOLDER/[0-9]*gold.txt; do
-		cat $j >> $CORPUSFOLDER/gold.txt
-	done
-done
-
-for CORPUSFOLDER in ${ORIGFOLDER}/*DS/NS*; do
-	cd $CORPUSFOLDER
-	for j in $CORPUSFOLDER/[0-9]*tags.txt; do
-		cat $j >> $CORPUSFOLDER/tags.txt
-	done
-done
-
-
  # Run all algos in the cluster, once per version
 #for VERSION in $DATAFOLDER/*
 #do
@@ -42,16 +25,13 @@ done
 #                  $VERSION/tags.txt || exit 1
 #    fi
 #done
-
-for CORPUSFOLDER in ${ORIGFOLDER}/*DS/NS*; do
-        cd $CORPUSFOLDER
-	mkdir -p ANALIZEDAT #creats the folder containig the results.
-        $PIPELINE --goldfile $CORPUSFOLDER/gold.txt \
-                  --output-dir $CORPUSFOLDER/ANALIZEDAT \
-                  --algorithms TPs dibs puddle AGu  \
+for THISFOLDER in $ORIGFOLDER/*DS/NS*/COMPDAT; do
+	
+        $PIPELINE --goldfile $THISFOLDER/gold.txt \
+                  --output-dir $THISFOLDER/ANALIZEDAT \
+                  --algorithms TPs dibs \
                   --ag-median 5 \
                   --clusterize \
-                  --jobs-basename CDS \
-                  $CORPUSFOLDER/tags.txt || exit 1
-#    fi
+		  --jobs-basename $THISFOLDER \
+                  $THISFOLDER/tags.txt || exit 1
 done
