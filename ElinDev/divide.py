@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Nov  9 15:48:57 2016
+Created on Thu Dec 15 11:44:52 2016
 
 @author: elinlarsen
 """
 
-GNU nano 2.0.9                                                                File: divide_corpus.py  
+
+######################### CREATION OF SUB-CORPUS : the whole corpus is divided k times
+
 # created by elin larsen on November 8 th 2016
 #can be run on terminal by using arparse
 # the file takes corpus in text files of 'n' lines and divide the number of lines by 'k' 
@@ -13,14 +15,8 @@ GNU nano 2.0.9                                                                Fi
 #!/usr/bin/python
 
 import os
-import random
-import itertools
-import matplotlib.pyplot as plt
-import numpy as np
-import collections
-import operator
-import sys
 import argparse
+
 
 def divide_corpus(text_file, k, output_dir,output_name):
     non_blank_count=0
@@ -29,7 +25,6 @@ def divide_corpus(text_file, k, output_dir,output_name):
             if line.strip():
                 non_blank_count+=1
     q=non_blank_count/k
-    r=non_blank_count%k
     with open(text_file,'r') as f:
         lines = f.readlines()
     for j in range(k):
@@ -51,3 +46,4 @@ if __name__=="__main__":
      parser.add_argument('-n', '--output_name', help='the name of the texte file divided, for example /gold.txt')
      args=parser.parse_args()
      divide_corpus(text_file=args.text_file,k=args.k,output_dir=args.output_dir, output_name=args.output_name )
+     
