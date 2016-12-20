@@ -31,6 +31,12 @@ prop_data <- uni_prop_data %>%
 prop_data_english <- filter(prop_data, language == "English")
 
 prop_understands= subset(prop_data_english, measure=="understands",select=c( lexical_classes, words, prop, age))
+x <- "a1~!@#$%^&*(){}_+:\"<>?,./;'[]-=" 
+for (word in as.vector(prop_understands$words)[2340:2350])
+{
+  gsub([:punct:], "", prop_understands$words)
+}
+gsub("[[:prop_understands:]]", " ", x)
 write.csv(prop_understands,file = "PropUnderstandCDI.csv", append = FALSE, sep="", row.names = FALSE, col.names = TRUE)
 
 ### fucntion that look if the words in a dataframe are the CDI dataframe (which has a column "words")
