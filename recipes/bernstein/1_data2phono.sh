@@ -6,9 +6,10 @@
 # Mathieu Bernard
 
 # Input arguments
-RESFOLDER=${1:-./data}
-#DATAPATH=${2:-oberon:/fhgfs/bootphon/scratch/acristia/data}
-DATAPATH=${2://Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein}
+#RESFOLDER=${1:-./data}
+RESFOLDER="fhgfs/bootphon/scratch/acristia/processed_corpora/bernstein"
+DATAPATH=${2:-oberon:/fhgfs/bootphon/scratch/acristia/data}
+#DATAPATH=${2://Users/elinlarsen/Documents/CDSwordSeg/recipes/bernstein}
 ROOT=${3:-../..}
 
 SCRIPTS=$ROOT/database_creation/scripts
