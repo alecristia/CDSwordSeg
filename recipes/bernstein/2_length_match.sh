@@ -10,7 +10,7 @@
 
 # input/output data directory must exists.
 #data_dir=${1:-./data}
-data_dir="fhgfs/bootphon/scratch/acristia/processed_corpora/bernstein"
+data_dir="/fhgfs/bootphon/scratch/acristia/processed_corpora/bernstein"
 
 # path to the line_matcher and word_matcher scripts
 script_dir=${2:-../../database_creation/scripts}

@@ -5,8 +5,10 @@
 # Mathieu Bernard adapted it for the bernstein recipe
 
 #########VARIABLES###########################
-DATAFOLDER=${1:-./data/matched}
-RESFOLDER=${2:-./results}
+#DATAFOLDER=${1:-./data/matched}
+DATAFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/bernstein/matched"
+#RESFOLDER=${2:-./results}
+RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201612_bernstein"
 PIPELINE=${3:-../../algoComp/segment.py}
 #########
 
@@ -21,7 +23,7 @@ do
         echo Clusterizing $VNAME
         $PIPELINE --goldfile $VERSION/gold.txt \
                   --output-dir $RESFOLDER/$VNAME \
-                  --algorithms all \
+                  --algorithms all  \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename $VNAME \

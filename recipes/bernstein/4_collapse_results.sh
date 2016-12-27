@@ -7,7 +7,8 @@
 
 
 # Must exists and contains the results (or partial results) of step 5
-data_dir=${1:-./results}
+#data_dir=${1:-./results}
+data_dir="/fhgfs/bootphon/scratch/acristia/results/201612_bernstein"
 
 header="version matching algo \
         token_f-score token_precision token_recall \
@@ -21,7 +22,7 @@ do
     corpus=`basename $input_dir | cut -d'_' -f 1`
 
     # NM, WM or LM
-    matching=`echo $input_dir | cut -d'_' -f 2`
+    matching=`basename $input_dir | cut -d'_' -f 2`
 
     echo -n Collapsing $corpus $matching...
 
