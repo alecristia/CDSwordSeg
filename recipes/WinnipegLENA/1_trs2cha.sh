@@ -89,7 +89,7 @@ do
     # trick to glue together the lines that are considered
     # continuations (without overlap)
     # NOTE was sed -r 's/I\|.\|/toglue/'
-    sed -r 's/\|?.\|.\|I\|.\|/toglue/' $BASE.clean |
+    sed -r 's/\|?.\|.\|[C]I\|.\|/toglue/' $BASE.clean |
         awk '{if($NF~"toglue") \
              {mem=mem $0 " "} \
              else{print mem $0; mem="" }} \
@@ -124,10 +124,11 @@ do
         sed '/ |O/ s/[a-z]*/\*SIB: &/' |
         sed 's/|[A-Z][A-Z]/ /g' |
         sed 's/|./ /g' |
-        # NOTE some isolated F appears after lines glueing, remove them
-        sed 's/ F / /g' |
-        # NOTE some hmm, hmmm are badly phonologized, replace them by hum
-        sed -r 's/hmm+/hum/g' |
+
+        # NOTE some isolated F appears after lines glueing, remove them ##this should be corrected upstream!
+#        sed 's/ F / /g' |
+        # NOTE some hmm, hmmm are badly phonologized, replace them by hum ##this should be corrected downstream!
+#        sed -r 's/hmm+/hum/g' |
         # remove | and duplicated spaces
         tr -d '|' | tr -s ' ' > ${TXT/.txt/.cha}
 
