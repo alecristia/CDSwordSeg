@@ -1,17 +1,23 @@
 #!/usr/bin/env bash
 #
 # Converting trs files to CHILDES-like format. This version generates
-# three versions of the corpus: adult directed only, child directed
-# only, and directed to the key child only (ADS, CDS and KDS
-# respectively).
+# three versions of the corpus: adult directed only, directed to the target child
+# only, and directed to any child (ADS, CDS and KDS respectively).
+# KDS was originally generated for checking purposes, no longer necessary --> commented out
 
-DATAFOLDER=${1:-./data}
+#########VARIABLES
+#Variables that have been passed by the user
+DATAFOLDER=$1
+#########
+
+#DATAFOLDER=${1:-./data}
+#DATAFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/WinnipegLENA"
 
 # must exist and contain trs files
 TRSFOLDER=$DATAFOLDER/trs
 
 # will be created and output cha files will be stored there
-CHAFOLDER=${TRSFOLDER/trs/cha}
+CHAFOLDER=$DATAFOLDER/cha
 mkdir -p $CHAFOLDER
 
 
@@ -75,7 +81,7 @@ do
     grep -e ' |.|T' $BASE.clean > ${BASE}_CDS.txt
 
     # another version, just to check against Melanie's pipeline
-    grep -e ' |.|T' -e ' |.|O' -e ' |.|C' $BASE.clean > ${BASE}_KDS.txt
+#    grep -e ' |.|T' -e ' |.|O' -e ' |.|C' $BASE.clean > ${BASE}_KDS.txt
 
 
     # create a version reflecting segments glued together by humans
@@ -100,7 +106,7 @@ do
     grep  -e ' |.|T' $BASE.glued > ${BASE}_CDS_humanseg.txt
 
     #another version, just to check against Melanie's pipeline
-    grep  -e ' |.|T' -e ' |.|O' -e ' |.|C' $BASE.glued > ${BASE}_KDS_humanseg.txt
+#    grep  -e ' |.|T' -e ' |.|O' -e ' |.|C' $BASE.glued > ${BASE}_KDS_humanseg.txt
 done
 
 
@@ -130,9 +136,9 @@ do
     echo `basename $TXT` $nl $nw >> ${CHAFOLDER}/summary
 done
 
-# Put the cleaned files LENA/Human segmented CDS, ADS and KDS in
+# Put the cleaned files LENA/Human segmented CDS, ADS and #KDS# in
 # subfolders
-for DS in ADS CDS KDS
+for DS in ADS CDS 
 do
     mkdir -p $CHAFOLDER/WL_${DS}_LS
     for file in $CHAFOLDER/*${DS}.cha

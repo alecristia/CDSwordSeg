@@ -4,13 +4,19 @@
 #
 # Copyright (C) 2016 by Alex Cristia, Mathieu Bernard
 
+#########VARIABLES
+#Variables that have been passed by the user
+data_dir=$1
+output_dir=$2
+#########
+
 
 # will be createed to store results
-output_dir=${1:-./results}
+#output_dir=${1:-./results}
 
 # input data directory must exists and have a 'matched' subdir
 # containing the results of step 4
-data_dir=${2:-./data}
+#data_dir=${2:-./data}
 
 # the segmentation pipeline
 segmenter=${3:-../../algoComp/segment.py}
@@ -26,9 +32,9 @@ do
 
     echo "Clusterizing version $version"
     $segmenter --output-dir $output_dir/$version \
-               --algorithms all \
+               --algorithms TPs dibs \
                --ag-median 5 \
-               --clusterize \
+#               --clusterize \
                --jobs-basename $version \
                --goldfile $input_dir/gold.txt \
                $input_dir/tags.txt || exit 1

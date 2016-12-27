@@ -1,10 +1,13 @@
 #!/usr/bin/env bash
 # Wrapper to take a single cleaned up transcript and phonologize it
-# Alex Cristia alecristia@gmail.com 2015-10-26
 # 2015-11-26 - adapted to the winnipeglena corpus in its 4 versions
 
-datafolder=`readlink -f ${1:-./data}`
-root=`readlink -f ${2:-../..}`
+#########VARIABLES
+#Variables that have been passed by the user
+datafolder=$1
+#########
+#datafolder=`readlink -f ${1:-./data}`
+root=`readlink -f ${2:-../..}` #Hmmm
 
 
 phonologize=$root/phonologization/scripts/phonologize
