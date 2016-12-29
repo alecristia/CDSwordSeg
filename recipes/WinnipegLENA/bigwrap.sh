@@ -22,8 +22,8 @@ RES_FOLDER="/fhgfs/bootphon/scratch/acristia/results/WinnipegLENA"
 ./3_ortho2phono.sh $PROCESSED_FOLDER  || exit 1
 
 # Add length-matched versions of all the corpora
-#./4_length_match.sh $PROCESSED_FOLDER  || exit 1
+./4_length_match.sh $PROCESSED_FOLDER  || exit 1
 
 # Analyze
-# ./5_analyze.sh $PROCESSED_FOLDER $RES_FOLDER
-# ./6_collapse_results.sh $RES_FOLDER
+ ./5_analyze.sh $PROCESSED_FOLDER $RES_FOLDER
+ ./6_collapse_results.sh $RES_FOLDER

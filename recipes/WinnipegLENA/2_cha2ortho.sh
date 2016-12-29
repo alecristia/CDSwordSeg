@@ -39,5 +39,7 @@ do
         $SCRIPTS/cha2sel.sh $f $inclines >> $RESFOLDER/log.txt
     done
 
-    $SCRIPTS/selcha2clean.sh $inclines $ortho >> $RESFOLDER/log.txt
+    $SCRIPTS/selcha2clean.sh $inclines $ortho  >> $RESFOLDER/log.txt
+
+    ./extraclean.sh $ortho >> $RESFOLDER/log.txt
 done

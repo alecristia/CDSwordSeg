@@ -34,7 +34,7 @@ do
     $segmenter --output-dir $output_dir/$version \
                --algorithms TPs dibs \
                --ag-median 5 \
-#               --clusterize \
+               --clusterize \
                --jobs-basename $version \
                --goldfile $input_dir/gold.txt \
                $input_dir/tags.txt || exit 1
