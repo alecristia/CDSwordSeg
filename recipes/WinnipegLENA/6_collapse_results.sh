@@ -4,9 +4,13 @@
 #
 # Copyright (C) 2016 by Alex Cristia, Mathieu Bernard
 
+#########VARIABLES
+#Variables that have been passed by the user
+data_dir=$1
+#########
 
 # Must exists and contains the results (or partial results) of step 5
-data_dir=${1:-./results}
+#data_dir=${1:-./results}
 
 
 header="version segmentation matching algo \
@@ -31,7 +35,7 @@ do
     echo -n Collapsing $version $segmentation $matching...
 
     # Populate the cfgold.txt file for each version
-    echo $header > $input_dir/cfgold.txt
+    echo $header > $input_dir/results.txt
 
     for algo in `find $input_dir -name '*cfgold-res.txt' | sort`
     do
@@ -41,10 +45,10 @@ do
 
         line=`grep '[0-9]' $algo`
         echo $version $segmentation $matching $algo_name $line  |
-            tr -s ' ' | tr ' ' '\t' >> $input_dir/cfgold.txt
+            tr -s ' ' | tr ' ' '\t' >> $input_dir/results.txt
     done
 
-    sed 1d $input_dir/cfgold.txt >> $data_dir/results.txt
+    sed 1d $input_dir/results.txt >> $data_dir/results.txt
     echo
     echo Writed $data_dir/results.txt
 done

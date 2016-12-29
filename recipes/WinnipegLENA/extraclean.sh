@@ -17,6 +17,9 @@ mv $ORTHO tmp.tmp
 # adapted to your purposes
     sed 's/whaddaya/what do you/g' < tmp.tmp |
     sed 's/whadda/what do/g' |
+    sed 's/ F //g' |
+#sed "s/\([a-z]\)'\1\([a-z]\)/\1\2/g" | #fix false starts #very slow
+sed "s/ \([a-z]\)'\1/ \1/g" | sed "s/^\([a-z]\)'\1/\1/g" | #fix false starts
     sed 's/haveto/have to/g' |
     sed 's/hasto/has to/g' |
     sed 's/outof/out of/g' |
