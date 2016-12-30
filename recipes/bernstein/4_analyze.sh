@@ -6,10 +6,11 @@
 
 #########VARIABLES###########################
 #DATAFOLDER=${1:-./data/matched}
-DATAFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/bernstein/matched"
+DATAFOLDER="$1/matched"
 #RESFOLDER=${2:-./results}
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201612_bernstein"
-PIPELINE=${3:-../../algoComp/segment.py}
+#RESFOLDER="/fhgfs/bootphon/scratch/acristia/results/201612_bernstein"
+RESFOLDER=$2
+PIPELINE=../../algoComp/segment.py
 #########
 
 mkdir -p $RESFOLDER

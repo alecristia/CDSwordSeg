@@ -32,7 +32,7 @@ do
 
     echo "Clusterizing version $version"
     $segmenter --output-dir $output_dir/$version \
-               --algorithms TPs dibs \
+               --algorithms all \
                --ag-median 5 \
                --clusterize \
                --jobs-basename $version \

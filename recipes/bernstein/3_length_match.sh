@@ -10,21 +10,21 @@
 
 # input/output data directory must exists.
 #data_dir=${1:-./data}
-data_dir="/fhgfs/bootphon/scratch/acristia/processed_corpora/bernstein"
+data_dir=$1
 
 # path to the line_matcher and word_matcher scripts
-script_dir=${2:-../../database_creation/scripts}
+script_dir=../../database_creation/scripts
 line_matcher=$script_dir/line_matcher.sh
 word_matcher=$script_dir/word_matcher.sh
 
-# must contains phonologized files as created in step 3
-input_dir=$data_dir/CDS/phono
+# must contains phonologized files as created in previous step 
+# location of the C/ADS gold and tags files
+input_dir=$data_dir/CDS
+ads_dir=$data_dir/ADS
 
 # will be created to store matched files
 output_dir=$data_dir/matched
 
-# location of the ADS gold and tags files
-ads_dir=$data_dir/ADS/phono
 
 # create subdir storing line-match and word-match versions
 mkdir -p $output_dir/CDS_LM
@@ -48,7 +48,7 @@ done
 
 # Finally copy ADS and non-matched CDS in the output dir. CDS dir is
 # suffixed with NM for Non Matched.
-cp -r $data_dir/ADS/phono $output_dir/ADS_NM
-cp -r $data_dir/CDS/phono $output_dir/CDS_NM
+cp -r $data_dir/ADS $output_dir/ADS_NM
+cp -r $data_dir/CDS $output_dir/CDS_NM
 
 exit
