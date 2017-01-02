@@ -25,5 +25,9 @@ RES_FOLDER="/fhgfs/bootphon/scratch/acristia/results/WinnipegLENA"
 #./4_length_match.sh $PROCESSED_FOLDER  || exit 1
 
 # Analyze
- ./5_analyze.sh $PROCESSED_FOLDER $RES_FOLDER
+# ./5_analyze.sh $PROCESSED_FOLDER $RES_FOLDER
+
+
+rm $RES_FOLDER/results.txt
+rm $RES_FOLDER/WL*/results.txt
  ./6_collapse_results.sh $RES_FOLDER

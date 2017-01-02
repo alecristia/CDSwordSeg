@@ -8,7 +8,8 @@
 
 # Must exists and contains the results (or partial results) of step 5
 #data_dir=${1:-./results}
-data_dir="/fhgfs/bootphon/scratch/acristia/results/201612_bernstein"
+#data_dir="/fhgfs/bootphon/scratch/acristia/results/201612_bernstein"
+data_dir=$1
 
 header="version matching algo \
         token_f-score token_precision token_recall \
@@ -27,7 +28,7 @@ do
     echo -n Collapsing $corpus $matching...
 
     # Populate the cfgold.txt file for each version
-    echo $header > $input_dir/cfgold.txt
+    echo $header > $input_dir/results.txt
 
     for algo in `find $input_dir -name '*cfgold-res.txt' | sort`
     do
@@ -37,10 +38,10 @@ do
 
         line=`grep '[0-9]' $algo`
         echo $corpus $matching $algo_name $line  |
-            tr -s ' ' | tr ' ' '\t' >> $input_dir/cfgold.txt
+            tr -s ' ' | tr ' ' '\t' >> $input_dir/results.txt
     done
 
-    sed 1d $input_dir/cfgold.txt >> $data_dir/results.txt
+    sed 1d $input_dir/results.txt >> $data_dir/results.txt
     echo
 done
 
