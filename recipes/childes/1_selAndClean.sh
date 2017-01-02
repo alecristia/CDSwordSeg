@@ -14,10 +14,13 @@ ROOT=$5
 
 mkdir -p $PROCESSED_FOLDER	#create folder that will contain all output files
 
+
+# this first loop goes through the csv line by line and cleans+ortho's each file noted there, already grouping files within the folders that will create large corpora
 cat $INPUT_FILE | while read line; do
   OUT_GROUP=`echo $line | awk -F "," '{ print $1}'`
   CHAFILE=`echo $line | awk -F "," '{ print $2}'`
-  SELFILE=`echo $line | awk -F "," '{ print $2}'`
+  SELFILE=`echo $line | awk -F "," '{ print $3}'`"-inc.txt"
+  ORTHO=`echo $line | awk -F "," '{ print $3}'`"-ort.txt"
 
 echo "finding out who's a speaker in $INPUT_FOLDER$CHAFILE"
 
@@ -31,42 +34,17 @@ echo "finding out who's a speaker in $INPUT_FOLDER$CHAFILE"
 		sed "s/%/\\\\\|*/g" | #add a pipe between every two
 		sed "s/\\\\\|.$//" ` #remove the pipe* next to the end of line & close the text call
 
-		SELFILE=$(basename "$f" .cha)"-includedlines.txt"
 		./${ROOT}database_creation/scripts/cha2sel_withinputParticipants.sh $INPUT_FOLDER$CHAFILE $SELFILE $PROCESSED_FOLDER$OUT_GROUP $IncludedParts
 
+		./${ROOT}scripts/selcha2clean.sh $PROCESSED_FOLDER$OUT_GROUP$SELFILE $PROCESSED_FOLDER$OUT_GROUP$ORTHO 
+		./${ROOT}scripts/extraclean.sh $PROCESSED_FOLDER$OUT_GROUP$ORTHO 
 
 done 
 
 
-		cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
+#This second loop goes through the large corpora folders (e.g. Bates20) and create the ortholines that collapse across several children, carefully storing the average age of the megachild included for use during analyses
 
 
-		mkdir -p $PROCESSED_FOLDER/CDS	#creates folder that will contain all only CDS included files
-              	grep '\[+ CHI\]' < $PROCESSED_FOLDER/AS/$SELFILE > $PROCESSED_FOLDER/CDS/$SELFILE  # selects only CDSinput lines.
-
-
-		mkdir -p $PROCESSED_FOLDER/ADS	#creates folder that will contain only ADS output files
-		grep -v '\[+ CHI\]\|\[+ OCH\]\|\[+ utt]' < $PROCESSED_FOLDER/AS/$SELFILE > $PROCESSED_FOLDER/ADS/$SELFILE # selects ADS input lines.
-
-		ORTHO=$(basename "$f" .cha)"-ortholines.txt"
-		./scripts/selcha2clean.sh $SELFILE $ORTHO $PROCESSED_FOLDER/CDS/
-		bash ./scripts/selcha2clean.sh $SELFILE $ORTHO $PROCESSED_FOLDER/ADS/
-		bash ./scripts/selcha2clean.sh $SELFILE $ORTHO $PROCESSED_FOLDER/AS/
-
-		echo "processed $f" >> $OUTPUT_FILE2
-
-		
-
-done
-
-cd $PROCESSED_FOLDER
-find . -type d -empty -delete #remove empty folders for non-processed corpora
-echo "done removing empty folders"
-for j in $PROCESSED_FOLDER/*S; do	#divinding corpus into SESfolders.
-	cd $j
-	mkdir -p NSB
-	mkdir -p NSM
-	mv *-nsb-1audio-*lines.txt NSB
-	mv *-nsm-1audio-*lines.txt NSM
-done
-echo "done with ${PROCESSED_FOLDER}"
+#for thisfolder in $PROCESSED_FOLDER/*; do
+	
+#done
