@@ -25,9 +25,8 @@ cat $INPUT_FILE | while read line; do
 
 if [ "$old_OUT_GROUP" != "$OUT_GROUP" ]; then
 	mkdir $PROCESSED_FOLDER$OUT_GROUP
-	ages=()
 	part=0
-	touch $PROCESSED_FOLDER$OUT_GROUP/part${part}-ortholines.txt
+	touch $PROCESSED_FOLDER$OUT_GROUP/${OUT_GROUP}-part${part}-ortholines.txt
 fi
 
 echo "finding out who's a speaker in $INPUT_FOLDER$CHAFILE"

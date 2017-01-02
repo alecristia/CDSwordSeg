@@ -11,23 +11,21 @@ root=$2
 PHONOLOGIZE=$root/phonologization/scripts/phonologize
 ALGOCOMP=$root/algoComp
 
-# will be created to store ortholines files
-ortfolder=$datafolder/ortho
-mkdir -p $ortfolder
-mv $datafolder/*ortholines.txt $ortfolder/
-
-# will be created to store phonologized files
-resfolder=$datafolder/phono
+# will be created to store key files
+keyfolder=${datafolder}final/
+mkdir -p $keyfolder
+cp ${datafolder}*/*ortholines.txt $keyfolder
 
 temp=`mktemp -d eraseme-XXXX`
 
-for thisortho in $ortfolder/*ortholines.txt
+for thisortho in ${keyfolder}Bates*ortholines.txt
 do
-	tagfilename=${thisortho/ortholines/tags}
-	goldfilename=${thisortho/ortholines/gold}
+	tagfilename=`echo $thisortho | sed "s/ortholines/tags/"`
+	goldfilename=`echo $thisortho | sed "s/ortholines/gold/"`
         COMMAND="$PHONOLOGIZE $thisortho $tagfilename" 
+#echo $COMMAND
         $ALGOCOMP/clusterize.sh "$COMMAND" \
-                                     "-V -cwd -j y -o $thisortho.log -N $thisortho" \
+                                     "-V -cwd -j y -o $thisortho.log " \
                                      > $thisortho.pid
         grep "^Your job " $thisortho.pid | cut -d' ' -f3 >> $temp/pids
         echo -n "pid is "
