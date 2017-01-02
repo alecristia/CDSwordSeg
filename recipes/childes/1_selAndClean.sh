@@ -14,6 +14,13 @@ ROOT=$5
 
 mkdir -p $PROCESSED_FOLDER	#create folder that will contain all output files
 
+cat $INPUT_FILE | while read line; do
+  OUT_GROUP=`echo $line | awk -F "," '{ print $1}'`
+  CHAFILE=`echo $line | awk -F "," '{ print $2}'`
+
+
+
+done 
 
 for f in ${INPUT_CORPUS}/*.cha; do	#loop through all cha files
 

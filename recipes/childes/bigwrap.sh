@@ -12,7 +12,7 @@ INPUT_FOLDER="/fhgfs/bootphon/scratch/xcao/Alex_CDS_ADS/Childes_Eng-NA" #where y
 PROCESSED_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/Childes_Eng-NA-sel/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
-INPUT_FILE="/fhgfs/bootphon/scratch/scratch/acristia/CDSwordSeg/recipes/childes/cor2merge.csv" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
+INPUT_FILE="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/recipes/childes/cor2merge.csv" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
 
 OUTPUT_FILE="/fhgfs/bootphon/scratch/acristia/processed_corpora/Childes_Eng-NA-sel/processed_files.txt" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
 
