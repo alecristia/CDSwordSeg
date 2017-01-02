@@ -11,8 +11,8 @@ all steps had already been created by Mathieu, just taking notes about minor con
         # NOTE some hmm, hmmm are badly phonologized, replace them by hum
         sed -r 's/hmm+/hum/g' |
 
-- need to change from cha2sel to cha2selwithinputp used (makes NO difference here)
-- need to check whether selcha2clean is being used (could make a diff) - yes!
-- launched phonologizer but since long queue, gave up waiting
-- in any case, I could check that indeed 2_cha2ortho.sh generates LS and HS versions that have different number of words --> this needs to be fixed!!
+- broke down selcha2clean into two portions
+- in any case, I could check that indeed at the level of ortho, LS and HS versions that have different number of words --> this needs to be fixed!!
+To fix it, I did the diff between ADS-LS and -HS, which differ in nb of words as follows: 8215 versus 8256
+Reasons for divergence: systematically, this was due to human coding errors (i.e., change of speaker in a sentence that was supposed to be a continuation of the preceding one). Since this has very slight effects (40 words for ADS, 8 words for CDS) leaving everything as is
 
