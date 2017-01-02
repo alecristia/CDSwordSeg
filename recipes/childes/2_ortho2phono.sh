@@ -1,52 +1,56 @@
 #!/usr/bin/env bash
-#
-# phonologize ortholines files from the childes database : convert
-# each ortholines.txt in the data folder in tags.txt and gold.txt
+# Wrapper to take a single cleaned up transcript and phonologize it
+# 2015-11-26 - adapted to the winnipeglena corpus in its 4 versions
 
-#input directory where to look for ortholines
-src=${1:-./data}
+#########VARIABLES
+#Variables that have been passed by the user
+datafolder=$1
+#########
+#datafolder=`readlink -f ${1:-./data}`
+root=`readlink -f ${2:-../..}` #Hmmm
 
-# root directory of the CDSwordSeg project
-root=${3:-../..}
 
-# phonologization script
 phonologize=$root/phonologization/scripts/phonologize
+clusterize=$root/algoComp
 
+# must exist and contain ortholines files
+ortfolder=$datafolder/ortho
 
-# we need a temporary directory (to store pids)
-temp=`mktemp -d ./eraseme-XXXX`
+# will be created to store phonologized files
+resfolder=$datafolder/phono
+mkdir -p $resfolder
 
-echo "phonologizing ortholines files in parallel..."
-for file in `find $src -name ortholines.txt -type f`
+# to store intermediate files
+temp=`mktemp -d $resfolder/eraseme-XXXX`
+
+# create command for each corpus version
+list_cmd=$temp/cmd
+list_opt=$temp/opt
+rm -rf $list_cmd $list_opt
+for subdir in `find $ortfolder/WL_* -type d`
 do
-    key=`basename $(dirname $file)`
-    name=`basename $(dirname $(dirname $file))`_$key
+    version=`basename ${subdir#$resfolder}`
+    name=phonol-$version
+    mkdir -p $resfolder/$version
 
-    tags=${file/ortholines/tags}
-    # echo -n "Phonologizing $name in a new job..."
-    command="$phonologize $file $tags"
-    jname=phonol-$name
-    jlog=$temp/phonol-$name.log
-    $root/algoComp/clusterize.sh "$command" \
-                                 " -V -cwd -j y -o $jlog -N $jname" \
-                                 > $temp/$name.pid
-    grep "^Your job " $temp/$name.pid | cut -d' ' -f3 >> $temp/pids
-    #echo -n " pid is "
-    #    tail -1 $temp/pids
+    echo "$phonologize $subdir/ortholines.txt $resfolder/$version/tags.txt" >> $list_cmd
+    echo "-V -cwd -j y -o $temp/$name.log -N $name" >> $list_opt
 done
 
-$root/algoComp/clusterize_waitfor.sh $temp/pids
+# run them in parallel
+$clusterize/clusterize_list.sh $list_cmd $list_opt
 rm -rf $temp
 
-echo -n "creating gold files..."
-for file in `find $src -name tags.txt -type f`
+# TODO remove this loop and generate gold within the phonolgize step
+for subdir in `find $ortfolder/WL_* -type d`
 do
-    sed 's/;esyll//g' $file |
+    version=`basename ${subdir#$resfolder}`
+
+    echo "creating gold versions for $version"
+    sed 's/;esyll//g' $resfolder/$version/tags.txt |
         sed 's/ //g' |
         sed 's/;eword/ /g' |
-        sed 's/ $//g' | tr -s ' ' > ${file/tags/gold}
+        sed 's/ $//g' | tr -s ' ' > $resfolder/$version/gold.txt
 done
-
-echo " done"
 
 exit
