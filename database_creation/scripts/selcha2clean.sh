@@ -39,7 +39,8 @@ sed 's/xxx//g' |
 sed 's/www//g' |
 sed 's/XXX//g' |
 sed 's/yyy//g' |
-sed 's/0*//g' |
+sed 's/0*//g' | 
+sed 's/[^ ]*@s:[^ ]*//g' | #delete words tagged as being a switch into another language
 #sed 's/[^ ]*@o//g' | #delete words tagged as onomatopeic
 sed 's/@[^ ]*//g' | #delete tags beginning with @ IMPORTANT CHOICE, COULD HAVE CHOSEN TO DELETE FAMILIAR/ONOMAT WORDS
 sed "s/\' / /g"  |
