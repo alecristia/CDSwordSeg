@@ -1,7 +1,5 @@
 #!/bin/sh
-# SELECTING speakers from cha files in prep to generating a phono format
-# IMPORTANT!! Includes data selection
-# Alex Cristia alecristia@gmail.com 2015-10-26
+# 2016-12-30
 
 #########VARIABLES
 #Variables that have been passed by the user
@@ -52,7 +50,7 @@ for thisfile in $RESFOLDER/*gold.txt; do
           	sed -n ${x},${x2}p $thisfile > chunk.tmp
                 tok=`wc -w chunk.tmp | awk '{print $1}'`
                typ=`tr ' ' '\n' < chunk.tmp | sort | uniq -c | wc -l | awk '{print $1}'`
-		tt="$tok $typ"
+		tt="$typ $tok"
                 echo $tt >> mattr.tmp
 		x=$(($x+10))
 		x2=$(($x+10))

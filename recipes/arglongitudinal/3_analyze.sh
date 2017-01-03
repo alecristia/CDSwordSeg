@@ -4,21 +4,9 @@
 # Alex Cristia alecristia@gmail.com 2016-11-??
 
 #########VARIABLES###########################
-ORIGFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS/"
-RESFOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/arglongitudinal/CDS_ALL"
-PIPELINE="/fhgfs/bootphon/scratch/acristia/CDSwordSeg/algoComp/segment_aesp.py"
+ORIGFOLDER="/fhgfs/bootphon/scratch/aiturralde/RES_FOLDER"
+PIPELINE="/fhgfs/bootphon/scratch/aiturralde/CDSwordSeg/algoComp/segment_aesp.py"
 #########
-
-
-# merge the subcorpora -- this is super ugly and needs to be fixed
-
-for j in ${ORIGFOLDER}/[0-9]*gold.txt; do
-	cat $j >> ${ORIGFOLDER}/gold.txt
-done
-
-for j in ${ORIGFOLDER}/[0-9]*tags.txt; do
-	cat $j >> ${ORIGFOLDER}/tags.txt
-done
 
 
  # Run all algos in the cluster, once per version
@@ -37,13 +25,13 @@ done
 #                  $VERSION/tags.txt || exit 1
 #    fi
 #done
-
-        $PIPELINE --goldfile $ORIGFOLDER/gold.txt \
-                  --output-dir $RESFOLDER \
-                  --algorithms TPs dibs puddle AGu  \
+for THISFOLDER in $ORIGFOLDER/*DS/NS*/COMPDAT; do
+	
+        $PIPELINE --goldfile $THISFOLDER/gold.txt \
+                  --output-dir $THISFOLDER/ANALIZEDAT \
+                  --algorithms TPs dibs \
                   --ag-median 5 \
                   --clusterize \
-                  --jobs-basename CDS \
-                  $ORIGFOLDER/tags.txt || exit 1
-#    fi
-#done
+		  --jobs-basename $THISFOLDER \
+                  $THISFOLDER/tags.txt || exit 1
+done

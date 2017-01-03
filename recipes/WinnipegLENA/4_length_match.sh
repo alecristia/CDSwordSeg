@@ -9,10 +9,13 @@
 #
 # Copyright (C) 2016 by Alex Cristia, Mathieu Bernard
 
-
+#########VARIABLES
+#Variables that have been passed by the user
+data_dir=$1
+#########
 
 # input/output data directory must exists.
-data_dir=${1:-./data}
+#data_dir=${1:-./data}
 
 # path to the line_matcher and word_matcher scripts
 script_dir=${2:-../../database_creation/scripts}
@@ -31,7 +34,7 @@ output_dir=$data_dir/matched
 
 # the different versions to process
 seg_version="HS LS"
-cds_version="CDS KDS"
+cds_version="CDS"  #removed KDS, we don't care about it anymore
 
 # for Lena or Human segmented version
 for seg in $seg_version

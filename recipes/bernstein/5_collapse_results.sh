@@ -7,7 +7,9 @@
 
 
 # Must exists and contains the results (or partial results) of step 5
-data_dir="/fhgfs/bootphon/scratch/aiturralde/RES_FOLDER/ADS"
+#data_dir=${1:-./results}
+#data_dir="/fhgfs/bootphon/scratch/acristia/results/201612_bernstein"
+data_dir=$1
 
 header="version matching algo \
         token_f-score token_precision token_recall \
@@ -15,25 +17,34 @@ header="version matching algo \
 header=`echo $header | tr -s ' ' | tr ' ' '\t'`
 echo $header > $data_dir/results.txt
 
+for input_dir in $data_dir/ADS* $data_dir/CDS*
+do
+    # ADS or CDS
+    corpus=`basename $input_dir | cut -d'_' -f 1`
+
+    # NM, WM or LM
+    matching=`basename $input_dir | cut -d'_' -f 2`
+
+    echo -n Collapsing $corpus $matching...
 
     # Populate the cfgold.txt file for each version
-    echo $header > $data_dir/cfgold.txt
+    echo $header > $input_dir/results.txt
 
-    for algo in `find $data_dir -name '*cfgold-res.txt' | sort`
+    for algo in `find $input_dir -name '*cfgold-res.txt' | sort`
     do
         # bring together the results
         algo_dir=`dirname $algo`
         algo_name=`basename $algo_dir | sed 's/3sf/3/'`
 
         line=`grep '[0-9]' $algo`
-        echo $corpus  $algo_name $line  |
-            tr -s ' ' | tr ' ' '\t' >> $data_dir/cfgold.txt
+        echo $corpus $matching $algo_name $line  |
+            tr -s ' ' | tr ' ' '\t' >> $input_dir/results.txt
     done
 
-    sed 1d $data_dir/cfgold.txt >> $data_dir/results.txt
+    sed 1d $input_dir/results.txt >> $data_dir/results.txt
     echo
+done
 
-
-echo Writed $data_dir/results.txt
+echo Writed $input_dir/results.txt
 
 exit
