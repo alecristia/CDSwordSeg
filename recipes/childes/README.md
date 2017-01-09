@@ -11,5 +11,8 @@ all steps had already been created by Mathieu, just taking notes about minor con
 - cha2sel has changed
 - broke down selcha2clean into two portions
 --> the whole first sequence not quite the same!
-- recomposing files to be about 2k lines long 
-- 
+- recomposing files to be about 2k lines long -- by hand
+
+
+
+NOTE! stuck at phonologization, clearly I don't understand how to make this call :(

@@ -1,7 +1,7 @@
 Syllabic Bayesian word segmenter
 Lawrence Phillips
 10/10/2014
-Edits by Alex Cristia <alecristia@gmail.com> 2015-11-18
+Edits by Alex Cristia <alecristia@gmail.com> 2015-11-18 & 2017-01-09
 
 #############################
 
@@ -35,7 +35,14 @@ function './b2 install'. This should throw the header files in
 /usr/local/include and the libraries in /usr/local/lib.
 
 Then, in the 'dpseg_files' folder, compile the program 'dpseg' by
-using the 'make' function. If the program does not compile, check the
+using the 'make' function. 
+
+NOTE: "makefile" contains an absolute path; therefore, it won't work.
+Use instead:
+$ make -f Makefile2
+
+
+If the program does not compile, check the
 Makefile. In particular, make sure the variable CFLAGS is pointing to
 the folder containing the boost header files and that the variable
 LIBS is pointing to the folder containing the boost libraries (.so

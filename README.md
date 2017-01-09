@@ -26,7 +26,11 @@ Our current pipeline involves three steps:
    one or several versions of the same corpus, with
    automatically-determined word boundaries, as well as lists of the
    most frequent words, and all this based on a selection of
-   algorithms (chosen by user).
+   algorithms (chosen by user). Within Oberon, DiBS, TP, and PUDDLE work out of the box;
+   AGu and AG3fs require python-anaconda so make sure to load this module;
+   and DMCMC will require you to build a program first (only once in your local environment). It is also extremely resource
+   and time-consuming, so please ponder carefully whether you actually need it for
+   your research question.
 
 Recipes
 -------
@@ -54,6 +58,13 @@ Making a new grammar
 - Duplicate a grammar caller in CDSWordSeg/algoComp/algos/AG (extension .sh)
 - Modify the grammar being called at the top to the new file you just worked on
 - that's it!
+
+Building DMCMC
+------
+- Navigate to CDSWordSeg/algoComp/algos/phillips-pearl2014/dpseg_files
+- do $ make -f Makefile2
+- do $ chmod +x dpseg
+- do $ cp dpseg ..
 
 STEP 1: Database creation
 =========================
