@@ -4,7 +4,7 @@
 # script.
 #
 # Mathieu Bernard
-ABSPATH="../.."
+ABSPATH="../../algoComp"
 
 # Must exists and contains the results (or partial results) of step 5
 data_dir="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat/res_conc/"
@@ -16,9 +16,10 @@ header=`echo $header | tr -s ' ' | tr ' ' '\t'`
 echo $header > $data_dir/results.txt
 
 
-for RESFOLDER in `ls -d */`; do
+for RESFOLDER in `ls -d $data_dir`; do
     sed -i 'd/^$/' $RESFOLDER/cfgold.txt 
-    bash./$ABSPATH/scripts/doAllEval.text $RESFOLDER
+    cd $ABSPATH/scripts
+    bash $ABSPATH/scripts/doAllEval.text $RESFOLDER
 done
 
     # Populate the cfgold.txt file for each version
