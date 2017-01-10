@@ -3,7 +3,7 @@
 
 #########VARIABLES
 #Variables that have been passed by the user
-RESFOLDER=$1
+RESFOLDER=/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat
 #########
 
 
