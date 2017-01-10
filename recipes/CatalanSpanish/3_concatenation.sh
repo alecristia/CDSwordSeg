@@ -9,9 +9,9 @@
 
 #PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/recipes/CatalanSpanish"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
 
-ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_bi"
+ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_bi/res_conc"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat/res_conc"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 #KEYNAME="xcorpus" # chose a name for your corpus
 #GOLD=$(basename "${RES_FOLDER}"*.cha)"-gold.txt"
