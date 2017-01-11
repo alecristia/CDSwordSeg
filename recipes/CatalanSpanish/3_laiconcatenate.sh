@@ -1,28 +1,33 @@
-folder="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_bi"
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_bi/res_conc/100/"
+#folder="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat"
+#RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat/res_conc/100"
+input=$1
+output=$2
 
-max=`wc -l $folder/*gold.txt | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
+echo $input $output
 
-i=1
-while [ $i -lt $max ]
+max=`wc -l $input/*gold.txt | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
+
+
+for length in 2 100
 do
-  	j=$(( $i + 99))
-        for thisfile in $folder/*gold.txt;
-        do
-          	sed -n $i,${j}p $thisfile >> ${RES_FOLDER}/gold.txt
-        done
-	i=$(($i + 100))
-done
+	mkdir -p ${output}/$length/
+	add=$(( $length - 1 ))
 
-i=1
-while [ $i -lt $max ]
-do
-  	j=$(( $i + 99))
-        for thisfile in $folder/*tags.txt;
-        do
-          	sed -n $i,${j}p $thisfile >> ${RES_FOLDER}/tags.txt
-        done
-	i=$(($i + 100))
+	i=1
+	while [ $i -lt $max ]
+	do
+
+echo in while $i
+  		j=$(( $i + $add ))
+        	for thisfile in $input/*-gold.txt;
+        	do
+echo in for $thisfile
+			thistagfile=$(basename "$thisfile" -gold.txt)
+          		sed -n $i,${j}p $thisfile >> ${output}/$length/gold.txt
+          		sed -n $i,${j}p $input/${thistagfile}-tags.txt >> ${output}/$length/tags.txt
+	        done
+	i=$(($i + $length ))
+	done
 done
 
 echo "done mixing lines for gold and tags"

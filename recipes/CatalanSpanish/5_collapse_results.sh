@@ -17,13 +17,20 @@ header=`echo $header | tr -s ' ' | tr ' ' '\t'`
 echo $header > $data_dir/results.txt
 
 
-for RESFOLDER in `ls -d $data_dir/*/`; do
-    sed -i "/^$/d" $RESFOLDER/cfgold.txt 
+for RESFOLDER in `ls -d ${data_dir}*/`; do
+#echo in $RESFOLDER loop
+	tr -s " " < ${RESFOLDER}gold.txt | sed "/^$/d" | sed "/^ $/d" > temp.tmp
+	mv temp.tmp ${RESFOLDER}gold.txt
+
+	tr -s " " < ${RESFOLDER}cfgold.txt | sed "/^$/d" | sed "/^ $/d" > temp.tmp
+	mv temp.tmp ${RESFOLDER}cfgold.txt
+
     cd $ABSPATH/scripts
     ./doAllEval.text $RESFOLDER
     cd $CURPATH
 done
 
+#echo doing header res
     # Populate the cfgold.txt file for each version
     echo $header > $data_dir/results.txt
 
@@ -34,12 +41,12 @@ done
         algo_name=`basename $algo_dir | sed 's/3sf/3/'`
 #CORPUS NOT DEFINED!!
         line=`grep '[0-9]' $algo`
-        echo $corpus  $algo_name $line  |
+        echo $algo  $algo_name $line  |
             tr -s ' ' | tr ' ' '\t' >> $data_dir/results.txt
     done
 
-    sed 1d $data_dir/cfgold.txt >> $data_dir/results.txt
-    echo
+#    sed 1d $data_dir/results.txt >> $data_dir/results.txt
+#    echo
 
 
 echo Writed $data_dir/results.txt
