@@ -6,7 +6,7 @@
 
 #########VARIABLES
 #Variables to modify
-LANGUAGE="catalan" #language options: qom, english, cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
+LANGUAGE="catalan" #language options:  cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
 
 
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
@@ -21,36 +21,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	KEYNAME=$(basename "$ORTHO" -ortholines.txt)
 
 	#########
-	if [ "$LANGUAGE" = "qom" ]
-	   then
-	  echo "recognized $LANGUAGE"
-	  tr '[:upper:]' '[:lower:]' < "$ORTHO"  | # change uppercase letters to lowercase letters
-	  tr -d '^M' |
-	  sed 's/ch/C/g' |
-	  sed 's/sh/S/g' |
-	  sed 's/ñ/N/g' |
-	  tr "'" "Q"  > intopearl.tmp
-
-	  echo "syllabify-corpus.pl"
-	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl qom intopearl.tmp outofperl.tmp $PATH_TO_SCRIPTS
-
-	  echo "removing blank lines"
-	  sed '/^$/d' outofperl.tmp |
-	  sed '/^ $/d'  |
-	  sed 's/^\///' |
-	sed 's/ / \;eword /g' |
-	sed 's/\// \;esyll /g' > tmp.tmp
-
-	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
-
-echo "creating gold versions"
-
-sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
-    sed 's/ //g' |
-    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
-
-
-	elif [ "$LANGUAGE" = "cspanish" ]
+	if [ "$LANGUAGE" = "cspanish" ]
 	   then
 	  echo "recognized $LANGUAGE"
 tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
@@ -78,23 +49,6 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 	  echo "syllabify-corpus.pl"
 	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
-	  echo "removing blank lines"
-	  sed '/^$/d' outofperl.tmp |
-	  sed '/^ $/d'  |
-	  sed 's/^\///'  |
-	sed 's/ / ;eword /g' |
-	  sed -e 's/\(.\)/\1 /g'  |
-	sed 's/ ; e w o r d/ ;eword /g' |
-	sed 's/\// ;esyll /g'|
-	tr -s ' ' > tmp.tmp
-
-	  mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
-
-echo "creating gold versions"
-
-sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
-    sed 's/ //g' |
-    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
 
 	elif [ "$LANGUAGE" = "catalan" ]
 		 then
@@ -130,10 +84,14 @@ sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
 		echo "syllabify-corpus.pl"
 		perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
+	fi
+
 		echo "removing blank lines"
 		sed '/^$/d' outofperl.tmp |
 		sed '/^ $/d'  |
-		sed 's/^\///'  |
+		sed '/^[ ]*$/d'  |
+		sed 's/^ //'  |
+		sed 's/^\///'  | #there aren't really any of these, this is just a cautionary measure
 	sed 's/ / ;eword /g' |
 		sed -e 's/\(.\)/\1 /g'  |
 	sed 's/ ; e w o r d/ ;eword /g' |
@@ -145,28 +103,8 @@ sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
 	echo "creating gold versions"
 
 	sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
-		sed 's/ //g' |
+		tr -d ' ' |
 		sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
-
-	elif [ "$LANGUAGE" = "english" ]
-	   then
-	  echo "recognized $LANGUAGE"
-
-	  echo "using festival"
-	  ./scripts/phonologize $ORTHO -o ${KEYNAME}-tags.txt
-
-echo "creating gold versions"
-
-sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
-    sed 's/ //g' |
-    sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
-
-
-	else
-		echo "Adapt the script to a new language"
-		echo "I don't know $LANGUAGE"
-
-	fi
 
 done
 
