@@ -5,7 +5,7 @@
 
 #########VARIABLES###########################
 #ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus"
-RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat/res_conc"
+RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat/res_conc/2"
 PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_CatSpa.py"
 #########
 
@@ -40,7 +40,7 @@ PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_CatSpa.py"
 
         $PIPELINE --goldfile $RESFOLDER/gold.txt \
                   --output-dir $RESFOLDER \
-                  --algorithms TPs dibs puddle \
+                  --algorithms TPs  \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename CDS \
