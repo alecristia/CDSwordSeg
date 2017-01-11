@@ -8,7 +8,7 @@ RESFOLDER=$1
 
 
 #write header of the fiel
-header="doc nutt nswu nwtok nwtyp nhapax awl" 
+header="doc nutt nswu nwtok nwtyp nhapax awl mattr" 
 echo $header > $RESFOLDER/stats.txt
 
 
@@ -18,7 +18,7 @@ function countchar()
     while IFS= read -r i; do printf "%s" "$i" | tr -dc "$1" | wc -m; done
 }
 
-for thisfile in $RESFOLDER/*gold.txt; do
+for thisfile in $RESFOLDER/*-gold.txt; do
 
 	keyname=$(basename "$thisfile" -gold.txt)
     #utterance level descriptors
@@ -26,7 +26,7 @@ for thisfile in $RESFOLDER/*gold.txt; do
 
 	countchar ' ' < $thisfile > $RESFOLDER/${keyname}-uttlen.txt  #calculate a distribution of utterance lengths, used in next step and might be useful in the future
 
-	nswu=`grep " 1$" < $RESFOLDER/${keyname}-uttlen.txt | awk '{print $1}'` #number of single word utterances
+	nswu=`grep "^1$" < $RESFOLDER/${keyname}-uttlen.txt | wc -l | awk '{print $1}'` #number of single word utterances
 
     #word level descriptors
         nwtok=`wc -w $thisfile | awk '{print $1}'` #number of word tokens
@@ -35,7 +35,7 @@ for thisfile in $RESFOLDER/*gold.txt; do
 
 	nwtyp=`wc -l $RESFOLDER/${keyname}-wordfreq.txt | awk '{print $1}'` #number of word types
 
-	nhapax=`grep " 1$" $RESFOLDER/${keyname}-wordfreq.txt | wc -l | awk '{print $1}'` #number of word types with a frequency of 1 (hapax)
+	nhapax=`grep "[ *]1$" $RESFOLDER/${keyname}-wordfreq.txt | wc -l | awk '{print $1}'` #number of word types with a frequency of 1 (hapax)
 
 	sed 's/;esyll//g' < $RESFOLDER/${keyname}-tags.txt | sed 's/ ;eword/%/g' | tr '%' '\n' | sed  '/^$/d' | awk '{print NF}' | sort | uniq -c > $RESFOLDER/${keyname}-wordlen.txt #distribution of word length;  used in the next step and also might be useful in the future
 
@@ -59,9 +59,10 @@ for thisfile in $RESFOLDER/*gold.txt; do
 	mattr=`awk '{ total += $1/$2} END {print total/NR}' < mattr.tmp`
 
 
-	thisline="$thisfile $nutt $nswu $nwtok $nwtyp $nhapax $awl"
+#header="doc nutt nswu nwtok nwtyp nhapax awl mattr" 
+	thisline="$thisfile $nutt $nswu $nwtok $nwtyp $nhapax $awl $mattr"
 
-	echo $thisline >> stats.txt	
+	echo $thisline >> $RESFOLDER/stats.txt	
 
 rm *.tmp
 
