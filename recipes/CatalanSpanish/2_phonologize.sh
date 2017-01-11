@@ -6,13 +6,13 @@
 
 #########VARIABLES
 #Variables to modify
-LANGUAGE="catalan" #language options:  cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
+LANGUAGE="cspanish" #language options:  cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
 
 
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
 #path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat/"
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/"
 #this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/"
 # NOTICE THE / AT THE END OF THE NAME
 
