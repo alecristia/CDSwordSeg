@@ -9,8 +9,7 @@ do
   	j=$(( $i + 99))
         for thisfile in $folder/*gold.txt;
         do
-          	sed -n $i,${j}p $thisfile |
-		sed 's/^ //' >> ${RES_FOLDER}/gold.txt
+          	sed -n $i,${j}p $thisfile >> ${RES_FOLDER}/gold.txt
         done
 	i=$(($i + 100))
 done
@@ -21,8 +20,7 @@ do
   	j=$(( $i + 99))
         for thisfile in $folder/*tags.txt;
         do
-          	sed -n $i,${j}p $thisfile |
-		sed 's/^ //' >> ${RES_FOLDER}/tags.txt
+          	sed -n $i,${j}p $thisfile >> ${RES_FOLDER}/tags.txt
         done
 	i=$(($i + 100))
 done
