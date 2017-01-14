@@ -1,11 +1,22 @@
 #folder="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat"
 #RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat/res_conc/100"
-input=$1
+raw=$1
 output=$2
 
-echo $input $output
+ls ${raw}cat/*gold.txt > cat.txt
+ls ${raw}spa/*gold.txt > spa.txt
+nfiles=`wc -l cat.txt| awk '{print $1}'`
 
-max=`wc -l $input/*gold.txt | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
+#(( c=1; c<=5; c++ ))
+for (( i=1; i<=$nfiles; i++ ))
+do
+	j=$(( $i + 1 ))
+	sed -n $i,${j}p cat.txt >> both.txt
+	sed -n $i,${j}p spa.txt >> both.txt
+done
+
+
+max=`wc -l $(cat both.txt) | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
 
 
 for length in 2 100
@@ -19,12 +30,13 @@ do
 
 #echo in while $i
   		j=$(( $i + $add ))
-        	for thisfile in $input/*-gold.txt;
+        	for thisfile in $(cat both.txt)
         	do
 #echo in for $thisfile
+			 thisdir=$(dirname "$thisfile" )
 			thistagfile=$(basename "$thisfile" -gold.txt)
           		sed -n $i,${j}p $thisfile >> ${output}/$length/gold.txt
-          		sed -n $i,${j}p $input/${thistagfile}-tags.txt >> ${output}/$length/tags.txt
+          		sed -n $i,${j}p $thisdir/${thistagfile}-tags.txt >> ${output}/$length/tags.txt
 	        done
 	i=$(($i + $length ))
 	done

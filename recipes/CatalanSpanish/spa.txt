@@ -1,0 +1,5 @@
+/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/spa_01-gold.txt
+/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/spa_02-gold.txt
+/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/spa_03-gold.txt
+/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/spa_04-gold.txt
+/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/spa_05-gold.txt
