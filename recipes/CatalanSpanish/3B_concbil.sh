@@ -7,8 +7,8 @@ ls ${raw}cat/*gold.txt > cat.txt
 ls ${raw}spa/*gold.txt > spa.txt
 nfiles=`wc -l cat.txt| awk '{print $1}'`
 
-#(( c=1; c<=5; c++ ))
-for (( i=1; i<=$nfiles; i++ ))
+
+for (( i=1; i<=$nfiles; i=i+2 ))
 do
 	j=$(( $i + 1 ))
 	sed -n $i,${j}p cat.txt >> both.txt

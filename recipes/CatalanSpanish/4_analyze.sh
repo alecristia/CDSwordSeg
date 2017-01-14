@@ -7,6 +7,7 @@
 #ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus"
 #RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat/res_conc/100"
 DATAFOLDER=$1
+RESFOLDER=$2
 PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_CatSpa.py"
 #########
 
@@ -28,18 +29,19 @@ PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_CatSpa.py"
 #    fi
 #done
 
+
 for VERSION in $DATAFOLDER/*
 do
     if [ -d $VERSION ]
     then
-        VNAME=`basename ${VERSION#$RESFOLDER}`
+        VNAME=`basename ${VERSION}`
         echo Clusterizing $VNAME
-        $PIPELINE --goldfile $RESFOLDER/gold.txt \
+        $PIPELINE --goldfile $VERSION/gold.txt \
                   --output-dir $RESFOLDER/$VNAME \
-                  --algorithms TPs  \
+                  --algorithms dibs  \
                   --ag-median 5 \
-                  --clusterize \
-                  --jobs-basename $VNAME \
+              #    --clusterize \
+              #    --jobs-basename QUICK \
                   $VERSION/tags.txt || exit 1
     fi
 done

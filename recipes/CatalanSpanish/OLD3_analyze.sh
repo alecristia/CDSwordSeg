@@ -4,23 +4,23 @@
 # Alex Cristia alecristia@gmail.com 2016-11-??
 
 #########VARIABLES###########################
-ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus/"
-RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus/CDS_ALL"
-PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment.py"
+#ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus/"
+RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_bi/res_conc/100"
+PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_CatSpa.py"
 #########
 
 
 # merge the subcorpora -- this is super ugly and needs to be fixed
-mkdir -p $RESFOLDER
-cp ${ORIGFOLDER}/*txt $RESFOLDER/
+#mkdir -p $RESFOLDER
+#cp ${ORIGFOLDER}/*txt $RESFOLDER/
 
-for j in ${RESFOLDER}/*gold.txt; do
-	cat $j >> ${RESFOLDER}/gold.txt
-done
+#for j in ${RESFOLDER}/*gold.txt; do
+#	cat $j >> ${RESFOLDER}/gold.txt
+#done
 
-for j in ${RESFOLDER}/*tags.txt; do
-	cat $j >> ${RESFOLDER}/tags.txt
-done
+#for j in ${RESFOLDER}/*tags.txt; do
+#	cat $j >> ${RESFOLDER}/tags.txt
+#done
 
 
  # Run all algos in the cluster, once per version
@@ -42,7 +42,7 @@ done
 
         $PIPELINE --goldfile $RESFOLDER/gold.txt \
                   --output-dir $RESFOLDER \
-                  --algorithms all \
+                  --algorithms TPs \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename CDS \
