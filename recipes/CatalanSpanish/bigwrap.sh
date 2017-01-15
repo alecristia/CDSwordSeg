@@ -31,5 +31,7 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/res_"
 #rm $RES_FOLDER/results.txt
 #rm $RES_FOLDER/WL*/results.txt
 ./5_collapse_results.sh ${RES_FOLDER}spa
-./5_collapse_results.sh ${RES_FOLDER}cat 
-./5_collapse_results.sh ${RES_FOLDER}bil_head
+#./5_collapse_results.sh ${RES_FOLDER}cat 
+#./5_collapse_results.sh ${RES_FOLDER}bil_head
+
+echo "done collapsing results"
