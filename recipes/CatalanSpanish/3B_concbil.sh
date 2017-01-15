@@ -3,16 +3,21 @@
 raw=$1
 output=$2
 
+rm cat.txt
+rm spa.txt
+rm both.txt
+
 ls ${raw}cat/*gold.txt > cat.txt
 ls ${raw}spa/*gold.txt > spa.txt
 nfiles=`wc -l cat.txt| awk '{print $1}'`
 
 
-for (( i=1; i<=$nfiles; i=i+2 ))
+for (( i=1; i<=$nfiles; i++ ))
 do
-	j=$(( $i + 1 ))
-	sed -n $i,${j}p cat.txt >> both.txt
-	sed -n $i,${j}p spa.txt >> both.txt
+#  	j=$(( $i + 1 ))
+#	j=$(( $i + 1 ))
+	sed -n ${i}p cat.txt >> both.txt
+	sed -n ${i}p spa.txt >> both.txt
 done
 
 

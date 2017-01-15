@@ -24,10 +24,12 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/res_"
 
 # Analyze
 #./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa
-./4_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
-#./4_analyze.sh ${CONCATENATED_FOLDER}bil ${RES_FOLDER}bil
-echo "done analysing"
+#./4_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
+#./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
+#echo "done analysing"
 
 #rm $RES_FOLDER/results.txt
 #rm $RES_FOLDER/WL*/results.txt
-# ./5_collapse_results.sh $RES_FOLDER
+./5_collapse_results.sh ${RES_FOLDER}spa
+./5_collapse_results.sh ${RES_FOLDER}cat 
+./5_collapse_results.sh ${RES_FOLDER}bil_head

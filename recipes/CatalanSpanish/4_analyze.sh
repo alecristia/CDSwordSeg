@@ -6,8 +6,14 @@
 #########VARIABLES###########################
 #ORIGFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus"
 #RESFOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat/res_conc/100"
+#DATAF=$1
+#RESF=$2
+#LANG=$3
+
 DATAFOLDER=$1
 RESFOLDER=$2
+
+#echo $DATAFOLDER
 PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_CatSpa.py"
 #########
 
@@ -38,10 +44,10 @@ do
         echo Clusterizing $VNAME
         $PIPELINE --goldfile $VERSION/gold.txt \
                   --output-dir $RESFOLDER/$VNAME \
-                  --algorithms dibs  \
+                  --algorithms TPs dibs \
                   --ag-median 5 \
-              #    --clusterize \
-              #    --jobs-basename QUICK \
+                  --clusterize \
+                  --jobs-basename BilHead \
                   $VERSION/tags.txt || exit 1
     fi
 done
