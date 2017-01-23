@@ -44,12 +44,13 @@ do
 echo $PIPELINE --goldfile $VERSION/gold.txt --output-dir $RESFOLDER/$VNAME --algorithms dibs $VERSION/tags.txt || exit 1
         VNAME=`basename ${VERSION}`
         echo Clusterizing $VNAME
-        $PIPELINE --goldfile $VERSION/gold.txt \
+        $PIPELINE $VERSION/tags.txt \
+                  --goldfile $VERSION/gold.txt \
                   --output-dir $RESFOLDER/$VNAME \
                   --algorithms dibs \
-#                  --ag-median 5 \
-                  --clusterize=False \
-#                  --jobs-basename $VERSION \
-                  $VERSION/tags.txt || exit 1
+                  # --clusterize=False \
+                  # --jobs-basename $VERSION \
+                  --ag-median 5 \
+            || exit 1
     fi
 done
