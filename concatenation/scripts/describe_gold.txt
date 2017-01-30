@@ -1,5 +1,9 @@
 #!/bin/sh
+<<<<<<< Updated upstream
 # 2016-12-30
+=======
+# Alex Cristia alecristia@gmail.com 2016-12-22
+>>>>>>> Stashed changes
 
 #########VARIABLES
 #Variables that have been passed by the user
@@ -7,8 +11,13 @@ RESFOLDER=$1
 #########
 
 
+<<<<<<< Updated upstream
 #write header of the fiel
 header="doc nutt nswu nwtok nwtyp nhapax awl mattr" 
+=======
+#write header of the fields
+header="doc nutt nswu nwtok nwtyp nhapax awl" 
+>>>>>>> Stashed changes
 echo $header > $RESFOLDER/stats.txt
 
 
