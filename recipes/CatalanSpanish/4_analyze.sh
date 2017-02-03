@@ -40,14 +40,17 @@ for VERSION in $DATAFOLDER/*
 do
     if [ -d $VERSION ]
     then
+
+echo $PIPELINE --goldfile $VERSION/gold.txt --output-dir $RESFOLDER/$VNAME --algorithms dibs $VERSION/tags.txt || exit 1
         VNAME=`basename ${VERSION}`
         echo Clusterizing $VNAME
-        $PIPELINE --goldfile $VERSION/gold.txt \
+        $PIPELINE $VERSION/tags.txt \
+                  --goldfile $VERSION/gold.txt \
                   --output-dir $RESFOLDER/$VNAME \
-                  --algorithms TPs dibs \
+                  --algorithms dibs \
+                  # --clusterize=False \
+                  # --jobs-basename $VERSION \
                   --ag-median 5 \
-                  --clusterize \
-                  --jobs-basename BilHead \
-                  $VERSION/tags.txt || exit 1
+            || exit 1
     fi
 done

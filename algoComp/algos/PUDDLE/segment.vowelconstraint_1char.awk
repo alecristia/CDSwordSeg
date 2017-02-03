@@ -3,8 +3,7 @@
 # this is a version used in the following publication:
 # Monaghan, P., & Christiansen, M. H. (2010). Words in puddles of sound: modelling psycholinguistic effects in speech segmentation. Journal of child language, 37(03), 545-564.
 
-# ATTENTION!!! assumes 2-character alphabet
-# to run directly $ gawk -f segment.vowelconstraint.awk test.txt
+# ATTENTION!!! assumes 1-character alphabet
 
 
 # do "we" want to search for chunks biggest first or smallest first?
@@ -18,7 +17,6 @@
 # this model has constraint of biphones ending and finishing word
 # AND constraint of word boundary not being across word internal biphone (turned off)
 # AND a vowel constraint (turned off)
-#!!! IMPORTANT!!! the code has been adapted to 2-letter characters only for the biphone boundary (not the glue) 
 
 #function vowel(vow){
 #  if(vow~/aa/ || vow~/ae/ || vow~/ah/ || vow~/ao/ || vow~/aw/ || vow~/ax/ || vow~/ay/ || vow~/eh/ || vow~/er/ || vow~/ey/ || vow~/ih/ || vow~/iy/ || vow~/ow/ || vow~/oy/ || vow~/uh/ || vow~/uw/ ) return 1;
@@ -48,7 +46,7 @@ BEGIN{
   if(NF>0){
 
     buffer="";
-    for(i=1;i<=length($1);i++2){
+    for(i=1;i<=length($1);i++){
       ##print NR,i,substr($1,i,1);
       
       # search for matcher beginning with first segment:
@@ -58,8 +56,8 @@ BEGIN{
 	if(substr($1,i,length(w[j]))== w[j])matcher++;
 
 	####### boundary conditions satisfied?
-	if(matcher==1 && (bef[substr(buffer,length(buffer)-3,4)]==0 && buffer!="" && i!=1)) matcher=0; # previous must be word-end
-	if(matcher==1 && (bbf[substr($1,i+length(w[j]),4)]==0 && (i+length(w[j])-1!=length($1))) )matcher=0; # following must be word-start
+	if(matcher==1 && (bef[substr(buffer,length(buffer)-1,2)]==0 && buffer!="" && i!=1)) matcher=0; # previous must be word-end
+	if(matcher==1 && (bbf[substr($1,i+length(w[j]),2)]==0 && (i+length(w[j])-1!=length($1))) )matcher=0; # following must be word-start
 
 	####### glue condition satisfied?
 	#if(matcher==1 && bif[substr(buffer,length(buffer),1) substr($1,i,1)]>0 && buffer!="") matcher = 0; # word-internal across initial boundary
@@ -78,11 +76,11 @@ BEGIN{
 	    f[c]=1;
 
 	    # add to boundaries
-	    if(length(buffer)>=4){
-	      bbf[substr(buffer,1,4)]++;
-	      if(bbf[substr(buffer,1,4)]==1){bbc++;bb[bbc]=substr(buffer,1,4);}
-	      bef[substr(buffer,length(buffer)-3,4)]++;
-	      if(bef[substr(buffer,length(buffer)-3,4)]==1){bec++;be[bec]=substr(buffer,length(buffer)-3,4);}
+	    if(length(buffer)>=2){
+	      bbf[substr(buffer,1,2)]++;
+	      if(bbf[substr(buffer,1,2)]==1){bbc++;bb[bbc]=substr(buffer,1,2);}
+	      bef[substr(buffer,length(buffer)-1,2)]++;
+	      if(bef[substr(buffer,length(buffer)-1,2)]==1){bec++;be[bec]=substr(buffer,length(buffer)-1,2);}
 	    }
             # add to glue
 	   # for(k=1;k<length(buffer);k++){
@@ -97,11 +95,11 @@ BEGIN{
 	  i+=length(w[j]); #advance in chunk
 
           # add to boundaries
-	  if(length(w[j])>=4){
-	    bbf[substr(w[j],1,4)]++;
-	    if(bbf[substr(w[j],1,4)]==1){bbc++;bb[bbc]=substr(w[j],1,4);}
-	    bef[substr(w[j],length(w[j])-3,4)]++;
-	    if(bef[substr(w[j],length(w[j])-3,4)]==1){bec++;be[bec]=substr(w[j],length(w[j])-3,4);}
+	  if(length(w[j])>=2){
+	    bbf[substr(w[j],1,2)]++;
+	    if(bbf[substr(w[j],1,2)]==1){bbc++;bb[bbc]=substr(w[j],1,2);}
+	    bef[substr(w[j],length(w[j])-1,2)]++;
+	    if(bef[substr(w[j],length(w[j])-1,2)]==1){bec++;be[bec]=substr(w[j],length(w[j])-1,2);}
 	  }
             # add to glue
 	 # for(k=1;k<length(w[j]);k++){
@@ -127,11 +125,11 @@ BEGIN{
       f[c]=1;
 
       # add to boundaries
-      if(length(w[c])>=4){
-	bbf[substr(w[c],1,4)]++;
-	if(bbf[substr(w[c],1,4)]==1){bbc++;bb[bbc]=substr(w[c],1,4);}
-	bef[substr(w[c],length(w[c])-3,4)]++;
-	if(bef[substr(w[c],length(w[c])-3,4)]==1){bec++;be[bec]=substr(w[c],length(w[c])-3,4);}
+      if(length(w[c])>=2){
+	bbf[substr(w[c],1,2)]++;
+	if(bbf[substr(w[c],1,2)]==1){bbc++;bb[bbc]=substr(w[c],1,2);}
+	bef[substr(w[c],length(w[c])-1,2)]++;
+	if(bef[substr(w[c],length(w[c])-1,2)]==1){bec++;be[bec]=substr(w[c],length(w[c])-1,2);}
       }
       # add to glue
     # for(k=1;k<length(w[c]);k++){
