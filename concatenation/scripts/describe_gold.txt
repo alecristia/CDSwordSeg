@@ -1,5 +1,5 @@
 #!/bin/sh
-# 2016-12-30
+# Alex Cristia alecristia@gmail.com 2016-12-22
 
 #########VARIABLES
 #Variables that have been passed by the user
@@ -42,18 +42,21 @@ for thisfile in $RESFOLDER/*-gold.txt; do
 	awl=`awk '{ total += $1*$2 ; nw +=$1} END {print total/nw}' < $RESFOLDER/${keyname}-wordlen.txt` #average word length in number of phonemes
 
 	#MATTR
+	tr ' ' '\n' < $thisfile > owpl.tmp
+	nw=`wc -l owpl.tmp | awk '{print $1}'`
+
         x=1
-	x2=$(($x+10))
+	x2=$(($x+9))
 	touch mattr.tmp
-        while [ $x2 -lt $nutt ]
+        while [ $x2 -lt $nw ]
         do
-          	sed -n ${x},${x2}p $thisfile > chunk.tmp
+          	sed -n ${x},${x2}p owpl.tmp > chunk.tmp
                 tok=`wc -w chunk.tmp | awk '{print $1}'`
                typ=`tr ' ' '\n' < chunk.tmp | sort | uniq -c | wc -l | awk '{print $1}'`
 		tt="$typ $tok"
                 echo $tt >> mattr.tmp
-		x=$(($x+10))
-		x2=$(($x+10))
+		x=$(($x+1))
+		x2=$(($x+9))
 
         done
 	mattr=`awk '{ total += $1/$2} END {print total/NR}' < mattr.tmp`

@@ -5,8 +5,18 @@ output=$2
 
 echo $input $output
 
-max=`wc -l $input/*gold.txt | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
+for s in $input/*gold.txt
+do
+thistagfile=$(basename "$s" -gold.txt)
+	max=`wc -l $s | grep -v "total" | awk '{print $1}'`
+	n=$(( ($max / 100)*100 ))
 
+	head -$n $s > ${s}-cutlines.txt
+	head -$n ${input}/${thistagfile}-tags.txt > ${input}/${thistagfile}-cutlines.txt
+echo multiples of 100
+done
+
+max=`wc -l $input/*cutlines.txt | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
 
 for length in 2 100
 do
@@ -19,12 +29,12 @@ do
 
 #echo in while $i
   		j=$(( $i + $add ))
-        	for thisfile in $input/*-gold.txt;
+        	for thisfile in $input/*-cutlines.txt;
         	do
 #echo in for $thisfile
 			thistagfile=$(basename "$thisfile" -gold.txt)
           		sed -n $i,${j}p $thisfile >> ${output}/$length/gold.txt
-          		sed -n $i,${j}p $input/${thistagfile}-tags.txt >> ${output}/$length/tags.txt
+          		sed -n $i,${j}p $input/${thistagfile}-cutlines.txt >> ${output}/$length/tags.txt
 	        done
 	i=$(($i + $length ))
 	done

@@ -144,7 +144,13 @@ for i in {0..7}
 do
     python $TREESFILE -c $LEVEL \
            < $RESFOLDER/$OUTFILE$i-last.prs \
-           > $RESFOLDER/$OUTFILE$i$INMBRFILE || exit 1
+           > $RESFOLDER/$OUTFILE$i$INMBRFILE || exit 1 &
+    pid[${i}]=$!
+done
+
+for pid in ${pid[*]}
+do
+    wait $pid
 done
 
 ###########################

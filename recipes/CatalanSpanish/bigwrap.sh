@@ -8,7 +8,7 @@
 
 PROCESSED_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_"
 CONCATENATED_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_"
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/res_"
+RES_FOLDER="/fhgfs/bootphon/scratch/acristia/results/segcatspares_"
 
 
 # Turn the cha-like files into a single clean file per type
@@ -23,7 +23,7 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/res_"
 #./3B_concbil.sh ${PROCESSED_FOLDER}  ${CONCATENATED_FOLDER}bil
 
 # Analyze
-#./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa
+./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa
 #./4_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
 #./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
 echo "done analysing"
