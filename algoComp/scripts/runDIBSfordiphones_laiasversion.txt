@@ -8,11 +8,11 @@ INPUT=/fhgfs/bootphon/scratch/lfibla/processed_corpora/Bernstein/CDS
 
 # 2.2 DIBS requires a bit of corpus to calculate some statistics. We'll use 200 lines from the version with the word boundaries to this end (we remove syllable boundaries, which are not needed):
 
-head -200 ${input}/tags.txt | sed 's/;esyll//g' > ${RESFOLDER}/clean_train.txt
+head -200 ${INPUT}/tags.txt | sed 's/;esyll//g' > ${RESFOLDER}/clean_train.txt
 
 # 2.3 Remove word and syllable boundaries to create the test file that will be segmented:
 
-sed 's/;esyll//g' ${input}/tags.txt | sed 's/;eword//g' | sed 's/  / /g' > ${RESFOLDER}/clean_test.txt
+sed 's/;esyll//g' ${INPUT}/tags.txt | sed 's/;eword//g' | sed 's/  / /g' > ${RESFOLDER}/clean_test.txt
 
 cd /fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/algos/DiBS/
 # 2.4 Actual algo running;runing the DiBS algorithm (phrasal), training on the development set and testing (with no further learning) on the test set. Includes an output diphone matrices:
