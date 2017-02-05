@@ -18,7 +18,7 @@ RES_FOLDER="/fhgfs/bootphon/scratch/acristia/results/Bernstein"
 ./3_length_match.sh $PROCESSED_FOLDER  || exit 1
 
 # Analyze
- ./4_analyze.sh $PROCESSED_FOLDER $RES_FOLDER
+./4_analyze.sh $PROCESSED_FOLDER $RES_FOLDER
 
 
 # ./5_collapse_results.sh $RES_FOLDER
