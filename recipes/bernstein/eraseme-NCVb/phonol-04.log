@@ -1,0 +1,7 @@
+sh: error importing function definition for `BASH_FUNC_module()'
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+Traceback (most recent call last):
+  File "../../phonologization/scripts/phonologize", line 51, in <module>
+    import argparse
+ImportError: No module named argparse

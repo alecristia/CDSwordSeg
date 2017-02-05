@@ -21,7 +21,9 @@ do
     temp=`mktemp -d eraseme-XXXX`
     splited=$temp/ortho-
     split -d $ortholines $splited
-    echo
+    echo 
+
+echo $temp
 
     for ortho in $splited*
     do
