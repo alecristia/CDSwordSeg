@@ -76,3 +76,5 @@ def create_file_word_freq(path_res, dic, sub, algos, freq_file="/freq-top.txt"):
             path_out=path_res+"/"+SS+"/"+algo+"/freq-words.txt"
             s.to_csv(path_out, sep='\t', index=False)
     
+#test
+#test_word=create_file_word_freq(path_res, dic_corpus, ["full_corpus"], ALGOS, freq_file="/freq-top.txt")

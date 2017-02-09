@@ -9,7 +9,7 @@ Created on Thu Dec 15 11:44:52 2016
 ######################### CREATION OF SUB-CORPUS : the whole corpus is divided k times
 
 # created by elin larsen on November 8 th 2016
-#can be run on terminal by using arparse
+#can be run on terminal by using argparse
 # the file takes corpus in text files of 'n' lines and divide the number of lines by 'k' 
 # and return k text files with (n-r)/k lines (r = rest of euclidian division)
 #!/usr/bin/python

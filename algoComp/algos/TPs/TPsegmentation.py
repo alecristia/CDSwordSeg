@@ -26,7 +26,7 @@ from scipy import stats
 class Counter(collections.Counter):
     def __str__(self):
         return "\n".join("{}\t{}".format("-".join(key)
-                                         if isinstance(key, tuple)
+                                         if isinstance(key, tuple) 
                                          else key, value)  # "-"
                          for key, value in self.items())
 
@@ -50,9 +50,13 @@ for line in fileinput.input(sys.argv[1]):
 # computing TPs
 freq_syls = Counter(syls)
 bigrams_all = zip(syls[0:-1],syls[1:])
+# zip returns a list of tuples, where the i-th tuple contains the i-th element from each of the argument sequences or iterables.
+# => list of all the bigrams
 freq_bigrams_all = Counter(bigrams_all)
+# dictionary of bigram and it forward TP (bigram[0] is the first syllable of the bigram)
 tp_bigrams_all = dict((bigram,float(freq)/freq_syls[bigram[0]])
                       for bigram,freq in freq_bigrams_all.items())
+# TPall is the mean TP in the corpus
 TPall = (sum(tp_bigrams_all.values())/len(tp_bigrams_all)
          if len(tp_bigrams_all)!=0 else 0)
 
@@ -63,10 +67,10 @@ prelast=syls[0]
 last=syls[1]
 syl=syls[2]
 cword=[prelast,last]
-cwords.append(cword)
+cwords.append(cword) # initialisation 
 for next in syls[3:]:
-    if ((tp_bigrams_all[prelast,last] > tp_bigrams_all[last,syl] < tp_bigrams_all[syl,next])
-        or last=="UB" or syl=="UB"):
+    if ((tp_bigrams_all[prelast,last] > tp_bigrams_all[last,syl] < tp_bigrams_all[syl,next]) # condition du seuil relatif
+        or last=="UB" or syl=="UB"): # fin de phrase
 	cword = []
 	cwords.append(cword)
     cword.append(syl)
