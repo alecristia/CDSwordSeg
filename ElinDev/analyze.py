@@ -8,6 +8,8 @@ Created on Thu Dec 15 11:47:40 2016
 
 import numpy as np
 import collections
+import inspect
+
 
 # import file
 import read
@@ -23,6 +25,13 @@ def count_lines_corpus(corpus_file):
     print 'number of non-blank lines found: %d' % non_blank_count
     return(non_blank_count)
 
+def create_freq_top_gold(path_res, subs): 
+    for SS in subs: 
+        path=path_res+"/"+SS+"/"+"gold"+"/gold.txt"
+        df=freq_token_in_corpus(path)
+        path_out=path_res+"/"+SS+"/"+"gold"+"/freq-top.txt"
+        df.to_csv(path_out, sep='\t', index=False)
+
 
 def freq_token_in_corpus(ortho_file):
     from pandas import DataFrame
@@ -36,6 +45,7 @@ def freq_token_in_corpus(ortho_file):
                     count_freq[word]=1
     df=DataFrame(count_freq.items(), columns=['Type', 'Freq'])
     df_sorted=df.sort('Freq', ascending=False)
+    df_sorted.rename(columns={'Freq': 'Freqgold'}, inplace=True)
     return(df_sorted)
     
     

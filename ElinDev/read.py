@@ -21,7 +21,6 @@ def merge_data_files(corpus_path, name_corpus, name_file):
                 for line in infile:
                     outfile.write(line)
 
-
 ######################### OPEN TEXT FILE AS LIST OF TOKEN
 def corpus_as_list(corpus_file):
     ''' open a text file and form a list of tokens'''
@@ -30,8 +29,7 @@ def corpus_as_list(corpus_file):
         for line in text: 
             for word in line.split():
                 list_corpus.append(word)
-    return(list_corpus)
-    
+    return(list_corpus)  
 
 ######################### OPEN FREQ FILE AS A LIST OF TOKEN 
 def list_freq_token_per_algo(algo,sub,path_res,freq_file="/freq-top.txt"):
@@ -64,8 +62,7 @@ def clean_CDI(CDI_file,save_file=True):
     df_CDI['words']=df_CDI['words'].str.replace('*', '')
     return(df_CDI)
     
-    
-def read_CDI_data_by_age(CDI_file, age, save_file=True):
+def read_CDI_data_by_age(CDI_file="PropUnderstandCDI.csv", age=8, save_file=True):
     '''  age must be an integer between 8 and 18 or 'all' meaning that all age will be considered and averaged'''
     ''' save_file is a boolean indicating if you want to save file in you current directory '''
     df=pd.read_csv(CDI_file, sep=None, header=0)
@@ -86,17 +83,29 @@ def read_CDI_data_by_age(CDI_file, age, save_file=True):
             df_mean.to_csv('Mean_prop_understand_CDI_Age.csv', sep='\t', index=False)
         return(df_mean)
 
-        
-def create_df_freq_all_algo_all_sub(path_res, sub, algos, average_algos, freq_file="/freq-words.txt"):
-    ''' if average_algos=True, then algos must be a list of strings of algos, else algos must be a string of one algo'''
-    if average_algos==True: 
-        df_algo_0=pd.read_table(path_res+"/"+sub[0]+"/"+algos[0]+freq_file,sep=None, header=0, names=('Freq'+ ''+ algos[0] , 'Type'))
-        for algo in algos:
-            if algo!= algos[0]:
-                df_0=pd.read_table(path_res+"/"+sub[0]+"/"+algo+freq_file,sep=None, header=0, names=('Freq'+''+ algo, 'Type'))
-                df_algo_0=pd.merge(df_0, df_algo_0,how='inner', on=['Type'])
-            df_sub=pd.DataFrame(df_algo_0[["Freq"+s for s in algos]].mean(axis=1))
-            df_sub['Type']=pd.DataFrame(df_algo_0['Type'])
+def create_df_freq_by_algo_all_sub(path_res, sub, algo='dibs', freq_file="/freq-words.txt"):
+    #df_sub=pd.read_table(path_res+"/"+sub[0]+"/"+algo+freq_file,sep=None, header=0, names=('Freq'+ ''+ algo[0] , 'Type'))
+    df_sub=pd.read_table(path_res+"/"+sub[0]+"/"+algo+freq_file,sep=None, header=0)
+    for SS in sub:
+        if SS!=sub[0]:
+            #df_algo=pd.read_table(path_res+"/"+SS+"/"+algo+freq_file,sep=None, header=0, names=('Freq'+''+ algo, 'Type'))
+            df_algo=pd.read_table(path_res+"/"+SS+"/"+algo+freq_file,sep=None, header=0)
+            df_sub=pd.merge(df_sub, df_algo, how='outer', on='Type')
+    df_sub.fillna(0, inplace=True)
+    df_final=pd.DataFrame(df_sub.sum(axis=1))
+    df_final.columns = ['Freq'+algo]
+    df_final['Type']=pd.DataFrame(df_sub['Type'])
+    return(df_final)
+
+def create_df_freq_average_algo_all_sub(path_res, sub, algos, freq_file="/freq-words.txt"):
+    ''' when averaging onalgos,  algos must be a list of strings of algos'''
+    df_algo_0=pd.read_table(path_res+"/"+sub[0]+"/"+algos[0]+freq_file,sep=None, header=0, names=('Freq'+ ''+ algos[0] , 'Type'))
+    for algo in algos:
+        if algo!= algos[0]:
+            df_0=pd.read_table(path_res+"/"+sub[0]+"/"+algo+freq_file,sep=None, header=0, names=('Freq'+''+ algo, 'Type'))
+            df_algo_0=pd.merge(df_0, df_algo_0,how='inner', on=['Type'])
+        df_sub=pd.DataFrame(df_algo_0[["Freq"+s for s in algos]].mean(axis=1))
+        df_sub['Type']=pd.DataFrame(df_algo_0['Type'])
         for SS in sub:
             if SS!=sub[0]:
                 df_algo=pd.read_table(path_res+"/"+SS+"/"+algos[0]+freq_file,sep=None, header=0, names=('Freq'+''+ algos[0], 'Type'))
@@ -110,14 +119,23 @@ def create_df_freq_all_algo_all_sub(path_res, sub, algos, average_algos, freq_fi
         df_sub.fillna(0, inplace=True)
         df_final=pd.DataFrame(df_sub.sum(axis=1))
         df_final.columns = ['SumMeanFreq']
-    else :
-        df_sub=pd.read_table(path_res+"/"+sub[0]+"/"+algos+freq_file,sep=None, header=0, names=('Freq'+ ''+ algos[0] , 'Type'))
-        for SS in sub:
-            if SS!=sub[0]:
-                df_algo=pd.read_table(path_res+"/"+SS+"/"+algos+freq_file,sep=None, header=0, names=('Freq'+''+ algos, 'Type'))
-                df_sub=pd.merge(df_sub, df_algo, how='outer', on='Type')
-        df_sub.fillna(0, inplace=True)
-        df_final=pd.DataFrame(df_sub.sum(axis=1))
-        df_final.columns = ['Freq'+algos]
-    df_final['Type']=pd.DataFrame(df_sub['Type'])
     return(df_final)
+
+'''
+def read_CDI_number_infant_by_word(CDI_file_child_by_word="instrument_data.csv", age=8, save_file=True): 
+ #for each word, give the NUMBER of infant knowing it for each age 
+    df=pd.read_csv(CDI_file_child_by_word, sep=None, header=0)
+    gb=df.groupby(['definition','age']).count()
+    gbis=gb.iloc[:, 0].to_frame()
+    gbis["Tuple"]=gbis.index
+    new_col_list=['Type', 'age']
+    for n,col in enumerate(new_col_list):
+        gbis[col]=gbis["Tuple"].apply(lambda Tuple: Tuple[n])
+    gbis = gbis.drop("Tuple",axis=1)
+    gbis.rename(columns={'data_id': 'NumberInfants'}, inplace=True)
+    gb_age=gbis.groupby('age')
+    df_age=gb_age.get_group(age)
+    if save_file==True:
+        df_age.to_csv('NbInfant_understand_CDI_at_age_'+str(age)+'.csv', sep='\t', index=False)
+    return(df_age)
+ '''   
