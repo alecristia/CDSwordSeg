@@ -58,7 +58,7 @@ class NonAGSegmenter(object):
         shutil.copy(tags, os.path.join(output_dir, 'tags.txt'))
         shutil.copy(gold, os.path.join(output_dir, 'gold.txt'))
 
-        # create the command lanuching the script
+        # create the command launching the script
         self.command = ' '.join(
             [self.script,
              os.path.abspath(os.path.join(script_dir, '..')) + '/',  # ABSPATH
@@ -79,6 +79,11 @@ class NonAGSegmenter(object):
 
 
 class AGSegmenter(NonAGSegmenter):
+    """A general wrapper to AG word segmentation algorithms
+
+    Add the debug option in top of the NonAGSegmenter
+
+    """
     def __init__(self, algo, tags, gold, output_dir,
                  script_dir=CDSPATH, debug=False):
         NonAGSegmenter.__init__(self, algo, tags, gold, output_dir, script_dir)
@@ -287,7 +292,7 @@ def main():
     args.output_dir = os.path.abspath(args.output_dir)
     assert not os.path.isdir(args.output_dir), \
         'result directory already exists: {}'.format(args.output_dir)
-    os.mkdir(args.output_dir)
+    os.makedirs(args.output_dir)
 
     # compute the gold file if not given
     if args.goldfile is None:
