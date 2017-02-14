@@ -346,7 +346,7 @@ def main():
     if args.verbose:
         print('launched jobs are')
         for k, v in pids.iteritems():
-            print('  {} : {}'.format(k, v.pid))
+            print('  {} : {}'.format(k, v if isinstance(v, str) else v.pid))
 
     # wait all the jobs terminate
     if args.sync:
