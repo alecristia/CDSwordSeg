@@ -46,3 +46,18 @@
 - [X] rerun all pipeline on oberon
 - [ ] collapse results when computation are done
 * Childes recipe
+** DONE bug on dmcmc
+   CLOSED: [2016-04-18 Mon 18:09]
+** DONE rerun the following failed computations
+   CLOSED: [2016-04-18 Mon 23:15]
+egrep -n dmcmc\$ results/results.txt /dev/null
+results/results.txt:13:Bernstein/alice1/dmcmc
+results/results.txt:41:Bernstein/alice3/dmcmc
+results/results.txt:83:Bernstein/amelia3/dmcmc
+results/results.txt:422:Demetras2/j_fat10/dmcmc
+results/results.txt:576:Demetras2/j_mot10/dmcmc
+results/results.txt:992:Providence/eth33/dmcmc
+results/results.txt:1673:Providence/vio05/dmcmc
+results/results.txt:2051:Rollins/st12/dmcmc
+results/results.txt:2180:Soderstrom/the04b/dmcmc
+results/results.txt:2306:Soderstrom/the10a/dmcmc

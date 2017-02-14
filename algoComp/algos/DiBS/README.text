@@ -50,7 +50,7 @@ Most of the stuff should be really transparent, except for the heart of the DiBS
 
 
 *****
-A DiBS model is any model which assigns, for each phrase-medial diphone, a value between 0 and 1 inclusive (reepresenting the probability the model aassigns that there is a word-boundary there). In practice, these probabilities are mapped to hard decisions, with the optimal threshold being 0.5.
+A DiBS model is any model which assigns, for each phrase-medial diphone, a value between 0 and 1 inclusive (representing the probability the model assigns that there is a word-boundary there). In practice, these probabilities are mapped to hard decisions, with the optimal threshold being 0.5.
 
 Without any training at all, a phrasal-DiBS model can assign sensible defaults (namely, 0, or the context-independent probability of a medial word boundary, which will always be less than 0.5, and so effectively equivalent to 0 in a hard-decisions context). The outcome in this case would be total undersegmentation (for default 0; total oversegmentation for default 1).
 

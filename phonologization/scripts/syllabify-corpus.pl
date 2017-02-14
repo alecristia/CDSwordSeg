@@ -8,12 +8,13 @@
 $language=$ARGV[0];
 $filecorpus=$ARGV[1];
 $output=$ARGV[2];
+$scriptdir=$ARGV[3];
 
 #print "\n the language is $language\n";
 
 # Save valid onsets from ValidOnsets.txt
 %onsets = {};
-open(ONSETS, "<../data/$language-ValidOnsets.txt") or die("Couldn't open ../data/$language-ValidOnsets.txt\n");
+open(ONSETS, "<$scriptdir/input/$language-ValidOnsets.txt") or die("Couldn't open $scriptdir/input/$language-ValidOnsets.txt\n");
 while(defined($fileline = <ONSETS>)){
     chomp($fileline);
     #print "$fileline\n";
@@ -36,9 +37,10 @@ open(CORPUS, "<$filecorpus") or die("Couldn't open $filecorpus for reading");
 
 while(defined($fileline = <CORPUS>)){
     #print "entered first while\n";
+	chomp($fileline);
 	$currline = $fileline;
     @wordarray = split(" ", $currline); # divide the line into a set of words
-    $syllword="";#we start with a clean slate for each line
+    $syllline="";#we start with a clean slate for each line
     while(@wordarray > 0){
         $currword = pop(@wordarray); # cut out the last word in the word array & put it in currword
         #print "now looking at $currword\n";

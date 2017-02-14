@@ -9,7 +9,12 @@
 #
 # Alex Cristia alecristia@gmail.com 2015-11-26
 
-DATAFOLDER=${1:-./data}
+#########VARIABLES
+#Variables that have been passed by the user
+DATAFOLDER=$1
+#########
+
+#DATAFOLDER=${1:-./data}
 SCRIPTS=${2:-../../database_creation/scripts}
 
 # must exist and contain cha files
@@ -19,7 +24,7 @@ CHAFOLDER=$DATAFOLDER/cha
 RESFOLDER=$DATAFOLDER/ortho
 mkdir -p $RESFOLDER
 
-# for ADS, CDS and KDS
+# for ADS, CDS 
 for VERSION in ${CHAFOLDER}/WL*
 do
     KEYNAME=`echo ${VERSION#$CHAFOLDER}`
@@ -34,5 +39,7 @@ do
         $SCRIPTS/cha2sel.sh $f $inclines >> $RESFOLDER/log.txt
     done
 
-    $SCRIPTS/selcha2clean.sh $inclines $ortho >> $RESFOLDER/log.txt
+    $SCRIPTS/selcha2clean.sh $inclines $ortho  >> $RESFOLDER/log.txt
+
+    ./extraclean.sh $ortho >> $RESFOLDER/log.txt
 done

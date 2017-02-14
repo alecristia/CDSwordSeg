@@ -26,19 +26,45 @@ Our current pipeline involves three steps:
    one or several versions of the same corpus, with
    automatically-determined word boundaries, as well as lists of the
    most frequent words, and all this based on a selection of
-   algorithms (chosen by user).
+   algorithms (chosen by user). Within Oberon, DiBS, TP, and PUDDLE work out of the box;
+   AGu and AG3fs require python-anaconda so make sure to load this module;
+   and DMCMC will require you to build a program first (only once in your local environment). It is also extremely resource
+   and time-consuming, so please ponder carefully whether you actually need it for
+   your research question.
 
 Recipes
 -------
 
 These three steps are packaged together in corpora dependant
-recipes. Actually the project support 3 corpora including child
-directed speech:
+recipes. Examples of previous recipes can be found in the recipes 
+folder; these are corpora that include child-directed speech and 
+sometimes also adult-directed speech, for instance:
 
-- bernstein
-- Winnipeg
-- childes
+- bernstein: based on only one corpus, that of Nan Bernstein; contains both chid and adult directed speech
+- WinnipegLENA: based on a corpus that is not CHAT formatted (includes "translation" to cha)
+- childes: based on a selection of English-spoken CHILDES corpora
+- arglongitudinal: probably the most explicit and easy to follow recipe; contains a README explaining step by step how it was created
 
+To build your own recipe, we suggest you look at those recipes. 
+You can also do it your own way from the instructions below.
+
+
+Making a new grammar
+-------
+- Duplicate an extant grammar (extension .lt) in CDSWordSeg/algoComp/algos/AG/grammars
+- Rename
+- for colloc0, you just need to change the terminals to the phonemes found in your corpus
+- for colloc3syllfnc, you need to verify whether the language to be segmented is indeed head initial (like all th e grammars we have so far) or head-final (invert fnc word & content word in all appearances); and check also whether the langauage you are segmenting has a more complex syllable structure than english or different word shapes (e.g. for CatSpa we had to add words with up to 8 syllables)
+- Duplicate a grammar caller in CDSWordSeg/algoComp/algos/AG (extension .sh)
+- Modify the grammar being called at the top to the new file you just worked on
+- that's it!
+
+Building DMCMC
+------
+- Navigate to CDSWordSeg/algoComp/algos/phillips-pearl2014/dpseg_files
+- do $ make -f Makefile2
+- do $ chmod +x dpseg
+- do $ cp dpseg ..
 
 STEP 1: Database creation
 =========================
@@ -178,7 +204,7 @@ that works with the multicorpora that Xuan Nga has been analyzing...
   program. See http://www.cstr.ed.ac.uk/projects/festival/
 
 
-STEP 3: Segmentation
+STEP 3: Segmentation -- THESE ARE OLD AND NEED UPDATING!!!
 ====================
 
 The necessary scripts are found in the folder called `algoComp`
@@ -267,7 +293,7 @@ Troubleshooting
 This means that one of the letters in "s I s i l j x" is wrong.
 Compare them against the list of letters ("phonemes") with the ones listed in::
 
-  /YOUR_ABSOLUTE_PATH_GOES_HERE/algoComp201507/algos/AG/grammars/Colloq0_enKlatt.lt
+ algos/AG/grammars/Colloq0_enKlatt.lt
 
 namely:
 d e f g h i k l m n o p r @ s t u C v D E w x G y z I J O R S T U W Y Z ^ a b c | L M N X
@@ -325,3 +351,19 @@ You should see something like the following, with no errors::
   g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp py-cfg.cc -o py-cfg-mp.o
   g++ -c -MMD -O6 -Wall -ffast-math -fno-finite-math-only -finline-functions -fomit-frame-pointer -fstrict-aliasing   -fopenmp -DQUADPREC py-cfg.cc -o py-cfg-quad-mp.o
   g++ -fopenmp gammadist.o py-cfg-quad-mp.o mt19937ar.o sym.o -lm -Wall -O6  -o py-cfg-quad-mp
+
+- If you get an error:
+bogdan@precisiont7610:~/CDSwordSeg/algoComp/pipeline$ ./AG.sh ~/CDSwordSeg/algoComp ~/CDSwordSeg/results/AG_baseIDS AGc3s
+# Iteration 0, 86161 tables, -logPcorpus = 432815, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 85681 tables, -logPcorpus = 447553, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 87531 tables, -logPcorpus = 437737, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 85505 tables, -logPcorpus = 431854, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 88133 tables, -logPcorpus = 437727, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 88130 tables, -logPcorpus = 443818, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 85507 tables, -logPcorpus = 445540, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+# Iteration 0, 83784 tables, -logPcorpus = 431983, -logPrior = 1706.46, 0/14569 analyses unchanged, 0/14569 rejected.
+py-cfg: py-cky.h:509: F pycfg_type::decrtree(pycfg_type::tree*, pycfg_type::U): Assertion `weight <= tp->count' failed.
+/home/bogdan/CDSwordSeg/algoComp/algos/AG/do_AG_japanese.sh: line 117:  1462 Aborted                 (core dumped) $PYCFG -n $NITER -G $RESFOLDER/$RUNFILE$i.wlt -A $RESFOLDER/$TMPFILE$i.prs -F $RESFOLDER/$TMPFILE$i.trace -E -r $RANDOM -d 101 -a 0.0001 -b 10000 -e 1 -f 1 -g 100 -h 0.01 -R -1 -P -x 10 -u $YLTFILE -U cat $GRAMMARFILE > $RESFOLDER/$OUTFILE$i.prs < $YLTFILE
+The grammar was parsing all the sentences without a problem, as I fixed all issues that arose during parsing. I was getting the error after the first parse, when AG was trying to update the model.
+
+I've tried several things, among which testing AG with a grammar that works. So I've created an English toy test set and I ran AG using the colloc3syllFunc grammar that came with the package. It worked fine. So, after more testing I've changed my Japanese grammar to something more similar to the English grammar and it finally passes the model updating step. It appears that it is important to know what levels of the grammar to adapt, as that was the sole difference between the working and non-working grammars. You can find attached the two grammars.

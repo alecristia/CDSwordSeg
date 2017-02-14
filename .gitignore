@@ -1,3 +1,6 @@
+recipes/*/core.*
+recipes/*/*.tmp
+results*
 MechelexTask1_goalsFromGrant.rtf
 previousResults/
 tests/
@@ -34,10 +37,15 @@ algoComp/test/*/*
 data/*
 recipes/WinnipegLENA/old/
 recipes/bernstein/test_dmcmc*
-/recipes/childes/data/*
+recipes/childes/data/*
 /recipes/childes/results*/*
 /database_creation/scripts/test/*
 /recipes/WinnipegLENA/data/*
 recipes/bernstein/test/
 recipes/bernstein/data/
 /recipes/bernstein/core.16781
+/recipes/childes/cron.log
+*.prs
+results/*
+results_cds_childes.txt
+

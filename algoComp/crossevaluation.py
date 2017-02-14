@@ -32,7 +32,7 @@ Copyright 2015, 2016 Mathieu Bernard
 
 import argparse
 import codecs
-from itertools import chain
+import itertools
 import numpy as np
 import os
 import sys
@@ -60,7 +60,7 @@ def flatten(l):
     [0, 1, 2, 3]
 
     """
-    return list(chain(*l))
+    return list(itertools.chain(*l))
 
 
 def fold_boundaries(lines, nfolds):
@@ -74,17 +74,13 @@ def fold_boundaries(lines, nfolds):
 def fold(lines, boundaries):
     """Create `nfolds` versions of input `lines`.
 
-    TODO update this docstring
+    `boundaries` as returned by the fold_boundaries function.
 
-    `lines` is list of strings to be folded, `nfolds` is the number of
-    folds to create.
-
-    This function first divides `lines` in `nfolds` blocks. From these
-    blocks, it then reorder these blocks to form folds. In order to
-    serve the unfold operation, this functions also build the index of
-    the beginning of the last block in each fold. Returns a tuple
-    (index, folds), where index is a list of int and folds a list of
-    equal length lists.
+    This function reorders the blocks given from `boundaries`
+    folds. In order to serve the unfold operation, this functions also
+    build the index of the beginning of the last block in each
+    fold. Returns a tuple (index, folds), where index is a list of int
+    and folds a list of equal length lists.
 
     >>> fold([1, 2, 3], 3)     # Each group have 1 element
     ([2, 2, 2], [[1, 2, 3], [3, 1, 2], [2, 3, 1]])
@@ -137,26 +133,25 @@ def main_fold():
 
     # compute fold boundaries
     boundaries = fold_boundaries(lines, args.nfolds)
-    # if args.verbose:
-    #     print('Folding boundary lines are:')
-    #     for b in boundaries:
-    #         print(u'{} : {}'.format(b, lines[b].encode('utf8')))
-    #           #.format(boundaries))
+    if args.verbose:
+        print('Folding boundary lines are: {}'.format(boundaries + [len(lines)]))
 
     # dmcmc fix if required
     if args.dmcmc_bugfix:
         if args.verbose:
             print('Fixing dmcmc issue')
 
+        # TODO make it a clean import
         sys.path.append(
             os.path.join(os.path.dirname(os.path.abspath(__file__)),
                          'algos/phillips-pearl2014'))
         import bugfix
-        b = bugfix.bugfix(args.file, args.dmcmc_bugfix, lines=boundaries)
-        if b != boundaries:
-            # bugfix modified the tags file, reload it and update boundaries
-            boundaries = b
-            lines = codecs.open(args.file, encoding='utf8', mode='r').readlines()
+        boundaries = bugfix.bugfix(args.file, args.dmcmc_bugfix, lines=boundaries)
+        lines = codecs.open(args.file, encoding='utf8', mode='r').readlines()
+
+        for i, b in enumerate(boundaries):
+            assert len(lines[b].strip()) > 1, 'block {}, only one syllable in 1st line!'.format(i)
+
 
     # compute the folds from boundaries
     lasts, folds = fold(lines, boundaries)
@@ -238,21 +233,20 @@ def main():
     call main_fold() or main_unfold().
 
     """
-    #    try:
-    arg = sys.argv[1]
-    sys.argv = [sys.argv[0]] + sys.argv[2:]
-    if arg == 'fold':
-        main_fold()
-    elif arg == 'unfold':
-        main_unfold()
-    else:
-        print('Please specify fold or unfold.\n'
-              'Type "{} fold --help" or "{} unfold --help".'
-              .format(sys.argv[0], sys.argv[0]))
-    # except Exception as err:
-    #     # print('Error in crossevaluation.py {} : {}'.format(arg, err))
-    #     # exit(1)
-    #     raise err
+    try:
+        arg = sys.argv[1]
+        sys.argv = [sys.argv[0]] + sys.argv[2:]
+        if arg == 'fold':
+            main_fold()
+        elif arg == 'unfold':
+            main_unfold()
+        else:
+            print('Please specify fold or unfold.\n'
+                  'Type "{} fold --help" or "{} unfold --help".'
+                  .format(sys.argv[0], sys.argv[0]))
+    except Exception as err:
+        print('Error in crossevaluation.py {} : {}'.format(arg, err))
+        sys.exit(1)
 
 if __name__ == '__main__':
     main()

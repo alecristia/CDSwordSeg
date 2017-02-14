@@ -1,27 +1,25 @@
+
 #!/usr/bin/env bash
 # cleaning up selected lines from cha files in prep to generating a phono format
 # Alex Cristia alecristia@gmail.com 2015-10-26
-
+LC_CTYPE=C
 #########VARIABLES
 #Variables that have been passed by the user
 SELFILE=$1
 ORTHO=$2
-RESFOLDER=$3
-#PATH_TO_SCRIPTS=$4
 #########
 
 echo "Cleaning $SELFILE"
 
-#replacements to clean up punctuation, etc. -- usually ok regardless
+#replacements to clean up CHAT style punctuation, etc. -- usually ok regardless
 #of the corpus
-
-iconv -f ISO-8859-1 "$RESFOLDER$SELFILE" |
+grep "*" < "$SELFILE" |
 sed 's/^....:.//g' |
 sed "s/\_/ /g" |
 sed '/^0(.*) .$/d' |
-sed  's/.*$//g' |
+sed  's/.*$//g' | #this code deletes bulletpoints (Û+numbers
 tr -d '\"' |
-tr -d '\"' |
+tr -d '\^' | #used to be identical to previous line
 tr -d '\/' |
 sed 's/\+/ /g' |
 tr -d '\.' |
@@ -32,75 +30,40 @@ tr -d '\<' |
 tr -d '\>' |
 tr -d ','  |
 tr -d ':'  |
-sed 's/&[^ ]*//g' |
-grep -v '\[- spa\]' |
-sed 's/[^ ]*@sspa//g' |
-sed 's/\[[^[]*\]//g' |
-sed 's/([^(]*)//g' |
+sed 's/&=[^ ]*//g' | 
+sed 's/&[^ ]*//g' |  #delete words beginning with & ##IMPORTANT CHOICE COULD HAVE CHOSEN TO NOT DELETE SUCH NEOLOGISMS/NONWORDS
+sed 's/\[[^[]*\]//g' | #delete comments
+#sed 's/([^(]*)//g' | #IMPORTANT CHOICE -- UNCOMMENT THIS LINE AND COMMENT OUT THE NEXT TO DELETE MATERIAL NOTED AS NOT PRONOUNCED
+sed 's/(//g' | sed 's/)//g' | #IMPORTANT CHOICE -- UNCOMMENT THIS LINE AND COMMENT OUT THE PRECEDING TO REMOVE PARENTHESES TAGGING UNPRONOUNCED MATERIAL
 sed 's/xxx//g' |
 sed 's/www//g' |
 sed 's/XXX//g' |
 sed 's/yyy//g' |
-sed 's/0*//g' |
-sed 's/@o//g' |
-sed 's/@f//g' |
-sed 's/@q//g' |
-sed 's/@u//g' |
-sed 's/@c//g' |
+sed 's/0*//g' | 
+sed 's/[^ ]*@s:[^ ]*//g' | #delete words tagged as being a switch into another language
+#sed 's/[^ ]*@o//g' | #delete words tagged as onomatopeic
+sed 's/@[^ ]*//g' | #delete tags beginning with @ IMPORTANT CHOICE, COULD HAVE CHOSEN TO DELETE FAMILIAR/ONOMAT WORDS
 sed "s/\' / /g"  |
-sed 's/  / /g' |
+tr -s ' ' |
 sed 's/ $//g' |
 sed 's/^ //g' |
 sed 's/^[ ]*//g' |
 sed 's/ $//g' |
 sed '/^$/d' |
 sed '/^ $/d' |
-awk '{gsub("\"",""); print}' > tmp.tmp
-
-
-#********** A T T E N T I O N ***************
-# check that the next set of replacements for unusual spellings is
-# adapted to your purposes
-sed 's/allgone/all gone/g' tmp.tmp |
-    sed 's/[0-9]//g' |
-    sed 's/whaddaya/what do you/g' |
-    sed 's/whadda/what do/g' |
-    sed 's/haveto/have to/g' |
-    sed 's/hasto/has to/g' |
-    sed 's/outof/out of/g' |
-    sed 's/lotsof/lots of/g' |
-    sed 's/lotta/lots of/g' |
-    sed 's/alotof/a lot of/g' |
-    sed "s/wha\'s/what's/g" |
-    sed "s/this\'s/this is/g" |
-    sed 's/chya/ you/g' |
-    sed 's/tcha/t you/g' |
-    sed 's/dya /d you /g' |
-    sed 's/chyou/ you/g' |
-    sed "s/dont you/don\'t you/g" |
-    sed 's/wanta/wanna/g'  |
-    sed "s/whats / what\'s /g" |
-    sed "s/'re/ are/g" |
-    sed "s/klenex/kleenex/g" |
-    sed 's/yogourt/yogurt/g' |
-    sed 's/weee*/wee/g' |
-    sed 's/oooo*/oh/g' |
-    sed 's/ oo / oh /g' |
-    sed 's/ohh/oh/g' |
-    sed "s/ im / I\'m /g" |
-    tr -d '\t' |
-    sed '/^$/d' |
-    iconv -t ISO-8859-1 > "$RESFOLDER$ORTHO"
+sed 's/\^//g' |
+awk '{gsub("\"",""); print}' > $ORTHO
 
 
 #This is to process all the "junk" that were generated when making the
 #changes from included to ortho.  For e.g., the cleaning process
 #generated double spaces between 2 words (while not present in
 #included)
-sed -i -e 's/  $//g' $RESFOLDER$ORTHO
-sed -i -e 's/  / /g' $RESFOLDER$ORTHO
-sed -i -e 's/  / /g' $RESFOLDER$ORTHO  # not same encoding as above?
-sed -i -e 's/^ //g' $RESFOLDER$ORTHO
-sed -i -e 's/ $//g' $RESFOLDER$ORTHO
+sed -i -e 's/  $//g' $ORTHO
+sed -i -e 's/  / /g' $ORTHO
+sed -i -e 's/  / /g' $ORTHO
+sed -i -e 's/^ //g' $ORTHO
+sed -i -e 's/ $//g' $ORTHO
+sed -i -e '/^$/d' $ORTHO
+sed -i -e '/\t/d' $ORTHO
 
-rm -f tmp.tmp

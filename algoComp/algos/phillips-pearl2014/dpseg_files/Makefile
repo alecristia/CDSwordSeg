@@ -1,3 +1,4 @@
+
 ############################################################
 #                                                          #
 #                      Run jobs                            #
@@ -18,22 +19,11 @@ all: top
 #                                                          #
 ############################################################
 
-
-#######################
-# Boost
-
-BOOST_LIB=-lboost_program_options
-# BOOST_INCLUDE=-I /usr/include/boost
-
-
-
 # MAC FLAGS
 # CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -Wno-deprecated -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)
 # debug compile for mac flags
 # CFLAGS_BASE = -v -MMD -O0 -Wall $(GCCFLAGS) -g -DNDEBUG
-CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -Wno-deprecated		\
--finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)	\
--g -DNDEBUG
+CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -Wno-deprecated -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)  -g -DNDEBUG
 # Goldwater original flags
 #CFLAGS_BASE = -MMD -O6 -Wall -ffast-math -finline-functions -fomit-frame-pointer -fstrict-aliasing $(GCCFLAGS)# -DNDEBUG
 LDFLAGS_BASE = -Wall -O6
@@ -43,8 +33,10 @@ LDFLAGS = $(LDFLAGS_BASE) -enable-auto-import -L /usr/lib/
 LIBS = boost_program_options-gcc-mt
 CXX = g++-4
 else
-CFLAGS = $(CFLAGS_BASE) -DOS_LINUX $(BOOST_INCLUDE)
-LDFLAGS = $(LDFLAGS_BASE) -L /usr/lib/
+#CFLAGS = $(CFLAGS_BASE) -DOS_LINUX  -I /opt/local/include/gcc44/c++/boost/
+# CFLAGS = $(CFLAGS_BASE) -DOS_LINUX  -I /opt/local/include/boost/
+CFLAGS = $(CFLAGS_BASE) -DOS_LINUX -I/cm/shared/apps/boost/1.62.0
+LDFLAGS = $(LDFLAGS_BASE) -L/usr/lib/ -L/cm/shared/apps/boost/1.62.0/stage/lib
 #LDFLAGS = $(LDFLAGS_BASE)
 
 #######################################################
@@ -52,14 +44,12 @@ LDFLAGS = $(LDFLAGS_BASE) -L /usr/lib/
 # FILES. CHANGE VERSION NUMBER TO MATCH YOUR CURRENT  #
 # BOOST VERSION                                       #
 #######################################################
-LIBS = $(BOOST_LIB) -lstdc++ -lm
+#LIBS = /usr/local/lib/libboost_program_options.so.1.56.0 -lstdc++ -lm
+LIBS = -lboost_program_options  -lstdc++ -lm
 
 # using GCC 4.4 from macports
 CXX = gcc
 endif
-
-CXX = g++
-
 CC = $(CXX)
 EXEC = time
 #
@@ -96,3 +86,4 @@ real-clean: clean
 
 # this command tells GNU make to look for dependencies in *.d files
 -include $(patsubst %.l,%.d,$(patsubst %.c,%.d,$(SOURCES:%.cc=%.d)))
+

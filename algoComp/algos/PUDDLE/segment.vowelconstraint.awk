@@ -3,6 +3,9 @@
 # this is a version used in the following publication:
 # Monaghan, P., & Christiansen, M. H. (2010). Words in puddles of sound: modelling psycholinguistic effects in speech segmentation. Journal of child language, 37(03), 545-564.
 
+# ATTENTION!!! assumes 2-character alphabet
+# to run directly $ gawk -f segment.vowelconstraint.awk test.txt
+
 
 # do "we" want to search for chunks biggest first or smallest first?
 # eg if utterances are "uhoh oh uhoh", then uhoh, oh get stored as chunks, then do we want 2nd uhoh to remain as a chunk or be divided into uh and oh?
@@ -13,17 +16,20 @@
 # assuming input is sequence of phonemes, each line is one utterance
 #
 # this model has constraint of biphones ending and finishing word
-# AND constraint of word boundary not being across word internal biphone
+# AND constraint of word boundary not being across word internal biphone (turned off)
+# AND a vowel constraint (turned off)
+#!!! IMPORTANT!!! the code has been adapted to 2-letter characters only for the biphone boundary (not the glue) 
 
-function vowel(vow){
-  if(vow~/aa/ || vow~/ae/ || vow~/ah/ || vow~/ao/ || vow~/aw/ || vow~/ax/ || vow~/ay/ || vow~/eh/ || vow~/er/ || vow~/ey/ || vow~/ih/ || vow~/iy/ || vow~/ow/ || vow~/oy/ || vow~/uh/ || vow~/uw/ ) return 1;
-  else return 0;
-}
+#function vowel(vow){
+#  if(vow~/aa/ || vow~/ae/ || vow~/ah/ || vow~/ao/ || vow~/aw/ || vow~/ax/ || vow~/ay/ || vow~/eh/ || vow~/er/ || vow~/ey/ || vow~/ih/ || vow~/iy/ || vow~/ow/ || vow~/oy/ || vow~/uh/ || vow~/uw/ ) return 1;
+#  else return 0;
+#}
 
 
 BEGIN{
   c=0;
-  bec=0;bbc=0;bic=0;
+  bec=0;bbc=0;
+# bic=0;
 
   ## sort by length then by frequency, longest first:
   command = "sort -k 3,3nr -k 2,2nr";
@@ -42,7 +48,7 @@ BEGIN{
   if(NF>0){
 
     buffer="";
-    for(i=1;i<=length($1);i++){
+    for(i=1;i<=length($1);i++2){
       ##print NR,i,substr($1,i,1);
       
       # search for matcher beginning with first segment:
@@ -52,15 +58,15 @@ BEGIN{
 	if(substr($1,i,length(w[j]))== w[j])matcher++;
 
 	####### boundary conditions satisfied?
-	if(matcher==1 && (bef[substr(buffer,length(buffer)-1,2)]==0 && buffer!="" && i!=1)) matcher=0; # previous must be word-end
-	if(matcher==1 && (bbf[substr($1,i+length(w[j]),2)]==0 && (i+length(w[j])-1!=length($1))) )matcher=0; # following must be word-start
+	if(matcher==1 && (bef[substr(buffer,length(buffer)-3,4)]==0 && buffer!="" && i!=1)) matcher=0; # previous must be word-end
+	if(matcher==1 && (bbf[substr($1,i+length(w[j]),4)]==0 && (i+length(w[j])-1!=length($1))) )matcher=0; # following must be word-start
 
 	####### glue condition satisfied?
 	#if(matcher==1 && bif[substr(buffer,length(buffer),1) substr($1,i,1)]>0 && buffer!="") matcher = 0; # word-internal across initial boundary
 	#if(matcher==1 && bif[substr($1,i+length(w[j])-1,2)]>0) matcher = 0; # word-internal across final boundary
 	
 	###### vowel constraint satisfied?
-	if(matcher==1 && (( vowel(buffer)==0 && length(buffer)>0 ) || ( vowel(substr($1,i+length(w[j]),length($1)-i-length(w[j])+1))==0 && (length($1)-i-length(w[j])+1)>0))) matcher=0;
+	#if(matcher==1 && (( vowel(buffer)==0 && length(buffer)>0 ) || ( vowel(substr($1,i+length(w[j]),length($1)-i-length(w[j])+1))==0 && (length($1)-i-length(w[j])+1)>0))) matcher=0;
 
         ####### got a match, so update words and biphones
 	if(matcher==1){ 
@@ -72,17 +78,17 @@ BEGIN{
 	    f[c]=1;
 
 	    # add to boundaries
-	    if(length(buffer)>=2){
-	      bbf[substr(buffer,1,2)]++;
-	      if(bbf[substr(buffer,1,2)]==1){bbc++;bb[bbc]=substr(buffer,1,2);}
-	      bef[substr(buffer,length(buffer)-1,2)]++;
-	      if(bef[substr(buffer,length(buffer)-1,2)]==1){bec++;be[bec]=substr(buffer,length(buffer)-1,2);}
+	    if(length(buffer)>=4){
+	      bbf[substr(buffer,1,4)]++;
+	      if(bbf[substr(buffer,1,4)]==1){bbc++;bb[bbc]=substr(buffer,1,4);}
+	      bef[substr(buffer,length(buffer)-3,4)]++;
+	      if(bef[substr(buffer,length(buffer)-3,4)]==1){bec++;be[bec]=substr(buffer,length(buffer)-3,4);}
 	    }
             # add to glue
-	    for(k=1;k<length(buffer);k++){
-	      bif[substr(buffer,k,2)]++;
-	      if(bif[substr(buffer,k,2)]==1){bic++;bi[bic]=substr(buffer,k,2);}
-	    }
+	   # for(k=1;k<length(buffer);k++){
+	   #   bif[substr(buffer,k,2)]++;
+	   #   if(bif[substr(buffer,k,2)]==1){bic++;bi[bic]=substr(buffer,k,2);}
+	   # }
 	  
 	    printf buffer " ;aword ";    # REAL OUTPUT
 	  }
@@ -91,17 +97,17 @@ BEGIN{
 	  i+=length(w[j]); #advance in chunk
 
           # add to boundaries
-	  if(length(w[j])>=2){
-	    bbf[substr(w[j],1,2)]++;
-	    if(bbf[substr(w[j],1,2)]==1){bbc++;bb[bbc]=substr(w[j],1,2);}
-	    bef[substr(w[j],length(w[j])-1,2)]++;
-	    if(bef[substr(w[j],length(w[j])-1,2)]==1){bec++;be[bec]=substr(w[j],length(w[j])-1,2);}
+	  if(length(w[j])>=4){
+	    bbf[substr(w[j],1,4)]++;
+	    if(bbf[substr(w[j],1,4)]==1){bbc++;bb[bbc]=substr(w[j],1,4);}
+	    bef[substr(w[j],length(w[j])-3,4)]++;
+	    if(bef[substr(w[j],length(w[j])-3,4)]==1){bec++;be[bec]=substr(w[j],length(w[j])-3,4);}
 	  }
             # add to glue
-	  for(k=1;k<length(w[j]);k++){
-	    bif[substr(w[j],k,2)]++;
-	    if(bif[substr(w[j],k,2)]==1){bic++;bi[bic]=substr(w[j],k,2);}
-	  }
+	 # for(k=1;k<length(w[j]);k++){
+	 #   bif[substr(w[j],k,2)]++;
+	 #   if(bif[substr(w[j],k,2)]==1){bic++;bi[bic]=substr(w[j],k,2);}
+	 # }
 
 	  printf w[j] " ;aword ";     # REAL OUTPUT
 	  i--;
@@ -121,17 +127,17 @@ BEGIN{
       f[c]=1;
 
       # add to boundaries
-      if(length(w[c])>=2){
-	bbf[substr(w[c],1,2)]++;
-	if(bbf[substr(w[c],1,2)]==1){bbc++;bb[bbc]=substr(w[c],1,2);}
-	bef[substr(w[c],length(w[c])-1,2)]++;
-	if(bef[substr(w[c],length(w[c])-1,2)]==1){bec++;be[bec]=substr(w[c],length(w[c])-1,2);}
+      if(length(w[c])>=4){
+	bbf[substr(w[c],1,4)]++;
+	if(bbf[substr(w[c],1,4)]==1){bbc++;bb[bbc]=substr(w[c],1,4);}
+	bef[substr(w[c],length(w[c])-3,4)]++;
+	if(bef[substr(w[c],length(w[c])-3,4)]==1){bec++;be[bec]=substr(w[c],length(w[c])-3,4);}
       }
       # add to glue
-      for(k=1;k<length(w[c]);k++){
-	bif[substr(w[c],k,2)]++;
-	if(bif[substr(w[c],k,2)]==1){bic++;bi[bic]=substr(w[c],k,2);}
-      }
+    # for(k=1;k<length(w[c]);k++){
+#	bif[substr(w[c],k,2)]++;
+#	if(bif[substr(w[c],k,2)]==1){bic++;bi[bic]=substr(w[c],k,2);}
+#      }
 
       ##print "if got to end without segmenting... new buffer:",buffer; 
       printf buffer " ;aword ";   REAL OUTPUT
@@ -200,18 +206,18 @@ BEGIN{
   bec = becc;
 
   # apply decay to glue
-  for(i=1;i<=bic;i++){
-    bif[bi[i]]-=decay;
-    if(bif[bi[i]]<=decay/2)bif[bi[i]]=0;
-  }
-  bicc=0;
-  for(i=1;i<=bic;i++){
-    if(bif[bi[i]]>0){
-      bicc++;
-      bi[bicc]=bi[i];
-    }
-  }
-  bic = bicc;
+#  for(i=1;i<=bic;i++){
+#    bif[bi[i]]-=decay;
+#    if(bif[bi[i]]<=decay/2)bif[bi[i]]=0;
+#  }
+#  bicc=0;
+#  for(i=1;i<=bic;i++){
+#    if(bif[bi[i]]>0){
+#      bicc++;
+#      bi[bicc]=bi[i];
+#    }
+#  }
+#  bic = bicc;
 
 
   if(NR%100000==0){
@@ -229,10 +235,10 @@ BEGIN{
     for(i=1;i<=bec;i++){
       print "\t\tbe",be[i],bef[be[i]];
     }
-    print "printing glue...";
-    for(i=1;i<=bic;i++){
-      print "\t\tbi",bi[i],bif[bi[i]];
-    }
+    #print "printing glue...";
+    #for(i=1;i<=bic;i++){
+    #  print "\t\tbi",bi[i],bif[bi[i]];
+    #}
   }
 }
 

@@ -13,23 +13,23 @@
 # files.
 
 # Adapt the following variables, being careful to provide absolute paths
-PATH_TO_SCRIPTS="YOUR_ABSOLUTE_PATH_TO_SCRIPTS"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
+PATH_TO_SCRIPTS="/home/lscpuser/Documents/CDSwordSeg/database_creation"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
 
-INPUT_CORPUS="YOUR_ABSOLUTE_PATH_TO_ROOT_DIRECTORY_WITH_ALL_CORPORA" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
+INPUT_CORPUS="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 
 #the following will be created
-CHA_FOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_CHA_FILES_WILL_BE_STORED" #we will make a copy of all cha files that are considered and put them here E.g. CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"- NOTICE THE / AT THE END OF THE NAME
+CHA_FOLDER="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones/" #we will make a copy of all cha files that are considered and put them here E.g. CHA_FOLDER="/home/xcao/cao/projects/ANR_Alex/INPUT_all_cha/"- NOTICE THE / AT THE END OF THE NAME
 
-RES_FOLDER="YOUR_ABSOLUTE_PATH_TO_WHERE_ALL_OUTPUT_FILES_WILL_BE_STORED"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
-
-
-INPUT_FILES="YOUR_ABSOLUTE_PATH_TO_WHERE_INFO_FILE_ABOUT_CORPORA_WILL_BE_STORED" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
-OUTPUT_FILE2="YOUR_ABSOLUTE_PATH_TO_LIST_OF_PROCESSED_FILES" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
+RES_FOLDER="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
-APPEND1="whatever you would like to be appended to the corpus folder that will store all cha files" #E.g. APPEND1="_cha"
-APPEND2="whatever you would like to be appended to the corpus folder that will store all output files" #E.g. APPEND2="_res"
-APPEND3="whatever you would like to be appended to all output files when they have been created" #E.g. APPEND3="_cds"
+INPUT_FILES="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones/childes_info.txt" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
+OUTPUT_FILE2="/home/lscpuser/Documents/lscp-ciipme-gh/transcripciones/processed_files;txt" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
+
+
+APPEND1="_cha" #E.g. APPEND1="_cha"
+APPEND2="_res" #E.g. APPEND2="_res"
+APPEND3="_cds" #E.g. APPEND3="_cds"
 
 
 
@@ -63,8 +63,10 @@ for CORPUSFOLDER in $INPUT_CORPUS/*/; do	#loop through all the sub-folders (1 le
 
 			echo "processed $f" >> $OUTPUT_FILE2
 		fi
-	done
+	fi
 done
+
 cd $RES_FOLDER
 find . -type d -empty -delete #remove empty folders for non-processed corpora
 echo "done removing empty folders"
+done
