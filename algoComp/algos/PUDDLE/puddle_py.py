@@ -27,20 +27,21 @@ import logging
 
 ### Create logger
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO) #to be change in ' logger.setLevel(logging.INFO)' to get all the print 
+logger.setLevel(logging.CRITICAL) #to be change in ' logger.setLevel(logging.INFO)' to get all the print 
 
 #formateur
 formatter = logging.Formatter(
    '%(asctime)s -- %(name)s -- %(levelname)s -- %(message)s')
 
 #console handler 
-fileHandler = logging.FileHandler('puddle_test/puddle.log')
+fileHandler = logging.FileHandler('puddle.log')
 fileHandler.setFormatter(formatter)
 logger.addHandler(fileHandler)
 
-#consoleHandler = logging.StreamHandler()
-#consoleHandler.setFormatter(formatter)
-#logger.addHandler(consoleHandler)
+consoleHandler = logging.StreamHandler()
+consoleHandler.setFormatter(formatter)
+logger.addHandler(consoleHandler)
+
 
 
 ### Main fonction of the puddle
@@ -48,17 +49,14 @@ logger.addHandler(fileHandler)
 lexicon, beginning and ending are counters (ie dictionnary that identify a string with its occurence)
 they are global variable (out of the update_line function) in order to avoid for python to store twice the counters
 '''
- 
-lexicon = Counter()
-beginning = Counter()
-ending = Counter()
-
+lexicon=Counter() 
+beginning=Counter()
+ending=Counter()
+segmentation_output=[]  #empty list that will be filled by word chunks, do not put it in the updata_line function, otherwise it will empty for each line, pre word will be lost
 
 def update_line(phonemes, window):
-    
-    segmentation_output=[] #empty list that will be filled by word chunks
-    #check if the list of phonemes is not null
-    if len(phonemes) == 0:
+       
+    if len(phonemes) == 0: #check if the list of phonemes is not null
         raise NotImplementedError
        
     found = False # at first, no match is found
@@ -66,7 +64,7 @@ def update_line(phonemes, window):
     
     while i < len(phonemes) and (found == False): #look at all phonemes in the list while no match between a string of phonemes and a word_candidate in the lexicon is found             
         
-        bb="".join(phonemes[i:i+2]) #beginning biphonemes, should prevent to have individual phonemes as lexical item
+        bb="".join(phonemes[i:i+window]) #beginning biphonemes, should prevent to have individual phonemes as lexical item
         
         if bb in beginning:
                  
@@ -80,7 +78,10 @@ def update_line(phonemes, window):
                 if candidate_word in lexicon:
                     found = True
                     #logger.info("Candidate {} found in lexicon".format(candidate_word)) #print in the log file
-                    
+                    if i!=0: 
+                        segmentation_output.append(candidate_pre_word)
+                        logger.warning(" pre word {} added in segmentation output".format(candidate_pre_word))
+                        
                     if (i>= window) and (found==True) and ("".join(phonemes[i-1-window:i-1]) not in ending) : #two previous phonemes (number determined by 'window')must be word-end
                        found=False
                     
@@ -96,41 +97,48 @@ def update_line(phonemes, window):
                     if (found==True) and (i != 0):
                         lexicon.update([candidate_pre_word])
                         logger.info("Candidate pre word {} not found in lexicon added".format(candidate_pre_word))
-                        segmentation_output.append(candidate_pre_word)
                         if len(phonemes[:i])>=2: # f the list of phonemes before the word chunk consideredhas more than 2phonemes
-                            beginning.update(["".join(phonemes[0:2])])
-                            ending.update(["".join(phonemes[i-2:i])])
-                            logger.info("Bi-phonemes {} added in beginning".format("".join(phonemes[0:2])))
-                            logger.info("Bi-phonemes {} added in ending".format("".join(phonemes[i-2:i])))
+                            beginning.update(["".join(phonemes[0:window])])
+                            ending.update(["".join(phonemes[i-window:i])])
+                            logger.info("Bi-phonemes {} added in beginning".format("".join(phonemes[0:window])))
+                            logger.info("Bi-phonemes {} added in ending".format("".join(phonemes[i-window:i])))
                         
                     if found==True: 
-                        if len(candidate_list)>=2:
-                            beginning.update(["".join(candidate_list[0:2])]) #beginning BI-phonemes added
-                            ending.update(["".join(candidate_list[-2:])])  #ending BI-phonemes added
-                            logger.info( "Bi-phonemes {} added in beginning".format("".join(candidate_list[0:2])))
-                            logger.info( "Bi-phonemes {} added in ending".format("".join(candidate_list[-2:])))
+                        if len(candidate_list)>=window:
+                            beginning.update(["".join(candidate_list[0:window])]) #beginning BI-phonemes added
+                            ending.update(["".join(candidate_list[-window:])])  #ending BI-phonemes added
+                            logger.info( "Bi-phonemes {} added in beginning".format("".join(candidate_list[0:window])))
+                            logger.info( "Bi-phonemes {} added in ending".format("".join(candidate_list[-window:])))
                     lexicon.update([candidate_word])
                     logger.info( "Candidate word {} added in lexicon".format(candidate_word))
                     segmentation_output.append(candidate_word)
+                    logger.warning("word {} added in segmentation output".format(candidate_word))
                         
-                    if j != len(phonemes):
+                    if (j != len(phonemes)) and (len(phonemes)>=window) : #
                         return update_line(phonemes[j:], window) #repeat the procedure for the list of phonemes without the previous phonemes n° 1, ..., j-1
-                    break
-            
+                       
+                    break  
             else:
                 pass
         i+=1
     
-    if found != True and len(phonemes)>=2: # if the list of phoneme considered has more than 2 phonemes
-            beginning.update(["".join(phonemes[0:2])])
-            logger.info( " Bi-phonemes {} added in beginning".format("".join(phonemes[0:2])))
-            ending.update(["".join(phonemes[i-2:i])])
-            logger.info("Bi-phonemes {} added in ending ".format("".join(phonemes[i-2:i])))
+    if (found != True) :
+        if len(phonemes)>=window: # if the list of phoneme considered has more than 2 phonemes, add it to lexicon 
+            beginning.update(["".join(phonemes[0:window])])
+            logger.info( " Bi-phonemes {} added in beginning".format("".join(phonemes[0:window])))
+            ending.update(["".join(phonemes[i-window:i])])
+            logger.info("Bi-phonemes {} added in ending ".format("".join(phonemes[i-window:i])))
             lexicon.update(["".join(phonemes)])
             logger.info( " Utterance or end-of-utterance not in lexicon {} added ".format("".join(phonemes)))
-            segmentation_output.append("".join(phonemes))
-        
+        segmentation_output.append("".join(phonemes))
+        logger.warning("chunk {} added in segmentation output".format("".join(phonemes)))
+    
+    segmentation_output.append("\n") #go back to line at the end of the utterance segmented    
+    
     return(segmentation_output)
+
+
+
 
 ### Sort by frequency
 #convert the dictionnary containing the lexicon found by puddle and its occurences into a list to be able to sort it by frequency            
@@ -142,13 +150,15 @@ def sort_counter(d):
     l_sorted.reverse()
     return(l_sorted)
 
+
+
 ### Puddle pipeline
-def pipeline_puddle(tags_file, res_folder, window):
+def pipeline_puddle(path_tags_file, res_folder, output_file, window):
     ''' puddle pipeline'''
-    with open(tags_file,'r') as f:
-        #replace tags by space and delete double ande triple space
+    #replace tags by space and delete double ande triple space
+    with open(path_tags_file,'r') as f:
         filedata = f.read()
-        filedata = filedata.replace(';esyll', '')
+        filedata = filedata.replace(';esyll', '') # to join phonemes between ';esyll' if the unity of input wanted is syllable
         filedata = filedata.replace(';eword', '')
         filedata = filedata.replace('  ', ' ')
         filedata = filedata.replace('  ', ' ')
@@ -159,80 +169,46 @@ def pipeline_puddle(tags_file, res_folder, window):
             
     #read the file without tags
     with open(res_folder+ '/input.txt','r') as f_input: 
-        
-        output_seg=res_folder+'/cfgold.txt'
-        f_seg=open(output_seg,'w')
         for line in f_input.readlines(): # get each line of the file  
             if len(line) != 0:
-                line_seg=update_line(line.strip().split(), window)#split line as a list of strings which are separated by a space in the line
-                for word in line_seg:
-                    f_seg.write(word + " " )
-                f_seg.write("\n")
+                line_seg=update_line(line.strip().split(), window) #split line as a list of strings which are separated by a space in the line
+        output_seg=output_file
+        f_seg=open(output_seg,'w')
+        for word in line_seg: #the last line is the segmented output
+            if word!="\n" :
+                f_seg.write(word + " " )
+            else: 
+                f_seg.write(word)
     ### Write down the list of frequency into an ouput file 
     l=sort_counter(lexicon)
     output_freq=res_folder+'/freq-top.txt'
     f=open(output_freq,'w')
     for i in range(0,len(l)) : 
-        f.write(l[i][0] + " " + str(l[i][1]) +"\n")
+        f.write(str(l[i][1]) + " " + l[i][0]  +"\n")
       
     #list of beginning biphones with frequency
-    b_freq==res_folder+'/beginning-freq.txt'
+    beg=sort_counter(beginning)
+    b_freq=res_folder+'/beginning-freq.txt'
     b=open(b_freq,'w')
-    for i in range(0,len(l)) : 
-        b.write(l[i][0] + " " + str(l[i][1]) +"\n")
+    for i in range(0,len(beg)) : 
+        b.write(str(beg[i][1])+ " " + beg[i][0]  +"\n")
         
     #list of ending biphones with frequency
-    e_freq==res_folder+'/ending-freq.txt'
+    end=sort_counter(ending)
+    e_freq=res_folder+'/ending-freq.txt'
     e=open(e_freq,'w')
-    for i in range(0,len(l)) : 
-        e.write(l[i][0] + " " + str(l[i][1]) +"\n")
+    for i in range(0,len(end)) : 
+        e.write(str(end[i][1]) + " " + end[i][0]  +"\n")
         
+
+
 
 if __name__=="__main__":
      parser = argparse.ArgumentParser(description='Divide your corpus in k sub corpus linearly.')
-     parser.add_argument('-s', '--output_seg', help='the absolute path of your output directory where segmentation of input will be put')
+     parser.add_argument('-p', '--path_tags_file', help='the absolute path of your tags file')
      #parser.add_argument('-d', '--decay',   help='parameter that decrease the size of lexicon -- modelize memory of lexicon ')
+     parser.add_argument('-r', '--res_folder', help='absolute path of the folder of results')
+     parser.add_argument('-o', '--output_file', help='name of the output file, might change for crossvalidation')
      parser.add_argument('-w', '--window', type=int, help='number of phonemes to be taken into account for boundary constraint')
-     parser.add_argument('-r', '--res_folder', type=int, help='absolute path of the folder of results')
      args=parser.parse_args()
-     pipeline_puddle(input_file=args.input_file,res_folder=args.res_folder , window=args.window)
-     
-
-### Apply function to file
-full_brent='/Users/elinlarsen/Documents/puddle_test/Brent/tags.txt'
-#brent_child='/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/recipes/childes/data/Brent/c1-0902/tags.txt'
-test='/Users/elinlarsen/Documents/puddle_test/tags_test.txt'
-
-#python puddle.py -i /../../../CDSwordSeg_Pipeline/recipes/childes/data/  
-res ='/Users/elinlarsen/Documents/puddle_test/Brent'
-pipeline_puddle(full_brent, res, window=2)      #PROELEME AVEC LE LEXICON in or out the fonction ?
-
-#test update line
-'''
-seg_test=[]
-with open(test,'r') as test: 
-    for line in test.readlines():
-        seg_test.append(update_line(line.strip().split(" "), 2))
-
-
-with open(test,'r') as t:
-    for line in t.readlines():
-        line.replace(';esyll', '')
-        line.replace(';eword', '')
-        print(line)        
-
-# Read in the file
-filedata = None
-with open(test, 'r') as file :
-  filedata = file.read()
-
-# Replace the target string
-filedata = filedata.replace(';esyll', '')
-filedata = filedata.replace(';eword', '')
-filedata = filedata.replace('  ', ' ')
-filedata = filedata.replace('  ', ' ')
-
-#write the input of algo
-with open('puddle_test/input_test.txt', 'w') as file:
-  file.write(filedata)
-'''
+     pipeline_puddle(path_tags_file=args.path_tags_file,res_folder=args.res_folder, output_file=args.output_file, window=args.window)
