@@ -8,28 +8,6 @@ Created on Fri Feb 24 10:45:32 2017
 
 from collections import Counter
 
-
-def create_counter_syll(corpus_file):
-    syllable=Counter()
-
-    with open(corpus_file,'r') as c:
-        list_file=c.readlines() 
-        corpus_as_list=list_file[0] 
-
-        list_lines=corpus_as_list.split('UB')
-        print list_lines[:10]
-        
-        for line in list_lines: 
-            for syl in line.split() :
-                syllable.update([syl])          
-    return syllable
-    
-#test
-c='/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/full_corpus/TPs/syllable/boundaries_marked.txt'
-tags='/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/recipes/childes/data/Brent/tags.txt'
-dic=create_counter_syll(tags)
-
-
 def create_counter_syll(tags_file):
     syllable=Counter()
 
@@ -45,3 +23,29 @@ def create_counter_syll(tags_file):
                 syllable.update([syl])          
     return syllable
     
+
+#test
+tags='/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/recipes/childes/data/Brent/tags.txt'
+dic=create_counter_syll(tags)
+
+
+def generate_unigram_grammar_syll_file(dic_syll, name_file):
+    sorted_syllables=[]
+    for key,value in sorted(dic.items()):
+        sorted_syllables.append(key)
+    with open (name_file,'w') as g:
+        g.write('1 1 Sentence --> Colloc0s' + '\n')
+        g.write('1 1 Colloc0s --> Colloc0'+ '\n')
+        g.write('1 1 Colloc0s --> Colloc0 Colloc0s'+ '\n')
+        g.write('Colloc0 --> Syllables'+ '\n')
+        g.write('1 1 Syllables --> Syllable'+ '\n')
+        g.write('1 1 Syllables --> Syllable Syllables'+ '\n')
+        for syl in sorted_syllables: 
+            g.write('1 1 Syllable --> ' + syl + '\n')
+        
+#test
+name='/Users/elinlarsen/Documents/CDSwordSeg/algoComp/algos/AG/grammars/syllable/Colloc0syll_en.lt'
+generate_unigram_grammar_syll_file(dic, name)  
+            
+        
+
