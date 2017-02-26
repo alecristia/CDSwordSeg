@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# Script for launching n-grams, the step 4 of segment_one_corpus.sh
-# Author: Mathieu Bernard <mmathieubernardd@gmail.com>
+# Script for launching ALGO specifying the type of unit representation that ALGO will be using (syllable or phoneme) and the WINDOW (1 or 2) that puddle use for boundary constraint. The SETUP argument is for debugging AG
+# Author: Elin Larsen elin_larsen1@hotmail.fr
 
 ABSPATH=$1
 RESFOLDER=$2
