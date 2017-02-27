@@ -112,9 +112,10 @@ done
 echo "end"
 
 
+# espeak
 # elif [ "$LANGUAGE" = "catalan" ]
 #           then
 #          echo "recognized $LANGUAGE"
 #
-#          echo "using festival"
+#          echo "using espeak"
 #          /fhgfs/bootphon/scratch/lfibla/phonemizer -l ca $ORTHO -o ${KEYNAME}-tags.txt
