@@ -33,48 +33,40 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	  echo "recognized $LANGUAGE"
 
 		echo "using espeak"
-		phonemize -l ca $ORTHO -o intoperl.tmp
+		phonemize -l ca $ORTHO -o phono.txt > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
-	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
+	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl catalan intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
-
-elif [ "$LANGUAGE" = "cspanish" ]
+	elif [ "$LANGUAGE" = "cspanish" ]
 		 then
 		echo "recognized $LANGUAGE"
 	tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
-		sed 's/chs/ks/g' |
-		sed 's/ch/S/g' | # substitute all ch by tS
+		sed 's/ch/C/g' | # substitute all ch by tS
 		sed 's/v/b/g' |
-		sed 's/ce/se/g' |
-		sed 's/ci/si/g' |
-		sed 's/ca/ka/g' |
-		sed 's/co/ko/g' |
-		sed 's/cu/ku/g' |
+		sed 's/z/O/g' |
+		sed 's/ce/Oe/g' |
+		sed 's/ci/Oi/g' |
+		sed 's/c/k/g' |
 		sed 's/rr/R/g' | # substitute the spanish rr by 5
 		sed 's/ r/ R/g' | # substitue the initial r for R
 		sed 's/^r/R/g' | # substitue the initial r for R
-		sed 's/ll/L/g' |
-		sed 's/j/3/g' |
+		sed 's/ll/L/g' | # very mixed in spain choose between L and y
+		sed 's/j/x/g' |
 		sed 's/qu/k/g' |
 		sed 's/h//g' | # removing h
-		sed 's/ny/N/g' |
-		sed 's/tz/dz/g' |
-		sed 's/dj/d3/g' |
-		sed 's/tx/tS/g' |
-		sed 's/ix/S/g' |
+		sed 's/ñ/N/g' |
 		sed 's/á/a/g' |
 		sed 's/é/e/g' |
 		sed 's/í/i/g' |
 		sed 's/ó/o/g' |
 		sed 's/ú/u/g' |
 		sed 's/ü/u/g'  > intoperl.tmp
-
 		echo "syllabify-corpus.pl"
 		perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	fi
-"""
+
 		echo "removing blank lines"
 		sed '/^$/d' outofperl.tmp |
 		sed '/^ $/d'  |
@@ -86,7 +78,7 @@ elif [ "$LANGUAGE" = "cspanish" ]
 	sed 's/ ; e w o r d/ ;eword /g' |
 	sed 's/\// ;esyll /g'|
 	tr -s ' ' > tmp.tmp
-"""
+
 		mv tmp.tmp ${RES_FOLDER}/${KEYNAME}-tags.txt
 
 	echo "creating gold versions"
