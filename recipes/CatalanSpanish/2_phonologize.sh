@@ -55,7 +55,7 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 		echo "recognized $LANGUAGE"
 	tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 		sed 's/chs/ks/g' |
-		sed 's/ch/S/g' | # substitute all ch by tS	
+		sed 's/ch/S/g' | # substitute all ch by tS
 		sed 's/v/b/g' |
 		sed 's/ce/se/g' |
 		sed 's/ci/si/g' |
@@ -110,3 +110,11 @@ done
 
 
 echo "end"
+
+
+# elif [ "$LANGUAGE" = "catalan" ]
+#           then
+#          echo "recognized $LANGUAGE"
+#
+#          echo "using festival"
+#          /fhgfs/bootphon/scratch/lfibla/phonemizer -l ca $ORTHO -o ${KEYNAME}-tags.txt
