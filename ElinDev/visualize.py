@@ -25,7 +25,7 @@ import read
 import analyze
 import model
 
-def plot_algos_CDI_by_age(path_ortho,path_res, sub=["full_corpus"], algos=["dibs", "TPs", "puddle", "AGu"], ages=8, CDI_file="PropUnderstandCDI.csv",freq_file="/freq-words.txt", name_vis="plot"):
+def plot_algos_CDI_by_age(path_ortho,path_res, sub=["full_corpus"], algos=["dibs", "TPs", "puddle", "AGu"], unit="syllable",ages=8, CDI_file="PropUnderstandCDI.csv",freq_file="/freq-words.txt", name_vis="plot"):
     data=[]
     for age in ages: 
         for algo in algos:
@@ -33,7 +33,7 @@ def plot_algos_CDI_by_age(path_ortho,path_res, sub=["full_corpus"], algos=["dibs
             if algo=='gold': 
                 df_algo=analyze.freq_token_in_corpus(path_ortho)
             else : 
-                df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo, freq_file)
+                df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo, unit,freq_file)
             df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
             x=np.log(df_data['Freq'+algo])
             y=df_data['prop']
@@ -68,12 +68,12 @@ def plot_algos_CDI_by_age(path_ortho,path_res, sub=["full_corpus"], algos=["dibs
     fig=go.Figure(data=data, layout=layout)
     plot=py.iplot(fig, filename=name_vis)
     
-def plot_by_lexical_classes(path_res, sub, algos, ages, lexical_classes, save_file=False, CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", name_vis="plot"):  
+def plot_by_lexical_classes(path_res, sub, algos,unit, ages, lexical_classes, save_file=False, CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", name_vis="plot"):  
     data=[]
     for age in ages: 
         for algo in algos:
             df_CDI=read.read_CDI_data_by_age(CDI_file, age, save_file)
-            df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo, freq_file)
+            df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
             df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
             print(df_data)
             for lc in lexical_classes:
@@ -110,7 +110,7 @@ def plot_by_lexical_classes(path_res, sub, algos, ages, lexical_classes, save_fi
     
     
 
-def plot_algo_gold_lc(path_res, sub, algos, gold, out='r2', CDI_file="PropUnderstandCDI.csv", lexical_classes=['nouns','function_words', 'adjectives', 'verbs'],freq_file="/freq-words.txt", name_vis="plot"):  
+def plot_algo_gold_lc(path_res, sub, algos,unit, gold, out='r2', CDI_file="PropUnderstandCDI.csv", lexical_classes=['nouns','function_words', 'adjectives', 'verbs'],freq_file="/freq-words.txt", name_vis="plot"):  
     data=[]
     df_r_2=pd.DataFrame(0, columns=lexical_classes, index=algos)
     df_std_err=pd.DataFrame(0, columns=lexical_classes, index=algos)
@@ -120,7 +120,7 @@ def plot_algo_gold_lc(path_res, sub, algos, gold, out='r2', CDI_file="PropUnders
         
     for algo in algos:
         df_CDI=read.read_CDI_data_by_age(CDI_file, age=8, save_file=False) #age does not matte here
-        df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo, freq_file)
+        df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
         df=pd.merge(df_gold, df_algo, on=['Type'], how='inner')
         df_data=pd.merge(df_CDI, df, on=['Type'], how='inner')
         df_data=df_data[['lexical_classes','Type','Freqgold', 'Freq'+algo]]
@@ -166,6 +166,75 @@ def plot_algo_gold_lc(path_res, sub, algos, gold, out='r2', CDI_file="PropUnders
     elif out=='std_err': 
         return(df_std_err)
  
+    
+def plot_bar_R2_algos_unit_by_age(df_R2, df_std_err, ages,algos, name_vis): 
+    data=[]
+    x=ages
+    for algo in algos: 
+        y=df_R2.loc[algo]
+        err_y=np.array(df_std_err.loc[algo])
+        trace=go.Bar(
+                    x=x,
+                    y=y,
+                    error_y=dict(
+                        type='data',
+                        array=np.array(err_y),
+                        visible=True 
+                            ),
+                name='algo ' + algo,
+                visible='legendonly',
+                showlegend=True,)
+        data.append(trace)
+    layout= go.Layout(
+    title= name_vis ,
+    hovermode= 'closest',
+    xaxis= dict(
+        title= 'Children ages',
+        #type='log',
+        ticklen= 5,
+        zeroline= False,
+        gridwidth= 2,),
+    yaxis=dict(
+        domain=[0, 1],
+        title= 'R2',
+        #type='log',
+        ticklen= 5,
+        gridwidth= 2,))   
+    fig=go.Figure(data=data, layout=layout)
+    plot=py.iplot(fig, filename=name_vis)
+    
+    
+def plot_bar_f_score_algos(df_fscore, algos, unit=['syllable', 'phoneme'], name_vis='Fscore visualiation'):
+    data=[]
+    x=ages
+    for u in unit : 
+        for algo in algos: 
+            y=df_fscore.loc[algo]
+            trace=go.Bar(
+                        x=x,
+                        y=y,
+                    name='algo ' + algo + 'with unit represation as' + unit,
+                    visible='legendonly',
+                    showlegend=True,)
+            data.append(trace)
+    layout= go.Layout(
+    title= name_vis ,
+    hovermode= 'closest',
+    xaxis= dict(
+        title= 'Word segmentation algorithm',
+        #type='log',
+        ticklen= 5,
+        zeroline= False,
+        gridwidth= 2,),
+    yaxis=dict(
+        domain=[0, 1],
+        title= 'Token F-score',
+        #type='log',
+        ticklen= 5,
+        gridwidth= 2,))   
+    fig=go.Figure(data=data, layout=layout)
+    plot=py.iplot(fig, filename=name_vis)
+    
            
 
     '''
@@ -325,53 +394,4 @@ def plot_logistic_algo_CDI(path_ortho,path_res, sub, algos, ages, CDI_file,freq_
 # A FINIR
 '''
 
-'''            
-            
-### old script 
-# GOLD   
-'''
-        df_gold=analyze.freq_token_in_corpus(path_ortho)
-        df_data_g=pd.merge(df_CDI, df_gold, on=['Type'], how='inner')
-        x=np.log(df_data_g['Freq'])
-        y=df_data_g['prop']
-        slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
-        line=slope*x+intercept
-        df_r_2.iloc[(algos+['gold']).index('gold'), ages.index(age)]=r_value**2
-        name_gold= 'gold' + ' age ' + str(age)
-        trace_g=go.Scatter(
-            x=x,
-            y=y,
-            mode='markers+text',
-            name=name_gold ,
-            text=df_data_g['Type'],
-            textposition='top', 
-            visible='legendonly', 
-            #legendgroup=name_gold,
-            showlegend=True,
-            )
-        trace_fit_g=go.Scatter(
-            x=x,
-            y=line,
-            mode='markers',
-            name=name_gold +' fit',
-            text=df_data_g['Type'],
-            textposition='top', 
-            visible='legendonly', 
-            #legendgroup=name_gold,
-            showlegend=True,
-            )
-        trace_hist_g=go.Histogram(
-            x=x,
-            opacity=0.75,
-            name=name_gold + ' histogram',
-            visible='legendonly',
-            xaxis= "x2",
-            yaxis='y2',
-            #legendgroup=name_gold,
-            showlegend=True,
-     
-            )
-        data.append(trace_g)
-        data.append(trace_fit_g)
-        data.append(trace_hist_g)
-'''
+

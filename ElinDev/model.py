@@ -26,7 +26,7 @@ import read
 import analyze
 
 
-def linear_algo_CDI(path_ortho,path_res, sub, algos, ages, CDI_file, freq_file="/freq-words.txt", out='r2'):
+def linear_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_file="/freq-words.txt", out='r2'):
     df_r_2=pd.DataFrame(0, columns=ages, index=algos)
     df_std_err=pd.DataFrame(0, columns=ages, index=algos)
     for age in ages: 
@@ -37,7 +37,7 @@ def linear_algo_CDI(path_ortho,path_res, sub, algos, ages, CDI_file, freq_file="
             if algo=='gold': 
                 df_algo=analyze.freq_token_in_corpus(path_ortho)
             else : 
-                df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo, freq_file)
+                df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
             df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
             x=np.log(df_data['Freq'+algo])
             y=df_data['prop']
@@ -49,7 +49,7 @@ def linear_algo_CDI(path_ortho,path_res, sub, algos, ages, CDI_file, freq_file="
     elif out=='std_err': 
         return(df_std_err)
     
-def logistic_algo_CDI(path_ortho,path_res, sub, algos, ages, CDI_file, NbInfant_file="CDI_NbInfantByAge",freq_file="/freq-words.txt"):
+def logistic_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file, NbInfant_file="CDI_NbInfantByAge",freq_file="/freq-words.txt"):
     df_r_2_clf=pd.DataFrame(0, columns=ages, index=algos)
     df_std_err=pd.DataFrame(0, columns=ages, index=algos)
     for age in ages:  
@@ -60,10 +60,10 @@ def logistic_algo_CDI(path_ortho,path_res, sub, algos, ages, CDI_file, NbInfant_
             if algo=='gold': 
                 df_algo=analyze.freq_token_in_corpus(path_ortho)
             else : 
-                df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo, freq_file)
+                df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
             df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
             x=np.log(df_data['Freq'+algo])
-            y=np.log(df_data['prop']/np.repeat(1,len(df_data['prop'])))
+            y=np.log(df_data['prop']/(np.repeat(1,len(df_data['prop']))-df_data['prop']))
             slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
             df_r_2_clf.iloc[algos.index(algo), ages.index(age)]=r_value**2
             df_std_err.iloc[algos.index(algo), ages.index(age)]=std_err       
