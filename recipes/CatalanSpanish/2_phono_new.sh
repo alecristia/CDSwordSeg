@@ -31,9 +31,14 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	if [ "$LANGUAGE" = "catalan" ]
 	   then
 	  echo "recognized $LANGUAGE"
+	#	sed 's/v/b/g' < "$ORTHO"
 
 		echo "using espeak"
-		phonemize -l ca $ORTHO -o phono.txt > intoperl.tmp
+		phonemize -l ca $ORTHO -o phono.tmp
+
+		echo "substituting letters"
+		sed -i 's/β/B/g' phono.tmp |
+		sed -i 's/^ *//' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
 	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl catalan intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
@@ -63,7 +68,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ú/u/g' |
 		sed 's/ü/u/g'  > intoperl.tmp
 		echo "syllabify-corpus.pl"
-		perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
+		perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl cspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	fi
 
