@@ -38,6 +38,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 
 		echo "substituting letters"
 		sed 's/β/b/g' phono.tmp |
+		sed 's/ɣʊ/g/g' |
 		sed 's/ɣ/g/g' |
 		sed 's/ɾr/R/g' |
 		sed 's/r/R/g' |
@@ -45,9 +46,15 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ʋ/b/g' |
 		sed 's/ð/d/g' |
 		sed 's/ʑ/J/g' |
+		sed 's/jɕʊ/So/g' |
 		sed 's/jɕ/S/g' |
 		sed 's/ɕ/S/g' |
 		sed 's/ɲ/N/g' |
+		sed 's/mp/m/g' |
+		sed 's/kw/k/g' |
+		sed 's/pɛrʊ/pɛro/g' |
+		sed 's/anəm/anem/g' |
+		sed 's/ɐ/a/g' |
 		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
