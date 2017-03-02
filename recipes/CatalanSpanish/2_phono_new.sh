@@ -37,7 +37,8 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		phonemize -l ca $ORTHO -o phono.tmp
 
 		echo "substituting letters"
-		sed 's/β/b/g' phono.tmp |
+		sed 's/βəɾəna/bErEna/g' phono.tmp |
+		sed 's/β/b/g' |
 		sed 's/ɣʊ/g/g' |
 		sed 's/ɣ/g/g' |
 		sed 's/ɾr/R/g' |
@@ -55,6 +56,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/pɛrʊ/pɛro/g' |
 		sed 's/anəm/anem/g' |
 		sed 's/ɐ/a/g' |
+		sed 's/ə/E/g' |
 		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
