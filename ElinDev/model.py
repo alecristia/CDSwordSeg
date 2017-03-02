@@ -27,24 +27,33 @@ import read
 import analyze
 
 
-def linear_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_file="/freq-words.txt", out='r2'):
+def linear_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_file="/freq-words.txt", out='r2',evaluation="true_positive"):
     df_r_2=pd.DataFrame(0, columns=ages, index=algos)
     df_std_err=pd.DataFrame(0, columns=ages, index=algos)
+    df_gold=analyze.freq_token_in_corpus(path_ortho)
     for age in ages: 
         for algo in algos:
             df_CDI=read.read_CDI_data_by_age(CDI_file, age, save_file=False)
-            df_algo=analyze.freq_token_in_corpus(path_ortho)
-            df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
             if algo=='gold': 
-                df_algo=analyze.freq_token_in_corpus(path_ortho)
+                df_algo=df_gold
             else : 
-                df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
+                tp=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
+                if evaluation=='true_positive': 
+                    df_algo=tp
+                elif evaluation=='recall':
+                    df_algo=pd.DataFrame(tp['Freq'+algo]).div(df_gold.Freqgold, axis='index') 
+                    df_algo['Type']=tp['Type']
+    
             df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
             x=np.log(df_data['Freq'+algo])
             y=df_data['prop']
             slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
             df_r_2.iloc[algos.index(algo), ages.index(age)]=r_value**2
+            df_r_2['unit']=np.repeat(unit,len(df_r_2.index))
+
             df_std_err.iloc[algos.index(algo), ages.index(age)]=std_err
+            df_std_err['unit']=np.repeat(unit,len(df_std_err.index))
+
     if out=='r2' :
         return(df_r_2)
     elif out=='std_err': 
@@ -73,8 +82,8 @@ def logistic_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_
 #### using proportion of infants understanding a word and number of infant for each age => getting number of infants per age understanding a word 
 def logistic_nb_infant_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file, NbInfant_file="CDI_NbInfantByAge",freq_file="/freq-words.txt", Test_size=0.5, out='r2'):
     df_nb_i=pd.read_csv(NbInfant_file,sep=";")
-    df_r_2_clf=pd.DataFrame(0, columns=ages, index=algos)
-    df_std_err_clf=pd.DataFrame(0, columns=ages, index=algos)
+    r_2=pd.DataFrame(0, columns=ages, index=algos)
+    std_err=pd.DataFrame(0, columns=ages, index=algos)
     
     for age in ages : 
         for algo in algos : 
@@ -109,10 +118,14 @@ def logistic_nb_infant_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_
             clf.fit(X_train, Y_train, sample_weight=vec_train)
             y_pred=clf.predict_proba(X_test) # returns a dataframe of 2 colums : first P(X=0|X_test) and second, P(X=1|X_test)
             
-            df_r_2_clf.iloc[algos.index(algo), ages.index(age)]=r2_score(Y_test, y_pred[:,1])  
-            df_std_err_clf.iloc[algos.index(algo), ages.index(age)]=mean_squared_error(Y_test, y_pred[:,1])
+            r_2.iloc[algos.index(algo), ages.index(age)]=r2_score(Y_test, y_pred[:,1])  
+
+            r_2['unit']=np.repeat(unit,len(r_2.index))
+            std_err.iloc[algos.index(algo), ages.index(age)]=mean_squared_error(Y_test, y_pred[:,1])
+
+            std_err['unit']=np.repeat(unit,len(std_err.index))
     if out=='r2' :
-        return(df_r_2_clf)
+        return(r_2)
     elif out=='std_err': 
-        return(df_std_err_clf)
+        return(std_err)
             

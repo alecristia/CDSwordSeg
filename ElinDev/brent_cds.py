@@ -108,27 +108,44 @@ data_r2=visualize.plot_algos_CDI_by_age(path_ortho,path_res, SUBS, ['gold'], uni
 # ******* Model selection : Linear or Logistics *******
 
 # LINEAR
-R2_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", range(8,19), CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out='r2')
+R2_ALGOs_CDI_phoneme=linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", range(8,19), CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out='r2', evaluation='true_positive')
 
-R2_ALGOs_CDI_syllable=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "syllable", range(8,19), CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out='r2')
+R2_ALGOs_CDI_syllable=linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "syllable", range(8,19), CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out='r2',evaluation='true_positive')
 
-std_err_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", range(8,19), CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out='std_err')
+std_err_ALGOs_CDI_phoneme=linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", range(8,19), CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out='std_err',evaluation='true_positive')
 
-std_err_ALGOs_CDI_syllable=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "syllable", range(8,19), CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out='std_err')
+std_err_ALGOs_CDI_syllable=linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "syllable", range(8,19), CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out='std_err',evaluation='true_positive')
+
+R2_lin=pd.concat([R2_ALGOs_CDI_syllable,R2_ALGOs_CDI_phoneme])
+
+std_err_lin=pd.concat([std_err_ALGOs_CDI_syllable,std_err_ALGOs_CDI_phoneme])
+
+
+#evaluation on recall
+ALGOS_=['tps','dibs','puddle_py','AGu']
+R2_recall_ph=R2_ALGOs_CDI_phoneme=linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS_, "phoneme", range(8,19), CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out='r2', evaluation='recall')
+R2_recall_syl=R2_ALGOs_CDI_phoneme=linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS_, "syllable", range(8,19), CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out='r2', evaluation='recall')
+
 
 # LOGISTIC
-R2_log_phoneme=model.logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'phoneme', range(8,19), 
+R2_log_phoneme=logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'phoneme', range(8,19), 
         CDI_file="PropUnderstandCDI.csv",NbInfant_file=nb_i_file ,freq_file="/freq-words.txt", Test_size=0.20,out='r2') 
-          
-R2_log_syllable=model.logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'syllable', range(8,19), 
+ 
+         
+R2_log_syllable=logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'syllable', range(8,19), 
     CDI_file="PropUnderstandCDI.csv",NbInfant_file=nb_i_file ,freq_file="/freq-words.txt", Test_size=0.20,out='r2')                    
 
-std_err_log_ALGOs_CDI_phoneme=logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'phoneme', range(8,19), 
+
+R2_log=pd.concat([R2_log_syllable, R2_log_phoneme])
+
+
+std_err_log_ph=logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'phoneme', range(8,19), 
         CDI_file="PropUnderstandCDI.csv",NbInfant_file=nb_i_file ,freq_file="/freq-words.txt", Test_size=0.20,out='std_err') 
 
-std_err_log_ALGOs_CDI_syllable=logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'syllable', range(8,19), 
+std_err_log_syl=logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'syllable', range(8,19), 
         CDI_file="PropUnderstandCDI.csv",NbInfant_file=nb_i_file ,freq_file="/freq-words.txt", Test_size=0.20,out='std_err') 
-          
+
+std_err_log=pd.concat([std_err_log_syl, std_err_log_ph])       
 
 '''
 R2score for LogisticRegression
@@ -147,13 +164,12 @@ visualize.plot_algos_CDI_by_age(path_ortho,path_res, ["full_corpus"], ['dibs', '
     
 # R2 for differents ages
 
-visualize.plot_bar_R2_algos_unit_by_age(R2_ALGOs_CDI_phoneme, std_err_ALGOs_CDI_phoneme, range(8,19),ALGOS, name_vis="R2 ALGOs versus CDI with phoneme representation")
+# linear
+plot_bar_R2_algos_unit_by_age(R2_lin, std_err_lin, range(8,19),ALGOS, ['syllable', 'phoneme'],name_vis="R2 ALGOs versus CDI - syllable and phoneme")
 
-visualize.plot_bar_R2_algos_unit_by_age(R2_ALGOs_CDI_syllable, std_err_ALGOs_CDI_syllable, range(8,19),ALGOS, name_vis="R2A ALGOs versus CDI with syllable representation")
+#logistic
+plot_bar_R2_algos_unit_by_age(R2_log, std_err_log, range(8,19),ALGOS, ['syllable', 'phoneme'], name_vis="LOG R2 ALGOs versus CDI with phoneme representation")
 
-plot_bar_R2_algos_unit_by_age(R2_log_phoneme, std_err_log_ALGOs_CDI_phoneme, range(8,19),ALGOS, name_vis="LOG R2 ALGOs versus CDI with phoneme representation")
-
-plot_bar_R2_algos_unit_by_age(R2_log_syllable, std_err_log_ALGOs_CDI_syllable, range(8,19),ALGOS, name_vis="LOG R2 ALGOs versus CDI with syllable representation")
 
 
 # Lexical classes 

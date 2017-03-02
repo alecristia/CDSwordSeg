@@ -167,29 +167,34 @@ def plot_algo_gold_lc(path_res, sub, algos,unit, gold, out='r2', CDI_file="PropU
         return(df_std_err)
  
     
-def plot_bar_R2_algos_unit_by_age(df_R2, df_std_err, ages,algos, name_vis): 
+def plot_bar_R2_algos_unit_by_age(df_R2, df_std_err, ages, algos, unit=['syllable', 'phoneme'], name_vis="R2"): 
     data=[]
     x=ages
-    for algo in algos: 
-        y=df_R2.loc[algo]
-        err_y=np.array(df_std_err.loc[algo])
-        trace=go.Bar(
-                    x=x,
-                    y=y,
-                    error_y=dict(
-                        type='data',
-                        array=np.array(err_y),
-                        visible=True 
-                            ),
-                name='algo ' + algo,
-                visible='legendonly',
-                showlegend=True,)
-        data.append(trace)
+      
+    for u in unit :
+        gr_R2=df_R2.groupby('unit').get_group(u)
+        gr_std_err=df_std_err.groupby('unit').get_group(u)
+        print(gr_R2)
+        for algo in algos: 
+            y=gr_R2.loc[algo]
+            err_y=np.array(gr_std_err.loc[algo])
+            trace=go.Bar(
+                        x=x,
+                        y=y,
+                        error_y=dict(
+                            type='data',
+                            array=np.array(err_y),
+                            visible=True 
+                                ),
+                    name='algo ' + algo + ' ' + u,
+                    visible='legendonly',
+                    showlegend=True,)
+            data.append(trace)
     layout= go.Layout(
     title= name_vis ,
     hovermode= 'closest',
     xaxis= dict(
-        title= 'Children ages',
+        title= 'Children ages (months) ',
         #type='log',
         ticklen= 5,
         zeroline= False,
