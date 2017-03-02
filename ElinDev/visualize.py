@@ -359,39 +359,5 @@ def plot_logistic_algo_CDI(path_ortho,path_res, sub, algos, ages, CDI_file,freq_
  
 '''
 
-'''
-    trace_hist=go.Histogram(
-        x=x,
-        opacity=0.75,
-        name=name + ' histogram',
-        visible='legendonly',
-        #legendgroup=name,
-        xaxis= "x2",
-        yaxis='y2',
-        showlegend=True,
-        )
-    data.append(trace_hist)
-    
-    
-    dans le layout
-    ,
-    xaxis2= dict(
-        title= 'log(Score of algos)',
-        #type='log',
-        ticklen= 5,
-        zeroline= False,
-        gridwidth= 2,
-        anchor='y2'
-        ),
-     yaxis2=dict(
-        domain=[0, 0.25],
-        title=" Number of words",
-        side="left",
-        #overlaying="y",
-        )
-'''
-    
-# A FINIR
-'''
 
 
