@@ -37,8 +37,18 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		phonemize -l ca $ORTHO -o phono.tmp
 
 		echo "substituting letters"
-		sed 's/β/B/g' phono.tmp |
-		sed 's/,//g' > intoperl.tmp
+		sed 's/β/b/g' phono.tmp |
+		sed 's/ɣ/g/g' |
+		sed 's/ɾr/R/g' |
+		sed 's/r/R/g' |
+		sed 's/ɾ/r/g' |
+		sed 's/ʋ/b/g' |
+		sed 's/ð/d/g' |
+		sed 's/ʑ/J/g' |
+		sed 's/jɕ/S/g' |
+		sed 's/ɕ/S/g' |
+		sed 's/ɲ/N/g' |
+		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
 	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl catalan intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
