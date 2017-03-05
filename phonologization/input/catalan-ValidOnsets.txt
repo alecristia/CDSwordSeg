@@ -4,6 +4,7 @@ d
 f
 g
 J
+ʑ
 S
 l
 ʎ
@@ -11,12 +12,15 @@ m
 n
 ŋ
 N
+ɲ
 p
 R
 r
+ɾ
 s
 t
 z
+Z
 bl
 dr
 fl
