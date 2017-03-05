@@ -33,32 +33,35 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	  echo "recognized $LANGUAGE"
 
 		echo "using espeak"
-		phonemize -l ca $ORTHO -o phono.txt
+		phonemize -l ca $ORTHO -o phono.tmp
 
 		echo "substituting letters"
-		sed 's/β/b/g' phono.txt |
+		sed 's/β/b/g' phono.tmp |
 		sed 's/ɣʊ/g/g' |
 		sed 's/ɣ/g/g' |
-		sed 's/ɾr/R/g' |
-		sed 's/r/R/g' |
-		sed 's/ɾ/r/g' |
+		sed 's/ɾr/r/g' |
+	#	sed 's/r/R/g' |
+	#	sed 's/ɾ/5/g' |
 		sed 's/ʋ/b/g' |
 		sed 's/ð/d/g' |
-		sed 's/ʑ/J/g' |
+		sed 's/k/kk/g' |
+		sed 's/^ɛs/es/g' |
+		sed 's/^ɛt/ət/g' |
+#		sed 's/ʑ/J/g' |
 		sed 's/jɕʊ/So/g' |
 		sed 's/jɕ/S/g' |
 		sed 's/ɕ/S/g' |
-		sed 's/ɲ/N/g' |
-		sed 's/mp/m/g' |
-		sed 's/kw/k/g' |
+	#	sed 's/ɲ/N/g' |
+		sed 's/mp^/m/g' |
+	#	sed 's/kw/k/g' |
 		sed 's/pɛrʊ/pɛro/g' |
 		sed 's/anəm/anem/g' |
 		sed 's/ɐ/a/g' |
-		sed 's/ə/E/g' |
-		sed 's/ˌ//g' > intoperl.txt
+		sed 's/ə/ee/g' |
+		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
-	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl catalan intoperl.txt outofperl.tmp $PATH_TO_SCRIPTS
+	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl catalan intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	elif [ "$LANGUAGE" = "cspanish" ]
 		 then
@@ -71,7 +74,6 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ci/Oi/g' |
 		sed 's/c/k/g' |
 		sed 's/rr/R/g' | # substitute the spanish rr by 5
-		sed 's/ r/ R/g' | # substitue the initial r for R
 		sed 's/^r/R/g' | # substitue the initial r for R
 		sed 's/ll/L/g' | # very mixed in spain choose between L and y
 		sed 's/j/x/g' |
@@ -109,6 +111,8 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	sed 's/;esyll//g'  < ${RES_FOLDER}/${KEYNAME}-tags.txt |
 		tr -d ' ' |
 		sed 's/;eword/ /g' > ${RES_FOLDER}/${KEYNAME}-gold.txt
+
+		# sed fix ee -> E | kw -> k
 
 done
 
