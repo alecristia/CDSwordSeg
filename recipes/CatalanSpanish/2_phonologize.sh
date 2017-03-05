@@ -32,7 +32,6 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 		sed 's/ci/Oi/g' |
 	  sed 's/c/k/g' |
 	  sed 's/rr/R/g' | # substitute the spanish rr by 5
-	  sed 's/ r/ R/g' | # substitue the initial r for R
 	  sed 's/^r/R/g' | # substitue the initial r for R
 	  sed 's/ll/L/g' | # very mixed in spain choose between L and y
 	  sed 's/j/x/g' |
@@ -53,22 +52,22 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 	elif [ "$LANGUAGE" = "catalan" ]
 		 then
 		echo "recognized $LANGUAGE"
-	tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
+	tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Catalan rules to phonologize
 		sed 's/v/b/g' |
 		sed 's/sc/s/g' |
-		sed 's/ce/sE/g' |
+		sed 's/ce/s6/g' |
 		sed 's/ci/si/g' |
 		sed 's/ca/ka/g' |
 		sed 's/co/ko/g' |
 		sed 's/cu/ku/g' |
 		sed 's/rr/R/g' |
-		sed 's/^r/R/g' | # substitue the initial r for R
-		sed 's/ss/s/g' |
+		sed 's/^r/R/g' |
+		sed 's/^ll/L/g' |
 		sed 's/ll/L/g' |
-		sed 's/qu/k/g' |
-		sed 's/h//g' | # removing h
-		sed 's/b^//g' |
-		sed 's/d^/t/g' |
+		sed 's/ho\>/u/g' |
+		sed 's/h//g' |
+		sed 's/b\>//g' |
+		sed 's/d\>/t/g' |
 		sed 's/ny/N/g' |
 		sed 's/tz/dz/g' |
 		sed 's/tg/dZ/g' |
@@ -85,121 +84,125 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 		sed 's/gue/ge/g' |
 		sed 's/gui/gi/g' |
 		sed 's/à/a/g' |
-		sed 's/a^/E/g' |
-		sed 's/é/e/g' | # replace by 8?
+		#sed 's/ar$/a/g' |
+	#	sed 's/\<es\>/6s/g' |
+		sed 's/é/e/g' |
 		sed 's/è/3/g' |
-		sed 's/^e/E/g' |
-		sed 's/e^/E/g' |
-		sed 's/es/Es/g' |
-		sed 's/em/Em/g' |
-		sed 's/er^/e/g' |
-		sed 's/re/rE/g' |
-		sed 's/ej/Ej/g' |
-		sed 's/eg/Eg/g' |
+		sed 's/^e/6/g' |
+		sed 's/\<6s\>/es/g' |
+		#sed 's/^k3/ke/g' | #
+		sed 's/^k6/ke/g' |
+		sed 's/6ss/3ss/g' |
+		sed 's/t6s\>/tes/g' |
+		sed 's/em/6m/g' |
+		sed 's/er\>/e/g' |
+		sed 's/re/r6/g' |
+		sed 's/ej/6j/g' |
+		sed 's/eg/6g/g' |
 		sed 's/í/i/g' |
 		sed 's/ó/O/g' |
-		sed 's/^o/o/g' |
 		sed 's/ò/0/g' |
-		sed 's/or^/O/g' |
-		sed 's/o/6/g' |
+		sed 's/or\>/O/g' |
 		sed 's/ú/u/g' |
-		sed 's/r^//g' |
-	#	sed 's/e/8/g' | ## !!!
+		sed 's/r\>//g' | #
 		sed 's/asa/aza/g' |
 		sed 's/ase/aze/g' |
-		sed 's/asE/azE/g' |
+		sed 's/as6/az6/g' |
 		sed 's/as3/az3/g' |
 		sed 's/asi/azi/g' |
 		sed 's/asO/azO/g' |
 		sed 's/as0/az0/g' |
-		sed 's/as6/az6/g' |
+		sed 's/aso/azo/g' |
 		sed 's/asu/azu/g' |
 		sed 's/esa/eza/g' |
-		sed 's/ese/Eze/g' |
+		sed 's/ese/6ze/g' |
 		sed 's/3se/3ze/g' |
 		sed 's/es3/ez3/g' |
 		sed 's/esi/ezi/g' |
-		sed 's/Esi/Ezi/g' |
+		sed 's/6si/6zi/g' |
 		sed 's/esO/ezO/g' |
 		sed 's/es0/ez0/g' |
-		sed 's/es6/ez6/g' |
-		sed 's/3s6/3z6/g' |
-		sed 's/Es6/Ez6/g' |
-		sed 's/EsO/EzO/g' |
-		sed 's/Es0/Ez0/g' |
+		sed 's/eso/ezo/g' |
+		sed 's/3so/3zo/g' |
+		sed 's/6so/6zo/g' |
+		sed 's/6sO/6zO/g' |
+		sed 's/6s0/6z0/g' |
 		sed 's/esu/ezu/g' |
 		sed 's/3su/3zu/g' |
-		sed 's/Esu/Ezu/g' |
+		sed 's/6su/6zu/g' |
 		sed 's/isa/iza/g' |
 		sed 's/ise/ize/g' |
 		sed 's/is3/iz3/g' |
 		sed 's/isi/izi/g' |
 		sed 's/isO/izO/g' |
 		sed 's/is0/iz0/g' |
-		sed 's/is6/iz6/g' |
+		sed 's/iso/izo/g' |
 		sed 's/isu/izu/g' |
 		sed 's/Osa/Oza/g' |
 		sed 's/0sa/0za/g' |
-		sed 's/6sa/6za/g' |
+		sed 's/osa/oza/g' |
 		sed 's/Ose/Oze/g' |
 		sed 's/0se/0ze/g' |
-		sed 's/6se/6ze/g' |
-		sed 's/6s3/6z3/g' |
-		sed 's/OsE/OzE/g' |
-		sed 's/0sE/0zE/g' |
-		sed 's/6sE/6zE/g' |
+		sed 's/ose/oze/g' |
+		sed 's/os3/oz3/g' |
+		sed 's/Os6/Oz6/g' |
+		sed 's/0s6/0z6/g' |
+		sed 's/os6/oz6/g' |
 		sed 's/Osi/Ozi/g' |
 		sed 's/0si/0zi/g' |
-		sed 's/6si/6zi/g' |
-		sed 's/6sO/6zO/g' |
-		sed 's/6s6/6z0/g' |
+		sed 's/osi/ozi/g' |
+		sed 's/osO/ozO/g' |
+		sed 's/oso/oz0/g' |
 		sed 's/usa/uza/g' |
-		sed 's/use/uzE/g' |
+		sed 's/use/uz6/g' |
 		sed 's/usu/uzu/g' |
 		sed 's/nsa/nza/g' |
+		sed 's/ss/s/g' |
 		sed 's/nce/nse/g' |
-		sed 's/ncE/nsE/g' |
+		sed 's/nc6/ns6/g' |
 		sed 's/nc3/ns3/g' |
 		sed 's/nci/nsi/g' |
 		sed 's/ç/s/g' |
 		sed 's/ja/Za/g' |
 		sed 's/ge/Ze/g' |
 		sed 's/g3/Z3/g' |
-		sed 's/gE/ZE/g' |
+		sed 's/g6/Z6/g' |
 		sed 's/gi/Zi/g' |
-		sed 's/jo/Zo/g' |
+		sed 's/jO/ZO/g' |
 		sed 's/j0/Z0/g' |
+		sed 's/jo/Zo/g' |
 		sed 's/ju/Zu/g' |
 		sed 's/j/Z/g' |
 		sed 's/ieu/jew/g' |
 		sed 's/i3u/j3w/g' |
 		sed 's/ü3u/w3w/g' |
 		sed 's/uai/waj/g' |
-		sed 's/uEi/wEj/g' |
+		sed 's/u6i/w6j/g' |
 		sed 's/ai/aj/g' |
 		sed 's/ei/ej/g' |
 		sed 's/3i/3j/g' |
-		sed 's/Ei/Ej/g' |
+		sed 's/6i/6j/g' |
 		sed 's/oi/0j/g' |
 		sed 's/ui/uj/g' |
 		sed 's/au/aw/g' |
 		sed 's/eu/ew/g' |
 		sed 's/3u/3w/g' |
-		sed 's/Eu/Ew/g' |
+		sed 's/6u/6w/g' |
 		sed 's/iu/iw/g' |
-		sed 's/ou/ow/g' |
+		sed 's/Ou/Ow/g' |
 		sed 's/0u/0w/g' |
+		sed 's/ou/ow/g' |
 		sed 's/uu/uw/g' |
 		sed 's/ia/ja/g' |
 		sed 's/ie/je/g' |
 		sed 's/i3/j3/g' |
-		sed 's/iE/jE/g' |
+		sed 's/i6/j6/g' |
 		sed 's/io/j0/g' |
 		sed 's/iu/ju/g' |
 		sed 's/ua/wa/g' |
 		sed 's/üe/we/g' |
 		sed 's/ü3/w3/g' |
-		sed 's/üE/wE/g' |
+		sed 's/ü6/w6/g' |
 		sed 's/üi/wi/g' |
 		sed 's/uo/w0/g' |
 		sed 's/tn/n/g' |
@@ -207,9 +210,8 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 		sed 's/^ad/at/g' |
 		sed 's/^pn/n/g' |
 		sed 's/^ps/s/g' |
-		sed 's/nt^/n/g' |
-		sed 's/^EL/eL/g' |
-		sed 's/^E/a/g' > intoperl.tmp
+		sed 's/nt/n/g' |
+		sed 's/^6L/eL/g' > intoperl.tmp
 
 		echo "syllabify-corpus.pl"
 		perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
