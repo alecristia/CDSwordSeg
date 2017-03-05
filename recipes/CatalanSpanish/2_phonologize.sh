@@ -208,8 +208,8 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 		sed 's/^pn/n/g' |
 		sed 's/^ps/s/g' |
 		sed 's/nt^/n/g' |
-		sed 's/^E/a/g' | #
-		sed 's/^3L/eL/g' > intoperl.tmp
+		sed 's/^EL/eL/g' |
+		sed 's/^E/a/g' > intoperl.tmp
 
 		echo "syllabify-corpus.pl"
 		perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
