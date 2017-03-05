@@ -54,6 +54,7 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 		echo "recognized $LANGUAGE"
 	tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Catalan rules to phonologize
 		sed 's/v/b/g' |
+		sed 's/fresso/frazo/g' |
 		sed 's/sc/s/g' |
 		sed 's/ce/s6/g' |
 		sed 's/ci/si/g' |
@@ -62,9 +63,10 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 		sed 's/cu/ku/g' |
 		sed 's/rr/R/g' |
 		sed 's/^r/R/g' |
-		sed 's/^ll/L/g' |
-		sed 's/ll/L/g' |
+		sed 's/^lleo/yao/g' |
+		sed 's/ll/y/g' |
 		sed 's/ho\>/u/g' |
+		sed 's/eh/eg/g' |
 		sed 's/h//g' |
 		sed 's/b\>//g' |
 		sed 's/d\>/t/g' |
@@ -211,7 +213,13 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 		sed 's/^pn/n/g' |
 		sed 's/^ps/s/g' |
 		sed 's/nt/n/g' |
-		sed 's/^6L/eL/g' > intoperl.tmp
+		sed 's/os\>/us/g' |
+		sed 's/eg\>/ak/g' |
+		sed 's/6g\>/ek/g' |
+		sed 's/^ek/eg/g' |
+		sed 's/^eh/eg/g' |
+		sed 's/h//g' |
+		sed 's/^6y/ey/g' > intoperl.tmp
 
 		echo "syllabify-corpus.pl"
 		perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl aspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
