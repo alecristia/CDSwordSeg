@@ -14,6 +14,7 @@ INPUT=$RESFOLDER/tags.txt
 
 # path to the AG folder (where this file is located)
 ABSPATH=`dirname $0`
+echo $ABSPATH
 
 # name of the algorithm is either "agU" or "agc3s". This parameter
 # defines :
@@ -23,10 +24,23 @@ ABSPATH=`dirname $0`
 #     which phonemes are combined; in coll3syll it is defined as
 #     groups of syllables
 ALGO=$2
+UNIT=$3
 case $ALGO in
     "AGu")
-        GRAMMARFILE=$ABSPATH/grammars/Colloc0_enFestival.lt
-        LEVEL="Colloc0"
+        case $UNIT in
+            "syllable")
+                GRAMMARFILE=$ABSPATH/grammars/Colloc0syll_en.lt
+                LEVEL="Colloc0"
+                ;;
+             "phoneme")
+                GRAMMARFILE=$ABSPATH/grammars/Colloc0_enFestival.lt
+                LEVEL="Colloc0"
+                ;;
+        *)
+            echo $UNIT is not a valid unit, must be phoneme or syllable, exiting
+            exit 1
+            ;;
+        esac
         ;;
     "AGc3sf")
         GRAMMARFILE=$ABSPATH/grammars/Coll3syllfnc_enFestival.lt
@@ -38,11 +52,13 @@ case $ALGO in
         ;;
 esac
 
+echo grammar file $GRAMMARFILE has unit $UNIT
+
 # Tune AG with normal settings by default, or specify exiplicitly
-# "debug" as the 3rd parameter. This parameter defines :
+# "debug" as the 4th parameter. This parameter defines :
 #    NITER = number of iterations per parse (2000 or 10)
 #    NRED = number thrown out when reducing the parse (100 or 0)
-SETUP=$3
+SETUP=$4
 if [[ "$SETUP" == "debug" ]]
 then
     echo "Setup $ALGO in debug mode"
