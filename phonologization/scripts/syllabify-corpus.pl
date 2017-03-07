@@ -25,16 +25,16 @@ while(defined($fileline = <ONSETS>)){
 close(ONSETS);
 
 # Save valid vowels from Vowels.txt
-#%vowels = {};
-#open(VOWELS, "<$scriptdir/input/$language-Vowels.txt") or die("Couldn't open $scriptdir/input/$language-Vowels.txt\n");
-#while(defined($fileline = <VOWELS>)){
-#    chomp($fileline);
+%vowels = {};
+open(VOWELS, "<$scriptdir/input/$language-Vowels.txt") or die("Couldn't open $scriptdir/input/$language-Vowels.txt\n");
+while(defined($fileline = <VOWELS>)){
+    chomp($fileline);
     #print "$fileline\n";
-#    $vowels{$fileline} = 1; #This is an odd way of stating things
+    $vowels{$fileline} = 1; #This is an odd way of stating things
     #print "added";
-#}
+}
 #print "out of the while";
-#close(VOWELS);
+close(VOWELS);
 
 
 
