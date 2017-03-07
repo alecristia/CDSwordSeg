@@ -24,6 +24,17 @@ while(defined($fileline = <ONSETS>)){
 #print "out of the while";
 close(ONSETS);
 
+# Save valid vowels from ValidOnsets.txt
+%vowels = {};
+open(VOWELS, "<$scriptdir/input/$language-Vowels.txt") or die("Couldn't open $scriptdir/input/$language-Vowels.txt\n");
+while(defined($fileline = <VOWELS>)){
+    chomp($fileline);
+    #print "$fileline\n";
+    $vowels{$fileline} = 1; #This is an odd way of stating things
+    #print "added";
+}
+#print "out of the while";
+close(VOWELS);
 
 
 
@@ -45,16 +56,16 @@ while(defined($fileline = <CORPUS>)){
         $currword = pop(@wordarray); # cut out the last word in the word array & put it in currword
         #print "now looking at $currword\n";
         @chararray = split(//, $currword);
-        
+
         $syllword="";#we start with a clean slate for each word
         $currsyllable=""; #and for the syllable
-        
+
         while(@chararray > 0){
             $currchar = pop(@chararray); # cut out the last char in the char array for this word & put it in currchar
             $currsyllable =  $currchar.$currsyllable; # append currchar to current syllable - that will be necessary regardless of whether it's a vowel or a coda
 			# if hit a vowel..
-            if($currchar =~ /[aeiou]/){
-                if(@chararray[@chararray-1] !=~ /[aeiou]/){
+            if($currchar =~ %vowels){
+                if(@chararray[@chararray-1] !=~ %vowels){
                 #if this char is a vowel and the previous one is not, then we need to make the onset
                 $onset = ""; #we start with nothing as the onset
                     #then we want to take one letter at a time and check whether their concatenation makes a good onset
@@ -73,7 +84,7 @@ while(defined($fileline = <CORPUS>)){
          }#when we end this while there are no more characters in this word, so we can add it
         $syllline=$syllword. " " . $syllline;
         #print "$syllword\n";
-        
+
 	} #while we work our way through the words in the line -- so when we exit this, we are ready to print out a syllabified line
 	if($syllline){
 		print SYLLABIFIED "$syllline\n";
