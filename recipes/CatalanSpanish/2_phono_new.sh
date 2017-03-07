@@ -39,11 +39,12 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	#	sed 's/β/b/g' phono.tmp |
 		sed 's/ t / t/g' phono.tmp |
 		sed 's/ɣʊ/ɣ/g' |
+		sed 's/β/b/g' |
 	#	sed 's/ɣ/g/g' |
 	#	sed 's/ɾr/r/g' |
 	#	sed 's/r/R/g' |
 	#	sed 's/ɾ/5/g' |
-		sed 's/ʋ/β/g' |
+		sed 's/ʋ/b/g' |
 	#	sed 's/ð/d/g' |
 	#	sed 's/k/kk/g' |
 	#	sed 's/^ɛs/əs/g' |
@@ -70,7 +71,8 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/anəm/anem/g' |
 		sed 's/ɐ/a/g' |
 		sed 's/^əʎ/eʎ/g' |
-		sed 's/ əʎ/ eʎ/g' |
+		sed 's/ ɛʎ/ eʎ/g' |
+		sed 's/ ɛʎ/ eʎ/g' |
 	#	sed 's/ə/ee/g' | #ee
 	#	sed 's/^ə/e/g' | #ee
 #		sed 's/^ee/a/g' |

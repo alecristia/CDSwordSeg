@@ -38,7 +38,7 @@ close(VOWELS);
 
 
 
-# Go through CORPUS-brent.txt,
+# Go through CORPUS.txt,
 # for nonsyllabified words: for each syllable, find its vowel, and its maximum onset, given acceptable onsets and beginning of word.
 # print syllabified version to syllabified-CORPUS.txt.
 open(SYLLABIFIED, ">$output") or die("Couldn't open $output for writing\n");
