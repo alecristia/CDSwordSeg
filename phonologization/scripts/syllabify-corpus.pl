@@ -63,8 +63,8 @@ while(defined($fileline = <CORPUS>)){
             $currchar = pop(@chararray); # cut out the last char in the char array for this word & put it in currchar
             $currsyllable =  $currchar.$currsyllable; # append currchar to current syllable - that will be necessary regardless of whether it's a vowel or a coda
 			# if hit a vowel..
-            if($currchar =~ /[aɛeEəiɔoʊu]/){
-                if(@chararray[@chararray-1] !=~ /[aɛeEəiɔoʊu]/){
+            if($currchar =~ /[aɛeEi0oOu]/){
+                if(@chararray[@chararray-1] !=~ /[aɛeEi0oOu]/){
                 #if this char is a vowel and the previous one is not, then we need to make the onset
                 $onset = ""; #we start with nothing as the onset
                     #then we want to take one letter at a time and check whether their concatenation makes a good onset
