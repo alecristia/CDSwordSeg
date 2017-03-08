@@ -35,7 +35,7 @@ while(defined($fileline = <VOWELS>)){
 }
 #print "out of the while";
 close(VOWELS);
-
+print "$vowels\n";
 
 # Go through CORPUS.txt,
 # for nonsyllabified words: for each syllable, find its vowel, and its maximum onset, given acceptable onsets and beginning of word.
@@ -64,7 +64,9 @@ while(defined($fileline = <CORPUS>)){
             $currsyllable =  $currchar.$currsyllable; # append currchar to current syllable - that will be necessary regardless of whether it's a vowel or a coda
 			# if hit a vowel..
             if($currchar =~ $vowels){
+              print "$currchar\n";
                 if(@chararray[@chararray-1] !=~ $vowels){
+                  print "@chararray[@chararray-1]\n";
                 #if this char is a vowel and the previous one is not, then we need to make the onset
                 $onset = ""; #we start with nothing as the onset
                     #then we want to take one letter at a time and check whether their concatenation makes a good onset
