@@ -25,16 +25,16 @@ while(defined($fileline = <ONSETS>)){
 close(ONSETS);
 
 # Save valid vowels from Vowels.txt
-#%vowels = {};
-#open(VOWELS, "<$scriptdir/input/$language-Vowels.txt") or die("Couldn't open $scriptdir/input/$language-Vowels.txt\n");
-#while(defined($fileline = <VOWELS>)){
-#    chomp($fileline);
+%vowels = {};
+open(VOWELS, "<$scriptdir/input/$language-Vowels.txt") or die("Couldn't open $scriptdir/input/$language-Vowels.txt\n");
+while(defined($fileline = <VOWELS>)){
+    chomp($fileline);
     #print "$fileline\n";
-#    $vowels{$fileline} = 1; #This is an odd way of stating things
+    $vowels{$fileline} = 1; #This is an odd way of stating things
     #print "added";
-#}
+}
 #print "out of the while";
-#close(VOWELS);
+close(VOWELS);
 
 
 # Go through CORPUS.txt,
@@ -63,8 +63,8 @@ while(defined($fileline = <CORPUS>)){
             $currchar = pop(@chararray); # cut out the last char in the char array for this word & put it in currchar
             $currsyllable =  $currchar.$currsyllable; # append currchar to current syllable - that will be necessary regardless of whether it's a vowel or a coda
 			# if hit a vowel..
-            if($currchar =~ /[aɛeEi0oOu]/){
-                if(@chararray[@chararray-1] !=~ /[aɛeEi0oOu]/){
+            if($currchar =~ $vowels){
+                if(@chararray[@chararray-1] !=~ $vowels){
                 #if this char is a vowel and the previous one is not, then we need to make the onset
                 $onset = ""; #we start with nothing as the onset
                     #then we want to take one letter at a time and check whether their concatenation makes a good onset

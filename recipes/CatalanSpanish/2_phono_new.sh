@@ -40,6 +40,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ t / t/g' phono.tmp |
 		sed 's/ɣʊ/g/g' |
 		sed 's/ɣw/g/g' |
+		sed 's/ɣ/g/g' |
 		sed 's/β/b/g' |
 	#	sed 's/ɣ/g/g' |
 	#	sed 's/ɾr/r/g' |
