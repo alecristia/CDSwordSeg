@@ -43,9 +43,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ɣ/g/g' |
 		sed 's/β/b/g' |
 	#	sed 's/ɣ/g/g' |
-	#	sed 's/ɾr/r/g' |
 	#	sed 's/r/R/g' |
-	#	sed 's/ɾ/5/g' |
 		sed 's/ʋ/b/g' |
 		sed 's/ð/d/g' |
 	#	sed 's/k/kk/g' |
@@ -81,6 +79,9 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ʊ/0/g' |
 		sed 's/ɔ/O/g' |
 		sed 's/ɛ/3/g' |
+		sed 's/ɾr/R/g' |
+		sed 's/ɾ/5/g' |
+		sed 's/ŋ/7/g' |
 		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
