@@ -24,6 +24,19 @@ while(defined($fileline = <ONSETS>)){
 #print "out of the while";
 close(ONSETS);
 
+# Save valid vowels from Vowels.txt
+#%vowels = {};
+#open(VOWELS, "<$scriptdir/input/$language-Vowels.txt") or die("Couldn't open $scriptdir/input/$language-Vowels.txt\n");
+#while(defined($fileline = <VOWELS>)){
+#    chomp($fileline);
+    #print "$fileline\n";
+#    $vowels{$fileline} = 1; #This is an odd way of stating things
+    #print "added";
+#}
+#print "out of the while";
+#close(VOWELS);
+#print "$vowels\n";
+
 # Go through CORPUS.txt,
 # for nonsyllabified words: for each syllable, find its vowel, and its maximum onset, given acceptable onsets and beginning of word.
 # print syllabified version to syllabified-CORPUS.txt.
@@ -50,9 +63,9 @@ while(defined($fileline = <CORPUS>)){
             $currchar = pop(@chararray); # cut out the last char in the char array for this word & put it in currchar
             $currsyllable =  $currchar.$currsyllable; # append currchar to current syllable - that will be necessary regardless of whether it's a vowel or a coda
 			# if hit a vowel..
-            if($currchar =~ /[aeiou]/){
+            if($currchar =~ /[ae3EiOo0u]/){
             #  print "$currchar\n";
-                if(@chararray[@chararray-1] !=~ /[aeiou]/){
+                if(@chararray[@chararray-1] !=~ /[ae3EiOo0u]/){
             #      print "@chararray[@chararray-1]\n";
                 #if this char is a vowel and the previous one is not, then we need to make the onset
                 $onset = ""; #we start with nothing as the onset

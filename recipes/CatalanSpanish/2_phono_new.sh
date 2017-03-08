@@ -85,7 +85,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
-	  perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl catalan intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
+	  perl $PATH_TO_SCRIPTS/scripts/catspa-syllabify-corpus.pl catalan intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	elif [ "$LANGUAGE" = "cspanish" ]
 		 then
@@ -112,7 +112,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ü/u/g' > intoperl.tmp
 
 		echo "syllabify-corpus.pl"
-		perl $PATH_TO_SCRIPTS/scripts/syllabify-corpus.pl cspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
+		perl $PATH_TO_SCRIPTS/scripts/catspa-syllabify-corpus.pl cspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 	fi
 
