@@ -17,22 +17,22 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/results/segcatspares_"
 # Phonologize the ortholines files
 #./2_ortho2phono.sh $PROCESSED_FOLDER  || exit 1
 
-./3_laiconcatenate.sh ${PROCESSED_FOLDER}spa  ${CONCATENATED_FOLDER}spa
+#./3_laiconcatenate.sh ${PROCESSED_FOLDER}spa  ${CONCATENATED_FOLDER}spa
 ./3_laiconcatenate.sh ${PROCESSED_FOLDER}cat  ${CONCATENATED_FOLDER}cat
 
-./3B_concbil.sh ${PROCESSED_FOLDER}  ${CONCATENATED_FOLDER}bil
+#./3B_concbil.sh ${PROCESSED_FOLDER}  ${CONCATENATED_FOLDER}bil
 echo "done concatenating"
 
 # Analyze
-./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa
-./4_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
-./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
-echo "done analysing"
+#./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa
+#./4_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
+#./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
+#echo "done analysing"
 
-rm $RES_FOLDER/results.txt
-rm $RES_FOLDER/WL*/results.txt
-./5_collapse_results.sh ${RES_FOLDER}spa
-./5_collapse_results.sh ${RES_FOLDER}cat
-./5_collapse_results.sh ${RES_FOLDER}bil_head
+#rm $RES_FOLDER/results.txt
+#rm $RES_FOLDER/WL*/results.txt
+#./5_collapse_results.sh ${RES_FOLDER}spa
+#./5_collapse_results.sh ${RES_FOLDER}cat
+#./5_collapse_results.sh ${RES_FOLDER}bil_head
 
-echo "done collapsing results"
+#echo "done collapsing results"
