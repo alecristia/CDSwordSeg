@@ -61,10 +61,12 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	#	sed 's/^ɛt/at/g' |
 	#	sed 's/\<ɛt\>/at/g' |
 	#	sed 's/^ɛ/e/g' |
+		sed 's/dʑ/dJ/g' |
 		sed 's/ʑ/J/g' |
 		sed 's/jɕʊ /Sɔ /g' |
 		sed 's/jɕʊ$/Sɔ/g' |
 		sed 's/jɕ/S/g' |
+		sed 's/tɕ/tS/g' |
 		sed 's/ɕ/S/g' |
 		sed 's/ɲ/N/g' |
 		sed 's/mp /m /g' |
