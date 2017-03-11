@@ -36,16 +36,14 @@ do
       thistagfile=$(basename "$thisfile" -cutlines.txt)
       #sed -n $i,${j}p $thisfile >> ${output}/$length/gold.txt
       sed -n $i,${j}p $input/${thistagfile}-cutlines.txt >> ${output}/$length/tags.txt
-
-      echo "creating gold versions"
-
-      sed 's/;esyll//g'  < ${output}/$length/tags.txt |
-        tr -d ' ' |
-        sed 's/;eword/ /g' > ${output}/$length/gold.txt
-
     done
   i=$(($i + $length ))
   done
+  echo "creating gold versions"
+
+  sed 's/;esyll//g'  < ${output}/$length/tags.txt |
+    tr -d ' ' |
+    sed 's/;eword/ /g' > ${output}/$length/gold.txt
 done
 
 echo "done mixing lines for gold and tags"
