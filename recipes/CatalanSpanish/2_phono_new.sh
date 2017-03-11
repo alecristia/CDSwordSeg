@@ -38,9 +38,21 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		echo "substituting letters"
 	#	sed 's/β/b/g' phono.tmp |
 		sed 's/ t / t/g' phono.tmp |
+		sed 's/ s / s/g' |
+		sed 's/^s /s/g' |
+		sed 's/d‍ʑiʎəm/giʎəm/g' |
+		sed 's/ɣujʎəm/giʎəm/g' |
+		sed 's/ d‍ʑiʎəm$/ giʎəm/g' |
+		sed 's/^d‍ʑiʎəm$/giʎəm/g' |
+		sed 's/ d‍ʑiʎəm / giʎəm /g' |
+		sed 's/ d‍ʑi/ gi/g' |
+		sed 's/^d‍ʑi/gi/g' |
 		sed 's/^t /t/g' |
 		sed 's/ɣʊ/g/g' |
 		sed 's/ɣw/g/g' |
+		sed 's/ɣwj/gi/g' |
+		sed 's/ɣu/g/g' |
+		sed 's/ɣuj/gi/g' |
 		sed 's/ɣ/g/g' |
 		sed 's/β/b/g' |
 	#	sed 's/ɣ/g/g' |
@@ -48,7 +60,9 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ʋ/b/g' |
 		sed 's/ð/d/g' |
 	#	sed 's/k/kk/g' |
-	#	sed 's/^ɛs/əs/g' |
+		sed 's/^ɛs /əs /g' |
+		sed 's/ɛs$/əs/g' |
+		sed 's/ ɛs / əs /g' |
 	#	sed 's/ es / əs /g'
 	#	sed 's/\<ɛs\>/es/g' |
 	#	sed 's/^tɛs/tes/g' |
@@ -61,6 +75,8 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	#	sed 's/^ɛt/at/g' |
 	#	sed 's/\<ɛt\>/at/g' |
 	#	sed 's/^ɛ/e/g' |
+		sed 's/ dʑ/ g/g' |
+		sed 's/^dʑ/g/g' |
 		sed 's/dʑ/dJ/g' |
 		sed 's/ʑ/J/g' |
 		sed 's/jɕʊ /Sɔ /g' |
