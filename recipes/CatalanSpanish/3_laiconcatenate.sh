@@ -14,9 +14,8 @@ thistagfile=$(basename "$s" -gold.txt)
         n=$(( ($max / 100)*100 ))
 echo everything ok
         #head -$n $s > ${s}-cutlines.txt
-        head -$n $s > ${thistagfile}-cutlines.txt # cut multiple of 100 lines from gold and create a gold cutlines "gcutlines"
-        head -$n ${input}/${thistagfile}-tags.txt > ${input}/${thistagfile}-cutlines.txt # cut multiple of 100 lines from gold and create a tags cutlines "tcutlines"
-echo multiples of 100
+        head -$n $s > ${input}/${thistagfile}-cutlines.txt
+        head -$n ${input}/${thistagfile}-tags.txt > ${input}/${thistagfile}-cutlines.txt
 done
 
 max=`wc -l $input/*cutlines.txt | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
