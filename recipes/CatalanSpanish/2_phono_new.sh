@@ -78,7 +78,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ ɛʎ/ eʎ/g' |
 		sed 's/^ɛʎ/eʎ/g' |
 		sed 's/ ɛʎ/ eʎ/g' |
-		ed 's/^ɛʎ/eʎ/g' |
+		sed 's/^ɛʎ/eʎ/g' |
 		sed 's/ə/E/g' | #ee
 	#	sed 's/^ə/e/g' | #ee
 #		sed 's/^ee/a/g' |
