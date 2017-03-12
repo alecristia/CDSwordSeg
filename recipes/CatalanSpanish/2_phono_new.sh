@@ -162,5 +162,5 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 
 done
 
-
-echo "end"
+echo $RES_FOLDER
+echo "done phonologizing"

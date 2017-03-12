@@ -47,4 +47,5 @@ do
 	done
 done
 
+echo $output
 echo "done mixing lines for gold and tags"
