@@ -7,8 +7,8 @@ rm cat.txt
 rm spa.txt
 rm both.txt
 
-ls ${raw}cat/*gold.txt > cat.txt
-ls ${raw}spa/*gold.txt > spa.txt
+ls ${raw}cat/*cutlines.txt > cat.txt
+ls ${raw}spa/*cutlines.txt > spa.txt
 nfiles=`wc -l cat.txt| awk '{print $1}'`
 
 
@@ -39,7 +39,7 @@ do
         	do
 #echo in for $thisfile
 			 thisdir=$(dirname "$thisfile" )
-			thistagfile=$(basename "$thisfile" -gold.txt)
+			thistagfile=$(basename "$thisfile" -cutlines.txt)
           		sed -n $i,${j}p $thisfile >> ${output}/$length/gold.txt
           		sed -n $i,${j}p $thisdir/${thistagfile}-tags.txt >> ${output}/$length/tags.txt
 	        done

@@ -12,7 +12,7 @@ do
 thistagfile=$(basename "$s" -gold.txt)
         max=`wc -l $s | grep -v "total" | awk '{print $1}'`
         n=$(( ($max / 100)*100 ))
-echo everything ok
+echo cutting
         #head -$n $s > ${s}-cutlines.txt
         head -$n $s > ${input}/${thistagfile}-cutlines.txt
         head -$n ${input}/${thistagfile}-tags.txt > ${input}/${thistagfile}-cutlines.txt
