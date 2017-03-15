@@ -8,7 +8,7 @@
 
 PROCESSED_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_"
 CONCATENATED_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_"
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/results/segcatspares_"
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/results/segcatspares_"
 
 
 # Turn the cha-like files into a single clean file per type
@@ -27,15 +27,17 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/results/segcatspares_"
 # include head and tail 
 
 # Analyze
-./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa
-./4_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
-./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
+#./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa
+#./4_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
+#./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
 #echo "done analysing"
 
-#rm $RES_FOLDER/results.txt
-#rm $RES_FOLDER/WL*/results.txt
-#./5_collapse_results.sh ${RES_FOLDER}spa
-#./5_collapse_results.sh ${RES_FOLDER}cat
-#./5_collapse_results.sh ${RES_FOLDER}bil_head
+# Collapese results
+rm ${RES_FOLDER}spa/results.txt
+rm ${RES_FOLDER}cat/results.txt
+rm ${RES_FOLDER}bil_head/results.txt
+./5_collapse_results.sh ${RES_FOLDER}spa
+./5_collapse_results.sh ${RES_FOLDER}cat
+./5_collapse_results.sh ${RES_FOLDER}bil_head
 
-#echo "done collapsing results"
+echo "done collapsing results"
