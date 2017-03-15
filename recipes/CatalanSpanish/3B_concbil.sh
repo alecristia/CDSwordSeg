@@ -45,7 +45,12 @@ do
 	        done
 	i=$(($i + $length ))
 	done
+	echo "creating gold versions"
+
+  sed 's/;esyll//g'  < ${output}/$length/tags.txt |
+    tr -d ' ' |
+    sed 's/;eword/ /g' > ${output}/$length/gold.txt
 done
 
 echo $output
-echo "done mixing lines for gold and tags"
+echo "done mixing lines for gold and tags for bilingual"
