@@ -13,7 +13,6 @@ thistagfile=$(basename "$s" -gold.txt)
         max=`wc -l $s | grep -v "total" | awk '{print $1}'`
         n=$(( ($max / 100)*100 ))
 echo cutting
-        #head -$n $s > ${s}-cutlines.txt
         head -$n $s > ${input}/${thistagfile}-cutlines.txt
         head -$n ${input}/${thistagfile}-tags.txt > ${input}/${thistagfile}-cutlines.txt
 done
@@ -22,8 +21,8 @@ max=`wc -l $input/*cutlines.txt | grep -v "total" | awk '{print $1}' | sort -nr 
 
 for length in 2 100
 do
-  rm -r ${output}/$length/
-  mkdir -p ${output}/$length/
+  rm -r ${output}_$length/
+  mkdir -p ${output}_$length/
   add=$(( $length - 1 ))
 
   i=1
@@ -33,16 +32,15 @@ do
     for thisfile in $input/*cutlines.txt
     do
       thistagfile=$(basename "$thisfile" -cutlines.txt)
-      #sed -n $i,${j}p $thisfile >> ${output}/$length/gold.txt
-      sed -n $i,${j}p $input/${thistagfile}-cutlines.txt >> ${output}/$length/tags.txt
+      sed -n $i,${j}p $input/${thistagfile}-cutlines.txt >> ${output}_$length/tags.txt
     done
   i=$(($i + $length ))
   done
   echo "creating gold versions"
 
-  sed 's/;esyll//g'  < ${output}/$length/tags.txt |
+  sed 's/;esyll//g'  < ${output}_$length/tags.txt |
     tr -d ' ' |
-    sed 's/;eword/ /g' > ${output}/$length/gold.txt
+    sed 's/;eword/ /g' > ${output}_$length/gold.txt
 done
 
 echo "done mixing lines for gold and tags"

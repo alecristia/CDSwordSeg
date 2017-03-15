@@ -1,5 +1,3 @@
-#folder="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat"
-#RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat/res_conc/100"
 raw=$1
 output=$2
 
@@ -26,7 +24,7 @@ max=`wc -l $(cat both.txt) | grep -v "total" | awk '{print $1}' | sort -nr | hea
 
 for length in 2 100
 do
-	mkdir -p ${output}/$length/
+	mkdir -p ${output}_$length/
 	add=$(( $length - 1 ))
 
 	i=1
@@ -40,8 +38,8 @@ do
 #echo in for $thisfile
 			 thisdir=$(dirname "$thisfile" )
 			thistagfile=$(basename "$thisfile" -cutlines.txt)
-          		sed -n $i,${j}p $thisfile >> ${output}/$length/gold.txt
-          		sed -n $i,${j}p $thisdir/${thistagfile}-tags.txt >> ${output}/$length/tags.txt
+          		sed -n $i,${j}p $thisfile >> ${output}_$length/gold.txt
+          		sed -n $i,${j}p $thisdir/${thistagfile}-tags.txt >> ${output}_$length/tags.txt
 	        done
 	i=$(($i + $length ))
 	done
