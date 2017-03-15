@@ -27,13 +27,13 @@ import read
 import analyze
 
 
-def linear_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_file="/freq-words.txt", out='r2',evaluation="true_positive"):
+def linear_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_file="/freq-words.txt", out='r2',evaluation="true_positive", miss_inc=False):
     df_r_2=pd.DataFrame(0, columns=ages, index=algos)
     df_std_err=pd.DataFrame(0, columns=ages, index=algos)
     df_gold=analyze.freq_token_in_corpus(path_ortho)
     for age in ages: 
-        for algo in algos:
-            df_CDI=read.read_CDI_data_by_age(CDI_file, age, save_file=False)
+        df_CDI=read.read_CDI_data_by_age(CDI_file, age, save_file=False)
+        for algo in algos:    
             if algo=='gold': 
                 df_algo=df_gold
             else : 
@@ -43,8 +43,13 @@ def linear_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_fi
                 elif evaluation=='recall':
                     df_algo=pd.DataFrame(tp['Freq'+algo]).div(df_gold.Freqgold, axis='index') 
                     df_algo['Type']=tp['Type']
-    
-            df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
+            if miss_inc :  # word not found b algo but are in the CDI also considered
+                df_CDI_gold=pd.merge(df_CDI, df_gold[['Type']], on=['Type'],how='inner')
+                df_data=pd.merge(df_CDI_gold, df_algo, on=['Type'], how='outer')
+                df_data=df_data.dropna(subset=['lexical_classes', 'Type','prop', 'age'])
+                df_data=df_data.fillna(1) # log(1)=0
+            else:
+                df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
             x=np.log(df_data['Freq'+algo])
             y=df_data['prop']
             slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
@@ -58,6 +63,7 @@ def linear_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_fi
         return(df_r_2)
     elif out=='std_err': 
         return(df_std_err)
+    
     
 ### simple logistic regression 
 def logistic_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_file="/freq-words.txt"):
@@ -110,7 +116,7 @@ def logistic_nb_infant_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_
                     y_binary.append(0)
             y_t=np.transpose(np.matrix(y_binary))
             
-            clf = LogisticRegression(fit_intercept = True , C = 1e9, max_iter=100, solver='liblinear') # SAG : stochastic average gradiant, useful for big dataset (INRIA) # C : higher it is, the less it penalize
+            clf = LogisticRegression(fit_intercept = True , C = 1e9, max_iter=10000, solver='liblinear') # SAG : stochastic average gradiant, useful for big dataset (INRIA) # C : higher it is, the less it penalize
                                      
             X_train, X_test, Y_train, Y_test, vec_train, vect_test = \
             train_test_split(X, y_t, vec,test_size=Test_size, random_state=np.random.RandomState(42))
@@ -128,4 +134,58 @@ def logistic_nb_infant_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_
         return(r_2)
     elif out=='std_err': 
         return(std_err)
+    
+# look at the effect of lexical class
+def R2_by_lexical_class(path_res, sub, algos,unit, ages, lexical_classes, CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out="r2"):
+    R2=pd.DataFrame(0, columns=lexical_classes, index=algos)
+    Err=pd.DataFrame(0, columns=lexical_classes, index=algos)
+    for age in ages: 
+        for algo in algos:
+            df_CDI=read.read_CDI_data_by_age(CDI_file, age, save_file=False)
+            df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
+            df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
+            for lc in lexical_classes:
+                gb_lc=df_data.groupby('lexical_classes').get_group(lc)
+                x=np.log(gb_lc['Freq'+algo])
+                y=gb_lc['prop']
+                
+                slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)             
+
+                R2.iloc[algos.index(algo),lexical_classes.index(lc)]=r_value**2
+                Err.iloc[algos.index(algo), lexical_classes.index(lc)]=std_err
+    if out=='r2' :
+        return(R2)
+    elif out=='std_err': 
+        return(Err)
+    
+# look at the effect of type length
+def R2_by_type_length(path_res, sub, algos,unit, ages, length_type, which_length="num_syllables", CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", out="r2"):
+    
+    group_length=length_type.groupby(which_length, sort=True, group_keys=True).groups.keys()
+    R2=pd.DataFrame(0, columns=group_length, index=algos)
+    Err=pd.DataFrame(0, columns=group_length, index=algos)
+    
+    for age in ages: 
+        for algo in algos:
+            df_CDI=read.read_CDI_data_by_age(CDI_file, age, save_file=False)
+            CDI_combined=pd.merge(df_CDI, length_type)
+            df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
+            df_data=pd.merge(CDI_combined, df_algo, on=['Type'], how='inner')
+            group_length_data=df_data.groupby(which_length, sort=True, group_keys=True).groups.keys()
+            for i in group_length_data:
+                gb_lc=df_data.groupby(which_length).get_group(i)
+                x=np.log(gb_lc['Freq'+algo])
+                y=gb_lc['prop']
+                
+                slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)             
+
+                R2.iloc[algos.index(algo),group_length.index(i)]=r_value**2
+                Err.iloc[algos.index(algo), group_length.index(i)]=std_err
+                         
+    if out=='r2' :
+        return(R2)
+    elif out=='std_err': 
+        return(Err)
             
+
+                   
