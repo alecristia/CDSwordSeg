@@ -70,7 +70,10 @@ def read_CDI_data_by_age(CDI_file="PropUnderstandCDI.csv", age=8, save_file=True
     if isinstance(age, int):
         grouped_age=df.groupby('age')
         df_age=grouped_age.get_group(age) # get the words and the proportion of understanding at age defined 
-        df_age.columns=['lexical_classes','Type','prop','age']
+        if len(df_age.columns)==4: 
+           df_age.columns=['lexical_classes','Type','prop','age']
+        elif len(df_age.columns)==3: 
+            df_age.columns=['Type','prop','age']
         if save_file==True: 
             df_age.to_csv('Prop_understand_CDI_at_age_'+str(age)+'.csv', sep='\t', index=False)
         return(df_age)
