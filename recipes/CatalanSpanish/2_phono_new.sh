@@ -1,10 +1,10 @@
 #!/bin/sh
 # Wrapper to take a single cleaned up transcript and phonologize it
 # Alex Cristia alecristia@gmail.com 2015-10-26
-# Modified by Laia Fibla laia.fibla.reixachs@gmail.com 2016-09-28 adapted to arg spanish
+# Modified by Laia Fibla laia.fibla.reixachs@gmail.com 2016-09-28 adapted to castillan spanish and catalan using espeak
 
 
-#########VARIABLES
+#########VARIABLES#################
 #Variables to modify
 LANGUAGE="catalan" #language options:  cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
 
@@ -15,14 +15,6 @@ PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
 RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat/"
 #this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/"
 # NOTICE THE / AT THE END OF THE NAME
-
-# espeak
-# elif [ "$LANGUAGE" = "catalan" ]
-#           then
-#          echo "recognized $LANGUAGE"
-#
-#          echo "using espeak"
-#          /fhgfs/bootphon/scratch/lfibla/phonemizer -l ca $ORTHO -o ${KEYNAME}-tags.txt
 
 for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	KEYNAME=$(basename "$ORTHO" -ortholines.txt)
@@ -36,10 +28,10 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		phonemize -l ca $ORTHO -o phono.tmp
 
 		echo "substituting letters"
-	#	sed 's/β/b/g' phono.tmp |
 		sed 's/ t / t/g' phono.tmp |
 		sed 's/ s / s/g' |
 		sed 's/^s /s/g' |
+		sed 's/^t / t/g' |
 		sed 's/d‍ʑiʎəm/giʎəm/g' |
 		sed 's/ɣujʎəm/giʎəm/g' |
 		sed 's/ d‍ʑiʎəm$/ giʎəm/g' |
@@ -47,7 +39,6 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ d‍ʑiʎəm / giʎəm /g' |
 		sed 's/ d‍ʑi/ gi/g' |
 		sed 's/^d‍ʑi/gi/g' |
-		sed 's/^t /t/g' |
 		sed 's/ɣʊ/g/g' |
 		sed 's/ɣw/g/g' |
 		sed 's/ɣwj/gi/g' |
@@ -55,11 +46,8 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ɣuj/gi/g' |
 		sed 's/ɣ/g/g' |
 		sed 's/β/b/g' |
-	#	sed 's/ɣ/g/g' |
-	#	sed 's/r/R/g' |
 		sed 's/ʋ/b/g' |
 		sed 's/ð/d/g' |
-	#	sed 's/k/kk/g' |
 		sed 's/^ɛs /əs /g' |
 		sed 's/ɛs$/əs/g' |
 		sed 's/ ɛs / əs /g' |
@@ -70,19 +58,12 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	#	sed 's/^təs/tas/g' |
 	#	sed 's/\<təs\>/tas/g' |
 	#	sed 's/\<tɛs\>/tes/g' |
-	#	sed 's/\<kɛ\>/ka/g' |
-	#	sed 's/^əs/es/g' |
-	#	sed 's/^ɛt/at/g' |
-	#	sed 's/\<ɛt\>/at/g' |
-	#	sed 's/^ɛ/e/g' |
-		sed 's/ dʑ/ g/g' |
-		sed 's/^dʑ/g/g' |
-		sed 's/dʑ/dJ/g' |
+    sed 's/dʑ/dJ/g' |
 		sed 's/ʑ/J/g' |
 		sed 's/jɕʊ /Sɔ /g' |
 		sed 's/jɕʊ$/Sɔ/g' |
-		sed 's/jɕ/S/g' |
-		sed 's/tɕ/tS/g' |
+		#sed 's/jɕ/S/g' |
+	#	sed 's/tɕ/tS/g' |
 		sed 's/ɕ/S/g' |
 		sed 's/ɲ/N/g' |
 		sed 's/mp /m /g' |
@@ -95,15 +76,19 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/^ɛʎ/eʎ/g' |
 		sed 's/ ɛʎ/ eʎ/g' |
 		sed 's/^ɛʎ/eʎ/g' |
-		sed 's/ə/E/g' | #ee
-	#	sed 's/^ə/e/g' | #ee
-#		sed 's/^ee/a/g' |
+		sed 's/ə/E/g' |
 		sed 's/ʎ/L/g' |
 		sed 's/ʊ/0/g' |
 		sed 's/ɔ/O/g' |
 		sed 's/ɛ/3/g' |
 		sed 's/ɾr/R/g' |
-		sed 's/ɾ/5/g' |
+		sed 's/ ɾr/ R/g' |
+		sed 's/^ɾr/R/g' |
+		sed 's/r/R/g' |
+		sed 's/ r/ R/g' |
+		sed 's/^r/R/g' |
+		sed 's/rr/R/g' |
+		sed 's/ɾ/r/g' |
 		sed 's/ŋ/7/g' |
 		sed 's/ˌ//g' > intoperl.tmp
 
@@ -114,11 +99,11 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		 then
 		echo "recognized $LANGUAGE"
 	tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
-		sed 's/ch/C/g' | # substitute all ch by tS
+		sed 's/ch/tS/g' | # substitute all ch by tS
 		sed 's/v/b/g' |
-		sed 's/z/O/g' |
-		sed 's/ce/Oe/g' |
-		sed 's/ci/Oi/g' |
+		sed 's/z/8/g' |
+		sed 's/ce/8e/g' |
+		sed 's/ci/8i/g' |
 		sed 's/c/k/g' |
 		sed 's/rr/R/g' | # substitute the spanish rr by 5
 		sed 's/^r/R/g' | # substitue the initial r for R
@@ -132,7 +117,8 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/í/i/g' |
 		sed 's/ó/o/g' |
 		sed 's/ú/u/g' |
-		sed 's/ü/u/g' > intoperl.tmp
+		sed 's/ü/u/g' |
+		sed 's/y/i/g' > intoperl.tmp
 
 		echo "syllabify-corpus.pl"
 		perl $PATH_TO_SCRIPTS/scripts/catspa-syllabify-corpus.pl cspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
@@ -163,4 +149,4 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 done
 
 echo $RES_FOLDER
-echo "done phonologizing"
+echo "done phonologize"
