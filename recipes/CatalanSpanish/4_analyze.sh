@@ -8,11 +8,14 @@ DATAFOLDER=$1
 RESFOLDER=$2
 
 PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_CatSpa.py"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/cm/shared/apps/boost/1.62.0/stage/lib
 #########
 
 
 # Run all algos in the cluster writing 'all' next to algorithms. 
 # To just run one single algorithm choose from 'AGc3sf', 'AGu', 'dibs', 'dmcmc', 'ngrams', 'puddle', 'TPs', 'all'
+
+module load python-anaconda
 
 mkdir -p ${RESFOLDER}/
 

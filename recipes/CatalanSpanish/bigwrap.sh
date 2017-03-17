@@ -28,9 +28,9 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/results/segcatspares_"
 
 # Analyze
 ./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa
-./4_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
-./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
-echo "done analysing"
+#./4_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
+#./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
+#echo "done analysing"
 
 # Collapese results
 #rm ${RES_FOLDER}spa/results.txt
