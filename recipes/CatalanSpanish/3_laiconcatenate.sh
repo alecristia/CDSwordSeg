@@ -2,6 +2,7 @@
 #This file concatenates each two and each 100 lines. To be used for monolingual cat and monolingula spa
 #input="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat"
 #output="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat"
+
 input=$1
 output=$2
 
@@ -21,8 +22,8 @@ max=`wc -l $input/*cutlines.txt | grep -v "total" | awk '{print $1}' | sort -nr 
 
 for length in 2 100
 do
-  rm -r ${output}_$length/
-  mkdir -p ${output}_$length/
+  rm -r ${output}/$length/
+  mkdir -p ${output}/$length/
   add=$(( $length - 1 ))
 
   i=1
@@ -32,15 +33,15 @@ do
     for thisfile in $input/*cutlines.txt
     do
       thistagfile=$(basename "$thisfile" -cutlines.txt)
-      sed -n $i,${j}p $input/${thistagfile}-cutlines.txt >> ${output}_$length/tags.txt
+      sed -n $i,${j}p $input/${thistagfile}-cutlines.txt >> ${output}/$length/tags.txt
     done
   i=$(($i + $length ))
   done
   echo "creating gold versions"
 
-  sed 's/;esyll//g'  < ${output}_$length/tags.txt |
+  sed 's/;esyll//g'  < ${output}/$length/tags.txt |
     tr -d ' ' |
-    sed 's/;eword/ /g' > ${output}_$length/gold.txt
+    sed 's/;eword/ /g' > ${output}/$length/gold.txt
 done
 
 echo "done mixing lines for gold and tags"
