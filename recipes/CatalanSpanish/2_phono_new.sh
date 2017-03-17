@@ -58,7 +58,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	#	sed 's/^təs/tas/g' |
 	#	sed 's/\<təs\>/tas/g' |
 	#	sed 's/\<tɛs\>/tes/g' |
-    sed 's/dʑ/dJ/g' |
+  #  sed 's/dʑ/dJ/g' |
 		sed 's/ʑ/J/g' |
 		sed 's/jɕʊ /Sɔ /g' |
 		sed 's/jɕʊ$/Sɔ/g' |
