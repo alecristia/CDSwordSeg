@@ -28,7 +28,7 @@ echo "finding out who's a speaker in $f"
 		iconv -f ISO-8859-1 | #convert the file to deal with multibyte e.g. accented characters ###!!! try -t
 		grep "@ID" |      #take only @ID lines of the file
 		awk -F "|" '{ print $3, $8 }' | #let through only 3-letter code and role
-        grep -v 'nurse\|INV\|RMA\|EXA\|investigador\|experimentador\|ANN' | #remove all the children and non-human participants to leave only adults
+        grep -v 'Child\|Sister\|Brother\|Cousin\|Boy\|Girl\|Unidentified\|Sibling\|Target\|Nurse\|Investigator\|Experimentator\|Non_Hum\|Play' | #remove all the children and non-human participants to leave only adults
         awk '{ print $1 }' | #print out the first item, which is the 3 letter code for those adults
 		tr "\n" "%" | # put them all in the same line
 		sed "s/^/*/g" | #add an asterisk at the beginning
