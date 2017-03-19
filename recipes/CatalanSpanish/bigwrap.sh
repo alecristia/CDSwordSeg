@@ -6,9 +6,9 @@
 # Laia Fibla
 
 
-PROCESSED_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_"
-CONCATENATED_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_"
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/results/segcatspares_"
+PROCESSED_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_"
+CONCATENATED_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/conc_"
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/results/segcatspares_"
 
 
 # Turn the cha-like files into a single clean file per type
@@ -24,7 +24,7 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/results/segcatspares_"
 #./3B_concbil.sh ${PROCESSED_FOLDER}  ${CONCATENATED_FOLDER}bil
 #echo "done concatenating"
 
-# include head and tail 
+# include head and tail
 
 # Analyze
 #./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa

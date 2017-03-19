@@ -4,6 +4,8 @@
 # Alex Cristia <alecristia@gmail.com>
 # Mathieu Bernard (syllable conversion, cross evaluation)
 
+module load boost/1.62.0
+
 ABSPATH=$1
 RESFOLDER=$2
 ALGO="dmcmc"

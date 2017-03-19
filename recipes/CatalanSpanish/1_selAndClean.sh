@@ -45,7 +45,8 @@ echo "finding out who's a speaker in $f"
 
 
 		echo "processed $f" >> $OUTPUT_FILE2
-
+		
+	done
 done
 
 cd $RES_FOLDER
