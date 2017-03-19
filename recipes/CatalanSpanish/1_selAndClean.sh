@@ -38,10 +38,10 @@ echo "finding out who's a speaker in $f"
 		cd $PATH_TO_SCRIPTS	#move to folder with the 2 scripts and run them with the correct parameters
 
 		SELFILE=$(basename "$f" .cha)"-includedlines.txt"
-		./scripts/cha2sel_withinputParticipants.sh $f $SELFILE $RES_FOLDER $IncludedParts
+		bash ./scripts/cha2sel.sh $f $SELFILE $RES_FOLDER $IncludedParts
 
  		ORTHO=$(basename "$f" .cha)"-ortholines.txt"
-		./scripts/selcha2clean.sh $SELFILE $ORTHO $RES_FOLDER
+		bash ./scripts/selcha2clean.sh $SELFILE $ORTHO $RES_FOLDER
 
 
 		echo "processed $f" >> $OUTPUT_FILE2
