@@ -38,7 +38,3 @@ k5
 kl
 br
 b5
-ts
-tS
-dz
-dJ
