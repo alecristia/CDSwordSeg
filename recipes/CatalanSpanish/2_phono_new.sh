@@ -18,7 +18,7 @@ LANGUAGE="catalan" #language options:  cspanish (castillan spanish), catalan  --
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
 #path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_cat/"
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/big_corpora/RES_corpus_cat/"
 #this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/"
 # NOTICE THE / AT THE END OF THE NAME
 
@@ -101,6 +101,9 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ aia/ iaia/g' |
 		sed 's/ aia$/ iaia/g' |
 		sed 's/ 3la / l/g' |
+		sed "s/' //g" |
+		sed "s/ '//g" |
+		sed "s/'//g" |
 		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
@@ -130,6 +133,8 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ó/o/g' |
 		sed 's/ú/u/g' |
 		sed 's/ü/u/g' |
+		sed 's/pie⌉/pie/g' |
+		sed 's/^pie⌉/pie/g' |
 		sed 's/y/i/g' > intoperl.tmp
 
 		echo "syllabify-corpus.pl"
