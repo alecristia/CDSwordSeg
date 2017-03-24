@@ -59,12 +59,13 @@ def build_phono_to_ortho_representative(d):
 ##### look at well segmented words in all algos and in all subs
 ##### from "freq-file.txt" in phonological form to orthographic form
 ##### for each results of each algo in each subcorpus, create the file in the orthographic form
-def create_file_word_freq(path_res, dic, sub, algos, freq_file="/freq-top.txt"):
+def create_file_word_freq(path_res, dic, sub, algos,unit="syllable", freq_file="/freq-top.txt"):
     for SS in sub:
         for algo in algos: 
-            path=path_res+"/"+SS+"/"+algo+freq_file
+            res_folder=path_res+"/"+SS+"/"+algo+ "/" +unit
+            path=res_folder +freq_file
             df_token=pd.read_table(path,sep=None, header=None, names=('Freq','phono'),  index_col=None)
-            list_token=read.list_freq_token_per_algo(algo,SS,path_res,freq_file)
+            list_token=read.list_freq_token_per_algo(algo,SS,path_res,unit,freq_file)
             d={}
             for item in list_token: 
                 if dic.has_key(item)==True: 
@@ -73,8 +74,9 @@ def create_file_word_freq(path_res, dic, sub, algos, freq_file="/freq-top.txt"):
             s=pd.merge(df_token, df_dic_token, how='inner', on=['phono'])
             del s['phono']
             s.drop_duplicates(subset='Type', keep='first',inplace=True)
-            path_out=path_res+"/"+SS+"/"+algo+"/freq-words.txt"
+            path_out=res_folder+ "/freq-words.txt"
             s.to_csv(path_out, sep='\t', index=False)
+    return(s)
     
 #test
 #test_word=create_file_word_freq(path_res, dic_corpus, ["full_corpus"], ALGOS, freq_file="/freq-top.txt")

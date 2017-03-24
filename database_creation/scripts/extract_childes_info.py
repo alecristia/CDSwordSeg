@@ -51,7 +51,7 @@ def extract_info(cha_files, out=second_arg):
                             #adult_ID = adult_format_match.group(2)
                             adult_type = adult_format_match.group(4)
                             participant_list.append(adult_type)
-                            non_adult = re.match(r'sibl(.*)|broth(.*)|sist(.*)|Target_Child|child|toy(.*)|environ(.*)|cousin|non_(.*)|play(.*)', adult_type, flags=re.IGNORECASE)
+                            non_adult = re.match(r'sibl(.*)|broth(.*)|sist(.*)|Target_Child|child|toy(.*)|environ(.*)|cousin|nurse|Investigator(.*)|experimentador|non_(.*)|play(.*)', adult_type, flags=re.IGNORECASE)
                             if non_adult:
                                 continue
                                 #print (inp, adult_ID, adult_type)

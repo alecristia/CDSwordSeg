@@ -1,5 +1,10 @@
-/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/spa_01-gold.txt
-/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/spa_02-gold.txt
-/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/spa_03-gold.txt
-/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/spa_04-gold.txt
-/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_spa/spa_05-gold.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/spa_01-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/spa_02-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/spa_03-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/spa_04-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/spa_05-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/spa_06-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/spa_07-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/spa_08-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/spa_09-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/spa_10-cutlines.txt

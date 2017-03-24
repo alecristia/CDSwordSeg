@@ -32,18 +32,19 @@ def corpus_as_list(corpus_file):
     return(list_corpus)  
 
 ######################### OPEN FREQ FILE AS A LIST OF TOKEN 
-def list_freq_token_per_algo(algo,sub,path_res,freq_file="/freq-top.txt"):
+def list_freq_token_per_algo(algo,sub,path_res,unit="syllable",freq_file="/freq-top.txt"):
     algo_list=[]
+    res_folder= path_res+"/"+sub+"/"+algo+ "/" + unit 
     if algo!="ngrams": 
     ### read only the second columns: top frequent phonological type segmented 
-        with open(path_res+"/"+sub+"/"+algo+freq_file) as inf:
+        with open(res_folder + freq_file) as inf:
             for line in inf:
                 parts = line.split() # split line into parts
                 if len(parts) > 1:   # if at least 2 parts/columns
                     #if parts[0]>1:
                     algo_list.append(parts[1])
     else : 
-        with open(path_res+"/"+sub+"/"+algo+freq_file) as inf:
+        with open(res_folder +freq_file) as inf:
             for line in inf:
                 parts = line.split() # split line into parts
                 if len(parts) > 2:   # if at least 3 parts/columns
@@ -69,7 +70,10 @@ def read_CDI_data_by_age(CDI_file="PropUnderstandCDI.csv", age=8, save_file=True
     if isinstance(age, int):
         grouped_age=df.groupby('age')
         df_age=grouped_age.get_group(age) # get the words and the proportion of understanding at age defined 
-        df_age.columns=['lexical_classes','Type','prop','age']
+        if len(df_age.columns)==4: 
+           df_age.columns=['lexical_classes','Type','prop','age']
+        elif len(df_age.columns)==3: 
+            df_age.columns=['Type','prop','age']
         if save_file==True: 
             df_age.to_csv('Prop_understand_CDI_at_age_'+str(age)+'.csv', sep='\t', index=False)
         return(df_age)
@@ -83,13 +87,13 @@ def read_CDI_data_by_age(CDI_file="PropUnderstandCDI.csv", age=8, save_file=True
             df_mean.to_csv('Mean_prop_understand_CDI_Age.csv', sep='\t', index=False)
         return(df_mean)
 
-def create_df_freq_by_algo_all_sub(path_res, sub, algo='dibs', freq_file="/freq-words.txt"):
-    #df_sub=pd.read_table(path_res+"/"+sub[0]+"/"+algo+freq_file,sep=None, header=0, names=('Freq'+ ''+ algo[0] , 'Type'))
-    df_sub=pd.read_table(path_res+"/"+sub[0]+"/"+algo+freq_file,sep=None, header=0)
+def create_df_freq_by_algo_all_sub(path_res, sub, algo='dibs',unit="syllable", freq_file="/freq-words.txt"):
+    df_sub=pd.read_table(path_res+"/"+sub[0]+"/"+algo+"/" + unit+freq_file,sep=None, header=0)
     for SS in sub:
         if SS!=sub[0]:
             #df_algo=pd.read_table(path_res+"/"+SS+"/"+algo+freq_file,sep=None, header=0, names=('Freq'+''+ algo, 'Type'))
-            df_algo=pd.read_table(path_res+"/"+SS+"/"+algo+freq_file,sep=None, header=0)
+            path_temp=path_res+"/"+SS+"/"+algo+"/" + unit +freq_file
+            df_algo=pd.read_table(path_temp,sep=None, header=0)
             df_sub=pd.merge(df_sub, df_algo, how='outer', on='Type')
     df_sub.fillna(0, inplace=True)
     df_final=pd.DataFrame(df_sub.sum(axis=1))

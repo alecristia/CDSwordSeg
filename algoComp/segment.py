@@ -4,7 +4,7 @@
 Replaces the former segment_one_corpus.sh script. Run the file with
 the '--help' option to get in.
 
-Copyright 2015, 2016 Alex Cristia, Mathieu Bernard
+Copyright 2015, 2016, 2017 Alex Cristia, Mathieu Bernard
 
 """
 
@@ -58,7 +58,7 @@ class NonAGSegmenter(object):
         shutil.copy(tags, os.path.join(output_dir, 'tags.txt'))
         shutil.copy(gold, os.path.join(output_dir, 'gold.txt'))
 
-        # create the command lanuching the script
+        # create the command launching the script
         self.command = ' '.join(
             [self.script,
              os.path.abspath(os.path.join(script_dir, '..')) + '/',  # ABSPATH
@@ -77,7 +77,7 @@ class NonAGSegmenter(object):
 
     def _ncores(self):
         try:
-            return {'dmcmc': 5}[self.algo]  # 5-fold xeval
+            return {'dmcmc': 5, 'puddle': 5}[self.algo]  # 5-fold xeval
         except KeyError:
             return 1
 
@@ -87,6 +87,11 @@ class NonAGSegmenter(object):
 
 
 class AGSegmenter(NonAGSegmenter):
+    """A general wrapper to AG word segmentation algorithms
+
+    Add the debug option in top of the NonAGSegmenter
+
+    """
     def __init__(self, algo, tags, gold, output_dir,
                  script_dir=CDSPATH, debug=False):
         NonAGSegmenter.__init__(self, algo, tags, gold, output_dir, script_dir)
@@ -173,6 +178,8 @@ def run_job(job, clusterize=False, basename='', log2file=True):
     clusterize is False).
 
     basename is the prefix of the job name when using qsub.
+
+    Return the job pid
 
     """
     ofile = os.path.join(job.output_dir, 'log')
@@ -293,9 +300,9 @@ def parse_args():
         'default is N=1, this have no effect on other algorithms')
 
     args = parser.parse_args()
-    if args.verbose:
-        print('parsed arguments are:\n  '
-              + str(args).replace('Namespace(', '').replace(', ', '\n  ')[:-1])
+    # if args.verbose:
+    #     print('parsed arguments are:\n  '
+    #           + str(args).replace('Namespace(', '').replace(', ', '\n  ')[:-1])
 
     return args
 
@@ -313,10 +320,8 @@ def main():
 
     # create the output dir if needed
     args.output_dir = os.path.abspath(args.output_dir)
-    # assert not os.path.isdir(args.output_dir), \
-    #     'result directory already exists: {}'.format(args.output_dir)
     if not os.path.isdir(args.output_dir):
-        os.mkdir(args.output_dir)
+        os.makedirs(args.output_dir)
 
     # compute the gold file if not given
     if args.goldfile is None:
@@ -341,7 +346,7 @@ def main():
     if args.verbose:
         print('launched jobs are')
         for k, v in pids.iteritems():
-            print('  {} : {}'.format(k, v.pid))
+            print('  {} : {}'.format(k, v if isinstance(v, str) else v.pid))
 
     # wait all the jobs terminate
     if args.sync:
@@ -352,6 +357,9 @@ if __name__ == '__main__':
     #    main()
     try:
         main()
+    except KeyboardInterrupt:
+        print >> sys.stderr, 'Keyboard interruption, exiting'
+        sys.exit(1)
     except Exception as err:
-        print >> sys.stderr, 'fatal error in {} : {}'.format(__file__, err)
+        print >> sys.stderr, 'Fatal error in {} : {}'.format(__file__, err)
         sys.exit(1)

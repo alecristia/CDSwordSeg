@@ -1,5 +1,3 @@
-#folder="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat"
-#RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat/res_conc/100"
 raw=$1
 output=$2
 
@@ -7,8 +5,8 @@ rm cat.txt
 rm spa.txt
 rm both.txt
 
-ls ${raw}cat/*gold.txt > cat.txt
-ls ${raw}spa/*gold.txt > spa.txt
+ls ${raw}cat/*cutlines.txt > cat.txt
+ls ${raw}spa/*cutlines.txt > spa.txt
 nfiles=`wc -l cat.txt| awk '{print $1}'`
 
 
@@ -39,12 +37,18 @@ do
         	do
 #echo in for $thisfile
 			 thisdir=$(dirname "$thisfile" )
-			thistagfile=$(basename "$thisfile" -gold.txt)
+			thistagfile=$(basename "$thisfile" -cutlines.txt)
           		sed -n $i,${j}p $thisfile >> ${output}/$length/gold.txt
           		sed -n $i,${j}p $thisdir/${thistagfile}-tags.txt >> ${output}/$length/tags.txt
 	        done
 	i=$(($i + $length ))
 	done
+	echo "creating gold versions"
+
+  sed 's/;esyll//g'  < ${output}/$length/tags.txt |
+    tr -d ' ' |
+    sed 's/;eword/ /g' > ${output}/$length/gold.txt
 done
 
-echo "done mixing lines for gold and tags"
+echo $output
+echo "done mixing lines for gold and tags for bilingual"
