@@ -75,7 +75,6 @@ class NonAGSegmenter(object):
         """Algorithms supported by this class"""
         return ['dibs', 'dmcmc', 'ngrams', 'puddle', 'TPs']
 
-
     def _ncores(self):
         try:
             return {'dmcmc': 5}[self.algo]  # 5-fold xeval
@@ -113,7 +112,8 @@ def supported_algos():
 
 def create_nonag(algo, args):
     algo_dir = os.path.join(args.output_dir, algo)
-    return NonAGSegmenter(algo, args.tagsfile, args.goldfile, algo_dir, args.cds_dir)
+    return NonAGSegmenter(
+        algo, args.tagsfile, args.goldfile, algo_dir, args.cds_dir)
 
 
 def create_ag(algo, args):
@@ -231,8 +231,8 @@ def parse_args():
         help='display some log during execution')
 
     parser.add_argument(
-        '--log-to-stdout', action='store_true', help=
-        """output log messages to stdout (by default log to OUTPUT_DIR/log)""")
+        '--log-to-stdout', action='store_true', help="""
+        output log messages to stdout (by default log to OUTPUT_DIR/log)""")
 
     parser.add_argument(
         'tagsfile', type=str,  metavar='TAGSFILE',
