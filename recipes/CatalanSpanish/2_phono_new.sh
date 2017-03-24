@@ -4,16 +4,22 @@
 # Modified by Laia Fibla laia.fibla.reixachs@gmail.com 2016-09-28
 # Adapted to castillan spanish and catalan using espeak
 
+## Activate espeak ##
+module load python-anaconda
+source activate phonemizer
+module load espeak
+
+echo "ja estic funcionant" | phonemize -l ca # testing espeak
 
 #########VARIABLES#################
 #Variables to modify
-LANGUAGE="catalan" #language options:  cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
+LANGUAGE="cspanish" #language options:  cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
 
 
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
 #path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat/"
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/"
 #this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/"
 # NOTICE THE / AT THE END OF THE NAME
 
@@ -52,18 +58,20 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/^ɛs /əs /g' |
 		sed 's/ɛs$/əs/g' |
 		sed 's/ ɛs / əs /g' |
-	#	sed 's/ es / əs /g'
-	#	sed 's/\<ɛs\>/es/g' |
-	#	sed 's/^tɛs/tes/g' |
-	#	sed 's/^tɛs/tes/g' |
-	#	sed 's/^təs/tas/g' |
-	#	sed 's/\<təs\>/tas/g' |
-	#	sed 's/\<tɛs\>/tes/g' |
-  #  sed 's/dʑ/dJ/g' |
+	#	sed 's/ pladʑɐ / plaDa /g' |
+	#	sed 's/ pladʑɐ$/ plaDa/g' |
+		sed 's/dʑ/dJ/g' |
+	#	sed 's/ ets //g' |
+	#	sed 's/^ets //g' |
+	#	sed 's/ G / ets /g' |
+	#	sed 's/^G /ets /g' |
 		sed 's/ʑ/J/g' |
 		sed 's/jɕʊ /Sɔ /g' |
 		sed 's/jɕʊ$/Sɔ/g' |
 		#sed 's/jɕ/S/g' |
+	#	sed 's/kotɕə/koTE/g' |
+	#	sed 's/ kotɕə / koTE /g' |
+		sed 's/ kotɕə$/ koTSE/g' |
 	#	sed 's/tɕ/tS/g' |
 		sed 's/ɕ/S/g' |
 		sed 's/ɲ/N/g' |
@@ -91,6 +99,12 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/rr/R/g' |
 		sed 's/ɾ/r/g' |
 		sed 's/ŋ/7/g' |
+		sed 's/ aia/ iaia/g' |
+		sed 's/ aia$/ iaia/g' |
+		sed 's/ 3la / l/g' |
+		sed "s/' //g" |
+		sed "s/ '//g" |
+		sed "s/'//g" |
 		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
@@ -105,6 +119,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/z/8/g' |
 		sed 's/ce/8e/g' |
 		sed 's/ci/8i/g' |
+		sed 's/C/tS/g' |
 		sed 's/c/k/g' |
 		sed 's/rr/R/g' | # substitute the spanish rr by 5
 		sed 's/^r/R/g' | # substitue the initial r for R
@@ -119,6 +134,10 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ó/o/g' |
 		sed 's/ú/u/g' |
 		sed 's/ü/u/g' |
+		sed 's/pie⌉/pie/g' |
+		sed 's/^pie⌉/pie/g' |
+		sed 's/⌉//g' |
+		sed 's/⌋//g' |
 		sed 's/y/i/g' > intoperl.tmp
 
 		echo "syllabify-corpus.pl"

@@ -8,7 +8,9 @@ DATAFOLDER=$1
 RESFOLDER=$2
 
 PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_CatSpa.py"
+
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/cm/shared/apps/boost/1.62.0/stage/lib
+
 #########
 
 
@@ -28,7 +30,7 @@ do
         echo Clusterizing ${VNAME}
         $PIPELINE --goldfile ${VERSION}/gold.txt \
                   --output-dir ${RESFOLDER}/${VNAME} \
-                  --algorithms AGu \
+                  --algorithms AGc3sf AGu dibs dmcmc puddle TPs \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename s${VNAME} \

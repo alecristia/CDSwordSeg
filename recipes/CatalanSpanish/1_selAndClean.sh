@@ -8,9 +8,9 @@
 
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/database_creation"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
 
-INPUT_CORPUS="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/corpus_database/cat_mini" #where you have put the talkbank corpora to be analyzedE.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
+INPUT_CORPUS="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/corpus_database/cat_big" #where you have put the talkbank corpora to be analyzed E.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_cat/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/big_corpora/RES_corpus_cat/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
 
 
 INPUT_FILES="${RES_FOLDER}info.txt" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
@@ -30,7 +30,7 @@ echo "finding out who's a speaker in $f"
 		iconv -f ISO-8859-1 | #convert the file to deal with multibyte e.g. accented characters ###!!! try -t
 		grep "@ID" |      #take only @ID lines of the file
 		awk -F "|" '{ print $3, $8 }' | #let through only 3-letter code and role
-        grep -v 'nurse\|INV\|RMA\|EXA\|investigador\|experimentador\|ANN' | #remove all the children and non-human participants to leave only adults
+        grep -v 'Child\|Sister\|Brother\|Cousin\|Boy\|Girl\|Unidentified\|Sibling\|Target\|Nurse\|Investigator\|Experimentator\|Non_Hum\|Play' | #remove all the children and non-human participants to leave only adults
         awk '{ print $1 }' | #print out the first item, which is the 3 letter code for those adults
 		tr "\n" "%" | # put them all in the same line
 		sed "s/^/*/g" | #add an asterisk at the beginning
