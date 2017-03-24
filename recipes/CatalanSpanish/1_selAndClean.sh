@@ -1,6 +1,8 @@
-#Wrapper written by Alex Cristia to process the Audio1 (first 20 kids) from the Arg longitudinal corpus
+#!/bin/sh
+# Wrapper written by Alex Cristia to process the orthograpically transcived corpora in .cha
+# Modified by Laia Fibla 2017-02-15
 
-
+###### Variables #######
 
 # Adapt the following variables, being careful to provide absolute paths
 
@@ -36,8 +38,8 @@ echo "finding out who's a speaker in $f"
 		sed "s/\\\\\|.$//" ` #remove the pipe* next to the end of line & close the text call
 
 		SELFILE=$(basename "$f" .cha)"-includedlines.txt"
-		bash ${PATH_TO_SCRIPTS}/scripts/cha2sel_withinputParticipants.sh $f ${RES_FOLDER}/${SELFILE} $IncludedParts 
-		
+		bash ${PATH_TO_SCRIPTS}/scripts/cha2sel_withinputParticipants.sh $f ${RES_FOLDER}/${SELFILE} $IncludedParts
+
  		ORTHO=$(basename "$f" .cha)"-ortholines.txt"
 		bash ${PATH_TO_SCRIPTS}/scripts/selcha2clean.sh ${RES_FOLDER}/${SELFILE} ${RES_FOLDER}/$ORTHO
 

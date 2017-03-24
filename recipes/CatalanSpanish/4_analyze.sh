@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Script for analyzing CDS and ADS for ELEAC corpus
 # Alex Cristia alecristia@gmail.com 2016-11-??
-# Laia Fibla 2017-03-15
+# Adapted by Laia Fibla 2017-03-15 laia.fibla.reixachs@gmail.com
 
 #########VARIABLES###########################
 DATAFOLDER=$1
@@ -12,7 +12,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/cm/shared/apps/boost/1.62.0/stage/lib
 #########
 
 
-# Run all algos in the cluster writing 'all' next to algorithms. 
+# Run all algos in the cluster writing 'all' next to algorithms.
 # To just run one single algorithm choose from 'AGc3sf', 'AGu', 'dibs', 'dmcmc', 'ngrams', 'puddle', 'TPs', 'all'
 
 module load python-anaconda

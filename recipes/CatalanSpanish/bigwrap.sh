@@ -3,7 +3,7 @@
 # Wrapper to run WinnipegLENA experiments 201511
 # Alex Cristia <alecristia@gmail.com> 2017-01-14
 # Mathieu Bernard
-# Laia Fibla
+# Laia Fibla 2017-01-19
 
 
 PROCESSED_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_"
@@ -25,6 +25,8 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/results/segcatspares_"
 #echo "done concatenating"
 
 # include head and tail
+./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_head
+./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_tail
 
 # Analyze
 #./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa

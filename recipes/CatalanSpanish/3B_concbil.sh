@@ -1,3 +1,8 @@
+#!/bin/sh
+# This file creates an artificial bilingual corpus
+# by concatenating two monolingual corpora (e.g. cat and spa) each two and each 100 lines.
+# Laia Fibla and Alex Cristia laia.fibla.reixachs@gmail.com 2017-01-16
+
 raw=$1
 output=$2
 

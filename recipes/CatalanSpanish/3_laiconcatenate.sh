@@ -1,5 +1,7 @@
 #!/bin/sh
-#This file concatenates each two and each 100 lines. To be used for monolingual cat and monolingula spa
+# Script to concatenate each two and each 100 lines. To be used for monolingual cat and monolingual spa
+# Laia Fibla and Alex Cristia laia.fibla.reixachs@gmail.com 2017-01-10
+
 #input="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat"
 #output="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat"
 

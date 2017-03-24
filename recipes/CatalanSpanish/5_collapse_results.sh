@@ -4,6 +4,7 @@
 # script.
 #
 # Mathieu Bernard
+
 ABSPATH="../../algoComp"
 CURPATH=`pwd`
 
