@@ -28,9 +28,13 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/segcatspares_"
 #./3B_concbil.sh ${PROCESSED_FOLDER}  ${CONCATENATED_FOLDER}bil
 #echo "done concatenating"
 
-# include head and tail
-./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_head
-./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_tail
+# include head and tail MODIFY ! # note, this step is just used with the big corpus!
+#./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_head
+#./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_tail
+
+./3C_cut.sh ${CONCATENATED_FOLDER}spa ${CONCATENATED_FOLDER}spa_10
+./3C_cut.sh ${CONCATENATED_FOLDER}cat ${CONCATENATED_FOLDER}cat_10
+./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_10
 
 # Analyze
 #rm -r ${RES_FOLDER}spa/100/AG*

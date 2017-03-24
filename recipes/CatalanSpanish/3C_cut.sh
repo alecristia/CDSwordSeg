@@ -5,8 +5,11 @@
 
 ##### Variables #####
 
-input=$1
-output=$2
+input="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/conc_spa"
+output="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/conc_spa_10"
+
+#input=$1
+#output=$2
 
 divide=2 # Modify this line to divide the corpus in a specific number of sub-parts
 
@@ -30,14 +33,14 @@ do
     	j=$(( $i + $add ))
 
       sed -n $i,${n}p $file >> ${output}/*[0-10]/gold.txt
-      sed -n $i,${n}p $thisdir/${thistagfile}-tags.txt >> ${output}/*[0-10]/tags.txt
+      sed -n $i,${n}p $file >> ${output}/*[0-10]/tags.txt
   done
 
   echo "creating gold versions"
 
-  sed 's/;esyll//g'  < ${output}/$length/tags.txt |
+  sed 's/;esyll//g'  < ${output}/*[0-10]/tags.txt |
     tr -d ' ' |
-    sed 's/;eword/ /g' > ${output}/$length/gold.txt
+    sed 's/;eword/ /g' > ${output}/*[0-10]/gold.txt
 done
 
 echo $output
