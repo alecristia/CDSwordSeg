@@ -17,7 +17,7 @@ mkdir -p ${output}
 
 for f in $input/*/tags.txt
 do
-  max= `wc -l $f | grep -v "total" | awk '{print $1}'`
+  max=`wc -l $f | grep -v "total" | awk '{print $1}'`
   n=$(( $max / 10 ))
 echo dividing
 #  head -$n $input/*/tags.txt > ${input}/${thistagfile}-cutlines.txt
