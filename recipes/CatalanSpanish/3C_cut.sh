@@ -30,7 +30,7 @@ do
   do
 
   #echo in while $i
-    	j=$(( $i + $add ))
+    #	j=$(( $i + $add ))
 
       sed -n $i,${n}p $file >> ${output}/*[0-10]/gold.txt
       sed -n $i,${n}p $file >> ${output}/*[0-10]/tags.txt
