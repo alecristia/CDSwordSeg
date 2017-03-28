@@ -11,16 +11,16 @@ output="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/conc_spa_10"
 #input=$1
 #output=$2
 
-divide=2 # Modify this line to divide the corpus in a specific number of sub-parts
+#divide=2 # Modify this line to divide the corpus in a specific number of sub-parts
 
 
-for thistagfile in $input/*/tags.txt
+for f in $input/*/tags.txt
 do
-  mkdir -p ${output}
-  max= wc -l $thistagfile #| grep -v "total" | awk '{print $1}'
-  n=$(( $max / $divide ))
-
-#echo cutting
+thistagfile=$(basename "$s" -gold.txt)
+  mkdir -p ${output} 
+  max= wc -l $f
+  n=$(( $max / 10 ))
+echo dividing
 #  head -$n $input/*/tags.txt > ${input}/${thistagfile}-cutlines.txt
 
   #add=$(( $divide - 1 ))
@@ -32,8 +32,8 @@ do
   #echo in while $i
     #	j=$(( $i + $add ))
 
-      sed -n $i,${n}p $file >> ${output}/*[0-10]/gold.txt
-      sed -n $i,${n}p $file >> ${output}/*[0-10]/tags.txt
+      sed -n $i,${n}p $thistagfile >> ${output}/*[0-10]/gold.txt
+      sed -n $i,${n}p $thistagfile >> ${output}/*[0-10]/tags.txt
   done
 
   echo "creating gold versions"
