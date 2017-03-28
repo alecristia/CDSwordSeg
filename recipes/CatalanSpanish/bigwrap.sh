@@ -32,28 +32,28 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/segcatspares_"
 #./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_head
 #./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_tail
 
-./3C_cut.sh ${CONCATENATED_FOLDER}spa ${CONCATENATED_FOLDER}spa_10
-./3C_cut.sh ${CONCATENATED_FOLDER}cat ${CONCATENATED_FOLDER}cat_10
-./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_10
+#./3C_cut.sh ${CONCATENATED_FOLDER}spa ${CONCATENATED_FOLDER}spa_10
+#./3C_cut.sh ${CONCATENATED_FOLDER}cat ${CONCATENATED_FOLDER}cat_10
+#./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_10
 
 # Analyze
 #rm -r ${RES_FOLDER}spa/100/AG*
 #rm -r ${RES_FOLDER}spa/2/AG*
 #rm -r ${RES_FOLDER}cat/100/AG*
 #rm -r ${RES_FOLDER}cat/2/AG*
-rm -r ${RES_FOLDER}bil_head/100/*
-rm -r ${RES_FOLDER}bil_head/2/*
-rm -r ${RES_FOLDER}bil_tail/100/*
-rm -r ${RES_FOLDER}bil_tail/2/*
-rm -r ${RES_FOLDER}bil/2/*
-rm -r ${RES_FOLDER}bil/100/*
+#rm -r ${RES_FOLDER}bil_head/100/*
+#rm -r ${RES_FOLDER}bil_head/2/*
+#rm -r ${RES_FOLDER}bil_tail/100/*
+#rm -r ${RES_FOLDER}bil_tail/2/*
+#rm -r ${RES_FOLDER}bil/2/*
+#rm -r ${RES_FOLDER}bil/100/*
 #./4_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa
 #./4_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
-./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
-./4_analyze.sh ${CONCATENATED_FOLDER}bil_tail ${RES_FOLDER}bil_tail
-./4_analyze.sh ${CONCATENATED_FOLDER}bil ${RES_FOLDER}bil
-echo "done analysing"
-echo ${RES_FOLDER}
+#./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
+#./4_analyze.sh ${CONCATENATED_FOLDER}bil_tail ${RES_FOLDER}bil_tail
+#./4_analyze.sh ${CONCATENATED_FOLDER}bil ${RES_FOLDER}bil
+#echo "done analysing"
+#echo ${RES_FOLDER}
 
 # Collapse results
 #rm ${RES_FOLDER}spa/results.txt
@@ -65,6 +65,7 @@ echo ${RES_FOLDER}
 #./5_collapse_results.sh ${RES_FOLDER}cat
 #./5_collapse_results.sh ${RES_FOLDER}bil_head
 #./5_collapse_results.sh ${RES_FOLDER}bil_tail
-#./5_collapse_results.sh ${RES_FOLDER}bil
+./5_collapse_results.sh ${RES_FOLDER}bil
 
 #echo "done collapsing results"
+
