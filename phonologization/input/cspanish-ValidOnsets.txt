@@ -27,6 +27,7 @@ tr
 kr
 kl
 br
+tS
 r
 v
 O
