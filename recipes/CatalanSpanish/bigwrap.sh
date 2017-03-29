@@ -15,6 +15,8 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/segcatspares_"
 #./1_cha2ortho.sh $PROCESSED_FOLDER  || exit 1
 
 # Phonologize the ortholines files
+#Language=cspanish
+#Language=catalan
 #./2_ortho2phono.sh $PROCESSED_FOLDER  || exit 1
 
 # Concatenate
@@ -29,12 +31,18 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/segcatspares_"
 #echo "done concatenating"
 
 # include head and tail MODIFY ! # note, this step is just used with the big corpus!
+#divide=2
 #./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_head
 #./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_tail
 
-#./3C_cut.sh ${CONCATENATED_FOLDER}spa ${CONCATENATED_FOLDER}spa_10
-#./3C_cut.sh ${CONCATENATED_FOLDER}cat ${CONCATENATED_FOLDER}cat_10
-#./3C_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_10
+# note, this step is just used with the big corpus!
+#divide=10
+#./3C_cut.sh ${CONCATENATED_FOLDER}spa/2 ${CONCATENATED_FOLDER}spa_10/2
+#./3C_cut.sh ${CONCATENATED_FOLDER}spa/100 ${CONCATENATED_FOLDER}spa_10/100
+#./3C_cut.sh ${CONCATENATED_FOLDER}cat/2 ${CONCATENATED_FOLDER}cat_10/2
+#./3C_cut.sh ${CONCATENATED_FOLDER}cat/100 ${CONCATENATED_FOLDER}cat_10/100
+#./3C_cut.sh ${CONCATENATED_FOLDER}bil_head/2 ${CONCATENATED_FOLDER}bil_head_10/2
+#./3C_cut.sh ${CONCATENATED_FOLDER}bil_head/100 ${CONCATENATED_FOLDER}bil_head_10/100 
 
 # Analyze
 #rm -r ${RES_FOLDER}spa/100/AG*
@@ -52,6 +60,10 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/segcatspares_"
 #./4_analyze.sh ${CONCATENATED_FOLDER}bil_head ${RES_FOLDER}bil_head
 #./4_analyze.sh ${CONCATENATED_FOLDER}bil_tail ${RES_FOLDER}bil_tail
 #./4_analyze.sh ${CONCATENATED_FOLDER}bil ${RES_FOLDER}bil
+#./4_analyze.sh ${CONCATENATED_FOLDER}spa_10/100 ${RES_FOLDER}spa_10/100
+#./4_analyze.sh ${CONCATENATED_FOLDER}spa_10/2 ${RES_FOLDER}spa_10/2
+./4_analyze.sh ${CONCATENATED_FOLDER}cat_10/2 ${RES_FOLDER}cat_10/2 
+#./4_analyze.sh ${CONCATENATED_FOLDER}cat_10/100 ${RES_FOLDER}cat_10/100 
 #echo "done analysing"
 #echo ${RES_FOLDER}
 
@@ -65,7 +77,7 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/segcatspares_"
 #./5_collapse_results.sh ${RES_FOLDER}cat
 #./5_collapse_results.sh ${RES_FOLDER}bil_head
 #./5_collapse_results.sh ${RES_FOLDER}bil_tail
-./5_collapse_results.sh ${RES_FOLDER}bil
+#./5_collapse_results.sh ${RES_FOLDER}bil
 
 #echo "done collapsing results"
 
