@@ -19,7 +19,7 @@ LANGUAGE="cspanish" #language options:  cspanish (castillan spanish), catalan  -
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
 #path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/RES_corpus_spa/"
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/big_corpora/RES_corpus_spa/"
 #this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/"
 # NOTICE THE / AT THE END OF THE NAME
 
@@ -58,8 +58,6 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/^ɛs /əs /g' |
 		sed 's/ɛs$/əs/g' |
 		sed 's/ ɛs / əs /g' |
-	#	sed 's/ pladʑɐ / plaDa /g' |
-	#	sed 's/ pladʑɐ$/ plaDa/g' |
 		sed 's/dʑ/dJ/g' |
 	#	sed 's/ ets //g' |
 	#	sed 's/^ets //g' |
@@ -68,9 +66,8 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ʑ/J/g' |
 		sed 's/jɕʊ /Sɔ /g' |
 		sed 's/jɕʊ$/Sɔ/g' |
-		#sed 's/jɕ/S/g' |
-	#	sed 's/kotɕə/koTE/g' |
-	#	sed 's/ kotɕə / koTE /g' |
+	#	sed 's/jɕ/S/g' |
+		sed 's/ kotɕə / koTSE /g' |
 		sed 's/ kotɕə$/ koTSE/g' |
 	#	sed 's/tɕ/tS/g' |
 		sed 's/ɕ/S/g' |
@@ -105,6 +102,9 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed "s/' //g" |
 		sed "s/ '//g" |
 		sed "s/'//g" |
+		sed "s/dJi/gi/g" |
+		sed "s/dJi /gi /g" |
+		sed "s/dJi$/gi/g" |
 		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"

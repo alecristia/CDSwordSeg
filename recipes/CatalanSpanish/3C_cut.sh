@@ -5,42 +5,32 @@
 
 ##### Variables #####
 
-input="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/conc_spa"
-output="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/conc_spa_10"
+input=$1
+output=$2
 
-#input=$1
-#output=$2
-
-#divide=2 # Modify this line to divide the corpus in a specific number of sub-parts
+divide=10 # Modify this line to divide the corpus in a specific number of sub-parts
 
 mkdir -p ${output}
 
-for f in $input/*/tags.txt
+for f in $input/*.txt
 do
   max=`wc -l $f | grep -v "total" | awk '{print $1}'`
-  n=$(( $max / 10 ))
+  n=$(( $max / $divide ))
 echo dividing
-#  head -$n $input/*/tags.txt > ${input}/${thistagfile}-cutlines.txt
 
-  #add=$(( $divide - 1 ))
-
-  i=1
-  while [ $i -lt $n ]
+  i=0
+  while [ $i -lt $divide ]
   do
-
-  #echo in while $i
-    #	j=$(( $i + $add ))
-
-      sed -n $i,${n}p $f >> ${output}/*[0-10]/gold.txt
-      sed -n $i,${n}p $f >> ${output}/*[0-10]/tags.txt
+  rm -r ${output}/${i}/*
+  mkdir -p ${output}/${i}
+  echo in while $i
+      ini=$(( $i * $n + 1 ))
+      fin=$(( $ini + $n - 1 ))
+	
+      sed -n ${ini},${fin}p ${input}/gold.txt >> ${output}/${i}/gold.txt
+      sed -n ${ini},${fin}p ${input}/tags.txt >> ${output}/${i}/tags.txt
+  i=$(($i + 1 ))
   done
-
-  echo "creating gold versions"
-
-  sed 's/;esyll//g'  < ${output}/*[0-10]/tags.txt |
-    tr -d ' ' |
-    sed 's/;eword/ /g' > ${output}/*[0-10]/gold.txt
 done
 
 echo $output
-echo "done"
