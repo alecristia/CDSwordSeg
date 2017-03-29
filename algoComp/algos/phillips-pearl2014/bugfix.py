@@ -43,9 +43,9 @@ def join_if_singles(tags, gold, lines=[0]):
         updated_lines.append(m)
         assert m < len(tags), \
             'want to read line {} of {}'.format(m, len(tags)-1)
-        print 'line {} is made of {} syllables'.format(m, len(tags[m]))
+        print('line {} is made of {} syllables'.format(m, len(tags[m])))
         if len(tags[m]) == 1:
-            print 'dmcmc bugfix: joined lines {} and {}'.format(n, n+1)
+            print('dmcmc bugfix: joined lines {} and {}'.format(n, n+1))
             join(tags, m)
             join(gold, m, True)
             offset += 1
@@ -55,33 +55,34 @@ def join_if_singles(tags, gold, lines=[0]):
 def bugfix(input_tags, input_gold,
            output_tags=None, output_gold=None,
            lines=[0]):
-    print 'DMCMC bugfix from {} and {}'.format(input_tags, input_gold)
+    print('DMCMC bugfix from {} and {}'.format(input_tags, input_gold))
     # setup default values for output files
-    if output_tags == None:
+    if output_tags is None:
         output_tags = input_tags
-    if output_gold == None:
+    if output_gold is None:
         output_gold = input_gold
 
-    #print 'dmcmc bugfix: load tags {}'.format(input_tags)
+    # print 'dmcmc bugfix: load tags {}'.format(input_tags)
     with codecs.open(input_tags, encoding='utf8', mode='r') as tags:
         tags_lines = [l.strip() for l in tags.readlines()]
 
-    #print 'dmcmc bugfix: load gold {}'.format(input_gold)
+    # print 'dmcmc bugfix: load gold {}'.format(input_gold)
     with codecs.open(input_gold, encoding='utf8', mode='r') as gold:
         gold_lines = [l.strip() for l in gold.readlines()]
 
     # merge lines as required
     updated_lines = join_if_singles(tags_lines, gold_lines, lines)
 
-    #print 'dmcmc bugfix: write tags {}'.format(output_tags)
+    # print 'dmcmc bugfix: write tags {}'.format(output_tags)
     with codecs.open(output_tags, encoding='utf8', mode='w') as tags:
         tags.write('\n'.join(tags_lines)+'\n')
 
-    #print 'dmcmc bugfix: write gold {}'.format(output_gold)
+    # print 'dmcmc bugfix: write gold {}'.format(output_gold)
     with codecs.open(output_gold, encoding='utf8', mode='w') as gold:
         gold.write('\n'.join(gold_lines)+'\n')
 
     return updated_lines
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -92,11 +93,12 @@ def main():
     parser.add_argument('-l', '--lines', type=int, nargs='+', default=[0])
     args = parser.parse_args()
 
-    print 'lines index: ', args.lines
+    print('lines index:', args.lines)
     l = bugfix(args.input_tags, args.input_gold,
                args.output_tags, args.output_gold,
                args.lines)
-    print 'updated lines index:', l
+    print('updated lines index:', l)
+
 
 if __name__ == '__main__':
     main()
