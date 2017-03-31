@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-"""Build a gold text from a phonologized one.
+"""Build a gold text from a phonologized one
 
 Remove syllable and word separators from a sequence of tagged
 utterances. The returned text is the gold version, against which the
