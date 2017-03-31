@@ -17,7 +17,6 @@
 
 import codecs
 import collections
-import itertools
 import pkg_resources
 import re
 import sys
@@ -139,11 +138,16 @@ def gold_text(text, syll_sep=';esyll', word_sep=';eword'):
     return (re.sub(' +', ' ', g).strip() for g in gold)
 
 
-def top_frequency_units(text, n=10000, sep=' '):
-    # t = itertools.chain(line.split(sep) for line in text)
+def top_frequency_tokens(text, n=10000, sep=' '):
+    """Return the `n` most common tokens in `text`
 
-    # TODO translate that from bash to Python
-    # cat $text | tr ' ' '\n' |
-    # sort | uniq -c | awk '{print $1" "$2}' | sort -n -r |
-    # head -n 10000 > $RESFOLDER/freq-top.txt
-    return [('', 0)]
+    :param sequence(str) text: the input sequence to process, each
+      string in the sequence is an utterance
+    :param int n: the most common tokens to return
+    :param str sep: tokens separation string in `text`
+    :return list((token, count)): the `n` most common tokens in text
+      and their occurence count
+
+    """
+    return collections.Counter(
+        word for line in text for word in line.split(sep)).most_common(n)
