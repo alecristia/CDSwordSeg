@@ -7,12 +7,13 @@
 
 import argparse
 import codecs
+import os
 import sys
 
-from segmentation import utils
+from segmentation import utils, argument_groups
 
 
-class counter(dict):
+class Counter(dict):
     def increment(self, key, value=1):
         self[key] = self.get(key, 0) + value
 
@@ -20,18 +21,18 @@ class counter(dict):
         return self.get(key, 0)
 
 
-class summary:
+class Summary(object):
     def __init__(self, multigraphemic=False, wordsep='##'):
         self.wordsep = wordsep
         self.multigraphemic = multigraphemic
-        self.summary = counter()
+        self.summary = Counter()
 
-        self.phraseinitial = counter()
-        self.phrasefinal = counter()
-        self.lexicon = counter()
+        self.phraseinitial = Counter()
+        self.phrasefinal = Counter()
+        self.lexicon = Counter()
 
-        self.internaldiphones = counter()
-        self.spanningdiphones = counter()
+        self.internaldiphones = Counter()
+        self.spanningdiphones = Counter()
 
     def readstream(self, instream):
         for line in instream:
@@ -57,34 +58,36 @@ class summary:
                 self.phraseinitial.increment(wordseq[0][0])
                 self.phrasefinal.increment(wordseq[-1][-1])
 
-            for iWord in range(len(wordseq)):
-                word = wordseq[iWord]
+            for i_word in range(len(wordseq)):
+                word = wordseq[i_word]
                 self.lexicon.increment(word)
 
-                for iPos in range(len(word)-1):
-                    self.internaldiphones.increment(word[iPos:iPos+2])
+                for i_pos in range(len(word)-1):
+                    self.internaldiphones.increment(word[i_pos:i_pos+2])
 
-                if iWord < len(wordseq)-1:
+                if i_word < len(wordseq)-1:
                     if self.multigraphemic:
                         self.spanningdiphones.increment(
-                            tuple([word[-1], wordseq[iWord+1][0]]))
+                            tuple([word[-1], wordseq[i_word+1][0]]))
                     else:
                         self.spanningdiphones.increment(
-                            word[-1]+wordseq[iWord+1][0])
+                            word[-1]+wordseq[i_word+1][0])
 
     def diphones(self):
-        alldiphones = counter(self.internaldiphones)
+        alldiphones = Counter(self.internaldiphones)
         for diphone in self.spanningdiphones:
             alldiphones.increment(diphone, self.spanningdiphones[diphone])
         return(alldiphones)
 
     def save(self, outstream):
         if self.multigraphemic:
-            outdic = lambda d: '\t'.join(
-                ['-'.join(item[0])+' '+str(item[1]) for item in d.items()])
+            def outdic(d):
+                lambda d: '\t'.join(
+                    ['-'.join(item[0])+' '+str(item[1]) for item in d.items()])
         else:
-            outdic = lambda d: '\t'.join(
-                [str(item[0])+' '+str(item[1]) for item in d.items()])
+            def outtdic(d):
+                '\t'.join(
+                    [str(item[0])+' '+str(item[1]) for item in d.items()])
 
         print >> outstream, (
             'multigraphemic\t' + str(self.multigraphemic) +
@@ -95,8 +98,10 @@ class summary:
             print >> outstream, data + '\t' + outdic(self.__dict__[data])
 
 
-class dibs(counter):
+class Dibs(Counter):
     def __init__(self, multigraphemic=False, thresh=0.5, wordsep='##'):
+        super(Dibs, self).__init__()
+
         self.multigraphemic, self.wordsep = multigraphemic, wordsep
         self.thresh = thresh
 
@@ -139,12 +144,13 @@ class dibs(counter):
 
 
 def norm2pdf(fdf):
-    s = sum(fdf.values())
-    return counter([(item[0], float(item[1]) / s) for item in fdf.items()])
+    return Counter(
+        [(item[0], float(item[1]) / sum(fdf.values())) for item in fdf.items()]
+    )
 
 
 def baseline(speech, lexicon=None, pwb=None):
-    dib = dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
+    dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     within, across = speech.internaldiphones, speech.spanningdiphones
     for diphone in speech.diphones():
         dib[diphone] = float(across[diphone]) / (
@@ -152,34 +158,34 @@ def baseline(speech, lexicon=None, pwb=None):
     return dib
 
 
-def phrasal(speech, lexicon=None, pwb=None):
+def phrasal(speech, pwb=None):
     px2_ = norm2pdf(speech.phrasefinal)
     p_2y = norm2pdf(speech.phraseinitial)
     pxy = norm2pdf(speech.diphones())
-    p_ = pwb or (
+    pwb = pwb or (
         float(speech.summary['nTokens'] - speech.summary['nLines']) /
         (speech.summary['nPhones'] - speech.summary['nLines']))
 
-    print >> sys.stderr, 'phrasal\tpwb = ' + str(p_)
+    print >> sys.stderr, 'phrasal\tpwb = ' + str(pwb)
 
-    dib = dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
+    dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     for diphone in speech.diphones():
         if speech.multigraphemic:
             x, y = (diphone[0],), (diphone[1],)
         else:
             x, y = diphone[0], diphone[1]
 
-        num, denom = px2_[x] * p_ * p_2y[y], pxy[diphone]
-        dib[diphone] = 1 if num >= denom else num/denom
+        num, denom = px2_[x] * pwb * p_2y[y], pxy[diphone]
+        dib[diphone] = 1 if num >= denom else num / denom
     return dib
 
 
 def lexical(speech, lexicon=None, pwb=None):
-    wordinitial = counter()
-    wordfinal = counter()
-    lex = lexicon or speech.lexicon
+    wordinitial = Counter()
+    wordfinal = Counter()
+    lexicon = lexicon or speech.lexicon
 
-    for word in lex:
+    for word in lexicon:
         if speech.multigraphemic:
             wordinitial.increment((word[0],))
             wordfinal.increment((word[-1],))
@@ -196,7 +202,7 @@ def lexical(speech, lexicon=None, pwb=None):
 
     print >> sys.stderr, 'lexical\tpwb = ' + str(p_)
 
-    dib = dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
+    dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     for diphone in speech.diphones():
         if speech.multigraphemic:
             x, y = (diphone[0],), (diphone[1],)
@@ -204,35 +210,70 @@ def lexical(speech, lexicon=None, pwb=None):
             x, y = diphone[0], diphone[1]
 
         num, denom = px2_[x] * p_ * p_2y[y], pxy[diphone]
-        dib[diphone] = 1 if num >= denom else num/denom
+        dib[diphone] = 1 if num >= denom else num / denom
     return dib
 
 
 def get_options(parser):
-    parser.add_argument('trainfile', help='filename to train model on')
-    parser.add_argument('testfile', help='filename to test model on')
-    parser.add_argument('outputfile', help='filename to write test output to')
-    parser.add_argument('diphonefile', help='filename to write diphones to')
+    """Add Dibs command specific options to the `parser`"""
+    parser.add_argument(
+        '-t', '--train', metavar='<int or file>', type=str, default='200',
+        help='''Dibs requires a little train corpus to compute some statistics.
+        If the argument is a file, read this file as a train corpus. If
+        the argument is a positive integer N, take the N first lines of the
+        <input-file> (train) file for testing, default is %(default)s''')
 
+    parser.add_argument(
+        '-d', '--diphone', metavar='<output-file>',
+        help='''optional filename to write diphones,
+        ignore diphones if this argument is not specified''')
+
+# TODO add pwb as argument
 
 @utils.catch_exceptions
 def main():
+    """Entry point of the 'wordseg-dibs' command"""
+    # define the commandline parser
     parser = argparse.ArgumentParser(description=__doc__)
+    argument_groups.add_input_output(parser)
+    argument_groups.add_separators(parser, phone=False, syllable=False)
     get_options(parser)
 
+    # parse the command line arguments
     args = parser.parse_args()
 
-    training = summary(multigraphemic=True, wordsep=';eword')
-    with codecs.open(args.trainfile, encoding='utf8') as fin:
-        training.readstream(fin)
-        phrasalDiBS = phrasal(training)
+    # open the input and output streams
+    streamin, streamout = utils.prepare_streams(args.input, args.output)
 
-    with codecs.open(args.testfile, encoding='utf8') as fin:
-        with codecs.open(args.outputfile, 'w', encoding='utf8') as fout:
-            phrasalDiBS.test(fin, fout)
+    # load the test input
+    test_text = streamin.readlines()
 
-    with codecs.open(args.diphonefile, 'w', encoding='utf8') as fdiph:
-        phrasalDiBS.save(fdiph)
+    # prepare the train input according to --train: try to open the
+    # file first, if file not found cast to int
+    if os.path.isfile(args.train):
+        train_text = codecs.open(
+            args.train, 'r', encoding='utf8').readlines()
+    else:
+        try:
+            ntrain = int(args.train)
+        except ValueError:
+            raise ValueError(
+                '--train option must be an int or an existing file, '
+                'it is: {}'.format(args.train))
+
+        if ntrain <= 0:
+            raise ValueError(
+                '--train option must be positive, it is: {}'.format(ntrain))
+
+        train_text = test_text[:ntrain]
+
+    training = Summary(multigraphemic=True, wordsep=args.word_separator)
+    training.readstream(train_text)
+
+    phrasal_dibs = phrasal(train_text)
+    phrasal_dibs.test(test_text, streamout)
+    if args.diphones:
+        phrasal_dibs.save(codecs.open(args.diphone, 'w', encoding='utf8'))
 
 
 if __name__ == '__main__':

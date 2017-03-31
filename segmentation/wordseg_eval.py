@@ -140,7 +140,8 @@ def stringpos_boundarypos(stringpos):
             for line in stringpos]
 
 
-def evaluate(args, outputf, trainwords, trainstringpos, goldwords, goldstringpos):
+def evaluate(
+        args, outputf, trainwords, trainstringpos, goldwords, goldstringpos):
     if args.debug >= 1000:
         for (tw, tsps, gw, gsps) in zip(
                 trainwords, trainstringpos, goldwords, goldstringpos):

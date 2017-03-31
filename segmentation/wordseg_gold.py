@@ -24,13 +24,13 @@ algorithms are evaluated.
 """
 
 import argparse
-import sys
 
 from segmentation import utils, argument_groups
 
 
 @utils.catch_exceptions
 def main():
+    """Entry point of the 'wordseg-gold' command"""
     # define the commandline parser
     parser = argparse.ArgumentParser(description=__doc__)
     argument_groups.add_input_output(parser)

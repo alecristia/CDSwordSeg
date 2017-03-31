@@ -16,9 +16,19 @@
 # along with wordseg. If not, see <http://www.gnu.org/licenses/>.
 """Setup script for the wordseg package"""
 
+import os
 from setuptools import setup, find_packages
 
+
 VERSION = '0.2'
+
+# On Reads The Docs we don't install any package (for online
+# documentation)
+ON_RTD = os.environ.get('READTHEDOCS', None) == 'True'
+REQUIREMENTS = [] if ON_RTD else [
+    'joblib',
+    'phonemizer>=0.3'
+]
 
 setup(
     name='wordseg',
@@ -26,14 +36,22 @@ setup(
     packages=find_packages(),
     zip_safe=True,
 
+    # install some dependencies directly from github
+    dependency_links=[
+        'https://github.com/bootphon/phonemizer/tarball/master'
+        '#egg=phonemizer-0.3'
+    ],
+
     # python package dependancies
-    install_requires=['joblib'],
+    install_requires=REQUIREMENTS,
 
     # define the command-line script to use
     entry_points={'console_scripts': [
         'wordseg-launcher = segmentation.wordseg_launcher:main',
+        'wordseg-prep = segmentation.wordseg_prep:main',
         'wordseg-gold = segmentation.wordseg_gold:main',
         'wordseg-eval = segmentation.wordseg_eval:main',
+        'wordseg-dibs = segmentation.algos.wordseg_dibs:main',
         'wordseg-tp = segmentation.algos.wordseg_tp:main']},
 
     # metadata for upload to PyPI

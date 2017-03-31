@@ -6,8 +6,6 @@ Setup
         conda create --name wordseg python=3 ipython flake8 joblib
         source activate wordseg
 
-* install the phonemizer from https://github.com/bootphon/phonemizer
-
 * install the wordseg package (this will install the commandline tools
   in your $HOME and make them callable from the terminal)
 

@@ -20,13 +20,12 @@ import sys
 
 def add_input_output(parser):
     """Add input and output arguments to the `parser`"""
-    group = parser.add_argument_group('input/output')
-    group.add_argument(
-        'input', default=sys.stdin, nargs='?', metavar='<file>',
+    parser.add_argument(
+        'input', default=sys.stdin, nargs='?', metavar='<input-file>',
         help='input text file to read, if not specified read from stdin')
 
-    group.add_argument(
-        '-o', '--output', default=sys.stdout, metavar='<file>',
+    parser.add_argument(
+        '-o', '--output', default=sys.stdout, metavar='<output-file>',
         help='output text file to write, if not specified write to stdout')
 
     return parser
@@ -42,17 +41,16 @@ def add_separators(parser, phone=' ', syllable=';esyll', word=';eword'):
     if not phone and not syllable and not word:
         return parser
 
-    group = parser.add_argument_group('separators')
     if phone:
-        group.add_argument(
+        parser.add_argument(
             '-p', '--phone-separator', metavar='<str>', default=phone,
             help='phone separator, default is "%(default)s"')
     if syllable:
-        group.add_argument(
+        parser.add_argument(
             '-s', '--syllable-separator', metavar='<str>', default=syllable,
             help='''syllable separator, default is "%(default)s"''')
     if word:
-        group.add_argument(
+        parser.add_argument(
             '-w', '--word-separator', metavar='<str>', default=word,
             help='word separator, default is "%(default)s"')
 

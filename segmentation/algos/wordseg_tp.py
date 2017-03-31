@@ -99,13 +99,7 @@ def segment(text, threshold='relative'):
 
 def add_options(parser):
     """Add algorithm specific options to the parser"""
-    group = parser.add_argument_group('algorithm parameters')
-    group.add_argument(
-        '-u', '--unit', type=str,
-        choices=['phoneme', 'syllable'], default='phoneme',
-        help="Representation unit to segment, must be 'phoneme' or 'syllable'")
-
-    group.add_argument(
+    parser.add_argument(
         '-t', '--threshold-type', type=str,
         choices=['relative', 'absolute'], default='relative',
         help='''use a relative or absolute threshold on transition
@@ -115,6 +109,7 @@ def add_options(parser):
 
 @utils.catch_exceptions
 def main():
+    """Entry point of the 'wordseg-tp' command"""
     # define the commandline parser
     parser = argparse.ArgumentParser(description=__doc__)
     argument_groups.add_input_output(parser)
@@ -127,15 +122,10 @@ def main():
     # open the input and output streams
     streamin, streamout = utils.prepare_streams(args.input, args.output)
 
-    # prepare the text for segmentation
-    input_text = utils.unit_text(
-        streamin.readlines(),
-        unit=args.unit,
-        syll_sep=args.syllable_separator,
-        word_sep=args.word_separator)
-
     # segment it and output the result
-    segmented_text = segment(input_text, threshold=args.threshold_type)
+    segmented_text = segment(
+        streamin.readlines(),
+        threshold=args.threshold_type)
     streamout.write('\n'.join(segmented_text) + '\n')
 
 
