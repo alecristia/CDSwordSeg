@@ -108,18 +108,19 @@ class Summary(object):
 
         for data in ['summary', 'phraseinitial', 'phrasefinal',
                      'internaldiphones', 'spanningdiphones', 'lexicon']:
-            print >> outstream, data + '\t' + outdic(self.__dict__[data])
+            outstream.write(data + '\t' + outdic(self.__dict__[data]))
 
 
 class Dibs(Counter):
-    def __init__(self, multigraphemic=False, thresh=0.5, wordsep='##'):
+    def __init__(self, multigraphemic=False, threshold=0.5, wordsep='##'):
         super(Dibs, self).__init__()
 
         self.multigraphemic, self.wordsep = multigraphemic, wordsep
-        self.thresh = thresh
+        self.threshold = threshold
 
     def test(self, instream, outstream):
-        bdry = self.wordsep*self.multigraphemic + ' '*(not self.multigraphemic)
+        bdry = (self.wordsep * self.multigraphemic +
+                ' ' * (not self.multigraphemic))
         for line in instream:
             if self.multigraphemic:
                 phoneseq = tuple(line.replace(self.wordsep, ' ').split())
@@ -130,12 +131,12 @@ class Dibs(Counter):
                 continue
 
             out = [phoneseq[0]]
-            for iPos in range(len(phoneseq)-1):
-                if self.get(phoneseq[iPos:iPos+2], 1.0) > self.thresh:
+            for i_pos in range(len(phoneseq)-1):
+                if self.get(phoneseq[i_pos:i_pos + 2], 1.0) > self.threshold:
                     out.append(bdry)
-                out.append(phoneseq[iPos+1])
+                out.append(phoneseq[i_pos + 1])
 
-            print >> outstream, (
+            outstream.write(
                 line.rstrip() + '\t' + (' ' * self.multigraphemic).join(out))
 
     def save(self, outstream):
@@ -148,21 +149,20 @@ class Dibs(Counter):
         print >> outstream, '\t'+'\t'.join([str(y) for y in cols])
         for x in rows:
             try:
-                print >> outstream, (
+                outstream.write(
                     str(x) + '\t' + '\t'.join([str(self[x+y]) for y in cols]))
             except KeyError:
-                print >> outstream, (
+                outstream.write(
                     str(x) + '\t' + '\t'.join(
                         [str(self.get(x + y, None)) for y in cols]))
 
 
 def norm2pdf(fdf):
-    return Counter(
-        [(item[0], float(item[1]) / sum(fdf.values())) for item in fdf.items()]
-    )
+    return Counter([(item[0], float(item[1]) / sum(fdf.values()))
+                    for item in fdf.items()])
 
 
-def baseline(speech, lexicon=None, pwb=None):
+def baseline(speech, pwb=None):
     dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     within, across = speech.internaldiphones, speech.spanningdiphones
     for diphone in speech.diphones():
@@ -179,7 +179,8 @@ def phrasal(speech, pwb=None):
         float(speech.summary['nTokens'] - speech.summary['nLines']) /
         (speech.summary['nPhones'] - speech.summary['nLines']))
 
-    print >> sys.stderr, 'phrasal\tpwb = ' + str(pwb)
+    # TODO redirect to logger
+    sys.stderr.write('phrasal\tpwb = ' + str(pwb))
 
     dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     for diphone in speech.diphones():
@@ -213,7 +214,8 @@ def lexical(speech, lexicon=None, pwb=None):
         float(speech.summary['nTokens'] - speech.summary['nLines']) /
         (speech.summary['nPhones'] - speech.summary['nLines']))
 
-    print >> sys.stderr, 'lexical\tpwb = ' + str(p_)
+    # TODO redirect to logger
+    sys.stderr.write('lexical\tpwb = ' + str(p_))
 
     dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     for diphone in speech.diphones():
@@ -229,7 +231,11 @@ def lexical(speech, lexicon=None, pwb=None):
 
 def get_options(parser):
     """Add Dibs command specific options to the `parser`"""
-    parser.add_argument(
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument(
+        '-p', '--prob-word-boundary', metavar='<float>', type=float,
+        help='''Word boundary probability, must be in [0, 1]''')
+    group.add_argument(
         '-t', '--train', metavar='<int or file>', type=str, default='200',
         help='''Dibs requires a little train corpus to compute some statistics.
         If the argument is a file, read this file as a train corpus. If
@@ -237,11 +243,10 @@ def get_options(parser):
         <input-file> (train) file for testing, default is %(default)s''')
 
     parser.add_argument(
-        '-d', '--diphone', metavar='<output-file>',
+        '-d', '--diphones', metavar='<output-file>',
         help='''optional filename to write diphones,
-        ignore diphones if this argument is not specified''')
+        ignore diphones output if this argument is not specified''')
 
-# TODO add pwb as argument
 
 @utils.catch_exceptions
 def main():
@@ -283,7 +288,10 @@ def main():
     training = Summary(multigraphemic=True, wordsep=args.word_separator)
     training.readstream(train_text)
 
-    phrasal_dibs = phrasal(train_text)
+    phrasal_dibs = (
+        phrasal(training, pwb=args.prob_word_boundary)
+        if args.prob_word_boundary else phrasal(training))
+
     phrasal_dibs.test(test_text, streamout)
     if args.diphones:
         phrasal_dibs.save(codecs.open(args.diphone, 'w', encoding='utf8'))

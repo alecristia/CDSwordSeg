@@ -49,3 +49,6 @@ recipes/bernstein/data/
 results/*
 results_cds_childes.txt
 
+# Python wordseg package
+/build/*
+/wordseg.egg-info/*
