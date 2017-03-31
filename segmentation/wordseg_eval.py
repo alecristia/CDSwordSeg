@@ -22,8 +22,57 @@ import codecs
 import re
 import sys
 
-# TODO merge tb in that file
-from segmentation import tb, utils, argument_groups
+from segmentation import utils, argument_groups
+
+
+def is_terminal(subtree):
+    """True if this subtree consists of a single terminal node
+    (i.e., a word or an empty node)."""
+    return not isinstance(subtree, list)
+
+
+def tree_children(tree):
+    """Returns a list of the child subtrees of tree."""
+    return tree[1:] if isinstance(tree, list) else []
+
+
+def tree_label(tree):
+    """Returns the label on the root node of tree."""
+    return tree[0] if isinstance(tree, list) else tree
+
+
+def string_trees(s):
+    """Returns a list of the trees in PTB-format string s"""
+    trees = []
+    _string_trees(trees, s)
+    return trees
+
+
+def _string_trees(trees, s, pos=0):
+    """Reads a sequence of trees in string s[pos:].
+
+    Appends the trees to the argument trees.  Returns the ending
+    position of those trees in s.
+
+    """
+    _openpar_re = re.compile(r"\s*\(\s*([^ \t\n\r\f\v()]*)\s*")
+    _closepar_re = re.compile(r"\s*\)\s*")
+    _terminal_re = re.compile(r"\s*((?:[^ \\\t\n\r\f\v()]|\\.)+)\s*")
+
+    while pos < len(s):
+        closepar_mo = _closepar_re.match(s, pos)
+        if closepar_mo:
+            return closepar_mo.end()
+        openpar_mo = _openpar_re.match(s, pos)
+        if openpar_mo:
+            tree = [openpar_mo.group(1)]
+            trees.append(tree)
+            pos = _string_trees(tree, s, openpar_mo.end())
+        else:
+            terminal_mo = _terminal_re.match(s, pos)
+            trees.append(terminal_mo.group(1))
+            pos = terminal_mo.end()
+    return pos
 
 
 def tree_string(tree, word_rex, ignore_terminal_rex):
@@ -35,15 +84,15 @@ def tree_string(tree, word_rex, ignore_terminal_rex):
 
     def visit(node, wordssofar, segssofar):
         """Does a preorder visit of the nodes in the tree"""
-        if tb.is_terminal(node):
+        if is_terminal(node):
             if not ignore_terminal_rex.match(node):
                 segssofar.append(simplify_terminal(node))
             return wordssofar, segssofar
 
-        for child in tb.tree_children(node):
+        for child in tree_children(node):
             wordssofar, segssofar = visit(child, wordssofar, segssofar)
 
-        if word_rex.match(tb.tree_label(node)):
+        if word_rex.match(tree_label(node)):
             if segssofar != []:
                 wordssofar.append(''.join(segssofar))
                 segssofar = []
@@ -76,7 +125,7 @@ def read_data(lines, tree_flag, score_cat_rex=None,
         for line in lines:
             if line.count("lexentry") > 0:
                 continue
-            trees = tb.string_trees(line)
+            trees = string_trees(line)
             trees.insert(0, 'ROOT')
             words.append(
                 tree_string(trees, score_cat_rex, ignore_terminal_rex))
