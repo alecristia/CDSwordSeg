@@ -14,6 +14,8 @@ import numpy as np
 
 os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/ElinDev')
 import read
+import visualize
+import pca_cdi_parameters
 
 # enter your current directory
 os.chdir('/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/')
@@ -62,4 +64,9 @@ babiness=babiness_all[['word', 'babyAVG']]
 babiness.rename(columns={'word': 'Type'}, inplace=True)
 babiness.drop_duplicates(keep='first', inplace=True)
 cat_babiness=babiness.round({'babyAVG':0})
-return(cat_babiness)
+
+visualize.correlation_btw_parameters('test-mat-corr', cat_concreteness, cat_babiness, length_type[['Type', 'num_syllables']])
+
+pca_cdi_parameters.plot_pca_cdi('test-pca', cat_concreteness, cat_babiness, length_type[['Type', 'num_syllables']])
+
+

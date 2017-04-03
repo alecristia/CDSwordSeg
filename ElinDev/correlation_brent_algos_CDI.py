@@ -17,6 +17,8 @@ import translate
 import visualize
 import model
 
+from CDI import prop
+# parameters
 from CDI import df_CDI_lexical_classes
 from CDI import length_type
 from CDI import cat_concreteness
@@ -48,6 +50,8 @@ freq_tokens_brent=translate.build_phono_to_ortho_representative(d)[1]
 # ******* Model selection : Linear or Logistics *******
 
 # LINEAR
+results_full_corpus_ph=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)
+len(results_full_corpus_ph['df_data'])
 R2_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)['R2']
 R2_ALGOs_CDI_syllable=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "syllable", range(8,19), CDI_file, freq_file,evaluation='true_positive', miss_inc=False)['R2']
 
@@ -78,6 +82,13 @@ std_err_log=pd.concat([std_err_log_syl, std_err_log_ph])
 
 '''
 
+# for one subcorpus (length divided by 10) => looking at the effect size of the corpus
+R2_ALGOs_CDI_sub0=model.linear_algo_CDI(path_ortho,path_res,["sub0"], ALGOS, "", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)['R2']
+std_err_ALGOs_CDI_sub0=model.linear_algo_CDI(path_ortho,path_res,["sub0"], ALGOS, "", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)['std_err']
+
+results_sub0=model.linear_algo_CDI(path_ortho,path_res,["sub0"], ALGOS, "", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)
+
+len(results_sub0['df_data'])
 # *******  Visualisation *******
 ### scatter plot 
 
@@ -125,41 +136,55 @@ visualize.plot_algo_gold_lc(path_res,['full_corpus'], ['tps','dibs','puddle_py',
 lin_missed=model.linear_algo_CDI(path_ortho,path_res, ['full_corpus'], ALGOS,'syllable',[13], CDI_file ,"/freq-words.txt","true_positive",True)
     
 
-# *******  Effect of ... *******
+# *******  EFFECT OF ... *******
 ### Lexical classes
 R2_lexical_classes_syl=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'syllable', [13], df_CDI_lexical_classes, "lexical_classes", CDI_file, freq_file)['R2']
 R2_lexical_classes_ph=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'phoneme', [13], df_CDI_lexical_classes, "lexical_classes", CDI_file, freq_file)['R2']
 #pd.concat([R2_lexical_classes_syl,R2_lexical_classes_ph]).round(3).to_csv("correlation_CDI_algos/13_month_old/R2_lexical_classes_13_mo.txt", sep='\t', header=True)
+R2_lexical_classes=pd.concat([R2_lexical_classes_syl,R2_lexical_classes_ph]).round(3)
 
+err_lexical_classes_syl=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'syllable', [13], df_CDI_lexical_classes, "lexical_classes", CDI_file, freq_file)['std_err']
+err_lexical_classes_ph=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'phoneme', [13], df_CDI_lexical_classes, "lexical_classes", CDI_file, freq_file)['std_err']
+err_lexical_classes=pd.concat([err_lexical_classes_syl,err_lexical_classes_ph]).round(3)
+
+
+visualize.plot_R2_by_parameter_for_one_age(R2_lexical_classes, err_lexical_classes, ALGOS, ['syllable', 'phoneme'],  name_vis="R2_lexical_classes")
 
 ### Type length
-R2_length_13_syl=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'syllable', [13], length_type, "num_syllables", CDI_file, freq_file)['R2']
- 
-R2_length_13_ph=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'phoneme', [13], length_type, "num_syllables", CDI_file, freq_file)['R2']
-
-R2_length_in_syl_13=pd.concat([R2_length_13_syl,R2_length_13_ph])
+results_length_13_syl=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'syllable', [13], length_type, "num_syllables", CDI_file, freq_file)
+results_length_13_ph=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'phoneme', [13], length_type, "num_syllables", CDI_file, freq_file)
+R2_length_in_syl_13=pd.concat([results_length_13_syl['R2'],results_length_13_ph['R2']])
 #R2_length_in_syl_13.round(3).to_csv("R2_for_length_type_in_syl_13_mo.txt", sep='\t', header=True)
+err_length_in_syl=pd.concat([results_length_13_syl['std_err'],results_length_13_ph['std_err']])
 
-R2_length_13_syl=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'syllable', [13], length_type, "num_phonemes", CDI_file, freq_file)['R2']
- 
-R2_length_13_ph=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'phoneme', [13], length_type, "num_phonemes", CDI_file, freq_file)['R2']
- 
-R2_length_in_ph_13=pd.concat([R2_length_13_syl,R2_length_13_ph])
+res_length_13_syl=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'syllable', [13], length_type, "num_phonemes", CDI_file, freq_file)
+res_length_13_ph=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'phoneme', [13], length_type, "num_phonemes", CDI_file, freq_file)
+R2_length_in_ph_13=pd.concat([res_length_13_syl['R2'],res_length_13_ph['R2']])
+err_length_in_ph_13=pd.concat([res_length_13_syl['std_err'],res_length_13_ph['std_err']])
 #R2_length_in_ph_13.round(3).to_csv("R2_for_length_type_in_ph_13_mo.txt", sep='\t', header=True)
 
+visualize.plot_R2_by_parameter_for_one_age(R2_length_in_ph_13, err_length_in_ph_13, ['TPs', 'DiBS', 'PUDDLE', 'AGu', 'Gold'], ['syllable', 'phoneme'], name_vis="R2_length_in_num_of_phonemes")
+
+
+
 ### concretness
-R2_concretness_13_syl=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'syllable', [13], cat_concreteness, "Conc.M", CDI_file, freq_file)['R2']
+res_concretness_13_syl=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'syllable', [13], cat_concreteness, "Conc.M", CDI_file, freq_file)
+res_concretness_13_ph=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'phoneme', [13], cat_concreteness, "Conc.M", CDI_file, freq_file)
 
-R2_concretness_13_ph=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'phoneme', [13], cat_concreteness, "Conc.M", CDI_file, freq_file)['R2']
-
-R2_concretness_13=pd.concat([R2_concretness_13_syl, R2_concretness_13_ph])
+R2_concretness_13=pd.concat([res_concretness_13_syl['R2'], res_concretness_13_ph['R2']])
 #R2_concretness_13.round(3).to_csv("correlation_CDI_algos/13_month_old/R2_concretness_13_mo.txt", sep='\t', header=True)
+err_concretness_13=pd.concat([res_concretness_13_syl['std_err'], res_concretness_13_ph['std_err']])
+
+visualize.plot_R2_by_parameter_for_one_age(R2_concretness_13, err_concretness_13, ['TPs', 'DiBS', 'PUDDLE', 'AGu', 'Gold'], ['syllable', 'phoneme'], name_vis="R2_concretness")
 
 
 ### babiness
-R2_babiness_13_syl=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'syllable', [13], cat_babiness, "babyAVG", CDI_file, freq_file)['R2']
+res_babiness_13_syl=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'syllable', [13], cat_babiness, "babyAVG", CDI_file, freq_file)
+res_babiness_13_ph=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'phoneme', [13], cat_babiness, "babyAVG", CDI_file, freq_file)
 
-R2_babiness_13_ph=model.R2_by_parameter(path_res, ['full_corpus'], ALGOS,'phoneme', [13], cat_babiness, "babyAVG", CDI_file, freq_file)['R2']
+R2_babiness_13=pd.concat([res_concretness_13_syl['R2'], res_concretness_13_ph['R2']])
+err_babiness_13=pd.concat([res_babiness_13_syl['std_err'], res_babiness_13_ph['std_err']])
 
-R2_babiness_13=pd.concat([R2_concretness_13_syl, R2_concretness_13_ph])
 #R2_concretness_13.round(3).to_csv("correlation_CDI_algos/13_month_old/R2_babiness_13_mo.txt", sep='\t', header=True)
+
+visualize.plot_R2_by_parameter_for_one_age(R2_babiness_13, err_babiness_13, ['TPs', 'DiBS', 'PUDDLE', 'AGu', 'Gold'], ['syllable', 'phoneme'], name_vis="R2_babiness")

@@ -63,6 +63,7 @@ def linear_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_fi
     results['R2']=df_r_2
     results['std_err']=df_std_err
     results['pvalue']=df_pvalue
+    results['df_data']=df_data
                        
     return(results)
 
@@ -115,6 +116,7 @@ def logistic_nb_infant_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_
     
     results['R2']=r_2
     results['std_err']=std_err
+    results['df_data']=df_data
                       
     return(results)
             
@@ -155,6 +157,7 @@ def R2_by_parameter(path_res, sub, algos,unit, ages, df_type_parameter, which_pa
     results['R2']=R2
     results['std_err']=Err
     results['pvalue']=pvalue
+    results['df_data']=df_data
                        
     return(results)
 
