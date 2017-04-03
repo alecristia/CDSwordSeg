@@ -14,12 +14,17 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+# April 2017 : 
+# Modified by Mathieu Bernard : create parser for arguments and logger
+# and byb Elin Larsen : add Type F-score, recall and precision
 
 """Word segmentation evaluation"""
 
 import codecs
 import re
 import sys
+from collections import Counter
 
 from segmentation import utils
 
@@ -198,6 +203,12 @@ def stringpos_boundarypos(stringpos):
     return [set(left for left, right in line if left > 0)
             for line in stringpos]
 
+def stringpos_typepos(stringpos):
+    dic_type=Counter()
+    for line in stringpos : 
+        for word in line : 
+            dic_type.update(word) # build a dictionnary of vocabulary
+    return(dic_type.keys())
 
 def evaluate(args, outputf, trainwords, trainstringpos,
              goldwords, goldstringpos, log=utils.null_logger()):
@@ -229,7 +240,14 @@ def evaluate(args, outputf, trainwords, trainstringpos,
                             i, trainwords[i])
                 break
 
+    pr = str(data_precrec(
+        stringpos_typepos(trainstringpos), 
+        stringpos_typepos(goldstringpos), 
+        log=log))
+    outputf.write(pr)
+    
     pr = str(data_precrec(trainstringpos, goldstringpos, log=log))
+    outputf.write('\t')
     outputf.write(pr)
 
     pr = str(data_precrec(
@@ -238,6 +256,7 @@ def evaluate(args, outputf, trainwords, trainstringpos,
         log=log))
     outputf.write('\t')
     outputf.write(pr)
+    
 
     if args.extra:
         outputf.write('\t')
@@ -309,7 +328,7 @@ def main():
             word_split_rex=word_split_rex, log=log)
 
     outputf.write('\t'.join(
-        ('token_f-score', 'token_precision', 'token_recall',
+        ('type_f-score', 'type_precision', 'type_recall', 'token_f-score', 'token_precision', 'token_recall',
          'boundary_f-score', 'boundary_precision', 'boundary_recall'))
                   + '\n')
     outputf.flush()
