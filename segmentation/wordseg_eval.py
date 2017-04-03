@@ -17,12 +17,11 @@
 
 """Word segmentation evaluation"""
 
-import argparse
 import codecs
 import re
 import sys
 
-from segmentation import utils, argument_groups
+from segmentation import utils
 
 
 def is_terminal(subtree):
@@ -118,7 +117,7 @@ def words_stringpos(ws):
 
 def read_data(lines, tree_flag, score_cat_rex=None,
               ignore_terminal_rex=None, word_split_rex=None,
-              debug_level=0):
+              log=utils.null_logger()):
     """Reads data either in tree format or in flat format"""
     if tree_flag:
         words = []
@@ -130,9 +129,8 @@ def read_data(lines, tree_flag, score_cat_rex=None,
             words.append(
                 tree_string(trees, score_cat_rex, ignore_terminal_rex))
 
-            if debug_level >= 1000:
-                sys.stderr.write(
-                    "# line = %s,\n# words = %s\n" % (line, words[-1]))
+            log.debug('line = %s', line)
+            log.debug('words = %s', words[-1])
     else:
         words = [[w for w in word_split_rex.split(line) if w != '' and
                   not ignore_terminal_rex.match(w)] for line in lines if
@@ -140,10 +138,9 @@ def read_data(lines, tree_flag, score_cat_rex=None,
 
     segments = [''.join(ws) for ws in words]
 
-    if debug_level >= 10000:
-        sys.stderr.write("lines[0] = %s\n" % lines[0])
-        sys.stderr.write("words[0] = %s\n" % words[0])
-        sys.stderr.write("segments[0] = %s\n" % segments[0])
+    log.debug('lines[0] = %s', lines[0])
+    log.debug('words[0] = %s', words[0])
+    log.debug('segments[0] = %s', segments[0])
 
     stringpos = [words_stringpos(ws) for ws in words]
     return segments, stringpos
@@ -161,16 +158,16 @@ class PrecRec:
         self.n_exactmatch = 0
 
     def precision(self):
-        return self.correct/(self.test+1e-100)
+        return self.correct / (self.test + 1e-100)
 
     def recall(self):
-        return self.correct/(self.gold+1e-100)
+        return self.correct / (self.gold + 1e-100)
 
     def fscore(self):
-        return 2*self.correct/(self.test+self.gold+1e-100)
+        return 2 * self.correct / (self.test + self.gold + 1e-100)
 
     def exact_match(self):
-        return self.n_exactmatch/(self.n+1e-100)
+        return self.n_exactmatch / (self.n + 1e-100)
 
     def update(self, testset, goldset):
         self.n += 1
@@ -185,11 +182,10 @@ class PrecRec:
             self.fscore(), self.precision(), self.recall()))
 
 
-def data_precrec(trainwords, goldwords):
+def data_precrec(trainwords, goldwords, log=utils.null_logger()):
     if len(trainwords) != len(goldwords):
-        sys.stderr.write(
-            "## ** len(trainwords) = %s, len(goldwords) = %s\n" %
-            (len(trainwords), len(goldwords)))
+        log.critical('#words different in train and gold: %s != %s',
+                     len(trainwords), len(goldwords))
         sys.exit(1)
 
     pr = PrecRec()
@@ -203,42 +199,43 @@ def stringpos_boundarypos(stringpos):
             for line in stringpos]
 
 
-def evaluate(
-        args, outputf, trainwords, trainstringpos, goldwords, goldstringpos):
-    if args.debug >= 1000:
+def evaluate(args, outputf, trainwords, trainstringpos,
+             goldwords, goldstringpos, log=utils.null_logger()):
+    if log.getEffectiveLevel() <= 10:  # log level is DEBUG or below
         for (tw, tsps, gw, gsps) in zip(
                 trainwords, trainstringpos, goldwords, goldstringpos):
-            sys.stderr.write("Gold: ")
+            s = "Gold: "
             for l, r in sorted(list(gsps)):
-                sys.stderr.write(" %s" % gw[l:r])
-            sys.stderr.write("\nTrain:")
+                s += " %s" % gw[l:r]
+            log.debug(s)
+
+            s = "Train: "
             for l, r in sorted(list(tsps)):
-                sys.stderr.write(" %s" % tw[l:r])
-            sys.stderr.write("\n")
+                s += " %s" % tw[l:r]
+                log.debug(s)
 
     if goldwords != trainwords:
-        sys.stderr.write(
-            "## ** gold and train terminal words don't match "
-            "(so results are bogus)\n")
-        sys.stderr.write(
-            "## len(goldwords) = %s, len(trainwords) = %s\n" %
-            (len(goldwords), len(trainwords)))
+        log.warning(
+            "gold and train terminal words don't match (so results are bogus)")
+        log.warning(
+            "len(goldwords) = %s, len(trainwords) = %s",
+            len(goldwords), len(trainwords))
 
         for i in range(min(len(goldwords), len(trainwords))):
             if goldwords[i] != trainwords[i]:
-                sys.stderr.write(
-                    "# first difference at goldwords[%s] = %s\n"
-                    "# first difference at trainwords[%s] = %s\n" %
-                    (i, goldwords[i], i, trainwords[i]))
+                log.warning("first difference at goldwords[%s] = %s",
+                            i, goldwords[i])
+                log.warning("first difference at trainwords[%s] = %s",
+                            i, trainwords[i])
                 break
 
-    pr = str(data_precrec(trainstringpos, goldstringpos))
+    pr = str(data_precrec(trainstringpos, goldstringpos, log=log))
     outputf.write(pr)
 
     pr = str(data_precrec(
         stringpos_boundarypos(trainstringpos),
-        stringpos_boundarypos(goldstringpos)))
-
+        stringpos_boundarypos(goldstringpos),
+        log=log))
     outputf.write('\t')
     outputf.write(pr)
 
@@ -252,7 +249,7 @@ def evaluate(
     outputf.flush()
 
 
-def add_options(parser):
+def add_arguments(parser):
     parser.add_argument(
         '-n', '--levelname', help='name of the adaptor being evaluated')
 
@@ -277,45 +274,39 @@ def add_options(parser):
         help='ignore terminals that match this regex')
 
     parser.add_argument(
-        '-w', '--word-split-re', default=r'[ \t]+', metavar='<regexp>',
+        '-W', '--word-split-re', default=r'[ \t]+', metavar='<regexp>',
         help='regex used to split words with non-tree input')
 
     parser.add_argument(
         '--extra', type=str, metavar='<str>',
         help='suffix to print at end of evaluation line')
 
-    parser.add_argument(
-        '-d', '--debug', type=int, default=0,
-        help='print debugging information')
 
-
-@utils.catch_exceptions
+@utils.CatchExceptions
 def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    argument_groups.add_input_output(parser)
-    add_options(parser)
+    """Entry point if the 'wordseg-eval' command"""
+    # command initialization
+    trainf, outputf, separator, log, args = utils.prepare_main(
+        name='wordseg-eval',
+        description=__doc__,
+        separator=utils.Separator(False, ';esyll', ';eword'),
+        add_arguments=add_arguments)
 
-    args = parser.parse_args()
-
-    goldf = codecs.open(args.gold, 'rU', 'utf8')
-    trainf, outputf = utils.prepare_streams(args.input, args.output)
-
-    if args.debug > 0:
-        sys.stderr.write(
-            '# score_cat_re = "%s"\n' % args.score_cat_re
-            + '# ignore_terminal_re = "%s"\n' % args.ignore_terminal_re
-            + '# word_split_re = "%s"\n' % args.word_split_re)
+    log.debug('score_cat_re = "%s"', args.score_cat_re)
+    log.debug('ignore_terminal_re = "%s"', args.ignore_terminal_re)
+    log.debug('word_split_re = "%s"', args.word_split_re)
 
     score_cat_rex = re.compile(args.score_cat_re)
     ignore_terminal_rex = re.compile(args.ignore_terminal_re)
     word_split_rex = re.compile(args.word_split_re)
 
-    goldwords, goldstringpos = read_data(
-        [line.strip() for line in goldf],
-        tree_flag=args.gold_trees,
-        score_cat_rex=score_cat_rex,
-        ignore_terminal_rex=ignore_terminal_rex,
-        word_split_rex=word_split_rex)
+    with codecs.open(args.gold, 'r', encoding='utf8') as goldf:
+        goldwords, goldstringpos = read_data(
+            [line.strip() for line in goldf],
+            tree_flag=args.gold_trees,
+            score_cat_rex=score_cat_rex,
+            ignore_terminal_rex=ignore_terminal_rex,
+            word_split_rex=word_split_rex, log=log)
 
     outputf.write('\t'.join(
         ('token_f-score', 'token_precision', 'token_recall',
@@ -326,7 +317,7 @@ def main():
     trainlines = []
     for trainline in trainf:
         trainline = trainline.strip()
-        if trainline != "":
+        if trainline != '':
             trainlines.append(trainline)
             continue
 
@@ -334,13 +325,12 @@ def main():
             trainlines, tree_flag=args.train_trees,
             score_cat_rex=score_cat_rex,
             ignore_terminal_rex=ignore_terminal_rex,
-            word_split_rex=word_split_rex,
-            debug_level=args.debug)
+            word_split_rex=word_split_rex, log=log)
 
         evaluate(
             args, outputf,
             trainwords, trainstringpos,
-            goldwords, goldstringpos)
+            goldwords, goldstringpos, log=log)
 
         trainlines = []
 
@@ -349,13 +339,11 @@ def main():
             trainlines, tree_flag=args.train_trees,
             score_cat_rex=score_cat_rex,
             ignore_terminal_rex=ignore_terminal_rex,
-            word_split_rex=word_split_rex,
-            debug_level=args.debug)
+            word_split_rex=word_split_rex, log=log)
 
         evaluate(
-            args, outputf,
-            trainwords, trainstringpos,
-            goldwords, goldstringpos)
+            args, outputf, trainwords, trainstringpos,
+            goldwords, goldstringpos, log=log)
 
 
 if __name__ == '__main__':

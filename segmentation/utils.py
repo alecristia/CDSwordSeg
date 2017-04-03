@@ -15,47 +15,125 @@
 
 """Provide utility functions to the wordseg package"""
 
+import argparse
 import codecs
 import collections
+import logging
 import pkg_resources
-import re
 import sys
 
 
-class catch_exceptions(object):
-    """A decorator wrapping 'function' in a try/except block
+Separator = collections.namedtuple('Separator', ['phone', 'syllable', 'word'])
 
-    When an exception occurs, display a user friendly message before
+default_separator = Separator(phone=' ', syllable=';esyll', word=';eword')
+
+
+def null_logger():
+    """Return a logger going to nowhere"""
+    log = logging.getLogger()
+    log.addHandler(logging.NullHandler())
+    return log
+
+
+class CatchExceptions(object):
+    """Decorator wrapping a function in a try/except block
+
+    When an exception occurs, log a critical message before
     exiting with error code 1.
 
     """
     def __init__(self, function):
         self.function = function
 
-    @staticmethod
-    def _exit(msg):
-        """Write `msg` on stderr and exit with 1"""
-        sys.stderr.write(msg + '\n')
-        sys.exit(1)
-
     def __call__(self):
         try:
             self.function()
 
         except (ValueError, OSError, RuntimeError, AssertionError) as err:
-            self._exit('fatal error: {}'.format(err))
+            self.exit('fatal error: {}'.format(err))
 
         except pkg_resources.DistributionNotFound:
-            self._exit(
+            self.exit(
                 'fatal error: wordseg package not found\n'
-                'please install wordseg on your platform')
+                'please install wordseg on your system')
 
         except KeyboardInterrupt:
-            self._exit('keyboard interruption, exiting')
+            self.exit('keyboard interruption, exiting')
+
+    def exit(self, msg):
+        """Write `msg` on stderr and exit with error code 1"""
+        sys.stderr.write(msg.strip() + '\n')
+        sys.exit(1)
 
 
-def prepare_streams(input=sys.stdin, output=sys.stdout):
-    """Open input and output streams from files or standart output
+def get_logger(name=None):
+    log = logging.getLogger(name)
+    log.setLevel(logging.WARNING)
+
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    handler = logging.StreamHandler(sys.stderr)
+    handler.setFormatter(formatter)
+
+    log.addHandler(handler)
+    return log
+
+
+def get_parser(description=None, separator=default_separator):
+    """Add token separators options to the `parser`
+
+    Set `phone`, `syllable` and `word` to the default value you want
+    they have in the parser, or set to False to disable them.
+
+    """
+    parser = argparse.ArgumentParser(description=description)
+
+    # add input and output arguments to the parser
+    parser.add_argument(
+        'input', default=sys.stdin, nargs='?', metavar='<input-file>',
+        help='Input text file to read, if not specified read from stdin.')
+
+    # add verbose/quiet options to control log level
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument(
+        '-v', '--verbose', action='count', default=0, help='''
+        Increase the amount of logging on stderr.  By default only
+        warnings and errors are displayed, a single '-v' adds info
+        messages and '-vv' adds debug messages.  Use '--quiet' to
+        disable logging.''')
+
+    group.add_argument(
+        '-q', '--quiet', action='store_true',
+        help='Do not output anything on stderr.')
+
+    # add token separation arguments
+    if separator.phone or separator.syllable or separator.word:
+        if separator.phone:
+            parser.add_argument(
+                '-p', '--phone-separator', metavar='<str>',
+                default=separator.phone,
+                help='Phone separator, default is "%(default)s".')
+
+        if separator.syllable:
+            parser.add_argument(
+                '-s', '--syllable-separator', metavar='<str>',
+                default=separator.syllable,
+                help='Syllable separator, default is "%(default)s".')
+
+        if separator.word:
+            parser.add_argument(
+                '-w', '--word-separator', metavar='<str>',
+                default=separator.word,
+                help='Word separator, default is "%(default)s".')
+
+    parser.add_argument(
+        '-o', '--output', default=sys.stdout, metavar='<output-file>',
+        help='Output text file to write, if not specified write to stdout.')
+
+    return parser
+
+
+def parse_args(parser, log):
+    """Open input and output streams from files or standard input/output
 
     Return a pair (streamin, streamout) that can be accessed through
     streamin.read()/readlines() and streamout.write() respectively.
@@ -64,90 +142,42 @@ def prepare_streams(input=sys.stdin, output=sys.stdout):
     files for reading/writing.
 
     """
-    # configure input as a readable stream
-    streamin = input
+    pass
+
+
+def prepare_main(name=None, description=None,
+                 separator=default_separator, add_arguments=None):
+    log = get_logger(name=name)
+
+    parser = get_parser(description=description, separator=separator)
+    if add_arguments:
+        add_arguments(parser)
+
+    args = parser.parse_args()
+
+    if args.quiet:
+        level = logging.CRITICAL
+    elif args.verbose == 0:
+        level = logging.WARNING
+    elif args.verbose == 1:
+        level = logging.INFO
+    else:  # verbose >= 2
+        level = logging.DEBUG
+
+    log.setLevel(level)
+    log.debug('log level set to %s', logging.getLevelName(level))
+
+    separator = Separator(
+        phone=args.phone_separator if separator.phone else None,
+        syllable=args.syllable_separator if separator.syllable else None,
+        word=args.word_separator if separator.word else None)
+
+    streamin = args.input
     if isinstance(streamin, str):
-        streamin = codecs.open(streamin, 'r', 'utf8')
+        streamin = codecs.open(streamin, 'r', encoding='utf8')
 
-    # configure output as a writable stream
-    streamout = output
+    streamout = args.output
     if isinstance(streamout, str):
-        streamout = codecs.open(streamout, 'w', 'utf8')
+        streamout = codecs.open(streamout, 'w', encoding='utf8')
 
-    return streamin, streamout
-
-
-def unit_text(
-        text, unit='syllable', syll_sep=';esyll', word_sep=';eword'):
-    """Return a text prepared for word segmentation from a tagged text
-
-    Remove syllable and word separators from a sequence of tagged
-    utterances. Marks boundaries at a unit level defined by `unit`.
-    The returned text is ready to be fed as input of word segmentation
-    algorithms.
-
-    :param sequence(str) text: the input text data to process,
-      each string in the sequence is an utterance
-    :param str unit: the unit representation level, must be 'syllable'
-      or 'phoneme'. This put space between syllables or phonemes
-      respectively
-    :param str syll_sep: syllable separation string in `tags`
-    :param str word_sep: word separation string in `tags`
-    :return sequence(str): text with separators removed, prepared for
-      segmentation at a syllable or phoneme representation level
-
-    """
-    # raise an error if unit is not valid
-    if unit != 'phoneme' and unit != 'syllable':
-        raise ValueError(
-            "unit must be 'phoneme' or 'syllable', it is '{}'".format(unit))
-
-    if unit == 'phoneme':
-        def func(line):
-            return line.replace(syll_sep, '')\
-                       .replace(word_sep, '')
-    else:  # syllable
-        def func(line):
-            return line.replace(word_sep, '')\
-                       .replace(' ', '')\
-                       .replace(syll_sep, ' ')
-
-    return (re.sub(' +', ' ', func(line).strip()) for line in text)
-
-
-def gold_text(text, syll_sep=';esyll', word_sep=';eword'):
-    """Return a gold text from a phonologized one
-
-    Remove syllable and word separators from a sequence of tagged
-    utterances. The returned text is the gold version, against which
-    the algorithms are evaluated.
-
-    :param sequence(str) text: the input sequence to process, each
-      string in the sequence is an utterance
-    :param str syll_sep: syllable separation string in `tags`
-    :param str word_sep: word separation string in `tags`
-    :return sequence(str): text with separators removed, with word
-      separated by spaces
-
-    """
-    # delete syllable and word separators
-    gold = (line.replace(syll_sep, '').replace(' ', '').replace(word_sep, ' ')
-            for line in text)
-
-    # delete any duplicate, begin or end spaces
-    return (re.sub(' +', ' ', g).strip() for g in gold)
-
-
-def top_frequency_tokens(text, n=10000, sep=' '):
-    """Return the `n` most common tokens in `text`
-
-    :param sequence(str) text: the input sequence to process, each
-      string in the sequence is an utterance
-    :param int n: the most common tokens to return
-    :param str sep: tokens separation string in `text`
-    :return list((token, count)): the `n` most common tokens in text
-      and their occurence count
-
-    """
-    return collections.Counter(
-        word for line in text for word in line.split(sep)).most_common(n)
+    return streamin, streamout, separator, log, args

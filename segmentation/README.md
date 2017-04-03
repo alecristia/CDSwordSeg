@@ -3,7 +3,10 @@ Setup
 
 * create a new Python 3 virtual environment
 
-        conda create --name wordseg python=3 ipython flake8 joblib
+        conda create --name wordseg python=3 pytest Sphinx joblib
+
+* activate your virtual environment.
+
         source activate wordseg
 
 * install the wordseg package (this will install the commandline tools

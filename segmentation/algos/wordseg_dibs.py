@@ -18,12 +18,10 @@
 
 """Train and test a dibs model"""
 
-import argparse
 import codecs
 import os
-import sys
 
-from segmentation import utils, argument_groups
+from segmentation import utils
 
 
 class Counter(dict):
@@ -121,6 +119,7 @@ class Dibs(Counter):
     def test(self, instream, outstream):
         bdry = (self.wordsep * self.multigraphemic +
                 ' ' * (not self.multigraphemic))
+
         for line in instream:
             if self.multigraphemic:
                 phoneseq = tuple(line.replace(self.wordsep, ' ').split())
@@ -146,7 +145,9 @@ class Dibs(Counter):
         else:
             rows = '#$123456789@DEHIJNPQRSTUVZ_bdfghijklmnprstuvwxz{~'
             cols = '#$123456789@DEHIJNPQRSTUVZ_bdfghijklmnprstuvwxz{~'
-        print >> outstream, '\t'+'\t'.join([str(y) for y in cols])
+
+        outstream.write('\t'+'\t'.join([str(y) for y in cols]))
+
         for x in rows:
             try:
                 outstream.write(
@@ -165,13 +166,15 @@ def norm2pdf(fdf):
 def baseline(speech, pwb=None):
     dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     within, across = speech.internaldiphones, speech.spanningdiphones
+
     for diphone in speech.diphones():
         dib[diphone] = float(across[diphone]) / (
             within[diphone] + across[diphone])
+
     return dib
 
 
-def phrasal(speech, pwb=None):
+def phrasal(speech, pwb=None, log=utils.null_logger()):
     px2_ = norm2pdf(speech.phrasefinal)
     p_2y = norm2pdf(speech.phraseinitial)
     pxy = norm2pdf(speech.diphones())
@@ -179,8 +182,7 @@ def phrasal(speech, pwb=None):
         float(speech.summary['nTokens'] - speech.summary['nLines']) /
         (speech.summary['nPhones'] - speech.summary['nLines']))
 
-    # TODO redirect to logger
-    sys.stderr.write('phrasal\tpwb = ' + str(pwb))
+    log.info('phrasal: pwb = %s', pwb)
 
     dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     for diphone in speech.diphones():
@@ -191,10 +193,11 @@ def phrasal(speech, pwb=None):
 
         num, denom = px2_[x] * pwb * p_2y[y], pxy[diphone]
         dib[diphone] = 1 if num >= denom else num / denom
+
     return dib
 
 
-def lexical(speech, lexicon=None, pwb=None):
+def lexical(speech, lexicon=None, pwb=None, log=utils.null_logger()):
     wordinitial = Counter()
     wordfinal = Counter()
     lexicon = lexicon or speech.lexicon
@@ -210,12 +213,11 @@ def lexical(speech, lexicon=None, pwb=None):
     px2_ = norm2pdf(wordfinal)
     p_2y = norm2pdf(wordinitial)
     pxy = norm2pdf(speech.diphones())
-    p_ = pwb or (
+    pwb = pwb or (
         float(speech.summary['nTokens'] - speech.summary['nLines']) /
         (speech.summary['nPhones'] - speech.summary['nLines']))
 
-    # TODO redirect to logger
-    sys.stderr.write('lexical\tpwb = ' + str(p_))
+    log.info('lexical: pwb = %s', pwb)
 
     dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     for diphone in speech.diphones():
@@ -224,12 +226,13 @@ def lexical(speech, lexicon=None, pwb=None):
         else:
             x, y = diphone[0], diphone[1]
 
-        num, denom = px2_[x] * p_ * p_2y[y], pxy[diphone]
+        num, denom = px2_[x] * pwb * p_2y[y], pxy[diphone]
         dib[diphone] = 1 if num >= denom else num / denom
+
     return dib
 
 
-def get_options(parser):
+def add_arguments(parser):
     """Add Dibs command specific options to the `parser`"""
     group = parser.add_mutually_exclusive_group()
     group.add_argument(
@@ -248,20 +251,15 @@ def get_options(parser):
         ignore diphones output if this argument is not specified''')
 
 
-@utils.catch_exceptions
+@utils.CatchExceptions
 def main():
     """Entry point of the 'wordseg-dibs' command"""
-    # define the commandline parser
-    parser = argparse.ArgumentParser(description=__doc__)
-    argument_groups.add_input_output(parser)
-    argument_groups.add_separators(parser, phone=False, syllable=False)
-    get_options(parser)
-
-    # parse the command line arguments
-    args = parser.parse_args()
-
-    # open the input and output streams
-    streamin, streamout = utils.prepare_streams(args.input, args.output)
+    # command initialization
+    streamin, streamout, separator, log, args = utils.prepare_main(
+        name='wordseg-dibs',
+        description=__doc__,
+        separator=utils.Separator(False, ';esyll', ';eword'),
+        add_arguments=add_arguments)
 
     # load the test input
     test_text = streamin.readlines()
@@ -289,7 +287,7 @@ def main():
     training.readstream(train_text)
 
     phrasal_dibs = (
-        phrasal(training, pwb=args.prob_word_boundary)
+        phrasal(training, pwb=args.prob_word_boundary, log=log)
         if args.prob_word_boundary else phrasal(training))
 
     phrasal_dibs.test(test_text, streamout)

@@ -15,7 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-"""Build a gold text from a phonologized one
+"""Build a gold text from a phonologized one.
 
 Remove syllable and word separators from a sequence of tagged
 utterances. The returned text is the gold version, against which the
@@ -23,30 +23,48 @@ algorithms are evaluated.
 
 """
 
-import argparse
+import re
 
-from segmentation import utils, argument_groups
+from segmentation import utils
 
 
-@utils.catch_exceptions
+def gold_text(text, syll_sep=';esyll', word_sep=';eword'):
+    """Return a gold text from a phonologized one
+
+    Remove syllable and word separators from a sequence of tagged
+    utterances. The returned text is the gold version, against which
+    the algorithms are evaluated.
+
+    :param sequence(str) text: the input sequence to process, each
+      string in the sequence is an utterance
+    :param str syll_sep: syllable separation string in `tags`
+    :param str word_sep: word separation string in `tags`
+
+    :return sequence(str): text with separators removed, with word
+      separated by spaces
+
+    """
+    # delete syllable and word separators
+    gold = (line.replace(syll_sep, '').replace(' ', '').replace(word_sep, ' ')
+            for line in text)
+
+    # delete any duplicate, begin or end spaces
+    return (re.sub(' +', ' ', g).strip() for g in gold)
+
+
+@utils.CatchExceptions
 def main():
     """Entry point of the 'wordseg-gold' command"""
-    # define the commandline parser
-    parser = argparse.ArgumentParser(description=__doc__)
-    argument_groups.add_input_output(parser)
-    argument_groups.add_separators(parser, phone=False)
+    # command initialization
+    streamin, streamout, separator, log, args = utils.prepare_main(
+        name='wordseg-gold',
+        description=__doc__,
+        separator=utils.Separator(False, ';esyll', ';eword'))
 
-    # parse the command line arguments
-    args = parser.parse_args()
-
-    # open the input and output streams
-    streamin, streamout = utils.prepare_streams(args.input, args.output)
-
-    # compute the gold version of the text
-    gold = utils.gold_text(
-        streamin.readlines(),
-        syll_sep=args.syllable_separator,
-        word_sep=args.word_separator)
+    gold = gold_text(
+        streamin,
+        syll_sep=separator.syllable,
+        word_sep=separator.word)
 
     # write gold, one utterance per line, add a newline at the end
     streamout.write('\n'.join(gold) + '\n')

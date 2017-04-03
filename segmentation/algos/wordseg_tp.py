@@ -17,11 +17,10 @@
 
 """Transitional Probabilities word segmentation"""
 
-import argparse
 import collections
 import re
 
-from segmentation import utils, argument_groups
+from segmentation import utils
 
 
 def _threshold_relative(syls, tps):
@@ -109,7 +108,7 @@ def segment(text, threshold='relative'):
     return re.sub(' +', ' ', segtext).split(' UB ')
 
 
-def add_options(parser):
+def add_arguments(parser):
     """Add algorithm specific options to the parser"""
     parser.add_argument(
         '-t', '--threshold-type', type=str,
@@ -119,26 +118,19 @@ def add_options(parser):
         transition probability over the input corpus''')
 
 
-@utils.catch_exceptions
+@utils.CatchExceptions
 def main():
     """Entry point of the 'wordseg-tp' command"""
-    # define the commandline parser
-    parser = argparse.ArgumentParser(description=__doc__)
-    argument_groups.add_input_output(parser)
-    argument_groups.add_separators(parser, phone=False)
-    add_options(parser)
-
-    # parse the command line arguments
-    args = parser.parse_args()
-
-    # open the input and output streams
-    streamin, streamout = utils.prepare_streams(args.input, args.output)
+    # command initialization
+    streamin, streamout, separator, log, args = utils.prepare_main(
+        name='wordseg-dibs',
+        description=__doc__,
+        separator=utils.Separator(False, ';esyll', ';eword'),
+        add_arguments=add_arguments)
 
     # segment it and output the result
-    segmented_text = segment(
-        streamin.readlines(),
-        threshold=args.threshold_type)
-    streamout.write('\n'.join(segmented_text) + '\n')
+    text = segment(streamin, threshold=args.threshold_type)
+    streamout.write('\n'.join(text) + '\n')
 
 
 if __name__ == '__main__':
