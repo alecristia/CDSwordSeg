@@ -17,33 +17,39 @@
 
 """Extract statistics about gold or segmented text"""
 
-import argparse
 import collections
 import pandas as pd
 
 from segmentation import utils
 
-def stat_corpus(text, sep=' '): 
-    """
-    Return basis descriptive statistics of a text corpus
-    
+
+def stat_corpus(text, sep=' '):
+    """Return basis descriptive statistics of a text corpus
+
     :param sequence(str) text: the input sequence to process, each
       string in the sequence is an utterance
-    :return Dataframe:  number of tokens, type, utterance, 
-    : todo: add average word length in number of syllables, average word length in number of phonemes
+
+    :return pandas.DataFrame: number of tokens, types and utterances
+      in the input `text`
+
+    :todo: add average word length in number of syllables, average
+    word length in number of phonemes
+
     """
-    list_of_words=[]
-    dic_type=collections.Counter()
-    for line in text: 
+    list_of_words = []
+    dic_type = collections.Counter()
+    for line in text:
         for word in line.split():
             list_of_words.append(word)
             dic_type.update(word)
-            
-    df=pd.DataFrame(index=['stat'], columns=['number_tokens', 'number_types', 'number_utterances'])
-    df.number_tokens=len(list_of_words)
-    df.number_types=len(dic_type)
-    df.number_utterance=len(text)
-    
+
+    df = pd.DataFrame(
+        index=['stat'],
+        columns=['number_tokens', 'number_types', 'number_utterances'])
+
+    df.number_tokens = len(list_of_words)
+    df.number_types = len(dic_type)
+    df.number_utterance = len(text)
     return df
 
 
@@ -78,8 +84,8 @@ def main():
         '{} top frequency tokens:\n'.format(len(top))
         + '\n'.join('{} {}'.format(t[0], t[1]) for t in top)
         + '\n')
-        
-    stat=stat_corpus(streamin)
+
+    stat = stat_corpus(streamin)
     streamout.write(stat)
 
 

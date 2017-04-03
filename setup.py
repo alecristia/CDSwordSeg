@@ -27,6 +27,7 @@ VERSION = '0.2'
 ON_RTD = os.environ.get('READTHEDOCS', None) == 'True'
 REQUIREMENTS = [] if ON_RTD else [
     'joblib',
+    'pandas',
     'phonemizer>=0.3'
 ]
 
@@ -52,8 +53,8 @@ setup(
         'wordseg-gold = segmentation.wordseg_gold:main',
         'wordseg-eval = segmentation.wordseg_eval:main',
         'wordseg-dibs = segmentation.algos.wordseg_dibs:main',
-        'wordseg-tp = segmentation.algos.wordseg_tp:main', 
-        'wordseg-puddle = segmentation.algos.wordseg_puddle:main', 
+        'wordseg-tp = segmentation.algos.wordseg_tp:main',
+        'wordseg-puddle = segmentation.algos.wordseg_puddle:main',
         ]
         },
 

@@ -3,7 +3,7 @@ Setup
 
 * create a new Python 3 virtual environment
 
-        conda create --name wordseg python=3 pytest Sphinx joblib
+        conda create --name wordseg python=3 pytest Sphinx joblib pandas
 
 * activate your virtual environment.
 
