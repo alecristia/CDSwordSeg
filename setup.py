@@ -52,7 +52,10 @@ setup(
         'wordseg-gold = segmentation.wordseg_gold:main',
         'wordseg-eval = segmentation.wordseg_eval:main',
         'wordseg-dibs = segmentation.algos.wordseg_dibs:main',
-        'wordseg-tp = segmentation.algos.wordseg_tp:main']},
+        'wordseg-tp = segmentation.algos.wordseg_tp:main', 
+        'wordseg-puddle = segmentation.algos.wordseg_puddle:main', 
+        ]
+        },
 
     # metadata for upload to PyPI
     author='Alex Cristia',
