@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
 #
 # Copyright 2017 Elin Larsen
 #
@@ -151,43 +150,36 @@ def update_line(phonemes, window, log=utils.null_logger()):
     return(segmentation_output)
 
 
+def segment(text, window=2, log=utils.null_logger()):
+    for line in text:
+        segmented_line = update_line(
+            line.strip().split(), window=window, log=log)
+
+        yield ' '.join(segmented_line)
+
+
 def add_arguments(parser):
     """Add algorithm specific options to the parser"""
     parser.add_argument(
-       '-W', '--window', type=int, default=2, help='''
+       '-w', '--window', type=int, default=2, help='''
        Number of phonemes to be taken into account for boundary constraint,
        default is %(default)s.''')
 
     # parser.add_argument(
-    #     '-d', '--decay',
-    #     help='parameter that decrease the size of lexicon'
-    #     ' -- modelize memory of lexicon ')
+    #     '-d', '--decay', action='store_true',
+    #     help='Decrease the size of lexicon, modelize memory of lexicon.')
 
 
 @utils.CatchExceptions
 def main():
     """Entry point of the 'wordseg-puddle' command"""
-    # command initialization
-    streamin, streamout, separator, log, args = utils.prepare_main(
+    streamin, streamout, _, log, args = utils.prepare_main(
         name='wordseg-puddle',
         description=__doc__,
-        separator=utils.Separator(False, ';esyll', ';eword'),
         add_arguments=add_arguments)
 
-    # segment it and output the result
-    for line in streamin:
-        if len(line) != 0:
-            # split line as a list of strings which are separated by a
-            # space in the line
-            line_seg = update_line(
-                line.strip().split(), window=args.window, log=log)
-
-        # the last line is the segmented output
-        for word in line_seg:
-            if word != "\n":
-                streamout.write(word + " ")
-            else:
-                streamout.write(word)
+    segmented = segment(streamin, window=args.window, log=log)
+    streamout.write('\n'.join(segmented) + '\n')
 
 
 if __name__ == '__main__':

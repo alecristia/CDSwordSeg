@@ -15,7 +15,12 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-"""Transitional Probabilities word segmentation"""
+"""Transitional Probabilities word segmentation.
+
+The input text must be formatted one utterance a line, with syllable
+(or phoneme) boundaries marked by spaces and no word boundaries.
+
+"""
 
 import collections
 import re
@@ -70,16 +75,16 @@ def _absolute_threshold(syls, tps):
 def segment(text, threshold='relative'):
     """Return a word-segmented version of an input `text`
 
-    :param sequence(str) text: a sequence of lines with syllable
-      boundaries marked by spaces and no word boundaries. Each string
-      in the sequence corresponds to an utterance in the corpus.
+    :param sequence(str) text: a sequence of lines with syllable (or
+      phoneme) boundaries marked by spaces and no word
+      boundaries. Each string in the sequence corresponds to an
+      utterance in the corpus.
 
     :param str threshold: type of threshold to use, must be 'relative'
-      or 'absolute'.
+      or 'absolute', raise ValueError otherwise
 
-    Raise ValueError if threshold is not 'relative' or 'absolute'
-
-    Return the corpus with estimated words boundaries, as a sequence(str)
+    :return: the corpus with estimated words boundaries, as a sequence
+      of strings
 
     """
     # raise on invalid threshold type
@@ -111,11 +116,11 @@ def segment(text, threshold='relative'):
 def add_arguments(parser):
     """Add algorithm specific options to the parser"""
     parser.add_argument(
-        '-t', '--threshold-type', type=str,
+        '-t', '--threshold', type=str,
         choices=['relative', 'absolute'], default='relative',
-        help='''use a relative or absolute threshold on transition
-        probabilities. When absolute, the threshold is set to the mean
-        transition probability over the input corpus''')
+        help='''Use a relative or absolute threshold for boundary decisions on
+        transition probabilities. When absolute, the threshold is set
+        to the mean transition probability over the entire text.''')
 
 
 @utils.CatchExceptions
@@ -125,11 +130,10 @@ def main():
     streamin, streamout, separator, log, args = utils.prepare_main(
         name='wordseg-dibs',
         description=__doc__,
-        separator=utils.Separator(False, ';esyll', ';eword'),
         add_arguments=add_arguments)
 
     # segment it and output the result
-    text = segment(streamin, threshold=args.threshold_type)
+    text = segment(streamin, threshold=args.threshold)
     streamout.write('\n'.join(text) + '\n')
 
 

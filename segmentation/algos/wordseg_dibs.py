@@ -100,7 +100,7 @@ class Summary(object):
                 '\t'.join(
                     [str(item[0])+' '+str(item[1]) for item in d.items()])
 
-        print >> outstream, (
+        outstream.write(
             'multigraphemic\t' + str(self.multigraphemic) +
             '\twordsep\t' + self.wordsep)
 
@@ -116,11 +116,12 @@ class Dibs(Counter):
         self.multigraphemic, self.wordsep = multigraphemic, wordsep
         self.threshold = threshold
 
-    def test(self, instream, outstream):
+    def test(self, text):
         bdry = (self.wordsep * self.multigraphemic +
                 ' ' * (not self.multigraphemic))
 
-        for line in instream:
+        segmented_text = []
+        for line in text:
             if self.multigraphemic:
                 phoneseq = tuple(line.replace(self.wordsep, ' ').split())
             else:
@@ -135,8 +136,9 @@ class Dibs(Counter):
                     out.append(bdry)
                 out.append(phoneseq[i_pos + 1])
 
-            outstream.write(
+            segmented_text.append(
                 line.rstrip() + '\t' + (' ' * self.multigraphemic).join(out))
+        return segmented_text
 
     def save(self, outstream):
         if self.multigraphemic:
@@ -186,13 +188,12 @@ def phrasal(speech, pwb=None, log=utils.null_logger()):
 
     dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     for diphone in speech.diphones():
-        if speech.multigraphemic:
-            x, y = (diphone[0],), (diphone[1],)
-        else:
-            x, y = diphone[0], diphone[1]
+        x = (diphone[0],) if speech.multigraphemic else diphone[0]
+        y = (diphone[1],) if speech.multigraphemic else diphone[1]
 
-        num, denom = px2_[x] * pwb * p_2y[y], pxy[diphone]
-        dib[diphone] = 1 if num >= denom else num / denom
+        num = px2_[x] * pwb * p_2y[y]
+        denom = pxy[diphone]
+        dib[diphone] = max(1.0, num / denom)
 
     return dib
 
@@ -221,15 +222,38 @@ def lexical(speech, lexicon=None, pwb=None, log=utils.null_logger()):
 
     dib = Dibs(multigraphemic=speech.multigraphemic, wordsep=speech.wordsep)
     for diphone in speech.diphones():
-        if speech.multigraphemic:
-            x, y = (diphone[0],), (diphone[1],)
-        else:
-            x, y = diphone[0], diphone[1]
+        x = (diphone[0],) if speech.multigraphemic else diphone[0]
+        y = (diphone[1],) if speech.multigraphemic else diphone[1]
 
-        num, denom = px2_[x] * pwb * p_2y[y], pxy[diphone]
-        dib[diphone] = 1 if num >= denom else num / denom
+        num = px2_[x] * pwb * p_2y[y]
+        denom = pxy[diphone]
+        dib[diphone] = max(1.0, num / denom)
 
     return dib
+
+
+# TODO fix this confusion between test/train texts, see if can
+# completly avoid train text... For now the train is used to
+# initialize diphones
+def segment(text, pwb=None, train_text=None, diphones=None,
+            log=utils.null_logger()):
+    # force text to be a list (can be a generator or a stream)
+    text = [line for line in text]
+
+    # TODO wow!!!
+    if not train_text:
+        train_text = text
+
+    training = Summary(multigraphemic=True, wordsep=' ')
+    training.readstream(train_text)
+
+    phrasal_dibs = phrasal(training, pwb=pwb, log=log)
+    segmented = phrasal_dibs.test(text)
+
+    if diphones:
+        phrasal_dibs.save(codecs.open(diphones, 'w', encoding='utf8'))
+
+    return segmented
 
 
 def add_arguments(parser):
@@ -238,6 +262,7 @@ def add_arguments(parser):
     group.add_argument(
         '-p', '--prob-word-boundary', metavar='<float>', type=float,
         help='''Word boundary probability, must be in [0, 1]''')
+
     group.add_argument(
         '-t', '--train', metavar='<int or file>', type=str, default='200',
         help='''Dibs requires a little train corpus to compute some statistics.
@@ -254,15 +279,13 @@ def add_arguments(parser):
 @utils.CatchExceptions
 def main():
     """Entry point of the 'wordseg-dibs' command"""
-    # command initialization
-    streamin, streamout, separator, log, args = utils.prepare_main(
+    streamin, streamout, _, log, args = utils.prepare_main(
         name='wordseg-dibs',
         description=__doc__,
-        separator=utils.Separator(False, ';esyll', ';eword'),
         add_arguments=add_arguments)
 
-    # load the test input
-    test_text = streamin.readlines()
+    # load the test input as a list
+    test_text = [line for line in streamin]
 
     # prepare the train input according to --train: try to open the
     # file first, if file not found cast to int
@@ -283,16 +306,11 @@ def main():
 
         train_text = test_text[:ntrain]
 
-    training = Summary(multigraphemic=True, wordsep=args.word_separator)
-    training.readstream(train_text)
+    segmented = segment(
+        test_text, pwb=args.prob_word_boundary, train_text=train_text,
+        diphones=args.diphones, log=log)
 
-    phrasal_dibs = (
-        phrasal(training, pwb=args.prob_word_boundary, log=log)
-        if args.prob_word_boundary else phrasal(training))
-
-    phrasal_dibs.test(test_text, streamout)
-    if args.diphones:
-        phrasal_dibs.save(codecs.open(args.diphone, 'w', encoding='utf8'))
+    streamout.write('\n'.join(segmented) + '\n')
 
 
 if __name__ == '__main__':
