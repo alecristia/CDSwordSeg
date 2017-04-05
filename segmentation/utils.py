@@ -17,22 +17,12 @@
 
 import argparse
 import codecs
-import collections
 import logging
 import pkg_resources
+import re
 import sys
 
-
-Separator = collections.namedtuple('Separator', ['phone', 'syllable', 'word'])
-
-default_separator = Separator(phone=' ', syllable=';esyll', word=';eword')
-
-
-def null_logger():
-    """Return a logger going to nowhere"""
-    log = logging.getLogger()
-    log.addHandler(logging.NullHandler())
-    return log
+from segmentation import Separator
 
 
 class CatchExceptions(object):
@@ -60,17 +50,57 @@ class CatchExceptions(object):
         except KeyboardInterrupt:
             self.exit('keyboard interruption, exiting')
 
-    def exit(self, msg):
+    @staticmethod
+    def exit(msg):
         """Write `msg` on stderr and exit with error code 1"""
         sys.stderr.write(msg.strip() + '\n')
         sys.exit(1)
 
 
-def get_logger(name=None):
-    log = logging.getLogger(name)
-    log.setLevel(logging.WARNING)
+def strip(utt):
+    """Return the string `utt` with undesirable spaces removed
 
-    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    This function is an extension of string.strip(), by so removing
+    begining and ending spaces, that also subsitutes multiple spaces
+    by a single one inside the string.
+
+    >>> strip(' a   b\n')
+    'a b'
+    >>> strip('ab   c ')
+    'ab c'
+    >>> strip('ab\n c ')
+    'ab c'
+
+    """
+    return re.sub(r'\s+', ' ', utt.strip())
+
+
+def null_logger():
+    """Return a logger sending log messages to nowhere
+
+    This is used as default logger for some functions.
+
+    """
+    log = logging.getLogger()
+    log.addHandler(logging.NullHandler())
+    return log
+
+
+def get_logger(name=None, level=logging.WARNING):
+    """Return a logger sending messages to stderr
+
+    :param str name: The name of the logger, to be displayed in log
+      messages
+
+    :param logging.level level: The minimum log level handled by the
+      logger (any message above this level will be ignored)
+
+    """
+    log = logging.getLogger(name)
+    log.setLevel(level)
+
+    formatter = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     handler = logging.StreamHandler(sys.stderr)
     handler.setFormatter(formatter)
 
@@ -78,19 +108,15 @@ def get_logger(name=None):
     return log
 
 
-def get_parser(description=None, separator=default_separator):
-    """Add token separators options to the `parser`
+def get_parser(description=None, separator=Separator()):
+    """Return an argument parser initiliazed with common options
 
-    Set `phone`, `syllable` and `word` to the default value you want
-    they have in the parser, or set to False to disable them.
+    Provide --verbose/--quiet options regulating the logger,
+    --phone/--word/--syllable setting the separator, and define
+    input/output arguments for opening files/streams
 
     """
     parser = argparse.ArgumentParser(description=description)
-
-    # add input and output arguments to the parser
-    parser.add_argument(
-        'input', default=sys.stdin, nargs='?', metavar='<input-file>',
-        help='Input text file to read, if not specified read from stdin.')
 
     # add verbose/quiet options to control log level
     group = parser.add_mutually_exclusive_group()
@@ -125,6 +151,11 @@ def get_parser(description=None, separator=default_separator):
                 default=separator.word,
                 help='Word separator, default is "%(default)s".')
 
+    # add input and output arguments to the parser
+    parser.add_argument(
+        'input', default=sys.stdin, nargs='?', metavar='<input-file>',
+        help='Input text file to read, if not specified read from stdin.')
+
     parser.add_argument(
         '-o', '--output', default=sys.stdout, metavar='<output-file>',
         help='Output text file to write, if not specified write to stdout.')
@@ -132,50 +163,70 @@ def get_parser(description=None, separator=default_separator):
     return parser
 
 
-def parse_args(parser, log):
-    """Open input and output streams from files or standard input/output
+def prepare_main(name=None,
+                 description=None,
+                 separator=Separator(phone=None, syllable=None, word=None),
+                 add_arguments=None):
+    """Initialize a binary program from the wordseg package
 
-    Return a pair (streamin, streamout) that can be accessed through
-    streamin.read()/readlines() and streamout.write() respectively.
+    This method provides an easy way to setup a command for the
+    wordseg package. It defines an argument parser, parse the
+    arguments and initialize a logger, a token separator and
+    input/output streams to be used by the command itself.
 
-    If `input` and `output` are strings, they are opened as regular
-    files for reading/writing.
+    :param str name: the name of the command (shown on log messages)
+
+    :param str description: the description of the command (shown with
+      command --help option)
+
+    :param Separator separator: Default value of the parsed separators
+      at phone, syllable and word levels. Set any level to None to
+      disable this token for the command.
+
+    :param function(argparse.ArgumentParser) -> None add_argument: A
+      function adding optional arguments to the parser.
+
+    :return: A tuple that makes wordseg commands easy and homogeneous.
+      The returned values are initialized from the command line
+      arguments. They are: opened input and output streams, token
+      separator, logger and extra arguments parsed from command line.
 
     """
-    pass
-
-
-def prepare_main(name=None, description=None,
-                 separator=default_separator, add_arguments=None):
-    log = get_logger(name=name)
-
+    # define a basic command line parser
     parser = get_parser(description=description, separator=separator)
+
+    # add any arguments to it
     if add_arguments:
         add_arguments(parser)
 
+    # parse input arguments
     args = parser.parse_args()
 
+    # setup the logger (level given by -q/-v arguments)
     if args.quiet:
-        level = logging.CRITICAL
-    elif args.verbose == 0:
-        level = logging.WARNING
-    elif args.verbose == 1:
-        level = logging.INFO
-    else:  # verbose >= 2
-        level = logging.DEBUG
+        log = null_logger()
+    else:
+        if args.verbose == 0:
+            level = logging.WARNING
+        elif args.verbose == 1:
+            level = logging.INFO
+        else:  # verbose >= 2
+            level = logging.DEBUG
+        log = get_logger(name=name, level=level)
+        log.debug('log level set to %s', logging.getLevelName(level))
 
-    log.setLevel(level)
-    log.debug('log level set to %s', logging.getLevelName(level))
-
+    # setup the separator from parsed arguments
     separator = Separator(
         phone=args.phone_separator if separator.phone else None,
         syllable=args.syllable_separator if separator.syllable else None,
         word=args.word_separator if separator.word else None)
 
+    # open the input stream from parsed arguments
     streamin = args.input
     if isinstance(streamin, str):
         streamin = codecs.open(streamin, 'r', encoding='utf8')
 
+    # open the output stream from parsed arguments
     streamout = args.output
     if isinstance(streamout, str):
         streamout = codecs.open(streamout, 'w', encoding='utf8')

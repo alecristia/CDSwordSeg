@@ -37,56 +37,64 @@ import re
 from segmentation import utils
 
 
-log = utils.get_logger('wordseg-prep')
-
 punctuation_re = re.compile('[%s]' % re.escape(string.punctuation))
+"""A regular expression matching all the punctuation characters"""
 
 
-def format_utterance(utt, word_sep=';eword'):
-    """Return `utt` correctly formated for word segmentation
+def check_utterance(utt, separator):
+    """Raise ValueError if any error is detected on `utt`
 
-    Raise ValueError if any error is detected on `utt`:
-      * not a string
-      * empty string
-      * found any punctuation
-      * not ending with word separator
+    The following errors are checked:
+      * `utt` is empty or is not a string
+      * `utt` contains any punctuation character (once separators removed)
+      * `utt` begins with a separator
+      * `utt` does not end with a word separator
+
+    Return True if no error detected
 
     """
-    # remove begin/end/multiple spaces in the utterance
-    utt = re.sub('\s+', ' ', utt.strip())
-
-    # bad format detection
+    # utterance is empty or not a string
     if not utt or not isinstance(utt, str):
-        raise ValueError('not a string')
+        raise ValueError('utterance is not a string')
     if not len(utt):
-        raise ValueError('empty string')
-    if punctuation_re.match(utt):
-        raise ValueError('punctuation found')
-    if not utt.endswith(word_sep):
-        raise ValueError('not ending with word separator')
+        raise ValueError('utterance is an empty string')
 
-    return utt
+    # search any punctuation in utterance (take care to remove token
+    # separators first)
+    if punctuation_re.match(separator.remove(utt)):
+        raise ValueError('punctuation found in utterance')
+
+    # utterance begins with a separator
+    for sep in (separator.iterate()):
+        if re.match('^{}'.format(re.escape(sep)), utt):
+            raise ValueError(
+                'utterance begins with the separator "{}"'.format(sep))
+
+    # utterance ends with a word separator
+    if not utt.endswith(separator.word):
+        raise ValueError('utterance does not end with a word separator')
+
+    return True
 
 
-def prepare_text(
-        text, unit='syllable', syll_sep=';esyll', word_sep=';eword'):
+def prepare_text(text, separator, unit='phoneme'):
     """Return a text prepared for word segmentation from a tagged text
 
     Remove syllable and word separators from a sequence of tagged
     utterances. Marks boundaries at a unit level defined by `unit`.
 
-    Return the text with separators removed, prepared for segmentation
-    at a syllable or phoneme representation level (separated by space)
-
-    `text` (sequence of str) is the input text to process, each
+    :param (sequence of str) text: is the input text to process, each
       string in the sequence is an utterance
 
+    :param Separator separator: token separation in the `text`
+
     :param str unit: the unit representation level, must be 'syllable'
-      or 'phoneme'. This put space between syllables or phonemes
-      respectively
-    :param str syll_sep: syllable separation string in `tags`
-    :param str word_sep: word separation string in `tags`
-    :return sequence(str):
+      or 'phoneme'. This put a space between two syllables or phonemes
+      respectively.
+
+    :return: the `text` with separators removed, prepared for
+      segmentation at a syllable or phoneme representation level
+      (separated by space).
 
     """
     # raise an error if unit is not valid
@@ -96,15 +104,15 @@ def prepare_text(
 
     if unit == 'phoneme':
         def func(line):
-            return line.replace(syll_sep, '')\
-                       .replace(word_sep, '')
+            return line.replace(separator.syllable, '')\
+                       .replace(separator.word, '')
     else:  # syllable
         def func(line):
-            return line.replace(word_sep, '')\
+            return line.replace(separator.word, '')\
                        .replace(' ', '')\
-                       .replace(syll_sep, ' ')
+                       .replace(separator.syllable, ' ')
 
-    return (re.sub(' +', ' ', func(line).strip()) for line in text)
+    return (utils.strip(func(line)) for line in text)
 
 
 @utils.CatchExceptions
@@ -124,13 +132,13 @@ def main():
         separator=utils.Separator(False, ';esyll', ';eword'),
         add_arguments=add_arguments)
 
-    # check all the utterances are correctly formatted
-    text = (format_utterance(utt) for utt in streamin)
+    # check all the utterances are correctly formatted. One the first
+    # error detected, this raises a ValueError exception catched in
+    # the CatchException class: display an error message and exit
+    text = (check_utterance(utils.strip(utt)) for utt in streamin)
 
     # prepare the input text for word segmentation
-    prep = prepare_text(text, unit=args.unit,
-                        syll_sep=separator.syllable,
-                        word_sep=separator.word)
+    prep = prepare_text(text, separator, unit=args.unit)
 
     # write prepared text, one utterance a line, ending with a newline
     streamout.write('\n'.join(prep) + '\n')

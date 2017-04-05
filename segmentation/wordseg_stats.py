@@ -20,72 +20,87 @@
 import collections
 import pandas as pd
 
-from segmentation import utils
+from segmentation import utils, Separator
 
 
-def stat_corpus(text, sep=' '):
+default_separator = Separator(phone=None, syllable=None, word=' ')
+"""Default separator when processing gold text
+
+Only word tokens, separated by spaces.
+
+"""
+
+
+def stat_corpus(text, separator=default_separator):
     """Return basis descriptive statistics of a text corpus
 
     :param sequence(str) text: the input sequence to process, each
       string in the sequence is an utterance
 
-    :return pandas.DataFrame: number of tokens, types and utterances
-      in the input `text`
+    :param Separator separator: token separation in the `text`
+
+    :return: A pandas.DataFrame containing the number of tokens, types
+      and utterances in the input `text`
 
     :todo: add average word length in number of syllables, average
-    word length in number of phonemes
+       word length in number of phonemes
 
     """
+    # force the text as a list if it is a generator
+    text = list(text)
+
     list_of_words = []
-    dic_type = collections.Counter()
+    dict_of_types = collections.Counter()
     for line in text:
-        for word in line.split():
+        for word in separator.split(line, 'word'):
             list_of_words.append(word)
-            dic_type.update(word)
+            dict_of_types.update(word)
 
     df = pd.DataFrame(
         index=['stat'],
         columns=['number_tokens', 'number_types', 'number_utterances'])
 
     df.number_tokens = len(list_of_words)
-    df.number_types = len(dic_type)
+    df.number_types = len(dict_of_types)
     df.number_utterance = len(text)
+
     return df
 
 
-def top_frequency_tokens(text, n=1000, sep=' '):
+def top_frequency_tokens(text, n=1000, separator=default_separator):
     """Return the `n` most common tokens in `text`
 
     :param sequence(str) text: the input sequence to process, each
       string in the sequence is an utterance
+
     :param int n: the most common tokens to return
-    :param str sep: tokens separation string in `text`
-    :return list((token, count)): the `n` most common tokens in text
-      and their occurence count
+
+    :param Separator separator: tokens separation in `text`
+
+    :return: a list of `n` (token, count) pairs of most common tokens in `text`
 
     """
     return collections.Counter(
         word for line in text for word
-        in line.strip().split(sep)).most_common(n)
+        in separator.split(line.strip(), 'word')).most_common(n)
 
 
 @utils.CatchExceptions
 def main():
-    """Entry point of the 'wordseg-prep' command"""
-    # initiliaze the command
+    """Entry point of the 'wordseg-stats' command"""
     # command initialization
     streamin, streamout, separator, log, args = utils.prepare_main(
         name='wordseg-stats',
         description=__doc__,
-        separator=utils.Separator(False, False, ' '))
+        separator=default_separator)
 
-    top = top_frequency_tokens(streamin)
+    top = top_frequency_tokens(streamin, separator=separator)
     streamout.write(
         '{} top frequency tokens:\n'.format(len(top))
         + '\n'.join('{} {}'.format(t[0], t[1]) for t in top)
         + '\n')
 
-    stat = stat_corpus(streamin)
+    stat = stat_corpus(streamin, separator=separator)
     streamout.write(stat)
 
 

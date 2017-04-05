@@ -26,7 +26,7 @@ import re
 import sys
 from collections import Counter
 
-from segmentation import utils
+from segmentation import utils, Separator
 
 
 def is_terminal(subtree):
@@ -293,9 +293,9 @@ def add_arguments(parser):
         '-i', '--ignore-terminal-re', default=r'^[$]{3}$', metavar='<regexp>',
         help='ignore terminals that match this regex')
 
-    parser.add_argument(
-        '-W', '--word-split-re', default=r'[ \t]+', metavar='<regexp>',
-        help='regex used to split words with non-tree input')
+    # parser.add_argument(
+    #     '-W', '--word-split-re', default=r'[ \t]+', metavar='<regexp>',
+    #     help='regex used to split words with non-tree input')
 
     parser.add_argument(
         '--extra', type=str, metavar='<str>',
@@ -309,16 +309,16 @@ def main():
     trainf, outputf, separator, log, args = utils.prepare_main(
         name='wordseg-eval',
         description=__doc__,
-        separator=utils.Separator(False, ';esyll', ';eword'),
+        separator=Separator(None, None, ' '),
         add_arguments=add_arguments)
 
     log.debug('score_cat_re = "%s"', args.score_cat_re)
     log.debug('ignore_terminal_re = "%s"', args.ignore_terminal_re)
-    log.debug('word_split_re = "%s"', args.word_split_re)
+    log.debug('word_separator = "%s"', separator.word)
 
     score_cat_rex = re.compile(args.score_cat_re)
     ignore_terminal_rex = re.compile(args.ignore_terminal_re)
-    word_split_rex = re.compile(args.word_split_re)
+    word_split_rex = re.compile(re.escape(separator.word))
 
     with codecs.open(args.gold, 'r', encoding='utf8') as goldf:
         goldwords, goldstringpos = read_data(

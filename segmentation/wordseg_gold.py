@@ -25,10 +25,10 @@ algorithms are evaluated.
 
 import re
 
-from segmentation import utils
+from segmentation import utils, Separator
 
 
-def gold_text(text, syll_sep=';esyll', word_sep=';eword'):
+def gold_text(text, separator=Separator()):
     """Return a gold text from a phonologized one
 
     Remove syllable and word separators from a sequence of tagged
@@ -37,16 +37,17 @@ def gold_text(text, syll_sep=';esyll', word_sep=';eword'):
 
     :param sequence(str) text: the input sequence to process, each
       string in the sequence is an utterance
-    :param str syll_sep: syllable separation string in `tags`
-    :param str word_sep: word separation string in `tags`
+
+    :param Separator separator: token separation in the `text`
 
     :return sequence(str): text with separators removed, with word
       separated by spaces
 
     """
     # delete syllable and word separators
-    gold = (line.replace(syll_sep, '').replace(' ', '').replace(word_sep, ' ')
-            for line in text)
+    gold = (line.replace(separator.syllable, '')
+            .replace(separator.phone, '')
+            .replace(separator.word, ' ') for line in text)
 
     # delete any duplicate, begin or end spaces
     return (re.sub(' +', ' ', g).strip() for g in gold)
@@ -61,10 +62,7 @@ def main():
         description=__doc__,
         separator=utils.Separator(False, ';esyll', ';eword'))
 
-    gold = gold_text(
-        streamin,
-        syll_sep=separator.syllable,
-        word_sep=separator.word)
+    gold = gold_text(streamin, separator=separator)
 
     # write gold, one utterance per line, add a newline at the end
     streamout.write('\n'.join(gold) + '\n')
