@@ -54,3 +54,5 @@ results_cds_childes.txt
 /wordseg.egg-info/*
 /dist/wordseg-0.2-py3.6.egg
 .cache/*
+doc/build/*
+.eggs/*

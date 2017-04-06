@@ -64,12 +64,12 @@ def strip(utt):
     begining and ending spaces, that also subsitutes multiple spaces
     by a single one inside the string.
 
-    >>> strip(' a   b\n')
-    'a b'
-    >>> strip('ab   c ')
-    'ab c'
-    >>> strip('ab\n c ')
-    'ab c'
+    >>> strip(" a   b\n")
+    a b
+    >>> strip("ab   c ")
+    ab c
+    >>> strip("ab\n c ")
+    ab c
 
     """
     return re.sub(r'\s+', ' ', utt.strip())

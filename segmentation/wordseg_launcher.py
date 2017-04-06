@@ -38,7 +38,7 @@ import subprocess
 import sys
 import tempfile
 
-from segmentation.utils import gold_text
+from segmentation.wordseg_gold import gold_text
 
 
 CDSPATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'algos')

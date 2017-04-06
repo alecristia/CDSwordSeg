@@ -37,6 +37,9 @@ setup(
     packages=find_packages(),
     zip_safe=True,
 
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
+
     # install some dependencies directly from github
     dependency_links=[
         'https://github.com/bootphon/phonemizer/tarball/master'
