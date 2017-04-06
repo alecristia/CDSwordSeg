@@ -39,17 +39,12 @@ lexicon = Counter()
 beginning = Counter()
 ending = Counter()
 
-# empty list that will be filled by word chunks, do not put it in the
-# update_line function, otherwise it will empty for each line, pre
-# word will be lost
-segmentation_output = []
-
 
 def filter_by_frequency(phonemes, i, j):
     all_candidates = []
     for k in range(j, len(phonemes)):
         try:
-            all_candidates.append((k, lexicon["".join(phonemes[i:k+1])]))
+            all_candidates.append((k, lexicon[''.join(phonemes[i:k+1])]))
         except KeyError:
             pass
 
@@ -60,38 +55,42 @@ def filter_by_frequency(phonemes, i, j):
 
 def filter_by_boundary_condition(phonemes, i, j, found, window):
     if found:
-        previous_biphone = "".join(phonemes[i - window:i])
+        previous_biphone = ''.join(phonemes[i - window:i])
         # previous must be word-end
         if i != 0 and previous_biphone not in ending:
             return False
 
-        following_biphone = "".join(phonemes[j + 1:j + 1 + window])
+        following_biphone = ''.join(phonemes[j + 1:j + 1 + window])
         if len(phonemes) != j - i and following_biphone not in beginning:
             return False
 
         return True
 
 
-def update_counters(phonemes, i, j, window, log=utils.null_logger()):
-    lexicon.update(["".join(phonemes[i:j+1])])
-    segmentation_output.append("".join(phonemes[i:j+1]))
+def update_counters(segmented, phonemes, i, j, window,
+                    log=utils.null_logger()):
+    lexicon.update([''.join(phonemes[i:j+1])])
+    segmented.append(''.join(phonemes[i:j+1]))
+
     if len(phonemes[i:j+1]) == len(phonemes):
-        log.error("Utterance %s added in lexicon", "".join(phonemes[i:j+1]))
+        log.debug('Utterance %s added in lexicon', ''.join(phonemes[i:j+1]))
     else:
-        log.error("Match %s added in lexicon", "".join(phonemes[i:j+1]))
+        log.debug('Match %s added in lexicon', ''.join(phonemes[i:j+1]))
 
     if len(phonemes[i:j+1]) >= 2:
-        beginning.update(["".join(phonemes[i:i+window])])
-        ending.update(["".join(phonemes[j+1-window:j+1])])
-        log.error(
-            "Bi-phonemes %s added in beginning",
-            "".join(phonemes[i:i+window]))
-        log.error(
-            "Bi-phonemes %s added in ending",
-            "".join(phonemes[j+1-window:j+1]))
+        beginning.update([''.join(phonemes[i:i+window])])
+        ending.update([''.join(phonemes[j+1-window:j+1])])
+        log.debug(
+            'Bi-phonemes %s added in beginning',
+            ''.join(phonemes[i:i+window]))
+        log.debug(
+            'Bi-phonemes %s added in ending',
+            ''.join(phonemes[j+1-window:j+1]))
+
+    return segmented
 
 
-def update_line(phonemes, window, log=utils.null_logger()):
+def update_line(phonemes, window, log=utils.null_logger(), segmented=[]):
     # check if the list of phonemes is not null
     if not len(phonemes):
         raise NotImplementedError
@@ -103,8 +102,8 @@ def update_line(phonemes, window, log=utils.null_logger()):
     while i < len(phonemes):
         j = i
         while j < len(phonemes):
-            candidate_word = "".join(phonemes[i:j+1])
-            log.info("word candidate: %s", candidate_word)
+            candidate_word = ''.join(phonemes[i:j+1])
+            log.debug('word candidate: %s', candidate_word)
 
             if candidate_word in lexicon:
                 found = True
@@ -118,22 +117,26 @@ def update_line(phonemes, window, log=utils.null_logger()):
                     phonemes, i, j, found, window)
 
                 if found:
-                    log.error("match found : %s", candidate_word)
+                    log.info('match found : %s', candidate_word)
                     if i != 0:
                         # add the word preceding the word found in
                         # lexicon; update beginning and ending
                         # counters and segment
-                        update_counters(phonemes, 0, i-1, window, log=log)
+                        segmented = update_counters(
+                            segmented, phonemes, 0, i-1, window, log=log)
 
                     # update the lexicon, beginning and ending counters
-                    update_counters(phonemes, i, j, window, log=log)
+                    segmented = update_counters(
+                        segmented, phonemes, i, j, window, log=log)
 
                     if j != len(phonemes) - 1:
                         # recursion
-                        return update_line(phonemes[j+1:], window, log=log)
+                        return update_line(
+                            phonemes[j+1:], window,
+                            log=log, segmented=segmented)
 
                     # go to the next chunk and apply the same condition
-                    log.error("go to next chunk : %s ", phonemes[j+1:])
+                    log.info('go to next chunk : %s ', phonemes[j+1:])
                     break
 
                 else:
@@ -144,16 +147,16 @@ def update_line(phonemes, window, log=utils.null_logger()):
         i += 1  # or go to the next phoneme
 
     if not found:
-        update_counters(phonemes, 0, len(phonemes) - 1, window)
+        update_counters(segmented, phonemes, 0, len(phonemes) - 1, window)
 
-    segmentation_output.append("\n")
-    return(segmentation_output)
+    return segmented
 
 
 def segment(text, window=2, log=utils.null_logger()):
+    # TODO docstring
     for line in text:
         segmented_line = update_line(
-            line.strip().split(), window=window, log=log)
+            line.strip().split(), window=window, log=log, segmented=[])
 
         yield ' '.join(segmented_line)
 
