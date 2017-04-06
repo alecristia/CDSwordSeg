@@ -112,15 +112,14 @@ class Summary(object):
 class Dibs(Counter):
     def __init__(self, multigraphemic=False, threshold=0.5, wordsep='##'):
         super(Dibs, self).__init__()
-
-        self.multigraphemic, self.wordsep = multigraphemic, wordsep
+        self.multigraphemic = multigraphemic
         self.threshold = threshold
+        self.wordsep = wordsep
 
     def test(self, text):
-        bdry = (self.wordsep * self.multigraphemic +
-                ' ' * (not self.multigraphemic))
+        wordsep = (self.wordsep * self.multigraphemic
+                   + ' ' * (not self.multigraphemic))
 
-        segmented_text = []
         for line in text:
             if self.multigraphemic:
                 phoneseq = tuple(line.replace(self.wordsep, ' ').split())
@@ -131,14 +130,12 @@ class Dibs(Counter):
                 continue
 
             out = [phoneseq[0]]
-            for i_pos in range(len(phoneseq)-1):
-                if self.get(phoneseq[i_pos:i_pos + 2], 1.0) > self.threshold:
-                    out.append(bdry)
-                out.append(phoneseq[i_pos + 1])
+            for i_pos in range(1, len(phoneseq)):
+                if self.get(phoneseq[i_pos-1:i_pos+1], 1.0) > self.threshold:
+                    out.append(wordsep)
+                out.append(phoneseq[i_pos])
 
-            segmented_text.append(
-                line.rstrip() + '\t' + (' ' * self.multigraphemic).join(out))
-        return segmented_text
+            yield utils.strip((' ' * self.multigraphemic).join(out))
 
     def save(self, outstream):
         if self.multigraphemic:
@@ -235,6 +232,7 @@ def lexical(speech, lexicon=None, pwb=None, log=utils.null_logger()):
 # TODO fix this confusion between test/train texts, see if can
 # completly avoid train text... For now the train is used to
 # initialize diphones
+# TODO docstring
 def segment(text, pwb=None, train_text=None, diphones=None,
             log=utils.null_logger()):
     # force text to be a list (can be a generator or a stream)
