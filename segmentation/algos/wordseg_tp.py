@@ -50,6 +50,7 @@ def _threshold_relative(syls, tps):
         last = syl
         syl = _next
 
+    cwords[-1].append(syl[-1])
     return cwords
 
 
@@ -72,7 +73,7 @@ def _absolute_threshold(syls, tps):
     return cwords
 
 
-def segment(text, threshold='relative'):
+def segment(text, threshold='relative', log=utils.null_logger()):
     """Return a word-segmented version of an input `text`
 
     :param sequence(str) text: a sequence of lines with syllable (or
@@ -92,6 +93,8 @@ def segment(text, threshold='relative'):
         raise ValueError(
             "invalid threshold, must be 'relative' or 'absolute', it is '{}'"
             .format(threshold))
+
+    log.info('running TP with %s threshold', threshold)
 
     # join all the utterances together, seperated by ' UB '
     syls = [syl for syl in ' UB '.join(line.strip() for line in text).split()]
@@ -133,7 +136,7 @@ def main():
         add_arguments=add_arguments)
 
     # segment it and output the result
-    text = segment(streamin, threshold=args.threshold)
+    text = segment(streamin, threshold=args.threshold, log=log)
     streamout.write('\n'.join(text) + '\n')
 
 
