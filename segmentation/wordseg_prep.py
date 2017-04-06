@@ -61,7 +61,8 @@ def check_utterance(utt, separator):
 
     # search any punctuation in utterance (take care to remove token
     # separators first)
-    if punctuation_re.match(separator.remove(utt)):
+    clean_utt = separator.remove(utt)
+    if punctuation_re.sub('', clean_utt) != clean_utt:
         raise ValueError('punctuation found in utterance')
 
     # utterance begins with a separator

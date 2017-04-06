@@ -34,7 +34,9 @@ bad_utterances = [
         'ah ;esyll ah ;esyll',
         'ah ah ; eword',
         ';eword',
-        'a. ;eword']
+        'a. ;eword',
+        'a! ;eword',
+]
 
 
 @pytest.mark.parametrize('utt', bad_utterances)
