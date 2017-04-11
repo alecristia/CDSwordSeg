@@ -22,7 +22,7 @@ done
 
 max=`wc -l $input/*cutlines.txt | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
 
-for length in 2 100
+for length in 4 100
 do
   rm -r ${output}/$length/
   mkdir -p ${output}/$length/
