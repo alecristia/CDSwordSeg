@@ -26,6 +26,7 @@ path_ortho="/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/recipes/childes/data
 path_to_file_CDI= "/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/TypesAllSubsInCDI"
 nb_i_file='/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/CDI_NbInfantByAge.csv'
 fscore='/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/'
+
 path_input_syl="/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/recipes/childes/data/Brent/gold.txt"
 
 
@@ -33,8 +34,8 @@ path_input_syl="/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/recipes/childes/
 os.chdir('/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/')
 
 # *******  parameters *****
+ALGO=['tps','dibs','puddle_py','AGu']
 ALGOS=['TPs','dibs','puddle_py','AGu', 'gold']
-#SUBS=["sub0","sub1","sub2","sub3","sub4","sub5","sub6","sub7","sub8","sub9"]
 SUB=['full_corpus']
 SUBS=['sub0','sub1','sub2','sub3','sub4','sub5','sub6','sub7','sub8','sub9']
 lexical_classes=['nouns','function_words', 'adjectives', 'verbs', 'other']
@@ -47,6 +48,7 @@ freq_tokens_brent=translate.build_phono_to_ortho_representative(d)[1]
 
 
 #******* Analysis of Brent *******
+'''
 list_tokens=read.corpus_as_list(path_ortho)
 list_syl=read.corpus_as_list(path_res+'/full_corpus/TPs/syllableboundaries_marked.txt')
 list_ph=read.corpus_as_list(path_res+'/full_corpus/dibs/phoneme/input.txt')
@@ -99,7 +101,19 @@ inter_all_algo=analyze.intersection_all_algo(path_res, dic_corpus, sub=SUBS,algo
 
 #  ******* test robustness f-score *******
 
+<<<<<<< HEAD
+mean_score_dibs=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='dibs',text_file="/cfgold-res.txt")
+mean_score_TPs=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='TPs',text_file="/cfgold-res.txt")
+mean_score_AGu=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='AGu',text_file="/cfgold-res.txt")
+mean_score_puddle=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='puddle',text_file="/cfgold-res.txt")
+
+# ******** test the effect of missed word by algo 
+lin_missed=analyze.linear_algo_CDI_miss_(path_ortho,path_res, ['full_corpus'], ALGOS,'syllable',[13],"PropUndestandCDI.csv","/freq-words.txt", out='r2',evaluation="true_positive")
+'''  
+
+=======
 mean_score_dibs=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='dibs',unit='syllable', text_file="/cfgold-res.txt")
 mean_score_TPs=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='TPs',unit='syllable',text_file="/cfgold-res.txt")
 mean_score_AGu=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='AGu',unit='syllable',text_file="/cfgold-res.txt")
 mean_score_puddle=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='puddle',unit='syllable', text_file="/cfgold-res.txt")
+>>>>>>> 0e47de7e9220b7e6875c40c8242eb225b6090140

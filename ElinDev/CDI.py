@@ -9,25 +9,29 @@ Created on Wed Mar 15 16:51:04 2017
 #import libraries
 import os
 import pandas as pd
-from pandas import DataFrame
-import numpy as np
 
 os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/ElinDev')
 import read
 import visualize
-import pca_cdi_parameters
 
 # enter your current directory
-os.chdir('/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/')
+os.chdir('/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/CDI_data')
 
+# Proportion of infants understanding a word at different ages (8--18)
+prop_understand=pd.read_csv("PropUnderstandCDI.csv", sep='\t', header=0)
+P_8=pd.read_csv("Prop_understand_CDI_at_age_8.csv", sep='\t', header=0)
 
-prop_understand=pd.read_csv("CDI_data/PropUnderstandCDI.csv", sep='\t', header=0)
-P_8=pd.read_csv("CDI_data/Prop_understand_CDI_at_age_8.csv", sep='\t', header=0)
-
+#Proportion of infants producing a word at different ages (16--30)
+prop_produce=pd.read_csv("English_prop_produce.csv", sep=',', header=0)
+prop_produce=prop_produce[['age','lexical_class', 'uni_lemma', 'prop']]
+prop_produce.columns=['age','lexical_class', 'Type', 'prop']
+#if file does not exist
+prop_produce.to_csv('PropProduceCDI.csv',  sep='\t', index=False)
 
 #clean regular expression : to be done once and to be saved
-#prop_understand['words']=prop_understand['words'].str.replace('*', '') #take out regular expression
-#prop_understand.to_csv("PropUnderstandCDI.csv", sep='\t', index=False)
+prop_understand['words']=prop_understand['words'].str.replace('*', '') #take out regular expression
+# if file does not exist
+prop_understand.to_csv("PropUnderstandCDI.csv", sep='\t', index=False)
 
 df_CDI_13=read.read_CDI_data_by_age(CDI_file='CDI_data/PropUnderstandCDI.txt', age=13, save_file=False)
 
