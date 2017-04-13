@@ -22,7 +22,8 @@ sed 's/;esyll//g' $RESFOLDER/tags.txt |
     sed 's/  / /g' > $RESFOLDER/clean_test.txt
 
 # Actual algo running
-$DIBS $RESFOLDER/clean_train.txt $RESFOLDER/clean_test.txt \
+#$DIBS $RESFOLDER/clean_train.txt $RESFOLDER/clean_test.txt \
+$DIBS $RESFOLDER/clean_test.txt $RESFOLDER/clean_test.txt \. #!!! attention!!! now training is the whole test file — so this is the “baseline”!!!
       $RESFOLDER/dirty_output.txt $RESFOLDER/diphones_output.txt
 
 # Clean up the output file & store it in your desired location
