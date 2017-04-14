@@ -7,6 +7,7 @@
 
 #########VARIABLES
 #Variables to modify
+
 LANGUAGE=$1 #language options:  Japanese, Chintang 
 
 
