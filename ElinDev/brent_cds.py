@@ -48,7 +48,7 @@ freq_tokens_brent=translate.build_phono_to_ortho_representative(d)[1]
 
 
 #******* Analysis of Brent *******
-'''
+
 list_tokens=read.corpus_as_list(path_ortho)
 list_syl=read.corpus_as_list(path_res+'/full_corpus/TPs/syllableboundaries_marked.txt')
 list_ph=read.corpus_as_list(path_res+'/full_corpus/dibs/phoneme/input.txt')
@@ -101,19 +101,12 @@ inter_all_algo=analyze.intersection_all_algo(path_res, dic_corpus, sub=SUBS,algo
 
 #  ******* test robustness f-score *******
 
-<<<<<<< HEAD
-mean_score_dibs=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='dibs',text_file="/cfgold-res.txt")
-mean_score_TPs=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='TPs',text_file="/cfgold-res.txt")
-mean_score_AGu=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='AGu',text_file="/cfgold-res.txt")
-mean_score_puddle=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='puddle',text_file="/cfgold-res.txt")
+mean_score_dibs=robustness.search_f_score_file_by_algo(path_res, SUBS,'dibs',"", "/cfgold-res.txt")
+mean_score_TPs=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='TPs', "", text_file="/cfgold-res.txt")
+mean_score_AGu=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='AGu',"", text_file="/cfgold-res.txt")
+mean_score_puddle=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='puddle',"", text_file="/cfgold-res.txt")
 
 # ******** test the effect of missed word by algo 
 lin_missed=analyze.linear_algo_CDI_miss_(path_ortho,path_res, ['full_corpus'], ALGOS,'syllable',[13],"PropUndestandCDI.csv","/freq-words.txt", out='r2',evaluation="true_positive")
-'''  
+ 
 
-=======
-mean_score_dibs=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='dibs',unit='syllable', text_file="/cfgold-res.txt")
-mean_score_TPs=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='TPs',unit='syllable',text_file="/cfgold-res.txt")
-mean_score_AGu=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='AGu',unit='syllable',text_file="/cfgold-res.txt")
-mean_score_puddle=robustness.search_f_score_file_by_algo(path_res, subs=SUBS,algo='puddle',unit='syllable', text_file="/cfgold-res.txt")
->>>>>>> 0e47de7e9220b7e6875c40c8242eb225b6090140
