@@ -1,4 +1,6 @@
+recipes/*/erase*
 recipes/*/core.*
+recipes/*/.*
 recipes/*/*.tmp
 results*
 MechelexTask1_goalsFromGrant.rtf
