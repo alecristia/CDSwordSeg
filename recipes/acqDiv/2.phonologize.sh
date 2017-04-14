@@ -7,7 +7,7 @@
 
 #########VARIABLES
 #Variables to modify
-LANGUAGE=$1 #language options:  cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
+LANGUAGE=$1 #language options:  Japanese, Chintang 
 
 
 PATH_TO_SCRIPTS=$2
@@ -25,7 +25,7 @@ for ORTHO in ${RES_FOLDER}/*clean_corpus.txt; do
 	KEYNAME=$(basename "$ORTHO" .txt)
 
 	#########
-	if [ "$LANGUAGE" = "japanese" ]
+	if [ "$LANGUAGE" = "Japanese" ]
 	   then
 	  echo "recognized $LANGUAGE"
 tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
@@ -63,7 +63,7 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
 	  perl $PATH_TO_SCRIPTS/syllabify-corpus.pl japanese intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
 
 
-	elif [ "$LANGUAGE" = "chintang" ]
+	elif [ "$LANGUAGE" = "Chintang" ]
 		 then
 		echo "recognized $LANGUAGE"
 	tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
