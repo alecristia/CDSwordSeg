@@ -17,22 +17,83 @@
 """Setup script for the wordseg package"""
 
 import os
+import shutil
+import site
+import subprocess
+import sys
+
 from setuptools import setup, find_packages
+from setuptools.command.install import install
+from pkg_resources import resource_filename
 
 
+PACKAGE_NAME = 'wordseg'
 VERSION = '0.2'
+
 
 # On Reads The Docs we don't install any package (for online
 # documentation)
-ON_RTD = os.environ.get('READTHEDOCS', None) == 'True'
-REQUIREMENTS = [] if ON_RTD else [
+REQUIREMENTS = [] if os.environ.get('READTHEDOCS', None) else [
     'joblib',
     'pandas',
     'phonemizer>=0.3'
 ]
 
+
+# from https://stackoverflow.com/questions/36187264
+def binaries_directory():
+    """Return the installation directory, or None"""
+    if '--user' in sys.argv:
+        paths = (site.getusersitepackages(),)
+    else:
+        py_version = '%s.%s' % (sys.version_info[0], sys.version_info[1])
+        paths = (s % (py_version) for s in (
+            sys.prefix + '/lib/python%s/dist-packages/',
+            sys.prefix + '/lib/python%s/site-packages/',
+            sys.prefix + '/local/lib/python%s/dist-packages/',
+            sys.prefix + '/local/lib/python%s/site-packages/',
+            '/Library/Python/%s/site-packages/',
+        ))
+
+    for path in paths:
+        if os.path.exists(path):
+            return path
+
+    sys.stderr.write('no installation path found\n')
+    return None
+
+
+class CustomInstall(install):
+    """Custom handler for the 'install' command
+
+    * compile the C/C++ binaries of the wordseg package,
+    * install the Python part
+    * install the compiled binaries to the package install directory
+
+    """
+    def run(self):
+        targets = ['wordseg-dmcmc']
+
+        # compile all the C/C++ targets (just calling 'make' in their directory)
+        for target in targets:
+            path = os.path.join('.', 'segmentation', 'algos', target.replace('-', '_'))
+            subprocess.check_call('make', cwd=path)
+
+        # install the Python package in a regular way
+        super().run()
+
+        # install the compiled binaries
+        for target in targets:
+            path = os.path.join(sys.prefix, 'bin')
+            self.execute(
+                shutil.move, args=[os.path.join(
+                    '.', 'segmentation', 'algos', target.replace('-', '_'),
+                    'build', target), path],
+                msg='Installing {} binary to {}'.format(target, path))
+
+
 setup(
-    name='wordseg',
+    name=PACKAGE_NAME,
     version=VERSION,
     packages=find_packages(),
     zip_safe=True,
@@ -60,6 +121,8 @@ setup(
         'wordseg-puddle = segmentation.algos.wordseg_puddle:main',
         ]
         },
+
+    cmdclass={'install': CustomInstall},
 
     # metadata for upload to PyPI
     author='Alex Cristia',
