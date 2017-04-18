@@ -27,13 +27,13 @@ ACQDIV_FOLDER=$3
 #    fi
 #done
 
-for THISGOLD in $ACQDIV_FOLDER/processed/$LANGUAGE-gold.txt; do
+for THISGOLD in $ACQDIV_FOLDER/processed/$LANGUAGE/$LANGUAGE*-gold.txt; do
 THISTAG="${THISGOLD/gold/tags}"
 echo "$THISGOLD"
 echo "$THISTAG"
 
 	
-        $PIPELINE --goldfile ${THISFILE} \
+        $PIPELINE --goldfile ${THISGOLD} \
                   --output-dir ${ACQDIV_FOLDER}/results/${LANGUAGE} \
                   --algorithms  dibs \
 #                  --ag-median 5 \

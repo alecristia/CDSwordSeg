@@ -15,3 +15,4 @@ echo "done phonologisation and syllabification of corpora"
 
 
 echo "done segmentation for chintang and japanese"
+done
