@@ -154,27 +154,30 @@ def plot_by_lexical_classes(path_res, sub, algos,unit, ages, lexical_classes, sa
     elif out=='std_err': 
         return(Err)
     
-    
 
-def plot_algo_gold_lc(path_res, sub, algos, gold, unit, out='r2', CDI_file="PropUnderstandCDI.csv", lexical_classes=['nouns','function_words', 'adjectives', 'verbs'],freq_file="/freq-words.txt", name_vis="plot"):  
+def plot_algo_gold_lc(path_res, sub, algos, df_gold, unit, out='r2', CDI_file="PropUnderstandCDI.csv", group_by="lexical_class", lexical_classes=['nouns','function_words', 'adjectives', 'verbs'],freq_file="/freq-words.txt", name_vis="plot"):  
     data=[]
     df_r_2=pd.DataFrame(0, columns=lexical_classes, index=algos)
     df_std_err=pd.DataFrame(0, columns=lexical_classes, index=algos)
-    df_gold=read.create_df_freq_by_algo_all_sub(path_res, sub, gold,unit, freq_file) 
-    df_gold=df_gold.loc[lambda d_gold: d_gold.Freqgold > 1, :] # get rid of low frequency type : good probability for mistake : @wp
+    #df_gold=read.create_df_freq_by_algo_all_sub(path_res, sub, gold,unit, freq_file) 
+    #df_gold=df_gold.loc[lambda d_gold: d_gold.Freqgold > 1, :] # get rid of low frequency type : good probability for mistake : @wp
 
     for algo in algos:
-        df_CDI=read.read_CDI_data_by_age(CDI_file, age=8, save_file=False) #age does not matte here
         df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
-        df=pd.merge(df_gold, df_algo, on=['Type'], how='inner')
-        df_data=pd.merge(df_CDI, df, on=['Type'], how='inner')
-        df_data=df_data[['lexical_classes','Type','Freqgold', 'Freq'+algo]]
+        df_data=pd.merge(df_gold, df_algo, on=['Type'], how='inner')
+        print
+        
+        if CDI_file is not "" : 
+            df_CDI=read.read_CDI_data_by_age(CDI_file, age=8, save_file=False) #age does not matte here
+            df_data=pd.merge(df_CDI, df_data, on=['Type'], how='inner')
+            df_data=df_data[['lexical_classes','Type','Freqgold', 'Freq'+algo]]
+            
         for lc in lexical_classes:
-            gb_lc=df_data.groupby('lexical_classes').get_group(lc)
-            #x=np.log(gb_lc['Freqgold'])
-            #y=np.log(gb_lc['Freq'+algo])
-            x=gb_lc['Freqgold']
-            y=gb_lc['Freq'+algo]
+            gb_lc=df_data.groupby(group_by).get_group(lc)
+            x=np.log(gb_lc['Freqgold'])
+            y=np.log(gb_lc['Freq'+algo])
+            #x=gb_lc['Freqgold']
+            #y=gb_lc['Freq'+algo]
             trace=go.Scatter(
                 x=x,
                 y=y,
@@ -207,14 +210,14 @@ def plot_algo_gold_lc(path_res, sub, algos, gold, unit, out='r2', CDI_file="Prop
     hovermode= 'closest',
     xaxis= dict(
         title= 'Occurence of words in gold',
-        type='log',
+        #type='log',
         ticklen= 5,
         zeroline= False,
         gridwidth= 2,),
     yaxis=dict(
         domain=[0, 1],
         title= 'Occurence of words in algos',
-        type='log',
+        #type='log',
         ticklen= 5,
         gridwidth= 2,))   
     fig=go.Figure(data=data, layout=layout)
