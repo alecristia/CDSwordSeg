@@ -56,4 +56,4 @@ results_cds_childes.txt
 .cache/*
 doc/build/*
 .eggs/*
-/segmentation/algos/wordseg_dmcmc/bin/dpseg
+/segmentation/algos/wordseg_dmcmc/build/*

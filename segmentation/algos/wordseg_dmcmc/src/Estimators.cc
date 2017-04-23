@@ -4,13 +4,13 @@
 using namespace std;
 
 ModelBase::ModelBase(Data* constants):
-  _constants(constants), 
+  _constants(constants),
   _sentences(_constants->get_sentences()),
   _eval_sentences(_constants->get_eval_sentences()),
   _nsentences_seen(_constants->nsentences()) {}
 
 //returns the log probability of the current unigram configuration
-F 
+F
 ModelBase::log_posterior(const Unigrams& lex) const {
   F lp1 = lex.base_dist().logprob(); //Word Probs
   if (debug_level >= 110000) TRACE(lp1);
@@ -26,7 +26,7 @@ ModelBase::log_posterior(const Unigrams& lex) const {
 }
 
 //returns the log probability of the current bigram configuration
-F 
+F
 ModelBase::log_posterior(const Unigrams& ulex, const Bigrams& lex) const {
   F lp1 = ulex.base_dist().logprob(); // word probabilities
   if (debug_level >= 110000) TRACE(lp1);
@@ -42,14 +42,14 @@ ModelBase::log_posterior(const Unigrams& ulex, const Bigrams& lex) const {
   return lp1 + lp2 + lp3;
 }
 
-void 
+void
 ModelBase::resample_pyb(Unigrams& lex) {
   U niterations = 20;   //!< number of resampling iterations
   resample_pyb_type pyb_logP(lex, _constants->pyb_gamma_c, _constants->pyb_gamma_s);
   lex.pyb() = slice_sampler1d(pyb_logP, lex.pyb(), unif01, 0.0, std::numeric_limits<F>::infinity(), 0.0, niterations, 100*niterations);
 }  // pcfg_type::resample_pyb()
 
-void 
+void
 ModelBase::resample_pya(Unigrams& lex) {
   U niterations = 20;   //!< number of resampling iterations
   resample_pya_type pya_logP(lex, _constants->pya_beta_a, _constants->pya_beta_b);
@@ -176,30 +176,33 @@ Model::run_eval(wostream& os, F temp, bool maximize) {
   assert(sanity_check());
 }
 
-void
-UnigramModel::print_statistics(wostream& os, U iter, F temp, bool header) {
-  if (header) {
-    os << "#Iter"
-       << sep << "Temp"
-       << sep << "-logP"
-       << sep << "a1" << sep << "b1" << sep << "Pstop"
-       << std::endl;
-  }
-  os << iter << sep << temp << sep << -log_posterior() << sep 
-     << _lex.pya() << sep << _lex.pyb() << sep << _lex.base_dist().p_stop() 
-     << " ";
-    //<<endl;
-  print_scores(os);
+void UnigramModel::print_statistics(wostream& os, U iter, F temp, bool header)
+{
+    if (header)
+    {
+        os << "#Iter"
+           << sep << "Temp"
+           << sep << "-logP"
+           << sep << "a1" << sep << "b1" << sep << "Pstop"
+           << std::endl;
+    }
+
+    os << iter << sep << temp << sep << -log_posterior() << sep
+       << _lex.pya() << sep << _lex.pyb() << sep << _lex.base_dist().p_stop()
+       << " ";
+    // <<endl;
+
+    print_scores(os);
 }
 
-void
-UnigramModel::estimate_eval_sentence(Sentence& s, F temperature, bool maximize) {
-  if (maximize) {
-    s.maximize(_lex, _constants->nsentences()-1, temperature, _constants->do_mbdp);
-  }
-  else {
-    s.sample_tree(_lex, _constants->nsentences()-1, temperature, _constants->do_mbdp);
-  }
+void UnigramModel::estimate_eval_sentence(Sentence& s, F temperature, bool maximize)
+{
+    if (maximize)
+        s.maximize(
+            _lex, _constants->nsentences()-1, temperature, _constants->do_mbdp);
+    else
+        s.sample_tree(
+            _lex, _constants->nsentences()-1, temperature, _constants->do_mbdp);
 }
 
 void
@@ -215,7 +218,7 @@ BigramModel::print_statistics(wostream& os, U iter, F temp, bool header) {
   }
   os << iter << sep << temp << sep << -log_posterior() << sep
      << _ulex.pya() << sep << _ulex.pyb() << sep << _ulex.base_dist().p_stop() << sep
-     << _lex.pya() << sep << _lex.pyb() 
+     << _lex.pya() << sep << _lex.pyb()
      << " ";
   //<< endl;
   print_scores(os);
@@ -231,7 +234,7 @@ BigramModel::estimate_eval_sentence(Sentence& s, F temperature, bool maximize) {
   }
 }
 
-BatchUnigram::BatchUnigram(Data* constants): 
+BatchUnigram::BatchUnigram(Data* constants):
   UnigramModel(constants) {
   cforeach(Sentences, iter, _sentences) {
     if (debug_level >= 10000) iter->print(wcerr);
@@ -332,7 +335,7 @@ DecayedMCMC::decayed_initialization(Sentences _sentences){
 		wcout << "total potential boundaries in training corpus " << _num_total_pot_boundaries << endl;
 	}
 	// initialize _boundaries_num_sampled to be this size
-	_boundaries_num_sampled.resize(_num_total_pot_boundaries+1);	
+	_boundaries_num_sampled.resize(_num_total_pot_boundaries+1);
 	// create decay probabilities
 	// uses _decay_rate and _num_total_pot_potboundaries
 	// to create binned probability distribution that will be used to find potential boundaries
@@ -344,7 +347,7 @@ DecayedMCMC::decayed_initialization(Sentences _sentences){
 		_decay_offset_probs[index] = pow((index+1), (-1)*_decay_rate);
 		if(debug_level >= 10000) {
 			wcout << "_decay_offset_probs[" << index << "] is " << _decay_offset_probs[index] << endl;
-		}	
+		}
 	}
 	//initialize cumulative decay probability to 0
 	_cum_decay_prob = 0.0;
@@ -378,7 +381,7 @@ OnlineUnigram::estimate(U iters, wostream& os, U eval_iters,
 			print_eval_scores(wcout);
 		}
 	}
-	
+
     foreach(Sentences, iter, _sentences) {
       if (debug_level >= 10000) iter->print(wcerr);
 	  if(!is_decayed){
@@ -390,7 +393,7 @@ OnlineUnigram::estimate(U iters, wostream& os, U eval_iters,
 		// run evaluation over test set
 		run_eval(os,temp,maximize);
 		print_eval_scores(wcout);
-	  }	
+	  }
 	  // add current sentence to _sentences_seen
 	  _sentences_seen.push_back(*iter);
       estimate_sentence(*iter, temperature);
@@ -461,7 +464,7 @@ OnlineUnigram::forget_items(Sentences::iterator iter) {
 
 
 void
-DecayedMCMC::calc_new_cum_prob(Sentence& s, U num_boundaries){	
+DecayedMCMC::calc_new_cum_prob(Sentence& s, U num_boundaries){
 	for(U index = (_num_curr_pot_boundaries - num_boundaries); index < _num_curr_pot_boundaries; index++){
 			_cum_decay_prob = _cum_decay_prob + _decay_offset_probs[index];
 			if(debug_level >= 10000) wcout << "New _cum_decay_prob, adding offset " << _decay_offset_probs[index] <<
@@ -483,10 +486,10 @@ DecayedMCMC::find_boundary_to_sample(){
 	// of the new boundary offsets.  For example, if utterance 1 has 6 boundaries and utterance 2 has 7 boundaries
 	// and we're on utterance 2, the previous tot_decay_prob = sum(decay_offset_probs(0..5)); we now want
 	// to add the 7 new ones so the new tot_decay_prob = tot_decay_prob + sum(decay_offset_probs(6..12)).  This allows
-	// us to not have to keep re-summing decay probs we've already seen. <--- This should be done on an utterance by utterance basis.	
+	// us to not have to keep re-summing decay probs we've already seen. <--- This should be done on an utterance by utterance basis.
 	// (2) Generate a random number that = rand (between 0.0 and 1.0) * tot_decay_prob.  This will determine which
-	// "bin" (offset) should be selected. 
-	// (3) To decide which bin, start summing from decay_offset_probs(0).  For each i (starting from 0 and going until 
+	// "bin" (offset) should be selected.
+	// (3) To decide which bin, start summing from decay_offset_probs(0).  For each i (starting from 0 and going until
 	// i = _npotboundaries - 1), compare sum(decay_offset_probs(0..i)) and sum(decay_offset_probs(0..i+1)).  If
 	// sum(decay_offset_probs(0..i)) <= random number < sum(decay_offset_probs(0..i+1)), then the correct offset is
 	// i = 1.  For example, suppose the random number chosen is 1.2, with decay rate 2.
@@ -510,15 +513,15 @@ DecayedMCMC::find_boundary_to_sample(){
 			found_bin = true;
 			to_sample = _num_curr_pot_boundaries - index;
 			if(debug_level >= 10000) wcout << "found bin: belongs in offset " << index << ", so boundary to sample is " << to_sample << endl;
-		}	
-		curr_cum_sum += _decay_offset_probs[index];	
-		index++;			
+		}
+		curr_cum_sum += _decay_offset_probs[index];
+		index++;
 	}
 	if(!found_bin){
 		// belongs in the furthest offset away, at the very beginning of the corpus
 		to_sample = 0;
 		if(debug_level >= 1000) wcout << "***Didn't find bin: sampling boundary 0" << endl;
-	}	
+	}
 	return to_sample;
 }
 
@@ -532,14 +535,14 @@ DecayedMCMC::find_sent_to_sample(U boundary_to_sample, Sentence &s, Sentences& s
 	U num_boundaries = _num_curr_pot_boundaries;; 	// current number boundaries, start with _num_curr_pot_boundaries;
 	U this_sent_boundaries;
 	Us possible_boundaries;
-	bool sent_found = false; 
+	bool sent_found = false;
 	// to access boundary x, search from back (most current) to find utterance (most likely due to decay function)
 	while(!sent_found){
 		// see if is in current utterance
 		// ex: to find x = 7, when there are 8 pot boundaries, and sentence has boundaries 4 through 8
 		// grab most recent utterance and count how many potential boundaries are there (ex: 5 (4, 5, 6, 7, 8))
-		// Is 7 > (8-5)?  Yes. Search this utterance. Which one?  7- (8-5) = 4th one. 
-	
+		// Is 7 > (8-5)?  Yes. Search this utterance. Which one?  7- (8-5) = 4th one.
+
 		this_sent_boundaries = 0;
 
 		possible_boundaries = s.get_possible_boundaries();
@@ -560,7 +563,7 @@ DecayedMCMC::find_sent_to_sample(U boundary_to_sample, Sentence &s, Sentences& s
 										<< " yet, moving on to previous sentence " << endl;
 			if(si != sentences_seen.begin()){
 				si--;
-				s = *si;			
+				s = *si;
 				num_boundaries -= this_sent_boundaries;
 				if(debug_level >= 10000) wcout << "Now num_boundaries is " << num_boundaries << endl;
 			}else{
@@ -568,7 +571,7 @@ DecayedMCMC::find_sent_to_sample(U boundary_to_sample, Sentence &s, Sentences& s
 				sent_found = true;
 				_sentence_sampled = si;
 			}
-		} 
+		}
 	}
 }
 
@@ -597,18 +600,18 @@ OnlineUnigramDecayedMCMC::estimate_sentence(Sentence& s, F temperature) {
 	if(debug_level >= 10000){wcout << "Number of boundaries in this utterance: " << num_boundaries << endl;}
 	_num_curr_pot_boundaries += num_boundaries;
 	if(debug_level >= 10000){wcout << "Number of boundaries total: " << _num_curr_pot_boundaries << endl;}
-	
+
 	// add current words in sentence to lexicon
 	s.insert_words(_lex);
-	
+
 	for(U num_samples = 0; num_samples < _samples_per_utt; num_samples++){
 		if(num_samples == 0){ // only do this the first time
 			calc_new_cum_prob(s, num_boundaries);
 		}
 		// find boundary to sample
-		U boundary_to_sample = find_boundary_to_sample();	
+		U boundary_to_sample = find_boundary_to_sample();
 		if(debug_level >= 10000) wcout << "Boundary to sample is " << boundary_to_sample << endl;
-								
+
 		// to keep track of which boundaries have been sampled, use boundary_samples
 		_boundaries_num_sampled[boundary_to_sample]++;
 		if(debug_level >= 10000) wcout << "Updated _boundaries_num_sampled[" << boundary_to_sample << "] to be "
@@ -617,17 +620,17 @@ OnlineUnigramDecayedMCMC::estimate_sentence(Sentence& s, F temperature) {
 		// dummy utterance to be filled by actual utterance - most often will be curr_utt, though
 		Sentence sent_to_sample = s;
 		find_sent_to_sample(boundary_to_sample, sent_to_sample, _sentences_seen);
-		
+
 		// sample _boundary_within_sentence within sent_to_sample
 		// use modified form of sample_by_flips
 		if(debug_level >= 10000) wcout << "Sampling this sentence: " << sent_to_sample << " and this boundary " << _boundary_within_sentence << endl;
 		// +1 for boundary to account for beginning and end of sentence in lex
-		sent_to_sample.sample_one_flip(_lex, temperature, _boundary_within_sentence+1); 
+		sent_to_sample.sample_one_flip(_lex, temperature, _boundary_within_sentence+1);
 		if(debug_level >=10000) wcout << "After sampling this sentence: " << sent_to_sample << endl;
 
 		// need to insert updated sentence into _sentences
 		replace_sampled_sentence(sent_to_sample, _sentences_seen);
-		
+
 		// check that replacement was correct
 		if(debug_level >= 10000){
 			wcout << "After replacement: " << endl;
@@ -652,7 +655,7 @@ OnlineUnigramTreeSampler::estimate_sentence(Sentence& s, F temperature) {
   s.insert_words(_lex);
 }
 
-BatchBigram::BatchBigram(Data* constants): 
+BatchBigram::BatchBigram(Data* constants):
   BigramModel(constants) {
   cforeach(Sentences, iter, _sentences) {
     if (debug_level >= 10000) iter->print(wcerr);
@@ -771,7 +774,7 @@ OnlineBigram::estimate(U iters, wostream& os, U eval_iters,
       print_statistics(os, i, temperature);
     }
     assert(sanity_check());
-  }	
+  }
 }
 
 void
@@ -809,17 +812,17 @@ OnlineBigramDecayedMCMC::estimate_sentence(Sentence& s, F temperature) {
 		num_boundaries++;
 	}
 	_num_curr_pot_boundaries += num_boundaries;
-	
+
 	// add current words in sentence to lexicon
 	s.insert_words(_lex);
-	
+
 	for(U num_samples = 0; num_samples < _samples_per_utt; num_samples++){
 		if(num_samples == 0){ // only do this the first time
 			calc_new_cum_prob(s, num_boundaries);
 		}
 		// find boundary to sample
-		U boundary_to_sample = find_boundary_to_sample();	
-										
+		U boundary_to_sample = find_boundary_to_sample();
+
 		// to keep track of which boundaries have been sampled, use boundary_samples
 		_boundaries_num_sampled[boundary_to_sample]++;
 
@@ -827,12 +830,12 @@ OnlineBigramDecayedMCMC::estimate_sentence(Sentence& s, F temperature) {
 		// dummy utterance to be filled by actual utterance - most often will be curr_utt, though
 		Sentence sent_to_sample = s;
 		find_sent_to_sample(boundary_to_sample, sent_to_sample, _sentences_seen);
-		
+
 		// sample _boundary_within_sentence within sent_to_sample
 		// use modified form of sample_by_flips
 
 		// +1 for boundary to account for beginning and end of sentence in lex
-		sent_to_sample.sample_one_flip(_lex, temperature, _boundary_within_sentence+1); 
+		sent_to_sample.sample_one_flip(_lex, temperature, _boundary_within_sentence+1);
 
 		// need to insert updated sentence into _sentences
 		replace_sampled_sentence(sent_to_sample, _sentences_seen);

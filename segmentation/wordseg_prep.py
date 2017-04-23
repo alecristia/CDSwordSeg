@@ -66,8 +66,8 @@ def check_utterance(utt, separator):
         raise ValueError('punctuation found in utterance')
 
     # utterance begins with a separator
-    for sep in (separator.iterate()):
-        if re.match('^{}'.format(re.escape(sep)), utt):
+    for sep in separator.iterate():
+        if sep and re.match('^{}'.format(re.escape(sep)), utt):
             raise ValueError(
                 'utterance begins with the separator "{}"'.format(sep))
 
@@ -113,7 +113,8 @@ def prepare_text(text, separator, unit='phoneme'):
                        .replace(' ', '')\
                        .replace(separator.syllable, ' ')
 
-    return (utils.strip(func(line)) for line in text)
+    return (utils.strip(func(line)) for line in text
+            if check_utterance(line.strip(), separator))
 
 
 @utils.CatchExceptions
@@ -124,22 +125,19 @@ def main():
         parser.add_argument(
             '-u', '--unit', type=str,
             choices=['phoneme', 'syllable'], default='phoneme', help='''
-            Output level representation, must be 'phoneme' or 'syllable'.''')
+            output level representation, must be "phoneme" or "syllable"''')
 
     # command initialization
     streamin, streamout, separator, log, args = utils.prepare_main(
         name='wordseg-gold',
         description=__doc__,
-        separator=utils.Separator(False, ';esyll', ';eword'),
+        separator=utils.Separator(' ', ';esyll', ';eword'),
         add_arguments=add_arguments)
 
     # check all the utterances are correctly formatted. One the first
     # error detected, this raises a ValueError exception catched in
     # the CatchException class: display an error message and exit
-    text = (check_utterance(utils.strip(utt)) for utt in streamin)
-
-    # prepare the input text for word segmentation
-    prep = prepare_text(text, separator, unit=args.unit)
+    prep = prepare_text(streamin, separator, unit=args.unit)
 
     # write prepared text, one utterance a line, ending with a newline
     streamout.write('\n'.join(prep) + '\n')

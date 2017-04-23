@@ -36,7 +36,7 @@ your personal computer (and you do not want to contribute to the code).
 Install the wordseg package (this will usually install the wordseg tools
 in ``/usr/bin``)::
 
-    sudo python setup.py install
+  sudo python setup.py install
 
 
 Installation in a virtual environment
@@ -44,11 +44,11 @@ Installation in a virtual environment
 
 * Create a new Python 3 virtual environment and install the required dependencies::
 
-    conda create --name wordseg python=3 pytest pytest-runner joblib pandas sphinx sphinx_rtd_theme
+  conda create --name wordseg python=3 pytest pytest-runner sphinx sphinx_rtd_theme boost joblib numpy pandas
 
 * Activate your virtual environment::
 
-    source activate wordseg
+  source activate wordseg
 
 * Install the wordseg package (this will install the commandline tools
   in your $HOME and make them callable from the terminal). If you do
@@ -58,7 +58,7 @@ Installation in a virtual environment
 
   Or if you want to edit the code::
 
-     python setup;py develop
+     python setup.py develop
 
 
 * Then have a check, for exemple have a look to the TP segmentation algorithm::

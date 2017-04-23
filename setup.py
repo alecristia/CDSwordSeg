@@ -23,111 +23,66 @@ import subprocess
 import sys
 
 from setuptools import setup, find_packages
-from setuptools.command.install import install
-from pkg_resources import resource_filename
 
 
 PACKAGE_NAME = 'wordseg'
-VERSION = '0.2'
+PACKAGE_VERSION = '0.2'
 
 
 # On Reads The Docs we don't install any package (for online
 # documentation)
 REQUIREMENTS = [] if os.environ.get('READTHEDOCS', None) else [
     'joblib',
+    'numpy',
     'pandas',
     'phonemizer>=0.3'
 ]
 
-
-# from https://stackoverflow.com/questions/36187264
-def binaries_directory():
-    """Return the installation directory, or None"""
-    if '--user' in sys.argv:
-        paths = (site.getusersitepackages(),)
-    else:
-        py_version = '%s.%s' % (sys.version_info[0], sys.version_info[1])
-        paths = (s % (py_version) for s in (
-            sys.prefix + '/lib/python%s/dist-packages/',
-            sys.prefix + '/lib/python%s/site-packages/',
-            sys.prefix + '/local/lib/python%s/dist-packages/',
-            sys.prefix + '/local/lib/python%s/site-packages/',
-            '/Library/Python/%s/site-packages/',
-        ))
-
-    for path in paths:
-        if os.path.exists(path):
-            return path
-
-    sys.stderr.write('no installation path found\n')
-    return None
+# a dict of wordseg scripts mapped to the C++ binary they are
+# calling. We must have './segmentation/algos/wordseg_dmcmc/Makefile'
+# that produces './segmentation/algos/wordseg_dmcmc/build/dpseg'
+CPP_TARGETS = {'wordseg_dmcmc': 'dpseg'}
 
 
-class CustomInstall(install):
-    """Custom handler for the 'install' command
+for cwd in CPP_TARGETS.keys():
+    build_dir = os.path.join('segmentation', 'algos', cwd, 'build')
+    print('compiling C++ dependencies for', cwd, 'in', build_dir)
 
-    * compile the C/C++ binaries of the wordseg package,
-    * install the Python part
-    * install the compiled binaries to the package install directory
+    if not os.path.exists(build_dir):
+        os.makedirs(build_dir)
 
-    """
-    def run(self):
-        targets = ['wordseg-dmcmc']
-
-        # compile all the C/C++ targets (just calling 'make' in their directory)
-        for target in targets:
-            path = os.path.join('.', 'segmentation', 'algos', target.replace('-', '_'))
-            subprocess.check_call('make', cwd=path)
-
-        # install the Python package in a regular way
-        super().run()
-
-        # install the compiled binaries
-        for target in targets:
-            path = os.path.join(sys.prefix, 'bin')
-            self.execute(
-                shutil.move, args=[os.path.join(
-                    '.', 'segmentation', 'algos', target.replace('-', '_'),
-                    'build', target), path],
-                msg='Installing {} binary to {}'.format(target, path))
+    subprocess.call(['make'], cwd=os.path.join('segmentation', 'algos', cwd))
 
 
 setup(
     name=PACKAGE_NAME,
-    version=VERSION,
+    version=PACKAGE_VERSION,
+    description='word segmentation from phonological-like text transcriptions',
+    long_description=open('README.md').read(),
+    author='Alex Cristia',
+    url='https://github.com/alecrisita/CDSWordSeg',
+    license='GPL3',
+
     packages=find_packages(),
     zip_safe=True,
-
+    install_requires=REQUIREMENTS,
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
 
-    # install some dependencies directly from github
     dependency_links=[
-        'https://github.com/bootphon/phonemizer/tarball/master'
-        '#egg=phonemizer-0.3'
+        'https://github.com/bootphon/phonemizer/tarball/master#egg=phonemizer-0.3'
     ],
 
-    # python package dependancies
-    install_requires=REQUIREMENTS,
-
-    # define the command-line script to use
     entry_points={'console_scripts': [
         'wordseg-launcher = segmentation.wordseg_launcher:main',
         'wordseg-prep = segmentation.wordseg_prep:main',
         'wordseg-gold = segmentation.wordseg_gold:main',
         'wordseg-eval = segmentation.wordseg_eval:main',
         'wordseg-dibs = segmentation.algos.wordseg_dibs:main',
+        'wordseg-dmcmc = segmentation.algos.wordseg_dmcmc:main',
         'wordseg-tp = segmentation.algos.wordseg_tp:main',
         'wordseg-puddle = segmentation.algos.wordseg_puddle:main',
-        ]
-        },
+        ]},
 
-    cmdclass={'install': CustomInstall},
-
-    # metadata for upload to PyPI
-    author='Alex Cristia',
-    description='word segmentation from phonological-like text transcriptions',
-    license='GPL3',
-    url='https://github.com/alecrisita/CDSWordSeg',
-    long_description=open('README.md').read()
+    data_files=[('bin', ['segmentation/algos/wordseg_dmcmc/build/dpseg'])],
 )

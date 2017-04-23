@@ -13,7 +13,6 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-# TODO stimseg do not compile for now
 
 # output directory with object code and binaries
 BUILDDIR = ./build
@@ -24,29 +23,27 @@ INCDIR	= ./include
 
 # C++ compiler to use and option passed during compilation and link
 CXX	= g++
-CFLAGS	= -Wall -Wno-deprecated -O3 -I$(INCDIR)
-LFLAGS	= -Wall -O3 -lboost_program_options
+CFLAGS	= -Wall -Wno-deprecated -O3 -std=c++11 -I$(INCDIR)
+LFLAGS	= -Wall -O3 -std=c++11 -lboost_program_options
 
 # source files must be *.cc files in $(SRCDIR)
 SOURCES	= Data Estimators Scoring Sentence gammadist mt19937ar
 OBJECTS	= $(SOURCES:%=$(BUILDDIR)/%.o)
 
+
 .PHONY: all clean
 
-# main executables to compile
-all: build wordseg-dmcmc  # stimseg
+all: dpseg # stimseg
 
 clean:
-	rm -rf $(BUILDDIR)
-
-build:
-	mkdir -p $(BUILDDIR)
+	rm -f $(BUILDDIR)/*.o $(BUILDDIR)/dpseg $(BUILDDIR)/stimseg
 
 $(BUILDDIR)/%.o: $(SRCDIR)/%.cc
 	$(CXX) $(CFLAGS) -o $@ -c $?
 
-wordseg-dmcmc: $(OBJECTS) $(BUILDDIR)/wordseg-dmcmc.o
+dpseg: $(OBJECTS) $(BUILDDIR)/dpseg.o
 	$(CXX) $(LFLAGS) -o $(BUILDDIR)/$@ $^
 
+# TODO stimseg do not compile for now
 # stimseg: $(OBJECTS) $(BUILDDIR)/stimseg.o
 # 	$(CXX) $(LFLAGS) -o $(BUILDDIR)/$@ $^

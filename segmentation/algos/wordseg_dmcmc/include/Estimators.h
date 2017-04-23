@@ -7,137 +7,173 @@
 #include "slice-sampler.h"
 #include "Scoring.h"
 
+extern std::wstring sep;  //!< separator used to separate fields during printing of results
+
 using namespace std;
 
 class ModelBase {
 public:
-  ModelBase(Data*);
-  virtual ~ModelBase() {}
-  virtual bool sanity_check() const = 0;
-  virtual F log_posterior() const = 0;
-  virtual void estimate(U iters, std::wostream& os, U eval_iters = 0,
-						F temperature = 1, bool maximize = false, bool is_decayed = false) = 0;
-  virtual void run_eval(std::wostream& os, F temperature = 1, bool maximize = false) = 0;
-  virtual Fs predict_pairs(const TestPairs& test_pairs) const = 0;
-  virtual void print_segmented(std::wostream& os) const = 0;
-  virtual void print_lexicon(std::wostream& os) const = 0;
-  virtual void print_scores(std::wostream& os) = 0;
+    ModelBase(Data*);
+    virtual ~ModelBase() {}
+    virtual bool sanity_check() const = 0;
+    virtual F log_posterior() const = 0;
+    virtual void estimate(
+        U iters, std::wostream& os, U eval_iters = 0,
+        F temperature = 1, bool maximize = false, bool is_decayed = false) = 0;
+    virtual void run_eval(std::wostream& os, F temperature = 1, bool maximize = false) = 0;
+    virtual Fs predict_pairs(const TestPairs& test_pairs) const = 0;
+    virtual void print_segmented(std::wostream& os) const = 0;
+    virtual void print_lexicon(std::wostream& os) const = 0;
+    virtual void print_scores(std::wostream& os) = 0;
+
 protected:
-  Data* _constants;
-  Sentences _sentences;
-  Sentences _eval_sentences;
-  U _nsentences_seen;
-  Scoring _scoring;
-  void resample_pya(Unigrams& lex);
-  void resample_pyb(Unigrams& lex);
-  virtual Bs hypersample(Unigrams& lex, F temperature);
-  virtual Bs hypersample(Unigrams& ulex, Bigrams& lex, F temperature);
-  virtual bool sample_hyperparm(F& beta, bool is_prob, F temperature);
-  F log_posterior(const Unigrams& lex) const;
-  F log_posterior(const Unigrams& ulex, const Bigrams& lex) const;
-  Fs predict_pairs(const TestPairs& test_pairs, const Unigrams& lex) const {
-    Fs probs;
-    cforeach(TestPairs, tp, test_pairs) {
-      F p1 = lex(tp->first);
-      F p2 = lex(tp->second);
-      if (debug_level >= 10000) TRACE2(p1,p2);
-      probs.push_back(p1/(p1+p2));
+    Data* _constants;
+    Sentences _sentences;
+    Sentences _eval_sentences;
+    U _nsentences_seen;
+    Scoring _scoring;
+    void resample_pya(Unigrams& lex);
+    void resample_pyb(Unigrams& lex);
+    virtual Bs hypersample(Unigrams& lex, F temperature);
+    virtual Bs hypersample(Unigrams& ulex, Bigrams& lex, F temperature);
+    virtual bool sample_hyperparm(F& beta, bool is_prob, F temperature);
+    F log_posterior(const Unigrams& lex) const;
+    F log_posterior(const Unigrams& ulex, const Bigrams& lex) const;
+    Fs predict_pairs(const TestPairs& test_pairs, const Unigrams& lex) const {
+        Fs probs;
+        cforeach(TestPairs, tp, test_pairs) {
+            F p1 = lex(tp->first);
+            F p2 = lex(tp->second);
+            if (debug_level >= 10000) TRACE2(p1,p2);
+            probs.push_back(p1/(p1+p2));
+        }
+        return probs;
     }
-    return probs;
-  }
-  Fs predict_pairs(const TestPairs& test_pairs, const Bigrams& lex) const {
-    Fs probs;
-    error("ModelBase::predict_pairs is not implemented for bigram models\n");
-    return probs;
-  }
-  void print_segmented_sentences(std::wostream& os, const Sentences& sentences) const {
-    cforeach(Sentences, iter, sentences)
-      os << *iter << endl;
-  }
-  void print_scores_sentences(std::wostream& os, const Sentences& sentences) {
-    _scoring.reset();
-    cforeach(Sentences, iter, sentences) 
-      iter->score(_scoring);
-    _scoring.print_results(os);
-  }
+
+    Fs predict_pairs(const TestPairs& test_pairs, const Bigrams& lex) const {
+        Fs probs;
+        error("ModelBase::predict_pairs is not implemented for bigram models\n");
+        return probs;
+    }
+
+    void print_segmented_sentences(std::wostream& os, const Sentences& sentences) const {
+        cforeach(Sentences, iter, sentences)
+            os << *iter << endl;
+    }
+    void print_scores_sentences(std::wostream& os, const Sentences& sentences) {
+        _scoring.reset();
+        cforeach(Sentences, iter, sentences)
+            iter->score(_scoring);
+        _scoring.print_results(os);
+    }
 };
 
 class Model: public ModelBase {
 public:
-  Model(Data* constants): 
-    ModelBase(constants),
-    _base_dist(_constants->Pstop, _constants->nchartypes) {}
-  virtual ~Model() {}
-  virtual bool sanity_check() const {
-    assert(_base_dist.nchartypes() ==_constants->nchartypes);
-    assert(_base_dist.p_stop() < 0 || // if we're learning this parm.
-	   _base_dist.p_stop() ==_constants->Pstop);
-    return true;
-  }
-  virtual F log_posterior() const = 0;
-  //use whatever sampling method is in subclass to segment training data
-  virtual void estimate(U iters, std::wostream& os, U eval_iters = 0,
-						F temperature = 1, bool maximize = false, bool is_decayed = false) = 0;
-  //make single pass through test data, segmenting based on sampling
-  //or maximization of each utt, using current counts from training
-  //data only (i.e. no new counts are added)
-  virtual void run_eval(std::wostream& os, F temperature = 1, bool maximize=false);
-  virtual void print_segmented(std::wostream& os) const {
-    print_segmented_sentences(os, _sentences);
-  }
-  virtual void print_eval_segmented(std::wostream& os) const {
-    print_segmented_sentences(os, _eval_sentences);
-  }
-  //recomputes and prints precision, recall, etc. on training data
-  void print_scores(std::wostream& os) {
-    print_scores_sentences(os, _sentences);
-  }
-  //recomputes and prints precision, recall, etc. on training data
-  void print_eval_scores(std::wostream& os) {
-    print_scores_sentences(os, _eval_sentences);
-  }
+    Model(Data* constants):
+        ModelBase(constants),
+        _base_dist(_constants->Pstop, _constants->nchartypes) {}
+    virtual ~Model() {}
+    virtual bool sanity_check() const
+        {
+            assert(_base_dist.nchartypes() ==_constants->nchartypes);
+            assert(_base_dist.p_stop() < 0 || // if we're learning this parm.
+                   _base_dist.p_stop() ==_constants->Pstop);
+            return true;
+        }
+
+    virtual F log_posterior() const = 0;
+
+    //use whatever sampling method is in subclass to segment training data
+    virtual void estimate(
+        U iters, std::wostream& os, U eval_iters = 0,
+        F temperature = 1, bool maximize = false, bool is_decayed = false) = 0;
+
+    //make single pass through test data, segmenting based on sampling
+    //or maximization of each utt, using current counts from training
+    //data only (i.e. no new counts are added)
+    virtual void run_eval(std::wostream& os, F temperature = 1, bool maximize=false);
+
+    virtual void print_segmented(std::wostream& os) const
+        {
+            print_segmented_sentences(os, _sentences);
+        }
+
+    virtual void print_eval_segmented(std::wostream& os) const
+        {
+            print_segmented_sentences(os, _eval_sentences);
+        }
+
+    //recomputes and prints precision, recall, etc. on training data
+    void print_scores(std::wostream& os)
+        {
+            print_scores_sentences(os, _sentences);
+        }
+
+    //recomputes and prints precision, recall, etc. on training data
+    void print_eval_scores(std::wostream& os)
+        {
+            print_scores_sentences(os, _eval_sentences);
+        }
+
 protected:
-  P0 _base_dist;
-  virtual void print_statistics(wostream& os, U iters, F temp, bool do_header=false) = 0;
-  virtual void estimate_sentence(Sentence& s, F temperature) = 0;
-  virtual void estimate_eval_sentence(Sentence& s, F temperature, bool maximize = false) = 0;
+    P0 _base_dist;
+    virtual void print_statistics(wostream& os, U iters, F temp, bool do_header=false) = 0;
+    virtual void estimate_sentence(Sentence& s, F temperature) = 0;
+    virtual void estimate_eval_sentence(Sentence& s, F temperature, bool maximize = false) = 0;
 };
 
 class UnigramModel: public Model {
 public:
-  UnigramModel(Data* constants):
-    Model(constants),
-    _lex(_base_dist, unif01, _constants->a1, _constants->b1) {
-  }
-  virtual ~UnigramModel() {}
-  virtual bool sanity_check() const{
-    bool sane = Model::sanity_check();
-    assert(_lex.ntokens() >= _nsentences_seen);
-    sane = sane && _lex.sanity_check();
-    return sane;
-  } 
-  virtual F log_posterior() const {
-    return ModelBase::log_posterior(_lex);
-  }
-  virtual void estimate(U iters, std::wostream& os, U eval_iters = 0,
-						F temperature = 1, bool maximize = false, bool is_decayed = false) = 0;
-  virtual Fs predict_pairs(const TestPairs& test_pairs) const {
-    return ModelBase::predict_pairs(test_pairs, _lex);
-  }
-  virtual void print_lexicon(std::wostream& os) const {
-    os << "Unigram lexicon:" << std::endl;
-    _lex.print(os);
-  }
-  //Unigrams get_lex(){return _lex;};
+    UnigramModel(Data* constants):
+        Model(constants),
+        _lex(_base_dist, unif01, _constants->a1, _constants->b1)
+        {}
+
+    virtual ~UnigramModel() {}
+
+    virtual bool sanity_check() const
+        {
+            bool sane = Model::sanity_check();
+            assert(_lex.ntokens() >= _nsentences_seen);
+            sane = sane && _lex.sanity_check();
+            return sane;
+        }
+
+    virtual F log_posterior() const
+        {
+            return ModelBase::log_posterior(_lex);
+        }
+
+    virtual void estimate(
+        U iters, std::wostream& os, U eval_iters = 0,
+        F temperature = 1, bool maximize = false, bool is_decayed = false) = 0;
+
+    virtual Fs predict_pairs(const TestPairs& test_pairs) const
+        {
+            return ModelBase::predict_pairs(test_pairs, _lex);
+        }
+
+    virtual void print_lexicon(std::wostream& os) const
+        {
+            os << "Unigram lexicon:" << std::endl;
+            _lex.print(os);
+        }
+
+    //Unigrams get_lex(){return _lex;};
+
 protected:
-  Unigrams _lex;
-  virtual void print_statistics(wostream& os, U iters, F temp, bool do_header=false);
-  virtual Bs hypersample(F temperature) {
-    return ModelBase::hypersample(_lex, temperature);
-  }
-  virtual void estimate_sentence(Sentence& s, F temperature) = 0;
-  virtual void estimate_eval_sentence(Sentence& s, F temperature, bool maximize = false);
+    Unigrams _lex;
+    virtual void print_statistics(wostream& os, U iters, F temp, bool do_header=false);
+    virtual Bs hypersample(F temperature)
+        {
+            return ModelBase::hypersample(_lex, temperature);
+        }
+
+    virtual void estimate_sentence(Sentence& s, F temperature) = 0;
+    virtual void estimate_eval_sentence(Sentence& s, F temperature, bool maximize = false);
 };
+
 
 class BigramModel: public Model {
 public:
@@ -154,7 +190,7 @@ public:
     //    sane = sane && _lex.get_a() ==  _constants->a2;
     //    sane = sane && _lex.get_b() ==  _constants->b2;
     return sane;
-  } 
+  }
   virtual F log_posterior() const {
     return ModelBase::log_posterior(_ulex, _lex);
   }
@@ -216,12 +252,12 @@ protected:
 
 class OnlineUnigram: public UnigramModel {
 public:
-  OnlineUnigram(Data* constants, F forget_rate = 0): 
+  OnlineUnigram(Data* constants, F forget_rate = 0):
     UnigramModel(constants), _forget_rate(forget_rate) {
     Model::_nsentences_seen = 0;}
   virtual ~OnlineUnigram() {}
   virtual void estimate(U iters, std::wostream& os, U eval_iters = 0,
-						F temperature = 1, bool maximize = false, bool is_decayed = false);						
+						F temperature = 1, bool maximize = false, bool is_decayed = false);
 protected:
   F _forget_rate;
   Sentences _sentences_seen; // for use with DeacyedMCMC model in particular
@@ -273,8 +309,8 @@ protected:
 
 class OnlineUnigramDecayedMCMC:public OnlineUnigram, public DecayedMCMC {
 public:
-  OnlineUnigramDecayedMCMC(Data* constants, F forget_rate = 0, F decay_rate = 1.0, U samples_per_utt = 1000); 
-  virtual ~OnlineUnigramDecayedMCMC() {} 
+  OnlineUnigramDecayedMCMC(Data* constants, F forget_rate = 0, F decay_rate = 1.0, U samples_per_utt = 1000);
+  virtual ~OnlineUnigramDecayedMCMC() {}
 protected:
   virtual void estimate_sentence(Sentence& s, F temperature);
 
@@ -316,7 +352,7 @@ protected:
 
 class OnlineBigram: public BigramModel {
 public:
-  OnlineBigram(Data* constants, F forget_rate = 0): 
+  OnlineBigram(Data* constants, F forget_rate = 0):
     BigramModel(constants), _forget_rate(forget_rate) {
     Model::_nsentences_seen = 0;}
   virtual ~OnlineBigram() {}
@@ -347,8 +383,8 @@ protected:
 
 class OnlineBigramDecayedMCMC:public OnlineBigram, public DecayedMCMC {
 public:
-  OnlineBigramDecayedMCMC(Data* constants, F forget_rate = 0, F decay_rate = 1.0, U samples_per_utt = 1000); 
-  virtual ~OnlineBigramDecayedMCMC() {} 
+  OnlineBigramDecayedMCMC(Data* constants, F forget_rate = 0, F decay_rate = 1.0, U samples_per_utt = 1000);
+  virtual ~OnlineBigramDecayedMCMC() {}
 protected:
   virtual void estimate_sentence(Sentence& s, F temperature);
 };
