@@ -12,7 +12,6 @@ echo "done phonologisation and syllabification of corpora"
 
 
 ./2-segment.sh $LANGUAGE  "../../algoComp/segment.py" $ACQDIV_FOLDER
-
-
 echo "done segmentation for chintang and japanese"
+
 done

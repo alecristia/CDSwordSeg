@@ -38,7 +38,13 @@ Kakka no
 Does it mean "not understood" or are we missing some characters?
 - is o: the same as oo?
 
-
 - Chintang: how do you syllabify diphthongs? What do accents on vowels mean? Should we remove the accent (i.e., they just mark stress) or should we use a different symbol for the vowel (i.e., à means a different quality from a)? What are symbols like this: aa -- a phonetically lengthened vowel (i.e., we should replace aa with a) or a phonologically long vowel (i.e., we should use a different symbol)?
 
+-chintang avg word length 4.14
+-japanese avg word length 3.65
 
+what does : mean? 
+
+many one-letter or diphthong words (sometimes repetitive) p.e. plenty of successive "oi" or "E" in chintang corpus, "YEYUp" repeated 15 times, "ŋ" or "n" all alone in japanese corpus 
+
+all different symbols found in text?

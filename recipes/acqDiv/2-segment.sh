@@ -35,7 +35,7 @@ echo "$THISTAG"
 	
         $PIPELINE --goldfile ${THISGOLD} \
                   --output-dir ${ACQDIV_FOLDER}/results/${LANGUAGE} \
-                  --algorithms  dibs \
+                  --algorithms  dibs TPs puddle \
 #                  --ag-median 5 \
 #                  --clusterize \
 #		  --jobs-basename ${ACQDIV_FOLDER}/${LANGUAGE} \

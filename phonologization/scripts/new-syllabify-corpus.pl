@@ -14,7 +14,7 @@ $scriptdir=$ARGV[3];
 
 # Save valid onsets from ValidOnsets.txt
 %onsets = {};
-open(ONSETS, "<$scriptdir/input/$language-ValidOnsets.txt") or die("Couldn't open $scriptdir/input/$language-ValidOnsets.txt\n");
+open(ONSETS, "<$scriptdir/scripts/$language-ValidOnsets.txt") or die("Couldn't open $scriptdir/scripts/$language-ValidOnsets.txt\n");
 while(defined($fileline = <ONSETS>)){
     chomp($fileline);
     #print "$fileline\n";
@@ -26,7 +26,7 @@ close(ONSETS);
 
 # Save valid vowels from vowels.txt
 %vowels = {};
-open(VOWELS, "<$scriptdir/input/$language-vowels.txt") or die("Couldn't open $scriptdir/input/$language-vowels.txt\n");
+open(VOWELS, "<$scriptdir/scripts/$language-vowels.txt") or die("Couldn't open $scriptdir/scripts/$language-vowels.txt\n");
 my $vowels = <VOWELS>;
 print "$vowels";
 close(VOWELS);

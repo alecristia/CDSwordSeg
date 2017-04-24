@@ -128,9 +128,13 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  |
 		sed '/^$/d' ${RES_FOLDER}/processed/$LANGUAGE/${KEYNAME}-outofperl.tmp |
 		sed '/^ $/d'  |
 		sed '/^[ ]*$/d'  |
-		sed 's/^ //'  |
-		sed 's/\n//' |
-		sed 's/^\///'  | #there aren't really any of these, this is just a cautionary measure
+		sed 's/^ //g'  |
+		sed 's/\n//g' |
+		sed 's/?//g' |
+		sed 's/-//g' |
+		sed 's/_//g' |
+		sed 's/://g' |
+		sed 's/^\///g'  | #there aren't really any of these, this is just a cautionary measure
 	sed 's/ / ;eword /g' |
 		sed -e 's/\(.\)/\1 /g'  |
 	sed 's/ ; e w o r d/ ;eword /g' |
