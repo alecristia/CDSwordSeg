@@ -23,27 +23,23 @@ INCDIR	= ./include
 
 # C++ compiler to use and option passed during compilation and link
 CXX	= g++
-CFLAGS	= -Wall -Wno-deprecated -O3 -std=c++11 -I$(INCDIR)
+CFLAGS	= -Wall -O3 -std=c++11 -I$(INCDIR) -DNDEBUG
 LFLAGS	= -Wall -O3 -std=c++11 -lboost_program_options
 
 # source files must be *.cc files in $(SRCDIR)
-SOURCES	= Data Estimators Scoring Sentence gammadist mt19937ar
+SOURCES	= Data Estimators Scoring Sentence
 OBJECTS	= $(SOURCES:%=$(BUILDDIR)/%.o)
 
 
 .PHONY: all clean
 
-all: dpseg # stimseg
+all: dpseg
 
 clean:
-	rm -f $(BUILDDIR)/*.o $(BUILDDIR)/dpseg $(BUILDDIR)/stimseg
+	rm -f $(BUILDDIR)/*.o $(BUILDDIR)/dpseg
 
 $(BUILDDIR)/%.o: $(SRCDIR)/%.cc
 	$(CXX) $(CFLAGS) -o $@ -c $?
 
 dpseg: $(OBJECTS) $(BUILDDIR)/dpseg.o
 	$(CXX) $(LFLAGS) -o $(BUILDDIR)/$@ $^
-
-# TODO stimseg do not compile for now
-# stimseg: $(OBJECTS) $(BUILDDIR)/stimseg.o
-# 	$(CXX) $(LFLAGS) -o $(BUILDDIR)/$@ $^

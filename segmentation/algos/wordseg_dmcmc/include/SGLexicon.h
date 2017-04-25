@@ -1,31 +1,33 @@
 #ifndef _SGLEXICON_H_
 #define _SGLEXICON_H_
 
-#include <ext/hash_map>
+#include <algorithm>
 #include <iostream>
 #include <string>
+#include <unordered_map>
 #include <utility>
 #include <vector>
-#include "util.h"
 
-#ifndef EXT_NAMESPACE
-#define EXT_NAMESPACE __gnu_cxx
+
+#ifdef NDEBUG
+#define my_assert(X,Y) /* do nothing */
+#else
+#define my_assert(X,Y) if(!(X)){ std::wcerr << "data is " << (Y) << std::endl; assert(X); }
 #endif
 
-namespace ext = EXT_NAMESPACE;
 
 //key_type must have ==, <, and hash()
 // (defined for most standard classes in Mark's utils.h)
 // this base class assumes that datatype is numeric,
 // although redefining inc and dec can change that.
 template <typename key_type, typename data_type>
-class SGLexiconBase: public ext::hash_map<key_type, data_type> {
+class SGLexiconBase: public std::unordered_map<key_type, data_type> {
   typedef typename std::pair<data_type, data_type> dd_t;
-  typedef typename ext::hash_map<typename SGLexiconBase::key_type, data_type> parent_t;
+  typedef typename std::unordered_map<typename SGLexiconBase::key_type, data_type> parent_t;
 public:
   typedef typename std::pair<typename SGLexiconBase::key_type, data_type> value_type;
-  typedef typename ext::hash_map<typename SGLexiconBase::key_type, data_type>::iterator iterator;
-  typedef typename ext::hash_map<typename SGLexiconBase::key_type, data_type>::const_iterator const_iterator;
+  typedef typename std::unordered_map<typename SGLexiconBase::key_type, data_type>::iterator iterator;
+  typedef typename std::unordered_map<typename SGLexiconBase::key_type, data_type>::const_iterator const_iterator;
   typedef typename std::vector<value_type> LexVector;
   typedef typename std::vector<value_type>::iterator LexVectorIter;
   typedef typename std::vector<value_type>::const_iterator LexVectorCIter;
@@ -36,28 +38,47 @@ public:
   virtual const_iterator begin() const {return parent_t::begin();}
   virtual iterator end() {return parent_t::end();}
   virtual const_iterator end() const {return parent_t::end();}
-  virtual void check_invariant() const {
+
+    virtual void check_invariant() const
+        {
 #ifndef NDEBUG
-    data_type total(0);
-    for (const_iterator i=begin(); i != end(); i++) {
-      my_assert(i->second != 0, i->first);
-      total += i->second;
-    }
-    my_assert((total == _ntokens), dd_t(total, _ntokens));
+            data_type total(0);
+            for (const_iterator i=begin(); i != end(); i++) {
+                my_assert(i->second != 0, i->first);
+                total += i->second;
+            }
+            my_assert((total == _ntokens), dd_t(total, _ntokens));
 #endif
-  }
-  virtual void clear() {
-    parent_t::clear();
-    _ntokens = 0;
-  }
-  virtual size_t mem_size() {return parent_t::size();}
-  virtual data_type ntokens() const {return _ntokens;}
-  virtual size_t ntypes() const {return parent_t::size();}
-  virtual data_type operator()(const typename SGLexiconBase::key_type& s) const {
-    const_iterator i = this->find(s);
-    if (i == end()) return 0;
-    return i->second;
-  }
+        }
+
+  virtual void clear()
+        {
+            parent_t::clear();
+            _ntokens = 0;
+        }
+
+    virtual size_t mem_size()
+        {
+            return parent_t::size();
+        }
+
+    virtual data_type ntokens() const
+        {
+            return _ntokens;
+        }
+
+    virtual size_t ntypes() const
+        {
+            return parent_t::size();
+        }
+
+    virtual data_type operator()(const typename SGLexiconBase::key_type& s) const
+        {
+            const_iterator i = this->find(s);
+            if (i == end()) return 0;
+            return i->second;
+        }
+
   // return true if a new type was added
   // Unless redefined in subcalss, return value is 0/1 only.
   virtual size_t inc(const typename SGLexiconBase::key_type& s) {
@@ -85,7 +106,7 @@ public:
     for (const_iterator i=begin(); i != end(); i++) {
       counts.push_back(value_type(*i));
     }
-    sort(counts.begin(), counts.end(), first_lessthan());
+    std::sort(counts.begin(), counts.end(), first_lessthan());
     return counts;
   }
   virtual LexVector sort_by_value() const{
@@ -93,7 +114,7 @@ public:
     for (const_iterator i=begin(); i != end(); i++) {
       counts.push_back(value_type(*i));
     }
-    sort(counts.begin(), counts.end(), second_lessthan());
+    std::sort(counts.begin(), counts.end(), second_lessthan());
     return counts;
   }
   virtual void print_by_key(std::wostream& os=std::wcout) const {
@@ -124,7 +145,7 @@ protected:
   virtual data_type& operator[](const typename SGLexiconBase::key_type& s) {
     return parent_t::operator[](s);}
   virtual size_t size() {
-    return parent_t::size();} 
+    return parent_t::size();}
 
   struct first_lessthan {
     template <typename T1, typename T2>
@@ -148,8 +169,8 @@ class SGLexicon: public SGLexiconBase<key_type, data_type> {
   typedef SGLexiconBase<typename SGLexicon::key_type, data_type> parent_t;
 public:
   typedef typename std::pair<typename SGLexicon::key_type, data_type> value_type;
-  typedef typename ext::hash_map<typename SGLexicon::key_type, data_type>::iterator iterator;
-  typedef typename ext::hash_map<typename SGLexicon::key_type, data_type>::const_iterator const_iterator;
+  typedef typename std::unordered_map<typename SGLexicon::key_type, data_type>::iterator iterator;
+  typedef typename std::unordered_map<typename SGLexicon::key_type, data_type>::const_iterator const_iterator;
   SGLexicon() {}
   virtual ~SGLexicon() {}
   //don't know why I need these 4 in order to compile...

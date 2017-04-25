@@ -38,7 +38,8 @@ def load_tags():
     text = open(_file, 'r').readlines()
     return [line.strip() for line in text if len(line.strip())]
 
-TEXT = load_tags()
+
+text = load_tags()
 
 
 @pytest.mark.parametrize('algo', algos)
@@ -46,26 +47,20 @@ def test_pipeline(algo):
     # the token separator we use in the whole pipeline
     separator = Separator(phone=' ', syllable=';esyll', word=';eword')
 
-    # # build the phonologized form of text with phone, syllable and
-    # # word boundaries
-    # phonemized_text = phonemize(
-    #     text, language='en-us', backend='festival',
-    #     separator=separator, strip=False)
-
     # build the gold version from the phonologized one
-    gold = list(gold_text(TEXT, separator=separator))
+    gold = list(gold_text(text, separator=separator))
 
     # prepare the text for segmentation
-    prepared_text = list(prepare_text(TEXT, separator=separator))
+    prepared_text = list(prepare_text(text, separator=separator))
 
     # segment it with the given algo (use default options)
     segmented = list(algos[algo].segment(prepared_text))
 
-    assert len(gold) == len(TEXT)
-    assert len(TEXT) == len(TEXT)
-    assert len(prepared_text) == len(TEXT)
-    assert len(segmented) == len(TEXT)
-    for i in range(len(TEXT)):
+    assert len(gold) == len(text)
+    assert len(text) == len(text)
+    assert len(prepared_text) == len(text)
+    assert len(segmented) == len(text)
+    for i in range(len(text)):
         print()
         print(re.sub('\s', '', gold[i]))
         print(re.sub('\s', '', segmented[i]))

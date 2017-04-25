@@ -16,8 +16,8 @@
   along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <algorithm>
 #include <chrono>
+#include <fstream>
 #include <iostream>
 #include <locale>
 #include <random>
@@ -38,8 +38,6 @@
 #include "Estimators.h"
 #include "Data.h"
 #include "Sentence.h"
-#include "mhs.h"    // random.h is included here
-#include "precrec.h"
 #include "Base.h"
 
 
@@ -47,15 +45,13 @@
 // code (with 'extern' declarations). This is bad (source of bugs,
 // hard to read/debug). Use parameters instead.
 
-//using uniform01_type = std::mt19937;
-uniform01_type unif01;     // mt19937 random generator TODO this is
-                           // now (c++11) part of the std lib, so
-                           // replace that by std::mt19937 from <random>
+
 unsigned int debug_level;  // higher -> mode debug messages on stdout
+std::mt19937 unif01;       // random number generator
 std::wstring sep;          // separator used to separate fields during printing of results
 
 
-std::wstring str2wstr(std::string str)
+std::wstring str2wstr(const std::string& str)
 {
     std::wstring temp_str(str.length(), L' ');  // Make room for characters
     std::copy(str.begin(), str.end(), std::back_inserter(temp_str));
@@ -173,9 +169,9 @@ int main(int argc, char** argv) {
     std::locale utf8_locale(old_locale, new utf8_codecvt_facet());
     std::locale::global(utf8_locale);
 
-    wcerr.imbue(utf8_locale);
-    wcout.imbue(utf8_locale);
-    wcout.precision(5);
+    std::wcerr.imbue(utf8_locale);
+    std::wcout.imbue(utf8_locale);
+    std::wcout.precision(5);
 
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(0);
@@ -205,14 +201,14 @@ int main(int argc, char** argv) {
         ("data-num-sents", po::value<U>()->default_value(0),
          "number of training sentences to use (0 = all)")
 
-        ("eval-file", po::value<std::string>(),
-         "testing data file (default is training file)")
+        // ("eval-file", po::value<std::string>(),
+        //  "testing data file (default is training file)")
 
-        ("eval-start-index", po::value<U>()->default_value(0),
-         "sentence index to start reading eval data file")
+        // ("eval-start-index", po::value<U>()->default_value(0),
+        //  "sentence index to start reading eval data file")
 
-        ("eval-num-sents", po::value<U>()->default_value(0),
-         "number of testing sentences to use (0 = all)")
+        // ("eval-num-sents", po::value<U>()->default_value(0),
+        //  "number of testing sentences to use (0 = all)")
 
         ("eval-maximize", po::value<U>()->default_value(0),
          "1 = choose max prob segmentation of test sentences, 0 (default) = sample instead")
@@ -352,14 +348,14 @@ int main(int argc, char** argv) {
     }
 
     // setup data_file to stdin or file
-    string data_file = "stdin";
+    std::string data_file = "stdin";
     if (vm.count("data-file") > 0)
         data_file = vm["data-file"].as<std::string>();
 
-    // setup eval file if specified in arguments
-    string eval_file = "none";
-    if (vm.count("eval-file") > 0)
-        eval_file = vm["eval-file"].as<std::string>();
+    // // setup eval file if specified in arguments
+    // std::string eval_file = "none";
+    // if (vm.count("eval-file") > 0)
+    //     eval_file = vm["eval-file"].as<std::string>();
 
     // We need a wide version of the result-field-separator parameter string
     sep.assign(csep.begin(), csep.end());
@@ -373,9 +369,9 @@ int main(int argc, char** argv) {
             << "# data-file=" << data_file.c_str() << std::endl
             << "# data-start-index=" << vm["data-start-index"].as<U>() << std::endl
             << "# data-num-sents=" << vm["data-num-sents"].as<U>() << std::endl
-            << "# eval-file=" << eval_file.c_str() << std::endl
-            << "# eval-start-index=" << vm["eval-start-index"].as<U>() << std::endl
-            << "# eval-num-sents=" << vm["eval-num-sents"].as<U>() << std::endl
+            // << "# eval-file=" << eval_file.c_str() << std::endl
+            // << "# eval-start-index=" << vm["eval-start-index"].as<U>() << std::endl
+            // << "# eval-num-sents=" << vm["eval-num-sents"].as<U>() << std::endl
             << "# eval-maximize=" << vm["eval-maximize"].as<U>() << std::endl
             << "# eval-interval=" <<vm["eval-interval"].as<U>() << std::endl
             << "# output-file=" << str2wstr(vm["output-file"].as<std::string>()) << std::endl
@@ -418,7 +414,7 @@ int main(int argc, char** argv) {
         std::wifstream is(data_file.c_str());
         if (!is)
         {
-            cerr << "Error: couldn't open " << data_file << endl;
+            std::cerr << "Error: couldn't open " << data_file << std::endl;
             exit(1);
         }
         is.imbue(std::locale(std::locale(), new utf8_codecvt_facet()));
@@ -430,32 +426,32 @@ int main(int argc, char** argv) {
         data.read(std::wcin, vm["data-start-index"].as<U>(), vm["data-num-sents"].as<U>());
     }
 
-    // read evaluation data
-    if (eval_file !=  "none")
-    {
-        std::wifstream is(eval_file.c_str());
-        if (!is)
-        {
-            cerr << "Error: couldn't open " << eval_file << endl;
-            exit(1);
-        }
-        is.imbue(std::locale(std::locale(), new utf8_codecvt_facet()));
-        data.read_eval(is,vm["eval-start-index"].as<U>(),vm["eval-num-sents"].as<U>());
-    }
+    // // read evaluation data
+    // if (eval_file !=  "none")
+    // {
+    //     std::wifstream is(eval_file.c_str());
+    //     if (!is)
+    //     {
+    //         std::cerr << "Error: couldn't open " << eval_file << std::endl;
+    //         exit(1);
+    //     }
+    //     is.imbue(std::locale(std::locale(), new utf8_codecvt_facet()));
+    //     data.read_eval(is,vm["eval-start-index"].as<U>(),vm["eval-num-sents"].as<U>());
+    // }
 
     if (debug_level >= 98000) {
-        TRACE(S::data.size());
-        TRACE(S::data);
+        TRACE(Substring::data.size());
+        TRACE(Substring::data);
         TRACE(data.sentence_boundary_list());
         TRACE(data.nchars());
         TRACE(data.possible_boundaries());
         TRACE(data.true_boundaries());
     }
 
-    if (debug_level >= 100)
+    if (debug_level >= 100000)
     {
-        std::wcout << "# nchartypes=" << data.nchartypes << endl
-                   << "# nsentences=" << data.nsentences() << endl;
+        std::wcout << "# nchartypes=" << data.nchartypes << std::endl
+                   << "# nsentences=" << data.nsentences() << std::endl;
     }
 
     // open the output file, handle UTF8
@@ -471,7 +467,6 @@ int main(int argc, char** argv) {
 
     for(uint subject = 0; subject < vm["nsubjects"].as<uint>(); subject++)
     {
-        std::cout << "HERE!!!" << std::endl;
         Model* sampler = get_sampler(
             &data,
             vm["ngram"].as<uint>(),
@@ -480,7 +475,6 @@ int main(int argc, char** argv) {
             vm["forget-rate"].as<F>(),
             vm["decay-rate"].as<F>(),
             vm["samples-per-utt"].as<U>());
-        std::cout << "HERE!!!  sampler done" << std::endl;
 
         std::wcout << "initial probability = " << sampler->log_posterior() << std::endl;
         assert(sampler->sanity_check());
@@ -491,32 +485,37 @@ int main(int argc, char** argv) {
             data.burnin_iterations, std::wcout, vm["eval-interval"].as<U>(),
             1, vm["eval-maximize"].as<U>(), true);
 
-        // evaluates test set at the end of training
-        if (eval_file == "none")
-        {
-            sampler->print_segmented(os);
-            sampler->print_scores(wcout);
-            std::wcout << "final posterior = " << sampler->log_posterior() << std::endl;
-        }
-        else
-        {
-            if (debug_level >= 5000)
-            {
-                std::wcout << "segmented training data:" << std::endl;
-                sampler->print_segmented(std::wcout);
-                sampler->print_scores(std::wcout);
-                std::wcout << "training final posterior = " << sampler->log_posterior() << std::endl;
-                std::wcout << "segmented test data:" << std::endl;
-            }
+        sampler->print_segmented(os);
+        sampler->print_scores(std::wcout);
+        std::wcout << "final posterior = " << sampler->log_posterior() << std::endl;
 
-            std::wcout << "Test set at end of training " << std::endl;
-            sampler->run_eval(os,1,vm["eval-maximize"].as<U>());
-
-            std::wcout << "testing final posterior = " << sampler->log_posterior() << std::endl;
-            sampler->print_eval_segmented(os);
-            sampler->print_eval_scores(std::wcout);
-        }
-        os << std::endl;
         delete sampler;
-    } // end for subject
-}  // main()
+
+        // // evaluates test set at the end of training
+        // if (eval_file == "none")
+        // {
+        //     sampler->print_segmented(os);
+        //     sampler->print_scores(std::wcout);
+        //     std::wcout << "final posterior = " << sampler->log_posterior() << std::endl;
+        // }
+        // else
+        // {
+        //     if (debug_level >= 5000)
+        //     {
+        //         std::wcout << "segmented training data:" << std::endl;
+        //         sampler->print_segmented(std::wcout);
+        //         sampler->print_scores(std::wcout);
+        //         std::wcout << "training final posterior = " << sampler->log_posterior() << std::endl;
+        //         std::wcout << "segmented test data:" << std::endl;
+        //     }
+
+        //     std::wcout << "Test set at end of training " << std::endl;
+        //     sampler->run_eval(os,1,vm["eval-maximize"].as<U>());
+
+        //     std::wcout << "testing final posterior = " << sampler->log_posterior() << std::endl;
+        //     sampler->print_eval_segmented(os);
+        //     sampler->print_eval_scores(std::wcout);
+        // }
+        // delete sampler;
+    }
+}

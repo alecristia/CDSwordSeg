@@ -27,7 +27,7 @@ import re
 import shlex
 import subprocess
 import tempfile
-# import threading
+import threading
 
 from segmentation import utils, folding
 
@@ -96,7 +96,9 @@ def _dpseg(text, args, log=utils.null_logger()):
         #     args=[job.stdout, lambda line: log.debug(line)]).start()
 
         tmp.seek(0)
-        return tmp.read().decode('utf8').split('\n')
+        lines = (utils.strip(line) for line
+                 in tmp.read().decode('utf8').split('\n'))
+        return [line for line in lines if line]
 
 
 def segment(text, nfolds=5, njobs=1,
@@ -108,16 +110,19 @@ def segment(text, nfolds=5, njobs=1,
     # set of unique units (syllables or phones) present in the text
     units = set(unit for utt in text for unit in utt.split())
     log.info('%s units found in %s utterances', len(units), len(text))
+    args += ' --nchartypes {}'.format(len(units))
 
     # create a unicode equivalent for each unit and convert the text
     # to that unicode version
     log.debug('converting input to unicode')
     unicode_gen = UnicodeGenerator()
     unicode_mapping = {unit: unicode_gen() for unit in units}
-    unicode_text = [''.join(unicode_mapping[unit] for unit in utt.split()) for utt in text]
+    unicode_text = [''.join(unicode_mapping[unit]
+                            for unit in utt.split()) for utt in text]
 
     log.debug('building %s folds', nfolds)
-    folded_texts, fold_index = folding.fold(unicode_text, nfolds, dmcmc_bugfix=True)
+    folded_texts, fold_index = folding.fold(
+        unicode_text, nfolds, dmcmc_bugfix=True)
 
     segmented_texts = joblib.Parallel(n_jobs=njobs, verbose=0)(
         joblib.delayed(_dpseg)(fold, args, log=log) for fold in folded_texts)
@@ -129,7 +134,8 @@ def segment(text, nfolds=5, njobs=1,
     log.debug('converting output back from unicode')
     unit_mapping = {v: k for k, v in unicode_mapping.items()}
     unit_mapping[' '] = ' '
-    segmented_text = [''.join(unit_mapping[char] for char in utt) for utt in output_text]
+    segmented_text = [''.join(unit_mapping[char] for char in utt)
+                      for utt in output_text]
 
     return segmented_text
 
@@ -140,7 +146,7 @@ class Argument(object):
     excluded = ['--help', '--config-file', '--debug-level', '--data-file',
                 '--data-start-index', '--data-num-sents',
                 '--eval-start-index', '--eval-num-sents',
-                '--output-file', '--nsubjects']
+                '--output-file', '--nsubjects', '--nchartypes']
 
     def __init__(self, name=None, default=None,  help=''):
         self.name = name
@@ -165,7 +171,7 @@ class Argument(object):
 
 def yield_dpseg_arguments():
     # get the help message of the dpseg program
-    help_msg= subprocess.Popen(
+    help_msg = subprocess.Popen(
         [DPSEG_BIN, '--help'],
         stderr=subprocess.PIPE).communicate()[1].decode()
 
@@ -189,8 +195,7 @@ def yield_dpseg_arguments():
             argument.default = (m.group(6).replace('(=', '').replace(')', '')
                                 if m.group(6) else None)
             argument.help = m.group(7).strip()
-        else:  # the regext is not matched: this is the continuation
-               # of a help message
+        else:  # continuation of the previous help message
             argument.help += ' ' + line.strip()
 
     if argument.is_valid():
@@ -224,12 +229,14 @@ def main():
     assert args.nfolds > 0
 
     ignored_args = ['verbose', 'quiet', 'input', 'output', 'nfolds', 'njobs']
-    dpseg_args = {k: v for k, v in vars(args).items() if k not in ignored_args and v}
-    dpseg_args = ' '.join(
-        '--{} {}'.format(k, v) for k, v in dpseg_args.items()).replace('_', '-')
+    dpseg_args = {k: v for k, v in vars(args).items()
+                  if k not in ignored_args and v}
+    dpseg_args = ' '.join('--{} {}'.format(k, v)
+                          for k, v in dpseg_args.items()).replace('_', '-')
 
-    segmented = segment(
-        streamin, nfolds=args.nfolds, njobs=args.njobs, args=dpseg_args, log=log)
+    segmented = segment(streamin, nfolds=args.nfolds, njobs=args.njobs,
+                        args=dpseg_args, log=log)
+
     streamout.write('\n'.join(segmented) + '\n')
 
 

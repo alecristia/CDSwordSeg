@@ -5,26 +5,25 @@
 // Mark Johnson, Brown University, 1st September 2007
 // Sharon Goldwater, University of Edinburgh, 30 April 2009
 
-// class S can be thought of as a string, but avoids copying characters
-// all over by simply storing pointers to begin/end indices in the global string
-// storing the entire data set.
+// class Subtring can be thought of as a string, but avoids copying
+// characters all over by simply storing pointers to begin/end indices
+// in the global string storing the entire data set.
 
-// all other classes are various base distributions to generate lexical
-// items.
+// all other classes are various base distributions to generate
+// lexical items.
 
 
 #include <iostream>
-#include <ext/hash_map>
+#include <random>
+//#include <ext/hash_map>
+//#include "Unigrams.h"
 
-#include "Unigrams.h"
-#include "mhs.h"    // random.h is included here
-#include "util.h"   // namespace tr1 defined here
 
-extern uniform01_type unif01;
+extern std::mt19937 unif01;
 
-//! S{} represents a substring (unigram) of d.data
-//
-class S {
+//! represents a substring (unigram) of d.data
+class Substring
+{
 public:
     typedef wchar_t value_type;
     typedef std::wstring::iterator iterator;
@@ -32,58 +31,127 @@ public:
 
     static std::wstring data;
 
-    S() { }
-    S(U start, U end) : _start(start), _length(end-start) { assert(start < end); assert(end <= data.size()); }
-    std::wstring string() const { return data.substr(_start, _length); }
-    U size() const { return _length; }
-    iterator begin() { return data.begin()+_start; }
-    iterator end() { return begin()+_length; }
-    const_iterator begin() const { return data.begin()+_start; }
-    const_iterator end() const { return begin()+_length; }
-    U begin_index() const { return _start;}
-    U end_index() const { return _start+_length-1;}
-    int compare(const S& s) const { return data.compare(_start, _length, data, s._start, s._length); }
-    bool operator== (const S& s) const { return compare(s) == 0; }
-    bool operator!= (const S& s) const { return compare(s) != 0; }
-    bool operator< (const S& s) const { return compare(s) < 0; }
-    friend std::wostream& operator<< (std::wostream& os, const S& s);
+    Substring()
+        {}
 
-    size_t hash() const {
-        size_t h = 0;
-        size_t g;
-        const_iterator p = begin();
-        const_iterator end = p+_length;
-        while (p!=end) {
-            h = (h << 4) + (*p++);
-            if ((g = h&0xf0000000)) {
-                h = h ^ (g >> 24);
-                h = h ^ g;
-            }}
-        return size_t(h);
-    }  // S::hash()
+    Substring(size_t start, size_t end)
+        : _start(start),
+          _length(end - start)
+        {
+            assert(start < end);
+            assert(end <= data.size());
+        }
+
+    std::wstring string() const
+        {
+            return data.substr(_start, _length);
+        }
+
+    size_t size() const
+        {
+            return _length;
+        }
+
+    iterator begin()
+        {
+            return data.begin() + _start;
+        }
+
+    iterator end()
+        {
+            return begin() + _length;
+        }
+
+    const_iterator begin() const
+        {
+            return data.begin() + _start;
+        }
+
+    const_iterator end() const
+        {
+            return begin() + _length;
+        }
+
+    size_t begin_index() const
+        {
+            return _start;
+        }
+
+    size_t end_index() const
+        {
+            return _start + _length - 1;
+        }
+
+    int compare(const Substring& s) const
+        {
+            return data.compare(_start, _length, data, s._start, s._length);
+        }
+
+    bool operator==(const Substring& s) const
+        {
+            return compare(s) == 0;
+        }
+
+    bool operator!=(const Substring& s) const
+        {
+            return compare(s) != 0;
+        }
+
+    bool operator<(const Substring& s) const
+        {
+            return compare(s) < 0;
+        }
+
+    friend std::wostream& operator<<(std::wostream& os, const Substring& s);
+
+    size_t hash() const
+        {
+            size_t h = 0;
+            size_t g;
+            const_iterator p = begin();
+            const_iterator end = p+_length;
+
+            while (p!=end)
+            {
+                h = (h << 4) + (*p++);
+                if((g = h&0xf0000000))
+                {
+                    h = h ^ (g >> 24);
+                    h = h ^ g;
+                }
+            }
+
+            return size_t(h);
+        }
+
 private:
-    U _start;
-    U _length;
-};  // S{}
+    size_t _start;
+    size_t _length;
+};
 
-namespace std { namespace tr1 {
-        //!  hash function object for S{}
-        //
-        template <> struct hash<S> : public std::unary_function<S,std::size_t> {
-            std::size_t operator() (const S& s) const { return s.hash(); }
-        };  // std::tr1::hash{}
-    } }  // namespace std::tr1
 
-#ifndef EXT_NAMESPACE
-#define EXT_NAMESPACE __gnu_cxx
-#endif
-
-namespace  EXT_NAMESPACE {
-    template <> struct hash<S>
+namespace std
+{
+    template <> struct hash<Substring> : public std::unary_function<Substring, std::size_t>
     {
-        size_t operator() (const S& s) const { return s.hash(); }
-    }; // hash<bool>{}
-}//namespace EXT
+        std::size_t operator()(const Substring& s) const
+            {
+                return s.hash();
+            }
+    };
+}
+
+
+// #ifndef EXT_NAMESPACE
+// #define EXT_NAMESPACE __gnu_cxx
+// #endif
+
+// namespace  EXT_NAMESPACE {
+//     template <> struct hash<S>
+//     {
+//         size_t operator() (const S& s) const { return s.hash(); }
+//     }; // hash<bool>{}
+// }//namespace EXT
 
 
 ////////// class UniformMultinomial //////////
@@ -246,38 +314,49 @@ public:
         assert(v.size() > 0);
         // assert(*v.begin() != '\n'); //only holds for unigram model
         F prob = 1;
-        cforeach (typename Xs, i, v) {
-            prob *= _char_probs(*i);
-        }
-        if (* v.begin() != '\n') {
+        for(const typename Xs::value_type& i: v)
+            prob *= _char_probs(i);
+
+        if (*v.begin() != '\n')
             prob *= _char_probs(' ');
-        }
+
         if (debug_level >= 100000) TRACE2(v,prob);
         return prob;
     }
+
     void insert(const Xs& v) {
         ++nstrings;
         if (debug_level >= 125000) TRACE(_logprob);
-        cforeach (typename Xs, i, v) {
-            _logprob += log(_char_probs.insert(*i));
+
+        for(const typename Xs::value_type& i: v)
+        {
+            _logprob += log(_char_probs.insert(i));
             if (debug_level >= 130000) TRACE(_logprob);
         }
-        if (* v.begin() != '\n') {
+
+        if (* v.begin() != '\n')
             _logprob += log(_char_probs.insert(' '));
-        }
-        if (debug_level >= 125000) TRACE(_logprob);
+
+        if (debug_level >= 125000)
+            TRACE(_logprob);
     }
-    void erase(const Xs& v) {
-        --nstrings;
-        cforeach (typename Xs, i, v) {
-            _char_probs.erase(*i);
-            _logprob -= log(_char_probs(*i));
+
+    void erase(const Xs& v)
+        {
+            --nstrings;
+            for(const typename Xs::value_type& i: v)
+            {
+                _char_probs.erase(i);
+                _logprob -= log(_char_probs(i));
+            }
+
+            if (* v.begin() != '\n')
+            {
+                _char_probs.erase(' ');
+                _logprob -= log(_char_probs(' '));
+            }
         }
-        if (* v.begin() != '\n') {
-            _char_probs.erase(' ');
-            _logprob -= log(_char_probs(' '));
-        }
-    }
+
     bool empty() const {return _char_probs.empty();}
     void clear() {
         nstrings = 0;
@@ -377,14 +456,14 @@ public:
         _char_probs.clear();
     }
     F logprob() const {return _logprob;}
-
 };  // BigramChars{}
 
 
-//typedef CharSeq<S> P0;
-typedef CharSeqLearned<S> P0;
-//typedef BigramChars<S> P0;
+//typedef CharSeq<Substring> P0;
+typedef CharSeqLearned<Substring> P0;
+//typedef BigramChars<Substring> P0;
 typedef UnigramsT<P0> Unigrams;
 typedef BigramsT<Unigrams> Bigrams;
+
 
 #endif
