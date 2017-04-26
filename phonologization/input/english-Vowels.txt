@@ -1,5 +1,1 @@
-a
-e
-i
-o
-u
+aeiou
