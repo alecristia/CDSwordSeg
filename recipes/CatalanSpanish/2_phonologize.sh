@@ -13,13 +13,13 @@ echo "ja estic funcionant" | phonemize -l ca # testing espeak
 
 #########VARIABLES#################
 #Variables to modify
-LANGUAGE="cspanish" #language options:  cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
+LANGUAGE="catalan" #language options:  cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
 
 
 PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
 #path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/big_corpora/RES_corpus_spa/"
+RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/big_corpora/RES_corpus_cat/"
 #this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/"
 # NOTICE THE / AT THE END OF THE NAME
 
@@ -67,8 +67,8 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/jɕʊ /Sɔ /g' |
 		sed 's/jɕʊ$/Sɔ/g' |
 	#	sed 's/jɕ/S/g' |
-		sed 's/ kotɕə / koTSE /g' |
-		sed 's/ kotɕə$/ koTSE/g' |
+		sed 's/ kotɕə / kotSE /g' |
+		sed 's/ kotɕə$/ kotSE/g' |
 	#	sed 's/tɕ/tS/g' |
 		sed 's/ɕ/S/g' |
 		sed 's/ɲ/N/g' |
