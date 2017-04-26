@@ -30,7 +30,7 @@ do
         echo Clusterizing ${VNAME}
         $PIPELINE --goldfile ${VERSION}/gold.txt \
                   --output-dir ${RESFOLDER}/${VNAME} \
-                  --algorithms AGc3sf AGu dibs dmcmc puddle TPs \
+                  --algorithms AGc3sf AGu dibs puddle TPs \
                   --ag-median 5 \
                   --clusterize \
                   --jobs-basename s${VNAME} \

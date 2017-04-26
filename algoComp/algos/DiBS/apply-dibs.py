@@ -18,13 +18,16 @@ def main():
     with codecs.open(args.trainfile, encoding='utf8') as fin:
         training.readstream(fin)
         phrasalDiBS = dibs.phrasal(training)
+#        baselineDiBS = dibs.baseline(training)
 
     with codecs.open(args.testfile, encoding='utf8') as fin:
         with codecs.open(args.outputfile, 'w', encoding='utf8') as fout:
             phrasalDiBS.test(fin, fout)
+#            baselineDiBS.test(fin, fout)
 
     with codecs.open(args.diphonefile, 'w', encoding='utf8') as fdiph:
         phrasalDiBS.save(fdiph)
+#        baselineDiBS.save(fdiph)
 
 
 if __name__ == '__main__':

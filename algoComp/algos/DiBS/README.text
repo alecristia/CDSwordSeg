@@ -10,7 +10,7 @@ awk '{gsub(";orth=.*",""); $1="";$2="";$3="";$4="";print}' lyon0_test.txt | sed 
 python apply-dibs.py clean_train.txt clean_test.txt dirty_output.txt
 
 sed "s/.*$(printf '\t')//" dirty_output.txt | sed 's/;eword/;aword/g' > lyon0_test_dibs.txt
-
+/Users/bootphonproject/Documents/LSCP/CDSwordSeg/algoComp/algos/DiBS/README.text
 
 
 
