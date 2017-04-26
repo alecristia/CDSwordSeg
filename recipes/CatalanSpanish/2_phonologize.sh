@@ -74,7 +74,10 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ɲ/N/g' |
 		sed 's/mp /m /g' |
 		sed 's/mp$/m/g' |
-		sed 's/kw/k/g' |
+		sed 's/kwi/ki/g' |
+		sed 's/kwe/ke/g' |
+		sed 's/kui/ki/g' |
+		sed 's/kue/ke/g' |
 		sed 's/ pɛrʊ / pərɔ /g' |
 		sed 's/ anəm / anem /g' |
 		sed 's/ɐ/a/g' |
