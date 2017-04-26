@@ -2,6 +2,19 @@
 
 using namespace std;
 
+
+
+inline void error(const char *s)
+{
+    std::cerr << "error: " << s << std::endl; abort(); exit(1);
+}
+
+inline void error(const std::string s)
+{
+    error(s.c_str());
+}
+
+
 Sentences
 Data::get_sentences() const {
     Sentences s;

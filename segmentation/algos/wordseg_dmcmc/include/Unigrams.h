@@ -1,8 +1,6 @@
 #ifndef _UNIGRAMS_H_
 #define _UNIGRAMS_H_
 
-// deprecated
-//#include <iostream.h>
 #include <iostream>
 //#include "Sentence.h"
 #include "mhs.h"

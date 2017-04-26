@@ -9,7 +9,17 @@
 
 extern std::wstring sep;  //!< separator used to separate fields during printing of results
 
-using namespace std;
+
+inline void error(const char *s)
+{
+    std::cerr << "error: " << s << std::endl; abort(); exit(1);
+}
+
+inline void error(const std::string s)
+{
+    error(s.c_str());
+}
+
 
 class ModelBase {
 public:
