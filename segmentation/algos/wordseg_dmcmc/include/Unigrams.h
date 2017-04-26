@@ -14,7 +14,7 @@ private:
   typedef PYAdaptor<Base> parent;
   typedef typename Base::argument_type V;
 public:
-  typedef tr1::unordered_map<V,typename parent::T> WordTypes;
+  typedef std::unordered_map<V,typename parent::T> WordTypes;
   UnigramsT(Base& base, uniform01_type& u01, F a=0, F b=1):
     parent(base, u01, a, b) { }
   const WordTypes& types() {return parent::label_tables;}
@@ -82,9 +82,9 @@ private:
 
 template <typename Base>
  //a set of bigram rest's
-class BigramsT: public tr1::unordered_map<typename Base::argument_type,PYAdaptor<Base> > {
+class BigramsT: public std::unordered_map<typename Base::argument_type,PYAdaptor<Base> > {
   typedef typename Base::argument_type V;
-  typedef typename tr1::unordered_map<typename Base::argument_type,PYAdaptor<Base> > parent;
+  typedef typename std::unordered_map<typename Base::argument_type,PYAdaptor<Base> > parent;
 public:
   typedef PYAdaptor<Base> BigramR; // single bigram restaurant
   typedef typename Base::argument_type argument_type;
@@ -106,7 +106,7 @@ public:
       if (debug_level >= 100000) TRACE2(w2,prob);
     }
     return prob;
-  } 
+  }
   F insert(const V& w1, const V& w2) {
     assert(_empty_bigram.empty());
     //b will be _empty_bigram if no restaurant for w1, otherwise
@@ -120,14 +120,14 @@ public:
     assert(it != parent::end());
     it->second.erase(w2);
     if (it->second.empty())
-      tr1::unordered_map<V,BigramR>::erase(it);
+      std::unordered_map<V,BigramR>::erase(it);
   }
   bool sanity_check() const {
     bool sane = 1;
     cforeach (typename BigramsT, it, *this)
       sane = sane && it->second.sanity_check();
     return sane;
-  } 
+  }
   friend std::wostream& operator<< (std::wostream& os, const BigramsT& b) {
     os << "unigrams: " << b._base << std::endl;
     cforeach (typename BigramsT, i, b) {

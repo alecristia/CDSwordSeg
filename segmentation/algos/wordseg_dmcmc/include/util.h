@@ -14,10 +14,9 @@
 #include <numeric>
 #include <sstream>
 #include <string>
+#include <unordered_map>
 #include <utility>
 #include <vector>
-
-#include <tr1/unordered_map>
 
 inline void error(const char *s)
 { std::cerr << "error: " << s << std::endl; abort(); exit(1); }
@@ -62,40 +61,40 @@ inline std::vector<double> operator/ (const std::vector<T>& t, double d) {
   return u;
 }
 
-// computes the mean of items in positions begin through end
-// (incl. begin, not incl. end).
-template<typename T>
-inline double mean (std::vector<T>& v, size_t begin=0, size_t end=0) {
-  if (end == 0) end = v.size();
-  assert(begin < end);
-  double t=0;
-  for (size_t i=begin; i<end; i++) {
-    t+=v[i];
-  }
-  return t/(end-begin);
-}
+// // computes the mean of items in positions begin through end
+// // (incl. begin, not incl. end).
+// template<typename T>
+// inline double mean (std::vector<T>& v, size_t begin=0, size_t end=0) {
+//   if (end == 0) end = v.size();
+//   assert(begin < end);
+//   double t=0;
+//   for (size_t i=begin; i<end; i++) {
+//     t+=v[i];
+//   }
+//   return t/(end-begin);
+// }
 
-template<typename T>
-inline double stdev (std::vector<T>& v) {
-  double m=mean(v);
-  double t=0;
-  for (size_t i=0; i<v.size(); i++) {
-    t+=(v[i]-m)*(v[i]-m);
-  }
-  return sqrt(t/v.size());
-}
+// template<typename T>
+// inline double stdev (std::vector<T>& v) {
+//   double m=mean(v);
+//   double t=0;
+//   for (size_t i=0; i<v.size(); i++) {
+//     t+=(v[i]-m)*(v[i]-m);
+//   }
+//   return sqrt(t/v.size());
+// }
 
 //returns a random double between 0 and n, inclusive
-inline double randd (int n=1) 
+inline double randd (int n=1)
 {return n * double(rand()) / RAND_MAX;}
 
 //returns a random int between 0 and n-1, inclusive
-inline int randi (int n) 
-{return int(floor(n * double(rand()) / RAND_MAX));}
+inline int randi (int n)
+{return int(std::floor(n * double(rand()) / RAND_MAX));}
 
 //returns a random int between n and m, inclusive
-inline int randi (int n, int m) 
-{return int(floor((m-n+1) * double(rand()) / RAND_MAX) + n);}
+inline int randi (int n, int m)
+{return int(std::floor((m-n+1) * double(rand()) / RAND_MAX) + n);}
 
 //returns 2 random gaussians
 inline std::pair<double,double> rand_normals (double mean=0, double std=1) {
@@ -118,12 +117,12 @@ inline double normal_density (double val, double mean=0, double std=1) {
 
 inline double log_gamma_density(double x, double shape, double scale=1) {
   //note: gamma() and lgamma() both produce log of Gamma function.
-  return (shape-1)*log(x) - shape*log(scale) - lgamma(shape) - x/scale; 
+  return (shape-1)*log(x) - shape*log(scale) - lgamma(shape) - x/scale;
 }
 
 // define some useful macros
 
-#define HERE   __FILE__ << ":" << __LINE__ << " in " << __func__ 
+#define HERE   __FILE__ << ":" << __LINE__ << " in " << __func__
 
 #ifndef __STRING
 #define __STRING(x) #x
@@ -178,15 +177,15 @@ inline double log_gamma_density(double x, double shape, double scale=1) {
             << ", " << __STRING(expr6) << " = " << (expr6)                   \
             << ", " << __STRING(expr7) << " = " << (expr7) << std::endl
 
-#if (__GNUC__ > 3) || (__GNUC__ >= 3 && __GNUC_MINOR__ >= 1)
-#define EXT_NAMESPACE __gnu_cxx
-#else
-#define EXT_NAMESPACE std
-#endif
+// #if (__GNUC__ > 3) || (__GNUC__ >= 3 && __GNUC_MINOR__ >= 1)
+// #define EXT_NAMESPACE __gnu_cxx
+// #else
+// #define EXT_NAMESPACE std
+// #endif
 
-namespace ext = EXT_NAMESPACE;
+// namespace ext = EXT_NAMESPACE;
 
-namespace tr1 = std::tr1;
+// namespace tr1 = std::tr1;
 
 ///////////////////////////////////////////////////////////////////////////
 //                                                                       //
@@ -214,7 +213,7 @@ namespace tr1 = std::tr1;
 
 
 
-namespace util {
+// namespace util {
 
   ///////////////////////////////////////////////////////////////////////////
   //                                                                       //
@@ -228,172 +227,161 @@ namespace util {
   //                                                                       //
   ///////////////////////////////////////////////////////////////////////////
 
-  //! dfind(Map, Key) returns the value Map associates with Key, or the
-  //!  Map's default value if no such Key exists
-  //
-  template <class Map, class Key>
-  inline typename Map::mapped_type dfind(const Map& m, const Key& k)
-  {
-    typename Map::const_iterator i = m.find(k);
-    if (i == m.end())
-      return typename Map::mapped_type();
-    else
-      return i->second;
-  }  // util::dfind()
+  // util::dfind()
 
-  //! afind(map, key) returns a reference to the value associated
-  //!  with key in map.  It uses assert to check that the key's value
-  //!  is defined.
-  //
-  template <class Map, class Key>
-  inline typename Map::mapped_type& afind(Map& m, const Key& k)
-  {
-    typename Map::iterator i = m.find(k);
-    assert(i != m.end());
-    return i->second;
-  }  // util::afind()
+  // // //! afind(map, key) returns a reference to the value associated
+  // // //!  with key in map.  It uses assert to check that the key's value
+  // // //!  is defined.
+  // // //
+  // // template <class Map, class Key>
+  // // inline typename Map::mapped_type& afind(Map& m, const Key& k)
+  // // {
+  // //   typename Map::iterator i = m.find(k);
+  // //   assert(i != m.end());
+  // //   return i->second;
+  // // }  // util::afind()
 
-  template <class Map, class Key>
-  inline const typename Map::mapped_type& afind(const Map& m, const Key& k)
-  {
-    typename Map::const_iterator i = m.find(k);
-    assert(i != m.end());
-    return i->second;
-  }  // util::afind()
+  // // template <class Map, class Key>
+  // inline const typename Map::mapped_type& afind(const Map& m, const Key& k)
+  // {
+  //   typename Map::const_iterator i = m.find(k);
+  //   assert(i != m.end());
+  //   return i->second;
+  // }  // util::afind()
 
-  //! incr() increments the value associated with key in map, deleting the key,value
-  //! pair if the incremented value is zero.
-  //
-  template <typename Map, typename Key, typename Inc>
-  inline typename Map::mapped_type incr(Map& m, const Key& k, Inc i) {
-    std::pair<typename Map::iterator, bool> itb = m.insert(typename Map::value_type(k,i));
-    if (itb.second==false && (itb.first->second += i) == typename Map::mapped_type()) {
-      m.erase(itb.first);
-      return typename Map::mapped_type();
-    }
-    else
-      return itb.first->second;    
-  }  // util::incr()
+  // //! incr() increments the value associated with key in map, deleting the key,value
+  // //! pair if the incremented value is zero.
+  // //
+  // template <typename Map, typename Key, typename Inc>
+  // inline typename Map::mapped_type incr(Map& m, const Key& k, Inc i) {
+  //   std::pair<typename Map::iterator, bool> itb = m.insert(typename Map::value_type(k,i));
+  //   if (itb.second==false && (itb.first->second += i) == typename Map::mapped_type()) {
+  //     m.erase(itb.first);
+  //     return typename Map::mapped_type();
+  //   }
+  //   else
+  //     return itb.first->second;
+  // }  // util::incr()
 
-  template <typename Map, typename Key>
-  inline typename Map::mapped_type incr(Map& m, const Key& k) { return incr(m, k, 1); }
+  // template <typename Map, typename Key>
+  // inline typename Map::mapped_type incr(Map& m, const Key& k) { return incr(m, k, 1); }
 
-  //! insert_newkey(map, key, value) checks that map does not contain
-  //! key, and binds key to value.
-  //
-  template <class Map, class Key, class Value>
-  inline typename Map::value_type& 
-  insert_newkey(Map& m, const Key& k,const Value& v) 
-  {
-    std::pair<typename Map::iterator, bool> itb 
-      = m.insert(Map::value_type(k, v));
-    assert(itb.second);
-    return *(itb.first);
-  }  // util::insert_newkey()
+  // //! insert_newkey(map, key, value) checks that map does not contain
+  // //! key, and binds key to value.
+  // //
+  // template <class Map, class Key, class Value>
+  // inline typename Map::value_type&
+  // insert_newkey(Map& m, const Key& k,const Value& v)
+  // {
+  //   std::pair<typename Map::iterator, bool> itb
+  //     = m.insert(Map::value_type(k, v));
+  //   assert(itb.second);
+  //   return *(itb.first);
+  // }  // util::insert_newkey()
 
-  ///////////////////////////////////////////////////////////////////////////
-  //                                                                       //
-  //                  insert and increment iterators                       //
-  //                                                                       //
-  ///////////////////////////////////////////////////////////////////////////
+  // ///////////////////////////////////////////////////////////////////////////
+  // //                                                                       //
+  // //                  insert and increment iterators                       //
+  // //                                                                       //
+  // ///////////////////////////////////////////////////////////////////////////
 
-  //! An assoc_insert_iterator inserts an object into an associative container.
-  //! This implementation is based on the Josuttis "The C++ Standard Library", p 289.
-  //
-  template <typename Container>
-  class assoc_insert_iterator : public std::iterator<std::output_iterator_tag,void,void,void,void> 
-  {
-  protected:
-    Container& container;           //!< container into which objects are inserted
-    
-  public:
-    explicit assoc_insert_iterator(Container& c) : container(c) { }
+  // //! An assoc_insert_iterator inserts an object into an associative container.
+  // //! This implementation is based on the Josuttis "The C++ Standard Library", p 289.
+  // //
+  // template <typename Container>
+  // class assoc_insert_iterator : public std::iterator<std::output_iterator_tag,void,void,void,void>
+  // {
+  // protected:
+  //   Container& container;           //!< container into which objects are inserted
 
-    //! operator= inserts value into container
-    //
-    assoc_insert_iterator<Container>& 
-    operator= (const typename Container::value_type& value) {
-      container.insert(value);
-      return *this;
-    }
+  // public:
+  //   explicit assoc_insert_iterator(Container& c) : container(c) { }
 
-    //! operator* is a no-op that returns the iterator
-    //
-    assoc_insert_iterator<Container>& operator* () { return *this; }
+  //   //! operator= inserts value into container
+  //   //
+  //   assoc_insert_iterator<Container>&
+  //   operator= (const typename Container::value_type& value) {
+  //     container.insert(value);
+  //     return *this;
+  //   }
 
-    //! operator++ is a no-op that returns the iterator
-    //
-    assoc_insert_iterator<Container>& operator++ () { return *this; }
+  //   //! operator* is a no-op that returns the iterator
+  //   //
+  //   assoc_insert_iterator<Container>& operator* () { return *this; }
 
-    //! operator++ is a no-op that returns the iterator
-    //
-    assoc_insert_iterator<Container>& operator++ (int) { return *this; }
-    
-  };  // util::assoc_insert_iterator{}
+  //   //! operator++ is a no-op that returns the iterator
+  //   //
+  //   assoc_insert_iterator<Container>& operator++ () { return *this; }
 
-  //! inserter() selects the right kind of insert_iterator for this container
-  //
-  template <typename Key, typename Value> inline assoc_insert_iterator<tr1::unordered_map<Key,Value> > 
-  inserter(tr1::unordered_map<Key,Value>& c) {
-    return assoc_insert_iterator<tr1::unordered_map<Key,Value> >(c);
-  }  // util::inserter()
+  //   //! operator++ is a no-op that returns the iterator
+  //   //
+  //   assoc_insert_iterator<Container>& operator++ (int) { return *this; }
 
-  template <typename Key, typename Value> inline assoc_insert_iterator<std::map<Key,Value> > 
-  inserter(std::map<Key,Value>& c) {
-    return assoc_insert_iterator<std::map<Key,Value> >(c);
-  }  // util::inserter()
+  // };  // util::assoc_insert_iterator{}
 
-  template <typename X> inline std::back_insert_iterator<std::vector<X> >
-  inserter(std::vector<X>& c) {
-    return std::back_insert_iterator<std::vector<X> >(c);
-  }  // util::inserter()
+  // //! inserter() selects the right kind of insert_iterator for this container
+  // //
+  // template <typename Key, typename Value> inline assoc_insert_iterator<std::unordered_map<Key,Value> >
+  // inserter(std::unordered_map<Key,Value>& c) {
+  //   return assoc_insert_iterator<std::unordered_map<Key,Value> >(c);
+  // }  // util::inserter()
 
-  //! An assoc_increment_iterator increments the count associated with a key by 1
-  //
-  template <typename Container>
-  class assoc_increment_iterator : public std::iterator<std::output_iterator_tag,void,void,void,void> 
-  {
-  protected:
-    Container& container;           //!< container into which objects are inserted
-    
-  public:
-    explicit assoc_increment_iterator(Container& c) : container(c) { }
+  // template <typename Key, typename Value> inline assoc_insert_iterator<std::map<Key,Value> >
+  // inserter(std::map<Key,Value>& c) {
+  //   return assoc_insert_iterator<std::map<Key,Value> >(c);
+  // }  // util::inserter()
 
-    //! operator= inserts value into container
-    //
-    assoc_increment_iterator<Container>& 
-    operator= (const typename Container::key_type& key) {
-      incr(container, key);
-      return *this;
-    }
+  // template <typename X> inline std::back_insert_iterator<std::vector<X> >
+  // inserter(std::vector<X>& c) {
+  //   return std::back_insert_iterator<std::vector<X> >(c);
+  // }  // util::inserter()
 
-    //! operator* is a no-op that returns the iterator
-    //
-    assoc_increment_iterator<Container>& operator* () { return *this; }
+  // //! An assoc_increment_iterator increments the count associated with a key by 1
+  // //
+  // template <typename Container>
+  // class assoc_increment_iterator : public std::iterator<std::output_iterator_tag,void,void,void,void>
+  // {
+  // protected:
+  //   Container& container;           //!< container into which objects are inserted
 
-    //! operator++ is a no-op that returns the iterator
-    //
-    assoc_increment_iterator<Container>& operator++ () { return *this; }
+  // public:
+  //   explicit assoc_increment_iterator(Container& c) : container(c) { }
 
-    //! operator++ is a no-op that returns the iterator
-    //
-    assoc_increment_iterator<Container>& operator++ (int) { return *this; }
-    
-  };  // util::assoc_increment_iterator{}
+  //   //! operator= inserts value into container
+  //   //
+  //   assoc_increment_iterator<Container>&
+  //   operator= (const typename Container::key_type& key) {
+  //     incr(container, key);
+  //     return *this;
+  //   }
 
-  //! incrementer() selects the right kind of increment_iterator for this container
-  //
-  template <typename Key, typename Value> inline assoc_increment_iterator<tr1::unordered_map<Key,Value> > 
-  incrementer(tr1::unordered_map<Key,Value>& c) {
-    return assoc_increment_iterator<tr1::unordered_map<Key,Value> >(c);
-  }  // util::incrementer()
+  //   //! operator* is a no-op that returns the iterator
+  //   //
+  //   assoc_increment_iterator<Container>& operator* () { return *this; }
 
-  template <typename Key, typename Value> inline assoc_increment_iterator<std::map<Key,Value> > 
-  incrementer(std::map<Key,Value>& c) {
-    return assoc_increment_iterator<std::map<Key,Value> >(c);
-  }  // util::incrementer()
+  //   //! operator++ is a no-op that returns the iterator
+  //   //
+  //   assoc_increment_iterator<Container>& operator++ () { return *this; }
 
-  
+  //   //! operator++ is a no-op that returns the iterator
+  //   //
+  //   assoc_increment_iterator<Container>& operator++ (int) { return *this; }
+
+  // };  // util::assoc_increment_iterator{}
+
+  // //! incrementer() selects the right kind of increment_iterator for this container
+  // //
+  // template <typename Key, typename Value> inline assoc_increment_iterator<std::unordered_map<Key,Value> >
+  // incrementer(std::unordered_map<Key,Value>& c) {
+  //   return assoc_increment_iterator<std::unordered_map<Key,Value> >(c);
+  // }  // util::incrementer()
+
+  // template <typename Key, typename Value> inline assoc_increment_iterator<std::map<Key,Value> >
+  // incrementer(std::map<Key,Value>& c) {
+  //   return assoc_increment_iterator<std::map<Key,Value> >(c);
+  // }  // util::incrementer()
+
+
   ///////////////////////////////////////////////////////////////////////////
   //                                                                       //
   //               simplified interface to standard functions              //
@@ -402,21 +390,13 @@ namespace util {
 
   //! sum() returns the sum of elements in a container
   //
-  template <typename Xs> inline typename Xs::value_type 
-  sum(const Xs& xs) {
-    typedef typename Xs::value_type X;
-    return std::accumulate(xs.begin(), xs.end(), X(), std::plus<X>());
-  }  // util::sum()
+  // template <typename Xs> inline typename Xs::value_type
+  // sum(const Xs& xs) {
+  //   typedef typename Xs::value_type X;
+  //   return std::accumulate(xs.begin(), xs.end(), X(), std::plus<X>());
+  // }  // util::sum()
 
-  //! sum_second() returns the sum of the second components of a container (e.g., a map)
-  //
-  template <typename XYs> inline typename XYs::value_type::second_type
-  sum_second(const XYs& xys) {
-    typename XYs::value_type::second_type sum=0;
-    cforeach (typename XYs, it, xys)
-      sum += it->second;
-    return sum;
-  }  // util::sum_second()
+ // util::sum_second()
 
   //! copy() appends all of the elements in Xs onto the end of Ys
   //
@@ -542,7 +522,7 @@ namespace util {
   //! are the same
   //
   template <typename K, typename V>
-  bool equal_contents(const tr1::unordered_map<K,V>& m1, const tr1::unordered_map<K,V>& m2) {
+  bool equal_contents(const std::unordered_map<K,V>& m1, const std::unordered_map<K,V>& m2) {
     if (m1.size() != m2.size())   // quick failure test
       return false;
     typedef std::pair<K,V> KV;
@@ -562,7 +542,7 @@ namespace util {
   //                          IO stream functions                          //
   //                                                                       //
   ///////////////////////////////////////////////////////////////////////////
-  
+
   //! Standard stream doesn't provide default conversion of narrow to wide.
   //
 //  inline std::wostream& operator<< (std::wostream & ostr,
@@ -589,71 +569,71 @@ namespace util {
     return os << ctime(&t);
   }  // util::date()
 
-  ///////////////////////////////////////////////////////////////////////////
-  //                                                                       //
-  //                             subsequence                               //
-  //                                                                       //
-  ///////////////////////////////////////////////////////////////////////////
+//   ///////////////////////////////////////////////////////////////////////////
+//   //                                                                       //
+//   //                             subsequence                               //
+//   //                                                                       //
+//   ///////////////////////////////////////////////////////////////////////////
 
-  //!< A subsequence is a contiguous subsequence of another sequence
-  //
-  template <typename Iterator>
-  struct subsequence {
-    typedef Iterator iterator;
-    typedef typename std::iterator_traits<Iterator> value_type;
+//   //!< A subsequence is a contiguous subsequence of another sequence
+//   //
+//   template <typename Iterator>
+//   struct subsequence {
+//     typedef Iterator iterator;
+//     typedef typename std::iterator_traits<Iterator> value_type;
 
-    Iterator first;   //!< value of begin()
-    Iterator second;  //!< value of end()
+//     Iterator first;   //!< value of begin()
+//     Iterator second;  //!< value of end()
 
-    subsequence(Iterator first, Iterator second) : first(first), second(second) { }
-    subsequence(Iterator start, size_t size) : first(start) { std::advance(start, size); second=start; }
+//     subsequence(Iterator first, Iterator second) : first(first), second(second) { }
+//     subsequence(Iterator start, size_t size) : first(start) { std::advance(start, size); second=start; }
 
-    Iterator begin() const { return first; }
-    Iterator end() const { return second; }
+//     Iterator begin() const { return first; }
+//     Iterator end() const { return second; }
 
-    template <typename Container>
-    bool operator== (const Container& c) const {
-      iterator it0  = begin();
-      typename Container::iterator it1 = c.begin();
-      while (it0 != end()) 
-	if (it1 == c.end() || *it0++ != *it1++)
-	  return false;
-      return it1 == c.end();
-    }  // util::subsequence::operator== ()
+//     template <typename Container>
+//     bool operator== (const Container& c) const {
+//       iterator it0  = begin();
+//       typename Container::iterator it1 = c.begin();
+//       while (it0 != end())
+// 	if (it1 == c.end() || *it0++ != *it1++)
+// 	  return false;
+//       return it1 == c.end();
+//     }  // util::subsequence::operator== ()
 
-    template <typename Container>
-    bool operator!= (const Container& c) const {
-      return ! operator==(c);
-    }  // util::subsequence::operator!= ()
+//     template <typename Container>
+//     bool operator!= (const Container& c) const {
+//       return ! operator==(c);
+//     }  // util::subsequence::operator!= ()
 
-    template <typename Container>
-    bool operator< (const Container& c) const { 
-      return std::lexicographical_compare(begin(), end(), c.begin(), c.end()); 
-    }  // util::subsequence::operator< ()
+//     template <typename Container>
+//     bool operator< (const Container& c) const {
+//       return std::lexicographical_compare(begin(), end(), c.begin(), c.end());
+//     }  // util::subsequence::operator< ()
 
-    template <typename Container>
-    bool operator> (const Container& c) const { 
-      return std::lexicographical_compare(c.begin(), c.end(), begin(), end()); 
-    }  // util::subsequence::operator< ()
+//     template <typename Container>
+//     bool operator> (const Container& c) const {
+//       return std::lexicographical_compare(c.begin(), c.end(), begin(), end());
+//     }  // util::subsequence::operator< ()
 
-    //! hash() computes a hash function for the container
-    //
-    size_t hash() const {
-      size_t h = 0; 
-      size_t g;
-      iterator p = begin();
-      while (p != end()) {
-	h = (h << 4) + (*p++);
-	if ((g = h&0xf0000000)) {
-	  h = h ^ (g >> 24);
-	  h = h ^ g;
-	}}
-      return size_t(h);
-    }  // util::subsequence::hash()
+//     //! hash() computes a hash function for the container
+//     //
+//     size_t hash() const {
+//       size_t h = 0;
+//       size_t g;
+//       iterator p = begin();
+//       while (p != end()) {
+// 	h = (h << 4) + (*p++);
+// 	if ((g = h&0xf0000000)) {
+// 	  h = h ^ (g >> 24);
+// 	  h = h ^ g;
+// 	}}
+//       return size_t(h);
+//     }  // util::subsequence::hash()
 
-  };  // util::subsequence{}
-  
-}  // namespace util
+//   };  // util::subsequence{}
+
+// }  // namespace util
 
 
 ///////////////////////////////////////////////////////////////////////////
@@ -662,26 +642,26 @@ namespace util {
 //                                                                       //
 ///////////////////////////////////////////////////////////////////////////
 
-namespace std { namespace tr1 {
+/* namespace std { namespace std { */
 
-  template <typename Iterator> struct hash<util::subsequence<Iterator> >
-    : public std::unary_function<util::subsequence<Iterator>, std::size_t> {
-    std::size_t operator() (const util::subsequence<Iterator>& s) { return s.hash(); }
-  };  // std::tr1::hash<util::subsequence>{}
+/*   template <typename Iterator> struct hash<util::subsequence<Iterator> > */
+/*     : public std::unary_function<util::subsequence<Iterator>, std::size_t> { */
+/*     std::size_t operator() (const util::subsequence<Iterator>& s) { return s.hash(); } */
+/*   };  // std::std::hash<util::subsequence>{} */
 
-  //! hash function for arbitrary pairs.  This is actually not such a great hash;
-  //! particularly if the pairs are used to build arbitrary trees.
-  //
-  template <typename T1, typename T2> struct hash<std::pair<T1,T2> >
-    : public std::unary_function<std::pair<T1,T2>, std::size_t> {
-    std::size_t operator() (const std::pair<T1,T2>& p) const {
-      std::size_t h1 = hash<T1>()(p.first);
-      std::size_t h2 = hash<T2>()(p.second);
-      return h1 ^ (h1 >> 1) ^ h2 ^ (h2 << 1);
-    }
-  };  // std::tr1::hash<std::pair<T1,T2> >
+/*   //! hash function for arbitrary pairs.  This is actually not such a great hash; */
+/*   //! particularly if the pairs are used to build arbitrary trees. */
+/*   // */
+/*   template <typename T1, typename T2> struct hash<std::pair<T1,T2> > */
+/*     : public std::unary_function<std::pair<T1,T2>, std::size_t> { */
+/*     std::size_t operator() (const std::pair<T1,T2>& p) const { */
+/*       std::size_t h1 = hash<T1>()(p.first); */
+/*       std::size_t h2 = hash<T2>()(p.second); */
+/*       return h1 ^ (h1 >> 1) ^ h2 ^ (h2 << 1); */
+/*     } */
+/*   };  // std::std::hash<std::pair<T1,T2> > */
 
-} }  // namespace std::tr1
+/* } }  // namespace std::std */
 
 ///////////////////////////////////////////////////////////////////////////
 //                                                                       //
@@ -695,10 +675,10 @@ std::wostream& operator<< (std::wostream& os, const std::pair<X,Y>& xy) {
 }
 
 template <typename Key, typename Value>
-std::wostream& operator<< (std::wostream& os, const std::tr1::unordered_map<Key,Value>& k_v) {
+std::wostream& operator<< (std::wostream& os, const std::unordered_map<Key,Value>& k_v) {
   os << '(';
   const wchar_t* sep = "";
-  for (typename tr1::unordered_map<Key,Value>::const_iterator it=k_v.begin(); it!=k_v.end(); ++it) {
+  for (typename std::unordered_map<Key,Value>::const_iterator it=k_v.begin(); it!=k_v.end(); ++it) {
     os << sep << it->first << '=' << it->second;
     sep = ",";
   }
@@ -735,7 +715,7 @@ std::wostream& operator<< (std::wostream& os, const std::vector<Value>& vs) {
 //                                                                       //
 ///////////////////////////////////////////////////////////////////////////
 
-//! istream >> const char* consumes the characters from the istream.  
+//! istream >> const char* consumes the characters from the istream.
 //! Just as in scanf, a space consumes an arbitrary amount of whitespace.
 //
 inline std::istream& operator>> (std::istream& is, const char* cp)

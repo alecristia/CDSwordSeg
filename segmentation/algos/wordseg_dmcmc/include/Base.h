@@ -13,18 +13,17 @@
 // items.
 
 
+#include <cassert>
 #include <iostream>
-#include <ext/hash_map>
 
-#include "Unigrams.h"
-#include "mhs.h"    // random.h is included here
-#include "util.h"   // namespace tr1 defined here
+#include "mhs.h"
+#include "util.h"
 
 extern uniform01_type unif01;
 
-//! S{} represents a substring (unigram) of d.data
-//
-class S {
+// S{} represents a substring (unigram) of d.data
+class S
+{
 public:
     typedef wchar_t value_type;
     typedef std::wstring::iterator iterator;
@@ -32,58 +31,127 @@ public:
 
     static std::wstring data;
 
-    S() { }
-    S(U start, U end) : _start(start), _length(end-start) { assert(start < end); assert(end <= data.size()); }
-    std::wstring string() const { return data.substr(_start, _length); }
-    U size() const { return _length; }
-    iterator begin() { return data.begin()+_start; }
-    iterator end() { return begin()+_length; }
-    const_iterator begin() const { return data.begin()+_start; }
-    const_iterator end() const { return begin()+_length; }
-    U begin_index() const { return _start;}
-    U end_index() const { return _start+_length-1;}
-    int compare(const S& s) const { return data.compare(_start, _length, data, s._start, s._length); }
-    bool operator== (const S& s) const { return compare(s) == 0; }
-    bool operator!= (const S& s) const { return compare(s) != 0; }
-    bool operator< (const S& s) const { return compare(s) < 0; }
+    S()
+        {}
+
+    S(std::size_t start, std::size_t end)
+        : _start(start),
+          _length(end-start)
+        {
+            assert(start < end);
+            assert(end <= data.size());
+        }
+
+    std::wstring string() const
+        {
+            return data.substr(_start, _length);
+        }
+
+    std::size_t size() const
+        {
+            return _length;
+        }
+
+    iterator begin()
+        {
+            return data.begin()+_start;
+        }
+
+    iterator end()
+        {
+            return begin()+_length;
+        }
+
+    const_iterator begin() const
+        {
+            return data.begin()+_start;
+        }
+
+    const_iterator end() const
+        {
+            return begin()+_length;
+        }
+
+    std::size_t begin_index() const
+        {
+            return _start;
+        }
+
+    std::size_t end_index() const
+        {
+            return _start+_length-1;
+        }
+
+    int compare(const S& s) const
+        {
+            return data.compare(_start, _length, data, s._start, s._length);
+        }
+
+    bool operator== (const S& s) const
+        {
+            return compare(s) == 0;
+        }
+
+    bool operator!= (const S& s) const
+        {
+            return compare(s) != 0;
+        }
+
+    bool operator< (const S& s) const
+        {
+            return compare(s) < 0;
+        }
+
     friend std::wostream& operator<< (std::wostream& os, const S& s);
 
-    size_t hash() const {
-        size_t h = 0;
-        size_t g;
-        const_iterator p = begin();
-        const_iterator end = p+_length;
-        while (p!=end) {
-            h = (h << 4) + (*p++);
-            if ((g = h&0xf0000000)) {
-                h = h ^ (g >> 24);
-                h = h ^ g;
-            }}
-        return size_t(h);
-    }  // S::hash()
+    size_t hash() const
+        {
+            size_t h = 0;
+            size_t g;
+            const_iterator p = begin();
+            const_iterator end = p + _length;
+
+            while (p != end)
+            {
+                h = (h << 4) + (*p++);
+                if ((g = h&0xf0000000))
+                {
+                    h = h ^ (g >> 24);
+                    h = h ^ g;
+                }
+            }
+
+            return size_t(h);
+        }
+
 private:
-    U _start;
-    U _length;
-};  // S{}
+    std::size_t _start;
+    std::size_t _length;
+};
 
-namespace std { namespace tr1 {
-        //!  hash function object for S{}
-        //
-        template <> struct hash<S> : public std::unary_function<S,std::size_t> {
-            std::size_t operator() (const S& s) const { return s.hash(); }
-        };  // std::tr1::hash{}
-    } }  // namespace std::tr1
 
-#ifndef EXT_NAMESPACE
-#define EXT_NAMESPACE __gnu_cxx
-#endif
-
-namespace  EXT_NAMESPACE {
-    template <> struct hash<S>
+namespace std
+{
+    template <> struct hash<S> : public std::unary_function<S, std::size_t>
     {
-        size_t operator() (const S& s) const { return s.hash(); }
-    }; // hash<bool>{}
-}//namespace EXT
+        std::size_t operator()(const S& s) const
+            {
+                return s.hash();
+            }
+    };
+}
+
+
+/* #ifndef EXT_NAMESPACE */
+/* #define EXT_NAMESPACE __gnu_cxx */
+/* #endif */
+
+/* namespace  EXT_NAMESPACE { */
+/*     template <> struct hash<S> */
+/*     { */
+/*         size_t operator() (const S& s) const { return s.hash(); } */
+/*     }; // hash<bool>{} */
+/* }//namespace EXT */
 
 
 ////////// class UniformMultinomial //////////

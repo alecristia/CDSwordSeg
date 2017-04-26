@@ -1,13 +1,13 @@
 #ifndef _PARTICLE_H_
 #define _PARTICLE_H_
 
-#include <iostream.h>
+#include <iostream>
 #include "Unigrams.h"
 #include "Sentence.h"
 #include "Estimators.h"
 
 //June 09: have moved code into here and Particle.cc now that I'm not
-//working on multi-particle filter, to get it out of the way. 
+//working on multi-particle filter, to get it out of the way.
 //To start working on this again, may need to move back to Estimators.h
 //and Estimators.cc.  (Also commented out sme in mhs.h and main.cc).
 

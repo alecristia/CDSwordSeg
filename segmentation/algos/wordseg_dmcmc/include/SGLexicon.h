@@ -1,31 +1,27 @@
 #ifndef _SGLEXICON_H_
 #define _SGLEXICON_H_
 
-#include <ext/hash_map>
 #include <iostream>
 #include <string>
+#include <unordered_map>
 #include <utility>
 #include <vector>
+
 #include "util.h"
 
-#ifndef EXT_NAMESPACE
-#define EXT_NAMESPACE __gnu_cxx
-#endif
-
-namespace ext = EXT_NAMESPACE;
 
 //key_type must have ==, <, and hash()
 // (defined for most standard classes in Mark's utils.h)
 // this base class assumes that datatype is numeric,
 // although redefining inc and dec can change that.
 template <typename key_type, typename data_type>
-class SGLexiconBase: public ext::hash_map<key_type, data_type> {
+class SGLexiconBase: public std::unordered_map<key_type, data_type> {
   typedef typename std::pair<data_type, data_type> dd_t;
-  typedef typename ext::hash_map<typename SGLexiconBase::key_type, data_type> parent_t;
+  typedef typename std::unordered_map<typename SGLexiconBase::key_type, data_type> parent_t;
 public:
   typedef typename std::pair<typename SGLexiconBase::key_type, data_type> value_type;
-  typedef typename ext::hash_map<typename SGLexiconBase::key_type, data_type>::iterator iterator;
-  typedef typename ext::hash_map<typename SGLexiconBase::key_type, data_type>::const_iterator const_iterator;
+  typedef typename std::unordered_map<typename SGLexiconBase::key_type, data_type>::iterator iterator;
+  typedef typename std::unordered_map<typename SGLexiconBase::key_type, data_type>::const_iterator const_iterator;
   typedef typename std::vector<value_type> LexVector;
   typedef typename std::vector<value_type>::iterator LexVectorIter;
   typedef typename std::vector<value_type>::const_iterator LexVectorCIter;
@@ -124,7 +120,7 @@ protected:
   virtual data_type& operator[](const typename SGLexiconBase::key_type& s) {
     return parent_t::operator[](s);}
   virtual size_t size() {
-    return parent_t::size();} 
+    return parent_t::size();}
 
   struct first_lessthan {
     template <typename T1, typename T2>
@@ -148,8 +144,8 @@ class SGLexicon: public SGLexiconBase<key_type, data_type> {
   typedef SGLexiconBase<typename SGLexicon::key_type, data_type> parent_t;
 public:
   typedef typename std::pair<typename SGLexicon::key_type, data_type> value_type;
-  typedef typename ext::hash_map<typename SGLexicon::key_type, data_type>::iterator iterator;
-  typedef typename ext::hash_map<typename SGLexicon::key_type, data_type>::const_iterator const_iterator;
+  typedef typename std::unordered_map<typename SGLexicon::key_type, data_type>::iterator iterator;
+  typedef typename std::unordered_map<typename SGLexicon::key_type, data_type>::const_iterator const_iterator;
   SGLexicon() {}
   virtual ~SGLexicon() {}
   //don't know why I need these 4 in order to compile...

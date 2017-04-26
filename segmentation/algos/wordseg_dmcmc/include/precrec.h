@@ -13,6 +13,29 @@
 
 #include "util.h"
 
+//! sum_second() returns the sum of the second components of a container (e.g., a map)
+template <typename XYs> inline typename XYs::value_type::second_type
+sum_second(const XYs& xys) {
+    typename XYs::value_type::second_type sum=0;
+    cforeach (typename XYs, it, xys)
+        sum += it->second;
+    return sum;
+}
+
+
+// dfind(Map, Key) returns the value Map associates with Key, or the
+// Map's default value if no such Key exists
+template <class Map, class Key>
+inline typename Map::mapped_type dfind(const Map& m, const Key& k)
+{
+    typename Map::const_iterator i = m.find(k);
+    if (i == m.end())
+        return typename Map::mapped_type();
+    else
+        return i->second;
+}
+
+
 template <typename U=unsigned int, typename F=double>
 struct basic_precrec_type {
     typedef U unsigned_type;
@@ -39,10 +62,10 @@ struct basic_precrec_type {
         U ncorrect = 0;
         cforeach (typename TestKeyCounts, tit, tkc) {
             U t = tit->second;
-            U g = util::dfind(gkc, tit->first);
+            U g = dfind(gkc, tit->first);
             ncorrect += std::min(t, g);
         }
-        return precrec_type(U(util::sum_second(tkc)), U(util::sum_second(gkc)), ncorrect);
+        return precrec_type(U(sum_second(tkc)), U(sum_second(gkc)), ncorrect);
     }
 
     //! this static function constructs a precrec_type{} from a <key,count> map using type-based information
@@ -53,7 +76,7 @@ struct basic_precrec_type {
         U ncorrect = 0;
         cforeach (typename TestKeyCounts, tit, tkc) {
             U t = tit->second;
-            U g = util::dfind(gkc, tit->first);
+            U g = dfind(gkc, tit->first);
             if (t > 0 && g > 0)
                 ++ncorrect;
         }

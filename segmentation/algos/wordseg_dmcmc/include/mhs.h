@@ -17,7 +17,7 @@
 //!
 //! typedef S state_type                  -- type of hidden state information
 //!
-//! F operator()(const V& v) const        -- returns proposal prob of generating a v, 
+//! F operator()(const V& v) const        -- returns proposal prob of generating a v,
 //!                                          summing over all possible states
 //!
 //! F insert(const V& v)                  -- inserts v
@@ -35,9 +35,8 @@
 #include <iostream>
 #include <map>
 #include <numeric>
-#include <tr1/array>
-#include <tr1/functional>
-#include <tr1/unordered_map>
+#include <functional>
+#include <unordered_map>
 #include <utility>
 
 // #include "random.h"
@@ -74,18 +73,18 @@ protected:
   typedef argument_type V;
   typedef std::map<U,U> U_U;
 
-  struct T { 
+  struct T {
     U n;      //!< total number of customers at tables with this label
     U m;      //!< number of tables with this label
     U_U n_m;  //!< number of customers at table -> number of tables
-    
-    T() : n(), m() { } 
-    
+
+    T() : n(), m() { }
+
     //! insert_old() inserts a customer at a random old table
     //! using PY sampling distribution
     //
     void insert_old(F r, F a) { // when r is not positive, we have reached our table
-      for (U_U::iterator it = n_m.begin(); it != n_m.end(); ++it) 
+      for (U_U::iterator it = n_m.begin(); it != n_m.end(); ++it)
 	if ((r -= it->second * (it->first - a)) <= 0) {
 	  U n1 = it->first+1;  // new table size
 	  if (--it->second == 0)
@@ -114,7 +113,7 @@ protected:
     //
     U erase(I r) {
       --n;
-      for (U_U::iterator it = n_m.begin(); it != n_m.end(); ++it) 
+      for (U_U::iterator it = n_m.begin(); it != n_m.end(); ++it)
 	if ((r -= it->first * it->second) <= 0) {
 	  U n1 = it->first-1;  //!< new table size
 	  if (--it->second == 0)
@@ -138,7 +137,7 @@ protected:
       U mm = 0, nn = 0;
       cforeach (U_U, it, n_m) {
 	assert(n > 0);   // shouldn't have any empty tables
-	assert(m > 0);  
+	assert(m > 0);
 	mm += it->second;
 	nn += it->first * it->second;
       }
@@ -155,7 +154,7 @@ protected:
 
   };  // PYAdaptor::T{}
 
-  typedef tr1::unordered_map<V,T> V_T;
+  typedef std::unordered_map<V,T> V_T;
   V_T label_tables;
   ///////////////////////////////////////////////////
   ////////// public functions for PYAdaptor /////////
@@ -163,7 +162,7 @@ protected:
  public:
   PYAdaptor(Base& base, uniform01_type& u01, F a, F b):
     base(base), u01(u01), a(a), b(b), m(), n() {}
-    //note that copies of the adaptor will have a reference to the 
+    //note that copies of the adaptor will have a reference to the
     //same base distribution (useful for hierarchical models)
     /*
 //  sg: need to figure out and test these if I do a particle filter;
@@ -207,7 +206,7 @@ public:
     return sum_p;
   }  // PYAdaptor::operator()
 
-  //! insert() adds a customer to a table, and returns its 
+  //! insert() adds a customer to a table, and returns its
   // (predictive) probability
   //
   F insert(const V& v) {
