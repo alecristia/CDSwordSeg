@@ -5,8 +5,8 @@
 #include <string>
 #include <vector>
 
-// #include "mhs.h"    // random.h is included here
-//#include "util.h"   // namespace tr1 defined here
+#include "mhs.h"    // random.h is included here
+#include "util.h"   // namespace tr1 defined here
 //#include "SGLexicon.h"
 #include "Unigrams.h"
 #include "Base.h"
@@ -22,10 +22,9 @@ typedef std::vector<I> Is;
 class Data;
 class Scoring;
 
-class Sentence: public Substring
-{
+class Sentence: public S {
 public:
-    typedef std::vector<Substring> Words;
+    typedef std::vector<S> Words;
     typedef Words::const_iterator Words_iterator;
 
     Sentence() {}
@@ -56,10 +55,9 @@ private:
     Us _padded_possible; // for use with dynamic programming
     Bs _true_boundaries;
     const Data* _constants;
-    Substring word_at(U left, U right) const
-        {
-            return Substring(left + begin_index(), right + begin_index());
-        }
+    S word_at(U left, U right) const {
+        return S(left + begin_index(), right + begin_index());
+    }
     Words get_words(const Bs& boundaries) const;
     void insert(U left, U right, Unigrams& lex) const;
     void erase(U left, U right, Unigrams& lex) const;
@@ -69,7 +67,7 @@ private:
     F p_bigram(U i1, U i, U i2, const Bigrams& lex) const;
     F prob_boundary(U i0, U i1, U i, U i2, U i3, const Bigrams& lex, F temperature) const;
     void surrounding_boundaries(U i, U& i0, U& i1, U& i2, U& i3) const;
-    F mbdp_prob(Unigrams& lex, const Substring& word, U nsentences) const;
+    F mbdp_prob(Unigrams& lex, const S& word, U nsentences) const;
 };
 
 typedef std::vector<Sentence> Sentences;

@@ -76,7 +76,6 @@ setup(
     entry_points={'console_scripts': [
         'wordseg-launcher = segmentation.wordseg_launcher:main',
         'wordseg-prep = segmentation.wordseg_prep:main',
-        'wordseg-stats = segmentation.wordseg_stats:main',
         'wordseg-gold = segmentation.wordseg_gold:main',
         'wordseg-eval = segmentation.wordseg_eval:main',
         'wordseg-dibs = segmentation.algos.wordseg_dibs:main',

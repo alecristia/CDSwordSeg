@@ -1,0 +1,5 @@
+* TODO add --unit [phone/syllable] option to segment.py
+  integrate algoComp/InputPipeline.py as a function in segment.py
+* TODO write a setup.py
+  auto install dmcmc and AG (boost + make)
+* TODO Write a pipeline interface class in python

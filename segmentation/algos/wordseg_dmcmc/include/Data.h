@@ -6,7 +6,10 @@
 #ifndef DATA_H
 #define DATA_H
 
+
+#include <fstream>
 #include <iostream>
+#include <set>
 #include <string>
 #include <unordered_map>
 #include <vector>
@@ -15,15 +18,15 @@
 
 extern U debug_level;
 
-typedef std::unordered_map<Substring, std::size_t> S_U;
+typedef std::unordered_map<S,U> S_U;
 typedef std::vector<S_U> S_Us;
-typedef std::pair<Substring, Substring> SS;
+typedef std::pair<S,S> SS;
 typedef std::vector<SS> TestPairs;
 
-//! Data{} holds training and evaluation data, as well as model
-//! parameters.  The idea is that there is one shared Data{} object,
-//! read by multiple models (perhaps being computed in multiple
-//! threads)
+//! Data{} holds training and evaluation data, as well as model parameters.
+//! The idea is that there is one shared Data{} object, read by multiple models
+//! (perhaps being computed in multiple threads)
+//
 class Data {
 public:
 
