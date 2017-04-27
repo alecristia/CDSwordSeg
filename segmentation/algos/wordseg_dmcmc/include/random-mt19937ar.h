@@ -19,7 +19,7 @@
 #define RANDOM_MT19937AR_H
 
 
-// This code is based on the program mt19937ar.c.  That file begins
+// This code is based on the program mt19937ar.cc.  That file begins
 // with this header.
 
 /*
@@ -220,7 +220,7 @@ struct uniform01_type {
   //
   void seed(unsigned long s) { mt_init_genrand(s); }
 
-};  // uniform01_type{}
+};
 
 /*
 #include <stdio.h>

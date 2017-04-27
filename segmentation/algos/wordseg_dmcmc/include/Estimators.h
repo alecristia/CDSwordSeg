@@ -39,17 +39,25 @@ inline void error(const std::string s)
 }
 
 
-class ModelBase {
+class ModelBase
+{
 public:
     ModelBase(Data*);
-    virtual ~ModelBase() {}
+
+    virtual ~ModelBase();
+
     virtual bool sanity_check() const = 0;
+
     virtual F log_posterior() const = 0;
+
     virtual void estimate(
         U iters, std::wostream& os, U eval_iters = 0,
         F temperature = 1, bool maximize = false, bool is_decayed = false) = 0;
+
     virtual void run_eval(std::wostream& os, F temperature = 1, bool maximize = false) = 0;
+
     virtual Fs predict_pairs(const TestPairs& test_pairs) const = 0;
+
     virtual void print_segmented(std::wostream& os) const = 0;
     virtual void print_lexicon(std::wostream& os) const = 0;
     virtual void print_scores(std::wostream& os) = 0;
@@ -60,13 +68,17 @@ protected:
     Sentences _eval_sentences;
     U _nsentences_seen;
     Scoring _scoring;
+
     void resample_pya(Unigrams& lex);
     void resample_pyb(Unigrams& lex);
+
     virtual Bs hypersample(Unigrams& lex, F temperature);
     virtual Bs hypersample(Unigrams& ulex, Bigrams& lex, F temperature);
     virtual bool sample_hyperparm(F& beta, bool is_prob, F temperature);
+
     F log_posterior(const Unigrams& lex) const;
     F log_posterior(const Unigrams& ulex, const Bigrams& lex) const;
+
     Fs predict_pairs(const TestPairs& test_pairs, const Unigrams& lex) const
         {
             Fs probs;
@@ -81,11 +93,12 @@ protected:
             return probs;
         }
 
-    Fs predict_pairs(const TestPairs& test_pairs, const Bigrams& lex) const {
-        Fs probs;
-        error("ModelBase::predict_pairs is not implemented for bigram models\n");
-        return probs;
-    }
+    Fs predict_pairs(const TestPairs& test_pairs, const Bigrams& lex) const
+        {
+            Fs probs;
+            error("ModelBase::predict_pairs is not implemented for bigram models\n");
+            return probs;
+        }
 
     void print_segmented_sentences(std::wostream& os, const Sentences& sentences) const
         {

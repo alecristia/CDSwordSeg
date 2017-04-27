@@ -24,7 +24,9 @@
 #include <cmath>
 #include <limits>
 
-#include "gammadist.h"
+#include "Unigrams.h"
+#include "Base.h"
+
 
 //! slice_sampler_rfc_type{} returns the value of a user-specified
 //! function if the argument is within range, or - infinity otherwise
@@ -151,15 +153,34 @@ F slice_sampler1d(const LogF& logF0,               //!< log of function to sampl
 }
 
 
-//////////////////////////////////////////////////////////////////////
-//                                                                  //
-//                   Resample pya and pyb                           //
-//                                                                  //
-//////////////////////////////////////////////////////////////////////
+/* lbetadist() returns the log probability density of x under a
+   Beta(alpha,beta) distribution.
+*/
+inline double lbetadist(double x, double alpha, double beta)
+{
+    assert(x > 0);
+    assert(x < 1);
+    assert(alpha > 0);
+    assert(beta > 0);
+    return (alpha - 1) * std::log(x) + (beta - 1) * std::log(1 - x)
+        + std::lgamma(alpha + beta) - lgamma(alpha) - lgamma(beta);
+}
 
 
-//! pya_logPrior() calculates the Beta prior on pya.
-static F pya_logPrior(F pya, F pya_beta_a, F pya_beta_b)
+/* lgammadist() returns the log probability density of x under a
+   Gamma(alpha,beta) distribution
+*/
+inline double lgammadist(double x, double alpha, double beta)
+{
+    assert(alpha > 0);
+    assert(beta > 0);
+    return (alpha - 1) * std::log(x) - alpha * std::log(beta) - x / beta - std::lgamma(alpha);
+}
+
+
+
+// pya_logPrior() calculates the Beta prior on pya.
+static double pya_logPrior(double pya, double pya_beta_a, double pya_beta_b)
 {
     // prior for pya
     F prior = lbetadist(pya, pya_beta_a, pya_beta_b);
@@ -167,9 +188,9 @@ static F pya_logPrior(F pya, F pya_beta_a, F pya_beta_b)
 }
 
 
-//! pyb_logPrior() calculates the prior probability of pyb
-//! wrt the Gamma prior on pyb.
-static F pyb_logPrior(F pyb, F pyb_gamma_c, F pyb_gamma_s)
+// pyb_logPrior() calculates the prior probability of pyb wrt the
+// Gamma prior on pyb.
+static double pyb_logPrior(double pyb, double pyb_gamma_c, double pyb_gamma_s)
 {
     // prior for pyb
     F prior = lgammadist(pyb, pyb_gamma_c, pyb_gamma_s);
@@ -177,10 +198,10 @@ static F pyb_logPrior(F pyb, F pyb_gamma_c, F pyb_gamma_s)
 }
 
 
-//! resample_pyb_type{} is a function object that returns the part of
-//! log prob that depends on pyb.  This includes the Gamma prior on
-//! pyb, but doesn't include e.g. the rule probabilities (as these are
-//! a constant factor)
+// resample_pyb_type{} is a function object that returns the part of
+// log prob that depends on pyb.  This includes the Gamma prior on
+// pyb, but doesn't include e.g. the rule probabilities (as these are
+// a constant factor)
 struct resample_pyb_type
 {
     Unigrams& lex;
