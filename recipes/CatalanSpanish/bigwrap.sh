@@ -15,8 +15,8 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/big_corpora/segcatspares_
 #./1_selAndClean.sh $PROCESSED_FOLDER  || exit 1
 
 # Phonologize the ortholines files
-#Language=cspanish
-#Language=catalan
+#Language1=cspanish
+#Language2=catalan
 #./2_phonologize.sh $PROCESSED_FOLDER  || exit 1
 
 # Concatenate
@@ -29,18 +29,20 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/big_corpora/segcatspares_
 #./3_concatenate_mono.sh ${PROCESSED_FOLDER}spa  ${CONCATENATED_FOLDER}spa
 #./3_concatenate_mono.sh ${PROCESSED_FOLDER}cat  ${CONCATENATED_FOLDER}cat
 
-#rm -r ${CONCATENATED_FOLDER}bil/100/*
-#rm -r ${CONCATENATED_FOLDER}bil/2/*
-#./3b_concatenate_bil.sh ${PROCESSED_FOLDER}  ${CONCATENATED_FOLDER}bil
-#echo "done concatenating"
+#This step is to create an artificial bilingual coprus, here we are mixing each 4 and 100 lines
+rm -r ${CONCATENATED_FOLDER}bil_all/100/*
+rm -r ${CONCATENATED_FOLDER}bil_all/4/*
+./3b_concatenate_bil.sh ${PROCESSED_FOLDER} ${CONCATENATED_FOLDER}bil_all
+echo "done concatenating"
 
-# include head and tail MODIFY ! # note, this step is just used with the big corpus!
-#divide=2
-#./4_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_head
-#./4_cut.sh ${CONCATENATED_FOLDER}bil ${CONCATENATED_FOLDER}bil_tail
+# The bilingual copora is double size than the monolinguals, this step divides it in two parts
+divide_half=2
+#rm -r ${CONCATENATED_FOLDER}bil_half/*
+./4_cut.sh ${CONCATENATED_FOLDER}bil_all/4 ${CONCATENATED_FOLDER}bil_half ${divide_half}
+#./4_cut.sh ${CONCATENATED_FOLDER}bil_all/100 ${CONCATENATED_FOLDER}bil_tail
 
 # note, this step is just used with the big corpus!
-#divide=10
+#divide_multiple_subparts=10
 #./4_cut.sh ${CONCATENATED_FOLDER}spa/2 ${CONCATENATED_FOLDER}spa_10/2
 #./4_cut.sh ${CONCATENATED_FOLDER}spa/100 ${CONCATENATED_FOLDER}spa_10/100
 #./4_cut.sh ${CONCATENATED_FOLDER}spa/4 ${CONCATENATED_FOLDER}spa_10/4
@@ -88,7 +90,7 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/big_corpora/segcatspares_
 #rm ${RES_FOLDER}bil_head/results.txt
 #rm ${RES_FOLDER}bil_tail/results.txt
 #rm ${RES_FOLDER}bil/results.txt
-rm ${RES_FOLDER}bil_head_10/2/results.txt
+#rm ${RES_FOLDER}bil_head_10/2/results.txt
 #./6_collapse_results.sh ${RES_FOLDER}spa_10/100
 #./6_collapse_results.sh ${RES_FOLDER}spa_10/2
 #./6_collapse_results.sh ${RES_FOLDER}spa_10/4
@@ -98,5 +100,5 @@ rm ${RES_FOLDER}bil_head_10/2/results.txt
 #./6_collapse_results.sh ${RES_FOLDER}bil_head
 #./6_collapse_results.sh ${RES_FOLDER}bil_tail
 #./6_collapse_results.sh ${RES_FOLDER}bil
-./6_collapse_results.sh ${RES_FOLDER}bil_head_10/2
-echo "done collapsing results"
+#./6_collapse_results.sh ${RES_FOLDER}bil_head_10/2
+#echo "done collapsing results"

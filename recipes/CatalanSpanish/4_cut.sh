@@ -8,7 +8,7 @@
 input=$1
 output=$2
 
-divide=10 # Modify this line to divide the corpus in a specific number of sub-parts
+divide=$3 # Modify this line to divide the corpus in a specific number of sub-parts
 
 mkdir -p ${output}
 
