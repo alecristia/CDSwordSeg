@@ -156,9 +156,9 @@ def segment(text, nfolds=5, njobs=1,
     log.debug('converting output back from unicode')
     unit_mapping = {v: k for k, v in unicode_mapping.items()}
     unit_mapping[' '] = ' '
-    segmented_text = [''.join(unit_mapping[char] for char in utt) for utt in output_text]
+    segmented_text = (''.join(unit_mapping[char] for char in utt) for utt in output_text)
 
-    return segmented_text
+    return (utt for utt in segmented_text if utt)
 
 
 class Argument(object):
