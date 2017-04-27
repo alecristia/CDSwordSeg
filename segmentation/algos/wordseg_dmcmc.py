@@ -17,7 +17,34 @@
 
 """Bayesian word segmentation algorithm.
 
-See Goldwater, Griffiths, Johnson (2010) and Phillips & Pearl (2014)
+See Goldwater, Griffiths, Johnson (2010) and Phillips & Pearl (2014).
+
+1. Uses a hierarchical Pitman-Yor process rather than a hierarchical
+   Dirichlet process model.  The HDP model can be recovered by setting
+   the PY parameters appropriately (set --a1 and --a2 to 0, --b1 and
+   --b2 then correspond to the HDP parameters).
+
+2. Implements several different estimation procedures, including the
+   original Gibbs sampler (*flip sampler*) as well as a sentence-based
+   Gibbs sampler that uses dynamic programming (*tree sampler*) and a
+   similar dynamic programming algorithm that chooses the best
+   segmentation of each utterance rather than a sample.  The latter
+   two algorithms can be run either in batch mode or in online mode.
+   If in online mode, they can also be set to "forget" parts of the
+   previously analysis.  This is described in more detail below.
+
+3. Functionality for using separate training and testing files.  If
+   you provide an evaluation file, the program will first run through
+   its full training procedure (i.e., using whichever algorithm for
+   however many iterations, kneeling, etc.).  After that, it will
+   freeze the lexicon in whatever state it is in and then make a
+   single pass through the evaluation data, segmenting each sentence
+   according to the probabilities computed from the frozen lexicon.
+   No new words/counts will be added to the lexicon during evaluation.
+   Evaluation can be set to either sample segmentations or choose the
+   maximum probability segmentation for each utterance.  Scores will
+   be printed out at the end of the complete run based on either the
+   evaluation data (if provided) or the training data (if not).
 
 """
 

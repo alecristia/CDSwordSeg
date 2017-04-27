@@ -203,7 +203,11 @@ int main(int argc, char** argv) {
          "number of training sentences to use (0 = all)")
 
         ("eval-file", po::value<std::string>(),
-         "testing data file (default is training file)")
+         "testing data file (default is training file). "
+         "If no eval-file is listed, evaluation will be on the training file. "
+         "Note that listing the same file for both training and testing has "
+         "different functionality than not listing a test file, due to the way "
+         "that the test file is segmented.")
 
         ("eval-start-index", po::value<U>()->default_value(0),
          "sentence index to start reading eval data file")
@@ -215,13 +219,17 @@ int main(int argc, char** argv) {
          "1 = choose max prob segmentation of test sentences, 0 (default) = sample instead")
 
         ("eval-interval", po::value<U>()->default_value(0),
-         "how frequently eval set is evaluated, 0 (default) = don't evaluate before training is done")
+         "how many iterations are run before the test set is evaluated, 0 "
+         "(default) means to only evaluate the test set after all iterations "
+         "are complete.w")
 
         ("output-file,o", po::value<std::string>(),
          "segmented output file")
 
         ("estimator", po::value<std::string>()->default_value("F"),
-         "possible values are: V(iterbi), F(lip), T(ree), D(ecayed Flip)")
+         "possible values are: V(iterbi), F(lip), T(ree), D(ecayed Flip). "
+         "Viterbi does dynamic programming maximization, Tree does dynamic "
+         "programming sampling, Flip does original Gibbs sampler.")
 
         ("decay-rate", po::value<F>()->default_value(1.0),
          "decay rate for D(ecayed Flip), default = 1.0")
@@ -253,6 +261,9 @@ int main(int argc, char** argv) {
         ("Pstop", po::value<F>(&data.Pstop)->default_value(0.5),
          "Monkey model stop probability")
 
+        // not completely sure that hyper parameter sampling is
+        // working correctly yet. However it does yield pretty good
+        // results when using all four PY parameters.
         ("hypersamp-ratio", po::value<F>(&data.hypersampling_ratio)->default_value(0.1),
          "Standard deviation for new hyperparm proposals (0 turns off hyperp sampling)")
 
@@ -295,19 +306,18 @@ int main(int argc, char** argv) {
          "Number of utterances whose words can be remembered")
 
         ("burnin-iterations,i", po::value<U>(&data.burnin_iterations)->default_value(2000),
-         "Number of burn-in epochs")
+         "Number of burn-in epochs. This is actually the total number of "
+         "iterations through the training data.")
 
         ("anneal-iterations", po::value<U>(&data.anneal_iterations)->default_value(0),
-         "Number of epochs to anneal for")
+         "Number of epochs to anneal for. So e.g. burn-in = 100 and anneal = 90 "
+         "would leave 10 iters at the end at the final annealing temp.")
 
         ("anneal-start-temperature", po::value<F>(&data.anneal_start_temperature)->default_value(1),
          "Start annealing at this temperature")
 
         ("anneal-stop-temperature", po::value<F>(&data.anneal_stop_temperature)->default_value(1),
          "Stop annealing at this temperature")
-
-        // ("anneal-a", po::value<F>(&data.anneal_a)->default_value(10),
-        // "Parameter in annealing temperature sigmoid function")
 
         ("anneal-a", po::value<F>(&data.anneal_a)->default_value(0),
          "Parameter in annealing temperature sigmoid function (0 = use ACL06 schedule)")

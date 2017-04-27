@@ -5,20 +5,18 @@ Algorithms
 
    Write here all you want about the different algorithms
 
-adaptor grammar
----------------
 
-DiBS
-----
+wordseg-ag
+----------
 
-dmcmc
------
+wordseg-dibs
+------------
 
-ngrams
-------
+wordseg-dmcmc
+-------------
 
-puddle
-------
+wordseg-puddle
+--------------
 
-TPs
----
+wordseg-tps
+-----------

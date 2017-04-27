@@ -116,7 +116,9 @@ def get_parser(description=None, separator=Separator()):
     input/output arguments for opening files/streams
 
     """
-    parser = argparse.ArgumentParser(description=description)
+    parser = argparse.ArgumentParser(
+        description=description,
+        formatter_class=argparse.RawDescriptionHelpFormatter)
 
     # add verbose/quiet options to control log level
     group = parser.add_mutually_exclusive_group()
