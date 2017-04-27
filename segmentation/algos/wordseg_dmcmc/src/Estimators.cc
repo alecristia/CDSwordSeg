@@ -1,3 +1,21 @@
+/*
+  Copyright 2007 Mark Johnson
+  Copyright 2009 Sharon Goldwater
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
 #include "Estimators.h"
 
 #include <cmath>
@@ -96,7 +114,8 @@ ModelBase::log_posterior(const Unigrams& ulex, const Bigrams& lex) const {
     F lp2 = ulex.logprob(); // unigram table probabilities
     if (debug_level >= 110000) TRACE(lp2);
     F lp3 = 0;
-    cforeach (Bigrams, it, lex) {
+    cforeach (Bigrams, it, lex)
+    {
         lp3 += it->second.logprob(); // bigram table probabilities
         if (debug_level >= 125000) TRACE2(it->first,lp3);
     }
@@ -321,7 +340,7 @@ BatchUnigram::estimate(U iters, wostream& os, U eval_iters,
     for (U i=1; i <= iters; i++) {
         //U nchanged = 0; // if need to print out, use later
         F temperature = _constants->anneal_temperature(i);
-        if (i % 10 == 0) wcerr << ".";
+        // if (i % 10 == 0) wcerr << ".";
 	if (eval_iters && (i % eval_iters == 0)){
             os << "Test set after " << i << " iterations of training " << endl;
             // run evaluation over test set
@@ -355,118 +374,154 @@ BatchUnigram::estimate(U iters, wostream& os, U eval_iters,
         os << "no hyperparm sampling" << endl;
 }
 
-void
-BatchUnigramViterbi::estimate_sentence(Sentence& s, F temperature) {
+void BatchUnigramViterbi::estimate_sentence(Sentence& s, F temperature)
+{
     s.erase_words(_lex);
     s.maximize(_lex, _constants->nsentences()-1, temperature, _constants->do_mbdp);
     s.insert_words(_lex);
 }
 
-void
-BatchUnigramFlipSampler::estimate_sentence(Sentence& s, F temperature) {
+void BatchUnigramFlipSampler::estimate_sentence(Sentence& s, F temperature)
+{
     s.sample_by_flips(_lex, temperature);
 }
 
-void
-BatchUnigramTreeSampler::estimate_sentence(Sentence& s, F temperature) {
+void BatchUnigramTreeSampler::estimate_sentence(Sentence& s, F temperature)
+{
     s.erase_words(_lex);
     s.sample_tree(_lex, _constants->nsentences()-1, temperature, _constants->do_mbdp);
     s.insert_words(_lex);
 }
 
-DecayedMCMC::DecayedMCMC(F decay_rate, U samples_per_utt){
-    if(debug_level >= 10000) wcout << "Calling DecayedMCMC constructor" << endl;
+DecayedMCMC::DecayedMCMC(F decay_rate, U samples_per_utt)
+{
+    if(debug_level >= 10000)
+        wcout << "Calling DecayedMCMC constructor" << endl;
+
     _decay_rate = decay_rate;
     _samples_per_utt = samples_per_utt;
-    if(debug_level >= 1000) wcout << "decay rate is " << _decay_rate << " and samples per utt is " << _samples_per_utt << endl;
+
+    if(debug_level >= 1000)
+        wcout << "decay rate is " << _decay_rate
+              << " and samples per utt is " << _samples_per_utt << endl;
 }
 
-void
-DecayedMCMC::decayed_initialization(Sentences _sentences){
-    // calculate total number of potential boundaries in training set - this is needed
-    // for calculating the cumulative decay probabilities
-    // cycle through _sentences
+void DecayedMCMC::decayed_initialization(Sentences _sentences)
+{
+    // calculate total number of potential boundaries in training set,
+    // this is needed for calculating the cumulative decay
+    // probabilities cycle through _sentences
     _num_total_pot_boundaries = 0;
     Us possible_boundaries;
-    foreach(Sentences, sent, _sentences){
-        possible_boundaries = sent->get_possible_boundaries();
-        foreach(Us, count, possible_boundaries){
-            _num_total_pot_boundaries++;
-        }
+    for(auto& sent: _sentences)
+    {
+        _num_total_pot_boundaries += sent.get_possible_boundaries().size();
     }
-    if(debug_level >= 1000){
-        wcout << "total potential boundaries in training corpus " << _num_total_pot_boundaries << endl;
+
+    if(debug_level >= 1000)
+    {
+        wcout << "total potential boundaries in training corpus "
+              << _num_total_pot_boundaries << endl;
     }
+
     // initialize _boundaries_num_sampled to be this size
     _boundaries_num_sampled.resize(_num_total_pot_boundaries+1);
-    // create decay probabilities
-    // uses _decay_rate and _num_total_pot_potboundaries
-    // to create binned probability distribution that will be used to find potential boundaries
-    // store values in _decay_offset_probs
-    // go to one beyond total potential boundaries
+
+    // create decay probabilities, uses _decay_rate and
+    // _num_total_pot_potboundaries to create binned probability
+    // distribution that will be used to find potential boundaries
+    // store values in _decay_offset_probs go to one beyond total
+    // potential boundaries
     _decay_offset_probs.resize(_num_total_pot_boundaries+2);
-    for(U index = 0; index < _num_total_pot_boundaries + 1; index++){
+    for(U index = 0; index < _num_total_pot_boundaries + 1; index++)
+    {
         // add 1 so that current boundary (index 0) is possible
         _decay_offset_probs[index] = pow((index+1), (-1)*_decay_rate);
-        if(debug_level >= 10000) {
-            wcout << "_decay_offset_probs[" << index << "] is " << _decay_offset_probs[index] << endl;
+        if(debug_level >= 10000)
+        {
+            wcout << "_decay_offset_probs[" << index
+                  << "] is " << _decay_offset_probs[index] << endl;
         }
     }
+
     //initialize cumulative decay probability to 0
     _cum_decay_prob = 0.0;
+
     //initialize _num_curr_pot_boundaries to 0
     _num_curr_pot_boundaries = 0;
 }
 
-OnlineUnigramDecayedMCMC::OnlineUnigramDecayedMCMC(Data* constants, F forget_rate, F decay_rate, U samples_per_utt):
-    OnlineUnigram(constants, forget_rate), DecayedMCMC(decay_rate, samples_per_utt) {
-    if(debug_level >= 10000) wcout << "Printing current _lex:" << endl << _lex << endl;
+
+OnlineUnigramDecayedMCMC::OnlineUnigramDecayedMCMC(
+    Data* constants, F forget_rate, F decay_rate, U samples_per_utt)
+    : OnlineUnigram(constants, forget_rate), DecayedMCMC(decay_rate, samples_per_utt)
+{
+    if(debug_level >= 10000)
+        wcout << "Printing current _lex:" << endl << _lex << endl;
+
     decayed_initialization(_sentences);
 }
 
+void OnlineUnigram::estimate(
+    U iters, wostream& os, U eval_iters, F temp, bool maximize, bool is_decayed)
+{
+    if(debug_level >= 10000)
+        wcout << "Inside OnlineUnigram estimate " << endl;
 
-void
-OnlineUnigram::estimate(U iters, wostream& os, U eval_iters,
-                        F temp, bool maximize, bool is_decayed) {
-    if(debug_level >= 10000) wcout << "Inside OnlineUnigram estimate " << endl;
-    if (_constants->trace_every > 0) {
+    if (_constants->trace_every > 0)
+    {
         print_statistics(os, 0, 0, true);
     }
     _nsentences_seen = 0;
-    for (U i=1; i <= iters; i++) {
+    for (U i=1; i <= iters; i++)
+    {
         F temperature = _constants->anneal_temperature(i);
-	if(!is_decayed){
-            if (i % 10 == 0) wcerr << ".";
-            if (eval_iters && (i % eval_iters == 0)){
+	if(!is_decayed)
+        {
+            // if (i % 10 == 0) wcerr << ".";
+            if (eval_iters && (i % eval_iters == 0))
+            {
                 os << "Test set after " << i << " iterations of training " << endl;
+
                 // run evaluation over test set
                 run_eval(os,temp,maximize);
                 print_eval_scores(wcout);
             }
 	}
 
-        foreach(Sentences, iter, _sentences) {
+        for(Sentences::iterator iter = _sentences.begin(); iter != _sentences.end(); ++iter)
+        {
             if (debug_level >= 10000) iter->print(wcerr);
-            if(!is_decayed){
+            if(!is_decayed)
+            {
 		forget_items(iter);
             }
-            if (_nsentences_seen % 100 == 0) wcerr << ".";
-            if (eval_iters && (_nsentences_seen % eval_iters == 0)){
-		os << "Test set after " << _nsentences_seen << " sentences of training " << endl;
+
+            // if (_nsentences_seen % 100 == 0) wcerr << ".";
+            if (eval_iters && (_nsentences_seen % eval_iters == 0))
+            {
+		os << "Test set after " << _nsentences_seen
+                   << " sentences of training " << endl;
+
 		// run evaluation over test set
 		run_eval(os,temp,maximize);
 		print_eval_scores(wcout);
             }
+
             // add current sentence to _sentences_seen
             _sentences_seen.push_back(*iter);
             estimate_sentence(*iter, temperature);
             _nsentences_seen++;
+
             if (debug_level >= 9000) TRACE2(-log_posterior(), _lex.ntokens());
             if (debug_level >= 15000)  TRACE2(_lex.ntypes(),_lex);
         }
-        if (_constants->trace_every > 0 && i%_constants->trace_every == 0) {
+
+        if (_constants->trace_every > 0 and i%_constants->trace_every == 0)
+        {
             print_statistics(os, i, temperature);
         }
+
         assert(sanity_check());
     }
 }
@@ -760,7 +815,7 @@ BatchBigram::estimate(U iters, wostream& os, U eval_iters,
     for (U i=1; i <= iters; i++) {
         //U nchanged = 0; if need to print out, un-comment
         F temperature = _constants->anneal_temperature(i);
-        if (i % 10 == 0) wcerr << ".";
+        // if (i % 10 == 0) wcerr << ".";
 	if (eval_iters && (i % eval_iters == 0)){
             os << "Test set after " << i << " iterations of training " << endl;
             // run evaluation over test set
@@ -826,7 +881,7 @@ OnlineBigram::estimate(U iters, wostream& os, U eval_iters,
     for (U i=1; i <= iters; i++) {
         F temperature = _constants->anneal_temperature(i);
 	if(!is_decayed){
-            if (i % 10 == 0) wcerr << ".";
+            // if (i % 10 == 0) wcerr << ".";
             if (eval_iters && (i % eval_iters == 0)){
                 os << "Test set after " << i << " iterations of training " << endl;
                 // run evaluation over test set
@@ -839,7 +894,7 @@ OnlineBigram::estimate(U iters, wostream& os, U eval_iters,
             if(!is_decayed){
 		forget_items(iter);
             }
-            if (_nsentences_seen % 100 == 0) wcerr << ".";
+            // if (_nsentences_seen % 100 == 0) wcerr << ".";
             if (eval_iters && (_nsentences_seen % eval_iters == 0)){
 		os << "Test set after " << _nsentences_seen << " sentences of training " << endl;
 		// run evaluation over test set

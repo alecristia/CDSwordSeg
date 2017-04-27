@@ -1,22 +1,36 @@
-// random-mt19937ar.h
-//
-// Mark Johnson, 31st August 2007
+/*
+  Copyright 2007 Mark Johnson
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
 
 #ifndef RANDOM_MT19937AR_H
 #define RANDOM_MT19937AR_H
 
-// This code is based on the program mt19937ar.c.  That file
-// begins with this header.
 
-/* 
+// This code is based on the program mt19937ar.c.  That file begins
+// with this header.
+
+/*
    A C-program for MT19937, with initialization improved 2002/1/26.
    Coded by Takuji Nishimura and Makoto Matsumoto.
 
-   Before using, initialize the state by using mt_init_genrand(seed)  
+   Before using, initialize the state by using mt_init_genrand(seed)
    or mt_init_by_array(init_key, key_length).
 
    Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
-   All rights reserved.                          
+   All rights reserved.
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions
@@ -29,8 +43,8 @@
         notice, this list of conditions and the following disclaimer in the
         documentation and/or other materials provided with the distribution.
 
-     3. The names of its contributors may not be used to endorse or promote 
-        products derived from this software without specific prior written 
+     3. The names of its contributors may not be used to endorse or promote
+        products derived from this software without specific prior written
         permission.
 
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
@@ -53,7 +67,7 @@
 
 struct uniform01_type {
 
-  /* Period parameters */ 
+  /* Period parameters */
   static const int N = 624;
   static const int M = 397;
   static const unsigned long MATRIX_A = 0x9908b0dfUL;   /* constant vector a */
@@ -75,7 +89,7 @@ struct uniform01_type {
   {
     mt[0]= s & 0xffffffffUL;
     for (mti=1; mti<N; mti++) {
-      mt[mti] = (1812433253UL * (mt[mti-1] ^ (mt[mti-1] >> 30)) + mti); 
+      mt[mti] = (1812433253UL * (mt[mti-1] ^ (mt[mti-1] >> 30)) + mti);
         /* See Knuth TAOCP Vol2. 3rd Ed. P.106 for multiplier. */
         /* In the previous versions, MSBs of the seed affect   */
         /* only MSBs of the array mt[].                        */
@@ -110,8 +124,8 @@ struct uniform01_type {
       i++;
       if (i>=N) { mt[0] = mt[N-1]; i=1; }
     }
-    
-    mt[0] = 0x80000000UL; /* MSB is 1; assuring non-zero initial array */ 
+
+    mt[0] = 0x80000000UL; /* MSB is 1; assuring non-zero initial array */
   }
 
   /* generates a random number on [0,0xffffffff]-interval */
@@ -120,13 +134,13 @@ struct uniform01_type {
     unsigned long y;
     static unsigned long mag01[2]={0x0UL, MATRIX_A};
     /* mag01[x] = x * MATRIX_A  for x=0,1 */
-    
+
     if (mti >= N) { /* generate N words at one time */
       int kk;
-      
+
       if (mti == N+1)   /* if mt_init_genrand() has not been called, */
 	mt_init_genrand(5489UL); /* a default initial seed is used */
-      
+
       for (kk=0;kk<N-M;kk++) {
 	y = (mt[kk]&UPPER_MASK)|(mt[kk+1]&LOWER_MASK);
 	mt[kk] = mt[kk+M] ^ (y >> 1) ^ mag01[y & 0x1UL];
@@ -137,10 +151,10 @@ struct uniform01_type {
       }
       y = (mt[N-1]&UPPER_MASK)|(mt[0]&LOWER_MASK);
       mt[N-1] = mt[M-1] ^ (y >> 1) ^ mag01[y & 0x1UL];
-      
+
       mti = 0;
     }
-  
+
     y = mt[mti++];
 
     /* Tempering */
@@ -161,30 +175,30 @@ struct uniform01_type {
   /* generates a random number on [0,1]-real-interval */
   double mt_genrand_real1(void)
   {
-    return mt_genrand_int32()*(1.0/4294967295.0); 
-    /* divided by 2^32-1 */ 
+    return mt_genrand_int32()*(1.0/4294967295.0);
+    /* divided by 2^32-1 */
   }
 
   /* generates a random number on [0,1)-real-interval */
   double mt_genrand_real2(void)
   {
-    return mt_genrand_int32()*(1.0/4294967296.0); 
+    return mt_genrand_int32()*(1.0/4294967296.0);
     /* divided by 2^32 */
   }
 
   /* generates a random number on (0,1)-real-interval */
   double mt_genrand_real3(void)
   {
-    return (((double) mt_genrand_int32()) + 0.5)*(1.0/4294967296.0); 
+    return (((double) mt_genrand_int32()) + 0.5)*(1.0/4294967296.0);
     /* divided by 2^32 */
   }
 
   /* generates a random number on [0,1) with 53-bit resolution*/
-  double mt_genrand_res53(void) 
-  { 
-    unsigned long a=mt_genrand_int32()>>5, b=mt_genrand_int32()>>6; 
-    return(a*67108864.0+b)*(1.0/9007199254740992.0); 
-  } 
+  double mt_genrand_res53(void)
+  {
+    unsigned long a=mt_genrand_int32()>>5, b=mt_genrand_int32()>>6;
+    return(a*67108864.0+b)*(1.0/9007199254740992.0);
+  }
   /* These real versions are due to Isaku Wada, 2002/01/09 added */
 
   // C++ interface, Mark Johnson, 31st August 2007

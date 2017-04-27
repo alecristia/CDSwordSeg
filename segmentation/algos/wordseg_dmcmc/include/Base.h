@@ -1,15 +1,29 @@
+/*
+  Copyright 2007 Mark Johnson, Brown University
+  Copyright 2009 Sharon Goldwater
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
 #ifndef _BASE_H_
 #define _BASE_H_
 
-// Contains classes written by Mark Johnson and Sharon Goldwater Mark
-// Johnson, Brown University, 1st September 2007 Sharon Goldwater,
-// University of Edinburgh, 30 April 2009
-
-// class S can be thought of as a string, but avoids copying
+// Class S can be thought of as a string, but avoids copying
 // characters all over by simply storing pointers to begin/end indices
 // in the global string storing the entire data set.
-
-// all other classes are various base distributions to generate
+//
+// All other classes are various base distributions to generate
 // lexical items.
 
 
@@ -19,11 +33,9 @@
 #include "mhs.h"
 #include "util.h"
 
-
 extern uniform01_type unif01;
 
 
-// S{} represents a substring (unigram) of d.data
 class S
 {
 public:

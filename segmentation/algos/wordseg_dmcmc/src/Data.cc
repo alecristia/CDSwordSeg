@@ -1,12 +1,31 @@
+/*
+  Copyright 2007 Mark Johnson, Brown University
+  Copyright 2009 Sharon Goldwater, Lisa Pearl
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
 #include "Data.h"
 
 using namespace std;
 
 
-
 inline void error(const char *s)
 {
-    std::cerr << "error: " << s << std::endl; abort(); exit(1);
+    std::cerr << "error: " << s << std::endl;
+    abort();
+    exit(1);
 }
 
 inline void error(const std::string s)
@@ -14,11 +33,9 @@ inline void error(const std::string s)
     error(s.c_str());
 }
 
-
 Data::Data() {}
 
 Data::~Data() {}
-
 
 Sentences Data::get_sentences() const
 {
@@ -37,7 +54,6 @@ Sentences Data::get_sentences() const
     return s;
 }
 
-
 void Data::initialize_chars()
 {
     // may have been set on commandline
@@ -50,7 +66,6 @@ void Data::initialize_chars()
         nchartypes = sc.size();
     }
 }
-
 
 const Us& Data::sentence_boundary_list() const
 {
@@ -99,7 +114,6 @@ void Data::initialize_boundaries(U start, U end, Bs& possible_bs, Bs& true_bs) c
             true_bs.push_back(false);
     }
 }
-
 
 std::wostream& Data::write_segmented_corpus(
     const Bs& b, std::wostream& os, I begin, I end) const
@@ -162,7 +176,6 @@ F Data::anneal_temperature(U iteration) const
     assert(finite(temp));
     return temp;
 }
-
 
 CorpusData::CorpusData() : _evalsent_start(0) {}
 
@@ -314,7 +327,6 @@ void CorpusData::initialize(U ns)
     ntrain = sentenceboundaries[ntrainsentences];
 }
 
-
 ExperimentalData::ExperimentalData() {}
 
 ExperimentalData::~ExperimentalData() {}
@@ -412,7 +424,6 @@ const TestPairs& ExperimentalData::get_test_pairs() const
 {
     return _test_pairs;
 }
-
 
 void ExperimentalData::initialize(U ns)
 {
