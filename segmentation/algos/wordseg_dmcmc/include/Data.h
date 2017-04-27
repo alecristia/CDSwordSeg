@@ -18,20 +18,20 @@
 
 extern U debug_level;
 
+
 typedef std::unordered_map<S,U> S_U;
 typedef std::vector<S_U> S_Us;
 typedef std::pair<S,S> SS;
 typedef std::vector<SS> TestPairs;
 
-//! Data{} holds training and evaluation data, as well as model parameters.
-//! The idea is that there is one shared Data{} object, read by multiple models
-//! (perhaps being computed in multiple threads)
-//
+//! Data{} holds training and evaluation data, as well as model
+//! parameters.  The idea is that there is one shared Data{} object,
+//! read by multiple models (perhaps being computed in multiple
+//! threads)
 class Data {
 public:
-
     // model configuration parameters
-    bool do_mbdp; // if true, compute using Brent model
+    bool do_mbdp;          // if true, compute using Brent model
     U nchartypes;          //!< number of different char types in training data (used by monkey model)
     F Pstop;               //!< character (monkey) model parameter
     F aeos;                //!< Beta parameter for end-of-sentence
@@ -43,8 +43,8 @@ public:
     F init_pboundary;      // initial prob of boundary
     F pya_beta_a;          // parm of beta prior on pya
     F pya_beta_b;          // parm of beta prior on pya
-    F pyb_gamma_c;          // parm of gamma prior on pyb
-    F pyb_gamma_s;          // parm of gamma prior on pyb
+    F pyb_gamma_c;         // parm of gamma prior on pyb
+    F pyb_gamma_s;         // parm of gamma prior on pyb
     U burnin_iterations;   //!< number of burn-in iterations
     U eval_iterations;     //!< number of posterior sampling iterations to evaluate on
     U anneal_iterations;   //!< number of iterations to anneal for
@@ -59,23 +59,30 @@ public:
     U type_memory;
     std::string forget_method;
 
-    Data() {}
-    virtual ~Data() {}
-    const Us& sentence_boundary_list() const {return sentenceboundaries;}
-    const Bs& possible_boundaries() const {return _possible_boundaries;}
-    //may be needed for initializing boundaries in Sentence.
-    //note that for ExperimentalData, these will be empty.
-    const Bs& true_boundaries() const {return _true_boundaries;}
+    Data();
+    virtual ~Data();
 
-    U nsentences() const {return ntrainsentences;}
-    U nchars() const {return ntrain;}
+    const Us& sentence_boundary_list() const;
+    const Bs& possible_boundaries() const;
+
+    // may be needed for initializing boundaries in Sentence. Note
+    // that for ExperimentalData, these will be empty.
+    const Bs& true_boundaries() const;
+
+    U nsentences() const;
+    U nchars() const;
+
     virtual void read(std::wistream& is, U start, U ns) = 0;
-    std::vector<Sentence> get_sentences() const;
-    //default is no eval sents, only CorpusData might have a real list
-    virtual std::vector<Sentence> get_eval_sentences() const {return std::vector<Sentence>();}
 
-    //! write_segmented_corpus() writes the data out segmented according to boundaries.
-    std::wostream& write_segmented_corpus(const Bs& b, std::wostream& os, I begin=0, I end=0) const;
+    std::vector<Sentence> get_sentences() const;
+
+    //default is no eval sents, only CorpusData might have a real list
+    virtual std::vector<Sentence> get_eval_sentences() const;
+
+    //! write_segmented_corpus() writes the data out segmented
+    //! according to boundaries.
+    std::wostream& write_segmented_corpus(
+        const Bs& b, std::wostream& os, I begin=0, I end=0) const;
 
     //! anneal_temperature() returns the annealing temperature to be
     //! used at each iteration.  If anneal_a is zero, we use Sharon
@@ -100,31 +107,57 @@ protected:
 };
 
 
-class CorpusData: public Data {
+class CorpusData: public Data
+{
 public:
-    CorpusData(): _evalsent_start(0) {}
-    virtual ~CorpusData() {}
+    CorpusData();
+    virtual ~CorpusData();
+
     virtual void read(std::wistream& is, U start, U ns);
-    //read additional data for evaluation
+
+    // read additional data for evaluation
     void read_eval(std::wistream& is, U start, U ns);
+
     virtual std::vector<Sentence> get_eval_sentences() const;
+
     void initialize(U ns);
+
 private:
-    U _evalsent_start; // sentence # of first eval sentence
+    U _evalsent_start;  // sentence # of first eval sentence
+
     void read_data(std::wistream& is, U start, U ns);
 };
 
 
-class ExperimentalData: public Data {
+// format of input files from Mike Frank's experimental stimuli:
+
+// Lexicon: word1<tab>word2<tab>...<tab>wordN
+//
+// Training Sentences:
+// sentence1
+// sentence2
+// ...
+// sentenceM
+//
+// Test Items:
+// test1<tab>distractor1
+// test2<tab>distractor2
+// ...
+// testL<tab>distractorL
+class ExperimentalData: public Data
+{
 public:
-    ExperimentalData() {}
-    virtual ~ExperimentalData() {}
+    ExperimentalData();
+    virtual ~ExperimentalData();
+
     virtual void read(std::wistream& is, U start, U ns);
+
     void initialize(U ns);
-    const TestPairs& get_test_pairs() const {return _test_pairs;}
+
+    const TestPairs& get_test_pairs() const;
 
 private:
-    Us _testboundaries; // positions of beg/end of test pairs.
+    Us _testboundaries;  // positions of beg/end of test pairs.
     TestPairs _test_pairs;
 };
 

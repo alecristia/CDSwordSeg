@@ -23,7 +23,7 @@ INCDIR	= ./include
 
 # C++ compiler to use and option passed during compilation and link
 CXX	= g++
-CFLAGS	= -Wall -Wno-deprecated -O3 -std=c++11 -I$(INCDIR)
+CFLAGS	= -Wall -O3 -std=c++11 -I$(INCDIR) -DNDEBUG
 LFLAGS	= -Wall -O3 -std=c++11 -lboost_program_options
 
 # source files must be *.cc files in $(SRCDIR)

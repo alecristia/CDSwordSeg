@@ -173,9 +173,9 @@ int main(int argc, char** argv) {
     std::locale utf8_locale(old_locale, new utf8_codecvt_facet());
     std::locale::global(utf8_locale);
 
-    wcerr.imbue(utf8_locale);
-    wcout.imbue(utf8_locale);
-    wcout.precision(5);
+    std::wcerr.imbue(utf8_locale);
+    std::wcout.imbue(utf8_locale);
+    std::wcout.precision(5);
 
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(0);
@@ -352,12 +352,12 @@ int main(int argc, char** argv) {
     }
 
     // setup data_file to stdin or file
-    string data_file = "stdin";
+    std::string data_file = "stdin";
     if (vm.count("data-file") > 0)
         data_file = vm["data-file"].as<std::string>();
 
     // setup eval file if specified in arguments
-    string eval_file = "none";
+    std::string eval_file = "none";
     if (vm.count("eval-file") > 0)
         eval_file = vm["eval-file"].as<std::string>();
 
@@ -418,7 +418,7 @@ int main(int argc, char** argv) {
         std::wifstream is(data_file.c_str());
         if (!is)
         {
-            cerr << "Error: couldn't open " << data_file << endl;
+            std::cerr << "Error: couldn't open " << data_file << std::endl;
             exit(1);
         }
         is.imbue(std::locale(std::locale(), new utf8_codecvt_facet()));
@@ -436,7 +436,7 @@ int main(int argc, char** argv) {
         std::wifstream is(eval_file.c_str());
         if (!is)
         {
-            cerr << "Error: couldn't open " << eval_file << endl;
+            std::cerr << "Error: couldn't open " << eval_file << std::endl;
             exit(1);
         }
         is.imbue(std::locale(std::locale(), new utf8_codecvt_facet()));
@@ -454,8 +454,8 @@ int main(int argc, char** argv) {
 
     if (debug_level >= 100)
     {
-        std::wcout << "# nchartypes=" << data.nchartypes << endl
-                   << "# nsentences=" << data.nsentences() << endl;
+        std::wcout << "# nchartypes=" << data.nchartypes << std::endl
+                   << "# nsentences=" << data.nsentences() << std::endl;
     }
 
     // open the output file, handle UTF8
@@ -471,7 +471,6 @@ int main(int argc, char** argv) {
 
     for(uint subject = 0; subject < vm["nsubjects"].as<uint>(); subject++)
     {
-        std::cout << "HERE!!!" << std::endl;
         Model* sampler = get_sampler(
             &data,
             vm["ngram"].as<uint>(),
@@ -480,7 +479,6 @@ int main(int argc, char** argv) {
             vm["forget-rate"].as<F>(),
             vm["decay-rate"].as<F>(),
             vm["samples-per-utt"].as<U>());
-        std::cout << "HERE!!!  sampler done" << std::endl;
 
         std::wcout << "initial probability = " << sampler->log_posterior() << std::endl;
         assert(sampler->sanity_check());
@@ -495,7 +493,7 @@ int main(int argc, char** argv) {
         if (eval_file == "none")
         {
             sampler->print_segmented(os);
-            sampler->print_scores(wcout);
+            sampler->print_scores(std::wcout);
             std::wcout << "final posterior = " << sampler->log_posterior() << std::endl;
         }
         else
@@ -518,5 +516,5 @@ int main(int argc, char** argv) {
         }
         os << std::endl;
         delete sampler;
-    } // end for subject
-}  // main()
+    }
+}

@@ -34,40 +34,47 @@ Sentence::print(std::wostream& os) const {
   os << "$ |" << endl;
   os << "posbs: ";
   U prev=0;
-  cforeach(Us, i, _possible_boundaries) {
-    for (U j=prev; j<*i; j++)
-      os << "  ";
-    os << "? ";
-    prev = *i+1;
+  for(const auto& i: _possible_boundaries)
+  {
+      for (U j=prev; j<i; j++)
+          os << "  ";
+      os << "? ";
+      prev = i+1;
   }
+
   for (U j=prev; j<size(); j++)
-    os << "  ";
+      os << "  ";
   os << "| " << _possible_boundaries << endl;
   os << "padbs: ";
   prev=0;
-  cforeach(Us, i, _padded_possible) {
-    for (U j=prev; j<*i; j++)
-      os << "  ";
-    os << "? ";
-    prev = *i+1;
+
+  for(const auto& i: _padded_possible)
+  {
+      for (U j=prev; j<i; j++)
+          os << "  ";
+      os << "? ";
+      prev = i+1;
   }
   for (U j=prev; j<size(); j++)
     os << "  ";
   os << "| " <<_padded_possible << endl;
   os << "bs:    ";
-  cforeach(Bs, i, _boundaries) {
-    if (*i)
-      os << ". ";
-    else
-      os << "  ";
+
+  for(const auto& i: _boundaries)
+  {
+      if (i)
+          os << ". ";
+      else
+          os << "  ";
   }
   os << "|" << endl;
   os << "true:  ";
-  cforeach(Bs, i, _true_boundaries) {
-    if (*i)
-      os << ". ";
-    else
-      os << "  ";
+  for(const auto& i: _true_boundaries)
+  {
+      if (i)
+          os << ". ";
+      else
+          os << "  ";
   }
   os << "|" << endl;
   return os;
@@ -196,44 +203,48 @@ Sentence::erase_words(Bigrams& lex){
 U
 Sentence::sample_by_flips(Unigrams& lex, F temperature){
   U nchanged = 0;
-  cforeach(Us, iter, _possible_boundaries) {
-    U i = *iter;
+  for(const auto& item: _possible_boundaries)
+  {
+      U i = item;
       U i0, i1, i2, i3;
       // gets boundaries sufficient for bigram context but only use
       //unigram context
       surrounding_boundaries(i, i0, i1, i2, i3);
-	if(_boundaries[i]){ // boundary at position i  
-					
-	erase(i1, i, lex);
-	erase(i, i2, lex);
+      if(_boundaries[i])
+      { // boundary at position i
+          erase(i1, i, lex);
+          erase(i, i2, lex);
       }
-      else {  // no boundary at position i
-	erase(i1, i2, lex);
+      else
+      {  // no boundary at position i
+          erase(i1, i2, lex);
       }
       if (debug_level >= 20000) wcerr << lex << endl;
       F pb = prob_boundary(i1, i, i2, lex, temperature);
       bool newboundary = (pb > unif01());
-      if (newboundary) {
-	insert(i1, i, lex);
-	insert(i, i2, lex);
-	if (_boundaries[i] != 1)
-	  ++nchanged;
-	_boundaries[i] = 1;
+      if (newboundary)
+      {
+          insert(i1, i, lex);
+          insert(i, i2, lex);
+          if (_boundaries[i] != 1)
+              ++nchanged;
+          _boundaries[i] = 1;
       }
-      else {  // don't insert a boundary at i
-	insert(i1, i2, lex);
-	if (_boundaries[i] != 0)
-	  ++nchanged;
-	_boundaries[i] = 0;
+      else
+      {  // don't insert a boundary at i
+          insert(i1, i2, lex);
+          if (_boundaries[i] != 0)
+              ++nchanged;
+          _boundaries[i] = 0;
       }
-    }
-    if (debug_level >= 20000) wcerr << lex << endl;
+  }
+  if (debug_level >= 20000) wcerr << lex << endl;
   return nchanged;
 }
 
-void 
+void
 Sentence::sample_one_flip(Unigrams& lex, F temperature, U boundary_within_sentence){
-	// used by DecayedMCMC to sample one boundary within a sentence	
+	// used by DecayedMCMC to sample one boundary within a sentence
 	//cout << "Debug: Made it to sample_one_flip\n";
 	U i = boundary_within_sentence;
 	U i0, i1, i2, i3;
@@ -251,7 +262,7 @@ Sentence::sample_one_flip(Unigrams& lex, F temperature, U boundary_within_senten
 		erase(i1, i2, lex);
 		//cout << "Debug: erased\n";
 	}
-	
+
 	F pb = prob_boundary(i1, i, i2, lex, temperature);
 	bool newboundary = (pb > unif01());
 	//cout << "Debug: calculated probability of boundary\n";
@@ -266,7 +277,7 @@ Sentence::sample_one_flip(Unigrams& lex, F temperature, U boundary_within_senten
 		insert(i1, i2, lex);
 		_boundaries[i] = 0;
 		//cout << "Debug: lexemes inserted, boundary set 0\n";
-	}	
+	}
 }
 
 
@@ -274,43 +285,48 @@ Sentence::sample_one_flip(Unigrams& lex, F temperature, U boundary_within_senten
 U
 Sentence::sample_by_flips(Bigrams& lex, F temperature) {
   U nchanged = 0;
-  cforeach (Us, it, _possible_boundaries) {
-    U i = *it, i0, i1, i2, i3;
-	if(debug_level >= 10000) wcout << "Sampling boundary " << i << endl;
+  for(const auto& item: _possible_boundaries)
+  {
+    U i = item, i0, i1, i2, i3;
+    if(debug_level >= 10000) wcout << "Sampling boundary " << i << endl;
     surrounding_boundaries(i, i0, i1, i2, i3);
-    if (_boundaries[i]) {
-      erase(i0, i1, i, lex);
-      erase(i1, i, i2, lex);
-      erase(i, i2, i3, lex);
+    if (_boundaries[i])
+    {
+        erase(i0, i1, i, lex);
+        erase(i1, i, i2, lex);
+        erase(i, i2, i3, lex);
     }
-    else {  // no _boundaries at position i
-      erase(i0, i1, i2, lex);
-      erase(i1, i2, i3, lex);
+    else
+    {  // no _boundaries at position i
+        erase(i0, i1, i2, lex);
+        erase(i1, i2, i3, lex);
     }
     F pb = prob_boundary(i0, i1, i, i2, i3, lex, temperature);
     bool newboundary = (pb > unif01());
-    if (newboundary) {
-      insert(i0, i1, i, lex);
-      insert(i1, i, i2, lex);
-      insert(i, i2, i3, lex);
-      if (_boundaries[i] != 1)
-	++nchanged;
-      _boundaries[i] = 1;
+    if (newboundary)
+    {
+        insert(i0, i1, i, lex);
+        insert(i1, i, i2, lex);
+        insert(i, i2, i3, lex);
+        if (_boundaries[i] != 1)
+            ++nchanged;
+        _boundaries[i] = 1;
     }
-    else {  // don't insert a boundary at i
-      insert(i0, i1, i2, lex);
-      insert(i1, i2, i3, lex);
-      if (_boundaries[i] != 0)
-	++nchanged;
-      _boundaries[i] = 0;
+    else
+    {  // don't insert a boundary at i
+        insert(i0, i1, i2, lex);
+        insert(i1, i2, i3, lex);
+        if (_boundaries[i] != 0)
+            ++nchanged;
+        _boundaries[i] = 0;
     }
   }
   return nchanged;
 }
 
-void 
+void
 Sentence::sample_one_flip(Bigrams& lex, F temperature, U boundary_within_sentence){
-	// used by DecayedMCMC to sample one boundary within a sentence	
+	// used by DecayedMCMC to sample one boundary within a sentence
 	U i = boundary_within_sentence, i0, i1, i2, i3;
     surrounding_boundaries(i, i0, i1, i2, i3);
     if (_boundaries[i]) {
@@ -351,10 +367,10 @@ void
 Sentence::maximize(Unigrams& lex, U nsentences, F temperature, bool do_mbdp){
   // cache some useful constants
   int N_branch = lex.ntokens() - nsentences;
-  double p_continue = pow((N_branch +  _constants->aeos/2.0) / 
+  double p_continue = pow((N_branch +  _constants->aeos/2.0) /
 		       (lex.ntokens() +  _constants->aeos), 1/temperature);
   if (debug_level >=90000) TRACE(p_continue);
-  // create chart for dynamic program 
+  // create chart for dynamic program
   typedef pair<double, U> Cell; //best prob, index of best prob
   typedef vector<Cell> Chart;
   Chart best(_boundaries.size()-1, Cell(0.0, 0)); //best seg ending at each index
@@ -405,7 +421,7 @@ Sentence::maximize(Unigrams& lex, U nsentences, F temperature, bool do_mbdp){
 // if batch).
 void
 Sentence::maximize(Bigrams& lex, U nsentences, F temperature){
-  // create chart for dynamic program 
+  // create chart for dynamic program
   typedef pair<double, U> Cell; //best prob, index of best prob
   typedef vector<Cell> Row;
   typedef vector<Row> Chart;
@@ -481,10 +497,10 @@ Sentence::sample_tree(Unigrams& lex, U nsentences, F temperature, bool do_mbdp){
   // cache some useful constants
   int N_branch = lex.ntokens() - nsentences;
   assert(N_branch >= 0);
-  double p_continue = pow((N_branch +  _constants->aeos/2.0) / 
+  double p_continue = pow((N_branch +  _constants->aeos/2.0) /
 		       (lex.ntokens() +  _constants->aeos), 1/temperature);
   if (debug_level >=90000) TRACE(p_continue);
-  // create chart for dynamic program 
+  // create chart for dynamic program
   typedef pair<double, U>  Transition; // prob, index from whence prob
   typedef vector<Transition> Transitions;
   typedef pair<double, Transitions> Cell; // total prob, choices
@@ -516,29 +532,33 @@ Sentence::sample_tree(Unigrams& lex, U nsentences, F temperature, bool do_mbdp){
   if (debug_level >= 70000) TRACE(best);
   // now sample a segmentation
   U k;
-  for (k = 2; k <_boundaries.size() -2; k++) {
-    _boundaries[k] = false;
+  for (k = 2; k <_boundaries.size() -2; k++)
+  {
+      _boundaries[k] = false;
   }
   k = _boundaries.size() -2;
-  while (best[k].first < 1.0) {
-    // sample one of the transitions
-    F r = unif01()* best[k].first;
-    F total = 0;
-    cforeach (Transitions, it, best[k].second) {
-      total += it->first;
-      if (r < total) {
-	k = it->second;
-	_boundaries[k] = true;
-	break;
+  while (best[k].first < 1.0)
+  {
+      // sample one of the transitions
+      F r = unif01()* best[k].first;
+      F total = 0;
+      for(const auto& item: best[k].second)
+      {
+          total += item.first;
+          if (r < total)
+          {
+              k = item.second;
+              _boundaries[k] = true;
+              break;
+          }
       }
-    }
   }
   if (debug_level >= 70000) TRACE(_boundaries);
 }
 
 void
 Sentence::sample_tree(Bigrams& lex, U nsentences, F temperature) {
-  // create chart for dynamic program 
+  // create chart for dynamic program
   typedef pair<double, U>  Transition; // prob, index from whence prob
   typedef vector<Transition> Transitions;
   typedef pair<double, Transitions> Cell; // total prob, choices
@@ -596,15 +616,17 @@ Sentence::sample_tree(Bigrams& lex, U nsentences, F temperature) {
     // sample one of the transitions
     F r = unif01()* best[m][n].first;
     F total = 0;
-    cforeach (Transitions, it, best[m][n].second) {
-      total += it->first;
-      if (r < total) {
-	U previous = it->second;
-	_boundaries[previous] = true;
-	n = m;
-	m = previous;
-	break;
-      }
+    for(const auto& item: best[m][n].second)
+    {
+        total += item.first;
+        if (r < total)
+        {
+            U previous = item.second;
+            _boundaries[previous] = true;
+            n = m;
+            m = previous;
+            break;
+        }
     }
   }
   _padded_possible.erase(_padded_possible.begin()); //ugh.
@@ -653,7 +675,7 @@ Sentence::score(Scoring& scoring) const {
     r++;
   }
   //subtract right utt boundary
-  scoring._bs_correct--; 
+  scoring._bs_correct--;
   scoring._segmented_bs--;
   scoring._reference_bs--;
   if (debug_level >=60000) TRACE3(scoring._bs_correct, scoring._segmented_bs, scoring._reference_bs);
@@ -716,7 +738,7 @@ Sentence::erase(U i0, U i1, U i2, Bigrams& lex) const {
 
 //unigram probability for flip sampling
 // doesn't account for repetitions
-F 
+F
 Sentence::prob_boundary(U i1, U i, U i2, const Unigrams& lex, F temperature) const {
   if (debug_level >= 100000) TRACE3(i1, i, i2);
   F p_continue = (lex.ntokens() - _constants->nsentences() + 1 + _constants->aeos/2)/
@@ -738,7 +760,7 @@ Sentence::prob_boundary(U i1, U i, U i2, const Unigrams& lex, F temperature) con
 }  // PYEstimator::prob_boundary()
 
   //! p_bigram() is the bigram probability of (i1,i2) following (i0,i1)
-F 
+F
 Sentence::p_bigram(U i0, U i1, U i2, const Bigrams& lex) const {
     Bigrams::const_iterator it = lex.find(word_at(i0, i1));
     if (it == lex.end())
@@ -748,7 +770,7 @@ Sentence::p_bigram(U i0, U i1, U i2, const Bigrams& lex) const {
   }
 
   //! prob_boundary() returns the probability of a boundary at position i
-F 
+F
 Sentence::prob_boundary(U i0, U i1, U i, U i2, U i3, const Bigrams& lex, F temperature) const {
     F p_boundary = p_bigram(i0, i1, i, lex) * p_bigram(i1, i, i2, lex) * p_bigram(i, i2, i3, lex);
     F p_noboundary = p_bigram(i0, i1, i2, lex) * p_bigram(i1, i2, i3, lex);
@@ -766,7 +788,7 @@ Sentence::prob_boundary(U i0, U i1, U i, U i2, U i3, const Bigrams& lex, F tempe
   }
 
 //returns the word boundaries surrounding position i
-void 
+void
 Sentence::surrounding_boundaries(U i, U& i0, U& i1, U& i2, U& i3) const {
   U n = size();
   assert(i > 1);
@@ -790,7 +812,7 @@ Sentence::surrounding_boundaries(U i, U& i0, U& i1, U& i2, U& i3) const {
   assert(i3 <= n);
 }
 
-F 
+F
 Sentence::mbdp_prob(Unigrams& lex, const S& word, U nsentences) const {
   // counts include current instance of word, so add one.
   // also include utterance boundaries, incl. one at start.
@@ -809,13 +831,17 @@ Sentence::mbdp_prob(Unigrams& lex, const S& word, U nsentences) const {
     F l_frac = (types - 1)/types;
     F total_base = base(word);
     Unigrams::WordTypes items = lex.types();
-    cforeach (Unigrams::WordTypes, i, items) {
-      total_base += base(i->first);
+    for(const auto& item: items)
+    {
+      total_base += base(item.first);
     }
+
     prob = (6/pi/pi) * (types/total_tokens) * l_frac * l_frac;
     prob *= base(word)/(1 - l_frac*total_base);
+
     if (debug_level >=87000) TRACE2(base(word), total_base);
     if (debug_level >=90000) TRACE5(pi, types, total_tokens, l_frac, prob);
   }
+
   return prob;
 }

@@ -49,16 +49,19 @@ protected:
     virtual bool sample_hyperparm(F& beta, bool is_prob, F temperature);
     F log_posterior(const Unigrams& lex) const;
     F log_posterior(const Unigrams& ulex, const Bigrams& lex) const;
-    Fs predict_pairs(const TestPairs& test_pairs, const Unigrams& lex) const {
-        Fs probs;
-        cforeach(TestPairs, tp, test_pairs) {
-            F p1 = lex(tp->first);
-            F p2 = lex(tp->second);
-            if (debug_level >= 10000) TRACE2(p1,p2);
-            probs.push_back(p1/(p1+p2));
+    Fs predict_pairs(const TestPairs& test_pairs, const Unigrams& lex) const
+        {
+            Fs probs;
+            for(const auto& tp: test_pairs)
+            {
+                F p1 = lex(tp.first);
+                F p2 = lex(tp.second);
+                if (debug_level >= 10000) TRACE2(p1, p2);
+                probs.push_back(p1 / (p1 + p2));
+            }
+
+            return probs;
         }
-        return probs;
-    }
 
     Fs predict_pairs(const TestPairs& test_pairs, const Bigrams& lex) const {
         Fs probs;
@@ -66,16 +69,19 @@ protected:
         return probs;
     }
 
-    void print_segmented_sentences(std::wostream& os, const Sentences& sentences) const {
-        cforeach(Sentences, iter, sentences)
-            os << *iter << endl;
-    }
-    void print_scores_sentences(std::wostream& os, const Sentences& sentences) {
-        _scoring.reset();
-        cforeach(Sentences, iter, sentences)
-            iter->score(_scoring);
-        _scoring.print_results(os);
-    }
+    void print_segmented_sentences(std::wostream& os, const Sentences& sentences) const
+        {
+            for(const auto& item: sentences)
+                os << item << std::endl;
+        }
+
+    void print_scores_sentences(std::wostream& os, const Sentences& sentences)
+        {
+            _scoring.reset();
+            for(const auto& item: sentences)
+                item.score(_scoring);
+            _scoring.print_results(os);
+        }
 };
 
 class Model: public ModelBase {
@@ -128,7 +134,7 @@ public:
 
 protected:
     P0 _base_dist;
-    virtual void print_statistics(wostream& os, U iters, F temp, bool do_header=false) = 0;
+    virtual void print_statistics(std::wostream& os, U iters, F temp, bool do_header=false) = 0;
     virtual void estimate_sentence(Sentence& s, F temperature) = 0;
     virtual void estimate_eval_sentence(Sentence& s, F temperature, bool maximize = false) = 0;
 };
@@ -174,7 +180,7 @@ public:
 
 protected:
     Unigrams _lex;
-    virtual void print_statistics(wostream& os, U iters, F temp, bool do_header=false);
+    virtual void print_statistics(std::wostream& os, U iters, F temp, bool do_header=false);
     virtual Bs hypersample(F temperature)
         {
             return ModelBase::hypersample(_lex, temperature);
@@ -216,7 +222,7 @@ public:
 protected:
   Unigrams _ulex;
   Bigrams _lex;
-  virtual void print_statistics(wostream& os, U iters, F temp, bool do_header=false);
+  virtual void print_statistics(std::wostream& os, U iters, F temp, bool do_header=false);
   virtual Bs hypersample(F temperature){
     return ModelBase::hypersample(_ulex, _lex, temperature);
   }
@@ -245,7 +251,9 @@ protected:
 class BatchUnigramFlipSampler: public BatchUnigram {
 public:
   BatchUnigramFlipSampler(Data* constants): BatchUnigram(constants) {
-  if(debug_level >= 1000) wcout << "BatchUnigramFlipSampler::Printing current _lex:" << endl << _lex << endl;
+  if(debug_level >= 1000)
+      std::wcout << "BatchUnigramFlipSampler::Printing current _lex:"
+                 << std::endl << _lex << std::endl;
   }
   virtual ~BatchUnigramFlipSampler() {}
 protected:
@@ -366,8 +374,9 @@ public:
     BigramModel(constants), _forget_rate(forget_rate) {
     Model::_nsentences_seen = 0;}
   virtual ~OnlineBigram() {}
-  virtual void estimate(U iters, std::wostream& os, U eval_iters = 0,
-						F temperature = 1, bool maximize = false, bool is_decayed = false);
+  virtual void estimate(
+      U iters, std::wostream& os, U eval_iters = 0,
+      F temperature = 1, bool maximize = false, bool is_decayed = false);
 protected:
   F _forget_rate;
   Sentences _sentences_seen; // for use with DeacyedMCMC model in particular
