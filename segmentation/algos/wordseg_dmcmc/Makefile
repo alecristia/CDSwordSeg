@@ -27,7 +27,7 @@ CFLAGS	= -Wall -O3 -std=c++11 -I$(INCDIR) -DNDEBUG
 LFLAGS	= -Wall -O3 -std=c++11 -lboost_program_options
 
 # source files must be *.cc files in $(SRCDIR)
-SOURCES	= Data Estimators Scoring Sentence mt19937ar
+SOURCES	= Data Estimators Scoring Sentence
 OBJECTS	= $(SOURCES:%=$(BUILDDIR)/%.o)
 
 

@@ -31,9 +31,9 @@
 #include <iostream>
 
 #include "mhs.h"
-#include "util.h"
 
-extern uniform01_type unif01;
+
+extern uniform01_type<F> unif01;
 
 
 class S

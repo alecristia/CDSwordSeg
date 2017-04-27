@@ -24,13 +24,13 @@ using namespace std;
 
 
 // using the random number generator defined in dpseg.cc
-extern uniform01_type unif01;
+extern uniform01_type<F> unif01;
 
 
 // returns a random double between 0 and n, inclusive
 inline double randd (int n=1)
 {
-    return n * unif01.mt_genrand_real2();
+    return n * unif01();
 }
 
 // returns 1 random gaussian

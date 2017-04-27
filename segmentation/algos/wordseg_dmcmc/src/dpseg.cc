@@ -20,7 +20,6 @@
 #include <chrono>
 #include <iostream>
 #include <locale>
-#include <random>
 #include <string>
 #include <vector>
 
@@ -35,6 +34,7 @@
 
 #include <boost/program_options.hpp>
 
+#include "random-mt19937ar.h"
 #include "Estimators.h"
 #include "Data.h"
 
@@ -43,12 +43,9 @@
 // code (with 'extern' declarations). This is bad (source of bugs,
 // hard to read/debug). Use parameters instead.
 
-//using uniform01_type = std::mt19937;
-uniform01_type unif01;     // mt19937 random generator TODO this is
-                           // now (c++11) part of the std lib, so
-                           // replace that by std::mt19937 from <random>
-unsigned int debug_level;  // higher -> mode debug messages on stdout
-std::wstring sep;          // separator used to separate fields during printing of results
+uniform01_type<double> unif01; // random number generator
+unsigned int debug_level;      // higher -> mode debug messages on stdout
+std::wstring sep;              // separator used to separate fields during printing of results
 
 
 std::wstring str2wstr(std::string str)
