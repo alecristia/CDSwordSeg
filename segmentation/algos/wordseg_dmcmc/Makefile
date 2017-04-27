@@ -33,17 +33,13 @@ OBJECTS	= $(SOURCES:%=$(BUILDDIR)/%.o)
 
 .PHONY: all clean
 
-all: dpseg # stimseg
+all: dpseg
 
 clean:
-	rm -f $(BUILDDIR)/*.o $(BUILDDIR)/dpseg $(BUILDDIR)/stimseg
+	rm -f $(BUILDDIR)/*.o $(BUILDDIR)/dpseg
 
 $(BUILDDIR)/%.o: $(SRCDIR)/%.cc
 	$(CXX) $(CFLAGS) -o $@ -c $?
 
 dpseg: $(OBJECTS) $(BUILDDIR)/dpseg.o
 	$(CXX) $(LFLAGS) -o $(BUILDDIR)/$@ $^
-
-# TODO stimseg do not compile for now
-# stimseg: $(OBJECTS) $(BUILDDIR)/stimseg.o
-# 	$(CXX) $(LFLAGS) -o $(BUILDDIR)/$@ $^

@@ -26,8 +26,8 @@
 
 
 // with gcc below the version 5.0, the <codecvt> header of the
-// standard library is not implemented, so we use the boost::locale
-// workaround
+// standard library is not implemented, so we use the codecvt in
+// boost::locale instead
 #define BOOST_UTF8_BEGIN_NAMESPACE
 #define BOOST_UTF8_END_NAMESPACE
 #define BOOST_UTF8_DECL
@@ -37,10 +37,7 @@
 
 #include "Estimators.h"
 #include "Data.h"
-#include "Sentence.h"
-#include "mhs.h"    // random.h is included here
-#include "precrec.h"
-#include "Base.h"
+//#include "precrec.h"
 
 
 // TODO The following are global variables accessed across the whole
