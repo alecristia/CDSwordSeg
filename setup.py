@@ -41,7 +41,7 @@ REQUIREMENTS = [] if os.environ.get('READTHEDOCS', None) else [
 # a dict of wordseg scripts mapped to the C++ binary they are
 # calling. We must have './segmentation/algos/wordseg_dmcmc/Makefile'
 # that produces './segmentation/algos/wordseg_dmcmc/build/dpseg'
-CPP_TARGETS = {'wordseg_dmcmc': 'dpseg'}
+CPP_TARGETS = {'wordseg_dpseg': 'dpseg'}
 
 
 for cwd in CPP_TARGETS.keys():
@@ -79,7 +79,7 @@ setup(
         'wordseg-gold = segmentation.wordseg_gold:main',
         'wordseg-eval = segmentation.wordseg_eval:main',
         'wordseg-dibs = segmentation.algos.wordseg_dibs:main',
-        'wordseg-dmcmc = segmentation.algos.wordseg_dmcmc:main',
+        'wordseg-dpseg = segmentation.algos.wordseg_dpseg:main',
         'wordseg-tp = segmentation.algos.wordseg_tp:main',
         'wordseg-puddle = segmentation.algos.wordseg_puddle:main',
         ]},

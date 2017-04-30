@@ -12,6 +12,14 @@ segmentation\.algos\.wordseg\_dibs module
     :undoc-members:
     :show-inheritance:
 
+segmentation\.algos\.wordseg\_dpseg module
+-------------------------------------------
+
+.. automodule:: segmentation.algos.wordseg_dpseg
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 segmentation\.algos\.wordseg\_puddle module
 -------------------------------------------
 

@@ -12,7 +12,7 @@ wordseg-ag
 wordseg-dibs
 ------------
 
-wordseg-dmcmc
+wordseg-dpseg
 -------------
 
 wordseg-puddle

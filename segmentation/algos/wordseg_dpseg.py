@@ -49,12 +49,13 @@ See Goldwater, Griffiths, Johnson (2010) and Phillips & Pearl (2014).
 """
 
 import joblib
+import logging
 import pkg_resources
 import re
 import shlex
 import subprocess
 import tempfile
-# import threading
+import threading
 
 from segmentation import utils, folding
 
@@ -84,46 +85,51 @@ class UnicodeGenerator(object):
         return char
 
 
-def _dpseg(text, args, log=utils.null_logger()):
-    with tempfile.NamedTemporaryFile() as tmp:
+def _dpseg(text, args, log_level=logging.ERROR, log_name='wordseg-dpseg'):
 
-        command = ('{} --output-file {} --debug-level 1000 {}'
-                   .format(DPSEG_BIN, tmp.name, args))
+    log = utils.get_logger(name=log_name, level=log_level)
+
+    with tempfile.NamedTemporaryFile() as tmp_output:
+        command = (
+            '{} --output-file {} --debug-level 1000 {}'
+            .format(DPSEG_BIN, tmp_output.name, args))
+
         log.debug('running "%s"', command)
 
-        job = subprocess.Popen(
-            shlex.split(command),
-            stdin=subprocess.PIPE,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE)
+        process = subprocess.Popen(
+            shlex.split(command), stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
-        out, err = job.communicate(('\n'.join(text) + '\n').encode('utf8'))
-        # job.wait()
+        def writer():
+            for utt in text:
+                process.stdin.write((utt.strip() + '\n').encode())
+            process.stdin.close()
 
-        for line in (line for line in out.decode().split('\n') if line):
-            log.debug(line.strip())
-        for line in (line for line in err.decode().split('\n') if line):
-            log.error(line.strip())
+        thread = threading.Thread(target=writer)
+        thread.start()
 
-        if job.returncode:
+        # Send stdout and stderr to logger, break if EOF reached
+        while True:
+            line_out = process.stdout.readline().decode('utf8')
+            line_err = process.stderr.readline().decode('utf8')
+
+            if line_out == "" and line_err == "":
+                break
+
+            if line_out != "":
+                log.debug(line_out.strip())
+
+            if line_err != "":
+                log.error(line_err.strip())
+
+        thread.join()
+        process.wait()
+        if process.returncode:
             raise RuntimeError(
-                'failed with error code {}'.format(job.returncode))
+                'failed with error code {}'.format(process.returncode))
 
-        # # join the command output to log (from
-        # # https://stackoverflow.com/questions/35488927)
-        # def consume_lines(pipe, consume):
-        #     with pipe:
-        #         # NOTE: workaround read-ahead bug
-        #         for line in iter(pipe.readline, b''):
-        #             consume(line)
-        #         consume('\n')
-
-        # threading.Thread(
-        #     target=consume_lines,
-        #     args=[job.stdout, lambda line: log.debug(line)]).start()
-
-        tmp.seek(0)
-        return tmp.read().decode('utf8').split('\n')
+        tmp_output.seek(0)
+        return tmp_output.read().decode('utf8').split('\n')
 
 
 def segment(text, nfolds=5, njobs=1,
@@ -147,7 +153,10 @@ def segment(text, nfolds=5, njobs=1,
     folded_texts, fold_index = folding.fold(unicode_text, nfolds, dmcmc_bugfix=True)
 
     segmented_texts = joblib.Parallel(n_jobs=njobs, verbose=0)(
-        joblib.delayed(_dpseg)(fold, args, log=log) for fold in folded_texts)
+        joblib.delayed(_dpseg)(
+            fold, args, log_level=log.getEffectiveLevel(),
+            log_name='wordseg-dpseg - fold {}'.format(n+1))
+        for n, fold in enumerate(folded_texts))
 
     log.debug('unfolding the %s folds', nfolds)
     output_text = folding.unfold(segmented_texts, fold_index)
@@ -163,8 +172,8 @@ def segment(text, nfolds=5, njobs=1,
 
 class Argument(object):
     """Argument read from a binary and sent to argparse"""
-    # a list of dpseg options we don't want to expose in wordseg-dmcmc
-    excluded = ['--help', '--config-file', '--debug-level', '--data-file',
+    # a list of dpseg options we don't want to expose in wordseg-dpseg
+    excluded = ['--help', '--config-file', '--data-file',
                 '--data-start-index', '--data-num-sents',
                 '--eval-start-index', '--eval-num-sents',
                 '--output-file', '--nsubjects']
@@ -242,9 +251,9 @@ def add_arguments(parser):
 
 @utils.CatchExceptions
 def main():
-    """Entry point of the 'wordseg-dmcmc' command"""
+    """Entry point of the 'wordseg-dpseg' command"""
     streamin, streamout, _, log, args = utils.prepare_main(
-        name='wordseg-dmcmc',
+        name='wordseg-dpseg',
         description=__doc__,
         add_arguments=add_arguments)
 
