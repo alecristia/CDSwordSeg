@@ -189,9 +189,9 @@ class PrecRec:
 
 def data_precrec(trainwords, goldwords, log=utils.null_logger()):
     if len(trainwords) != len(goldwords):
-        log.critical('#words different in train and gold: %s != %s',
-                     len(trainwords), len(goldwords))
-        sys.exit(1)
+        raise ValueError(
+            '#words different in train and gold: {} != {}'.format(
+                len(trainwords), len(goldwords)))
 
     pr = PrecRec()
     for t, g in zip(trainwords, goldwords):
@@ -349,8 +349,7 @@ def main():
             word_split_rex=word_split_rex, log=log)
 
         evaluate(
-            args, outputf,
-            trainwords, trainstringpos,
+            args, outputf, trainwords, trainstringpos,
             goldwords, goldstringpos, log=log)
 
         trainlines = []
