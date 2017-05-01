@@ -62,7 +62,7 @@ from segmentation import utils, folding
 
 DPSEG_BIN = pkg_resources.resource_filename(
     pkg_resources.Requirement.parse('wordseg'),
-    'segmentation/algos/wordseg_dmcmc/build/dpseg')
+    'segmentation/algos/wordseg_dpseg/build/dpseg')
 
 
 class UnicodeGenerator(object):
@@ -150,7 +150,7 @@ def segment(text, nfolds=5, njobs=1,
     unicode_text = [''.join(unicode_mapping[unit] for unit in utt.split()) for utt in text]
 
     log.debug('building %s folds', nfolds)
-    folded_texts, fold_index = folding.fold(unicode_text, nfolds, dmcmc_bugfix=True)
+    folded_texts, fold_index = folding.fold(unicode_text, nfolds)
 
     segmented_texts = joblib.Parallel(n_jobs=njobs, verbose=0)(
         joblib.delayed(_dpseg)(
@@ -173,7 +173,7 @@ def segment(text, nfolds=5, njobs=1,
 class Argument(object):
     """Argument read from a binary and sent to argparse"""
     # a list of dpseg options we don't want to expose in wordseg-dpseg
-    excluded = ['--help', '--config-file', '--data-file',
+    excluded = ['--help', '--config-file', '--data-file', '--debug-level',
                 '--data-start-index', '--data-num-sents',
                 '--eval-start-index', '--eval-num-sents',
                 '--output-file', '--nsubjects']
