@@ -16,59 +16,52 @@
 """Test of the segmentation pipeline from raw text to eval"""
 
 import os
-import re
 import pytest
+# import subprocess
 
 from segmentation import Separator
 from segmentation.wordseg_gold import gold_text
 from segmentation.wordseg_prep import prepare_text
 from segmentation.algos import (
-    wordseg_tp, wordseg_dibs, wordseg_puddle, wordseg_dmcmc)
+    wordseg_tp, wordseg_dibs, wordseg_puddle, wordseg_dpseg)
+
+from . import tags
 
 
 algos = {
     'dibs': wordseg_dibs,
-    'dmcmc': wordseg_dmcmc,
+    'dpseg': wordseg_dpseg,
     'puddle': wordseg_puddle,
     'tp': wordseg_tp}
 
 
-def load_tags():
-    _file = os.path.join(os.path.dirname(__file__), 'data', 'tags.txt')
-    text = open(_file, 'r').readlines()
-    return [line.strip() for line in text if len(line.strip())]
-
-TEXT = load_tags()
-
-
 @pytest.mark.parametrize('algo', algos)
-def test_pipeline(algo):
+def test_pipeline(algo, tags):
     # the token separator we use in the whole pipeline
     separator = Separator(phone=' ', syllable=';esyll', word=';eword')
 
-    # # build the phonologized form of text with phone, syllable and
-    # # word boundaries
-    # phonemized_text = phonemize(
-    #     text, language='en-us', backend='festival',
-    #     separator=separator, strip=False)
-
-    # build the gold version from the phonologized one
-    gold = list(gold_text(TEXT, separator=separator))
+    # build the gold version from the tags
+    gold = list(gold_text(tags, separator=separator))
+    assert len(gold) == len(tags)
+    for a, b in zip(gold, tags):
+        assert separator.remove(a) == separator.remove(b)
 
     # prepare the text for segmentation
-    prepared_text = list(prepare_text(TEXT, separator=separator))
+    prepared_text = list(prepare_text(tags, separator=separator))
+    assert len(prepared_text) == len(tags)
+    for a, b in zip(prepared_text, tags):
+        assert separator.remove(a) == separator.remove(b)
 
     # segment it with the given algo (use default options)
     segmented = list(algos[algo].segment(prepared_text))
 
-    assert len(gold) == len(TEXT)
-    assert len(TEXT) == len(TEXT)
-    assert len(prepared_text) == len(TEXT)
-    assert len(segmented) == len(TEXT)
-    for i in range(len(TEXT)):
-        print()
-        print(re.sub('\s', '', gold[i]))
-        print(re.sub('\s', '', segmented[i]))
-        assert re.sub('\s', '', segmented[i]) == re.sub('\s', '', gold[i])
+    s = separator.remove
+    assert len(segmented) == len(tags)
+    for n, (a, b) in enumerate(zip(segmented, tags)):
+        assert s(a) == s(b), 'line {}: "{}" != "{}"'.format(n+1, s(a), s(b))
 
-    # TODO add the evaluation here
+    # # TODO add the evaluation here
+    # process = subprocess.Popen(
+    #     'wordseg-eval', stdin=subprocess.PIPE,
+    #     stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    # out, err = process.communicate(segmented)

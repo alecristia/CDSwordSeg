@@ -50,7 +50,7 @@ def _threshold_relative(syls, tps):
         last = syl
         syl = _next
 
-    cwords[-1].append(syl[-1])
+    cwords[-1].append(syl)
     return cwords
 
 
