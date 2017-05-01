@@ -46,11 +46,11 @@ def gold_text(text, separator=Separator()):
     """
     # delete syllable and word separators
     gold = (line.replace(separator.syllable, '')
-            .replace(separator.phone, '')
+            .replace(separator.phone or '', '')
             .replace(separator.word, ' ') for line in text)
 
     # delete any duplicate, begin or end spaces
-    return (re.sub(' +', ' ', g).strip() for g in gold)
+    return (utils.strip(line) for line in gold)
 
 
 @utils.CatchExceptions
@@ -60,7 +60,7 @@ def main():
     streamin, streamout, separator, log, args = utils.prepare_main(
         name='wordseg-gold',
         description=__doc__,
-        separator=utils.Separator(False, ';esyll', ';eword'))
+        separator=utils.Separator(' ', ';esyll', ';eword'))
 
     gold = gold_text(streamin, separator=separator)
 
