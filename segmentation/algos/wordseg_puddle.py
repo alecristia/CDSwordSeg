@@ -31,13 +31,16 @@ Invariant : each time the lexicon is updated, we are segmenting
 
 """
 
-from collections import Counter
-from segmentation import utils
+import collections
+import joblib
+import logging
+
+from segmentation import utils, folding
 
 
-lexicon = Counter()
-beginning = Counter()
-ending = Counter()
+lexicon = collections.Counter()
+beginning = collections.Counter()
+ending = collections.Counter()
 
 
 def filter_by_frequency(phonemes, i, j):
@@ -152,17 +155,43 @@ def update_line(phonemes, window, log=utils.null_logger(), segmented=[]):
     return segmented
 
 
-def segment(text, window=2, log=utils.null_logger()):
-    # TODO docstring
-    for line in text:
-        segmented_line = update_line(
-            line.strip().split(), window=window, log=log, segmented=[])
+def _puddle(text, window, log_level=logging.ERROR, log_name='wordseg-puddle'):
+    log = utils.get_logger(name=log_name, level=log_level)
+    return [' '.join(update_line(
+        line.strip().split(), window=window, log=log, segmented=[]))
+            for line in text]
 
-        yield ' '.join(segmented_line)
+
+def segment(text, window=2, nfolds=5, njobs=1, log=utils.null_logger()):
+    """TODO docstring"""
+    # force the text to be a list of utterances
+    text = list(text)
+
+    log.debug('building %s folds', nfolds)
+    folded_texts, fold_index = folding.fold(text, nfolds)
+
+    segmented_texts = joblib.Parallel(n_jobs=njobs, verbose=0)(
+        joblib.delayed(_puddle)(
+            fold, window, log_level=log.getEffectiveLevel(),
+            log_name='wordseg-puddle - fold {}'.format(n+1))
+        for n, fold in enumerate(folded_texts))
+
+    log.debug('unfolding the %s folds', nfolds)
+    output_text = folding.unfold(segmented_texts, fold_index)
+
+    return (utt for utt in output_text if utt)
 
 
 def add_arguments(parser):
     """Add algorithm specific options to the parser"""
+    parser.add_argument(
+        '-f', '--nfolds', type=int, metavar='<int>', default=5,
+        help='number of folds to segment the text on, default is %(default)s')
+
+    parser.add_argument(
+        '-j', '--njobs', type=int, metavar='<int>', default=1,
+        help='number of parallel jobs to use, default is %(default)s')
+
     parser.add_argument(
        '-w', '--window', type=int, default=2, help='''
        Number of phonemes to be taken into account for boundary constraint,

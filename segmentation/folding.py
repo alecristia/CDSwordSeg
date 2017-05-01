@@ -15,7 +15,19 @@
 
 """Folding and unfolding texts for use in iterative word segmenters
 
+Iterative algorithms pass through the input text only once, the model
+is learned online. Thus only the end of the text is relevent for
+the algorithm evaluation.
 
+To use the whole input for evaluation, the folding module create
+"folded" versions of a text to be used in iterative text based
+algorithms.
+
+Let "A B C" be a text of three block of lines A, B and C equivalent in
+length. Folding that text in 3 generates a list of 3 versions ["A1 B1
+C1", "C2 A2 B2", and "B3 C3 A3"]. The algorithm is ran over the 3
+versions and their outputs are then unfolded to retrieve the original
+text "A3 B2 C1".
 
 """
 
@@ -57,7 +69,7 @@ def fold_boundaries(text, nfolds):
     return [i * int(len(text)/nfolds) for i in range(nfolds)]
 
 
-def fold(text, nfolds, dmcmc_bugfix=False):
+def fold(text, nfolds):
     """Create `nfolds` versions of an input `text`.
 
     This function reorders the blocks given from `boundaries`
@@ -70,12 +82,6 @@ def fold(text, nfolds, dmcmc_bugfix=False):
 
     :return: a tuple (folds, index) , where index is a list of int
       and folds a list of equal length lists
-
-    >>> fold([1, 2, 3], 3)     # Each group have 1 element
-    ([2, 2, 2], [[1, 2, 3], [3, 1, 2], [2, 3, 1]])
-
-    >>> fold([1, 2, 3, 4], 3)  # Here the last group is [3, 4]
-    ([2, 3, 3], [[1, 2, 3, 4], [3, 4, 1, 2], [2, 3, 4, 1]])
 
     """
     if nfolds == 1:
@@ -94,7 +100,8 @@ def fold(text, nfolds, dmcmc_bugfix=False):
     idx = list(range(nfolds))
     for _ in range(nfolds):
         folds += [flatten([blocks[idx[j]] for j in range(nfolds)])]
-        index += [numpy.cumsum([len(blocks[idx[j]]) for j in range(nfolds)])[-2]]
+        index += [numpy.cumsum(
+            [len(blocks[idx[j]]) for j in range(nfolds)])[-2]]
         idx = permute(idx)
 
     assert all([len(f) == len(text) for f in folds])
