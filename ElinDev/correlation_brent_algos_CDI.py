@@ -36,25 +36,30 @@ SUBS=['sub0','sub1','sub2','sub3','sub4','sub5','sub6','sub7','sub8','sub9']
 lexical_classes=['nouns','function_words', 'adjectives', 'verbs', 'other']
 unit="syllable"
 CDI_file="CDI_data/PropUnderstandCDI.csv"
+#CDI_file="CDI_data/PropProduceCDI.csv"
 freq_file="/freq-words.txt"
 nb_i_file="CDI_data/CDI_NbInfantByAge"
+ages=range(8,19)
+#ages=range(16, 31)
+freq_brent=pd.read_table('/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/full_corpus/gold/freq-words.txt', sep='\t', header=0)
+
 
 # **** dictionnary
 d=translate.build_phono_to_ortho(path_gold,path_ortho)
 dic_corpus= translate.build_phono_to_ortho_representative(d)[0]
-freq_tokens_brent=translate.build_phono_to_ortho_representative(d)[1]
+
 
 
 # ******* Model selection : Linear or Logistics *******
 
 # LINEAR
-results_full_corpus_ph=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)
+results_full_corpus_ph=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", ages, CDI_file, freq_file, evaluation='true_positive', miss_inc=False)
 len(results_full_corpus_ph['df_data'])
-R2_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)['R2']
-R2_ALGOs_CDI_syllable=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "syllable", range(8,19), CDI_file, freq_file,evaluation='true_positive', miss_inc=False)['R2']
+R2_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", ages, CDI_file, freq_file, evaluation='true_positive', miss_inc=False)['R2']
+R2_ALGOs_CDI_syllable=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "syllable", ages, CDI_file, freq_file,evaluation='true_positive', miss_inc=False)['R2']
 
-std_err_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)['std_err']
-std_err_ALGOs_CDI_syllable=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "syllable", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)['std_err']
+std_err_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "phoneme", ages, CDI_file, freq_file, evaluation='true_positive', miss_inc=False)['std_err']
+std_err_ALGOs_CDI_syllable=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS, "syllable", ages, CDI_file, freq_file, evaluation='true_positive', miss_inc=False)['std_err']
 
 R2_lin=pd.concat([R2_ALGOs_CDI_syllable,R2_ALGOs_CDI_phoneme])
 R2_lin.set_index([['TPs', 'DiBS', 'PUDDLE', 'AGu', 'Gold', 'TPs', 'DiBS', 'PUDDLE', 'AGu', 'Gold']], drop=True, inplace=True, verify_integrity=False)
@@ -63,22 +68,22 @@ std_err_lin=pd.concat([std_err_ALGOs_CDI_syllable,std_err_ALGOs_CDI_phoneme])
 std_err_lin.set_index([['TPs', 'DiBS', 'PUDDLE', 'AGu', 'Gold', 'TPs', 'DiBS', 'PUDDLE', 'AGu', 'Gold']], drop=True, inplace=True, verify_integrity=False)
 
 # test evaluation on recall
-R2_recall_ph=R2_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS_, "phoneme", range(8,19), CDI_file, freq_file, evaluation='recall')
-R2_recall_syl=R2_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS_, "syllable", range(8,19), CDI_file, freq_file, evaluation='recall')
+R2_recall_ph=R2_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS_, "phoneme", ages, CDI_file, freq_file, evaluation='recall')
+R2_recall_syl=R2_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS_, "syllable", ages, CDI_file, freq_file, evaluation='recall')
 
-'''
+
 # LOGISTIC
-R2_log_phoneme=model.logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'phoneme', range(8,19), CDI_file,nb_i_file ,freq_file, Test_size=0.20)['R2']
-R2_log_syllable=model.logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'syllable', range(8,19),CDI_file,nb_i_file ,freq_file, Test_size=0.20) ['R2']
+R2_log_phoneme=model.logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'phoneme', ages, CDI_file,nb_i_file ,freq_file, Test_size=0.20)['R2']
+R2_log_syllable=model.logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'syllable', ages,CDI_file,nb_i_file ,freq_file, Test_size=0.20) ['R2']
 
 R2_log=pd.concat([R2_log_syllable, R2_log_phoneme])
 
-std_err_log_ph=model.logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'phoneme', range(8,19),  CDI_file,nb_i_file ,freq_file, Test_size=0.20) ['std_err']
-std_err_log_syl=model.logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'syllable', range(8,19),CDI_file,nb_i_file ,freq_file, Test_size=0.20)['std_err']
+std_err_log_ph=model.logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'phoneme', ages,  CDI_file,nb_i_file ,freq_file, Test_size=0.20) ['std_err']
+std_err_log_syl=model.logistic_nb_infant_algo_CDI(path_ortho,path_res, SUB, ALGOS,'syllable', ages,CDI_file,nb_i_file ,freq_file, Test_size=0.20)['std_err']
 
 std_err_log=pd.concat([std_err_log_syl, std_err_log_ph])
 
-'''
+
 
 # for one subcorpus (length divided by 10) => looking at the effect size of the corpus
 R2_ALGOs_CDI_sub0=model.linear_algo_CDI(path_ortho,path_res,["sub0"], ALGOS, "", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)['R2']
@@ -87,6 +92,8 @@ std_err_ALGOs_CDI_sub0=model.linear_algo_CDI(path_ortho,path_res,["sub0"], ALGOS
 results_sub0=model.linear_algo_CDI(path_ortho,path_res,["sub0"], ALGOS, "", range(8,19), CDI_file, freq_file, evaluation='true_positive', miss_inc=False)
 
 len(results_sub0['df_data'])
+
+
 # *******  Visualisation *******
 ### scatter plot
 
@@ -97,8 +104,15 @@ visualize.plot_algos_CDI_by_age(path_ortho,path_res, ["full_corpus"], ALGOS,[8,1
 ### R2 for differents ages
 
 # linear
+#production for different ages
+visualize.plot_bar_R2_algos_unit_by_age(R2_lin, std_err_lin, ages,ALGOS, ['syllable', 'phoneme'],name_vis="Correlation with infant lexicon production for 16-30-month-old")
+
 visualize.plot_bar_R2_algos_unit_by_age(R2_lin[[13,'unit']], std_err_lin[[13,'unit']], 13,ALGOS, ['syllable', 'phoneme'],name_vis="Age 13 months")
+
 #logistic
+#production for different ages
+visualize.plot_bar_R2_algos_unit_by_age(R2_log, std_err_log, ages,ALGOS, ['syllable', 'phoneme'],name_vis="Logistic Reg with infant lexicon production for 16-30-month-old ")
+
 visualize.plot_bar_R2_algos_unit_by_age(R2_log, std_err_log, range(8,19),ALGOS, ['syllable', 'phoneme'], name_vis="LOG R2 ALGOs versus CDI with phoneme representation")
 
 # miss included
@@ -126,7 +140,12 @@ R2_lc_13_ph=visualize.plot_by_lexical_classes(path_res, ['full_corpus'], ALGOS,'
 R2_lc_13=pd.concat([R2_lc_13_ph,R2_lc_13_syl])
 
 #### algo vers gold
-visualize.plot_algo_gold_lc(path_res,['full_corpus'], ['tps','dibs','puddle_py','AGu'],'gold', 'syllable', 'std_err',CDI_file,lexical_classes, freq_file, name_vis="plot_algos_vs_gold_log_scale")
+visualize.plot_algo_gold_lc(path_res,['full_corpus'], ['tps','dibs','puddle_py','AGu'],'gold', 'syllable', 'std_err',CDI_file, group_by="lexical_class", lexical_classes, freq_file, name_vis="plot_algos_vs_gold_log")
+     
+df_gold_lc=pd.merge(freq_brent, df_tag_file, on="Type", how="inner")
+df_gold_lc.columns=['Type', 'Freqgold', 'abbrev_tags', 'lexical_class']
+     
+visualize.plot_algo_gold_lc(path_res,['full_corpus'], ['tps'],df_gold_lc, 'syllable', 'std_err',CDI_file, "lexical_class", lexical_classes, freq_file, name_vis="plot_TP_vs_gold_log")
 
 
 # ******** test the effect of missed word by algo  *******

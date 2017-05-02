@@ -165,7 +165,7 @@ def plot_algo_gold_lc(path_res, sub, algos, df_gold, unit, out='r2', CDI_file="P
     for algo in algos:
         df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
         df_data=pd.merge(df_gold, df_algo, on=['Type'], how='inner')
-        print
+        print df_data
         
         if CDI_file is not "" : 
             df_CDI=read.read_CDI_data_by_age(CDI_file, age=8, save_file=False) #age does not matte here

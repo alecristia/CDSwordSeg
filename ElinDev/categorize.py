@@ -61,11 +61,12 @@ df_tags['lexical_class']=['function_words', 'verbs', 'verbs', 'punc', 'verbs', '
        'nouns', 'punc','punc', 'others', 'function_words', 'punc', 'function_words','others', 'function_words', 'punc', 
        'nouns', 'nouns', 'verbs', 'function_words', 'function_words', 'function_words', 'function_words', 'function_words', 'function_words', 'function_words' , 'function_words', 'function_words', 'function_words' , 'function_words', 'nouns', 'punc', 'function_words', 'function_words' , 'others', 'others']
 
-w.female.replace(['male', 'female'], [1, 0], inplace=True)
+
 
 abbrev_tags_in_file=df_tags['abbrev_tags']
 
 df_tag_file.lexical_class.replace(df_tags['abbrev_tags'].tolist(), df_tags['lexical_class'].tolist(), inplace=True)
 df_tag_file['Type']=df_tag_file.index
+
 
 
