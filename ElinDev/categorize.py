@@ -49,8 +49,6 @@ tagdict['NN'][0]
 list_tags=[]
 for t1, t2 in tagdict.values():
     list_tags.append(t1)
-print list_tags
-print tagdict.keys()
 
 df_tags=pd.DataFrame(tagdict.keys())
 df_tags.columns=['abbrev_tags']

@@ -9,6 +9,7 @@ Created on Mon Nov 21 14:07:10 2016
 import os
 import pandas as pd
 from pandas import DataFrame
+from collections import Counter
 
 # importing python scripts
 os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/ElinDev')
@@ -59,7 +60,7 @@ AWL_syl=float(nb_syl)/float(nb_tokens)
 AWL_ph=float(nb_ph)/float(nb_tokens)
 nb_utt_brent=analyze.count_lines_corpus(path_ortho)
 AUL=float(nb_tokens)/float(nb_utt_brent)
-freq_brent=pd.read_table('/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/full_corpus/gold/freq-words.txt', sep='\t', header=0)
+df_gold=analyze.freq_token_in_corpus(path_ortho)
 
      
 # Look at words in common in all sub corpus and sort by frequency

@@ -33,7 +33,7 @@ ALGOS=['tps','dibs','puddle_py','AGu', 'gold']
 ALGOS_=['tps','dibs','puddle_py','AGu']
 SUB=['full_corpus']
 SUBS=['sub0','sub1','sub2','sub3','sub4','sub5','sub6','sub7','sub8','sub9']
-lexical_classes=['nouns','function_words', 'adjectives', 'verbs', 'other']
+lexical_classes=['nouns','function_words', 'adjectives', 'verbs', 'others']
 unit="syllable"
 CDI_file="CDI_data/PropUnderstandCDI.csv"
 #CDI_file="CDI_data/PropProduceCDI.csv"
@@ -66,6 +66,12 @@ R2_lin.set_index([['TPs', 'DiBS', 'PUDDLE', 'AGu', 'Gold', 'TPs', 'DiBS', 'PUDDL
 
 std_err_lin=pd.concat([std_err_ALGOs_CDI_syllable,std_err_ALGOs_CDI_phoneme])
 std_err_lin.set_index([['TPs', 'DiBS', 'PUDDLE', 'AGu', 'Gold', 'TPs', 'DiBS', 'PUDDLE', 'AGu', 'Gold']], drop=True, inplace=True, verify_integrity=False)
+
+# correlation on phonologized forms : 
+model.linear_algo_CDI_phono(path_gold,path_res, "full_corpus", ALGOS, 'syllable',ages, CDI_file,"/freq-top.txt", "true_positive", False)
+    
+
+
 
 # test evaluation on recall
 R2_recall_ph=R2_ALGOs_CDI_phoneme=model.linear_algo_CDI(path_ortho,path_res,["full_corpus"], ALGOS_, "phoneme", ages, CDI_file, freq_file, evaluation='recall')
@@ -145,9 +151,12 @@ visualize.plot_algo_gold_lc(path_res,['full_corpus'], ['tps','dibs','puddle_py',
 df_gold_lc=pd.merge(freq_brent, df_tag_file, on="Type", how="inner")
 df_gold_lc.columns=['Type', 'Freqgold', 'abbrev_tags', 'lexical_class']
      
-visualize.plot_algo_gold_lc(path_res,['full_corpus'], ['tps'],df_gold_lc, 'syllable', 'std_err',CDI_file, "lexical_class", lexical_classes, freq_file, name_vis="plot_TP_vs_gold_log")
+results_gold_TP=visualize.plot_algo_gold_lc(path_res,['full_corpus'], ['tps'],df_gold_lc, 'syllable',"", "lexical_class", lexical_classes, freq_file, name_vis="plot_TP_vs_gold_log_scale")
 
+sup10=df_gold_lc.loc[lambda df_gold_lc: df_gold_lc.Freqgold > 10, :]
+inf100=df_gold_lc.loc[lambda df_gold_lc:  df_gold_lc.Freqgold < 100, :]
 
+pd.merge(sup10, inf100)
 # ******** test the effect of missed word by algo  *******
 lin_missed=model.linear_algo_CDI(path_ortho,path_res, ['full_corpus'], ALGOS,'syllable',[13], CDI_file ,"/freq-words.txt","true_positive",True)
 
