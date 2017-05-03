@@ -62,13 +62,15 @@ def strip(utt):
 
     This function is an extension of string.strip(), by so removing
     begining and ending spaces, that also subsitutes multiple spaces
-    by a single one inside the string.
+    by a single one inside the string
 
-    >>> strip(" a   b\n")
+    >>> strip(" a   b\\n")
     a b
+
     >>> strip("ab   c ")
     ab c
-    >>> strip("ab\n c ")
+
+    >>> strip("ab\\n c ")
     ab c
 
     """

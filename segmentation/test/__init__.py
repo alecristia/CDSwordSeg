@@ -18,6 +18,7 @@ import pytest
 
 from segmentation import Separator
 from segmentation.wordseg_prep import prepare_text
+from segmentation.wordseg_gold import gold_text
 
 
 @pytest.yield_fixture(scope='session')
@@ -31,3 +32,8 @@ def tags(nlines=10):
 @pytest.yield_fixture(scope='session')
 def prep(nlines=10):
     return list(prepare_text(tags(nlines=nlines), Separator()))
+
+
+@pytest.yield_fixture(scope='session')
+def gold(nlines=10):
+    return list(gold_text(tags(nlines=nlines), Separator()))

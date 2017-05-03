@@ -16,15 +16,20 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-"""Word segmentation evaluation"""
+"""Word segmentation evaluation.
+
+Evaluates a segmented text against it's gold version. Display the
+precision, recall and f-score at type, token and boundary levels.
+
+"""
 
 import codecs
-import collections
 
 from segmentation import utils, Separator
 
 
 DEFAULT_SEPARATOR = Separator(None, None, ' ')
+"""Separation for words only, separated by ' '"""
 
 
 class PrecRec:
@@ -47,37 +52,18 @@ class PrecRec:
     def exact_match(self):
         return self.n_exactmatch / (self.n + 1e-100)
 
-    def update(self, testset, goldset):
+    def update(self, test_set, gold_set):
         self.n += 1
-        if testset == goldset:
+        if test_set == gold_set:
             self.n_exactmatch += 1
-        self.test += len(testset)
-        self.gold += len(goldset)
-        self.correct += len(testset & goldset)
+        self.test += len(test_set)
+        self.gold += len(gold_set)
+        self.correct += len(test_set & gold_set)
 
     def __str__(self):
         return ("%.4g\t%.4g\t%.4g" % (
             self.fscore(), self.precision(), self.recall()))
 
-
-def words_stringpos(ws):
-    stringpos = set()
-    left = 0
-    for w in ws:
-        right = left + len(w)
-        stringpos.add((left, right))
-        left = right
-    return stringpos
-
-
-# TODO yield (segment, stringpos) here
-def read_data(text, separator):
-    words = [list(separator.split(line.strip(), level='word'))
-             for line in text]
-
-    segments = [''.join(ws) for ws in words]
-    stringpos = [words_stringpos(ws) for ws in words]
-    return segments, stringpos
 
 
 def data_precrec(train_words, gold_words):
@@ -92,54 +78,81 @@ def data_precrec(train_words, gold_words):
     return pr
 
 
-def stringpos_boundarypos(stringpos):
-    return [set(left for left, right in line if left > 0)
-            for line in stringpos]
+
+class StringPos(object):
+    """Compute start and stop index of words in an utterance"""
+    def __init__(self):
+        self.idx = 0
+
+    def __call__(self, n):
+        """Return the position of the current word given its length `n`"""
+        start = self.idx
+        self.idx += n
+        return start, self.idx
 
 
-# TODO a bug here: must return the same size for train and gold...
-def stringpos_typepos(stringpos):
-    dic_type = collections.Counter()
-    for line in stringpos:
-        for word in line:
-            dic_type.update(word)  # build a dictionnary of vocabulary
-    return dic_type.keys()
+def read_data(text, separator=DEFAULT_SEPARATOR):
+    """Load text data for evaluation
+
+    :param list(str) text: a list of utterances
+
+    :param Separator separator: token separation to split the
+        utterances into words
+
+    :return: two lists (words, positions) where `words` are the input
+        utterences with word separators removed, and `positions`
+        stores the start/stop index of each word for each utterance.
+
+    """
+    words, positions = [], []
+    for line in text:
+        line = list(separator.split(line.strip(), level='word'))
+        words.append(''.join(line))
+
+        idx = StringPos()
+        positions.append({idx(len(word)) for word in line})
+    return words, positions
 
 
-def evaluate(train, gold, separator=DEFAULT_SEPARATOR,
-             log=utils.null_logger()):
-    gold_words, gold_stringpos = read_data(gold, separator)
+def _stringpos_boundarypos(stringpos):
+    return [{left for left, _ in line if left > 0} for line in stringpos]
+
+
+def _stringpos_typepos(stringpos):
+    return [{pos for pos in line} for line in stringpos]
+
+
+def evaluate(train, gold, separator=DEFAULT_SEPARATOR):
     train_words, train_stringpos = read_data(train, separator)
+    gold_words, gold_stringpos = read_data(gold, separator)
 
-    if gold_words != train_words:
-        log.error(
-            'gold and train terminal words don\'t match'
-            ': len(goldwords) = %s, len(trainwords) = %s',
-            len(gold_words), len(train_words))
+    if len(gold_words) != len(train_words):
+        raise RuntimeError(
+            'gold and train have different size: len(gold)={}, len(train)={}'
+            .format(len(gold_words), len(train_words)))
 
-        for i in range(min(len(gold_words), len(train_words))):
-            if gold_words[i] != train_words[i]:
-                log.error("first difference at line %s", i)
-                log.error('gold:i = "%s"', gold_words[i])
-                log.error('train:i = "%s"', train_words[i])
-                raise RuntimeError
+    for i, (g, t) in enumerate(zip(gold_words, train_words)):
+        if g != t:
+            raise RuntimeError(
+                'gold and train differ at line {}: gold="{}", train="{}"'
+                .format(i+1), g, t)
 
-    # type_eval = data_precrec(
-    #     stringpos_typepos(train_stringpos),
-    #     stringpos_typepos(gold_stringpos))
+    type_eval = data_precrec(
+        _stringpos_typepos(train_stringpos),
+        _stringpos_typepos(gold_stringpos))
 
     token_eval = data_precrec(
         train_stringpos,
         gold_stringpos)
 
     boundary_eval = data_precrec(
-        stringpos_boundarypos(train_stringpos),
-        stringpos_boundarypos(gold_stringpos))
+        _stringpos_boundarypos(train_stringpos),
+        _stringpos_boundarypos(gold_stringpos))
 
     return {
-        # 'type_f-score': type_eval.fscore(),
-        # 'type_precision': type_eval.precision(),
-        # 'type_recall': type_eval.recall(),
+        'type_f-score': type_eval.fscore(),
+        'type_precision': type_eval.precision(),
+        'type_recall': type_eval.recall(),
         'token_f-score': token_eval.fscore(),
         'token_precision': token_eval.precision(),
         'token_recall': token_eval.recall(),
@@ -163,11 +176,14 @@ def main():
         separator=DEFAULT_SEPARATOR,
         add_arguments=add_arguments)
 
-    # load the gold text
-    gold = codecs.open(args.gold, 'r', encoding='utf8').readlines()
+    # load the gold text as a list of utterances
+    gold = [l.strip() for l in codecs.open(args.gold, 'r', encoding='utf8')]
+
+    # load the train text as a list of utterances
+    train = [l.strip() for l in streamin]
 
     # evaluation returns a dict of 'score name' -> float
-    results = evaluate(gold, streamin, log=log)
+    results = evaluate(train, gold)
 
     streamout.write('\n'.join(
         # display scores with 4-digit float precision
