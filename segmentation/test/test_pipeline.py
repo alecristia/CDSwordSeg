@@ -15,13 +15,12 @@
 
 """Test of the segmentation pipeline from raw text to eval"""
 
-import os
 import pytest
-# import subprocess
 
 from segmentation import Separator
 from segmentation.wordseg_gold import gold_text
 from segmentation.wordseg_prep import prepare_text
+from segmentation.wordseg_eval import evaluate
 from segmentation.algos import (
     wordseg_tp, wordseg_dibs, wordseg_puddle, wordseg_dpseg)
 
@@ -60,8 +59,8 @@ def test_pipeline(algo, tags):
     for n, (a, b) in enumerate(zip(segmented, tags)):
         assert s(a) == s(b), 'line {}: "{}" != "{}"'.format(n+1, s(a), s(b))
 
-    # # TODO add the evaluation here
-    # process = subprocess.Popen(
-    #     'wordseg-eval', stdin=subprocess.PIPE,
-    #     stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    # out, err = process.communicate(segmented)
+    results = evaluate(segmented, gold)
+    assert len(results.keys()) % 3 == 0
+    for v in results.values():
+        assert v >= 0
+        assert v <= 1

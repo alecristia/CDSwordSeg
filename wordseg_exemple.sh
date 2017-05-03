@@ -17,7 +17,7 @@ cat $data/tags.txt | wordseg-gold > $data/gold.txt
 cat $data/tags.txt | wordseg-prep -u phoneme | wordseg-$algo $opts > $data/seg.$algo.txt
 
 # evaluation
-cat $data/seg.$algo.txt | wordseg-eval -g $data/gold.txt
+cat $data/seg.$algo.txt | wordseg-eval $data/gold.txt
 
 # echo 'Input text'
 # echo '----------'
