@@ -23,14 +23,15 @@ for ORTHO in ${RES_FOLDER}/data/${LANGUAGE}/*surface.txt; do
 	if [ "$LANGUAGE" = "japanese" ]; then
 	  echo "recognized $LANGUAGE"
 tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | 
-	  sed 's/ $//g' | #
+	    sed 's/ $//g' | #
 	  sed 's/^$//g' | #
 	  sed 's/ch/C/g' | #
-	  sed 's/sh/5/g' |
+	  sed 's/sh/Z/g' |
 	  sed 's/tt/T/g' |
 	  sed 's/kk/K/g' |
 	  sed 's/gg/G/g' |
 	  sed 's/ss/S/g' |
+	  sed 's/NA//g' |
 	  sed 's/ʃ/J/g' |
 	  sed 's/ŋ/H/g' |
 	  sed 's/sy/W/g' |
@@ -46,10 +47,16 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  |
 	  sed 's/ee/E/g' |
 	  sed 's/oo/O/g' |
 	  sed 's/uu/U/g' |
-	  sed 's/ai/9/g' |
+	  sed 's/ai/3/g' |
 	  sed 's/oi/4/g' |
-	  sed 's/au/8/g' |
+	  sed 's/au/5/g' |
 	  sed 's/ɘ/1/g' |
+	  sed 's/o:/O/g' |
+	  sed 's/u:/U/g' |
+	  sed 's/e:/E/g' |
+	  sed 's/a:/A/g' |
+	  sed 's/i:/I/g' |
+	  sed 's/ei/E/g' |
 	  sed 's/ə/2/g' > ${RES_FOLDER}/processed/$LANGUAGE/${KEYNAME}-intoperl.tmp
 
 
@@ -64,12 +71,12 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  |
 		sed 's/ui/5/g' |
 		sed 's/au/6/g' |
 		sed 's/1i/7/g' |
-		sed 's/[àãâā]/A/g' |
-		sed 's/[ā]/A/g' |
-		sed 's/[ũùûù]/U/g' |
-		sed 's/[ôò]/O/g' |
-		sed 's/[èẽ]/E/g' |
-		sed 's/[ĩīĩ]/I/g' |
+		sed 's/[àãâā]/a/g' |
+		sed 's/[ā]/a/g' |
+		sed 's/[ũùûù]/u/g' |
+		sed 's/[ôò]/o/g' |
+		sed 's/[èẽ]/e/g' |
+		sed 's/[ĩīĩ]/i/g' |
 		sed 's/jh//g' |
 		sed 's/kk/K/g' |
 		sed 's/tt/T/g' | # substitute all ch by tS	
@@ -94,27 +101,27 @@ tr '[:upper:]' '[:lower:]'  < "$ORTHO"  |
 		sed 's/ṽ/w/g' |
 		sed 's/ŋ/H/g' |
 		sed 's/�/W/g' |
-		sed 's/m̄/m/' |
-		sed 's//W/' |
-		sed 's/Ḧ/H/' |
-		sed 's/Ë/E/' |
-		sed 's/ɲ/N/' |
-		sed 's/hAA̴/hAA/' |
-		sed 's/¨//'  |
-		sed 's/Œ ñ/Z/' |
-		sed 's/Œ £/Z/' |
-		sed 's/‡ • §//' |
-		sed 's/̵//'  |
-		sed 's/̪//'  |
-		sed 's/ǃ//'  |
-		sed 's/~//'  |
-		sed 's/ʌ//'  |
-		sed 's/˜//'  |
-		sed 's/।//'  |
-		sed 's/̴̴//'  |
-		sed 's/"//'  |
-		sed 's/lUɡE//' |
-		sed 's/IɡIMA//' |
+		sed 's/m̄/m/g' |
+		sed 's//W/g' |
+		sed 's/Ḧ/H/g' |
+		sed 's/Ë/e/g' |
+		sed 's/ɲ/N/g' |
+		sed 's/hAA̴/hAA/g' |
+		sed 's/¨//g'  |
+		sed 's/Œ ñ/Z/g' |
+		sed 's/Œ £/Z/g' |
+		sed 's/‡ • §//g' |
+		sed 's/̵//g'  |
+		sed 's/̪//g'  |
+		sed 's/ǃ//g'  |
+		sed 's/~//g'  |
+		sed 's/ʌ//g'  |
+		sed 's/˜//g'  |
+		sed 's/।//g'  |
+		sed 's/̴̴//g'  |
+		sed 's/"//g'  |
+		sed 's/lUɡE//g' |
+		sed 's/IɡIMA//g' |
 		sed 's/ph/F/g' > ${RES_FOLDER}/processed/$LANGUAGE/${KEYNAME}-intoperl.tmp
 
 	fi
