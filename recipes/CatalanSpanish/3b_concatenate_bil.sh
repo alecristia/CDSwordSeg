@@ -27,7 +27,7 @@ done
 max=`wc -l $(cat both.txt) | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
 
 
-for length in 2 100
+for length in 4 100
 do
 	mkdir -p ${output}/$length/
 	add=$(( $length - 1 ))
