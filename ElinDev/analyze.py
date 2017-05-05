@@ -9,7 +9,8 @@ Created on Thu Dec 15 11:47:40 2016
 import numpy as np
 import collections
 import inspect
-
+import pandas as pd
+from collections import Counter
 
 # import file
 import read
@@ -33,21 +34,34 @@ def create_freq_top_gold(path_res, subs):
         df.to_csv(path_out, sep='\t', index=False)
 
 
-def freq_token_in_corpus(ortho_file):
-    from pandas import DataFrame
-    count_freq={}
-    with open(ortho_file,'r') as ortho: 
-        for line in ortho: 
-            for word in line.split():
-                try: 
-                    count_freq[word]+=1
-                except: 
-                    count_freq[word]=1
-    df=DataFrame(count_freq.items(), columns=['Type', 'Freq'])
-    df_sorted=df.sort('Freq', ascending=False)
-    df_sorted.rename(columns={'Freq': 'Freqgold'}, inplace=True)
-    return(df_sorted)
-    
+def freq_token_in_corpus(path_file):
+    c=Counter()
+    list_o=read.corpus_as_list(path_file)
+    list_o=[x.lower() for x in list_o]
+    for word in list_o : 
+        c.update([word])
+    df=pd.DataFrame.from_dict(c, orient='index')
+    df.reset_index(level=0, inplace=True)
+    df.columns=['Type', 'Freqgold']
+    df.sort('Freqgold', ascending=False, inplace=True)
+    df.reset_index(drop=True, inplace=True)
+    return(df)
+
+'''
+ count_freq={}
+with open(ortho_file,'r') as ortho: 
+    for line in ortho: 
+        for word in line.split():
+            try: 
+                count_freq[word]+=1
+            except: 
+                count_freq[word]=1
+df=DataFrame(count_freq.items(), columns=['Type', 'Freq'])
+df_sorted=df.sort('Freq', ascending=False)
+df_sorted.rename(columns={'Freq': 'Freqgold'}, inplace=True)
+df_sorted['Type']=df_sorted['Type'].str.lower()
+df_sorted.reset_index(drop=True, inplace=True)
+'''   
     
 ######################### SPLIT BETWEEN BAD AND WELL SEGMENTED TOKEN
 #  by checking if they belong to the dictionnary

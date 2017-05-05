@@ -25,6 +25,8 @@ def linear_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_fi
     df_r_2=pd.DataFrame(0, columns=ages, index=algos)
     df_std_err=pd.DataFrame(0, columns=ages, index=algos)
     df_pvalue=pd.DataFrame(0, columns=ages, index=algos)
+    reg=['slope', 'intercept']
+    df_regression=pd.DataFrame(0, columns=reg, index=algos)
     
     results={}
     
@@ -59,11 +61,17 @@ def linear_algo_CDI(path_ortho,path_res, sub, algos, unit,ages, CDI_file,freq_fi
             
             df_pvalue.iloc[algos.index(algo), ages.index(age)]=p_value
             df_pvalue['unit']=np.repeat(unit,len(df_pvalue.index))
-            
+
+            df_regression.iloc[ algos.index(algo),reg.index('slope')]=slope
+            df_regression.iloc[ algos.index(algo),reg.index('intercept')]=intercept
+    
+    results['regression']=df_regression       
     results['R2']=df_r_2
     results['std_err']=df_std_err
     results['pvalue']=df_pvalue
     results['df_data']=df_data
+    
+    return(results)
     
     
 def linear_algo_CDI_phono(path_phono,path_res, sub, algos, unit,ages, CDI_file,freq_file="/freq-top.txt", evaluation="true_positive", miss_inc=False):

@@ -160,17 +160,20 @@ def plot_algo_gold_lc(path_res, sub, algos, df_gold, unit, CDI_file="PropUnderst
     df_r_2=pd.DataFrame(0, columns=lexical_classes, index=algos)
     df_std_err=pd.DataFrame(0, columns=lexical_classes, index=algos)
     df_y_fit=pd.DataFrame(0, columns=lexical_classes, index=algos)
-
+    
     results={}
      
     for algo in algos:
         df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
-        df_data=pd.merge(df_gold, df_algo, on=['Type'], how='inner')
-        
+
         if CDI_file is not "" : 
             df_CDI=read.read_CDI_data_by_age(CDI_file, age=8, save_file=False) #age does not matte here
-            df_data=pd.merge(df_CDI, df_data, on=['Type'], how='inner')
+            df_data=pd.merge(df_CDI, df_algo, on=['Type'], how='inner')
+            df_data=pd.merge(df_data, df_gold,on=['Type'], how='inner')
             df_data=df_data[['lexical_classes','Type','Freqgold', 'Freq'+algo]]
+            
+        else : 
+            df_data=pd.merge(df_gold, df_algo, on=['Type'], how='inner')
             
         for lc in lexical_classes:
             gb_lc=df_data.groupby(group_by).get_group(lc)
@@ -229,6 +232,91 @@ def plot_algo_gold_lc(path_res, sub, algos, df_gold, unit, CDI_file="PropUnderst
     results['y_fit']=df_y_fit
     results['df_data']=df_data
     
+    return(results)
+
+
+def plot_algo_gold(path_res, sub, algos, df_gold, unit, CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", name_vis="plot"):  
+    data=[]
+    list_res=['r2', 'std_err']
+    df_res=pd.DataFrame(0, columns=list_res, index=algos)
+    df_fitted=pd.DataFrame()
+    all_data=pd.DataFrame()
+    df_gold['Type'].str.lower()
+    results={}
+
+    if CDI_file is not "" : 
+        df_CDI=read.read_CDI_data_by_age(CDI_file, age=8, save_file=False) #age does not matter here
+        df_CDI['Type'].str.lower()
+        df=pd.merge(df_gold, df_CDI,  on=['Type'], how='inner')        
+    else : 
+        df=df_gold
+        
+    all_data=df
+    df_fitted=df
+     
+    for algo in algos:
+        df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
+        temp_data=pd.merge(df_algo, df, on=['Type'], how='inner')
+        all_data=pd.merge(all_data, df_algo, on=['Type'], how='inner')
+        
+        x=temp_data['Freqgold']
+        y=temp_data['Freq'+algo]
+        
+        trace=go.Scatter(
+            x=x,
+            y=y,
+            mode='markers+text',
+            name='algo ' + algo  ,
+            text=temp_data['Type'],
+            textposition='top', 
+            visible='legendonly',
+            showlegend=True,
+            )
+        data.append(trace)
+        slope, intercept, r_value, p_value, std_err = stats.linregress(np.log(x),np.log(y))             
+        y_fit=  intercept + slope*x
+        trace_fit=go.Scatter(
+            x=x,
+            y=y_fit,
+            mode='line',
+            name='Fit algo ' + algo,
+            text=temp_data['Type'],
+            textposition='top', 
+            visible='legendonly',
+            showlegend=True,
+            #legendgroup=name,
+            )
+        y_fit_temp=pd.DataFrame()
+        y_fit_temp['Type']=temp_data['Type']
+        y_fit_temp[algo]=y_fit
+        df_fitted=pd.merge(df_fitted, y_fit_temp, on='Type', how='inner')
+        
+        data.append(trace_fit)
+        df_res.iloc[algos.index(algo), list_res.index('r2')]=r_value**2
+        df_res.iloc[algos.index(algo), list_res.index('std_err')]=std_err
+
+    layout= go.Layout(
+    title= name_vis,
+    hovermode= 'closest',
+    xaxis= dict(
+        title= 'Occurence of words in gold',
+        type='log',
+        ticklen= 5,
+        zeroline= False,
+        gridwidth= 2,),
+    yaxis=dict(
+        domain=[0, 1],
+        title= 'Occurence of words in algos',
+        type='log',
+        ticklen= 5,
+        gridwidth= 2,))   
+    fig=go.Figure(data=data, layout=layout)
+    plot=py.iplot(fig, filename=name_vis)
+    
+    results['data']=all_data
+    results['regression']=df_res
+    results['fitted_response']=df_fitted
+        
     return(results)
 
  
