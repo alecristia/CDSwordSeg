@@ -17,6 +17,7 @@ import read
 import translate
 import analyze
 import robustness
+import categorize
 
 # *******  path where are the data *******  
 path_data='/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/recipes/childes/data/Brent'
