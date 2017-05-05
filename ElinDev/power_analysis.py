@@ -198,7 +198,13 @@ def hedges_g(m1, m2, s1, s2, N1,N2):
 
 #size of the correlation effect between the algo lexicon and the prop of infant understanding words
 g_tp_prop_hf=hedges_g(tp_cdi_hf['prop'].mean(),tp_cdi_hf['fitted_prop'].mean(), tp_cdi_hf['fitted_prop'].std(), tp_cdi_hf['prop'].std(), len(tp_cdi_hf['fitted_prop']), len(tp_cdi_hf['prop']))
-g_tp_prop_hf=hedges_g(tp_cdi_hf['prop'].mean(),tp_cdi_hf['fitted_prop'].mean(), tp_cdi_hf['fitted_prop'].std(), tp_cdi_hf['prop'].std(), len(tp_cdi_hf['fitted_prop']), len(tp_cdi_hf['prop']))
+g_tp_prop_lf=hedges_g(tp_cdi_lf['prop'].mean(),tp_cdi_lf['fitted_prop'].mean(), tp_cdi_lf['fitted_prop'].std(), tp_cdi_lf['prop'].std(), len(tp_cdi_lf['fitted_prop']), len(tp_cdi_lf['prop']))
+
+g_agu_prop_hf=hedges_g(agu_cdi_hf['prop'].mean(),agu_cdi_hf['fitted_prop'].mean(), agu_cdi_hf['fitted_prop'].std(), agu_cdi_hf['prop'].std(), len(agu_cdi_hf['fitted_prop']), len(agu_cdi_hf['prop']))
+g_agu_prop_lf=hedges_g(agu_cdi_lf['prop'].mean(),agu_cdi_lf['fitted_prop'].mean(), agu_cdi_lf['fitted_prop'].std(), agu_cdi_lf['prop'].std(), len(agu_cdi_lf['fitted_prop']), len(agu_cdi_lf['prop']))
+
+g_tp_lf_hf=hedges_g(tp_cdi_hf['fitted_prop'].mean(),tp_cdi_lf['fitted_prop'].mean(), tp_cdi_hf['fitted_prop'].std(), tp_cdi_lf['fitted_prop'].std(), len(tp_cdi_hf['fitted_prop']), len(tp_cdi_lf['fitted_prop']))
+g_agu_lf_hf=hedges_g(agu_cdi_hf['fitted_prop'].mean(),agu_cdi_lf['fitted_prop'].mean(), agu_cdi_hf['fitted_prop'].std(), agu_cdi_lf['fitted_prop'].std(), len(tp_cdi_hf['fitted_prop']), len(agu_cdi_lf['fitted_prop']))
 
 ## step 3: determine the sample size required to get a significant difference between the two groups of words 
 # predicting proportion of infants understanding a word
