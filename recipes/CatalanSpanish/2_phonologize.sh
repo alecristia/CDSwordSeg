@@ -108,14 +108,16 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/dJi/gi/g' |
 		sed 's/dJi /gi /g' |
 		sed 's/dJi$/gi/g' |
-		sed 's/j/i/g' |
-		sed 's/w/u/g' |
 		sed 's/ë/e/g' |
 		sed 's/s0zaɡna/s0zana/g' |
+		sed 's/ɡ/g/g' |
+		sed 's/ɟ/t/g' |
 		sed 's/⌈//g' |
 		sed 's/ː//g' |
 		sed 's/kot‍SE/kotSE/g' |
 		sed 's/‍//g' |
+		sed 's/j/y/g' |
+		sed 's/"//g' |
 		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
@@ -136,7 +138,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/^r/R/g' | # substitue the initial r for R
 		sed 's/ll/L/g' | # very mixed in spain choose between L and y
 		sed 's/j/x/g' |
-		sed 's/qu/k/g' |
+		sed 's/qu/kw/g' |
 		sed 's/h//g' | # removing h
 		sed 's/ñ/N/g' |
 		sed 's/á/a/g' |
@@ -151,9 +153,9 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/⌋//g' |
 		sed 's/ë/e/g' |
 		sed 's/⌈//g' |
-                sed 's/ː//g' |
+    sed 's/ː//g' |
 		sed 's/ˌ//g' |
-		sed 's/y/i/g' > intoperl.tmp
+		sed 's/"//g' > intoperl.tmp
 
 		echo "syllabify-corpus.pl"
 		perl $PATH_TO_SCRIPTS/scripts/catspa-syllabify-corpus.pl cspanish intoperl.tmp outofperl.tmp $PATH_TO_SCRIPTS
