@@ -47,22 +47,22 @@ divide_multiple=10
 # Analyze
 #rm -r ${RES_FOLDER}spa/100/AG*
 #rm -r ${RES_FOLDER}cat/100/AG*
-rm -r ${RES_FOLDER}bil_half_10/4/*
 #rm -r ${RES_FOLDER}bil/100/*
 #rm -r ${RES_FOLDER}spa_10/100/*
 #rm -r ${RES_FOLDER}spa_10/4/*
 #rm -r ${RES_FOLDER}cat_10/100/*
 #rm -r ${RES_FOLDER}cat_10/4/*
+#rm -r ${RES_FOLDER}bil_half_10/4/*
 #./5_analyze.sh ${CONCATENATED_FOLDER}spa ${RES_FOLDER}spa
 #./5_analyze.sh ${CONCATENATED_FOLDER}cat ${RES_FOLDER}cat
 #./5_analyze.sh ${CONCATENATED_FOLDER}bil ${RES_FOLDER}bil
 #./5_analyze.sh ${CONCATENATED_FOLDER}spa_10/100 ${RES_FOLDER}spa_10/100
 #./5_analyze.sh ${CONCATENATED_FOLDER}spa_10/4 ${RES_FOLDER}spa_10/4
 #./5_analyze.sh ${CONCATENATED_FOLDER}cat_10/100 ${RES_FOLDER}cat_10/100
-#./5_analyze.sh ${CONCATENATED_FOLDER}cat_10/100 ${RES_FOLDER}cat_10/4
-./5_analyze.sh ${CONCATENATED_FOLDER}bil_half_10/4 ${RES_FOLDER}bil_half_10/4
-echo ${CONCATENATED_FOLDER}
-echo ${RES_FOLDER}
+#./5_analyze.sh ${CONCATENATED_FOLDER}cat_10/4 ${RES_FOLDER}cat_10/4
+#./5_analyze.sh ${CONCATENATED_FOLDER}bil_half_10/4 ${RES_FOLDER}bil_half_10/4
+#echo ${CONCATENATED_FOLDER}
+#echo ${RES_FOLDER}
 
 # Collapse results
 #rm ${RES_FOLDER}spa/results.txt
@@ -74,6 +74,7 @@ echo ${RES_FOLDER}
 #rm ${RES_FOLDER}spa_10/100/results.txt
 #rm ${RES_FOLDER}spa_10/2/results.txt
 #rm ${RES_FOLDER}spa_10/4/results.txt
+#rm ${RES_FOLDER}bil_half_10/4/results.txt
 #./6_collapse_results.sh ${RES_FOLDER}spa/
 #./6_collapse_results.sh ${RES_FOLDER}spa_10/100
 #./6_collapse_results.sh ${RES_FOLDER}spa_10/2
@@ -86,6 +87,7 @@ echo ${RES_FOLDER}
 #./6_collapse_results.sh ${RES_FOLDER}bil_tail
 #./6_collapse_results.sh ${RES_FOLDER}bil
 #./6_collapse_results.sh ${RES_FOLDER}bil_head_10/2
+./6_collapse_results.sh ${RES_FOLDER}bil_half_10/4
 #echo "done collapsing results"
 
 # More analysis on the coprus
