@@ -1,22 +1,22 @@
 #!/bin/sh
-# Script to concatenate each 4 and each 100 lines. To be used for monolingual cat and monolingual spa
-# Laia Fibla and Alex Cristia laia.fibla.reixachs@gmail.com 2017-01-10
+# Script to concatenate each 4 and each 100 lines. To be used for corpus containing a single language
+# Laia Fibla 2017-01-10
 
 ###### Variables #######
 
 # Adapt the following variables, being careful to provide absolute paths
 
-#input="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat"
-#output="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat"
+#input="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/conc_eng/all"
+#output="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/conc_eng/mixings/"
 
-input=$1 # path alreaddy provided by the user
+input=$1
 output=$2
 
-echo $input $output #just to check
+echo $input $output
+#######################
 
-########################
+mkdir -p $output
 
-# select lines to be concatenated
 for s in $input/*gold.txt
 do
 thistagfile=$(basename "$s" -gold.txt)
@@ -29,7 +29,6 @@ done
 
 max=`wc -l $input/*cutlines.txt | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
 
-# concatenate each 4 and each 100 lines; numbers to be modified if other concatenation needed e.g. each 20 and 100 lines (it must match with concatenation in 3b script if comparisons monolingual - bilingual wanted)
 for length in 4 100
 do
   rm -r ${output}/$length/
@@ -54,4 +53,5 @@ do
     sed 's/;eword/ /g' > ${output}/$length/gold.txt
 done
 
+echo $output
 echo "done mixing lines for gold and tags"

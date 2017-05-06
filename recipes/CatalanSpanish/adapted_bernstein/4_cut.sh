@@ -5,7 +5,10 @@
 
 ##### Variables #####
 
-input=$1 # Path alreaddy provided by the used, otherwise, include absolute paths
+#input="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/conc_eng/mixings" # Path alreaddy provided by the used, otherwise, include absolute paths
+#output="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/conc_eng_10/"
+
+input=$1
 output=$2
 
 divide=$3 # Modify this line to divide the corpus in a specific number of sub-parts

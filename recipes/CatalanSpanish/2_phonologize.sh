@@ -11,17 +11,19 @@ module load espeak
 
 echo "ja estic funcionant" | phonemize -l ca # testing espeak
 
-#########VARIABLES#################
+######### VARIABLES #################
 #Variables to modify
-LANGUAGE="cspanish" #language options:  cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
+LANGUAGE=$1 #language options: cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
+# e.g. LANGUAGE=catalan
 
 
-PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
-#path to the phonologization folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/phonologization/"
+PATH_TO_SCRIPTS=$2
+#path to the phonologization folder e.g. PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/phonologization"
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/big_corpora/RES_corpus_spa/"
-#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/"
+RES_FOLDER=$3
+#this is where we will put the processed versions of the transcripts - E.g. RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/big_corpora/RES_corpus_cat/"
 # NOTICE THE / AT THE END OF THE NAME
+#####################################
 
 for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	KEYNAME=$(basename "$ORTHO" -ortholines.txt)
@@ -34,7 +36,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		echo "using espeak"
 		phonemize -l ca $ORTHO -o phono.tmp
 
-		echo "substituting letters"
+		echo "substituting phones" # correcting phones or exchanging caracters, some cannot be processed by the pearl script
 		sed 's/ t / t/g' phono.tmp |
 		sed 's/ s / s/g' |
 		sed 's/^s /s/g' |
@@ -59,17 +61,11 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 		sed 's/ɛs$/əs/g' |
 		sed 's/ ɛs / əs /g' |
 		sed 's/dʑ/dJ/g' |
-	#	sed 's/ ets //g' |
-	#	sed 's/^ets //g' |
-	#	sed 's/ G / ets /g' |
-	#	sed 's/^G /ets /g' |
 		sed 's/ʑ/J/g' |
 		sed 's/jɕʊ /Sɔ /g' |
 		sed 's/jɕʊ$/Sɔ/g' |
-	#	sed 's/jɕ/S/g' |
 		sed 's/ kotɕə / kotSE /g' |
 		sed 's/ kotɕə$/ kotSE/g' |
-	#	sed 's/tɕ/tS/g' |
 		sed 's/ɕ/S/g' |
 		sed 's/ɲ/N/g' |
 		sed 's/mp /m /g' |
@@ -126,7 +122,7 @@ for ORTHO in ${RES_FOLDER}*ortholines.txt; do
 	elif [ "$LANGUAGE" = "cspanish" ]
 		 then
 		echo "recognized $LANGUAGE"
-	tr '[:upper:]' '[:lower:]'  < "$ORTHO"  | #Spanish files have different encoding
+	tr '[:upper:]' '[:lower:]'  < "$ORTHO"  |
 		sed 's/ch/tS/g' | # substitute all ch by tS
 		sed 's/v/b/g' |
 		sed 's/z/8/g' |
@@ -187,3 +183,5 @@ done
 
 echo $RES_FOLDER
 echo "done phonologize"
+
+rm *.tmp

@@ -2,14 +2,14 @@
 # Alex Cristia alecristia@gmail.com 2016-12-22
 
 
-#########VARIABLES
+######### VARIABLES #############
 #Variables that have been passed by the user
 RESFOLDER=$1
-#########
+#################################
 
 
 #write header of the fiel
-header="doc nutt nswu nwtok nwtyp nhapax awl mattr" 
+header="doc nutt nswu nwtok nwtyp nhapax awl mattr"
 echo $header > $RESFOLDER/stats.txt
 
 
@@ -63,10 +63,10 @@ for thisfile in $RESFOLDER/*-gold.txt; do
 	mattr=`awk '{ total += $1/$2} END {print total/NR}' < mattr.tmp`
 
 
-#header="doc nutt nswu nwtok nwtyp nhapax awl mattr" 
+#header="doc nutt nswu nwtok nwtyp nhapax awl mattr"
 	thisline="$thisfile $nutt $nswu $nwtok $nwtyp $nhapax $awl $mattr"
 
-	echo $thisline >> $RESFOLDER/stats.txt	
+	echo $thisline >> $RESFOLDER/stats.txt
 
 rm *.tmp
 

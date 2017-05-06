@@ -5,17 +5,20 @@
 ###### Variables #######
 
 # Adapt the following variables, being careful to provide absolute paths
+# Here all paths are previously specified in the bigwrap.sh
 
-PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/database_creation"	#path to the database_creation folder - E.g. PATH_TO_SCRIPTS="/home/xcao/cao/projects/ANR_Alex/CDSwordSeg/database_creation/"
+PATH_TO_SCRIPTS=$1
+#path to the database_creation folder e.g. PATH_TO_SCRIPTS="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/database_creation"
+INPUT_CORPUS=$2
+#where you have put the talkbank corpora to be analyzed e.g. INPUT_CORPUS="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/corpus_database/cat_big"
+RES_FOLDER=$3
+#this is where we will put the processed versions of the transcripts e.g. RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/big_corpora/RES_corpus_cat"
 
-INPUT_CORPUS="/fhgfs/bootphon/scratch/lfibla/seg/SegCatSpa/corpus_database/cat_big" #where you have put the talkbank corpora to be analyzed E.g. INPUT_CORPUS="/home/xcao/cao/projects/ANR_Alex/Childes_Eng-NA"
+########################
 
-RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/big_corpora/RES_corpus_cat/"	#this is where we will put the processed versions of the transcripts E.g. RES_FOLDER="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/" - NOTICE THE / AT THE END OF THE NAME
+INPUT_FILES="${RES_FOLDER}info.txt" # e.g. INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
 
-
-INPUT_FILES="${RES_FOLDER}info.txt" #E.g INPUT_FILES="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/childes_info.txt"
-
-OUTPUT_FILE2="${RES_FOLDER}processedFiles.txt" #E.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
+OUTPUT_FILE2="${RES_FOLDER}processedFiles.txt" #e.g. OUTPUT_FILE2="/home/xcao/cao/projects/ANR_Alex/res_Childes_Eng-NA_cds/processed_files.txt"
 
 mkdir -p $RES_FOLDER	#create folder that will contain all output files
 python ${PATH_TO_SCRIPTS}/scripts/extract_childes_info.py $INPUT_CORPUS $INPUT_FILES
