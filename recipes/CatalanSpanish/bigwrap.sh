@@ -87,7 +87,7 @@ divide_multiple=10
 #rm ${RES_FOLDER}spa_10/4/results.txt
 #rm ${RES_FOLDER}cat_10/100/results.txt
 #rm ${RES_FOLDER}cat_10/4/results.txt
-#rm ${RES_FOLDER}bil_half_10/4/results.txt
+rm ${RES_FOLDER}bil_half_10/4/results.txt
 #rm ${RES_FOLDER}bil_half_10/100/results.txt
 #./6_collapse_results.sh ${RES_FOLDER}spa/
 #./6_collapse_results.sh ${RES_FOLDER}spa_10/100
