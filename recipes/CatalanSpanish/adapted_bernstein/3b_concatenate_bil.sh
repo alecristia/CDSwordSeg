@@ -10,20 +10,20 @@ output=$2
 
 ########################
 
-rm cat.txt # in case you re-run this script
+rm eng.txt # in case you re-run this script
 rm spa.txt
 rm both.txt
 
-ls ${raw}cat/*cutlines.txt > cat.txt   # extract catalan input
+ls ${raw}eng/*cutlines.txt > eng.txt   # extract english input
 ls ${raw}spa/*cutlines.txt > spa.txt   # extract cspanish input
-nfiles=`wc -l cat.txt| awk '{print $1}'`
+nfiles=`wc -l eng.txt| awk '{print $1}'`
 
 
 for (( i=1; i<=$nfiles; i++ ))
 do
 #  	j=$(( $i + 1 ))
 #	j=$(( $i + 1 ))
-	sed -n ${i}p cat.txt >> both.txt
+	sed -n ${i}p eng.txt >> both.txt
 	sed -n ${i}p spa.txt >> both.txt
 done
 

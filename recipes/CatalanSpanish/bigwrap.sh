@@ -30,8 +30,8 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/big_corpora/segcatspares_
 # Select language; language options: cspanish (castillan spanish), catalan  -- NOTICE, IN SMALL CAPS
 Language1=cspanish
 Language2=catalan
-#./2_phonologize.sh Language1 $PATH_TO_SCRIPTS_2 ${PROCESSED_FOLDER}spa
-#./2_phonologize.sh Language2 $PATH_TO_SCRIPTS_2 ${PROCESSED_FOLDER}cat
+#./2_phonologize.sh $Language1 $PATH_TO_SCRIPTS_2 ${PROCESSED_FOLDER}spa
+#./2_phonologize.sh $Language2 $PATH_TO_SCRIPTS_2 ${PROCESSED_FOLDER}cat
 
 # Concatenate the "monolingual" coprus
 #./3_concatenate_mono.sh ${PROCESSED_FOLDER}spa  ${CONCATENATED_FOLDER}spa
@@ -82,12 +82,13 @@ divide_multiple=10
 # Collapse results
 #rm ${RES_FOLDER}spa/results.txt
 #rm ${RES_FOLDER}cat/results.txt
+#rm ${RES_FOLDER}bil/results.txt
 #rm ${RES_FOLDER}bil_all/results.txt
 #rm ${RES_FOLDER}spa_10/100/results.txt
 #rm ${RES_FOLDER}spa_10/4/results.txt
 #rm ${RES_FOLDER}cat_10/100/results.txt
 #rm ${RES_FOLDER}cat_10/4/results.txt
-rm ${RES_FOLDER}bil_half_10/4/results.txt
+#rm ${RES_FOLDER}bil_half_10/4/results.txt
 #rm ${RES_FOLDER}bil_half_10/100/results.txt
 #./6_collapse_results.sh ${RES_FOLDER}spa/
 #./6_collapse_results.sh ${RES_FOLDER}spa_10/100
@@ -95,8 +96,8 @@ rm ${RES_FOLDER}bil_half_10/4/results.txt
 #./6_collapse_results.sh ${RES_FOLDER}cat/
 #./6_collapse_results.sh ${RES_FOLDER}cat_10/100
 #./6_collapse_results.sh ${RES_FOLDER}cat_10/4
-#./6_collapse_results.sh ${RES_FOLDER}bil_all
-./6_collapse_results.sh ${RES_FOLDER}bil_half_10/4
+#./6_collapse_results.sh ${RES_FOLDER}bil
+#./6_collapse_results.sh ${RES_FOLDER}bil_half_10/4
 #echo "done collapsing results"
 
 # More analysis on the coprus

@@ -1,0 +1,10 @@
+/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_eng/0-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_eng/1-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_eng/2-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_eng/3-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_eng/4-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_eng/5-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_eng/6-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_eng/7-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_eng/8-cutlines.txt
+/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_eng/9-cutlines.txt

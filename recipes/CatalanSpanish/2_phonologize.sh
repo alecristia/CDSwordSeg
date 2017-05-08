@@ -25,7 +25,7 @@ RES_FOLDER=$3
 # NOTICE THE / AT THE END OF THE NAME
 #####################################
 
-for ORTHO in ${RES_FOLDER}*ortholines.txt; do
+for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 	KEYNAME=$(basename "$ORTHO" -ortholines.txt)
 
 	#########

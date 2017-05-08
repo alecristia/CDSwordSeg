@@ -9,7 +9,10 @@
 # Here change the paths
 ORIG_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/original_corpus"
 PROCESSED_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/adapted_corpus/"
-CONCATENATED_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/conc_"
+PROCESSED_FOLDER2="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_"
+CONCATENATED_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/conc_"
+CONCATENATED_FOLDER2="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/conc_"
+CONCATENATED_FOLDER3="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa"
 RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/Bernstein/segengspares_"
 #####################################
 
@@ -25,10 +28,9 @@ divide_in_small_parts=10
 #./3_concatenate_eng.sh ${CONCATENATED_FOLDER}eng/all ${CONCATENATED_FOLDER}eng/mixings/100
 
 #This step is to create an artificial bilingual coprus, here we are mixing each 4 and 100 lines
-#rm -r ${CONCATENATED_FOLDER}bil_all/100/*
-#rm -r ${CONCATENATED_FOLDER}bil_all/4/*
-#./3b_concatenate_bil.sh ${CONCATENATED_FOLDER}eng/all ${CONCATENATED_FOLDER}bil_all
-#echo "done concatenating"
+#rm -r ${CONCATENATED_FOLDER2}bil_all/100/*
+#rm -r ${CONCATENATED_FOLDER2}bil_all/4/*
+#./3b_concatenate_bil.sh ${PROCESSED_FOLDER2} ${CONCATENATED_FOLDER2}bil_all
 
 # The bilingual copora is double size than the monolinguals, this step divides it in two parts
 divide_half=2
@@ -38,8 +40,10 @@ divide_half=2
 # note, this step is just used with the big corpus!
 # Divide the big corpus in 10 parts to evaluate the robustness of the F-score
 divide_multiple=10
-#./4_cut.sh ${CONCATENATED_FOLDER}eng/mixings/4 ${CONCATENATED_FOLDER}eng_10/4 ${divide_multiple}
-#./4_cut.sh ${CONCATENATED_FOLDER}eng/mixings/100 ${CONCATENATED_FOLDER}eng_10/100 ${divide_multiple}
+#./4_cut.sh ${CONCATENATED_FOLDER}eng/mixings/4 ${CONCATENATED_FOLDER2}eng_10/4 ${divide_multiple}
+#./4_cut.sh ${CONCATENATED_FOLDER}eng/mixings/100 ${CONCATENATED_FOLDER2}eng_10/100 ${divide_multiple}
+./4_cut.sh ${CONCATENATED_FOLDER3}/Spanish/conc_spa_2/100 ${CONCATENATED_FOLDER2}spa_10/100 ${divide_multiple}
+./4_cut.sh ${CONCATENATED_FOLDER3}/Spanish/conc_spa_2/4 ${CONCATENATED_FOLDER2}spa_10/4 ${divide_multiple}
 
 #./4_cut.sh ${CONCATENATED_FOLDER}bil_half/4/0 ${CONCATENATED_FOLDER}bil_half_10/4 ${divide_multiple}
 #./4_cut.sh ${CONCATENATED_FOLDER}bil_half/100/0 ${CONCATENATED_FOLDER}bil_half_10/100 ${divide_multiple}
