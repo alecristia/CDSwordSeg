@@ -1,5 +1,6 @@
 #!/bin/sh
 # Code to take an alreaddy phonologized transcript (tags.txt) and adapt it to the phoneme inventory of another language
+# E.g. in this case the Bernstein corpus to match the phone notation in the Spanish corpus
 # Laia Fibla laia.fibla.reixachs@gmail.com 2017-05-04
 # Matching phonology from English to Spanish to make language comparisons and create a bilingual corpus
 
