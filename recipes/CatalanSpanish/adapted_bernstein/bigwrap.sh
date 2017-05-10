@@ -34,19 +34,19 @@ divide_in_small_parts=10
 
 # The bilingual copora is double size than the monolinguals, this step divides it in two parts
 divide_half=2
-#./4_cut.sh ${CONCATENATED_FOLDER}bil_all/4 ${CONCATENATED_FOLDER}bil_half/4 ${divide_half}
-#./4_cut.sh ${CONCATENATED_FOLDER}bil_all/100 ${CONCATENATED_FOLDER}bil_half/100 ${divide_half}
+#./4_cut_in_10.sh ${CONCATENATED_FOLDER}bil_all/4 ${CONCATENATED_FOLDER}bil_half/4 ${divide_half}
+#./4_cut_in_10.sh ${CONCATENATED_FOLDER}bil_all/100 ${CONCATENATED_FOLDER}bil_half/100 ${divide_half}
 
 # note, this step is just used with the big corpus!
 # Divide the big corpus in 10 parts to evaluate the robustness of the F-score
 divide_multiple=10
 #./4_cut.sh ${CONCATENATED_FOLDER}eng/mixings/4 ${CONCATENATED_FOLDER2}eng_10/4 ${divide_multiple}
 #./4_cut.sh ${CONCATENATED_FOLDER}eng/mixings/100 ${CONCATENATED_FOLDER2}eng_10/100 ${divide_multiple}
-./4_cut.sh ${CONCATENATED_FOLDER3}/Spanish/conc_spa_2/100 ${CONCATENATED_FOLDER2}spa_10/100 ${divide_multiple}
-./4_cut.sh ${CONCATENATED_FOLDER3}/Spanish/conc_spa_2/4 ${CONCATENATED_FOLDER2}spa_10/4 ${divide_multiple}
+#./4_cut_in_10.sh ${CONCATENATED_FOLDER3}/Spanish/conc_spa/100 ${CONCATENATED_FOLDER2}spa_10/100 ${divide_multiple}
+#./4_cut_in_10.sh ${CONCATENATED_FOLDER3}/Spanish/conc_spa/4 ${CONCATENATED_FOLDER2}spa_10/4 ${divide_multiple}
 
-#./4_cut.sh ${CONCATENATED_FOLDER}bil_half/4/0 ${CONCATENATED_FOLDER}bil_half_10/4 ${divide_multiple}
-#./4_cut.sh ${CONCATENATED_FOLDER}bil_half/100/0 ${CONCATENATED_FOLDER}bil_half_10/100 ${divide_multiple}
+#./4_cut_in_10.sh ${CONCATENATED_FOLDER}bil_half/4 ${CONCATENATED_FOLDER}bil_half_10/4 ${divide_multiple}
+#./4_cut_in_10.sh ${CONCATENATED_FOLDER}bil_half/100 ${CONCATENATED_FOLDER}bil_half_10/100 ${divide_multiple}
 
 # Analyze
 #rm -r ${RES_FOLDER}spa/100/AG*
@@ -59,12 +59,14 @@ divide_multiple=10
 #rm -r ${RES_FOLDER}bil_half_10/4/*
 #./5_analyze.sh ${CONCATENATED_FOLDER}eng/mixings ${RES_FOLDER}eng
 #./5_analyze.sh ${CONCATENATED_FOLDER}bil_all ${RES_FOLDER}bil
-#./5_analyze.sh ${CONCATENATED_FOLDER}eng_10/4 ${RES_FOLDER}eng_10/4
+./5_analyze.sh ${CONCATENATED_FOLDER}eng_10/4 ${RES_FOLDER}eng_10/4
 #./5_analyze.sh ${CONCATENATED_FOLDER}eng_10/100 ${RES_FOLDER}eng_10/100
+./5_analyze.sh ${CONCATENATED_FOLDER}spa_10/4 ${RES_FOLDER}spa_10/4
+./5_analyze.sh ${CONCATENATED_FOLDER}bil_half_10/4 ${RES_FOLDER}bil_half_10/4
 
 #./5_analyze.sh ${CONCATENATED_FOLDER}bil_half_10/4 ${RES_FOLDER}bil_half_10/4
-#echo ${CONCATENATED_FOLDER}
-#echo ${RES_FOLDER}
+echo ${CONCATENATED_FOLDER}
+echo ${RES_FOLDER}
 
 # Collapse results
 #rm ${RES_FOLDER}eng/results.txt
