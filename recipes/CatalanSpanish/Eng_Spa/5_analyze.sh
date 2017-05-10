@@ -8,7 +8,7 @@
 DATAFOLDER=$1
 RESFOLDER=$2
 
-PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_CatSpa.py"
+PIPELINE="/fhgfs/bootphon/scratch/lfibla/CDSwordSeg/algoComp/segment_EngSpa.py"
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/cm/shared/apps/boost/1.62.0/stage/lib
 
