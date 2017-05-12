@@ -7,7 +7,7 @@
 
 ############ VARIABLES ##############
 # Here change the paths
-ORIG_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/original_corpus"
+ORIG_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/original_corpus/"
 PROCESSED_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/adapted_corpus/"
 PROCESSED_FOLDER2="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/RES_corpus_"
 CONCATENATED_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/conc_"
@@ -56,14 +56,14 @@ divide_multiple=10
 #rm -r ${RES_FOLDER}bil_half_10/4/*
 #./5_analyze.sh ${CONCATENATED_FOLDER}eng/mixings ${RES_FOLDER}eng
 #./5_analyze.sh ${CONCATENATED_FOLDER}bil_all ${RES_FOLDER}bil
-./5_analyze.sh ${CONCATENATED_FOLDER}eng_10/4 ${RES_FOLDER}eng_10/4
+#./5_analyze.sh ${CONCATENATED_FOLDER}eng_10/4 ${RES_FOLDER}eng_10/4
 #./5_analyze.sh ${CONCATENATED_FOLDER}eng_10/100 ${RES_FOLDER}eng_10/100
 #./5_analyze.sh ${CONCATENATED_FOLDER}spa_10/4 ${RES_FOLDER}spa_10/4
 #./5_analyze.sh ${CONCATENATED_FOLDER}bil_half_10/4 ${RES_FOLDER}bil_half_10/4
 
 #./5_analyze.sh ${CONCATENATED_FOLDER}bil_half_10/4 ${RES_FOLDER}bil_half_10/4
 #echo ${CONCATENATED_FOLDER}
-echo ${RES_FOLDER}
+#echo ${RES_FOLDER}
 
 # Collapse results
 #rm ${RES_FOLDER}eng/results.txt

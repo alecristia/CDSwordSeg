@@ -22,7 +22,7 @@ for file in $ORIG_FOLDER/tags.txt; do
 
 	echo "substituting phones "
 	sed 's/;eword/%/g' < $file |
-	sed 's/;esyll/&/g' |
+	sed 's/;esyll/Ç/g' |
 	sed 's/jh/1/g' |
 	sed 's/th/8/g' |
 	sed 's/ch/T/g' |
@@ -43,7 +43,7 @@ for file in $ORIG_FOLDER/tags.txt; do
 	sed 's/ng/7/g' |
 	sed 's/y/j/g' |
 	sed 's/%/;eword/g' |
-	sed 's/&/;esyll/g' > ${RES_FOLDER}/tags.txt
+	sed 's/Ç/;esyll/g' > ${RES_FOLDER}/tags.txt
 
 	echo "creating gold versions"
 
