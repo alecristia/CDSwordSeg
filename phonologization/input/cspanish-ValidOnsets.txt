@@ -1,6 +1,7 @@
 b
 k
 d
+9
 f
 g
 x
@@ -11,10 +12,16 @@ n
 N
 p
 R
+r
+8
 s
 t
+T
 S
-C
+w
+j
+7
+kw
 bl
 dr
 fl
@@ -27,7 +34,3 @@ tr
 kr
 kl
 br
-tS
-r
-v
-O

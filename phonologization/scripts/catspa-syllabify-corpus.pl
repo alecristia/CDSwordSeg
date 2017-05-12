@@ -11,7 +11,7 @@ $output=$ARGV[2];
 $scriptdir=$ARGV[3];
 
 #print "\n the language is $language\n";
-
+# /input/ OR /scripts/ ?
 # Save valid onsets from ValidOnsets.txt
 %onsets = {};
 open(ONSETS, "<$scriptdir/input/$language-ValidOnsets.txt") or die("Couldn't open $scriptdir/input/$language-ValidOnsets.txt\n");
@@ -25,16 +25,12 @@ while(defined($fileline = <ONSETS>)){
 close(ONSETS);
 
 # Save valid vowels from Vowels.txt
-#%vowels = {};
-#open(VOWELS, "<$scriptdir/input/$language-Vowels.txt") or die("Couldn't open $scriptdir/input/$language-Vowels.txt\n");
-#while(defined($fileline = <VOWELS>)){
-#    chomp($fileline);
-    #print "$fileline\n";
-#    $vowels{$fileline} = 1; #This is an odd way of stating things
-    #print "added";
-#}
-#print "out of the while";
-#close(VOWELS);
+%vowels = {};
+open(VOWELS, "<$scriptdir/input/$language-Vowels.txt") or die("Couldn't open $scriptdir/input/$language-Vowels.txt\n");
+#open(VOWELS, "<$scriptdir/scripts/$language-vowels.txt") or die("Couldn't open $scriptdir/scripts/$language-vowels.txt\n");
+my $vowels = <VOWELS>;
+print "$vowels";
+close(VOWELS);
 #print "$vowels\n";
 
 # Go through CORPUS.txt,
@@ -63,9 +59,11 @@ while(defined($fileline = <CORPUS>)){
             $currchar = pop(@chararray); # cut out the last char in the char array for this word & put it in currchar
             $currsyllable =  $currchar.$currsyllable; # append currchar to current syllable - that will be necessary regardless of whether it's a vowel or a coda
 			# if hit a vowel..
-            if($currchar =~ /[ae3EiOo0u]/){
+            #if($currchar =~ /[ae3EiOo0u]/){
+            if($currchar =~ /[$vowels]/){
             #  print "$currchar\n";
-                if(@chararray[@chararray-1] !=~ /[ae3EiOo0u]/){
+                #if(@chararray[@chararray-1] !=~ /[ae3EiOo0u]/){
+                if(@chararray[@chararray-1] !=~ /[$vowels]/){
             #      print "@chararray[@chararray-1]\n";
                 #if this char is a vowel and the previous one is not, then we need to make the onset
                 $onset = ""; #we start with nothing as the onset

@@ -38,6 +38,7 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 
 		echo "substituting phones" # correcting phones or exchanging caracters, some cannot be processed by the pearl script
 		sed 's/ t / t/g' phono.tmp |
+		sed 's/ɛssə/s/g' |
 		sed 's/ s / s/g' |
 		sed 's/^s /s/g' |
 		sed 's/^t / t/g' |
@@ -48,30 +49,41 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 		sed 's/ d‍ʑiʎəm / giʎəm /g' |
 		sed 's/ d‍ʑi/ gi/g' |
 		sed 's/^d‍ʑi/gi/g' |
-		sed 's/ɣʊ/g/g' |
-		sed 's/ɣw/g/g' |
-		sed 's/ɣwj/gi/g' |
-		sed 's/ɣu/g/g' |
-		sed 's/ɣuj/gi/g' |
+		sed 's/ɣwe/gwe/g' |
+		sed 's/ɣwi/gwi/g' |
+		sed 's/ɣwj/gwi/g' |
 		sed 's/ɣ/g/g' |
+		sed 's/gʊa/gwa/g' |
+		sed 's/gʊo/gwo/g' |
+		sed 's/gʊu/gu/g' |
+		sed 's/gʊe/ge/g' |
+		sed 's/gʊi/gi/g' |
+		sed 's/gua/gwa/g' |
+		sed 's/gue/ge/g' |
+		sed 's/gui/gi/g' |
+		sed 's/guo/gwo/g' |
+		sed 's/gwu/gu/g' |
 		sed 's/β/b/g' |
 		sed 's/ʋ/b/g' |
-		sed 's/ð/d/g' |
+		sed 's/ð/9/g' |
 		sed 's/^ɛs /əs /g' |
 		sed 's/ɛs$/əs/g' |
 		sed 's/ ɛs / əs /g' |
-		sed 's/dʑ/dJ/g' |
+		sed 's/dʑi/gi/g' |
+		sed 's/dʑe/ge/g' |
+		sed 's/dʑ/G/g' |
 		sed 's/ʑ/J/g' |
-		sed 's/jɕʊ /Sɔ /g' |
-		sed 's/jɕʊ$/Sɔ/g' |
-		sed 's/ kotɕə / kotSE /g' |
-		sed 's/ kotɕə$/ kotSE/g' |
-		sed 's/ɕ/S/g' |
-		sed 's/ɲ/N/g' |
+		sed 's/jɕʊ /6ɔ /g' |
+		sed 's/jɕʊ$/6ɔ/g' |
+		sed 's/ kotɕə / koX2 /g' |
+		sed 's/ kotɕə$/ koX2/g' |
+		sed 's/tɕ/X/g' |
+		sed 's/ɕ/6/g' |
+		sed 's/ɲ/N/g' | #ñ
 		sed 's/mp /m /g' |
 		sed 's/mp$/m/g' |
-		sed 's/kwi/ki/g' |
-		sed 's/kwe/ke/g' |
+		sed 's/kʊi/ki/g' |
+		sed 's/kʊe/ke/g' |
 		sed 's/kui/ki/g' |
 		sed 's/kue/ke/g' |
 		sed 's/ pɛrʊ / pərɔ /g' |
@@ -81,9 +93,9 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 		sed 's/^ɛʎ/eʎ/g' |
 		sed 's/ ɛʎ/ eʎ/g' |
 		sed 's/^ɛʎ/eʎ/g' |
-		sed 's/ə/E/g' |
+		sed 's/ə/2/g' |
 		sed 's/ʎ/L/g' |
-		sed 's/ʊ/0/g' |
+		sed 's/ʊ/u/g' | #old 0
 		sed 's/ɔ/O/g' |
 		sed 's/ɛ/3/g' |
 		sed 's/ɾr/R/g' |
@@ -97,22 +109,25 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 		sed 's/ŋ/7/g' |
 		sed 's/ aia/ iaia/g' |
 		sed 's/ aia$/ iaia/g' |
+		sed 's/ aia / iaia /g' |
 		sed 's/ 3la / l/g' |
 		sed "s/' //g" |
 		sed "s/ '//g" |
 		sed "s/'//g" |
-		sed 's/dJi/gi/g' |
-		sed 's/dJi /gi /g' |
-		sed 's/dJi$/gi/g' |
+		sed 's/Gi/gi/g' | # ?
+		sed 's/Gi /gi /g' |
+		sed 's/Gi$/gi/g' |
 		sed 's/ë/e/g' |
-		sed 's/s0zaɡna/s0zana/g' |
+		sed 's/suzaɡna/suzana/g' |
 		sed 's/ɡ/g/g' |
 		sed 's/ɟ/t/g' |
 		sed 's/⌈//g' |
 		sed 's/ː//g' |
-		sed 's/kot‍SE/kotSE/g' |
+		sed 's/koX2/koX2/g' |
 		sed 's/‍//g' |
-		sed 's/j/y/g' |
+		sed 's/dz/D/g' |
+		sed 's/tz/D/g' |
+		sed 's/ts/5/g' |
 		sed 's/"//g' |
 		sed 's/ˌ//g' > intoperl.tmp
 
@@ -123,31 +138,61 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 		 then
 		echo "recognized $LANGUAGE"
 	tr '[:upper:]' '[:lower:]'  < "$ORTHO"  |
-		sed 's/ch/tS/g' | # substitute all ch by tS
+		sed 's/ch/T/g' | # substitute all ch by tS
+		sed 's/tx/T/g' |
+		sed 's/C/T/g' |
+		sed 's/^x/T/g' |
+		sed 's/x/ks/g' |
+		sed 's/á/a/g' |
+		sed 's/é/e/g' |
+		sed 's/ë/e/g' |
+		sed 's/í/i/g' |
+		sed 's/ó/o/g' |
+		sed 's/ú/u/g' |
 		sed 's/v/b/g' |
 		sed 's/z/8/g' |
 		sed 's/ce/8e/g' |
 		sed 's/ci/8i/g' |
-		sed 's/C/tS/g' |
-		sed 's/c/k/g' |
+		sed 's/ll/L/g' | # very mixed in spain choose between L and y
+		sed 's/d/9/g' |
+		sed 's/^9/d/g' |
+		sed 's/9l/dl/g' |
+		sed 's/9n/dn/g' |
 		sed 's/rr/R/g' | # substitute the spanish rr by 5
 		sed 's/^r/R/g' | # substitue the initial r for R
-		sed 's/ll/L/g' | # very mixed in spain choose between L and y
+		sed 's/sr/sR/g' |
+		sed 's/nr/nR/g' |
+		sed 's/lr/lR/g' |
 		sed 's/j/x/g' |
-		sed 's/qu/kw/g' |
-		sed 's/h//g' | # removing h
+		sed 's/ge/xe/g' |
+		sed 's/gi/xi/g' |
+		sed 's/gua/gwa/g' |
+		sed 's/guo/gwo/g' |
+		sed 's/gui/gi/g' |
+		sed 's/gue/ge/g' |
+		sed 's/qui/ki/g' |
+		sed 's/que/ke/g' |
+		sed 's/cua/kwa/g' |
+		sed 's/cuo/kwo/g' |
+		sed 's/c/k/g' |
+		sed 's/hi/j/g' |
+		sed 's/hu/w/g' |
+		sed 's/h//g' |
 		sed 's/ñ/N/g' |
-		sed 's/á/a/g' |
-		sed 's/é/e/g' |
-		sed 's/í/i/g' |
-		sed 's/ó/o/g' |
-		sed 's/ú/u/g' |
-		sed 's/ü/u/g' |
+		sed 's/ü/w/g' |
 		sed 's/pie⌉/pie/g' |
 		sed 's/^pie⌉/pie/g' |
+		sed 's/au/aw/g' |
+		sed 's/eu/ew/g' |
+		sed 's/iu/iw/g' |
+		sed 's/ou/ow/g' |
+		sed 's/ay/aj/g' |
+		sed 's/ey/ej/g' |
+		sed 's/oy/oj/g' |
+		sed 's/uy/uj/g' |
+		sed 's/y/i/g' |
 		sed 's/⌉//g' |
 		sed 's/⌋//g' |
-		sed 's/ë/e/g' |
 		sed 's/⌈//g' |
     sed 's/ː//g' |
 		sed 's/ˌ//g' |
