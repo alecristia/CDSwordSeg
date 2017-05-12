@@ -17,11 +17,12 @@ RES_FOLDER="/fhgfs/bootphon/scratch/lfibla/seg/results/Bernstein/segengspares_"
 #####################################
 
 # Matching phonology from English to Spanish to make language comparisons and create a bilingual corpus Eng Spa
-#./1_match_phones.sh ${ORIG_FOLDER} ${PROCESSED_FOLDER}
+rm -r ${PROCESSED_FOLDER}/*
+./1_match_phones.sh ${ORIG_FOLDER} ${PROCESSED_FOLDER}
 
 # Cut the Bernstein coprus on small parts to be able to concatenate afterwards
 divide_in_small_parts=10
-#./2_cut_in_small_parts.sh ${PROCESSED_FOLDER} ${CONCATENATED_FOLDER} ${divide_in_small_parts}
+#./2_cut_in_small_parts.sh ${PROCESSED_FOLDER} ${PROCESSED_FOLDER2}eng ${divide_in_small_parts}
 
 # Concantenate monolingual corpus each 4 and 100 lines
 #./3_concatenate_eng.sh ${CONCATENATED_FOLDER}eng/all ${CONCATENATED_FOLDER}eng/mixings/4
@@ -50,22 +51,18 @@ divide_multiple=10
 
 # Analyze
 #rm -r ${RES_FOLDER}spa/100/AG*
-#rm -r ${RES_FOLDER}cat/100/AG*
-#rm -r ${RES_FOLDER}bil/100/*
 #rm -r ${RES_FOLDER}spa_10/100/*
 #rm -r ${RES_FOLDER}spa_10/4/*
-#rm -r ${RES_FOLDER}cat_10/100/*
-#rm -r ${RES_FOLDER}cat_10/4/*
 #rm -r ${RES_FOLDER}bil_half_10/4/*
 #./5_analyze.sh ${CONCATENATED_FOLDER}eng/mixings ${RES_FOLDER}eng
 #./5_analyze.sh ${CONCATENATED_FOLDER}bil_all ${RES_FOLDER}bil
 ./5_analyze.sh ${CONCATENATED_FOLDER}eng_10/4 ${RES_FOLDER}eng_10/4
 #./5_analyze.sh ${CONCATENATED_FOLDER}eng_10/100 ${RES_FOLDER}eng_10/100
-./5_analyze.sh ${CONCATENATED_FOLDER}spa_10/4 ${RES_FOLDER}spa_10/4
-./5_analyze.sh ${CONCATENATED_FOLDER}bil_half_10/4 ${RES_FOLDER}bil_half_10/4
+#./5_analyze.sh ${CONCATENATED_FOLDER}spa_10/4 ${RES_FOLDER}spa_10/4
+#./5_analyze.sh ${CONCATENATED_FOLDER}bil_half_10/4 ${RES_FOLDER}bil_half_10/4
 
 #./5_analyze.sh ${CONCATENATED_FOLDER}bil_half_10/4 ${RES_FOLDER}bil_half_10/4
-echo ${CONCATENATED_FOLDER}
+#echo ${CONCATENATED_FOLDER}
 echo ${RES_FOLDER}
 
 # Collapse results
