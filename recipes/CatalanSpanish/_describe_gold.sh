@@ -27,7 +27,7 @@ for thisfile in $RESFOLDER/*-gold.txt; do
 
 	countchar ' ' < $thisfile > $RESFOLDER/${keyname}-uttlen.txt  #calculate a distribution of utterance lengths, used in next step and might be useful in the future
 
-	nswu=`grep "^1$" < $RESFOLDER/${keyname}-uttlen.txt | wc -l | awk '{print $1}'` #number of single word utterances
+	nswu=`grep "1" < $RESFOLDER/${keyname}-uttlen.txt | wc -l | awk '{print $1}'` #number of single word utterances ERROR IN grep "^1$" --> grrep "1"  
 
     #word level descriptors
         nwtok=`wc -w $thisfile | awk '{print $1}'` #number of word tokens
