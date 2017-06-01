@@ -183,7 +183,7 @@ def run_job(job, clusterize=False, basename='', log2file=True):
         print('name = {}'.format(jobname))
         ncores = ('-pe openmpi {}'.format(job.ncores)
                   if job.ncores != 1 else '')
-        command = ('qsub {} -j y -V -cwd -o {} -N {} {}'
+        command = ('qsub {} -j y -V -cwd -q \'*@puck2|puck1\' -o {} -N {} {}'
                    .format(ncores, ofile, jobname, fcommand))
         res = subprocess.check_output(shlex.split(command))
         return res.split()[2]  # job pid on the cluster

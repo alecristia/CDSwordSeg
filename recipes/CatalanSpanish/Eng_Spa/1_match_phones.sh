@@ -41,6 +41,13 @@ for file in $ORIG_FOLDER/tags.txt; do
 	sed 's/er/4/g' |
 	sed 's/hh/h/g' |
 	sed 's/ng/7/g' |
+	sed 's/uw/u/g' |
+	sed 's/ow/o w/g' |
+	sed 's/oy/o y/g' |
+	sed 's/iy/i/g' | 
+	sed 's/aw/a w/g' |
+	sed 's/ay/a y/g' |
+	sed 's/ey/e y/g' |
 	sed 's/y/j/g' |
 	sed 's/%/;eword/g' |
 	sed 's/Ç/;esyll/g' > ${RES_FOLDER}/tags.txt

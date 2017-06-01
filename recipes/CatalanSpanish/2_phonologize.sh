@@ -129,6 +129,42 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 		sed 's/tz/D/g' |
 		sed 's/ts/5/g' |
 		sed 's/"//g' |
+		sed 's/ai/aj/g' |
+		sed 's/ei/ej/g' |
+		sed 's/2i/2j/g' |
+		sed 's/3i/3j/g' |
+		sed 's/oi/oj/g' |
+		sed 's/Oi/Oj/g' |
+		sed 's/ui/uj/g' |
+		sed 's/au/aw/g' |
+		sed 's/eu/ew/g' |
+		sed 's/2u/2w/g' |
+		sed 's/3u/3w/g' |
+		sed 's/iu/iw/g' |
+		sed 's/ou/ow/g' |
+		sed 's/Ou/Ow/g' |
+		sed 's/uu/uw/g' |
+		sed 's/ia/ja/g' |
+		sed 's/ie/je/g' |
+		sed 's/i2/j2/g' |
+		sed 's/i3/j3/g' |
+		sed 's/io/jo/g' |
+		sed 's/iO/jO/g' |
+		sed 's/iu/ju/g' |
+		sed 's/ua/wa/g' |
+		sed 's/ue/we/g' |
+		sed 's/u2/w2/g' |
+		sed 's/u3/w3/g' |
+		sed 's/ui/wi/g' |
+		sed 's/uo/wo/g' |
+		sed 's/uO/wO/g' |
+		sed 's/ieu/jew/g' |
+		sed 's/i2u/j2w/g' |
+		sed 's/i3w/j3w/g' |
+		sed 's/ueu/wew/g' |
+		sed 's/u2u/w2w/g' |
+		sed 's/u3u/w3w/g' |
+		sed 's/^pese3fa$//g' |
 		sed 's/ˌ//g' > intoperl.tmp
 
 	  echo "syllabify-corpus.pl"
@@ -186,15 +222,34 @@ for ORTHO in ${RES_FOLDER}/*ortholines.txt; do
 		sed 's/eu/ew/g' |
 		sed 's/iu/iw/g' |
 		sed 's/ou/ow/g' |
+		sed 's/ua/wa/g' |
+		sed 's/ue/we/g' |
+		sed 's/uia/wja/g' |
+		sed 's/ui/wi/g' |
+		sed 's/uo/wo/g' |
+		sed 's/uay/waj/g' |
+		sed 's/uey/wej/g' |
+		sed 's/uau/waw/g' |
 		sed 's/ay/aj/g' |
 		sed 's/ey/ej/g' |
 		sed 's/oy/oj/g' |
 		sed 's/uy/uj/g' |
+		sed 's/iai/jaj/g' |
+		sed 's/ia/ja/g' |
+		sed 's/iei/jej/g' |
+		sed 's/ie/je/g' |
+		sed 's/io/jo/g' |
+		sed 's/iu/ju/g' |
+		sed 's/yo/jo/g' |
+		sed 's/ya/ja/g' |
+		sed 's/ye/je/g' |
+		sed 's/yi/ji/g' |
+		sed 's/yu/ju/g' |
 		sed 's/y/i/g' |
 		sed 's/⌉//g' |
 		sed 's/⌋//g' |
 		sed 's/⌈//g' |
-    sed 's/ː//g' |
+		sed 's/ː//g' |
 		sed 's/ˌ//g' |
 		sed 's/"//g' > intoperl.tmp
 

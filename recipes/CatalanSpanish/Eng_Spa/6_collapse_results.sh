@@ -8,7 +8,7 @@
 
 ################# Variables ################
 
-ABSPATH="../../algoComp"
+ABSPATH="../../../algoComp"
 CURPATH=`pwd`
 
 # Must exists and contains the results (or partial results) of step 5
