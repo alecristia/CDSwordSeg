@@ -104,7 +104,7 @@ class AGSegmenter(NonAGSegmenter):
 
     def _script(self, script_dir):
         """Return the absolute path to the script behind self.algo"""
-        return os.path.abspath(os.path.join(script_dir, 'AG_CatSpa.sh'))
+        return os.path.abspath(os.path.join(script_dir, 'AG_EngSpa.sh'))
 
 
 def supported_algos():

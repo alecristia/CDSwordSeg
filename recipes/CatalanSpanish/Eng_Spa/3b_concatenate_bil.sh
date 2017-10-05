@@ -1,28 +1,37 @@
-raw=$1
+#!/bin/sh
+# Script to create an artificial bilingual corpus
+# by concatenating two monolingual corpora (e.g. cat and spa) each 4 and each 100 lines.
+# Laia Fibla and Alex Cristia laia.fibla.reixachs@gmail.com 2017-01-16
+
+###### VARIABLES #######
+
+raw=$1 # paths aleaddy provided by the user e.g. in the bigwrap, otherwise include them
 output=$2
 
-rm cat.txt
+########################
+
+rm eng.txt # in case you re-run this script
 rm spa.txt
 rm both.txt
 
-ls ${raw}cat/*cutlines.txt > cat.txt
-ls ${raw}spa/*cutlines.txt > spa.txt
-nfiles=`wc -l cat.txt| awk '{print $1}'`
+ls ${raw}eng/*cutlines.txt > eng.txt   # extract english input
+ls ${raw}spa/*cutlines.txt > spa.txt   # extract cspanish input
+nfiles=`wc -l eng.txt| awk '{print $1}'`
 
 
 for (( i=1; i<=$nfiles; i++ ))
 do
 #  	j=$(( $i + 1 ))
 #	j=$(( $i + 1 ))
-	sed -n ${i}p cat.txt >> both.txt
+	sed -n ${i}p eng.txt >> both.txt
 	sed -n ${i}p spa.txt >> both.txt
 done
 
 
 max=`wc -l $(cat both.txt) | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
 
-
-for length in 2 100
+# here you mix corpus from two diferent languages each 4 and 100 lines recreating a kind of codeswithcing. If you want to created other mixtures e.g. each 20 lines, modify those numbers
+for length in 4 100
 do
 	mkdir -p ${output}/$length/
 	add=$(( $length - 1 ))

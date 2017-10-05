@@ -1,12 +1,21 @@
 #!/bin/sh
-#This file concatenates each two and each 100 lines. To be used for monolingual cat and monolingula spa
-#input="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/RES_corpus_cat"
-#output="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/conc_cat"
+# Script to concatenate each 4 and each 100 lines. To be used for corpus containing a single language
+# Laia Fibla 2017-01-10
+
+###### Variables #######
+
+# Adapt the following variables, being careful to provide absolute paths
+
+#input="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/conc_eng/all"
+#output="/fhgfs/bootphon/scratch/lfibla/seg/SegEngSpa/Bernstein/berns_all/conc_eng/mixings/"
 
 input=$1
 output=$2
 
 echo $input $output
+#######################
+
+mkdir -p $output
 
 for s in $input/*gold.txt
 do
@@ -20,7 +29,7 @@ done
 
 max=`wc -l $input/*cutlines.txt | grep -v "total" | awk '{print $1}' | sort -nr | head -1`
 
-for length in 2 100
+for length in 4 100
 do
   rm -r ${output}/$length/
   mkdir -p ${output}/$length/
@@ -44,4 +53,5 @@ do
     sed 's/;eword/ /g' > ${output}/$length/gold.txt
 done
 
+echo $output
 echo "done mixing lines for gold and tags"

@@ -4,12 +4,18 @@
 # script.
 #
 # Mathieu Bernard
-ABSPATH="../../algoComp"
+# Adapted by Alex Cristia and Laia Fibla for SegCatSpa project
+
+################# Variables ################
+
+ABSPATH="../../../algoComp"
 CURPATH=`pwd`
 
 # Must exists and contains the results (or partial results) of step 5
-#data_dir="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/res_cat/"
-data_dir=$1
+#E.g. data_dir="/fhgfs/bootphon/scratch/lfibla/SegCatSpa/res_cat/"
+data_dir=$1 # path alreaddy provided
+
+#############################################
 
 header="version matching algo \
         token_f-score token_precision token_recall \

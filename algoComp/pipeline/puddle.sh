@@ -17,7 +17,7 @@ echo Running $ALGO...
 CROSSEVAL=$ABSPATH/crossevaluation.py
 
 # puddle word segmentation algorithm
-PUDDLE="gawk -f $ABSPATH/algos/PUDDLE/segment.vowelconstraint.awk"
+PUDDLE="gawk -f $ABSPATH/algos/PUDDLE/segment.vowelconstraint_1char.awk"
 
 # Remove word and syllable tags to create input:
 sed 's/;esyll//g' $RESFOLDER/tags.txt |
