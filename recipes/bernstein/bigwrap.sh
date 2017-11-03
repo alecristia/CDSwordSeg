@@ -4,9 +4,9 @@
 # 2016-12-30
 
 
-RAW_FOLDER="/fhgfs/bootphon/scratch/acristia/data/Bernstein"
-PROCESSED_FOLDER="/fhgfs/bootphon/scratch/acristia/processed_corpora/Bernstein"
-RES_FOLDER="/fhgfs/bootphon/scratch/acristia/results/Bernstein"
+RAW_FOLDER="/scratch1/users/acristia/data/Bernstein/"
+PROCESSED_FOLDER="/scratch1/users/acristia/processed_corpora/Bernstein/"
+RES_FOLDER="/scratch1/users/acristia/results/Bernstein/"
 
 # Turn the cha-like files into a single clean file per type & phonologize them
 #./1_data2clean.sh $RAW_FOLDER $PROCESSED_FOLDER  || exit 1
@@ -21,5 +21,7 @@ RES_FOLDER="/fhgfs/bootphon/scratch/acristia/results/Bernstein"
 ./4_analyze.sh $PROCESSED_FOLDER $RES_FOLDER
 
 
+#rm $RES_FOLDER/results.txt
+#rm $RES_FOLDER/*/results.txt
 # ./5_collapse_results.sh $RES_FOLDER
 
