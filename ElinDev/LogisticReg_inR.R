@@ -70,7 +70,6 @@ Logistic_nb_infant_algo_CDI=function(path_res, ages, algos, prop,infant_nb, unit
 ALGOS=c('tps','dibs','puddle_py','AGu', 'gold')
 path_res='/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/full_corpus/'
 path_ortho="/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/recipes/childes/data/Brent/ortholines.txt"
-nb_i_file='/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/CDI_NbInfantByAge.csv'
 
 # *******  enter your current directory
 setwd('/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/')
@@ -83,5 +82,15 @@ setwd('/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Ana
 PropUnderstandCDI <- read_delim("~/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/PropUnderstandCDI.csv", 
                                +     "\t", escape_double = FALSE, trim_ws = TRUE)
 
-df_R2_syl_log=Logistic_nb_infant_algo_CDI(path_res, ages=c(8:18), algos=ALGOS, PropUnderstandCDI,infant_nb=nb_i_file, unit='syllable', type_regression="linear")
+PropProduceCDI <- read_delim("~/Documents/CDSwordSeg_Pipeline/CDI_wordbank/PropProduceCDI.csv", 
+                             +     "\t", escape_double = FALSE, trim_ws = TRUE)
 
+nb_i_file='/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/results/res-brent-CDS/Analysis_algos_CDI/CDI_data/CDI_NbInfantByAgeProduce.csv'
+
+df_R2_syl_log=Logistic_nb_infant_algo_CDI(path_res, ages=c(16:30), algos=ALGOS, PropProduceCDI,infant_nb=nb_i_file, unit='syllable', type_regression="logistics")
+df_R2_syl_log$unit=rep('syllable', nrow(df_R2_syl_log))
+
+df_R2_ph_log=Logistic_nb_infant_algo_CDI(path_res, ages=c(16:30), algos=ALGOS, PropProduceCDI,infant_nb=nb_i_file, unit='phoneme', type_regression="logistics")
+df_R2_ph_log$unit=rep('phoneme', nrow(df_R2_ph_log))
+
+R2_log=rbind(df_R2_syl_log,df_R2_ph_log)
