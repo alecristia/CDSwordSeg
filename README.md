@@ -1,10 +1,15 @@
-==============================
 Instructions for text analyses
 ==============================
 
 Copyright (C) 2015, 2016 by Alex Cristia, Xuan Nga Cao, Mathieu Bernard
 
 For questions contact Alex Cristia alecristia@gmail.com
+
+
+Change of github repo
+========
+The code for the article Larsen, E., Cristia,A. and Dupoux, E.  "Relating unsupervised word segmentation to reported vocabulary acquisition", INTERSPEECH 2017, 
+is now available on here : https://github.com/elinlarsen/WordSegComprehension
 
 Overview
 ========
