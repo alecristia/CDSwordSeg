@@ -29,9 +29,9 @@ prop_produce.columns=['age','lexical_class', 'Type', 'prop']
 prop_produce.to_csv('PropProduceCDI.csv',  sep='\t', index=False)
 
 #clean regular expression : to be done once and to be saved
-prop_understand['words']=prop_understand['words'].str.replace('*', '') #take out regular expression
+#prop_understand['words']=prop_understand['words'].str.replace('*', '') #take out regular expression
 # if file does not exist
-prop_understand.to_csv("PropUnderstandCDI.csv", sep='\t', index=False)
+#prop_understand.to_csv("PropUnderstandCDI.csv", sep='\t', index=False)
 
 df_CDI_13=read.read_CDI_data_by_age(CDI_file='CDI_data/PropUnderstandCDI.txt', age=13, save_file=False)
 

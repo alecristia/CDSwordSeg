@@ -62,6 +62,7 @@ AWL_ph=float(nb_ph)/float(nb_tokens)
 nb_utt_brent=analyze.count_lines_corpus(path_ortho)
 AUL=float(nb_tokens)/float(nb_utt_brent)
 df_gold=analyze.freq_token_in_corpus(path_ortho)
+df_gold.to_csv('freq_brent.csv', sep='\t', header=True, index=False)
 
      
 # Look at words in common in all sub corpus and sort by frequency

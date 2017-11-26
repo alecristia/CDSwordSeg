@@ -15,8 +15,6 @@ from scipy.stats import ttest_ind
 
 # importing python scripts
 os.chdir('/Users/elinlarsen/Documents/CDSwordSeg/ElinDev')
-reload(visualize)
-import translate
 import visualize
 import model
 import categorize
@@ -33,9 +31,7 @@ path_gold="/Users/elinlarsen/Documents/CDSwordSeg_Pipeline/recipes/childes/data/
 
 ALGOS=['tps','dibs','puddle_py','AGu', 'gold']
 ALGOS_=['tps','dibs','puddle_py','AGu']
-SUB=['full_corpus']
 lexical_classes=['nouns','function_words', 'adjectives', 'verbs', 'other']
-unit="syllable"
 CDI_file="CDI_data/PropUnderstandCDI.csv"
 freq_file="/freq-words.txt"
 nb_i_file="CDI_data/CDI_NbInfantByAge"
@@ -49,7 +45,7 @@ df_gold_lc.columns=['Type', 'Freqgold', 'abbrev_tags', 'lexical_class']
 
 #POWER ANALYSIS
 born_inf=  5
-born_sup= 5.85
+born_sup= 6
 
 born_inf_lf=  0
 born_sup_lf= 4.3
@@ -75,12 +71,23 @@ def subset_data(born_inf, born_sup, dat, column_to_subset):
     return(res)
 
 def get_two_freq_group(born_inf, born_sup, born_inf_lf, born_sup_lf, born_inf_hf, born_sup_hf,
-                       path_res, sub=['full_corpus'], algo=['TPs'], df_gold=df_gold, unit='syllable', 
-                       CDI_file="CDI_data/PropUnderstandCDI.csv",  name_vis="TPs vs gold "): 
+                       path_res, sub=['full_corpus'], algos=['TPs'], df_gold=df_gold, unit='syllable', 
+                       CDI_file="CDI_data/PropUnderstandCDI.csv",  _merge_="both", freq_file="/freq-words.txt"): 
 
-    res_algo_vs_gold=visualize.plot_algo_gold(path_res, sub, [algo], df_gold, unit, CDI_file,"/freq-words.txt", name_vis)  
+    dat=pd.DataFrame()
 
-    dat=res_algo_vs_gold['data'][['Type', 'Freqgold', 'Freq'+algo]]
+    df_CDI=read.read_CDI_data_by_age(CDI_file, age=8, save_file=False) #age does not matter here
+    df_CDI['Type'].str.lower()
+    
+    df=pd.merge(df_gold, df_CDI[['Type']],  on=['Type'], how='outer', indicator=True)
+    df=df[df['_merge']==_merge_]        
+      
+    dat=df
+    
+    for algo in algos:
+        df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
+        dat=pd.merge(dat, df_algo, on=['Type'], how='inner')
+    
 
     np.log(dat[['Freqgold', 'Freq'+algo]]).hist()
 
@@ -106,14 +113,29 @@ def get_two_freq_group(born_inf, born_sup, born_inf_lf, born_sup_lf, born_inf_hf
     return(subset)
 
 tp_subset=get_two_freq_group(born_inf, born_sup, born_inf_lf, born_sup_lf, born_inf_hf, born_sup_hf,
-                       path_res, ['full_corpus'], 'TPs', df_gold, 'syllable', 
-                       CDI_file,  "TPs vs gold ")
+                       path_res, ['full_corpus'], ['TPs'], df_gold, 'syllable', 
+                       CDI_file,  "both", "/freq-words.txt")
 
 agu_subset=get_two_freq_group(born_inf, born_sup, born_inf_lf, born_sup_lf, born_inf_hf, born_sup_hf,
-                       path_res, ['full_corpus'], 'AGu', df_gold, 'syllable', 
-                       CDI_file,  "TPs vs gold ")
+                       path_res, ['full_corpus'], ['AGu'], df_gold, 'syllable', 
+                       CDI_file,  "both", "/freq-words.txt")
+
+### Get words that are not in the CDI
+not_in_CDI_test=get_two_freq_group(born_inf, born_sup, born_inf_lf, born_sup_lf, born_inf_hf, born_sup_hf,
+                       path_res, ['full_corpus'], ['TPs'], df_gold, 'syllable', 
+                       CDI_file,  "left_only", "/freq-words.txt")
+not_in_CDI_test['HF']['data'].to_csv('HF_not_in_CDI_brent_TPs.txt', sep='\t')
+
+not_in_CDI_test['LF']['data'].to_csv('HLF_not_in_CDI_brent_TPs.txt', sep='\t')
 
 
+### merge 
+_HF_=pd.concat([tp_subset['HF']['data'], not_in_CDI_test['HF']['data']], join='outer')
+_LF_=pd.concat([tp_subset['LF']['data'], not_in_CDI_test['LF']['data']], join='outer')
+
+
+_LF_.to_csv("LF_all_6_70_TPs.csv", sep='\t')
+_HF_.to_csv("HF_all_150_400_TPs.csv", sep='\t')
 '''
 lf.to_csv("LF_11-70.txt", sep='\t')
 hf.to_csv("HF_158-250.txt", sep='\t')
@@ -196,15 +218,22 @@ def hedges_g(m1, m2, s1, s2, N1,N2):
     c=m/sqrt(s)
     return(c)
 
-#size of the correlation effect between the algo lexicon and the prop of infant understanding words
+# size of the effect of frequency in predicting the prop of infant understanding a word 
+# for TP
+g_tp_lf_hf=hedges_g(tp_cdi_hf['fitted_prop'].mean(),tp_cdi_lf['fitted_prop'].mean(), tp_cdi_hf['fitted_prop'].std(), tp_cdi_lf['fitted_prop'].std(), len(tp_cdi_hf['fitted_prop']), len(tp_cdi_lf['fitted_prop']))
+
+#for agu
+g_agu_lf_hf=hedges_g(agu_cdi_hf['fitted_prop'].mean(),agu_cdi_lf['fitted_prop'].mean(), agu_cdi_hf['fitted_prop'].std(), agu_cdi_lf['fitted_prop'].std(), len(tp_cdi_hf['fitted_prop']), len(agu_cdi_lf['fitted_prop']))
+
+# size of the mean difference between the predicted proportion and the proportion in CDI for two frequency word groups
+# for TP
 g_tp_prop_hf=hedges_g(tp_cdi_hf['prop'].mean(),tp_cdi_hf['fitted_prop'].mean(), tp_cdi_hf['fitted_prop'].std(), tp_cdi_hf['prop'].std(), len(tp_cdi_hf['fitted_prop']), len(tp_cdi_hf['prop']))
 g_tp_prop_lf=hedges_g(tp_cdi_lf['prop'].mean(),tp_cdi_lf['fitted_prop'].mean(), tp_cdi_lf['fitted_prop'].std(), tp_cdi_lf['prop'].std(), len(tp_cdi_lf['fitted_prop']), len(tp_cdi_lf['prop']))
 
+#for AGu
 g_agu_prop_hf=hedges_g(agu_cdi_hf['prop'].mean(),agu_cdi_hf['fitted_prop'].mean(), agu_cdi_hf['fitted_prop'].std(), agu_cdi_hf['prop'].std(), len(agu_cdi_hf['fitted_prop']), len(agu_cdi_hf['prop']))
 g_agu_prop_lf=hedges_g(agu_cdi_lf['prop'].mean(),agu_cdi_lf['fitted_prop'].mean(), agu_cdi_lf['fitted_prop'].std(), agu_cdi_lf['prop'].std(), len(agu_cdi_lf['fitted_prop']), len(agu_cdi_lf['prop']))
 
-g_tp_lf_hf=hedges_g(tp_cdi_hf['fitted_prop'].mean(),tp_cdi_lf['fitted_prop'].mean(), tp_cdi_hf['fitted_prop'].std(), tp_cdi_lf['fitted_prop'].std(), len(tp_cdi_hf['fitted_prop']), len(tp_cdi_lf['fitted_prop']))
-g_agu_lf_hf=hedges_g(agu_cdi_hf['fitted_prop'].mean(),agu_cdi_lf['fitted_prop'].mean(), agu_cdi_hf['fitted_prop'].std(), agu_cdi_lf['fitted_prop'].std(), len(tp_cdi_hf['fitted_prop']), len(agu_cdi_lf['fitted_prop']))
 
 ## step 3: determine the sample size required to get a significant difference between the two groups of words 
 # predicting proportion of infants understanding a word
