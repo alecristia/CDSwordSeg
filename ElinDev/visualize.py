@@ -58,7 +58,7 @@ def plot_algos_CDI_by_age(path_ortho,path_res, sub=["full_corpus"], algos=["dibs
                 x=x,
                 y=y_fit,
                 mode='line',
-                name='Fit' +name,
+                name='Fitted ' +name,
                 text=df_data['Type'],
                 textposition='top', 
                 visible='legendonly',
@@ -67,27 +67,38 @@ def plot_algos_CDI_by_age(path_ortho,path_res, sub=["full_corpus"], algos=["dibs
                 )
             data.append(trace)
             data.append(trace_fit)
-    annotation = go.Annotation(
-          text='R^2 =' + str(round(r_value**2,2)) +' \\ Y =' + str(round(slope,2)) +'*X + ' + str(round(intercept,2)),
+    annotation_R2 = go.Annotation(
+          text='R^2 =' + str(round(r_value**2,2)),
+          x=1, y=1,
           showarrow=False,
-          font=go.Font(size=16)
+          font=go.Font(size=20)
+          )
+    annotation_fit = go.Annotation(
+          text=' Y =' + str(round(slope,2)) +' X + ' + str(round(intercept,2)),
+          x=1, y=0.9,
+          showarrow=False,
+          font=go.Font(size=20)
           )
     layout= go.Layout(
-    title= 'Proportion of children understanding words at different ages against score of '+ ', '.join(algos) ,
+    title= '',
     hovermode= 'closest',
     xaxis= dict(
-        title= 'log(Score of algos)',
+        title= 'Logarithm of Word frequency counts segmented by' + str(algos),
+        titlefont=dict(size=22),
+        tickfont=dict(size=14),
         #type='log',
         ticklen= 5,
         zeroline= False,
         gridwidth= 2,),
     yaxis=dict(
         domain=[0, 1],
-        title= 'Score of CDI : porportion of babies understanding each word at age '+str(age)+' in Brent corpus',
+        title= 'Proportion of ' + str(age) + '-month-old infants understanding words',
+        titlefont=dict(size=22),
+        tickfont=dict(size=14),
         #type='log',
         ticklen= 5,
         gridwidth= 2,),
-    annotations=[annotation]
+    annotations=[annotation_R2,annotation_fit ]
     )   
     fig=go.Figure(data=data, layout=layout)
     plot=py.iplot(fig, filename=name_vis)
@@ -136,14 +147,18 @@ def plot_by_lexical_classes(path_res, sub, algos,unit, ages, lexical_classes, sa
     title= 'Proportion of children understanding words at different ages against score of '+ ', '.join(algos) ,
     hovermode= 'closest',
     xaxis= dict(
-        title= 'log(Score of algos)',
+        title= 'ln (Segmented Word frequency counts)',
+        titlefont=dict(size=22),
+        tickfont=dict(size=14),
         #type='log',
         ticklen= 5,
         zeroline= False,
         gridwidth= 2,),
     yaxis=dict(
         domain=[0, 1],
-        title= 'Score of CDI : porportion of babies understanding each word at age '+str(age)+' in Brent corpus',
+        title= 'Proportion of babies understanding each word at age '+str(age)+' in Brent corpus',
+        titlefont=dict(size=22),
+        tickfont=dict(size=14),
         #type='log',
         ticklen= 5,
         gridwidth= 2,))   
@@ -162,6 +177,7 @@ def plot_algo_gold_lc(path_res, sub, algos, df_gold, unit, CDI_file="PropUnderst
     df_y_fit=pd.DataFrame(0, columns=lexical_classes, index=algos)
     
     results={}
+    df_data=df_gold
      
     for algo in algos:
         df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
@@ -173,14 +189,14 @@ def plot_algo_gold_lc(path_res, sub, algos, df_gold, unit, CDI_file="PropUnderst
             df_data=df_data[['lexical_classes','Type','Freqgold', 'Freq'+algo]]
             
         else : 
-            df_data=pd.merge(df_gold, df_algo, on=['Type'], how='inner')
+            df_data=pd.merge(df_data, df_algo, on=['Type'], how='inner')
             
         for lc in lexical_classes:
             gb_lc=df_data.groupby(group_by).get_group(lc)
-            #x=np.log(gb_lc['Freqgold'])
-            #y=np.log(gb_lc['Freq'+algo])
-            x=gb_lc['Freqgold']
-            y=gb_lc['Freq'+algo]
+            x=np.log(gb_lc['Freqgold'])
+            y=np.log(gb_lc['Freq'+algo])
+            #x=gb_lc['Freqgold']
+            #y=gb_lc['Freq'+algo]
             trace=go.Scatter(
                 x=x,
                 y=y,
@@ -213,15 +229,19 @@ def plot_algo_gold_lc(path_res, sub, algos, df_gold, unit, CDI_file="PropUnderst
     title= name_vis,
     hovermode= 'closest',
     xaxis= dict(
-        title= 'Occurence of words in gold',
-        type='log',
+        title= 'ln ( Word frequency counts in CDS corpus) ',
+        titlefont=dict(size=22),
+        tickfont=dict(size=14),
+        #type='log',
         ticklen= 5,
         zeroline= False,
         gridwidth= 2,),
     yaxis=dict(
         domain=[0, 1],
-        title= 'Occurence of words in algos',
-        type='log',
+        title= 'ln ( Word frequency counts in algos )',
+        titlefont=dict(size=22),
+        tickfont=dict(size=14),
+        #type='log',
         ticklen= 5,
         gridwidth= 2,))   
     fig=go.Figure(data=data, layout=layout)
@@ -233,6 +253,77 @@ def plot_algo_gold_lc(path_res, sub, algos, df_gold, unit, CDI_file="PropUnderst
     results['df_data']=df_data
     
     return(results)
+
+
+def plot_mean_algos_gold(path_res, sub, algos, df_gold_CDI, unit, group_by="lexical_class", group=['nouns','function_words', 'adjectives', 'verbs'],freq_file="/freq-words.txt", name_vis="plot"):  
+    data=[]
+    mean_gold=[]
+    mean_algo=[]
+    
+    for i in group:
+        
+        df_gold_group=df_gold_CDI.groupby(group_by).get_group(i)
+        gold_algos=[]
+        
+        for u in unit :
+            
+            for algo in algos:   
+                df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,u, freq_file)
+                df_data=pd.merge(df_gold_group, df_algo, on=['Type'], how='inner')
+                print df_data
+                    
+                mean_gold=df_data.mean(axis=0)['Freqgold']
+                mean_algo=df_data.mean(axis=0)['Freq'+algo]
+    
+                x=np.log(mean_gold)
+                y=np.log(mean_algo)
+                trace=go.Scatter(
+                    x=x,
+                    y=y,
+                    mode='markers+text',
+                    name=algo + ' ' + u + ' ' + i  ,
+                    text=algo + ' ' + u + ' ' + i,
+                    textposition='top', 
+                    visible='legendonly',
+                    showlegend=True,
+                    legendgroup= 'group'+ ' ' + u + ' ' + i ,
+                    )
+                data.append(trace)
+                gold_algos.append(np.log(mean_gold))
+            
+            trace_line=go.Scatter(
+                x=np.arange(min(gold_algos), max(gold_algos), 0.01),
+                y=np.arange(min(gold_algos), max(gold_algos), 0.01),
+                mode='line',
+                name='bisector' ,
+                textposition='top', 
+                visible='legendonly',
+                showlegend=False,
+                legendgroup='group' + ' ' + u + ' ' + i ,
+                )
+            data.append(trace_line)
+
+    layout= go.Layout(
+    title= name_vis,
+    hovermode= 'closest',
+    xaxis= dict(
+        title= 'ln (CDS corpus )',
+        titlefont=dict(size=22),
+        tickfont=dict(size=14),
+        #type='log',
+        ticklen= 5,
+        zeroline= False,
+        gridwidth= 2,),
+    yaxis=dict(
+        domain=[0, 1],
+        title= 'ln (  Word frequency counts in algos )',
+        titlefont=dict(size=22),
+        tickfont=dict(size=14),
+        #type='log',
+        ticklen= 5,
+        gridwidth= 2,))   
+    fig=go.Figure(data=data, layout=layout)
+    plot=py.iplot(fig, filename=name_vis)
 
 
 def plot_algo_gold(path_res, sub, algos, df_gold, unit, CDI_file="PropUnderstandCDI.csv", freq_file="/freq-words.txt", name_vis="plot"):  
@@ -259,27 +350,27 @@ def plot_algo_gold(path_res, sub, algos, df_gold, unit, CDI_file="PropUnderstand
         temp_data=pd.merge(df_algo, df, on=['Type'], how='inner')
         all_data=pd.merge(all_data, df_algo, on=['Type'], how='inner')
         
-        x=temp_data['Freqgold']
-        y=temp_data['Freq'+algo]
+        x=np.log(temp_data['Freqgold'])
+        y=np.log(temp_data['Freq'+algo])
         
         trace=go.Scatter(
             x=x,
             y=y,
             mode='markers+text',
-            name='algo ' + algo  ,
+            name= algo,
             text=temp_data['Type'],
             textposition='top', 
             visible='legendonly',
             showlegend=True,
             )
         data.append(trace)
-        slope, intercept, r_value, p_value, std_err = stats.linregress(np.log(x),np.log(y))             
+        slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)             
         y_fit=  intercept + slope*x
         trace_fit=go.Scatter(
             x=x,
             y=y_fit,
             mode='line',
-            name='Fit algo ' + algo,
+            name='Fitted'+ algo,
             text=temp_data['Type'],
             textposition='top', 
             visible='legendonly',
@@ -296,18 +387,21 @@ def plot_algo_gold(path_res, sub, algos, df_gold, unit, CDI_file="PropUnderstand
         df_res.iloc[algos.index(algo), list_res.index('std_err')]=std_err
 
     layout= go.Layout(
-    title= name_vis,
     hovermode= 'closest',
     xaxis= dict(
-        title= 'Occurence of words in gold',
-        type='log',
+        title= 'ln (Word frequency counts in CDS corpus) ',
+        titlefont=dict(size=20),
+        tickfont=dict(size=14),
+        #type='log',
         ticklen= 5,
         zeroline= False,
         gridwidth= 2,),
     yaxis=dict(
         domain=[0, 1],
-        title= 'Occurence of words in algos',
-        type='log',
+        title= ' ln( Word frequency counts in ' + str(algos) +')',
+        titlefont=dict(size=20),
+        tickfont=dict(size=14),
+        #type='log',
         ticklen= 5,
         gridwidth= 2,))   
     fig=go.Figure(data=data, layout=layout)
@@ -388,10 +482,14 @@ def plot_bar_R2_algos_unit_by_age(df_R2, df_std_err, ages, algos, unit=['syllabl
               barmode='group',
             xaxis= dict(
                 title= 'Unit of sound representation ',
+                titlefont=dict(size=20),
+                tickfont=dict(size=14),
                         ),
             yaxis=dict(
                 domain=[0, 1],
                 title= 'Coefficient of determination ',
+                titlefont=dict(size=20),
+                tickfont=dict(size=14),
                     ),
             annotations=a
             ) 
@@ -402,17 +500,33 @@ def plot_bar_R2_algos_unit_by_age(df_R2, df_std_err, ages, algos, unit=['syllabl
 def plot_R2_algos_unit_for_one_age(df_R2, df_std_err, algos,age, R2_gold, unit=['syllable', 'phoneme'], name_vis="R2"): 
     data=[]
     R2=df_R2[[age,'unit']]
-    std_err=df_std_err[[age,'unit']]
+    if df_std_err!="" : 
+        std_err=df_std_err[[age,'unit']]
+
     for u in unit :
         x=algos
         y=R2.groupby('unit').get_group(u)[age]
-        err_y=np.array(std_err.groupby('unit').get_group(u)[age])
-        trace=go.Scatter(
+        if df_std_err!="" : 
+            err_y=np.array(std_err.groupby('unit').get_group(u)[age])
+            trace=go.Scatter(
+                    x=x,
+                    y=y,
+                    error_y=dict(
+                        type='data',
+                        array=np.array(err_y),
+                        visible=True 
+                            ),
+                    name= u,
+                    mode="markers",
+                    visible='legendonly',
+                    showlegend=True,
+                    )
+        else : 
+            trace=go.Scatter(
                 x=x,
                 y=y,
                 error_y=dict(
                     type='data',
-                    array=np.array(err_y),
                     visible=True 
                         ),
                 name= u,
@@ -420,15 +534,16 @@ def plot_R2_algos_unit_for_one_age(df_R2, df_std_err, algos,age, R2_gold, unit=[
                 visible='legendonly',
                 showlegend=True,
                 )
-    
+                
         data.append(trace) 
-    trace_gold=go.Scatter(
-            x = x,
-            y= np.repeat(R2_gold, len(x)),
-            mode = "lines",
-            name= 'Gold',
-            )
-    data.append(trace_gold)
+    if R2_gold!="": 
+        trace_gold=go.Scatter(
+                x = x,
+                y= np.repeat(R2_gold, len(x)),
+                mode = "lines",
+                name= 'Gold',
+                )
+        data.append(trace_gold)
     layout= go.Layout(
         title= name_vis ,
         hovermode= 'closest',
@@ -436,18 +551,63 @@ def plot_R2_algos_unit_for_one_age(df_R2, df_std_err, algos,age, R2_gold, unit=[
         legend=dict(font=dict(size=18)),
         xaxis= dict(
             title= 'Word segmentation algorithms',
+            titlefont=dict(size=20),
+            tickfont=dict(size=14),
             ticklen= 5,
             zeroline= False,
             gridwidth= 2,
-            titlefont=dict(size=18),
-            tickfont=dict(size=14)
             ),
         yaxis=dict(
             title= 'R2',
+            titlefont=dict(size=20),
+            tickfont=dict(size=14),
             ticklen= 5,
             gridwidth= 2,
-            titlefont=dict(size=18),
-            tickfont=dict(size=14),
+            )
+        )    
+    fig=go.Figure(data=data, layout=layout)
+    plot=py.iplot(fig, filename=name_vis)
+    
+def plot_F_score_algos_unit(df_f_score, algos, unit=['Syllable', 'Phoneme'],type_fscore='token',  name_vis="f_score"): 
+    data=[]
+    for u in unit :
+        x=algos
+        y=df_f_score.groupby('unit').get_group(u)[type_fscore]
+        trace=go.Scatter(
+            x=x,
+            y=y,
+            name= u,
+            mode="markers",
+             marker= dict(size= 14,
+                    line= dict(width=1),
+                    opacity= 1
+                   ),
+            visible='legendonly',
+            showlegend=True,
+            )
+        data.append(trace) 
+    layout= go.Layout(
+        title= "" ,
+        hovermode= 'closest',
+        titlefont=dict(size=18, ),
+        legend=dict(font=dict(size=18)),
+
+        xaxis= dict(
+            title= 'Word segmentation algorithms',
+            titlefont=dict(size=22),
+            tickfont=dict(size=20),
+            ticklen= 5,
+            zeroline= True,
+            showgrid=True,
+            ),
+        yaxis=dict(
+            title= type_fscore + '  F-score',
+            titlefont=dict(size=22),
+            tickfont=dict(size=20),
+            ticklen= 5,
+            gridwidth= 2,
+            showgrid=False,
+            range=[0, 1]
             )
         )    
     fig=go.Figure(data=data, layout=layout)
@@ -560,8 +720,8 @@ def plot_R2_by_parameter_for_one_age(R2, std_err, algos, unit, name_vis):
             data.append(trace) 
             
     layout= go.Layout(
-        titlefont=dict(size=18, ),
-        legend=dict(font=dict(size=18)),
+        titlefont=dict(size=20, ),
+        legend=dict(font=dict(size=20)),
         xaxis= dict(
             title= 'Word segmentation algorithms',
             zeroline= True,

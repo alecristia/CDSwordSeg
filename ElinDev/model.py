@@ -190,7 +190,7 @@ def R2_by_parameter(path_res, sub, algos,unit, ages, df_type_parameter, which_pa
     
     for age in ages: 
         for algo in algos:
-            df_CDI=read.read_CDI_data_by_age(CDI_file, age, save_file=False)
+            df_CDI=read.read_CDI_data_by_age(CDI_file, age, save_file=False)[['Type', 'prop']]
             CDI_combined=pd.merge(df_CDI, df_type_parameter)
             df_algo=read.create_df_freq_by_algo_all_sub(path_res, sub, algo,unit, freq_file)
             df_data=pd.merge(CDI_combined, df_algo, on=['Type'], how='inner')
