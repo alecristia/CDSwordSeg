@@ -26,5 +26,15 @@ Python code is divided by function purpose :
 
 - visualize.py plot CDI score versus Algos score for different ages and compare to the gold. Histogram and fitted regression is also plotted.
 
-- brent_cds.py compile the different functions of the other python files to the purpose : the analyze of the CDS brent corpus
+- model.py lists the possible linear or logistic regression between the proportion of infants understanding a word —belonging for in CDI and in the lexicon build by the algo — and the lexicon of the algo (the number of occurrences of a word segmented by the algo). It also provide a function that look at the correlation for a certain subset of the lexicon (subset by lexical class, or length of phoneme, etc, )
+
+- visualize.py : plot correlation for linear regression, logistic regression, subset by parameter or not. Plot also the lexicon build the algo against the lexicon in the corpus
+
+- categorize.py : get the lexical class of each token in the corpus studied. Used the part of speech tagger of the python library NLTK
+
+- robustness.py : look at invariance of the f-score across different sub-corpus
+
+These scripts are used for studying the segmentation of a corpus by different algo and and by looking their correlation with the words in CDI (correlation_brent_algo_CDI.py and correlation_bernstein_algo_CDI.py). Thus, scripts are made to look at the characteristics of the brent corpus (brent_cds.py), the bernstein corpus (bernstein_cds.py) and the CDI (CDI.py)
+
+
 
