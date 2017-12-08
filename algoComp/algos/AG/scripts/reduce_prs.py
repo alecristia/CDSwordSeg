@@ -4,7 +4,7 @@ import argparse
 def reduce(list_files, n):
 	"""Discard the n first parses of each files, parses are separated by 1 empty line"""
 	for fid in list_files:
-		print "processing " + fid
+		# print "processing " + fid
 		counter = 0
 		(prefix, suffix) = os.path.splitext(fid)
 		line = 'initial'
