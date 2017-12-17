@@ -28,14 +28,16 @@ do
     version=`basename $input_dir`
 #echo $version
     mkdir -p $output_dir/$version
-    for input_file in $data_dir/$version/gold-*.txt
+    for input_file in $data_dir/$version/gold-1[0-9].txt
+#use gold-1[0-9]*.txt for 100 samples, gold-1[0-9].txt for 10 samples (10-19)
+
     do
     	keyname=`basename $input_file`
 	tag_file=`echo $input_file | sed 's/gold/tags/'`
 	echo "Clusterizing $input_file"
 
     	$segmenter --output-dir $output_dir/$version/$keyname \
-               --algorithms dmcmc AGu AGc3sf \
+               --algorithms TPs \
                --ag-median 5 \
                --clusterize \
                --jobs-basename ${version}-$keyname \
