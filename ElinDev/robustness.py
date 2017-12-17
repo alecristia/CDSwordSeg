@@ -10,10 +10,10 @@ import pandas as pd
 
 
 # stability of f-score on 10 sub-corpus (corpus divided in 10 linearly -same number of utterances in each)
-def search_f_score_file_by_algo(path_res, subs,algo,text_file="/cfgold-res.txt"):
+def search_f_score_file_by_algo(path_res, subs,algo,unit,text_file="/cfgold-res.txt"):
     list_score=[]
     for SS in subs: 
-        path=path_res+"/"+SS+"/"+algo+text_file
+        path=path_res+"/"+SS+"/"+algo+"/"+unit+text_file
         df=pd.read_csv(path,delim_whitespace=True, header=0)
         df['sub']=SS
         list_score.append(df)
