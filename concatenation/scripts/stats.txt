@@ -1,0 +1,7 @@
+/fhgfs/bootphon/scratch/acristia/results/laia//TPs//cfgold.txt 1177 0 2763 1009 671
+/fhgfs/bootphon/scratch/acristia/results/laia//TPs//gold.txt 1177 0 3596 556 250
+../../../processed_corpora/laia//cat_01-gold.txt 417 0 1498 303 146 2.55927
+../../../processed_corpora/laia//cat_02-gold.txt 134 0 363 138 76 2.57948
+../../../processed_corpora/laia//cat_03-gold.txt 118 0 329 125 61 2.50112
+../../../processed_corpora/laia//cat_04-gold.txt 60 0 250 85 39 2.49032
+../../../processed_corpora/laia//cat_05-gold.txt 448 0 1156 194 70 2.31592
