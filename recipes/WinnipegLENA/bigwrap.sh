@@ -9,10 +9,10 @@ PROCESSED_FOLDER="/scratch1/users/acristia/processed_corpora/WinnipegLENA"
 RES_FOLDER="/scratch1/users/acristia/results/WinnipegLENA"
 
 #if using dmcmc
-#module load boost
+module load boost
 
 #if using an AG
-#module load python-anaconda
+module load python-anaconda
 
 #if phonologizing
 #module load festival
