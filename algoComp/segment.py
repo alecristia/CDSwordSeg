@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 """Script for analyzing a single file in the algoComp2015.1.0 project
 
 Replaces the former segment_one_corpus.sh script. Run the file with

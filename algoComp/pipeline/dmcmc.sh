@@ -11,7 +11,7 @@ RESFOLDER=$2
 ALGO="dmcmc"
 
 # prefix of the tools for syllable <-> unicode convertion
-CONVERTER="python $ABSPATH/algos/phillips-pearl2014/syllable-conversion"
+CONVERTER="python2 $ABSPATH/algos/phillips-pearl2014/syllable-conversion"
 
 # cross evaluation executable
 CROSSEVAL=$ABSPATH/crossevaluation.py

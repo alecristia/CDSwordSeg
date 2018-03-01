@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 #
 # This is a little trick to deals with a bug in the dpseg program.
 #
