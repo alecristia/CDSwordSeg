@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 """Convert a list of unicode chars to syllables
 
@@ -46,15 +46,12 @@ def main():
 
     # load the syllables/unicode converter
     c = Converter(args.dictionary)
+    c._dict[' '] = ' '
 
     with codecs.open(args.output, 'w', encoding='utf-8') as out:
         # convert each syllable of each line
         for line in read_lines(args.input):
-            for syl in line.replace(' ', ''):
-                if not syl == '':
-                    out.write(c.convert(syl) + ' ')
-            out.write('\n')
-
+            out.write(''.join(c.convert(syl) for syl in line) + '\n')
 
 if __name__ == '__main__':
     main()
