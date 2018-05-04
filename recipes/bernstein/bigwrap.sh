@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # Wrapper to run Bernstein experiments 201612
-# 2016-12-30
+# 2018-04-01
 
 
 RAW_FOLDER="/scratch1/users/acristia/data/Bernstein/"
@@ -18,10 +18,8 @@ RES_FOLDER="/scratch1/users/acristia/results/Bernstein/"
 #./3_length_match.sh $PROCESSED_FOLDER  || exit 1
 
 # Analyze
-./4_analyze.sh $PROCESSED_FOLDER $RES_FOLDER
+#./4_analyze.sh $PROCESSED_FOLDER $RES_FOLDER
 
 
-#rm $RES_FOLDER/results.txt
-#rm $RES_FOLDER/*/results.txt
-# ./5_collapse_results.sh $RES_FOLDER
+./5_collapse_results.sh $RES_FOLDER
 

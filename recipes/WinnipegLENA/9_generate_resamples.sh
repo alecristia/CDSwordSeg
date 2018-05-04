@@ -3,7 +3,7 @@
 # Alex Cristia alecristia@gmail.com 2017-11-03
 
 ###### Variables #######
-nsamples=100
+nsamples=10
 mlength=1000
 
 # Adapt the following variables, being careful to provide absolute paths

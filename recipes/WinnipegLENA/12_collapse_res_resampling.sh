@@ -13,13 +13,16 @@ data_dir=$1
 #data_dir=${1:-./results}
 
 
-header="version segmentation matching sample algo \
-        token_f-score token_precision token_recall \
-        boundary_f-score boundary_precision boundary_recall"
+header="version segmentation matching resample algo \
+        token_precision token_recall token_fscore \
+        type_precision type_recall type_fscore \
+        boundary_precision boundary_recall boundary_fscore"
 header=`echo $header | tr -s ' ' | tr ' ' '\t'`
 echo $header > $data_dir/results.txt
 
-for input_dir in $data_dir/WL_*
+echo Inspecting $data_dir
+
+for input_dir in $data_dir/WL_*/
 do
     corpus=`basename $input_dir | sed 's/WL_//'`
     version=`echo $corpus | cut -d'_' -f 1`
@@ -37,25 +40,22 @@ do
     # Populate the cfgold.txt file for each version
     echo $header > $input_dir/results.txt
 
-    for algo in `find $input_dir -name '*cfgold-res.txt' | sort`
+    for algo in $input_dir/*/performance*.txt
     do
-#echo $algo
         # bring together the results
-        sample=`echo $algo | awk -F/ '{print $(NF-2)}'`
-#echo $sample
-        algo_dir=`dirname $algo`
-        algo_name=`basename $algo_dir | sed 's/3sf/3/'`
+        resample=`echo $algo | sed 's/.*tag//' `
+        algo_dir=`echo $algo | sed 's/.*performance.//' | sed 's/.txt//'`
+        algo_name=`echo $algo_dir | sed 's/3sf/3/'` #fix for AG3sf
 
-        line=`grep '[0-9]' $algo`
-        echo $version $segmentation $matching $sample $algo_name $line  |
+        line=`cat $algo | awk '{print $2}' | tr '\n' ' '`
+        echo $version $segmentation $matching $resample $algo_name $line  |
             tr -s ' ' | tr ' ' '\t' >> $input_dir/results.txt
-#wc -l $input_dir/results.txt
     done
 
     sed 1d $input_dir/results.txt >> $data_dir/results.txt
-#wc -l $data_dir/results.txt
     echo
-    echo Writed $data_dir/results.txt
+    echo Wrote $data_dir/results.txt
 done
 
 exit
+

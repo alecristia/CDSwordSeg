@@ -8,14 +8,14 @@ RAW_FOLDER="/scratch1/users/acristia/data/WinnipegLENA/trs"
 PROCESSED_FOLDER="/scratch1/users/acristia/processed_corpora/WinnipegLENA"
 RES_FOLDER="/scratch1/users/acristia/results/WinnipegLENA"
 
-#if using dmcmc
-module load boost
-
-#if using an AG
-module load python-anaconda
 
 #if phonologizing
 #module load festival
+
+#these are just fixes to get the right boost loaded for dpseg/dmcmc
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/cm/shared/apps/boost/1.62.0/stage/lib
+. /etc/profile.d/modules.sh
+module load boost
 
 # Create the trs folder and put Winnipeg trs files in it
 #./0_gettrs.sh $RAW_FOLDER $PROCESSED_FOLDER || exit 1
@@ -33,12 +33,8 @@ module load python-anaconda
 #./4_length_match.sh $PROCESSED_FOLDER  || exit 1
 
 # Analyze
-# ./5_analyze.sh $PROCESSED_FOLDER $RES_FOLDER || exit 1
-
-
-#rm $RES_FOLDER/results.txt
-#rm $RES_FOLDER/WL*/results.txt
-# ./6_collapse_results.sh $RES_FOLDER
+#./5_analyze.sh $PROCESSED_FOLDER $RES_FOLDER || exit 1
+#./6_collapse_results.sh $RES_FOLDER
 
 ####### RESAMPLE FOR CONFIDENCE INTERVALS
 #./7_cha2ortho_files.sh $PROCESSED_FOLDER  || exit 1
@@ -49,5 +45,9 @@ module load python-anaconda
 #./10_generate_gold.sh  $PROCESSED_FOLDER/resamples/ || exit 1
 
 #mkdir -p ${RES_FOLDER}_resamples/
-./11_analyze.sh $PROCESSED_FOLDER/resamples ${RES_FOLDER}_resamples/ || exit 1
+./11_analyze_resamples.sh $PROCESSED_FOLDER/resamples ${RES_FOLDER}_resamples/ || exit 1
 #./12_collapse_res_resampling.sh ${RES_FOLDER}_resamples/
+
+##### STATS
+# ./13_stats.sh $PROCESSED_FOLDER $RES_FOLDER || exit 1
+
