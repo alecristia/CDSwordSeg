@@ -21,5 +21,7 @@ RES_FOLDER="/scratch1/users/acristia/results/Bernstein/"
 #./4_analyze.sh $PROCESSED_FOLDER $RES_FOLDER
 
 
-./5_collapse_results.sh $RES_FOLDER
+#./5_collapse_results.sh $RES_FOLDER
+
+./6_stats.sh $PROCESSED_FOLDER 
 
